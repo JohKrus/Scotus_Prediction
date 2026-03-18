@@ -1,0 +1,29 @@
+[project]
+name = "scotus"
+version = "1.0.0"
+description = "SCOTUS case prediction and syllabus generation pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "PyMuPDF",
+    "langchain>=0.3",
+    "langchain-openai",
+    "langchain-google-genai",
+    "langchain-anthropic",
+    "langchain-community",
+    "faiss-cpu",
+    "sentence-transformers",
+    "rank-bm25",
+    "keyring",
+    "pyyaml",
+    "tqdm",
+    "openai",
+    "google-generativeai",
+]
+
+[tool.setuptools.packages.find]
+include = ["scotus*"]
+
+[project.scripts]
+scotus = "scotus.cli:main"

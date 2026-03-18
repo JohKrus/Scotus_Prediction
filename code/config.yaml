@@ -1,0 +1,28 @@
+terms: [22, 23, 24, 25]
+docket_range: [1, 6000]
+rate_limit_seconds: 1
+
+models:
+  openai: gpt-5.2
+  anthropic: claude-sonnet-4-6
+  google: gemini-2.5-flash
+
+prediction:
+  replicates: 2
+  temperature: 0.3
+  max_tokens: 4096
+
+syllabus:
+  min_words: 2000
+  max_attempts: 3
+  temperature: 0.0
+  max_tokens: 16384
+
+retrieval:
+  chunk_size: 1500
+  chunk_overlap: 300
+  embedding_model: text-embedding-3-large
+  embedding_dimensions: 1536
+  top_k_per_type: 20
+  top_n_reranked: 50
+  cross_encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
