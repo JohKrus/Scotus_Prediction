@@ -1,0 +1,622 @@
+[
+  {
+    "docket": "24-724",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a district court's final judgment as to completely diverse parties must be vacated when an appellate court later determines that the district court erred by dismissing a non-diverse party at the time of removal, thereby potentially destroying subject matter jurisdiction.",
+      "legal_provision": "28 U.S.C. \u00a7 1332 (diversity jurisdiction) and 28 U.S.C. \u00a7 1447 (procedure after removal), which together govern federal subject matter jurisdiction based on complete diversity of citizenship between adverse parties, as well as the interplay between interlocutory orders and final judgments under Federal Rules of Civil Procedure",
+      "petitioner_position": "Petitioners (Hain Celestial Group and Whole Foods Market) argue that the Fifth Circuit erred in vacating the district court's final judgment in their favor, contending that once a final judgment is entered as to completely diverse parties, it should not be disturbed merely because an appellate court later determines the district court incorrectly dismissed a non-diverse party earlier in the litigation; they further argue that the Fifth Circuit's ruling creates perverse incentives for post-judgment vertical forum shopping, allowing plaintiffs to strategically exploit jurisdictional rulings to escape unfavorable federal court outcomes and relitigate cases de novo in state court, which is fundamentally unfair and judicially inefficient",
+      "respondent_position": "Respondents (Sarah Palmquist, individually and as next friend of E.P.) argue that because the dismissal of the sole non-diverse party was an interlocutory ruling that remained subject to revision until it merged into the final judgment, the appellate court's determination that the dismissal was erroneous necessarily undermines the jurisdictional foundation of the entire proceeding; they contend that complete diversity is a jurisdictional prerequisite that must exist throughout the litigation, and that an erroneous dismissal of a non-diverse party cannot retroactively cure a jurisdictional defect, requiring vacatur of the final judgment and remand to state court",
+      "key_precedents": [
+        "Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996) - addressing whether jurisdictional defects at removal require vacatur of final judgments",
+        "Grupo Dataflux v. Atlas Global Group, L.P., 541 U.S. 567 (2004) - addressing the time-of-filing rule for diversity jurisdiction",
+        "Newman-Green, Inc. v. Alfonzo-Larrain, 490 U.S. 826 (1989) - addressing dismissal of dispensable non-diverse parties to cure jurisdictional defects",
+        "Ruhrgas AG v. Marathon Oil Co., 526 U.S. 574 (1999) - addressing subject matter jurisdiction requirements in removed cases",
+        "DiCenzo v. A-Best Products Co., 897 N.E.2d 132 (Ohio 2008) - cited regarding evolution of products liability law",
+        "Thermtron Products, Inc. v. Hermansdorfer, 423 U.S. 336 (1976) - addressing remand orders in removed cases",
+        "28 U.S.C. \u00a7 1447(c) - statutory remand provision for lack of subject matter jurisdiction"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge: that the dismissal of the non-diverse party was erroneous, meaning diversity was never genuinely established and the jurisdictional defect persisted through final judgment. This is a meaningful distinction from Caterpillar, where the cure was legitimate. However, I find it ultimately unpersuasive for the following reason: the question of whether the district court erred in dismissing the non-diverse party is analytically separate from whether, at the time of final judgment, complete diversity existed among the parties actually before the court. Justice Barrett correctly identifies this as conflating two distinct inquiries. The narrow holding I would craft \u2014 consistent with my minimalist approach \u2014 is that where complete diversity indisputably exists among the parties at the time of final judgment, an appellate court's subsequent determination that an earlier interlocutory dismissal was erroneous does not automatically require vacatur, particularly where Caterpillar's 'overwhelming' finality considerations apply and where vacatur would create the precise forum-manipulation incentives that undermine institutional legitimacy. I would leave for another day the question of whether bad faith or collusion in procuring the non-diverse party's dismissal might warrant a different result.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's argument that an erroneous dismissal cannot constitute a genuine 'cure' and that the non-diverse party therefore remained constructively present throughout remains the most serious challenge to my position, and I take it seriously as an originalist who believes Article III's jurisdictional limits are structural constraints, not procedural formalities. However, I find it ultimately unpersuasive because it conflates two analytically distinct questions: whether the district court erred in dismissing the non-diverse party, and whether the court possessed jurisdiction over the parties who actually litigated to final judgment. Justice Jackson's framing that 'you cannot sever the error from its jurisdictional consequence' proves too much \u2014 it would mean that any interlocutory error touching party composition creates a permanent, irremediable jurisdictional defect that can be weaponized post-judgment, which is precisely the forum-manipulation incentive that Caterpillar's framework was designed to prevent and which the structural integrity of the federal judiciary requires us to guard against. Justice Sotomayor's invocation of Caterpillar's own language about uncured jurisdictional defects is the strongest textual hook for the respondents, but the proper reading of that language is that a defect remains 'uncured' when a non-diverse party is still present at judgment \u2014 not when a party was removed by court order, however erroneously, leaving genuinely diverse parties to litigate the merits to conclusion.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 that the non-diverse party's dismissal was erroneous and therefore never constituted a genuine cure, meaning the jurisdictional defect persisted through final judgment. This is a powerful argument, but I find it ultimately unpersuasive for the following reason: Caterpillar's framework does not ask whether the dismissal of the non-diverse party was correct on the merits, but rather whether complete diversity existed among the parties who actually litigated to final judgment. The Fifth Circuit's approach conflates the question of whether the district court erred in dismissing the non-diverse party with the separate question of whether the court had jurisdiction over the remaining diverse parties at the time of final judgment \u2014 and as Justice Barrett correctly notes, these are distinct inquiries. Furthermore, Justice Jackson's reliance on Grupo Dataflux actually cuts against the respondents here, because that case reaffirmed that the time-of-filing rule is the baseline but acknowledged equitable exceptions when the jurisdictional landscape changes through court action, and the practical consequence of the respondents' rule would be to transform every interlocutory dismissal into a perpetual jurisdictional vulnerability that rewards strategic post-judgment forum shopping \u2014 precisely the perverse incentive Caterpillar warned against.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett's argument that the merits question of whether the dismissal was erroneous is analytically distinct from the jurisdictional question of whether diversity existed at final judgment is the most sophisticated challenge to my position, and I have genuinely wrestled with it \u2014 but I find it ultimately circular and self-defeating. If the dismissal was erroneous, then as a matter of law the non-diverse party remained a party throughout; the court's mistaken order cannot retroactively transform a non-party into a party or a party into a non-party for jurisdictional purposes, because subject matter jurisdiction is determined by legal reality, not by the court's own characterization of who stands before it. Justice Kagan's pragmatic concern about 'perpetual jurisdictional time bombs' is real, but the answer cannot be that federal courts may bootstrap jurisdiction through their own errors \u2014 that principle, once accepted, has no limiting principle and directly contradicts the foundational rule that parties cannot confer subject matter jurisdiction by consent, waiver, or mistake. Justice Jackson correctly identifies that Caterpillar's own language \u2014 'if a jurisdictional defect remains uncured, the judgment must be vacated' \u2014 is dispositive here, because an erroneous dismissal is not a cure in any legally cognizable sense; it is the court manufacturing the appearance of jurisdiction while the underlying defect persists, and the structural integrity of Article III demands we not reward that error with finality.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's argument that an erroneous dismissal cannot constitute a 'cure' in any legally meaningful sense remains the most serious challenge to my position, and I want to engage it directly rather than dismiss it. The argument has genuine force: if the dismissal was wrong, the non-diverse party should have remained, and the court was exercising jurisdiction it never properly had. But I think this framing, however logically elegant, proves too much \u2014 it would mean that any interlocutory error touching party composition creates a permanent, irremediable jurisdictional defect that survives final judgment, which is precisely the 'perpetual jurisdictional time bomb' that Caterpillar's pragmatic framework was designed to prevent. Justice Sotomayor's invocation of Caterpillar's own language \u2014 'if a jurisdictional defect remains uncured, the judgment must be vacated' \u2014 is the strongest textual hook for the respondents, but I read 'uncured' to refer to the functional state of the litigation at judgment, not to a retroactive assessment of whether every step toward that posture was correctly taken; the parties who litigated to final judgment were completely diverse, and \u00a7 1332's core structural purpose was satisfied as to the actual dispute resolved. The proper remedy for the erroneous interlocutory dismissal is reinstatement of the non-diverse party and remand of claims involving that party \u2014 not vacatur of the entire judgment \u2014 which threads the needle between respecting jurisdictional limits and honoring the finality interests that give federal judgments their institutional weight.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that an erroneous dismissal cannot constitute a 'cure' in any legally meaningful sense remains the most serious challenge to my position, and I want to engage with it directly: her argument proves too much because it assumes the non-diverse party's continued legal presence as a party despite a court order removing them from the litigation, which conflates the question of what the law required with what the court actually adjudicated. As a textualist, I read \u00a7 1332's complete diversity requirement as applying to the parties before the court \u2014 and at the time of final judgment, the parties before the court were indisputably diverse; the non-diverse party had no claims pending, filed no briefs, and participated in no proceedings. Justice Sotomayor's invocation of Caterpillar's caveat about uncured defects is textually serious, but 'uncured' must mean something about the actual jurisdictional posture at judgment, not a retroactive reconstruction of party composition based on appellate error review \u2014 otherwise every interlocutory dismissal becomes a perpetual jurisdictional vulnerability that Justice Kagan correctly identifies as a 'time bomb' incompatible with finality principles Newman-Green recognizes. The proper remedy for the erroneous dismissal is reinstatement of that party and remand of claims involving them, not vacatur of the entire judgment rendered over parties who were genuinely diverse.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge to my position \u2014 that the erroneous dismissal of the non-diverse party means complete diversity was never genuinely achieved, distinguishing this case from Caterpillar where the cure was legitimate. But I find this argument ultimately unpersuasive for a critical reason: it conflates the merits of the interlocutory dismissal ruling with the jurisdictional question of whether the court had power over the parties who actually litigated to final judgment. As Justice Barrett correctly identifies, these are two distinct inquiries \u2014 the district court may have erred in dismissing the non-diverse party, but that error does not retroactively destroy diversity jurisdiction over the remaining parties who were, in fact, completely diverse throughout the merits proceedings. Caterpillar's 'overwhelming' finality considerations apply with full force here, and Justice Jackson's reliance on Grupo Dataflux is distinguishable because that case involved a party whose citizenship changed, not a situation where a party was removed from the litigation entirely, leaving genuinely diverse parties to litigate to judgment. The perverse incentive problem is real and institutional \u2014 accepting Respondents' position would mean that any plaintiff dissatisfied with a federal judgment could scour the record for any erroneous interlocutory dismissal of a non-diverse party and use it as a post-judgment escape hatch, which is precisely the forum manipulation that undermines the Court's legitimacy.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "Justice Jackson's argument that an erroneous dismissal cannot constitute a 'cure' and that the non-diverse party therefore 'remained a party' throughout is the strongest challenge to my position, and I want to engage it with full seriousness. But I think it proves too much: if we accept that an erroneous dismissal leaves the non-diverse party legally present as a party throughout the proceedings, we are saying the district court simultaneously had and lacked jurisdiction over the same party \u2014 a logical impossibility that the law of judgments cannot sustain. The more coherent framework, as I articulated in round one, is that the erroneous dismissal order had legal effect as an order of the court, removing the non-diverse party from the litigation, and the question of whether that order was correct on the merits is analytically distinct from whether the court had jurisdiction over the parties who actually appeared, briefed, and tried the case to final judgment. Justice Sotomayor's concern that this allows courts to 'bootstrap' jurisdiction through error is real, but the proper structural response is the one Chief Justice Roberts identifies \u2014 a narrow holding that leaves open the bad-faith and collusion question \u2014 rather than a rule that transforms every erroneous interlocutory dismissal into a permanent jurisdictional nullity capable of unwinding years of federal litigation at the losing party's election.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Barrett's argument that the merits question of whether the dismissal was erroneous is 'analytically distinct' from the jurisdictional question of whether diversity existed at final judgment is the most sophisticated challenge to my position, but I remain unpersuaded because it treats the erroneous dismissal as a jurisdictional fact-on-the-ground rather than what it legally was: a nullity. If the appellate court determined the dismissal was error, then as a matter of law the non-diverse party was never properly removed from the litigation \u2014 the court's order was void of legal effect in the sense that it did not accomplish what it purported to accomplish, and diversity was therefore never achieved. Justice Kagan's pragmatic concern about 'perpetual jurisdictional time bombs' has real force, but it proves too much: the remedy she proposes \u2014 reinstatement of the non-diverse party and remand \u2014 actually vindicates my position, because it acknowledges the judgment as to the non-diverse party's claims cannot stand, and in a case where those claims are inextricably intertwined with the judgment rendered, partial vacatur is not a coherent remedy. The seven-justice majority's position ultimately requires us to say that a federal court can manufacture its own jurisdiction through erroneous rulings and then insulate that jurisdiction from correction through finality principles \u2014 a proposition that has no limiting principle and that directly contradicts the foundational rule that subject matter jurisdiction cannot be created by judicial error, consent, or waiver.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), directly controls the outcome here: once a final judgment has been entered as to parties who are completely diverse at the time of that judgment, considerations of 'finality, efficiency, and economy become overwhelming,' and vacatur would impose an 'exorbitant cost on our dual court system.' The Fifth Circuit's approach effectively treats an interlocutory dismissal of a non-diverse party as a permanent jurisdictional wound that cannot be healed even when complete diversity exists at the time of final judgment, but Caterpillar's logic cuts the other way \u2014 the relevant jurisdictional inquiry focuses on whether diversity requirements are satisfied when judgment is entered, not solely at the moment of removal. Furthermore, permitting vacatur under these circumstances would create precisely the perverse incentive for post-judgment forum manipulation that principles of institutional legitimacy and judicial economy counsel against, allowing plaintiffs to strategically exploit appellate review of interlocutory rulings to escape unfavorable federal judgments and relitigate in state court. Consistent with my preference for narrow rulings, I would hold only that where complete diversity exists among the parties at the time of final judgment, an appellate court's subsequent determination that an earlier dismissal of a non-diverse party was erroneous does not require vacatur of that judgment.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As an originalist and textualist, I begin with the statutory text of 28 U.S.C. \u00a7 1332 and \u00a7 1447, which must be read in light of their original public meaning. The critical distinction here is whether the jurisdictional defect was 'cured' before final judgment \u2014 and under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), once a diversity case has been fully litigated to final judgment with completely diverse parties actually before the court at that stage, considerations of finality become 'overwhelming,' and vacatur is not automatically required. The Fifth Circuit's mechanical application of the vacatur rule ignores Caterpillar's pragmatic recognition that an initial misjudgment need not 'burden and run with the case' when, at the time of final judgment, complete diversity in fact exists between the actual adverse parties \u2014 the non-diverse party having been dismissed, however erroneously, left the remaining parties completely diverse. Furthermore, the respondents' position would create perverse incentives fundamentally at odds with the structural integrity of the federal judicial system, effectively rewarding strategic post-judgment forum shopping in a manner that neither the text of \u00a7 1447 nor sound constitutional principles of limited federal jurisdiction were designed to facilitate.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), this Court has already recognized that 'considerations of finality, efficiency, and economy become overwhelming' once a diversity case has been fully tried in federal court, and that a final judgment need not be vacated merely because a jurisdictional defect existed at an earlier stage of the litigation, provided complete diversity existed at the time of final judgment. Here, the district court entered final judgment as to completely diverse parties, and the Fifth Circuit's vacatur creates precisely the perverse incentive Caterpillar warned against \u2014 allowing plaintiffs to exploit interlocutory jurisdictional rulings as a post-judgment escape hatch to relitigate unfavorable outcomes in state court. The text of 28 U.S.C. \u00a7 1447(c) itself limits mandatory remand to situations arising 'before final judgment,' which textually supports the conclusion that post-judgment vacatur is not required when complete diversity existed at the time of the final adjudication. Newman-Green further reinforces that courts have equitable tools to preserve judgments involving completely diverse parties even when non-diverse parties were improperly present at earlier stages, and the Fifth Circuit's rigid approach undermines both judicial economy and the legitimate reliance interests of parties who prevailed after a full federal trial.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As Justice Sotomayor, I am persuaded that subject matter jurisdiction is a foundational prerequisite that cannot be waived or constructively cured by an erroneous interlocutory dismissal of a non-diverse party. Unlike Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), where the jurisdictional defect was voluntarily cured by the parties before final judgment, here the non-diverse party's dismissal was an erroneous interlocutory ruling that remained subject to revision and never constituted a genuine cure \u2014 meaning the jurisdictional defect persisted through the final judgment. The Court in Caterpillar itself acknowledged that 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated,' and because the appellate court determined the dismissal was error, the diversity that appeared to exist at judgment was illusory, not genuine. While I am deeply sensitive to the finality and judicial economy concerns raised by petitioners, and recognize the real hardship imposed on defendants who litigated in good faith, permitting federal courts to retain jurisdiction premised on their own erroneous rulings would undermine the structural limits on federal power that protect all litigants, including vulnerable plaintiffs like the Palmquists who deserve access to a court with proper authority to hear their claims.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The pragmatic logic of Caterpillar Inc. v. Lewis compels the conclusion that a final judgment entered as to completely diverse parties should not be vacated merely because an appellate court later determines the district court erred in dismissing a non-diverse party earlier in the litigation. In Caterpillar, this Court recognized that 'once a diversity case has been tried in federal court, considerations of finality, efficiency, and economy become overwhelming,' and that a jurisdictional 'misjudgment' does not 'burden and run with the case' indefinitely. The textual structure of 28 U.S.C. \u00a7 1447(c) supports remand for jurisdictional defects, but that provision must be read in light of the practical reality that at the moment of final judgment, complete diversity indisputably existed between the remaining adverse parties, satisfying \u00a7 1332's core requirement. Allowing vacatur under these circumstances would create precisely the perverse incentive the Caterpillar Court sought to avoid \u2014 rewarding strategic post-judgment forum shopping and rendering federal court victories perpetually contingent on the correctness of every interlocutory dismissal order, undermining the workability of the entire removal framework.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The plain text of 28 U.S.C. \u00a7 1332 requires complete diversity, but Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), establishes that a jurisdictional defect does not automatically require vacatur of a final judgment when, at the end of the day, the parties before the court are completely diverse\u2014and here, the non-diverse party was dismissed before trial, leaving only diverse parties to litigate to final judgment. The critical textual and structural question is whether the erroneous dismissal of a non-diverse party, which left complete diversity intact throughout the actual merits litigation, constitutes a 'remaining' jurisdictional defect within the meaning of Caterpillar's own framework, or whether it is more analogous to the cured defect the Court declined to remedy there; the functional reality is that complete diversity existed between the parties who actually litigated, which is what \u00a7 1332 requires. Respondents' position would transform every interlocutory dismissal ruling into a perpetual jurisdictional time bomb, allowing plaintiffs to strategically withhold jurisdictional challenges until after an unfavorable final judgment\u2014a result inconsistent with the finality principles the Court recognized in Newman-Green and Caterpillar, and one that would undermine the separation of powers by incentivizing manipulation of federal court jurisdiction. The rule of lenity and concerns about judicial economy counsel against reading the jurisdictional statutes to require vacatur where the parties who obtained final judgment were, in fact, completely diverse throughout the merits proceedings.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), this Court has already established that considerations of finality, efficiency, and economy become 'overwhelming' once a diversity case has been tried in federal court, and that an initial jurisdictional misjudgment does not 'burden and run with the case' so as to require vacatur of a final judgment entered over completely diverse parties. The Fifth Circuit's rule creates a perverse incentive structure that allows plaintiffs to strategically exploit interlocutory jurisdictional rulings as a post-judgment escape hatch from unfavorable federal outcomes, which is precisely the kind of forum manipulation that undermines the institutional integrity of the federal courts and the finality of judgments. From a practical workability standpoint, the Respondents' position would mean that no federal court judgment in a removed diversity case is ever truly final so long as a non-diverse party was dismissed at any point during the litigation, a rule that imposes enormous costs on litigants and the judiciary alike with no corresponding benefit to the underlying jurisdictional values \u00a7 1332 is meant to protect. History and tradition counsel that jurisdictional defects cured before final judgment, where complete diversity actually exists at the time of judgment, should not retroactively unravel proceedings that were substantively sound.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The textual and structural analysis of 28 U.S.C. \u00a7 1332 and \u00a7 1447, read alongside Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), supports preserving the final judgment here. Caterpillar itself recognized that 'once a diversity case has been tried in federal court, considerations of finality, efficiency, and economy become overwhelming,' and critically distinguished between jurisdictional defects that remain 'uncured' at judgment versus those that have been functionally resolved\u2014here, the non-diverse party was dismissed, leaving only completely diverse parties at the time of final judgment, meaning the court rendering judgment did possess diversity jurisdiction over the actual parties before it. The respondents' position conflates two distinct questions: whether the district court erred in dismissing the non-diverse party (a merits question about that interlocutory ruling) and whether the court lacked subject matter jurisdiction over the remaining diverse parties when it entered final judgment (a jurisdictional question), and Grupo Dataflux v. Atlas Global Group, 541 U.S. 567 (2004), confirms that the time-of-filing rule does not mechanically require vacatur when the jurisdictional landscape has changed through court action before final judgment. Furthermore, allowing vacatur under these circumstances would create precisely the perverse incentive for post-judgment forum shopping that undermines the structural integrity of the federal judicial system, a concern that textualist and originalist analysis of Article III's case-or-controversy requirements and the congressional design of \u00a7 1447 counsel against.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The jurisdictional defect here is categorically distinct from Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), because in Caterpillar the non-diverse party was legitimately dismissed before final judgment, whereas here the appellate court determined the dismissal of the non-diverse party was erroneous \u2014 meaning complete diversity never actually existed at any point during the federal proceedings. Under 28 U.S.C. \u00a7 1447(c) and the principles articulated in Grupo Dataflux v. Atlas Global Group, 541 U.S. 567 (2004), subject matter jurisdiction must be grounded in actual facts, not procedural errors that manufactured the appearance of diversity; an erroneous interlocutory dismissal cannot retroactively cure a jurisdictional defect that persisted throughout the litigation. From a procedural fairness standpoint \u2014 which is central to my judicial philosophy \u2014 allowing a final judgment to stand when it rests on a jurisdictional foundation that an appellate court has determined was never valid would reward the removing party's gamble on a flawed removal and deny respondents their right to litigate in a court of competent jurisdiction. While I take seriously the petitioners' concerns about finality and efficiency, those considerations, however weighty after Caterpillar, cannot override the fundamental principle that federal courts are courts of limited jurisdiction and may not exercise power they were never lawfully granted.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.798,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "24-724",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a district court's final judgment as to completely diverse parties must be vacated when an appellate court later determines that the district court erred by dismissing a non-diverse party at the time of removal, thereby potentially destroying subject matter jurisdiction.",
+      "legal_provision": "28 U.S.C. \u00a7 1332 (diversity jurisdiction statute) and 28 U.S.C. \u00a7 1441 (removal jurisdiction), which together govern federal court subject matter jurisdiction based on complete diversity of citizenship between adverse parties",
+      "petitioner_position": "Petitioners (Hain Celestial Group and Whole Foods Market) argue that the district court's final judgment in favor of completely diverse parties should stand even if the appellate court determines the non-diverse party was improperly dismissed at the time of removal, contending that vacating the final judgment encourages post-judgment 'vertical forum shopping' that is fundamentally unfair, particularly where it allows state courts to second-guess federal district courts' case-dispositive assessments of scientific testimony under Daubert, and that judicial efficiency and finality principles counsel against wholesale vacatur and remand for de novo state court adjudication",
+      "respondent_position": "Respondents (Sarah Palmquist, individually and as next friend of E.P., a minor, and Grant Palmquist) argue that the district court's final judgment must be vacated because the erroneous dismissal of the sole non-diverse party was an interlocutory ruling that remained subject to revision until it merged into the final judgment, meaning complete diversity was never properly established, the federal court lacked valid subject matter jurisdiction throughout the proceedings, and the entire case must therefore be remanded to state court for de novo adjudication to protect the plaintiffs' right to a proper forum",
+      "key_precedents": [
+        "DiCenzo v. A-Best Products Co., 897 N.E.2d 132 (Ohio 2008) - cited regarding evolution of products liability law",
+        "Caterpillar Inc. v. Lewis (implied - standard removal/remand jurisdiction case)",
+        "Newman-Green, Inc. v. Alfonzo-Larrain (implied - jurisdictional defect and dismissal of parties)",
+        "Grupo Dataflux v. Atlas Global Group (implied - jurisdiction measured at time of filing/removal)",
+        "Daubert v. Merrell Dow Pharmaceuticals (implied - scientific testimony standards referenced in Atlantic Legal Foundation brief)",
+        "28 U.S.C. \u00a7 1447(c) remand procedures (statutory authority underlying jurisdictional arguments)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's institutionalist concern about post-judgment forum shopping remains the most serious challenge to my position, and I want to engage with it directly: the perverse incentive he identifies is real, but the remedy cannot be to permit federal courts to cure their own jurisdictional errors through the passage of time and the entry of final judgment. Justice Barrett's analysis is dispositive for me \u2014 the critical distinction between Caterpillar's voluntary dismissal scenario and this case is not merely formal but structural. In Caterpillar, an independent act by the parties themselves eliminated the non-diverse party, meaning complete diversity was a genuine jurisdictional fact at judgment; here, the district court's own erroneous ruling is simultaneously the jurisdictional defect and the purported cure, which is precisely the bootstrapping that Article III's limited-jurisdiction principle forbids. As Chief Justice, I am mindful that a narrow holding \u2014 one that distinguishes erroneous interlocutory dismissals from voluntary party-initiated dismissals \u2014 would preserve Caterpillar's pragmatic finality rationale while foreclosing the more dangerous precedent of courts manufacturing their own jurisdiction, and I believe such a holding could attract Justice Kavanaugh if framed carefully around the voluntary/involuntary distinction rather than a categorical rule requiring vacatur in all cases of jurisdictional defect.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Justice Barrett's argument \u2014 echoed by Justices Roberts, Kagan, Gorsuch, Sotomayor, and Jackson \u2014 that Caterpillar's 'cure' language requires a voluntary dismissal rather than an erroneous interlocutory ruling is the most formidable challenge to my position, and I acknowledge its textual force. However, I remain unpersuaded that Caterpillar's language forecloses the petitioners' position, because the majority conflates two distinct questions: whether the district court's dismissal of Whole Foods was correct on the merits of improper joinder, and whether complete diversity existed among the parties actually before the court at the time of final judgment. The improper joinder doctrine is itself a jurisdictional doctrine \u2014 if Whole Foods was improperly joined, its citizenship was legally irrelevant to the diversity calculus from the moment of removal, meaning the 'defect' the majority identifies was never a genuine jurisdictional defect but rather a disputed merits question about joinder propriety. Justice Kagan's argument that Finn 'cuts against' petitioners because jurisdiction 'would not have existed' if Whole Foods was properly joined actually confirms my point: the entire dispute reduces to whether Whole Foods was properly joined, and if it was not, then complete diversity existed throughout, making Caterpillar's vacatur command inapplicable to a defect that was never real.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's textualist argument remains the most formidable challenge to my position, and I acknowledge the force of her distinction between voluntary dismissal and erroneous interlocutory dismissal. However, I continue to find the 'uncured defect' framing question-begging: it assumes the answer by treating the erroneous dismissal as jurisdictionally irrelevant, when the improper joinder doctrine itself holds that an improperly joined party's citizenship is disregarded for diversity purposes \u2014 meaning if Whole Foods was improperly joined, complete diversity existed as a substantive matter from the outset, and the dismissal order merely reflected that pre-existing reality. Justice Kagan's warning that this would allow district courts to 'manufacture' diversity through erroneous dismissals has rhetorical force, but it conflates the standard of review question with the jurisdictional question \u2014 the remedy for an erroneous improper joinder ruling is direct appeal of that ruling, not automatic vacatur of an otherwise valid final judgment entered when the parties before the court were genuinely diverse. I remain persuaded by Justice Thomas's reading of Finn that the functional jurisdictional predicate was satisfied at the time of final judgment, though I acknowledge this is a close question on which reasonable textualists can disagree.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "Justice Kavanaugh's argument that Caterpillar's cure-by-judgment framework applies here because the remaining parties were completely diverse at the time of final judgment is the strongest challenge to my position, but it fundamentally misreads what 'cure' means under Caterpillar. In Caterpillar, the non-diverse party was voluntarily dismissed through settlement \u2014 an act with independent legal significance that genuinely eliminated the party from the litigation before judgment. Here, Whole Foods was dismissed through an erroneous interlocutory ruling that the Fifth Circuit itself found to be improper; that ruling never achieved independent legal finality and merged into the final judgment, meaning the defect was not cured but rather papered over by judicial error. Justice Barrett correctly identifies that Caterpillar's own language \u2014 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated' \u2014 forecloses the petitioners' position, because permitting a district court's own erroneous dismissal to constitute a 'cure' would allow federal courts to bootstrap jurisdiction through their own mistakes, a result that cannot be squared with the foundational principle that federal courts are courts of limited jurisdiction. The Palmquists, a family seeking redress for injuries to a minor child, are entitled to litigate in a court that actually had authority to hear their case, and the concerns about vertical forum shopping \u2014 while real \u2014 cannot override the constitutional and statutory limits on federal subject matter jurisdiction.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's argument that Caterpillar's cure-by-judgment framework applies because the remaining parties were completely diverse at the time of final judgment is the strongest challenge to my position, but it fundamentally misreads what 'cure' means under Caterpillar. In Caterpillar, the non-diverse party was voluntarily dismissed through settlement \u2014 an act by the parties themselves that independently established complete diversity as a genuine jurisdictional fact. Here, Whole Foods' dismissal was an erroneous interlocutory ruling by the district court itself, which means the court was bootstrapping its own jurisdiction through a legal error that the Fifth Circuit correctly identified; that is not a 'cure' but a perpetuation of the defect in different form. Justice Barrett correctly identifies the textual anchor: Caterpillar's own language states that 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated,' and an erroneous dismissal that the appellate court has now determined was wrong cannot constitute a cure \u2014 otherwise district courts could manufacture diversity jurisdiction simply by dismissing non-diverse defendants on flimsy grounds. Justice Thomas's invocation of American Fire & Casualty Co. v. Finn is instructive but ultimately cuts against the petitioners here, because Finn's affirmance rationale presupposes that jurisdiction 'would have' existed in the original posture \u2014 but if Whole Foods was properly joined, federal jurisdiction never would have existed at all, making this case categorically different from Finn's scenario.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's institutionalist argument about post-judgment forum shopping retains real force, and I want to engage it seriously: he is correct that the improper joinder doctrine conceptually treats an improperly joined party's citizenship as a nullity from the outset, which could suggest complete diversity 'really' existed all along. But this argument proves too much under my textualist methodology \u2014 the improper joinder determination was itself the contested interlocutory ruling, and if we permit that erroneous ruling to bootstrap jurisdiction by treating it as a retroactive cure, we have allowed a federal court to manufacture its own subject matter jurisdiction through legal error, which inverts the foundational principle that jurisdiction must be established, not assumed. Justice Barrett's analysis is dispositive for me: Caterpillar's explicit language that 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated' cannot be read to treat the very erroneous dismissal that created the appearance of diversity as itself constituting the 'cure' \u2014 that circular reasoning would swallow the rule entirely. Justice Thomas's invocation of American Fire & Casualty Co. v. Finn is the most serious textualist challenge, but as Justice Kagan correctly notes, Finn's affirmance rationale presupposes jurisdiction 'would have' existed in the original posture, which is precisely what remains contested here if Whole Foods was properly joined.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that an erroneous interlocutory dismissal cannot constitute a 'cure' under Caterpillar because the district court would be bootstrapping its own jurisdiction is genuinely powerful, and I acknowledge the force of the 6-justice coalition's reasoning. However, I remain unpersuaded that the 'cure versus defect' distinction maps cleanly onto this case, because the improper joinder doctrine itself operates on the premise that a fraudulently or improperly joined party's citizenship is a legal nullity for diversity purposes \u2014 meaning if Whole Foods was improperly joined, complete diversity was a substantive reality from the outset, and the dismissal order reflects that underlying truth rather than manufacturing a new jurisdictional fact. Justice Kagan's counter that this reasoning presupposes the correctness of the dismissal is fair, but it proves too much: under her logic, any erroneous ruling touching on a jurisdictional predicate would require vacatur of the final judgment, collapsing the distinction between jurisdictional error and merits error that Caterpillar itself was careful to preserve. My institutionalist concern about creating perverse incentives for post-judgment forum manipulation remains, and while I recognize I am in the minority, I believe the Finn 'posture at time of trial' rationale that Justice Thomas identifies provides a textually grounded basis for affirming the judgment that the majority has not adequately refuted.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas's invocation of American Fire & Casualty Co. v. Finn and the 'posture at time of actual trial' language is the strongest argument from the petitioner's side, but it fails under careful analysis: Finn addressed whether a federal court would have had original jurisdiction over the controversy as it stood at trial, not whether an erroneous interlocutory dismissal of a non-diverse party can retroactively cure a jurisdictional defect that persisted throughout. Justice Kavanaugh's institutionalist concern about post-judgment forum shopping is not without force, but it proves too much \u2014 if we permit district courts to manufacture diversity jurisdiction through erroneous dismissals that are later blessed by finality, we effectively allow federal courts to bootstrap their own subject matter jurisdiction, which is precisely what Article III and the limited-jurisdiction principle forbid. The critical distinction that Caterpillar itself drew \u2014 and which Justices Roberts, Kagan, and Gorsuch correctly emphasize \u2014 is between a defect cured by voluntary dismissal (where diversity genuinely existed at judgment) and a defect that merely appears cured because the district court erroneously dismissed the non-diverse party; in the latter case, the jurisdictional foundation was never properly established and the interlocutory order merged into final judgment without ever achieving independent legal validity. Policy concerns about perverse incentives cannot override the textual and constitutional command that federal courts are courts of limited jurisdiction, and the remedy for an uncured defect under Caterpillar's own terms is vacatur.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Kavanaugh's argument that Caterpillar's 'cure-by-judgment' framework applies because the remaining parties were completely diverse at the time of final judgment is the strongest challenge to my position, but it fundamentally misreads Caterpillar's holding. In Caterpillar, the non-diverse party was voluntarily dismissed through settlement \u2014 an act that independently and legitimately severed that party from the litigation \u2014 whereas here, Whole Foods' dismissal was itself the erroneous jurisdictional ruling under review, meaning the 'cure' and the 'defect' are one and the same act. Justice Barrett correctly identifies the textual anchor: Caterpillar explicitly stated that 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated,' and a defect cannot be 'cured' by the very interlocutory ruling that constituted the jurisdictional error \u2014 that would allow district courts to bootstrap jurisdiction through erroneous dismissals, precisely the outcome Justice Kagan warns against. My background as a public defender reinforces that the Palmquists' right to a proper forum is not a technicality to be traded away for efficiency, particularly when the improper removal was initiated by the petitioners themselves.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The critical distinction from Caterpillar Inc. v. Lewis is dispositive here: in Caterpillar, the jurisdictional defect was actually cured before final judgment through the voluntary dismissal and settlement of the non-diverse party, meaning complete diversity genuinely existed at the time of judgment. Here, by contrast, Whole Foods remained a party whose dismissal was an interlocutory order subject to revision until it merged into the final judgment, meaning the jurisdictional defect was never cured \u2014 the non-diverse party was improperly dismissed, not voluntarily dismissed, and the court lacked valid subject matter jurisdiction throughout. Under 28 U.S.C. \u00a7 1332 and \u00a7 1441, complete diversity must be properly established, and where an appellate court determines the district court erred in dismissing the non-diverse party at the time of removal, the jurisdictional foundation for the entire proceeding is undermined. While I am deeply sympathetic to concerns about judicial efficiency, finality, and the perverse incentives of post-judgment forum shopping, my commitment to institutional legitimacy and the constitutional limits of Article III jurisdiction counsel that we cannot permit federal courts to retain jurisdiction they never properly possessed, as doing so would undermine the structural integrity of the federal judiciary more than vacatur would.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 28 U.S.C. \u00a7 1332 and \u00a7 1441 require complete diversity, but the critical originalist and textualist question is whether jurisdiction must be assessed at the moment of removal or at the time of final judgment. Caterpillar Inc. v. Lewis established that a jurisdictional defect present at removal does not automatically require vacatur of a final judgment when, at the time that judgment was entered, complete diversity in fact existed among the remaining parties \u2014 and American Fire & Casualty Co. v. Finn, 341 U.S. 6 (1951), explicitly endorsed affirming judgments where the federal court 'would have had original jurisdiction of the controversy had it been brought in the federal court in the posture it had at the time of the actual trial.' Grupo Dataflux reaffirmed the time-of-filing rule but did not overrule Caterpillar's pragmatic exception for final judgments where the jurisdictional defect was cured before judgment, and Lexecon itself acknowledged that Caterpillar's finality rationale applies precisely when jurisdiction was satisfied at the time of judgment. Vacating a final judgment here would reward post-judgment forum manipulation, undermine the constitutional values of finality and judicial economy, and extend jurisdictional defect doctrine well beyond what the statutory text or its original public meaning demands.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While I recognize the force of the jurisdictional argument, Caterpillar Inc. v. Lewis counsels that considerations of finality, efficiency, and judicial economy carry significant weight when a final judgment has been entered in favor of completely diverse parties. The critical distinction here is whether the jurisdictional defect was truly 'uncured' \u2014 if complete diversity existed between the actual litigants at the time of final judgment, the practical consequences of wholesale vacatur and remand to state court for de novo adjudication are severe and undermine the finality principles embedded in our federal judicial system. As a textualist, I note that 28 U.S.C. \u00a7 1332 requires complete diversity, but the question of remedy for a defect that may have been cured by the time of judgment is not clearly mandated by the statute's text, leaving room for the equitable considerations Caterpillar recognized. Furthermore, permitting post-judgment 'vertical forum shopping' \u2014 where plaintiffs can strategically use an appellate ruling on improper joinder to escape an adverse federal judgment and seek a second bite at the apple in state court \u2014 creates perverse incentives that Congress could not have intended when enacting the removal statutes.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), the Supreme Court made clear that while finality and judicial economy can justify preserving a judgment where a jurisdictional defect was cured prior to final judgment, those considerations do not extend to cases where the defect remains uncured at the time judgment is entered. Here, unlike in Caterpillar where the non-diverse party was voluntarily dismissed through settlement before judgment, Whole Foods was improperly dismissed by the district court itself at the time of removal, meaning complete diversity was never legitimately established and the jurisdictional defect persisted throughout the proceedings. The Palmquists \u2014 a family seeking redress for injuries to a minor child \u2014 have a fundamental right to litigate in a court with proper subject matter jurisdiction, and permitting a federal court to retain jurisdiction it never lawfully possessed would undermine the constitutional and statutory foundations of 28 U.S.C. \u00a7\u00a7 1332 and 1441. Allowing the judgment to stand would also reward defendants who strategically manipulate removal by mischaracterizing the joinder of non-diverse parties, disproportionately harming vulnerable plaintiffs like injured children who deserve access to a proper forum.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), the Court's pragmatic exception to vacatur applies only when a jurisdictional defect is cured before final judgment \u2014 specifically, when complete diversity actually exists at the time judgment is entered because the non-diverse party has been properly dismissed or dropped. Here, the Fifth Circuit correctly determined that Whole Foods was improperly joined, meaning the dismissal of that non-diverse party was erroneous and the jurisdictional defect was never legitimately cured; it merely persisted in disguised form through an interlocutory ruling that merged into final judgment. The textual command of 28 U.S.C. \u00a7 1332 requires complete diversity as a genuine jurisdictional predicate, not a post-hoc rationalization, and permitting the judgment to stand would effectively allow district courts to manufacture jurisdiction through erroneous dismissals \u2014 a result that undermines both statutory coherence and the integrity of the removal framework under \u00a7 1441. While I am sensitive to finality and judicial economy concerns, those values cannot override the constitutional and statutory limits on federal subject matter jurisdiction when the defect was never properly remedied.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of 28 U.S.C. \u00a7 1332 and \u00a7 1441 requires complete diversity as a jurisdictional prerequisite, and the plain meaning of 'subject matter jurisdiction' is that it must exist throughout the proceedings\u2014not merely at final judgment. Under Grupo Dataflux v. Atlas Global Group, 541 U.S. 567 (2004), the time-of-filing rule is not merely a procedural nicety but a substantive limit on federal judicial power, and Caterpillar's finality exception was expressly cabined to situations where jurisdiction was actually satisfied at the time of judgment. Here, if the non-diverse party was improperly dismissed at removal, complete diversity was never properly established, meaning the federal court lacked the congressional grant of jurisdiction throughout\u2014this is precisely the 'continuing defiance of the congressional condition' that Lexecon distinguished from Caterpillar's narrow exception. Petitioners' efficiency and finality arguments, while not without force, cannot override Congress's explicit jurisdictional conditions, and allowing final judgments to stand on a jurisdictional foundation that never properly existed would effectively permit federal courts to bootstrap their own jurisdiction through erroneous interlocutory rulings.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), the Court recognized that 'once a diversity case has been tried in federal court, considerations of finality, efficiency, and economy become overwhelming,' and declined to vacate a final judgment where complete diversity existed at the time of judgment even though a statutory defect existed at removal. Here, because Whole Foods was dismissed prior to final judgment and the remaining parties were completely diverse at the time judgment was entered, the jurisdictional posture is analogous to Caterpillar's cure-by-judgment framework rather than a case where a jurisdictional defect persisted uncured through final judgment. My institutionalist philosophy counsels strongly against a rule that invites post-judgment forum shopping by allowing plaintiffs to strategically exploit appellate review of interlocutory dismissal rulings to unwind hard-fought federal judgments and obtain de novo state court adjudication, which would severely undermine the Court's legitimacy and the practical workability of the removal statute. While I acknowledge the respondents' serious argument that Whole Foods' dismissal was erroneous and that complete diversity was never properly established at the time of removal under Grupo Dataflux principles, the balance of precedent, judicial economy, and the practical need for finality tips toward preserving the judgment where the parties before the court at final judgment were completely diverse.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "As a textualist and originalist, I must begin with the statutory text: 28 U.S.C. \u00a7 1332 requires complete diversity, and \u00a7 1441 conditions removal on that same requirement. The text admits no exception for finality when a jurisdictional defect remains uncured at the time of final judgment. Caterpillar Inc. v. Lewis, 519 U.S. 61, 76-77 (1996), is controlling and dispositive: the Court explicitly held that while a cured jurisdictional defect need not doom an otherwise valid judgment, 'if, at the end of the day and case, a jurisdictional defect remains uncured, the judgment must be vacated.' Here, unlike in Caterpillar where the non-diverse party was voluntarily dismissed before judgment thereby curing the defect, the district court's erroneous dismissal of the non-diverse party was an interlocutory ruling that never achieved independent legal finality and merged into the final judgment\u2014meaning complete diversity was never properly established and the defect persisted throughout. Petitioners' policy arguments regarding judicial efficiency and concerns about 'vertical forum shopping' are not without force, but they cannot override the constitutional and statutory foundations of subject matter jurisdiction, which are not amenable to equitable balancing when the defect remains uncured; federal courts are courts of limited jurisdiction and that limitation is not a technicality to be set aside for convenience.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Under Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996), the Supreme Court drew a critical distinction between a jurisdictional defect that is cured prior to final judgment\u2014where finality and judicial economy may justify affirmance\u2014and one that persists through judgment, which requires vacatur. Here, unlike in Caterpillar where the non-diverse party was voluntarily dismissed by the plaintiff before trial thereby curing the defect, Whole Foods was improperly dismissed by the district court itself, meaning the jurisdictional defect was never cured and complete diversity was never legitimately established. My background as a public defender reinforces my commitment to ensuring litigants have access to the proper forum, and the Palmquists' right to have their claims heard in state court\u2014the forum to which they are entitled under 28 U.S.C. \u00a7 1441 when removal was improper\u2014cannot be sacrificed on the altar of judicial efficiency when the federal court lacked valid subject matter jurisdiction throughout the proceedings. Permitting the judgment to stand would reward the petitioners' improper removal and allow a federal court to adjudicate a case it never had authority to hear, undermining the foundational principle that federal courts are courts of limited jurisdiction.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.764,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "docket": "23-997",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a former employee has standing to sue their former employer under Title I of the Americans with Disabilities Act (ADA) for alleged discrimination in post-employment benefits after their employment has ended.",
+      "legal_provision": "Title I of the Americans with Disabilities Act of 1990, 42 U.S.C. 12101 et seq., specifically the 'qualified individual' requirement, which defines who is protected under the statute's anti-discrimination provisions in the employment context.",
+      "petitioner_position": "Karyn D. Stanley argues that Title I of the ADA protects former employees from discriminatory post-employment benefits policies, contending that the statute's protections should extend beyond active employment to cover discriminatory acts affecting individuals after their employment has ended, particularly regarding promised retirement and health benefits. Stanley asserts that the Eleventh Circuit's reliance on the outdated Gonzales precedent was erroneous and inconsistent with the Supreme Court's broader interpretation of anti-discrimination statutes, including its ruling in Robinson v. Shell Oil Co.",
+      "respondent_position": "The City of Sanford, Florida argues that Title I of the ADA only protects 'qualified individuals,' which the Eleventh Circuit has interpreted to mean current employees or those actively seeking employment, thereby excluding former employees from bringing claims related to post-employment benefits. The City contends that Stanley, as a former employee no longer performing job functions, does not meet the statutory definition of a 'qualified individual' and therefore lacks standing to bring an ADA Title I discrimination claim regarding post-employment benefits.",
+      "key_precedents": [
+        "Robinson v. Shell Oil Co., 519 U.S. 337 (1997) - Supreme Court held that former employees can sue under Title VII for post-employment retaliatory acts, which petitioner argues should extend to ADA Title I claims",
+        "Gonzales v. [Unknown] - Eleventh Circuit precedent holding that former employees cannot sue under Title I of the ADA for post-employment discrimination, as they are no longer 'qualified individuals'",
+        "Johnson v. K Mart Corp., 273 F.3d 1035 (11th Cir. 2001) - Eleventh Circuit panel decision that briefly overruled Gonzales based on Robinson, holding Title I protects both current and former employees, but was vacated upon en banc review",
+        "Johnson v. K Mart Corp., 281 F.3d 1368 (11th Cir. 2002) (en banc) - En banc vacatur that effectively restored Gonzales as governing Eleventh Circuit precedent after the underlying case was dismissed due to K Mart's bankruptcy",
+        "Americans with Disabilities Act of 1990, 42 U.S.C. 12117(a) - Incorporating enforcement mechanisms from Title VII, 42 U.S.C. 2000e-5(f)(1), relevant to the scope of ADA protections"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's textualist argument remains the most serious challenge \u2014 his point that 'remedies presuppose a right, and the right here is textually conditioned on being a qualified individual' has genuine force that I cannot entirely dismiss. However, after reviewing my colleagues' convergent reasoning, I am persuaded that the structural distinction Justice Gorsuch articulates is sound even on textualist grounds: \u00a7 12111(8) defines the substantive standard for job-performance discrimination claims, while \u00a7 12117(a)'s express incorporation of Title VII's remedial machinery operates at a different structural level and carries Robinson's construction of former-employee coverage as part of that incorporated framework. As Chief Justice, I would assign a narrow majority opinion confined to post-employment benefits earned during the employment relationship \u2014 this avoids a sweeping pronouncement about all former-employee ADA claims, preserves the 'holds or desires' language's meaningful work in active-employment contexts, and should be capable of attracting even textualist-leaning colleagues by grounding the holding in \u00a7 12117(a)'s cross-reference rather than in a broad purposivist override of \u00a7 12111(8). Justice Thomas and Justice Alito's dissent will sharpen the textual question for future cases, but the narrow ground I prefer represents the minimalist approach most consistent with institutional legitimacy.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that \u00a7 12117(a)'s incorporation of Title VII's remedial machinery would be rendered 'incoherent' if former employees were excluded is the most sophisticated challenge to my position, and I acknowledge it has genuine structural force \u2014 but it ultimately proves too much. The incoherence argument assumes that Robinson's construction of Title VII's 'employee' definition maps cleanly onto the ADA's materially different definitional architecture, yet Congress chose to define the protected class through 'qualified individual' with the 'holds or desires' functional limitation, which is a deliberate textual choice that \u00a7 12117(a)'s remedial incorporation cannot simply dissolve. Justice Gorsuch's analytical separation between 'merits' and 'standing' is creative, but I remain unpersuaded that this distinction is textually grounded rather than judicially constructed: \u00a7 12112(a) makes the substantive prohibition coextensive with 'qualified individuals,' meaning the definitional limitation is not merely a merits element but the very boundary of the right itself, and remedies cannot exceed the right they serve. I will maintain my position because the majority's reading requires treating \u00a7 12111(8)'s 'holds or desires' language as effectively surplusage in the post-employment context \u2014 precisely the interpretive move textualism forbids \u2014 and a well-reasoned dissent here better serves the integrity of the statutory text than joining a structurally appealing but textually underdetermined majority.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan and Justice Barrett's argument that \u00a7 12111(8) operates at the merits stage rather than as a threshold coverage bar is analytically creative and I acknowledge it has genuine structural force \u2014 but I remain unpersuaded that this distinction is textually sustainable. The problem is that \u00a7 12112(a), the substantive prohibition, protects only 'qualified individuals with a disability,' making 'qualified individual' a definitional prerequisite to the right itself, not merely a merits element within an otherwise established claim; if Stanley does not satisfy that definition, there is no right for \u00a7 12117(a)'s remedial machinery to enforce. Justice Thomas correctly identifies the logical sequence: remedies presuppose a right, and the right under \u00a7 12112(a) is textually conditioned on being a 'qualified individual' as defined in \u00a7 12111(8). While I acknowledge the 7-2 tally and the force of my colleagues' structural arguments, I am not persuaded that the weight of numbers overcomes what I view as a fundamental textual sequencing problem \u2014 the 'holds or desires' language was a deliberate congressional choice that courts cannot recharacterize as merely a merits inquiry without effectively rewriting the statute.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas and Justice Alito raise the strongest opposing argument \u2014 that the 'holds or desires' language in \u00a7 12111(8) creates a categorical temporal bar that distinguishes the ADA from Title VII. But as Justice Kagan correctly identifies, this conflates two distinct analytical steps: the 'qualified individual' definition speaks to the merits of whether someone can perform job functions, not to the threshold question of who may invoke the statute's enforcement machinery. The enforcement provision, \u00a7 12117(a), expressly incorporates Title VII's full 'powers, remedies, and procedures,' and Robinson established that those mechanisms 'necessarily refer to former employees' \u2014 Congress cannot have intended to import Title VII's remedial architecture wholesale while silently excluding the very plaintiffs that architecture was held to protect. Justice Thomas's textualist objection would produce the perverse result that an employer could promise disability-related retirement benefits during employment and then discriminatorily administer them post-separation with complete impunity, a result that cannot be squared with the ADA's declared purpose of providing 'a clear and comprehensive national mandate for the elimination of discrimination against individuals with disabilities' under \u00a7 12101(b)(1).",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's textualist argument \u2014 that 'holds or desires' an employment position categorically excludes former employees \u2014 is the strongest challenge to my position, but it ultimately conflates two distinct analytical steps. The 'qualified individual' definition in \u00a7 12111(8) speaks to whether someone can perform essential job functions, which goes to the merits of a discrimination claim, not to the threshold question of who may invoke the statute's remedial machinery; as Justice Gorsuch correctly observes, \u00a7 12117(a)'s express incorporation of Title VII's full enforcement framework is the operative provision for that threshold question, and Robinson established that this framework 'necessarily refers to former employees.' Justice Alito's surplusage canon argument \u2014 that my reading renders 'holds or desires' meaningless \u2014 actually proves too much: the language still does meaningful work by defining the substantive standard for discrimination claims involving active employment decisions, even if it doesn't categorically bar former employees from suing over post-employment benefits earned during qualifying tenure. The administrative consensus from EEOC and DOJ, combined with the textual incoherence of importing Title VII's remedial machinery wholesale while excluding the very plaintiffs Robinson held that machinery covers, tips the balance decisively toward Stanley.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's argument remains the most serious challenge: if 'qualified individual' is a threshold definitional term cabining \u00a7 12112(a)'s entire protective scope, then \u00a7 12117(a)'s remedial incorporation cannot manufacture a cause of action for someone outside that definition. But I find this argument ultimately unpersuasive for a reason I want to sharpen: the 'qualified individual' definition in \u00a7 12111(8) is functionally calibrated to the job-performance inquiry \u2014 'with or without reasonable accommodation, can perform the essential functions of the employment position' \u2014 which is a merits question about whether an employer's accommodation obligations were triggered, not a categorical temporal gate on who may invoke the statute's remedial machinery. Justice Thomas's reading would require us to conclude that Congress, having deliberately cross-referenced Title VII's full enforcement architecture in \u00a7 12117(a), simultaneously and silently excluded the very plaintiff class Robinson held that architecture covers \u2014 that is not strict textualism but rather reading a limitation into \u00a7 12117(a) that Congress did not write there. Justice Roberts's instinct toward a narrow holding confined to post-employment benefits earned during the employment relationship is sound judicial craft and should command the majority: it respects the 'holds or desires' language by acknowledging it does real definitional work for active-employment discrimination claims while refusing to extend it as a categorical bar against former employees seeking to enforce benefits earned during qualifying tenure.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's textualist argument remains the most serious challenge \u2014 his point that 'qualified individual' is not merely a merits element but a threshold definitional term cabining \u00a7 12112(a)'s entire protective scope is analytically rigorous and cannot be dismissed as mere formalism. However, I find Justice Barrett's structural response ultimately decisive: Congress's wholesale incorporation of Title VII's enforcement machinery in \u00a7 12117(a) cannot coherently be read to simultaneously exclude the very plaintiff class Robinson held that machinery covers, and finding such a silent exclusion would require us to attribute to Congress an anomaly that neither the text nor structure of the statute supports. The two-step analytical distinction \u2014 between the \u00a7 12111(8) merits inquiry into job-function performance and the \u00a7 12117(a) threshold question of who may invoke the remedial framework \u2014 is not merely a clever workaround but reflects the genuine structural difference between a substantive definition and an enforcement provision. I would write narrowly, as Chief Justice Roberts suggests, confining the holding to post-employment benefits earned during the employment relationship, which preserves the 'holds or desires' language's meaningful work in active-employment discrimination contexts while avoiding the perverse result that discriminatory administration of earned benefits escapes ADA coverage entirely.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's argument that 'remedies presuppose a right, and the right here is textually conditioned on being a qualified individual' is the most formidable challenge remaining, but I find it ultimately unpersuasive for the reason Justice Kagan articulates with precision: the 'qualified individual' definition in \u00a7 12111(8) was crafted to address the substantive question of whether someone can perform essential job functions with or without reasonable accommodation \u2014 it is a merits-stage inquiry about the nature of the employment relationship, not a threshold gate on who may invoke the statute's remedial machinery. Justice Thomas's framing would require us to read \u00a7 12112(a)'s protection as coextensive with \u00a7 12111(8)'s functional definition in a way that collapses the analytical distinction between coverage and standing, but \u00a7 12117(a)'s express cross-reference to Title VII's full enforcement framework operates at a structurally distinct level \u2014 it is Congress's own textual warrant for extending the remedial architecture Robinson construed to cover former employees. I am also persuaded by Chief Justice Roberts's instinct toward a narrow holding: confining the ruling to post-employment benefits earned during the employment relationship preserves the 'holds or desires' language's operative force for active employment decisions while avoiding the anomaly that \u00a7 12117(a)'s incorporation of Title VII remedies would be rendered incoherent as applied to the very plaintiff class Robinson identified. The surplusage concern Justice Alito raises is real but manageable \u2014 'holds or desires' retains meaningful work defining the substantive standard for discrimination in active employment contexts even if it does not categorically bar former employees from challenging discriminatory administration of benefits earned during qualifying tenure.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's most refined argument in Round 2 \u2014 that 'remedies presuppose a right, and the right here is textually conditioned on being a qualified individual' \u2014 is the sharpest version of the Respondent's position, but it proves too much: it assumes the conclusion by treating \u00a7 12111(8) as both the definition of the protected class and the exclusive gateway to \u00a7 12112(a)'s protections, when the statute's own cross-referencing architecture in \u00a7 12117(a) operates at a structurally distinct level. As Justice Barrett correctly identifies, accepting Justice Thomas's reading would require us to conclude that Congress deliberately imported Title VII's full remedial machinery \u2014 machinery Robinson held covers former employees \u2014 while simultaneously and silently excluding that very plaintiff class, an anomaly that neither textualism nor structural coherence can sustain. My background as a public defender sharpens my concern about Justice Thomas's 'remedies presuppose a right' formulation: it would allow employers to structure disability-related retirement benefits as post-employment instruments precisely to exploit this gap, leaving the most economically vulnerable disabled retirees without recourse at the moment promised benefits matter most. Chief Justice Roberts's instinct toward a narrow holding confined to post-employment benefits earned during employment is sound as a matter of judicial minimalism and should help consolidate the majority without requiring a broad pronouncement about the full scope of 'qualified individual.'",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The narrow question here turns on statutory interpretation of the ADA's 'qualified individual' definition, and while the textual argument for the City of Sanford has some force, Robinson v. Shell Oil Co. established a persuasive interpretive framework that counsels in favor of extending protections to former employees in analogous anti-discrimination contexts. The ADA expressly incorporates Title VII's enforcement mechanisms under 42 U.S.C. \u00a7 12117(a), and it would be anomalous to hold that former employees enjoy post-employment protections under Title VII but not under a statute that deliberately borrows Title VII's remedial structure. A narrow ruling could resolve this case by focusing specifically on post-employment benefits that were earned during the employment relationship, thereby avoiding a broad pronouncement about the full scope of 'qualified individual' while still vindicating the statute's core anti-discrimination purpose. The institutional legitimacy of the Court is best served by a consistent, coherent interpretation across related anti-discrimination statutes rather than permitting circuit splits to persist on a question this Court's own Robinson decision effectively invited.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The statutory text of 42 U.S.C. \u00a7 12111(8) defines 'qualified individual' as one 'who, with or without reasonable accommodation, can perform the essential functions of the employment position that such individual holds or desires.' Applying strict textualism, this definition is anchored to an employment position one currently holds or desires to hold \u2014 a former retiree like Stanley neither holds nor desires an active employment position, and therefore falls outside the statute's plain textual scope. While Robinson v. Shell Oil Co. extended Title VII protections to former employees, Title VII's text differs materially from Title I of the ADA, which contains this specific limiting definitional term of art; importing Robinson's reasoning across statutory schemes without textual warrant is precisely the kind of judicial overreach I reject. Congress knew how to draft broad post-employment protections and chose instead to cabin Title I's reach through the 'qualified individual' definition, and it is not the Court's role to expand that scope beyond what the text supports.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must begin and end with the statutory text of 42 U.S.C. \u00a7 12111(8), which defines 'qualified individual' as one who 'can perform the essential functions of the employment position that such individual holds or desires.' The plain meaning of 'holds or desires' an employment position strongly implies a present or prospective employment relationship \u2014 a retired former employee neither holds nor desires a position with the former employer. While the petitioner's grammatical argument that the definition only asks 'what can you do' is creative, it strains the natural reading of the text and would effectively read the 'holds or desires' language out of the statute entirely, violating the canon against surplusage. Robinson v. Shell Oil Co. is distinguishable because Title VII's anti-retaliation provision contains broader language and does not include the same 'qualified individual' limiting definition that Congress deliberately chose to include in Title I of the ADA, and I am skeptical of importing Title VII interpretive frameworks wholesale into a statute with materially different definitional architecture.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The ADA's incorporation of Title VII's enforcement mechanisms under 42 U.S.C. \u00a7 12117(a) strongly suggests that Robinson v. Shell Oil Co.'s reasoning should extend to ADA Title I claims \u2014 when Congress grants plaintiffs the full 'powers, remedies, and procedures' of Title VII, it invites parallel interpretive principles, including protection for former employees against post-employment discrimination. Denying former employees standing to challenge discriminatory post-employment benefits \u2014 benefits they earned during their tenure \u2014 would allow employers to freely discriminate against disabled retirees with impunity, directly undermining the ADA's core purpose of eliminating disability-based discrimination in the employment relationship. The practical impact on vulnerable populations is stark: disabled former employees, often among the most economically precarious, would be stripped of recourse precisely when they depend most on promised retirement and health benefits, a result inconsistent with the ADA's broad remedial mandate. While the 'qualified individual' definition presents a textual challenge, Robinson's methodology counsels that statutory ambiguity should be resolved in favor of the interpretation that best serves the anti-discrimination statute's protective purposes, and the temporal scope of 'qualified individual' is not so unambiguously restrictive as to foreclose coverage of post-employment benefit claims arising from the employment relationship.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The textual and structural analysis here strongly favors Stanley. The ADA's enforcement provision, 42 U.S.C. \u00a7 12117(a), expressly incorporates Title VII's 'powers, remedies, and procedures,' and Robinson v. Shell Oil Co. established that this same Title VII framework covers former employees \u2014 it would be textually incoherent to import Title VII's remedial machinery wholesale while simultaneously excluding the class of plaintiffs Title VII was held to protect. The 'qualified individual' definition's focus on job function speaks to the merits of a discrimination claim, not to threshold standing or coverage, and reading it as a categorical temporal bar on former employees conflates two distinct analytical steps in ways that produce unworkable results \u2014 an employer could promise disability-related retirement benefits during employment, then discriminate in their administration the day after separation with complete impunity. The statutory purpose of providing a 'clear and comprehensive national mandate for the elimination of discrimination against individuals with disabilities,' 42 U.S.C. \u00a7 12101(b)(1), combined with the EEOC and DOJ's consistent administrative interpretation that post-employment fringe benefits earned during tenure remain covered, tips the contextual balance decisively toward coverage, and I would not lightly disregard that agency consensus.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The plain text of 42 U.S.C. \u00a7 12117(a) expressly incorporates Title VII's full 'powers, remedies, and procedures,' and Robinson v. Shell Oil Co. established that those remedial mechanisms 'necessarily refer to former employees' \u2014 meaning the ADA's enforcement structure itself contemplates former-employee plaintiffs. While the Eleventh Circuit's focus on the 'qualified individual' definition in \u00a7 12111(8) \u2014 requiring one who 'holds or desires' a position \u2014 presents a genuine textual tension, that provision defines who is protected from discrimination in hiring and job performance, not who has standing to enforce the statute's remedial provisions; conflating the two reads a temporal limitation into \u00a7 12117(a) that Congress did not write there. Applying the rule of lenity and the structural canon that remedial provisions should be read consistently across incorporated statutes, the better textual reading is that former employees retain the right to sue for discriminatory post-employment benefits they earned during qualifying employment, even if they no longer 'hold or desire' a position. To hold otherwise would allow employers to discriminate with impunity in administering earned retirement and health benefits the moment an employee separates, a result inconsistent with the statute's text and structure.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The ADA's incorporation of Title VII's enforcement mechanisms under 42 U.S.C. \u00a7 12117(a) is a strong textual anchor for extending Robinson v. Shell Oil Co.'s reasoning to ADA Title I claims. While the Eleventh Circuit correctly identifies that the 'qualified individual' definition in \u00a7 12111(8) contains temporal language absent from Title VII's 'employee' definition, this distinction goes to the merits of the discrimination claim rather than whether a former employee may bring suit at all \u2014 conflating standing with the substantive definition creates a workability problem that would immunize employers from discriminatory post-employment benefit policies they implemented precisely because of disability. The practical consequences of the Eleventh Circuit's rule are difficult to reconcile with the ADA's broad remedial purpose: an employer could lawfully promise retirement health benefits during employment and then discriminatorily strip them post-separation without any Title I recourse, which undermines the statute's integrity. As an institutionalist matter, the Court's unanimous holding in Robinson and Congress's deliberate cross-referencing of Title VII remedies in the ADA counsel strongly toward a consistent interpretive framework across these parallel anti-discrimination statutes.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A careful textualist analysis of 42 U.S.C. \u00a7 12112(a) reveals that the statute prohibits discrimination 'in regard to . . . terms, conditions, and privileges of employment,' language that naturally encompasses post-employment benefits earned during the employment relationship, even if the discriminatory act occurs after separation. While the Eleventh Circuit's reading of \u00a7 12111(8)'s 'holds or desires' language has surface plausibility, it conflates the threshold qualification inquiry\u2014whether one can perform essential job functions\u2014with the broader question of who may bring suit for discrimination in employment-related benefits, a category that logically includes former employees with respect to benefits they accrued. The structural argument is reinforced by \u00a7 12117(a)'s express incorporation of Title VII's enforcement mechanisms, and this Court's unanimous holding in Robinson v. Shell Oil Co., 519 U.S. 337 (1997), which resolved a textually analogous ambiguity by looking to the broader statutory context and purpose, counsels strongly against reading the ADA to afford disability discrimination plaintiffs fewer protections than Title VII plaintiffs without clear textual warrant. Methodological consistency demands that the same contextual and structural analysis applied in Robinson govern here, and nothing in the ADA's text compels the anomalous result that a former employee who earned retirement benefits while qualified for her position loses all recourse the moment her employment ends.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The ADA's definition of 'qualified individual' was designed, per the legislative history (H.R. Rep. No. 101-485, pt. 2, at 55), to ensure employees can perform essential job functions \u2014 not to strip former employees of protection against discriminatory post-employment benefit policies that were earned during active employment. Applying Robinson v. Shell Oil Co.'s methodology, the statute's text and broader anti-discrimination purpose counsel against a cramped reading that would allow employers to freely discriminate in promised retirement and health benefits simply because the individual is no longer actively working. Permitting such discrimination would be, as the petitioner's brief notes, 'perverse' \u2014 using a provision meant to protect employers' operational needs as a shield for discriminatory benefit practices. Furthermore, the ADA's incorporation of Title VII enforcement mechanisms under 42 U.S.C. \u00a7 12117(a) strongly suggests Congress intended comparable scope of protection, and the Eleventh Circuit's reliance on the procedurally compromised Gonzales precedent \u2014 effectively restored only because K Mart's bankruptcy mooted the en banc review \u2014 does not constitute a principled statutory interpretation deserving deference.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.771,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "23-997",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a former employee has standing to sue their former employer under Title I of the Americans with Disabilities Act (ADA) for alleged discrimination in post-employment benefits after the employment relationship has ended.",
+      "legal_provision": "Title I of the Americans with Disabilities Act of 1990, 42 U.S.C. 12101 et seq., specifically the 'qualified individual' requirement, which defines who is protected under the statute's employment discrimination provisions.",
+      "petitioner_position": "Karyn D. Stanley argues that Title I of the ADA protects former employees from discriminatory post-employment benefits policies, contending that the statute's protections should extend beyond active employment to cover discriminatory acts affecting individuals after their employment has ended, consistent with the broader remedial purpose of the ADA and analogous interpretations under Title VII.",
+      "respondent_position": "The City of Sanford, Florida argues that Title I of the ADA only protects 'qualified individuals' who are current employees or applicants actively seeking employment, thereby precluding former employees from bringing ADA claims related to post-employment benefits, relying on the Eleventh Circuit's longstanding precedent established in Gonzales v. Garner Food Services.",
+      "key_precedents": [
+        "Gonzales v. Garner Food Services (11th Cir. 1996) - established that former employees could not sue for discriminatory post-employment fringe benefits under Title I of the ADA",
+        "Robinson v. Shell Oil Co., 519 U.S. 337 (1997) - Supreme Court held that former employees could sue under Title VII for post-employment retaliatory acts, expanding protections beyond active employment",
+        "Johnson v. K Mart Corp., 273 F.3d 1035 (11th Cir. 2001) - panel decision that briefly overruled Gonzales based on Robinson, holding Title I protects both current and former employees, but was subsequently vacated en banc",
+        "Johnson v. K Mart Corp., 281 F.3d 1368 (11th Cir. 2002) - en banc vacatur that restored Gonzales as governing Eleventh Circuit precedent after the underlying case settled"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett's surplusage canon argument remains the most formidable challenge, and I want to be direct about why it does not ultimately move me: 'holds or desires' does meaningful definitional work scoping who qualifies for reasonable accommodation during active employment, and that work is not rendered surplusage simply because the phrase does not also serve as a categorical jurisdictional bar against all former-employee claims. Justice Gorsuch's attempt to rescue the reinstatement remedy by suggesting it applies to employees who were wrongfully demoted while still technically employed is creative, but it strains credulity \u2014 reinstatement's most natural and common application is to someone who has been terminated and seeks to return, which is precisely the former-employee scenario. The narrow holding I would assign \u2014 limiting ADA coverage to post-employment benefits actually earned during active employment \u2014 does the least violence to the statutory text while honoring Congress's deliberate cross-reference to Title VII's full remedial machinery in \u00a7 12117(a), and as Justice Kavanaugh correctly notes, it avoids broadly redefining 'qualified individual' across all ADA contexts in ways that could disrupt the accommodation framework. I remain at Petitioner with modestly increased confidence that this narrow ground can hold the five-justice majority together.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's reinstatement argument remains the most creative challenge to my position, but Justice Barrett correctly identifies its fatal flaw: reinstatement as a remedy looks backward to a time when the plaintiff did hold the position \u2014 it is a remedy for a discriminatory termination that occurred while the plaintiff was a 'qualified individual' under \u00a7 12111(8), not evidence that Congress intended former employees to constitute a separate protected class for post-employment benefit claims. Justice Kagan's argument that 'holds or desires' does meaningful work only in the accommodation context \u2014 not as a jurisdictional gate \u2014 requires treating a statutory definition as operative selectively depending on the type of claim, which is precisely the methodological inconsistency that textualism forbids; a statutory definition defines the term throughout the statute unless Congress expressly limits its scope, and Congress did not do so here. Chief Justice Roberts' proposed narrow holding limiting coverage to post-employment benefits earned during active employment is more sympathetic as a policy matter, but it requires courts to engraft a 'benefits earned during employment' exception onto unambiguous present-tense definitional language \u2014 that is judicial legislation, however well-intentioned, and the proper remedy remains congressional action as Congress demonstrated it knows how to write broader temporal coverage when it chooses.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kavanaugh's reinstatement argument \u2014 that \u00a7 12117(a)'s incorporation of reinstatement as a remedy is only coherent as applied to former employees \u2014 is the most serious challenge to my position, but Justice Barrett's response remains persuasive: reinstatement looks backward to a time when the plaintiff did hold the position, meaning the remedy is entirely consistent with 'holds or desires' operating at the moment of the discriminatory act rather than expanding the protected class to encompass all post-employment claims. Chief Justice Roberts' proposed narrow holding \u2014 limiting coverage to post-employment benefits earned during active employment \u2014 is intellectually attractive as a compromise, but it requires treating the 'qualified individual' definition as doing different work in different contexts, which is precisely the selective textualism I find methodologically impermissible; if 'holds or desires' defines the protected class, it defines it uniformly, and carving out a benefits exception requires the kind of purposivist reasoning that substitutes judicial policy preferences for congressional text. The proper remedy for any gap in coverage \u2014 including the sympathetic scenario Justice Sotomayor raises about disabled retirees losing earned benefits \u2014 is congressional action, as Congress has demonstrated it knows how to write broader temporal language when it chooses to do so, and I will not rewrite an unambiguous definitional provision to achieve a result that five colleagues find more equitable.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Thomas and Justice Barrett make the strongest opposing argument \u2014 that the ADA's 'holds or desires' language in \u00a7 12111(8) contains an unambiguous present-tense temporal limitation that distinguishes it from Title VII's more open-ended 'employee' definition in Robinson. But this argument proves too much: the 'qualified individual' definition was crafted to identify who is entitled to reasonable accommodations in the workplace, not to serve as a jurisdictional gate foreclosing all claims by former employees. As Justice Jackson astutely observes, reading that definition to categorically bar former employees from challenging discrimination in post-employment benefits produces an absurd result \u2014 that an employer could lawfully strip a disabled retiree of earned pension or health benefits solely because of disability \u2014 that Congress manifestly did not intend when it enacted sweeping protections and explicitly cross-referenced Title VII's remedial machinery in \u00a7 12117(a). Post-employment benefits are compensation earned during the qualifying employment relationship, and the discriminatory act of denying them traces directly back to that relationship; Robinson's core principle that anti-discrimination statutes protect former employees from discriminatory acts rooted in the employment relationship applies with full force here, and the Eleventh Circuit's hyper-literal reading creates precisely the kind of gaping loophole that leaves the most vulnerable disabled individuals \u2014 retirees dependent on earned benefits for survival \u2014 without any remedy.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Barrett's surplusage canon argument remains the most formidable challenge, but I continue to find it ultimately unpersuasive for the reasons I articulated: 'holds or desires' does real definitional work in the accommodation context \u2014 ensuring that only persons with a genuine employment nexus can demand workplace modifications \u2014 without serving as a categorical jurisdictional gate foreclosing all claims by former employees. Justice Gorsuch's attempt to defuse Justice Jackson's reinstatement point by suggesting reinstatement could apply to constructively discharged employees who technically still 'held' a position is creative, but it strains credulity \u2014 reinstatement as a remedy is paradigmatically understood to restore a former employee to a position they no longer occupy, and reading the ADA's explicit incorporation of that remedy as having no independent operational force treats \u00a7 12117(a) as mere procedural boilerplate rather than a substantive congressional signal. Justice Thomas insists that importing Robinson requires ignoring a deliberate textual distinction, but the distinction he identifies \u2014 present-tense 'holds or desires' versus Title VII's 'employee' \u2014 goes to accommodation eligibility, not to whether discriminatory acts traceable to the employment relationship remain actionable under the ADA's enforcement machinery. I would write narrowly, as Chief Justice Roberts and Justice Kavanaugh suggest, limiting the holding to post-employment benefits earned during active employment, which resolves the circuit split on the most modest available grounds while honoring the structural coherence of \u00a7 12117(a).",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Jackson's reinstatement argument is genuinely clever \u2014 if \u00a7 12117(a) imports reinstatement as a remedy and reinstatement presupposes a former employee, then the definitional architecture cannot categorically exclude former employees from all ADA claims. But I think this argument, while creative, conflates the availability of a remedy with the threshold question of who constitutes a protected person under the statute. Reinstatement could plausibly be available to a current employee who was wrongfully demoted or constructively discharged while still technically employed, so the reinstatement remedy does not necessarily require former-employee coverage to have operational meaning. Justice Barrett's surplusage point remains my anchor: 'holds or desires' does affirmative definitional work establishing a temporal boundary, and the \u00a7 12117(a) cross-reference imports enforcement machinery rather than rewriting the substantive protected class \u2014 Congress knew how to write broader coverage and chose present-tense language, and the proper remedy for any resulting gap is legislative, not judicial expansion of unambiguous definitional text.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's surplusage canon argument remains the most formidable challenge, and I want to be precise about why it does not ultimately control my analysis. She argues that 'holds or desires' must do temporal work as a matter of textual integrity \u2014 and I agree it does temporal work, but that work is scoping the accommodation obligation to active employment relationships, not categorically foreclosing all former-employee claims traceable to the employment relationship. Justice Gorsuch's rejoinder to Justice Jackson's reinstatement point \u2014 that reinstatement could apply to a wrongfully demoted current employee \u2014 is clever but strained, because reinstatement as a remedy in the employment discrimination context is overwhelmingly understood to restore a terminated employee to their former position, and reading it as applicable only to current employees would itself render the remedy largely surplusage. I remain persuaded that the narrowest available holding \u2014 limiting ADA coverage to post-employment benefits actually earned during active employment \u2014 preserves the textual work done by 'holds or desires' in the accommodation context while honoring Congress's deliberate incorporation of Title VII's full remedial machinery, and Chief Justice Roberts' framing of this as a limited holding that does not broadly redefine 'qualified individual' across all ADA contexts is the institutionally responsible path that minimizes collateral disruption while closing the most egregious loophole.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's argument that 'holds or desires' does meaningful work even under the petitioner's reading \u2014 by ensuring accommodation-seekers have a genuine employment nexus \u2014 is the most sophisticated challenge to my surplusage analysis, but it does not fully answer the problem: if 'holds or desires' is operative only in the accommodation context and not as a general definitional boundary, then we are treating a statutory definition as selectively applicable depending on the type of claim, which is precisely the methodological inconsistency Justice Thomas correctly identifies as impermissible textualism. Justice Jackson's reinstatement argument remains the most creative structural challenge, but as I noted in prior rounds, reinstatement can have operational meaning for employees wrongfully terminated while still technically employed \u2014 the remedy looks backward to a time when the plaintiff held the position, which is consistent with the present-tense definition operating at the time of the discriminatory act. Chief Justice Roberts' narrow holding limiting coverage to post-employment benefits earned during active employment is intellectually attractive as a matter of judicial minimalism, but it requires reading a temporal limitation into the definitional provision that the text does not support \u2014 if 'holds or desires' categorically excludes former employees, it excludes them; if it does not, then the broader Robinson principle applies without the artificial limitation the Chief Justice proposes. The proper remedy for any gap in coverage remains congressional action, and I am not persuaded that five colleagues' sympathy for the policy outcome should move me from a textually grounded position.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas and Justice Barrett make the strongest opposing argument \u2014 that the ADA's 'holds or desires' language in \u00a7 12111(8) contains an unambiguous present-tense temporal limitation that distinguishes this case from Robinson v. Shell Oil. But this argument proves too much: the 'qualified individual' definition was crafted to identify who is entitled to reasonable workplace accommodations, not to serve as a jurisdictional gate foreclosing all ADA claims by former employees. Reading it as Barrett suggests would mean that \u00a7 12117(a)'s explicit incorporation of Title VII's 'powers, remedies, and procedures' \u2014 including reinstatement, which by definition applies to former employees \u2014 is rendered largely incoherent, because reinstatement is only meaningful as a remedy for someone who no longer holds a position. Moreover, as Justice Sotomayor correctly emphasizes, post-employment benefits like pensions and health insurance are compensation earned during the qualifying employment relationship, meaning the discriminatory act traces directly back to that relationship; allowing employers to discriminate in those earned benefits with complete impunity because the plaintiff no longer 'holds' a position produces an absurd result that Congress, in enacting sweeping anti-discrimination protections, plainly did not intend.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of the ADA incorporates Title VII's 'powers, remedies, and procedures' through 42 U.S.C. \u00a7 12117(a), which creates a strong textual bridge to Robinson v. Shell Oil Co.'s holding that former employees retain protected status for post-employment discriminatory acts. While I am mindful of the Eleventh Circuit's longstanding Gonzales precedent and the argument that the ADA's 'qualified individual' definition introduces temporal qualifiers absent from Title VII's 'employee' definition, the narrow and institutionally cautious path here is to recognize that Congress's explicit cross-referencing of Title VII remedial mechanisms in \u00a7 12117(a) signals legislative intent to align ADA protections with Title VII's scope as authoritatively construed by this Court in Robinson. A ruling for the petitioner need not broadly redefine 'qualified individual' across all ADA contexts, but can be limited to the specific circumstance of post-employment benefits earned during active employment, thereby resolving the circuit split on the narrowest available grounds while respecting the Court's unanimous precedent in Robinson.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As a strict textualist, I must begin and end with the statutory text. Section 12111(8) defines a 'qualified individual' as one who 'holds or desires' an employment position \u2014 present tense language that plainly contemplates current employees or active applicants, not former employees whose employment relationship has already terminated. While the petitioner argues this definition merely limits the scope of reasonable accommodation rather than standing, that reading strains the text; Congress chose to anchor the entire protected class definition to present-tense employment status, and courts are not free to expand that class beyond what the text supports. Robinson v. Shell Oil is distinguishable because Title VII's text and structure differ materially from the ADA's, and importing Title VII's broader construction into the ADA would require us to ignore Congress's deliberate definitional choices in 42 U.S.C. \u00a7 12111(8) \u2014 a form of judicial rewriting that my originalist and textualist commitments forbid.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Title I of the ADA explicitly limits its protections to a 'qualified individual,' defined as someone who can perform the essential functions of the employment position they hold or desire, which contains unambiguous temporal qualifiers tying protection to active employment status \u2014 a textual distinction that meaningfully differentiates the ADA from Title VII's more open-ended 'employee' definition at issue in Robinson v. Shell Oil Co. Unlike Title VII, where the Court found the term 'employees' ambiguous and thus construed it broadly, the ADA's 'qualified individual' definition is not similarly ambiguous, and a textualist reading compels the conclusion that Congress deliberately cabined the statute's reach to those in an active employment relationship. While Robinson's reasoning about remedial mechanisms has some persuasive force, importing that logic wholesale into the ADA ignores the structural and textual differences Congress chose to embed in the statute. The practical consequence of extending ADA Title I coverage indefinitely to former employees would create open-ended employer liability untethered from the employment relationship Congress specifically defined and limited.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The ADA's remedial purpose and its explicit incorporation of Title VII's 'powers, remedies, and procedures' under 42 U.S.C. \u00a7 12117(a) strongly support extending protections to former employees challenging discriminatory post-employment benefits. Robinson v. Shell Oil Co. established that anti-discrimination statutes should be read to protect former employees where doing so is consistent with the statute's broader remedial purpose, and allowing employers to discriminate in retirement and post-employment benefits with impunity would create a gaping loophole that undermines the ADA's core mission. The Eleventh Circuit's hyper-literal reading of 'qualified individual' as requiring current job-holding status produces an absurd result \u2014 that an employer could lawfully strip a disabled retiree of earned benefits solely because of disability \u2014 that Congress could not have intended when it enacted sweeping protections against disability discrimination. As a practical matter, post-employment benefits like health insurance and pensions are compensation earned during the employment relationship, and permitting discrimination in those benefits harms some of the most vulnerable individuals: disabled retirees who depend on those benefits for their survival.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The ADA's incorporation of Title VII's 'powers, remedies, and procedures' through 42 U.S.C. \u00a7 12117(a) creates a strong textual bridge to Robinson v. Shell Oil Co.'s holding that former employees retain statutory protections for post-employment acts. While the Eleventh Circuit correctly notes that the ADA's 'qualified individual' definition introduces temporal complexity absent from Title VII, the statute's prohibition on discrimination 'in regard to terms, conditions, and privileges of employment' encompasses benefits earned during employment that continue to vest after separation \u2014 the discriminatory act of denying those benefits traces directly back to the employment relationship. A pragmatic reading of the statute's remedial purpose and its deliberate cross-reference to Title VII's enforcement mechanisms counsels against a cramped interpretation that would allow employers to discriminate in post-employment benefits with impunity simply because the plaintiff no longer holds active employment status. The workability concern cuts in Stanley's favor as well: a rule permitting discrimination in retirement or disability benefits negotiated during employment would create perverse incentives and undermine the ADA's core objective of ensuring equal treatment for individuals with disabilities in all aspects of the employment relationship.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain text of 42 U.S.C. \u00a7 12111(8) defines a 'qualified individual' as one who 'holds or desires' an employment position, which carries a present-tense temporal limitation that is meaningfully different from Title VII's use of 'employees' analyzed in Robinson v. Shell Oil. Unlike Robinson, where the Court found 'employees' ambiguous because Title VII's remedial provisions necessarily contemplated former employees through reinstatement remedies, the ADA's 'qualified individual' definition contains an affirmative, present-oriented functional test \u2014 the ability to perform essential job functions \u2014 that is logically inapplicable to someone no longer in or seeking a position. Congress chose this specific limiting language, and as a textualist I am bound to give it effect rather than import Title VII's interpretive framework wholesale onto a statute with materially different definitional architecture. To the extent any ambiguity remains, the rule of lenity and the canon against surplusage counsel against reading 'holds or desires' as temporally open-ended when Congress could have, but did not, use broader language as it did elsewhere.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The textual question here turns on whether the ADA's 'qualified individual' definition, with its present-tense framing, unambiguously forecloses former employees from bringing claims related to post-employment benefits they earned during their tenure. While Robinson v. Shell Oil Co. involved Title VII's ambiguous use of 'employee' without temporal qualifiers, the underlying interpretive principle\u2014that anti-discrimination statutes should be read to cover discriminatory acts affecting individuals whose protected status arose from the employment relationship\u2014carries persuasive weight here. Post-employment benefits like health insurance and pension payments are compensation earned during active employment, and permitting employers to discriminate in their administration based on disability would effectively allow discrimination in the terms of employment itself, undermining the ADA's core remedial purpose. As an institutionalist, I am also mindful that the circuit split creates practical inconsistency in federal law and that Congress's broad remedial intent in enacting the ADA counsels against an unduly cramped reading that would leave a significant class of discriminatory conduct unremedied.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must begin and largely end with the statutory text. Title I of the ADA defines 'qualified individual' as someone who 'can perform the essential functions of the employment position that such individual holds or desires,' 42 U.S.C. \u00a7 12111(8) \u2014 temporal language that is conspicuously absent from Title VII's definition of 'employee' as simply 'an individual employed by an employer.' Robinson v. Shell Oil Co., 519 U.S. 337 (1997), turned precisely on the ambiguity created by Title VII's lack of temporal qualifiers, and this Court unanimously resolved that ambiguity in favor of coverage; but the ADA's 'holds or desires' language is not ambiguous \u2014 it anchors the protected class to present or prospective employment relationships, not past ones. While I acknowledge the force of the petitioner's argument that the ADA's incorporation of Title VII's remedial machinery under 42 U.S.C. \u00a7 12117(a) counsels some structural alignment, that cross-reference imports procedures and remedies, not a redefinition of the substantive class of protected persons that Congress deliberately and specifically circumscribed with present-tense temporal language.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The ADA's incorporation of Title VII's 'powers, remedies, and procedures' through 42 U.S.C. \u00a7 12117(a) strongly suggests that Robinson v. Shell Oil Co.'s holding extending protections to former employees should apply with equal force here. While the Eleventh Circuit's reliance on the 'qualified individual' definition \u2014 requiring someone who 'holds or desires' a position \u2014 has textual appeal, reading that definitional provision to categorically strip former employees of all ADA protections produces an absurd result inconsistent with the statute's broad remedial purpose: an employer could freely discriminate against disabled retirees in post-employment benefits with complete impunity. My background as a public defender reinforces my view that procedural and substantive protections must be construed to prevent employers from exploiting definitional technicalities to insulate discriminatory conduct, and the practical consequence of the Eleventh Circuit's rule \u2014 that disability discrimination in earned retirement benefits goes entirely unremedied \u2014 is precisely the kind of inequitable outcome Congress enacted the ADA to prevent. The 'qualified individual' definition was plainly designed to identify who qualifies for workplace accommodations, not to serve as a jurisdictional gate that forecloses claims by former employees who earned benefits during their qualifying employment.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.764,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  }
+]

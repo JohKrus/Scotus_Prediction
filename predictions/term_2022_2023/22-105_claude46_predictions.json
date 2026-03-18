@@ -1,0 +1,580 @@
+[
+  {
+    "docket": "22-105",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Arbitration Act requires a district court to automatically stay its proceedings while an interlocutory appeal on the question of arbitrability is pending.",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 16, which governs interlocutory appeals in arbitration-related proceedings, along with Article III constitutional mootness doctrine.",
+      "petitioner_position": "Coinbase argues that a mandatory automatic stay of district court proceedings is required under the FAA during an interlocutory appeal of an arbitrability ruling, contending that the Ninth Circuit's rule established in Britton creates a deep and longstanding circuit split on this issue, and that allowing district court proceedings to continue while arbitrability is on appeal undermines the purpose of the FAA and the right to arbitration; Coinbase further argues the Ninth Circuit appeal should be held in abeyance to prevent mootness of the Supreme Court proceedings.",
+      "respondent_position": "Bielski argues that the Supreme Court's decision in Coinbase v. Bielski will not affect the merits or procedural course of the Ninth Circuit appeal, characterizing Coinbase's abeyance motion as a delay tactic that impedes his right to timely adjudication; he further contends that no good cause exists for abeyance because the Supreme Court is reviewing a different issue than those presented in the appellate proceedings, and disputes that the 'capable of repetition yet evading review' mootness exception would apply if the Ninth Circuit ruled first.",
+      "key_precedents": [
+        "Britton v. Co-op Banking Group (Ninth Circuit precedent establishing the rule under review)",
+        "Landis v. N. Am. Co., 299 U.S. 248 (1936) (governing standard for holding proceedings in abeyance)",
+        "Leiva-Perez v. Holder, 640 F.3d 962 (9th Cir. 2010) (stay pending appeal standard, fair prospect of success)",
+        "Index Newspapers LLC v. United States Marshals Serv., 977 F.3d 817 (9th Cir. 2020) (de novo review of stay decisions)",
+        "Davis v. FEC, 554 U.S. 724 (2008) (capable of repetition yet evading review mootness exception)",
+        "Ashwander v. Tennessee Valley Auth., 297 U.S. 288 (1936) (Brandeis, J., concurring) (constitutional avoidance principles)",
+        "United States v. Hudson, 627 F.3d 309 (7th Cir. 2010) (argument held but opinion withheld pending Supreme Court ruling)",
+        "Bentonite Performance Min. LLC v. N.L.R.B., 382 F. App'x 402 (5th Cir. 2010) (similar practice of delayed opinion issuance)",
+        "Hamby v. Walker, No. 14-35856 (9th Cir. 2015) (Ninth Circuit precedent for holding appeals in abeyance after certiorari grant)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most serious challenge \u2014 that an automatic stay rule systematically disadvantages individual plaintiffs through strategic arbitrability appeals \u2014 but I find this concern ultimately insufficient to overcome the structural argument. The Griggs divestiture principle is not merely a policy preference but a foundational rule of appellate jurisdiction, and when Congress enacted Section 16(a) against that backdrop without carving out an exception, the most natural reading is that the divestiture principle applies. Justice Jackson's point that Griggs covers only 'aspects of the case involved in the appeal' is textually precise, but since the very question on appeal is whether district court proceedings should occur at all, those proceedings are quintessentially 'involved in the appeal' \u2014 the district court cannot simultaneously lack jurisdiction over the arbitrability question while retaining authority to conduct the litigation that arbitrability would foreclose. As Chief Justice, I would assign a majority opinion that rests narrowly on the Griggs divestiture principle applied to Section 16(a)'s mandatory interlocutory appeal right, without broad pronouncements about arbitration policy, which should address Justice Jackson's concern about courts 'devising novel rules to favor arbitration' while still resolving the circuit split cleanly.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterarguments \u2014 that the FAA's silence on mandatory stays should preserve traditional Landis discretion and that an automatic stay rule could be weaponized to harm vulnerable plaintiffs. These are not trivial concerns, but they ultimately fail under proper originalist and textualist methodology. The critical point, which Justice Barrett articulates with particular precision, is that Congress enacted Section 16(a) against the established backdrop of the Griggs divestiture principle, and when Congress legislates against a well-established common law or jurisdictional background rule without displacing it, we must presume Congress intended that background rule to operate. Justice Jackson's argument that Griggs only divests jurisdiction over 'aspects involved in the appeal' actually reinforces the petitioner's position here, because the very question on appeal \u2014 whether district court litigation may proceed at all \u2014 is precisely what the district court would be exercising when it allows proceedings to continue, meaning those proceedings are squarely 'involved in the appeal.' As for the asymmetric power concern, while I am not unsympathetic to the equitable dimension, it is not the judiciary's role to rewrite statutory structure to achieve preferred policy outcomes; Congress can address those concerns if it chooses, but the text and structure as enacted support an automatic stay.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that an automatic stay rule disproportionately harms individual plaintiffs through delay and evidence dissipation, and that FAA silence should not be read to strip district courts of Landis discretion. However, this argument conflates policy preferences with statutory interpretation: the question is not whether automatic stays are always fair, but whether Congress's deliberate creation of a mandatory interlocutory appeal right under Section 16, against the backdrop of the Griggs divestiture principle, implies that district court proceedings over the very question on appeal must pause. Justice Barrett correctly identifies that the core subject of an arbitrability appeal is whether district court litigation may proceed at all \u2014 meaning the district court's authority over those very proceedings is squarely 'involved in the appeal' under Griggs, leaving no residual discretion to continue them. Justice Jackson's concern about weaponization of arbitrability appeals is a legitimate policy worry, but it is better addressed through sanctions for frivolous appeals or expedited appellate review than by allowing district courts to impose the precise litigation burdens the FAA was designed to prevent, which would render the Section 16 appeal right largely illusory in practice.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's methodological argument remains the most formidable challenge \u2014 she correctly identifies that Congress enacted \u00a7 16(a) against the Griggs backdrop, and I take seriously the structural inference that a mandatory interlocutory appeal right implies suspension of the proceedings it contests. However, I cannot accept the logical leap that because Griggs divests jurisdiction over 'aspects involved in the appeal,' it therefore mandates an automatic stay rather than merely constraining what the district court may decide on the merits of arbitrability. The district court managing its docket under Landis \u2014 weighing hardship, delay, and competing interests \u2014 is not 'deciding' whether arbitration is required; it is exercising the inherent equitable authority that every federal court possesses over its own proceedings, an authority that Griggs has never been understood to extinguish. Justice Kagan's argument that the discretionary framework is undermined because stays will 'almost always' be granted actually vindicates my position: if the traditional factors reliably protect legitimate arbitration interests, then the automatic rule adds nothing except to eliminate the particularized hardship inquiry that protects individual plaintiffs like Bielski from the very weaponization of delay that Congress's silence cannot plausibly be read to have authorized.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's argument in round 2 remains the most serious challenge \u2014 her insistence that Griggs divests jurisdiction only over 'aspects of the case involved in the appeal,' and that docket management is conceptually distinct from deciding arbitrability, has genuine textual force. But I find it ultimately unpersuasive for the reason Justice Barrett articulates most precisely: when the very question on appeal is whether district court litigation may proceed at all, the district court's authority to continue those proceedings is not a separate 'docket management' matter but is itself the aspect of the case involved in the appeal. Justice Sotomayor's concern about asymmetric power dynamics deserves genuine acknowledgment, but her own concession that traditional stay factors would 'virtually always' favor a stay in these circumstances actually undermines the case for discretion \u2014 it reveals that the automatic rule simply makes explicit what case-by-case analysis would almost always produce, while delivering the administrability and predictability that a coherent statutory scheme requires. The workability concern that drives my pragmatic methodology actually cuts toward the automatic stay rule here, not away from it.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson raises the most serious challenge when she argues that the Griggs divestiture principle addresses jurisdiction over 'aspects of the case involved in the appeal' but does not necessarily mandate an automatic stay as opposed to a discretionary one. However, this distinction collapses under scrutiny: when the very question on appeal is whether district court litigation may proceed at all, the district court's authority to continue those proceedings is precisely the 'aspect of the case involved in the appeal' that Griggs divests. Justice Sotomayor's invocation of Nken v. Holder and the four-factor framework is inapposite because Nken addressed stays pending appeal in the general context, not the specific structural question of what Congress intended when it created a mandatory interlocutory appeal right under \u00a7 16(a) \u2014 a right that becomes largely illusory if the very litigation costs arbitration was designed to prevent continue unabated. Justice Barrett correctly identifies that methodological consistency demands we read \u00a7 16(a) against the Griggs backdrop Congress legislated against, and the absence of any express negation of automatic stay effects \u2014 unlike in 28 U.S.C. \u00a7\u00a7 1292(a)(1)-(3) as Justice Alito notes \u2014 confirms that Congress intended the ordinary divestiture consequences to follow.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Jackson raises the most serious challenge by distinguishing between the divestiture principle and the mandatory stay question, arguing that Griggs's scope \u2014 'aspects of the case involved in the appeal' \u2014 does not automatically resolve whether a stay must be mandatory rather than discretionary. However, I find this distinction ultimately unpersuasive because when the very question on appeal is whether district court litigation may proceed at all, the district court's authority to continue those proceedings is precisely what is 'involved in the appeal' under Griggs; there is no residual discretion to exercise over something the court has been divested of. Justice Sotomayor's concern about asymmetric harm to individual plaintiffs is a genuine equitable consideration, but Congress made the structural choice in Section 16(a) to create a mandatory interlocutory appeal right \u2014 a choice that carries practical meaning only if the proceedings subject to that appeal are stayed, and courts cannot use discretionary stay doctrine to effectively nullify a congressional design. The institutionalist concern about the Court's legitimacy actually cuts in favor of a clear, administrable rule here rather than a discretionary framework that produces inconsistent results across circuits and undermines the FAA's core purpose of making arbitration agreements reliably enforceable.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Jackson raises the most serious challenge when she argues that Griggs's divestiture principle addresses jurisdiction over 'aspects of the case involved in the appeal,' and that mandatory versus discretionary stays are conceptually distinct from that jurisdictional question. But I find this distinction ultimately unpersuasive: if the district court is divested of authority over 'whether litigation may proceed at all' \u2014 which is precisely what an arbitrability appeal contests \u2014 then permitting the district court to allow that very litigation to proceed is not a matter of docket management discretion but rather an exercise of authority the court no longer possesses. Justice Sotomayor's invocation of Nken v. Holder and the four-factor framework is compelling in ordinary contexts, but Nken addressed stays pending appeal generally, not the specific structural question of what Congress intended when it created a mandatory interlocutory appeal right in \u00a7 16(a) against the Griggs backdrop. The asymmetric power concerns Justice Jackson and Justice Sotomayor raise are real and deserve acknowledgment, but they are better addressed through expedited appellate procedures than by allowing district courts to retain authority Congress implicitly withdrew \u2014 and notably, the Landis discretionary framework provides no reliable protection against well-resourced defendants using arbitrability appeals strategically, since it equally permits well-resourced plaintiffs to impose litigation costs on defendants with meritorious arbitration clauses.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that permitting district court proceedings to continue is not 'docket management discretion' but an exercise of authority the court no longer possesses under Griggs is the most formidable challenge to my position, and I want to engage it directly: the flaw is that Griggs divests jurisdiction over the *subject matter* of the appeal \u2014 the arbitrability determination itself \u2014 not over every downstream consequence of that determination. A district court that continues managing its docket while an arbitrability appeal is pending is not 'deciding' arbitrability; it is exercising inherent case management authority that exists independently of the arbitrability question, just as courts routinely manage discovery and scheduling while interlocutory appeals on other threshold questions proceed. Justice Kagan's argument that a discretionary framework renders the \u00a7 16(a) appeal right 'illusory' has genuine force, but Coinbase's own concession that traditional stay factors will 'virtually always' favor a stay in legitimate cases demonstrates that discretion is workable and not illusory \u2014 the only cases where discretion matters are precisely the ones where a defendant is using arbitrability appeals strategically, which is the abuse Congress had no intention of enabling through silence. The asymmetric harm Justice Sotomayor and I both identify is not mere policy preference but a structural consequence of reading an automatic stay into statutory silence, and my background as a public defender makes me acutely aware that categorical rules imposed through implication \u2014 rather than express congressional choice \u2014 tend to fall hardest on those least able to absorb the costs of indefinite delay.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Griggs principle that a notice of appeal divests the district court of jurisdiction over aspects of the case involved in the appeal provides a strong textual and structural foundation for requiring an automatic stay here. When arbitrability is the subject of the interlocutory appeal under FAA Section 16, the core question on appeal is precisely whether the district court proceedings should continue at all \u2014 meaning the district court retains no jurisdiction to allow those proceedings to march forward. Congress enacted Section 16 against the backdrop of Griggs and related jurisdictional divestiture principles, and permitting discretionary continuation of district court proceedings would effectively nullify the right to an interlocutory appeal that Congress deliberately created. My preference for narrow rulings is satisfied here because this holding can rest on the relatively confined ground of statutory interpretation of Section 16 in light of established appellate jurisdiction principles, without requiring broad pronouncements about arbitration policy.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As an originalist and textualist, I must examine what the FAA's structure and text actually require. Section 16(a) of the FAA grants a mandatory right to interlocutory appeal of arbitrability denials, and the structural logic of this provision \u2014 enacted to protect the contractual right to arbitrate \u2014 strongly implies that allowing district court proceedings to continue during appeal would render the appeal right largely illusory, defeating the FAA's core purpose of enforcing arbitration agreements as written. While the text does not explicitly mandate an automatic stay, the divestiture-of-jurisdiction doctrine, which six circuits have correctly applied, reflects the inherent structural principle that a lower court cannot simultaneously be divested of a question on appeal while continuing to adjudicate the very dispute that arbitrability would resolve. Furthermore, consistent with my view that courts should not expand judicial discretion beyond what Congress contemplated, the traditional Landis discretionary stay framework is ill-suited here because it was designed for general litigation management, not for the specific statutory right Congress created in the FAA to protect parties from the precise harm of unwarranted litigation.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text and structure of 9 U.S.C. \u00a7 16 strongly support an automatic stay requirement. As a textualist, I find compelling the negative implication argument: when Congress has wanted to negate automatic stays upon interlocutory appeal, it has done so expressly\u2014as seen in 28 U.S.C. \u00a7\u00a7 1292(a)(1)-(3) and Fed. R. Civ. P. 23(f)\u2014yet Section 16 contains no such language. The FAA's mandatory interlocutory appeal right would be rendered largely illusory if district court proceedings, including potentially irreversible discovery and class certification proceedings, could continue unabated during the appeal; Congress does not create rights without practical effect. Furthermore, the practical consequences here align with the FAA's pro-arbitration policy: allowing litigation to proceed while arbitrability is contested on appeal effectively destroys the very right to avoid litigation that arbitration is meant to provide, a result inconsistent with the statute's purpose and structure.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The Federal Arbitration Act's text in 9 U.S.C. \u00a7 16 does not mandate an automatic stay, and courts retain inherent discretionary authority under the traditional four-factor framework articulated in Nken v. Holder, 556 U.S. 418 (2009), to weigh competing harms to all parties. An automatic stay rule would disproportionately harm plaintiffs like Bielski \u2014 often consumers or workers with fewer resources than corporate defendants like Coinbase \u2014 by allowing evidence to dissipate, witnesses to become unavailable, and justice to be indefinitely delayed through strategic arbitrability appeals. The Ninth Circuit's rule in Britton correctly preserves judicial discretion to assess case-specific circumstances, consistent with Landis v. N. Am. Co., 299 U.S. 248 (1936), which requires a particularized showing of hardship rather than categorical automatic relief. Coinbase's argument that the traditional stay factors will 'virtually always' favor a stay effectively concedes that a case-by-case analysis is workable, undermining the necessity of an inflexible automatic stay rule that would strip district courts of their equitable discretion and systematically disadvantage vulnerable plaintiffs seeking timely vindication of their rights.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text and structure of 9 U.S.C. \u00a7 16 strongly suggest that Congress's deliberate choice to authorize interlocutory appeals of arbitrability denials carries with it the divestiture principle articulated in Griggs v. Provident Consumer Discount Co., 459 U.S. 56 (1982), which holds that an appeal divests the district court of control over aspects of the case involved in the appeal. Because the sole question in an arbitrability appeal is whether district court litigation may proceed at all, allowing that litigation to continue simultaneously would render the interlocutory appeal right largely illusory and undermine the FAA's core purpose of enforcing arbitration agreements efficiently. A pragmatic reading of the statute's structure \u2014 which creates a special exception to the final judgment rule specifically to protect arbitration rights \u2014 supports the conclusion that Congress intended a stay to accompany that appeal right, even if not spelled out explicitly. While I acknowledge the respondent's point that Congress could have expressly mandated a stay, the workability concerns and the risk of mooting the appeal right through irreversible litigation steps tip the balance toward requiring an automatic stay as the more coherent and administrable rule.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 9 U.S.C. \u00a7 16(a) must be read against the well-established backdrop of the divestiture rule \u2014 a foundational principle of appellate jurisdiction holding that a district court loses authority over matters implicated by a pending appeal. When Congress deliberately created a mandatory right to interlocutory appeal of arbitrability denials, it legislated with this background rule in mind, and there is no textual indication that Congress intended to deviate from it. Unlike permissive appeals where Congress's silence might be ambiguous, the mandatory nature of \u00a7 16(a) appeals signals that Congress viewed arbitrability as a threshold question sufficiently distinct and important to warrant immediate appellate resolution \u2014 a purpose that is directly undermined if district court merits proceedings continue apace, potentially mooting the appeal or forcing the very litigation costs arbitration was designed to prevent. The FAA's broader structure and purpose, which this Court has consistently recognized as favoring enforcement of arbitration agreements, further confirms that allowing parallel district court proceedings would render the interlocutory appeal right largely illusory, contrary to what Congress plainly intended.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The structure and purpose of FAA Section 16(a) strongly support an automatic stay requirement during interlocutory arbitrability appeals. Under the established divestiture rule articulated in Griggs v. Provident Consumer Discount Co., an appeal divests the district court of control over aspects of the case involved in the appeal, and since the sole question in an arbitrability appeal is whether district court litigation may proceed at all, permitting that litigation to continue simultaneously renders the interlocutory appeal right effectively hollow. Congress enacted Section 16(a) against the backdrop of this divestiture doctrine, and the practical workability concerns are significant \u2014 allowing discovery, class proceedings, and even trial to march forward while arbitrability is contested on appeal would impose the very litigation burdens the FAA was designed to prevent, undermining the statute's core purpose of making arbitration agreements enforceable. From an institutionalist and historically grounded perspective, the better reading honors both the congressional design of Section 16 and the longstanding divestiture principle, resolving the acknowledged circuit split in a manner consistent with the FAA's pro-arbitration framework.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 9 U.S.C. \u00a7 16, read against the common law backdrop against which Congress legislated, strongly supports an automatic stay. As this Court established in Griggs v. Provident Consumer Discount Co., 459 U.S. 56, 58 (1982), the filing of a notice of appeal divests the district court of control over 'those aspects of the case involved in the appeal,' and when Congress enacted \u00a7 16(a) in 1988 it legislated against precisely this background divestiture principle. The core subject of an arbitrability appeal is whether district court litigation may proceed at all, meaning the district court's authority over the very proceedings it would continue is squarely 'involved in the appeal' under Griggs; permitting those proceedings to march forward through discovery and potential class certification would render the interlocutory appeal right Congress deliberately created largely illusory. Methodological consistency demands that we give effect to Congress's structural choice to authorize immediate appeals of arbitrability denials\u2014a choice that carries no practical meaning if the district court may simultaneously impose the full burdens of litigation that the FAA was designed to avoid.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While Griggs v. Provident Consumer Discount Co. establishes the general divestiture principle, that principle applies to 'aspects of the case involved in the appeal' \u2014 and the question of whether an automatic stay is *mandatory* versus discretionary is distinct from the divestiture question itself. As a pragmatist concerned with procedural fairness and practical consequences, I am skeptical that the FAA's silence on mandatory stays in \u00a7 16 should be read to automatically strip district courts of all discretion, particularly given that Landis v. N. Am. Co. vests courts with inherent authority to manage their dockets and that a mandatory stay rule could be weaponized by corporate defendants like Coinbase to indefinitely delay meritorious claims through serial arbitrability appeals. My background as a public defender sensitizes me to the asymmetric power dynamics at play \u2014 a mandatory automatic stay rule disproportionately burdens individual plaintiffs who face delay while well-resourced defendants pursue interlocutory appeals, and nothing in \u00a7 16's text expressly mandates such a stay beyond the jurisdictional transfer Griggs contemplates. The FAA's policy favoring arbitration does not require courts to abandon their traditional discretionary stay authority, and reading a mandatory stay into congressional silence would improperly 'devise novel rules to favor arbitration over litigation' in contravention of this Court's own recent admonitions.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.803,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "22-105",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Arbitration Act requires a district court to automatically stay proceedings while an interlocutory appeal on arbitrability is pending, resolving a deep circuit split on whether such stays are mandatory or discretionary.",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 16, which governs interlocutory appeals of arbitrability decisions, in conjunction with the general federal stay jurisprudence established under Landis v. North American Co., 299 U.S. 248 (1936).",
+      "petitioner_position": "Coinbase argues that the FAA mandates an automatic stay of district court proceedings during an interlocutory appeal of an arbitrability ruling, contending that: (1) the Ninth Circuit's rule established in Britton creates a circuit split requiring Supreme Court resolution; (2) allowing district court proceedings to continue during appeal undermines the core purpose of arbitration agreements; (3) the Ninth Circuit appeal should be held in abeyance to prevent mootness of the Supreme Court's review; and (4) the balance of harms favors a stay since Bielski faces only minimal delay while Coinbase risks irreparable harm from being forced to litigate despite a potentially valid arbitration clause.",
+      "respondent_position": "Bielski opposes the abeyance motion arguing that: (1) the Supreme Court's certiorari grant addresses a procedural stay question distinct from the merits issues before the Ninth Circuit; (2) the Supreme Court's decision will not materially affect the merits or procedural course of the Ninth Circuit appeal; (3) granting abeyance would constitute unjustified delay that impedes his right to timely adjudication; (4) good cause does not exist for holding the appeal in abeyance; and (5) the mootness concern raised by Coinbase is overstated, as Bielski disputes that the 'capable of repetition yet evading review' exception would apply.",
+      "key_precedents": [
+        "Landis v. North American Co., 299 U.S. 248 (1936) - foundational authority on court power to hold proceedings in abeyance",
+        "Britton v. Co-op Banking Group (Ninth Circuit) - established the Ninth Circuit rule on stays pending arbitrability appeals that is under Supreme Court review",
+        "Leiva-Perez v. Holder, 640 F.3d 962 (9th Cir. 2010) - standard for evaluating stay applications including 'fair prospect' of success on merits",
+        "Index Newspapers LLC v. United States Marshals Service, 977 F.3d 817 (9th Cir. 2020) - de novo review standard for district court stay decisions",
+        "Davis v. FEC, 554 U.S. 724 (2008) - 'capable of repetition yet evading review' exception to mootness doctrine",
+        "Ashwander v. Tennessee Valley Authority, 297 U.S. 288 (1936) - Brandeis concurrence on constitutional avoidance principles",
+        "United States v. Hudson, 627 F.3d 309 (7th Cir. 2010) - precedent for holding argument but withholding opinion pending Supreme Court ruling",
+        "Bentonite Performance Mining LLC v. NLRB, 382 F. App'x 402 (5th Cir. 2010) - similar practice of delaying opinion pending Supreme Court decision",
+        "Hamby v. Walker, No. 14-35856 (9th Cir. Feb. 27, 2015) - Ninth Circuit precedent for holding appeals in abeyance after Supreme Court certiorari grant"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's structural argument grounding the mandatory stay in Griggs v. Provident Consumer Discount Co. remains the most analytically rigorous foundation for this holding, and I am persuaded that it represents the narrowest defensible ground \u2014 one that flows from established appellate jurisdiction doctrine rather than broad purposivist inference from the FAA's pro-arbitration policy. The strongest counterargument, which Justice Jackson articulates most clearly, is that Congress knew how to mandate stays explicitly and chose not to, suggesting Landis discretion should govern; but as Justice Jackson herself ultimately concludes, the Griggs divestiture doctrine supplies the operative background rule against which Congress legislated in 1988, making express statutory language unnecessary. As Chief Justice, I would assign the majority opinion with instructions to write narrowly on the Griggs-\u00a716(a) intersection, explicitly declining to disturb Landis in other contexts and limiting the holding to the specific circumstance where the appeal's sole question is whether district court proceedings may occur at all \u2014 this minimalist framing preserves institutional legitimacy while resolving the circuit split. The near-unanimity of my colleagues across methodological divides, while not itself determinative, confirms that this structural logic is sufficiently sound to command a stable majority without requiring any justice to abandon their interpretive commitments.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's invocation of Griggs v. Provident Consumer Discount Co. remains the most analytically rigorous foundation for this holding, and the convergence of my colleagues across methodological lines \u2014 textualists, pragmatists, institutionalists \u2014 confirms that the structural logic is sound rather than merely convenient. The strongest remaining counterargument, which Justice Jackson articulates most precisely, is that Congress knew how to mandate stays explicitly and chose not to do so in \u00a7 16, suggesting the Landis discretionary framework should govern by default. But this argument fails under my originalist methodology for the precise reason Justice Barrett identifies: the Griggs divestiture doctrine was established background law when Congress enacted \u00a7 16 in 1988, and Congress need not restate what existing doctrine already supplies \u2014 its silence is reliance on that backdrop, not an affirmative choice to preserve district court discretion over the very question under appellate review. The original public meaning of \u00a7 16(a)'s mandatory interlocutory appeal right, read against the legal backdrop Congress inherited, compels the conclusion that divestiture is coextensive with the appeal itself, making a stay not merely permissible but structurally necessary.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Barrett's invocation of Griggs v. Provident Consumer Discount Co. sharpens my textualist analysis considerably \u2014 when Congress enacted \u00a7 16 in 1988, it legislated against the established backdrop of the divestiture rule, meaning the mandatory interlocutory appeal right carries with it the logical implication that the district court loses authority over the very question on appeal, namely whether litigation may proceed at all. Justice Kagan's point about statutory coherence reinforces this: a discretionary stay standard produces the exact circuit split we are now resolving, which itself demonstrates that the Landis framework is an inadequate and unpredictable substitute for the structural rule Congress's deliberate choice implies. The strongest counterargument \u2014 that Congress could have expressly mandated a stay but did not \u2014 fails under my methodology because the absence of explicit text does not preclude structural inference, particularly where the Griggs divestiture doctrine supplies the operative legal backdrop against which Congress legislated. The practical consequences are also telling: nearly 40% of reversed arbitrability denials in circuits allowing discretionary denial involved cases where parties were compelled through discovery and beyond, meaning the appeal right is functionally illusory without the stay.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett's Griggs divestiture framework has genuinely strengthened my confidence in the petitioner's position beyond my initial reasoning. The structural logic is compelling: Congress enacted \u00a7 16(a) against the backdrop of established divestiture doctrine, and when the sole question on appeal is whether district court proceedings may occur at all, divestiture necessarily encompasses those proceedings \u2014 Congress need not repeat what background doctrine already supplies. My deepest concern remains the real-world harm to plaintiffs like Bielski who face well-resourced defendants weaponizing mandatory stays, and Justice Jackson's point about Congress knowing how to mandate stays explicitly deserves serious weight. However, as Justice Jackson herself ultimately concludes, the Griggs framework answers that silence argument persuasively \u2014 Congress's omission of an express stay mandate is better read as reliance on established divestiture doctrine than as an affirmative preservation of Landis discretion, and the remedy for abuse lies in expedited appellate procedures and sanctions for frivolous appeals rather than in undermining the structural coherence of \u00a7 16(a).",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The convergence across methodological divides \u2014 from Justice Thomas's originalism to Justice Sotomayor's concern for vulnerable plaintiffs \u2014 reinforces that the Griggs divestiture framework provides the correct structural answer here, though I want to be clear that unanimity is not itself the reason I hold this position. Justice Jackson's concern about mandatory stays being weaponized by well-resourced defendants is the strongest remaining counterargument, and I take it seriously as a pragmatic matter, but as Justice Barrett correctly identifies, that concern is a policy objection addressable through expedited appellate procedures and sanctions for frivolous arbitrability appeals rather than a textual or structural argument that undermines the \u00a7 16 inference. My pragmatic textualist methodology asks whether the rule produces workable, coherent outcomes across the federal system, and the circuit split itself \u2014 generating forum-shopping and inconsistent enforcement \u2014 demonstrates that Landis discretionary balancing fails that test. The Griggs backdrop supplies the operative rule without requiring an express statutory mandate, and Congress's silence on stays is most naturally read as reliance on established divestiture doctrine rather than an affirmative preservation of district court discretion.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's invocation of Griggs v. Provident Consumer Discount Co. sharpens my textualist analysis considerably \u2014 when Congress enacted \u00a7 16 in 1988, it legislated against the established backdrop of the divestiture rule, and the logical implication is that an appeal of the threshold question of whether litigation may proceed at all necessarily divests the district court of authority over those very proceedings. Justice Kagan's point about statutory coherence reinforces this: a mandatory interlocutory appeal right, which is itself a significant departure from the final judgment rule, would be structurally incoherent if district courts retained unfettered discretion to proceed with the litigation whose permissibility is the precise question on appeal. The strongest counterargument \u2014 that Congress could have expressly mandated a stay but did not \u2014 is answered by the Griggs framework: Congress need not repeat what background divestiture doctrine already supplies, and the absence of express language is not silence but reliance on established doctrine. I remain firmly in the Petitioner camp, with somewhat increased confidence given the convergence of the divestiture doctrine with my own structural reading of \u00a7 16.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's invocation of Griggs v. Provident Consumer Discount Co. crystallizes the structural argument most precisely: when Congress enacted Section 16 in 1988, it legislated against the established backdrop of the divestiture rule, and because the sole question in an arbitrability appeal is whether district court litigation may proceed at all, divestiture is logically coextensive with the entire case \u2014 not merely severable aspects of it. Justice Kagan's pragmatic textualist framing reinforces this: a discretionary standard produces the very circuit split we are now resolving, and the Griggs framework provides an administrable, principled basis for the automatic stay without requiring ad hoc balancing. The strongest counterargument \u2014 that Congress did not expressly mandate a stay and that Landis discretionary authority should govern \u2014 fails because the specific statutory context of the FAA displaces the general common law default, just as specific statutes routinely override general background principles. The practical reality Justice Alito identifies, that nearly 40% of reversed arbitrability denials in the Ninth Circuit involved cases where stays were denied and parties were compelled to litigate through discovery, confirms that the harm Congress sought to prevent through Section 16 is not theoretical but systematic and irreversible.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Kagan's invocation of the Griggs divestiture rule as the structural backbone of the mandatory stay argument is particularly compelling from a textualist standpoint \u2014 Congress enacted Section 16(a) in 1988 against the established backdrop of Griggs, and when the sole question on appeal is whether district court litigation may proceed at all, the divestiture principle logically extends to the entirety of those proceedings. Justice Jackson raises the most serious counterargument: that Landis discretion is merely cabined rather than eliminated, and that mandatory stays could be weaponized by well-resourced defendants to delay meritorious claims. However, this concern, while legitimate as a policy matter, does not undermine the statutory inference \u2014 Congress made the policy choice when it created a mandatory interlocutory appeal right, and the remedy for abuse lies in expedited appellate procedures or congressional action, not in reading the statute to permit the very harm the appeal right was designed to prevent. The near-unanimity of my colleagues across methodological divides \u2014 textualists, pragmatists, and institutionalists alike \u2014 reinforces that the structural logic here is sound, though I note that unanimity itself is not a substitute for independent analysis of the text.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett's framing of the Griggs divestiture rule as the structural backbone remains the most analytically clean path to this holding, and the near-unanimity of my colleagues across sharply different methodological commitments \u2014 textualists like Justice Thomas and Gorsuch, pragmatists like Justice Kagan, institutionalists like Justice Roberts \u2014 confirms that the structural logic is genuinely sound rather than merely convenient. The strongest remaining counterargument from the respondent's perspective is the one I identified in my prior reasoning: Congress's demonstrated ability to mandate stays explicitly in other contexts suggests its silence in \u00a7 16 was deliberate, preserving Landis discretion. But I continue to find this unpersuasive because, as Justice Kagan emphasizes, the Griggs divestiture doctrine operates as a background principle that Congress need not repeat, and the mandatory nature of \u00a7 16(a)'s appeal right \u2014 unlike the discretionary \u00a7 1292(b) mechanism \u2014 signals that Congress intended the full legal consequences of an appeal to attach automatically. My public defender background keeps me attentive to Justice Sotomayor's concern about delay weaponization, but I agree with her own conclusion that the remedy lies in expedited appellate procedures and congressional refinement, not in reading structural incoherence into a statute that Congress designed to provide uniform, efficient arbitration enforcement.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The FAA's statutory scheme under 9 U.S.C. \u00a7 16, which specifically authorizes interlocutory appeals of arbitrability denials, would be rendered largely ineffective if district courts retain unfettered discretion to proceed during such appeals, effectively mooting the appeal before it can be resolved. The deep circuit split on this question \u2014 with the Ninth Circuit's Britton rule on one side \u2014 presents precisely the kind of institutional legitimacy concern that warrants a clear, narrow ruling establishing that the FAA's structure implies a mandatory stay, consistent with the statute's pro-arbitration purpose. While Landis v. North American Co. establishes broad discretionary stay power as a baseline, Congress may by statute displace that default, and the FAA's explicit appellate mechanism in \u00a7 16 reflects a congressional judgment that arbitrability must be resolved before costly litigation proceeds. A narrow holding that \u00a7 16 requires an automatic stay during arbitrability appeals resolves the circuit split without broadly disturbing general stay jurisprudence, consistent with my preference for minimalist rulings that address only what is necessary.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a textualist and originalist, I must examine what the FAA's structure and text actually require. Section 16 of the FAA grants a mandatory right to interlocutory appeal of arbitrability rulings, and the core purpose of the FAA \u2014 as evidenced by its text and the historical context of its 1925 enactment \u2014 was to enforce arbitration agreements and prevent parties from being dragged into litigation they contractually agreed to avoid. Allowing district court proceedings to continue during an appeal of an arbitrability ruling would effectively nullify the right to appeal by rendering it moot, since the very harm arbitration is meant to prevent \u2014 costly litigation \u2014 would already be inflicted. While the research notes that Congress did not expressly mandate a stay, the structural logic of the FAA's mandatory appeal provision, read against the backdrop of the Act's pro-arbitration purpose and the principle that a mandatory appeal right implies some protection of its subject matter, supports reading the statute to require a stay, distinguishing it from ordinary discretionary stay jurisprudence under Landis v. North American Co.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The FAA's deliberate grant of mandatory interlocutory appeal rights under 9 U.S.C. \u00a7 16 would be rendered largely illusory if district courts could continue proceedings unabated during the appeal, effectively mooting the arbitration right before the appellate court can act. As a textualist, I recognize that Congress's specific statutory framework for arbitrability appeals in \u00a7 16 must be read as a coherent whole \u2014 the mandatory nature of the appeal right, distinct from discretionary appeals, implies that Congress intended to protect parties from being forced into the very litigation they contracted to avoid. The empirical evidence is telling: nearly 40% of reversed arbitrability denials in the Ninth Circuit involved cases where stays were denied, meaning parties were compelled to litigate through discovery and beyond before vindication on appeal, which directly undermines the FAA's core purpose of enforcing arbitration agreements as written. The Landis discretionary framework was not designed to govern this specific statutory context, and where Congress has spoken through a specialized statute like the FAA, that specific statutory scheme should displace the general common law default.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While my instinct is to protect plaintiffs like Bielski who seek court access, the FAA's statutory structure under 9 U.S.C. \u00a7 16 reflects a congressional judgment that arbitrability appeals warrant special procedural protection, and the deep circuit split on mandatory versus discretionary stays demands resolution. The Landis framework establishes that courts possess inherent power to manage dockets, but where Congress has spoken through the FAA to protect the right to arbitrate, allowing district court proceedings to continue during appeal risks rendering the arbitration right illusory \u2014 a harm that cannot be undone if the appeal succeeds. I am persuaded that the practical reality of ongoing litigation costs, discovery burdens, and potential mootness concerns weigh in favor of a mandatory stay, even as I remain deeply attentive to the delay imposed on plaintiffs with meritorious claims. The resolution of this circuit split is necessary to provide uniform protection and predictability, and the 'capable of repetition yet evading review' doctrine under Davis v. FEC supports maintaining jurisdiction to resolve this question definitively.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The statutory structure of 9 U.S.C. \u00a7 16(a) is most coherently read alongside the Griggs divestiture rule, which provides that an appeal divests the district court of control over aspects of the case involved in the appeal. When Congress in 1988 created a mandatory interlocutory appeal right for arbitrability denials\u2014a rare and deliberate legislative choice\u2014it legislated against this backdrop, and permitting concurrent district court proceedings would functionally nullify that appeal right by forcing defendants to endure the very litigation burdens arbitration is designed to avoid. As a pragmatic textualist, I find that statutory coherence and workability favor a mandatory stay rule: a discretionary standard creates unpredictable outcomes across districts and undermines the FAA's core purpose of enforcing arbitration agreements efficiently, and the Griggs framework provides a principled, administrable basis for the automatic stay without requiring courts to engage in ad hoc balancing that produces the circuit split we are now resolving. While the text of \u00a7 16 does not explicitly mandate a stay, the structural inference from Congress's deliberate grant of a mandatory appeal right, read against established divestiture doctrine, provides sufficient textual and purposive grounding for this result.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text and structure of 9 U.S.C. \u00a7 16(a) compel the conclusion that Congress intended an automatic stay when it created a mandatory interlocutory appeal right for arbitrability denials. As a textualist, I must give effect to the full statutory scheme: Congress took the extraordinary step of creating an immediate appeal as of right \u2014 a significant departure from the final judgment rule \u2014 and that structural choice would be rendered largely meaningless if district courts could simultaneously proceed to discovery, class certification, and trial, effectively mooting the appeal before it is resolved. The FAA's pro-arbitration purpose, embedded in its text and structure, reflects Congress's judgment that parties should not be forced to litigate the very dispute they contracted to arbitrate while the threshold question of arbitrability is pending appellate review. Unlike the injunction analogy raised by respondent under 28 U.S.C. \u00a7 1292(a), the arbitrability question is not severable from the merits in the same functional sense \u2014 proceeding with litigation is itself the irreparable harm Congress sought to prevent, distinguishing this context from routine interlocutory appeals where the district court retains jurisdiction over separable matters.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The FAA's Section 16(a) interlocutory appeal right, enacted against the backdrop of the divestiture rule established in Griggs v. Provident Consumer Discount Co., strongly implies that district courts lose authority over the aspects of the case involved in the appeal \u2014 here, the threshold question of whether litigation may proceed at all. Allowing district court proceedings to continue while an arbitrability appeal is pending fundamentally undermines the purpose of Section 16(a), which Congress enacted precisely to protect parties from being forced to litigate when they may have a valid right to arbitrate. From a practical and institutionalist standpoint, the deep circuit split on this question creates unacceptable inconsistency in the administration of the FAA, a federal statute designed to promote uniform enforcement of arbitration agreements, and the mandatory nature of the appeal right under Section 16 \u2014 unlike discretionary appeals \u2014 reinforces that Congress intended meaningful protection during the appellate process. While Landis v. North American Co. establishes general discretionary stay authority, the specific statutory context of the FAA and the divestiture doctrine together provide a more targeted and controlling framework that supersedes the general discretionary standard in this context.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of FAA Section 16(a), read against the backdrop of the divestiture rule established in Griggs v. Provident Consumer Discount Co., 459 U.S. 56 (1982), strongly supports Coinbase's position. When Congress enacted Section 16 in 1988, it legislated with full awareness that an appeal 'divests the district court of its control over those aspects of the case involved in the appeal' \u2014 and the sole question in an arbitrability appeal is whether district court litigation may proceed at all, making divestiture logically coextensive with the appeal itself. Permitting district court proceedings to continue while an appellate court resolves the threshold question of whether those very proceedings are permissible would render the interlocutory appeal right Congress deliberately created largely illusory, undermining the FAA's pro-arbitration purpose and the structural logic of Section 16(a). The Landis discretionary framework, while generally applicable, cannot override the specific statutory context here, where Congress's deliberate grant of an interlocutory appeal right carries the implicit mandatory stay that the divestiture rule supplies.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While my instinct as a former public defender is to protect individuals' rights to timely adjudication in court, the statutory text and structure of the FAA compel me to recognize that Congress made a deliberate policy choice in 9 U.S.C. \u00a7 16 to authorize interlocutory appeals of arbitrability denials precisely because the right to arbitrate is a 'right not to litigate' that is irretrievably destroyed if proceedings continue during appeal. The Landis framework establishes that courts have inherent discretionary power to stay proceedings, but that discretion can be cabined or directed by statute, and the FAA's explicit grant of interlocutory appeal rights would be rendered largely hollow if district courts could simply proceed to trial while those appeals are pending. The circuit split itself \u2014 with the Ninth Circuit's Britton rule allowing discretionary denial of stays while other circuits mandate them \u2014 creates precisely the kind of forum-shopping and inconsistent enforcement of arbitration agreements that the FAA was designed to prevent. Though I am deeply concerned about the practical consequences for plaintiffs like Bielski who may face unjustified delay through mandatory stays weaponized by well-resourced defendants, the statutory mandate here is sufficiently clear that the proper remedy lies with Congress, not judicial reinterpretation.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.852,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

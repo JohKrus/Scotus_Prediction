@@ -1,0 +1,623 @@
+[
+  {
+    "docket": "23-1324",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether prisoners subject to the Prison Litigation Reform Act have a Seventh Amendment right to a jury trial on disputed facts regarding exhaustion of administrative remedies when those facts are intertwined with the underlying merits of their claim.",
+      "legal_provision": "Prison Litigation Reform Act (PLRA), 42 U.S.C. \u00a7 1997e(a); Seventh Amendment to the U.S. Constitution (right to jury trial in civil cases); 42 U.S.C. \u00a7 1983 (civil rights claims)",
+      "petitioner_position": "Petitioner Thomas Perttu (represented by Michigan Solicitor General) argues that exhaustion of administrative remedies under the PLRA is a threshold jurisdictional or procedural matter to be decided by a judge, not a jury, even when exhaustion facts overlap with merits. Petitioner contends that allowing juries to decide exhaustion questions undermines the PLRA's core purpose of reducing frivolous inmate litigation and imposes significant burdens on state and local governments operating correctional facilities. This position is supported by 25 states, the District of Columbia, the National Sheriffs' Association, the Michigan Sheriffs' Association, the International Municipal Lawyers Association, and the National Association of Counties.",
+      "respondent_position": "Respondent Kyle Brandon Richards (represented by the University of Virginia Appellate Litigation Clinic) argues that where disputed factual questions regarding PLRA exhaustion are genuinely intertwined with the merits of the underlying civil rights claim \u2014 here a retaliation claim under \u00a7 1983 \u2014 the Seventh Amendment guarantees the prisoner a right to have those facts resolved by a jury. Respondent contends that allowing a magistrate judge to resolve such disputed facts at a preliminary evidentiary hearing effectively strips the prisoner of his constitutional right to jury resolution of the ultimate dispute, as the Sixth Circuit agreed when it reversed the district court's dismissal.",
+      "key_precedents": [
+        "Galloway v. United States, 319 U.S. 372 (1943) \u2014 directed verdict does not violate Seventh Amendment",
+        "Fidelity & Deposit Co. v. United States, 187 U.S. 315 (1902) \u2014 summary judgment does not violate Seventh Amendment",
+        "Markman v. Westview Instruments, Inc., 517 U.S. 370 (1996) \u2014 Seventh Amendment preserves right to jury resolution of ultimate dispute",
+        "City of Monterey v. Del Monte Dunes at Monterey, Ltd., 526 U.S. 687 (1999) \u2014 \u00a7 1983 suit seeking legal relief is an action at law within the meaning of the Seventh Amendment",
+        "Fireman's Fund Insurance Co. v. Railway Express Agency, Inc., 253 F.2d 780 (6th Cir. 1958) \u2014 threshold jurisdictional determinations by judges distinguished from merits fact-finding",
+        "Lee v. Willey \u2014 Sixth Circuit precedent authorizing district courts to hold evidentiary hearings on PLRA exhaustion",
+        "McPherson v. Mich. High Sch. Athletic Ass'n, Inc., 119 F.3d 453 (6th Cir. 1997) \u2014 mootness standard applied to mooted subsidiary claims on remand"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Jackson's intertwining argument remains the most serious challenge, and I credit Justice Jackson's observation that theoretical jury reconsideration is cold comfort when dismissal at the exhaustion stage ends the case entirely. However, as Justice Kagan correctly notes, this conflates the consequence of losing a threshold determination with a constitutional defect in who makes it \u2014 every Rule 12(b)(6) dismissal forecloses jury consideration when the plaintiff loses, yet we do not constitutionalize those determinations. My minimalist instincts counsel a narrow holding: judges may resolve exhaustion facts as a threshold matter under the PLRA, but I would expressly reserve \u2014 and signal genuine concern about \u2014 cases where the factual overlap is so complete and the dismissal so functionally equivalent to a merits determination that no meaningful jury consideration could follow. As Chief Justice, I would assign the majority opinion with instructions to acknowledge the intertwining concern, decline to resolve the hardest edge cases, and craft limiting language that might draw Justices Sotomayor and Jackson toward a narrower consensus while preserving the PLRA's gatekeeping function.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 the 'intertwining' problem \u2014 arguing that when exhaustion facts are identical to merits facts, judicial pre-determination effectively strips the jury of its constitutional role. This argument has surface appeal, but it fails under rigorous originalist analysis for a fundamental reason: the Seventh Amendment preserves the right to jury trial as it existed in 1791, and at that time there was no exhaustion doctrine at common law whatsoever. The question is not whether the facts overlap, but whether the specific legal question being resolved \u2014 satisfaction of a statutory precondition to suit \u2014 was a jury question in 1791. It was not, because exhaustion is rooted in equity where chancellors resolved threshold matters. Justice Sotomayor's reliance on Beacon Theatres and Dairy Queen is distinguishable because those cases involved equitable remedies that would permanently foreclose legal claims from jury consideration; here, as Justice Kagan correctly notes, a judge's exhaustion finding does not preclude the jury from independently evaluating the same underlying facts when adjudicating the \u00a7 1983 merits, preserving the substance of the Seventh Amendment right as Markman requires.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 the 'intertwining' problem \u2014 arguing that when exhaustion facts overlap with merits facts, judicial pre-determination effectively strips the prisoner of Seventh Amendment rights. But this argument proves too much: under Markman, the Seventh Amendment preserves the right to jury resolution of the 'ultimate dispute,' and the ultimate dispute here is the \u00a7 1983 retaliation claim itself, not the antecedent exhaustion question. Critically, if a prisoner survives the exhaustion threshold, the jury is entirely free to reexamine the same underlying facts without being bound by the judge's exhaustion findings \u2014 there is no issue preclusion or collateral estoppel effect that forecloses the merits jury, which distinguishes this case from Beacon Theatres where judicial resolution of equitable issues permanently foreclosed the legal claim. The equitable origins of exhaustion doctrine, confirmed by the historical record that chancellors \u2014 not juries \u2014 resolved threshold forum-based and procedural gateway questions in 1791, are dispositive under the Granfinanciera two-part test, and the practical consequences Justice Sotomayor identifies, while sympathetic, cannot override a clear historical analysis that places exhaustion outside the Seventh Amendment's preservation function.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan's argument that Beacon Theatres is distinguishable because a judge's exhaustion findings do not bind the jury remains the most serious challenge to my position, and I continue to engage with it honestly \u2014 but I cannot accept the premise that theoretical jury availability cures the constitutional problem when, as Justice Jackson correctly identifies, dismissal at the exhaustion stage in a retaliation case where the guard's interference is both the retaliatory act and the reason for non-exhaustion typically ends the litigation entirely, meaning no jury ever reaches those facts. Justice Alito's invocation of Markman to argue the 'ultimate dispute' is the \u00a7 1983 claim, not the exhaustion question, is analytically clean but begs the question in precisely the cases that concern me most \u2014 where the exhaustion determination IS the ultimate dispute in practical effect because the same factual finding resolves both. I acknowledge the force of the originalist arguments from Justices Thomas, Barrett, and Gorsuch that exhaustion had no 1791 common law analog, but as I noted in round one, the Beacon Theatres principle was designed to prevent functional end-runs around the Seventh Amendment regardless of doctrinal lineage, and labeling a statutory precondition 'equitable' cannot constitutionally authorize a judge to resolve the same disputed facts that constitute the heart of a prisoner's legal claim. I maintain my position, recognizing this will be a dissent, because the structural reality of PLRA litigation for incarcerated people \u2014 who face enormous barriers to grievance filing and whose retaliation claims are uniquely vulnerable to this precise conflation \u2014 demands that we not paper over the constitutional tension with procedural formalism.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument about practical foreclosure remains the most serious challenge to my position, and I want to engage it directly rather than dismiss it: she is right that dismissal at the exhaustion stage typically ends the case, meaning the theoretical availability of jury reconsideration is often illusory. But I think this conflates two distinct constitutional questions \u2014 whether the Seventh Amendment requires jury resolution of exhaustion facts, and whether dismissal on exhaustion grounds is too harsh a remedy in intertwined cases. The former is a structural constitutional question answered by historical analysis and the Markman framework; the latter is a remedial and procedural question that courts can address through careful case management, including the possibility Chief Justice Roberts wisely flags of reserving genuinely inseparable cases for special treatment. I am drawn to a narrower formulation than Justice Thomas or Justice Alito would write: judges may resolve exhaustion as a threshold matter under the PLRA, but I would leave open whether cases of truly complete factual inseparability \u2014 where the exhaustion finding would functionally predetermine the merits without any jury consideration \u2014 might require different treatment, preserving both the PLRA's gatekeeping function and the Seventh Amendment's core guarantee.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 the 'intertwining' problem \u2014 arguing that when exhaustion facts are identical to merits facts, judicial pre-determination effectively strips the jury of its constitutional role. This concern deserves genuine engagement, but I find it ultimately unpersuasive for a fundamental reason rooted in originalism: the Seventh Amendment preserves the right to jury trial as it existed at common law in 1791, and at that time there was simply no exhaustion doctrine at law \u2014 it was an equitable creation resolved by chancellors. The intertwining argument proves too much; under that logic, any threshold equitable defense touching factual territory similar to the merits would require jury resolution, which would swallow the entire distinction between law and equity that the Seventh Amendment itself presupposes. As Justice Thomas correctly notes, Markman confirms the Amendment preserves jury resolution of the 'ultimate dispute' \u2014 the \u00a7 1983 retaliation claim \u2014 not every antecedent factual inquiry, and a judge's exhaustion findings do not collaterally estop the jury from reaching its own conclusions on the merits if the case proceeds past the threshold.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that dismissal at the exhaustion stage 'typically ends the case entirely' is the most powerful challenge to my position, and I want to engage with it seriously rather than dismiss it. But I think Justice Kagan correctly identifies the flaw: the practical consequence of losing a threshold determination \u2014 even a harsh one \u2014 cannot itself constitute a Seventh Amendment violation, or else every Rule 12(b)(6) dismissal, every summary judgment ruling, every directed verdict would raise constitutional concerns whenever the judge's factual assessment overlapped with what a jury might have considered. The constitutional question is not whether the prisoner loses, but whether the mechanism by which the threshold question is resolved improperly invades the jury's domain over the 'ultimate dispute,' and under Markman, the ultimate dispute is the \u00a7 1983 retaliation claim itself. I do want to join Chief Justice Roberts in insisting that the majority opinion acknowledge the edge case Justice Sotomayor identifies \u2014 where the factual overlap is so complete that exhaustion dismissal would functionally predetermine the merits without any jury consideration \u2014 and expressly reserve that question, both because it is the institutionally responsible approach and because it may bring us closer to a more durable consensus that addresses the genuine constitutional concern without constitutionalizing all exhaustion disputes.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 the 'intertwining' problem \u2014 arguing that when exhaustion facts are identical to merits facts, judicial pre-determination effectively strips the jury of its constitutional role. This argument has genuine force, but I find it ultimately unpersuasive under originalist methodology for a critical reason: the Seventh Amendment preserves the right to jury trial as it existed in 1791, and at that time, no court \u2014 legal or equitable \u2014 recognized exhaustion of administrative remedies as a threshold requirement at all. We cannot expand the jury's constitutional domain beyond its 1791 scope simply because a modern statutory gatekeeping mechanism happens to involve facts that also bear on the merits; the constitutional question is whether exhaustion determination was a jury function in 1791, and the answer is plainly no. Justice Sotomayor's reliance on Beacon Theatres and Dairy Queen is distinguishable because those cases addressed the sequencing of legal and equitable claims within a single suit \u2014 not whether a threshold statutory precondition with equitable origins must be submitted to a jury \u2014 and the jury's ability to independently evaluate the same underlying facts at trial preserves the substance of the Seventh Amendment right as Markman requires. The intertwining concern is better addressed through careful procedural management, including the possibility Justice Roberts raises of reserving genuinely inseparable cases for special treatment, rather than constitutionalizing jury resolution of all exhaustion disputes.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's argument that Beacon Theatres is distinguishable because a judge's exhaustion findings do not bind the jury on the merits remains the strongest challenge to my position, and I acknowledge its force \u2014 but I continue to find it insufficient for the specific category of retaliation cases where the act of retaliation and the failure to exhaust are literally the same event. Justice Kagan conflates 'the consequence of losing a threshold determination' with 'a constitutional defect in who makes it,' but this framing obscures the structural reality that when a magistrate judge finds the prisoner failed to file a grievance in a case where the prisoner claims officials prevented that filing as retaliation, the judge has resolved the core factual dispute about retaliatory conduct \u2014 and dismissal means the jury never touches it. Chief Justice Roberts' minimalist instinct to reserve the 'genuinely inseparable' cases for another day is actually closer to my position than he acknowledges, and I would press him on whether his narrow holding can coherently distinguish the easy cases from the hard ones without adopting something like the intertwining doctrine I am defending. I maintain my position because the Seventh Amendment's preservation function cannot be satisfied by the theoretical availability of jury reconsideration when the practical operation of PLRA exhaustion dismissals in retaliation cases is to foreclose that consideration entirely, and no amount of historical categorization resolves the constitutional tension when the same disputed facts constitute both the exhaustion failure and the merits of the legal claim.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "My minimalist instincts counsel resolving this on the narrowest possible grounds, but the Seventh Amendment question requires careful attention to historical practice. The closest historical analogs to PLRA exhaustion are forum-based equitable and procedural gateway defenses \u2014 matters traditionally resolved by judges, not juries \u2014 and Markman v. Westview Instruments confirms that judicial resolution of preliminary or threshold questions does not violate the Seventh Amendment so long as the jury retains its role on the ultimate merits dispute. Critically, where a prisoner successfully demonstrates exhaustion, the jury remains fully empowered to resolve the underlying \u00a7 1983 retaliation claim without being bound by the judge's exhaustion findings, preserving the substance of the Seventh Amendment right as recognized in City of Monterey v. Del Monte Dunes. While I am genuinely troubled by the intertwining problem and would insist on a narrow ruling that leaves open cases of severe factual overlap that could effectively predetermine the merits, the institutional concerns \u2014 PLRA's congressional purpose, the burden on state correctional systems, and the need for a workable gatekeeping mechanism \u2014 tip the balance toward permitting judicial resolution of exhaustion facts as a threshold matter.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Seventh Amendment preserves the right to jury trial as it existed at common law in 1791, and the historical research is dispositive here: exhaustion of administrative remedies was not a common law doctrine in 1791 but rather originated in equity, where threshold procedural prerequisites were resolved by chancellors, not juries. As the research confirms, forum-based equitable defenses \u2014 including adequate remedy at law, forum non conveniens, abstention, and habeas bars \u2014 were historically non-jury matters decided by courts of equity, and exhaustion is functionally analogous to these doctrines. The Seventh Amendment does not expand jury rights beyond their 1791 scope, and the mere fact that exhaustion facts may overlap with merits facts does not transform an equitable threshold inquiry into a legal one triable to a jury; Markman confirms the Amendment preserves the right to jury resolution of the ultimate dispute, but that ultimate dispute here is the \u00a7 1983 retaliation claim, not the antecedent exhaustion question. Congress's authority under the PLRA to impose exhaustion as a mandatory prerequisite, combined with the historical practice of judges resolving such threshold equitable matters, fully supports judicial resolution of exhaustion disputes without Seventh Amendment infirmity.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "As a textualist committed to the historical test for Seventh Amendment rights established in Granfinanciera, S.A. v. Nordberg, 492 U.S. 33 (1989), exhaustion of administrative remedies under the PLRA has no precise common-law analog from 1791, and its closest historical parallels are equitable forum-based defenses traditionally resolved by judges rather than juries. The PLRA's exhaustion requirement under 42 U.S.C. \u00a7 1997e(a) serves a gatekeeping function that Congress deliberately assigned to courts, and allowing juries to resolve exhaustion questions \u2014 even when facts are intertwined with the merits \u2014 would fundamentally undermine the statute's core purpose of filtering frivolous prisoner litigation before it reaches trial. The Seventh Amendment preserves the right to jury resolution of the ultimate merits dispute, not every subsidiary factual question; a judge's preliminary exhaustion determination does not bind the jury on the underlying \u00a7 1983 claim, as confirmed by the logic of Markman v. Westview Instruments, Inc., 517 U.S. 370 (1996), which permits judicial resolution of discrete threshold issues within otherwise jury-appropriate cases. The practical consequences of the Sixth Circuit's rule \u2014 forcing jury trials on exhaustion questions in virtually every prisoner civil rights case \u2014 would impose enormous burdens on correctional systems and defeat Congress's express intent, a result I am unwilling to countenance absent clear constitutional compulsion.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Where disputed factual questions regarding PLRA exhaustion are genuinely intertwined with the merits of a \u00a7 1983 civil rights claim \u2014 as recognized in City of Monterey v. Del Monte Dunes, which confirmed that \u00a7 1983 suits seeking legal relief are actions at law within the Seventh Amendment's scope \u2014 allowing a magistrate judge to resolve those same facts at a preliminary evidentiary hearing effectively strips the prisoner of the constitutional right to jury resolution of the ultimate dispute. The 'intertwining' problem is real and constitutionally significant: when the same facts that determine whether a prisoner exhausted administrative remedies also determine whether retaliation occurred, a judicial pre-determination of those facts under the guise of a threshold ruling functionally decides the merits without a jury. While I acknowledge the equitable origins of exhaustion doctrine and the legitimate administrative interests of correctional institutions supported by 25 states, the Seventh Amendment's preservation function cannot be circumvented merely by labeling a merits-dispositive factual inquiry 'preliminary,' particularly where vulnerable incarcerated persons \u2014 who already face enormous structural barriers to accessing justice \u2014 would bear the entire burden of that constitutional erosion. Practical fairness demands that when the same disputed facts govern both exhaustion and the underlying civil rights violation, those facts must go to the jury.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The PLRA's exhaustion requirement under 42 U.S.C. \u00a7 1997e(a) serves a distinct gatekeeping function that Congress deliberately placed outside the merits inquiry, and the Seventh Amendment's historical preservation of jury rights does not extend to threshold procedural determinations that courts have traditionally resolved. The research materials persuasively demonstrate that unlike Beacon Theatres and Dairy Queen \u2014 where judicial resolution of equitable issues would permanently foreclose jury consideration of legal issues \u2014 a judge's exhaustion findings do not preclude a jury from reexamining the same underlying facts when adjudicating the merits, preserving the 'substance of the common-law right' as Markman requires. From a pragmatic standpoint, requiring jury resolution of exhaustion questions whenever facts overlap with merits would effectively nullify the PLRA's administrative exhaustion regime, since retaliation claims will almost always involve factual overlap with the circumstances of alleged grievance interference, creating an unworkable standard that undermines congressional purpose. The Seventh Amendment inquiry under City of Monterey confirms \u00a7 1983 suits are actions at law, but that does not transform every preliminary procedural defense into a jury question \u2014 the exhaustion determination is more analogous to the judge-decided threshold inquiries recognized in Fireman's Fund than to the merits fact-finding Beacon Theatres was designed to protect.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, the Seventh Amendment's preservation of the right to jury trial must be understood against the backdrop of 1791 common law practice. The historical record is clear: exhaustion requirements did not exist at common law in 1791 and instead derive from equity, where threshold conditions were resolved by chancellors rather than juries \u2014 precisely the equity-first framework this Court described over a century ago. The PLRA's exhaustion requirement under 42 U.S.C. \u00a7 1997e(a) functions analogously to traditional equitable defenses like forum non conveniens and abstention, which were never jury questions, and the mere factual overlap with merits claims does not transform an equitable threshold inquiry into a Seventh Amendment jury question any more than summary judgment or directed verdict procedures do under Galloway and Fidelity & Deposit Co. Every circuit court to have addressed this question has correctly concluded that judges may resolve exhaustion facts without a jury, and the Sixth Circuit's contrary ruling improperly conflates the ultimate merits dispute \u2014 which does carry Seventh Amendment protection under City of Monterey \u2014 with the antecedent equitable gatekeeping function that Congress assigned to courts through the PLRA.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Applying the Markman two-step historical test, while \u00a7 1983 claims are clearly analogous to common law actions tried at law in 1791, the specific question of whether a plaintiff has satisfied a statutory precondition to suit \u2014 exhaustion of administrative remedies \u2014 is more analogous to threshold procedural determinations historically resolved by judges rather than juries. The PLRA's exhaustion requirement functions as a gatekeeping mechanism, and allowing judges to resolve disputed exhaustion facts at preliminary hearings does not strip the jury of its role in resolving the ultimate merits dispute; it merely determines whether the case proceeds at all, consistent with how courts handle analogous threshold questions like jurisdiction and standing. Practical workability and institutional concerns also weigh heavily here: the PLRA was enacted precisely to reduce the burden of prisoner litigation on courts and defendants, and requiring full jury trials whenever exhaustion facts arguably overlap with merits would substantially undermine that congressional purpose, a consideration this Court has recognized as relevant when evaluating the scope of procedural rights. The intertwining doctrine, as articulated by the Sixth Circuit, proves too broad and lacks a principled limiting principle that would preserve judicial efficiency without constitutionalizing every factual overlap between threshold requirements and underlying claims.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As an originalist and textualist, I must examine what 'suits at common law' meant at the Seventh Amendment's ratification in 1791. The historical record is compelling: exhaustion of administrative remedies did not exist as a common law doctrine in 1791, and its functional roots lie squarely in equity, where chancellors \u2014 not juries \u2014 resolved threshold forum-selection and procedural gateway questions. The analogy to forum non conveniens, abstention doctrines, and habeas bars is persuasive, as all of these equity-derived threshold defenses were resolved by courts rather than juries at common law, regardless of whether the underlying merits claim was legal in nature. Under Markman v. Westview Instruments, the Seventh Amendment preserves the right to jury resolution of the 'ultimate dispute,' but that principle does not transform every factual predicate touching the merits into a jury question \u2014 particularly where, as here, the threshold inquiry has equitable origins and serves the PLRA's gatekeeping function of channeling disputes through administrative processes before federal litigation proceeds.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a progressive pragmatist with deep concern for procedural fairness and the rights of incarcerated individuals, I find that where exhaustion facts are genuinely intertwined with the merits of a \u00a7 1983 retaliation claim, the Seventh Amendment's preservation of the right to jury trial must be taken seriously. City of Monterey v. Del Monte Dunes confirms that \u00a7 1983 suits seeking legal relief are actions at law within the Seventh Amendment's scope, and the principle from Beacon Theatres and Dairy Queen \u2014 that judicial fact-finding should not effectively bind the ultimate legal dispute \u2014 applies with force when a magistrate judge's preliminary exhaustion findings on disputed facts could functionally predetermine the merits. While I acknowledge the Pavey framework's argument that a jury may reexamine those facts if the case proceeds, the practical reality for prisoners is that dismissal at the exhaustion stage on disputed, intertwined facts often forecloses any jury consideration entirely, undermining the substance of the constitutional right. My background as a public defender reinforces my concern that procedural mechanisms nominally neutral in design can operate to systematically disadvantage the most vulnerable litigants, and the PLRA's legitimate gatekeeping purpose does not require stripping prisoners of their Seventh Amendment rights when the disputed facts cannot be cleanly separated from the merits.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.77,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "23-1324",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether prisoners subject to the Prison Litigation Reform Act have a Seventh Amendment right to a jury trial on disputed facts concerning exhaustion of administrative remedies when those facts are intertwined with the underlying merits of their claim.",
+      "legal_provision": "Prison Litigation Reform Act (PLRA), 42 U.S.C. \u00a7 1997e(a); Seventh Amendment to the U.S. Constitution; 42 U.S.C. \u00a7 1983",
+      "petitioner_position": "Petitioner Thomas Perttu (represented by the Michigan Solicitor General) argues that exhaustion of administrative remedies under the PLRA is a threshold jurisdictional or procedural matter to be resolved by a judge, not a jury, even when disputed facts regarding exhaustion overlap with the merits of the underlying claim. Petitioner contends that allowing juries to decide exhaustion questions would undermine the PLRA's core purpose of reducing the burden of inmate litigation on governments operating correctional facilities, and that judges retain authority to resolve exhaustion disputes through evidentiary hearings without implicating Seventh Amendment jury trial rights.",
+      "respondent_position": "Respondent Kyle Brandon Richards (represented by the University of Virginia Appellate Litigation Clinic) argues that when disputed factual questions about exhaustion of administrative remedies are intertwined with the merits of the underlying claim \u2014 here a \u00a7 1983 retaliation claim \u2014 the Seventh Amendment guarantees a prisoner the right to have those facts resolved by a jury. Respondent contends that allowing a magistrate judge to resolve such genuinely disputed material facts at a preliminary evidentiary hearing usurps the constitutional role of the jury and effectively decides the merits of the case without proper jury consideration, as affirmed by the Sixth Circuit's reversal of the district court.",
+      "key_precedents": [
+        "Galloway v. United States, 319 U.S. 372 (1943) \u2014 directed verdict does not violate Seventh Amendment",
+        "Fidelity & Deposit Co. v. United States, 187 U.S. 315 (1902) \u2014 summary judgment does not violate Seventh Amendment",
+        "Markman v. Westview Instruments, Inc., 517 U.S. 370 (1996) \u2014 Seventh Amendment protects right to jury resolution of ultimate disputes",
+        "City of Monterey v. Del Monte Dunes at Monterey, Ltd., 526 U.S. 687 (1999) \u2014 \u00a7 1983 suits seeking legal relief are actions at law under the Seventh Amendment",
+        "Fireman's Fund Insurance Co. v. Railway Express Agency, Inc., 253 F.2d 780 (6th Cir. 1958) \u2014 jurisdictional fact-finding distinguished from merits fact-finding",
+        "Lee v. Willey \u2014 cited as authority for district court evidentiary hearings on exhaustion",
+        "McPherson v. Mich. High Sch. Athletic Ass'n, Inc., 119 F.3d 453 (6th Cir. 1997) \u2014 mootness standard"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan and Justice Jackson have pressed the most serious challenge across three rounds of deliberation, and I continue to take seriously their point that formal preclusion is not the only mechanism by which the Seventh Amendment can be circumvented \u2014 when a magistrate's credibility determination at a Spears hearing resolves the identical facts that constitute the \u00a7 1983 merits, the jury's theoretical freedom is practically illusory. But as Justice Barrett correctly identifies, the constitutional baseline under Markman's historical test asks what rights existed at common law in 1791, and there is simply no founding-era practice of juries resolving equitable threshold prerequisites to suit, however factually intertwined they were with the underlying legal claim. The practical concern Justice Jackson identifies \u2014 that prisoners lose on the facts that matter most without ever reaching a jury \u2014 is real and demands a judicial response, but the appropriate response is the narrow procedural safeguard I have outlined: a heightened findings requirement and, where exhaustion facts are literally identical to merits facts, a clear-and-convincing standard that provides meaningful protection without constitutionalizing a jury right lacking any 1791 analog. I would write the majority opinion on these narrow grounds, expressly addressing the intertwined-facts scenario through procedural requirements rather than a categorical rule, which I believe can attract Justices Kagan and Jackson without untethering the Seventh Amendment from its historical moorings or nullifying the PLRA's gatekeeping function.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan and Justice Jackson press the most serious challenge \u2014 that when exhaustion and merits facts are genuinely identical, a magistrate's credibility determination functionally resolves the case even without formal collateral estoppel, hollowing out the Seventh Amendment right in practice. This argument has genuine force as a matter of practical justice, but it cannot prevail under the originalist methodology I am bound to apply: the Seventh Amendment preserves the jury right 'as it existed' in 1791, and the relevant inquiry is whether the type of determination at issue \u2014 a threshold equitable prerequisite to suit \u2014 was resolved by juries at common law in 1791, not whether modern statutory architecture creates practical overlap with merits facts. As Justice Barrett correctly identifies, the 'intertwining' logic, if accepted, would require jury resolution of any equitable defense sharing factual overlap with a legal claim, a result the historical record cannot support and that would dissolve the law-equity distinction the Founders deliberately preserved. The practical concern Justice Jackson raises about prisoners losing on the facts that matter most is better addressed through procedural safeguards \u2014 as Justice Roberts suggests, perhaps heightened findings requirements when facts substantially overlap \u2014 rather than by constitutionalizing a jury right that has no founding-era analog.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor and Justice Kagan make the most compelling case for the respondent by invoking the 'intertwined facts' doctrine and arguing that judicial resolution of exhaustion effectively decides the merits without jury participation \u2014 but this argument proves too much and ultimately fails under rigorous historical analysis. The Seventh Amendment preserves the jury trial right as it existed in 1791, and as Justice Thomas correctly emphasizes, exhaustion has no common law antecedent from that era; its closest functional analogs are equitable threshold doctrines uniformly resolved by judges. Justice Kagan's reliance on Jones v. Bock to distinguish exhaustion from jurisdictional bars actually cuts against her position \u2014 the fact that exhaustion is a non-jurisdictional affirmative defense means Congress deliberately structured it as a judicially-administered gateway, not that it becomes a jury question whenever facts overlap with the merits. Critically, as Justice Barrett notes, a judge's exhaustion ruling does not bind the jury on the merits through collateral estoppel, which means the Beacon Theatres line of cases \u2014 premised on preventing equitable proceedings from foreclosing legal rights \u2014 does not apply here, and the Seventh Amendment's substance remains fully intact even under judicial exhaustion fact-finding.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's collateral estoppel argument is technically sound, and I have wrestled with it across three rounds of deliberation \u2014 but I remain unpersuaded that formal preclusion is the only constitutional mechanism at stake. The Seventh Amendment's protection is not merely about preventing formal issue preclusion; it is about ensuring that the factfinder constitutionally designated to resolve disputed facts about a legal claim actually performs that function. When a magistrate at a Spears hearing makes a credibility determination that Richards's account of retaliatory interference is not credible, and the case is dismissed on that basis, the jury's theoretical freedom to reach a different conclusion is illusory because the jury never convenes \u2014 the constitutional right is extinguished not through preclusion but through dismissal. Justice Roberts's proposed procedural safeguards \u2014 heightened findings requirements and clear-and-convincing standards when exhaustion facts substantially overlap with merits facts \u2014 represent a genuine and thoughtful attempt to address my core concern, and I acknowledge they would provide meaningful protection in many cases, but I am not yet convinced they fully substitute for the constitutional protection the Seventh Amendment provides when the exhaustion inquiry is literally indistinguishable from the merits inquiry. I maintain my position for Respondent, but I would limit the rule narrowly to cases of genuine, non-artful intertwining \u2014 not merely overlapping facts \u2014 and I would welcome the opportunity to join a majority opinion that includes robust procedural safeguards as an alternative holding, recognizing that Justice Roberts's approach may be the more durable institutional solution even if I believe the constitutional floor requires more.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan and Justice Sotomayor press the most serious challenge: that when exhaustion facts are genuinely identical to merits facts, judicial resolution effectively decides the merits without jury participation, circumventing City of Monterey's confirmation that \u00a7 1983 suits at law carry Seventh Amendment protection. This argument has surface appeal, but it proves too much \u2014 the same 'intertwining' logic would require jury resolution of standing facts, personal jurisdiction facts, and statute of limitations facts whenever they overlap with merits evidence, a result no court has endorsed. The critical distinction Justice Barrett correctly identifies is that a judge's exhaustion ruling carries no collateral estoppel effect on the merits: if the court finds exhaustion satisfied, the jury resolves liability on a clean slate; if exhaustion is not satisfied, the suit is dismissed on a threshold ground that has no 1791 common law jury analog. Justice Kagan's reliance on Jones v. Bock to distinguish exhaustion from jurisdictional bars actually reinforces the Petitioner's position \u2014 that exhaustion is a non-jurisdictional affirmative defense means it is a threshold matter Congress deliberately structured for judicial administration, and the absence of a founding-era jury practice for resolving such equitable gateway questions is dispositive under the Markman historical test.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's argument that Jones v. Bock's characterization of exhaustion as a non-jurisdictional affirmative defense distinguishes it from venue and abstention is the strongest challenge to my position, but I find it ultimately unpersuasive because the Seventh Amendment inquiry turns on historical practice at the founding, not on modern statutory classification \u2014 and the non-jurisdictional label does not transform an equitably-rooted threshold doctrine into a common-law jury question. Justice Sotomayor raises a genuine concern about credibility determinations in retaliation cases where the same witnesses speak to both exhaustion and merits, but the answer to that concern is not constitutionalization of jury exhaustion trials; rather, as Justice Barrett correctly notes, a judge's exhaustion ruling carries no collateral estoppel effect on the jury's merits determination, preserving the substance of the Seventh Amendment right. The 'intertwined facts' doctrine, as Justice Roberts observes, would effectively nullify the PLRA's gatekeeping function by incentivizing prisoners to artfully plead exhaustion facts as merits-adjacent, a result Congress plainly did not intend when it enacted \u00a7 1997e(a). I remain persuaded that the historical test under Markman, combined with the equitable origins of exhaustion doctrine and the absence of any founding-era practice of jury resolution of threshold procedural prerequisites, compels reversal of the Sixth Circuit.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan and Justice Jackson press the most serious challenge \u2014 that when exhaustion and merits facts are genuinely identical, a magistrate's credibility determination functionally resolves the case even without formal collateral estoppel, hollowing out the Seventh Amendment right in practice. This practical concern deserves genuine engagement, but it ultimately cannot override the constitutional baseline established by the historical test: the Seventh Amendment preserves the jury right as it existed in 1791, and there is simply no founding-era practice of juries resolving equitable threshold prerequisites to suit, regardless of how factually intertwined those prerequisites were with the underlying legal claim. Justice Kagan's point that equitable threshold doctrines like forum non conveniens involve 'genuinely severable' inquiries while exhaustion does not is the strongest version of the respondent's argument, but it proves too much \u2014 standing, personal jurisdiction, and statute of limitations facts can be equally 'inseverable' from merits facts, yet no court has held those determinations constitutionally require jury resolution. The answer to the practical concern Justice Jackson identifies is not constitutionalization of exhaustion trials, but rather procedural safeguards \u2014 as Justice Roberts suggests, heightened findings requirements or clear-and-convincing standards when exhaustion facts substantially overlap with merits facts \u2014 that protect prisoners without distorting the Seventh Amendment's historical scope.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's collateral estoppel argument remains the most formidable challenge to my position, and I want to engage it with full seriousness: she is correct that formal preclusion does not attach, but the constitutional concern I am identifying is not about formal preclusion \u2014 it is about the practical reality that when a magistrate judge at a Spears hearing finds, based on credibility, that a prisoner's account of retaliatory interference with grievances is not credible, that prisoner's \u00a7 1983 retaliation claim is functionally dead before the jury ever convenes, not because of collateral estoppel but because the case is dismissed at the threshold. Justice Gorsuch's slippery slope argument \u2014 that the intertwining logic would require jury resolution of standing, personal jurisdiction, and limitations facts \u2014 is genuinely troubling, but I think it proves too much in the other direction: those doctrines involve genuinely severable inquiries, whereas in Richards's case the identical witnesses, the identical events, and the identical credibility judgments determine both exhaustion and liability, making the 'threshold' characterization a legal fiction rather than a meaningful distinction. I acknowledge the weight of the originalist consensus my colleagues have marshaled, and I recognize that exhaustion's equitable origins are a serious obstacle to my position under Markman's historical test, but I remain persuaded that no founding-era equitable doctrine operated to extinguish a legal claim by resolving the very same disputed facts that constitute the merits of that claim \u2014 and that the Seventh Amendment's functional purpose cannot be satisfied by a formalism that permits exactly this result. I maintain my position for the Respondent, though I would limit the rule narrowly to cases of genuine, non-artful intertwining where the exhaustion inquiry is factually indistinguishable from the merits inquiry.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Roberts's offer of a narrow majority opinion with heightened procedural safeguards \u2014 clear-and-convincing standards or mandatory written findings when exhaustion facts substantially overlap with merits facts \u2014 directly addresses the core concern I have been pressing throughout deliberation. My worry was never that judges categorically lack authority to resolve exhaustion; it was that in the genuinely intertwined retaliation case, a credibility finding at the threshold functionally extinguishes the \u00a7 1983 claim before the jury convenes. If the majority opinion expressly requires heightened procedural protections in that narrow category, the practical circumvention I identified is meaningfully constrained without constitutionalizing a jury right that, as Justice Barrett correctly notes, lacks a founding-era analog under the Markman historical test. I am persuaded that a well-crafted Petitioner opinion with robust safeguards better serves the Seventh Amendment's functional purpose than a Respondent holding that would incentivize artful pleading and risk swallowing PLRA's gatekeeping function \u2014 and I am therefore willing to join the majority on the understanding that the procedural safeguards Justice Roberts describes are not mere dicta but operative holdings.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The narrowest and most institutionally sound resolution here is that exhaustion under the PLRA, while not jurisdictional per Woodford v. Ngo, functions as a threshold gatekeeping matter historically analogous to equitable forum-based defenses resolved by judges rather than juries. As the research confirms, the closest historical analogs to exhaustion requirements were equitable in nature, placing them outside the Seventh Amendment's protection as established by the 1791 baseline. Critically, a judge's preliminary fact-finding on exhaustion does not permanently bind the jury on the merits \u2014 if exhaustion is found satisfied, the jury remains free to find facts on the underlying \u00a7 1983 claim without collateral estoppel effect, preserving the substance of the jury trial right recognized in City of Monterey v. Del Monte Dunes. Permitting the Sixth Circuit's rule to stand would effectively nullify the PLRA's mandatory exhaustion requirement whenever a prisoner can artfully plead facts intertwining exhaustion with the merits, a result Congress plainly did not intend and one that undermines the institutional legitimacy of a carefully crafted statutory scheme.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As an originalist, the dispositive question is whether exhaustion of administrative remedies, or sufficiently analogous threshold prerequisites, were resolved by juries in suits at common law in 1791. The historical record strongly suggests that exhaustion has no direct common law antecedent, and its closest analogs \u2014 equitable defenses such as adequate remedy at law, forum non conveniens, and similar gateway doctrines \u2014 were resolved by judges sitting in equity, not juries. The Seventh Amendment preserves the right to jury trial only as to 'suits at common law,' meaning legal actions triable by jury at the founding, and the resolution of threshold procedural prerequisites of equitable origin falls outside that preserved right even when factual questions incidentally overlap with merits issues. Furthermore, Congress's authority under Article I to condition the right to bring suit in federal court on satisfaction of administrative prerequisites \u2014 as it did in the PLRA \u2014 does not transform a judicially-administered gateway requirement into a jury question simply because the underlying \u00a7 1983 claim would otherwise be legal in nature under City of Monterey v. Del Monte Dunes.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "As a textualist and originalist, the Seventh Amendment's historical test controls here, and the research makes clear that exhaustion requirements did not exist at common law in 1791 \u2014 their origins are equitable, not legal. Analogous equitable threshold defenses such as forum non conveniens, abstention, and habeas bars were historically resolved by judges, not juries, meaning no Seventh Amendment jury trial right attaches to exhaustion determinations under the historical test articulated in Markman v. Westview Instruments, Inc. The 'intertwined facts' doctrine invoked by the Sixth Circuit and respondent cannot override this historical analysis \u2014 allowing factual overlap with the merits to bootstrap a jury trial right onto an inherently equitable threshold inquiry would swallow the PLRA's core gatekeeping function and impose precisely the litigation burdens on correctional facilities that Congress enacted 42 U.S.C. \u00a7 1997e(a) to prevent. Practical consequences reinforce this conclusion: permitting prisoners to demand jury resolution of exhaustion disputes whenever they artfully plead facts overlapping with the merits would effectively nullify the PLRA's exhaustion requirement as a meaningful pre-litigation filter.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "When disputed factual questions about PLRA exhaustion are genuinely intertwined with the merits of a \u00a7 1983 claim \u2014 as established in City of Monterey v. Del Monte Dunes, which confirmed that \u00a7 1983 suits seeking legal relief are actions at law carrying Seventh Amendment protections \u2014 allowing a magistrate judge to resolve those facts at a preliminary evidentiary hearing effectively decides the merits without jury consideration, undermining the constitutional guarantee. While I recognize the equitable origins of exhaustion doctrine and the legitimate gatekeeping role of judges under the PLRA, the practical reality is that when the same disputed facts determine both exhaustion and liability, a judicial finding at the threshold stage forecloses the jury's role on the very substance of the prisoner's claim, which is precisely the harm the Seventh Amendment guards against. The PLRA's purpose of reducing frivolous litigation does not override constitutional jury trial rights, particularly for vulnerable incarcerated individuals whose \u00a7 1983 retaliation claims \u2014 involving their word against prison officials \u2014 are especially susceptible to being extinguished at a non-jury proceeding where credibility determinations are made without the structural protections a jury provides. Markman v. Westview Instruments reinforces that the Seventh Amendment protects jury resolution of ultimate factual disputes, and where exhaustion facts are the merits facts, that protection must apply.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "When disputed factual questions about PLRA exhaustion are genuinely intertwined with the merits of the underlying \u00a7 1983 claim \u2014 meaning the same operative facts simultaneously determine both the procedural threshold and the ultimate liability question \u2014 the Seventh Amendment's jury trial guarantee cannot be circumvented by labeling those facts 'merely procedural.' As this Court established in Jones v. Bock, PLRA exhaustion is a non-jurisdictional affirmative defense, not a true jurisdictional bar, which critically distinguishes it from venue, subject-matter jurisdiction, and abstention, where no constitutional jury right attaches because those determinations are genuinely severable from the merits. City of Monterey confirms that \u00a7 1983 suits seeking legal relief are actions at law, and Markman's principle that the Seventh Amendment protects jury resolution of ultimate disputes means that when a magistrate judge resolves the 'exhaustion' facts, she is effectively deciding the merits without jury participation \u2014 precisely what the Constitution forbids. I would affirm the Sixth Circuit's judgment while acknowledging that in the non-intertwined majority of PLRA cases, judicial fact-finding on exhaustion remains entirely appropriate and workable.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, my analysis begins and ends with what the Seventh Amendment's Preservation Clause actually locked in at ratification in 1791. The historical research is dispositive: exhaustion of administrative remedies did not exist as a common law doctrine in 1791, and its functional roots lie in equity, not law \u2014 courts of chancery, not juries, resolved threshold forum-based questions like adequate remedy at law, forum non conveniens, and analogous equitable bars. Under Markman v. Westview Instruments, where no exact historical antecedent exists, we look to the closest functional analog, and those analogs \u2014 all equity-based threshold doctrines \u2014 were uniformly resolved by judges, not juries, even when they touched on facts overlapping with the merits. The 'intertwining' argument advanced by Respondent is seductive but ultimately proves too much; it would constitutionalize jury resolution of any threshold fact that happens to share evidentiary overlap with the merits, a result unsupported by the historical record and inconsistent with the Court's recognition in Fidelity & Deposit Co. that judges may resolve threshold jurisdictional and procedural facts without Seventh Amendment infirmity.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Seventh Amendment preserves the right to jury trial as it existed at common law in 1791, and as the research confirms, exhaustion requirements did not exist at common law in 1791 \u2014 they originated in equity, where judges, not juries, resolved threshold gateway questions. Under the historical test articulated in Markman v. Westview Instruments, the relevant inquiry is whether the particular issue must fall to the jury to preserve the substance of the common-law right, and since exhaustion is functionally analogous to equitable forum-based defenses like forum non conveniens and abstention \u2014 all historically non-jury matters \u2014 judges retain authority to resolve exhaustion disputes even when facts overlap with the merits. The Sixth Circuit's 'intertwined facts' doctrine, while superficially appealing, lacks grounding in founding-era practice and would effectively nullify the PLRA's core gatekeeping function by allowing prisoners to circumvent judicial exhaustion determinations simply by framing their factual disputes as merits-adjacent. Practical workability also counsels against the Sixth Circuit's rule, as it would create perverse incentives for prisoners to manufacture merits-exhaustion overlap and would undermine Congress's deliberate policy choice in enacting 42 U.S.C. \u00a7 1997e(a) to reduce the burden of prisoner litigation on correctional systems.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As an originalist and textualist, I must first ask whether exhaustion of administrative remedies under the PLRA constitutes the type of 'suit at common law' that the Seventh Amendment's jury trial right was understood to protect in 1791. Exhaustion is a statutory threshold precondition to suit \u2014 not an element of the underlying \u00a7 1983 claim \u2014 and there is no historical analog at common law in 1791 for administrative exhaustion requirements that would have been submitted to a jury rather than resolved by a judge as a preliminary matter. The Beacon Theatres and Dairy Queen line of cases addresses the ordering of legal versus equitable claims sharing common facts, but that doctrine is premised on collateral estoppel concerns that do not arise here, since a judge's exhaustion ruling does not bind the jury on the merits of the underlying retaliation claim; moreover, Congress's deliberate structural choice in 42 U.S.C. \u00a7 1997e(a) to impose exhaustion as a gatekeeping mechanism \u2014 consistent with the PLRA's purpose of reducing frivolous prisoner litigation \u2014 would be substantially undermined if disputed exhaustion facts were routinely submitted to juries, and methodological consistency demands that we respect that congressional design absent a clear constitutional command to the contrary rooted in the Amendment's original public meaning.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "When disputed factual questions about PLRA exhaustion are genuinely intertwined with the merits of an underlying \u00a7 1983 claim \u2014 as in Richards's First Amendment retaliation case, where the same facts bearing on whether he properly exhausted also go to the heart of whether retaliation occurred \u2014 allowing a magistrate judge to resolve those facts at a preliminary evidentiary hearing effectively decides the merits without jury participation, in tension with the Seventh Amendment as interpreted in City of Monterey v. Del Monte Dunes, which confirms that \u00a7 1983 suits seeking legal relief are actions at law carrying jury trial rights. While I recognize the strong consensus among circuits that judges may resolve exhaustion disputes, and I take seriously the PLRA's gatekeeping purpose, procedural fairness demands that we not permit threshold labels to swallow constitutional substance \u2014 a prisoner should not lose his jury right simply because the government frames a merits-dispositive factual contest as a 'preliminary' matter. My background as a public defender reinforces my concern that the practical consequence of the rule Petitioner urges is that incarcerated people, already disadvantaged in litigation, lose their constitutional right to a jury on the very facts that determine whether their civil rights claims survive. The intertwining doctrine, as the Sixth Circuit correctly identified, requires that when exhaustion facts cannot be cleanly separated from merits facts, the Seventh Amendment's protection attaches.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.742,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  }
+]

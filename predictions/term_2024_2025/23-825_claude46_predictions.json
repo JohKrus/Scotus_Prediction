@@ -1,0 +1,629 @@
+[
+  {
+    "docket": "23-825",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether attempted murder under the Violent Crimes in Aid of Racketeering (VICAR) statute, 18 U.S.C. 1959(a)(5), qualifies as a 'crime of violence' under 18 U.S.C. 924(c)(3), specifically when the underlying state offense (New York second-degree murder) can be committed without physical action.",
+      "legal_provision": "18 U.S.C. 924(c)(3) - the 'force clause' defining 'crime of violence' as a felony that 'has as an element the use, attempted use, or threatened use of physical force against the person or property of another'; in conjunction with 18 U.S.C. 1959(a)(5) - the Violent Crimes in Aid of Racketeering (VICAR) statute covering attempted murder",
+      "petitioner_position": "Delligatti argues that attempted murder under VICAR does not categorically qualify as a crime of violence under Section 924(c)(3) because the predicate offense \u2014 New York second-degree murder \u2014 can be committed through omission or inaction (e.g., depraved indifference murder requiring no affirmative physical act), meaning it does not necessarily have 'as an element the use of physical force.' Under the categorical approach, if any realistic probability exists that the statute covers non-violent conduct, it cannot serve as a qualifying predicate offense, and therefore the enhanced mandatory minimum sentence under Section 924(c) cannot stand.",
+      "respondent_position": "The United States, represented by Solicitor General Prelogar, argues that attempted murder under VICAR does qualify as a crime of violence because murder \u2014 by its very nature \u2014 involves the use or attempted use of physical force against another person. The government contends that even under the categorical approach, the elemental structure of attempted murder necessarily encompasses the use of physical force, and that any theoretical possibility of commission by omission does not defeat this classification when the realistic probability standard is properly applied.",
+      "key_precedents": [
+        "Johnson v. United States, 559 U.S. 133 (2010) - defining 'physical force' as violent force capable of causing physical pain or injury",
+        "Sessions v. Dimaya, 584 U.S. 148 (2018) - striking down the residual clause of Section 16(b) as unconstitutionally vague",
+        "United States v. Davis, 588 U.S. 445 (2019) - striking down the residual clause of Section 924(c)(3)(B) as unconstitutionally vague",
+        "Taylor v. United States, 495 U.S. 575 (1990) - establishing the categorical approach for analyzing predicate offenses",
+        "Descamps v. United States, 570 U.S. 254 (2013) - reaffirming and clarifying the categorical approach",
+        "Mathis v. United States, 579 U.S. 500 (2016) - further refining the categorical approach and modified categorical approach",
+        "Borden v. United States, 593 U.S. 420 (2021) - holding that offenses with a mens rea of recklessness do not qualify as violent felonies under the ACCA force clause",
+        "Franks v. Delaware, 438 U.S. 154 (1978) - referenced in district court proceedings regarding warrant affidavit challenges (Franks hearing standard)",
+        "United States v. Delligatti, 36 F.4th 423 (2d Cir. 2022) - original Second Circuit panel opinion",
+        "United States v. Delligatti, 83 F.4th 113 (2d Cir. 2023) - amended Second Circuit opinion affirming VICAR attempted murder as a crime of violence"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson's categorical rigor argument remains the most serious challenge, and I credit her concern that the categorical approach demands elemental analysis rather than pragmatic intuition about how prosecutions typically proceed. However, as Justice Kagan articulates with precision, the attempt overlay is not merely a practical observation about prosecutorial behavior \u2014 it is an elemental structural point: the charged offense is VICAR attempted murder, and attempt as an element categorically requires a substantial step, which is by definition an affirmative act. This is not collapsing the categorical approach into case-by-case factual inquiry; it is applying the categorical approach to the actual elements of the charged offense, which includes the attempt element itself. Consistent with my minimalist approach, I would write narrowly to hold only that VICAR attempted murder satisfies the force clause because the attempt element necessarily requires an affirmative act directed at causing death, expressly reserving the question of how completed depraved-indifference or omission-based offenses fare under Section 924(c)(3) \u2014 a narrow holding that should command a strong majority while preserving doctrinal coherence with Taylor, Mathis, and Borden.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson raises the strongest opposing argument \u2014 that New York's depraved indifference murder statute can be committed by omission, and under the categorical approach's least-culpable-conduct analysis, this theoretical possibility should defeat the force clause qualification. However, I find this argument ultimately unpersuasive because it conflates the elements of the completed offense with the elements of attempt. The attempt overlay is analytically decisive: one cannot 'attempt' murder by pure inaction, because attempt by definition requires a substantial step \u2014 an affirmative act \u2014 directed toward causing death. As Justice Kagan correctly observes, the attempt element itself transforms the analysis, and the text of Section 924(c)(3)(A) specifically references 'attempted use of physical force,' which most naturally encompasses an offense whose elemental structure requires a purposeful, affirmative act directed at killing another person. Borden's recklessness holding does not control here because attempted murder requires specific intent to kill, not mere reckless disregard, and the original public meaning of 'use of physical force' at the time of enactment would have encompassed deliberate, purposeful acts directed at causing death \u2014 precisely what VICAR attempted murder requires.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson raises the most serious challenge by invoking the categorical approach's demand that we examine the least culpable conduct \u2014 specifically that New York second-degree murder can be committed through depraved indifference or omission, which under Borden would not satisfy the force clause. However, this argument conflates the predicate completed offense with the attempt overlay that VICAR actually charges. As Justice Kagan correctly observes, one cannot attempt to murder by pure inaction \u2014 the attempt element itself structurally requires an affirmative substantial step directed at causing death, which necessarily constitutes the attempted use of physical force under Johnson's definition. The realistic probability standard further defeats Justice Jackson's position: no genuine VICAR prosecution for attempted murder could proceed on a theory that the defendant merely omitted to act with depraved indifference, because attempt law by definition requires an overt affirmative act, and the racketeering context of VICAR makes such a theoretical prosecution even more implausible. The perverse consequence Justice Sotomayor identifies \u2014 that threatening injury qualifies as a crime of violence while attempting murder does not \u2014 confirms that the categorical approach, properly applied, supports the government's position here.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's categorical rigor argument remains the most intellectually serious challenge, and I respect her commitment to doctrinal consistency \u2014 the categorical approach exists precisely to prevent courts from reasoning from typical cases rather than statutory elements. However, I am increasingly persuaded that her argument proves too much: as Justice Kagan correctly identifies, Section 924(c)(3)(A) itself uses the phrase 'attempted use of physical force,' and the attempt element's structural requirement of a substantial step \u2014 an affirmative act \u2014 is itself an element of the charged offense, not merely a practical observation about how prosecutions proceed. The categorical approach asks us to analyze the elements of VICAR attempted murder as charged, and those elements necessarily include the attempt overlay's actus reus requirement, which forecloses the omission-based theoretical concern that Justice Jackson derives from the completed predicate offense in isolation. Justice Jackson's concern about collapsing categorical analysis into case-by-case inquiry is well-taken as a general matter, but the attempt element here does categorical work \u2014 it is not a pragmatic override of elemental analysis but rather an additional element that independently satisfies the force clause, preserving the doctrinal integrity she rightly prizes while reaching the correct textual result.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's categorical rigor argument remains the most intellectually serious challenge, and I credit her concern that allowing 'realistic probability' intuitions to override elemental analysis risks collapsing the categorical approach into the case-by-case factual inquiry that Taylor and Mathis were designed to prevent. However, her argument ultimately misidentifies what the categorical approach is analyzing here: the charged offense is VICAR attempted murder, and the elements of attempt \u2014 specifically the substantial step requirement \u2014 are themselves part of the elemental structure we must examine. The attempt element is not an overlay we impose on top of the categorical analysis; it is part of the offense's definitional structure, and Section 924(c)(3)(A)'s own text referencing 'attempted use of physical force' confirms that Congress understood attempt to carry its own actus reus requirements. Justice Barrett puts this precisely: the depraved indifference omission scenario is a feature of completed second-degree murder, not of the attempt offense, and the categorical approach asks us to analyze the elements of what was actually charged \u2014 VICAR attempted murder \u2014 whose elemental structure categorically requires an affirmative, purposeful act directed at causing death.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson's argument remains the most intellectually serious challenge, and I credit her insistence that the categorical approach demands elemental analysis rather than pragmatic intuition about how prosecutions typically proceed \u2014 she is right that 'realistic probability' cannot become a license to ignore theoretical statutory pathways. However, her argument ultimately fails on its own categorical terms: the charged offense is VICAR *attempted* murder, not completed second-degree murder, and the elements of attempt \u2014 specifically the substantial step requirement \u2014 are themselves part of the elemental structure we must analyze under the categorical approach. As Justice Kagan correctly identifies, Section 924(c)(3)(A)'s text covers 'attempted use of physical force,' and the attempt element categorically forecloses the omission pathway Justice Jackson identifies with respect to the completed predicate, because no elemental definition of attempt permits a substantial step accomplished through pure inaction. This is not a pragmatic override of categorical rigor but rather its proper application: we analyze the elements of the offense actually charged, and those elements \u2014 including the attempt overlay \u2014 categorically require an affirmative act directed at causing death.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's argument \u2014 that New York second-degree murder can be committed through depraved indifference omissions, and that the categorical approach requires us to consider the least culpable conduct \u2014 is the strongest challenge here, but it ultimately fails because it conflates the predicate completed offense with the attempt overlay. As Justice Kagan correctly observes, one cannot attempt to murder by pure inaction \u2014 the attempt element itself structurally requires an affirmative substantial step directed at causing death, which necessarily incorporates the use or attempted use of physical force under Johnson's definition. The Borden recklessness concern is inapplicable because attempted murder demands purposeful, intentional conduct aimed at killing, not mere reckless disregard, and the realistic probability standard forecloses the theoretical omission scenario Justice Jackson invokes. As an institutionalist, I am also mindful that holding attempted murder categorically non-violent would produce a result so anomalous \u2014 threatening injury qualifies while attempting to kill does not \u2014 that it would seriously undermine public confidence in the Court's jurisprudence and Congress's clear remedial intent in enacting Section 924(c) and VICAR.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's most compelling point \u2014 that the categorical approach demands elemental analysis rather than practical assessment of how prosecutions typically proceed \u2014 is well-taken as a methodological matter, but it ultimately fails to account for the structural distinction between completed offenses and attempts. As Justice Kagan correctly identifies, the attempt overlay is not merely a practical observation about prosecutorial behavior; it is an elemental transformation, because attempt as a matter of black-letter criminal law requires a substantial step, which is by definition an affirmative act, and Section 924(c)(3)(A)'s text specifically covers 'attempted use of physical force' \u2014 meaning the attempt element itself supplies the affirmative physical conduct the force clause demands. Justice Jackson's concern about collapsing the categorical approach into case-by-case factual inquiry is legitimate, but the answer is not to ignore that attempt's own elements categorically foreclose the omission-based scenario she identifies; rather, the categorical analysis of VICAR attempted murder \u2014 examining all elements including the attempt element \u2014 reveals that no set of facts satisfying those elements could involve pure inaction. The Borden recklessness problem does not transfer here because Borden addressed a completed offense where the mens rea element itself was insufficient; here, the actus reus element of attempt independently resolves the force clause question regardless of the underlying predicate's theoretical breadth.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.5499999999999999,
+        "reasoning": "After careful reflection on Justice Kagan's argument \u2014 which every colleague has now reinforced with distinct analytical framings \u2014 I am persuaded that the attempt overlay does dispositive work that I was insufficiently crediting. My concern about the categorical approach's least-culpable-conduct analysis was well-founded as applied to completed depraved indifference murder, but Justice Kagan correctly identifies that Section 924(c)(3)(A) itself uses the phrase 'attempted use of physical force,' and the attempt element's substantial step requirement structurally demands an affirmative act directed at causing death \u2014 one genuinely cannot take a substantial step toward murder through pure inaction. This is not collapsing the categorical approach into case-by-case factual inquiry as I feared; it is applying the categorical approach to the actual charged offense \u2014 VICAR attempted murder \u2014 whose elemental structure necessarily incorporates purposeful, affirmative force-directed conduct, which is precisely what the force clause requires. Justice Barrett's point that Borden's recklessness holding addressed mens rea insufficiency while the attempt actus reus requirement independently satisfies the force clause is the analytical move that finally resolves my hesitation, because it preserves categorical rigor while correctly identifying that the omission-based theoretical concern attaches to the completed predicate, not to the attempt overlay that VICAR actually charges.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the categorical approach established in Taylor and refined through Mathis, the relevant inquiry is whether the minimum conduct criminalized by VICAR attempted murder necessarily involves the use or attempted use of physical force as defined in Johnson v. United States. Attempted murder \u2014 by its elemental structure \u2014 requires a specific intent to kill and a substantial step toward that killing, which categorically entails the attempted use of violent physical force capable of causing death or serious injury, regardless of whether the underlying completed offense of second-degree murder might theoretically encompass omission-based depraved indifference scenarios. Critically, Borden's limitation on recklessness-based offenses is distinguishable here because attempt requires purposeful conduct directed at causing death, not merely reckless disregard \u2014 the mens rea and actus reus of attempt together foreclose the omission-based theoretical concern. Consistent with my preference for narrow rulings, I would hold only that VICAR attempted murder qualifies under the force clause on these specific elemental grounds, without broadly resolving how omission-based completed offenses fare under Section 924(c)(3).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the categorical approach as refined in Taylor v. United States (2022) and Johnson v. United States (2010), attempted murder under VICAR necessarily requires the government to prove, as an element, the attempted use of physical force capable of causing death or serious bodily injury against another person. The text of Section 924(c)(3)(A) asks whether the offense 'has as an element the use, attempted use, or threatened use of physical force,' and attempt to commit murder \u2014 by its elemental structure \u2014 requires a substantial step toward causing the death of another, which categorically incorporates the attempted use of violent physical force as defined in Johnson. While New York's depraved indifference murder statute theoretically permits commission by omission, the attempt element itself demands an affirmative substantial step, meaning no realistic probability exists that a prosecution for attempted murder could proceed without proving some directed application of force toward a victim. Borden v. United States (2021) does not compel a different result here because the mens rea for attempted murder is intentional, not merely reckless, and the Second Circuit correctly recognized that intentional homicidal conduct \u2014 whether by commission or omission \u2014 necessarily involves the use of physical force against the person of another.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As a textualist focused on practical consequences, I find that attempted murder under VICAR necessarily satisfies the force clause of Section 924(c)(3)(A) because the very definition of murder \u2014 the intentional killing of another person \u2014 inherently involves the use or attempted use of physical force as defined in Johnson v. United States, 559 U.S. 133 (2010). While Borden correctly held that reckless offenses cannot qualify under the force clause due to insufficient mens rea, the categorical approach here must account for the fact that attempted murder requires a specific intent to kill, meaning the least culpable conduct still necessarily involves a deliberate attempt to apply violent force against another person. The theoretical possibility that New York's depraved indifference murder statute might be committed by omission does not defeat this analysis when we properly apply the realistic probability standard \u2014 no realistic prosecution for attempted murder under VICAR would proceed on a pure omission theory, and allowing such a remote hypothetical to unravel a straightforward violent crime enhancement would produce absurd practical consequences that Congress could not have intended when enacting Section 924(c). The government's position aligns with the elemental structure of the offense and avoids the perverse outcome of treating attempted murder as categorically non-violent.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While I have deep concerns about mandatory minimums and their disproportionate impact on vulnerable communities, the categorical approach as applied here does not compel Delligatti's position. Under Johnson v. United States (2010), 'physical force' means violent force capable of causing physical pain or injury, and attempted murder \u2014 by its elemental structure \u2014 necessarily requires the intent to cause death through means that constitute the use or attempted use of such force. Although Borden v. United States (2021) established that recklessness-based offenses fall outside the force clause, attempted murder requires a specific intent to kill, which is categorically distinct from mere recklessness or negligence; the theoretical possibility of commission by omission in narrow depraved indifference scenarios does not represent a 'realistic probability' sufficient to defeat classification under the categorical approach when the core elemental structure of the offense demands purposeful lethal conduct. Accepting Delligatti's argument would, as the government notes, produce the perverse result that threatening to injure someone qualifies as a crime of violence while actually attempting to kill someone does not \u2014 an outcome that defies the statutory text, common sense, and the remedial purposes Congress intended when enacting Section 924(c) to address the most serious violent criminal conduct.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the categorical approach, the critical question is whether attempted murder under VICAR necessarily involves the use or attempted use of physical force. Attempt crimes have a distinctive elemental structure: to be convicted of attempted murder, a defendant must take a substantial step toward causing death with the specific intent to kill, and that substantial step \u2014 by definition \u2014 constitutes an attempted use of physical force against another person, even if the completed offense of second-degree murder under New York law could theoretically be accomplished through omission. Borden v. United States (2021) addressed the mens rea dimension of the force clause, holding recklessness insufficient, but it did not resolve whether the attempt element itself supplies the requisite volitional force; here, the attempt's elemental requirement of a purposeful substantial step directed at causing death categorically satisfies Section 924(c)(3)(A)'s 'attempted use of physical force' language. While I take seriously the rule of lenity concerns raised by amici and the textual argument about omission-based predicates, the workable and textually coherent reading is that the attempt overlay transforms the analysis \u2014 one cannot attempt to murder by pure inaction, as the attempt itself requires an affirmative act directed toward killing, making VICAR attempted murder a categorical crime of violence.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the categorical approach with fidelity to the plain text of Section 924(c)(3)(A), I find that attempted murder under VICAR necessarily requires the use or attempted use of physical force as defined in Johnson v. United States (2010). The attempt element is critical here: to attempt murder, a defendant must take a substantial step toward causing death, which by its very nature requires an affirmative act directed at another person \u2014 the attempt itself imports an element of physical force that the completed offense, in its most theoretical form, might not. While Borden correctly held that recklessness-based offenses fall outside the force clause, attempted murder requires purposeful conduct aimed at killing, and the structural logic of attempt law \u2014 requiring a deliberate overt act \u2014 means the realistic probability of commission by pure omission is vanishingly small and legally distinct from the depraved indifference scenario. The rule of lenity gives me pause, and I acknowledge the categorical approach's demand for rigor, but the text's reference to 'attempted use of physical force' most naturally encompasses an offense whose very definition requires a purposeful step toward violent harm.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Attempted murder under VICAR categorically qualifies as a crime of violence under Section 924(c)(3)'s force clause because murder \u2014 by its elemental nature \u2014 requires the use or attempted use of physical force capable of causing death or serious bodily injury, consistent with Johnson v. United States (2010)'s definition of violent force. The categorical approach's 'realistic probability' standard, as refined through Taylor, Descamps, and Mathis, does not require that every conceivable theoretical application of a statute be violent, but rather that the minimum conduct criminalized necessarily involves the requisite force; the historical and common law treatment of homicide \u2014 including omission-based theories \u2014 reflects that even duty-based omissions involve an affirmative act of withholding force or life-sustaining action, not a genuine absence of physical causation. Furthermore, Borden's recklessness holding is distinguishable because attempted murder requires purposeful or knowing conduct directed at causing death, which inherently encompasses the use of physical force against a person. As an institutionalist, I am also mindful that construing VICAR attempted murder as categorically non-violent would produce an anomalous and practically unworkable result that undermines Congress's clear intent in enacting both Section 924(c) and VICAR to address the most serious violent criminal conduct.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As a textualist and originalist, I must examine what 'use of physical force' meant at the time of enactment and whether attempted murder under VICAR categorically satisfies that standard. Murder \u2014 by its elemental definition \u2014 requires causing the death of another person, and attempt requires a substantial step toward that end with the requisite intent; the overwhelming majority of prosecutable attempted murder cases necessarily involve the application or attempted application of violent physical force as Johnson v. United States (2010) defined it \u2014 force 'capable of causing physical pain or injury.' While Borden v. United States (2021) correctly excluded recklessness-based offenses because they lack the purposeful directedness toward force that the clause requires, attempted murder by definition requires the specific intent to kill, which structurally demands purposeful force-directed conduct. The theoretical possibility that New York's depraved indifference murder statute could be committed by omission does not defeat the categorical analysis here because, applying a realistic probability standard, no genuine prosecutorial application of VICAR attempted murder \u2014 which requires proof of an attempt to kill in furtherance of racketeering \u2014 could plausibly proceed on a pure omission theory, and the elemental structure of 'attempt' itself necessarily incorporates an affirmative act directed at the use of physical force against another person.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Under the categorical approach established in Taylor v. United States and refined through Mathis and Borden, a court must assess whether the least culpable conduct satisfying the offense elements necessarily involves the use of physical force. New York second-degree murder can be committed through depraved indifference \u2014 a mental state that, as Borden v. United States (2021) instructs regarding recklessness-based offenses, does not categorically satisfy the force clause \u2014 and critically, it can be committed through omission or inaction, meaning the elemental structure does not invariably require an affirmative physical act against another person. My background as a public defender reinforces my concern that mandatory minimums under Section 924(c) carry severe practical consequences for defendants, and the categorical approach exists precisely to prevent courts from relying on the specific facts of a case rather than the statute's full elemental scope; if any realistic probability exists that the predicate offense covers non-violent conduct, the enhancement cannot stand. The government's position, while pragmatically appealing given the violent nature of the actual conduct here, asks the Court to effectively abandon categorical rigor in favor of a common-sense intuition about murder \u2014 an approach that would undermine the doctrinal consistency this Court has labored to maintain since Davis and Borden.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.799,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.5499999999999999,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.5499999999999999,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "23-825",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether attempted murder under the Violent Crimes in Aid of Racketeering (VICAR) statute, 18 U.S.C. 1959(a)(5), qualifies as a 'crime of violence' under 18 U.S.C. 924(c)(3), specifically when the underlying state offense (New York second-degree murder) can be committed without physical action.",
+      "legal_provision": "18 U.S.C. 924(c)(3) - the 'force clause' defining 'crime of violence' as a felony that 'has as an element the use, attempted use, or threatened use of physical force against the person or property of another'; in conjunction with 18 U.S.C. 1959(a)(5) - the Violent Crimes in Aid of Racketeering (VICAR) statute covering attempted murder",
+      "petitioner_position": "Delligatti argues that attempted murder under VICAR does not categorically qualify as a crime of violence under Section 924(c)(3) because the predicate offense \u2014 New York second-degree murder \u2014 can be committed through omission or inaction (i.e., without the 'use of physical force'), meaning it does not necessarily have as an element the active use, attempted use, or threatened use of physical force. Under the categorical approach, if any realistic probability exists that the statute covers non-violent conduct, it cannot serve as a qualifying predicate offense, and therefore the enhanced mandatory minimum sentence under Section 924(c) should not apply.",
+      "respondent_position": "The United States argues that attempted murder under VICAR does qualify as a crime of violence under Section 924(c)(3) because murder \u2014 by its very nature \u2014 requires conduct that is inherently violent and directed at causing death, satisfying the force clause. The government contends that the categorical approach should be applied in a practical, common-sense manner recognizing that attempted murder invariably involves the use or attempted use of physical force, and that any theoretical possibility of commission by omission does not disqualify the offense from serving as a valid predicate crime of violence.",
+      "key_precedents": [
+        "Johnson v. United States, 559 U.S. 133 (2010) - defining 'physical force' as violent force capable of causing physical pain or injury",
+        "Johnson v. United States, 576 U.S. 591 (2015) - striking down the residual clause of the Armed Career Criminal Act as unconstitutionally vague",
+        "Sessions v. Dimaya, 584 U.S. 148 (2018) - invalidating the residual clause of 18 U.S.C. 16(b) as void for vagueness",
+        "United States v. Davis, 588 U.S. 445 (2019) - striking down the residual clause of Section 924(c)(3)(B) as unconstitutionally vague",
+        "Taylor v. United States, 596 U.S. 845 (2022) - applying categorical approach to Hobbs Act robbery as a crime of violence predicate",
+        "Borden v. United States, 593 U.S. 420 (2021) - holding that offenses with a mens rea of recklessness do not qualify as violent felonies under ACCA's force clause",
+        "Descamps v. United States, 570 U.S. 254 (2013) - reaffirming the categorical approach for determining predicate offenses",
+        "Mathis v. United States, 579 U.S. 500 (2016) - clarifying application of the categorical and modified categorical approaches",
+        "Franks v. Delaware, 438 U.S. 154 (1978) - referenced in district court proceedings regarding warrant affidavit challenges (Franks hearing standard)",
+        "United States v. Delligatti, 83 F.4th 113 (2d Cir. 2023) - the Second Circuit amended opinion under review"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument remains the most serious challenge \u2014 she correctly notes that under New York law, a parent who deliberately withholds food with intent to kill may have taken a 'substantial step' constituting attempted murder by omission, which means the omission problem does not categorically disappear at the attempt stage. However, I find Justice Barrett's structural textual argument ultimately more persuasive: the force clause's own 'attempted use of physical force' language provides an independent basis for analysis, and the realistic probability test from Taylor requires more than a theoretical hypothetical with no actual prosecutorial analog in VICAR cases. As Chief Justice, I am also mindful that a narrow holding \u2014 one that rests specifically on the interaction between the force clause's 'attempted use' language and the structural requirements of attempt doctrine, rather than a broad categorical ruling about second-degree murder \u2014 would best serve institutional legitimacy by avoiding unnecessary breadth. Justice Sotomayor's rule of lenity argument is well-taken as a tiebreaker principle, but I do not find the statutory text genuinely ambiguous once we recognize that 'attempted use of physical force' in the force clause itself does independent work in this analysis.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson's argument that a parent deliberately withholding food from a child with intent to kill could constitute a 'substantial step' toward omission-based attempted murder under New York law is the most serious challenge to my position, and I do not dismiss it lightly. However, I find this scenario fails the realistic probability test from Taylor \u2014 no court has ever sustained a VICAR attempted murder conviction on an omission theory, and the categorical approach requires more than a purely theoretical hypothetical with no prosecutorial grounding. More fundamentally, Justice Barrett's textual insight remains decisive for me as an originalist: the force clause of Section 924(c)(3)(A) explicitly covers the 'attempted use of physical force,' and when Congress in 1984 enacted that language, the ordinary public meaning of 'attempted use of physical force' would have been understood to require an affirmative act directed at causing harm \u2014 no ordinary speaker of English would have understood 'attempting to use force' to encompass deliberate inaction, however culpable. Justice Sotomayor's invocation of the rule of lenity is premature because the text of 'attempted use' in the force clause, read according to its original public meaning alongside established attempt doctrine, resolves the question before we reach lenity as a tiebreaker.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's argument that the categorical approach requires that an offense *always* involve physical force is the strongest challenge to my position, but I find Justice Barrett's textual insight dispositive: the force clause itself covers 'attempted use of physical force,' and attempt liability under New York law requires an affirmative overt act \u2014 not mere omission \u2014 directed at causing death. This means the theoretical omission problem that infects the completed offense of second-degree murder does not translate to the attempt offense, because one cannot 'attempt' to kill through pure inaction in any legally cognizable sense without an affirmative substantial step. Justice Sotomayor's invocation of the rule of lenity and Davis's elimination of the residual clause is noted, but the rule of lenity applies only when genuine statutory ambiguity remains after exhausting other interpretive tools, and here the text of the force clause \u2014 covering 'attempted use' \u2014 combined with the elemental structure of attempt offenses resolves any ambiguity in favor of the government. The 'realistic probability' test from Taylor does not require us to credit hypotheticals that have no grounding in actual prosecutorial practice, and no court has ever upheld a conviction for attempted murder-by-omission under New York law.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument remains the most sophisticated challenge to my position, and I want to engage with it with full seriousness: she contends that the force clause's own 'attempted use' language independently requires an affirmative act, making omission-based attempt structurally impossible. But this argument has a critical flaw \u2014 it conflates the *typical* requirements of attempt doctrine with a *categorical* bar on omission-based attempt liability. Justice Jackson correctly identifies that under New York law, a parent who deliberately withholds food from a child with intent to kill has taken a 'substantial step' toward causing death, and New York courts have not categorically foreclosed omission-based attempt liability where a legal duty exists. The categorical approach as articulated in Descamps and Mathis requires us to look at the full theoretical scope of the statute, not merely its most common applications, and the fact that no court has *yet* upheld a VICAR attempted murder conviction based on omission does not mean the statute categorically forecloses it \u2014 it means prosecutors have not yet tested that boundary, which is precisely the kind of realistic theoretical possibility the categorical approach is designed to account for. The rule of lenity and the severe mandatory minimum consequences of 924(c) enhancements reinforce that this genuine uncertainty should resolve in the defendant's favor.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor raises the most serious challenge to my position in this round: she argues that New York courts have recognized deliberate withholding of legally required care as a 'substantial step' toward causing death, meaning the omission problem does not disappear at the attempt stage and cannot be cured by layering attempt doctrine on top of the underlying statute. This is a genuinely troubling point that I must take seriously \u2014 if New York attempt law itself permits omission-based attempts, then Barrett's structural incompatibility argument loses some of its force. However, I remain persuaded by the realistic probability test from Taylor and Mathis: the question is not whether we can construct a theoretical scenario where omission-based attempted murder might be prosecuted under VICAR, but whether there is a realistic probability that the state would actually apply the statute to such conduct. Justice Jackson acknowledges this test but has not identified a single case where New York courts have upheld a conviction for attempted murder-by-omission in circumstances analogous to VICAR prosecutions, and the absence of any such prosecutorial analog is precisely what the realistic probability test is designed to address \u2014 theoretical coverage modes that have never materialized in practice do not defeat categorical qualification under the force clause.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's most pointed challenge in round 2 is that New York courts have recognized deliberate withholding of legally required care as potentially constituting a 'substantial step' toward causing death, meaning the omission problem does not dissolve at the attempt stage. I take this seriously, but I find it ultimately unpersuasive for two reasons rooted in my methodology. First, the realistic probability test from Taylor and Mathis requires more than a theoretical doctrinal possibility \u2014 it requires that courts have actually applied the statute to such conduct, and no New York court has upheld a conviction for attempted murder-by-omission in the VICAR context or analogous circumstances; the hypothetical remains purely academic. Second, and more fundamentally, Justice Barrett's textual insight remains decisive for me: the force clause of Section 924(c)(3)(A) independently covers 'attempted use of physical force,' and reading that phrase according to its original public meaning, an 'attempt' to use physical force necessarily contemplates an affirmative act directed at the victim \u2014 the word 'use' in 'attempted use' carries an active, transitive meaning that is structurally incompatible with pure omission, distinguishing this case from Borden's recklessness problem where the mens rea mismatch was categorical and unavoidable rather than a theoretical edge case with no prosecutorial grounding.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson and Justice Sotomayor raise the most serious challenge \u2014 that the categorical approach demands we ask whether the offense *always* requires physical force, not merely usually. But I find Justice Barrett's textual insight particularly compelling and underappreciated: the force clause itself independently covers the 'attempted use of physical force,' and attempt as a legal matter requires an affirmative overt act, not mere omission. The theoretical omission problem that infects completed second-degree murder under New York law does not translate to the attempt offense, because you cannot 'attempt' to kill through pure inaction \u2014 attempt doctrine across jurisdictions requires a substantial step, which is an affirmative act. Justice Sotomayor's invocation of the rule of lenity and Davis's elimination of the residual clause is well-taken as a structural argument, but the force clause's own 'attempted use' language provides an independent textual basis that doesn't require stretching \u2014 it precisely covers what attempted murder is, and the realistic probability test from Taylor forecloses the kind of purely hypothetical omission scenario that has never actually been prosecuted as attempted murder under VICAR.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor raises the most serious challenge to my position in this round: that New York courts have recognized deliberate withholding of legally required care as potentially constituting a 'substantial step' toward causing death, meaning the omission problem does not categorically disappear at the attempt stage. I take this seriously, but I find it ultimately unpersuasive for a textual reason that goes deeper than attempt doctrine alone. The force clause asks whether the offense has 'as an element the use, attempted use, or threatened use of physical force against the person of another' \u2014 and 'physical force' under Johnson means violent force capable of causing physical pain or injury. Even accepting that New York might theoretically recognize omission-based attempted murder, the question is whether that theoretical scenario involves the 'use' of physical force, and deliberate withholding of care \u2014 while morally culpable \u2014 does not constitute the 'use' of physical force in any ordinary sense; it is the absence of action, not the application of force. Justice Jackson's point that VICAR incorporates state law definitions is well-taken, but the force clause's own operative language \u2014 'use of physical force' \u2014 provides an independent federal filter that screens out omission-based liability regardless of how New York defines the predicate, because omission is by definition not a 'use' of anything, and the realistic probability test from Taylor requires an actual prosecutorial analog that simply does not exist for omission-based VICAR attempted murder.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument \u2014 that the force clause's own 'attempted use' language independently requires an affirmative act, thereby curing the omission problem at the attempt stage \u2014 is the most sophisticated challenge to my position, and I want to engage with it directly. The argument has genuine force, but it proves too much in a way that undermines the categorical approach itself: it asks us to layer attempt doctrine on top of the underlying statute to cure a categorical deficiency, rather than asking what the VICAR predicate as charged actually requires. As Justice Sotomayor correctly notes, New York courts have recognized that deliberate withholding of legally required care can constitute a 'substantial step' \u2014 meaning the omission problem does not categorically disappear at the attempt stage, and Barrett's structural incompatibility argument is an empirical claim about New York law that is not clearly established. The categorical approach under Descamps and Mathis does not permit us to speculate about how attempt doctrine might narrow the theoretical reach of the underlying offense; we must look at the elements as defined, and the rule of lenity requires that genuine uncertainty about whether omission-based attempted murder remains theoretically possible under New York law resolve in the defendant's favor given the severe mandatory minimum consequences at stake.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I take seriously the categorical approach's demand for textual rigor, the question here is whether attempted murder under VICAR necessarily involves the use or attempted use of physical force under the force clause of Section 924(c)(3)(A). The theoretical possibility that New York second-degree murder could be committed by omission does not, in my view, represent a 'realistic probability' that the statute is actually applied to non-violent omission-based conduct \u2014 a limiting principle that the categorical approach, properly understood, must accommodate to avoid absurd results. As Taylor v. United States (2022) and Borden v. United States (2021) make clear, the categorical approach focuses on the least culpable conduct the statute realistically covers, and attempted murder \u2014 by its very definition requiring a specific intent to kill combined with a substantial step toward that end \u2014 invariably entails the attempted use of violent physical force as defined in Johnson v. United States (2010). Ruling for the petitioner on purely theoretical omission grounds would undermine institutional legitimacy by producing a result that defies common sense and that Congress plainly did not intend when it enacted VICAR to target violent racketeering conduct.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Applying the categorical approach through an originalist lens, the text of 18 U.S.C. 924(c)(3)(A) requires that the offense 'has as an element the use, attempted use, or threatened use of physical force.' As Johnson v. United States (2010) established, 'physical force' means violent force capable of causing physical pain or injury exerted through concrete bodies, and as Castleman (2014) clarified, such force may be applied indirectly \u2014 through poison, firearms, or other means \u2014 measured by effect on the victim rather than the precise mechanics of the defendant's act. Attempted murder under VICAR, predicated on New York second-degree murder, necessarily requires an intent to cause death and a substantial step toward that end, which categorically involves the attempted use of physical force against a person; the theoretical possibility of commission by omission in an extraordinarily rare hypothetical does not reflect the realistic probability standard the categorical approach demands, and to hold otherwise would produce an absurd result untethered from the original public meaning of 'attempted use of physical force.' While I have reservations about the categorical approach's increasingly abstract application drifting from textual meaning, the force clause here, read according to its original public meaning, encompasses attempted murder.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As a textualist focused on practical consequences, I find that attempted murder under VICAR categorically satisfies the force clause of Section 924(c)(3)(A) because murder \u2014 by its elemental nature \u2014 requires conduct directed at causing death, which inherently involves the use or attempted use of physical force as defined in Johnson v. United States (2010). While the categorical approach demands we look to statutory elements rather than specific facts per Taylor v. United States, the 'realistic probability' test does not permit defendants to manufacture disqualifying hypotheticals absent any genuine prosecutorial practice of charging murder-by-omission under New York's second-degree murder statute. Borden's holding regarding recklessness mens rea is distinguishable because attempted murder requires purposeful intent to kill, and a purely theoretical omission scenario \u2014 with no realistic probability of actual prosecution \u2014 should not defeat what is plainly a violent offense. Allowing such an attenuated theoretical possibility to nullify enhanced penalties for gang-related attempted murder would produce absurd practical consequences that undermine Congress's clear intent in enacting both VICAR and Section 924(c).",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the categorical approach as clarified in Taylor v. United States and Borden v. United States, a court must assess whether the least culpable conduct criminalized by the statute necessarily involves the use of physical force \u2014 and if New York second-degree murder can be committed through omission or inaction (e.g., a parent failing to feed a child with intent to kill), then attempted VICAR murder does not categorically satisfy the force clause of 18 U.S.C. 924(c)(3)(A). The government's 'common sense' argument that murder is inherently violent is precisely the kind of conduct-specific, facts-based reasoning that the categorical approach is designed to foreclose, as reaffirmed in Mathis v. United States and Descamps v. United States. While I recognize the practical concern that this result may seem counterintuitive \u2014 attempted murder is undeniably dangerous conduct \u2014 the mandatory minimum sentencing enhancements at stake impose severe consequences on defendants, and the rule of lenity combined with the categorical approach's demand for categorical clarity counsels in favor of the petitioner when a realistic probability of omission-based liability exists. Furthermore, Congress struck the residual clause in Davis, leaving only the elements clause, and courts cannot compensate for that legislative gap by stretching the force clause beyond its textual limits.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While I take seriously the categorical approach's demand for elemental precision established in Taylor and Mathis, the question here requires careful attention to what 'attempted murder' actually demands as a matter of statutory structure. Attempt, by its very nature under both federal common law and New York law, requires a specific intent to bring about a result plus a substantial step toward that result \u2014 and a substantial step toward causing death necessarily involves the use or attempted use of physical force capable of causing injury or death, satisfying Johnson v. United States (2010)'s definition of 'violent force.' The omission-based theoretical possibility for the completed offense of second-degree murder does not translate cleanly to the attempt offense, because attempting to cause death through omission would require a legal duty plus a deliberate withholding of action, a scenario so remote that it fails the realistic probability test that gives the categorical approach its practical grounding. Borden's concern about reckless-mens-rea offenses is distinguishable here because attempted murder demands purposeful conduct directed at causing death, making it categorically more violent than the recklessness-based offenses Borden excluded.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Applying the categorical approach as clarified in Taylor v. United States (2022) and Borden v. United States (2021), the question is whether the least culpable conduct satisfying attempted murder under VICAR necessarily involves the use or attempted use of physical force. Attempted murder, by its elemental structure, requires a specific intent to kill and a substantial step toward causing death \u2014 conduct that inherently involves the attempted use of violent physical force capable of causing death or serious injury, as defined in Johnson v. United States (2010). While New York second-degree murder can theoretically be committed by omission in narrow circumstances, the VICAR predicate is not simply New York murder \u2014 it is attempted murder in aid of racketeering, and the attempt element itself requires an affirmative act directed at causing death, which categorically satisfies the force clause's 'attempted use of physical force' requirement. The plain text of Section 924(c)(3)(A) covers 'attempted use' of force, and it would be a textual anomaly to hold that a crime whose very name is 'attempted murder' cannot qualify as an attempted use of violent physical force.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the categorical approach as refined through Taylor v. United States (2022) and Johnson v. United States (2010), attempted murder under VICAR qualifies as a crime of violence under Section 924(c)(3)'s force clause because murder \u2014 by its elemental nature \u2014 requires conduct directed at causing death, which inherently involves the use or attempted use of physical force capable of causing injury or death. While the categorical approach demands we look to the elements rather than the facts of conviction, it should not be applied in a manner that produces results so divorced from common sense that a statute explicitly targeting 'violent crimes' would exclude premeditated attempted murder. The theoretical possibility that New York second-degree murder could be committed by omission in rare circumstances does not realistically disqualify the offense under the categorical approach, particularly given that Congress legislated against a background of common law principles recognizing omission-based liability as a standard feature of homicide offenses, and excluding murder from the force clause would create the kind of bewildering sentencing disparities and arbitrary results that undermine the Court's institutional credibility and the coherent administration of criminal law. Practical workability and fidelity to congressional purpose counsel against an interpretation that treats attempted murder as categorically non-violent simply because of hypothetical omission scenarios that would virtually never involve a firearm.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the categorical approach with textual rigor, the force clause in Section 924(c)(3)(A) independently covers the 'attempted use of physical force,' and attempted murder under VICAR necessarily requires the defendant to have taken a substantial step toward causing death \u2014 conduct that, by definition, constitutes an attempted use of violent physical force as defined in Johnson v. United States, 559 U.S. 133 (2010). The critical textual insight is that the force clause itself contains 'attempted use' language, meaning that even if the completed offense of New York second-degree murder could theoretically be accomplished by omission, the attempt offense requires an affirmative act directed at causing death, which categorically satisfies the 'attempted use of physical force' element. While Borden v. United States cautions against treating all serious offenses as categorically violent, attempted murder's specific intent requirement \u2014 the deliberate effort to kill \u2014 is structurally incompatible with pure omission liability at the attempt stage, since an attempt requires an overt act, not mere inaction. This reading honors the categorical approach's demand for textual precision while avoiding the reductio ad absurdum of treating a deliberate, overt attempt to kill as categorically non-violent simply because the completed offense has a theoretical omission variant.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the categorical approach as clarified in Taylor v. United States and Descamps v. United States, the dispositive question is whether the offense *always* requires proof of the use, attempted use, or threatened use of physical force \u2014 not whether it usually does or whether common sense suggests it should. Because New York second-degree murder can be committed through omission (e.g., a parent deliberately withholding food from a child to cause death), the predicate offense does not categorically have as an element the active use of physical force under Johnson v. United States (2010)'s definition of 'violent force.' While I am genuinely troubled by the practical consequences of this result \u2014 which would exclude one of the most serious violent crimes from a firearms enhancement \u2014 my background as a public defender reinforces my commitment to procedural fairness and consistent application of categorical approach doctrine, which exists precisely to prevent arbitrary, fact-specific sentencing determinations. The Court's reasoning in Borden v. United States demonstrates that even counterintuitive categorical outcomes must be honored when the statutory text and elements-based analysis compel them, and allowing theoretical omission-based commission modes to defeat force clause qualification is the logical extension of that principle.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.767,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

@@ -1,0 +1,575 @@
+[
+  {
+    "docket": "22-200",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Sections 11 and 12(a)(2) of the Securities Act of 1933 require plaintiffs to plead and prove that the shares they purchased were actually registered under the specific registration statement they allege to be misleading.",
+      "legal_provision": "Sections 11 and 12(a)(2) of the Securities Act of 1933, 15 U.S.C. \u00a7\u00a7 77k and 77l(a)(2), which govern liability for material misstatements or omissions in registration statements and prospectuses filed with the SEC in connection with public securities offerings.",
+      "petitioner_position": "Slack Technologies argues that the statutory text of Sections 11 and 12(a)(2) unambiguously requires a plaintiff to demonstrate a direct tracing connection between the shares they purchased and the specific allegedly misleading registration statement, meaning that plaintiffs who cannot identify and prove they bought registered shares \u2014 as opposed to previously existing unregistered shares trading in the same market \u2014 lack statutory standing to bring claims under these provisions. Petitioners contend that the Ninth Circuit's ruling improperly expands liability beyond what Congress intended by allowing plaintiffs to sue without establishing this foundational nexus, which would expose issuers to virtually unlimited liability whenever registered and unregistered shares trade simultaneously in the open market.",
+      "respondent_position": "Fiyyaz Pirani argues that in the unique context of Slack's direct listing \u2014 where all shares, both previously unregistered and newly registered, entered the public market simultaneously under a single registration statement \u2014 it was factually impossible to distinguish registered from unregistered shares, and therefore strict tracing should not be required as a prerequisite for standing. Respondent contends that the Ninth Circuit correctly held that when a plaintiff can demonstrate they purchased shares in a market where all or substantially all shares were registered under the challenged registration statement, the tracing requirement is satisfied or inapplicable, and that a contrary ruling would effectively immunize issuers from liability for fraudulent registration statements in direct listing contexts.",
+      "key_precedents": [
+        "Gustafson v. Alloyd Co., 513 U.S. 561 (1995) \u2014 interpreting the scope of Section 12(a)(2) liability",
+        "Herman & MacLean v. Huddleston, 459 U.S. 375 (1983) \u2014 addressing the relationship between Securities Act and Exchange Act claims",
+        "Barnes v. Osofsky, 373 F.2d 269 (2d Cir. 1967) \u2014 early tracing requirement analysis under Section 11",
+        "In re Slack Technologies, Inc. Securities Litigation \u2014 Ninth Circuit decision under review",
+        "Pinter v. Dahl, 486 U.S. 622 (1988) \u2014 addressing standing and privity under Section 12",
+        "Blue Chip Stamps v. Manor Drug Stores, 421 U.S. 723 (1975) \u2014 standing limitations in securities fraud actions",
+        "Lilley v. Charren, 936 F. Supp. 708 (N.D. Cal. 1996) \u2014 tracing in mixed registered/unregistered share markets"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to our position, and I want to engage with it honestly: she is correct that Section 11 was drafted against a backdrop where registered and unregistered shares of the same issuer could not simultaneously flood the market under a single registration statement, and that the tracing requirement was never designed to function as a complete immunity shield. But even granting that historical observation, it does not follow that 'such security' can be stretched to mean 'any security whose value was affected by the registration statement' \u2014 that reading would effectively eliminate the tracing requirement entirely and untether Section 11 from its foundational nexus to a specific registration statement. As Chief Justice, I am mindful that the near-unanimity of my colleagues across methodological traditions \u2014 from Justice Thomas's originalism to Justice Kagan's structuralism to Justice Jackson's purposivism \u2014 converges on the same textual reading, which strongly suggests the statute genuinely does not support Pirani's position. I would assign the majority opinion with the narrowest possible holding: affirming that 'such security' requires tracing to the specific registration statement, while explicitly noting that Congress and the SEC retain full authority to address the direct listing context through appropriate channels, thereby preserving institutional legitimacy and leaving the door open for regulatory solutions without foreclosing them.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor raises the most serious challenge \u2014 that Slack's simultaneous entry of registered and unregistered shares makes tracing literally impossible, effectively immunizing issuers from Section 11 liability in direct listing contexts and thereby frustrating the Securities Act's investor protection purpose. But this argument, however equitably compelling, cannot override the statutory text. The phrase 'such security' in Section 11 is not ambiguous \u2014 it refers to securities registered under the specific challenged registration statement, as Judge Friendly correctly identified in Barnes v. Osofsky and as the structural relationship between Sections 6 and 11 confirms. The impossibility of satisfying a statutory requirement does not eliminate that requirement; it signals a gap that Congress, not this Court, must address. As Justice Gorsuch correctly notes, Congress used 'any security' when it intended broader coverage in Section 10(b), and the deliberate use of the narrower 'such security' formulation must be given effect \u2014 Pirani retains a viable Section 10(b) remedy, and the policy inconvenience of the tracing requirement in novel market structures is precisely the kind of consideration that belongs to the legislative branch.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor raises the most compelling argument for the opposing side \u2014 that Slack's simultaneous entry of registered and unregistered shares created a literally impossible tracing burden, effectively immunizing the issuer from Section 11 liability through structural design. But this argument, however sympathetic, is fundamentally a policy appeal dressed in equitable clothing. The text of Section 11 says what it says: 'such security' refers to securities registered under the specific challenged registration statement, as Judge Friendly correctly identified in Barnes v. Osofsky and as Justice Thomas and Justice Barrett have reinforced through originalist and textualist analysis respectively. The 'impossibility' argument proves too much \u2014 if practical difficulty in satisfying a statutory standing requirement were sufficient to eliminate it, courts would be in the business of rewriting statutes whenever plaintiffs found compliance inconvenient, which is precisely the kind of judicial legislation our methodology forbids. Congress created Section 10(b) as a broader remedy for securities fraud, and plaintiffs who cannot satisfy Section 11's tracing requirement retain that avenue; the existence of an alternative remedy confirms that our ruling does not leave defrauded investors without recourse.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's argument that the 'such security' text is unambiguous and that the proper remedy is legislative or regulatory action is the most sophisticated challenge to my position, and I acknowledge its force \u2014 but it fails to grapple with the specific historical context in which Barnes v. Osofsky was decided, where the simultaneous coexistence of registered and unregistered shares of the same issuer under a single registration statement was not the operative market reality. The near-unanimity of my colleagues across methodological traditions gives me genuine pause, but unanimity is not a substitute for correct analysis \u2014 the tracing requirement was designed to establish a nexus between a plaintiff's purchase and a defective registration statement, and in Slack's direct listing, every share's value on day one was determined by that single registration statement, meaning the functional nexus Congress sought is present even if formal tracing is impossible. Justice Barrett's invocation of the 'any security' versus 'such security' contrast is texturally compelling, but this canon of construction cannot be applied mechanically when the market structure Congress legislated against did not include the scenario where an issuer's registration statement simultaneously governs all shares in the market \u2014 the canon against surplusage cuts both ways, since reading 'such security' to create complete immunity in direct listings renders Section 11's strict liability protection surplusage for an entire category of public offerings. I maintain my position for the Respondent, recognizing I am likely writing in dissent, because the majority's reading produces a result \u2014 complete immunity for registration statement misstatements in direct listings \u2014 that Herman & MacLean's recognition of Section 11's strict liability purpose cannot accommodate.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor's most penetrating argument \u2014 that every share trading on day one of Slack's direct listing had its value determined by the challenged registration statement, making the textual nexus functionally present even if formal tracing is impossible \u2014 deserves a direct response rather than dismissal as mere policy advocacy. But I think this argument, however ingenious, conflates economic causation with the statutory standing requirement: Section 11 does not ask whether a registration statement influenced a share's value, it asks whether the plaintiff purchased 'such security' \u2014 the specific security registered under that statement. If Congress had wanted a causation-based or influence-based standing test, it knew how to write one, and the contrast Justice Gorsuch correctly identifies between 'such security' in Section 11 and 'any security' in Section 10(b) shows Congress made a deliberate choice. Justice Sotomayor is right that this produces a harsh result in the direct listing context, but the institutional response to a statutory gap that sophisticated actors can exploit is SEC rulemaking \u2014 the Commission has both the expertise and the authority to craft rules calibrating Section 11's application to novel market structures \u2014 not judicial rewriting of unambiguous text that has been uniformly applied for over fifty years across seven circuits.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most serious challenge \u2014 that sophisticated actors are deliberately structuring direct listings to commingle registered and unregistered shares, effectively engineering an escape hatch from Section 11 liability and harming retail investors. This is a genuinely troubling policy concern, but it cannot override the statutory text. The phrase 'such security' in Section 11 has a clear referent: the securities registered under the specific challenged registration statement. As Justice Barrett correctly notes, over fifty years of consistent judicial application of Barnes v. Osofsky constitutes persuasive evidence of the statute's proper construction, and if issuers are exploiting novel structures to evade liability, that is precisely the kind of market development Congress and the SEC are institutionally equipped to address through legislation or rulemaking \u2014 not courts stretching 'such security' to mean 'any security of the same class.' The comparison to Congress's deliberate use of 'any security' in Section 10(b) of the Exchange Act versus the narrower 'such security' in Section 11 is textually dispositive under Wisconsin Central's canon against treating statutory language as surplusage, and Pirani retains a viable Section 10(b) path that preserves the carefully calibrated remedial balance Herman & MacLean identified.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that Slack's simultaneous entry of registered and unregistered shares under a single registration statement creates a structurally distinct situation where the traditional tracing requirement effectively nullifies Section 11 liability entirely, potentially rewarding issuers who exploit novel structures. I take that concern seriously, but it cannot override the statutory text. As Justice Kagan correctly notes, the workability concerns cut both ways: expanding Section 11 standing to all purchasers in a mixed market would untether liability from the statute's foundational nexus requirement and expose issuers to indeterminate liability Congress never contemplated. The 'impossibility' argument is ultimately a policy appeal \u2014 and while I am more institutionalist than purely textualist, even my approach demands that when statutory text is unambiguous and has been uniformly interpreted for fifty years across seven circuits, the appropriate remedy for harsh results in novel market structures is congressional action, not judicial rewriting. Blue Chip Stamps counsels precisely this restraint, and the Court's institutional credibility depends on consistent application of settled statutory construction rather than ad hoc equitable departures.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most compelling argument for the respondent \u2014 that Slack's simultaneous entry of registered and unregistered shares under a single registration statement creates a structural impossibility that effectively immunizes issuers from Section 11 liability in direct listing contexts, undermining the Securities Act's core investor protection purpose. This is a serious equitable concern, but it cannot override the statutory text. The phrase 'such security' in Section 11 has a clear antecedent: the securities registered under the specific registration statement at issue. As Justice Gorsuch correctly notes, Congress used broader language \u2014 'any security' \u2014 when it intended broader coverage in Sections 17(a) and 10(b), and the deliberate use of the narrower 'such security' formulation must be given effect as a meaningful textual limitation under basic canons of statutory construction. Justice Sotomayor's impossibility argument is ultimately a policy appeal asking this Court to rewrite the statute when its application produces inconvenient results in a novel market structure \u2014 but the proper institutional response to that gap is congressional or SEC action, not judicial expansion of standing beyond what the text supports, particularly when Section 10(b) remains available for intentional misstatements.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument remains the most intellectually serious challenge \u2014 her point that Section 11's tracing requirement was never designed to operate as a complete immunity shield in the novel direct listing context, and that Section 10(b)'s scienter requirement represents a deliberately higher bar that Congress chose not to impose in Section 11, genuinely troubles me. But I cannot escape the textual anchor: 'such security' has a clear referent, and as Justice Kagan correctly observes, Congress used 'any security' when it intended broader coverage, meaning the narrower formulation must do real work. Justice Sotomayor's impossibility argument, however equitably compelling, ultimately asks us to read 'such security' as 'any security of the same issuer' whenever tracing becomes difficult \u2014 a judicial rewrite that my background as a public defender actually counsels against, because I have seen how courts stretching statutory text to reach sympathetic outcomes can create doctrinal instability that ultimately harms the very people the statute was meant to protect. The proper institutional response here is SEC rulemaking or congressional action, and I write separately to emphasize that the urgency of that response cannot be overstated given the investor protection gap this ruling creates.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of Section 11 refers to 'such security,' which Judge Friendly correctly interpreted in Barnes v. Osofsky as limiting standing to purchasers of shares registered under the specific registration statement alleged to be misleading \u2014 a reading that has governed securities markets for over fifty years and reflects Congress's deliberate choice to cabin liability. My minimalist instincts counsel deference to this longstanding textual interpretation rather than crafting a novel exception for direct listings, however sympathetic the equitable argument may be; if the tracing requirement produces harsh results in the direct listing context, the appropriate remedy lies with Congress, not with courts expanding statutory standing beyond its textual moorings. While I recognize Pirani's argument that Slack's simultaneous entry of registered and unregistered shares made tracing practically impossible, that practical difficulty cannot override the statutory text, and allowing courts to relax standing requirements whenever tracing proves inconvenient would undermine the institutional predictability that Blue Chip Stamps and the broader securities law framework depend upon. The Ninth Circuit's departure from the settled circuit consensus, including its own prior precedent in Century Aluminum, threatens the kind of doctrinal instability that erodes market confidence and the Court's institutional legitimacy.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of Section 11 is unambiguous: liability attaches to persons who acquired 'such security,' referring directly back to a security registered under the specific registration statement alleged to be misleading. As an originalist, I must give effect to the plain statutory text as it was publicly understood at enactment in 1933, and that text requires a traceable nexus between the purchased share and the challenged registration statement \u2014 a reading confirmed by Judge Friendly's analysis in Barnes v. Osofsky and consistent with this Court's textualist approach in Gustafson v. Alloyd Co., which cabined Section 12(a)(2) liability to its textual boundaries rather than expanding it based on policy rationales. The fact that Slack's direct listing structure makes tracing difficult or practically impossible is a policy inconvenience, not a license for courts to rewrite statutory standing requirements; if Congress wishes to extend Section 11 liability to cover novel offering structures, that is Congress's prerogative, and plaintiffs retain recourse under Section 10(b) of the Exchange Act for intentional misstatements. Allowing respondent's interpretation would effectively nullify the 'such security' limitation whenever registered and unregistered shares trade simultaneously, rendering that textual requirement surplusage in violation of basic canons of statutory construction.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The statutory text of Section 11 is unambiguous: it grants a cause of action only to a person 'acquiring such security,' where 'such security' refers back to the securities specified in and registered under the challenged registration statement, as Section 6 makes registration statements 'effective only as to the securities specified therein.' Judge Friendly's analysis in Barnes v. Osofsky correctly identified this textual nexus, and the leading treatise on securities law has consistently confirmed that a plaintiff must trace their particular shares to the registration statement when registered and unregistered shares are intermingled. Pirani's 'impossibility' argument is a policy argument dressed in equitable clothing \u2014 it asks this Court to rewrite the statute to eliminate a standing requirement Congress plainly imposed, which is not our role regardless of how sympathetic the circumstances may appear. The fact that Slack structured its direct listing in a way that makes tracing difficult does not authorize courts to abandon the statutory text; if Congress wishes to address the unique challenges of direct listings, it may do so through legislation.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While Barnes v. Osofsky and its progeny establish a textual basis for the tracing requirement under Section 11's 'such security' language, the unique factual circumstances of Slack's direct listing \u2014 where registered and unregistered shares entered the market simultaneously under a single registration statement, making tracing literally impossible \u2014 demands a pragmatic application of the statute that does not effectively immunize issuers from liability for fraudulent disclosures. The research itself acknowledges that sophisticated actors are deliberately commingling registered and unregistered shares to nullify Section 11 liability, which is precisely the kind of manipulation that undermines the Securities Act's core investor protection purpose as recognized in Herman & MacLean v. Huddleston. Imposing an impossible tracing burden in direct listing contexts would create a judicially-engineered loophole that harms ordinary retail investors \u2014 the most vulnerable market participants \u2014 while rewarding issuers who exploit novel offering structures to escape accountability for material misstatements. The practical impact on access to justice for defrauded investors, combined with the impossibility of strict tracing in this specific market structure, counsels in favor of the Ninth Circuit's contextually-sensitive approach.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of Section 11 refers to 'such security' \u2014 language that Judge Friendly correctly interpreted in Barnes v. Osofsky to mean securities actually registered under the challenged registration statement, not all shares trading in the market. This textual anchor is not merely a judicial gloss but flows from the statute's structure: Section 11 creates liability tied to a specific registration statement, and the cause of action logically requires a nexus between the plaintiff's purchased shares and that document. While I am genuinely sympathetic to Pirani's concern that direct listings create practical tracing difficulties \u2014 and I do not dismiss the policy argument that issuers could exploit commingling to evade liability \u2014 the proper remedy for that gap lies with Congress or the SEC through administrative action, not with courts rewriting statutory standing requirements. The workability concerns cut both ways: expanding Section 11 standing to all purchasers in a mixed market would untether liability from the statute's foundational nexus requirement and expose issuers to indeterminate liability Congress never contemplated, which is itself an unworkable outcome.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of Section 11 repeatedly refers to 'such security' \u2014 meaning a security registered under the specific registration statement at issue \u2014 which unambiguously limits the cause of action to purchasers of registered shares traceable to that statement. As the research confirms, when Congress intended broader coverage it used expansive language like 'any security' in Section 17(a) and Section 10(b) of the Exchange Act; the deliberate use of the narrower 'such security' formulation in Sections 11 and 12(a)(2) must be given effect as a meaningful textual limitation, consistent with Wisconsin Central Ltd. v. United States. Pirani's argument that the direct listing context makes tracing 'impossible' is a policy appeal that cannot override unambiguous statutory text \u2014 if the tracing requirement produces harsh results in novel market structures, the remedy lies with Congress, not with courts rewriting the statute. Respondent retains a viable path under Section 10(b) of the Exchange Act, which already covers fraud 'in connection with the purchase or sale of any security,' preserving the carefully calibrated balance between these provisions identified in Herman & MacLean and Ernst & Ernst.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of Section 11 limits standing to 'any person acquiring such security,' and as Judge Friendly's landmark analysis in Barnes v. Osofsky established over 50 years ago, 'such security' refers to shares registered under the specific challenged registration statement \u2014 not all shares trading in the market. This interpretation has been uniformly adopted by seven circuits and represents the kind of long-settled, consistent statutory construction that my institutionalist approach to precedent demands I respect. While I am sympathetic to Pirani's practical concern that Slack's direct listing structure made tracing factually difficult, the appropriate remedy for statutory gaps or harsh results in novel market structures is congressional action, not judicial rewriting of unambiguous text \u2014 a principle reinforced by Blue Chip Stamps v. Manor Drug Stores, which counsels restraint in expanding securities standing beyond what the statutory text supports. The Ninth Circuit's policy-driven departure from a half-century of uniform circuit precedent undermines both the rule of law and the Court's institutional credibility as a faithful interpreter of congressional intent.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of Section 11 is the starting point and, for a textualist, largely the ending point: the phrase 'such security' in 15 U.S.C. \u00a7 77k refers back to the security registered under the specific registration statement alleged to be misleading, not to any security of the same class trading in the same market. Judge Friendly's foundational analysis in Barnes v. Osofsky correctly identified that 'such security' means the 'particular shares registered' under the challenged registration statement, and over fifty years of consistent judicial application of that principle constitutes persuasive evidence of the statute's original public meaning and proper construction. Pirani's argument that the direct listing context renders tracing 'impossible' and therefore inapplicable is an invitation to rewrite the statute based on policy preferences \u2014 precisely the kind of judicial legislation that textualism forbids; if Congress wishes to extend Section 11 liability to cover novel offering structures like direct listings where tracing is factually difficult, it is Congress's prerogative to amend the statute, not this Court's prerogative to stretch 'such security' beyond its plain meaning. The Ninth Circuit's ruling effectively reads the tracing requirement out of the statute whenever a plaintiff finds it inconvenient to satisfy, which is inconsistent with the Court's obligation to apply the text as written regardless of equitable sympathies.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of Section 11 uses the phrase 'such security,' which as Judge Friendly analyzed in Barnes v. Osofsky, 373 F.2d 269 (2d Cir. 1967), requires a direct nexus between the shares purchased and the specific registration statement alleged to be misleading \u2014 this textual anchor cannot simply be dissolved because a particular offering structure makes tracing difficult. While I am deeply sympathetic to Pirani's argument that Slack's direct listing created a factually impossible tracing burden and that a strict requirement would effectively immunize issuers from liability in novel offering structures, the proper remedy for statutory gaps created by new market mechanisms lies with Congress or the SEC, not judicial reinterpretation of unambiguous statutory text. My background as a public defender makes me acutely aware of how procedural requirements can be weaponized to deny meritorious claims, and I find the practical consequences here troubling \u2014 but the Court's role in statutory interpretation requires fidelity to the text Congress enacted, and expanding Section 11 standing beyond what 'such security' permits risks creating liability Congress never authorized. The SEC's approval of the NYSE direct listing rules and its silence on Section 11 liability implications does not constitute congressional authorization to abandon the tracing requirement, and plaintiffs retain remedies under Section 10(b) of the Exchange Act where scienter can be established.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.832,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-200",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Sections 11 and 12(a)(2) of the Securities Act of 1933 require plaintiffs to plead and prove that they purchased shares specifically registered under the allegedly misleading registration statement, as opposed to unregistered shares traded on the open market.",
+      "legal_provision": "Sections 11 and 12(a)(2) of the Securities Act of 1933, 15 U.S.C. \u00a7\u00a7 77k and 77l(a)(2), which impose liability for material misstatements or omissions in registration statements and prospectuses respectively.",
+      "petitioner_position": "Slack Technologies argues that the statutory text of Sections 11 and 12(a)(2) unambiguously requires plaintiffs to demonstrate a direct tracing of their purchased shares to the specific allegedly defective registration statement. Because Slack conducted a direct listing \u2014 rather than a traditional IPO \u2014 both registered and unregistered shares entered the market simultaneously, making it impossible for Pirani to prove his shares were registered ones. Petitioners contend that without this tracing requirement, defendants would face virtually unlimited liability to all shareholders regardless of any connection to the registration statement, which would dramatically expand liability beyond what Congress intended and distort the careful balance struck in the 1933 Act. They further argue that the Ninth Circuit's ruling creates a circuit split and undermines settled securities law principles.",
+      "respondent_position": "Fiyyaz Pirani argues that the tracing requirement should not be applied rigidly in the novel context of a direct listing, where all shares \u2014 both registered and previously unregistered \u2014 entered the market simultaneously under a single registration statement that covered all tradeable shares. Respondent contends that because Slack's registration statement effectively encompassed all shares available for trading at the time of the direct listing, any purchaser during that period necessarily bought shares subject to that registration statement. Pirani further argues that institutional investors and market participants relied on the registration statement's disclosures, and that denying standing to all purchasers would eviscerate investor protections under the 1933 Act in the increasingly common context of direct listings, creating a regulatory gap that Congress never intended.",
+      "key_precedents": [
+        "Gustafson v. Alloyd Co., 513 U.S. 561 (1995) \u2014 interpreting the scope of Section 12(a)(2) liability",
+        "Herman & MacLean v. Huddleston, 459 U.S. 375 (1983) \u2014 addressing the relationship between Securities Act and Exchange Act remedies",
+        "In re Slack Technologies Securities Litigation (Ninth Circuit decision below) \u2014 holding that tracing requirement was satisfied given the unique structure of Slack's direct listing",
+        "Barnes v. Osofsky, 373 F.2d 269 (2d Cir. 1967) \u2014 early precedent establishing the tracing requirement under Section 11",
+        "Pinter v. Dahl, 486 U.S. 622 (1988) \u2014 addressing standing and privity under Section 12 of the Securities Act",
+        "Blue Chip Stamps v. Manor Drug Stores, 421 U.S. 723 (1975) \u2014 limiting standing under securities fraud provisions to actual purchasers and sellers"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument that Slack's direct listing structure effectively immunizes issuers from Section 11 liability remains the most serious challenge to our position, and I do not dismiss it lightly \u2014 the concern that sophisticated actors can engineer untraceable share structures to escape liability is a genuine policy problem. However, as Justice Kagan correctly frames it, the solution cannot be to dissolve the textual requirement wholesale through judicial interpretation; 'such security' in Section 11(a) has a consistent grammatical referent that we cannot selectively reinterpret based on novel market structures without undermining the uniform meaning the phrase carries across sixty-one appearances in the Act. As Chief Justice, I am mindful that a Court-created exception for direct listings would invite endless litigation over which offering structures qualify for relaxed tracing standards, producing precisely the kind of unpredictable, ad hoc liability framework that undermines institutional legitimacy. The appropriate disposition is to reverse the Ninth Circuit on the textual question while crafting a narrow holding that explicitly acknowledges the regulatory gap and invites congressional or SEC action \u2014 I will assign the majority opinion with instructions to avoid broader pronouncements about direct listings generally, preserving Justice Kagan's suggested remand pathway as a factual safety valve without eliminating the tracing requirement sub silentio.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor raises the most compelling argument for the respondent \u2014 that Slack's direct listing created a unique structural context where all tradeable shares were simultaneously subject to a single registration statement, making the traditional tracing analysis inapplicable. However, this policy-driven argument cannot override the statutory text. The phrase 'such security' in Section 11(a) refers to a specific antecedent \u2014 the security registered under the defective registration statement \u2014 and as Justice Gorsuch correctly notes, this phrase appears sixty-one times throughout the Securities Act with consistent meaning. The fact that a novel corporate structure makes tracing difficult or impossible does not authorize this Court to rewrite the standing requirements Congress enacted; if anything, the deliberate choice of a direct listing structure that commingles registered and unregistered shares is a matter for Congress or the SEC to address through legislation or rulemaking, not for courts to resolve by expanding liability beyond the statute's textual boundaries. Herman & MacLean, which Justice Sotomayor invokes, addressed the availability of Section 10(b) claims alongside Section 11 claims \u2014 it did not hold that Section 11's standing requirements should be construed expansively to reach purchasers with no traceable connection to the defective registration statement.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that Slack's direct listing structure, where all tradeable shares entered the market simultaneously under a single registration statement, presents a factually distinct scenario from the mixed-offering contexts Barnes v. Osofsky addressed. However, this structural novelty cannot override the statutory text: 'such security' refers to registered shares, and the fact that tracing becomes practically impossible due to an issuer's chosen offering structure is a policy problem for Congress or the SEC to resolve, not a license for courts to rewrite standing requirements. As Justice Kagan correctly notes, even pragmatic instincts counsel against abandoning a textually grounded requirement that has generated fifty years of settled reliance \u2014 the appropriate remedy is to remand to consider whether tracing can be satisfied under the specific mechanics of this direct listing, not to eliminate the requirement wholesale. Justice Gorsuch's observation that 'such security' appears sixty-one times throughout the Securities Act with consistent meaning further confirms that Pirani's expansive reading would create an anomalous departure from the statute's uniform usage, which no canon of construction permits.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.45,
+        "reasoning": "I have carefully considered my colleagues' arguments, particularly Justice Kagan's suggestion of a remand to allow lower courts to scrutinize whether tracing can be satisfied under the specific mechanics of Slack's direct listing \u2014 that is the most intellectually honest path offered by the petitioner's side, and I find it more appealing than a flat reversal. However, I cannot join even that narrower position without acknowledging what it concedes: that the tracing requirement as mechanically applied in this context produces a result Congress almost certainly did not intend, which is complete immunization for issuers who deliberately structure offerings to make tracing impossible. Justice Jackson's acknowledgment that 'tracing impossibility was structurally engineered by the issuer' is precisely my concern, and while I respect the textualist consensus around 'such security,' I note that the sixty-one appearances of that phrase my colleagues cite were never applied in a context where a single registration statement simultaneously governed every share in the market \u2014 the textual consistency argument proves less than it claims when the factual predicate is categorically novel. I maintain my position for the respondent because Herman & MacLean's remedial canon, combined with the structural uniqueness of the direct listing context, provides sufficient basis for the Ninth Circuit's approach, even as I acknowledge this is a genuinely close question where reasonable jurists can disagree and where congressional clarification would be welcome.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's argument that Slack's direct listing structure \u2014 where a single registration statement simultaneously governed all tradeable shares \u2014 creates a conceptually distinct tracing problem remains the most serious challenge to our position, and I want to engage with it directly rather than dismiss it. But even granting the structural novelty, the textual anchor holds: 'such security' refers to a specific registered security, and the impossibility of tracing in a particular market structure does not transform unregistered shares into registered ones any more than practical difficulty in other contexts has historically justified rewriting standing requirements. I find Justice Kavanaugh's warning particularly apt \u2014 that a remand instruction to scrutinize tracing under direct listing mechanics risks becoming a vehicle for eliminating the tracing requirement sub silentio, producing the same result-oriented outcome as the Ninth Circuit through more cautious language. The appropriate path is to reverse the Ninth Circuit clearly on the textual question while acknowledging, as Justice Jackson suggests, that Congress and the SEC bear institutional responsibility for crafting a tailored solution to the regulatory gap that direct listings have exposed.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that Slack's direct listing created a structurally unique situation where the registration statement itself purported to govern all tradeable shares simultaneously, making the tracing requirement functionally impossible through no fault of the plaintiff. I take that concern seriously, but it does not overcome the textual analysis. The phrase 'such security' in Section 11(a) grammatically refers back to a specific antecedent \u2014 the security registered under the defective statement \u2014 and as Justice Barrett correctly notes, this usage is consistent across all sixty-one appearances of 'such security' in the Securities Act. The fact that a novel market structure makes tracing difficult or impossible is a policy problem for Congress and the SEC to solve, not a license for courts to rewrite unambiguous statutory text; indeed, if anything, the deliberate engineering of untraceable share structures by sophisticated issuers \u2014 as Justice Jackson flags \u2014 is precisely the kind of problem that demands a legislative fix with clear rules rather than ad hoc judicial expansion of liability that would generate unpredictable consequences across securities markets. Herman & MacLean's instruction to read remedial provisions broadly cannot override the specific textual limitation Congress enacted, as Gustafson v. Alloyd makes clear that Section 11's carefully bounded scope must be respected.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that in a direct listing where registered and unregistered shares entered the market simultaneously under a single registration statement, the structural predicate for Barnes v. Osofsky's tracing requirement simply does not exist in the same way. I take that seriously. But the response to a genuinely novel market structure cannot be to abandon a textually grounded requirement that seven circuits have uniformly applied for over fifty years; as I noted in my initial reasoning, the appropriate institutional response is legislative or regulatory clarification, not judicial expansion. Justice Kagan's suggestion of a remand to consider whether Pirani can satisfy tracing given the specific mechanics of Slack's direct listing is appealing as a minimalist path, but it risks becoming a vehicle for effectively eliminating the tracing requirement sub silentio in direct listing cases \u2014 which is the same result-oriented outcome the Ninth Circuit reached, just dressed in more cautious language. The text of Section 11, the uniform pre-Ninth Circuit consensus, and the institutional legitimacy concerns that animate my jurisprudence all point toward reversing the Ninth Circuit and reaffirming that 'such security' means what it says, while leaving the door open for Congress or the SEC to craft a tailored solution for direct listings.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that Slack's direct listing structure, where all tradeable shares entered the market simultaneously under a single registration statement, presents a factually distinct scenario from the mixed-offering context Barnes v. Osofsky addressed. I take that structural argument seriously, but it ultimately fails under my textualist methodology: the phrase 'such security' in Section 11(a) refers to securities registered under the specific defective registration statement, and the fact that tracing becomes practically impossible in a direct listing does not transform unregistered shares into registered ones. As Justice Gorsuch correctly notes, the Securities Act employs 'such security' sixty-one times with consistent meaning, and we cannot allow practical difficulty to override uniform statutory usage \u2014 that would be precisely the kind of purposivist reasoning that substitutes judicial policy preferences for congressional text. The appropriate remedy for the regulatory gap Justice Sotomayor identifies is congressional action or SEC rulemaking, not judicial expansion of Section 11's standing requirements beyond what the text supports.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument about structural immunization remains the most serious challenge to our position, and I want to be direct about why it ultimately fails under my judicial methodology even as it continues to trouble me as a matter of investor protection. The core problem is that accepting her argument would require us to treat 'such security' as meaning something different in direct listing contexts than in traditional IPO contexts \u2014 but as Justice Gorsuch correctly notes, that phrase appears sixty-one times in the Securities Act with consistent grammatical meaning, and we cannot allow the practical consequences of a novel market structure to override uniform statutory usage without doing precisely what textualism forbids. I am also persuaded by Justice Kagan's point that the solution to structural immunization cannot be judicial rewriting of standing requirements, because that path creates its own unpredictable distortions \u2014 if we expand Section 11 liability through interpretation to cover direct listings, we invite endless litigation about which other novel structures qualify, undermining the predictability that securities markets require. My background as a public defender makes me acutely sensitive to how procedural requirements can be weaponized against the very people they were designed to protect, and I continue to believe the Court should signal clearly that lower courts must scrutinize whether tracing impossibility was deliberately engineered \u2014 but the structural remedy must come from Congress or the SEC, not from this Court rewriting 'such security' to mean 'any security traded in a market where a registration statement existed.'",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of Section 11 limits standing to 'any person acquiring such security,' and as Judge Friendly's foundational analysis in Barnes v. Osofsky established, 'such security' most plausibly refers to shares registered under the specific challenged registration statement \u2014 a reading that seven circuits had uniformly adopted before the Ninth Circuit's departure. My minimalist instinct is to resolve this case on the narrowest available ground: the statutory text, properly read, requires tracing, and the Ninth Circuit's policy-driven exception \u2014 however sympathetic in the novel direct listing context \u2014 substitutes judicial policymaking for congressional judgment in a way that undermines institutional legitimacy and creates unpredictable liability exposure. While I am attentive to Pirani's concern that rigid application of the tracing requirement in a direct listing context may create a regulatory gap, that concern is properly addressed by Congress or the SEC rather than by this Court stretching statutory text beyond its natural meaning. Gustafson v. Alloyd reinforces that the 1933 Act's liability provisions must be read with textual precision, and the uniform pre-Ninth Circuit consensus on tracing represents exactly the kind of settled, reliance-generating precedent that counsels against disruption.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of Section 11 imposes liability on persons who acquired a security 'such security' \u2014 referring back to the security registered under the specific defective registration statement. As an originalist and textualist, I must give effect to the statutory text as it was understood in 1933, and the phrase 'such security' in 15 U.S.C. \u00a7 77k(a) most naturally refers to the specific securities registered under the challenged registration statement, not all securities of the same issuer trading in the market. The tracing requirement, well-established since Barnes v. Osofsky and consistent with the 1933 Act's carefully calibrated liability scheme, reflects the original understanding that Section 11 liability is tied to the specific registration statement that caused the harm \u2014 a defendant should not face liability to purchasers of shares that were never subject to the allegedly defective registration statement. While I am sympathetic to the practical difficulties created by direct listings, it is Congress's role \u2014 not this Court's \u2014 to update the statutory framework to address novel market structures, and policy inconvenience cannot override the statute's original meaning.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The statutory text of Section 11 is unambiguous: liability extends to 'any person acquiring such security,' where 'such security' plainly refers to the specific securities registered under the challenged registration statement. As Judge Friendly correctly held in Barnes v. Osofsky, this textual limitation has been uniformly applied by seven circuits for over fifty years, and the Ninth Circuit's policy-driven departure \u2014 premised on avoiding a 'loophole' \u2014 is precisely the kind of purposivist reasoning that textualism rejects. The fact that Slack chose a direct listing structure that commingled registered and unregistered shares does not authorize courts to rewrite the statute's standing requirements; Congress, not the judiciary, must address any regulatory gap created by novel offering structures. Furthermore, abandoning the tracing requirement would expose issuers to virtually unlimited liability to all open-market purchasers regardless of any nexus to the registration statement, dramatically distorting the carefully calibrated liability scheme Congress enacted in 1933.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I recognize that Barnes v. Osofsky and its progeny have long grounded the tracing requirement in the statutory text of Section 11's phrase 'such security,' the novel context of Slack's direct listing \u2014 where registered and unregistered shares entered the market simultaneously under a single registration statement that purported to govern all tradeable shares \u2014 presents a fundamentally different factual predicate than the mixed-offering scenarios those cases addressed. The practical reality here is that rigidly applying the tracing requirement in this unique structural context would effectively immunize issuers who choose direct listings from Section 11 liability entirely, creating a regulatory gap that eviscerates investor protections for vulnerable retail investors who reasonably relied on Slack's registration statement disclosures. As I emphasized in my broader jurisprudence, statutory interpretation must account for real-world impacts, and a reading that allows sophisticated actors to exploit novel corporate structures to nullify Congress's core investor-protection mandate \u2014 as the research notes companies are already doing deliberately \u2014 cannot be what the 1933 Act intended. Herman & MacLean v. Huddleston reinforces that the Securities Act's remedial provisions should be construed broadly to effectuate their protective purposes, and where the registration statement itself encompassed all shares available for trading, Pirani has sufficiently connected his purchase to that statement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of Section 11 limits standing to 'any person acquiring such security,' where 'such security' most naturally refers to the specific registered security covered by the allegedly defective registration statement \u2014 a reading confirmed by Judge Friendly's careful textual analysis in Barnes v. Osofsky and uniformly adopted by seven circuits over more than fifty years. While I am genuinely sympathetic to Pirani's concern that rigid application of the tracing requirement creates a regulatory gap in the novel direct listing context \u2014 and I take seriously the argument that Slack's registration statement effectively encompassed all tradeable shares simultaneously \u2014 the solution to that gap cannot be to abandon a textually grounded requirement that Congress itself could address through legislation. My pragmatic instincts counsel caution here: expanding Section 11 liability beyond registered shares through judicial interpretation, however well-intentioned, risks distorting the carefully calibrated liability structure of the 1933 Act in ways that could generate unpredictable consequences across securities markets. The appropriate remedy is to remand with instructions to consider whether Pirani can satisfy the tracing requirement given the specific mechanics of Slack's direct listing, rather than eliminating the requirement wholesale.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The plain text of Section 11(a) provides a cause of action to 'any person acquiring such security,' where 'such security' grammatically refers back to the specific security registered under the defective registration statement \u2014 not to fungible shares that happen to trade alongside registered shares. As the research confirms, the Securities Act employs 'such security' at least sixty-one times throughout the statute, consistently referring to a specific security at issue in the relevant provision, and Pirani's expansive reading would create an anomalous departure from that uniform usage in violation of basic canons of statutory construction. See Azar v. Allina Health Servs., 139 S. Ct. 1804 (2019). While I am sympathetic to the concern that direct listings create a regulatory gap, it is not this Court's role to rewrite statutory text to address novel market structures Congress did not anticipate \u2014 that task belongs to Congress or the SEC acting within its delegated authority. The rule of lenity and separation of powers principles further counsel against stretching civil liability provisions beyond their textual boundaries, even when the policy case for expansion seems appealing.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of Section 11 limits suit to a 'person acquiring such security,' and Judge Friendly's foundational analysis in Barnes v. Osofsky correctly resolved that ambiguity by requiring plaintiffs to trace their shares to the specific registered offering \u2014 a reading that has governed securities law for over fifty years and reflects the careful liability structure Congress deliberately constructed in the 1933 Act. While I am sympathetic to the practical difficulties Pirani faces in the novel direct listing context, the appropriate response to a genuinely new market structure is legislative clarification, not judicial expansion of liability beyond what the statutory text supports. The Ninth Circuit's policy-driven departure from the tracing requirement \u2014 premised on avoiding what it characterized as an undesirable 'loophole' \u2014 is precisely the kind of results-oriented statutory rewriting that undermines both the rule of law and this Court's institutional legitimacy, as it substitutes judicial preferences for congressional judgment. Respecting the long-settled tracing requirement also preserves the careful balance between investor protection and manageable liability that Congress struck, and that precedents like Gustafson v. Alloyd and Blue Chip Stamps confirm courts must honor.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of Section 11 uses the phrase 'such security' to refer specifically to securities registered under the defective registration statement, and as the research demonstrates, this phrase appears sixty-one times throughout the Securities Act consistently referring to a specific security at issue \u2014 not a broader fungible class. A textualist and originalist reading compels the conclusion that 'such security' in Section 11(a) means shares traceable to the specific registration statement alleged to be misleading, consistent with the longstanding tracing requirement established in Barnes v. Osofsky and affirmed across circuits. While I am sympathetic to the policy concern that direct listings create a practical tracing impossibility, it is not this Court's role to rewrite statutory text to accommodate novel market structures Congress did not anticipate; that task belongs to Congress or the SEC through rulemaking. Gustafson v. Alloyd reinforces that Section 11 and 12(a)(2) must be read with careful attention to their textual limits, and expanding liability beyond what the text supports \u2014 even in service of investor protection goals \u2014 would distort the deliberate balance Congress struck in the 1933 Act.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of Section 11's 'such security' language, as interpreted in Barnes v. Osofsky and consistently applied by seven circuits for over fifty years, requires plaintiffs to trace their shares to the specific registered offering. While my background as a public defender and commitment to practical consequences makes me deeply sympathetic to Pirani's position \u2014 particularly the concern that rigid application of the tracing requirement in novel direct listing contexts could eviscerate investor protections and create a regulatory gap \u2014 the text of the 1933 Act does not readily support extending Section 11 liability to purchasers of unregistered shares simply because tracing is difficult or impossible. However, I write with significant reservations: the tracing requirement as applied to direct listings risks being weaponized by sophisticated issuers to deliberately immunize themselves from Section 11 liability, which is precisely the kind of structural unfairness that undermines equal protection of investors; Congress, not this Court, is the appropriate body to update the statutory framework to address the realities of modern market structures like direct listings. The Court should remand with guidance that lower courts scrutinize whether the impossibility of tracing was engineered by the issuer, while acknowledging that the textual baseline established in Barnes remains controlling absent congressional action.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.8,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.45,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

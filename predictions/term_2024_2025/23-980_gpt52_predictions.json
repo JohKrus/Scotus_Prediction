@@ -1,0 +1,668 @@
+[
+  {
+    "docket": "23-980",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a public company\u2019s risk disclosures become materially misleading under federal securities law when the company describes a risk as hypothetical or potential even though the company allegedly knows that the risk has already materialized in some form.",
+      "legal_provision": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (and, indirectly, the SEC\u2019s risk-factor disclosure framework in Regulation S-K, including Item 105 (formerly Item 503(c))).",
+      "petitioner_position": "Petitioners (Facebook/Meta and related defendants) argue that the Ninth Circuit adopted an overly broad and investor-harming rule that effectively treats standard SEC-style risk-factor disclosures as actionable whenever plaintiffs later allege the risk had already begun to occur. They contend that securities law requires a materially misleading statement or omission, not liability for failing to confess alleged wrongdoing or for not updating risk language the moment any aspect of a risk emerges. In their view, risk disclosures are meant to be forward-looking and probabilistic; imposing liability because a risk was partially or arguably already present would pressure issuers to over-disclose, produce boilerplate \u2018overwarning,\u2019 and dilute genuinely material information\u2014undermining the SEC\u2019s calibrated materiality-based disclosure regime.",
+      "respondent_position": "Respondents (investor plaintiffs) argue that once a company knows a specific, serious risk has in fact materialized (or is already occurring), it cannot continue to frame that risk purely as a hypothetical future possibility without misleading investors. They maintain that describing a known, realized problem as merely a contingent risk can create a false impression about the company\u2019s current situation and the likelihood/severity of harm. Under their approach, the securities laws do not demand \u2018confession\u2019 but do prohibit half-truths: if the issuer chooses to speak about a risk, it must do so accurately in light of what it knows at the time.",
+      "key_precedents": [
+        "TSC Industries, Inc. v. Northway, Inc. (materiality standard)",
+        "Basic Inc. v. Levinson (materiality; probability/magnitude in contingent events)",
+        "Matrixx Initiatives, Inc. v. Siracusano (materiality; no bright-line statistical significance)",
+        "Virginia Bankshares, Inc. v. Sandberg (misleading statements; opinions/implications)",
+        "Omnicare, Inc. v. Laborers District Council Construction Industry Pension Fund (when statements of opinion can mislead)",
+        "PSLRA (Private Securities Litigation Reform Act) safe harbor for forward-looking statements (relevant background for risk disclosures)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Justice Kagan and Justice Sotomayor correctly emphasize Omnicare\u2019s half-truth principle: conditional language can mislead if, in context, it conveys that a risk is not presently occurring when the issuer knows it is. But Macquarie\u2019s admonition\u2014reinforced by Justice Gorsuch and Justice Kavanaugh\u2014means Rule 10b-5(b) cannot be treated as a backdoor, privately enforceable \u201cupdate\u201d obligation; the omission must be necessary to prevent the specific words used from conveying a materially false implication about present conditions. Justice Barrett\u2019s \u201cmaterialized to a degree\u201d formulation is attractive as a limiter, yet unless anchored to a reasonably understood implication in the challenged statement itself, it is too indeterminate and invites hindsight pleading that the PSLRA was designed to restrain. On a minimal, administrable holding faithful to text and precedent, I would reverse while making clear that truly misleading implications about the present\u2014shown with particularity\u2014remain actionable.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan and Justice Sotomayor offer the strongest respondent point: that, in context, describing an already-occurring harm as something that only \u201cmay\u201d happen can imply the opposite of what the issuer knows. But Rule 10b-5(b) is textually limited to omissions \u201cnecessary in order to make the statements made \u2026 not misleading,\u201d which requires a concrete misleading implication about present fact rooted in the words actually used, not a generalized notion that risk disclosures must be updated once adversity begins. Chief Justice Roberts and Justice Gorsuch correctly tie this to Macquarie\u2019s rejection of any freestanding disclosure/update duty; Omnicare\u2019s context inquiry cannot be stretched into a \u201cmaterialization\u201d rule that effectively converts probabilistic cautionary language into an automatic mandate to disclose all adverse developments. Justice Barrett\u2019s proposed \u201cmaterialized to a degree\u201d limiter remains too indeterminate and invites hindsight pleading untethered to a specific misleading assertion, contrary to the narrow anti-fraud focus and the PSLRA\u2019s structure.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan and Justice Sotomayor make the best respondent point from Omnicare: conditional \u201cmay\u201d language can mislead if, in context, it implies the opposite of what the speaker knows about present conditions. But Macquarie and the text of Rule 10b-5(b) still require a tight, statement-specific nexus\u2014an omitted fact is actionable only if it is \u201cnecessary\u201d to keep the particular words used from conveying a misleading implication, not because a risk has \u201cmaterialized\u201d and investors would prefer an update. Justice Barrett\u2019s \u201cmaterialized to a degree\u201d gloss is too indeterminate and, as Justice Gorsuch warns, invites hindsight pleading that effectively recreates a private, judicially enforced disclosure code. The administrable rule is the Chief\u2019s and Justice Kavanaugh\u2019s: plaintiffs must plead that the risk disclosure, read as a reasonable investor would, affirmatively suggested the risk was not occurring (or conditions were materially different), and absent that concrete implication I would not impose liability.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Gorsuch\u2019s strongest point\u2014that Macquarie and Rule 10b-5(b) forbid a freestanding \u201cduty to update\u201d and demand a tight nexus to the words actually spoken\u2014is right as far as it goes, but it does not defeat respondent because Omnicare and the text (\u201cnecessary \u2026 to make the statements made \u2026 not misleading\u201d) still reach half-truths that, in context, imply the opposite of what the issuer knows about present conditions. The administrability and hindsight concerns Chief Justice Roberts and Justice Kavanaugh raise are answered by requiring plaintiffs to plead (with PSLRA particularity) a specific, reasonable-investor implication that the risk was not then occurring (or was materially less acute), not merely that additional bad facts existed once the risk later \u201cmaterialized.\u201d Properly framed, liability attaches only to misleading impressions created by the issuer\u2019s chosen conditional phrasing about current reality, not to an SEC-style disclosure code. Because that cabined theory remains viable and consistent with Macquarie\u2019s no-freestanding-duty premise, I do not see petitioners\u2019 arguments as legally undermining respondent\u2019s position.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Chief Justice Roberts and Justice Kavanaugh make the best opposing point: Macquarie and the text of Rule 10b-5(b) foreclose any freestanding \u201cduty to update\u201d and require a tight nexus between the omission and what was actually said. I agree with that limiting premise, but it still leaves room\u2014under Omnicare\u2019s context-sensitive reasonable-investor inquiry\u2014for liability when the issuer\u2019s contingent \u201cmay\u201d phrasing, in context, implies a present-state fact (that the risk is not occurring or conditions are materially different) despite alleged knowledge to the contrary, making the disclosure a half-truth. Justice Gorsuch\u2019s separation-of-powers concern is answered by keeping the rule tethered to the misleading implication conveyed by the company\u2019s chosen words, not by turning risk factors into a general disclosure code; and Justice Alito\u2019s hindsight worry is mitigated by requiring particularized pleading that the statement communicated an affirmative (misleading) implication about then-present conditions, not merely that more bad news existed. On that cabined reading, Macquarie narrows\u2014but does not eliminate\u2014the half-truth theory respondents invoke.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.79,
+        "reasoning": "Justice Kagan and Justice Sotomayor are right to press Omnicare\u2019s half-truth principle: conditional \u201cmay\u201d language can mislead if, in context, it conveys that a risk is not presently occurring when the issuer knows it is. But Macquarie and the text of Rule 10b-5(b) require more than showing \u201cmaterialization\u201d\u2014the omission must be necessary to make the specific statement made not misleading, which demands identifying an affirmative misleading implication in the words used, not a generalized expectation of continual updates. Justice Barrett\u2019s attempt to limit liability to risks that have \u201cmaterialized to a degree\u201d still drifts into an indeterminate, hindsight-driven standard untethered to the statement\u2019s communicated meaning, inviting courts to police disclosure like an SEC regime rather than enforcing a narrow antifraud prohibition. On that textual and separation-of-powers footing, I would hold for petitioners while making clear that true half-truths\u2014where the language reasonably implies the opposite of known present facts\u2014remain actionable.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Justice Kagan and Justice Sotomayor make the strongest respondent point under Omnicare: conditional \u201cmay\u201d language can mislead if it reasonably conveys the problem is not occurring when the issuer knows it is. But I agree with Chief Justice Roberts and Justice Gorsuch that Macquarie and Rule 10b-5(b)\u2019s text require a tight, statement-specific nexus\u2014plaintiffs must plead that the particular risk disclosure, read in full context, affirmatively implied non-occurrence or materially different present conditions, not merely that adverse facts existed once the risk began to unfold. Justice Barrett\u2019s \u201cmaterialized to a degree\u201d limiter is well-intentioned, yet untethered to an implied representation in the words used it invites a de facto update duty and hindsight pleading inconsistent with the PSLRA structure. On this record, I do not see the requisite pleaded misleading implication with sufficient specificity, so I remain for petitioners while preserving liability for true half-truths.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.69,
+        "reasoning": "Justice Gorsuch and the Chief Justice press the strongest petitioner point: Macquarie and the text of Rule 10b-5(b) forbid converting \u00a710(b) into a freestanding disclosure or update mandate, and I agree the omission must be \u201cnecessary\u201d to make \u201cthe statements made\u201d not misleading. But that limitation is satisfied where, under Omnicare\u2019s context-driven inquiry, the issuer\u2019s contingent risk phrasing reasonably conveys an implication about present conditions (e.g., that the risk is not already occurring) when the issuer allegedly knows the opposite; that is not an update duty but classic half-truth liability tethered to the words chosen. Justice Alito\u2019s PSLRA safe-harbor and hindsight concerns are real, yet they are addressed\u2014consistent with Matrixx and Omnicare\u2014by requiring particularized allegations that the statement\u2019s framing communicated a concrete, misleading present-tense impression, not merely that additional adverse facts existed once the risk later worsened. Petitioners\u2019 proposed rule, as Justice Kavanaugh frames it, risks immunizing materially misleading hypotheticals that function as assertions about current reality, which the Rule\u2019s text and our precedents do not permit.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "I take Chief Justice Roberts\u2019s and Justice Gorsuch\u2019s central warning seriously: Macquarie and Rule 10b-5(b)\u2019s text forbid any freestanding, privately enforceable \u201cduty to update,\u201d and liability must be tethered to what the issuer actually said. But that limiting principle still leaves room for respondent because, as Justice Kagan and Justice Sotomayor emphasize, Omnicare\u2019s context-sensitive reasonable-investor inquiry recognizes that contingent risk phrasing can imply a present-state fact (that the risk is not occurring), and omitting known, contrary present realities can make the statement a misleading half-truth \u201cin the light of the circumstances.\u201d Justice Thomas\u2019s \u201cduty to confess\u201d concern does not undermine this approach in my view because the trigger is the company\u2019s choice to speak in a way that conveys a misleading implication\u2014not an obligation to disclose all bad news\u2014and the PSLRA\u2019s particularized pleading requirements help police hindsight suits. I therefore remain with respondent on a cabined theory requiring plaintiffs to plead that the challenged language, in context, affirmatively misled about then-current conditions, not merely that the risk later materialized.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) do not impose a freestanding duty to disclose all material information; an omission is actionable only if it renders what the company affirmatively said misleading. See Macquarie Infrastructure Corp. v. Moab Partners, L.P. (2024); Matrixx Initiatives, Inc. v. Siracusano (2011). Under Omnicare, the question is whether, in context and from the perspective of a reasonable investor, the risk-factor language conveyed a misleading half-truth\u2014so liability cannot rest on a broad rule that any risk described as \u201cpotential\u201d becomes actionable whenever plaintiffs allege the risk had begun to materialize. A narrow approach preserving the SEC\u2019s risk-factor framework and the PSLRA\u2019s cautionary regime best serves precedent and institutional legitimacy: plaintiffs must plead particularized facts showing the disclosure, as framed, was materially misleading, not merely incomplete.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 10(b) and Rule 10b-5 prohibit fraud\u2014i.e., a materially false statement or a misleading half-truth\u2014not a generalized duty to update or to \u201cconfess\u201d that a warned-of risk has begun to occur; reading such a duty into the statute and rule extends federal power beyond their text. Under Basic and TSC Industries, materiality turns on the \u201ctotal mix\u201d and the actual content of what was said; risk-factor language that warns of potential harms is not rendered automatically misleading merely because some aspect of the risk allegedly materialized, absent a concrete contradiction or deceptive omission in the statement\u2019s own terms. Virginia Bankshares and Omnicare confirm that liability arises when the speaker\u2019s words\u2014opinion or contingency framing\u2014communicate an implication that is false given known facts, but they do not authorize a broad rule treating standard risk disclosures as actionable whenever plaintiffs plead materialization. The PSLRA\u2019s safe-harbor backdrop further counsels against an expansive, hindsight-driven regime that would chill forward-looking disclosures and displace the SEC\u2019s calibrated disclosure framework with judge-made obligations.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 10(b) and Rule 10b-5 impose liability only for materially misleading statements or omissions, not for failing to provide investors a running narration of developing problems; treating Item 105-style risk factors as actionable whenever plaintiffs later allege partial \u201cmaterialization\u201d risks converting probabilistic caution into an affirmative duty to disclose all adverse facts. The PSLRA\u2019s carefully limited safe harbor for defined \u201cforward-looking statements,\u201d 15 U.S.C. \u00a7 78u-5, counsels against a judicially created rule that effectively expands liability (or immunities) for risk-factor language beyond what Congress specified, especially where the statement is a general warning rather than a concrete factual representation. Under Basic\u2019s probability/magnitude framework and TSC\u2019s materiality standard, whether a risk disclosure is misleading turns on context and what it actually asserts; a categorical rule that hypothetical phrasing becomes misleading upon any alleged materialization invites hindsight pleading and undermines the practical function of risk disclosures. Omnicare\u2019s half-truth principle does not justify liability absent a specific misleading implication about present facts; otherwise companies will over-warn in boilerplate, diluting genuinely material information and impairing market clarity.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Rule 10b-5(b) bars not only outright falsehoods but also omissions that render what a company chose to say misleading \u201cin the light of the circumstances,\u201d and a company cannot sanitize known, current problems by depicting them solely as hypothetical future risks. Under Omnicare, the question is how a reasonable investor would understand the statement in context; describing a risk as merely contingent can be a misleading half-truth if the issuer allegedly knows the risk has already materialized in a concrete way. This approach does not impose a freestanding duty to disclose all material information (Matrixx; Macquarie), but it does require that once the company speaks about a topic\u2014especially in formal risk-factor disclosures\u2014it must not create a false impression about present conditions. Materiality remains governed by TSC and Basic\u2019s probability/magnitude framework, ensuring liability only where the already-occurring risk would significantly alter the total mix of information.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) do not impose a free-standing duty to disclose all material information, but they do prohibit half-truths\u2014omissions that make what the company chose to say \u201cnot misleading\u201d in context. If an issuer affirmatively warns investors that a specific harm \u201cmay\u201d occur while allegedly knowing that the harm has already occurred in a meaningful way, a reasonable investor could be misled about the company\u2019s present condition and the likelihood/severity of the consequences, consistent with Omnicare\u2019s context-sensitive \u201creasonable investor\u201d framework and Matrixx\u2019s principle that firms control their disclosure duties by controlling what they say. That rule is workable and cabined: liability turns on whether the company\u2019s risk-language, in light of what it knew, created a materially misleading impression under TSC/Basic, not on a generalized obligation to \u201cconfess wrongdoing\u201d or to update every risk factor whenever any small aspect arises. Properly applied, PSLRA protections for genuinely forward-looking statements remain relevant, but they cannot insulate statements that are misleading as to already-known, present facts.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) by their plain terms impose liability for an untrue statement or an omission only when it makes what was said \u201cnot misleading,\u201d not for failing to provide additional, backward-looking facts whenever a risk begins to materialize. As Macquarie Infrastructure Corp. v. Moab Partners confirms, there is no freestanding duty to disclose \u201cany and all material information\u201d; the question is whether the issuer\u2019s actual risk-language, read in context, amounted to a misleading half-truth to a reasonable investor. Omnicare likewise ties liability to context and to whether omitted facts make the particular statement misleading, not to a categorical rule that any \u201chypothetical\u201d framing becomes actionable once a risk has occurred in some form. The Ninth Circuit\u2019s broader approach effectively converts Regulation S-K risk-factor guidance into an affirmative disclosure mandate, raising separation-of-powers concerns by expanding private liability beyond the statute\u2019s text.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) impose liability for materially misleading statements or half-truths, not for failing to disclose all material information or for not \u201cconfessing\u201d alleged wrongdoing. As reaffirmed in Macquarie Infrastructure Corp. v. Moab Partners, an omission is actionable only if it renders what the company affirmatively said misleading, and the inquiry turns on how a reasonable investor would understand the challenged language in context. Applying Omnicare\u2019s context-sensitive, reasonable-investor framework, generic risk-factor disclosures framed in probabilistic terms should not become per se misleading merely because some aspect of the risk has arguably begun to materialize; a contrary rule would invite overwarning and undermine the PSLRA\u2019s and the SEC\u2019s forward-looking, workable disclosure regime. Plaintiffs must plead a concrete, materially misleading implication\u2014beyond hindsight disagreement\u2014that the company represented the risk as not occurring when it knew it was occurring in a way that made the statement misleading.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Rule 10b-5(b) by its text prohibits not only untrue statements of material fact but also omissions of facts \u201cnecessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading,\u201d so liability turns on whether the issuer\u2019s chosen risk disclosure was a misleading half-truth, not on any freestanding duty to disclose. Under Omnicare, the question is contextual and objective from the perspective of a reasonable investor; presenting a risk as merely hypothetical can mislead if the company knows the risk has already materialized in a significant way, because the statement\u2019s framing carries an implication about present conditions. This approach is consistent with Matrixx and Macquarie: companies can control what they must disclose by what they say, but once they speak, they must avoid misleading impressions created by selective risk phrasing. Materiality remains governed by TSC and Basic, requiring that the already-occurring risk be significant enough\u2014given probability and magnitude\u2014to alter the total mix of information for a reasonable investor.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) do not impose a freestanding duty to disclose all material information, but they do prohibit omissions that render affirmative statements misleading; when an issuer chooses to speak about a risk, it must avoid half-truths. Under Omnicare, the question is whether, from the perspective of a reasonable investor and in context, framing a known, already-materialized problem as merely hypothetical would convey a misleading impression by omitting the company\u2019s contrary knowledge. Matrixx reinforces that companies can control their disclosure obligations by what they say, but once they speak, they must ensure the disclosure is not misleading in light of the circumstances. This approach promotes procedural fairness and market integrity without demanding a \u201cconfession,\u201d because liability attaches only when the chosen risk language creates a materially misleading picture.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.726,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-980",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a company\u2019s risk-factor disclosures can be actionable as misleading under federal securities laws when they warn that a risk \u201cmay\u201d occur even though plaintiffs allege the risk has already materialized (or is substantially certain), without also disclosing that the warned-of event is presently happening.",
+      "legal_provision": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (misstatements/omissions in connection with the purchase or sale of securities), as applied to SEC-required risk disclosures (including Regulation S-K Item 105 (formerly Item 503(c))).",
+      "petitioner_position": "Petitioners (Facebook/Meta and related defendants) argue the Ninth Circuit adopted an overly expansive rule that effectively turns ordinary, forward-looking risk warnings into actionable misstatements whenever plaintiffs can allege the risk had begun to materialize. They contend the securities laws do not impose a duty to continuously update risk factors to disclose every alleged instance of a risk occurring, especially where the disclosures accurately describe the nature of the risk and the company is not making an affirmative representation that the risk is not occurring. Petitioners and amici also argue the Ninth Circuit\u2019s approach undermines the SEC\u2019s disclosure framework by diluting materiality and encouraging \u201coverwarning\u201d (excessive, generic risk disclosures) that reduces the usefulness of filings for investors.",
+      "respondent_position": "Respondents (investors) argue that risk disclosures can be misleading by omission when framed purely as hypothetical (\u201cmay,\u201d \u201ccould,\u201d \u201cmight\u201d) while the company allegedly knows the risk has already occurred or is actively unfolding in a way that makes the warning incomplete. In their view, once a company speaks about a risk in its filings, it must do so in a way that is not misleading, which can require disclosing that the warned-of event has already materialized (or that related adverse facts are already known), because investors could otherwise be misled into believing the risk is merely contingent rather than present.",
+      "key_precedents": [
+        "TSC Industries, Inc. v. Northway, Inc. (materiality standard)",
+        "Basic Inc. v. Levinson (materiality and 10b-5 framework)",
+        "Matrixx Initiatives, Inc. v. Siracusano (materiality; duty not to mislead)",
+        "Virginia Bankshares, Inc. v. Sandberg (misleading statements/opinions principles)",
+        "Omnicare, Inc. v. Laborers District Council Construction Industry Pension Fund (when statements of opinion can mislead by omission)",
+        "PSLRA (Private Securities Litigation Reform Act) safe harbor for forward-looking statements (concept implicated in disputes over risk warnings)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.64,
+        "reasoning": "Justice Barrett and Justice Kavanaugh press the best objection: we cannot treat every \u201cmay\u201d risk factor as a present-tense denial on pain of recreating a Macquarie-barred duty to update, and any inference must be anchored in the statement\u2019s own wording and context. But Omnicare\u2019s context-sensitive half-truth inquiry\u2014coupled with Rule 10b-5(b)\u2019s requirement that the omitted fact be \u201cnecessary\u201d to make the statement made not misleading\u2014permits liability where the issuer\u2019s chosen hypothetical framing, in its surrounding disclosure setting, would reasonably convey to investors that management is not aware the risk is presently materializing, when it allegedly knows the opposite. Justice Thomas is right that we need a textual and contextual hook; the narrow hook here is not \u201cmaterialization equals liability,\u201d but contemporaneous knowledge of a materially occurring (or substantially certain) condition that makes this specific risk disclosure misleading as phrased, preserving Macquarie\u2019s line against pure omissions. With PSLRA particularity and scienter as additional gates, that limited rule is both textually grounded and institutionally modest, so I do not see the petitioner\u2019s argument as undermining the narrow respondent position.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Chief Justice Roberts\u2019s proposed \u201cnarrow\u201d rule\u2014liability when the issuer knows the risk is already materializing\u2014still requires treating the conditional word \u201cmay\u201d as conveying a present-tense factual negation (that the risk is not occurring), which is not the ordinary public meaning of the statement made. Omnicare\u2019s context inquiry, as Justice Kagan stresses, cannot supply an implication untethered from the text and immediate framing; it polices misleading inferences that the speaker\u2019s own words fairly communicate, not inferences derived chiefly from the issuer\u2019s undisclosed knowledge. Macquarie reinforces that Rule 10b-5(b) targets making \u201cthe statements made\u201d misleading, not imposing an extra-textual obligation to append every contemporaneous adverse fact to generic risk factors, and Matrixx\u2019s half-truth principle does not authorize converting hypothetical warnings into implied assurances absent additional language. Because respondent\u2019s theory depends on an inference the disclosure\u2019s actual wording does not reasonably carry, it collapses into the duty-to-update regime Macquarie forbids.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Chief Justice Roberts\u2019s proposed narrowing is the strongest respondent-side move, but it still makes liability turn on an implied present-tense assurance (that the risk is not occurring) drawn from the issuer\u2019s use of conditional \u201cmay\u201d language\u2014an implication not anchored in the \u201cstatements made,\u201d which Rule 10b-5(b) targets. Justice Kagan\u2019s and Justice Sotomayor\u2019s reliance on Omnicare\u2019s context inquiry is important, but Omnicare does not license courts to convert a generic contingency into a concealed representation absent some textual or contextual cue that objectively conveys \u201cthis is not happening now.\u201d Macquarie\u2019s line against \u201cpure omissions\u201d would be eroded if plaintiffs can plead contemporaneous knowledge to transform standard risk factors into actionable half-truths whenever the warned-of event has begun to materialize. Scienter, materiality, and the PSLRA\u2019s filters (as Justice Gorsuch stresses) are not answers to that threshold textual problem; they merely limit damages after we have expanded what counts as a misleading statement in the first place.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett and Justice Thomas raise the best textual worry: we cannot treat every \u201cmay\u201d risk disclosure as a disguised present-tense assurance, or we effectively recreate the update duty Macquarie rejects. But Chief Justice Roberts\u2019s and Justice Kagan\u2019s approach does not presume that implication; it requires identifying, under Omnicare, a specific reasonable-investor inference traceable to the issuer\u2019s own hypothetical framing and surrounding context\u2014one that becomes misleading when the issuer contemporaneously knows the warned-of condition is already materially occurring (or substantially certain). That keeps the case within Rule 10b-5(b)\u2019s prohibition on misleading \u201cstatements made\u201d (half-truths) rather than policing \u201cpure omissions,\u201d and the PSLRA\u2019s scienter/particularity plus materiality and loss causation meaningfully cabin the doctrine against overdeterrence. Under my pragmatic lens, that narrow rule prevents issuers from using conditional language to obscure present harms to ordinary investors without converting Item 105 into a freestanding disclosure mandate.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Justice Barrett and Justice Kavanaugh are right to insist that \u201cmay\u201d does not, by itself, assert the opposite present fact, and that Macquarie forbids converting Item 105 into a free-floating duty to update. But Chief Justice Roberts\u2019s narrowing principle answers that textual concern by keeping the inquiry inside Rule 10b-5(b): liability turns on whether this issuer\u2019s chosen hypothetical framing, in its full context, would reasonably convey to investors an implication about present conditions that the issuer allegedly knows is false\u2014an Omnicare-style half-truth rather than a \u201cpure omission.\u201d Justice Thomas\u2019s demand for a textual hook is satisfied when the misleading inference is fairly traceable to the statement\u2019s wording and surrounding disclosures, not presumed from \u201cmay\u201d alone; that is the administrable line that preserves Macquarie\u2019s statement/omission distinction while still policing strategic half-truths. With PSLRA scienter and particularity, plus materiality and loss causation, I do not see petitioner\u2019s overdeterrence/pleading concerns as undermining this cabined theory.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.69,
+        "reasoning": "Justice Barrett and Justice Kavanaugh press the best textualist objection: conditional \u201cmay\u201d language does not, by ordinary meaning alone, assert the opposite present fact, and we must not convert Rule 10b-5(b) into an extra-textual duty to update forbidden by Macquarie. But Chief Justice Roberts\u2019s formulation supplies the needed textual hook by insisting on an Omnicare-style inquiry into what the particular statement, in its full context, would reasonably convey\u2014sometimes a company\u2019s chosen hypothetical framing can communicate that management is not aware the risk is presently materializing, and if the issuer allegedly knows the contrary, the omitted fact can be \u201cnecessary\u201d to make \u201cthe statements made\u201d not misleading. Justice Thomas is right that we cannot presume such an implication from \u201cmay\u201d as a per se rule; the implication must be fairly traceable to the issuer\u2019s own language and surrounding disclosures, not merely to contemporaneous knowledge, and that limitation keeps this within half-truth territory rather than a freestanding update obligation. With that cabining\u2014anchored implication, contemporaneous knowledge, and materiality\u2014the petitioner\u2019s update-duty concern does not defeat the respondent\u2019s theory on the text of 10b-5(b).",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Chief Justice Roberts\u2019s proposed narrowing is the most serious respondent move because it tries to fit these cases into Omnicare\u2019s half-truth framework rather than an open-ended update duty. But as Justice Thomas and Justice Barrett emphasize, the missing step remains: a generic \u201cmay\u201d risk disclosure does not, without more in the issuer\u2019s wording or surrounding narrative, communicate a concrete present-tense assurance that the risk is not occurring, and Roberts\u2019s \u201cknowledge of materialization\u201d effectively supplies that implication from the issuer\u2019s state of mind rather than from the \u201cstatement made\u201d as Rule 10b-5(b) requires. Omnicare\u2019s context inquiry can support liability only where the language and context objectively convey a contrary present fact (not merely where plaintiffs plead contemporaneous knowledge), otherwise we invite PSLRA-evasive pleading that collapses Macquarie\u2019s statement/omission line into an implied-representation regime. Matrixx reinforces accuracy in what is affirmatively said, but it does not license treating standard conditional risk factors as misleading absent a clearer textual hook that investors would reasonably read as \u201cthis is not happening now.\u201d",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Chief Justice Roberts\u2019s proposed narrowing is the most serious respondent-side effort, but it still turns on an inference that a purely contingent \u201cmay\u201d warning communicates the present negation\u2014an implication I cannot locate in the ordinary public meaning of the words absent additional framing. As Justice Thomas and Justice Kavanaugh stress, Rule 10b-5(b) targets whether \u201cthe statements made\u201d are misleading, and Omnicare\u2019s context-sensitive inquiry cannot supply a missing textual hook by presuming that conditional risk language ordinarily signals \u201cnot happening now.\u201d Justice Kagan and Justice Sotomayor are right that half-truth liability exists, but Matrixx and Omnicare require an affirmative representation or contextual cue that actually conveys a contrary present fact; otherwise we effectively recreate the update duty Macquarie cautions against. PSLRA pleading and scienter limits may reduce case volume, but they do not solve the threshold problem of identifying a misleading implication grounded in what the issuer said rather than what it failed to add.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett\u2019s administrability and \u201ctextual hook\u201d objection is the hardest point: we cannot adopt any rule that treats every \u201cmay\u201d risk factor as an implied assertion that the risk is not occurring, because that would approximate an extra-textual update duty Macquarie cautions against. But Chief Justice Roberts\u2019s and Justice Kagan\u2019s Omnicare-tethered framing answers that concern by requiring a context-grounded, reasonable-investor inference drawn from the issuer\u2019s own wording and surrounding disclosures\u2014so liability attaches only where the contingent framing, in context, would reasonably convey that management is not aware of present materialization when it allegedly is. That makes this a half-truth case under Rule 10b-5(b) (an omission \u201cnecessary\u201d to make the statement made not misleading), not a \u201cpure omission\u201d case barred by Macquarie, and the PSLRA\u2019s scienter and particularity requirements further cabin the theory against overdeterrence. Justice Thomas is right to insist the implication be anchored in what was said, but Omnicare\u2019s contextual inquiry supplies that anchor without collapsing into a per se materialization-equals-liability rule.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) do not impose a freestanding duty to disclose all material facts, but they do prohibit omissions that render what a company chose to say misleading in context. Under Omnicare, the question is whether a reasonable investor would take a purely hypothetical risk warning (\u201cmay\u201d occur) to imply the company does not know the risk is already materializing; if so, failure to disclose present, known materialization can make the disclosure misleading by omission. That approach preserves the PSLRA\u2019s protection for genuinely forward-looking cautionary statements while enforcing the basic principle from Matrixx that once an issuer speaks, it must do so in a way that is not misleading. A narrow rule limited to situations where the issuer had contemporaneous knowledge that the warned-of event was already occurring best serves precedent and institutional legitimacy without creating an open-ended \u201ccontinuous updating\u201d duty.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The text of Rule 10b-5(b) reaches only omissions that are \u201cnecessary in order to make the statements made \u2026 not misleading,\u201d and it does not impose an affirmative, free-standing duty to disclose every material fact. Macquarie Infrastructure Corp. v. Moab Partners confirms that \u201cpure omissions are not actionable\u201d and that liability exists only when an omission converts an actual statement into a misleading half-truth. A risk disclosure stating a risk \u201cmay\u201d occur is not inherently a representation that the risk is not occurring, so treating such forward-looking caution as actionable whenever plaintiffs allege the risk has begun to materialize effectively creates an update duty untethered to the rule\u2019s text and the limited nature of \u00a710(b). Matrixx and Omnicare allow half-truth liability in context, but they do not authorize rewriting cautious, conditional language into a present-tense assurance absent a specific, misleading affirmative representation.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 10(b) and Rule 10b-5 impose liability for materially misleading statements or omissions, not for failing to provide a running update whenever a disclosed risk begins to materialize; absent an affirmative representation that the risk is not occurring, a warning that a risk \u201cmay\u201d occur is not automatically false. The Ninth Circuit\u2019s approach risks converting Item 105 risk factors into a broad, judicially created duty to update, in tension with Congress\u2019s calibrated PSLRA safe harbor for forward-looking statements, 15 U.S.C. \u00a7 78u-5, and with the principle that materiality and misleadingness are context-dependent rather than presumed. Under Basic and Matrixx, the question is whether the disclosure, read as a whole, would mislead a reasonable investor; treating contingent risk language as actionable whenever plaintiffs allege some present manifestation would expand 10b-5 beyond its text and produce substantial practical costs in over-deterrence and boilerplate disclosures. Omnicare reinforces that liability for omissions depends on whether the statement\u2019s framing would lead a reasonable investor to draw an incorrect factual inference; a categorical rule that \u201cmay\u201d becomes misleading whenever a risk arguably has begun would go too far.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Rule 10b\u20115(b) does not impose a freestanding duty to disclose all material information, but it does prohibit omissions that render what a company chose to say misleading \u201cin the light of the circumstances.\u201d When an issuer affirmatively warns that a risk \u201cmay\u201d occur while allegedly knowing the warned-of event has already materialized or is substantially certain, a reasonable investor could understand the disclosure as implying no such present, contrary facts\u2014making the statement misleading by omission under Omnicare\u2019s context-sensitive reasonable-investor standard. That conclusion fits Matrixx\u2019s principle that issuers can control what they must disclose by controlling what they say, yet once they speak, they must do so accurately and completely enough not to mislead. Consistent with TSC Industries and Basic, whether the already-materialized risk is material and whether plaintiffs can prove scienter and loss causation remain fact-intensive constraints, so recognizing liability here preserves fair disclosure without converting every risk factor into strict, continuous-update obligations.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) do not impose a free-standing duty to disclose all material facts, but they do prohibit omissions that render what the company chose to say misleading \u201cin light of the circumstances.\u201d A risk-factor warning framed as purely contingent (\u201cmay\u201d occur) can, in context, mislead a reasonable investor if the issuer allegedly knows the risk has already materialized or is substantially certain and the disclosure thereby implies the absence of that present reality, which is the kind of half-truth Omnicare treats as actionable by omission. That approach also fits Matrixx\u2019s principle that issuers can \u201ccontrol what they have to disclose\u201d by what they say\u2014once they speak, they must do so non-misleadingly\u2014while respecting Macquarie\u2019s reminder that liability turns on whether the omission makes the affirmative statement misleading, not on any generalized updating duty. Limiting liability to situations where the hypothetical framing would mislead a reasonable investor about present conditions is a workable middle ground that avoids converting all risk factors into update obligations while still policing materially misleading half-truths.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Rule 10b-5(b) forbids not only \u201cany untrue statement of a material fact\u201d but also omissions of facts \u201cnecessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading.\u201d 17 C.F.R. \u00a7 240.10b-5(b). While Section 10(b) imposes no free-standing duty to disclose all material information and \u201cpure omissions are not actionable,\u201d an omission is actionable when it renders what the issuer chose to say misleading. Macquarie Infrastructure Corp. v. Moab Partners, L.P., 601 U.S. 257, 264\u2013266 (2024). Under Omnicare\u2019s objective, context-sensitive inquiry into how a reasonable investor would understand qualified language, a risk disclosure framed as merely contingent (\u201cmay occur\u201d) can mislead if the company allegedly knows the warned-of harm is already materializing and fails to reveal that present fact, thereby creating a false impression about the risk\u2019s status. Omnicare, Inc. v. Laborers Dist. Council Constr. Indus. Pension Fund, 575 U.S. 175, 186\u2013188 (2015).",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Section 10(b) and Rule 10b-5(b) prohibit omissions only when they render an affirmative statement misleading; they do not impose a freestanding duty to disclose all material information or to continually \u201cupdate\u201d risk factors as new facts arise. See Macquarie Infrastructure Corp. v. Moab Partners, L.P. (2024) and Matrixx Initiatives, Inc. v. Siracusano (2011). Under Omnicare (2015), the question is whether, in context and from the perspective of a reasonable investor, the company\u2019s risk warning implied the absence of known contrary facts; a generic \u201cmay occur\u201d risk factor is not automatically misleading merely because some version of the risk is alleged to be unfolding, absent a concrete implication that it is not occurring. A Ninth Circuit rule treating the onset of a risk as per se actionable would erode PSLRA-protective principles for forward-looking disclosures and create impractical incentives toward overwarning, undermining workability and the SEC\u2019s disclosure regime.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Rule 10b-5(b) prohibits \u201comit[ting] to state a material fact necessary in order to make the statements made\u2026 not misleading,\u201d but it does not impose a freestanding duty to disclose all material information or to continuously \u201cupdate\u201d risk factors absent a misleading affirmative statement. See 17 C.F.R. \u00a7 240.10b-5(b); Macquarie Infrastructure Corp. v. Moab Partners, L.P., 601 U.S. 257, 264\u2013265 (2024); Matrixx Initiatives, Inc. v. Siracusano, 563 U.S. 27, 45 (2011). Under Omnicare, whether a statement framed as contingent (\u201cmay,\u201d \u201ccould\u201d) misleads by omission turns on what it implies to a reasonable investor in context, and liability attaches only where the warning reasonably conveys that the risk is not presently occurring or omits known facts that make the statement misleading. 575 U.S. 175, 186\u2013188, 190 (2015). The Ninth Circuit\u2019s rule, as described, risks converting accurate risk disclosures into actionable misstatements whenever plaintiffs allege some materialization, in tension with the text of Rule 10b-5(b) and the PSLRA\u2019s solicitude for forward-looking statements.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Rule 10b-5(b) imposes no free-standing duty to disclose all material facts, but it squarely prohibits omitting facts necessary to make the statements actually made \u201cnot misleading\u201d in context. Under Omnicare and Matrixx, the question is how a reasonable investor would understand the company\u2019s risk disclosure; framing a risk as merely contingent (\u201cmay,\u201d \u201ccould\u201d) can imply it is not presently occurring, and if defendants allegedly knew the risk had already materialized (or was substantially certain), that omission can render the warning misleading. This approach does not convert all risk factors into update obligations; it turns on context, materiality under TSC/Basic, and whether the company\u2019s chosen language created a misleading impression of the present state of affairs. Holding such pleadings actionable better serves procedural fairness by preventing issuers from using hypothetical phrasing to mask known, ongoing harms while still preserving PSLRA constraints through scienter and particularity requirements.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.732,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  }
+]

@@ -1,0 +1,621 @@
+[
+  {
+    "docket": "22-381",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a foreign plaintiff can state a cognizable civil RICO claim based on injury to intangible property, specifically whether such an injury qualifies as a 'domestic injury' under RJR Nabisco's standing requirement.",
+      "legal_provision": "Racketeer Influenced and Corrupt Organizations Act (RICO), 18 U.S.C. \u00a7 1964(c), which requires a plaintiff to allege and prove a 'domestic injury to business or property' to maintain a private civil cause of action, as interpreted in RJR Nabisco, Inc. v. European Community, 579 U.S. 325 (2016).",
+      "petitioner_position": "Petitioners Yegiazaryan and CMB Monaco argue that a foreign-domiciled plaintiff cannot suffer a cognizable domestic injury to intangible property under RICO, contending that: (1) allowing foreign plaintiffs to 'domesticate' foreign injuries by confirming foreign arbitration awards in U.S. courts as the basis for civil-RICO claims improperly erodes the bar against extraterritorial application of U.S. law; (2) the Ninth Circuit's ruling deepens an existing circuit split by adopting an overly expansive interpretation of the domestic injury requirement; (3) such an interpretation would unleash foreign litigation into U.S. courts, amplify burdens on the federal judiciary, impose higher costs on multinational businesses, and force defendants into coercive settlements; and (4) the proper test should focus on the location of the injury rather than the residency of the plaintiff, and a foreign plaintiff's injury to intangible property should be deemed foreign, not domestic.",
+      "respondent_position": "Respondent Smagin argues that: (1) the domestic injury inquiry is inherently context-specific and fact-dependent, turning on the particular circumstances alleged in the complaint rather than a rigid categorical rule; (2) the location of the plaintiff's residence is not solely determinative, but the totality of facts \u2014 including where the injurious conduct occurred and where its effects were felt \u2014 can establish a domestic injury even for a foreign plaintiff; (3) the Ninth Circuit correctly rejected the Seventh Circuit's residency-based 'Armada test' as inconsistent with RJR Nabisco's focus on the location of injury rather than the location of the plaintiff; (4) the injury to Smagin's intangible property rights \u2014 including his ability to enforce a U.S. district court judgment \u2014 has sufficient domestic nexus to qualify as a domestic injury under RICO; and (5) the case presents no vehicle problem warranting reversal, as the lower court's ruling was well-grounded in existing precedent.",
+      "key_precedents": [
+        "RJR Nabisco, Inc. v. European Community, 579 U.S. 325 (2016) \u2014 established the domestic injury requirement for private civil RICO claims",
+        "Armada (Singapore) Pte Ltd v. Amcol International Corp. (7th Circuit) \u2014 adopted a plaintiff residency-based test for determining domestic injury to intangible property, which both the Third and Ninth Circuits rejected",
+        "Humphrey v. GlaxoSmithKline PLC (3rd Circuit) \u2014 adopted a context-specific, multi-factor inquiry for determining domestic injury under RICO, endorsed by the Ninth Circuit",
+        "Morrison v. National Australia Bank Ltd., 561 U.S. 247 (2010) \u2014 foundational precedent on the presumption against extraterritorial application of U.S. statutes",
+        "New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards \u2014 relevant to the enforcement of the underlying foreign arbitration award that formed the basis of Smagin's claimed injury",
+        "London Court of International Arbitration (LCIA) Rules \u2014 governing the underlying arbitration proceedings between the parties"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's administrability challenge \u2014 that the Ninth Circuit's totality-of-circumstances framework provides no principled limiting principle against foreign judgment creditors manufacturing domestic RICO standing through strategic forum selection \u2014 is the strongest remaining argument for petitioner, and I take it seriously as a matter of institutional concern. But as I noted in my prior reasoning, the answer to that concern is not to adopt a categorical domicile-equals-injury rule that RJR Nabisco never announced; it is to write the majority opinion narrowly enough to require that the domestic nexus be both genuine and the specific target of the racketeering scheme, not merely that a U.S. judgment is tangentially implicated. Justice Barrett correctly identifies the critical analytical distinction: Smagin's intangible property right is a right created by and exercisable through U.S. legal institutions, and the alleged racketeering was specifically directed at frustrating California enforcement proceedings \u2014 this is not a case where a foreign plaintiff is bootstrapping a foreign injury into domestic RICO standing through forum selection. As Chief Justice, I would assign myself the majority opinion and write it with the express limiting principle that domestic RICO standing for foreign plaintiffs requires that the racketeering conduct be specifically directed at obstructing enforcement of rights created by and exercisable through U.S. legal institutions, thereby addressing Justice Alito's administrability concern while affirming the Ninth Circuit on the narrowest defensible grounds.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's argument that a domicile-equals-injury-location rule would produce the 'perverse result' of allowing domestic plaintiffs to bring RICO claims for wholly foreign injuries while barring foreign plaintiffs with genuine domestic nexus is the strongest challenge to my position \u2014 but it actually confirms rather than undermines my concern. The solution to that asymmetry is not to abandon categorical clarity in favor of a totality-of-circumstances test, but to apply the same location-of-injury inquiry consistently regardless of plaintiff nationality; the problem Justice Kagan identifies is with courts applying the rule inconsistently, not with the rule itself. Justice Jackson's argument that a rigid rule would create perverse incentives for defendants to target foreign judgment creditors with impunity is emotionally compelling but analytically flawed: the question is not whether RICO should protect foreign plaintiffs, but whether Congress clearly authorized extraterritorial application to reach injuries felt primarily abroad \u2014 and the presumption against extraterritoriality as a clear-statement rule places that burden on respondents, not petitioners. The majority's totality-of-circumstances framework, as Justice Gorsuch correctly observes, locates the injury at the site of the defendant's obstructive conduct rather than where the plaintiff actually suffers economic harm, which is precisely the analytical inversion that Morrison and RJR Nabisco were designed to prevent.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's argument that Smagin's intangible property right is 'created by and exercisable through U.S. legal institutions' is the most sophisticated version of the majority's position, but it still fails to answer the administrability problem I raised: if a U.S. court judgment is sufficient to transform a foreign economic injury into a domestic one, then every foreign judgment creditor can manufacture RICO standing through strategic forum selection, and the majority offers no principled limiting principle beyond 'rigorous application' of a totality-of-circumstances test \u2014 which is precisely the kind of standardless inquiry that Morrison and RJR Nabisco were designed to replace with clear rules. Justice Roberts's proposed narrow holding \u2014 requiring that the racketeering be specifically directed at frustrating domestic enforcement proceedings \u2014 sounds limiting in theory, but in practice it will be satisfied in virtually every case where a foreign plaintiff obtains a U.S. judgment and then alleges domestic obstruction, because the obstructive conduct will almost always have some domestic component. The categorical rule I favor \u2014 that intangible property injuries are felt where the plaintiff's economic interests are centered \u2014 is not a domicile-equals-injury rule in disguise, as Justice Kagan repeatedly characterizes it; it is a recognition that for a Russian domiciliary with no genuine domestic economic presence, the economic loss from being unable to collect a debt flows to Russia, not California, regardless of which court issued the judgment. The presumption against extraterritoriality as a clear-statement rule places the burden on respondents to demonstrate that Congress clearly authorized this extension of RICO's reach, and the majority's totality-of-circumstances framework does not satisfy that demanding standard.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas and Justice Alito press the strongest opposing argument: that RJR Nabisco's focus on injury location, combined with the common-law principle that economic injuries are felt where the plaintiff resides, compels a finding that Smagin's injury is foreign. But this argument proves too much \u2014 it effectively collapses the injury-location inquiry into a plaintiff-domicile inquiry, which is precisely what RJR Nabisco's framework was designed to avoid. As Justice Kagan correctly notes, a rigid residency-based rule would produce arbitrary results, permitting domestic plaintiffs to bring RICO claims for wholly foreign injuries while categorically barring foreign plaintiffs with genuine domestic nexus. The critical distinction here is that Smagin's intangible property right \u2014 his legally cognizable interest in executing a California federal court judgment \u2014 is itself a creature of U.S. law, anchored in a domestic court, and the racketeering conduct was specifically directed at frustrating enforcement proceedings within the United States; the injury to that right is therefore felt where the right exists and where its enforcement was obstructed, not merely where the plaintiff sleeps.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's most incisive challenge remains that my own caveat about vigilance \u2014 ensuring the inquiry centers on where injury is felt, not on U.S. legal instrument involvement \u2014 actually undermines the Ninth Circuit's approach. But I continue to think this misapprehends the analytical structure: the California federal court judgment is not merely a procedural instrument tangentially involved in collecting a foreign debt; it is itself the intangible property right that was specifically targeted by the racketeering scheme, and the obstructive conduct was directed at California enforcement proceedings. Justice Alito presses that the Ninth Circuit's totality-of-circumstances framework lacks a principled limiting principle preventing every foreign judgment creditor from manufacturing domestic RICO standing \u2014 this is the strongest remaining challenge, and I take it seriously enough to join Justice Roberts in insisting the majority opinion write narrowly to require that the domestic nexus be both genuine and the specific target of the racketeering scheme, not merely that a U.S. judgment is tangentially implicated. The categorical domicile-equals-injury rule Justice Thomas and Justice Alito favor would, as Justice Barrett correctly notes, collapse the injury-location inquiry into a plaintiff-domicile inquiry that RJR Nabisco's framework was designed to avoid, and that structural defect in their position is ultimately more disqualifying than the administrability concerns they raise about the totality-of-circumstances approach.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Sotomayor's argument that the injury to Smagin's intangible property right is 'felt where the right exists and where its enforcement was obstructed' is the strongest case for the respondent, but it conflates the location of the enforcement mechanism with the location of the economic harm itself. A California federal court judgment is the procedural vehicle through which Smagin seeks to collect on an underlying arbitral award \u2014 it is not the property right injured by Yegiazaryan's racketeering; the injury is to Smagin's ability to recover the economic value owed to him, which flows to wherever his financial interests are centered, which is abroad. Justice Kagan's own warning that courts must remain vigilant that the inquiry centers on where the injury is felt \u2014 not merely whether some U.S. legal instrument is tangentially involved \u2014 cuts against the majority's position, because the Ninth Circuit's totality-of-circumstances approach effectively treats the California judgment as sufficient to domesticate what remains a foreign plaintiff's foreign economic loss without a principled limiting rule. I acknowledge the force of Justice Barrett's point that RJR Nabisco did not announce a categorical domicile-equals-injury rule, and I do not insist on Armada's precise formulation, but the absence of any categorical limiting principle in the Ninth Circuit's framework is itself a structural defect that the presumption against extraterritoriality as a clear-statement rule cannot tolerate.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's administrability challenge \u2014 that the Ninth Circuit's totality-of-circumstances framework provides no principled limiting principle preventing every foreign judgment creditor from manufacturing domestic RICO standing \u2014 remains the strongest argument against my position, and I take it seriously as an institutionalist concerned about workable legal standards. But the answer to that concern is rigorous application of the context-specific inquiry with genuine scrutiny, not adoption of a categorical domicile rule that RJR Nabisco never announced. As Justice Barrett correctly identifies, the critical analytical move is that Smagin's intangible property right is not merely a foreign economic interest tangentially connected to U.S. proceedings \u2014 it is a right created by and exercisable through U.S. legal institutions, and the racketeering was specifically engineered to frustrate those domestic enforcement proceedings. I would write narrowly to require that the domestic nexus be genuine, substantial, and the specific target of the alleged racketeering scheme \u2014 not merely that a U.S. judgment is incidentally implicated \u2014 which provides the limiting principle Justice Alito demands while correctly resolving this case in favor of the respondent.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Alito's most pointed challenge \u2014 that the majority's totality-of-circumstances framework lacks a principled limiting principle that would prevent every foreign judgment creditor from manufacturing domestic RICO standing through mere forum selection \u2014 deserves a direct answer, and I think the answer lies in the specificity requirement I would build into any majority opinion: it is not sufficient that a U.S. judgment is tangentially involved; the racketeering scheme must be specifically directed at frustrating domestic enforcement proceedings, and the domestic nexus must be both genuine and the particular target of the alleged misconduct. This distinguishes Smagin's case \u2014 where Yegiazaryan allegedly orchestrated a scheme specifically designed to obstruct California enforcement proceedings \u2014 from a case where a foreign plaintiff merely obtains a U.S. judgment as a convenient hook for RICO liability. Justice Gorsuch's concern that the Ninth Circuit's framework locates injury at the site of the defendant's conduct rather than where the plaintiff suffers economic harm is analytically serious, but I think it mischaracterizes what is happening: the intangible property right at issue is the right to enforce a California judgment through California proceedings, and that right is injured where it exists and where its exercise is obstructed \u2014 not merely where the plaintiff's bank account is located. I maintain my position that this case presents a genuine domestic injury under a properly demanding application of the context-specific inquiry, while acknowledging that Justice Roberts is correct that the opinion must be written narrowly to prevent strategic domestication of foreign injuries.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas and Justice Alito make the strongest opposing argument \u2014 that a Russian plaintiff residing in Russia whose economic interests are centered abroad necessarily suffers a foreign injury, and that allowing U.S. judgment enforcement to domesticate that injury would swallow the extraterritoriality bar. But this argument proves too much: it conflates the location of the plaintiff with the location of the injury, which is precisely the analytical error RJR Nabisco cautioned against. As Justice Sotomayor correctly observes, the focus must be on where the injurious conduct occurred and where its effects were felt \u2014 and here, Yegiazaryan's alleged racketeering was specifically directed at frustrating enforcement of a California federal court judgment, meaning the harm to Smagin's intangible property rights manifested in the United States where those enforcement rights are legally cognizable and exercisable. From my perspective as someone who has seen how categorical rules can be weaponized to insulate bad actors, a rigid residency-based rule would create a perverse incentive structure: defendants could orchestrate domestic racketeering schemes targeting foreign judgment creditors with near-complete immunity, which cannot be what Congress intended when it enacted RICO's civil remedy provision.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "While I am sympathetic to the concern that allowing foreign plaintiffs to 'domesticate' foreign injuries through U.S. court judgments could erode the presumption against extraterritoriality established in Morrison v. National Australia Bank and reinforced in RJR Nabisco, I find that a rigid residency-based categorical rule \u2014 as adopted by the Seventh Circuit in Armada \u2014 is itself inconsistent with RJR Nabisco's focus on the location of the injury rather than the location of the plaintiff. The narrowest and most institutionally sound path here is to affirm that the domestic injury inquiry is context-specific and fact-dependent, as the Third Circuit held in Humphrey v. GlaxoSmithKline, without endorsing an overly expansive reading that would open federal courts to a flood of foreign litigation. Where, as here, the alleged injurious conduct was substantially directed at and centered on frustrating enforcement of a U.S. district court judgment in California \u2014 an intangible property right with a concrete domestic nexus \u2014 the totality of circumstances can support a finding of domestic injury under \u00a7 1964(c). I write narrowly to emphasize that this holding does not invite foreign plaintiffs to manufacture domestic RICO claims merely by obtaining a U.S. judgment, but rather requires courts to rigorously examine whether the specific injury alleged has a genuine and substantial domestic character.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1964(c) requires a 'domestic injury to business or property,' and as I emphasized in RJR Nabisco, the presumption against extraterritoriality \u2014 rooted in Morrison v. National Australia Bank \u2014 demands that courts focus on the location of the injury itself, not the creative procedural mechanisms by which a foreign plaintiff attempts to domesticate a fundamentally foreign harm. A Russian plaintiff residing in Russia, whose underlying property rights and economic interests are centered abroad, cannot transform a foreign injury into a domestic one merely by obtaining a U.S. court judgment confirming a foreign arbitration award; that reasoning would effectively nullify the domestic injury requirement by allowing any foreign plaintiff to manufacture domestic RICO standing through forum selection. The Ninth Circuit's context-specific, totality-of-circumstances approach lacks the textual grounding necessary to give the 'domestic injury' requirement meaningful limiting force, and it deepens a circuit split that invites precisely the kind of unprincipled, ad hoc extraterritorial application of U.S. law that Morrison and RJR Nabisco were designed to prevent. Consistent with my originalist and textualist commitments, the proper rule should be categorical and location-of-injury focused: intangible property injuries suffered by a foreign-domiciled plaintiff whose interests are centered abroad are foreign injuries, not domestic ones.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Under RJR Nabisco's domestic injury requirement, the proper inquiry must focus on the location of the injury itself, not the residency of the plaintiff or the location of the defendant's conduct. A Russian plaintiff residing in Russia whose primary interest is collecting on a judgment has suffered an injury that is fundamentally foreign in character \u2014 the harm to his intangible property rights is felt where he resides and where his economic interests are centered, not in the United States. Allowing foreign plaintiffs to manufacture domestic RICO standing by pointing to incidental U.S.-based enforcement activity would effectively swallow the extraterritoriality bar RJR Nabisco erected, inviting a flood of foreign litigation into federal courts contrary to Morrison v. National Australia Bank's foundational presumption against extraterritorial application of U.S. law. A categorical rule tying the location of intangible property injury to the plaintiff's domicile, as the Seventh Circuit's Armada framework approximates, provides the administrable, predictable standard that textualist interpretation of Section 1964(c) demands and that practical consequences for the federal judiciary require.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "RJR Nabisco established that the relevant inquiry is the *location of the injury*, not the location of the plaintiff, and adopting the Seventh Circuit's Armada residency-based test would improperly collapse that distinction by making plaintiff domicile dispositive rather than examining where the injurious conduct occurred and where its effects were felt. The context-specific, totality-of-circumstances approach endorsed by the Third Circuit in Humphrey and adopted by the Ninth Circuit better aligns with RJR Nabisco's actual reasoning and avoids the categorical rigidity that would effectively immunize defendants who orchestrate domestic schemes to frustrate U.S. court judgments simply because their victim happens to reside abroad. From a practical standpoint, allowing Yegiazaryan to evade RICO liability by pointing to Smagin's Russian domicile would reward defendants who deliberately exploit U.S. legal infrastructure \u2014 including U.S. district court judgments and U.S.-based assets \u2014 to perpetrate their racketeering, which is precisely the harm RICO was designed to address. Permitting a fact-specific inquiry that accounts for where the injurious conduct was directed, where the obstructed enforcement rights were anchored, and where the effects of the racketeering were concentrated best serves both the text of 18 U.S.C. \u00a7 1964(c) and the statute's remedial purpose of protecting against organized corruption.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "RJR Nabisco's domestic injury requirement focuses on the location of the injury itself, not the domicile of the plaintiff \u2014 the Court's two-step Morrison/RJR Nabisco framework asks where the relevant conduct and its effects are felt, not where the plaintiff resides. A rigid residency-based categorical rule like the Seventh Circuit's Armada test is textually unmoored from \u00a7 1964(c)'s language and would produce arbitrary results, allowing domestic plaintiffs to bring RICO claims for injuries occurring entirely abroad while barring foreign plaintiffs from claims with genuine domestic nexus. The context-specific, totality-of-circumstances approach adopted by the Third and Ninth Circuits is more faithful to RJR Nabisco's actual analytical framework and more workable in practice, particularly where \u2014 as here \u2014 the alleged RICO conduct was directed at frustrating enforcement of a U.S. district court judgment, giving the injury a sufficiently domestic character. That said, courts applying this standard must remain vigilant that the inquiry centers on where the injury is felt and where the injurious conduct occurred, not merely on whether some U.S. legal instrument is tangentially involved, lest the domestic injury requirement be rendered meaningless.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under RJR Nabisco, the domestic injury requirement demands that courts focus on where the injury itself was suffered, not where the defendant's racketeering conduct occurred or where the defendant happens to be subject to judgment execution. A foreign plaintiff like Smagin, domiciled abroad, who holds intangible property rights arising from a foreign arbitration award, presumptively suffers any economic injury to those intangible rights at his foreign residence \u2014 consistent with the general common-law principle that economic injuries are felt where the injured party resides. The Ninth Circuit's approach of centering the domestic-injury analysis on the location of the defendant's conduct rather than the location of the plaintiff's injury inverts RJR Nabisco's core holding and improperly allows foreign plaintiffs to 'domesticate' foreign injuries by pointing to domestic racketeering activity, which is precisely the extraterritorial overreach Morrison v. National Australia Bank warned against. Applying the plain meaning of 'domestic injury' and the presumption against extraterritoriality as a clear-statement rule, the better-reasoned approach requires that the injury itself \u2014 not merely the injurious conduct \u2014 have a domestic locus, and for intangible property held by a foreign domiciliary, that locus is foreign.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "RJR Nabisco established that the domestic injury inquiry focuses on where the injury is suffered, not a categorical rule based on plaintiff residency, and the Ninth Circuit's context-specific, totality-of-circumstances approach is more faithful to that framework than the Seventh Circuit's rigid residency-based Armada test. Here, Smagin's injury to his intangible property rights \u2014 specifically his ability to enforce a California federal court judgment \u2014 has a meaningful domestic nexus given that the judgment exists as a legal instrument of a U.S. court and the alleged racketeering conduct was directed at frustrating enforcement proceedings centered in California. While I share concerns about opening U.S. courts to foreign plaintiffs seeking to domesticate foreign injuries, the practical workability of a bright-line residency rule would be both over- and under-inclusive, and the Third Circuit's multi-factor approach in Humphrey provides sufficient limiting principles to prevent the floodgates concern Petitioners raise. Judicial restraint counsels against adopting a categorical rule that RJR Nabisco itself did not announce, and the institutional legitimacy of the Court is better served by a fact-specific inquiry that lower courts can apply consistently.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under RJR Nabisco's two-step extraterritoriality framework, Section 1964(c) requires a 'domestic injury' assessed by reference to where the injury is felt, not where the plaintiff resides \u2014 a distinction the Court's focus-of-the-statute analysis compels. The Seventh Circuit's Armada test improperly conflates plaintiff residency with injury location, substituting a categorical rule for the textually and analytically correct inquiry into where the injurious effects actually manifested. Here, the conduct obstructing enforcement of a U.S. district court judgment occurred substantially within the United States, and the harm to Smagin's intangible property rights \u2014 specifically his legally cognizable interest in executing that domestic judgment \u2014 was felt in the United States, satisfying RJR Nabisco's domestic injury requirement under a context-specific, fact-bound analysis consistent with Morrison's focus doctrine. While I have genuine concern that a purely totality-of-circumstances test risks unpredictability and could invite foreign plaintiffs to manufacture domestic nexus through strategic litigation choices, the Ninth Circuit's approach is more faithful to RJR Nabisco's actual reasoning than a rigid residency-based categorical bar that the text and precedent do not support.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "RJR Nabisco's domestic injury requirement focuses on the location of the injury, not the residency of the plaintiff, and the Ninth Circuit correctly rejected the Seventh Circuit's Armada test as inconsistent with that framework. A context-specific, totality-of-circumstances inquiry \u2014 as articulated by the Third Circuit in Humphrey and endorsed by the Ninth Circuit \u2014 better serves both the text of \u00a7 1964(c) and the practical realities of how intangible property rights are harmed, particularly where the injurious conduct was directed at frustrating enforcement of a U.S. district court judgment within the United States. From a procedural fairness standpoint, adopting a rigid residency-based categorical rule would effectively immunize defendants who orchestrate domestic racketeering schemes from civil RICO liability simply because their victims happen to be foreign nationals, an outcome that rewards bad actors and undermines equal protection principles. The fact that Yegiazaryan's alleged conduct was specifically targeted at obstructing collection efforts anchored in a California federal court judgment provides sufficient domestic nexus to satisfy the domestic injury requirement under a proper fact-specific analysis.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.782,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "22-381",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a foreign plaintiff can state a cognizable civil RICO claim based on injury to intangible property, specifically whether such an injury qualifies as a 'domestic injury' under RJR Nabisco v. European Community.",
+      "legal_provision": "Racketeer Influenced and Corrupt Organizations Act (RICO), 18 U.S.C. \u00a7 1964(c), which provides a private civil cause of action for persons injured in their 'business or property' by reason of a RICO violation, as interpreted through the domestic injury requirement established in RJR Nabisco, Inc. v. European Community, 579 U.S. 325 (2016).",
+      "petitioner_position": "Petitioners Yegiazaryan and CMB Monaco argue that a foreign-domiciled plaintiff (Smagin, a Russian citizen) cannot establish a domestic injury under RICO merely by confirming a foreign arbitration award in a U.S. district court, contending that: (1) the injury to intangible property remains foreign in nature regardless of where the judgment is confirmed; (2) allowing foreign plaintiffs to 'domesticate' foreign injuries through U.S. court confirmation of foreign arbitral awards would improperly erode the extraterritoriality bar established in RJR Nabisco; (3) the Ninth Circuit's ruling deepens an existing circuit split on how to determine domestic injury for intangible property; and (4) affirming the decision below would unleash foreign litigation into U.S. courts, increase burdens on the federal judiciary, impose higher costs on multinational businesses, and force defendants into coercive settlements.",
+      "respondent_position": "Respondent Smagin argues that he has sufficiently alleged a domestic injury under RICO because: (1) the injury to his intangible property \u2014 specifically his rights under a confirmed U.S. district court judgment \u2014 is localized within the United States; (2) the relevant inquiry under RJR Nabisco is the location of the injury, not the domicile of the plaintiff, making the Seventh Circuit's residency-based test legally incorrect; (3) the determination of domestic injury is a context-specific, fact-intensive inquiry that properly considers all circumstances alleged in the complaint; and (4) the Ninth Circuit correctly aligned with the Third Circuit's approach in rejecting a rigid residency test in favor of a more nuanced, circumstance-driven analysis.",
+      "key_precedents": [
+        "RJR Nabisco, Inc. v. European Community, 579 U.S. 325 (2016) \u2014 established the domestic injury requirement for private civil RICO claims",
+        "Armada (Singapore) Pte Ltd v. Amcol International Corp. (7th Circuit) \u2014 adopted a residency-based test for determining domestic injury to intangible property under RICO",
+        "Humphrey v. GlaxoSmithKline PLC (3rd Circuit) \u2014 adopted a context-specific, multi-factor inquiry for determining domestic injury under RICO, rejecting a rigid residency test",
+        "Morrison v. National Australia Bank Ltd. \u2014 foundational Supreme Court precedent on the presumption against extraterritorial application of U.S. statutes",
+        "New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards \u2014 relevant to the enforcement of the underlying foreign arbitration award in U.S. courts",
+        "London Court of International Arbitration (LCIA) Rules \u2014 governing the underlying arbitration proceedings between the parties"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Thomas's argument that confirmation is a mere procedural mechanism remains the strongest challenge to my position, but as I noted in my prior reasoning, it proves too much by conflating the origin of the underlying dispute with the situs of the property right actually injured. Justice Barrett's observation that common-law conflicts principles have long treated judgment rights as localized where the judgment was rendered provides additional textual and doctrinal grounding for treating the confirmed U.S. district court judgment as a domestic property right independent of the plaintiff's domicile. I remain persuaded that the narrow holding I would write \u2014 cabining the domestic injury finding to cases where the confirmed U.S. judgment is the specific property right being frustrated by U.S.-directed RICO conduct \u2014 preserves the extraterritoriality bar's limiting force while avoiding the Seventh Circuit's textually unsupported residency test. Justice Kavanaugh's formulation that the context-specific inquiry must be 'genuinely rigorous and cabined' to cases where the obstructive conduct is substantially domestic aligns closely with my own approach, and I would assign the majority opinion with instructions to write narrowly on these grounds to hold the coalition together and prevent the Ninth Circuit's multi-factor test from becoming an invitation to manufacture domestic jurisdiction.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that common-law conflicts principles localize judgment rights where the judgment was rendered has genuine force, and I acknowledge that a confirmed U.S. district court judgment is a distinct legal instrument \u2014 not merely a repackaged foreign arbitral award. However, my concern remains that the Ninth Circuit's context-specific, multi-factor approach lacks the administrable limiting principle that the presumption against extraterritoriality demands: as I noted in my prior reasoning, virtually any foreign plaintiff could satisfy those factors by routing enforcement through U.S. courts, and Justice Kavanaugh's own concession that 'mere confirmation alone' cannot domesticate an otherwise foreign injury reveals that the majority's test has no clear stopping point. The original public meaning of 'injured in his business or property' in \u00a7 1964(c) must be given content through a principled rule, and the context-specific totality test \u2014 however well-intentioned \u2014 provides insufficient guidance to lower courts and insufficient protection against the strategic domestication of foreign disputes that Morrison and RJR Nabisco were designed to prevent. I maintain my position for petitioner, though I acknowledge the force of the majority's textual argument that injury location, not plaintiff domicile, is the operative inquiry under RJR Nabisco.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan, Justice Sotomayor, and Justice Barrett all make the compelling point that a confirmed U.S. district court judgment is a distinct legal instrument with a domestic situs independent of plaintiff domicile, and I acknowledge this is a serious textual argument under RJR Nabisco's injury-location framework. However, my core concern remains: the Ninth Circuit's context-specific, multi-factor test lacks the administrable limiting principle that gives the presumption against extraterritoriality genuine force. Justice Kavanaugh concedes that 'mere confirmation cannot alone domesticate an otherwise foreign injury,' but the multi-factor test provides no clear rule for when the additional factors are sufficient \u2014 which means lower courts will predictably expand this exception until virtually any foreign plaintiff who routes enforcement through U.S. courts can satisfy it. Justice Thomas correctly identifies that the original public meaning of 'injured in his business or property' in \u00a7 1964(c), read against the backdrop of Morrison and RJR Nabisco's structural presumption, counsels a more restrictive default rule when the underlying property right traces entirely to a foreign arbitration between foreign nationals over foreign assets \u2014 and the absence of congressional guidance on intangible property situs is a reason for judicial restraint, not an invitation to adopt an open-ended totality test that will predictably nullify the extraterritoriality bar Congress implicitly preserved.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "Justice Thomas raises the most serious challenge \u2014 that confirming a foreign arbitral award in a U.S. district court is a mere procedural mechanism that cannot transform a fundamentally foreign injury into a domestic one. But this argument proves too much: it treats the U.S. judgment as a legal nullity for purposes of injury localization while simultaneously acknowledging it creates enforceable rights in U.S. courts. A confirmed U.S. district court judgment is not merely a procedural artifact \u2014 it is a distinct legal instrument created by and existing within the U.S. legal system, with a situs in this country independent of where the underlying arbitration occurred or where the plaintiff resides. Justice Kagan correctly identifies that the Seventh Circuit's residency test fundamentally misreads RJR Nabisco by substituting plaintiff domicile for injury location, and the context-specific approach better honors both the statutory text of \u00a7 1964(c) and the practical reality that intangible property rights \u2014 particularly those anchored to U.S. court judgments \u2014 cannot be mechanically located by reference to the plaintiff's passport. The floodgates concern raised by Justices Thomas and Alito is better addressed through rigorous application of the context-specific inquiry than through a judicially invented residency rule that has no textual foundation in RICO.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge \u2014 that confirming a foreign arbitral award in a U.S. district court is merely a procedural mechanism that cannot 'domesticate' a fundamentally foreign injury, and that permitting this would effectively nullify RJR Nabisco's extraterritoriality bar. But this argument proves too much: it assumes the injury is the underlying arbitral award rather than the interference with the confirmed U.S. judgment right, which is a distinct legal entitlement created by and enforceable through U.S. courts. As Justice Sotomayor correctly observes, RJR Nabisco's inquiry focuses on where the injury is felt, not where the plaintiff resides \u2014 and when the alleged RICO scheme is specifically directed at frustrating collection on a U.S. district court judgment through U.S.-based conduct, the injury to that intangible property right is most naturally localized here. Justice Alito's administrability concern about the Ninth Circuit's multi-factor test is legitimate, and I would join Chief Justice Roberts in emphasizing that the context-specific inquiry must be genuinely rigorous and cabined to cases where the intangible property right has a meaningful domestic situs independent of plaintiff domicile \u2014 but that rigor is better achieved through careful application of the circumstance-driven test than through a bright-line residency rule that lacks any textual foundation in \u00a7 1964(c).",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's concern that confirmation of a foreign arbitral award is a mere procedural mechanism that cannot domesticate a foreign injury remains the strongest challenge, but I continue to find it ultimately unpersuasive because it conflates the origin of the underlying dispute with the situs of the specific property right that was injured. As Justice Barrett correctly observes, common-law conflicts principles have long treated judgment rights as localized where the judgment was rendered, and a confirmed U.S. district court judgment is a distinct legal instrument \u2014 not merely a repackaged foreign arbitral award \u2014 that derives its force from U.S. law and is enforceable only through U.S. courts. I share Justice Kavanaugh's insistence that the context-specific inquiry must be genuinely rigorous and cannot be satisfied by mere confirmation alone; what matters here is that the alleged RICO scheme was specifically directed at frustrating collection on a California federal judgment through U.S. courts, U.S.-sited assets, and U.S. legal proceedings, which gives the domestic injury claim real substance. I would write to emphasize that this holding is cabined to cases where the confirmed U.S. judgment is the primary property right at issue and the obstructive conduct is substantially domestic, preserving the extraterritoriality bar's limiting force against the strategic domestication Justice Thomas rightly warns against.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's concern about manufactured jurisdiction through procedural domestication remains the strongest challenge, but I am persuaded by the convergence of reasoning from Justices Roberts, Kagan, and Barrett that the critical analytical move is distinguishing the nature of the property right injured \u2014 not the origin of the underlying dispute. The confirmed U.S. district court judgment is a distinct legal instrument with a domestic situs under common-law conflicts principles, as Justice Barrett correctly notes, and the alleged RICO scheme was specifically directed at frustrating enforcement of that domestic judgment through U.S. courts and U.S.-sited assets. I maintain my position that the context-specific inquiry must be genuinely rigorous \u2014 mere confirmation of a foreign award cannot alone domesticate an otherwise foreign injury \u2014 but on these particular facts, where the obstructive conduct is substantially domestic and the primary property right at issue is the U.S. judgment itself, the domestic injury requirement is satisfied. Justice Alito's administrability concern is legitimate and I would insist on cabining the Ninth Circuit's multi-factor test to prevent strategic exploitation, but that concern counsels refinement of the test rather than adoption of a residency rule with no textual foundation in \u00a7 1964(c).",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's concern about manufactured jurisdiction through strategic confirmation proceedings remains the strongest challenge, but after reviewing my colleagues' arguments \u2014 particularly Justice Kagan's precise observation that RJR Nabisco's inquiry focuses on where the injury is felt rather than where the plaintiff resides or where the underlying dispute originated \u2014 I am more confident that the critical analytical move is correctly identifying the property right at issue. The property right here is not the underlying Russian arbitral award but the confirmed U.S. district court judgment, which is a distinct legal instrument with a domestic situs under longstanding conflicts-of-law principles that localize judgment rights where the judgment was rendered. Justice Thomas's administrability concern is legitimate and I share Justice Kavanaugh's insistence that the context-specific inquiry must be genuinely rigorous \u2014 mere confirmation cannot alone suffice \u2014 but on these facts, where the alleged RICO scheme was specifically directed at frustrating collection on a California federal judgment through U.S. courts and U.S.-sited assets, the domestic character of both the property right and the obstructive conduct satisfies that demanding standard without requiring the textually unsupported residency rule the Seventh Circuit adopted.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Justice Thomas's originalist argument that a foreign plaintiff cannot 'domesticate' a foreign injury through strategic confirmation proceedings is the strongest challenge to my position, but it ultimately fails because it mischaracterizes what is happening here \u2014 Smagin is not manufacturing domestic jurisdiction through a procedural maneuver, but rather asserting rights under a U.S. district court judgment that exists as a matter of U.S. law and is enforceable only through U.S. courts. As Justice Sotomayor correctly emphasizes, RJR Nabisco's domestic injury requirement focuses on the location of the injury itself, and when the alleged RICO scheme is specifically directed at frustrating enforcement of a U.S. judgment through U.S. proceedings and U.S.-sited assets, the injury is felt at the situs of that domestic legal right \u2014 not at the plaintiff's foreign domicile. Justice Thomas's concern about foreign plaintiffs flooding U.S. courts is better addressed through rigorous application of the context-specific inquiry, as Justice Kavanaugh notes, rather than a judicially invented residency rule that has no textual foundation in \u00a7 1964(c) and would perversely immunize defendants who deliberately weaponize U.S. legal infrastructure against foreign judgment creditors. I write separately to emphasize that the context-specific approach must genuinely interrogate whether the conduct and the property right are sufficiently localized domestically, not merely whether a U.S. court touched the underlying dispute at some point.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "RJR Nabisco established a domestic injury requirement but expressly declined to resolve how courts should locate injury to intangible property, leaving that question open. A rigid residency-based test, as adopted by the Seventh Circuit in Armada, improperly conflates the plaintiff's domicile with the location of the injury \u2014 a distinction RJR Nabisco itself implicitly recognized by framing the inquiry around where the injury occurs, not where the plaintiff resides. Consistent with my preference for narrow, context-sensitive rulings over bright-line categorical rules that may sweep too broadly, I would affirm that the domestic injury inquiry for intangible property requires a fact-specific, circumstance-driven analysis examining where the injury is actually felt \u2014 here, Smagin's rights under a confirmed U.S. district court judgment are sufficiently localized in the United States to satisfy \u00a7 1964(c). However, I would write narrowly to cabin this holding to cases involving confirmed U.S. judgments, avoiding broader pronouncements that could open federal courts to a flood of foreign litigation, thereby preserving institutional legitimacy and the core extraterritoriality concerns underlying Morrison v. National Australia Bank.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As an originalist and textualist, I must apply the presumption against extraterritoriality with rigor, as established in Morrison v. National Australia Bank and reaffirmed in RJR Nabisco. The text of 18 U.S.C. \u00a7 1964(c) provides a cause of action for persons injured in their 'business or property,' and nothing in RICO's text or original public meaning suggests Congress intended to open federal courts to foreign plaintiffs seeking to redress injuries that are fundamentally foreign in nature \u2014 here, a Russian citizen's rights arising from a dispute with another Russian citizen over assets largely located abroad. Permitting a foreign plaintiff to 'domesticate' a foreign injury merely by confirming a foreign arbitral award in a U.S. district court would effectively nullify the extraterritoriality bar established in RJR Nabisco, as virtually any foreign plaintiff could manufacture domestic jurisdiction through this procedural mechanism. The Ninth Circuit's context-specific, multi-factor approach lacks the textual grounding necessary to give the presumption against extraterritoriality its proper limiting force, and the Seventh Circuit's residency-based test, while imperfect, better honors the structural principle that Congress legislates with domestic concerns in mind.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under RJR Nabisco, 579 U.S. 325 (2016), the domestic injury requirement exists precisely to prevent foreign plaintiffs from flooding U.S. courts with claims rooted in foreign injuries, consistent with Morrison's presumption against extraterritoriality. A Russian citizen's injury to intangible property \u2014 his rights under a foreign arbitration award \u2014 is fundamentally foreign in nature; the mere act of confirming that award in a U.S. district court does not transform the underlying injury into a domestic one, any more than filing a foreign tort claim in a U.S. court domesticates it. The Ninth Circuit's context-specific, multi-factor approach adopted from Humphrey is dangerously open-ended and invites precisely the flood of foreign litigation that RJR Nabisco sought to prevent, imposing substantial burdens on federal courts and U.S. businesses. Textualism and the practical consequences of allowing foreign plaintiffs to manufacture domestic RICO standing through strategic use of U.S. confirmation proceedings counsel in favor of the Seventh Circuit's more administrable residency-based framework, which better honors the extraterritoriality bar Congress implicitly preserved in \u00a7 1964(c).",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The Seventh Circuit's residency-based test improperly conflates the plaintiff's domicile with the location of the injury, directly contradicting RJR Nabisco's instruction that it is the location of the injury \u2014 not the plaintiff \u2014 that governs the domestic injury inquiry under \u00a7 1964(c). When Smagin obtained confirmation of his arbitration award in a U.S. district court, his intangible property rights became localized within the United States, and the alleged RICO scheme \u2014 orchestrated substantially through U.S.-based conduct to frustrate enforcement of that U.S. judgment \u2014 caused injury felt most acutely at the situs of that domestic legal right. A context-specific, totality-of-circumstances approach, as adopted by the Third Circuit in Humphrey and endorsed by the Ninth Circuit below, best honors RJR Nabisco's framework while ensuring that RICO's broad remedial purposes are not arbitrarily curtailed based on a plaintiff's passport rather than the actual locus of harm; adopting a rigid residency rule would allow bad actors to insulate their U.S.-based obstruction schemes from RICO liability simply by targeting foreign creditors holding domestic judgments.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "RJR Nabisco's domestic injury requirement anchors the inquiry to the location of the injury itself, not the domicile of the plaintiff \u2014 the Seventh Circuit's residency-based test in Armada therefore misreads the operative holding by conflating plaintiff location with injury location. Where Smagin holds a confirmed U.S. district court judgment and alleges that Yegiazaryan conducted a coordinated scheme within the United States specifically to frustrate collection on that California judgment, the injury to his intangible property rights is most naturally localized in the United States, not Russia. A context-specific, circumstance-driven inquiry \u2014 as adopted by the Third Circuit in Humphrey and endorsed by the Ninth Circuit below \u2014 is more faithful to RJR Nabisco's text and purpose, and more workable than a rigid per se rule that would categorically exclude foreign plaintiffs regardless of where the actual harm to their property interests is felt. Adopting a bright-line residency test would also create perverse incentives, effectively immunizing domestic defendants who deliberately use U.S. instrumentalities to sabotage U.S.-confirmed judgments simply because the judgment creditor happens to reside abroad.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The plain text of 18 U.S.C. \u00a7 1964(c) asks whether a person was 'injured in his business or property' \u2014 it focuses on the injury itself, not the domicile of the plaintiff. RJR Nabisco established a domestic injury requirement rooted in the location where the injury is suffered, and nothing in that opinion's text or reasoning tethers the inquiry rigidly to plaintiff residency; the Seventh Circuit's bright-line residency test reads a limitation into the statute that Congress did not write. Where, as here, the intangible property right at issue is a confirmed U.S. district court judgment \u2014 a legal entitlement created by and existing within the U.S. legal system \u2014 the injury to that property right is most naturally understood as occurring domestically, consistent with the context-specific approach the Third Circuit adopted in Humphrey. While I am sympathetic to concerns about foreign plaintiffs flooding U.S. courts, those policy concerns cannot override the statutory text, and the proper limiting principle is the location of the injury itself rather than a judicially invented residency rule.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under RJR Nabisco, the operative question is where the injury to 'business or property' is suffered, and a rigid residency-based test like the Seventh Circuit's in Armada reads into \u00a7 1964(c) a plaintiff-domicile requirement that the statutory text does not support \u2014 the statute asks about injury location, not plaintiff nationality. When a foreign arbitral award has been confirmed by a U.S. district court, the resulting judgment right is a domestic legal entitlement, and the alleged interference with that right through conduct directed at U.S. proceedings and U.S.-sited assets plausibly constitutes a domestic injury under a context-specific inquiry. The Third Circuit's multi-factor approach in Humphrey better honors both Morrison's presumption against extraterritoriality and the practical reality that intangible property rights can have meaningful domestic situs independent of plaintiff domicile, while still filtering out purely foreign injuries. I am nonetheless cautious about the floodgates concern raised by petitioners, and would emphasize that the context-specific inquiry must be genuinely rigorous \u2014 the mere act of confirming a foreign award in a U.S. court cannot alone domesticate an otherwise foreign injury.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under RJR Nabisco, the domestic injury inquiry properly focuses on the location of the injury itself, not the domicile of the plaintiff \u2014 the statute's text in \u00a7 1964(c) speaks to injury to 'business or property' without reference to the plaintiff's citizenship or residence. When Smagin's intangible property rights are anchored to a confirmed U.S. district court judgment \u2014 a legal instrument created by and enforceable through U.S. courts \u2014 the alleged interference with those rights through conduct directed at frustrating collection in the United States constitutes an injury with a sufficiently domestic character. A rigid residency-based test, as adopted by the Seventh Circuit in Armada, lacks textual support in RICO's statutory text and improperly conflates the plaintiff's domicile with the situs of the injury, a distinction that common-law conflicts principles and the original public meaning of 'injury' in \u00a7 1964(c) counsel against collapsing. The context-specific, circumstance-driven approach of the Third Circuit in Humphrey better reflects the statutory text and the framework RJR Nabisco established, though I would caution that courts must rigorously apply this inquiry to prevent foreign plaintiffs from manufacturing domestic injuries through strategic U.S. filings.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under RJR Nabisco, the domestic injury inquiry turns on the location of the injury itself, not the domicile of the plaintiff \u2014 the statute asks whether a 'person' was 'injured in their business or property,' which is a situs-of-harm question, not a residency question. Adopting the Seventh Circuit's rigid domicile-based test would create an arbitrary categorical bar that has no textual foundation in \u00a7 1964(c) and would immunize defendants who deliberately use U.S.-based assets, courts, and financial systems to frustrate enforcement of U.S. judgments simply because their victim happens to reside abroad. Smagin's injury is properly localized in the United States because the property at stake \u2014 his rights under a confirmed California federal court judgment \u2014 exists and is enforceable within this jurisdiction, and the alleged RICO conduct was specifically directed at obstructing collection efforts within U.S. courts and against U.S.-sited assets. The Third Circuit's context-specific, circumstance-driven approach in Humphrey v. GlaxoSmithKline better honors both the text of RICO and the practical reality that intangible property rights cannot be mechanically assigned a location based solely on plaintiff domicile, and it avoids the perverse consequence of allowing sophisticated actors to weaponize U.S. legal infrastructure against foreign judgment creditors while escaping RICO liability.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.76,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

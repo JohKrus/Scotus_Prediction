@@ -1,0 +1,571 @@
+[
+  {
+    "docket": "23-1209",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a multiemployer pension fund may retroactively alter the actuarial interest rate assumptions used to calculate an employer's withdrawal liability under the Employee Retirement Income Security Act (ERISA) and the Multiemployer Pension Plan Amendments Act (MPPAA).",
+      "legal_provision": "Employee Retirement Income Security Act (ERISA), as amended by the Multiemployer Pension Plan Amendments Act of 1980 (MPPAA), 29 U.S.C. \u00a7\u00a7 1381-1461, governing withdrawal liability calculations for employers exiting multiemployer pension plans.",
+      "petitioner_position": "M&K Employee Solutions argues that the IAM National Pension Fund unlawfully and retroactively altered the actuarial interest rate assumptions used to calculate M&K's withdrawal liability, resulting in an inflated assessment of several million dollars. Petitioners contend that under controlling Second Circuit precedent (Metz), pension funds are prohibited from retroactively changing actuarial assumptions after an employer's withdrawal, and that no other circuit has held otherwise, making Metz the prevailing legal standard. Petitioners are supported by prominent amici including the U.S. Chamber of Commerce and HR Policy Association, reflecting broad employer-side concern that permitting retroactive assumption changes creates unpredictable and potentially crushing financial liability for withdrawing employers.",
+      "respondent_position": "The Trustees of the IAM National Pension Fund contend that their calculation of M&K's withdrawal liability was lawful and consistent with ERISA/MPPAA, defending the fund's authority to apply actuarial assumptions in a manner they argue is statutorily permitted. Respondents, supported by the United States Government (via the Solicitor General and Pension Benefit Guaranty Corporation), the AFL-CIO, and the Pension Rights Center, argue that upholding the fund's methodology is necessary to protect the financial integrity of multiemployer pension plans, safeguard the retirement security of union workers, and ensure that withdrawing employers bear their fair share of unfunded vested benefits as Congress intended.",
+      "key_precedents": [
+        "Metz v. [IAM National Pension Fund] (Second Circuit) - held that pension funds cannot retroactively alter interest rate assumptions used to calculate withdrawal liability",
+        "Jacobson v. Fireman's Fund Insurance Co., 111 F.3d (2d Cir. 1997) - cited in arbitration proceedings regarding the fund's arguments",
+        "D.C. Circuit Court of Appeals decision below (No. 23-1209) - ruled in favor of the Trustees, creating tension with Second Circuit precedent in Metz",
+        "Prior arbitration decisions (two separate arbitrations) - both rejected the Fund's arguments regarding retroactive assumption changes"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has produced genuine convergence across methodological lines, and I am now more confident in the petitioner's position than when we began. Justice Jackson's structural argument about \u00a7 1394 remains the most compelling to me as a minimalist: Congress's explicit enumeration of permissible post-withdrawal changes is not merely a canon of construction but a direct window into legislative intent, and it forecloses the Fund's claimed implied authority without requiring us to reach broader constitutional questions. The strongest argument for the respondents \u2014 that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language grants trustees ongoing professional discretion \u2014 is addressed most cleanly by Justice Kagan's observation that this language defines the standard for evaluating assumptions at the measurement date, not a license for post-hoc substitution; the two functions are categorically distinct. As Chief Justice, I would assign the majority opinion with instructions to rest the holding on the narrowest possible ground \u2014 the statutory temporal architecture of \u00a7\u00a7 1391, 1393, and 1394 read together \u2014 while explicitly declining to reach Justice Thomas's due process and fair notice arguments, which preserves those questions for a case where they are squarely presented and keeps our unanimous coalition on the firmest institutional footing.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The conference has reached remarkable unanimity, and I find my colleagues' textual and structural arguments mutually reinforcing rather than redundant. Justice Barrett's observation about Congress's deliberate use of past tense in \u00a7 1401(a)(3)(B)(i) \u2014 reviewing assumptions that 'were used' \u2014 is particularly compelling from an originalist standpoint, as it confirms that the assumptions are fixed inputs at the time of determination, not a rolling variable subject to post-hoc revision. Justice Gorsuch correctly invokes expressio unius: \u00a7 1394's explicit authorization of post-withdrawal changes in specific enumerated circumstances demonstrates that Congress knew how to grant such authority and deliberately withheld it for actuarial assumptions generally, which forecloses any implied power for trustees to retroactively substitute interest rate assumptions after an employer has withdrawn. The strongest argument for Respondents \u2014 that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language grants trustees ongoing discretion \u2014 fails under originalist methodology because the ordinary public meaning of those terms in 1980 would have been understood as a standard for evaluating assumptions at the time of valuation, not a license to substitute new assumptions after the triggering event has already occurred and the employer's liability has vested.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Thomas correctly identifies that respondents' reliance on post-2020 actuarial standards to interpret 1980 statutory language is precisely the kind of post-enactment gloss that textualist and originalist methodology rejects \u2014 the phrase 'unfunded vested benefits as of' a specific date carried a fixed temporal meaning when Congress enacted MPPAA, and that meaning controls. Justice Gorsuch's invocation of expressio unius is particularly compelling: \u00a7 1394's explicit authorization of post-withdrawal changes in specific circumstances demonstrates that Congress knew how to permit retroactive modifications when it intended to do so, and its silence elsewhere forecloses implying a general post-hoc revision power for actuarial assumptions. The strongest argument for the respondents \u2014 that fund trustees need flexibility to adopt improved actuarial methodologies to protect pension solvency \u2014 fails because it conflates prospective actuarial adjustments (which remain available) with retroactive recalculation of already-triggered withdrawal liability, a distinction the statutory structure clearly maintains. The unanimous conference position here reflects not groupthink but the genuine convergence of multiple methodological approaches \u2014 textualism, structuralism, and practical workability \u2014 all pointing toward reversal of the D.C. Circuit.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I remain firmly with the Petitioner, and I want to directly address the strongest counterargument the Fund could raise: that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language grants trustees ongoing professional discretion to adopt improved actuarial methodologies to protect pension solvency. As Justice Jackson astutely observes, this argument conflates the standard governing what makes an assumption reasonable *at the time of valuation* with a license to retroactively substitute new assumptions after withdrawal has already occurred \u2014 a distinction the statutory architecture makes clear. Justice Barrett's textual point about \u00a7 1401(a)(3)(B)(i)'s past-tense framing \u2014 reviewing assumptions that 'were used' \u2014 is particularly compelling under my pragmatic methodology because it confirms Congress understood these as fixed historical inputs, not a rolling window for revision. And from my own perspective on real-world impacts: while I deeply sympathize with pension beneficiaries, permitting retroactive actuarial manipulation creates unpredictable liability that could deter employer participation in multiemployer plans altogether, ultimately harming the very workers I care most about protecting \u2014 a pragmatic reason that reinforces the textual conclusion.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference deliberation has only strengthened my conviction that the statutory text and structure compel reversal. Justice Jackson's point \u2014 which I find particularly persuasive coming from a colleague with her distinctive methodological commitments \u2014 that \u00a7 1394's explicit enumeration of permissible post-withdrawal changes invokes expressio unius to foreclose any implied general power to retroactively revise actuarial assumptions is the structural argument that most directly defeats the Fund's position. The strongest remaining counterargument for Respondents is that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language creates a continuing professional obligation to use current actuarial standards, but as Justice Barrett correctly identifies, that language defines the standard for the initial determination at the measurement date, not a license for post-withdrawal revision \u2014 and the past-tense framing of \u00a7 1401(a)(3)(B)(i) reviewing assumptions that 'were used' forecloses reading it otherwise. My pragmatic textualist methodology demands workable, coherent statutory interpretation, and a bright-line rule anchored to the measurement date provides exactly that, while the Fund's position would create unpredictable, retroactively shifting liability that would ultimately deter employer participation in multiemployer plans and harm the very beneficiaries the MPPAA was designed to protect.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The conference has reached remarkable unanimity, and reviewing my colleagues' arguments reinforces rather than undermines my position. Justice Thomas's point about the original public meaning of 'as of' language in 1980 is particularly compelling from a textualist standpoint \u2014 the phrase carries a fixed temporal anchor that forecloses the Fund's reading, and the post-enactment actuarial standards the respondents rely upon are precisely the kind of post-hoc gloss New Prime Inc. v. Oliveira warns against. Justice Jackson's structural argument about \u00a7 1394 is the strongest textual reinforcement: Congress's express provision for post-withdrawal changes in specific circumstances invokes expressio unius to cut sharply against implying a general retroactive revision power for actuarial assumptions. The strongest counterargument \u2014 that fund trustees need flexibility to use updated actuarial assumptions to protect pension solvency \u2014 fails because it proves too much; it would effectively grant trustees quasi-legislative power to rewrite the financial terms of an employer's exit after the triggering event, which conflicts with the statute's plain temporal structure and raises the separation of powers concerns I find most troubling.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has produced genuine convergence across methodological lines, and I find the collective reasoning mutually reinforcing rather than merely cumulative. Justice Barrett's observation about the past-tense framing of \u00a7 1401(a)(3)(B)(i) \u2014 reviewing assumptions that 'were used' \u2014 is particularly compelling under my institutionalist approach because it demonstrates that Congress itself understood actuarial assumptions as fixed historical inputs, not a rolling variable, which gives the temporal-anchoring reading strong textual grounding independent of any single canon. The strongest remaining argument for the Respondent \u2014 that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language grants trustees ongoing professional discretion as actuarial standards evolve \u2014 is foreclosed by Justice Gorsuch's expressio unius point: \u00a7 1394's explicit enumeration of permissible post-withdrawal changes demonstrates Congress knew how to authorize retroactive modifications and deliberately withheld that authority for actuarial assumptions generally, leaving no textual hook for implying a general revision power. From a practical workability standpoint that I emphasized in my initial position, a bright-line rule anchored to the measurement date is also essential for employers to estimate withdrawal liability with reasonable certainty, and the unanimous conference position here reflects not groupthink but the genuine strength of a holding that can be written narrowly without reaching constitutional questions.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which is itself telling about the strength of the textual case here. Justice Thomas correctly identifies that respondents' reliance on post-2020 actuarial standards of practice to interpret what Congress meant in 1980 is precisely the kind of post-enactment gloss that originalist methodology rejects \u2014 the original public meaning of 'actuarial assumptions' as fixed inputs tied to a specific valuation date is what controls. Justice Gorsuch's invocation of expressio unius is particularly apt: \u00a7 1394's explicit provision for post-withdrawal changes in specific enumerated circumstances demonstrates that Congress knew how to authorize retroactive modifications and chose not to do so for actuarial assumptions generally, which forecloses the Fund's implied-authority argument. The strongest counterargument \u2014 that \u00a7 1393(a)(1)'s 'reasonable' and 'best estimate' language grants trustees ongoing discretion to update assumptions \u2014 fails under careful textual analysis because that language defines the standard for the initial determination, not a license for post-withdrawal revision; the past-tense framing of \u00a7 1401(a)(3)(B)(i) reviewing assumptions that 'were used' confirms the assumptions are fixed at determination.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The unanimity of this conference across such divergent methodological commitments \u2014 from Justice Thomas's originalism to Justice Kagan's pragmatic textualism to my own procedural fairness concerns \u2014 reflects genuine statutory clarity rather than groupthink. I want to directly address the strongest argument for the respondents, which none of us should dismiss lightly: that \u00a7 1393(a)'s 'reasonable' and 'best estimate' language, read in light of evolving professional actuarial standards, grants trustees ongoing professional discretion to ensure pension solvency. This argument has real force because it invokes the legitimate interests of workers whose retirement security depends on adequately funded plans. But as Justice Barrett's textual analysis makes clear, the past-tense framing of \u00a7 1401(a)(3)(B)(i) \u2014 reviewing assumptions that 'were used' \u2014 is dispositive: Congress built a retrospective review mechanism that presupposes fixed inputs, and permitting post-withdrawal substitution of interest rate assumptions would transform that review into something Congress never authorized. From my perspective as a former public defender, the procedural fairness concern cuts decisively: employers facing withdrawal liability must be able to know and contest the assumptions underlying their liability at the time of withdrawal, not face a moving target that can be recalibrated after the triggering event to dramatically increase their exposure.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 29 U.S.C. \u00a7 1393(a) is silent on whether actuarial assumptions may be revised after an employer's withdrawal measurement date, and under my minimalist approach, that silence counsels against reading broad fund discretion into the statute in a way that creates retroactive financial liability. The Second Circuit's reasoning in Metz is persuasive: Section 1394's anti-retroactivity protections for plan rules and amendments reflect a congressional design that employers be able to rely on a fixed snapshot of actuarial assumptions as of the measurement date, providing the reasonable certainty necessary for employers to make informed decisions about continued participation. Permitting retroactive alteration of interest rate assumptions would undermine institutional predictability and expose withdrawing employers to liability figures they could not have anticipated, which cuts against the MPPAA's structural framework even if the statute does not explicitly prohibit the practice. While I take seriously the Solicitor General's position and the legitimate interest in protecting pension fund solvency, the narrower and more textually grounded ruling here is to hold that assumptions are fixed as of the measurement date, leaving Congress free to legislate otherwise if it wishes to grant funds broader retroactive discretion.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of ERISA/MPPAA, 29 U.S.C. \u00a7 1393(a), fixes withdrawal liability calculation to the valuation date of the employer's withdrawal, and the phrase 'unfunded vested benefits as of' a specific date carries its ordinary public meaning as understood in 1980 \u2014 that the actuarial assumptions anchoring that calculation must themselves be determined as of that date, not retroactively altered afterward. Respondents' reliance on post-2020 actuarial standards of practice to define what Congress meant in 1980 is precisely the kind of post-enactment gloss that originalist and textualist methodology rejects, as the Court made clear in New Prime Inc. v. Oliveira. The canon from Russello v. United States further reinforces that Congress's deliberate use of 'as of' rather than 'on,' 'by,' or 'before' signals a fixed temporal anchor for the liability calculation, not a rolling window permitting trustees to substitute assumptions after an employer has already withdrawn. Permitting retroactive recalculation would also raise serious due process and fair notice concerns inconsistent with the constitutional backdrop against which Congress legislated, and the Second Circuit's Metz decision correctly captured the statute's original meaning, while the D.C. Circuit's contrary ruling below should be reversed.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "A textualist reading of ERISA/MPPAA compels the conclusion that actuarial assumptions must be fixed as of the measurement date \u2014 the last day of the plan year preceding withdrawal under 29 U.S.C. \u00a7 1391 \u2014 not altered retroactively after an employer has already withdrawn. Congress's deliberate use of 'as of' language throughout the statutory framework, as the research materials confirm, reflects a temporal precision that forecloses post-withdrawal manipulation of interest rate assumptions; under Russello v. United States, 464 U.S. 16 (1983), we presume Congress's disparate temporal language is intentional. The Second Circuit's analysis in Metz correctly identified \u00a7 1391 as the controlling provision that fixes the measurement date, and the D.C. Circuit's contrary ruling below creates an untenable circuit split that invites pension funds to strategically lower interest rate assumptions after withdrawal to inflate employer liability in ways Congress never sanctioned. While I am generally sympathetic to arguments protecting pension fund solvency, permitting retroactive assumption changes produces the kind of unpredictable, crushing financial liability that undermines the statutory scheme's coherence and creates perverse incentives for plan administrators.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The statutory architecture of ERISA and MPPAA, particularly \u00a7\u00a7 1381, 1391, and 1399, reflects Congress's deliberate design to anchor withdrawal liability calculations to actuarial assumptions fixed at the measurement date, ensuring that employers can reasonably anticipate their financial exposure when making business decisions. Allowing pension funds to retroactively alter interest rate assumptions after an employer's withdrawal would impose unpredictable, potentially crushing liability on withdrawing employers\u2014a result that undermines the fundamental fairness and predictability Congress built into the MPPAA framework. The Second Circuit's reasoning in Metz correctly honors this statutory coherence by prohibiting post-hoc assumption changes, and the fact that two separate arbitration panels also rejected the Fund's methodology reinforces that the D.C. Circuit's contrary approach is an outlier that injects dangerous discretion into what should be a settled calculation. While I am deeply sympathetic to protecting pension beneficiaries' retirement security\u2014a concern that weighs heavily on me\u2014permitting retroactive actuarial manipulation does not serve that goal in a principled way; it merely shifts unpredictable costs onto employers in a manner Congress did not sanction, and the Fund's interests are better protected through prospective actuarial adjustments rather than retroactive recalculation.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Reading ERISA \u00a7\u00a7 1391 and 1393 in conjunction, as the statutory structure demands, the text strongly suggests that actuarial assumptions must be anchored to the measurement date \u2014 the date of the employer's withdrawal \u2014 rather than being subject to retroactive alteration after the fact. The present-tense language of \u00a7 1393(a)(1) requiring assumptions that 'are reasonable' and represent the actuary's 'best estimate' is most coherently read as fixing those assumptions as of the measurement date, consistent with the Second Circuit's holding in Metz and the conclusions of two separate arbitration panels that rejected the Fund's methodology. While I take seriously the deference owed to fund trustees under \u00a7 1401(a)(3)(A) and the important policy interest in protecting pension fund solvency \u2014 interests championed by the Solicitor General and the AFL-CIO \u2014 that deference cannot extend to permitting retroactive changes that would render withdrawal liability estimates meaningless and expose employers to unpredictable, post-hoc financial assessments that Congress did not authorize; workability and statutory coherence both cut against the Fund's position. The D.C. Circuit's contrary ruling below creates an untenable circuit split that undermines the uniform administration of ERISA, and the more textually grounded and practically workable rule is the one that fixes actuarial assumptions at the measurement date.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Reading ERISA and MPPAA as a cohesive statutory framework, the text strongly suggests that actuarial assumptions are fixed as of the measurement date established by Congress, not subject to post-withdrawal revision at a fund's discretion. Section 1391 anchors the unfunded vested benefits calculation to the plan year preceding withdrawal, and \u00a7 1394's explicit provision for post-withdrawal changes in specific circumstances demonstrates that when Congress intended to permit subsequent modifications, it said so expressly\u2014the canon of expressio unius cuts sharply against implying a general post-hoc revision power. The D.C. Circuit's approach effectively allows funds to retroactively rewrite the financial terms of an employer's exit, which conflicts with the plain statutory structure, undermines the predictability Congress plainly valued, and raises serious separation of powers concerns by permitting private trustees to exercise quasi-legislative power to alter vested liability calculations after the triggering event. The Second Circuit's rule in Metz better honors the statute's text and structure, and the rule of lenity further counsels against reading ambiguous provisions to impose crushing, unpredictable financial obligations on withdrawing employers.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of MPPAA \u00a7 1391 anchors withdrawal liability calculations 'as of the end of the plan year preceding the plan year in which the employer withdraws,' which strongly implies that the actuarial assumptions operative at that fixed measurement date should govern\u2014not assumptions retroactively altered after the employer has already withdrawn. Permitting post-withdrawal changes to actuarial interest rate assumptions creates serious workability problems and unpredictable liability exposure that Congress could not have intended when it established a structured, temporally bounded withdrawal liability regime. The Second Circuit's holding in Metz reflects sound reasoning consistent with this textual structure, and the fact that two separate arbitration panels also rejected the Fund's methodology suggests the Fund's position lacks grounding in the statute's plain meaning and established practice. While I am mindful of the government's and pension funds' legitimate interest in protecting plan solvency, that policy concern cannot override the statutory text's temporal constraints, and retroactive assumption changes raise serious fair notice and reliance concerns for employers who must be able to reasonably estimate their withdrawal liability exposure.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of 29 U.S.C. \u00a7 1393(a)(1) employs present-tense verbs anchored to the moment of actuarial determination, and the MPPAA's structural use of a fixed 'measurement date' \u2014 the end of the plan year preceding withdrawal \u2014 establishes a bright-line temporal boundary that forecloses post-withdrawal recalculation of actuarial assumptions. As an originalist and textualist, I find it significant that Congress deliberately used the past tense in \u00a7 1401(a)(3)(B)(i) when describing arbitral review of assumptions that 'were used,' confirming that the assumptions are fixed at the time of the initial determination and are not subject to retroactive alteration. The Second Circuit's reasoning in Metz v. IAM National Pension Fund, 946 F.3d 146 (2d Cir. 2020), is consistent with this textual reading, and the D.C. Circuit's contrary conclusion below fails to give adequate weight to the statute's temporal structure and the original public meaning of 'actuarial assumptions' as a fixed input tied to a specific valuation date. Permitting retroactive assumption changes would also undermine the predictability Congress plainly intended by establishing the measurement date framework, rendering withdrawal liability assessments arbitrary and inconsistent with the statutory scheme.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The statutory architecture of ERISA/MPPAA strongly supports M&K's position: \u00a7 1391 anchors unfunded vested benefit determinations to the plan year preceding withdrawal, \u00a7 1399 ties installment payments to assumptions used in 'the most recent actuarial valuation' at the time of withdrawal, and \u00a7 1394's explicit provision for post-withdrawal changes in specific circumstances demonstrates that Congress knew how to authorize retroactive modifications when it intended to do so. Permitting pension funds to retroactively alter actuarial interest rate assumptions after an employer's withdrawal creates precisely the kind of procedural unfairness and unpredictable crushing liability that undermines both the rule of law and the practical ability of employers to make informed business decisions \u2014 concerns that resonate deeply with my commitment to procedural fairness and practical consequences. The Second Circuit's reasoning in Metz correctly identifies that allowing post-hoc assumption changes strips the statutory timing framework of meaning and injects trustee discretion at the very moment an employer has lost any ability to respond, which is fundamentally inconsistent with ERISA's design for predictability and neutrality. While I take seriously the respondents' concern for pension fund solvency and worker retirement security \u2014 values I hold dear \u2014 those interests must be pursued through prospective actuarial adjustments and proper funding mechanisms, not through retroactive liability inflation that violates the settled expectations ERISA was designed to protect.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.867,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "23-1209",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a multiemployer pension fund may retroactively change the actuarial interest rate assumptions used to calculate an employer's withdrawal liability under the Employee Retirement Income Security Act (ERISA) and the Multiemployer Pension Plan Amendments Act (MPPAA).",
+      "legal_provision": "Employee Retirement Income Security Act (ERISA), as amended by the Multiemployer Pension Plan Amendments Act of 1980 (MPPAA), 29 U.S.C. \u00a7\u00a7 1381-1461, governing withdrawal liability calculations for employers exiting multiemployer pension plans.",
+      "petitioner_position": "M&K Employee Solutions argues that the IAM National Pension Fund unlawfully and retroactively altered the actuarial interest rate assumptions used to calculate M&K's withdrawal liability after M&K had already withdrawn from the plan, resulting in an inflated liability assessment of several million dollars. Petitioners contend this retroactive alteration is impermissible under ERISA/MPPAA, relying heavily on the Second Circuit's ruling in Metz v. Pension Fund, which held that pension funds cannot retroactively change actuarial assumptions for withdrawal liability purposes. Petitioners are supported by prominent amici including the U.S. Chamber of Commerce and HR Policy Association, reflecting broad employer-side concern about unpredictable and retroactive pension liability exposure.",
+      "respondent_position": "The Trustees of the IAM National Pension Fund argue that the fund acted within its lawful authority under ERISA/MPPAA when applying updated actuarial assumptions to calculate withdrawal liability, and that such adjustments are necessary and permissible to accurately reflect the fund's true financial condition and protect the interests of remaining plan participants and beneficiaries. Respondents, supported by the AFL-CIO, the Pension Rights Center, and the United States Government (through the Solicitor General and the Pension Benefit Guaranty Corporation), contend that the D.C. Circuit correctly upheld the fund's methodology and that restricting actuarial flexibility would undermine the financial integrity of multiemployer pension plans nationwide.",
+      "key_precedents": [
+        "Metz v. IAM National Pension Fund (2nd Circuit) - held that pension funds cannot retroactively alter interest rate assumptions used to calculate withdrawal liability",
+        "Jacobson v. Fireman's Fund Insurance Co., 111 F.3d (2d Cir. 1997) - cited in arbitration proceedings regarding procedural standards",
+        "D.C. Circuit Court of Appeals decision below in M&K Employee Solutions, LLC v. Trustees of the IAM National Pension Fund (No. 23-1209)",
+        "Prior arbitration decisions (two separate arbitrations) rejecting the Fund's actuarial methodology as applied to M&K",
+        "Multiemployer Pension Plan Amendments Act of 1980 (MPPAA) statutory framework cases governing withdrawal liability disputes"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable and methodologically diverse consensus, and I find no argument from the respondent's side that has gone unaddressed. The strongest counterargument \u2014 that \u00a7 1393's present-tense 'best estimate' language grants trustees ongoing actuarial discretion \u2014 has been thoroughly dismantled by Justice Thomas's observation that this language describes the quality of the estimate at the time of calculation, not a perpetual license to revise, and by Justice Gorsuch's expressio unius point that \u00a7 1394's explicit anti-retroactivity provision forecloses reading unconstrained retroactive authority into \u00a7 1393's silence. As Chief Justice, I would assign the majority opinion with an eye toward the narrowest possible holding: that actuarial assumptions used to calculate withdrawal liability must be those in effect as of the measurement date established by \u00a7 1391, without broadly restricting trustees' prospective actuarial discretion in other contexts, thereby preserving institutional predictability while leaving room for future cases to address edge scenarios. Justice Kagan's workability concern \u2014 that the 3.25% versus 7.25% divergence illustrates precisely the opportunistic manipulation the statute's structure was designed to prevent \u2014 provides the practical grounding that makes this narrow holding both principled and durable.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Gorsuch's invocation of the expressio unius canon from \u00a7 1394 is particularly compelling from a textualist standpoint: Congress explicitly addressed post-withdrawal changes in \u00a7 1394 with an anti-retroactivity provision, and its silence in \u00a7 1393 regarding timing is most naturally read as operating within the fixed measurement-date framework rather than as an open-ended grant of retroactive authority to trustees. The strongest argument from the respondents' side \u2014 that \u00a7 1393(a)(1)'s present-tense 'best estimate' language grants trustees ongoing discretion to update actuarial assumptions \u2014 fails under careful textual analysis because that present-tense language describes the quality of the estimate (it must reflect the actuary's genuine professional judgment) rather than the temporal moment at which it may be revised; the 'as of' language in \u00a7 1391 supplies the temporal anchor. Justice Alito correctly notes that the overall statutory architecture \u2014 \u00a7\u00a7 1381, 1391, and 1394 read together \u2014 reflects a coherent congressional design to fix liability at the withdrawal date, and the dramatic divergence between the 3.25% withdrawal liability rate and the 7.25% ongoing funding rate that Justice Kagan highlights is precisely the kind of opportunistic post-hoc manipulation that this fixed-date framework was designed to prevent. The near-unanimous conference position reinforces that the statutory text and structure compel this result, though I would ground the holding firmly in the original public meaning of ERISA and MPPAA rather than in policy-based workability concerns.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's invocation of the expressio unius canon from \u00a7 1394 is particularly compelling and reinforces my own analysis: when Congress wanted to permit post-withdrawal adjustments, it said so explicitly, and its silence in \u00a7 1393 on timing cannot be read as an open-ended license for retroactive revision. Justice Thomas correctly identifies that the original public meaning of ERISA and MPPAA reflects a deliberate legislative choice to provide employers with reasonable certainty \u2014 a choice that would be eviscerated if funds could retroactively alter discount rate assumptions after an employer has already exited, as occurred here with the dramatic shift from 7.25% to 3.25%. The strongest argument for the respondent \u2014 that \u00a7 1393's present-tense 'best estimate' language grants actuaries ongoing discretion to update assumptions \u2014 fails because it reads that provision in isolation rather than within the holistic statutory architecture that \u00a7 1391 anchors to a fixed measurement date; the 'best estimate' language describes the quality of the actuarial judgment at the time of calculation, not a perpetual license to revise. The near-unanimous conference position, grounded in multiple independent textual and structural analyses rather than mere consensus, confirms that the statutory framework compels ruling for the petitioner.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The near-unanimous conference position has only strengthened my conviction, and I want to address the respondents' strongest remaining argument directly: that \u00a7 1393's present-tense 'best estimate' language grants actuaries ongoing professional discretion unconstrained by any temporal anchor. This argument has surface appeal \u2014 actuaries should use their best professional judgment \u2014 but as Justice Kagan correctly identifies, it reads \u00a7 1393 in isolation rather than within the coherent statutory architecture that \u00a7\u00a7 1381, 1391, and 1394 establish together. The 'best estimate' language speaks to the quality and good faith of the actuarial judgment at the moment of calculation, not to a perpetual license to revise foundational assumptions after the triggering event has already occurred and the employer has already made its withdrawal decision. Justice Thomas's structural point about \u00a7 1394(a)'s explicit anti-retroactivity provision remains dispositive for me: Congress demonstrated it knew how to authorize post-withdrawal adjustments in limited circumstances, and the absence of similar authorization for retroactive actuarial assumption changes is a constraint, not an invitation \u2014 a reading that also aligns with my pragmatic concern that the alternative would expose smaller employers like M&K to liability potentially multiplied sevenfold through post-hoc manipulation, undermining the informed decision-making ERISA's framework was designed to protect.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The near-unanimity of my colleagues across sharply different methodological commitments \u2014 from Justice Thomas's originalist textualism to Justice Sotomayor's pragmatic concern for vulnerable parties to Justice Gorsuch's expressio unius canon \u2014 reinforces rather than undermines my confidence that the statutory structure compels this result. I want to directly address the strongest counterargument: that \u00a7 1393(a)(1)'s present-tense 'best estimate' language grants trustees ongoing actuarial discretion unconstrained by any temporal anchor. This argument has genuine textual force, but it fails because it treats \u00a7 1393 as a freestanding provision rather than as part of a coherent statutory scheme in which \u00a7 1391's measurement date supplies the temporal framework within which all actuarial judgments must operate \u2014 the 'best estimate' language describes the quality of the actuarial judgment at the moment of calculation, not a perpetual license to revise. Justice Barrett's point is particularly well-taken: if Congress intended to permit post-withdrawal actuarial assumption changes, it knew exactly how to say so, as demonstrated by \u00a7 1394's explicit and limited authorization for post-withdrawal adjustments, and reading unconstrained retroactive authority into \u00a7 1393's silence would render \u00a7 1394's careful limitations largely superfluous. The 3.25% versus 7.25% divergence in this case is not merely a policy concern but textual evidence that the Fund's interpretation produces results so anomalous \u2014 liability potentially tripling based on post-hoc assumption changes \u2014 that it cannot reflect Congress's coherent design.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have marshaled a remarkably coherent textualist case, and I find myself in substantial agreement with Justice Thomas's point that \u00a71394(a)'s explicit anti-retroactivity provision for plan amendments, read alongside \u00a71391's measurement-date anchor, demonstrates that Congress knew precisely how to authorize post-withdrawal adjustments when it wanted to \u2014 and its silence elsewhere is not an invitation but a prohibition. The strongest argument for the Respondent \u2014 that \u00a71393(a)'s present-tense 'best estimate' language grants actuaries ongoing discretion to revise assumptions \u2014 fails under careful textual analysis because that discretion must be exercised at the moment of calculation, not retroactively after the triggering event has already occurred; the present tense describes the quality of the estimate at the time it is made, not a license for perpetual revision. Justice Barrett correctly identifies that the temporal anchor Congress deliberately established in \u00a71391 would be rendered largely meaningless if funds could subsequently alter the foundational actuarial assumptions \u2014 the canon against surplusage demands we give that timing provision real operative force. The practical consequence here \u2014 a liability potentially ballooning from $448 million to $3 billion based on post-withdrawal assumption changes \u2014 is precisely the kind of unpredictable, manipulable exposure that the MPPAA's structured framework was designed to prevent, and no amount of deference to the PBGC's litigation position can overcome the statute's plain structural logic.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference deliberation has only strengthened my conviction that the petitioner's reading is correct. Justice Thomas's structural analysis connecting \u00a71394(a)'s explicit anti-retroactivity provision to \u00a71393's silence remains the most compelling textualist argument \u2014 Congress demonstrated it knew how to authorize post-withdrawal adjustments when it wanted to, and that expressio unius inference is difficult to overcome. Justice Kagan's workability concern about the 3.25% versus 7.25% divergence resonates with my institutionalist methodology: a statutory framework that permits pension funds to retroactively revise the foundational actuarial assumptions after the triggering event \u2014 producing liability swings from $448 million to $3 billion \u2014 cannot be reconciled with ERISA's evident design to provide employers with predictable, calculable exit costs. The strongest counterargument, that \u00a71393's present-tense 'best estimate' language grants ongoing actuarial discretion, is real textual tension, but as Justice Barrett correctly observes, that reading renders \u00a71391's temporal anchor largely advisory rather than operative, which violates the canon against surplusage and undermines the statute's coherent structure.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The conference has reached a genuinely convergent conclusion through independent methodological paths, which strengthens rather than merely reflects consensus. Justice Gorsuch's expressio unius analysis remains the sharpest textual tool here: \u00a7 1394(a)'s explicit anti-retroactivity provision for plan amendments is not merely a parallel provision but a structural signal that Congress calibrated post-withdrawal adjustment authority with precision, and the absence of comparable authorization in \u00a7 1393 is a deliberate legislative choice rather than an oversight. The respondent's strongest argument \u2014 that \u00a7 1393(a)(1)'s present-tense 'best estimate' language grants trustees ongoing actuarial discretion unconstrained by any temporal anchor \u2014 is textually plausible in isolation but collapses when \u00a7 1391's measurement-date framework is given operative force; the 'best estimate' language describes the epistemic quality of the actuarial judgment at the moment of calculation, not a perpetual license to revise foundational assumptions after the triggering event. Justice Kagan's observation about the 3.25% versus 7.25% divergence is not merely a policy concern but evidence that the respondent's reading would permit precisely the kind of post-hoc manipulation that the statute's structured temporal framework was architecturally designed to foreclose.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of methodological convergence, and I want to address directly the strongest remaining argument for the respondent: that \u00a7 1393's present-tense 'best estimate' language grants actuaries ongoing professional discretion that courts should not second-guess. As Justice Kagan correctly identifies, however, this argument proves too much \u2014 it would permit precisely the kind of opportunistic manipulation we see here, where the Fund applied a 3.25% discount rate for withdrawal liability purposes while simultaneously using a 7.25% rate for minimum funding purposes, a divergence that two independent arbitrators found unreasonable. My background as a public defender makes me acutely sensitive to procedural fairness and the importance of parties being able to understand the rules that govern their exposure before they act, and Justice Gorsuch's expressio unius analysis from \u00a7 1394 is dispositive on this point: Congress demonstrated it knew how to authorize post-withdrawal actuarial adjustments when it wanted to, and its silence in \u00a7 1393 cannot be construed as an open-ended license for retroactive revision. The practical consequence of permitting such manipulation \u2014 liability potentially ballooning from $448 million to $3 billion based on post-hoc assumption changes \u2014 represents exactly the kind of arbitrary, unpredictable harm that a coherent statutory framework should prevent, and no deference principle can overcome the structural evidence that Congress intended withdrawal liability to be anchored to a fixed measurement date.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The narrowest and most textually grounded resolution favors M&K. Congress deliberately fixed the measurement date at the end of the year preceding withdrawal \u2014 a legislative choice the Supreme Court acknowledged in Concrete Pipe & Products v. Construction Laborers Pension Trust and discussed in Schlitz \u2014 reflecting a clear congressional intent to provide employers with a date-certain baseline for calculating withdrawal liability. While \u00a7 1393(a)(1) does not expressly prohibit post-withdrawal changes to actuarial assumptions, the structural canon from Russello v. United States is instructive: Congress imposed an express timing deadline in the immediately adjacent \u00a7 1394 for plan amendments affecting withdrawal liability, and its silence on timing in \u00a7 1393 is more plausibly read as operating within the fixed measurement-date framework than as an open-ended license for retroactive revision. Allowing funds to alter actuarial assumptions after an employer has already withdrawn \u2014 as two separate arbitrators and the Second Circuit in Metz concluded is impermissible \u2014 would undermine the institutional predictability that MPPAA's carefully chosen measurement date was designed to ensure, and this Court should prefer the narrower reading that preserves that congressional design without broadly restricting actuarial discretion going forward.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 29 U.S.C. \u00a7 1393(a)(1) requires actuarial assumptions that reflect the actuary's 'best estimate of anticipated experience under the plan' at the time of the withdrawal liability calculation, and critically, \u00a7 1394(a) contains an explicit anti-retroactivity provision prohibiting plan rules and amendments from being applied 'without the employer's consent with respect to liability for a withdrawal or partial withdrawal which occurred before the date on which the rule or amendment was adopted.' Reading these provisions together under a textualist analysis, Congress clearly contemplated that the actuarial framework governing withdrawal liability should be fixed at or near the time of withdrawal, not subject to post-withdrawal revision by fund trustees that would retroactively inflate an employer's obligation. The original public meaning of ERISA and MPPAA, as enacted by Congress in 1974 and 1980, reflects a deliberate legislative choice to provide employers with reasonable certainty about their withdrawal liability exposure \u2014 a choice that would be fundamentally undermined if funds could retroactively alter the actuarial interest rate assumptions after an employer has already exited the plan. The Second Circuit's reasoning in Metz v. IAM National Pension Fund correctly identifies this structural constraint in the statute, and I would follow that interpretation over the D.C. Circuit's more permissive reading, which effectively rewrites the statute to grant trustees unchecked retroactive authority Congress never plainly conferred.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The statutory text of ERISA/MPPAA, read carefully and holistically, anchors withdrawal liability calculations to a fixed measurement date. Section 1381 ties liability to unfunded vested benefits, \u00a7 1391 fixes that determination to the plan year before withdrawal occurs, and \u00a7 1394 demonstrates that when Congress intended to permit post-withdrawal changes, it said so explicitly \u2014 a clear application of the expressio unius canon. The fact that Congress specifically prohibited retroactive changes to withdrawal liability methodologies under \u00a7\u00a7 1389 and 1391(c) without similarly restricting actuarial assumptions does not, as the Fund argues, imply blanket permission for retroactive assumption changes; rather, the overall statutory architecture fixes liability at the withdrawal date, and permitting trustees to alter actuarial interest rate assumptions after an employer has already withdrawn would render the timing provisions of \u00a7 1391 largely meaningless and expose withdrawing employers to unpredictable, manipulable liability assessments \u2014 a practical consequence Congress plainly sought to avoid. The Second Circuit's reasoning in Metz correctly honors this cohesive statutory framework and should be followed over the D.C. Circuit's more permissive approach.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While I am deeply sympathetic to the goal of protecting pension fund solvency and the workers who depend on these plans, the retroactive alteration of actuarial assumptions after an employer has already withdrawn raises serious fairness and due process concerns that I cannot ignore. The Second Circuit's reasoning in Metz v. IAM National Pension Fund is persuasive: ERISA and MPPAA establish a framework where withdrawal liability should be calculated based on assumptions in place at or near the time of withdrawal, not revised post-hoc in ways that dramatically inflate an employer's exposure. The present-tense statutory language in \u00a7 1393(a)(1) referencing 'best estimate of anticipated experience' must be read in context of the valuation date framework, and allowing funds to retroactively shift actuarial assumptions creates precisely the kind of unpredictable, arbitrary liability exposure that undermines the rule of law and harms smaller employers like M&K who cannot absorb sudden, unanticipated multi-million dollar assessments. Notably, two separate arbitration panels already rejected the Fund's methodology as applied here, which signals that even neutral arbitrators found the retroactive application problematic under the statutory scheme.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Reading \u00a71391 and \u00a71393 together as a coherent statutory scheme, the text of \u00a71391's requirement to calculate withdrawal liability 'as of' the end of the plan year preceding withdrawal strongly suggests that the factual and actuarial predicates for that calculation must be anchored to a fixed historical moment, not subject to post-withdrawal revision by the fund. While \u00a71393's present-tense language about 'best estimate' actuarial assumptions creates genuine textual tension that the respondents exploit, permitting retroactive changes to interest rate assumptions after an employer has already withdrawn creates serious workability problems: employers cannot make informed business decisions about withdrawal if their liability exposure remains a moving target subject to the fund's subsequent actuarial choices. The Second Circuit's reasoning in Metz is persuasive that allowing funds to adopt dramatically different discount rates for withdrawal liability versus minimum funding purposes\u2014as occurred here with the 3.25% versus 7.25% divergence\u2014creates precisely the kind of opportunistic manipulation that ERISA's structured framework was designed to prevent. Administrative deference to the PBGC's position gives me pause, but the circuit split and the fundamental fairness and predictability concerns counsel in favor of the petitioner's reading.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain statutory text of ERISA and MPPAA compels the conclusion that actuarial assumptions must be fixed as of the withdrawal date. Section 1391 anchors the unfunded vested benefits calculation to the plan year in which withdrawal occurs, and \u00a7 1393(a)'s present-tense verbs tie the actuary's determination to that specific measurement moment \u2014 not to some later, post-hoc revision. Section 1394's explicit provision for post-withdrawal changes in limited circumstances demonstrates that when Congress intended to permit retroactive adjustments, it said so expressly; the canon of expressio unius forecloses reading such flexibility into provisions that are silent on the matter. Permitting a fund to retroactively alter the discount rate after an employer has already withdrawn \u2014 potentially transforming a $448 million liability into a $3 billion one \u2014 violates the statute's structural commitment to predictability, strips the timing provisions of meaning, and raises serious rule-of-lenity concerns given the penal-like financial consequences imposed on withdrawing employers.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While the statutory text of 29 U.S.C. \u00a7 1393 does not explicitly prohibit post-withdrawal changes to actuarial assumptions, the practical workability concerns and fair notice principles that animate my jurisprudence weigh heavily against permitting retroactive alteration of the interest rate assumptions after an employer has already withdrawn. The MPPAA's withdrawal liability framework was designed to provide employers with a reasonably predictable exit cost, and permitting funds to retroactively revise the actuarial assumptions that form the foundation of that calculation\u2014after the triggering event has already occurred\u2014creates serious reliance and due process concerns that Congress likely did not intend. The Second Circuit's reasoning in Metz v. IAM National Pension Fund reflects sound institutional logic: the measurement date serves as a temporal anchor for the liability calculation, and allowing post-withdrawal revisions to core actuarial assumptions undermines the statutory scheme's coherence. That two separate arbitration panels also rejected the Fund's methodology here reinforces my concern that the D.C. Circuit's approach produces results inconsistent with the MPPAA's structure and the reasonable expectations of withdrawing employers.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "A careful textualist reading of 29 U.S.C. \u00a7 1391's instruction to compute withdrawal liability 'as of the end of the plan year' strongly suggests that the actuarial assumptions must be those in place at the measurement date \u2014 the last day of the plan year preceding withdrawal. The statutory scheme fixes withdrawal liability at a defined moment, and permitting post-withdrawal alterations to actuarial assumptions undermines the temporal anchor Congress deliberately established. The present-tense verbs in \u00a7 1393(a)(1) referencing 'experience' and 'best estimate of anticipated experience,' read in their proper statutory context, describe the actuary's determination as it exists at the time of the withdrawal computation, not as subsequently revised. The Second Circuit's reasoning in Metz v. IAM National Pension Fund is persuasive on this point \u2014 retroactive alteration of actuarial assumptions after an employer has already withdrawn creates precisely the kind of unpredictable, post-hoc liability exposure that the MPPAA's structured framework was designed to cabin, and the Fund's position finds insufficient grounding in either the statute's text or its legislative history.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The statutory framework of ERISA/MPPAA, particularly \u00a7\u00a7 1381, 1391, and 1399, establishes a coherent temporal anchor tying withdrawal liability calculations to conditions existing at or before the plan year of withdrawal, and allowing post-withdrawal retroactive changes to actuarial interest rate assumptions fundamentally undermines this framework's commitment to predictability and procedural fairness. As a pragmatist concerned with practical consequences, I find that permitting pension fund trustees to alter actuarial assumptions after an employer has already withdrawn creates precisely the kind of arbitrary, unpredictable liability exposure that Congress sought to prevent \u2014 employers cannot make informed business decisions about plan participation if the liability calculus can shift retroactively. The Second Circuit's reasoning in Metz v. IAM National Pension Fund correctly honors the statute's cohesive timing structure, and the fact that two separate arbitrators also rejected the Fund's methodology here reinforces that the Fund's approach was not merely a reasonable actuarial judgment but an impermissible post hoc alteration. While I take seriously the respondents' concern for protecting remaining plan participants and the Solicitor General's position, procedural fairness demands that the rules governing liability be fixed at the time of the triggering event, not revised afterward to the detriment of the withdrawing employer.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.853,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

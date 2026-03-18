@@ -1,0 +1,572 @@
+[
+  {
+    "docket": "22-10",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether submitting a fraudulent Medicaid claim that accurately names a real patient constitutes \u201cus[ing]\u201d that patient\u2019s \u201cmeans of identification\u201d \u201cduring and in relation to\u201d fraud under the federal aggravated identity theft statute.",
+      "legal_provision": "18 U.S.C. \u00a7 1028A(a)(1) (aggravated identity theft) (and its relationship to the underlying healthcare fraud offense).",
+      "petitioner_position": "Dubin argues that \u00a7 1028A targets identity theft\u2014misappropriating another person\u2019s identifying information to pass oneself off as them or otherwise make identity central to the fraud\u2014not ordinary billing fraud where a real patient\u2019s identifying information is merely incidentally included as part of a claim. He contends the Fifth Circuit\u2019s expansive reading effectively turns routine fraud cases (like overstating services on a claim tied to a real patient) into aggravated identity theft, dramatically increasing punishment via \u00a7 1028A\u2019s mandatory consecutive sentence and raising legality/vagueness concerns that should be addressed by a narrowing construction.",
+      "respondent_position": "The United States argues the evidence was sufficient because Dubin submitted a Medicaid claim that invoked a specific patient\u2019s entitlement to reimbursement for services that were not provided as billed, and doing so necessarily required \u201cuse\u201d of that patient\u2019s means of identification to carry out the fraud. On that view, the patient\u2019s identifying information was not incidental: it was the mechanism by which the false claim was presented as payable, satisfying \u00a7 1028A(a)(1). The government also suggests petitioner may have forfeited certain arguments (potentially triggering plain-error review).",
+      "key_precedents": [
+        "Greenlaw v. United States, 554 U.S. 237 (2008)",
+        "Eberhart v. United States, 546 U.S. 12 (2005)",
+        "Carducci v. Regan, 714 F.2d 171 (D.C. Cir. 1983) (Scalia, J.)",
+        "Jones v. Thomas, 491 U.S. 376 (1989)",
+        "Rollins v. Home Depot USA, Inc., 8 F.4th 393 (5th Cir. 2021)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The government\u2019s best point remains that patient identifiers are a but-for necessity for Medicaid reimbursement and thus \u201cfacilitate\u201d the fraud, but that reading would make \u00a7 1028A a near-automatic mandatory add-on to routine billing fraud and leave \u201cduring and in relation to\u201d with no real narrowing function. Justice Sotomayor\u2019s reliance on Smith\u2019s \u201cpurpose or effect\u201d requirement helps draw the minimal, administrable line: the identifier must operate as an instrument of what makes the conduct wrongful (misrepresenting who is involved or entitled), not merely appear as accurate routing information in a claim fraudulent for other reasons. Justice Thomas\u2019s ordinary-meaning concern underscores that \u201cuses\u201d connotes employing the identifier as a tool, and Flores-Figueroa\u2019s identity-theft-centered framing makes it unlikely Congress meant to trigger a mandatory consecutive term where no one\u2019s identity is exploited or misrepresented. A narrow holding on these facts preserves proportionality and institutional legitimacy while leaving room for \u00a7 1028A where identity misuse is integral to the fraud.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The government\u2019s best point remains that a Medicaid claim cannot be processed without the patient\u2019s identifier, so the name is a but-for facilitator of the fraud. But under the ordinary public meaning of \u201cuses \u2026 a means of identification \u2026 during and in relation to,\u201d the identifier must be employed as an instrumentality of what makes the conduct criminal, not merely included as accurate, routinized information that any claim must contain; otherwise the limiting phrase does no real narrowing work and \u00a7 1028A becomes a mandatory add-on to vast swaths of ordinary billing fraud. Chief Justice Roberts\u2019s and Justice Sotomayor\u2019s reliance on Smith\u2019s \u201cpurpose or effect\u201d formulation strengthens that textual point by confirming a non-incidental nexus requirement, and Flores-Figueroa\u2019s mens rea emphasis reinforces that Congress was targeting identity-centered misuse rather than truthful identifiers accompanying a lie about services. No colleague\u2019s argument undermines that originalist reading of \u201cuse\u201d and the relational phrase, so I would reverse.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The government\u2019s best point\u2014that a Medicaid claim cannot be paid without the patient identifier\u2014shows but-for relevance, but it does not establish that the defendant \u201cused\u201d the identifier as an instrument of the fraud as opposed to supplying accurate, administrative routing information. Chief Justice Roberts and Justice Sotomayor rightly invoke Smith\u2019s \u201cpurpose or effect\u201d gloss on identical \u201cduring and in relation to\u201d language; here the purpose/effect of the identifier is to identify the real patient, not to make the misrepresentation about services/code/provider qualifications succeed in the way \u00a7 1028A targets. Justice Barrett\u2019s ordinary-meaning point is also persuasive under a textualist approach: \u201cuses a means of identification\u201d connotes employing identity to deceive about who someone is or what they\u2019re entitled to, not merely completing mandatory claim fields. Given Flores-Figueroa\u2019s identity-theft framing and the severe mandatory consecutive penalty, I see no clear textual basis to transform routine overbilling into aggravated identity theft whenever a real name appears.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The strongest likely argument for the government is that the patient\u2019s identifiers were necessary to get Medicaid to pay, so the defendant \u201cused\u201d them \u201cduring and in relation to\u201d the fraud; but under Smith\u2019s \u201cpurpose or effect\u201d test, necessity alone cannot erase the statute\u2019s limiting function when the identifiers are accurate and merely administrative rather than identity-exploiting. Justice Kagan\u2019s point about workability and coherence is persuasive: treating routine, accurate identifiers in billing as aggravated identity theft would make \u00a7 1028A a near-automatic add-on in healthcare fraud, producing disproportionate mandatory consecutive punishment and incentivizing overcharging that will fall hardest on low-level defendants. Justice Gorsuch\u2019s lenity reminder also matters here because the government\u2019s reading would dramatically expand a federal criminal statute with severe sentencing consequences absent clear textual direction. Nothing in Flores-Figueroa\u2019s mens rea requirement suggests Congress meant to sweep in ordinary overbilling where the fraud is about the service rendered, not who the patient is.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondent\u2019s necessity/facilitation argument\u2014that Medicaid can\u2019t process a claim without a patient identifier\u2014proves too much, because it would satisfy \u201cuses \u2026 during and in relation to\u201d whenever a required field is accurately supplied, leaving that limiting language with no real narrowing work. Chief Justice Roberts\u2019s and Justice Sotomayor\u2019s reliance on Smith\u2019s \u201cpurpose or effect\u201d formulation best preserves statutory coherence: the identifier must be employed as an instrument of the deception about who is involved or entitled, not merely as truthful routing information accompanying a lie about services or codes. Flores-Figueroa, as Justice Barrett and Justice Thomas note, reinforces that \u00a7 1028A is calibrated to identity-centered misuse, making it implausible Congress meant an automatic consecutive add-on for routine overbilling that happens to contain a real person\u2019s name. On these facts the identity is accurate and incidental to the fraud\u2019s crux, so the nexus required by the text is not met.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The government\u2019s best point remains but-for necessity: a Medicaid claim typically cannot be processed without a patient identifier, so the identifier \u201cfacilitates\u201d payment and thus the fraud. But as Justice Sotomayor (invoking Smith) and the Chief Justice emphasize, \u201cduring and in relation to\u201d requires a non-incidental nexus\u2014purpose or effect\u2014so the identifier must operate as an instrument of the deception, not merely appear as accurate, administratively required information while the falsity lies elsewhere (services, coding, provider qualifications). Justice Barrett\u2019s ordinary-meaning point reinforces that \u201cuses \u2026 a means of identification\u201d naturally connotes employing identity to misrepresent who is involved or entitled, and Flores-Figueroa\u2019s mens rea-sensitive reading cautions against converting \u00a7 1028A\u2019s severe mandatory consecutive penalty into an automatic add-on for routine billing fraud. On a textualist/originalist reading\u2014plus lenity if any real doubt persists\u2014the statute is best confined to identity-centered misuse rather than incidental inclusion of a real person\u2019s identifying data.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The government\u2019s best contention remains the but-for necessity point: a Medicaid claim cannot be paid without the patient identifier, so the identifier \u201cfacilitates\u201d the fraud. But as Chief Justice Roberts explains, importing that theory into \u00a7 1028A effectively nullifies \u201cduring and in relation to\u201d and converts the statute into a near-automatic consecutive add-on for routine overbilling whenever a real name appears\u2014an outcome hard to reconcile with Congress\u2019s calibrated, severe penalty and the identity-theft focus reflected in Flores-Figueroa. Justice Barrett\u2019s ordinary-meaning point reinforces that \u201cuses\u201d in this context connotes employing the identifier as an instrument of deception (about who is involved/entitled), not merely providing accurate administrative information required to route a claim. Smith\u2019s \u201cpurpose or effect\u201d nexus, as Roberts and Sotomayor frame it, supplies a workable limiting principle that preserves proportionality and institutional legitimacy without rewriting the statute.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The government\u2019s best argument\u2014that a claim cannot be processed without a real patient identifier and so the defendant necessarily \u201cused\u201d it \u201cduring and in relation to\u201d the fraud\u2014still proves too much: it would convert \u00a7 1028A into an automatic, mandatory consecutive add-on for routine healthcare fraud whenever accurate identifiers appear, leaving the limiting phrase with little narrowing work. Chief Justice Roberts\u2019s and Justice Sotomayor\u2019s reliance on Smith\u2019s \u201cpurpose or effect\u201d nexus is persuasive as a textual constraint: the identifier must be employed as an instrumentality of the deception, not merely as accurate routing information incidental to a lie about services or codes. Flores-Figueroa\u2019s identity-centered framing, highlighted by Justices Thomas and Alito, reinforces that Congress aimed at misuse of identity as such, and nothing in the text clearly authorizes the sweeping expansion the government proposes given the severe mandatory penalty. Under an original public meaning approach attentive to statutory context and consequences that signal overbreadth, I remain with Petitioner.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.84,
+        "reasoning": "The government\u2019s best point remains that the patient identifier is a but-for prerequisite to claim submission and thus \u201cfacilitates\u201d payment, but that collapses \u00a7 1028A\u2019s \u201cduring and in relation to\u201d into mere administrative necessity and turns the statute into an automatic sentencing add-on for routine healthcare fraud. Chief Justice Roberts\u2019s and Justice Sotomayor\u2019s reliance on Smith\u2019s \u201cpurpose or effect\u201d nexus persuasively cabins the statute to situations where identity information is an instrument of the deceit\u2014about who is involved, entitled, or authorized\u2014rather than accurate routing information accompanying a different misrepresentation about services or codes. Flores-Figueroa\u2019s insistence that \u00a7 1028A\u2019s elements do real work reinforces that Congress was targeting identity-theft-type misuse, and the severe mandatory consecutive penalty heightens the need for a clear, workable limiting principle. On pragmatic and fairness grounds, sweeping in truthful identifiers incidental to upcoding would create disproportionate consequences untethered to aggravated identity theft.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Section 1028A(a)(1) requires that the defendant \"use\" another person\u2019s \"means of identification\" \"during and in relation to\" the predicate offense, and that relational language, as construed in Smith v. United States, demands the identification have a purpose or effect with respect to the fraud\u2014more than accident or coincidence. A narrow reading preserves the statute\u2019s focus on aggravated identity theft rather than converting routine billing overstatements that happen to include accurate patient identifiers into a mandatory consecutive felony, which would risk overbreadth and undermine proportionality and institutional legitimacy. Here, where the patient\u2019s identity was accurate and served only to locate the claim in Medicaid\u2019s system, the gravamen of the fraud was the misrepresentation about services, not a misuse of identity. Consistent with judicial minimalism and respect for Congress\u2019s calibration of penalties, the conviction should be vacated under a limiting construction of \"uses ... during and in relation to\" in \u00a7 1028A(a)(1).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1028A(a)(1) punishes one who \u201cknowingly \u2026 uses, without lawful authority, a means of identification of another person\u201d \u201cduring and in relation to\u201d an enumerated felony; in ordinary public meaning, \u201cuses\u201d a means of identification connotes employing the identifier as an instrumentality of the crime, not merely including accurate identifying information as an incidental feature of a fraudulent claim. Reading \u201cuses \u2026 during and in relation to\u201d to cover any fraud that happens to contain a real patient\u2019s name would collapse \u00a7 1028A into a sweeping sentencing add-on for routine billing fraud and disregard the limiting function of the statute\u2019s operative verbs (\u201ctransfers, possesses, or uses\u201d) and relation requirement. Flores-Figueroa v. United States (2009) confirms that \u00a7 1028A is keyed to identity-based wrongdoing by requiring knowledge that the means of identification belongs to \u201canother person,\u201d a mens rea that makes most sense where the identifier is being exploited as such rather than simply reported accurately in paperwork. Because Dubin did not misappropriate the patient\u2019s identity or deploy the identifier to pretend to be someone else, the aggravated-identity-theft enhancement is not supported by the statute\u2019s text as originally understood.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 1028A(a)(1) punishes \u201caggravated identity theft,\u201d and its text\u2014\u201cknowingly transfers, possesses, or uses, without lawful authority, a means of identification of another person\u201d\u2014read in context with the statute\u2019s title and the \u201cduring and in relation to\u201d limitation, targets misuse of another\u2019s identity as a thing, not every fraud that happens to include a real person\u2019s identifying information. Treating routine Medicaid upcoding that correctly lists a real patient as \u201cuse\u201d of that patient\u2019s identification would collapse the distinction between ordinary fraud and identity theft, producing sweeping, mandatory consecutive punishment untethered to the statute\u2019s ordinary meaning and practical design. Flores-Figueroa reinforces that \u00a7 1028A should be construed with attention to \u201cidentity theft\u201d as the core concept, including reliance on the statute\u2019s title as a legitimate interpretive aid, and counsels against expansive readings that turn incidental identifiers into aggravated identity theft. Because the patient\u2019s name here served a billing-administrative function rather than a misappropriation of identity to perpetrate the fraud, \u00a7 1028A(a)(1) is not satisfied.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.86,
+        "reasoning": "Section 1028A(a)(1) requires that a defendant \"use\" another person\u2019s \"means of identification\" \"during and in relation to\" the predicate fraud, which\u2014under this Court\u2019s interpretation of identical \"in relation to\" language\u2014demands a non-coincidental nexus that at least facilitates the underlying crime. Smith v. United States, 508 U.S. 223, 237\u201338 (1993), makes clear the connection must have some \"purpose or effect\" and not be merely incidental; here, the gravamen of the Medicaid fraud is the misrepresentation about services rendered, not a misrepresentation about the patient\u2019s identity. Reading \u00a7 1028A to cover any fraudulent claim that includes a real patient\u2019s accurate identifying information would transform routine billing fraud into aggravated identity theft and trigger a mandatory consecutive sentence in a way that is disproportionate and invites overcharging, harming vulnerable defendants and distorting access to justice. A narrower construction\u2014limiting \u00a7 1028A to cases where identity misuse is central to the fraud (e.g., impersonation or misrepresentation of who is entitled)\u2014best fits the statutory text and avoids sweeping ordinary fraud into a harsh mandatory regime.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) requires that the defendant \u201cuse[] \u2026 a means of identification of another person\u201d \u201cduring and in relation to\u201d the predicate fraud, which is best read to cover situations where the identifier is itself the instrumentality that makes the conduct identity-theft-like, not where a real patient\u2019s name is merely a routine attribute of a billing claim. A broad construction would make \u00a7 1028A a near-automatic add-on in ordinary healthcare overbilling cases\u2014an unworkable, incoherent result given Congress\u2019s targeted focus on \u201cidentity theft\u201d and the statute\u2019s mandatory consecutive penalty. Consistent with Flores-Figueroa\u2019s insistence on giving meaningful content to \u00a7 1028A\u2019s limiting terms, the \u201cuse \u2026 during and in relation to\u201d language should be construed to require more than incidental inclusion of accurate patient identifying information in an otherwise fraudulent claim. On these facts, Dubin\u2019s fraud was about the nature and amount of services billed, not misappropriating the patient\u2019s identity in a way that \u00a7 1028A was designed to punish.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) imposes a mandatory consecutive penalty only when the defendant \"knowingly ... uses, without lawful authority, a means of identification of another person\" \"during and in relation to\" the predicate fraud; read in context and consistent with ordinary meaning, that requires the identification to play a genuine, operative role in the criminality\u2014not merely appear as an accurate, incidental descriptor on a claim otherwise fraudulent as to services or billing codes. A contrary reading would collapse \u00a7 1028A into a sweeping enhancement for commonplace billing fraud whenever a real patient\u2019s name is included, a construction that strains the statutory phrase \"during and in relation to\" and creates serious overbreadth concerns best avoided by a narrowing reading, especially given the statute\u2019s mandatory consecutive sentence. Flores-Figueroa v. United States underscores that \u00a7 1028A must be read with care and precision, resisting expansive interpretations that transform it into a general-purpose sentencing add-on untethered from identity theft as such. Where the statute\u2019s reach is at least doubtful on these facts, the rule of lenity counsels against the government\u2019s broader construction.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) requires that the defendant \"use\" another person\u2019s means of identification \"during and in relation to\" the predicate fraud, and that limiting phrase must do real work to ensure a meaningful nexus rather than sweeping in routine overbilling that happens to include accurate patient identifiers. As in Smith v. United States (interpreting identical \"during and in relation to\" language in \u00a7 924(c)), the identifying information must have some purpose or effect with respect to the predicate offense and not be merely coincidental or incidental to the billing fraud. Reading \u00a7 1028A to cover any fraudulent claim that contains a real patient\u2019s name would dramatically expand the statute beyond the identity-theft problem Congress targeted, create serious workability and line-drawing concerns, and risk converting ordinary healthcare-fraud prosecutions into mandatory consecutive two-year identity-theft cases without a clear historical or traditional fit. Respect for precedent, statutory structure, and practical administrability therefore favors a narrower construction under which Dubin\u2019s conduct is standard billing fraud but not aggravated identity theft absent a misappropriation or identity-centered use of the identifier.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Textually, \u00a7 1028A(a)(1) requires that the defendant \u201cknowingly \u2026 uses, without lawful authority, a means of identification of another person\u201d \u201cduring and in relation to\u201d the predicate felony; in ordinary usage, \u201cuse\u201d in this context connotes employing another\u2019s identifying information as a means of misrepresentation about who is involved, not merely including accurate identifiers as a routine feature of a billing submission. Reading \u201cuses \u2026 during and in relation to\u201d to cover any fraudulent claim that contains a real patient\u2019s name would risk collapsing the statute into a sweeping add-on for ordinary fraud, undermining the limiting work of \u201cduring and in relation to\u201d and producing a mandatory consecutive penalty untethered to identity-centered wrongdoing. Flores-Figueroa v. United States, 556 U.S. 646 (2009), reinforces that \u00a7 1028A targets the wrongful use of another person\u2019s identification as such (and requires knowledge it belongs to another), supporting a narrower construction where the identity misuse is integral to the fraud rather than incidental. Respect for precedent counsels against adopting the Fifth Circuit\u2019s expansive approach absent clearer statutory text, especially given the significant sentencing consequences of \u00a7 1028A\u2019s mandatory two-year consecutive term.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Section 1028A(a)(1) is best read to require that the defendant\u2019s \u201cuse\u201d of another person\u2019s \u201cmeans of identification\u201d be at the crux of what makes the conduct fraudulent\u2014i.e., an identity-theft-type misuse\u2014rather than the merely incidental inclusion of accurate patient identifiers in routine billing fraud. A broader reading would give the statute a \u201cbreathtaking\u201d reach, converting many garden-variety fraud cases into aggravated identity theft and triggering a mandatory consecutive two-year sentence, a practical consequence that counsels a narrowing construction consistent with procedural fairness. This Court has repeatedly cautioned against expansive interpretations of federal criminal statutes when a narrower, textually plausible construction is available, and that interpretive discipline supports limiting \u00a7 1028A to situations where the identity information is used to misrepresent who is involved in the transaction. Accordingly, submitting a fraudulent Medicaid claim that correctly names a real patient, without more, should not satisfy the \u201cuses \u2026 during and in relation to\u201d element of \u00a7 1028A(a)(1).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.816,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.86,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.84,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "22-10",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether submitting a Medicaid claim that includes a real patient\u2019s identifying information, but falsely overstates the services provided, constitutes \u201cus[ing]\u201d that person\u2019s \u201cmeans of identification\u201d \u201cduring and in relation to\u201d healthcare fraud under the federal aggravated identity theft statute.",
+      "legal_provision": "18 U.S.C. \u00a7 1028A(a)(1) (aggravated identity theft) (as applied in connection with healthcare fraud predicates).",
+      "petitioner_position": "Dubin argues that \u00a7 1028A is aimed at true identity theft\u2014misappropriating someone\u2019s identity (e.g., impersonation or passing oneself off as another)\u2014and should not apply whenever a defendant commits fraud in a way that incidentally includes accurate identifying information (like a patient name/Medicaid ID) in a billing submission. He contends that treating routine billing details as aggravated identity theft would dramatically expand \u00a7 1028A to cover a wide range of ordinary fraud cases, effectively adding a mandatory consecutive two-year sentence whenever any identifier is used in the paperwork, even if the identifier is not the \u201ccrux\u201d of the deception. Petitioner-oriented amici further suggest that a narrower construction is required to avoid overbreadth and vagueness problems and to preserve the separation of powers/legality concerns that arise when a vague standard permits prosecutors to convert many frauds into aggravated identity theft.",
+      "respondent_position": "The United States argues that the jury had sufficient evidence to find that Dubin \u201cuse[d]\u201d a real patient\u2019s \u201cmeans of identification\u201d to commit fraud because the Medicaid claim invoked a specific patient\u2019s entitlement to reimbursement for services allegedly provided to that patient, and the claim was false as to the nature/extent of the service (e.g., a fictitious three-hour licensed-psychologist exam). In the government\u2019s view, using the patient\u2019s identifiers was not incidental\u2014it was the mechanism by which Dubin sought payment\u2014and thus falls within the ordinary meaning of \u201cuse\u201d under \u00a7 1028A(a)(1). The government also suggests there may be appellate-forfeiture/standard-of-review constraints on petitioner\u2019s narrower \u201cuse\u201d theory.",
+      "key_precedents": [
+        "Greenlaw v. United States, 554 U.S. 237 (2008)",
+        "Eberhart v. United States, 546 U.S. 12 (2005)",
+        "Jones v. Thomas, 491 U.S. 376 (1989)",
+        "Carducci v. Regan, 714 F.2d 171 (D.C. Cir. 1983)",
+        "Rollins v. Home Depot USA, Inc., 8 F.4th 393 (5th Cir. 2021)"
+      ],
+      "legal_complexity": "Moderate"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito is right to stress that the claim form cannot be processed without the patient identifiers, but treating that necessary \u201crouting\u201d function as sufficient would make \u00a7 1028A a virtually automatic consecutive add-on to \u00a7 1347 whenever accurate identifiers are required\u2014a result hard to square with Congress\u2019s use of the limiting phrase \u201cduring and in relation to\u201d in a mandatory-minimum statute. Justice Sotomayor\u2019s reliance on our \u201cin relation to\u201d cases (including Smith) reinforces that the identifier must have a non-incidental nexus to what makes the conduct deceptive or meaningfully facilitates the fraud beyond mere presence on paperwork. Flores-Figueroa, as Justice Kagan and others note, counsels careful, element-focused narrowing where severe penalties are at stake; it does not impose an \u201cimpersonation-only\u201d rule, but it supports reading \u201cuses \u2026 during and in relation to\u201d to require identity misuse that is central to the fraud\u2019s deceit. On that narrower ground, truthful identifiers that merely enable claim submission are not enough when the misrepresentation concerns only the services billed.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito\u2019s strongest point\u2014that the patient identifiers are a necessary mechanism for reimbursement and thus are \u201cused \u2026 during and in relation to\u201d the fraud\u2014fails at the level of ordinary public meaning in context because it reduces the limiting phrase to a mere but-for test and effectively makes \u00a7 1028A an automatic add-on whenever a form requires truthful identifiers. Chief Justice Roberts\u2019s overbreadth concern is not a policy override but a textual coherence point: reading \u201cuses \u2026 during and in relation to\u201d to cover routine, accurate routing information deprives those words of any narrowing function in a mandatory consecutive-penalty statute. Justice Sotomayor\u2019s reliance on our \u201cin relation to\u201d cases (including Smith) supports the better textual boundary: the identifier must be employed as an instrumentality of what makes the representation deceptive, not merely included while the lie concerns only the services billed. Flores-Figueroa\u2019s insistence on careful, element-by-element reading of \u00a7 1028A\u2019s severe penalty reinforces that we should not expand \u201cuse\u201d beyond its aggravated identity-theft sense absent clearer text.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "I take Chief Justice Roberts\u2019s overbreadth point seriously: if \u201cduring and in relation to\u201d is read too loosely, \u00a7 1028A could become a frequent add-on in billing-fraud prosecutions. But that practical concern cannot justify rewriting the statute\u2019s operative words\u2014here the defendant \u201cuses\u201d a real patient\u2019s \u201cmeans of identification\u201d as the mechanism by which the false claim is submitted and paid, and that use plainly occurs \u201cduring and in relation to\u201d the \u00a7 1347 fraud because the identifiers are what connect the fabricated service to a reimbursable beneficiary. Justice Sotomayor\u2019s reliance on Smith does not move me; Smith requires a real nexus, and the identifiers are not coincidental\u2014they facilitate the fraud by enabling payment through the program\u2019s identity-based routing. Flores-Figueroa dealt with scienter (knowing the identifier belongs to another person), and I do not read it to impose an extra-textual \u201cimpersonation-only\u201d limitation on \u201cuses\u201d or to narrow the statute merely because the penalty is severe.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "Justice Alito\u2019s strongest textual argument\u2014that the claim \u201cuses\u201d the patient\u2019s identifiers as the mechanism for reimbursement\u2014still reads \u201cduring and in relation to\u201d down to a but-for formality and makes \u00a7 1028A a near-automatic add-on in routine billing fraud, which is hard to square with a mandatory consecutive penalty absent a clearer congressional command. Chief Justice Roberts and Justice Kagan persuasively explain that our \u201cin relation to\u201d cases (including Smith) require a meaningful nexus: the identifier must do real work in the deception, not merely appear as accurate routing information while the lie concerns what service was provided. Flores-Figueroa, though about scienter, reinforces a cautionary approach to expanding \u00a7 1028A beyond aggravated identity misuse, supporting a limiting construction that preserves fair notice and avoids disproportionate sentencing leverage. On these facts, the fraud turned on the services billed, not who the patient was, so the identifiers were incidental rather than the instrumentality of the deceit.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "Justice Alito is right to press that the identifiers are a factual mechanism for getting a fraudulent claim paid, but that reading effectively reduces \u201cduring and in relation to\u201d to a but-for test and turns \u00a7 1028A into an automatic add-on whenever a form requires accurate identifying fields. As Chief Justice Roberts and Justice Sotomayor emphasize, our \u201cin relation to\u201d cases (including Smith) demand a limiting nexus: the means of identification must do real work in what makes the conduct fraudulent, not merely appear as truthful routing information while the misrepresentation concerns the service or amount. Flores-Figueroa, while addressing scienter, still reinforces the need to read \u00a7 1028A\u2019s elements with care given its severe mandatory consecutive penalty\u2014counseling against the government\u2019s expansive construction absent clearer textual command. Under a pragmatic textualist approach, Petitioners\u2019 interpretation preserves statutory coherence and workable administrability by keeping \u00a7 1028A focused on identity misuse central to the deception rather than ubiquitous paperwork.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito is right that the patient identifiers are a factual but-for prerequisite to getting Medicaid to pay, and in that sense they are \u201cused\u201d in submitting the claim. But as Chief Justice Roberts and Justice Thomas emphasize, reading \u201cuses \u2026 during and in relation to\u201d to cover any truthful, required identifier on a form would drain those limiting words of independent work and effectively convert \u00a7 1028A into an automatic mandatory add-on for routine billing fraud\u2014an expansion the text does not clearly command. Justice Sotomayor\u2019s reliance on Smith underscores that \u201cin relation to\u201d requires a real nexus to what makes the conduct wrongful; here the deception is about the service and amount, not who the beneficiary is, so the identifier functions as accurate routing information rather than the instrument of the fraud. Flores-Figueroa\u2019s careful, element-by-element approach to \u00a7 1028A\u2019s severe consecutive penalty reinforces that we should not broaden \u201cuse\u201d by abstraction, and any remaining uncertainty should be resolved by lenity.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito is right that the patient identifiers are a factual \u201cbut-for\u201d prerequisite to submitting a Medicaid claim, but that reading effectively drains \u201cduring and in relation to\u201d of any limiting function and risks turning \u00a7 1028A into an automatic mandatory consecutive enhancement for ordinary billing fraud. Chief Justice Roberts\u2019s point about preserving a meaningful boundary is consistent with our \u201cin relation to\u201d cases (as Justice Sotomayor notes via Smith), which require more than mere presence on the paperwork\u2014there must be a non-incidental nexus to what makes the conduct wrongful. Flores-Figueroa\u2019s cautionary approach to \u00a7 1028A\u2019s severe penalty supports resisting an interpretation that expands the statute by implication whenever accurate identifiers appear on required forms. Here, the deceit was about what services were rendered and billed, not who received them, so the identifiers functioned as truthful routing information rather than the instrumentality of deception.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito\u2019s contention that the patient identifiers are the \u201cnecessary mechanism\u201d for reimbursement is the best argument for the government, but on the ordinary meaning of \u201cuses \u2026 a means of identification \u2026 during and in relation to\u201d the predicate, the identifier must do more than serve as accurate routing information\u2014it must be employed as an instrumentality that makes the conduct deceptive in a relevant way. Chief Justice Roberts\u2019s and Justice Sotomayor\u2019s points about preserving limiting work for \u201cin relation to,\u201d consistent with Smith, sharpen that textual constraint: a mere but-for role would collapse \u00a7 1028A into a mandatory add-on whenever a form requires a name or number, an implausible construction for a severe consecutive penalty. Justice Thomas is also right that context (including the statute\u2019s focus on aggravated identity theft, as reflected in Flores-Figueroa\u2019s careful element-by-element reading) counsels against expanding \u201cuse\u201d to cover truthful identifiers where the fraud concerns only the services billed. Because Alito\u2019s reading relies on abstraction that erases the statute\u2019s narrowing phrases, it does not undermine my originalist/textualist view that \u00a7 1028A targets identity misuse central to the deception.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito\u2019s textual point\u2014that identifiers are the mechanism by which a Medicaid claim gets paid\u2014cannot, by itself, satisfy \u00a7 1028A\u2019s requirement that the defendant \u201cuse\u201d the means of identification \u201cduring and in relation to\u201d the predicate, because that would make the enhancement effectively automatic whenever a form includes truthful identifiers, leaving the limiting nexus language with no real work to do. Justice Sotomayor\u2019s reliance on our \u201cin relation to\u201d jurisprudence (including Smith) is persuasive here: the identifier must have a meaningful connection to what makes the claim fraudulent, not mere temporal overlap or routine routing information when the deception concerns the service provided. Flores-Figueroa, as the Chief Justice and Justice Kagan note, counsels caution in expanding a mandatory consecutive penalty without a clear narrowing principle in the statutory elements; that interpretive discipline supports reading \u201cuse\u201d as identity misuse central to the fraud rather than accurate identification incidental to billing. Even if the government\u2019s broader reading is plausible in the abstract, the combination of statutory coherence and lenity in a severe penal scheme keeps me with Petitioner.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 1028A(a)(1) should be read narrowly to preserve Congress\u2019s targeted aim at aggravated identity theft and to avoid converting routine fraud cases into automatic two-year consecutive penalties whenever accurate identifying information appears in required paperwork. Treating any inclusion of a real patient\u2019s identifiers on a Medicaid claim as \u201cus[ing]\u201d a \u201cmeans of identification\u201d \u201cduring and in relation to\u201d fraud risks a sweeping, \u201cbreathtaking\u201d expansion of federal criminal liability that a narrower, reasonable construction can avoid, consistent with the narrow-construction approach in ambiguous criminal statutes. A limiting construction best protects institutional legitimacy by keeping \u00a7 1028A tied to identity-misuse that is central to the fraud, rather than merely incidental compliance information in billing. That approach also avoids prosecutorial overreach concerns inherent in broad readings of mandatory consecutive sentencing statutes under \u00a7 1028A(b)(2).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1028A(a)(1) targets aggravated \u201cidentity theft,\u201d and in its ordinary public meaning that phrase connotes misappropriating another\u2019s identity\u2014using an identifier to pass oneself off as someone else or otherwise to take on that person\u2019s identity\u2014rather than merely including accurate patient identifiers in routine billing while lying about the services. Reading \u201cuses \u2026 a means of identification \u2026 during and in relation to\u201d to cover any fraud that happens to contain a name or Medicaid number would transform \u00a7 1028A into a general sentencing enhancement for paperwork fraud, untethered from the statute\u2019s identity-theft focus, and it is not this Court\u2019s role to expand criminal liability beyond the statute\u2019s original meaning. Flores-Figueroa v. United States underscores that \u00a7 1028A must be interpreted with attention to its ordinary meaning and its title (\u201cAggravated Identity Theft\u201d), and that the statute is not a catchall for every fraudulent act involving identifying information. Because Dubin\u2019s deception concerned the nature and amount of services rendered, not the patient\u2019s identity, the identifiers were incidental to the billing mechanism and do not constitute the kind of \u201cuse\u201d \u00a7 1028A criminalizes.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 1028A(a)(1) applies when a defendant \"knowingly transfers, possesses, or uses\" a \"means of identification of another person\" \"during and in relation to\" a predicate offense, and a Medicaid claim necessarily uses the patient\u2019s identifying information as the vehicle to invoke that patient\u2019s entitlement to reimbursement. Here, the misrepresentation about the service provided was effectuated through the claim tied to a specific individual\u2019s identifiers, so the use was not merely incidental paperwork but integral to committing health care fraud under \u00a7 1347. Flores-Figueroa v. United States confirms that \u00a7 1028A requires knowledge that the identifier belongs to a real person, but it does not narrow the ordinary meaning of \u201cuse\u201d to only impersonation-type scenarios. Reading \u201cuse\u201d narrowly to exclude fraudulent billing would create an atextual carveout and undermine Congress\u2019s evident purpose to add a mandatory consecutive penalty when real persons\u2019 identifiers are employed to facilitate enumerated frauds.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) requires not merely that an identifier appear in paperwork, but that the defendant \u201cuse[]\u201d another\u2019s \u201cmeans of identification\u201d \u201cduring and in relation to\u201d the predicate fraud\u2014i.e., in a way that at least facilitates the fraud and is more than coincidental. Under this Court\u2019s construction of \u201cin relation to\u201d in Smith v. United States, the identity use must be integral to what makes the conduct criminal; treating routine inclusion of accurate patient identifiers on a Medicaid claim as aggravated identity theft would dramatically and unfairly expand \u00a7 1028A and add a mandatory consecutive two-year term to a wide swath of ordinary fraud cases. A narrower reading better reflects Congress\u2019s evident focus on true identity theft/misappropriation and avoids giving prosecutors sweeping leverage that can distort charging and sentencing, with especially harsh consequences for defendants in the criminal system. Because Dubin\u2019s deception concerned the services billed, not an identity misappropriation, the patient\u2019s identifying information was incidental to the fraud and does not satisfy \u00a7 1028A\u2019s limiting \u201cduring and in relation to\u201d requirement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) punishes \u201cus[ing]\u201d another\u2019s \u201cmeans of identification\u201d \u201cduring and in relation to\u201d a predicate fraud, but that language is best read to require that the identifier itself play a meaningful role in the fraudulent conduct\u2014i.e., the misuse of identity is at the crux of what makes the transaction deceptive, not merely a routine feature of billing paperwork. Reading \u201cuse\u201d to cover any healthcare-fraud claim that contains accurate patient identifiers would effectively add a mandatory consecutive two-year sentence to a broad swath of ordinary overbilling cases, a result in tension with statutory coherence and workability given \u00a7 1028A\u2019s targeted design as an aggravated, identity-centered enhancement. Flores-Figueroa v. United States underscores that \u00a7 1028A is not a limitless add-on: the Court insisted on a narrowing scienter requirement to prevent overexpansion of the statute\u2019s severe mandatory penalty, and a similarly careful construction of \u201cuse \u2026 during and in relation to\u201d is warranted here. Because the fraud alleged is overstatement of services rather than misrepresentation about who received them, the patient identifier is best treated as incidental to the deception and outside \u00a7 1028A\u2019s core.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) requires that a defendant \u201cuse[]\u201d another\u2019s \u201cmeans of identification\u201d \u201cduring and in relation to\u201d the predicate fraud; read in ordinary terms, that targets cases where the identifier itself is employed as an instrumentality of the deception (e.g., misrepresenting who received services), not where accurate identifiers merely appear in paperwork while the lie concerns the services rendered. The government\u2019s broader construction would effectively append a mandatory consecutive two-year sentence to vast swaths of garden-variety healthcare fraud whenever a claim necessarily includes a patient\u2019s name or Medicaid number, a sweeping expansion that Congress did not clearly command in the text. Where the statute plausibly bears both readings and the broader reading carries \u201ccascading\u201d penal consequences, the rule of lenity counsels adopting the narrower construction. See United States v. Santos, 553 U.S. 507, 514 (2008).",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Text, structure, and history suggest \u00a7 1028A(a)(1) targets misuse of another\u2019s identity as an instrument of the fraud, not the mere inclusion of accurate identifying information that is ancillary to a billing overstatement; reading \u201cuses \u2026 during and in relation to\u201d to cover routine claims risks turning \u00a7 1028A into a near-automatic two-year add-on for many healthcare frauds, an impractical and overbroad result Congress is unlikely to have intended. A limiting construction also better respects precedent and traditional rule-of-law concerns about fair notice and prosecutorial discretion, consistent with the Court\u2019s approach to narrowing readings of broad criminal statutes (cf. Flores-Figueroa v. United States and the ordinary understanding of \u201cidentity theft\u201d). Applying \u201cuse\u201d only where the means of identification is at the crux of what makes the conduct fraudulent preserves workability and avoids collapsing \u00a7 1028A into the predicate offense itself. Under that reading, submitting a claim that truthfully identifies a real patient but lies about the service provided is healthcare fraud, but not necessarily aggravated identity theft absent identity misuse akin to impersonation or misappropriation.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 1028A(a)(1) requires that the defendant \"use\" another person\u2019s \"means of identification\" \"during and in relation to\" the predicate fraud, and the ordinary public meaning of that phrase\u2014read in context\u2014demands more than the incidental inclusion of accurate identifying information in a billing form. As in Flores-Figueroa v. United States, 556 U.S. 646 (2009), we construe \u00a7 1028A\u2019s elements with close attention to ordinary usage and the statute\u2019s targeted aim at identity theft; otherwise the government\u2019s reading would convert a vast range of routine frauds involving paperwork identifiers into mandatory consecutive two-year enhancements. A narrower construction also better respects methodological consistency and avoids the serious overbreadth/line-drawing concerns that arise when prosecutors can attach \u00a7 1028A whenever any identifier appears in a claim, and any remaining ambiguity is resolved by the rule of lenity. Because Dubin\u2019s deception concerned the nature and extent of services, not who the patient was, the patient\u2019s identifiers were not \u201cused\u201d in the aggravated-identity-theft sense required by \u00a7 1028A.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 1028A(a)(1) targets aggravated identity theft, and its \u201cduring and in relation to\u201d requirement is best read to cover situations where the misuse of another\u2019s \u201cmeans of identification\u201d is itself a genuine component of the fraud\u2014rather than merely accurate, routine billing information attached to a claim that is false in other respects. Reading \u201cuse\u201d to encompass any claim that includes a real patient\u2019s identifiers would convert a wide range of ordinary healthcare-fraud prosecutions into mandatory consecutive two-year identity-theft offenses, an overexpansion with serious sentencing consequences and uneven enforcement risks. Where the text plausibly supports both a narrow and a broad construction, the rule of lenity counsels adopting the narrower, defendant-favorable reading. See 18 U.S.C. \u00a7 1028A(a)(1); United States v. Santos, 553 U.S. 507, 514 (2008).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.769,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

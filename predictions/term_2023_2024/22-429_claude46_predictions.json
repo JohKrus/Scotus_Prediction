@@ -1,0 +1,578 @@
+[
+  {
+    "docket": "22-429",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Deborah Laufer, a self-appointed ADA 'tester' plaintiff, has Article III standing to sue Acheson Hotels for failing to provide accessibility information on its reservation website despite having no intention of actually booking a stay at the hotel.",
+      "legal_provision": "Title III of the Americans with Disabilities Act (ADA), 42 U.S.C. \u00a7 12182(b)(2)(A)(ii), along with the DOJ's Reservation Rule (28 C.F.R. Pt. 36) and Article III standing requirements of the U.S. Constitution",
+      "petitioner_position": "Acheson Hotels argues that Laufer lacks Article III standing because she suffered no concrete injury-in-fact, as she never intended to book a room and was acting purely as a 'tester' to identify ADA violations; they further contend that Havens Realty is distinguishable because this case involves a regulatory rule rather than a statute directly creating legal rights, and that TransUnion v. Ramirez requires downstream consequences for informational injuries to be cognizable",
+      "respondent_position": "Laufer argues she has standing under the precedent established in Havens Realty Corp. v. Coleman, which recognized tester standing in civil rights discrimination cases, asserting that the denial of accessibility information required by the ADA and Reservation Rule constitutes a concrete injury-in-fact regardless of her intent to book a room, as Congress specifically created this right and authorized suits to enforce it",
+      "key_precedents": [
+        "Havens Realty Corp. v. Coleman, 455 U.S. 363 (1982) - established tester standing in civil rights discrimination cases",
+        "TransUnion LLC v. Ramirez, 141 S. Ct. 2190 (2021) - addressed concrete injury requirements for informational injuries and standing",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) - addressed concreteness requirement for Article III standing",
+        "United States v. Symonevich, 688 F.3d 12 (1st Cir. 2012) - addressed implicit overruling of prior decisions",
+        "Bais Yaakov of Spring Valley v. ACT, Inc., 798 F.3d 46 (1st Cir. 2015) - addressed relationship between holdings and dicta",
+        "In re Sealed Case, 151 F.3d 1059 (D.C. Cir. 1998) - addressed sub silentio overruling via dicta or footnotes",
+        "McCoy v. Mass. Inst. of Tech., 950 F.2d 13 (1st Cir. 1991) - addressed binding nature of Supreme Court dicta",
+        "United States v. B\u00e1ez-Mart\u00ednez, 950 F.3d 119 (1st Cir. 2020) - further addressed binding precedent principles"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I remain persuaded that Laufer lacks Article III standing, though I continue to believe the mootness ground is the most institutionally sound path. Justice Sotomayor's invocation of Havens Realty remains the strongest counterargument, but Justice Kagan's textual distinction \u2014 that the ADA's Reservation Rule creates a right of equal access to the reservation *service* rather than a freestanding informational right \u2014 is compelling and consistent with my minimalist approach to statutory construction. I am particularly struck by the near-unanimity of my colleagues on the standing question, which suggests that a narrow holding focused on the absence of downstream consequences for a plaintiff with zero intent to use the service could command a strong majority without requiring us to broadly repudiate tester standing doctrine across all civil rights contexts. As Chief Justice, I would assign the majority opinion with instructions to write narrowly \u2014 holding only that a self-appointed tester with no genuine nexus to the service at issue cannot satisfy TransUnion's concrete injury requirement under these specific facts \u2014 while explicitly reserving the question of whether a disabled person who genuinely intended to book accommodations would have standing, thereby preserving Havens Realty's core holding and minimizing collateral damage to civil rights enforcement mechanisms.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor's invocation of Havens Realty presents the strongest counterargument, but it ultimately fails under originalist analysis because Havens Realty's tester standing was grounded in the Fair Housing Act's explicit statutory text creating a direct right to truthful information \u2014 a right that, when violated, bore a close analogue to common-law fraud and deceit \u2014 whereas Laufer's claimed injury derives from a DOJ regulatory rule under the ADA that governs website disclosures, not a direct statutory prohibition on discriminatory treatment of the plaintiff herself. As Justice Gorsuch correctly notes, Congress's delegation to an agency to craft accessibility disclosure requirements does not automatically vest private plaintiffs with constitutionally cognizable rights enforceable regardless of any real-world stake; the original public meaning of 'Cases' and 'Controversies' in Article III required a genuine, concrete dispute, not a manufactured regulatory audit. TransUnion's framework confirms that an informational injury untethered to any downstream consequence \u2014 Laufer never intended to book a room and suffered no tangible deprivation of any service she sought \u2014 cannot satisfy the concrete injury requirement the Framers embedded in Article III's structural limits on federal judicial power. Permitting such self-appointed tester standing would transform federal courts into compliance enforcement agencies, violating the separation of powers that the standing doctrine was specifically designed to preserve.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most serious challenge by invoking Havens Realty and arguing that the denial of legally mandated information itself constitutes a concrete injury, but I find this unpersuasive for the reasons Justice Kavanaugh articulates so well: Havens Realty involved intentional racial discrimination \u2014 a dignitary harm with deep common-law roots \u2014 whereas Laufer encountered a website that provided identical (if incomplete) information to all visitors regardless of disability status, meaning she suffered no discriminatory treatment whatsoever. The critical distinction is that Havens Realty's tester received false information specifically because of race, which constituted a direct invasion of a statutory right tied to a concrete dignitary harm; Laufer simply found a regulatory compliance gap that affected everyone equally and that she had no personal stake in beyond her self-appointed enforcement mission. Under TransUnion's framework, the informational injury doctrine requires downstream consequences when the plaintiff has no genuine use for the information \u2014 Laufer's complete absence of intent to book a room means there are no such consequences, and her manufactured encounter with the website cannot satisfy Article III's concrete injury requirement. I also note Justice Roberts' mootness point has merit as a narrower ground, but the standing question is properly before us and should be resolved to provide guidance on the limits of tester standing under the ADA.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's textual argument \u2014 that the Reservation Rule creates a right of equal access to the reservation *service* rather than a freestanding informational right \u2014 is the most serious challenge to my position, and I have wrestled with it genuinely. However, I remain unpersuaded because this framing proves too much: in Havens Realty, the FHA's right to truthful information was itself instrumentally connected to the service of housing access, yet the Court did not require Coleman to demonstrate actual intent to rent before recognizing standing. The majority's collective reliance on the 'identical information to all visitors' distinction also misreads the ADA's anti-discrimination logic \u2014 a disabled person denied accessibility information suffers a qualitatively different harm than a non-disabled person, because only the disabled person is denied the ability to make an informed decision about whether a service is usable for them, which is precisely the dignitary and practical harm Congress targeted. I acknowledge the mootness path Justice Roberts identifies is tempting as a narrower resolution, but if we must reach standing, I cannot in good conscience join a holding that would effectively eliminate private enforcement of accessibility disclosure requirements and leave disabled Americans dependent solely on finite DOJ resources to vindicate rights Congress explicitly extended to them.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's Havens Realty argument remains the most serious challenge to my position, but after reviewing my colleagues' analyses\u2014particularly Justice Barrett's careful textual distinction\u2014I am more confident that the analogy fails. The FHA in Havens Realty contained an explicit statutory right to truthful information that, when violated through intentional racial discrimination, created a direct dignitary injury with common-law roots; the ADA's Reservation Rule is a DOJ regulatory requirement creating a service-access right, not a freestanding informational entitlement. Justice Sotomayor is correct that TransUnion's framework is imperfect for civil rights contexts, but even accepting that dignitary injuries can satisfy Article III, Laufer's injury lacks the particularized, individualized dimension that dignitary harm requires\u2014she received the same incomplete information as every other visitor, with no discriminatory treatment directed at her as a disabled person. I write separately to emphasize that today's holding should be narrow: we hold only that a self-appointed tester with no genuine nexus to the service cannot manufacture standing through a regulatory compliance audit, leaving open whether a disabled person with actual travel intent would have standing under the Reservation Rule.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's Havens Realty argument remains the most serious challenge to my position, but I find it ultimately unpersuasive for reasons that have only sharpened through deliberation. The critical distinction \u2014 which Justice Kagan articulates with precision \u2014 is that the ADA's Reservation Rule creates a right of equal access to a service, not a freestanding informational right, and Laufer never sought that service for any purpose other than litigation manufacture. Under my originalist methodology, the question is whether this injury bears a close historical analog to harms cognizable at the Founding: a self-appointed regulatory auditor who visits a website with no intent to use the underlying service and suffers no discriminatory treatment \u2014 receiving identical information as every other visitor \u2014 simply has no such analog in the common law of 1789. Justice Sotomayor's enforcement concern is real, but TransUnion is clear that Congress cannot delegate to agencies the power to manufacture Article III standing through regulatory disclosure requirements, and permitting this would allow the executive branch's rulemaking apparatus to circumvent the structural limits on federal judicial power that the Framers embedded in the Case or Controversy requirement.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most serious counterargument \u2014 that Havens Realty's tester standing doctrine should extend to ADA informational injuries because Congress designed the statute to protect disabled individuals from dignitary and practical harms of unequal access. However, this argument elides a critical distinction that Justice Kagan correctly identifies: the Reservation Rule creates a right of equal access to the reservation *service*, not a freestanding informational right, and Laufer's complete absence of any intent to use that service means she was never within the class of persons the statute was designed to protect. Unlike Coleman in Havens Realty, who suffered intentional racial discrimination \u2014 a concrete dignitary harm with deep common-law roots in the law of personal insult and discriminatory denial of service \u2014 Laufer encountered a website that provided identical (if incomplete) information to all visitors regardless of disability status, meaning there was no discriminatory treatment and no particularized harm distinguishable from the general public's interest in regulatory compliance. The institutional concern here is paramount: permitting self-appointed testers with no genuine stake to manufacture federal jurisdiction would transform Article III courts into roving compliance monitors, undermining both the separation of powers and the Court's legitimacy as an institution that resolves genuine disputes rather than abstract regulatory questions.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's invocation of Havens Realty remains the most serious challenge to my position, but after careful reflection I find the textual distinction Justice Kagan identifies dispositive: the Fair Housing Act in Havens Realty contained an explicit statutory prohibition on providing false information to any person, creating a freestanding informational right whose violation bore close analogy to common-law fraud and deceit, whereas Title III's Reservation Rule is a service-access provision implemented through agency regulation, not a direct statutory guarantee of information to all comers regardless of their relationship to the service. The critical originalist question under TransUnion is whether the claimed injury bears a close historical analog to harms cognizable at common law, and a self-appointed regulatory auditor who never sought to use the service, had no travel plans, and suffered no discriminatory treatment distinct from any other website visitor simply has no such analog \u2014 the Founding-era understanding of 'Cases' and 'Controversies' required a genuine, particularized stake, not an abstract interest in regulatory compliance. I also note Justice Roberts' mootness suggestion has procedural appeal, but I agree with Justice Alito that the standing question is squarely presented and requires resolution to provide meaningful guidance on the limits of tester standing under the ADA. The proper structural response to Justice Sotomayor's legitimate enforcement concern is congressional action or executive enforcement, not judicial expansion of Article III beyond its textual and historical limits.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor's invocation of Havens Realty remains the most serious challenge to my position, and I want to engage with it honestly: she is correct that Coleman's standing in that case did not depend on actual intent to rent housing, and that the statutory right to truthful information was itself the protected interest. But the distinction Justice Kagan draws \u2014 and that I find ultimately dispositive \u2014 is that the FHA's text explicitly created a right to truthful information that ran directly to testers, whereas Title III's Reservation Rule is structurally oriented toward equal access to the reservation service itself, not a freestanding disclosure right. Laufer's injury, if any, is an informational injury under TransUnion's framework, and TransUnion requires downstream consequences when the plaintiff has no genuine use for the information \u2014 consequences that are entirely absent here given her complete lack of intent to book, travel, or even consider staying at Acheson's hotel. My background as a public defender makes me acutely aware of the enforcement gap Justice Sotomayor identifies, and I do not dismiss it lightly, but Article III's concrete injury requirement cannot be satisfied by the nobility of the enforcement mission alone, and the executive branch retains meaningful tools to address ADA compliance without requiring federal courts to adjudicate disputes manufactured entirely for litigation purposes.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Consistent with my minimalist approach, I would resolve this case on the narrowest available grounds: Laufer's case became moot when Acheson Hotels updated its website and she voluntarily dismissed related litigation, which counsels against reaching the broader standing question. However, if forced to address standing, TransUnion LLC v. Ramirez, 141 S. Ct. 2190 (2021), requires that informational injuries have some downstream consequence or real-world effect to constitute concrete harm under Article III, and Laufer's purely self-appointed tester status\u2014with no intention of ever booking a room\u2014fails to demonstrate the kind of concrete, particularized injury the Constitution demands. Havens Realty is distinguishable because the tester there suffered direct, in-person discriminatory treatment that invaded a statutory right in a tangible way, whereas Laufer's injury is entirely abstract and divorced from any personal stake in the accessibility of Acheson's property. Permitting such attenuated standing would raise serious institutional legitimacy concerns by effectively converting federal courts into enforcement agencies for regulatory compliance, a role that belongs to the executive branch.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under Article III's original public meaning, federal courts may only adjudicate actual 'Cases' and 'Controversies,' which requires a concrete, particularized injury-in-fact \u2014 not a manufactured statutory grievance divorced from real-world harm. Laufer, who never intended to book a room and suffered no tangible deprivation, cannot demonstrate the kind of concrete injury the Framers understood as necessary to invoke judicial power; as TransUnion LLC v. Ramirez, 141 S. Ct. 2190 (2021) makes clear, '[a]n injury in law is not an injury in fact,' and Congress cannot conjure Article III standing by statute alone without a corresponding harm bearing a close historical or common-law analogue. The informational injury Laufer claims \u2014 failing to receive accessibility data on a website she browsed with no intent to use \u2014 lacks any recognizable common-law analogue in English or American courts, distinguishing this case from Havens Realty, where the tester's statutory right under the Fair Housing Act tracked a direct, personal denial of service with genuine historical grounding. Permitting such manufactured tester standing would improperly transform federal courts into enforcement agencies for regulatory compliance, violating the separation of powers the standing doctrine was designed to preserve.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under TransUnion LLC v. Ramirez, a plaintiff must demonstrate a concrete, real-world injury-in-fact, not merely a technical statutory violation, and Laufer's purely self-appointed 'tester' mission \u2014 with no genuine intention of booking a room at Acheson Hotels \u2014 fails to establish the requisite personal stake Article III demands. The informational injury doctrine, even as recognized in Spokeo, requires downstream consequences when the plaintiff has no actual use for the information withheld, and Laufer's manufactured encounter with the website cannot satisfy that requirement. Havens Realty is distinguishable because the tester plaintiff there suffered actual discriminatory treatment \u2014 being steered away from housing based on race \u2014 which constitutes a real-world harm cognizable at common law, whereas Laufer experienced no comparable denial of service or discriminatory treatment tied to her disability; she simply visited a website with no intent to transact. Permitting serial litigants with no genuine stake to manufacture federal jurisdiction by visiting websites and cataloging regulatory non-compliance would represent precisely the kind of judicial overreach that Article III's case-or-controversy requirement is designed to prevent, and the practical consequences of endorsing such a regime \u2014 flooding federal courts with manufactured ADA suits \u2014 counsel strongly against finding standing here.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Havens Realty Corp. v. Coleman, a civil rights tester who is denied legally mandated information suffers a concrete injury-in-fact in the violation of the statutory right itself, regardless of any downstream tangible harm or intent to actually use the information sought. Laufer's encounter with Acheson Hotels' non-compliant website denied her the accessibility information the ADA's Reservation Rule requires to be disclosed, and that denial \u2014 like the false housing availability information in Havens Realty \u2014 constitutes a real, particularized injury to a legally protected interest, not a mere procedural or abstract harm. While TransUnion v. Ramirez and Spokeo require that informational injuries have some real-world grounding, the ADA's anti-discrimination framework, like the FHA, was specifically designed to protect disabled individuals from the dignitary and practical harm of being denied equal access to information, and Congress's authorization of private enforcement suits reflects a deliberate judgment that such violations warrant judicial redress. Dismissing tester standing here would gut private enforcement of civil rights laws and leave vulnerable populations \u2014 disabled Americans \u2014 without a practical mechanism to ensure compliance with accessibility mandates that hotels would otherwise have little incentive to follow.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While Havens Realty established tester standing in civil rights cases, the critical distinction here is that Title III and the Reservation Rule do not create a freestanding right to information\u2014they create a right of equal access to the service of making reservations, which Laufer never intended to use. Under TransUnion's framework, an informational injury requires downstream consequences to satisfy Article III concreteness, and Laufer's purely abstract interest in checking compliance, untethered to any actual intent to book or even consider booking a room, cannot supply those consequences. The statutory and regulatory scheme is best read as protecting individuals who are genuinely seeking to access hotel services, not as deputizing self-appointed monitors whose injury is entirely manufactured for litigation purposes; reading it otherwise would stretch congressional purpose beyond what the text can bear and create workability problems for courts managing a flood of tester suits with no real-world nexus. A pragmatic reading of the ADA's purpose\u2014ensuring disabled persons can actually access accommodations\u2014supports limiting standing to plaintiffs who have some genuine connection to the service at issue, consistent with the narrower government position that Laufer lacked standing because she was not using the reservation service to make or consider making a reservation.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a textualist and originalist committed to Article III's structural limits on judicial power, I find that Laufer lacks a concrete injury-in-fact as required by the Constitution's case-or-controversy requirement. TransUnion LLC v. Ramirez makes clear that a bare statutory or regulatory violation, without downstream consequences or a close historical analog to traditionally cognizable harms, cannot manufacture standing \u2014 and Laufer's purely self-appointed testing mission, with no intention of booking a stay, produces no such downstream harm. Havens Realty is distinguishable on its own terms: the Fair Housing Act there created a direct statutory right to truthful information, whereas here the obligation derives from a DOJ regulatory rule under the ADA, and Congress's delegation to an agency to craft accessibility disclosure requirements does not automatically vest private plaintiffs with constitutionally cognizable rights enforceable regardless of any real-world stake. Permitting tester standing on these facts would allow Congress and agencies to effectively circumvent Article III's limits by manufacturing plaintiffs with no genuine injury, which offends the separation of powers principles I regard as foundational to our constitutional structure.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under TransUnion v. Ramirez and Spokeo, a concrete injury-in-fact requires more than a bare statutory or regulatory violation \u2014 it must bear a close relationship to a harm traditionally recognized at common law or reflect a genuine personal stake in the controversy. Havens Realty's tester standing doctrine was grounded in the Fair Housing Act's explicit statutory text creating an enforceable right to truthful information, and critically, Coleman suffered intentional racial discrimination \u2014 a concrete dignitary harm with deep historical roots \u2014 not merely the absence of regulatory disclosures. Here, Laufer encountered a website that provided identical (if incomplete) information to all visitors regardless of disability status, meaning she was not subjected to discriminatory treatment but rather discovered a regulatory compliance gap she had no personal stake in beyond her self-appointed enforcement role; this distinction is fatal under Article III's requirement that the plaintiff herself suffer a particularized, concrete injury. Permitting purely self-appointed testers to manufacture standing by visiting websites with no intent to use the services would effectively convert federal courts into enforcement agencies for regulatory compliance, undermining the separation of powers and the Court's institutional legitimacy \u2014 concerns that counsel judicial restraint in expanding Havens Realty beyond its carefully bounded holding.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Applying TransUnion LLC v. Ramirez's requirement that intangible injuries must bear a 'close historical or common-law analog' to establish concreteness, Laufer's purely informational injury from visiting a website she never intended to use for an actual booking lacks the requisite concrete harm under Article III. While Havens Realty recognized tester standing, that case involved an individualized, in-person act of racial discrimination under the Fair Housing Act's explicit statutory prohibition\u2014a materially different context from a regulatory rule (the DOJ's Reservation Rule) governing website disclosures, where Laufer suffered no downstream consequences whatsoever from the alleged informational deprivation. TransUnion made clear that Congress cannot manufacture Article III standing by statute or regulation alone; a plaintiff must demonstrate harm with a concrete real-world dimension, and Laufer's self-appointed testing mission, untethered to any genuine intent to travel or book accommodations, fails to establish the injury-in-fact that Article III's case-or-controversy requirement demands. The textual and structural commitments of Article III, properly understood in their original public meaning as a limitation on federal judicial power, cannot be satisfied by the mere assertion that a regulatory violation occurred absent some concrete, particularized harm to the plaintiff.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While I have deep respect for the tester standing doctrine established in Havens Realty and its critical role in civil rights enforcement, the concrete injury analysis under TransUnion v. Ramirez and Spokeo requires that informational injuries be tethered to a right the plaintiff actually sought to exercise. The ADA's Title III and the DOJ Reservation Rule create a right of equal access to the reservation *service* itself, not a freestanding right to information divorced from any intent to use that service \u2014 a meaningful distinction from the Fair Housing Act provision in Havens Realty, which more directly created an informational right. Laufer's complete absence of intent to book or even consider booking a stay means she suffered no injury 'within the meaning' of Title III as the statute was designed to protect, and permitting standing here would effectively allow self-appointed testers to manufacture federal jurisdiction without any nexus to the law's protective purpose. My background as a public defender makes me acutely aware of how critical private enforcement is to civil rights statutes, but Article III's concrete injury requirement cannot be satisfied by a purely ideological or self-appointed enforcement mission untethered from any personal stake in the accessibility accommodation at issue.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.801,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-429",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Deborah Laufer, a self-appointed ADA 'tester' plaintiff, has Article III standing to sue Acheson Hotels for failing to provide accessibility information on its reservation website, despite having no intention of actually booking a stay at the hotel.",
+      "legal_provision": "Title III of the Americans with Disabilities Act (ADA), 42 U.S.C. \u00a7 12182(b)(2)(A)(ii), and the DOJ's Reservation Rule (28 C.F.R. Pt. 36), along with Article III standing requirements of the U.S. Constitution",
+      "petitioner_position": "Acheson Hotels argues that Laufer lacks Article III standing because she suffered no concrete injury-in-fact, as she is a serial 'tester' litigant who never intended to book a room and thus experienced no real-world harm from the alleged absence of accessibility information on the hotel's reservation website. Acheson further contends that Havens Realty is distinguishable because it involved statutory rights, not regulatory rules, and that TransUnion v. Ramirez implicitly requires downstream consequences for informational injuries to be cognizable under Article III.",
+      "respondent_position": "Laufer argues that she has standing as a 'tester' plaintiff because the ADA and the Reservation Rule created a legally protected right to accessibility information, and the denial of that information constitutes a concrete injury regardless of her intent to book a stay. She relies heavily on Havens Realty Corp. v. Coleman, which established that testers who encounter discriminatory practices suffer cognizable injuries even when testing is their primary purpose, and argues that Congress's explicit authorization of private enforcement supports her standing.",
+      "key_precedents": [
+        "Havens Realty Corp. v. Coleman, 455 U.S. 363 (1982) - established tester standing in fair housing discrimination cases",
+        "TransUnion LLC v. Ramirez, 141 S. Ct. 2190 (2021) - addressed concrete injury requirements for informational injuries and downstream consequences",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) - clarified requirements for concrete injury in statutory violation cases",
+        "United States v. Symonevich, 688 F.3d 12 (1st Cir. 2012) - addressed implicit overruling of prior Supreme Court decisions",
+        "Bais Yaakov of Spring Valley v. ACT, Inc., 798 F.3d 46 (1st Cir. 2015) - addressed binding effect of Supreme Court holdings vs. dicta",
+        "McCoy v. Mass. Inst. of Tech., 950 F.2d 13 (1st Cir. 1991) - addressed binding nature of Supreme Court considered dicta",
+        "United States v. B\u00e1ez-Mart\u00ednez, 950 F.3d 119 (1st Cir. 2020) - reinforced precedent on Supreme Court dicta",
+        "In re Sealed Case, 151 F.3d 1059 (D.C. Cir. 1998) - addressed implausibility of sub silentio overruling via dicta or footnotes"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "After reviewing my colleagues' arguments in round two, I remain firmly on the petitioner's side and find the conference has converged around the narrow ground I identified as most defensible. Justice Sotomayor's most forceful remaining argument \u2014 that the ADA's private enforcement mechanism under \u00a7 12188 carries congressional imprimatur sufficient to satisfy TransUnion \u2014 is addressed by the distinction Justice Kagan and Justice Thomas both sharpen: the right here flows from DOJ rulemaking under broad delegation, not from Congress directly conferring an informational right on 'any person' as in Havens Realty's Section 3604(d), and that textual and structural distinction matters under TransUnion's framework regardless of one's methodological commitments. I am particularly persuaded that my minimalist instinct to resolve this on the narrowest possible ground \u2014 that purely consequence-free informational injuries from website visits with zero nexus to actual travel plans fail TransUnion's concreteness requirement \u2014 will command the broadest coalition while explicitly preserving Havens Realty intact. As Chief Justice, I would assign an opinion that avoids the broader separation-of-powers holding Justice Thomas favors, which risks unnecessary constitutional pronouncements, and instead rests on the factual absence of downstream consequences, leaving open whether a disabled tester with genuine travel deterrence might have standing. This approach honors institutional legitimacy by not unnecessarily disturbing tester standing doctrine while enforcing Article III's irreducible minimum.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the strongest counterargument \u2014 that Havens Realty's tester standing logic applies here because Congress created an enforceable right under the ADA's private enforcement mechanism at 42 U.S.C. \u00a7 12188. But this argument conflates the source and nature of the right at issue: in Havens Realty, Congress itself directly enacted Section 3604(d) of the Fair Housing Act, creating a right to truthful information vested in 'any person,' whereas here the claimed right derives from a DOJ regulatory rule under 28 C.F.R. Part 36 \u2014 an executive agency creation, not a congressional enactment. Under the original public meaning of Article III, the judicial power cannot be expanded by executive rulemaking; permitting agencies to manufacture standing through regulation would transfer the constitutional gatekeeping function from Congress to the executive branch, a separation-of-powers violation that no amount of sympathetic enforcement policy can cure. I agree with Justice Gorsuch's textual distinction between a direct statutory right and a regulatory derivative, and with Justice Barrett's observation that the Reservation Rule's purpose is tied to the service of making reservations \u2014 a service Laufer never intended to use \u2014 meaning the informational deprivation caused her no cognizable injury in any historically recognized sense.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the strongest counterargument \u2014 that Havens Realty's tester standing logic applies here because Congress created an enforceable right under the ADA's private enforcement mechanism, and that the denial of accessibility information carries a dignitary harm analogous to discriminatory exclusion. However, this argument elides a critical distinction that Justice Gorsuch and Justice Barrett correctly identify: Havens Realty rested on a direct statutory right conferred by Congress in the text of the Fair Housing Act, whereas Laufer's claimed injury derives from a DOJ regulatory rule under broad ADA delegation \u2014 and TransUnion makes clear that neither Congress nor executive agencies can manufacture Article III standing through the mere creation of statutory or regulatory rights untethered to concrete real-world harm. The 'downstream consequences' requirement from TransUnion is fatal to Laufer's claim: she had no genuine travel plans, was never deterred from visiting the hotel, and suffered no practical consequence from the missing information \u2014 the dignitary harm analogy Justice Sotomayor invokes requires some real-world nexus to the discriminatory exclusion, which is absent when a self-appointed serial litigant visits a website solely to manufacture litigation. Permitting such manufactured standing would, as Justice Roberts notes, transform federal courts into enforcement agencies for professional litigants, contravening Article III's irreducible minimum.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "I have carefully considered my colleagues' near-unanimous position, and the argument that most moves me is Justice Kagan's \u2014 that the Reservation Rule is regulatory rather than statutory, and that Title III's injunctive-only remedial scheme suggests Congress contemplated genuine access barriers. However, I cannot accept that this distinction is constitutionally dispositive for two reasons: first, Congress explicitly authorized DOJ to promulgate the Reservation Rule under the ADA and created a private right of action under \u00a7 12188, meaning the Rule carries full congressional imprimatur \u2014 it is not executive fiat but delegated legislative authority, and the majority's statutory/regulatory distinction would gut enforcement of countless civil rights protections that operate through agency rulemaking under congressional delegation. Second, and most fundamentally, my colleagues' 'downstream consequences' requirement effectively demands that disabled testers prove they intended to travel before they can vindicate congressionally-authorized rights \u2014 this is precisely the kind of gatekeeping that Havens Realty rejected, and I am not persuaded that TransUnion compels us to read Havens Realty out of existence for disability rights enforcement simply because the plaintiff is a serial litigant whose motives we find unsympathetic. The strength of a constitutional principle is tested precisely when it protects those whose conduct we find inconvenient, and I will write separately to preserve this argument for future cases even if I am alone in doing so.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that the ADA's congressional delegation to DOJ carries sufficient imprimatur to satisfy TransUnion's framework \u2014 deserves a direct response: congressional authorization to regulate is categorically different from Congress itself vesting a right in 'any person,' as Section 3604(d) of the Fair Housing Act did in Havens Realty. The delegation chain matters constitutionally because, as Justice Gorsuch correctly identifies, permitting executive agencies to manufacture Article III standing through rulemaking would transfer the judicial gatekeeping function to DOJ, and no amount of congressional authorization for rulemaking cures that separation-of-powers defect. I am further reinforced by Justice Barrett's textualist point that the Reservation Rule's purpose is tied to the service of making reservations \u2014 a service Laufer never intended to use \u2014 meaning the informational deprivation caused no downstream consequence cognizable under TransUnion's historical analog test. The narrowest ground Chief Justice Roberts identifies \u2014 holding that purely consequence-free informational injuries with zero nexus to actual travel plans fail Article III without disturbing Havens Realty \u2014 is both textually sound and pragmatically workable, and I maintain my position with slightly increased confidence given the coherence of the coalition's reasoning across multiple methodological frameworks.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the strongest counterargument \u2014 that Havens Realty's tester standing logic should extend here because Congress created a private enforcement mechanism under 42 U.S.C. \u00a7 12188 and the denial of accessibility information carries dignitary harm analogous to discriminatory exclusion. But this argument elides a critical textual distinction: in Havens Realty, Section 3604(d) of the Fair Housing Act directly and explicitly granted 'any person' a right to truthful information, meaning the statute itself \u2014 not an executive agency \u2014 created the legally cognizable interest whose violation constituted the injury. Here, the Reservation Rule is a DOJ regulatory creation under broad ADA delegation, and under TransUnion's framework, permitting an executive agency to manufacture Article III standing through rulemaking would improperly transfer the judicial gatekeeping function to the executive branch \u2014 a separation of powers concern that my textualist and originalist methodology treats as dispositive. Justice Kagan's point about Title III's remedial scheme limiting recovery to injunctive relief further reinforces that Congress contemplated genuine access barriers rather than abstract informational audits, and Laufer's complete absence of any intent to book a stay means the missing information caused her no downstream consequence whatsoever cognizable under Article III's historical understanding of concrete injury.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that the ADA's private enforcement mechanism under \u00a7 12188 carries congressional imprimatur sufficient to satisfy Havens Realty's logic \u2014 deserves serious engagement, but I remain unpersuaded for the reasons Justice Kagan articulates with precision: the textual distinction between a direct congressional conferral of rights on 'any person' in \u00a7 3604(d) of the Fair Housing Act and a DOJ regulatory creation under broad ADA delegation is constitutionally significant, not merely formalistic. From my institutionalist perspective, I am particularly attentive to the structural concern that permitting executive agencies to manufacture Article III standing through rulemaking would transfer the constitutional gatekeeping function from Congress to DOJ \u2014 a separation of powers problem that compounds the Article III injury-in-fact deficiency Justice Roberts identifies. The narrowest and most institutionally sound ground remains that TransUnion's downstream consequences requirement is not satisfied when a serial litigant visits a website with zero intent to book a stay and suffers no practical consequence from the informational gap, and this holding preserves Havens Realty's core while avoiding the transformation of federal courts into consequence-free compliance enforcement agencies. I note my confidence increases slightly from 0.75 to 0.80 because the near-unanimous convergence of my colleagues across methodological lines \u2014 textualists, pragmatists, and institutionalists alike \u2014 on this narrow ground reinforces that the legal distinction is sound rather than merely convenient.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that the ADA's private enforcement mechanism under \u00a7 12188 carries congressional imprimatur sufficient to satisfy TransUnion \u2014 remains unpersuasive under my textualist methodology because there is a constitutionally significant difference between Congress directly vesting an informational right in 'any person' (as in Havens Realty's \u00a7 3604(d)) and Congress delegating broad rulemaking authority to DOJ, which then creates the specific informational entitlement. The constitutional gatekeeping function of Article III cannot be expanded by executive agency rulemaking, however well-intentioned; to hold otherwise would permit the executive branch to manufacture standing through regulation, effectively transferring the 'cases or controversies' determination from the judiciary to DOJ. I find Justice Kagan's observation about Title III's limitation to injunctive relief particularly reinforcing: this remedial architecture signals that Congress designed ADA enforcement around genuine access barriers experienced by persons with actual intent to use covered services, not consequence-free informational audits. The downstream consequences requirement from TransUnion is fatal here because Laufer, having no genuine intent to visit or book, experienced no practical deprivation \u2014 the missing information was irrelevant to any actual decision she faced, and no historically cognizable harm flows from that absence.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's persistence on the congressional imprimatur point \u2014 that DOJ's Reservation Rule carries legislative authorization through \u00a7 12188's delegation \u2014 deserves serious engagement, and I want to be honest that this argument has genuine force from a civil rights enforcement perspective that resonates with my background. However, I am ultimately persuaded by the convergence of Justice Kagan's textual point and Justice Gorsuch's separation-of-powers concern: there is a meaningful constitutional difference between Congress directly vesting 'any person' with an informational right in statutory text (as in \u00a7 3604(d) of the Fair Housing Act) versus an executive agency operationalizing a broad delegation, and TransUnion's downstream consequences requirement cannot be satisfied through regulatory fiat alone when the plaintiff suffered zero practical impact. I write separately to emphasize that this holding should be cabined tightly to its facts \u2014 serial litigants with no genuine nexus to travel \u2014 and should not be read to foreclose standing for disabled individuals who encounter accessibility barriers in contexts where deterrence or dignitary harm has real-world tethering. Congress retains full authority to restructure ADA enforcement to address any gap this ruling creates, and I would signal clearly that the Court's door remains open to tester standing claims where the informational deprivation connects to actual use or genuine deterrence.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Consistent with my minimalist approach, I would resolve this case on the narrowest available ground: Laufer lacks Article III standing because she suffered no concrete injury-in-fact as required by TransUnion LLC v. Ramirez, 141 S. Ct. 2190 (2021), which held that informational injuries must produce 'downstream consequences' and that 'an asserted informational injury that causes no adverse effects cannot satisfy Article III.' Havens Realty is distinguishable because the tester there was denied a statutory right to truthful information under the Fair Housing Act in a context where the denial itself constituted the discriminatory act with real-world dignitary and market consequences; here, Laufer's purely self-appointed testing mission, with no intent to book a stay, produces no downstream consequences from the alleged informational deficit. I would not broadly rewrite tester standing doctrine or overrule Havens Realty, but would hold narrowly that where a plaintiff visits a website solely to manufacture litigation with zero nexus to any actual travel or lodging need, the absence of accessibility information causes no concrete harm cognizable under Article III. This preserves institutional legitimacy by respecting both Havens Realty and TransUnion while preventing the federal courts from becoming a vehicle for serial, consequence-free litigation untethered to genuine injury.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Under Article III's original public meaning, 'judicial Power' extends only to genuine cases and controversies involving concrete, particularized injuries \u2014 not abstract statutory or regulatory grievances manufactured by self-appointed testers with no real-world stake in the outcome. Laufer suffered no cognizable injury-in-fact because she never intended to book a room at Acheson Hotels, meaning the absence of accessibility information on the reservation website caused her no actual harm in any historically recognized sense. As I emphasized in my TransUnion dissent, even accepting Congress's power to create legal rights, that power belongs to the legislature \u2014 not to the Justice Department through a regulatory rule \u2014 and the Reservation Rule does not purport to vest individuals with a private right to accessibility information enforceable regardless of any intent to use the service. Havens Realty is distinguishable because it involved a statutory right conferred directly by Congress under the Fair Housing Act, whereas here Laufer relies on a DOJ regulation, and permitting executive agencies to manufacture Article III standing through rulemaking would improperly expand federal judicial power beyond its constitutional limits.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Laufer lacks Article III standing because she suffered no concrete injury-in-fact as required by TransUnion LLC v. Ramirez (2021). A self-appointed serial tester who never intended to book a room at Acheson Hotels experienced no real-world harm from the absence of accessibility information on the reservation website \u2014 the informational deprivation had zero downstream consequences for her, as she had no genuine travel plans and thus no actual need for the information. While Havens Realty established tester standing in the fair housing context, that case involved direct discriminatory treatment \u2014 a Black tester being told false information about housing availability \u2014 which constitutes a tangible, real-world dignitary harm; by contrast, Laufer's claim rests on a regulatory rule requiring disclosure of accessibility information, and the denial of information she would never use cannot constitute the kind of concrete injury Article III demands. Permitting such manufactured standing would transform the federal courts into enforcement agencies for professional litigants, contravening the constitutional requirement that plaintiffs demonstrate a genuine stake in the outcome.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Havens Realty Corp. v. Coleman established that tester plaintiffs who encounter discriminatory practices suffer cognizable injuries under Article III, and that principle applies here because the ADA's Reservation Rule creates a legally enforceable right to accessibility information that Laufer was denied when she visited the website. The Fair Housing Act tester in Havens Realty had no intention of actually renting housing, yet the Court found standing because Congress had created a right to truthful information and its denial constituted a concrete injury \u2014 the same logic applies to the ADA's explicit private enforcement mechanism under 42 U.S.C. \u00a7 12188. While TransUnion requires 'downstream consequences' for informational injuries, Laufer's injury is not merely procedural \u2014 she was denied information that Congress specifically mandated be provided to people with disabilities, which carries a close historical analog to dignitary harms from discriminatory exclusion that courts have long recognized. The practical impact on vulnerable populations counsels strongly against a ruling that would eviscerate private enforcement of the ADA's accessibility mandates by requiring disabled testers to prove travel intent, effectively immunizing non-compliant hotels from accountability.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While Havens Realty established meaningful tester standing doctrine, its holding was grounded in the Fair Housing Act's explicit statutory right not to receive false information about housing availability \u2014 a right Congress directly conferred on any person regardless of intent to purchase. The ADA's Reservation Rule, by contrast, is a regulatory creation by DOJ under 28 C.F.R. Part 36, and TransUnion v. Ramirez requires that informational injuries have some real-world downstream consequence or close historical analog to be cognizable under Article III \u2014 a threshold Laufer cannot meet when she has no intention of ever visiting the hotel and suffered no practical consequence from the missing information. The workability concern cuts strongly here as well: permitting serial tester plaintiffs to manufacture standing by visiting websites with no genuine nexus to their lives would effectively transform private enforcement into a bounty system untethered from the concrete injury requirement that Article III demands, undermining the coherent administration of both the ADA and the federal courts. A pragmatic reading of the statutory scheme \u2014 noting that Title III limits remedies to injunctive relief and fees under 42 U.S.C. \u00a7 12188(a)(1), suggesting Congress contemplated genuine access barriers rather than informational audits \u2014 further supports finding that Laufer's purely ideological injury does not satisfy Article III's irreducible minimum.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, Article III's 'Cases' and 'Controversies' requirement demands a concrete, particularized injury-in-fact that is not merely the product of congressional or regulatory delegation alone. Havens Realty is meaningfully distinguishable because the Fair Housing Act's Section 3604(d) created a direct statutory right to truthful information enforceable by any person subjected to a misrepresentation \u2014 a textual hook grounded in Congress's own words \u2014 whereas Laufer's claimed injury derives from a DOJ regulatory rule promulgated under broad ADA delegation, not from a congressional enactment that itself created an individually enforceable informational right. Under TransUnion v. Ramirez, Congress cannot simply manufacture standing by statute or regulation without a concrete real-world harm bearing some relationship to the common-law or historical understanding of cognizable injury, and a self-appointed tester who visits a website with no intention of ever booking a stay and suffers no downstream consequence has not suffered the kind of concrete injury Article III demands \u2014 the separation of powers concern here is acute, as allowing regulatory rules alone to confer standing would effectively transfer the judicial gatekeeping function to executive agencies.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While Havens Realty established tester standing in the Fair Housing Act context, that case involved a concrete, in-person denial of truthful information with a statutory right directly conferred by Congress, distinguishable from a purely online informational gap encountered by someone with no genuine intent to visit the property. TransUnion's requirement that informational injuries must cause 'adverse effects' to satisfy Article III cuts against Laufer's claim, as she suffered no downstream consequences from the alleged omission on Acheson's website \u2014 she was never deterred from travel, never denied accommodation, and never experienced the dignitary harm that animated Havens Realty's holding. From an institutionalist perspective, allowing serial tester litigation with no concrete nexus to actual use of a facility risks transforming federal courts into enforcement agencies for regulatory compliance, undermining the Court's legitimacy and the structural limits Article III imposes. Judicial restraint counsels against extending Havens Realty beyond its statutory and factual moorings without clearer congressional authorization for purely abstract informational standing in the ADA context.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Applying the original public meaning of Article III's 'Cases' and 'Controversies' requirement, a plaintiff must demonstrate a concrete injury-in-fact that is particularized and actual, not merely the invocation of a statutory or regulatory violation in the abstract. While Havens Realty established tester standing where a plaintiff encountered discriminatory conduct that directly violated a statutory right to truthful information about housing availability, Laufer's situation is materially distinguishable: the DOJ's Reservation Rule creates a right tied to the service of making reservations, not a freestanding informational right, and Laufer had no intention of using that service. TransUnion v. Ramirez reinforces that Congress cannot manufacture Article III standing by creating statutory rights untethered to concrete real-world harm, and Laufer's purely ideological or enforcement-motivated website visit, without any genuine interest in booking accommodations, fails to establish the downstream nexus to cognizable injury that Article III demands. The textualist reading of Title III's remedial scheme\u2014which limits recovery to injunctive relief and attorney's fees\u2014further suggests Congress did not contemplate standing for plaintiffs with no genuine stake in accessing the accommodation service at issue.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While I am deeply sympathetic to the ADA's enforcement goals and the role tester plaintiffs play in vindicating civil rights \u2014 a role I understand intimately from my background as a public defender representing marginalized individuals \u2014 I cannot conclude that Laufer has established a concrete injury-in-fact sufficient under Article III as clarified by TransUnion LLC v. Ramirez. Havens Realty is distinguishable because the Fair Housing Act's statutory text explicitly granted a right to truthful information to 'any person,' creating a legally cognizable interest whose denial constituted a concrete, particularized harm analogous to common-law fraud; the ADA's Reservation Rule, by contrast, is a regulatory provision that does not similarly vest an individualized right in someone with no genuine intent to use the service. Under TransUnion, an informational injury requires some downstream consequence or real-world impact to achieve concreteness, and Laufer's purely abstract interest in compliance \u2014 untethered to any actual or intended use of the hotel \u2014 fails to satisfy that threshold. The practical consequences of ruling otherwise, while potentially beneficial for ADA enforcement, cannot override the constitutional floor that Article III imposes, and Congress retains the authority to restructure private enforcement mechanisms to address this gap.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.791,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

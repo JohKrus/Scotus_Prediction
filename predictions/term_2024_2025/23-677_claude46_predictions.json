@@ -1,0 +1,667 @@
+[
+  {
+    "docket": "23-677",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether plaintiffs in a properly removed federal case can divest federal court jurisdiction by amending their complaint to eliminate the federal question that originally justified removal.",
+      "legal_provision": "28 U.S.C. \u00a7 1441 (federal removal statute) and 28 U.S.C. \u00a7 1331 (federal question jurisdiction), interpreted in conjunction with Article III of the U.S. Constitution governing judicial power and subject matter jurisdiction.",
+      "petitioner_position": "Royal Canin and Nestl\u00e9 Purina argue that once a case is properly removed to federal court based on a federal question, plaintiffs cannot strategically amend their complaint to eliminate that federal question and force remand to state court. They contend that jurisdiction is determined at the time of removal (the 'time-of-removal rule'), and allowing post-removal amendments to defeat jurisdiction enables impermissible 'forum manipulation,' undermining defendants' statutory right to remove. They rely heavily on Carnegie-Mellon University v. Cohill (1988) and nearly a century of precedent rejecting this tactic.",
+      "respondent_position": "Wullschleger and Brewer argue that when an amended complaint contains no claims that could possibly give rise to federal jurisdiction, the district court lacks subject matter jurisdiction and must remand to state court. They contend that federal courts are courts of limited jurisdiction and cannot retain jurisdiction over a case where no federal question exists in the operative complaint. They emphasize the well-pleaded complaint rule and argue that the Holmes creation test provides a clean, principled basis for determining 'arising under' jurisdiction based on the current state of the pleadings rather than a historical snapshot at the time of removal.",
+      "key_precedents": [
+        "Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988) - addressed post-removal amendments and forum manipulation",
+        "Gunn v. Minton, 568 U.S. 251 (2013) - discussed the complexity of 'arising under' jurisdiction",
+        "American Well Works Co. v. Layne & Bowler Co. (1916) - Justice Holmes' creation test for federal question jurisdiction",
+        "28 U.S.C. \u00a7 1441 - the federal removal statute establishing defendants' right to remove",
+        "28 U.S.C. \u00a7 1331 - federal question jurisdiction statute"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 that the well-pleaded complaint rule requires ongoing assessment of the operative complaint, and that Article III cannot sustain jurisdiction over purely state-law claims. But this conflates two distinct inquiries: whether removal was proper (assessed at time of removal) and whether the court retains discretion over supplemental claims after federal questions drop out. Carnegie-Mellon v. Cohill is decisive here \u2014 the Court there affirmed that district courts retain jurisdiction and exercise discretion under what is now \u00a7 1367(c), not that jurisdiction evaporates. Justice Thomas's textualist point about \u00a7 1446(c)(2)'s 'initial pleading' language actually cuts in our favor: Congress knows how to fix jurisdiction to a particular moment, and its silence in \u00a7 1441 does not mandate a continuing-jurisdiction requirement. The narrowest holding I would craft affirms the time-of-removal rule, holds that plaintiff-driven amendments cannot compel remand as a matter of right, but preserves district court discretion under \u00a7 1367(c) to remand supplemental state-law claims \u2014 a formulation that should attract Justice Thomas and Justice Kavanaugh while addressing legitimate concerns about federal courts hearing purely state-law disputes indefinitely.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Barrett's Cohill argument continues to press hardest against my position, and I acknowledge its force: Cohill did treat the district court as retaining jurisdiction and exercising discretion rather than losing it automatically. But I remain unpersuaded for a reason Justice Kagan sharpens well \u2014 Cohill involved court-initiated dismissal of federal claims during active litigation, not a plaintiff-filed amended complaint that, under black-letter procedural law, supersedes and replaces the original as the operative pleading defining the case or controversy. The structural point I find most compelling is the one Justice Gorsuch and Justice Alito cannot adequately answer: federal courts are courts of limited jurisdiction, and when the operative complaint \u2014 the live document that defines what 'action' is before the court \u2014 contains zero federal claims, those asserting continued \u00a7 1331 jurisdiction must identify the statutory text that sustains it, not merely invoke the absence of an explicit prohibition. Justice Alito argues the \u00a7 1446(c)(2) contrast proves too much, but the contrast remains telling precisely because Congress demonstrated it knows how to anchor jurisdiction to a historical pleading when it intends to, and its silence in \u00a7\u00a7 1331 and 1367 is more naturally read as requiring a present federal question in the live controversy than as a deliberate choice to freeze jurisdiction at removal indefinitely.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Thomas raises the most textually serious challenge by pointing to the present-tense language of \u00a7\u00a7 1331 and 1367(a) and noting that Congress used 'initial pleading' language in \u00a7 1446(c)(2) when it wanted to fix jurisdiction to a historical moment. However, this argument proves too much \u2014 \u00a7 1446(b)'s removal procedure itself is keyed to the 'initial pleading,' and the entire removal framework presupposes a jurisdictional assessment at a fixed point in time; otherwise defendants could never rely on removal rights at all. Justice Sotomayor's invocation of the well-pleaded complaint rule conflates the doctrine's original purpose \u2014 determining whether a federal question appears on the face of the plaintiff's complaint for purposes of original jurisdiction \u2014 with the entirely distinct question of whether post-removal amendments can divest jurisdiction already properly invoked, a category error that Carnegie-Mellon v. Cohill directly addressed by confirming the district court retains jurisdiction and exercises discretion. The structural logic of St. Paul Mercury and Cohill together establish that the time-of-removal rule governs jurisdictional vesting, while \u00a7 1367(c) discretion governs what the court does with remaining state claims \u2014 these are separate inquiries, and collapsing them as the respondents urge would render defendants' \u00a7 1441 rights illusory and reward precisely the forum manipulation Congress sought to prevent.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's reading of Carnegie-Mellon v. Cohill as confirming retained jurisdiction is the strongest argument against my position, but I find it ultimately unpersuasive because Cohill addressed a situation where the court itself dismissed the federal claims\u2014not where the plaintiff amended them away entirely, leaving an operative complaint with zero federal questions. The critical distinction, which Justice Kagan articulates well, is that \u00a7 1367 supplemental jurisdiction requires an anchor in a federal claim that exists in the operative pleading; once the amended complaint supersedes the original and contains no federal question whatsoever, there is no jurisdictional hook remaining under \u00a7 1331 or Article III. Justice Gorsuch and Justice Alito invoke forum manipulation concerns forcefully, but those concerns are adequately addressed through Cohill's own toolkit\u2014conditions on remand, fee-shifting, and scrutiny of bad-faith amendments\u2014without permanently distorting the limited-jurisdiction principle by allowing federal courts to hear purely state-law disputes indefinitely. The well-pleaded complaint rule must apply to the operative complaint, not a superseded one, and the practical consequence of the petitioners' rule would be to trap ordinary state-law plaintiffs in federal court based on claims they no longer assert, which is precisely the kind of unjust outcome that the limited-jurisdiction principle was designed to prevent.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett's Cohill argument continues to be the most formidable challenge, and I want to be precise about why it ultimately fails under my pragmatic textualist methodology: Cohill's discretionary framework under \u00a7 1367(c) \u2014 weighing judicial economy, convenience, fairness, and comity \u2014 is a framework for deciding what to *do* with claims over which the court has jurisdiction, but it does not itself *create* or *perpetuate* jurisdiction where none exists under Article III and \u00a7 1331. Justice Kavanaugh's formulation that jurisdiction was 'properly invoked' at removal and need not be 'continuously re-justified' sounds workable, but it produces an incoherent result: if the operative complaint \u2014 the live pleading that defines the case or controversy \u2014 contains zero federal claims, then \u00a7 1331's grant of jurisdiction over actions 'arising under' federal law has no present object, and \u00a7 1367(a)'s supplemental jurisdiction requires as its anchor a claim that 'form[s] part of the same case or controversy under Article III' as a federal claim, which by definition cannot exist when the operative complaint is purely state-law. The structural logic of limited jurisdiction means the burden falls on those asserting jurisdiction to identify the statutory grant that sustains it over a purely state-law operative complaint, and Cohill's anti-manipulation tools \u2014 conditions on remand, fee-shifting under \u00a7 1447(c), scrutiny of bad-faith amendments \u2014 adequately address Justice Gorsuch's legitimate forum-manipulation concerns without distorting this foundational principle by treating a superseded complaint as a permanent jurisdictional anchor.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas raises the most serious textualist challenge to my position, arguing that \u00a7\u00a7 1331 and 1367 speak in present tense and that Congress knew how to fix jurisdiction to an 'initial pleading' when it wanted to, as evidenced by \u00a7 1446(c)(2). This is a genuinely thoughtful argument that deserves engagement. However, the flaw in Justice Thomas's reasoning is that \u00a7 1446(c)(2) addresses the amount-in-controversy calculation for purposes of determining whether removal was proper in the first instance \u2014 it is a rule about the threshold removal determination, not about post-removal jurisdictional maintenance. The time-of-removal rule from St. Paul Mercury addresses a categorically different question: once jurisdiction properly attaches, what can dislodge it? Nothing in \u00a7\u00a7 1331 or 1367's text affirmatively requires that a federal question persist in the operative complaint post-removal, and Carnegie-Mellon v. Cohill \u2014 as Justice Barrett correctly reads it \u2014 confirms that district courts retain jurisdiction and exercise discretion over remaining claims rather than losing subject matter jurisdiction entirely. Allowing plaintiffs to nullify a defendant's congressionally granted removal right through strategic amendment would create a judge-made exception to \u00a7 1441 that finds no support in the statute's text, which is precisely the kind of judicial rewriting of congressional enactments my methodology forbids.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's argument that \u00a7 1367(c)'s discretionary framework only makes sense if there is a live federal claim to anchor it remains the most intellectually serious challenge to my position, but I think it misreads what Cohill actually held \u2014 the Court there exercised discretion over purely state-law claims after the federal anchor had been eliminated, which presupposes rather than undermines continuing jurisdiction. Justice Thomas's textual argument about present-tense language in \u00a7\u00a7 1331 and 1367 is genuinely forceful, but as Justice Barrett correctly notes, \u00a7 1446(c)(2)'s 'initial pleading' language was crafted for the specific context of diversity amount-in-controversy calculations, and its absence from \u00a7\u00a7 1331 and 1441 cannot bear the weight of implying a continuous-federal-question requirement that would render defendants' removal rights contingent on plaintiff forbearance. The framework I favor \u2014 time-of-removal rule for jurisdictional vesting, robust \u00a7 1367(c) discretion including conditions and fee-shifting to deter bad-faith amendments \u2014 respects both the structural logic of \u00a7 1441 and the legitimate concerns about federal courts hearing purely state-law disputes, without requiring us to treat a superseded complaint as perpetually operative or a live complaint as perpetually irrelevant.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas raises the most textually serious challenge by pointing to the present-tense language of \u00a7\u00a7 1331 and 1367(a) and Congress's deliberate use of 'initial pleading' in \u00a7 1446(c)(2) as evidence that the legislature knows how to fix jurisdiction to a historical moment when it wants to. But this argument proves too much: \u00a7 1446(c)(2) governs the amount-in-controversy calculation for diversity cases, a distinct context where Congress had specific reasons to anchor the inquiry to the initial pleading, and its presence does not imply that \u00a7\u00a7 1331 and 1441 require a perpetually operative federal question in the live complaint. Justice Kagan's argument that \u00a7 1367 supplemental jurisdiction requires an ongoing 'jurisdictional anchor' is more formidable, but Carnegie-Mellon v. Cohill itself is the answer: the Court there treated the district court as retaining jurisdiction over state-law claims after the federal claim was eliminated, and exercised discretion under what became \u00a7 1367(c) to remand\u2014discretion, not compulsion, which presupposes continuing jurisdiction rather than its automatic termination. The time-of-removal rule is not merely a judge-made default but reflects the structural logic of \u00a7 1441, which vests jurisdiction upon proper removal; allowing plaintiffs to nullify that vesting through strategic amendment would render defendants' removal rights contingent on plaintiff forbearance, a result untethered to the statute's text and inconsistent with nearly a century of doctrine from St. Paul Mercury forward.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's reading of Cohill remains the most formidable challenge to my position, and I want to engage it directly once more: she argues that Cohill's discretionary remand framework presupposes continuing jurisdiction, not its termination. But I think this conflates two distinct questions \u2014 whether a court may exercise discretion to remand (which Cohill addressed) versus whether it retains Article III and statutory jurisdiction to hear purely state-law claims indefinitely (which Cohill did not squarely address, because there the federal claims were dismissed by the court itself during active litigation, not amended away by the plaintiff in the operative pleading). Justice Gorsuch's concern about plaintiffs nullifying removal rights through strategic amendment is serious, but the answer cannot be to permanently vest federal jurisdiction over a complaint that, as operative, contains zero federal questions \u2014 that would mean \u00a7 1331's 'arising under' language is satisfied by a ghost of a claim that no longer exists in the live pleading. The better framework, consistent with Cohill's own anti-manipulation toolkit and \u00a7 1447(c) fee-shifting, is to permit remand while giving district courts robust tools to deter bad-faith amendments, rather than distorting the foundational limited-jurisdiction principle by treating a superseded complaint as the permanent jurisdictional anchor.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The time-of-removal rule, firmly established in St. Paul Mercury Indemnity Co. v. Red Cab Co., holds that jurisdiction attaches at the moment of removal and subsequent plaintiff-driven amendments cannot divest the federal court of that jurisdiction. Carnegie-Mellon v. Cohill, properly read, did not abandon this principle but rather confirmed that federal courts retain discretion over supplemental state-law claims even after a federal claim drops out \u2014 it did not hold that the court loses subject matter jurisdiction entirely. Permitting plaintiffs to strategically amend away federal questions to force remand would fundamentally undermine defendants' statutory right to remove under 28 U.S.C. \u00a7 1441 and enable precisely the forum manipulation that nearly a century of precedent has condemned. The narrowest and most institutionally sound ruling here affirms the time-of-removal rule while preserving district court discretion under 28 U.S.C. \u00a7 1367(c) to remand supplemental state-law claims when appropriate, rather than treating the amended complaint as a jurisdictional nullification device.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist and originalist, I must follow the plain text of 28 U.S.C. \u00a7 1367(a), which speaks to 'claims in the action' in the present tense, and \u00a7 1331, which grants jurisdiction over civil actions 'arising under' federal law \u2014 both provisions pointing to the operative complaint rather than a historical snapshot at removal. Black-letter procedural law establishes that an amended complaint supersedes the original, and Congress demonstrated it knows how to fix jurisdiction to an 'initial pleading' when it wishes to do so, as evidenced by \u00a7 1446(c)(2), yet chose not to employ that language in \u00a7\u00a7 1331 or 1367. While I am sympathetic to the petitioners' concern about forum manipulation \u2014 and Carnegie-Mellon v. Cohill (1988) does address such tactics \u2014 the structural text of the jurisdictional statutes does not support retaining jurisdiction over a complaint that, as amended and operative, presents no federal question. The limited jurisdiction of federal courts under Article III counsels against expansive readings that would allow federal courts to retain jurisdiction over purely state-law disputes simply because a federal question once appeared in a since-superseded pleading.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "As a textualist focused on the plain meaning of 28 U.S.C. \u00a7 1441 and the practical consequences of jurisdictional rules, I find that once a case is properly removed based on a federal question, jurisdiction vests in the federal court at the moment of removal and cannot be strategically stripped by plaintiff-driven amendments. The time-of-removal rule is well-grounded in St. Paul Mercury Indemnity Co. v. Red Cab Co., which established that post-removal plaintiff actions reducing jurisdictional predicates do not oust federal jurisdiction already properly invoked. Carnegie-Mellon University v. Cohill directly addressed this scenario and confirmed that courts retain jurisdiction over remaining claims after a plaintiff deletes federal questions, expressly warning against 'forum manipulation' that would defeat defendants' statutory removal rights under \u00a7 1441. Allowing respondents' approach would create perverse incentives for plaintiffs to engage in precisely the kind of tactical pleading manipulation that undermines the structural integrity of the removal statute and defendants' congressionally granted right to a federal forum.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Federal courts are courts of limited jurisdiction, and when a plaintiff's operative amended complaint contains no federal question, the well-pleaded complaint rule demands that jurisdiction be assessed based on what the complaint actually alleges, not a historical snapshot frozen at the moment of removal. Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988), directly supports the proposition that when federal claims drop out of a lawsuit\u2014whether by dismissal or amendment\u2014district courts have discretion to remand remaining state-law claims, and in the early stages of litigation that discretion should strongly favor remand. Allowing defendants to permanently anchor a case in federal court based on a federal claim that no longer exists in the operative pleading would force vulnerable plaintiffs\u2014here, consumers alleging state-law fraud\u2014to litigate in a forum that has no legitimate jurisdictional basis over their actual claims, undermining the principle that federal courts exercise only the power Article III and Congress have granted. The practical impact on ordinary litigants of permitting such jurisdictional lock-in based on superseded pleadings counsels strongly in favor of the respondents' position, which honors both the limited-jurisdiction principle and the well-pleaded complaint rule.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The well-pleaded complaint rule requires federal question jurisdiction to be assessed based on the operative complaint, and when plaintiffs amend to eliminate every federal claim, the foundational basis for \u00a7 1331 jurisdiction under the Holmes creation test simply no longer exists in the live pleading. While Carnegie-Mellon v. Cohill (1988) established that district courts retain discretionary supplemental jurisdiction over state-law claims after federal claims drop out, that discretion presupposes the court still has some jurisdictional anchor\u2014here, with no federal claims whatsoever remaining, \u00a7 1367 supplemental jurisdiction cannot stand alone without an underlying federal question in the operative complaint. The time-of-removal rule is a sensible default for assessing whether removal was proper, but it cannot permanently vest federal jurisdiction over a case whose operative complaint presents exclusively state-law claims, as that would stretch Article III and \u00a7 1331 beyond their textual limits and create a jurisdictional anomaly where federal courts hear purely state-law disputes indefinitely. The workable, textually coherent solution is to permit remand while preserving anti-manipulation tools\u2014such as conditions on remand under Cohill and fee-shifting\u2014to deter bad-faith forum manipulation without distorting the fundamental principle that federal question jurisdiction must be grounded in the current complaint.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of 28 U.S.C. \u00a7 1441 establishes defendants' right to remove cases presenting federal questions, and nothing in that statute's text permits plaintiffs to unilaterally undo a properly invoked removal by strategically amending their pleadings. Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988), confirms that when plaintiffs eliminate a federal claim post-removal, the district court retains jurisdiction and exercises discretion over supplemental state claims\u2014it does not lose subject matter jurisdiction entirely, which is precisely what the Eighth Circuit's rule would require. Allowing respondents' approach would permit a form of forum manipulation that the removal statute was designed to prevent, effectively giving plaintiffs a veto over defendants' statutory removal rights through artful post-removal pleading, which cannot be squared with the text or structure of \u00a7\u00a7 1331 and 1441. The separation of powers concern cuts strongly here as well: Congress established removal jurisdiction by statute, and courts should not craft judge-made doctrines that allow one party to nullify a congressionally granted right through strategic litigation conduct.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The time-of-removal rule reflects a well-established principle that jurisdiction is assessed at the moment of removal under 28 U.S.C. \u00a7 1441, and allowing plaintiffs to strategically amend their complaints post-removal to eliminate federal questions would enable precisely the kind of forum manipulation that Carnegie-Mellon v. Cohill cautioned against. While Cohill addressed discretionary remand of supplemental state-law claims after federal claims are dismissed by the court\u2014a materially different situation from voluntary plaintiff-driven amendments\u2014its underlying logic supports defendants' statutory right to a federal forum once properly invoked. Permitting plaintiffs to unilaterally divest federal jurisdiction through amendment would render \u00a7 1441 removal rights illusory and create perverse incentives for strategic pleading, undermining the practical workability of the removal framework that Congress deliberately constructed. History and tradition support the view that jurisdiction, once properly established at removal, should not be subject to defeat by the very party who chose to plead federal claims in the first instance, and the Holmes creation test should be applied to the complaint as it existed at the time of removal rather than as subsequently manipulated.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Textual analysis of 28 U.S.C. \u00a7 1441 establishes that removal jurisdiction attaches at the moment of removal based on the complaint as it then exists, and nothing in the statutory text conditions continued jurisdiction on the operative complaint's perpetual maintenance of a federal question. Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988), is dispositive: the Court there affirmed discretionary remand of pendent state-law claims following a post-removal amendment eliminating the federal claim, but critically never questioned that the district court retained jurisdiction over those claims\u2014it exercised discretion, not compulsion, in remanding them. Accepting respondents' position would effectively rewrite \u00a7 1441 to impose a continuing-jurisdiction requirement untethered to the statute's text and would render the time-of-removal rule\u2014a principle with nearly a century of doctrinal support\u2014a nullity, enabling precisely the forum manipulation that defendants' removal rights were designed to prevent. The well-pleaded complaint rule governs original jurisdiction determinations, not post-removal jurisdictional maintenance, and conflating these distinct doctrinal inquiries, as the Eighth Circuit did, produces a rule inconsistent with both statutory text and this Court's precedent.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Federal courts are courts of limited jurisdiction, and the well-pleaded complaint rule requires that federal question jurisdiction be assessed based on the operative complaint \u2014 not a historical snapshot frozen at the moment of removal. When plaintiffs amend their complaint to eliminate all federal claims, the amended pleading becomes the operative statement of the case or controversy, and no Article III or statutory basis remains to anchor federal jurisdiction under 28 U.S.C. \u00a7 1331. Carnegie-Mellon v. Cohill, while addressing discretionary remand of supplemental state-law claims, notably did not disturb the principle that courts must continuously assess their subject matter jurisdiction; critically, Cohill's holding presupposed the continued existence of some jurisdictional anchor, which is absent here when the amended complaint contains zero federal claims. From a practical and procedural fairness standpoint, forcing plaintiffs to litigate in a forum with no jurisdictional basis over their operative claims \u2014 solely to penalize them for forum preference \u2014 elevates defendants' removal rights beyond what the statute's text supports and risks unjust outcomes, particularly for ordinary litigants navigating complex jurisdictional rules.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.81,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-677",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether plaintiffs in a properly removed federal case can divest federal court jurisdiction by amending their complaint to eliminate the federal question that originally justified removal.",
+      "legal_provision": "28 U.S.C. \u00a7 1441 (federal removal statute) and 28 U.S.C. \u00a7 1331 (federal question jurisdiction), interpreted in conjunction with Article III of the U.S. Constitution governing judicial power and subject-matter jurisdiction.",
+      "petitioner_position": "Royal Canin and Nestl\u00e9 Purina argue that once a case is properly removed to federal court based on a federal question, plaintiffs cannot strategically amend their complaint to eliminate federal claims and thereby strip the court of jurisdiction. They contend this constitutes impermissible 'forum manipulation,' defeats defendants' statutory right of removal, and violates the long-established 'time-of-removal' rule under which jurisdiction is assessed at the moment of removal, not based on subsequent pleading amendments. They rely heavily on Carnegie-Mellon University v. Cohill (1988) and nearly a century of consistent precedent rejecting this tactic.",
+      "respondent_position": "Wullschleger and Brewer argue that where an amended complaint contains absolutely no claims that could give rise to federal jurisdiction, the district court lacks any basis to retain the case and must remand to state court. They contend the well-pleaded complaint rule requires federal jurisdiction to be grounded in the operative complaint as it actually stands, invoking Justice Holmes' foundational interpretation that a suit arises under federal law only when federal law creates the cause of action. They further argue that retaining jurisdiction over a complaint with purely state-law claims would improperly expand federal court jurisdiction beyond constitutional and statutory limits.",
+      "key_precedents": [
+        "Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988)",
+        "Gunn v. Minton, 568 U.S. 251 (2013)",
+        "American Well Works Co. v. Layne & Bowler Co. (1916) - Holmes' 'arising under' formulation",
+        "28 U.S.C. \u00a7 1441 removal statute jurisprudence",
+        "Well-pleaded complaint rule precedents",
+        "Time-of-removal rule precedents"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's refined position\u2014that jurisdiction technically persists under Cohill but \u00a7 1367(c)(3) creates a presumption toward remand\u2014has moved meaningfully toward the majority's framework, and I believe the narrow holding I intend to write can accommodate her concern without conceding the categorical point. Her textualist observation that Congress enumerated dismissal of federal claims as a specific ground for declining jurisdiction in \u00a7 1367(c)(3) is well-taken, but as Justice Kagan correctly notes, the word 'may decline' is permissive, not mandatory\u2014Congress knew how to write 'shall decline' and chose not to, which forecloses treating remand as a categorical default rather than a heavily-weighted discretionary factor. Justice Jackson's remaining concern about presumptive direction of Cohill discretion is real and legitimate, and the opinion I write will acknowledge that comity and judicial economy will in practice weigh heavily toward remand in most cases where all federal claims are eliminated\u2014this is not a concession to the respondents' position but an honest application of Cohill's multi-factor framework. The institutionally sound holding is narrow: jurisdiction attaches at removal and persists, district courts retain full Cohill discretion, and that discretion should be exercised with serious weight given to comity when purely state-law claims remain\u2014a formulation that vindicates defendants' \u00a7 1441 rights without creating a federal forum for every removed case that loses its federal anchor.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's argument that \u00a7 1367(c)(3) and Article III require an 'ongoing jurisdictional basis' remains the most serious challenge, but I find it ultimately unpersuasive under a textualist and originalist methodology. The text of \u00a7 1367(c) says a court 'may decline' supplemental jurisdiction \u2014 that permissive grant of discretion, as Justice Kagan correctly observes, presupposes the court *has* jurisdiction to decline; you cannot decline what you do not possess. Justice Jackson has moved meaningfully toward our position by acknowledging that Cohill's discretionary framework implies retained jurisdiction, and her remaining disagreement \u2014 whether declination should be presumptive rather than discretionary \u2014 is a question of how courts should exercise jurisdiction they concededly retain, not a question of whether jurisdiction exists at all. The time-of-removal rule, rooted in the plain text of \u00a7 1441 and confirmed in St. Paul Mercury, establishes that jurisdiction attaches at removal and is not subject to unilateral nullification by plaintiff amendment; to hold otherwise would render defendants' statutory removal rights contingent on post-removal pleading maneuvers Congress never authorized plaintiffs to employ as a jurisdictional escape hatch. I would join Chief Justice Roberts in writing narrowly \u2014 jurisdiction persists, but district courts retain full Cohill discretion to remand on judicial economy, comity, and fairness grounds \u2014 which should address Justice Barrett's legitimate concern about federal courts adjudicating purely state-law disputes without creating a categorical plaintiff-driven mechanism to nullify \u00a7 1441.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's refined position \u2014 that \u00a7 1367(c)(3) reflects a congressional presumption favoring remand even if jurisdiction technically persists \u2014 is the most intellectually honest challenge remaining, but it ultimately proves too much: if Congress intended remand to be presumptive rather than discretionary, it would have used 'shall decline' rather than 'may decline,' and that textual choice is dispositive under the very originalist and textualist methodology Justice Barrett and I share. Justice Jackson's concession that Cohill 'presupposes retained jurisdiction' effectively resolves the threshold question in petitioner's favor, leaving only the character of the district court's discretion \u2014 and the permissive statutory text forecloses treating remand as a mandatory default. Chief Justice Roberts' proposed narrow holding \u2014 jurisdiction persists under the time-of-removal rule, but district courts retain full Cohill discretion to remand on comity and judicial economy grounds \u2014 adequately addresses the legitimate federalism concerns Justice Barrett and Justice Sotomayor raise without creating a plaintiff-driven mechanism to unilaterally nullify defendants' \u00a7 1441 rights through strategic post-removal amendment. The institutionalist case for this narrow formulation is compelling precisely because it vindicates both the statutory text and the practical concerns of the dissenters without destabilizing the removal framework Congress deliberately constructed.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's argument that 'may decline' presupposes retained jurisdiction is analytically powerful, and I accept that Cohill's framework implies jurisdiction technically persists after the federal anchor drops \u2014 I cannot in good conscience pretend otherwise. However, accepting that jurisdiction *persists* does not resolve the normative question of how courts *should* exercise that discretion, and here I part ways with my colleagues in the majority: \u00a7 1367(c)(3) expressly enumerates dismissal of all federal claims as a specific ground for declining jurisdiction, which reflects Congress's own judgment that this scenario is categorically different from ordinary supplemental jurisdiction cases and presumptively warrants remand. Justice Barrett correctly identifies that the real dispute is whether declination should be presumptive or merely permissive, and the combination of \u00a7 1367(c)(3)'s text, Carnegie-Mellon's comity principles, and the structural concern that defendants should not obtain a permanent forum advantage through removal followed by strategic litigation of purely state-law claims all counsel strongly toward treating remand as the presumptive outcome \u2014 not merely one option among equals \u2014 when the amended complaint presents no federal question whatsoever. The real-world impact on plaintiffs who filed in state court and now face adjudication of purely state-law claims in a federal forum they never chose remains a structural unfairness that the majority's formulation, while preserving Cohill discretion in theory, may inadequately address in practice.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett's refined position in round 2 is the most intellectually honest challenge: she now concedes Cohill may presuppose retained jurisdiction but argues this conflates Article III constitutional power with the statutory \u00a7 1367(c) question, suggesting a court may retain constitutional power while Congress authorized declining statutory jurisdiction. But this distinction, while analytically interesting, actually reinforces the petitioner's position rather than undermining it\u2014if Article III power persists (as Barrett now seems to concede), then the question is purely one of discretionary statutory exercise under \u00a7 1367(c)(3), which is exactly what Cohill's multi-factor balancing framework addresses. Justice Jackson's movement toward acknowledging that Cohill implies retained jurisdiction is significant; her remaining concern\u2014whether declination should be discretionary or presumptive\u2014is a real one, but the text of \u00a7 1367(c) says 'may decline,' not 'shall decline,' and that permissive language forecloses treating remand as a mandatory default. I find Chief Justice Roberts' proposed narrow holding most institutionally sound: jurisdiction attaches at removal and persists, but district courts retain full Cohill discretion to remand state-law claims, which adequately addresses comity concerns without creating a plaintiff-driven mechanism to nullify defendants' \u00a7 1441 rights.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Barrett's argument that \u00a7 1367(c)(3) permits courts to *decline* supplemental jurisdiction when federal claims are eliminated is actually consistent with my position\u2014the word 'decline' presupposes the court *has* jurisdiction to decline, which only makes sense under the time-of-removal rule. Justice Jackson's invocation of the well-pleaded complaint rule misapplies it: that rule governs whether removal was proper in the first instance, not whether jurisdiction persists after a post-removal amendment, and conflating these two distinct inquiries would render defendants' \u00a7 1441 rights contingent on plaintiffs' post-removal pleading choices\u2014a result the statutory text cannot bear. Justice Sotomayor's practical concern about burdening plaintiffs with an inhospitable forum is real but is adequately addressed by the district court's Cohill discretion to remand on judicial economy and comity grounds; the answer to forum concerns is judicial discretion, not a categorical rule allowing plaintiffs to unilaterally nullify a defendant's statutory right. The separation of powers principle reinforces this: Congress defined removal jurisdiction in \u00a7 1441, and it is not for litigants to rewrite that jurisdictional grant through strategic amendment.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Barrett raises the most serious challenge by invoking \u00a7 1367(c)(3) and suggesting Article III requires an 'ongoing jurisdictional basis,' but this conflates the question of whether jurisdiction *persists* with whether the court *must exercise* it \u2014 Cohill itself demonstrates the distinction, since the Court there assumed jurisdiction remained and addressed only the discretionary remand question. Justice Jackson's well-pleaded complaint argument, while texturally appealing, misapplies that doctrine: the well-pleaded complaint rule governs the *initial* jurisdictional determination at the moment of removal, not a perpetually shifting assessment based on subsequent amendments \u2014 as Rockwell International explicitly confirmed, post-removal amendments eliminating the federal basis 'generally do not defeat jurisdiction.' Justice Sotomayor's practical concern about burdening plaintiffs in an 'inhospitable forum' is better addressed through the district court's Cohill discretion to remand on comity and judicial economy grounds, rather than a categorical rule that would render \u00a7 1441 removal rights illusory and reward strategic pleading manipulation. The institutionalist concern I share with Chief Justice Roberts is precisely that allowing plaintiffs to unilaterally nullify a defendant's statutory removal right through artful amendment would destabilize the removal framework Congress deliberately constructed and create perverse incentives that courts would struggle to police consistently.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "Chief Justice Roberts' proposed narrow holding \u2014 jurisdiction persists but courts retain full Cohill discretion to remand \u2014 is genuinely attractive and I acknowledge it substantially addresses my practical concerns about forum manipulation and comity. However, I maintain my respondent position because I believe the majority is still understating what \u00a7 1367(c)(3)'s enumeration of 'dismissal of all federal claims' as a specific declination ground actually means: Congress identified this precise scenario not merely as one factor among equals in a discretionary balancing test, but as a paradigmatic case warranting remand, and Justice Barrett correctly identifies that the limited-jurisdiction principle requires us to read this enumeration as establishing a strong presumption rather than mere permission. The distinction between 'may decline' foreclosing a mandatory rule and 'may decline' establishing a presumption is real but narrower than the majority suggests \u2014 a court 'may' decline in the sense that it retains discretion, but when Congress specifically enumerated this scenario, it signaled that the discretion should ordinarily run in one direction. My public defender background reinforces my concern that treating remand as merely one option among equals in Cohill's multi-factor test, rather than the presumptive outcome when all federal claims are eliminated, will in practice allow defendants to use removal as a permanent forum-selection device that Congress never clearly authorized.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Chief Justice Roberts' proposed narrow holding has genuinely moved me: if I accept\u2014as I now must under the weight of the textual argument\u2014that \u00a7 1367(c)(3)'s 'may decline' language presupposes retained jurisdiction (you cannot decline what you do not have), then my remaining concern is not about jurisdiction's existence but about how courts should exercise the discretion they concededly retain. Justice Kagan correctly identifies that my Article III/statutory distinction, while analytically interesting, ultimately reinforces rather than undermines the petitioner's framework: if constitutional power persists, the question is purely one of \u00a7 1367(c) discretion, and the text says 'may decline,' not 'shall decline.' I am persuaded that the institutionally sound resolution is the narrow holding Roberts proposes\u2014jurisdiction attaches at removal and persists under the time-of-removal rule, but district courts retain robust Cohill discretion to remand purely state-law claims, with comity and judicial economy weighing heavily toward remand in most such cases\u2014which vindicates my practical concerns about federal courts adjudicating purely state-law disputes without creating a plaintiff-driven mechanism to nullify \u00a7 1441. Justice Jackson's remaining position that declination should be *presumptive* rather than discretionary is a real concern I share, but the statutory text forecloses treating 'may' as 'shall,' and the Cohill factors adequately operationalize the comity and limited-jurisdiction principles I care about.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The time-of-removal rule has deep roots in federal jurisdictional doctrine, and allowing plaintiffs to strategically amend their complaints to eliminate federal claims and thereby strip defendants of their statutory right of removal under 28 U.S.C. \u00a7 1441 would undermine the institutional integrity of the removal mechanism Congress deliberately created. Carnegie-Mellon v. Cohill, properly read, supports discretionary remand of supplemental state-law claims after federal claims drop out\u2014it does not mandate divestiture of jurisdiction as a matter of right whenever a plaintiff amends strategically, and the distinction between a court's discretionary choice to remand and a plaintiff's unilateral power to divest jurisdiction is constitutionally and institutionally significant. The narrowest ground here is that once jurisdiction properly attaches at removal, the district court retains discretion under \u00a7 1367(c) to remand or retain supplemental state-law claims, but that discretion belongs to the court, not the plaintiff\u2014permitting plaintiff-driven jurisdictional manipulation would create perverse incentives and allow circumvention of defendants' removal rights through artful pleading amendments. I would hold that the district court retains jurisdiction and exercises discretion under Cohill and \u00a7 1367(c), rather than announcing any broader rule about mandatory retention.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As an originalist and textualist, I must examine what 28 U.S.C. \u00a7 1441 and \u00a7 1331 actually say and mean. The removal statute vests jurisdiction at the time of removal based on the complaint as it then exists, and nothing in the statutory text of \u00a7 1441 or \u00a7 1367 permits plaintiffs to retroactively divest a federal court of properly established jurisdiction through strategic post-removal amendments. The well-pleaded complaint rule, properly understood, governs the initial jurisdictional determination at the moment of removal \u2014 not a moving target redefined by subsequent plaintiff manipulation \u2014 and allowing respondents' approach would render defendants' statutory removal rights illusory and subject to unilateral nullification by the very party who invoked state court jurisdiction originally. While Carnegie-Mellon v. Cohill recognized district court discretion to remand pendent state-law claims after federal claims drop out, that discretion is precisely that \u2014 discretion \u2014 not a mandatory jurisdictional stripping, and the Court there did not hold that plaintiffs could affirmatively destroy federal jurisdiction through amendment, a distinction the research materials themselves acknowledge.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the time-of-removal rule, federal jurisdiction attaches at the moment of removal and is not defeated by subsequent amendments to the pleadings \u2014 a principle rooted in the text and structure of 28 U.S.C. \u00a7 1441 and long-standing precedent. While Carnegie-Mellon v. Cohill (1988) confirms that district courts retain discretionary supplemental jurisdiction over state-law claims after federal claims drop out, it does not mandate remand, and the district court here properly exercised that discretion to retain jurisdiction. Allowing plaintiffs to strategically amend their complaints to eliminate federal claims and force remand would enable impermissible forum manipulation that defeats defendants' statutory removal rights and creates perverse incentives for pleading gamesmanship. The practical consequences of endorsing respondents' position \u2014 permitting plaintiffs to unilaterally nullify a defendant's statutory right of removal through post-removal amendment \u2014 are unacceptable and inconsistent with the congressional design of the removal statute.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under the well-pleaded complaint rule rooted in Justice Holmes' formulation in American Well Works, federal jurisdiction must be grounded in the operative complaint as it actually stands, and where an amended complaint contains no federal claims whatsoever, there is no constitutional or statutory basis for a federal court to retain the case. Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988), directly supports this outcome \u2014 the Court there recognized that when federal claims drop out of a lawsuit, particularly in early stages, district courts have discretion to remand state-law claims, and that principle applies with full force to removed cases. From a practical standpoint, forcing plaintiffs to litigate purely state-law consumer protection claims in federal court simply because a federal hook once existed would burden vulnerable consumers with an inhospitable forum and undermine the principle that federal courts are courts of limited jurisdiction. The petitioners' 'forum manipulation' concern is adequately addressed by the district court's discretionary authority under Cohill and 28 U.S.C. \u00a7 1367(c) to assess whether remand serves the interests of judicial economy, fairness, and comity \u2014 it does not require a categorical rule locking plaintiffs into federal court indefinitely.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The time-of-removal rule has deep statutory and doctrinal roots: under 28 U.S.C. \u00a7 1441, jurisdiction is assessed at the moment of removal, and a properly invoked federal court jurisdiction does not evaporate simply because a plaintiff strategically amends away the federal claim. Carnegie-Mellon v. Cohill itself presupposes the district court *retains* jurisdiction over the remaining state-law claims after the federal anchor drops out\u2014the entire point of that case was that the court had *discretion* to remand or retain, which is only coherent if jurisdiction persists rather than dissolves automatically. Allowing plaintiffs to unilaterally strip defendants of their statutory removal right through artful post-removal pleading would render \u00a7 1441 a hollow guarantee and incentivize precisely the forum manipulation Congress sought to prevent. The workable, textually coherent solution is to hold that the district court retains supplemental jurisdiction under 28 U.S.C. \u00a7 1367 over the remaining state-law claims, with discretion\u2014guided by Cohill's factors\u2014to remand or retain them, rather than treating the amended complaint as jurisdictionally retroactive.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of 28 U.S.C. \u00a7 1441 anchors removal jurisdiction at the time of removal, and the time-of-removal rule\u2014confirmed in St. Paul Mercury Indemnity Co. v. Red Cab Co.\u2014establishes that post-removal amendments reducing or eliminating the jurisdictional basis do not divest the district court of jurisdiction once properly attached. Carnegie-Mellon v. Cohill, far from supporting respondents, actually presupposes that the district court retains jurisdiction over the case after the federal claim is dropped, and merely grants discretion to remand supplemental state-law claims as a matter of judicial economy\u2014not as a constitutional or statutory compulsion. Allowing plaintiffs to strategically amend away federal claims to defeat defendants' statutory removal right would render \u00a7 1441 a nullity and permit the very forum manipulation that the time-of-removal rule was designed to prevent, undermining the separation of powers principle that Congress, not litigants, defines federal jurisdiction. The district court therefore retains discretion under \u00a7 1367(c) to remand or retain the state-law claims, but it is not stripped of jurisdiction by respondents' amendment.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The time-of-removal rule is well-established: jurisdiction is assessed at the moment of removal, not based on subsequent pleading amendments. Carnegie-Mellon University v. Cohill (1988) itself confirms that when a federal claim drops out after removal, the district court retains jurisdiction and exercises discretion over whether to keep or remand the remaining state-law claims under supplemental jurisdiction \u2014 it does not lose jurisdiction entirely. Rockwell International Corp. v. United States (2007) explicitly stated that 'when a defendant removes a case to federal court based on the presence of a federal claim, an amendment eliminating the original basis for federal jurisdiction generally does not defeat jurisdiction,' directly foreclosing respondents' position. Allowing plaintiffs to strategically amend away federal claims to defeat removal would undermine defendants' statutory right under 28 U.S.C. \u00a7 1441, enable impermissible forum manipulation, and create serious workability problems that my practical-considerations framework counsels against \u2014 the district court retains Article III jurisdiction over the case or controversy as it existed at removal and supplemental jurisdiction over remaining state-law claims.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of 28 U.S.C. \u00a7 1367 and the well-pleaded complaint rule together counsel that federal jurisdiction must be grounded in the operative complaint as it actually stands at the time the court exercises jurisdiction over the case. Carnegie-Mellon University v. Cohill, 484 U.S. 343 (1988), directly addressed this scenario\u2014plaintiffs removed on the basis of a federal claim who then amended to eliminate that claim\u2014and held that district courts retain discretion to remand the remaining state-law claims, which strongly implies that retaining jurisdiction is not compelled and that remand is the appropriate default when no independent jurisdictional basis remains. While the time-of-removal rule properly governs whether removal was initially proper, it does not inexorably mandate that federal courts retain jurisdiction in perpetuity over cases that, as amended, present only state-law claims; \u00a7 1367(c)(3) expressly permits courts to decline supplemental jurisdiction when all federal claims have been eliminated, and the constitutional limits of Article III require an ongoing jurisdictional basis, not merely a historical one. Petitioners' forum-manipulation concern, though legitimate, is better addressed through discretionary retention under Cohill's framework rather than a categorical rule compelling federal courts to exercise jurisdiction over purely state-law disputes.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The well-pleaded complaint rule, rooted in Justice Holmes' foundational formulation in American Well Works Co. v. Layne & Bowler Co., requires that federal jurisdiction be assessed based on the operative complaint as it actually stands. When plaintiffs amend their complaint to eliminate all federal claims, the amended complaint becomes the operative pleading defining the case or controversy, and a court cannot retain jurisdiction over a purely state-law complaint without a valid jurisdictional hook. While Carnegie-Mellon v. Cohill (1988) established discretion to remand supplemental state-law claims after federal claims are eliminated\u2014and critically, no Justice questioned the court's power to remand\u2014the enactment of 28 U.S.C. \u00a7 1367 and the well-pleaded complaint rule together counsel that where an amendment wholly redefines the scope of the case or controversy to exclude any federal question, the district court lacks a proper basis to retain jurisdiction over claims it could only have heard supplementally. From a pragmatic standpoint, forcing litigants to remain in federal court over purely state-law claims when no independent federal jurisdiction exists raises serious concerns about judicial overreach and practical fairness to plaintiffs who have a legitimate interest in state court adjudication of state-law matters.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.748,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  }
+]

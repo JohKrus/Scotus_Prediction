@@ -1,0 +1,622 @@
+[
+  {
+    "docket": "24-872",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether and how courts may consider the cumulative effect of multiple IQ scores in assessing an Atkins intellectual disability claim to determine eligibility for capital punishment.",
+      "legal_provision": "Eighth Amendment to the U.S. Constitution as interpreted in Atkins v. Virginia, 536 U.S. 304 (2002), prohibiting execution of intellectually disabled individuals; Federal Death Penalty Act of 1994 (FDPA), 18 U.S.C. 3591 et seq., specifically 18 U.S.C. 3596(c); Alabama's state evidentiary framework for establishing intellectual disability in capital cases.",
+      "petitioner_position": "Alabama Commissioner Hamm argues that the Eleventh Circuit misapplied Supreme Court precedent by allowing Smith's Atkins claim to proceed despite his multiple IQ scores (75, 74, 72, 78, and 74) all falling above the 70-or-below threshold traditionally associated with intellectual disability, contending that states retain constitutional latitude to establish their own evidentiary frameworks for adjudicating intellectual disability claims without undue federal judicial interference, and that the cumulative consideration of scores consistently above 70 does not establish a likelihood that Smith's true IQ meets the clinical threshold for intellectual disability.",
+      "respondent_position": "Joseph Clifton Smith argues that the Eleventh Circuit correctly allowed his Atkins claim to proceed by recognizing that clinical standards for diagnosing intellectual disability require holistic evaluation of multiple IQ scores in context, including standard error of measurement and other adaptive functioning factors, rather than rigid application of a numerical IQ cutoff, and that the Eighth Amendment demands courts look beyond a single bright-line score to avoid executing individuals who may be genuinely intellectually disabled.",
+      "key_precedents": [
+        "Atkins v. Virginia, 536 U.S. 304 (2002) - established Eighth Amendment prohibition on executing intellectually disabled individuals",
+        "Hall v. Florida, 572 U.S. 701 (2014) - addressed IQ score rigidity and standard error of measurement in Atkins claims",
+        "Moore v. Texas, 581 U.S. 1 (2017) (Moore I) - required states to use current clinical standards in evaluating intellectual disability",
+        "Moore v. Texas, 586 U.S. 1 (2019) (Moore II) - reaffirmed clinical standards requirement",
+        "Powell v. Texas, 392 U.S. 514 (1968) - referenced regarding federalism and state experimentation in criminal law",
+        "Federal Death Penalty Act of 1994, 18 U.S.C. 3596(c) - federal statutory prohibition on executing intellectually disabled defendants"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.52,
+        "reasoning": "Justice Barrett's argument that Hall's core holding applies equally to five scores as to one remains the most intellectually serious challenge to my position, and I want to be candid that it has genuine force \u2014 the constitutional prohibition on mechanical numerical cutoffs does not obviously diminish because multiple scores are involved. However, I continue to believe the narrowest constitutionally defensible ground is this: Alabama's framework is permissible provided it does not categorically foreclose consideration of adaptive functioning evidence, and the critical question is whether Alabama actually conducted that holistic inquiry or applied a pure score-based bar. Justice Kagan's concern that we would effectively raise the functional constitutional threshold to 75-78 is serious, but I think the answer lies in requiring that adaptive functioning evidence be weighed alongside the cumulative score pattern \u2014 not in holding that any score pattern with SEM ranges theoretically touching 70 mandates full Atkins proceedings. As Chief Justice, I would seek to write narrowly enough to preserve Hall's prohibition on single-score bright-line cutoffs while clarifying that a consistent multi-score pattern above 70 does not automatically trigger mandatory proceedings, but only if the state framework genuinely permits adaptive functioning consideration \u2014 and I acknowledge that if the record shows Alabama categorically excluded adaptive functioning evidence, that would shift my analysis toward the respondent.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's argument that Alabama's framework constitutes a 'categorical rule' foreclosing Atkins claims deserves serious engagement, but it mischaracterizes what is actually at issue here. Hall v. Florida addressed a rigid single-score bright-line cutoff \u2014 Florida's rule that any score above 70 categorically barred an Atkins claim regardless of SEM. Smith's situation is materially different: he has five separate IQ scores, none at or below 70, ranging from 72 to 78, and the question is whether courts must treat this consistent pattern as clinically equivalent to a single borderline score. Justice Sotomayor's invocation of 'holistic' clinical methodology is compelling in principle, but clinical standards themselves recognize that a consistent pattern of scores across multiple administrations carries diagnostic weight \u2014 the SEM argument is most powerful when a single score near the margin may be unreliable, not when five independent measurements converge above the threshold. Atkins' federalism reservation remains meaningful, and extending Hall to mandate that any score whose SEM range theoretically dips below 70 triggers full Atkins proceedings would effectively nullify state evidentiary frameworks and transform federal courts into de novo clinical diagnosticians, which neither Hall nor Moore required.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett's argument remains the most intellectually serious challenge to my position \u2014 she correctly identifies that Hall's prohibition on mechanical numerical cutoffs does not evaporate simply because multiple scores are involved. However, I continue to find the distinction between a single marginal score and five convergent above-threshold measurements constitutionally meaningful: when five independent clinical administrations consistently yield scores between 72 and 78, the probability that measurement error is masking a true score at or below 70 is substantially reduced, and treating this convergent pattern as clinically equivalent to a single borderline score inverts rather than applies clinical reasoning. Justice Kagan's concern that we are effectively raising the functional constitutional threshold to 75-78 is a serious workability objection, but the answer is that Alabama's framework does not categorically foreclose adaptive functioning evidence \u2014 it treats a consistent multi-score pattern above 70 as substantial evidence on the intellectual-functioning prong, which is precisely the kind of state evidentiary judgment Atkins preserved. Hall condemned rigid single-score bright-line cutoffs that ignore SEM entirely; it did not constitutionalize a rule that any score whose SEM range theoretically touches 70 mandates full Atkins proceedings regardless of the cumulative clinical picture.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.93,
+        "reasoning": "Justice Roberts makes the strongest opposing argument \u2014 that Hall addressed a single score near the margin and does not mandate treating a pattern of consistently above-threshold scores as establishing a likelihood of intellectual disability. But this misreads Hall's core holding: Hall did not merely correct a single-score problem, it held that any rigid numerical cutoff that ignores clinical measurement reality creates an unacceptable risk of executing the intellectually disabled. When five scores cluster between 72 and 78, each carrying a SEM of \u00b15, the clinical picture is not one of scores 'consistently above threshold' \u2014 it is one of scores whose true-score confidence intervals all overlap with or approach the diagnostic threshold, and clinical standards require holistic evaluation of that pattern alongside adaptive functioning evidence. Alabama's categorical rule that any score above 70 forecloses an Atkins claim is precisely the kind of mechanical, non-clinical bright-line that Moore I and Moore II condemned, and as Justice Jackson correctly emphasizes, permitting states to use such rules renders the Eighth Amendment's protection illusory in the most irreversible context imaginable \u2014 a death sentence carried out against someone who may genuinely be intellectually disabled.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kavanaugh's argument that consistency across five measurements reduces rather than increases the likelihood that measurement error is masking a true score at or below 70 is the most sophisticated challenge to my position, and I want to engage it directly: this argument is statistically plausible but constitutionally beside the point. Hall and Moore did not hold that states must conduct holistic Atkins proceedings only when measurement uncertainty is maximized \u2014 they held that states cannot substitute mechanical numerical determinations for the clinical judgment the Eighth Amendment demands, and Alabama's categorical rule does exactly that regardless of how many scores fall in the 72-78 band. Justice Barrett correctly identifies that the constitutional floor requires holistic consideration of adaptive functioning alongside the score pattern, and the petitioner's position \u2014 that five above-threshold scores categorically foreclose that inquiry \u2014 effectively creates a new bright-line rule that raises the functional constitutional threshold to approximately 75-78, which neither Atkins, Hall, nor Moore authorized. The irreversibility of execution is not a tiebreaker to be invoked rhetorically; it is a structural reason why the Eighth Amendment demands that we not permit procedural frameworks that systematically exclude genuinely disabled individuals from protection, and Alabama's framework does precisely that.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument remains the most intellectually serious challenge to my position \u2014 she correctly identifies that Hall's prohibition on mechanical numerical cutoffs applies whether one score or five scores are at issue, and that the constitutional floor requires holistic clinical consideration rather than categorical exclusion. However, I must press back on the clinical logic she and Justice Kagan invoke: when five independent administrations consistently yield scores between 72 and 78, the statistical inference is not one of preserved ambiguity but of reduced uncertainty \u2014 random measurement error would be expected to produce greater variance if the true score were near or below 70, and convergent above-threshold results across multiple administrations carry genuine diagnostic weight that courts may constitutionally weigh. The constitutional question is whether Alabama's framework categorically forecloses holistic consideration in the manner Hall and Moore condemned, and I remain persuaded that a consistent multi-score pattern above 70 is materially distinguishable from the single marginal score in Hall, such that affirming on narrow grounds \u2014 while requiring that adaptive functioning evidence receive genuine consideration \u2014 preserves Hall's prohibition without effectively lowering the Atkins threshold to 75-78 for any defendant tested multiple times. Justice Kagan's concern that the petitioner's position raises the functional constitutional threshold is the strongest version of the respondent's argument, but the answer is to require genuine adaptive functioning consideration rather than to mandate full Atkins proceedings whenever any score's SEM range theoretically touches 70.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Justice Barrett's argument continues to be the most intellectually serious challenge \u2014 she correctly identifies that Hall's prohibition on mechanical numerical cutoffs applies whether one score or five scores are at issue, and that the weight of multiple scores should be assessed within a holistic proceeding rather than used as a categorical bar to such a proceeding. However, I remain unpersuaded that Alabama's framework is constitutionally equivalent to Florida's single-score bright-line in Hall, for the reason I articulated previously: five independent clinical administrations consistently yielding scores between 72 and 78 do not present the same measurement uncertainty as a single marginal score, and as Justice Gorsuch correctly notes, convergent measurements reduce rather than preserve uncertainty about the true score. Justice Kagan's concern that we are effectively raising the functional constitutional threshold to 75-78 is the most troubling practical objection, but I think the answer lies in requiring that adaptive functioning evidence be considered alongside the cumulative score pattern \u2014 not in holding that the score pattern itself is constitutionally insufficient to deny an Atkins claim. I write separately to emphasize that any affirmance must be conditioned on Alabama's framework permitting genuine consideration of adaptive functioning evidence, which is the narrowest ground that preserves Hall while respecting Atkins' federalism reservation.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kavanaugh's argument that consistency across five measurements reduces rather than increases the likelihood that measurement error masks a true score at or below 70 is the most technically sophisticated challenge to my position, and I take it seriously as a matter of clinical statistics. However, it conflates two distinct questions: whether the convergent scores constitute evidence against intellectual disability (they do), and whether that evidence is constitutionally sufficient to categorically foreclose the holistic proceeding Hall and Moore require (it is not). The constitutional violation Alabama commits is not in weighing the score pattern \u2014 it is in treating that pattern as a categorical bar to any holistic inquiry into adaptive functioning and neuropsychological evidence, which is precisely what Moore I and II condemned as substituting mechanical numerical determinations for clinical judgment. Justice Gorsuch's federalism argument is well-taken, but Atkins' reservation of state latitude does not extend to procedural frameworks that create systematic risk of executing genuinely disabled individuals, and the irreversibility of that error \u2014 as Justice Jackson emphasizes \u2014 demands that the constitutional floor require at minimum a holistic proceeding rather than categorical exclusion based on score arithmetic alone.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Roberts makes the most compelling argument for the petitioner's side, contending that Hall's SEM requirement was designed to address a single score near the margin rather than to mandate treating a consistent pattern of above-threshold scores as establishing intellectual disability. However, this framing mischaracterizes what Alabama actually did: it applied a categorical rule foreclosing further inquiry whenever all scores nominally exceed 70, without holistic clinical consideration of the cumulative score pattern, SEM across multiple measurements, or adaptive functioning evidence. Hall's core holding was not merely about single-score arithmetic \u2014 it was about the constitutional impermissibility of mechanical numerical cutoffs that create an unacceptable risk of executing someone who is genuinely intellectually disabled, and Moore I and II reinforced that state frameworks must be 'informed by the medical community's diagnostic framework.' When five scores cluster between 72 and 78, clinical standards do not treat that pattern as definitively ruling out intellectual disability \u2014 they require holistic evaluation \u2014 and Alabama's categorical bar against further inquiry is precisely the kind of non-clinical bright-line rule our precedents condemn. As Justice Sotomayor correctly notes, the irreversibility of execution demands we not permit procedural shortcuts that systematically exclude individuals who may genuinely qualify for Atkins protection.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "As a minimalist concerned with institutional legitimacy and federalism, I find that Atkins v. Virginia expressly reserved to states the task of developing appropriate enforcement frameworks, and neither Hall v. Florida nor Moore v. Texas eliminated that flexibility \u2014 they merely corrected specific misapplications of IQ testing methodology. Smith's five IQ scores (72, 74, 74, 75, 78) consistently fall above the clinical threshold, and while Hall requires accounting for standard error of measurement around a single score near the margin, it does not mandate that courts treat a pattern of scores uniformly above 70 as establishing a likelihood of intellectual disability. The Eleventh Circuit's approach risks reading Hall and Moore as imposing a 'one-low-score rule' that supplants state evidentiary frameworks entirely, which exceeds what this Court's precedents require and undermines the federalism principles Atkins itself preserved. A narrow ruling here should clarify that cumulative consideration of multiple above-threshold scores is constitutionally permissible without disturbing the core Atkins prohibition.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "As an originalist, I must note that the Eighth Amendment's original public meaning in 1791 contained no prohibition on executing the intellectually disabled, and Atkins v. Virginia (2002) itself was a departure from original meaning that I dissented from. However, accepting Atkins as controlling precedent for purposes of this case, the critical question is whether the Eleventh Circuit correctly applied it \u2014 and it did not. Atkins expressly reserved to states 'the task of developing appropriate ways to enforce the constitutional restriction,' and neither Hall v. Florida nor Moore v. Texas stripped states of their evidentiary frameworks or mandated a one-low-score rule that allows a single marginal IQ score to override multiple scores consistently above the clinical threshold. Smith's five IQ scores \u2014 75, 74, 72, 78, and 74 \u2014 all fall above 70, and Alabama retains constitutional latitude under the federalism principles this Court has consistently affirmed to require that a petitioner demonstrate deficient intellectual functioning through its established evidentiary framework rather than through cumulative speculation about what scores might theoretically mean.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While Hall v. Florida, 572 U.S. 701 (2014), correctly prohibited rigid single-score bright-line cutoffs and required consideration of the standard error of measurement, its holding should not be extended to mandate that courts treat multiple IQ scores\u2014all consistently ranging from 72 to 78\u2014as cumulatively establishing a likelihood of intellectual disability simply because the SEM theoretically spans 70. States retain meaningful constitutional latitude under Atkins to establish evidentiary frameworks, and Alabama's approach does not categorically ignore clinical standards but rather recognizes that five separate scores, none falling at or below 70, constitute substantial evidence against the intellectual-functioning prong. The Eleventh Circuit's ruling effectively transforms Hall's narrow correction of rigid single-score rules into an open-ended mandate requiring federal courts to second-guess state factfinders whenever any IQ score's SEM range dips below 70, which improperly expands federal judicial interference with state capital proceedings and undermines the practical administration of Atkins claims. Moore v. Texas does not compel a different result, as requiring clinical standards does not mean every conceivable clinical argument must override a state court's reasonable weighing of consistently above-threshold scores.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "The Eighth Amendment, as interpreted through Hall v. Florida and the Moore v. Texas decisions, unambiguously requires that intellectual disability determinations in capital cases be grounded in current clinical standards rather than rigid numerical cutoffs. Smith's multiple IQ scores ranging from 72 to 78 must be evaluated holistically, accounting for the standard error of measurement \u2014 which Hall explicitly held cannot be ignored \u2014 meaning each score carries a confidence interval that could place his true IQ at or below 70. Alabama's rigid application of a bright-line 70 threshold without considering the cumulative picture painted by multiple scores, SEM, and adaptive functioning deficits is precisely the kind of mechanical approach Hall and Moore condemned as constitutionally infirm. Executing an individual who may genuinely be intellectually disabled because courts refused to apply the clinical methodology the Eighth Amendment demands would represent the most irreversible of constitutional violations, and the Eleventh Circuit was correct to allow Smith's claim to proceed to full evidentiary consideration.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Hall v. Florida squarely held that the Eighth Amendment prohibits rigid numerical IQ cutoffs that ignore clinical measurement uncertainty, requiring courts to treat IQ scores as ranges accounting for standard error of measurement rather than fixed points. When a defendant presents multiple IQ scores clustered in the low-to-mid 70s, clinical standards \u2014 which Hall and Moore I and II mandate states must consult \u2014 require holistic evaluation of that score pattern rather than mechanical exclusion because each individual score nominally exceeds 70. The cumulative picture of scores ranging from 72 to 78, when viewed through the lens of standard error of measurement (typically plus or minus 5 points), creates a genuine clinical question about whether Smith's true IQ falls at or below 70, and foreclosing that inquiry would replicate precisely the kind of rigid bright-line approach Hall condemned. While Atkins preserves meaningful state flexibility in evidentiary frameworks, that flexibility cannot extend to procedures that systematically exclude individuals who may genuinely be intellectually disabled \u2014 the constitutional floor established by Atkins and refined by Hall and Moore remains non-negotiable.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "As a textualist and originalist, I am skeptical of federal courts displacing state evidentiary frameworks without clear constitutional mandate. While Hall v. Florida, 572 U.S. 701 (2014), and Moore v. Texas, 581 U.S. 1 (2017), rightly corrected states that rigidly ignored standard error of measurement or applied non-clinical standards, neither decision mandates a 'one-low-score rule' that would allow a single marginal score to override a consistent pattern of multiple scores\u2014here five scores ranging from 72 to 78\u2014all above the clinical threshold. The Eighth Amendment, as interpreted in Atkins, prohibits executing the intellectually disabled, but Atkins itself explicitly preserved state latitude to define the substantive and procedural contours of intellectual disability determinations, and the Eleventh Circuit's approach risks converting federal courts into de novo clinical diagnosticians rather than constitutional arbiters. Alabama's framework permitting courts to consider the cumulative weight of multiple IQ scores is not constitutionally infirm simply because it declines to treat one marginal score as dispositive, provided the framework does not categorically exclude clinical context such as standard error of measurement.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While Hall v. Florida, 572 U.S. 701 (2014), correctly prohibited rigid IQ cutoffs that ignore standard error of measurement, it did not mandate that courts treat multiple scores consistently above 70 as cumulatively establishing a likelihood of intellectual disability. Smith's five IQ scores\u201475, 74, 72, 78, and 74\u2014all fall above 70 and, critically, even accounting for the standard error of measurement, the lower bounds of these scores do not consistently reach the clinical threshold in a manner that compels further Atkins proceedings. Moore v. Texas reinforces that clinical standards must guide these determinations, but clinical standards also recognize that consistently above-threshold scores, even with SEM applied, carry significant diagnostic weight against an intellectual disability finding. Consistent with my institutionalist approach emphasizing judicial restraint and federalism, states retain meaningful discretion under Atkins to establish evidentiary frameworks, and the Eleventh Circuit's ruling risks expanding Hall and Moore beyond their narrow holdings in ways that undermine that discretion and create workability problems for courts administering capital cases.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of the Eighth Amendment, as interpreted through Atkins v. Virginia and its progeny, prohibits the execution of intellectually disabled individuals, and Hall v. Florida, 572 U.S. 701 (2014), established a constitutional floor that forbids mechanical application of a rigid numerical IQ cutoff divorced from clinical reality, including the standard error of measurement. While I am attentive to the federalism concerns articulated in Atkins\u2014which explicitly left enforcement mechanisms to the states\u2014Moore v. Texas, 581 U.S. 1 (2017), clarified that state discretion must be 'informed by the medical community's diagnostic framework' and is not unfettered. Alabama's categorical score-based rule, which would categorically foreclose Atkins claims where all scores fall above 70 without holistic clinical consideration, conflicts with Hall's core holding that a single bright-line cutoff can itself constitute cruel and unusual punishment when it creates an unacceptable risk of executing a genuinely intellectually disabled person. The Eleventh Circuit's allowance of a holistic, totality-of-the-evidence analysis\u2014incorporating standard error of measurement, adaptive functioning, and neuropsychological evidence\u2014is consistent with the constitutional floor this Court has established, even if states retain latitude in structuring their evidentiary frameworks above that floor.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The Eighth Amendment, as interpreted through Atkins v. Virginia, Hall v. Florida, and the Moore v. Texas decisions, unambiguously requires that intellectual disability determinations be informed by current clinical diagnostic standards rather than rigid numerical cutoffs. Hall v. Florida, 572 U.S. 701 (2014), explicitly held that a non-clinical bright-line IQ threshold 'creates an unacceptable risk' of executing a person with intellectual disability, and the Court there recognized that standard error of measurement must be considered when evaluating IQ scores. Alabama's categorical rule that any IQ score above 70 forecloses an Atkins claim directly contravenes Moore I and Moore II's mandate that states cannot employ non-clinical factors or outdated frameworks that deviate from the medical community's diagnostic standards. As a former public defender acutely aware of the irreversible consequences of wrongful execution, I find that the Eleventh Circuit correctly required holistic, clinically-grounded evaluation of Smith's multiple IQ scores alongside adaptive functioning evidence, and that permitting states unfettered discretion to impose rigid score-based bars would render the Eighth Amendment's protection illusory.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.741,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "24-872",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether and how courts may consider the cumulative effect of multiple IQ scores in assessing an Atkins intellectual disability claim to determine eligibility for capital punishment.",
+      "legal_provision": "Eighth Amendment to the U.S. Constitution as interpreted in Atkins v. Virginia, 536 U.S. 304 (2002), prohibiting execution of intellectually disabled individuals; Federal Death Penalty Act of 1994 (FDPA), 18 U.S.C. 3591 et seq., specifically 18 U.S.C. 3596(c); Alabama's state evidentiary framework for establishing intellectual disability in capital cases.",
+      "petitioner_position": "Alabama Commissioner Hamm argues that respondent Smith failed to establish intellectual disability under Atkins because his multiple IQ scores (75, 74, 72, 78, and 74) did not demonstrate that his true IQ was at or below the 70-threshold required, and that the Eleventh Circuit misapplied Supreme Court precedent by allowing the Atkins claim to proceed; Alabama further contends that states should retain broad discretion in designing evidentiary frameworks for intellectual disability determinations without undue federal judicial interference, consistent with principles of federalism and democratic experimentation in governance.",
+      "respondent_position": "Joseph Clifton Smith argues that the Eleventh Circuit correctly allowed his Atkins claim to proceed, contending that courts must holistically consider the cumulative weight and pattern of multiple IQ scores rather than mechanically applying a bright-line numerical cutoff, and that Alabama's evidentiary framework improperly restricts the constitutionally required individualized assessment of intellectual disability; disability rights organizations supporting respondent emphasize that clinical standards for diagnosing intellectual disability require consideration of the standard error of measurement and the full range of assessment data, not rigid adherence to a single numeric threshold.",
+      "key_precedents": [
+        "Atkins v. Virginia, 536 U.S. 304 (2002) - established Eighth Amendment prohibition on executing intellectually disabled individuals",
+        "Hall v. Florida, 572 U.S. 701 (2014) - addressed use of IQ scores and standard error of measurement in Atkins determinations",
+        "Moore v. Texas, 581 U.S. 1 (2017) (Moore I) - required states to use current clinical standards in evaluating intellectual disability",
+        "Moore v. Texas, 586 U.S. 1 (2019) (Moore II) - reaffirmed clinical standards requirement for intellectual disability assessment",
+        "Brumfield v. Cain, 576 U.S. 305 (2015) - addressed evidentiary hearings for Atkins claims",
+        "Powell v. Texas, 392 U.S. 514 (1968) - cited for principle of allowing state legislative experimentation in criminal law",
+        "Federal Death Penalty Act of 1994, 18 U.S.C. 3596(c) - federal statutory prohibition on executing intellectually disabled defendants"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's federalism argument remains the most serious challenge to my position, and I want to be precise about why it ultimately fails under my minimalist methodology. Atkins reserved enforcement mechanisms to states, but Hall established a constitutional floor \u2014 not merely a procedural preference \u2014 grounded in the clinical reality that IQ measurement carries inherent imprecision. Justice Alito's point that Hall only corrected Florida's complete disregard of SEM is textually plausible, but as Justice Kagan correctly observes, Hall's reasoning was broader: it held that treating IQ scores as precise numerical facts when psychometric science treats them as ranges creates an 'unacceptable risk' of constitutional error. My narrow holding \u2014 requiring only that Smith receive an evidentiary hearing where his five scores clustering in the 72-78 range can be assessed with proper SEM analysis \u2014 does not prescribe how Alabama must structure Atkins proceedings broadly, preserves maximum state flexibility, and represents the minimally sufficient remedy that Hall and Moore demand without the federal judicial overreach Justice Thomas rightly warns against.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's argument that Hall established an affirmative constitutional floor requiring IQ assessment to be 'informed by the medical community's diagnostic framework' is the strongest challenge to my position, but I remain unpersuaded that this floor requires what the Eleventh Circuit imposed here. Hall corrected Florida's categorical refusal to acknowledge SEM as a relevant consideration \u2014 it did not mandate that every state framework must affirmatively apply cumulative SEM analysis across multiple scores or else be constitutionally defective. Justice Kavanaugh reads Hall too expansively when he argues that Alabama's framework creates the 'same unacceptable risk' Hall condemned; Alabama's framework does not categorically ignore measurement error but rather requires that scores actually reach the threshold, which is a different legislative judgment than Florida's complete disregard of psychometric science. The critical textual and historical point remains: Atkins expressly left enforcement methodology to state democratic processes, and nothing in the original public meaning of the Eighth Amendment \u2014 which prohibited 'cruel and unusual punishments' as understood in 1791 \u2014 compels federal courts to override Alabama's reasonable evidentiary threshold simply because Smith's scores cluster near but consistently above 70, even accounting for SEM; the majority's position effectively transforms Hall's constitutional floor into a federal mandate for a particular clinical methodology that Atkins never authorized.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's argument that Hall established an affirmative constitutional floor requiring IQ assessment to be 'informed by the medical community's diagnostic framework' is the most compelling challenge to my position, and I acknowledge it has genuine force. However, I remain unpersuaded that Alabama's framework categorically forecloses the holistic inquiry Hall mandates \u2014 the record shows Alabama courts did proceed to consider Smith's full score pattern and found it insufficient to trigger adaptive functioning analysis, which is a different constitutional question than whether the framework itself is structurally defective. Justice Thomas correctly identifies the core tension: if Hall's constitutional floor is satisfied by a framework that permits but does not require any particular weighting of cumulative score patterns, then the Eleventh Circuit's ruling effectively imposes a federal judicial methodology preference disguised as constitutional mandate. The near-unanimity of my colleagues gives me pause, but seven justices agreeing on an outcome does not transform a debatable application of Hall into a clear constitutional violation, and I continue to believe the proper remedy, if any, is a narrow remand for clarification of Alabama's framework rather than a ruling that Smith is categorically entitled to an evidentiary hearing.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Justice Thomas raises the strongest opposing argument \u2014 that Atkins expressly reserved to states the task of developing enforcement mechanisms, and Alabama's framework represents a legitimate legislative judgment. But as Justice Kagan correctly identifies, that state discretion has a constitutional floor established by Hall and Moore, and the critical question is whether Alabama's framework falls below that floor by mechanically excluding consideration of measurement error and cumulative score patterns. Hall was not merely a correction of Florida's total disregard for SEM; it established the affirmative constitutional requirement that IQ assessment must be 'informed by the medical community's diagnostic framework,' which necessarily encompasses the clinical reality that a score of 72 and a score of 70 are not meaningfully distinguishable given standard psychometric imprecision. Smith's five scores clustering between 72-78 \u2014 none dramatically above the threshold \u2014 present precisely the borderline case where categorical exclusion creates the 'unacceptable risk' Hall condemned, and the irreversibility of execution demands we err on the side of a full evidentiary hearing rather than categorical dismissal based on a bright-line rule that clinical science itself treats as arbitrary.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the strongest opposing argument \u2014 that Atkins expressly reserved to states the task of developing enforcement mechanisms, and Alabama's framework represents a legitimate legislative judgment. But this argument fails to grapple with what Hall actually held: that the Eighth Amendment itself imposes a floor requiring consideration of SEM and clinical diagnostic frameworks, not merely that states get to pick any evidentiary rule they prefer. As I read Hall, the Court wasn't simply correcting Florida's particular implementation error; it was establishing that psychometric science's inherent imprecision is constitutionally relevant, meaning a state framework that treats a score of 71 as categorically different from 70 when measurement error renders that distinction clinically meaningless falls below the constitutional floor regardless of state discretion. Justice Alito's point that Hall didn't mandate a 'one-low-score rule' is well-taken and actually supports my position \u2014 the Eleventh Circuit's ruling isn't about any single score being dispositive, but rather that Alabama's framework must permit holistic consideration of Smith's full pattern of five scores clustering near the threshold, which is precisely what Hall and Moore I require and what a workable, clinically-grounded Atkins framework demands.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's federalism argument remains the most serious challenge to my position, and I want to be precise about why it ultimately fails under my own methodology. Atkins reserved to states the task of developing enforcement mechanisms \u2014 that is genuine, and I take it seriously as a textualist and someone skeptical of federal courts displacing state judgments. But Hall v. Florida did not merely express a judicial preference for clinical methodology; it held as a constitutional matter that a rigid numerical cutoff that ignores the inherent imprecision of IQ measurement creates an 'unacceptable risk' of executing a constitutionally protected person \u2014 and that holding is itself the law I am bound to apply, not a policy preference I can discount in the name of federalism. Justice Alito's narrower reading of Hall \u2014 that it corrected only Florida's complete disregard of SEM rather than establishing a broader constitutional floor \u2014 is textually plausible but ultimately unpersuasive, because the Court's reasoning in Hall was grounded in the constitutional significance of psychometric imprecision wherever it places a defendant's true score near the threshold, and Alabama's framework as applied to Smith's five scores clustering in the 72-78 range presents precisely that structural problem. I join Chief Justice Roberts in favoring a narrow holding that requires Smith receive a full evidentiary hearing without prescribing how Alabama must structure Atkins proceedings more broadly, which preserves maximum state flexibility while enforcing the constitutional floor Hall established.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's federalism argument remains the most serious challenge to my position, and I want to be precise about why it ultimately fails. The key is that Hall did not merely correct Florida's idiosyncratic error \u2014 it established a constitutional floor grounded in the clinical reality that IQ measurement carries inherent imprecision, and that floor applies wherever a state framework categorically forecloses the individualized assessment that clinical science demands. As Justice Alito correctly notes, Hall did not mandate any particular methodology, which is why I join Chief Justice Roberts in crafting the narrowest possible holding: Alabama retains broad discretion to structure Atkins proceedings, but Smith's consistent pattern of five scores clustering in the 72-78 range \u2014 where SEM analysis is clinically essential \u2014 must receive a full evidentiary hearing before the constitutional inquiry can be resolved. This preserves maximum state flexibility while enforcing the constitutional floor Hall established, and it avoids the overreach Justice Alito rightly warns against while still correcting the specific defect the Eleventh Circuit identified.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "Justice Thomas's federalism argument remains the most serious challenge, and I want to engage with it precisely: Atkins reserved to states the *methodology* of Atkins proceedings, but Hall established a *substantive constitutional floor* about what IQ evidence must mean \u2014 namely, that scores cannot be treated as clinically precise facts when psychometric science itself treats them as ranges. Justice Alito's narrowing argument \u2014 that Hall only corrected Florida's complete disregard of SEM, not a framework that 'already permits holistic consideration' \u2014 is textually plausible but ultimately unpersuasive because Alabama's framework as applied to Smith does not merely structure the holistic inquiry differently; it categorically forecloses reaching adaptive functioning analysis when scores cluster consistently in the 72-78 range, which is the structural defect Hall condemned regardless of how the surrounding framework is labeled. I agree with Justice Roberts that the appropriate remedy is narrow \u2014 requiring an evidentiary hearing where Smith's full clinical picture including SEM analysis across his five scores can be assessed \u2014 rather than prescribing a particular methodology for Alabama's Atkins proceedings going forward, which preserves the maximum state flexibility Atkins contemplated while enforcing the constitutional floor Hall established. The irreversibility concern Justice Sotomayor raises reinforces rather than drives my analysis: where the clinical science itself treats the distinction between a score of 72 and 70 as within measurement noise, a categorical rule that forecloses further inquiry creates precisely the 'unacceptable risk' the Eighth Amendment prohibits.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the strongest opposing argument \u2014 that Atkins expressly reserved to states the task of developing enforcement mechanisms, and that Alabama's framework represents a legitimate legislative judgment entitled to deference. But as Justice Kagan correctly identifies, that state discretion has a constitutional floor established by Hall and Moore, and the critical question is whether Alabama's framework falls below that floor by mechanically excluding consideration of measurement error across a consistent pattern of borderline scores. Hall was not merely a correction of Florida's idiosyncratic misuse of IQ scores; it established the affirmative constitutional principle that IQ scores cannot be treated as precise numerical facts when the clinical science underlying them \u2014 including the standard error of measurement \u2014 renders such precision illusory. My background as a public defender makes the irreversibility of execution particularly salient here: where five separate IQ assessments all cluster within a narrow band near the diagnostic threshold, a framework that categorically forecloses holistic clinical assessment creates exactly the 'unacceptable risk' Hall condemned, and no federalism interest can justify that constitutional defect when the consequence is potentially executing a person the Eighth Amendment protects.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under Hall v. Florida, 572 U.S. 701 (2014), and the Moore decisions, states cannot mechanically apply a rigid IQ cutoff without accounting for the standard error of measurement and the clinical diagnostic framework the Eighth Amendment requires. Smith's scores of 72-78, when viewed through the lens of SEM and cumulative clinical assessment, plausibly place his true IQ within the range where intellectual disability cannot be categorically excluded, and Alabama's framework appears to foreclose the individualized inquiry Hall mandates. While I am sympathetic to Alabama's federalism argument \u2014 Atkins itself reserved substantial state discretion in designing evidentiary frameworks \u2014 that discretion has a constitutional floor established by Hall and Moore I/II requiring courts to consider the full pattern of IQ evidence rather than a single bright-line cutoff. Consistent with my preference for narrow rulings, I would hold only that Smith is entitled to an evidentiary hearing where the cumulative weight of his scores and SEM can be properly assessed, without broadly prescribing how states must structure their Atkins frameworks going forward.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "As an originalist, I am deeply skeptical that the Eighth Amendment's original public meaning in 1791 encompassed a judicially mandated clinical methodology for IQ assessment in capital cases \u2014 Atkins itself was a significant departure from original meaning that I dissented from, but even accepting Atkins on its own terms, the majority in that case expressly reserved to states 'the task of developing appropriate ways to enforce the constitutional restriction,' 536 U.S. at 317. Alabama's evidentiary framework requiring that IQ scores actually fall at or below the threshold is a reasonable legislative judgment entitled to deference under principles of federalism and democratic self-governance, consistent with Powell v. Texas's recognition of state experimentation in criminal law. The Eleventh Circuit's reading of Hall and Moore as mandating a 'one-low-score rule' based on cumulative IQ score patterns improperly federalizes what Atkins left to state discretion, substituting judicial preferences for clinical methodology over legitimate state evidentiary frameworks. Smith's IQ scores \u2014 ranging from 72 to 78, with none definitively below the threshold when properly assessed \u2014 do not compel a finding of intellectual disability under any reasonable reading of Alabama's framework, and federal courts should not override that determination by imposing their own preferred clinical standards.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist who values federalism and state discretion, I find that Atkins explicitly left to the states the task of developing appropriate enforcement mechanisms for the Eighth Amendment's prohibition on executing intellectually disabled individuals, and Alabama's evidentiary framework represents a legitimate exercise of that discretion. Smith's IQ scores\u2014ranging from 72 to 78\u2014do not clearly fall within the range that Atkins and Hall contemplated as establishing intellectual disability, and the Eleventh Circuit overstepped by effectively mandating a one-low-score rule that neither Hall nor Moore actually requires. Hall corrected Florida's specific misuse of IQ scores by ignoring standard error of measurement entirely, but it did not mandate that courts treat any single marginal score as dispositive or require a particular cumulative methodology that displaces state frameworks. Consistent with Moore's recognition that states retain 'flexibility' in setting Atkins procedures, Alabama's holistic framework\u2014which already permits consideration of additional evidence beyond IQ scores\u2014should be upheld rather than supplanted by federal judicial imposition of clinical diagnostic standards as constitutional mandates.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under Hall v. Florida and Moore v. Texas, states cannot impose rigid evidentiary frameworks that mechanically exclude constitutionally required clinical considerations from Atkins determinations. Smith's multiple IQ scores \u2014 72, 74, 74, 75, and 78 \u2014 cluster consistently near the diagnostic threshold, and when viewed through the lens of standard error of measurement as Hall mandates, they collectively paint a coherent clinical picture of possible intellectual disability that demands a full evidentiary hearing rather than categorical dismissal. Alabama's framework, as applied here, risks the very constitutional violation Atkins was designed to prevent: executing a person who may be intellectually disabled, an irreversible harm falling most heavily on a vulnerable defendant with limited resources to navigate complex evidentiary burdens. The Eighth Amendment's prohibition on executing the intellectually disabled is hollow if states can erect procedural barriers that prevent courts from holistically evaluating the full clinical record, including the cumulative weight of consistently low scores, as current diagnostic standards require.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The line of precedent from Hall v. Florida through Moore I and Moore II establishes clearly that states lack unfettered discretion to impose rigid numerical cutoffs that deviate from clinical diagnostic frameworks, and Alabama's mechanical application of a bright-line IQ threshold without holistic consideration of multiple scores and their standard error of measurement creates precisely the 'unacceptable risk' of executing an intellectually disabled person that Hall condemned. Smith's five IQ scores\u2014ranging from 72 to 78, clustering tightly around the threshold\u2014present exactly the kind of borderline case where clinical standards demand consideration of the full pattern of data, the standard error of measurement, and qualitative evidence of adaptive functioning rather than a single numerical gatekeeping rule. As a pragmatic matter, the Eighth Amendment's individualized assessment requirement cannot be satisfied by a framework that treats a score of 71 categorically differently from a score of 70 when measurement error renders such precision clinically meaningless; workable constitutional doctrine must track clinical reality. The Eleventh Circuit correctly allowed Smith's Atkins claim to proceed, and affirming that result preserves both constitutional fidelity and the coherent, administrable framework our precedents have carefully constructed.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Eighth Amendment's prohibition on executing intellectually disabled individuals, as established in Atkins and refined through Hall v. Florida and the Moore decisions, requires that states' evidentiary frameworks be informed by clinical diagnostic standards rather than rigid numerical cutoffs untethered from medical reality. Hall v. Florida, 572 U.S. 701 (2014), explicitly held that a bright-line IQ threshold creates 'an unacceptable risk' of executing a person with intellectual disability, and the Court's reasoning there compels consideration of the standard error of measurement and the full pattern of assessment data. Alabama's categorical score-based rule, which would mechanically exclude Smith's claim despite five IQ scores clustering in the 72-78 range and additional corroborating neuropsychological and behavioral evidence, conflicts with the clinical framework this Court has repeatedly held must inform Atkins determinations. While I am generally skeptical of federal courts displacing state judgments and wary of the Court's evolving-standards methodology, the constitutional floor established in Atkins and clarified in Hall and Moore I and II is now settled law, and a state framework that categorically forecloses holistic evidentiary consideration falls below that floor.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Hall v. Florida, 572 U.S. 701 (2014), and Moore v. Texas, 581 U.S. 1 (2017), states cannot apply a rigid numerical IQ cutoff that ignores the standard error of measurement and clinical diagnostic frameworks; Alabama's strict 70-point threshold, applied without accounting for measurement error across Smith's multiple scores clustering in the 72-78 range, runs afoul of these precedents. The cumulative pattern of Smith's IQ scores, all hovering near the constitutional threshold, is precisely the kind of evidence that Hall instructed courts to consider holistically rather than mechanically, as intellectual disability assessment must be 'informed by the medical community's diagnostic framework.' While I am sympathetic to Alabama's federalism interests and the principle from Powell v. Texas that states retain meaningful discretion in structuring their evidentiary frameworks, that discretion has constitutional limits that Hall and Moore clearly established, and those limits are not satisfied by an approach that categorically excludes consideration of measurement error and score patterns. Practical workability and institutional legitimacy counsel against allowing states to circumvent Atkins through procedural frameworks that predictably exclude valid clinical evidence, and the Eleventh Circuit correctly permitted Smith's claim to proceed to full consideration.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of the Eighth Amendment, as interpreted through Atkins v. Virginia and its progeny, prohibits the execution of intellectually disabled individuals, and Hall v. Florida established the constitutionally mandated floor that states cannot employ rigid IQ cutoffs that foreclose consideration of the standard error of measurement inherent in psychometric testing instruments. The research materials confirm that neither the district court nor the Eleventh Circuit found intellectual disability solely because a score fell within the margin of error; rather, consistent with Hall and Moore I, they correctly determined that Smith's pattern of scores\u2014ranging from 72 to 78 across multiple administrations\u2014required proceeding to adaptive functioning analysis, which is precisely the methodology Hall and Moore I compel. Alabama's framework, as applied here, risks the same constitutional defect identified in Hall: treating IQ scores as mechanically dispositive without accounting for their inherent imprecision, contrary to the professional clinical consensus the Court recognized as constitutionally relevant. While I am attentive to the federalism concerns raised by the Commissioner and acknowledge that states retain substantial discretion under Atkins to structure their evidentiary frameworks, that discretion cannot extend to procedures that categorically foreclose the individualized assessment the Eighth Amendment requires.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The Eighth Amendment's prohibition on executing intellectually disabled individuals, as established in Atkins and refined through Hall, Moore I, and Moore II, requires courts to employ current clinical diagnostic standards rather than rigid numerical cutoffs. Hall v. Florida explicitly held that 'when a person has taken multiple tests, each separate score must be assessed' considering the standard error of measurement, and that 'the analysis of multiple IQ scores jointly is a complicated endeavor,' directly undermining Alabama's argument for a mechanical bright-line threshold. Smith's five IQ scores ranging from 72-78, when evaluated through the clinically required lens of standard error of measurement, plausibly place his true IQ at or below 70, and Moore I and Moore II make clear that states cannot substitute non-clinical factors or artificially restrictive evidentiary frameworks for the individualized, clinically-grounded assessment the Constitution demands. As a former public defender acutely aware of the irreversible consequences of wrongful execution, I find that procedural fairness and the practical stakes of capital punishment require that courts have the latitude to holistically assess cumulative IQ data rather than deny a hearing based on a single-point numerical threshold that clinical science itself treats as imprecise.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.771,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

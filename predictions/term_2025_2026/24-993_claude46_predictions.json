@@ -1,0 +1,669 @@
+[
+  {
+    "docket": "24-993",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Heck v. Humphrey doctrine bars a plaintiff from bringing a Section 1983 civil rights claim for prospective injunctive relief when his underlying criminal conviction has not been invalidated.",
+      "legal_provision": "42 U.S.C. \u00a7 1983 (Civil Rights Act); First and Fourth Amendment of the U.S. Constitution; Heck v. Humphrey doctrine (512 U.S. 477, 1994)",
+      "petitioner_position": "Gabriel Olivier argues that the Heck v. Humphrey bar should not apply to claims for prospective injunctive relief under Section 1983, because Heck was designed to prevent collateral attacks on criminal convictions through damages claims, not to foreclose forward-looking equitable relief that seeks to enjoin unconstitutional government conduct \u2014 such as the City of Brandon's alleged pattern of unlawful arrests \u2014 regardless of the validity of his prior conviction.",
+      "respondent_position": "The City of Brandon argues that Olivier's Section 1983 claims are properly barred under Heck v. Humphrey because granting the requested relief would necessarily imply the invalidity of his underlying criminal conviction, which has not been overturned; additionally, respondents raise procedural defenses including forfeiture, estoppel, res judicata, and note that a related Fifth Circuit case (Siders v. City of Brandon) further undermines petitioner's legal position, making any remand futile.",
+      "key_precedents": [
+        "Heck v. Humphrey, 512 U.S. 477 (1994)",
+        "Olivier v. City of Brandon, 121 F.4th 512 (5th Cir.) (panel decision with Richman, C.J., dissenting)",
+        "Siders v. City of Brandon, Mississippi, 123 F.4th 293 (5th Cir. Dec. 11, 2024)",
+        "42 U.S.C. \u00a7 1983",
+        "Preiser v. Rodriguez, 411 U.S. 475 (1973)",
+        "Spencer v. Kemna, 523 U.S. 1 (1998)",
+        "Nelson v. Campbell, 541 U.S. 637 (2004)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's argument that Wilkinson v. Dotson announced a categorical rule applying Heck 'no matter the relief sought' remains the most serious challenge to my position, but as Justice Kagan correctly identifies, that language arose in a context where the relief sought would directly and necessarily implicate conviction validity \u2014 it was not a considered holding that purely prospective injunctive relief targeting future municipal conduct falls within Heck's bar. My minimalist instincts counsel resolving this case on the narrowest available ground: Heck's own operative test asks whether a judgment 'would necessarily imply the invalidity of a conviction,' and prospective injunctive relief enjoining the City of Brandon from future unconstitutional arrests simply does not satisfy that logical predicate \u2014 the conviction remains legally valid and undisturbed. As Chief Justice, I would assign the majority opinion with instructions to write narrowly on this specific question \u2014 whether Heck bars prospective injunctive relief for noncustodial plaintiffs who lacked any habeas pathway \u2014 leaving undisturbed Heck's damages bar and avoiding any broader pronouncement about Heck's continued vitality, which should preserve the 7-2 alignment while protecting institutional legitimacy. Justice Alito's concern about collateral attacks through equity's back door would have genuine force if the injunction required a court to declare the prior conviction invalid, but enjoining future municipal conduct is conceptually distinct from that determination and does not require it.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "After careful reflection on my colleagues' arguments across two rounds of deliberation, I am persuaded to change my vote. Justice Kagan's textual analysis is ultimately correct under my own methodology: Heck's operative holding is that \u00a7 1983 claims are barred when a judgment 'would necessarily imply the invalidity of a conviction,' and this is a logical test about the relationship between relief and conviction validity, not a categorical bar. I had resisted this conclusion by relying on Wilkinson v. Dotson's 'no matter the relief sought' language, but as Justice Barrett correctly identifies, that language arose in a context where the relief sought \u2014 release from confinement \u2014 directly and necessarily implicated conviction validity, making it dicta as applied to purely prospective injunctive relief targeting future municipal conduct. Most importantly, as an originalist I must acknowledge that Heck itself was a doctrinal innovation grafting common-law tort principles onto \u00a7 1983's text, and faithfully applying Heck's own stated 'necessarily imply' test \u2014 rather than expanding it beyond that rationale through broad readings of Wilkinson dicta \u2014 is the more textually disciplined approach; extending Heck categorically to prospective injunctive relief that can coexist with a valid prior conviction would compound the original doctrinal innovation without textual warrant.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Kagan's point about the malicious prosecution analogy being inherently damages-specific has genuinely moved me. I had been focused on the practical reality that adjudicating Olivier's injunction would require examining the constitutionality of the conduct underlying his conviction \u2014 but Justice Kagan and Justice Gorsuch correctly identify that this is not the same as declaring the conviction invalid. A court can find that the City of Brandon's pattern of conduct violates the Fourth Amendment going forward while leaving the jury's verdict and Olivier's conviction legally intact and unreversed. My concern about collateral attacks through equity's 'back door' retains some force, but I acknowledge that Heck's own operative test \u2014 'necessarily imply the invalidity' \u2014 is a logical predicate that prospective municipal injunctions do not satisfy in the same way damages claims do. Justice Thomas's reliance on Wilkinson v. Dotson's 'no matter the relief sought' language remains the strongest argument for the respondent's position, but I am persuaded that language arose in a context where the relief directly implicated conviction validity, and extending it categorically to purely forward-looking equitable relief would stretch Heck beyond its stated rationale.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas makes the strongest argument for the respondent by emphasizing that the Heck majority deliberately rejected Justice Souter's narrower habeas-availability rationale and adopted a broader rule \u2014 but this reading proves too much. The Heck majority's analogy to malicious prosecution was the vehicle for its holding, and malicious prosecution as a common-law tort is inherently a damages doctrine; its 'favorable termination' element has no natural analog in equity. Justice Kagan correctly identifies that Heck's operative test \u2014 whether a judgment 'would necessarily imply the invalidity of a conviction' \u2014 is a logical relationship test, not a categorical bar, and prospective injunctive relief enjoining future municipal conduct simply does not require this Court to declare Olivier's prior conviction invalid. Justice Thomas's stare decisis argument also cuts against him here: Heck itself was a doctrinal innovation grafting common-law tort principles onto Section 1983, and faithfully applying Heck's own stated rationale \u2014 rather than expanding it beyond that rationale \u2014 is the most coherent application of stare decisis. The real-world consequence Justice Jackson highlights is decisive for me: extending Heck to bar prospective relief would leave noncustodial plaintiffs like Olivier \u2014 who never had access to habeas and often lack resources to pursue post-conviction remedies \u2014 with no meaningful check on ongoing unconstitutional municipal practices, a result that Section 1983's broad remedial mandate cannot tolerate.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's most serious remaining argument is that Wilkinson v. Dotson's 'no matter the relief sought' language reflects a deliberate categorical choice by the Court, not mere dicta limited to its facts \u2014 and I want to engage that directly rather than simply cabining it. But as Justice Barrett correctly observes, Wilkinson involved prisoners seeking release-related relief where the logical connection to conviction validity was direct and unavoidable; the Court's broad language was doing work in that specific context, not announcing a rule that prospective injunctive relief against future municipal conduct \u2014 relief that can coexist with an unreversed conviction without requiring any court to declare it invalid \u2014 falls within Heck's bar. Justice Alito's concern that enjoining the City of Brandon 'necessarily requires' finding the underlying conduct unconstitutional conflates the merits inquiry with the Heck bar: a court can find a municipal policy unconstitutional going forward without adjudicating whether Olivier's specific conviction was wrongly obtained, just as courts routinely enjoin future unconstitutional practices without vacating past judgments. The workable rule that emerges from Heck's own text \u2014 asking whether the specific relief sought would necessarily imply invalidity of the conviction, not whether the underlying facts overlap \u2014 preserves Heck's core damages-bar rationale while preventing the Fifth Circuit's overbroad extension from immunizing ongoing unconstitutional municipal conduct from any equitable check.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge to my position by noting that the Heck majority deliberately rejected Justice Souter's narrower habeas-availability rationale in favor of a broader common-law malicious prosecution analogy \u2014 suggesting the Court intended a rule untethered to whether habeas was available. But this argument proves too much: even the malicious prosecution analogy, which Justice Thomas correctly identifies as the doctrinal foundation, is inherently a damages-based tort doctrine. Malicious prosecution at common law required proof of a favorable termination as a prerequisite to recovering damages, not as a prerequisite to obtaining an injunction against future tortious conduct \u2014 equity operated on different principles. Wilkinson v. Dotson's language that Heck applies 'no matter the relief sought' was stated in the context of prisoners seeking release-related relief that would directly and necessarily imply invalidity of their confinement, and I agree with Justice Kagan that this language should not be read categorically to sweep in purely prospective injunctive relief that can coexist with a valid prior conviction without logically requiring a court to declare it void. The textual test Heck itself articulates \u2014 whether relief 'would necessarily imply the invalidity of a conviction' \u2014 is the operative standard, and prospective injunctive relief enjoining future municipal conduct simply does not satisfy that logical predicate.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's most compelling point \u2014 that Wilkinson v. Dotson stated Heck applies 'no matter the relief sought' \u2014 remains the hardest obstacle for our position, but as Justice Kagan correctly observes, that language arose in a context where the relief sought would directly implicate conviction validity, and reading it as a categorical rule sweeping in purely prospective municipal injunctions would extend Heck far beyond its own 'necessarily imply' test. Justice Alito's practical concern that enjoining the City of Brandon from future arrests 'of this type' necessarily requires adjudicating the unconstitutionality of the conduct underlying Olivier's conviction is the strongest remaining argument for the respondent, but this conflates the logical predicate of the relief with its incidental factual findings \u2014 a court can enjoin a pattern of future municipal conduct without formally declaring the prior conviction void, just as courts routinely issue prospective injunctions against government practices without nullifying past enforcement actions. The malicious prosecution analogy at Heck's core was a damages doctrine, and its favorable-termination element served the specific function of preventing a plaintiff from recovering money damages in a way that would logically contradict a standing conviction \u2014 that function simply has no parallel when the relief sought is a forward-looking injunction against future municipal conduct that can coexist with the conviction's continued legal validity. I remain confident that the narrow ruling Chief Justice Roberts envisions \u2014 preserving Heck's damages bar while correcting the Fifth Circuit's overbroad extension to prospective relief for noncustodial plaintiffs who lacked any habeas path \u2014 is both doctrinally sound and appropriately institutionalist.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's most formidable argument \u2014 that the Heck majority deliberately rejected Justice Souter's habeas-availability rationale in favor of a broader malicious prosecution analogy \u2014 has been thoroughly engaged by my colleagues, and I find the collective response persuasive: the malicious prosecution analogy is inherently damages-specific, and its 'favorable termination' element was designed to prevent a plaintiff from recovering money damages by collaterally attacking a valid conviction, not to bar prospective equitable relief that can coexist with that conviction's legal validity. Justice Kagan correctly identifies that Heck's operative test \u2014 whether relief 'would necessarily imply the invalidity of a conviction' \u2014 is a logical inquiry, not a categorical bar, and prospective injunctive relief enjoining future municipal conduct by the City of Brandon does not require this Court to adjudicate the validity of Olivier's prior conviction. Justice Alito's concern about practical collateral attacks through equity's 'back door' deserves serious attention, but the answer is to apply Heck's 'necessarily imply' test rigorously to the specific relief requested rather than to extend the bar categorically to all \u00a7 1983 claims touching past unconstitutional conduct. I remain with the Petitioner, and I would write narrowly: Heck does not bar prospective injunctive relief for noncustodial plaintiffs where the relief sought does not logically require a court to declare the prior conviction invalid, leaving Heck's damages bar fully intact.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Thomas makes the strongest opposing argument \u2014 that the Heck majority deliberately rejected Justice Souter's narrower habeas-availability rationale and adopted a broader malicious prosecution analogy, meaning the bar applies regardless of custody status or remedy type. But this reading proves too much: the malicious prosecution analogy itself is a damages-specific doctrine, and as Justice Kagan correctly notes, Heck's operative test asks whether relief 'would necessarily imply the invalidity' of a conviction \u2014 a logical inquiry that prospective injunctive relief targeting future municipal conduct simply fails to trigger. Justice Thomas also concedes that Heck's common-law grafting onto Section 1983's text raises serious originalist concerns, which actually undermines the case for extending Heck beyond its expressly stated rationale rather than supporting it. My background as a public defender reinforces what Justice Sotomayor identifies: the populations most harmed by an overbroad Heck rule are those who, like Olivier, were never incarcerated and thus had no habeas pathway \u2014 leaving them with no federal remedy whatsoever for ongoing unconstitutional municipal conduct, a result Section 1983's broad remedial mandate cannot countenance.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Heck v. Humphrey's favorable termination requirement was grounded in the specific concern that damages claims under Section 1983 not serve as collateral attacks on valid criminal convictions, a rationale that does not translate cleanly to prospective injunctive relief that seeks only to prevent future unconstitutional conduct rather than to undermine a past judgment. The Court in Nelson v. Campbell (2004) demonstrated that Heck's bar should not be extended beyond its core logic, and applying it to foreclose forward-looking equitable relief would leave plaintiffs like Olivier \u2014 who was never in custody and thus had no access to habeas corpus \u2014 with no remedy whatsoever for alleged ongoing constitutional violations, a result Justice Souter's Spencer v. Kemna concurrence warned against. My preference for narrow rulings counsels in favor of resolving only the prospective relief question as applied to plaintiffs who lacked any habeas path, without disturbing Heck's core holding as to damages claims, thereby preserving institutional legitimacy while correcting the Fifth Circuit's overextension of the doctrine. The Fifth Circuit's panel majority swept too broadly, and Chief Judge Richman's dissent correctly identified that Heck's rationale simply does not compel barring injunctive relief that does not necessarily imply the invalidity of a prior conviction.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As I noted in my Heck concurrence, Section 1983's text does not itself impose a favorable termination requirement, but the Court unanimously adopted one by interpreting the statute against the backdrop of well-settled common law principles existing at the time of its 1871 enactment \u2014 principles under which a valid criminal conviction served as a defense to related tort claims. The majority in Heck deliberately rejected Justice Souter's narrower habeas-availability rationale and adopted a broader rule grounded in the analogy to malicious prosecution, meaning the bar applies regardless of whether the plaintiff is in custody or can access habeas relief. Olivier's request for prospective injunctive relief, if granted, would necessarily imply the invalidity of his underlying conviction, placing his claim squarely within Heck's scope as the Fifth Circuit majority correctly recognized; the nature of the remedy sought does not dissolve the fundamental incompatibility between the relief requested and the unreversed conviction. While I harbor serious originalist reservations about Heck's policy-driven common law grafting onto Section 1983's text, Olivier has not asked us to overrule Heck, and stare decisis on this point \u2014 combined with the respondents' additional procedural defenses including res judicata \u2014 counsels affirming the judgment below.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I acknowledge the textual argument that Heck v. Humphrey, 512 U.S. 477 (1994), was framed around a damages claim analogized to malicious prosecution, the practical consequences of allowing prospective injunctive relief to circumvent the favorable termination requirement concern me deeply from a law enforcement and finality standpoint. Olivier's conviction remains valid and unoverturned, and granting injunctive relief that necessarily implies the unconstitutionality of the conduct underlying that conviction would effectively allow a collateral attack on a final criminal judgment through the back door of equity \u2014 precisely the kind of end-run around habeas corpus that Heck and Preiser v. Rodriguez, 411 U.S. 475 (1973), were designed to prevent. The respondents' procedural defenses, including res judicata and the reinforcing Fifth Circuit precedent in Siders v. City of Brandon, further counsel against disturbing the lower court's judgment. Permitting such suits would undermine the finality of criminal convictions and create perverse incentives that burden law enforcement with civil litigation over conduct already adjudicated lawful by a jury.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Heck v. Humphrey's favorable-termination requirement was grounded in an analogy to the common-law tort of malicious prosecution, which is inherently a damages-based doctrine \u2014 the Court's reasoning in Heck does not naturally extend to prospective injunctive relief that seeks only to enjoin future unconstitutional conduct rather than to relitigate the validity of a past conviction. Section 1983's broad remedial mandate, as a civil rights statute, must be construed to preserve access to equitable relief for vulnerable individuals facing ongoing unconstitutional government conduct, particularly where \u2014 as here \u2014 the plaintiff alleges a pattern of unlawful arrests that threatens future harm. While I acknowledge the force of Wilkinson v. Dotson's language suggesting Heck applies regardless of relief sought, that case involved relief that would directly and necessarily imply the invalidity of a conviction, whereas purely prospective injunctive relief targeting future conduct by the City of Brandon does not require this Court to declare Olivier's prior conviction invalid. Denying forward-looking equitable relief to individuals who cannot satisfy the favorable-termination requirement \u2014 often because they lack resources to pursue post-conviction remedies \u2014 would leave the most vulnerable populations without any meaningful check on unconstitutional municipal practices.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text and logic of Heck v. Humphrey center on whether a judgment 'would necessarily imply the invalidity of a conviction or sentence' \u2014 a formulation that is about the logical relationship between the relief sought and the conviction's validity, not a categorical bar on all \u00a7 1983 claims by convicted persons. Prospective injunctive relief targeting a municipality's pattern of unconstitutional conduct does not necessarily imply that Olivier's prior conviction was invalid; enjoining future unlawful arrests by the City of Brandon is forward-looking equitable relief that can coexist with the legal validity of a past conviction. Wilkinson v. Dotson reinforces this reading by holding that \u00a7 1983 claims for prospective relief survive Heck when they do not necessarily implicate conviction validity, and Nelson v. Campbell similarly preserved space for claims that can be 'redressed without any effect on the underlying conviction.' The Fifth Circuit's extension of Heck to bar purely prospective injunctive relief in Clarke v. Stalder represents an unwarranted doctrinal expansion that frustrates \u00a7 1983's core statutory purpose of providing a remedy for ongoing constitutional violations, and a workable, textually grounded rule should limit Heck to its stated scope.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Reading Heck v. Humphrey's text and reasoning carefully, the Court's 'favorable termination' requirement was expressly crafted to prevent civil damages actions from functioning as collateral attacks on outstanding criminal convictions \u2014 a concern rooted in the analogy to malicious prosecution doctrine and the relationship between \u00a7 1983 and habeas corpus established in Preiser v. Rodriguez. Prospective injunctive relief seeking to enjoin future unconstitutional conduct does not 'necessarily imply the invalidity' of a prior conviction in the same manner a damages award would; it is forward-looking and does not require a court to adjudge the past conviction void. Extending Heck to bar injunctive relief would go beyond the doctrine's textual and logical foundation, effectively immunizing ongoing unconstitutional government conduct from equitable remedy whenever a plaintiff carries a prior conviction \u2014 an absurd result that \u00a7 1983's broad remedial text plainly does not compel and that Justice Souter's Spencer v. Kemna concurrence warned against when habeas is unavailable. Consistent with my commitment to reading statutes as written and refusing to expand judge-made doctrines beyond their reasoned textual and historical moorings, I would hold that Heck does not bar Olivier's claim for prospective injunctive relief.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Heck v. Humphrey's favorable-termination requirement was explicitly grounded in the Court's analogy to the common-law tort of malicious prosecution and was directed at damages claims where a judgment would necessarily imply the invalidity of an outstanding conviction \u2014 not at prospective injunctive relief seeking to enjoin future unconstitutional government conduct. The text and reasoning of Heck focused narrowly on Section 1983 damages actions, and extending its bar to forward-looking equitable relief would stretch the doctrine well beyond its doctrinal foundations, as Justice Souter's concurrence recognized in tying Heck's scope to the availability of habeas corpus as an alternative remedy. Practical workability and judicial restraint counsel against reading Heck to foreclose prospective relief that does not require a court to adjudicate the validity of a prior conviction but rather addresses a pattern of allegedly unconstitutional future conduct by the City of Brandon. While the respondent's procedural defenses and the Siders decision complicate the posture, the appropriate course is to remand for the lower courts to address those issues rather than to endorse an overbroad application of Heck that would leave plaintiffs without any equitable remedy against ongoing constitutional violations.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A careful textual and originalist reading of Heck v. Humphrey, 512 U.S. 477 (1994), reveals that the Court's favorable-termination requirement was grounded in the specific concern that damages actions would function as collateral attacks on outstanding criminal convictions \u2014 a concern rooted in the analogy to habeas corpus doctrine articulated in Preiser v. Rodriguez, 411 U.S. 475 (1973). The Heck majority's reasoning was explicitly tethered to the damages context, and Justice Souter's concurrence underscored that the doctrine's coherence depends on the availability of habeas as an alternative channel; where habeas is unavailable \u2014 as with a noncustodial plaintiff on probation who has completed custody \u2014 extending Heck to bar prospective injunctive relief produces an anomalous result that forecloses all federal judicial review of allegedly unconstitutional government conduct. Wilkinson v. Dotson, 544 U.S. 74 (2005), while stating Heck applies 'no matter the relief sought,' addressed a different factual posture involving prisoners seeking release-related relief, and its language should not be read to categorically sweep in purely forward-looking injunctive claims that do not necessarily require a court to declare the prior conviction invalid. Applying Heck's bar to prospective injunctive relief in this noncustodial context would stretch the doctrine beyond its textual and doctrinal foundations, effectively immunizing ongoing unconstitutional municipal conduct from any Section 1983 challenge \u2014 a result inconsistent with the broad remedial purposes Congress embedded in 42 U.S.C. \u00a7 1983.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Heck v. Humphrey doctrine, as the Court's own reasoning in that decision makes clear, was grounded in an analogy to the common-law tort of malicious prosecution \u2014 a doctrine whose 'favorable termination' requirement is an element specific to damages claims, not to prospective injunctive relief. Extending Heck to bar forward-looking equitable relief would produce absurd practical consequences: it would immunize ongoing unconstitutional government conduct \u2014 here, an alleged pattern of unlawful arrests by the City of Brandon \u2014 simply because a plaintiff paid a fine and never had the opportunity or incentive to challenge a minor conviction through habeas corpus. As Justice Souter's concurrence in Spencer v. Kemna, 523 U.S. 1 (1998), and the Court's reasoning in Nelson v. Campbell, 541 U.S. 637 (2004), suggest, Heck's reach should not be mechanically extended beyond its core rationale of preventing collateral attacks on extant convictions through damages suits. Procedural fairness and equal protection demand that individuals \u2014 particularly those who, like Olivier, were never incarcerated and thus lacked access to habeas relief \u2014 retain a meaningful avenue under Section 1983 to enjoin prospectively unconstitutional enforcement practices.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.769,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "24-993",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Heck v. Humphrey doctrine bars a plaintiff from bringing a Section 1983 civil rights claim for prospective injunctive relief when his underlying criminal conviction has not been invalidated.",
+      "legal_provision": "42 U.S.C. \u00a7 1983 (Civil Rights Act); U.S. Constitution First and Fourth Amendments; Heck v. Humphrey, 512 U.S. 477 (1994) doctrine limiting civil rights suits that would imply invalidity of criminal convictions",
+      "petitioner_position": "Gabriel Olivier argues that the Heck v. Humphrey bar should not apply to claims seeking purely prospective injunctive relief under Section 1983, because Heck was designed to prevent collateral attacks on criminal convictions through damages claims, not to foreclose forward-looking constitutional challenges to allegedly unconstitutional government policies and practices; he contends that blocking injunctive relief leaves citizens without a remedy to challenge ongoing unconstitutional conduct by the City of Brandon and its officials, implicating First and Fourth Amendment rights.",
+      "respondent_position": "The City of Brandon argues that Heck v. Humphrey properly bars Olivier's claims because granting the requested relief would necessarily imply the invalidity of his underlying criminal conviction, which has not been overturned; respondents further contend that Olivier's claims suffer from independent procedural defects including forfeiture, estoppel, and res judicata, and point to the related Fifth Circuit case Siders v. City of Brandon (123 F.4th 293, 2024) as materially relevant authority that Petitioner failed to disclose; respondents argue the case presents presentment problems and that even a remand would not ultimately benefit Petitioner.",
+      "key_precedents": [
+        "Heck v. Humphrey, 512 U.S. 477 (1994)",
+        "Olivier v. City of Brandon, 121 F.4th 512 (5th Cir.) (panel decision with Richman, C.J., dissenting)",
+        "Siders v. City of Brandon, Mississippi, 123 F.4th 293 (5th Cir. Dec. 11, 2024)",
+        "42 U.S.C. \u00a7 1983",
+        "Preiser v. Rodriguez, 411 U.S. 475 (1973) (foundational habeas/civil rights boundary case)",
+        "Spencer v. Kemna, 523 U.S. 1 (1998) (Heck and injunctive relief discussion)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's remaining concern \u2014 that a federal court declaring the underlying arrest and prosecution unconstitutional would 'functionally undermine the conviction's legitimacy' regardless of remedy label \u2014 is the strongest argument against my position, but it conflates the practical effect of litigation with the legal standard Heck actually imposes. Heck's 'necessarily implies invalidity' test is a precise doctrinal inquiry, not a vague functional one, and prospective injunctive relief targeting the City of Brandon's ongoing enforcement policies can be granted without a court adjudging Olivier's conviction invalid. I am now more confident in the narrow vacate-and-remand approach: the Fifth Circuit applied Heck categorically without conducting the 'necessarily implies invalidity' analysis that Heck itself requires as a threshold matter, and that procedural error alone justifies reversal without this Court needing to resolve the broader question of whether Heck can ever bar injunctive relief. As Chief Justice, I would assign the majority opinion with instructions to write narrowly on the 'necessarily implies invalidity' analysis requirement, leaving the categorical question for another day \u2014 Justice Thomas's movement to our side, even with moderate confidence, confirms that a minimalist holding grounded in Heck's own internal logic can command a broad coalition without overreaching.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Alito's argument that the Heck majority expressly rejected Justice Souter's narrower concurrence remains the most serious challenge to the petitioner's position, and I do not dismiss it lightly \u2014 Justice Scalia's majority opinion was deliberately broad in its rejection of approaches that would limit Heck based on the 'fortuity' of the plaintiff's circumstances. However, after further reflection, I am persuaded by Justice Gorsuch's textualist point that the majority's rejection of Souter's concurrence addressed custody status as the limiting principle, not the categorical distinction between retrospective damages and purely prospective injunctive relief that does not require a court to adjudge the conviction invalid; these are analytically distinct questions. The 'necessarily implies invalidity' test \u2014 which is Heck's own internal limiting principle \u2014 does the necessary work here: if prospective injunctive relief against the City of Brandon's enforcement policies genuinely does not require a federal court to declare Olivier's conviction invalid, then Heck's core habeas-channeling rationale is not implicated, and Section 1983's broad remedial text, which imposes no favorable-termination requirement, controls. I remain at moderate confidence because Justice Alito's concern about artful pleading is real and the Heck majority's language is genuinely broad, but the originalist and textualist methodology I apply counsels against extending a judicially-crafted doctrine beyond the structural rationale that generated it.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.44999999999999996,
+        "reasoning": "Justice Thomas's reconsideration is the most significant development in this deliberation, and his textualist analysis \u2014 that Heck's favorable-termination requirement was structurally premised on the damages-as-collateral-attack concern, not on a categorical rule applicable to all forms of relief \u2014 genuinely undermines my prior position. I had argued that the form of relief should not determine whether the collateral attack concern is triggered, but I must concede that Justice Barrett and Justice Gorsuch are correct that Wilkinson v. Dotson's 'no matter the relief sought' language addressed habeas exclusivity for release claims, not a categorical foreclosure of prospective injunctive relief that does not require a court to adjudge the conviction invalid. My remaining concern \u2014 that artful pleading of injunctive relief could swallow Heck's rule \u2014 is better addressed through rigorous application of the 'necessarily implies invalidity' test on remand, as Chief Justice Roberts suggests, rather than through a categorical bar that leaves ongoing constitutional violations entirely unremedied. I therefore join the majority in vacating and remanding, though I write separately to emphasize that the 'necessarily implies invalidity' analysis must be applied with full rigor to prevent the injunctive relief exception from becoming a vehicle for collateral attacks on undisturbed convictions.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the most serious challenge when he warns that allowing injunctive relief to circumvent Heck creates a 'significant loophole' for artful pleading, and Justice Thomas correctly notes that Heck's majority explicitly rejected Justice Souter's narrower approach. But this argument proves too much: Heck's malicious prosecution analogy was developed in the specific context of damages claims where a monetary judgment would necessarily imply the invalidity of a conviction, and the majority's broad language must be read against that factual backdrop. As Justice Kagan rightly emphasizes, Wilkinson v. Dotson's 'no matter the relief sought' language addressed whether habeas was the exclusive remedy for release from custody \u2014 not whether Heck categorically bars forward-looking injunctive relief that targets ongoing municipal policies rather than the validity of a past conviction. The real-world consequence of the Fifth Circuit's ruling is to leave citizens like Olivier \u2014 who cannot access habeas because they are not in custody \u2014 entirely without a federal remedy for ongoing First and Fourth Amendment violations, which is precisely the remedial gap Section 1983 was enacted to close, and no amount of textual gymnastics around Heck's broad dicta can justify that outcome when the doctrine's core rationale simply does not apply to prospective relief.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's remaining concern \u2014 that a federal court declaring the underlying arrest and prosecution unconstitutional would 'functionally undermine the conviction's legitimacy regardless of whether the remedy is labeled injunctive' \u2014 is the strongest argument for the respondent's position, but it conflates the practical effect of litigation with the doctrinal test Heck itself established. Heck's operative question is whether success on the \u00a7 1983 claim 'necessarily implies' invalidity of the conviction, and prospective injunctive relief targeting the City of Brandon's enforcement policies can be granted on the basis that those policies are unconstitutional going forward without any court adjudging that Olivier's specific conviction was wrongly entered. Justice Thomas's movement toward the petitioner's position is significant precisely because his originalist methodology \u2014 which would be most receptive to Heck's broad language \u2014 ultimately recognizes that the malicious prosecution analogy structurally presupposes a damages context, and that the habeas-channeling rationale simply does not map onto forward-looking injunctions. I agree with Chief Justice Roberts that the narrowest disposition \u2014 vacating and remanding with instructions to apply the 'necessarily implies invalidity' test rigorously to the specific injunctive relief sought \u2014 best preserves institutional credibility while correcting the Fifth Circuit's categorical error.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's remaining concern \u2014 that a federal court declaring the underlying arrest and prosecution unconstitutional would 'functionally undermine the conviction's legitimacy regardless of whether the remedy is labeled injunctive' \u2014 is the strongest argument for the respondent's position, but it conflates the practical effect of litigation with the doctrinal trigger Heck actually established. Heck's bar attaches when success on the \u00a7 1983 claim would 'necessarily imply' invalidity of the conviction, not when it might cast the conviction in an unflattering light; prospective injunctive relief targeting the City of Brandon's ongoing enforcement policies can be granted without any court adjudging Olivier's conviction invalid, because the injunction operates forward-looking against municipal conduct rather than backward-looking against the conviction's legitimacy. Justice Thomas's movement toward the petitioner's position is significant precisely because he began as the strongest voice for the respondent \u2014 his recognition that Heck's structural rationale was premised on preventing damages awards from functioning as de facto collateral attacks, a concern that does not translate with equal force to purely prospective relief, reflects sound originalist and textualist analysis rather than capitulation to the majority. I agree with Chief Justice Roberts that the narrowest disposition \u2014 vacating and remanding with instructions to apply the 'necessarily implies invalidity' test rigorously to the specific injunctive relief sought \u2014 best serves both doctrinal clarity and institutional credibility, without categorically resolving whether Heck can ever bar injunctive relief in cases where the relief truly would require declaring a conviction invalid.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's remaining concern \u2014 that a federal court declaring the underlying arrest and prosecution unconstitutional would 'functionally undermine the conviction's legitimacy regardless of whether the remedy is labeled injunctive' \u2014 is the strongest argument for the respondent's position, but it conflates the practical effect of litigation with the doctrinal test Heck actually established. Heck's operative question is whether success on the \u00a7 1983 claim would 'necessarily imply' the invalidity of the conviction, and prospective injunctive relief targeting the City of Brandon's ongoing enforcement policies can be granted without any court adjudging that Olivier's conviction was invalid \u2014 the injunction runs against future conduct, not past adjudications. Justice Thomas's movement toward the petitioner's position is significant precisely because he began from the strongest textualist reading of Heck's broad language and was persuaded by the structural argument that the malicious prosecution analogy and habeas-channeling rationale do not translate to forward-looking injunctions. I maintain my position that the narrowest appropriate disposition is to vacate and remand with instructions that the Fifth Circuit apply the 'necessarily implies invalidity' test rigorously to the specific injunctive relief sought, consistent with Chief Justice Roberts's minimalist approach, without categorically resolving whether Heck can ever bar injunctive relief in other factual configurations.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's most serious challenge \u2014 that Heck's majority expressly rejected Justice Souter's narrower concurrence and adopted a broad rule not contingent on remedy form \u2014 remains the strongest argument for the respondent, but I am not persuaded it controls here for the reasons Justice Gorsuch articulates: the majority's rejection of Souter's concurrence addressed custody status at the time of suit, not the categorical distinction between retrospective damages and purely prospective injunctive relief that does not require a court to declare a conviction invalid. The malicious prosecution analogy at Heck's core was a damages tort at common law, and extending that analogy to bar forward-looking injunctions against ongoing municipal enforcement policies stretches the doctrine beyond its structural rationale. I am most persuaded by Chief Justice Roberts' minimalist framing: we need not resolve the broadest question of whether Heck can ever bar injunctive relief, but only that the Fifth Circuit erred in applying a categorical bar without conducting the 'necessarily implies invalidity' analysis \u2014 this narrow ground preserves institutional credibility while ensuring that ongoing constitutional violations are not categorically immunized from federal judicial scrutiny simply because the plaintiff lacks access to habeas. Justice Alito's artful-pleading concern is legitimate and should be addressed rigorously on remand through the 'necessarily implies invalidity' test, but it cannot justify affirming a categorical rule that leaves Section 1983's remedial purpose entirely unfulfilled.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the strongest counterargument by pointing to Heck's majority opinion explicitly rejecting Justice Souter's narrower concurrence and adopting a broad rule not dependent on the form of relief sought \u2014 but this reading overextends what the Heck majority actually held. The Heck majority's malicious prosecution analogy was specifically concerned with damages claims that would function as collateral attacks on outstanding convictions, and the Court's statement that the rule does not turn on 'the fortuity of incarceration' addressed custody status, not the categorical distinction between retrospective damages and purely prospective injunctive relief. As Justice Kagan correctly observes, Wilkinson v. Dotson's 'no matter the relief sought' language must be read in context \u2014 that case addressed whether habeas was the exclusive remedy for release from custody, not whether Heck forecloses forward-looking injunctions against ongoing unconstitutional enforcement policies that do not require a court to declare a prior conviction invalid. My background as a public defender reinforces my conviction that categorically immunizing unconstitutional government policies from prospective judicial scrutiny \u2014 leaving citizens with no federal remedy whatsoever \u2014 is incompatible with Section 1983's foundational remedial purpose and produces precisely the 'curious remedial oddity' Justice Souter identified in Spencer v. Kemna.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The narrowest and most institutionally sound resolution here is that Heck v. Humphrey, 512 U.S. 477 (1994), was designed specifically to address damages claims that would collaterally attack the validity of an underlying conviction, not to foreclose purely prospective injunctive relief challenging ongoing unconstitutional government conduct. As Justice Souter's concurrence in Spencer v. Kemna, 523 U.S. 1 (1998), recognized, applying Heck to bar all Section 1983 relief creates a 'remedial oddity' that leaves serious constitutional violations entirely unremedied, a result inconsistent with the broad remedial purposes of 42 U.S.C. \u00a7 1983. Consistent with my preference for narrow rulings, I would vacate and remand on the limited ground that the Fifth Circuit panel majority erred in mechanically extending Heck's favorable-termination requirement to prospective injunctive relief, without reaching the broader question of whether Heck's application should turn on habeas availability, and without prejudging the respondents' independent procedural defenses including res judicata and estoppel, which the lower courts may address on remand. This approach preserves institutional legitimacy by resolving only what is necessary, respects Preiser v. Rodriguez's boundary between habeas and Section 1983, and avoids sweeping pronouncements that could destabilize settled doctrine.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As an originalist, I must follow the actual holding of Heck v. Humphrey as written by Justice Scalia, which expressly rejected Justice Souter's narrower concurrence limiting Heck to damages claims by prisoners in custody. The Heck majority adopted a broad rule grounded in the analogy to malicious prosecution at common law, which required favorable termination of prior criminal proceedings regardless of the plaintiff's custody status or the remedy sought \u2014 a rule the majority explicitly stated did not turn on the 'fortuity' of incarceration. While I am sympathetic to Olivier's argument that blocking prospective injunctive relief may leave citizens without a remedy for ongoing unconstitutional conduct \u2014 a concern that implicates the original design of Section 1983 as a broad remedial statute \u2014 the text and reasoning of Heck as actually decided by the Court's majority forecloses claims that would necessarily imply the invalidity of an undisturbed conviction, whether the relief sought is damages or injunctive in nature. I note, however, that this case presents a genuine tension in our precedents that may warrant future reconsideration of Heck's scope through proper originalist analysis of Section 1983's text and the historical relationship between civil rights suits and habeas corpus at the time of enactment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I acknowledge the textual argument that Heck v. Humphrey, 512 U.S. 477 (1994), was decided in the context of a damages claim and analogized to the common-law tort of malicious prosecution, the majority opinion authored by Justice Scalia expressly rejected Justice Souter's narrower approach and adopted a broad rule that does not turn on the fortuity of custody status or the precise form of relief sought. Granting prospective injunctive relief that would necessarily imply the invalidity of Olivier's undisturbed criminal conviction would undermine the core principle Heck established \u2014 that Section 1983 cannot be used as a vehicle to collaterally attack a valid, unreversed conviction. The practical consequences of allowing injunctive relief to circumvent Heck's favorable-termination requirement would create a significant loophole that savvy plaintiffs could exploit to relitigate the constitutional validity of their convictions through artful pleading, which is precisely the kind of end-run around established doctrine that courts must guard against. Furthermore, the related Fifth Circuit authority in Siders v. City of Brandon, 123 F.4th 293 (2024), which petitioner failed to disclose, reinforces the respondent's position and raises serious concerns about the integrity of the petitioner's presentation to this Court.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Heck v. Humphrey was designed to prevent collateral attacks on criminal convictions through damages claims where habeas relief was available and implicated \u2014 it was never intended to foreclose purely prospective injunctive relief challenging ongoing unconstitutional government conduct. Extending Heck's bar to prospective injunctive relief would leave citizens like Olivier without any federal remedy to challenge First and Fourth Amendment violations by government actors, a result wholly inconsistent with Congress's broad remedial purposes in enacting 42 U.S.C. \u00a7 1983. As the concurring and dissenting opinions in Spencer v. Kemna recognized, where a plaintiff has no meaningful access to habeas relief and seeks only forward-looking relief rather than invalidation of a conviction, the core rationale of Heck \u2014 preventing circumvention of habeas exhaustion requirements \u2014 simply does not apply. The practical consequence of the Fifth Circuit's overbroad ruling is to immunize municipalities from constitutional accountability for ongoing unconstitutional policies, disproportionately harming vulnerable populations who lack the resources to pursue alternative remedies, which is precisely the injustice Section 1983 was enacted to address.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text and purpose of 42 U.S.C. \u00a7 1983 presumptively provides a remedy for constitutional violations, and Heck v. Humphrey's favorable termination requirement was designed specifically to prevent end-runs around habeas corpus procedures by plaintiffs seeking to invalidate their custody \u2014 not to foreclose purely prospective injunctive relief challenging ongoing unconstitutional government conduct. As five Justices recognized across Heck and Spencer v. Kemna, the doctrine's reach should be cabined to the 'core of habeas,' per Wilkinson v. Dotson, 544 U.S. 74 (2005), and extending it to bar injunctive relief would produce the 'curious remedial oddity' Justice Souter identified \u2014 leaving more serious constitutional violations entirely unremedied while lesser claims proceed. A workable reading of Heck limits its bar to claims where relief would necessarily require undoing a conviction as a practical matter, whereas prospective injunctive relief targeting the City of Brandon's policies and practices operates forward-looking and does not require a court to declare the prior conviction invalid. Blocking such relief would undermine \u00a7 1983's core statutory purpose of providing a meaningful remedy for First and Fourth Amendment violations by state actors, a result the text and history of the Civil Rights Act cannot support.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1983 broadly authorizes suits for deprivation of constitutional rights and does not on its face condition prospective injunctive relief on prior invalidation of a criminal conviction. Heck v. Humphrey's favorable-termination requirement was grounded in the specific concern that damages awards would function as collateral attacks on outstanding convictions, a rationale that does not translate cleanly to forward-looking injunctive relief that seeks only to prevent future unconstitutional conduct rather than to undo a past judgment. As Justice Souter's concurrence in Spencer v. Kemna recognized, applying Heck to plaintiffs who lack any available habeas remedy would leave them entirely without recourse, an outcome in serious tension with \u00a7 1983's remedial purpose and the separation of powers principle that Congress, not courts, defines the scope of civil rights remedies. Wilkinson v. Dotson's statement that claims may be barred 'no matter the relief sought' must be read in context\u2014it addressed release from custody, not purely prospective injunctions against ongoing unconstitutional enforcement policies\u2014and extending Heck categorically to bar prospective relief would impermissibly insulate government conduct from constitutional scrutiny through judicial construction rather than statutory text.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Heck v. Humphrey's core rationale, as Justice Souter's controlling concurrence in Spencer v. Kemna makes clear, was to prevent \u00a7 1983 from becoming a vehicle for collateral attacks on convictions that would circumvent habeas exhaustion requirements \u2014 a statutory tension that simply does not exist when a plaintiff seeks only prospective injunctive relief against future unconstitutional government conduct and lacks access to habeas because he is not in custody. Extending Heck to bar purely forward-looking injunctive relief would stretch the doctrine well beyond its institutional purpose and, as Justice Ginsburg noted in Spencer, individuals not 'in custody' fit within \u00a7 1983's broad remedial reach. The practical workability concern also weighs heavily here: if Heck bars both damages and prospective injunctive relief for non-custodial plaintiffs, it creates an anomalous remedial gap where ongoing First and Fourth Amendment violations by government actors could never be challenged in federal court, a result inconsistent with Congress's intent in enacting \u00a7 1983. While I take seriously the respondents' procedural objections including res judicata and forfeiture, the threshold Heck question warrants correction given the acknowledged circuit split and the Fifth Circuit majority's apparent overextension of the doctrine beyond its historical and textual foundations.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "A careful textualist and originalist reading of Heck v. Humphrey, 512 U.S. 477 (1994), reveals that the majority's favorable-termination requirement was explicitly grounded in an analogy to the common-law tort of malicious prosecution and the habeas exhaustion principles from Preiser v. Rodriguez, 411 U.S. 475 (1973) \u2014 both of which were concerned with damages claims and collateral attacks on custody, not forward-looking injunctive relief. The text of 42 U.S.C. \u00a7 1983 itself imposes no favorable-termination requirement, and extending Heck's judicially-crafted bar to purely prospective injunctive relief goes beyond what the doctrine's own internal logic supports, as Justice Souter's concurrence in Heck flagged this precise concern about overextension. While I take seriously the respondents' reliance on Wilkinson v. Dotson's language that Heck applies 'no matter the relief sought,' that statement must be read in context \u2014 Wilkinson addressed whether habeas was the exclusive remedy, not whether Heck categorically forecloses injunctive relief that does not necessarily imply invalidity of a conviction. The Fifth Circuit's panel majority erred in mechanically applying Heck without adequately analyzing whether the prospective injunctive relief sought here would necessarily imply the invalidity of Olivier's conviction, and the case warrants remand for that focused inquiry, though I acknowledge the procedural complications raised by Siders and the respondents' forfeiture arguments introduce meaningful uncertainty.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Heck v. Humphrey doctrine was designed to prevent collateral attacks on criminal convictions through damages claims that would necessarily imply their invalidity, rooted in the tension between habeas corpus and Section 1983 as articulated in Preiser v. Rodriguez\u2014but that rationale does not extend to purely prospective injunctive relief, which by definition does not undo a past conviction but rather addresses ongoing unconstitutional government conduct. As Justice Souter's influential concurrence in Spencer v. Kemna, 523 U.S. 1 (1998), recognized, applying Heck to bar individuals who lack meaningful access to habeas relief produces a 'curious remedial oddity' where the most serious constitutional violations go entirely unremedied, a result incompatible with Section 1983's broad remedial purpose. My background as a public defender reinforces my concern that categorically foreclosing injunctive relief under these circumstances would leave citizens\u2014particularly those already ensnared in the criminal justice system\u2014without any avenue to challenge ongoing First and Fourth Amendment violations by government actors, effectively immunizing unconstitutional policies from prospective judicial scrutiny. The procedural defects raised by respondents, including forfeiture and res judicata arguments, warrant careful examination on remand, but they do not resolve the threshold doctrinal question of whether Heck categorically bars prospective injunctive relief, which this Court should answer in the negative.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.771,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

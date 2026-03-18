@@ -1,0 +1,571 @@
+[
+  {
+    "docket": "22-196",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the admission of a non-testifying codefendant's redacted out-of-court confession that does not facially name the defendant but immediately inculpates them through surrounding trial context violates the Sixth Amendment's Confrontation Clause.",
+      "legal_provision": "Sixth Amendment to the United States Constitution, Confrontation Clause: 'In all criminal prosecutions, the accused shall enjoy the right...to be confronted with the witnesses against him.'",
+      "petitioner_position": "Adam Samia argues that the admission of his codefendant's redacted confession violated his Confrontation Clause rights because, even though the confession was redacted to remove his name, the surrounding trial context \u2014 including other evidence presented at trial \u2014 made it immediately and unmistakably clear that the confession referred to him. Samia contends that a redaction is constitutionally insufficient when it fails to prevent the jury from linking the confession to the defendant through contextual inference, and that courts must assess the inculpatory effect of a redacted confession in light of the broader trial context rather than evaluating the confession in isolation. He further argues that a limiting instruction directing the jury to consider the confession only against the codefendant is inadequate to cure the constitutional violation when the contextual linkage is so obvious.",
+      "respondent_position": "The United States argues that the Confrontation Clause is not violated when a codefendant's confession is redacted to remove facial references to the defendant, accompanied by a proper limiting instruction directing the jury to consider it only against the codefendant. The government contends that the constitutional analysis should focus on whether the confession facially inculpates the defendant on its face, not on whether other trial evidence might lead the jury to connect the confession to the defendant. The government further argues that extending the Confrontation Clause analysis to encompass the broader trial context would be unworkable, would undermine joint trials, and would conflict with established precedent permitting redacted confessions with limiting instructions.",
+      "key_precedents": [
+        "Bruton v. United States, 391 U.S. 123 (1968) \u2014 established that admission of a non-testifying codefendant's confession that directly and powerfully implicates the defendant violates the Confrontation Clause, even with a limiting instruction",
+        "Richardson v. Marsh, 481 U.S. 200 (1987) \u2014 held that a redacted confession that is not incriminating on its face and becomes so only when linked with other evidence at trial does not violate the Confrontation Clause when accompanied by a limiting instruction",
+        "Gray v. Maryland, 523 U.S. 185 (1998) \u2014 held that redactions replacing a defendant's name with an obvious blank or the word 'deleted' are insufficient under Bruton because they still directly implicate the defendant",
+        "Crawford v. Washington, 541 U.S. 36 (2004) \u2014 reaffirmed the Confrontation Clause's core guarantee that testimonial statements of absent witnesses may not be used against a defendant unless the witness is unavailable and the defendant had a prior opportunity to cross-examine"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the most serious challenge \u2014 that when only two people committed the crime and one is testifying against the other, the 'another person' substitution is so transparently obvious that it collapses the inferential gap Richardson requires. This is a genuinely difficult argument, but I remain persuaded by Justice Kagan's point that adopting a context-sensitive standard creates an unworkable limiting principle: if we ask whether surrounding trial evidence makes the redaction's reference 'immediately apparent,' we effectively overrule Richardson, since prosecutors in joint trials necessarily present corroborating evidence that contextually identifies defendants. My minimalist instinct is to write narrowly \u2014 affirming that neutral substitutions like 'another person' fall on the Richardson side of the Gray line, while explicitly reserving the question of whether a redaction that is both facially incomplete AND contextually obvious might present a closer Gray question \u2014 thereby preserving the categorical framework without foreclosing edge cases. As Chief Justice, I would assign the majority opinion with instructions to avoid broader pronouncements about Crawford or limiting instructions, keeping the holding as narrow as possible to maintain the six or seven-justice coalition while leaving Justice Sotomayor and Justice Jackson's concerns for a future case presenting a more extreme factual record.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the most serious challenge \u2014 that when the trial context makes the inculpatory reference essentially self-evident, the redaction is functionally indistinguishable from the blanks condemned in Gray \u2014 but this argument, however forceful as a matter of practical justice, cannot be squared with the original public meaning of the Confrontation Clause. The Clause's operative phrase 'witnesses against him' attaches to the testimonial statement as the instrument of accusation; where the redacted confession does not, standing alone, bear testimonial witness against Samia, the constitutional violation cannot be located in that statement but rather in the independent trial evidence \u2014 which is not the codefendant's statement at all. Justice Jackson's contextual-inference standard, while appealing in its concern for real-world defendants, would require courts to evaluate the entire evidentiary mosaic before admitting any redacted confession, a standard the Framers \u2014 who were familiar with and accepted joint trials \u2014 plainly did not contemplate, and which would, as Justice Kagan correctly identifies, render Richardson a dead letter and make joint trials constitutionally untenable. The proper remedy for prejudicial contextual linkage remains a severance motion, not an expansion of Bruton doctrine beyond the facial-incrimination line that Richardson and Gray deliberately established.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 that contextually obvious redactions are functionally indistinguishable from the blanks condemned in Gray \u2014 but this argument proves too much. If we adopt a context-sensitive standard asking whether surrounding trial evidence makes the inference 'immediate and unmistakable,' we effectively overrule Richardson entirely, since virtually every redacted confession in a joint trial exists alongside other inculpatory evidence. The Richardson framework deliberately chose a facial-incrimination test precisely because a contextual test is unworkable: trial courts cannot reliably predict, pre-admission, which combinations of evidence will make a redaction 'obvious,' and post-hoc appellate review on that standard would be hopelessly fact-specific. Gray's narrow exception for blanks and 'deleted' markers is justified because those devices are self-evidently incomplete on their face \u2014 they announce to the jury that a name was removed \u2014 whereas 'another person' is a complete, grammatically neutral phrase that requires the jury to traverse independent inferential steps using separately admitted evidence, exactly what Richardson held permissible. Justice Jackson's public-defender instincts are understandable, but the proper remedy for prejudicial contextual linkage is a severance motion, not an expansion of Bruton that would effectively prohibit joint trials.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Kagan's administrability concern remains the most serious challenge to my position, and I want to engage it directly: the workability problem she identifies is real, but it does not justify a categorical rule that permits constitutional violations through strategic draftsmanship. The Richardson framework was never meant to be a safe harbor for redactions that are transparent given the trial's structure \u2014 when only two people committed the crime, one is testifying against the other, and the confession refers to 'another person' who traveled to the Philippines to commit the murder, no genuine inferential work separates the placeholder from Samia's name. Justice Alito argues that the proper remedy is severance, but this places an impossible burden on defendants who often cannot demonstrate pre-trial that the contextual linkage will be so obvious, and it effectively rewards prosecutors who strategically structure their cases to make redactions self-evident while maintaining the formal appearance of Richardson compliance. Justice Jackson and I agree that Gray's inquiry into whether the jury 'will realize the confession refers specifically to the defendant' cannot be cabined to facial analysis alone without reducing the Confrontation Clause to a drafting exercise \u2014 the constitutional guarantee must have substantive meaning, and I maintain my position that this case falls on the Gray side of the line.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor's challenge remains the most serious \u2014 her argument that the inferential gap collapses when trial context makes the reference essentially self-evident deserves genuine respect, and I do not dismiss it lightly. But Justice Jackson's proposed standard \u2014 asking whether the redaction leaves an inference requiring 'genuine independent reasoning' versus one that is 'essentially self-evident' \u2014 while intellectually attractive, simply relocates the administrability problem rather than solving it: trial courts would still need to evaluate the entire evidentiary record before admitting a redacted confession, and appellate courts would face hopelessly fact-specific review of whether the inference was 'genuine' or 'transparent.' The Richardson framework's facial-incrimination test is not merely a pragmatic convenience; it reflects a principled constitutional judgment that the Confrontation Clause attaches to the testimonial statement itself as the instrument of accusation, and that contextual inculpation through independently admitted evidence \u2014 however powerful \u2014 is a different constitutional problem with a different remedy in severance doctrine. I remain persuaded that 'another person' is a grammatically complete, neutral substitution that does not carry the self-announcing incompleteness of a blank or 'deleted' marker, and that collapsing this distinction would effectively overrule Richardson while providing no workable limiting principle for the joint trials the Framers plainly contemplated.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson's argument that Gray's functional inquiry should extend to contextually obvious inferences \u2014 particularly in a two-person crime scenario where the placeholder is 'transparent' \u2014 is the most serious challenge to my position, but it ultimately fails on textualist and structural grounds. Gray's holding was explicitly cabined to redactions that are 'obviously incomplete' on their face, and the Court's reasoning turned on the self-announcing nature of blanks and deletion markers, not on the inferential ease with which a jury might identify the defendant from surrounding evidence. As Justice Kagan correctly observes, adopting Justice Jackson's 'immediately apparent from trial context' standard would render Richardson a dead letter, since the very purpose of a joint trial is to present corroborating evidence that contextually connects defendants to each other's conduct \u2014 there is no principled stopping point once we abandon the facial-incrimination test. The Confrontation Clause's operative text attaches to the testimonial statement itself as the instrument of accusation, and where the redacted confession does not, standing alone, witness against Samia, the proper remedy for prejudicial contextual linkage remains a severance motion rather than an expansion of Bruton's categorical rule into an unworkable case-by-case inquiry.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument that the inculpatory sting remains 'fully intact' after cosmetic redaction is the most serious challenge to my position, but as I noted in my prior reasoning, this argument ultimately collapses the Richardson framework entirely \u2014 if we assess inculpatory effect in the full trial context, virtually every redacted confession becomes vulnerable because prosecutors necessarily present corroborating evidence. Justice Jackson's reframing is more nuanced: she argues Gray should extend to cases where the inculpatory inference is 'immediately apparent' from trial structure, such as a two-person crime where one is testifying. But this 'immediately apparent' standard, however appealing, provides no workable limiting principle \u2014 courts would be required to conduct a pre-admission assessment of the entire anticipated trial record, and appellate review would devolve into hopelessly fact-specific inquiries about inferential difficulty. The Gray Court's own language cabined its holding to redactions 'obviously incomplete' on the face of the confession itself, and 'another person' is a grammatically complete neutral substitution that does not signal to a juror, without independent evidence, that a name was removed \u2014 the proper remedy for the prejudice Justice Jackson identifies remains a severance motion, not an expansion of Bruton beyond the facial-incrimination line.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the most serious challenge \u2014 that when the trial context makes the inculpatory inference 'immediately apparent,' we are functionally in Gray territory regardless of the facial neutrality of the placeholder. This argument has genuine force, and I take seriously Justice Jackson's point that Richardson was premised on genuine inferential work separating the confession from the defendant. However, the argument ultimately fails under my textualist and originalist methodology for the reason Justice Kagan identifies most precisely: the Confrontation Clause's operative protection attaches to the testimonial statement itself as the instrument of accusation, and where the redacted confession does not, standing alone, witness against Samia, the constitutional violation cannot be located in the codefendant's statement \u2014 it must be located in the surrounding evidence, which is not testimonial accusation by the codefendant at all. Adopting a context-sensitive standard would require courts to evaluate the entire evidentiary record before admitting any redacted confession, a standard that has no limiting principle and would render Richardson a dead letter, collapsing the categorical framework the Court has deliberately maintained; the proper remedy for prejudicial contextual linkage remains a severance motion, not an expansion of Bruton doctrine beyond the facial-incrimination line that Gray itself carefully cabined.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's argument that 'another person' requires the jury to 'traverse independent inferential steps' is the most sophisticated defense of the Respondent's position, but it mischaracterizes what happens in a two-perpetrator case where one defendant is testifying: the inferential gap is not genuinely independent reasoning but rather a single, immediate logical step that any juror would take in milliseconds. The collective weight of my colleagues' administrability concern \u2014 voiced most forcefully by Justice Kagan \u2014 deserves serious engagement, but I cannot accept that constitutional protection should be calibrated to prosecutorial convenience; the Confrontation Clause's guarantee was not designed to be workable only when it imposes no burden on joint trial administration. Justice Barrett's textualist argument that the redacted confession must 'stand alone' as an accusation misreads Gray, which explicitly rejected the notion that facial examination alone determines whether a confession 'witnesses against' a defendant \u2014 Gray's functional inquiry into jury comprehension is incompatible with a purely face-of-the-document test. I maintain my position because the Richardson framework was premised on genuine inferential independence, and where that independence is illusory \u2014 as when trial context makes the placeholder substitution immediately transparent \u2014 Gray's constitutional protection must apply, even if articulating that standard requires careful doctrinal work that I would undertake in dissent.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under my minimalist approach, Richardson v. Marsh established a workable bright-line rule that the Confrontation Clause analysis focuses on whether a redacted confession is incriminating on its face, not on whether contextual linkage with other trial evidence might inculpate the defendant \u2014 and that rule, accompanied by a proper limiting instruction, satisfies Bruton's concerns. Gray v. Maryland carved out a narrow exception for redactions so obvious (blanks, 'deleted') that they function as direct accusations, but extending that exception to encompass all contextual inferences would swallow Richardson entirely and render joint trials constitutionally untenable. The confession here, unlike the redactions in Gray, does not on its face point an accusatory finger at Samia; any inculpatory inference requires the jury to traverse multiple inferential steps using independently admitted evidence, precisely the scenario Richardson held does not trigger Bruton. Adopting Petitioner's context-sensitive framework would impose an unworkable standard on trial courts, undermine the institutional value of settled precedent, and unnecessarily expand constitutional doctrine beyond what the text and prior holdings require.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Applying the original public meaning of the Confrontation Clause, the right to be 'confronted with the witnesses against him' was understood at the founding to require face-to-face cross-examination of those who bear testimonial witness against the accused \u2014 a framework Crawford v. Washington, 541 U.S. 36 (2004), correctly restored. Where a codefendant's confession has been genuinely redacted to remove facial references to the defendant, the confession does not, on its face, function as testimony 'against' the defendant in the constitutionally operative sense; it is the surrounding trial evidence \u2014 not the confession itself \u2014 that creates the inculpatory linkage. Richardson v. Marsh, 481 U.S. 200 (1987), correctly drew this line: the Confrontation Clause is not violated when a redacted confession becomes inculpatory only through inference from independent trial evidence, provided a proper limiting instruction is given. Extending Bruton's categorical rule to encompass contextual inferences drawn from wholly separate evidence would stretch the Clause beyond its original meaning and render joint trials constitutionally unworkable, a result the Framers \u2014 who were familiar with joint trials \u2014 plainly did not intend.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Richardson v. Marsh established the controlling principle that the Confrontation Clause is not violated when a codefendant's confession is redacted to eliminate facial references to the defendant and becomes incriminating only through linkage with other trial evidence, provided a proper limiting instruction is given. Samia's case falls squarely within Richardson's framework: the confession did not name him on its face, and any inculpatory inference required the jury to connect it with separately introduced trial evidence \u2014 precisely the 'linkage' scenario Richardson held does not trigger Bruton. Gray v. Maryland is distinguishable because it addressed redactions using obvious blanks or the word 'deleted' that still directly pointed to the defendant, whereas a neutral reference such as 'another person' does not carry that same direct accusatory force. Extending Bruton to encompass contextual inferences drawn from the broader trial record would be unworkable, would effectively prohibit joint trials in most multi-defendant cases, and would contradict the practical-consequences reasoning that Richardson explicitly relied upon to cabin Bruton's reach.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Confrontation Clause's core guarantee, reaffirmed in Crawford v. Washington, is that defendants have the right to confront witnesses against them, and that right cannot be circumvented through cosmetic redactions that leave the inculpatory sting fully intact. Gray v. Maryland established that the constitutional inquiry cannot be confined to whether a confession facially names the defendant \u2014 what matters is whether the jury will 'realize that the confession refers specifically to the defendant,' and when surrounding trial context makes that inference immediate and unmistakable, the redaction is functionally no different from using the defendant's name outright. The government's proposed facial-incrimination-only test would allow prosecutors to engineer Bruton violations simply by substituting a placeholder for a name while simultaneously presenting overwhelming contextual evidence that fills in the blank, effectively gutting the Confrontation Clause's protection for the most vulnerable defendants \u2014 those facing joint trials where a codefendant's confession is often the most damning evidence. Limiting instructions are constitutionally insufficient in precisely these circumstances, as Bruton itself recognized that some evidence is so powerfully inculpatory that we cannot realistically expect jurors to compartmentalize it, and the practical impact on defendants like Samia demands that courts assess the real-world inculpatory effect of a redacted confession in its full trial context.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The line drawn by Richardson v. Marsh and Gray v. Maryland turns on whether the confession facially and directly implicates the defendant \u2014 through an obvious blank, deletion marker, or explicit naming \u2014 versus whether inculpation requires inferential linkage to other trial evidence. Where a redaction removes the defendant's name and replaces it with a neutral placeholder or simply omits reference to the defendant altogether, Richardson's framework permits admission with a limiting instruction, even if other trial evidence might lead a jury to connect the dots. Extending Bruton's categorical exclusion rule to encompass all contextual inculpation would be administratively unworkable \u2014 as the government correctly argues, virtually any redacted confession in a joint trial could be challenged on the ground that surrounding evidence makes the reference obvious \u2014 and would effectively doom the joint trial as an institution without a clear, administrable limiting principle. The pragmatically sound and textually coherent rule is to assess the confession on its face: if it does not directly and facially name or obviously signal the defendant, Richardson controls and a proper limiting instruction suffices, leaving contextual prejudice arguments to severance motions rather than Confrontation Clause doctrine.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Confrontation Clause's original meaning, as reaffirmed in Crawford v. Washington, protects against the admission of testimonial statements where the defendant had no opportunity for cross-examination \u2014 but the constitutional inquiry under Bruton and its progeny has consistently focused on whether the confession facially and directly implicates the defendant, not on the broader evidentiary mosaic assembled at trial. Richardson v. Marsh drew a workable line: a redacted confession that requires inferential linkage to other trial evidence to become incriminating does not violate the Clause when accompanied by a limiting instruction, precisely because the jury is presumed capable of following such instructions in that circumstance. Gray v. Maryland extended Bruton only to 'obvious' redactions \u2014 blanks and the word 'deleted' \u2014 that effectively shout the defendant's name to any attentive juror without requiring genuine inferential work, not to cases where the connection depends on independent evidence presented elsewhere at trial. Extending the Confrontation Clause analysis to encompass the full trial context would collapse the Richardson framework entirely, render joint trials nearly impossible to administer, and go beyond what the text and original understanding of 'witnesses against him' requires \u2014 the codefendant's statement, standing alone as redacted, does not witness against Samia on its face.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Richardson v. Marsh established a workable, bright-line rule that the Confrontation Clause is not violated when a codefendant's confession is redacted to remove facial references to the defendant and is accompanied by a proper limiting instruction, reserving Bruton's protection for confessions that are incriminating on their face. Extending Bruton to encompass contextual inculpation would effectively swallow Richardson's holding, since virtually any redacted confession admitted in a joint trial could become inculpatory through the surrounding evidence \u2014 a result that would severely undermine the practical availability of joint trials that serve legitimate judicial economy interests. Gray v. Maryland drew the constitutional line at redactions that are obviously incomplete on their face, such as blanks or the word 'deleted,' which signal to the jury that a name has been removed; a confession that uses neutral substitutions and does not facially reference the defendant falls on the Richardson side of that line, even if other trial evidence permits an inferential connection. Consistent with my emphasis on precedent, workability, and judicial restraint, I would affirm the judgment below and decline to extend Bruton beyond its established boundaries into the realm of contextual linkage that Richardson expressly declined to reach.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Applying originalist and textualist principles to the Confrontation Clause, the text guarantees the right to be 'confronted with the witnesses against him,' which the Court in Crawford v. Washington confirmed applies to testimonial statements used against the defendant. The critical doctrinal line established in Richardson v. Marsh \u2014 and reinforced in Gray v. Maryland \u2014 is categorical rather than case-by-case: confessions that are 'directly accusatory' on their face violate Bruton, while confessions redacted to eliminate any reference to the defendant's existence require linkage through other trial evidence and are permissible with a limiting instruction. Samia's confession, which replaced his name with a neutral phrase rather than an obvious blank or 'deleted' marker, falls on the Richardson side of the Gray/Richardson divide because it does not 'obviously refer directly to someone' in the manner Gray condemned, and extending Bruton to encompass contextual inferences of this kind would collapse the categorical framework the Court has deliberately maintained across Bruton, Richardson, and Gray in favor of unworkable case-by-case adjudication. The limiting instruction, while imperfect, is constitutionally sufficient under the established framework when the confession is not facially accusatory.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Confrontation Clause's core guarantee, reaffirmed in Crawford v. Washington, requires that defendants have the opportunity to cross-examine witnesses whose testimonial statements are used against them, and this right cannot be circumvented through superficial redactions that leave the inculpatory inference fully intact. The line drawn by Bruton and refined in Gray v. Maryland focuses on whether the jury is likely to infer that the confession refers to the defendant \u2014 not merely whether the defendant's name appears on the face of the document \u2014 and when surrounding trial context makes the connection 'immediately and unmistakably clear,' the redaction is functionally indistinguishable from the obvious blanks condemned in Gray. Richardson v. Marsh permitted redacted confessions only where the inculpatory connection required genuine inferential linkage through independent evidence, not where the confession's reference to the defendant is essentially self-evident from the trial context; allowing prosecutors to exploit that distinction through strategic redaction would reduce the Confrontation Clause to a formalism that my background as a public defender compels me to reject. A limiting instruction cannot cure a constitutional violation when the jury would have to actively disregard what is plainly obvious, and permitting such confessions would impose precisely the kind of procedural unfairness and unequal treatment that the Sixth Amendment was designed to prevent.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.808,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "22-196",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the admission of a non-testifying codefendant's redacted out-of-court confession that does not facially name the defendant but immediately inculpates them through surrounding trial context violates the defendant's Sixth Amendment Confrontation Clause rights.",
+      "legal_provision": "Sixth Amendment to the United States Constitution, Confrontation Clause: 'In all criminal prosecutions, the accused shall enjoy the right...to be confronted with the witnesses against him.'",
+      "petitioner_position": "Adam Samia argues that even a redacted codefendant confession violates the Confrontation Clause when the surrounding trial context \u2014 including other evidence, witness testimony, prosecution arguments, and the number of defendants \u2014 makes it immediately apparent to the jury that the confession implicates the defendant. Samia contends that mere redaction is insufficient protection when contextual clues effectively restore the defendant's identity, rendering the limiting instruction inadequate and the admission unconstitutional. Supported by amici including the National Association of Federal Defenders and the New York Council of Defense Lawyers, Samia urges the Court to adopt a contextual approach requiring trial courts to assess the inculpatory effect of a redacted confession against the broader anticipated trial evidence before admission.",
+      "respondent_position": "The United States argues that the Confrontation Clause is not violated when a codefendant's confession is modified to remove direct facial references to the defendant and is accompanied by a proper limiting instruction directing the jury to consider it only against the confessing codefendant. The government contends that the constitutional inquiry should focus solely on whether the confession facially incriminates the defendant on its face, not on whether other independent trial evidence might lead a jury to connect the confession to the defendant. Adopting a broader contextual approach, the government warns, would be unworkable, would undermine joint trials, and would produce excessive mistrials and appeals.",
+      "key_precedents": [
+        "Bruton v. United States, 391 U.S. 123 (1968) \u2014 established that admission of a non-testifying codefendant's confession that directly and powerfully implicates the defendant violates the Confrontation Clause, even with a limiting instruction",
+        "Richardson v. Marsh, 481 U.S. 200 (1987) \u2014 held that a redacted confession that is not incriminating on its face and becomes so only when linked with other evidence at trial does not violate the Confrontation Clause when accompanied by a limiting instruction",
+        "Gray v. Maryland, 523 U.S. 185 (1998) \u2014 held that redactions replacing the defendant's name with an obvious blank or the word 'deleted' are insufficient under Bruton because they still directly implicate the defendant",
+        "Crawford v. Washington, 541 U.S. 36 (2004) \u2014 reaffirmed the Confrontation Clause's core guarantee that testimonial out-of-court statements may not be admitted against a defendant unless the declarant is unavailable and the defendant had a prior opportunity for cross-examination",
+        "Pointer v. Texas, 380 U.S. 400 (1965) \u2014 incorporated the Confrontation Clause against the states"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor's argument that the limiting instruction fiction 'collapses' when contextual identification is immediate and near-certain remains the most serious challenge to my position, and I credit her observation that Bruton's core concern is preventing the jury from drawing the very inference the Confrontation Clause prohibits. However, after reviewing my colleagues' reasoning, I am persuaded that her proposed standard lacks a workable limiting principle \u2014 as Justice Kagan correctly identifies, virtually every two-defendant joint trial with a redacted confession would become constitutionally suspect if 'immediate contextual inference' triggers Bruton, since jurors will almost always understand who 'the other person' is. The Gray line was carefully drawn at facial obviousness \u2014 redactions that themselves signal alteration without any inferential work from surrounding evidence \u2014 and that categorical distinction preserves Richardson's administrable framework while still prohibiting the most egregious transparent redactions. As Chief Justice, I would write narrowly to reaffirm Richardson's facial incrimination standard while clarifying that Gray's 'obvious reference' inquiry encompasses redactions that, even without typographical signals, leave no inferential work whatsoever for the jury \u2014 a modest clarification that acknowledges Justice Jackson's legitimate concerns without abandoning the workable framework that serves institutional interests.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's 'contextual transparency' argument remains the most serious challenge to my position, but it fails under originalist methodology for the reason I identified in round one: the Confrontation Clause's text \u2014 'confronted with the witnesses against him' \u2014 historically concerned direct testimonial accusations, not the cumulative inferential weight produced by combining a facially neutral redaction with independent trial evidence. Justice Jackson's invocation of Gray's 'likely to realize' language is the strongest textual hook for the petitioner's position, but Gray itself carefully cabined that inquiry to redactions that themselves \u2014 through blanks, dashes, or 'deleted' markers \u2014 signal to the jury that a specific name was excised, doing the pointing without any inferential work from surrounding evidence streams. Justice Sotomayor's proposed standard, as Justice Kagan correctly observes, has no stable limiting principle: if 'immediate contextual inference' triggers Bruton, virtually every two-defendant joint trial with a redacted confession becomes constitutionally suspect, since jurors will almost always understand who 'the other person' is from the trial's structure alone. The Richardson-Gray line drawn at facial obviousness is not merely pragmatically convenient \u2014 it reflects the original public meaning of the Clause, which never contemplated that the government's use of one defendant's confession against that defendant alone could be constitutionally infirm simply because a co-defendant happens to be tried simultaneously.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument that the limiting instruction 'fiction collapses' when contextual identification is immediate deserves serious engagement, but it proves too much \u2014 under her framework, virtually any redacted confession in a two-defendant trial where both defendants are present and other evidence exists would trigger Bruton, effectively nullifying Richardson. The key distinction I maintain is that Gray's 'obvious' redaction standard \u2014 blanks and 'deleted' markers \u2014 works precisely because those devices themselves, on the face of the document, signal to the jury that a name was removed and point directly at the defendant without requiring any inferential work from independent evidence streams. Justice Jackson's contextual transparency argument, while sympathetic from a fairness standpoint, conflates the constitutional inquiry with a sufficiency-of-evidence analysis; the Confrontation Clause concern in Bruton was about the direct, powerfully incriminating nature of a confession naming the defendant, not about whether a jury might reason from multiple evidence sources to a conclusion. The administrability concerns Justice Kavanaugh and I share are not merely pragmatic preferences but reflect a genuine constitutional principle: a rule that requires pretrial courts to survey all anticipated evidence for cumulative inculpatory effect has no limiting principle and no grounding in the text or original understanding of the Sixth Amendment.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's pragmatic concern \u2014 that my contextual approach would require pretrial courts to survey all anticipated evidence and effectively nullify Richardson \u2014 remains the strongest challenge to my position, but I continue to find it unpersuasive for a reason none of my colleagues have adequately addressed: the contextual transparency I am describing does not require a comprehensive evidentiary preview, but rather a straightforward assessment of the trial's obvious structural features. When there are only two defendants, one confesses, and the redaction substitutes a neutral term that maps immediately and exclusively onto the only other person at the defense table, no complex anticipatory survey is needed \u2014 the constitutional defect is visible from the trial's basic architecture before a single witness testifies. Justice Kagan and the majority conflate 'contextual inference requiring multi-step reasoning across independent evidence streams' \u2014 which Richardson properly places within the limiting instruction's curative reach \u2014 with 'immediate identification requiring no inferential work whatsoever,' which is precisely what Gray condemned. The Bruton line was drawn at 'powerfully incriminates,' not at 'facially names,' and a redaction so transparent that every juror understands its referent the moment they hear it fails that constitutional standard regardless of whether the word 'deleted' appears on the page.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor's most refined argument in Round 2 \u2014 that the contextual approach requires only assessing the 'obvious structure of the trial' rather than previewing all anticipated evidence \u2014 is genuinely more modest than I initially credited, and I want to engage with it seriously. She is right that in a two-defendant trial where one confesses and the redaction substitutes a neutral term that maps immediately onto the only other defendant, the limiting instruction may be doing very little constitutional work. However, I remain unpersuaded that this constitutes a categorical rule rather than a factor for trial court discretion, because the Gray line was drawn precisely at facial obviousness \u2014 the redaction itself doing the pointing \u2014 and extending it to 'structural obviousness' still lacks a principled stopping point: virtually every two-defendant trial has a structure where jurors will understand who 'the other person' is. Justice Roberts' suggestion that Gray's 'obvious reference' inquiry might encompass redactions that leave no inferential work in the specific two-defendant context is the most promising middle ground, but it still requires affirming here because the substitution in Samia required the jury to connect the confession to independent evidence streams, which is precisely what Richardson held is cured by limiting instructions. My pragmatic textualist methodology demands workable standards that courts can apply prospectively, and Justice Sotomayor's framework, however carefully cabined, still requires pretrial courts to make judgments about contextual transparency that will prove highly fact-specific and litigation-intensive.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor's argument that the limiting instruction fiction 'collapses' when contextual identification is immediate and near-certain remains the strongest challenge to my position, and I continue to take it seriously \u2014 but it ultimately fails under my methodology for the same reason Justice Thomas identifies: the Confrontation Clause's text and original meaning concern direct testimonial accusation, not the jury's inferential capacity when combining a facially neutral redaction with independently admitted evidence. The contextual transparency standard she advocates lacks any stable limiting principle, and as Justice Kagan correctly observes, virtually every two-defendant joint trial would become constitutionally suspect under that framework, since jurors will almost always be able to identify 'the other person' from surrounding context. Gray's holding was carefully cabined to redactions that themselves \u2014 on their face \u2014 signal to the jury that a specific name was excised, creating what is functionally a direct accusation without inferential work; a genuine neutral substitution that requires combining the confession with independent evidence streams falls within Richardson's safe harbor, and limiting instructions provide constitutionally adequate protection for that residual inferential risk. The administrability concerns are not merely pragmatic preferences but reflect a genuine constitutional principle: a rule requiring pretrial courts to survey all anticipated evidence for cumulative inculpatory effect has no anchor in the text the Framers ratified.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that the limiting instruction fiction collapses when contextual identification is immediate and near-certain in a two-defendant trial \u2014 deserves genuine engagement, but I remain persuaded that her proposed standard lacks a principled limiting principle. As Justice Kagan correctly identifies, if 'immediate contextual inference' triggers Bruton, virtually every two-defendant joint trial with a redacted confession becomes constitutionally suspect, since jurors will almost always understand who 'the other person' is when only two defendants are present. The Richardson-Gray framework drew its line at facial obviousness \u2014 whether the redaction itself signals to the jury that a name was removed \u2014 precisely because that standard is administrable and does not require pretrial courts to conduct an impossible survey of anticipated cumulative evidence. Justice Roberts' suggestion that Gray's 'obvious reference' inquiry might encompass redactions that leave 'no inferential work' for the jury is worth considering as a modest clarification, but even under that framing, a genuine neutral substitution that requires combining the confession with independent evidence streams falls within Richardson's safe harbor and is constitutionally cured by a limiting instruction.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor's argument that the limiting instruction fiction 'collapses' when contextual identification is immediate and near-certain remains the strongest challenge to my position, and I take seriously her point that Richardson's safe harbor was premised on genuine sanitization requiring multi-step inferential linkage \u2014 not transparent substitutions that map immediately onto the only other defendant in the courtroom. However, her proposed standard ultimately lacks the textual and historical anchor my methodology requires: the Confrontation Clause's original public meaning concerned direct testimonial accusation, and Gray's holding was carefully cabined to redactions that themselves \u2014 on their face \u2014 signal alteration, not to cases where surrounding evidence makes identity inferentially apparent. Justice Kagan correctly identifies the administrability problem: if 'immediate contextual inference' triggers Bruton, virtually every two-defendant joint trial with a redacted confession becomes constitutionally suspect, collapsing Richardson into a standardless case-by-case inquiry with no limiting principle grounded in the Clause's text. The Richardson-Gray framework draws a principled, administrable line at facial incrimination that trial courts can apply prospectively, and while I acknowledge Justice Jackson's concern that this can produce thin constitutional fig leaves, the remedy lies in trial court discretion to order genuine redaction or severance \u2014 not in constitutionalizing an unworkable contextual standard untethered from the Framers' understanding.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Kagan's pragmatic concern \u2014 that a contextual approach would require courts to 'preview all anticipated evidence' and render Richardson a dead letter \u2014 remains the strongest challenge to my position, but I continue to find it unpersuasive for a reason none of my colleagues have fully addressed: the administrability problem she identifies is already present in the Richardson-Gray framework itself, since Gray requires courts to assess whether a redaction 'obviously refers' to the defendant, which is itself a contextual judgment that cannot be made in a vacuum. Justice Barrett's textualist objection that the Confrontation Clause concerns 'direct testimonial accusations' rather than inferential linkage proves too much \u2014 Gray itself extended Bruton beyond literal naming to cover functionally equivalent direct identification, and the question is simply where that functional equivalence line falls. The seven-justice majority's reliance on the facial/inferential distinction treats the constitutional inquiry as a formalistic exercise divorced from what Bruton actually held: that limiting instructions are inadequate when a confession 'powerfully incriminates' the defendant, and a redaction so contextually transparent that every juror immediately understands the defendant's identity is functionally indistinguishable from direct naming regardless of whether a blank appears on the page. I maintain my position because the Confrontation Clause's procedural guarantee cannot be satisfied by a constitutional fig leaf, and trial courts' existing discretion to order genuine redaction or severance provides the workability safeguard my colleagues seek without abandoning defendants to transparently thin redactions.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under Richardson v. Marsh, the constitutional line was drawn at facial incrimination \u2014 a redacted confession that requires linkage with other trial evidence to implicate the defendant does not violate the Confrontation Clause when accompanied by a proper limiting instruction. While Gray v. Maryland extended Bruton to obvious redactions like blanks or 'deleted' that are tantamount to direct naming, the present case involves a genuine substitution that does not on its face identify the defendant, placing it closer to Richardson than Gray. Adopting a broad contextual approach would effectively swallow Richardson's rule, as virtually any redacted confession in a two-defendant trial could be said to 'immediately' implicate the other defendant through surrounding context, rendering joint trials constitutionally precarious and producing the very administrative unworkability Richardson sought to avoid. Consistent with my preference for narrow, institutionally stable rulings, I would affirm the facial-incrimination standard while acknowledging that trial courts retain discretion to order further redaction or severance when contextual inference is truly overwhelming and indistinguishable from direct identification.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Applying the original public meaning of the Confrontation Clause, the constitutional guarantee is satisfied when a confession does not facially name or directly accuse the defendant \u2014 the Clause's text speaks to being 'confronted with the witnesses against him,' which historically concerned direct testimonial accusations, not inferential linkage through surrounding trial context. Richardson v. Marsh correctly drew the constitutional line at facial incrimination, holding that a redacted confession that becomes inculpatory only through linkage with other evidence does not violate the Confrontation Clause when accompanied by a limiting instruction, and Petitioner's proposed contextual approach would improperly extend Bruton's narrow exception far beyond what the original meaning of the Clause requires. Gray v. Maryland is distinguishable because substituting an obvious blank or 'deleted' for a defendant's name is functionally equivalent to naming him directly \u2014 it still directly and powerfully implicates the defendant on the face of the confession itself \u2014 whereas a genuinely neutral redaction that requires independent inferential steps does not carry that same direct accusatory force. Adopting a sweeping contextual test would render the Confrontation Clause inquiry standardless, undermine the workability of joint trials that serve legitimate judicial economy interests, and effectively transform Bruton from a narrow exception into an expansive rule untethered from the text and original understanding of the Sixth Amendment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under Richardson v. Marsh, the Confrontation Clause inquiry properly focuses on whether a redacted confession is facially incriminating, not on whether contextual linkage with other trial evidence might lead a jury to draw inferences connecting the confession to the defendant. The line drawn in Richardson \u2014 distinguishing between confessions that directly and powerfully implicate a defendant on their face versus those that become incriminating only through linkage with independently introduced evidence \u2014 reflects a workable, administrable rule that courts can apply consistently before trial. Extending Bruton to cover contextual inculpation would render the rule unworkable, as prosecutors and trial courts cannot reliably predict in advance which combinations of evidence a jury might link together, threatening the viability of joint trials that serve legitimate law enforcement and judicial efficiency interests. Gray v. Maryland is distinguishable because it addressed obvious redactions \u2014 blanks and the word 'deleted' \u2014 that functioned as direct pointers to the defendant even without any other evidence, whereas a properly substituted neutral pronoun or generic reference, accompanied by a limiting instruction, satisfies constitutional requirements under the facial incrimination standard.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Confrontation Clause's core guarantee, reaffirmed in Crawford v. Washington, is that defendants have the right to confront witnesses against them, and this right cannot be circumvented through superficial redaction that leaves the jury fully capable of drawing the very inference Bruton sought to prevent. The line drawn in Gray v. Maryland is instructive: when a redaction 'obviously refers' to the nonconfessing defendant \u2014 whether through a blank, the word 'deleted,' or through surrounding trial context that makes the reference immediately apparent \u2014 the limiting instruction fiction collapses because no reasonable juror can compartmentalize what is effectively a direct accusation. Richardson v. Marsh's safe harbor applies only when the confession is genuinely sanitized to eliminate all reference to the defendant's existence, requiring true inferential linkage across independent evidence streams, not the immediate, near-certain contextual identification present here. Permitting the government to achieve through contextual transparency what it cannot achieve through facial naming would hollow out Bruton's protections for the most vulnerable defendants \u2014 those tried jointly with confessing codefendants \u2014 and reward prosecutorial gamesmanship over constitutional fidelity.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The line established by Bruton, Richardson, and Gray requires courts to assess whether a redacted confession is incriminating on its face or through obvious contextual inference \u2014 not whether independent trial evidence might lead a jury to connect the dots. Richardson explicitly approved redactions that eliminate direct reference to the defendant, holding that limiting instructions suffice when the confession becomes inculpatory only through linkage with other evidence, and Gray's holding was carefully cabined to 'obvious' redactions like blanks and 'deleted' placeholders that essentially shout the defendant's identity. Extending Bruton to cover any contextual inculpation would, as the government warns, render joint trials nearly impossible and create an unworkable standard requiring trial courts to preview all anticipated evidence before ruling on admissibility \u2014 a pragmatic concern that weighs heavily against Samia's position. A redaction that genuinely removes the defendant's name and does not obviously signal alteration falls within Richardson's safe harbor, and the limiting instruction, while imperfect, remains the constitutionally adequate remedy this Court has repeatedly endorsed for this category of cases.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Confrontation Clause's text guarantees the right to be confronted with 'witnesses against him,' and Crawford v. Washington confirms this means the opportunity for cross-examination of those who bear testimonial statements against the defendant. The line established by Bruton, Richardson, and Gray tracks a principled facial inquiry: Bruton prohibits confessions that directly and powerfully implicate the defendant on their face; Richardson permits redacted confessions that require linkage to independent trial evidence to become incriminating; and Gray prohibits only those 'obvious' redactions \u2014 blanks, the word 'deleted' \u2014 that themselves signal to the jury that a name was removed and point directly at the defendant without any inferential work from other evidence. Samia's contextual approach, while sympathetic, would require courts to conduct a pre-trial survey of all anticipated evidence to assess cumulative inculpatory effect, a standard that finds no footing in the text or original understanding of the Clause and would render the Richardson framework effectively a dead letter, producing the unworkable results Justice Scalia warned against in his Gray dissent. Where a redaction does not facially name or obviously signal the defendant's identity, the Confrontation Clause's demands are satisfied by a proper limiting instruction, and any remaining prejudice is a matter of trial management rather than constitutional violation.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The line drawn in Richardson v. Marsh \u2014 focusing on whether a confession is incriminating on its face rather than through inferential linkage with other trial evidence \u2014 reflects a workable, administrable bright-line rule that courts have applied for decades, and I am reluctant to abandon it absent compelling constitutional necessity. While Gray v. Maryland appropriately extended Bruton to confessions with obvious blanks or deletions that are functionally equivalent to naming the defendant, the contextual approach urged by Samia would effectively collapse the Richardson framework and render joint trials nearly impossible to administer, since virtually any redacted confession could be argued to implicate a codefendant through surrounding evidence. The practical workability concerns that animated Richardson's majority remain sound: requiring pretrial courts to assess the cumulative inculpatory effect of a confession against the full anticipated trial record would produce endless litigation, inconsistent results, and pressure toward severance in cases where joint trials serve legitimate judicial economy and prosecutorial interests. A proper limiting instruction, while imperfect, remains the constitutionally adequate remedy under Richardson for confessions that do not facially name the defendant, and the institutional costs of departing from this settled framework outweigh the marginal Confrontation Clause benefit of a broader contextual rule.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the original public meaning of the Confrontation Clause alongside the doctrinal framework established in Richardson v. Marsh and Gray v. Maryland, the constitutional inquiry properly focuses on whether the redacted confession facially and directly implicates the defendant, not on whether surrounding trial context might lead a jury to draw inferences connecting the defendant to the confession. Richardson drew a workable categorical line: a confession that eliminates all reference to the defendant's existence does not 'bear witness against' the defendant in the constitutionally relevant sense, and a proper limiting instruction is constitutionally adequate in such circumstances. Gray's refinement confirms that the critical question is whether the redaction itself signals to the jury that a specific defendant has been excised \u2014 an obvious blank or 'deleted' marker effectively restores the direct accusation \u2014 but where a confession is genuinely neutral on its face, the Confrontation Clause concern identified in Bruton is not triggered with the same force. Petitioner's proposed contextual approach, while not without intuitive appeal, lacks grounding in the original public meaning of 'witnesses against him' and would render the doctrine unworkably indeterminate, as virtually any redacted confession admitted in a joint trial could be challenged based on the cumulative inferential weight of other evidence.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Confrontation Clause's core guarantee, reaffirmed in Crawford v. Washington and established in Bruton, is that defendants have the right to confront witnesses against them \u2014 a right that cannot be adequately substituted by a limiting instruction when a confession effectively and immediately identifies the defendant to the jury. Gray v. Maryland's reasoning is instructive here: the Court held that redactions are constitutionally insufficient when the jury is 'likely to realize that the confession refers specifically to the defendant,' and the critical inquiry is whether the inculpatory inference is immediate and direct rather than requiring complex inferential linkage through independent evidence. Where surrounding trial context \u2014 including the number of defendants, other evidence, and prosecution arguments \u2014 renders the redaction transparently thin and the defendant's identity immediately apparent, the confession functions practically identically to the unredacted statement condemned in Bruton, and a limiting instruction cannot cure that constitutional defect. My background as a public defender reinforces my concern that allowing facially-redacted but contextually transparent confessions to be admitted with only a limiting instruction places an unrealistic faith in jurors' ability to compartmentalize evidence that immediately and powerfully points to the defendant, undermining the procedural fairness guarantees the Confrontation Clause was designed to protect.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.768,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

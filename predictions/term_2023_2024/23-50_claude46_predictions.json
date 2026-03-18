@@ -1,0 +1,671 @@
+[
+  {
+    "docket": "23-50",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a Fourth Amendment malicious prosecution claim under 42 U.S.C. \u00a7 1983 is barred when at least one charge in a multi-charge prosecution is supported by probable cause, even if another charge lacks probable cause and caused an unreasonable seizure.",
+      "legal_provision": "The Fourth Amendment to the United States Constitution (protection against unreasonable seizures) and 42 U.S.C. \u00a7 1983 (civil rights claims against state actors), with secondary implications from the Warrant Clause of the Fourth Amendment.",
+      "petitioner_position": "A plaintiff should be permitted to bring a Fourth Amendment malicious prosecution claim based on a charge lacking probable cause, even if other charges in the same prosecution were supported by probable cause. The presence of one valid charge should not automatically immunize officers from liability for baseless charges that independently caused or prolonged an unreasonable seizure. The 'any-crime' rule adopted by the Sixth Circuit improperly shields constitutional violations, incentivizes officers to add pretextual valid charges to cover baseless ones, and fails to account for situations where the unsupported charge materially altered the nature or duration of the plaintiff's detention.",
+      "respondent_position": "When at least one charge in a prosecution is supported by probable cause, the resulting seizure is constitutionally justified, and no Fourth Amendment malicious prosecution claim should lie regardless of whether other charges lacked probable cause. Respondents, supported by local government organizations and a coalition of states, argue that requiring charge-by-charge probable cause analysis would expose municipalities and officers to excessive litigation, undermine prosecutorial efficiency, and that the proper remedy for improperly added charges lies outside Fourth Amendment malicious prosecution doctrine. They further contend that plaintiffs should be required to demonstrate that any charge unsupported by probable cause actually changed the nature or duration of the seizure.",
+      "key_precedents": [
+        "Manuel v. City of Joliet, 580 U.S. 357 (2017) - established Fourth Amendment as the basis for malicious prosecution claims involving pretrial detention",
+        "Albright v. Oliver, 510 U.S. 266 (1994) - addressed constitutional basis for malicious prosecution claims",
+        "Gerstein v. Pugh, 420 U.S. 103 (1975) - established Fourth Amendment probable cause requirements for pretrial detention",
+        "Franks v. Delaware, 438 U.S. 154 (1978) - addressed warrant validity and false statements in warrant applications",
+        "Whren v. United States, 517 U.S. 806 (1996) - probable cause and pretextual stops under the Fourth Amendment",
+        "Thompson v. Clark, 596 U.S. 36 (2022) - clarified elements of Fourth Amendment malicious prosecution claims",
+        "Nieves v. Bartlett, 587 U.S. 391 (2019) - addressed probable cause in the context of retaliatory arrest claims"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The conference has reached a strong consensus around the causation-based limiting principle, and I am gratified that Justice Alito has narrowed his confidence in the respondent's position, acknowledging that a baseless charge demonstrably causing or materially extending detention creates a real constitutional injury. Justice Alito's remaining concern \u2014 that the Fourth Amendment's unit of analysis is the seizure itself rather than individual charges \u2014 is the most serious challenge to our position, but as I noted in my prior reasoning and as Justice Kagan correctly observes, Whren addressed officer subjective motivation in the context of a single valid basis for a stop, not the laundering of a wholly fabricated charge through a companion valid charge. The near-unanimous convergence on a causation requirement \u2014 plaintiffs must show the unsupported charge materially caused or extended the seizure beyond what the valid charge alone would have justified \u2014 provides the narrow, workable holding I would assign for the majority opinion, one that resolves this case on the least disruptive grounds while preserving the Fourth Amendment's core protection. As Chief Justice, I would write this opinion narrowly, cabining it to the specific circumstance where a charge lacking probable cause independently and demonstrably prolongs pretrial detention, leaving broader questions about charge-stacking and prosecutorial discretion for another day.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's remaining concern \u2014 that the Fourth Amendment's unit of analysis is the seizure itself rather than individual charges \u2014 is the most serious challenge to my position, but it does not survive scrutiny under my originalist methodology. As I noted in round one, the founding-era common law malicious prosecution tort evaluated probable cause on a charge-specific basis, and there is no historical evidence that the original public meaning of 'unreasonable seizure' permitted a valid charge to launder a baseless companion charge that independently caused or prolonged detention. Justice Alito has meaningfully narrowed his disagreement by acknowledging that a causation requirement addresses his core workability concerns, and I am gratified that the near-unanimous consensus among my colleagues \u2014 including Justice Jackson, whose practical experience as a public defender lends weight to the perverse-incentive concern \u2014 converges on requiring plaintiffs to demonstrate that the unsupported charge materially caused or extended the seizure. This causation-based limiting principle is not merely a pragmatic compromise; it is constitutionally required by the text's focus on the 'unreasonable' nature of the seizure, which cannot be satisfied by pointing to a valid charge when a distinct baseless charge independently operates to deprive a person of liberty.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "After careful reflection on my colleagues' arguments across two rounds of deliberation, I am persuaded to join the petitioner's position \u2014 but narrowly and with reservations I want to register clearly. Justice Kavanaugh's formulation is the one that moves me most: the key distinction is between Whren's context (a single stop with a single legal basis, where officer motivation was the issue) and the present case (distinct charges, each operating as an independent predicate for pretrial detention under Gerstein). I had been treating the seizure as the indivisible unit of Fourth Amendment analysis, but Manuel v. City of Joliet's extension of Fourth Amendment protection through pretrial detention means that when a baseless charge independently prolongs detention beyond what a valid charge alone would justify, there is a discrete constitutional injury that my seizure-centric framework failed to adequately account for. I remain deeply concerned about litigation exposure and workability, which is why I join only on the understanding that the causation requirement \u2014 the unsupported charge must have materially caused or extended the seizure \u2014 is not merely a limiting principle but a demanding threshold that plaintiffs must affirmatively prove with specificity, not merely allege; without that rigor, this holding risks converting \u00a7 1983 into a vehicle for collateral attacks on every multi-count prosecution. I would write separately to emphasize that the causation requirement must be construed strictly, consistent with my general skepticism of expansive interpretations that burden law enforcement.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito's respondent argument \u2014 that the unit of analysis under the Fourth Amendment is the seizure itself rather than individual charges, and that Whren v. United States supports immunity where any valid basis exists \u2014 is the strongest counterargument, but it fundamentally conflates the question of whether an initial arrest was lawful with whether the ongoing pretrial detention on a specific baseless charge is constitutionally justified. Gerstein v. Pugh requires individualized probable cause determinations, and Manuel v. City of Joliet extended Fourth Amendment protection through the entirety of pretrial detention, meaning a charge lacking probable cause that independently prolongs or materially alters that detention cannot be laundered by a companion valid charge. Justice Alito's reliance on Whren is misplaced because Whren addressed pretextual stops where probable cause existed for the actual offense \u2014 it did not address the situation where a charge fabricated without any probable cause independently extends a person's liberty deprivation. I am further persuaded by Justice Gorsuch's textual point that \u00a7 1983 provides a remedy for constitutional violations, not merely for prosecutions where every charge lacks probable cause, and by Justice Jackson's practical observation that the any-crime rule would perversely incentivize officers to append a valid charge to immunize fabricated ones \u2014 a result wholly incompatible with the Fourth Amendment's core purpose of protecting individual liberty from unjustified government seizure.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument: that Whren v. United States confirms probable cause for any lawful basis justifies a seizure, and that the unit of analysis under the Fourth Amendment is the seizure itself rather than individual charges. But Whren addressed whether officer subjective intent could invalidate an otherwise lawful stop \u2014 it did not address whether a charge entirely lacking probable cause can be laundered by a companion valid charge, which is a categorically different question. As Justice Gorsuch correctly notes, Manuel v. City of Joliet established that the Fourth Amendment's protection extends through pretrial detention and the constitutional injury is the unreasonable seizure itself, meaning a baseless charge that independently causes or prolongs detention creates a distinct constitutional injury that Whren's logic simply does not reach. I agree with Chief Justice Roberts and Justice Kavanaugh that a causation requirement \u2014 plaintiffs must show the unsupported charge materially caused or extended the seizure beyond what the valid charge alone would have justified \u2014 provides the workable limiting principle that addresses Justice Alito's legitimate concerns about litigation exposure without adopting a categorical immunity rule that has no grounding in Fourth Amendment text or common law tradition.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito's invocation of Whren v. United States is the strongest argument for the respondent's position, but it does not compel the any-crime rule: Whren addressed whether an officer's subjective motivation defeats probable cause for the charge actually supporting the stop, not whether a wholly fabricated charge lacking any probable cause can be laundered by a companion valid charge. The unit of analysis under Gerstein v. Pugh is whether there is probable cause for the detention \u2014 and where a baseless charge independently causes or materially prolongs that detention, the seizure is unreasonable as to that charge regardless of what else appears on the charging instrument. I am persuaded by Justice Kagan's workability point and Justice Roberts' institutional instinct that we should require a causal nexus \u2014 the unsupported charge must have materially caused or extended the seizure \u2014 which cabins the doctrine without adopting the Sixth Circuit's categorical immunity rule that perversely rewards officers who append pretextual valid charges to fabricated ones. The text of the Fourth Amendment, the original public meaning of 'unreasonable seizure,' and the common law malicious prosecution tradition Manuel instructs us to consult all point in the same direction: probable cause is assessed charge-specifically when distinct charges independently affect liberty.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's seizure-level analysis remains the most serious challenge to our position, but as I noted in round one and as virtually every colleague has now confirmed, Whren addressed officer motivation in the context of a single valid basis for a stop \u2014 it simply does not speak to whether a wholly fabricated charge that independently prolongs pretrial detention can be laundered by a companion valid charge. I am further persuaded by Justice Barrett's precise formulation that the Fourth Amendment's protection 'is only as strong as the weakest valid charge the government can manufacture' under the any-crime rule, which captures exactly why the Sixth Circuit's categorical immunity approach is constitutionally untenable. The near-unanimous convergence on a causation-based limiting principle \u2014 requiring plaintiffs to demonstrate the unsupported charge materially caused or extended detention beyond what the valid charge alone would have justified \u2014 addresses Justice Alito's legitimate workability and litigation-exposure concerns without adopting a rule that perversely incentivizes charge-stacking. I would write narrowly on this causation requirement, consistent with Chief Justice Roberts' institutional instinct, to preserve the Court's credibility and avoid sweeping doctrinal disruption while still vindicating the Fourth Amendment's core protection against unjustified liberty deprivation.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's respondent position \u2014 that the unit of Fourth Amendment analysis is the seizure itself rather than each individual charge \u2014 is the strongest counterargument, and it deserves serious engagement. He invokes Whren v. United States for the proposition that probable cause for any lawful basis justifies a seizure, but Whren addressed officer motivation in the context of a single valid basis for a stop, not whether a wholly fabricated charge that independently prolongs detention can be laundered by a companion valid charge. The Fourth Amendment's text protects against 'unreasonable seizures,' and Gerstein v. Pugh's requirement of individualized probable cause determinations cannot be satisfied at the prosecution-bundle level when distinct charges independently operate to extend or alter pretrial detention \u2014 to hold otherwise would mean the constitutional protection is only as strong as the weakest valid charge the government can manufacture. I am persuaded by Justice Gorsuch's point, consistent with his authorship in Manuel, that the constitutional injury is the unreasonable seizure itself, and I would require \u2014 as Justices Roberts, Thomas, Kagan, and Kavanaugh also suggest \u2014 a causal nexus between the unsupported charge and a distinct or prolonged deprivation of liberty as the necessary limiting principle to address respondents' legitimate workability concerns without abandoning Fourth Amendment text.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito's invocation of Whren v. United States is the strongest argument for the respondent's position, but it is ultimately inapposite: Whren addressed whether an officer's subjective motivation defeats an otherwise valid Fourth Amendment seizure, not whether a charge entirely lacking probable cause can be laundered by a companion charge that does have support. The unit of analysis in Whren was a single traffic stop with a single legal basis; here we are dealing with distinct charges, each of which must independently satisfy Gerstein's probable cause requirement as a predicate for detention. I find myself in substantial agreement with Justice Gorsuch's textual and historical analysis \u2014 the Fourth Amendment's protection against unreasonable seizures attaches to each discrete legal basis for detention, and the common law malicious prosecution tort evaluated probable cause on a charge-specific basis, as Justice Thomas correctly notes. I would, consistent with the emerging consensus among my colleagues, require plaintiffs to demonstrate that the unsupported charge materially caused or prolonged the seizure, which provides a workable limiting principle without wholesale immunizing deliberate constitutional violations of the kind my experience as a public defender taught me are all too real.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures attaches to the specific legal process causing detention, and Manuel v. City of Joliet established that the constitutional injury is the unlawful seizure itself, not merely the prosecution as a whole. A blanket any-crime rule that immunizes officers from liability for charges entirely lacking probable cause \u2014 where those charges independently prolonged or materially altered the nature of detention \u2014 cannot be squared with the Fourth Amendment's charge-specific probable cause requirements as articulated in Gerstein v. Pugh. However, consistent with my preference for narrow rulings and institutional legitimacy, I would not adopt a sweeping charge-by-charge rule; rather, I would hold that a plaintiff may maintain a Fourth Amendment malicious prosecution claim on a baseless charge only where that charge demonstrably caused or extended the seizure beyond what the supported charge alone would have justified \u2014 essentially codifying the Sixth Circuit's own footnote in Howse as the operative standard. This narrow holding preserves the core Fourth Amendment value against pretextual piling-on of charges while avoiding the litigation exposure concerns raised by respondents and their amici.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The Fourth Amendment's text protects against 'unreasonable seizures,' and as an originalist matter, a seizure effectuated in part through a charge wholly lacking probable cause is not rendered reasonable merely because another charge in the same prosecution happens to be supported by probable cause. The common law malicious prosecution tort, which Manuel v. City of Joliet instructs us to consult when defining the contours of Fourth Amendment malicious prosecution claims under \u00a7 1983, evaluated probable cause on a charge-specific basis \u2014 a prosecution 'instituted without any probable cause' as to a particular charge was actionable regardless of other valid charges. The 'any-crime rule' adopted by the Sixth Circuit has no grounding in the original public meaning of the Fourth Amendment or in founding-era common law, and it creates a perverse incentive for officers to append a pretextual valid charge to an otherwise baseless prosecution, effectively nullifying constitutional protections that the Fourth Amendment was designed to guarantee. However, I would require the plaintiff to demonstrate that the unsupported charge actually caused or materially prolonged the seizure, consistent with the Fourth Amendment's focus on the reasonableness of the seizure itself rather than converting \u00a7 1983 into a general common law tort remedy.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Fourth Amendment's probable cause requirement, as established in Gerstein v. Pugh, governs the lawfulness of the seizure itself \u2014 the detention \u2014 not each individual charge that may accompany it. As the Sixth Circuit correctly reasoned in Howse, a person is no more seized when detained on multiple charges than on a single valid charge, meaning the unit of analysis under the Fourth Amendment is the seizure, not the charging instrument. This approach aligns with Whren v. United States, which confirms that probable cause for any lawful basis justifies a seizure regardless of officer motivation, and with the practical reality that requiring charge-by-charge probable cause analysis would expose law enforcement and municipalities to excessive \u00a7 1983 litigation over prosecutorial charging decisions better addressed through other doctrinal channels. While I acknowledge the petitioner's concern about pretextual charges, the proper remedy lies in prosecutorial accountability mechanisms and, where applicable, Franks v. Delaware challenges to warrant applications \u2014 not an expansion of Fourth Amendment malicious prosecution doctrine that would fundamentally alter the seizure-based framework Manuel v. City of Joliet established.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The Sixth Circuit's 'any-crime' rule fundamentally misreads the Fourth Amendment's protection against unreasonable seizures by allowing a valid charge to immunize officers from liability for baseless charges that independently caused or prolonged detention. As Manuel v. City of Joliet (2017) made clear, the Fourth Amendment's inquiry centers on whether a specific seizure was constitutionally justified by probable cause \u2014 and where a charge lacking probable cause materially contributed to or extended pretrial detention, that constitutes a distinct constitutional injury cognizable under \u00a7 1983 regardless of other valid charges. The any-crime rule creates a perverse incentive for officers to pile on legitimate charges to shield fabricated ones, directly undermining the enforcement purpose of \u00a7 1983 and the Fourth Amendment's core guarantee articulated in Gerstein v. Pugh. From a practical standpoint, the rule falls hardest on vulnerable defendants who lack resources to challenge pretextual charging, and Thompson v. Clark (2022) reaffirmed that Fourth Amendment malicious prosecution doctrine must remain a meaningful check on state actors who abuse the charging process.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Fourth Amendment's text protects against unreasonable seizures on a charge-specific basis \u2014 if a charge lacks probable cause and independently caused or prolonged a detention, that seizure is unreasonable regardless of whether other charges were valid. Manuel v. City of Joliet established that the Fourth Amendment governs pretrial detention beyond the initial arrest, and its framework requires courts to identify the specific constitutional violation at issue, which necessarily demands a charge-by-charge analysis rather than a prosecution-wide immunity rule. The Sixth Circuit's 'any-crime' rule is both textually unsound and pragmatically perverse: it creates a perverse incentive for officers to append a valid charge to any baseless accusation, effectively immunizing constitutional violations and undermining \u00a7 1983's core enforcement purpose. However, workability concerns raised by respondents have merit, and I would require plaintiffs to demonstrate that the unsupported charge materially affected the nature or duration of the seizure \u2014 a causation requirement that cabins liability without wholesale abandoning Fourth Amendment protection.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of the Fourth Amendment protects against 'unreasonable seizures,' and the plain meaning of that guarantee attaches to each discrete legal basis for detention, not merely to whether some valid charge exists in a multi-charge prosecution. As I wrote in Manuel v. City of Joliet and as Thompson v. Clark reaffirmed, the Fourth Amendment's protection extends through the pretrial detention period, and the constitutional injury is the unreasonable seizure itself\u2014meaning a charge wholly lacking probable cause that independently causes or prolongs detention is itself an unreasonable seizure regardless of companion charges. The Sixth Circuit's 'any-crime' rule has no grounding in the original meaning of the Fourth Amendment or the text of \u00a7 1983, which provides a remedy for constitutional violations, not merely for prosecutions where every single charge lacks probable cause; adopting respondents' rule would perversely incentivize officers to append a pretextual but technically valid charge to immunize fabricated charges from constitutional scrutiny, a result wholly at odds with the Fourth Amendment's purpose. Consistent with Gerstein v. Pugh's requirement that each detention be justified by probable cause, and applying the rule of lenity toward the individual's liberty interest, I would hold that a plaintiff may pursue a Fourth Amendment malicious prosecution claim based on a charge lacking probable cause so long as that charge caused or materially contributed to the unreasonable seizure.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Manuel v. City of Joliet and Thompson v. Clark, the Fourth Amendment malicious prosecution claim is fundamentally anchored in the right to be free from unreasonable seizure, meaning the constitutional inquiry must focus on whether the seizure itself was justified by probable cause for each charge that independently caused or prolonged detention. The 'any-crime' rule adopted by the Sixth Circuit is inconsistent with the charge-specific nature of Fourth Amendment probable cause analysis established in Gerstein v. Pugh, which requires individualized probable cause determinations, and it would create perverse incentives for officers to append pretextual valid charges to insulate baseless ones from constitutional scrutiny. History and tradition at common law, which Manuel instructs us to consult, treated the lack of probable cause as going to the specific proceeding or charge at issue, not to a bundled prosecution as a whole. That said, I would require plaintiffs to demonstrate that the unsupported charge materially caused or extended the seizure, providing a workable limiting principle that addresses respondents' legitimate concerns about excessive litigation without categorically immunizing constitutional violations.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of the Fourth Amendment protects against 'unreasonable seizures,' and as Manuel v. City of Joliet established, this protection extends through the entirety of pretrial detention, not merely at the moment of arrest. A charge-by-charge textual analysis compels the conclusion that a seizure predicated in part on a charge lacking probable cause is, to that extent, unreasonable \u2014 the existence of a valid charge does not retroactively launder the constitutional defect caused by a baseless one, particularly where that baseless charge materially altered the nature or duration of the detention. The Sixth Circuit's 'any-crime' rule cannot be squared with the Fourth Amendment's original public meaning, which focused on the reasonableness of the government's justification for restraining liberty, nor with Thompson v. Clark's articulation of the elements of a Fourth Amendment malicious prosecution claim, which requires that the seizure be 'without probable cause' \u2014 a standard that must be assessed charge-specifically when distinct charges independently cause or prolong detention. Respondents' concern about litigation exposure is a policy argument that cannot override constitutional text, though I would require plaintiffs to demonstrate a causal nexus between the unsupported charge and a distinct or prolonged deprivation of liberty to cabin the doctrine appropriately.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures operates at the level of individual constitutional violations, not at the level of prosecutorial bundles. As Manuel v. City of Joliet established, the threshold inquiry in a \u00a7 1983 suit requires courts to identify the specific constitutional right at issue \u2014 and where a charge lacking probable cause independently caused or prolonged a pretrial detention, that detention constitutes an unreasonable seizure regardless of whether other charges were valid. The Sixth Circuit's 'any-crime' rule perversely incentivizes officers to append a legitimate charge to cover baseless ones, effectively immunizing deliberate constitutional violations and undermining the enforcement purpose of \u00a7 1983. My background as a public defender reinforces what the doctrine compels: individuals subjected to pretrial detention on fabricated charges suffer a concrete, cognizable injury that the Fourth Amendment and \u00a7 1983 were designed to redress, and that injury does not disappear simply because the state also had a legitimate reason to act.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.82,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "23-50",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a Fourth Amendment malicious prosecution claim under 42 U.S.C. \u00a7 1983 is barred when at least one charge in a multi-charge prosecution is supported by probable cause, even if another charge lacks probable cause and caused an unreasonable seizure.",
+      "legal_provision": "Fourth Amendment to the U.S. Constitution (protection against unreasonable seizures) and 42 U.S.C. \u00a7 1983 (civil rights claims against state actors)",
+      "petitioner_position": "Petitioners argue that the existence of one valid charge supported by probable cause should not automatically extinguish a Fourth Amendment malicious prosecution claim arising from a baseless charge that independently caused or prolonged an unreasonable seizure. Each charge must be evaluated individually, and officers should be held accountable for fabricating charges that result in unlawful detention, regardless of whether other valid charges exist simultaneously. Allowing the 'any-crime' rule would incentivize constitutional violations by giving officers a shield against liability simply by pairing baseless charges with legitimate ones.",
+      "respondent_position": "Respondents, including the City of Napoleon and supporting amici states and local government organizations, argue that when at least one charge is supported by probable cause, the resulting seizure is constitutionally justified as a whole, thereby defeating a Fourth Amendment malicious prosecution claim. They contend that courts should require plaintiffs to demonstrate that the unsupported charge independently changed the nature or duration of the seizure, rather than presuming that every charged offense automatically alters the prosecutorial seizure. Imposing liability in mixed-charge scenarios would expose municipalities and officers to undue litigation burdens.",
+      "key_precedents": [
+        "Manuel v. City of Joliet (2017) - established Fourth Amendment as the basis for malicious prosecution claims involving pretrial detention",
+        "Albright v. Oliver (1994) - addressed constitutional basis for malicious prosecution claims",
+        "Gerstein v. Pugh (1975) - probable cause requirement for pretrial detention",
+        "Whren v. United States (1996) - probable cause and Fourth Amendment seizure standards",
+        "Johnson v. United States (1948) - Warrant Clause requirements",
+        "Franks v. Delaware (1978) - challenges to warrant affidavits containing false statements",
+        "Nieves v. Bartlett (2019) - probable cause in the context of retaliatory arrest claims",
+        "Thompson v. Clark (2022) - favorable termination requirement in Fourth Amendment malicious prosecution claims"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has converged on a workable framework, and I am gratified that Justice Alito's remaining concern \u2014 litigation burden \u2014 is addressed by the causation requirement that nearly every colleague has endorsed. Justice Alito correctly identifies that the real disagreement is narrower than the 8-1 tally suggests; his own position now incorporates a causation standard, meaning the dispute is largely about framing rather than outcome. I will write the majority opinion narrowly: the 'any-crime' rule is categorically rejected, but plaintiffs must demonstrate that the unsupported charge independently caused or materially prolonged the seizure \u2014 this charge-specific causation standard draws directly from Manuel v. City of Joliet's extension of Fourth Amendment protection through the pretrial period, addresses Justice Alito's workability concerns, and avoids the perverse incentive structure that would allow officers to launder fabricated charges through legitimate ones. Writing narrowly on these grounds preserves institutional legitimacy by resolving only what this case requires and leaving broader questions about municipal liability and \u00a7 1983 damages for future cases.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's causation-based framework is actually quite close to the majority position, and his acknowledgment that the Sixth Circuit's categorical rule creates 'troubling incentive structures' is significant \u2014 it concedes the core constitutional defect we are addressing. Justice Barrett's analogy to the general warrant is particularly apt from an originalist perspective: just as a general warrant cannot be saved by also specifying one valid item to be seized, a fabricated charge cannot be laundered through a companion valid charge, because the Fourth Amendment's particularity requirements reflect the Founders' insistence on individualized justification for each governmental intrusion on liberty. Justice Alito's remaining concern about litigation burden is legitimate but ultimately institutional rather than constitutional, and as I have consistently held, institutional convenience cannot override constitutional text \u2014 the causation requirement that the unsupported charge independently caused or prolonged the seizure provides the workable limiting principle that addresses his practical concerns without immunizing deliberate fabrications. I remain persuaded that the original public meaning of the Fourth Amendment, evaluated through its text and structure including the Warrant Clause's particularity demands, requires charge-specific probable cause analysis rather than the holistic 'any-crime' approach the Sixth Circuit adopted.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Barrett's analogy is the one that finally moves me: just as a general warrant cannot be saved by also specifying one valid item to be seized, a fabricated charge cannot be laundered by a companion valid charge \u2014 the particularity principle operates at the level of each discrete governmental intrusion, not in the aggregate. I had relied heavily on the causation framework as a respondent-side limiting principle, but my colleagues across the ideological spectrum \u2014 Roberts, Thomas, Gorsuch, Barrett \u2014 have persuaded me that this causation requirement is actually the petitioner's limiting principle, not a reason to uphold the Sixth Circuit's categorical 'any-crime' rule. The Sixth Circuit's rule goes further than my position required: it categorically bars claims even where the fabricated charge independently caused or prolonged detention, which is indefensible under Manuel and Gerstein's charge-specific probable cause framework. I therefore join the majority in reversing, while emphasizing that the causation requirement \u2014 that the unsupported charge independently caused or materially altered the seizure \u2014 must be rigorously applied to prevent the \u00a7 1983 litigation flood I continue to fear.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that a seizure supported by probable cause on any valid charge is constitutionally reasonable in its totality, and that Franks v. Delaware provides an adequate alternative remedy. But this reasoning fundamentally misunderstands the constitutional injury at stake: the question is not whether the officer had some lawful basis to detain, but whether the fabricated charge independently caused or prolonged a seizure that would not have occurred, or would have been shorter, absent the constitutional violation. As Justice Kagan correctly identifies, the 'any-crime' rule is textually incoherent because it allows a constitutional violation to go unremedied simply because an officer paired a baseless charge with a legitimate one \u2014 and Franks v. Delaware, which addresses warrant challenges, does not provide an adequate post-hoc \u00a7 1983 remedy for the real-world harms of pretrial detention on fabricated charges, harms that fall with crushing weight on those who cannot afford bail and who face collateral consequences from the mere existence of a baseless accusation. The charge-specific causation requirement that Chief Justice Roberts and Justice Kavanaugh propose as a limiting principle is workable and appropriately cabins liability without immunizing deliberate fabrications, and I would adopt it as the governing standard.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that a seizure supported by probable cause on any valid charge is constitutionally reasonable in its totality, and that Franks v. Delaware provides the appropriate remedial vehicle for fabricated charges. But this conflates the reasonableness of the physical detention with the constitutional validity of each charge contributing to that detention's scope and character. As I read Manuel v. City of Joliet alongside Gerstein v. Pugh, the Fourth Amendment's probable cause requirement operates as a charge-specific predicate: an officer cannot justify a seizure's full legal consequences by pointing to a valid charge when a fabricated charge independently shapes the detention's duration, conditions, or prosecutorial leverage. Justice Alito's Franks remedy is also insufficient here because Franks addresses warrant affidavits in the suppression context, not the \u00a7 1983 damages remedy for completed unconstitutional detentions \u2014 and I agree with Justice Barrett that policy concerns about litigation burden cannot override constitutional text and structure, though I would cabin liability through a rigorous causation requirement demanding that the unsupported charge independently caused or materially prolonged the seizure.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that a seizure supported by probable cause on any valid charge is constitutionally reasonable in its totality, and that Franks v. Delaware provides the proper remedy for fabricated charges. But this conflates the reasonableness of the physical act of arrest with the constitutional validity of each independent basis for continued detention; the Fourth Amendment's individualized reasonableness inquiry, as confirmed by Manuel v. City of Joliet, cannot be satisfied in the aggregate when a discrete, fabricated charge independently contributes to or prolongs a seizure. Justice Alito's reliance on Nieves v. Bartlett actually cuts against him \u2014 that case demonstrates the Court's willingness to conduct charge-specific, context-sensitive analysis rather than applying categorical rules that immunize constitutional violations. I agree with Justice Roberts that the proper limiting principle is a causal nexus requirement \u2014 plaintiffs must show the unsupported charge independently caused or materially prolonged the seizure \u2014 which addresses the municipal liability concern without allowing officers to launder fabricated charges through legitimate ones.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's remaining concern \u2014 that the petitioner-side framework will generate enormous litigation over every multi-count prosecution where one charge later fails \u2014 is the most serious practical objection still on the table, and I take it seriously as someone who cares about the Court's institutional role and the workability of legal standards. But as Justice Barrett correctly observes, the causation requirement we have converged upon \u2014 that the unsupported charge must independently cause or materially prolong the seizure \u2014 is a genuine limiting principle, not a formality, and it will screen out the vast majority of cases where the valid charge alone would have produced identical detention outcomes. Justice Alito's own acknowledgment that 'the real disagreement is narrower than the 8-1 tally implies' confirms that the causation standard addresses his core workability concern; the remaining dispute is whether to adopt a categorical 'any-crime' rule that immunizes deliberate fabrications or a charge-specific causation framework that preserves Fourth Amendment integrity without opening floodgates. I remain persuaded that Manuel v. City of Joliet forecloses the categorical approach, and that writing narrowly \u2014 as Chief Justice Roberts suggests \u2014 with a rigorous causation requirement provides the institutional legitimacy and doctrinal coherence the Court should seek here.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that a seizure supported by probable cause on any valid charge is constitutionally reasonable in its totality, and that Franks v. Delaware provides the appropriate remedy for fabricated charges rather than expanding \u00a7 1983 liability. But this argument conflates the reasonableness of the initial arrest with the ongoing constitutional justification for pretrial detention, which Manuel v. City of Joliet (2017) carefully distinguished. The Fourth Amendment's particularity requirements and Gerstein's charge-specific probable cause framework reflect an original public meaning that evaluated each governmental intrusion individually; a fabricated charge that independently causes or prolongs detention is a discrete constitutional injury that cannot be laundered by a companion valid charge any more than a general warrant could be saved by also specifying one valid item to be seized. Justice Alito's reliance on Franks v. Delaware as the exclusive remedy is also unpersuasive \u2014 Franks operates at the suppression stage and does not provide a damages remedy for the constitutional harm of unlawful detention, leaving \u00a7 1983 as the necessary vehicle for vindicating the Fourth Amendment right at issue here.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that a seizure supported by probable cause on any valid charge is constitutionally reasonable in its totality, and that Franks v. Delaware provides the appropriate remedy for fabricated charges. But this conflates the reasonableness of the initial arrest with the constitutionality of continued pretrial detention on a specific fabricated charge, precisely the distinction Manuel v. City of Joliet drew when it extended Fourth Amendment protection through the entire detention period. As Justice Sotomayor correctly identifies, the 'any-crime' rule would allow officers to immunize deliberate fabrications by bundling them with legitimate charges \u2014 a result that cannot be squared with \u00a7 1983's remedial purpose or with Gerstein's requirement that probable cause exist as a constitutional predicate for each basis of detention. My experience as a public defender reinforces what the doctrine confirms: defendants who cannot afford bail suffer the full collateral consequences of every charge, including fabricated ones, and a rule that denies them any remedy for that specific constitutional injury renders the Fourth Amendment's promise meaningless for those who need it most.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures operates at the level of the individual charge causing the detention, not as a holistic assessment of the prosecution as a whole. As Manuel v. City of Joliet (2017) established, the Fourth Amendment governs unlawful pretrial detention beyond the start of legal process, and permitting the 'any-crime' rule would allow officers to insulate fabricated charges from constitutional scrutiny simply by pairing them with legitimate ones \u2014 an outcome that undermines the Amendment's core purpose. Consistent with my preference for narrow rulings, I would hold only that a Fourth Amendment malicious prosecution claim is not automatically barred by the existence of a valid charge, but would require plaintiffs to demonstrate that the unsupported charge independently caused or materially prolonged the seizure, thereby preserving meaningful limits on liability while protecting against genuine constitutional violations. This charge-specific inquiry respects both Gerstein v. Pugh's probable cause framework and the institutional concern that \u00a7 1983 not become an instrument of boundless municipal liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The original public meaning of the Fourth Amendment's protection against unreasonable seizures operates at the level of individual governmental actions, not aggregated prosecutorial conduct. As Manuel v. City of Joliet (2017) established, the Fourth Amendment governs pretrial detention claims by requiring probable cause for each restraint on liberty, and Gerstein v. Pugh (1975) confirms that probable cause must exist as a constitutional predicate for any seizure \u2014 the existence of a valid charge cannot retroactively launder a constitutionally defective one that independently caused or prolonged detention. Permitting the 'any-crime' rule would allow officers to immunize fabricated charges by bundling them with legitimate ones, which is fundamentally inconsistent with the Fourth Amendment's text protecting persons against unreasonable seizures, as each discrete charge-based seizure must independently satisfy constitutional requirements. Furthermore, 42 U.S.C. \u00a7 1983's plain text provides a remedy for deprivations of constitutional rights, and a charge-by-charge analysis best honors both the statutory text and the Fourth Amendment's original meaning as a check on governmental overreach.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "As a textualist focused on practical consequences, I am persuaded that when probable cause exists for at least one charge, the resulting seizure is constitutionally justified under the Fourth Amendment's core requirement articulated in Gerstein v. Pugh. The Fourth Amendment asks whether a seizure is reasonable, and a seizure supported by probable cause on any valid charge is, by definition, not unreasonable in its totality \u2014 the officer had lawful authority to detain. While I acknowledge the concern about officers pairing baseless charges with legitimate ones, the proper remedy lies in Franks v. Delaware challenges to warrant affidavits or in other constitutional doctrines, not in expanding \u00a7 1983 malicious prosecution liability in ways that would expose municipalities to enormous litigation burdens as cautioned by respondents and amici states. Nieves v. Bartlett's treatment of probable cause as a significant categorical consideration reinforces that courts should not lightly override the probable cause determination when it exists for at least one charge, and requiring plaintiffs to demonstrate that the unsupported charge independently altered the nature or duration of their seizure provides a workable, appropriately limited standard.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures operates at the level of the individual charge, not the prosecution as a whole \u2014 as Manuel v. City of Joliet (2017) makes clear by requiring courts to 'identify the specific constitutional right at issue' and tying the constitutional injury to the unlawful detention caused by fabricated accusations. The Sixth Circuit's 'any-crime' rule perversely incentivizes officers to manufacture baseless charges alongside legitimate ones, knowing they are immunized from \u00a7 1983 liability, which directly undermines the remedial purpose of 42 U.S.C. \u00a7 1983 to hold state actors accountable for constitutional violations. Allowing a valid charge to launder an invalid one ignores the real-world harm suffered by individuals who are detained longer, subjected to greater prosecutorial pressure, or stigmatized by fabricated accusations \u2014 harms that fall disproportionately on vulnerable and marginalized communities who already face systemic disadvantages in the criminal justice system. Franks v. Delaware (1978) and Gerstein v. Pugh (1975) together establish that probable cause must be evaluated charge-by-charge and that pretrial detention without it is independently unconstitutional, regardless of what other charges may coexist.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures operates at the level of the individual charge causing the detention, not as an aggregate assessment of the prosecution as a whole. As Manuel v. City of Joliet (2017) established, the Fourth Amendment governs pretrial detention claims beyond the initiation of legal process, and the threshold inquiry under \u00a7 1983 requires identifying the specific constitutional right violated \u2014 here, the right to be free from detention caused by a fabricated, unsupported charge. The Sixth Circuit's 'any-crime' rule is textually incoherent: it allows a constitutional violation to go unremedied simply because an officer paired a baseless charge with a legitimate one, which would perversely incentivize exactly the kind of misconduct \u00a7 1983 was designed to deter. A workable, charge-specific rule better serves both the Fourth Amendment's text and \u00a7 1983's remedial purpose, while courts can still require plaintiffs to demonstrate that the unsupported charge independently caused or prolonged the seizure, thereby limiting litigation exposure without immunizing constitutional violations.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of the Fourth Amendment protects against 'unreasonable seizures,' and Manuel v. City of Joliet (2017) firmly established that this protection extends through the entire pretrial detention period, not merely the initial arrest. If a charge fabricated without probable cause independently caused or prolonged a seizure, that seizure is unreasonable as to that charge regardless of whether a companion charge was validly supported \u2014 the constitutional violation inheres in the specific unreasonable accusation that produced unlawful restraint, not in the aggregate prosecutorial package. The Sixth Circuit's 'any-crime' rule effectively allows officers to launder constitutional violations by pairing baseless charges with legitimate ones, which is irreconcilable with the Fourth Amendment's individualized reasonableness inquiry and would gut the enforcement mechanism Congress provided in \u00a7 1983 by immunizing deliberate fabrications. Applying the rule of lenity and the original understanding of the Fourth Amendment's warrant and probable cause requirements \u2014 including Franks v. Delaware's recognition that false statements in charging instruments are constitutionally cognizable \u2014 each charge must be evaluated on its own probable cause footing.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Fourth Amendment's core protection against unreasonable seizures operates at the level of the individual charge causing the detention, not as a holistic assessment that can be laundered by the presence of a valid accompanying charge. Manuel v. City of Joliet (2017) firmly established that the Fourth Amendment governs pretrial detention claims and requires courts to identify the specific constitutional right at issue, which necessarily means examining whether each charge independently satisfies probable cause when that charge contributes to or prolongs a seizure. The 'any-crime' rule adopted by the Sixth Circuit would create a perverse incentive structure allowing officers to immunize fabricated charges simply by pairing them with legitimate ones, undermining the Fourth Amendment's structural purpose as recognized in Franks v. Delaware (1978) and Gerstein v. Pugh (1975). That said, I would require petitioners to demonstrate a meaningful causal nexus between the unsupported charge and the nature or duration of the seizure, consistent with practical workability concerns and to prevent excessive litigation burdens on municipalities.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text of the Fourth Amendment protects against unreasonable seizures, and as Manuel v. City of Joliet (2017) instructs, the threshold inquiry in a \u00a7 1983 suit requires courts to identify the specific constitutional right at issue \u2014 here, the right to be free from unreasonable seizure of one's person. The Sixth Circuit's 'any-crime' rule is textually and structurally incompatible with this framework because it permits a constitutionally infirm charge to escape scrutiny simply by being bundled with a valid one, effectively allowing officers to launder unconstitutional conduct through legitimate charges. A charge-by-charge analysis is more faithful to the Fourth Amendment's original public meaning, which evaluated the reasonableness of each governmental intrusion individually, as reflected in the particularity requirements of the Warrant Clause and the Gerstein v. Pugh (1975) framework requiring probable cause for each basis of detention. Furthermore, the policy concern raised by respondents \u2014 litigation burden \u2014 cannot override constitutional text and structure; Nieves v. Bartlett (2019) demonstrates that the Court has been willing to craft workable standards in analogous mixed-motive contexts without categorically immunizing constitutional violations.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The Fourth Amendment's protection against unreasonable seizures is charge-specific, not holistic \u2014 when an officer fabricates a charge that independently causes or prolongs pretrial detention, that seizure is unreasonable as to that charge regardless of whether other valid charges exist simultaneously. As Manuel v. City of Joliet (2017) established, the threshold inquiry under \u00a7 1983 requires identifying the specific constitutional right at issue, and the right to be free from pretrial detention unsupported by probable cause is violated the moment a baseless charge contributes to that detention. The Sixth Circuit's 'any-crime' rule perversely incentivizes constitutional violations by giving officers a liability shield simply by pairing fabricated charges with legitimate ones \u2014 a result fundamentally at odds with \u00a7 1983's enforcement purpose and the equal protection principles that demand accountability for state actors who abuse their power against individuals, disproportionately those who cannot afford bail and thus suffer the full weight of pretrial detention on even a single unfounded charge. My background as a public defender makes plain the real-world consequence: defendants held pretrial on mixed charges face devastating collateral consequences from the baseless charge alone, and denying them a remedy renders the Fourth Amendment's promise hollow.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.834,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

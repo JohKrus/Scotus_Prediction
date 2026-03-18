@@ -1,0 +1,579 @@
+[
+  {
+    "docket": "23-621",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a plaintiff who obtains a preliminary injunction that is later mooted by non-judicial legislative action qualifies as a 'prevailing party' entitled to attorney's fees under 42 U.S.C. \u00a7 1988(b).",
+      "legal_provision": "42 U.S.C. \u00a7 1988(b) - The Civil Rights Attorney's Fees Awards Act, which authorizes courts to award reasonable attorney's fees to 'prevailing parties' in civil rights litigation brought under 42 U.S.C. \u00a7 1983.",
+      "petitioner_position": "Virginia DMV Commissioner Lackey argues that the respondents cannot qualify as 'prevailing parties' under \u00a7 1988 because: (1) a preliminary injunction represents only a prediction of likely success on the merits rather than a conclusive merits determination in the plaintiff's favor, and (2) the change in the parties' legal relationship must be enduring and judicially sanctioned \u2014 not terminated by a non-judicial event such as the Virginia legislature's repeal of the challenged driver's license suspension statute, which mooted the case before any final judgment on the merits was reached.",
+      "respondent_position": "Respondents Stinnie et al. argue that they are prevailing parties because: (1) the district court granted a preliminary injunction that was thoroughly merits-based under the Winter standard and carried sufficient judicial imprimatur, (2) the injunction materially altered the legal relationship between the parties by directly benefiting the plaintiffs and modifying the defendant's behavior, and (3) the fact that subsequent legislation mooted the case should not retroactively strip them of prevailing party status already established by the enforceable court order.",
+      "key_precedents": [
+        "Buckhannon Board & Care Home, Inc. v. West Virginia Dept. of Health and Human Resources, 532 U.S. 598 (2001) - established the 'material alteration of legal relationship' and 'judicial imprimatur' requirements for prevailing party status",
+        "Lefemine v. Wideman, 568 U.S. 1 (2012) - confirmed that a permanent injunction confers prevailing party status through judicial imprimatur",
+        "Winter v. Natural Resources Defense Council, 555 U.S. 7 (2008) - established the four-factor standard for granting preliminary injunctions including likelihood of success on the merits",
+        "Smyth v. Rivero (4th Cir.) - Fourth Circuit precedent on prevailing party status and preliminary injunctions, whose continued validity was questioned by the magistrate judge",
+        "Stinnie v. Holcomb, 355 F. Supp. 3d 514 (W.D. Va. 2018) - the district court's preliminary injunction order at the center of this dispute",
+        "Texas State Teachers Ass'n v. Garland Independent School District, 489 U.S. 782 (1989) - addressed the degree of success required for prevailing party status",
+        "Farrar v. Hobby, 506 U.S. 103 (1992) - clarified that a plaintiff must receive at least some relief on the merits to qualify as a prevailing party",
+        "Equal Access to Justice Act, 28 U.S.C. \u00a7 2412(b) and (d)(1)(A) - parallel fee-shifting statute applicable to suits against the United States, cited by the government as a reason for its substantial interest in the outcome"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order distinguishes this case from the pure catalyst theory Buckhannon rejected, and that allowing legislative mooting to strip prevailing party status creates perverse incentives. I take that concern seriously, but it ultimately fails under the framework we established in Buckhannon and clarified in Sole v. Wyner: the judicial imprimatur requirement demands not merely any court order, but one that conclusively and durably alters the legal relationship between the parties. A preliminary injunction, by its nature provisional and predicated on likelihood rather than certainty of success, never achieves that finality \u2014 and when legislative action moots the case before final judgment, the injunction dissolves without ever ripening into the kind of enforceable, enduring relief Farrar contemplates. As Chief Justice, I would assign a narrow opinion focused specifically on the preliminary-injunction-plus-mootness scenario, leaving open whether a longer-lasting or more merits-intensive preliminary injunction might present different considerations, which should help maintain the strong coalition while respecting Justice Sotomayor's legitimate policy concerns through a carefully cabined holding.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order issued after Winter analysis is meaningfully distinct from the pure catalyst theory Buckhannon rejected, and that allowing legislative mooting to strip prevailing party status creates perverse incentives. However, this argument ultimately fails under my originalist methodology because the text of \u00a7 1988(b) and the legal term of art 'prevailing party' at the time of enactment contemplated a party in whose favor final judgment was rendered, not one who obtained a provisional interlocutory order. Farrar's instruction that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement' is dispositive \u2014 a preliminary injunction that dissolved without ever ripening into final judgment never crossed that threshold, regardless of its practical effect. Justice Sotomayor's policy concern about perverse incentives, while sympathetic, cannot override the statutory text; Congress knows how to craft fee-shifting provisions that account for preliminary relief, and it is not our role to expand \u00a7 1988(b) beyond its textual boundaries to achieve preferred policy outcomes.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order distinguishes this case from the pure catalyst theory rejected in Buckhannon, and that allowing legislative mooting to strip prevailing party status creates perverse incentives. However, this argument ultimately fails under a rigorous textualist analysis: Buckhannon's requirement of judicial imprimatur was never merely about whether a court order existed, but whether that order constituted an enduring, merits-based alteration of the parties' legal relationship. A preliminary injunction, as Sole v. Wyner makes explicit, represents only a 'probability of ultimate success' \u2014 it is not a merits determination, and when mooted before final judgment, it never ripens into the kind of enforceable relief Farrar v. Hobby demands. Justice Sotomayor's policy concern about perverse incentives is real, but Buckhannon itself acknowledged similar policy tradeoffs and still rejected the catalyst theory, recognizing that Congress \u2014 not courts \u2014 must decide whether to expand fee-shifting beyond judicially confirmed victories. The plain text of \u00a7 1988(b) simply does not support awarding fees to a party who never obtained a final judgment on the merits.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's invocation of Sole v. Wyner is the most formidable challenge to my position, and I must engage with it directly: Sole involved a plaintiff who won a preliminary injunction and then *lost on the merits* \u2014 the court ultimately ruled against her, which is categorically different from a case where the defendant legislature *repealed the offending law*, effectively conceding the merits of the constitutional challenge. The majority conflates two distinct scenarios: a party who fails to prevail on the merits versus a party whose merits victory is rendered moot by the defendant's capitulation in legislative form. Justice Gorsuch's 'cuts both ways' argument about perverse incentives is clever but ultimately unpersuasive \u2014 the incentive to seek broad preliminary relief and then acquiesce in legislative mooting is far weaker than the incentive for well-resourced government defendants to strategically repeal laws mid-litigation to escape fee liability after losing in court, because the latter requires only timing a legislative act while the former requires plaintiffs to predict and coordinate legislative responses. I maintain my dissent because the eight-to-one tally reflects a formalistic convergence that, however doctrinally tidy, will systematically undermine \u00a7 1988(b)'s deterrent function in precisely the cases \u2014 civil rights challenges to state laws \u2014 where Congress most intended it to operate.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor's argument about the enforceability distinction remains the most serious challenge to my position \u2014 she is correct that a preliminary injunction carrying contempt sanctions is categorically different from the pure catalyst theory where no court order existed. But I find myself persuaded by the collective weight of the textual analysis, particularly Justice Barrett's point that Farrar's 'entitled to enforce a judgment' language sets a threshold that a dissolved preliminary injunction never crosses, and my own reading of Sole v. Wyner confirms that the provisional, predictive nature of preliminary relief is categorically distinct from the enduring judicial imprimatur Buckhannon requires. Justice Sotomayor's perverse incentive concern is real and I do not dismiss it lightly \u2014 legislative mooting to evade fee liability is a genuine structural problem \u2014 but I agree with Justice Jackson that Buckhannon itself confronted analogous policy tradeoffs with the catalyst theory and deliberately left the correction to Congress rather than judicial reinterpretation. I would add to the majority opinion a pointed observation that Congress should consider whether \u00a7 1988(b) adequately addresses the legislative-mooting scenario, signaling that this is a policy gap courts cannot fill through textual expansion but that legislators should take seriously.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order issued after Winter analysis is meaningfully different from the catalyst theory's mere voluntary compliance scenario, and that allowing legislative mooting to strip prevailing party status creates perverse incentives. But this argument, while sympathetic, ultimately fails under a rigorous textualist and originalist analysis: Buckhannon's requirement of judicial imprimatur was not merely about whether a court order existed, but whether that order constituted an enduring, enforceable alteration of the legal relationship \u2014 and Sole v. Wyner directly addressed this by holding that a preliminary injunction later superseded does not confer prevailing party status precisely because it represents only a probability assessment rather than a merits determination. The perverse incentive concern cuts both ways: as Justice Barrett correctly notes, extending prevailing party status to mooted preliminary injunctions would incentivize plaintiffs to seek broad preliminary relief and then acquiesce in legislative mooting to lock in fees without ever litigating to a final merits determination. The text of \u00a7 1988(b) was designed to compensate parties who actually prevailed in the judicial sense \u2014 not parties whose provisional victories were never tested to finality \u2014 and fidelity to that text requires affirming the petitioner's position regardless of the equitable appeal of the respondents' circumstances.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order issued after Winter analysis is meaningfully different from the pure catalyst theory Buckhannon rejected, and that allowing legislative mooting to strip prevailing party status creates perverse incentives. I take that concern seriously, particularly the worry about defendants engineering mootness to evade fee liability. However, the structural problem remains: Buckhannon's requirement of an 'enduring' alteration in the legal relationship is not satisfied by a preliminary injunction that dissolves without ripening into final judgment, regardless of why it dissolved. The legislature's repeal may vindicate the plaintiffs' underlying position, but as Justice Kagan correctly notes, Buckhannon explicitly foreclosed treating judicially unconfirmed victories \u2014 however practically real \u2014 as sufficient for prevailing party status, and accepting Justice Sotomayor's reasoning would effectively resurrect the catalyst theory through the back door by treating the legislature's response to the injunction as confirmation of its merits-based validity. The perverse incentive concern cuts both ways: a rule permitting fee awards based on preliminary injunctions mooted by legislative action could itself incentivize plaintiffs to seek broad preliminary relief and then acquiesce in legislative resolution rather than pursuing final judgment.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that an actual enforceable court order issued after Winter analysis is meaningfully different from the catalyst theory's mere voluntary conduct change \u2014 but I find it ultimately unpersuasive under a rigorous textualist and originalist analysis. The term 'prevailing party' at the time of \u00a7 1988(b)'s enactment carried the meaning of one in whose favor final judgment was rendered, and Farrar's instruction that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement' forecloses treating a preliminary injunction as sufficient, regardless of how rigorously the issuing court analyzed the merits. Justice Sotomayor's concern about perverse incentives for legislative evasion is a legitimate policy consideration, but Buckhannon explicitly held that policy arguments cannot override the statutory text's demand for judicial imprimatur through a final, enforceable order \u2014 and Sole v. Wyner directly addressed this scenario, confirming that a preliminary injunction later superseded represents only a probability of success, not a prevailing party determination. The fact that eight of my colleagues across the ideological spectrum have converged on this reading reinforces my confidence that the text and precedent compel this result, though I note that Congress retains the authority to amend \u00a7 1988(b) if it wishes to extend fee eligibility to preliminary injunction victories.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument about the enforceability distinction remains the most serious challenge to my position \u2014 she is correct that a preliminary injunction carrying contempt sanctions is categorically different from the pure catalyst theory's reliance on voluntary defendant conduct. However, I cannot escape the logic of Sole v. Wyner, which Justice Kagan correctly identifies as directly on point: the Court there held that a preliminary injunction that does not survive to final judgment cannot confer prevailing party status, and the reason the injunction dissolved here \u2014 legislative action rather than loss on the merits \u2014 does not change the fundamental character of what was obtained. My background as a public defender makes me acutely sensitive to Justice Sotomayor's concern about perverse incentives discouraging civil rights attorneys from taking difficult cases, but Buckhannon itself acknowledged analogous policy costs when rejecting the catalyst theory and explicitly left that correction to Congress, and I cannot in good conscience apply a different methodology here simply because the equities feel more compelling \u2014 the structural principle must hold consistently or it holds not at all.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Buckhannon, prevailing party status requires both a material alteration of the legal relationship between the parties and judicial imprimatur \u2014 and critically, Farrar v. Hobby clarifies that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant.' A preliminary injunction, by its very nature under Winter, is a provisional remedy predicated on a likelihood of success rather than an actual merits determination, and it carries none of the finality or enforceability of a judgment or consent decree. The fact that the Virginia legislature subsequently mooted the case before any final judgment was entered means the parties' legal relationship was never conclusively and durably altered by judicial action \u2014 the injunction dissolved without ever ripening into the kind of enduring, enforceable relief that Buckhannon contemplates. Adopting the respondents' position would effectively resurrect a variant of the catalyst theory that Buckhannon expressly rejected, rewarding plaintiffs for provisional court orders that were never tested to finality, and would create perverse incentives discouraging legislative bodies from voluntarily correcting potentially unconstitutional laws.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1988(b) authorizes fees to 'prevailing parties,' a legal term of art that, as Buckhannon established, requires a judicially sanctioned, enduring change in the legal relationship between the parties \u2014 not a preliminary, predictive order. A preliminary injunction, by its very nature, is provisional and interlocutory; it represents a court's forecast of likely success under Winter's four-factor test, not a conclusive merits adjudication, and therefore cannot confer the kind of enforceable, durable judgment that Farrar v. Hobby requires when it instructs that 'no material alteration of the legal relationship between the parties occurs until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant.' The fact that the Virginia legislature's repeal mooted the case before any final judgment further confirms that respondents never obtained the enduring judicial relief that prevailing party status demands \u2014 the mootness itself demonstrates the injunction's inherently temporary character. Allowing a preliminary injunction mooted by legislative action to confer prevailing party status would effectively resurrect the catalyst theory that Buckhannon expressly rejected, rewarding plaintiffs for outcomes attributable to non-judicial events rather than actual judicial resolution on the merits.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The plain text of 42 U.S.C. \u00a7 1988(b) awards fees to 'prevailing parties,' a legal term of art that has long meant the party in whose favor a final judgment is rendered. Under Buckhannon, prevailing party status requires both a 'judicially sanctioned change in the legal relationship of the parties' and an enduring alteration \u2014 a preliminary injunction, by its very nature, is provisional, interlocutory, and explicitly not a final merits determination, as it rests only on a likelihood of success rather than an actual adjudication of rights. Farrar v. Hobby further clarifies that no material alteration of the legal relationship occurs until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant \u2014 a threshold the respondents never crossed because the case was mooted before any final judgment issued. Allowing a preliminary injunction mooted by legislative action to confer prevailing party status would effectively resurrect the 'catalyst theory' that Buckhannon expressly rejected, rewarding plaintiffs for outcomes not attributable to a conclusive judicial determination on the merits.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The respondents obtained a preliminary injunction that materially altered the legal relationship between the parties \u2014 the DMV was enjoined from enforcing the suspension statute, directly benefiting the plaintiffs in a concrete, enforceable way \u2014 and this court order carried sufficient judicial imprimatur under Buckhannon's framework. While Buckhannon rejected the catalyst theory where no court order existed, this case is meaningfully different: an actual enforceable court order issued after a rigorous Winter merits analysis, not merely a defendant's voluntary change of conduct. Allowing the Virginia legislature's subsequent repeal to retroactively strip plaintiffs of prevailing party status already established by an enforceable injunction would create a perverse incentive for defendants to moot cases through legislative action specifically to avoid fee liability, undermining the deterrent purpose of \u00a7 1988(b) and leaving civil rights attorneys unable to recover fees when they have actually succeeded in court. The practical impact on vulnerable populations \u2014 who depend on civil rights attorneys willing to take difficult cases \u2014 counsels strongly against a rule that rewards legislative evasion of judicial orders.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Under Buckhannon's framework, 'prevailing party' status requires both a material alteration of the legal relationship and judicial imprimatur on that change \u2014 and critically, Farrar clarifies that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant.' A preliminary injunction, by its very nature under Winter, represents a predictive assessment of likelihood of success rather than a conclusive merits determination, and when the case is mooted by legislative action before final judgment, the plaintiff never obtains the kind of enduring, enforceable judicial relief that \u00a7 1988(b) contemplates. While I have genuine sympathy for the respondents \u2014 the legislature's repeal of the challenged statute vindicates their underlying legal position \u2014 Buckhannon explicitly rejected the catalyst theory precisely because it found that judicially unconfirmed victories, however real their practical effect, lack the necessary judicial imprimatur. Extending prevailing party status to preliminary injunctions later mooted by non-judicial action would effectively resurrect a version of the catalyst theory through the back door, creating administrability problems and inconsistency with the statutory text's demand for a party in whose favor judgment has been rendered.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain meaning of 'prevailing party' under 42 U.S.C. \u00a7 1988(b) requires an enduring, judicially sanctioned change in the legal relationship between the parties \u2014 not a preliminary, interlocutory prediction of likely success. As Buckhannon made clear, material alteration of the legal relationship does not occur until a plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant, and Sole v. Wyner reinforced that preliminary injunctions represent only a 'probability of ultimate success' rather than a merits determination. A preliminary injunction is by its nature provisional and subject to revision or dissolution; when the case is mooted by legislative action before any final judgment, no enduring judicial imprimatur has attached, and the respondents never obtained the kind of conclusive relief that \u00a7 1988 was designed to compensate. Allowing fee awards based solely on preliminary injunctions later mooted by non-judicial events would effectively resurrect a variant of the catalyst theory that Buckhannon expressly rejected, rewarding plaintiffs for outcomes not traceable to a final judicial determination on the merits.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Buckhannon's framework, a 'prevailing party' requires both a material alteration of the legal relationship between the parties and judicial imprimatur \u2014 and critically, Farrar v. Hobby clarifies that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant.' A preliminary injunction, by its very nature under Winter, represents only a predictive assessment of likelihood of success rather than a conclusive merits determination, and it lacks the durability and finality that the prevailing party doctrine demands. When the Virginia legislature mooted the case through repeal of the statute before any final judgment was entered, the plaintiffs never obtained the kind of enduring, judicially sanctioned relief that Buckhannon contemplated \u2014 the preliminary injunction dissolved without ripening into a final merits determination, meaning the legal relationship was never permanently altered in the way \u00a7 1988(b) requires. Extending prevailing party status to preliminary injunctions later mooted by legislative action would effectively resurrect a variant of the catalyst theory that Buckhannon expressly rejected, rewarding plaintiffs for outcomes not attributable to a conclusive judicial resolution on the merits.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1988(b) awards fees to 'prevailing parties,' and as an originalist and textualist, I must give that term its ordinary public meaning at the time of enactment \u2014 a party that has actually won, not merely one who obtained a provisional, interlocutory order predicting likely success. Buckhannon's framework requires both a 'judicially sanctioned change in the legal relationship of the parties' and an 'enduring' alteration, and a preliminary injunction satisfies neither criterion: it is explicitly tentative, subject to dissolution at any point, and as Sole v. Wyner, 551 U.S. 74 (2007), makes clear, it represents only a 'probability of ultimate success' rather than a merits determination. Farrar v. Hobby further clarifies that no material alteration of the legal relationship occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant' \u2014 a threshold a preliminary injunction, which was never reduced to final judgment before legislative mootness intervened, plainly cannot meet. Permitting preliminary injunctions to confer prevailing party status would also create perverse incentives, encouraging plaintiffs to seek broad preliminary relief and then acquiesce in legislative mooting to lock in fee awards without ever vindicating their claims on the merits.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Buckhannon's framework, a 'prevailing party' requires both a material alteration of the legal relationship between the parties and judicial imprimatur through an enforceable judgment, consent decree, or settlement. A preliminary injunction, while carrying some judicial imprimatur, represents only a predictive assessment of likely success on the merits rather than an actual merits determination \u2014 it is inherently provisional and subject to dissolution at any time before final judgment. Farrar v. Hobby reinforces that no material alteration occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant,' and a preliminary injunction that is mooted before final judgment never ripens into that kind of enforceable, enduring relief. While my background as a public defender makes me deeply sympathetic to the practical consequences for civil rights plaintiffs and their counsel who secured real-world relief through the injunction, Buckhannon's categorical rejection of the catalyst theory \u2014 even where defendants change their behavior in direct response to litigation \u2014 forecloses the argument that the legislature's subsequent repeal should be treated as confirmation of the injunction's merits-based validity, and extending prevailing party status to preliminary injunctions risks incentivizing defendants to moot cases before final judgment to avoid fee liability while still having complied with the court order.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.834,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "23-621",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a plaintiff who obtains a preliminary injunction that is later mooted by non-judicial legislative action qualifies as a 'prevailing party' entitled to attorney's fees under 42 U.S.C. \u00a7 1988.",
+      "legal_provision": "42 U.S.C. \u00a7 1988(b) - Civil Rights Attorney's Fees Awards Act, which authorizes courts to award reasonable attorney's fees to 'prevailing parties' in civil rights litigation brought under 42 U.S.C. \u00a7 1983.",
+      "petitioner_position": "Petitioner Gerald F. Lackey, Commissioner of the Virginia DMV, argues that: (1) a prevailing party must obtain a ruling that conclusively decides the merits in their favor, not merely a judicial prediction of likelihood of success such as a preliminary injunction; and (2) the change in the parties' legal relationship must be enduring and stem from a judicial act, not rendered moot by a non-judicial event such as legislative repeal of the challenged statute. Because the Virginia legislature repealed the driver's license suspension statute before any final merits determination was reached, respondents never achieved true prevailing party status and are therefore not entitled to attorney's fees.",
+      "respondent_position": "Respondents Damian Stinnie et al. argue that they qualify as prevailing parties because: (1) the district court granted a preliminary injunction that was thoroughly merits-based under the Winter standard and carried sufficient judicial imprimatur; (2) the injunction materially altered the legal relationship between the parties by modifying the defendant's behavior in a way that directly benefited plaintiffs; and (3) the fact that the case was subsequently mooted by legislative repeal of the challenged statute should not retroactively strip them of prevailing party status already established by the court-ordered injunction.",
+      "key_precedents": [
+        "Buckhannon Board & Care Home, Inc. v. West Virginia Dept. of Health and Human Resources, 532 U.S. 598 (2001) - established the 'catalyst theory' rejection and judicial imprimatur requirement for prevailing party status",
+        "Lefemine v. Wideman, 568 U.S. 1 (2012) - clarified that a preliminary injunction can confer prevailing party status when it materially alters the legal relationship between parties",
+        "Winter v. Natural Resources Defense Council, 555 U.S. 7 (2008) - established the four-factor standard for granting preliminary injunctions including likelihood of success on the merits",
+        "Smyth v. Rivero (4th Circuit precedent) - Fourth Circuit decision on prevailing party status that the magistrate judge felt bound to follow despite arguments it was undermined by later Supreme Court decisions",
+        "Stinnie v. Holcomb, 355 F. Supp. 3d 514 (W.D. Va. 2018) - the underlying district court preliminary injunction decision in this case",
+        "Texas State Teachers Ass'n v. Garland Independent School District, 489 U.S. 782 (1989) - established standards for material alteration of legal relationship",
+        "Farrar v. Hobby, 506 U.S. 103 (1992) - defined prevailing party as one who obtains actual relief on the merits",
+        "Equal Access to Justice Act, 28 U.S.C. \u00a7 2412(b) and (d)(1)(A) - parallel fee-shifting statute applicable to suits against the United States",
+        "Title VII fee-shifting provisions, 42 U.S.C. \u00a7\u00a7 2000e-5(k) and 2000e-16(d) - parallel statutes using same 'prevailing party' language"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that Lefemine recognized preliminary injunctions can confer prevailing party status and that subsequent events should not retroactively strip that status \u2014 deserves serious engagement, but I remain persuaded that Lefemine is distinguishable on grounds that are both textually sound and institutionally important. The injunction in Lefemine was permanent and remained operative; here, the preliminary injunction was never followed by a final merits determination, and the ultimate change in the parties' legal relationship was accomplished by the Virginia legislature's repeal rather than by any enduring judicial resolution. Justice Jackson's argument that the Winter standard's likelihood-of-success requirement constitutes a substantive merits assessment is thoughtful, but a probability assessment is categorically different from a conclusive merits determination \u2014 the whole point of preliminary relief is that it is provisional and subject to revision, and allowing it to permanently lock in fee eligibility based on subsequent legislative action would resurrect Buckhannon's rejected catalyst theory through precisely the mechanism that decision was designed to foreclose. As Chief Justice, I would write narrowly: holding only that a preliminary injunction mooted by legislative action before any final merits determination cannot confer prevailing party status, expressly reserving the question of whether a preliminary injunction followed by a final judgment might do so, thereby preserving Buckhannon's core rule while avoiding unnecessary foreclosure of future cases.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor's most compelling argument \u2014 that the legislature's repeal should not 'retroactively strip' respondents of prevailing party status already earned \u2014 founders on a fundamental textual and logical point: prevailing party status under \u00a7 1988 is not a vested right that attaches at the moment of a preliminary injunction, but rather a statutory entitlement that must be assessed at the conclusion of litigation based on whether the plaintiff obtained an enduring, enforceable judicial resolution. As I read Buckhannon and Farrar together, the material alteration of the legal relationship must be judicially imposed and durable \u2014 a preliminary injunction that never ripens into a final judgment on the merits, and whose operative force is dissolved by a non-judicial legislative act, simply cannot satisfy that standard. Justice Jackson's reliance on Lefemine is unavailing because Lefemine involved a permanent injunction \u2014 a final, enforceable court order \u2014 not a preliminary injunction subsequently mooted before any merits determination; the distinction between provisional and final relief is precisely the line Buckhannon's judicial imprimatur requirement draws. Allowing the preliminary injunction here to confer prevailing party status would functionally resurrect the catalyst theory by permitting a legislative act \u2014 not a court's conclusive merits determination \u2014 to lock in fee eligibility based on nothing more than a judicial prediction of likely success.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge by invoking Lefemine v. Wideman and arguing that the preliminary injunction here carried sufficient judicial imprimatur to materially alter the legal relationship between the parties at the moment it issued. However, Lefemine involved a permanent injunction \u2014 not a preliminary one \u2014 and the critical distinction is that a preliminary injunction under Winter rests on a probability assessment, not a conclusive merits determination; it is inherently dissoluble and never ripens into the kind of enforceable judgment Farrar demands. Justice Sotomayor's analogy to a defendant voluntarily complying after a final judgment actually proves my point: in that scenario, there IS a final judgment the plaintiff can enforce \u2014 here, there is none, and the legislature's repeal, not any judicial resolution, is what ultimately ended the challenged practice. Allowing this preliminary injunction to confer prevailing party status would resurrect the catalyst theory through precisely the mechanism Buckhannon sought to foreclose: rewarding plaintiffs for outcomes driven by non-judicial action rather than a court's conclusive merits determination.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan's argument that Lefemine involved a 'permanent injunction that remained operative and enforceable' while here the injunction's practical force was dissolved by legislative action before final judgment is the strongest challenge I've encountered, and I want to engage with it seriously. But I remain unpersuaded for this reason: the question of prevailing party status must be assessed at the moment the court order issued and compelled behavioral change, not retroactively recharacterized based on what happened afterward. When the district court issued the preliminary injunction, it made a substantive judicial determination \u2014 under Winter's rigorous standard \u2014 that respondents were likely to succeed on the merits, and the Commonwealth was legally obligated to cease enforcement from that moment forward. My colleagues in the majority, including Justice Barrett, argue that no 'final judgment' ever issued, but this conflates the durability requirement they wish to impose with what Buckhannon actually requires: a judicially sanctioned, material alteration of the legal relationship, which occurred here when the injunction issued. The perverse incentive created by the majority's rule \u2014 that defendants can escape fee liability by lobbying for legislative repeal before final judgment \u2014 is not a policy concern I can dismiss as properly addressed only to Congress when our own precedents do not compel that outcome.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that Lefemine's distinction between permanent and preliminary injunctions is 'one of degree, not kind' is the most intellectually serious challenge remaining, but I think it ultimately proves too much \u2014 if degree rather than kind is the operative distinction, we lose the workable line Buckhannon requires and invite endless litigation over how 'preliminary' a given injunction was. Justice Sotomayor's point about chilling effects deserves genuine respect, but as I noted in my prior reasoning, the material alteration here was ultimately secured by the Virginia legislature's repeal, not by any enduring judicial order \u2014 and that is precisely the non-judicial causation Buckhannon's rejection of the catalyst theory was designed to exclude. I find Chief Justice Roberts' proposed narrow holding attractive: we need not foreclose the possibility that a preliminary injunction followed by a final judgment could confer prevailing party status, but where legislative mootness intervenes before any final merits determination, the change in legal relationship flows from the legislature, not the court. The textual and structural coherence of \u00a7 1988 is best served by maintaining that distinction, even at the cost of some policy discomfort in hard cases like this one.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge by invoking Lefemine v. Wideman and arguing that the preliminary injunction here carried sufficient judicial imprimatur to materially alter the legal relationship at the moment it issued \u2014 and that subsequent legislative mootness should not retroactively strip that status. This is a genuinely powerful argument, but it ultimately fails under careful textualist analysis: Lefemine involved a permanent injunction that was never dissolved, whereas here the preliminary injunction was rendered moot before any final merits determination, meaning the plaintiff never became 'entitled to enforce a judgment, consent decree, or settlement against the defendant' as Farrar requires. The critical distinction is not merely durability of the underlying relief but whether a court ever conclusively resolved the merits \u2014 a preliminary injunction resting on likelihood-of-success analysis is explicitly provisional and subject to revision, and when the legislature moots the case before that provisional assessment ripens into a final determination, the change in legal relationship flows from the legislature's non-judicial act, not from any enduring judicial imprimatur. Justice Sotomayor's concern about perverse incentives for civil rights plaintiffs is a legitimate policy argument, but as Justice Thomas correctly notes, the proper response is for Congress to amend \u00a7 1988, not for this Court to stretch 'prevailing party' beyond its ordinary legal meaning to encompass outcomes driven by legislative rather than judicial action.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most compelling counterargument \u2014 that Lefemine v. Wideman confirms preliminary injunctions can confer prevailing party status, and that the legislature's subsequent repeal should not retroactively strip respondents of status already earned. But this argument conflates two distinct questions: whether a preliminary injunction can ever confer prevailing party status (which Lefemine addressed in the context of a permanent injunction that was labeled preliminary), and whether a preliminary injunction that is mooted before final judgment does so here. The critical defect in respondents' position is that the ultimate change in the parties' legal relationship was effectuated by the Virginia legislature's repeal \u2014 a non-judicial act \u2014 not by any court order that ripened into an enforceable judgment; this is precisely the scenario Buckhannon's rejection of the catalyst theory was designed to address. Allowing a provisional, interlocutory order that never matured into a final merits determination to permanently lock in fee eligibility based on subsequent legislative action would effectively resurrect the catalyst theory through the back door, undermining the workable, bright-line rule Buckhannon established and that my colleagues Roberts, Thomas, Alito, Gorsuch, and Barrett have each independently identified as essential to coherent administration of \u00a7 1988.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most compelling counterargument \u2014 that Lefemine v. Wideman explicitly recognized preliminary injunctions can confer prevailing party status, and that the legislative repeal should not retroactively strip a status already earned. However, Lefemine involved a permanent injunction, and the critical distinction here is temporal and structural: the preliminary injunction was never followed by a final merits determination, meaning the plaintiff never became 'entitled to enforce a judgment, consent decree, or settlement against the defendant' as Farrar requires. Justice Sotomayor's analogy to a defendant voluntarily complying after a final judgment actually undermines her position \u2014 in that scenario, a final judgment has already issued, whereas here no final judgment ever issued, and the legislature's repeal is precisely the kind of non-judicial event that Buckhannon's rejection of the catalyst theory was designed to exclude from fee eligibility. The policy concern about chilling civil rights litigation is real and deserves weight, but it is properly addressed to Congress, not to this Court through interpretive expansion of 'prevailing party' beyond what the text and our precedents support.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan's argument that the preliminary injunction's 'operative force' was dissolved before final judgment remains the strongest challenge, but I continue to find it unpersuasive because it conflates the moment prevailing party status attaches with the question of whether that status can be retroactively erased. The Commonwealth was legally compelled to stop enforcing the suspension statute from the moment the district court issued its order \u2014 that is a material alteration of the legal relationship with judicial imprimatur, regardless of what the legislature subsequently did. Justice Thomas argues that prevailing party status requires an 'enduring, enforceable judicial resolution,' but Buckhannon's judicial imprimatur requirement was designed to distinguish court orders from voluntary defendant capitulation, not to impose a durability requirement that the statute's text does not support. The majority's position creates a perverse incentive structure that my background as a public defender makes me acutely sensitive to: civil rights plaintiffs who succeed in obtaining injunctive relief are penalized precisely when their victories are most complete \u2014 when they compel legislative reform \u2014 which is exactly the chilling effect Congress enacted \u00a7 1988 to prevent.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Under Buckhannon, a prevailing party must obtain a 'judicially sanctioned change in the legal relationship' that carries genuine judicial imprimatur \u2014 not merely a provisional, interlocutory ruling that predicts likelihood of success. A preliminary injunction, by its very nature, does not conclusively resolve the merits; it is an interim measure that can be dissolved, and when the case is mooted by legislative action before any final judgment, the plaintiff has never obtained the enduring, enforceable relief that Farrar v. Hobby requires \u2014 specifically, entitlement to enforce 'a judgment, consent decree, or settlement against the defendant.' Extending prevailing party status to preliminary injunctions later mooted by non-judicial events would effectively resurrect the catalyst theory that Buckhannon explicitly rejected, rewarding plaintiffs whose litigation may have prompted legislative change without any final judicial determination on the merits. Consistent with my preference for narrow, institutionally cautious rulings, I would hold that a preliminary injunction subsequently mooted by legislative repeal does not confer prevailing party status under \u00a7 1988, leaving Congress free to amend the statute if it wishes to reach such circumstances.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1988 authorizes fees for 'prevailing parties,' a legal term of art that, as Buckhannon established, requires a judgment rendered in one's favor \u2014 not merely a preliminary injunction that represents only a judicial prediction of likelihood of success on the merits. Farrar v. Hobby further clarified that no material alteration of the legal relationship occurs 'until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant,' and a preliminary injunction that is subsequently mooted by legislative action never ripens into such enforceable relief. Allowing a preliminary injunction to confer permanent prevailing party status would effectively resurrect the catalyst theory this Court explicitly rejected in Buckhannon, since the ultimate change in the parties' legal relationship here was caused by the Virginia legislature's repeal of the statute \u2014 a non-judicial act \u2014 rather than any final judicial determination on the merits. Consistent with my originalist and textualist approach, the ordinary legal meaning of 'prevailing party' at the time of \u00a7 1988's enactment demanded an actual, enduring judicial resolution on the merits, which respondents never obtained.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under Buckhannon's clear rejection of the catalyst theory and its demand for 'ready administrability,' a preliminary injunction that is subsequently mooted by legislative action cannot confer prevailing party status under 42 U.S.C. \u00a7 1988. Buckhannon explicitly requires a 'judicial imprimatur' in the form of an enforceable judgment, consent decree, or settlement \u2014 not merely a provisional court order predicated on a likelihood-of-success assessment that was never reduced to a final merits determination. Farrar v. Hobby reinforces this by holding that 'no material alteration of the legal relationship between the parties occurs until the plaintiff becomes entitled to enforce a judgment, consent decree, or settlement against the defendant,' and a preliminary injunction rendered moot before final judgment satisfies none of these categories. Allowing a preliminary injunction mooted by legislative repeal to confer prevailing party status would effectively resurrect the catalyst theory Buckhannon rejected, rewarding plaintiffs for outcomes driven by non-judicial legislative action rather than by a court's conclusive resolution of the merits, and would produce precisely the unpredictable, administratively unworkable fee litigation that Buckhannon sought to eliminate.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Lefemine v. Wideman, a preliminary injunction can confer prevailing party status when it materially alters the legal relationship between the parties with sufficient judicial imprimatur, and the district court's thorough merits-based preliminary injunction here \u2014 requiring the Virginia DMV to stop suspending licenses \u2014 did exactly that, providing real, tangible relief to vulnerable low-income plaintiffs who could not afford to pay fines. The petitioner's argument that prevailing party status requires an 'enduring' change conflates the durability of the underlying relief with the question of whether the plaintiff prevailed at the time the court-ordered change took effect; Buckhannon's rejection of the catalyst theory was directed at non-judicial events causing defendants to change behavior voluntarily, not at court orders that directly compelled such change. Here, the legislature's subsequent repeal of the statute \u2014 while mooting the case \u2014 should not retroactively strip respondents of a status they had already earned through a judicially sanctioned order, any more than a defendant's voluntary compliance after a final judgment would eliminate fee entitlement. Denying fees in this circumstance would create a perverse incentive structure that undermines Congress's explicit purpose in enacting \u00a7 1988: ensuring that civil rights plaintiffs can find counsel willing to vindicate constitutional rights on behalf of those who cannot afford protracted litigation.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Buckhannon's judicial imprimatur requirement, a prevailing party must obtain relief that materially and durably alters the legal relationship between the parties through court-ordered action \u2014 and a preliminary injunction grounded only in likelihood-of-success analysis, subsequently mooted by legislative repeal before any final merits determination, cannot bear that weight. While Lefemine acknowledged that a permanent injunction can confer prevailing party status, the critical distinction here is that the preliminary injunction was never followed by a final judgment on the merits; the legislature's repeal effectively dissolved the injunction's operative force before the litigation reached resolution, meaning respondents never obtained the kind of enduring, enforceable judicial relief that Farrar and Buckhannon contemplate. Extending prevailing party status to this scenario risks collapsing Buckhannon's rejection of the catalyst theory, since a legislature that moots litigation by repealing a statute is functionally analogous to a defendant who voluntarily changes conduct \u2014 in both cases, the plaintiff's 'victory' flows from non-judicial action rather than a court's conclusive merits determination. The workability concern cuts in favor of the petitioner as well: allowing preliminary injunctions mooted by legislative action to trigger fee awards creates perverse incentives and unpredictable litigation dynamics that undermine the coherent administration of \u00a7 1988.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The plain meaning of 'prevailing party' under 42 U.S.C. \u00a7 1988 requires a plaintiff to have actually prevailed \u2014 that is, to have obtained enduring, merits-based judicial relief that conclusively alters the legal relationship between the parties. A preliminary injunction, by its very nature, is provisional and interlocutory, representing only a judicial prediction of likely success rather than a final determination on the merits; when the case is mooted before any such final determination, the plaintiff has not 'prevailed' in any meaningful sense of that word. Buckhannon's rejection of the catalyst theory rested precisely on the principle that voluntary defendant capitulation \u2014 including legislative repeal \u2014 cannot substitute for a judicial imprimatur grounded in an enforceable judgment, and the same logic applies here: the legislature's repeal of the challenged statute, not any final court order, is what ultimately ended the driver's license suspensions. Farrar v. Hobby further confirms that material alteration of the legal relationship requires the plaintiff to become 'entitled to enforce a judgment, consent decree, or settlement against the defendant,' a threshold a preliminary injunction later mooted by non-judicial action simply cannot satisfy, and extending prevailing party status in these circumstances would effectively resurrect the catalyst theory Buckhannon expressly interred.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Buckhannon, a prevailing party requires judicial imprimatur through an enforceable judgment, consent decree, or settlement \u2014 not merely an interlocutory preliminary injunction that predicts likelihood of success but does not conclusively resolve the merits. A preliminary injunction, by its very nature under Winter, is contingent and provisional; it does not constitute 'actual relief on the merits' as required by Farrar v. Hobby, because the plaintiff has not yet become 'entitled to enforce a judgment' against the defendant. When the Virginia legislature mooted the case through repeal before any final merits determination, the legal relationship between the parties was never permanently altered by judicial action \u2014 precisely the kind of non-judicial voluntary change that Buckhannon's rejection of the catalyst theory was designed to exclude from fee-shifting eligibility. Extending prevailing party status to preliminary injunctions later mooted by legislative action would effectively resurrect the catalyst theory through the back door, undermining the clear rule Buckhannon established and creating practical workability problems for courts assessing fee entitlement based on inherently temporary judicial orders.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, I must begin with the statutory text: \u00a7 1988 awards fees to 'prevailing parties,' a term the Court in Buckhannon and Farrar has carefully defined to require actual relief on the merits that materially alters the legal relationship between the parties through judicial imprimatur \u2014 specifically a judgment, consent decree, or enforceable settlement. A preliminary injunction, by its very nature under Winter, rests on a prediction of likelihood of success rather than a conclusive merits determination, and when the case is mooted by legislative repeal before any final judgment issues, the plaintiff has never obtained the kind of enduring, court-ordered relief that Farrar identified as necessary \u2014 entitlement to enforce 'a judgment, consent decree, or settlement against the defendant.' Furthermore, Buckhannon's rejection of the catalyst theory reflects the Court's insistence that the change in legal relationship must flow from a judicial act with sufficient finality; permitting a preliminary injunction subsequently rendered moot by non-judicial action to confer prevailing party status would effectively resurrect a variant of the catalyst theory by allowing legislative action \u2014 not judicial resolution \u2014 to lock in fee eligibility based on a provisional, interlocutory order that never ripened into a merits determination.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While Buckhannon rejected the catalyst theory and requires judicial imprimatur, it did not categorically exclude preliminary injunctions from conferring prevailing party status \u2014 and Lefemine v. Wideman explicitly confirmed that a preliminary injunction can satisfy the material alteration requirement when it modifies the defendant's behavior in a way that directly benefits plaintiffs. Here, the district court's preliminary injunction under the rigorous Winter standard \u2014 requiring a showing of likelihood of success on the merits \u2014 carried sufficient judicial imprimatur because it was a court-ordered directive that compelled the Commonwealth to stop enforcing the suspension statute, materially altering the legal relationship between the parties. The subsequent legislative repeal, while mooting the case, should not retroactively erase prevailing party status that had already been established by a court order with genuine merits content; to hold otherwise would perversely penalize civil rights plaintiffs whose victories prompted legislative reform, undermining the deterrent and compensatory purposes of \u00a7 1988. My background as a public defender reinforces my concern that denying fees in these circumstances would chill civil rights litigation by making it financially untenable for attorneys to represent plaintiffs whose wins come through injunctions rather than final judgments.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.807,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

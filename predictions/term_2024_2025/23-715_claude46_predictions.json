@@ -1,0 +1,619 @@
+[
+  {
+    "docket": "23-715",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Medicare Act's reference to hospital patients 'entitled to supplementary security income benefits under Title XVI' includes only patients actively receiving SSI income-supplementing payments at the time of hospitalization, or encompasses a broader category of patients with some SSI connection.",
+      "legal_provision": "42 U.S.C. 1395ww(d)(5)(F)(vi)(I) of the Medicare Act, which governs Disproportionate Share Hospital (DSH) payment adjustments, cross-referencing Title XVI of the Social Security Act, 42 U.S.C. 1381 et seq. (Supplemental Security Income program)",
+      "petitioner_position": "Advocate Christ Medical Center and allied hospital petitioners argue that the statutory phrase 'entitled to supplementary security income benefits' should be interpreted broadly to include a wider range of patients with SSI program connections, including those captured by various SSA payment status codes, thereby increasing the DSH payment fraction and resulting in higher Medicare reimbursements for hospitals serving low-income and vulnerable patient populations. Petitioners contend that the Secretary's narrow interpretation artificially suppresses DSH payments and fails to account for the full scope of patients the statute was designed to cover.",
+      "respondent_position": "Secretary Becerra and the Department of Justice argue that 'entitled to supplementary security income benefits under Title XVI' refers strictly and exclusively to patients who were actually entitled to receive income-supplementing SSI payments during the period they received hospital services. The government contends that petitioners' broader interpretation would improperly include patients who are not eligible for SSI benefits at all, noting that at least 50 of the 74 SSA payment status codes petitioners seek to include are designated 'N' codes indicating ineligibility for SSI payments, and that this narrow reading is supported by case law including Florida Health Sciences Center v. Becerra and Metropolitan Hospital v. HHS.",
+      "key_precedents": [
+        "Florida Health Sciences Center, Inc. v. Becerra, 19-cv-3487-RC, 2021 WL 2823104 (D.D.C. July 7, 2021)",
+        "Metropolitan Hospital v. HHS, 712 F.3d 268 (6th Cir. 2013)",
+        "Allina Health System v. Sebelius, 982 F. Supp. 2d 1 (D.D.C. 2013)",
+        "Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007)",
+        "Advocate Christ Medical Center v. Becerra, 80 F.4th 346 (D.C. Cir. 2023)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's invocation of Empire Health Foundation remains the most serious challenge to my position, and I have genuinely wrestled with it across both rounds of deliberation. However, I am persuaded by the structural distinction that Justice Barrett articulates with particular clarity: Empire Health addressed a status-based Medicare Part A entitlement that does not fluctuate month-to-month, whereas SSI's Title XVI architecture makes entitlement inherently month-specific and contingent on ongoing income and resource determinations \u2014 importing Empire Health's reasoning wholesale would ignore that 'entitled' carries different operational meaning depending on the statutory scheme it inhabits. Justice Kagan's proposed remand for an eligibility-based standard is administratively creative and not without appeal to my minimalist instincts, but as Justice Barrett correctly notes, it would require us to substitute 'meets SSI criteria' for 'entitled to SSI benefits,' which exceeds our interpretive role. As Chief Justice, I would assign the majority opinion to myself and write it on the narrowest possible grounds \u2014 emphasizing the specific structural differences between SSI and Medicare Part A, declining to foreclose all future eligibility-versus-payment arguments, and leaving open the possibility that Congress or the agency could craft a more nuanced standard through the legislative or rulemaking process.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's invocation of Empire Health Foundation v. Becerra remains the most serious challenge to my position, but after careful reflection I find it distinguishable on originalist grounds: Empire Health addressed Medicare Part A, a status-based entitlement program where Congress designed enrollment as a permanent qualifying status, whereas Title XVI's SSI program is architecturally structured as a month-specific cash payment scheme where 'entitlement' is redetermined each month based on income and resources under 42 U.S.C. 1382 \u2014 the original public meaning of 'entitled to supplementary security income benefits under Title XVI' must be read against Title XVI's own structural design, not imported from a structurally dissimilar program. Justice Jackson's argument that Congress's choice of 'entitled' over 'receiving' suggests something broader than payment receipt is textually interesting, but it proves too much \u2014 the original public meaning of 'entitled' in the SSI context, given Title XVI's architecture, is precisely tied to monthly eligibility determinations, and the SSA's 'N' code designations represent affirmative ineligibility findings that cannot be reconciled with any reasonable reading of 'entitled to' benefits. Justice Kagan's proposed remand for an eligibility-based standard is administratively creative but would require this Court to substitute 'meets SSI criteria' for 'entitled to SSI benefits,' which is judicial rewriting rather than interpretation regardless of its policy appeal. The consistent agency interpretation, the structural statutory analysis Justice Gorsuch correctly identifies, and the original public meaning of Title XVI's entitlement framework all confirm that the Respondent's position is correct.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Kagan raises the most serious challenge by invoking Empire Health Foundation v. Becerra, 597 U.S. 423 (2022), arguing that 'entitled' does not require an absolute right to payment but rather satisfaction of eligibility criteria. However, Empire Health addressed Medicare Part A entitlement \u2014 a status-based, permanent entitlement arising from age or disability \u2014 which is structurally distinct from SSI's month-specific, payment-contingent cash benefit scheme under Title XVI. The critical distinction, as Justice Gorsuch correctly notes, is that Congress used 'entitled,' 'eligible,' and 'receiving' with precision throughout the Social Security Act, and Title XVI's own architecture ties entitlement to monthly eligibility determinations \u2014 meaning the SSA's 'N' code designation of ineligibility is not a mere administrative artifact but a substantive determination that the patient lacks entitlement in that period. Petitioners' reading would require us to treat patients the SSA itself has affirmatively designated as ineligible as nonetheless 'entitled to' benefits, which is not a strained administrative interpretation but a direct contradiction of the statutory text's plain meaning.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan and Justice Jackson both press the Empire Health Foundation argument with force, and I want to engage it honestly: Empire Health did hold that 'entitled' does not require an absolute right to payment, and I cannot dismiss that precedent lightly. But the structural distinction between Medicare Part A \u2014 a status-based entitlement that vests upon meeting qualifying criteria and does not fluctuate \u2014 and SSI's month-specific, income-and-resource-contingent cash payment program under Title XVI is not a formalistic dodge; it reflects how Congress actually designed these programs to operate, and the word 'entitled' necessarily carries different operational meaning in each statutory context. Justice Jackson's point that Congress could have said 'receiving SSI payments' but chose 'entitled' instead is genuinely interesting, but that argument proves too much \u2014 Congress also could have said 'eligible for' SSI benefits, as it did elsewhere in the Social Security Act, and its choice of 'entitled' in a cross-reference to Title XVI's architecture, where entitlement is determined monthly, most naturally reads as requiring that monthly entitlement determination to be satisfied. My deepest concern remains the real-world impact on safety-net hospitals and the vulnerable populations they serve, but I cannot in good conscience stretch 'entitled to' SSI benefits to cover patients the SSA itself has affirmatively coded as ineligible \u2014 that is a legislative fix, not a judicial one.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that Empire Health's reasoning doesn't translate to SSI because SSI is a month-specific cash payment program is the most carefully reasoned challenge to my position, and I acknowledge its force \u2014 the structural distinction between a status-based enrollment program and a monthly eligibility determination is real and legally significant. However, I remain unpersuaded that this distinction fully resolves the interpretive question, because the DSH formula's purpose is to measure the low-income patient population served by safety-net hospitals, and the Secretary's reliance on SSA payment codes creates a proxy that may systematically undercount genuinely SSI-eligible patients for reasons unrelated to their substantive eligibility status. The majority's position also fails to adequately grapple with the asymmetry Empire Health identified \u2014 'entitled' was deliberately chosen over 'receiving,' and while the SSI program's monthly structure gives that choice different operational content than in the Medicare Part A context, it does not eliminate the gap between substantive eligibility and actual payment receipt that petitioners identify. I would maintain my position favoring a remand for an eligibility-based standard, while conceding that the 'N' code patients Justice Gorsuch and Justice Sotomayor identify as affirmatively ineligible represent a legitimate limiting principle that the agency must address on remand.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's invocation of Empire Health Foundation v. Becerra remains the strongest challenge to my position, and I have genuinely wrestled with it \u2014 but the distinction between Medicare Part A's status-based, permanent entitlement and SSI's month-specific, income-and-resource-contingent cash payment program is not a formalistic dodge; it reflects the actual statutory architecture Congress built in Title XVI, where 42 U.S.C. 1382 makes entitlement inherently monthly and contingent. Justice Jackson's argument that Congress could have said 'receiving SSI payments' and chose 'entitled' instead has surface appeal, but the textualist move cuts the other way: Congress cross-referenced Title XVI specifically, and Title XVI's own structure defines entitlement as a monthly determination \u2014 so 'entitled to' SSI benefits under Title XVI means what Title XVI says it means, not what a decontextualized reading of 'entitled' might suggest. The SSA's 'N' code designations are not mere administrative artifacts but substantive ineligibility determinations, and accepting petitioners' reading would require me to treat patients the administering agency has affirmatively found ineligible as nonetheless 'entitled' \u2014 that is not interpretation but rewriting. My textualist methodology demands that I give effect to Congress's precise word choices in their statutory context, and that context here firmly supports the Respondent's position.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's invocation of Empire Health Foundation v. Becerra remains the most serious challenge to my position, and I have genuinely wrestled with it across both rounds of deliberation \u2014 but I am ultimately persuaded that the structural distinction between Medicare Part A's status-based entitlement and SSI's month-specific, income-and-resource-contingent cash payment program is legally dispositive, not merely formalistic. Justice Jackson's point that Congress could have said 'receiving SSI payments' but chose 'entitled' instead has some force, yet as Justice Gorsuch correctly observes, the precision argument cuts the other way too: Congress also knew how to say 'eligible for' and chose neither that phrase nor 'receiving,' suggesting 'entitled' carries the specific operational meaning Title XVI's own architecture assigns to it \u2014 a monthly determination of payment eligibility. My institutionalist concern reinforces this conclusion: accepting petitioners' reading would require the Court to substitute 'meets SSI criteria' for 'entitled to SSI benefits' in the DSH formula, which is legislative work that Congress, not this Court, should undertake if the current statutory scheme produces undesirable results for safety-net hospitals. The consistent agency interpretation, the structural statutory analysis, and the 'N' code problem Justice Sotomayor identifies all counsel maintaining the Respondent position on the narrowest possible textual grounds.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's Empire Health Foundation argument remains the most serious challenge to my position, and I have given it careful consideration across both deliberation rounds. However, I am now more confident \u2014 not less \u2014 that Empire Health does not control here, for the reason Justice Thomas articulates with precision: Medicare Part A entitlement is a status-based right that, once established, does not fluctuate month-to-month, whereas SSI entitlement under Title XVI is structurally month-specific, contingent on ongoing income and resource determinations under 42 U.S.C. 1382. Justice Kagan's proposed remand for an eligibility-based standard is administratively creative, but as I noted in my prior reasoning, it requires substituting 'meets SSI criteria' for 'entitled to SSI benefits' \u2014 a rewrite, not an interpretation \u2014 and the SSA's 'N' code designations represent affirmative ineligibility determinations that cannot be reconciled with any reasonable reading of 'entitled.' Justice Jackson's point that Congress could have written 'receiving SSI payments' but chose 'entitled' instead is textually interesting, but the better inference from that choice is that Congress tracked SSI's own entitlement architecture, not that it intended a broader eligibility standard the statute's text and structure cannot support.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.52,
+        "reasoning": "Justice Barrett's argument that Empire Health Foundation does not translate to SSI because SSI is a month-specific cash payment program is the most carefully reasoned opposing argument, and I take it seriously \u2014 but I remain unpersuaded that the structural distinction between Medicare Part A and SSI is as decisive as my colleagues suggest. The core insight of Empire Health is that 'entitled' in the DSH formula context signals something about eligibility status rather than actual payment receipt, and that interpretive principle does not evaporate simply because SSI's underlying entitlement determinations are made monthly rather than permanently. Justice Gorsuch's precision argument \u2014 that Congress used 'entitled,' 'eligible,' and 'receiving' with deliberate distinction \u2014 actually supports my position: if Congress wanted to limit the DSH numerator to patients actively receiving SSI checks, it could have written 'receiving' or 'being paid,' but it chose 'entitled to,' which in the context of the DSH formula's structural purpose of measuring low-income patient burden, most naturally reads as satisfying the substantive criteria for SSI. I acknowledge the 'N' code problem Justice Sotomayor raises is real and requires a limiting principle, but that difficulty in line-drawing does not justify adopting the Secretary's payment-receipt standard wholesale when it demonstrably excludes patients who satisfy SSI's substantive eligibility criteria for purely administrative reasons unrelated to their actual poverty status.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) references patients 'entitled to supplementary security income benefits under Title XVI,' and as Metropolitan Hospital v. HHS, 712 F.3d 268 (6th Cir. 2013) correctly recognized, the structural differences between SSI and Medicare Part A are dispositive: SSI benefits are monthly cash payments contingent on ongoing eligibility, not a status-based entitlement like health insurance coverage. The Secretary's interpretation that 'entitled' means actually eligible to receive SSI payments during the hospitalization period is consistent with how Title XVI itself operates \u2014 entitlement to SSI is month-specific and can be lost, unlike Medicare Part A entitlement which is permanent and automatic. Petitioners' broader reading would sweep in patients bearing SSA 'N' codes explicitly designating SSI ineligibility, which strains the statutory text beyond any reasonable construction and would effectively rewrite the DSH formula Congress enacted. Consistent with my preference for narrow, textually grounded rulings that respect agency interpretations supported by structural statutory analysis and circuit court precedent, I would affirm the D.C. Circuit's judgment for the Secretary.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Applying strict textualism and the original public meaning of 'entitled to supplementary security income benefits under Title XVI,' the statutory text most naturally refers to patients who are actually entitled to receive SSI cash payments during the relevant period, not merely those with some attenuated SSI connection. The word 'entitled' in the Social Security Act context has a specific legal meaning denoting actual eligibility for and receipt of benefits, and Congress's use of this precise term in 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) must be given its ordinary legal meaning at the time of enactment. The petitioners' expansive reading would sweep in patients designated under SSA 'N' codes explicitly indicating SSI ineligibility, which directly contradicts the plain statutory text and would effectively rewrite the provision to read 'patients with any SSI connection' rather than patients 'entitled to' benefits. Metropolitan Hospital v. HHS and Florida Health Sciences Center v. Becerra correctly applied the textual meaning, and while I am sympathetic to the hospitals' policy arguments about serving vulnerable populations, it is Congress's prerogative, not the judiciary's, to broaden the DSH formula if it chooses.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) refers specifically to patients 'entitled to supplementary security income benefits under Title XVI,' and as a textualist, I must give these words their precise statutory meaning. Unlike Medicare Part A entitlement, which is automatic and permanent upon qualifying age or disability, SSI benefits are monthly cash payments contingent on an individual's income and resources in a given month \u2014 meaning 'entitlement' to SSI is necessarily a month-specific determination, not a status that persists independently of actual payment eligibility. The Sixth Circuit in Metropolitan Hospital v. HHS, 712 F.3d 248 (6th Cir. 2013), correctly recognized this structural distinction and upheld the Secretary's narrow interpretation, and the petitioners' proposed expansion to include patients designated under 'N' codes \u2014 which SSA itself designates as indicating ineligibility for SSI payments \u2014 would effectively rewrite the statute to include individuals who are, by the agency's own classification, not entitled to SSI benefits at all. Adopting the petitioners' broader reading would require this Court to ignore the plain meaning of 'entitled' as used in the SSI statutory scheme and substitute a judicially invented category untethered to the statutory text.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While my sympathies lie with hospitals serving vulnerable low-income populations, the statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) and the structural differences between SSI and Medicare Part A benefits compel me to side with the Secretary here. As the Sixth Circuit recognized in Metropolitan Hospital v. HHS, 712 F.3d 248, 268-69 (6th Cir. 2013), SSI benefits are month-specific cash payments, not an ongoing insured status like Medicare Part A, meaning 'entitled to SSI benefits' necessarily refers to active entitlement during the hospitalization period rather than some broader programmatic connection. The petitioners' expansive reading would sweep in patients designated under 'N' codes\u2014patients the SSA itself has determined are ineligible for SSI payments\u2014which strains the statutory language beyond its natural meaning and would effectively rewrite the DSH formula Congress enacted. Though I am deeply concerned about the real-world impact on safety-net hospitals and the low-income patients they serve, the proper remedy for an underfunded DSH system lies with Congress, not with judicial expansion of statutory text beyond what it can reasonably bear.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory phrase 'entitled to supplementary security income benefits under Title XVI' is most naturally read by reference to SSI's own eligibility framework under 42 U.S.C. 1382, which distinguishes between categorical eligibility\u2014meeting the income, resource, and disability criteria\u2014and the administrative act of payment. As the Court recognized in Empire Health Foundation v. Becerra, 597 U.S. 423 (2022), 'entitled' in the Medicare DSH context does not require an absolute right to payment but rather satisfaction of program eligibility criteria, and applying that same logic here counsels against the Secretary's hyper-narrow reading that excludes patients who satisfy SSI's substantive criteria but missed a payment for administrative reasons like an invalid mailing address. The Secretary's interpretation, which relies on SSA payment status codes\u2014including 'N' codes that may sweep in genuinely ineligible individuals while excluding genuinely eligible ones\u2014creates exactly the kind of agency-crafted instability that undermines the DSH formula's structural coherence and its purpose of measuring the low-income patient population. A pragmatic reading of the statute that anchors entitlement to SSI eligibility criteria rather than month-to-month payment receipt better serves statutory purpose, administrative workability, and the congressional design of compensating hospitals for the genuine costs of serving vulnerable populations, though I would remand to the agency to craft a workable eligibility-based standard that excludes the clearly ineligible 'N' code patients.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The plain meaning of 'entitled to supplementary security income benefits under Title XVI' most naturally refers to patients who actually hold a legal right to receive SSI monetary payments during the relevant period, not merely those with some administrative connection to the SSI program. Across the Social Security Act's statutory scheme, Congress consistently distinguished between 'entitled,' 'eligible,' and 'receiving' benefits with precision \u2014 as evidenced by 42 U.S.C. 1396a(a)(10)(A)(i)(II)'s reference to SSI benefits 'being paid' and 42 U.S.C. 1320b-19(k)(4)'s definition of beneficiary status month-by-month based on eligibility for payments. Petitioners' proposed expansion to include patients assigned 'N' codes \u2014 which the SSA itself designates as indicating ineligibility for SSI payments \u2014 would stretch the statutory text beyond recognition and effectively rewrite the numerator of the DSH fraction in a manner Congress did not authorize. The Sixth Circuit's reasoning in Metropolitan Hospital v. HHS, which applied a similarly narrow reading consistent with the statute's text and cross-referencing structure, reinforces that the Secretary's interpretation reflects the most faithful reading of what Congress actually enacted.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) references patients 'entitled to supplementary security income benefits under Title XVI,' and as the Sixth Circuit correctly recognized in Metropolitan Hospital v. HHS, 712 F.3d 248 (6th Cir. 2013), the structural differences between the SSI and Medicare Part A statutory schemes justify treating 'entitlement' differently in each context \u2014 SSI entitlement is month-specific and payment-contingent, not a permanent status like Medicare Part A enrollment. The Secretary's interpretation that this phrase covers only patients actually receiving SSI income-supplementing payments during the hospitalization period is grounded in the architecture of Title XVI itself, where entitlement is tied to monthly eligibility determinations under 42 U.S.C. 1381 et seq., and the petitioners' broader reading would sweep in patients designated under SSA 'N' codes as ineligible for SSI payments, stretching the statutory text beyond its natural meaning. From an institutionalist and textualist standpoint, where Congress knows how to draft broader coverage language \u2014 as evidenced by other statutory provisions referencing SSI beneficiaries more expansively \u2014 the Court should not rewrite this provision to dramatically expand DSH payments in ways Congress did not clearly authorize, particularly given the major fiscal consequences involved.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying textualist and originalist methodology, the phrase 'entitled to supplementary security income benefits under Title XVI' in 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) most naturally refers to patients who hold an active, present entitlement to receive SSI cash payments during the relevant period, not merely those with some attenuated programmatic connection. Title XVI itself, codified at 42 U.S.C. 1381 et seq., structures SSI as a monthly cash payment program, and Congress's use of 'entitled' throughout the Social Security Act consistently denotes a present, operative right to receive a specific benefit rather than a general eligibility status or program affiliation. The D.C. Circuit's reasoning in Advocate Christ Medical Center v. Becerra, 80 F.4th 346 (D.C. Cir. 2023), and the Sixth Circuit's analysis in Metropolitan Hospital v. HHS, 712 F.3d 268 (6th Cir. 2013), correctly identified that petitioners' broader reading would sweep in patients bearing SSA payment status codes explicitly designated as indicating SSI ineligibility, which cannot be reconciled with the statutory text's plain requirement of entitlement to benefits. While I acknowledge the petitioners raise a non-frivolous argument that 'entitlement' need not mean actual receipt of payment\u2014as Empire Health Foundation v. Becerra, 597 U.S. 434 (2022), cautioned against equating entitlement with an absolute right to payment\u2014the specific cross-reference to Title XVI's cash-payment structure and the government's consistent administrative interpretation counsel in favor of the Secretary's narrower reading.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The statutory phrase 'entitled to supplementary security income benefits under Title XVI' should not be read so narrowly as to exclude patients who meet SSI eligibility criteria simply because they received no cash payment in a given month due to administrative or technical reasons unrelated to their underlying low-income status. As the research materials note, the Supreme Court in Empire Health Foundation v. Becerra, 597 U.S. 434 (2022), rejected equating 'entitled' with an 'absolute right to payment,' and that reasoning applies with equal force here \u2014 the DSH formula's population-measuring purpose is best served by capturing the full scope of low-income, vulnerable patients Congress intended to protect, not merely those who cleared every administrative hurdle to receive a cash disbursement in a specific month. My background as a public defender reinforces my concern that the Secretary's hyper-narrow interpretation systematically undercounts the most vulnerable patient populations, suppressing DSH payments to safety-net hospitals that serve them and producing practical consequences Congress could not have intended. However, I acknowledge the government's legitimate concern that including 'N' code patients who are affirmatively ineligible for SSI payments would stretch the statute beyond its text, and I would remand for the agency to develop a more principled distinction between those who are eligible-but-unpaid versus those who are genuinely ineligible.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.747,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "23-715",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Medicare Act's reference to hospital patients 'entitled to supplementary security income benefits under Title XVI' includes only patients actively receiving SSI income-supplementing payments at the time of hospitalization, or a broader category of patients with some SSI-related status.",
+      "legal_provision": "42 U.S.C. 1395ww(d)(5)(F)(vi)(I) of the Medicare Act, which governs Disproportionate Share Hospital (DSH) payment adjustments by referencing patients 'entitled to supplementary security income benefits under Title XVI' of the Social Security Act, 42 U.S.C. 1381 et seq.",
+      "petitioner_position": "Petitioners (Advocate Christ Medical Center and other hospitals) argue for a broader interpretation of 'entitled to' SSI benefits, contending that the Secretary's narrow reading of the statute improperly excludes patients who hold various SSI payment status codes, thereby artificially deflating DSH payment calculations and resulting in significantly reduced Medicare reimbursements to hospitals that serve large numbers of low-income patients. They assert that up to 74 SSA payment status codes should qualify as indicators of SSI entitlement, which would increase the DSH fraction and corresponding supplemental payments to safety-net hospitals.",
+      "respondent_position": "Respondent (Secretary of Health and Human Services Xavier Becerra) argues that 'entitled to supplementary security income benefits' refers strictly and narrowly to patients who were actually receiving income-supplementing SSI payments under Title XVI at the time they received hospital services. The Secretary contends that at least 50 of the 74 SSA payment status codes cited by petitioners carry 'N' designations indicating the patient was not eligible for SSI payments, and that including such individuals would improperly expand the DSH fraction beyond its statutory meaning. The Secretary further argues that case law supports this interpretation and that differences in statutory language between the SSI and Medicare schemes justify the apparent inconsistency in how 'entitled' is applied.",
+      "key_precedents": [
+        "Florida Health Sciences Center, Inc. v. Becerra, 19-cv-3487-RC, 2021 WL 2823104 (D.D.C. July 7, 2021)",
+        "Metropolitan Hospital v. HHS, 712 F.3d 268 (6th Cir. 2013)",
+        "Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007)",
+        "Allina Health System v. Sebelius, 982 F. Supp. 2d 1 (D.D.C. 2013)",
+        "Advocate Christ Medical Center v. Becerra, 80 F.4th 346 (D.C. Cir. 2023)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's same-sentence canon argument continues to press hardest against my position, and Justice Jackson's movement to the Petitioner side \u2014 grounded in precisely the same reasoning \u2014 gives me genuine pause. However, I remain unpersuaded that Empire Health Foundation's interpretive principle about 'entitled to' translates cleanly across both clauses, because that case addressed Medicare Part A's durable insurance status, not a cross-reference to a program where Congress itself defined the benefit as a monthly contingent payment under 42 U.S.C. 1382. The critical point is that when Congress writes 'entitled to supplementary security income benefits under Title XVI,' it incorporates Title XVI's own statutory definition of what those benefits are \u2014 and that definition is structurally different from Medicare Part A's insured status in a way that satisfies Environmental Defense's requirement of contextual evidence for divergent meaning. My minimalist instincts counsel that where the Secretary has maintained a longstanding, consistent interpretation grounded in the actual statutory architecture of the cross-referenced title, and where reversal would require importing SSA payment-status codes Congress never contemplated into the DSH formula, I should not disturb that interpretation on the basis of a canon that the governing precedent itself acknowledges can be rebutted by context.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that the definition of what the benefit *is* must be distinguished from what it means to be *entitled to* that benefit is the strongest challenge I face, and I acknowledge Empire Health Foundation's interpretive principle carries real weight. However, I remain unpersuaded because when Congress cross-references 'supplementary security income benefits under Title XVI,' it does not merely invoke the label 'SSI' \u2014 it incorporates the statutory architecture of Title XVI itself, where 42 U.S.C. 1382 makes the benefit a monthly determination contingent on that month's income and resources, meaning the referent of 'entitled to' is structurally different in each clause in a way that satisfies Environmental Defense's contextual exception. Justice Kagan argues that Congress knows how to write 'receiving' when it means active receipt, but this cuts both ways \u2014 Congress also knows how to define a benefit as a monthly payment contingent on monthly circumstances, and when it cross-references that benefit, it incorporates that contingency into the meaning of 'entitled to.' I acknowledge the tally has shifted to 5-4 and that Justice Jackson's movement reflects the genuine force of the same-sentence canon, but a well-reasoned dissent grounded in the original public meaning of the cross-reference \u2014 which incorporates Title XVI's own definitions \u2014 is more faithful to textualism than collapsing the structural distinction between a durable insurance status and a monthly payment-contingent determination.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Barrett's same-sentence canon argument continues to press hardest against my position, and I acknowledge that Empire Health Foundation's holding that 'entitled to' describes a legal status rather than payment receipt is not easily cabined to Medicare Part A alone. However, I maintain my position because the canon's presumption of uniform meaning is rebutted here not by mere administrative convenience but by the statutory architecture Congress itself built into Title XVI: when Congress cross-references 'supplementary security income benefits under Title XVI,' it necessarily incorporates 42 U.S.C. 1382's definition of that benefit as a monthly cash payment contingent on that month's income and resources, meaning the referent of entitlement is structurally different in each clause \u2014 one attaches to a durable insurance status, the other to a monthly payment determination. Justice Barrett argues this conflates the benefit's definition with the meaning of 'entitled to,' but I disagree: the phrase 'entitled to [X]' cannot be divorced from what X is, and when X is by statutory definition a month-specific contingent payment rather than a durable status, a person coded 'N' for non-payment in a given month is not entitled to that payment by the statute's own terms. The tally has shifted and I respect my colleagues' reasoning, but a well-reasoned dissent grounded in Title XVI's own text is preferable to abandoning a structurally sound position simply because five colleagues find the same-sentence canon dispositive.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas and Justice Alito's structural argument \u2014 that Title XVI defines SSI benefits as monthly cash payments under 42 U.S.C. 1382, providing contextual justification for reading 'entitled to' differently than in the Medicare Part A clause \u2014 remains the most serious challenge to my position, but I find it ultimately unpersuasive for the reasons Justice Barrett articulates most precisely: the definition of what the benefit *is* does not answer the separate question of what it means to be *entitled to* that benefit, and Empire Health Foundation already established that 'entitled to' describes a legal status of qualifying under eligibility criteria rather than the actual disbursement of funds. The same-sentence canon is particularly powerful here \u2014 the Secretary is asking us to read identical language in the same statutory clause to mean 'meets eligibility criteria' for Medicare Part A but 'currently receiving payment' for SSI, and Environmental Defense v. Duke Energy Corp. requires affirmative textual evidence of divergent meaning, not merely structural differences between programs. Justice Jackson's evolution toward the Petitioner position is telling: even a justice deeply attentive to structural program differences recognizes that the Secretary's administrative payment codes bearing 'N' designations are not the kind of clear congressional signal that overcomes the presumption of uniform meaning. From my perspective, the real-world consequence of the Secretary's reading \u2014 systematically underfunding safety-net hospitals that serve the most vulnerable patients, including those who are categorically SSI-eligible but temporarily not receiving payment due to month-specific income fluctuations \u2014 reinforces that where the text supports the broader reading, we should not strain to adopt the narrower one that harms those the statute was designed to protect.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas and Justice Alito's structural argument \u2014 that Title XVI's definition of SSI benefits as monthly cash payments contextually informs what 'entitled to' means in the cross-reference \u2014 remains the most serious challenge to my position, but I find it ultimately unpersuasive for the reason Justice Barrett articulates most precisely: the definition of the benefit itself is distinct from the legal status of being 'entitled to' that benefit, and Empire Health Foundation already rejected the equation of 'entitled to' with 'actually receiving payment.' The same-sentence canon is not merely a soft presumption here \u2014 it is a hard textual constraint that requires the Secretary to produce affirmative evidence of divergent congressional intent, not merely point to structural differences between programs that explain why the mechanics of entitlement differ without explaining why the word 'entitled' should carry categorically different meanings. Justice Roberts's minimalist instinct about not disturbing longstanding administrative interpretations would carry real weight under Chevron, but as Justice Gorsuch correctly notes, Loper Bright has changed the analytical landscape \u2014 the question is now purely one of statutory interpretation, and administrative longevity cannot substitute for textual justification. I remain with the Petitioner because the Secretary's reading improperly rewrites 'entitled to' as 'currently receiving,' a substitution Congress demonstrably knows how to make when it intends that meaning.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas and Justice Alito's most forceful argument \u2014 that Title XVI's definition of SSI benefits as monthly cash payments under 42 U.S.C. 1382 provides the contextual signal rebutting the presumption of uniform meaning \u2014 remains unpersuasive to me because it conflates the nature of the benefit with the threshold legal question of whether one is 'entitled to' it. Empire Health Foundation already resolved this distinction: 'entitled to' describes a legal status of qualifying under eligibility criteria, not the act of receiving payment, and that interpretive principle does not evaporate simply because the underlying benefit is structured as a monthly cash payment rather than a durable insurance protection. Justice Barrett correctly frames the burden: the Secretary must demonstrate affirmative textual evidence that Congress intended the same phrase in the same sentence to carry two divergent meanings, and the structural differences between SSI and Medicare Part A \u2014 however real \u2014 do not constitute the kind of clear textual signal that Environmental Defense v. Duke Energy Corp. requires to rebut the strong presumption of uniform meaning within a single statutory clause. I am further persuaded by the point Justice Kagan reinforces: Congress demonstrably knows how to write 'receiving' when it means active payment receipt, and its deliberate choice of 'entitled to' across both clauses of the same sentence cannot be dismissed as inadvertent drafting when the Secretary's reading effectively rewrites the statute to say what it does not say.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.52,
+        "reasoning": "Justice Barrett's same-sentence canon argument continues to press hardest against my position, and I acknowledge the tally has shifted to 5-4 in favor of the Petitioner \u2014 but I cannot abandon my view simply because colleagues I respect have moved. The critical distinction I maintain is this: when Congress cross-references 'supplementary security income benefits under Title XVI,' it does not merely invoke a label but incorporates Title XVI's own statutory architecture, where 42 U.S.C. 1382 defines the benefit as a monthly cash payment contingent on that month's income and resources \u2014 meaning the referent of 'entitled to' is structurally different from Medicare Part A's durable insured status, not merely administratively different. Justice Barrett argues this conflates the definition of the benefit with the meaning of 'entitled to,' but I disagree: Empire Health Foundation's holding that 'entitled to' describes a legal status of qualifying under eligibility criteria was rendered in the context of Medicare Part A's architecture, and extending it wholesale to SSI without accounting for the structural difference in how Title XVI defines its own benefit is not a neutral application of precedent but an expansion of it. My institutionalist instincts also counsel that where reversal would require HHS to incorporate complex SSA payment-status codes Congress never contemplated into the DSH formula with unpredictable fiscal consequences, the absence of a clearer textual directive than the same-sentence canon alone provides counsels restraint \u2014 a well-reasoned dissent serves the institution here.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "Justice Thomas and Justice Alito's most forceful argument \u2014 that Title XVI's own definition of SSI benefits as monthly cash payments under 42 U.S.C. 1382 provides the contextual signal necessary under Environmental Defense to rebut the presumption of uniform meaning \u2014 remains unpersuasive to me because it conflates the statutory definition of what the benefit *is* with the separate interpretive question of what it means to be *entitled to* that benefit. Empire Health Foundation's holding that 'entitled to' describes a legal status of qualifying under eligibility criteria, not the actual disbursement of funds, was not limited to Medicare Part A's particular architecture \u2014 it reflected a general interpretive principle about the phrase 'entitled to' across the Social Security Act, and Justice Alito has not explained why that principle evaporates when the same phrase appears in the very next clause of the same sentence. Justice Kavanaugh's point about SSI's month-specific contingency is structurally interesting, but even accepting that SSI payments are more contingent than Medicare Part A coverage, the question is whether a person who has been determined categorically eligible and meets the income/resource criteria for a given month 'holds an entitlement' \u2014 and the Secretary's reading that 'entitled to' means 'currently receiving a disbursement' collapses a legal status into a payment event in a way Congress signaled it did not intend by choosing 'entitled to' rather than 'receiving.' The burden remains on the Secretary to demonstrate affirmative textual evidence \u2014 not merely structural differences between programs \u2014 that Congress intended the same phrase in the same sentence to carry two divergent meanings, and that burden has not been met.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Thomas and Justice Alito's structural argument \u2014 that Title XVI's definition of SSI benefits as monthly cash payments under 42 U.S.C. 1382 provides the contextual signal rebutting the presumption of uniform meaning \u2014 remains the most serious challenge to my position after three rounds of deliberation, but I continue to find it unpersuasive for the reason Justice Barrett articulates with precision: the definition of what the benefit *is* does not answer the separate question of what it means to be *entitled to* that benefit, and Empire Health Foundation's interpretive principle that 'entitled to' describes a legal status of qualifying under eligibility criteria rather than actual disbursement cannot be cabined to Medicare Part A without a principled distinction the respondents have not supplied. Justice Kavanaugh's institutionalist concern about incorporating 74 SSA payment-status codes into the DSH formula is not without practical weight, but administrative complexity is not a textual argument \u2014 if Congress's chosen language requires that result, it is not our role to rewrite the statute to avoid implementation difficulties HHS must manage. Justice Roberts's minimalist instinct about longstanding administrative interpretations would carry real force under Chevron, but as Justice Gorsuch correctly notes, Loper Bright has fundamentally changed the analytical landscape, and administrative longevity cannot substitute for the textual justification the Secretary has failed to provide. My background as a public defender reinforces my conviction that where the textual case is genuinely close, we should not strain to adopt the narrower reading that systematically underfunds safety-net hospitals serving the most vulnerable patients \u2014 but I want to be clear that my vote rests primarily on the same-sentence canon and Empire Health's holding, not on remedial purpose alone.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) references patients 'entitled to supplementary security income benefits,' and as the Sixth Circuit correctly recognized in Metropolitan Hospital v. HHS, 712 F.3d 248 (6th Cir. 2013), the structural differences between the SSI and Medicare Part A schemes justify treating 'entitled to' differently in each context. SSI benefits are monthly cash payments contingent on income, not an ongoing insured status, meaning entitlement necessarily requires active receipt of payment rather than mere qualifying status \u2014 a distinction the Court itself acknowledged in Empire Health Foundation v. Becerra, 597 U.S. 434 (2022). My preference for narrow statutory construction counsels against expanding the DSH fraction to encompass up to 74 SSA payment status codes, many bearing 'N' designations explicitly indicating non-eligibility for payment, which would stretch the statutory language well beyond its natural meaning. Institutional legitimacy concerns also weigh in favor of deferring to the Secretary's longstanding and consistently applied interpretation of a complex Medicare reimbursement formula, absent a clear congressional directive to the contrary.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As an originalist and textualist, I must give 'entitled to supplementary security income benefits under Title XVI' its plain statutory meaning at the time of enactment. Title XVI itself, at 42 U.S.C. 1381a, defines basic entitlement by reference to individuals who 'shall be paid benefits' based on income and resources eligibility, and 42 U.S.C. 1382(b) specifies that the benefit is a monetary payment \u2014 strongly suggesting 'entitled to' SSI benefits means actually qualifying to receive the cash payment, not merely holding some administrative status code. The research materials confirm that Title XVI defines 'supplemental security income benefit' as a 'cash benefit under section 1382 or 1382h(a),' which excludes individuals whose SSA status codes carry 'N' designations indicating no payment eligibility; including such individuals would stretch the statutory text beyond its original public meaning. Furthermore, as this Court recognized in Empire Health Foundation v. Becerra, 597 U.S. 424 (2022), this provision is technical language addressed to specialists familiar with the Social Security Act's structure, and the Secretary's consistent administrative interpretation aligns with the statute's text and structure, warranting deference to the extent it reflects the statute's original meaning rather than mere agency preference.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As a textualist, I must give 'entitled to supplementary security income benefits under Title XVI' its precise statutory meaning, and the text compels the Secretary's narrower reading. Unlike Medicare Part A entitlement, which is an automatic and permanent status conferred by age or disability under 42 U.S.C. 1395c, SSI benefits under Title XVI are monthly cash payments contingent on an individual's income and resources in a given month \u2014 there is no ongoing 'entitlement' status separate from actual receipt of those payments. The Sixth Circuit correctly recognized in Metropolitan Hospital v. HHS, 712 F.3d 248, 268-69 (6th Cir. 2013), that the structural differences between the SSI and Medicare Part A statutory schemes justify the Secretary's differential interpretation of 'entitled' in each context, and that reading is entitled to deference as a reasonable construction of an ambiguous provision. Furthermore, the practical consequence of adopting petitioners' expansive reading \u2014 incorporating up to 74 SSA payment status codes, including those bearing 'N' designations explicitly indicating non-eligibility for SSI payments \u2014 would stretch the statutory text beyond its natural meaning and improperly inflate DSH fractions in a manner Congress did not contemplate.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Secretary's narrow interpretation of 'entitled to supplementary security income benefits' as requiring active cash payment receipt at the time of hospitalization artificially deflates DSH payments to safety-net hospitals serving the most vulnerable low-income populations, undermining the very purpose of the DSH adjustment. As the petitioners correctly argue, the D.C. Circuit's reasoning that SSI entitlement requires an 'absolute right to payment' was squarely rejected by this Court in Empire Health Foundation v. Becerra, 597 U.S. 433 (2022), which held that 'entitled' does not mean an absolute right to payment but rather describes a legal status of qualifying for benefits under the program's eligibility criteria. The fundamental population-measuring purpose of the DSH fraction supports a broader reading\u2014Congress designed the SSI fraction to identify low-income patients, and individuals who have been determined eligible for SSI (meeting the aged/disabled, low-income, limited-resources criteria) but receive no cash payment in a given month due to technical payment suspensions still represent the low-income population the statute aims to capture. While the Sixth Circuit in Metropolitan Hospital accepted the Secretary's asymmetric treatment of 'entitled' across SSI and Medicare Part A, that reasoning is undermined by Empire Health's rejection of equating entitlement with actual payment receipt, and the practical consequence of the Secretary's reading\u2014systematically underfunding hospitals that disproportionately serve the poor\u2014demands a corrective interpretation consistent with the statute's remedial purpose.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) uses 'entitled to' rather than 'receiving,' and as Empire Health Foundation v. Becerra, 597 U.S. 434 (2022) made clear, 'entitled' in the Medicare context refers to meeting eligibility criteria rather than denoting an absolute right to immediate payment\u2014a distinction the D.C. Circuit below failed to honor consistently. The statutory purpose of the DSH adjustment is to compensate hospitals for the higher costs of serving low-income populations, and that underlying economic reality does not disappear when an SSI-eligible patient's cash payment is suspended for administrative reasons like an invalid mailing address, making the Secretary's narrow reading both textually strained and functionally incoherent. Furthermore, Congress's deliberate choice of 'entitled to' over 'receiving' across the Social Security Act demonstrates it knows how to draft payment-receipt language when it intends that narrower meaning, and the Secretary's inconsistent application of 'entitled' across different parts of the same statutory scheme undermines the coherence and workability that sound statutory interpretation demands. While I would not go so far as to endorse all 74 SSA payment status codes the petitioners propose, the core interpretive question favors a criteria-based rather than payment-receipt-based reading of SSI entitlement for DSH purposes.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a textualist, I must begin with the plain meaning of 'entitled to supplementary security income benefits under Title XVI,' and the statutory text does not say 'receiving' or 'actually paid' SSI benefits \u2014 Congress knows how to use those words when it means them, as demonstrated by its use of 'receiving' elsewhere in the Social Security Act. The research confirms that across Title XVI, Congress consistently distinguishes between eligibility/entitlement status and active payment receipt, and the Secretary's reading improperly collapses 'entitled to' into 'currently receiving a cash payment,' a narrowing that finds no support in the statutory text. Furthermore, as this Court recognized in Empire Health Foundation v. Becerra, 597 U.S. 434 (2022), 'entitled' in the Medicare context reflects a status derived from meeting program eligibility criteria, not the actual disbursement of funds in a given period \u2014 and applying that same logic consistently to the SSI fraction of the DSH formula, rather than selectively, is demanded by the canon against treating identical statutory terms differently without textual justification, see Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007). The rule of lenity and the separation-of-powers concern about agencies arrogating interpretive authority to shrink statutory benefits further counsel against deferring to the Secretary's cramped administrative construction.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) cross-references 'entitled to supplementary security income benefits under Title XVI,' and as this Court recognized in Becerra v. Empire Health Foundation, 597 U.S. 424 (2022), the proper interpretive method is to examine the nature of and prerequisites for the benefits referenced in the cross-referenced statute. SSI under Title XVI is fundamentally a monthly cash payment program, and entitlement to those payments depends on satisfying income, resource, and categorical requirements in a given month \u2014 meaning patients who carry 'N'-coded payment status were not receiving the benefit Congress identified. While I am sympathetic to the practical concern that the Secretary's narrow reading may undercompensate safety-net hospitals serving vulnerable populations, the institutional role of this Court counsels against stretching statutory text to achieve a policy result Congress did not clearly authorize. The Secretary's consistent administrative interpretation, supported by the D.C. Circuit and the Sixth Circuit in Metropolitan Hospital v. HHS, 712 F.3d 268 (6th Cir. 2013), reflects a workable and historically grounded reading that this Court should not lightly disturb.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist and originalist, I begin with the statutory text itself: 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) uses the phrase 'entitled to supplementary security income benefits under Title XVI,' and the canon established in Taniguchi v. Kan Pac. Saipan, Ltd., 566 U.S. 560 (2012), instructs that identical words in the same statutory scheme carry the same meaning\u2014a presumption that is especially forceful when the phrase appears in the same sentence alongside 'entitled to benefits under part A.' This Court's decision in Empire Health Foundation v. Becerra, 597 U.S. 434 (2022), already established that 'entitled to benefits under part A' means meeting basic statutory criteria rather than actively receiving payment on a given day, and the Secretary offers no principled textual basis for reading 'entitled to' differently in the SSI clause of the very same sentence. The Secretary's argument that the two entitlement schemes are structurally distinct is not without force, but methodological consistency demands that the Secretary bear the burden of demonstrating that Congress affirmatively intended the same phrase, in the same sentence, to carry two divergent meanings\u2014a burden the Secretary has not met through textual evidence. Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), reinforces that context can rebut the presumption of uniform meaning, but the Secretary's reliance on administrative convenience and payment-code designations does not constitute the kind of clear contextual signal that would justify departing from the ordinary rule.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 42 U.S.C. 1395ww(d)(5)(F)(vi)(I) references patients 'entitled to supplementary security income benefits under Title XVI,' and unlike Medicare Part A \u2014 where entitlement is a permanent, status-based insurance protection \u2014 SSI benefits under Title XVI are fundamentally cash payments that are month-specific and contingent on ongoing eligibility determinations, meaning 'entitled to' in the SSI context necessarily tracks active payment receipt rather than a durable status. As the Sixth Circuit recognized in Metropolitan Hospital v. HHS, 712 F.3d 248, 268 (6th Cir. 2013), the apparent inconsistency in how 'entitled' is applied across the SSI and Medicare Part A schemes is explained by the structural differences between those statutory frameworks, not by a uniform meaning of the phrase. While my background as a public defender makes me deeply sympathetic to the practical consequences for safety-net hospitals serving vulnerable low-income populations \u2014 and I am troubled by the real-world impact of reduced DSH payments on hospitals like Advocate Christ \u2014 the Secretary's interpretation is grounded in a defensible reading of the statutory architecture that courts, including the D.C. Circuit in the decision below, have consistently upheld. The principle from Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), that the same term can carry different meanings in different statutory contexts further supports deferring to the Secretary's contextually sensitive interpretation here.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.704,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.52,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "docket": "23-970",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether plaintiffs in a securities fraud class action can satisfy the PSLRA's heightened pleading requirements by relying on expert opinions as substitutes for particularized factual allegations, and whether scienter allegations based on internal company documents must plead those documents' contents with particularity.",
+      "legal_provision": "Private Securities Litigation Reform Act of 1995 (PSLRA), 15 U.S.C. \u00a7 78u-4(b)(2)(A), which requires plaintiffs to allege with 'particularity' facts giving rise to a 'strong inference' of scienter, and to 'state with particularity all facts' supporting their belief that challenged statements were false or misleading.",
+      "petitioner_position": "NVIDIA and Jensen Huang argue that the Ninth Circuit improperly allowed respondents to circumvent the PSLRA's strict heightened pleading standards by substituting an expert opinion for the particularized factual allegations expressly required by the statute, and that allegations referencing internal company documents must specifically plead the contents of those documents rather than relying on generalized inferences; they contend this approach undermines Congress's deliberate effort to deter frivolous securities fraud class actions and prevent vexatious discovery and extortionate settlements.",
+      "respondent_position": "Institutional investor respondents E. \u00d6hman J:or Fonder AB and Stichting Pensioenfonds PGB argue that their pleadings sufficiently satisfy the PSLRA's requirements, that expert analysis is a legitimate and appropriate tool to support falsity allegations at the pleading stage, and that the Ninth Circuit correctly permitted the case to proceed because the totality of their allegations \u2014 including expert opinion and references to internal documents \u2014 adequately establishes the requisite strong inference of scienter and particularized basis for falsity.",
+      "key_precedents": [
+        "Merrill Lynch, Pierce, Fenner & Smith Inc. v. Dabit, 547 U.S. 71 (2006)",
+        "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007)",
+        "Ashcroft v. Iqbal, 556 U.S. 662 (2009)",
+        "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007)",
+        "Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579 (1993)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a strong consensus, and I find the core textual argument compelling: the PSLRA's demand for 'particularity' in pleading 'facts' cannot be satisfied by expert opinions that themselves rest on undisclosed underlying data, nor by bare references to internal documents whose contents are never pleaded. Justice Sotomayor's nuanced point \u2014 that plaintiffs need not quote documents verbatim but must plead their substance with sufficient particularity \u2014 is well-taken and aligns with my preference for a narrow holding that does not categorically foreclose all expert involvement at the pleading stage. I would write the majority opinion to hold narrowly that (1) an expert's analytical conclusions cannot substitute for the particularized factual allegations the PSLRA requires, and (2) references to internal documents must be accompanied by sufficient description of their contents to permit meaningful judicial evaluation under Tellabs's comparative inference standard \u2014 without broadly ruling that experts can never play any role in securities fraud pleadings. This narrow framing preserves a realistic path for genuinely defrauded investors while faithfully enforcing Congress's deliberate choice to impose heightened pleading standards, protecting the Court's institutional credibility as a faithful interpreter of statutory text rather than a policy-making body.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I agree with Justice Gorsuch's textualist point that permitting expert opinions to substitute for particularized facts would render the word 'facts' in 15 U.S.C. \u00a7 78u-4(b)(2)(A) largely meaningless \u2014 a cardinal violation of the principle that every statutory word carries operative weight. Justice Sotomayor raises the most sympathetic counterpoint from the respondent's perspective: that genuinely defrauded investors should not be required to quote internal documents verbatim. But the statute's demand for 'particularity' is not satisfied by pleading the existence of documents; it requires pleading their substance with sufficient specificity that courts can perform the comparative inference analysis Tellabs demands. The original public meaning of 'particularity' in 1995, when Congress enacted the PSLRA, plainly contemplated specific factual allegations \u2014 not expert-laundered conclusions or gestures toward undisclosed materials \u2014 and no amount of equitable concern for plaintiffs can override Congress's unambiguous textual choice to impose an exacting pleading floor.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling about the strength of the textual case here. Justice Sotomayor raises the most compelling counterargument from the respondent's perspective \u2014 that investors genuinely harmed by fraud deserve access to justice and should not be required to quote documents verbatim \u2014 but this concern, while sympathetic, cannot override Congress's unambiguous statutory text. The PSLRA does not say 'plead the gist of the facts' or 'provide a reasonable approximation of the documents' contents'; it says 'state with particularity all facts,' and that language must be given its full operative weight. Justice Gorsuch correctly identifies the core textual problem: permitting expert opinions to substitute for particularized facts renders the word 'facts' in the statute largely meaningless, and allowing vague references to internal documents without pleading their contents reduces the particularity requirement to a 'pleading of a pleading' \u2014 precisely the kind of speculative, discovery-fishing complaint Congress enacted the PSLRA to foreclose. The strongest argument for respondent would be that Tellabs' holistic evaluation framework permits courts to aggregate various sources of inferential support, but as Justice Kagan notes, holistic evaluation presupposes that underlying particularized facts actually exist in the complaint; it does not license substituting expert conclusions for those facts.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable consensus that I find genuinely persuasive on the merits, not merely because of the headcount. Justice Kagan's observation \u2014 that 'holistic evaluation presupposes that underlying particularized facts actually exist in the complaint' \u2014 remains the analytical linchpin for me: Tellabs's comparative inference framework is not a license to substitute expert conclusions for the factual predicate those conclusions must rest upon. I am gratified that my colleagues across methodological lines have incorporated my caveat that verbatim quotation is not required, only pleading the substance of documents with sufficient particularity \u2014 this preserves a realistic path for genuinely defrauded investors while honoring Congress's deliberate policy choice in the PSLRA. The strongest remaining argument for respondents \u2014 that expert forensic analysis is itself a form of factual allegation about what data shows \u2014 is ultimately unpersuasive because, as Justice Barrett correctly frames it, permitting such substitution would allow plaintiffs to launder conclusory inferences through credentialed intermediaries, circumventing the very gatekeeping function Congress designed, and it is not our role to second-guess that legislative tradeoff however sympathetic individual plaintiffs may be.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The unanimity of this conference across methodological lines \u2014 from Justice Thomas's originalist textualism to Justice Jackson's access-to-justice pragmatism \u2014 reinforces rather than undermines my confidence, because each justice has arrived at this conclusion through independent reasoning rather than mere coalition-following. Justice Sotomayor's refinement remains the most important contribution to our collective analysis: by clarifying that the PSLRA demands pleading the *substance* of internal documents rather than verbatim quotation, she has identified the workable middle ground that preserves a realistic path for genuinely defrauded investors while honoring Congress's deliberate gatekeeping choice. The strongest remaining argument for respondents \u2014 that expert forensic analysis constitutes its own category of 'fact' about what patterns the data reveals \u2014 fails under my pragmatic textualism because Congress in 1995 enacted the PSLRA against a backdrop of ordinary pleading rules that already permitted inference-drawing, and the statute's specific demand for 'facts' rather than 'inferences' or 'conclusions' represents a deliberate departure from that baseline that cannot be circumvented by credentialing the inference-drawer. I would join Chief Justice Roberts's proposed narrow holding, which enforces the statute's text without categorically foreclosing all expert involvement at the pleading stage \u2014 that narrowness is both textually defensible and institutionally sound.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is instructive \u2014 when textualists and purposivists alike converge on a reading, that convergence carries weight. Justice Sotomayor raises the most important counterargument from the respondent's perspective: that plaintiffs need not quote internal documents verbatim but must plead their substance with sufficient particularity. I accept that nuance and would incorporate it into my analysis \u2014 the PSLRA does not demand verbatim quotation, but it does demand that the substance of the documents be pleaded with enough specificity that a court can meaningfully evaluate whether the Tellabs 'cogent and compelling' inference standard is met. The strongest argument for respondents would be that expert analysis is simply a form of factual allegation \u2014 that an expert's forensic conclusions about, say, accounting irregularities are themselves 'facts' within the meaning of the statute. But this argument fails under my methodology: the statute's demand for 'all facts' supporting the belief that statements were false or misleading is a demand for the predicate factual basis, not for inferential conclusions derived from that basis, however credentialed the inference-drawer. An expert opinion is, by its nature, a conclusion resting on underlying data \u2014 and it is those underlying facts, not the expert's analytical product, that the PSLRA requires plaintiffs to plead with particularity.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "I find myself in substantial agreement with Chief Justice Roberts's emphasis on a narrow ruling \u2014 we need not broadly foreclose all expert involvement at the pleading stage, but must hold that expert opinions cannot substitute for the particularized factual allegations the PSLRA's text demands. Justice Sotomayor raises the most compelling counterargument from the respondent's perspective: that genuine fraud victims deserve access to justice and that we should not require verbatim quotation of internal documents. I take that concern seriously, but as Justice Kagan correctly notes, holistic evaluation under Tellabs presupposes that underlying particularized facts actually exist in the complaint \u2014 the statute's demand for 'facts' is not satisfied by expert conclusions that themselves rest on undisclosed data, no matter how credentialed the expert. The practical institutional concern here is real: permitting this end-run would effectively nullify Congress's deliberate policy choice in the PSLRA, and the Court's credibility as a faithful interpreter of statutory text depends on enforcing that choice even when the results are sometimes harsh for plaintiffs.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when Justice Sotomayor and Justice Thomas converge on a textual conclusion, that convergence carries significant weight. Justice Sotomayor raises the most important counterargument worth addressing directly: her suggestion that plaintiffs need not quote internal documents verbatim but must plead their substance with sufficient particularity. I find this a sensible refinement rather than a departure from the petitioner's position \u2014 the PSLRA's 'particularity' requirement does not demand verbatim quotation, but it does demand that the substance, nature, and relevance of the documents be pled with enough specificity that a court can meaningfully evaluate the inference of scienter under Tellabs's comparative framework. What it categorically cannot permit is the substitution of an expert's conclusions for the underlying factual predicate, because an expert's opinion is not a 'fact' within the ordinary meaning of that term, and permitting such substitution would allow plaintiffs to launder conclusory inferences through credentialed intermediaries \u2014 precisely the gatekeeping circumvention Congress designed the PSLRA to prevent. The structural logic of the statute, confirmed by Tellabs's requirement that the scienter inference be 'cogent and at least as compelling as any opposing inference,' presupposes that particularized facts actually exist in the complaint and are available for judicial evaluation, not that they may be obscured behind expert conclusions or vague document references.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The unanimous convergence across our Court's ideological spectrum reinforces rather than undermines my confidence in this position \u2014 as Justice Kagan astutely observes, when Justices most attuned to access-to-justice concerns nonetheless conclude the PSLRA's text compels this result, that convergence carries genuine weight. The strongest argument for respondents \u2014 that expert forensic analysis of complex financial patterns constitutes a 'fact' about what the data reveals \u2014 is one I take seriously given my background, but Justice Gorsuch correctly identifies why it fails: the statute demands the predicate factual basis, not inferential conclusions derived from that basis, however credentialed the inference-drawer. I am particularly persuaded by Justice Sotomayor's pragmatic refinement, which I would adopt as essential to any majority opinion: our holding must affirmatively clarify that plaintiffs need not quote internal documents verbatim but must plead their substance with sufficient particularity, preserving a realistic path for genuinely defrauded investors while enforcing Congress's gatekeeping design. This approach honors both the statute's text and my deep concern \u2014 rooted in my public defender experience \u2014 that procedural rules not become instruments that systematically foreclose meritorious claims by those who lack pre-discovery access to the very evidence that would vindicate them.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The PSLRA's text is unambiguous in requiring plaintiffs to 'state with particularity all facts' supporting their belief that statements were false or misleading, and to plead particularized facts giving rise to a 'strong inference' of scienter \u2014 not conclusions, inferences, or derivative expert opinions that themselves rest on undisclosed underlying facts. Allowing an expert opinion to substitute for particularized factual allegations would effectively permit plaintiffs to circumvent Congress's deliberate heightening of pleading standards beyond even Rule 9(b), undermining the institutional purpose the PSLRA was designed to serve in deterring frivolous strike suits. As Tellabs, 551 U.S. 308 (2007), made clear, the strong inference standard is rigorous and comparative, requiring courts to weigh competing inferences \u2014 a task that cannot be meaningfully performed when the underlying factual predicate is obscured behind expert conclusions or unspecified internal documents whose contents are never pleaded with particularity. Consistent with my preference for narrow rulings, I would hold simply that expert opinions and bare references to internal documents cannot satisfy the PSLRA's particularity requirements as a matter of statutory text and structure, without broadly foreclosing all expert involvement at the pleading stage.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of 15 U.S.C. \u00a7 78u-4(b)(2)(A) is unambiguous: Congress required plaintiffs to 'state with particularity all facts' giving rise to a strong inference of scienter \u2014 not expert inferences, not generalized conclusions, but particularized facts. Permitting expert opinions to substitute for the factual particularity Congress expressly demanded would effectively nullify the statutory text, transforming a deliberately exacting pleading standard into an easily circumvented formality. As this Court held in Tellabs, 551 U.S. 308 (2007), the PSLRA's heightened requirements reflect Congress's deliberate judgment to impose 'exacting pleading requirements' as a check against abusive litigation, and courts must enforce that judgment faithfully. Furthermore, allowing plaintiffs to reference internal company documents without pleading their specific contents permits precisely the kind of discovery-coerced settlements Congress sought to prevent, since defendants cannot meaningfully rebut allegations whose factual basis remains concealed behind vague allusions to undisclosed materials.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The PSLRA's text is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity allegations and plead 'facts giving rise to a strong inference' of scienter \u2014 the statute demands particularized facts, not expert opinions or generalized inferences drawn from undisclosed internal documents. Allowing expert opinions to substitute for particularized factual allegations would directly circumvent Congress's deliberate choice to impose heightened pleading standards beyond even Rule 9(b), a choice this Court recognized in Tellabs as reflecting Congress's intent to erect 'exacting pleading requirements' to deter frivolous strike suits. If plaintiffs cannot plead the actual contents of internal documents they claim support their scienter allegations, courts and defendants are left unable to evaluate whether those documents actually say what plaintiffs claim \u2014 a result fundamentally incompatible with the particularity requirement and the gatekeeping function the PSLRA was designed to serve. Permitting such circumvention would resurrect precisely the vexatious discovery and extortionate settlement dynamics Congress sought to eliminate, as defendants would be forced into expensive litigation based on nothing more than an expert's opaque conclusions about documents whose contents remain unpleaded.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "While my instinct is always to consider the practical impacts on investors harmed by securities fraud \u2014 a vulnerable population that deserves access to justice \u2014 the PSLRA's text is unambiguous: Congress deliberately imposed heightened pleading requirements demanding 'particularity' and a 'strong inference' of scienter precisely to separate meritorious claims from strike suits. Allowing expert opinions to substitute for particularized factual allegations would effectively nullify the statutory requirement that plaintiffs plead 'facts,' not inferences dressed up as expert conclusions, and would permit the very end-run around the PSLRA's discovery stay that Congress sought to prevent. Under Tellabs, 551 U.S. 308 (2007), the strong inference standard is comparative and demanding \u2014 the inference of scienter must be 'cogent and at least as compelling as any opposing inference of nonfraudulent intent' \u2014 and that rigorous standard cannot be satisfied by outsourcing the factual predicate to an expert who lacks access to the underlying particularized facts. That said, I would urge the Court to clarify that plaintiffs need not quote internal documents verbatim, but must plead their substance with sufficient particularity to allow meaningful judicial evaluation, preserving a realistic path to relief for genuinely defrauded investors.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The PSLRA's text is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity allegations and plead 'facts giving rise to a strong inference' of scienter \u2014 the statute demands facts, not expert-derived inferences substituting for them. Allowing an expert opinion to serve as a surrogate for particularized factual allegations would effectively permit plaintiffs to launder conclusory assertions through a hired analyst, circumventing exactly what Congress designed the heightened pleading standard to prevent. As Tellabs made clear, the strong inference requirement is rigorous and demands cogent, compelling factual allegations evaluated holistically \u2014 but holistic evaluation presupposes that underlying particularized facts actually exist in the complaint; it does not license courts to accept expert conclusions as a substitute for those facts. Similarly, where plaintiffs invoke internal company documents to establish scienter, workability and statutory coherence demand that they plead those documents' contents with sufficient particularity so courts can meaningfully assess whether the inference of fraudulent intent is 'at least as compelling as any opposing inference of nonfraudulent intent,' per Tellabs \u2014 vague gestures toward unspecified internal materials cannot satisfy that threshold.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The plain text of the PSLRA is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity allegations and plead 'facts giving rise to a strong inference' of scienter. 15 U.S.C. \u00a7 78u-4(b)(1)-(2)(A). The statute demands facts \u2014 not expert opinions that serve as inferential surrogates for facts the plaintiff has not actually obtained. Permitting an expert's analytical conclusions to substitute for the underlying particularized factual allegations would render the word 'facts' in the statute largely meaningless, violating the cardinal principle that every statutory word carries operative weight. Similarly, when plaintiffs invoke internal company documents as the basis for scienter allegations, the particularity requirement logically demands that they plead what those documents actually say \u2014 otherwise the 'particularity' standard is reduced to a pleading of a pleading, a mere assertion that damning documents exist somewhere, which is precisely the kind of speculative, discovery-fishing complaint Congress enacted the PSLRA to foreclose. Tellabs reinforced that the scienter inference must be 'cogent and at least as compelling as any opposing inference,' 551 U.S. at 314, a standard that cannot be met through the laundered conclusions of a retained expert rather than concrete factual allegations.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The PSLRA's text is unambiguous in requiring plaintiffs to 'state with particularity all facts' supporting their allegations and to plead facts giving rise to a 'strong inference' of scienter \u2014 not expert inferences derived from undisclosed underlying data. As Tellabs made clear, Congress enacted these heightened requirements precisely to prevent plaintiffs from using the discovery process as a fishing expedition to uncover fraud they cannot yet plausibly allege, and permitting expert opinions to substitute for particularized factual allegations would effectively nullify that congressional design. Allowing respondents to reference internal company documents without pleading their contents with particularity creates an end-run around the statute, since courts and defendants cannot evaluate whether a 'strong inference' is warranted without knowing what those documents actually say. Consistent with my institutionalist approach, I believe the Court must respect Congress's deliberate policy choice in the PSLRA and resist judicial interpretations that erode the statute's carefully calibrated pleading floor, which serves the practical purpose of protecting companies from vexatious litigation and preserving the Court's institutional credibility as a faithful interpreter of statutory text.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 15 U.S.C. \u00a7 78u-4(b)(2)(A) is unambiguous: plaintiffs must 'state with particularity all facts' giving rise to a strong inference of scienter, and this Court in Tellabs reinforced that the inference must be 'cogent and at least as compelling as any opposing inference of nonfraudulent intent.' Permitting an expert opinion to substitute for particularized factual allegations fundamentally inverts the statutory scheme \u2014 an expert's conclusions are not 'facts,' and allowing such substitution would permit plaintiffs to launder conclusory inferences through credentialed intermediaries, circumventing precisely the gatekeeping function Congress designed the PSLRA to perform. Similarly, where plaintiffs invoke internal company documents as the basis for scienter allegations, the plain meaning of 'particularity' requires pleading the actual contents of those documents; otherwise, the allegation is no more than an unverifiable assertion that some unspecified document somewhere supports the claim, which is indistinguishable from the vague, conclusory pleading the PSLRA was enacted to eliminate. The legislative history and structural logic of the PSLRA \u2014 enacted specifically to deter frivolous strike suits and prevent coercive discovery \u2014 confirm that Congress intended a rigorous, fact-specific pleading threshold that expert opinions and document-reference gestures cannot satisfy.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While my instinct as a former public defender is to be skeptical of procedural barriers that shut courthouse doors, the PSLRA's text is unambiguous: Congress deliberately required 'particularity' in factual allegations, not expert-derived inferences, precisely to distinguish meritorious fraud claims from fishing expeditions. Tellabs, 551 U.S. 308, reinforces that the strong inference of scienter must be grounded in cogent, particularized facts that overcome competing innocent inferences \u2014 a standard that expert opinions, which themselves rest on undisclosed assumptions and unpled underlying data, cannot satisfy as substitutes for the factual predicate Congress required. Allowing expert opinions to stand in for particularized facts would effectively nullify the PSLRA's heightened pleading regime and resurrect the pre-reform discovery-as-leverage dynamic Congress sought to eliminate, since an expert's conclusions are only as particularized as the underlying facts they rest upon, which must themselves be pled. Similarly, where plaintiffs invoke internal documents to support scienter, the practical consequence of permitting vague references without pleading those documents' contents is that defendants cannot meaningfully test the inference, undermining the procedural fairness the statute demands.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.872,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "23-970",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether plaintiffs in a securities fraud class action can satisfy the PSLRA's heightened pleading requirements by relying on expert opinions and vague references to internal documents rather than particularized allegations of fact to establish falsity and scienter.",
+      "legal_provision": "Private Securities Litigation Reform Act of 1995 (PSLRA), 15 U.S.C. \u00a7 78u-4(b)(2)(A), which requires plaintiffs to plead with particularity facts giving rise to a 'strong inference' of scienter and to 'state with particularity all facts' supporting their belief that challenged statements were false or misleading.",
+      "petitioner_position": "NVIDIA and Jensen Huang argue that the Ninth Circuit improperly allowed respondents to circumvent the PSLRA's strict pleading standards by: (1) permitting plaintiffs to allege scienter based on vague references to internal company documents without pleading their specific contents with particularity, and (2) allowing an expert opinion to substitute for the particularized factual allegations expressly required by the PSLRA to establish falsity, thereby undermining Congress's deliberate intent to deter frivolous securities fraud litigation and prevent extortionate settlements through heightened pleading requirements.",
+      "respondent_position": "E. Ohman J:or Fonder AB and Stichting Pensioenfonds PGB argue that their pleadings sufficiently satisfy the PSLRA's requirements because references to internal documents and reliance on expert analysis constitute legitimate means of establishing the factual basis for securities fraud claims, and that the Ninth Circuit correctly determined that their allegations, taken holistically, give rise to a strong inference of scienter and adequately plead falsity, consistent with the statute's purpose of protecting genuine investor fraud claims.",
+      "key_precedents": [
+        "Merrill Lynch, Pierce, Fenner & Smith Inc. v. Dabit, 547 U.S. 71 (2006) - establishing PSLRA's purpose to deter nuisance securities lawsuits",
+        "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007) - defining the 'strong inference' of scienter standard under the PSLRA",
+        "Ashcroft v. Iqbal, 556 U.S. 662 (2009) - general federal pleading standards requiring plausible factual allegations",
+        "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007) - plausibility pleading standard",
+        "Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579 (1993) - reliability standards for expert testimony in federal proceedings"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the core reasoning sound: the PSLRA's text demands particularity, and expert opinions untethered to specifically pleaded facts cannot satisfy that statutory command. I am particularly persuaded by Justice Kagan's observation that permitting such substitution would effectively read 'particularity' out of the statute \u2014 a result that neither textualism nor purposivism can support. I also note Justice Sotomayor's important caveat, which aligns with my minimalist instincts: the holding should be narrow enough to preserve Tellabs's holistic review methodology while enforcing its substantive rigor, ensuring we do not inadvertently foreclose legitimate fraud claims where plaintiffs have assembled substantial circumstantial evidence through confidential witnesses or public disclosures. As Chief Justice, I would assign the majority opinion with an eye toward writing it on the narrowest grounds that command a majority \u2014 specifically holding that expert analysis must be grounded in particularized factual allegations already pled with specificity, and that vague references to internal documents whose contents are not disclosed cannot satisfy the statute, without reaching broader questions about the role of expert testimony at the pleading stage generally.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I find myself in substantial agreement with Justice Gorsuch's textual analysis: when Congress uses the word 'facts' modified by 'particularity,' it demands specific, concrete factual allegations \u2014 not an expert's ipse dixit resting on undisclosed documentary foundations. The strongest counterargument the Respondent could raise is the information asymmetry problem \u2014 that pre-discovery plaintiffs cannot access internal documents \u2014 but as Justice Jackson correctly notes, Congress was fully aware of this asymmetry when it enacted the PSLRA and nonetheless imposed heightened standards, providing legitimate investigative avenues through confidential witnesses and public disclosures. Permitting expert opinions to substitute for particularized facts would not merely stretch the statute's text; it would effectively repeal the PSLRA's gatekeeping function by allowing any plaintiff to retain an expert who opines on undisclosed documents, thereby converting the heightened pleading standard into a mere formality that any well-funded plaintiff could circumvent. The original public meaning of 'particularity' in the pleading context \u2014 traceable through centuries of common law and codified in Rule 9(b) before Congress deliberately elevated it further \u2014 unambiguously requires the pleader to disclose the specific facts themselves, not conclusions derived from facts the court cannot evaluate.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling about the strength of the textual case here. Justice Sotomayor's concession \u2014 despite her strong instincts toward plaintiff-side access to justice \u2014 that the PSLRA's text is unambiguous reinforces my view that this is not a close case. The strongest argument for respondents would be that Tellabs's 'holistic' review methodology permits courts to consider all available evidence, including expert analysis, in assessing the cogency of scienter inferences; but as Justice Gorsuch correctly notes, Tellabs's holistic review still operates on the foundation of particularized facts already pleaded \u2014 it is a method of weighing competing inferences drawn from specific allegations, not a license to substitute expert conclusions for the underlying factual predicate Congress expressly required. Permitting expert opinions untethered to specifically pleaded document contents would effectively allow plaintiffs to use retained experts as a Trojan horse into the discovery process the PSLRA was designed to foreclose, and no amount of holistic weighing can cure the absence of the particularized facts the statute demands as the threshold showing.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The remarkable unanimity across our Court's ideological spectrum \u2014 from Justice Thomas's originalist textualism to Justice Jackson's structural concern for fraud victims \u2014 reinforces my conviction that the PSLRA's text genuinely cannot bear the Ninth Circuit's construction. I am most influenced by Justice Kagan's precise methodological point that expert analysis may legitimately help frame or contextualize particularized facts already pled, but cannot substitute for the underlying factual predicate \u2014 this distinction preserves workability and avoids the overcorrection I feared might foreclose legitimate fraud claims. Justice Barrett's acknowledgment of my access-to-justice concern, paired with her correct observation that Congress deliberately chose heightened standards while leaving open confidential witnesses and public disclosures, addresses what I consider the strongest argument for respondents: the information asymmetry problem is real, but Congress weighed it and made a considered legislative judgment we must respect. I write to emphasize that our holding must be carefully cabined \u2014 'particularity' demands specificity about what plaintiffs actually know through legitimate investigative means, not omniscience about what only discovery could reveal, and courts applying this standard must remain vigilant against using it to immunize genuine fraud.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, though I want to add a note of methodological precision that distinguishes my approach from Justice Thomas's and Justice Gorsuch's more categorical textualism. The PSLRA's particularity requirement is not merely a formalist demand \u2014 it serves the concrete, workable function of enabling courts to conduct the holistic Tellabs analysis, which as Justice Sotomayor rightly notes must remain meaningful rather than mechanical. The strongest argument for respondents would be that sophisticated expert analysis of industry-specific data can sometimes reveal fraud that no single internal document would disclose, but that argument proves too much: the statute says 'facts,' and an expert's inferential conclusions are not facts in the statutory sense, however analytically sophisticated. I would write to emphasize that the particularity requirement does not foreclose all expert assistance \u2014 experts may help frame or contextualize particularized facts already pled \u2014 but cannot substitute for the underlying factual predicate that Congress expressly required, a distinction that preserves workability while honoring the statutory text.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when textualists and purposivists alike converge on a reading, it suggests the statutory text is doing real work. Justice Kagan's observation that permitting expert opinions to substitute for particularized facts effectively reads 'particularity' out of the statute is precisely right from a textualist standpoint: Congress chose that word deliberately, and we must give it effect. The strongest counterargument for respondents would be that Tellabs' holistic review methodology permits courts to consider all available evidence, including expert analysis, in assessing whether a strong inference of scienter exists \u2014 but that argument conflates the standard of review with the pleading requirement itself. Tellabs tells us how to evaluate allegations once they are properly pled; it does not relax what must be pled in the first instance, and allowing an expert's ipse dixit to substitute for the underlying facts Congress demanded would transform the PSLRA's gatekeeping function into a mere formality that any plaintiff with a retained expert could circumvent.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is notable given the unanimity here. Justice Sotomayor's concurring instinct \u2014 that we must not apply this standard so rigidly as to foreclose legitimate fraud claims assembled through circumstantial evidence \u2014 deserves serious engagement, and I share her concern that the holding be carefully cabined. However, her own analysis correctly identifies that the PSLRA's text demands particularized facts, not inferential chains built on undisclosed document contents; the statute's gatekeeping function is not satisfied merely because a plaintiff has retained a credentialed expert to vouch for conclusions the plaintiff cannot itself plead with specificity. From an institutionalist perspective, Congress made a deliberate and considered choice in enacting the PSLRA's heightened standards, and this Court's role is to enforce that legislative judgment faithfully \u2014 permitting expert-opinion substitution would effectively transfer the gatekeeping function from Congress's statutory text to the discretion of retained experts, undermining both the rule of law and the Court's institutional credibility as a faithful interpreter of legislative commands. I would join a narrow holding that preserves Tellabs's holistic review methodology while enforcing the requirement that expert analysis be grounded in specifically pleaded underlying facts.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling about the strength of the textual case here. Justice Sotomayor raises the most compelling counterargument from the respondent's perspective \u2014 that applying the particularity requirement too rigidly could foreclose legitimate fraud claims where investors lack pre-discovery access to internal corporate information \u2014 but this concern, while genuine, does not overcome the statutory text. Congress was aware of this asymmetry when it enacted the PSLRA and deliberately chose heightened pleading standards anyway, and as Justice Kagan correctly notes, permitting expert opinions to substitute for particularized facts would effectively read 'particularity' out of the statute entirely. The respondent's strongest argument would be that Tellabs' holistic review methodology implicitly permits some inferential reasoning, but Tellabs itself was clear that holistic review must still be grounded in particularized facts \u2014 it addressed how courts weigh competing inferences from pleaded facts, not whether inferential scaffolding can substitute for the facts themselves. I would write separately to acknowledge Justice Sotomayor's access-to-justice concern and emphasize that confidential witnesses, public disclosures, and other investigative tools remain available to plaintiffs who have genuine knowledge of fraud.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The unanimity across our conference \u2014 spanning textualists like Justice Thomas and Gorsuch to pragmatists like Justice Sotomayor and myself \u2014 reflects that the statutory text genuinely cannot bear the Ninth Circuit's construction. Justice Kagan's formulation is particularly persuasive from my pragmatist perspective: the particularity requirement is not mere formalism but serves the concrete functional purpose of enabling meaningful Tellabs holistic review, which requires specific facts to weigh competing inferences against \u2014 expert conclusions untethered to disclosed documentary foundations give courts nothing concrete to evaluate. I continue to hold Justice Sotomayor's caveat close: our holding must be carefully cabined to avoid weaponizing 'particularity' against plaintiffs who have assembled genuine circumstantial evidence through confidential witnesses, public disclosures, and SEC filings, because my background as a public defender makes me acutely sensitive to how procedural gatekeeping can be deployed to immunize actual wrongdoers. The strongest remaining argument for respondents \u2014 that information asymmetry creates an impossible catch-22 \u2014 is real but ultimately unavailing because Congress deliberately chose heightened standards with full awareness of that asymmetry, and our role is to enforce that legislative judgment while ensuring the standard is applied with the nuance Tellabs demands.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The PSLRA's text is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity and plead facts giving rise to a 'strong inference' of scienter. As this Court held in Tellabs, 551 U.S. 308 (2007), that inference must be 'cogent and at least as compelling' as any innocent inference \u2014 a demanding standard that Congress deliberately erected to curb abusive litigation, as recognized in Merrill Lynch v. Dabit, 547 U.S. 71 (2006). Permitting an expert opinion untethered to particularized company-specific facts to substitute for the statutory pleading requirement would effectively nullify Congress's deliberate choice to impose heightened standards beyond Rule 9(b), allowing plaintiffs to use retained experts as a backdoor into discovery that the PSLRA was specifically designed to foreclose. Consistent with my preference for narrow rulings, I would hold simply that expert analysis must be grounded in particularized factual allegations already pled with specificity, and that vague references to internal documents whose contents are not disclosed cannot satisfy the statute's particularity requirement \u2014 leaving intact the holistic evaluation methodology of Tellabs while enforcing its substantive rigor.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of the PSLRA, 15 U.S.C. \u00a7 78u-4(b)(2)(A), is unambiguous: plaintiffs must 'state with particularity all facts' giving rise to a strong inference of scienter and establishing falsity. Permitting plaintiffs to substitute expert opinions or vague references to undisclosed internal documents for particularized factual allegations directly contravenes this statutory command and the congressional purpose articulated in Tellabs, which held that the inference of scienter 'must be cogent and at least as compelling as any opposing inference of nonfraudulent intent,' 551 U.S. 308, 314 (2007). An expert's inferential conclusions drawn from documents whose specific contents are never pleaded with particularity cannot constitute the 'facts' the statute demands \u2014 to hold otherwise would render the PSLRA's heightened pleading standard a nullity and resurrect precisely the strike-suit litigation Congress sought to eliminate. Consistent with the textualist principle that statutory words must be given their ordinary meaning, 'particularity' means specific, concrete factual allegations, not derivative inferences laundered through undisclosed sources or expert intermediaries.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The PSLRA's text is unambiguous: plaintiffs must 'state with particularity all facts' supporting their belief that statements were false or misleading, and must plead 'particularized facts' giving rise to a 'strong inference' of scienter under 15 U.S.C. \u00a7 78u-4(b)(2)(A). Allowing plaintiffs to substitute expert opinions and vague references to internal documents whose specific contents are never pleaded with particularity directly circumvents Congress's deliberate choice to impose heightened pleading requirements beyond even Rule 9(b)'s standards. As this Court held in Tellabs, the inference of scienter must be 'cogent and at least as compelling as any opposing inference of nonfraudulent intent,' a standard that cannot be met through derivative or inferential pleading methods that deny defendants fair notice of the specific factual basis for fraud allegations and effectively resurrect the pre-PSLRA practice of using discovery as a fishing expedition. Permitting such pleading shortcuts would eviscerate Congress's express purpose of deterring nuisance filings and preventing extortionate settlements, as recognized in both Tellabs and Merrill Lynch v. Dabit.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While my judicial philosophy strongly favors protecting genuine investor fraud victims and preserving access to justice, the PSLRA's text is unambiguous in requiring plaintiffs to 'state with particularity all facts' supporting falsity and scienter allegations \u2014 and Congress enacted these heightened standards precisely to filter meritorious claims from strike suits. Under Tellabs, 551 U.S. 308, the 'strong inference' standard demands cogent, particularized factual allegations, not inferential chains built on unquoted internal documents whose contents remain unknown to the court, or expert opinions that substitute analytical conclusions for the underlying facts Congress required plaintiffs to plead. Allowing vague references to internal documents without pleading their specific contents effectively permits plaintiffs to invoke the coercive power of discovery \u2014 the very evil the PSLRA was designed to prevent \u2014 based on speculation rather than particularized knowledge. That said, I would write separately to emphasize that courts must not apply this standard so rigidly as to foreclose legitimate fraud claims where investors, lacking access to internal corporate information pre-discovery, have nonetheless assembled substantial circumstantial evidence of wrongdoing, and I would urge a narrow holding that preserves holistic review under Tellabs while requiring meaningful particularity as to document contents.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The PSLRA's text is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity and plead facts giving rise to a 'strong inference' of scienter under 15 U.S.C. \u00a7 78u-4(b)(2)(A). Allowing expert opinions to substitute for particularized factual allegations, or permitting vague references to internal documents without pleading their specific contents, effectively reads the word 'particularity' out of the statute \u2014 a result that neither sound textualism nor statutory purpose can support. As Tellabs made clear, the strong inference standard requires allegations that are 'cogent and at least as compelling as any opposing inference of nonfraudulent intent,' 551 U.S. at 314, and that holistic review must still be grounded in particularized facts, not inferential scaffolding built on expert conclusions or undisclosed document contents. Congress enacted the PSLRA precisely to prevent plaintiffs from using discovery as a fishing expedition by forcing defendants to litigate past the pleading stage on the basis of conclusory or derivative allegations, and permitting expert-opinion substitution would hollow out that deliberate legislative choice while creating workability problems for district courts attempting to apply a coherent pleading standard.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The plain text of the PSLRA is unambiguous: plaintiffs must 'state with particularity all facts' supporting falsity and plead 'facts giving rise to a strong inference' of scienter. 15 U.S.C. \u00a7 78u-4(b)(1), (2)(A). When Congress uses the word 'facts' modified by 'particularity,' it means specific, concrete factual allegations \u2014 not vague references to unspecified internal documents whose contents are never disclosed, and not expert opinions that themselves rest on undisclosed factual foundations. Permitting plaintiffs to satisfy a statutory particularity requirement through an expert's conclusory opinion would allow the expert's ipse dixit to substitute for the very factual specificity Congress demanded, effectively nullifying the PSLRA's heightened standard and resurrecting the pre-reform regime Congress deliberately displaced. As Tellabs recognized, the PSLRA imposes 'exacting pleading requirements' precisely to screen out frivolous strike suits before discovery, and that gatekeeping function is eviscerated if plaintiffs can gesture at internal documents without pleading their contents or launder insufficient facts through an expert intermediary.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The PSLRA's text is unambiguous in requiring plaintiffs to 'state with particularity all facts' supporting falsity and to plead facts giving rise to a 'strong inference' of scienter \u2014 standards that Congress deliberately elevated beyond even Rule 9(b)'s heightened requirements precisely to deter frivolous litigation and extortionate settlements, as recognized in Merrill Lynch v. Dabit. Allowing plaintiffs to substitute vague references to undisclosed internal documents and expert opinions untethered to particularized factual allegations would effectively nullify Congress's deliberate legislative choice, a result inconsistent with the institutional respect for legislative judgments that guides my jurisprudence. Tellabs itself reinforced that the scienter inference must be 'cogent and at least as compelling as any opposing inference of nonfraudulent intent,' a standard that cannot be met through conclusory expert analysis when the underlying factual predicate \u2014 the specific contents of internal documents \u2014 has not been pleaded with particularity, and the Tellabs Court's own analogy to the gatekeeping function under Daubert supports requiring that expert opinions rest on sufficient facts and data before they can satisfy the PSLRA's demanding pleading threshold. Permitting this workaround would undermine the workability of the PSLRA framework and invite the very discovery-coerced settlements Congress sought to prevent.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of 15 U.S.C. \u00a7 78u-4(b)(2)(A) is unambiguous: plaintiffs must 'state with particularity all facts' giving rise to a strong inference of scienter, and this Court in Tellabs reinforced that such an inference must be 'cogent and at least as compelling as any opposing inference of nonfraudulent intent.' Permitting plaintiffs to substitute expert opinions and vague references to undisclosed internal documents for particularized factual allegations directly contravenes the statute's plain meaning and Congress's deliberate choice to impose heightened pleading requirements beyond even Rule 9(b)'s standards. The Ninth Circuit's approach effectively resurrects the pre-PSLRA practice condemned in Dabit and Tellabs\u2014allowing litigation to proceed on speculative, inferential theories in hopes that discovery will eventually uncover supporting facts\u2014which is precisely the abuse Congress sought to eliminate. An expert opinion untethered to specifically pleaded facts about the company's internal knowledge cannot, as a matter of statutory text and logic, substitute for the particularized allegations the PSLRA expressly demands.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The PSLRA's text is unambiguous in requiring plaintiffs to 'state with particularity all facts' supporting allegations of falsity and to plead 'facts giving rise to a strong inference' of scienter under 15 U.S.C. \u00a7 78u-4(b)(1)-(2)(A). Allowing vague references to internal documents without pleading their specific contents undermines the statute's core purpose, as Tellabs made clear that courts must assess whether the scienter inference is 'cogent' and 'at least as compelling as any opposing inference' \u2014 an assessment that is impossible without knowing what the documents actually say. While my background as a public defender makes me attentive to access-to-justice concerns and I am wary of pleading standards that effectively foreclose meritorious claims, Congress deliberately erected heightened barriers in the PSLRA specifically to address documented abuses in securities litigation, and permitting expert opinions to substitute for particularized factual allegations would render those barriers largely illusory. The practical consequence of allowing such substitution would be to enable strike suits and extortionate settlements that harm innocent shareholders and employees \u2014 the very harms Congress sought to prevent \u2014 while genuine fraud victims retain the ability to plead with particularity through confidential witnesses, public disclosures, and other legitimate investigative means.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.877,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

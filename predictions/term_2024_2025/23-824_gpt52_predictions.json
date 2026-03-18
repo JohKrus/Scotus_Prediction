@@ -1,0 +1,574 @@
+[
+  {
+    "docket": "23-824",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether 11 U.S.C. \u00a7 544(b)(1), together with Bankruptcy Code \u00a7 106(a)\u2019s waiver of sovereign immunity, lets a bankruptcy trustee use state fraudulent-transfer law to claw back tax payments made to the United States even when no real-world creditor could sue the United States outside bankruptcy because of sovereign immunity.",
+      "legal_provision": "11 U.S.C. \u00a7 544(b)(1) (trustee\u2019s strong-arm power to avoid transfers voidable by an actual unsecured creditor under applicable law) and 11 U.S.C. \u00a7 106(a) (waiver of sovereign immunity \u201cwith respect to\u201d enumerated Bankruptcy Code provisions, including \u00a7 544).",
+      "petitioner_position": "The United States argues that \u00a7 544(b)(1) incorporates an \u201cactual creditor\u201d requirement: the trustee may avoid a transfer only if there exists at least one unsecured creditor who, outside bankruptcy, could bring the same state-law fraudulent-transfer action against the same transferee. Because sovereign immunity would bar any creditor from suing the United States under state law to unwind tax payments, the trustee likewise cannot do so via \u00a7 544(b)(1). In the government\u2019s view, \u00a7 106(a)\u2019s waiver does not eliminate \u00a7 544(b)(1)\u2019s embedded limitation (that the transfer must be \u2018voidable \u2026 by a creditor\u2019) and should not be read to create a broader avoidance right against the federal government than any creditor would have in nonbankruptcy litigation.",
+      "respondent_position": "Miller (and supporting amici) argue that \u00a7 106(a) broadly and unambiguously waives federal sovereign immunity \u2018with respect to\u2019 \u00a7 544, so the United States cannot defeat a trustee\u2019s \u00a7 544(b)(1) action by invoking sovereign immunity as a defense. On this view, \u00a7 544(b)(1)\u2019s requirement is satisfied so long as there is a creditor holding an allowable claim who could void the transfer under \u2018applicable law\u2019 in the sense that the transfer is fraudulent under state law; sovereign immunity is not part of the state-law merits of voidability but a separate jurisdictional/defense barrier that Congress removed in bankruptcy through \u00a7 106(a). Respondent also points to Congress\u2019s historical intent to enact a durable, broad bankruptcy waiver (especially through the 1994 amendments responding to prior Supreme Court waiver cases), and contends the government\u2019s narrowing construction improperly \u2018imports\u2019 immunity back into \u00a7 544 despite \u00a7 106(a)\u2019s text.",
+      "key_precedents": [
+        "Ohio Adjutant General\u2019s Department v. FLRA, 598 U.S. 449 (2023)",
+        "Glover v. United States, 531 U.S. 198 (2001)",
+        "Lebron v. National Railroad Passenger Corp., 513 U.S. 374 (1995)",
+        "United States v. Nordic Village, Inc., 503 U.S. 30 (1992)",
+        "Hoffman v. Connecticut Department of Income Maintenance, 492 U.S. 96 (1989)",
+        "Seminole Tribe of Florida v. Florida, 517 U.S. 44 (1996)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s best point is that \u00a7 106(a) expressly waives immunity \u201cwith respect to\u201d \u00a7 544 and we should avoid reading that waiver into near-irrelevance. But as Justice Kagan underscores, \u00a7 544(b)(1) is derivative by design: it authorizes avoidance only if the transfer is \u201cvoidable \u2026 by a creditor\u201d under applicable law, and sovereign immunity is part of the real-world legal landscape determining whether any creditor has that cause of action against this transferee. Under Nordic Village\u2019s clear-statement rule (as Justice Alito and Justice Thomas emphasize), we should not treat \u00a7 106(a)\u2019s general \u201cwith respect to\u201d language as silently transforming \u00a7 544(b)(1) into a bankruptcy-only avoidance right against the United States that no creditor could assert outside bankruptcy. A narrow holding preserves institutional legitimacy: \u00a7 106(a) removes immunity where \u00a7 544(b)(1)\u2019s actual-creditor prerequisite is otherwise satisfied, but it does not displace that prerequisite when the only putative creditor claim would be jurisdictionally barred absent some separate, unmistakable waiver.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor\u2019s best point is that \u00a7 106(a)\u2019s waiver would be rendered hollow if \u00a7 544(b)(1)\u2019s \u201cvoidable \u2026 by a creditor\u201d language simply smuggled immunity back in. But textually, as Chief Justice Roberts and Justice Kagan stress, \u00a7 544(b)(1) makes the trustee\u2019s power derivative and conditional on the existence of an actual creditor who, under \u201capplicable law,\u201d could void the transfer against the same transferee; if sovereign immunity forecloses any such suit against the United States, that statutory condition is unsatisfied rather than defeated by an avoidable \u201cdefense.\u201d Nordic Village and Hoffman reinforce that we cannot treat \u00a7 106(a)\u2019s \u201cwith respect to\u201d as an unmistakably clear authorization to create a bankruptcy-only avoidance right broader than any creditor possesses outside bankruptcy. Section 106(a) still does real work\u2014waiving immunity in \u00a7 544 actions when a qualifying creditor exists\u2014but it does not rewrite \u00a7 544(b)(1)\u2019s embedded actual-creditor limitation.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.84,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is that the 1994 amendment to \u00a7 106(a) was meant to provide the clarity Hoffman and Nordic Village demanded, and that our reading risks making the waiver pointless in the very setting where it matters. But as Chief Justice Roberts and Justice Kagan emphasize, \u00a7 544(b)(1) is derivative by its own terms: the trustee may avoid only a transfer that is actually \u201cvoidable \u2026 by a creditor\u201d under applicable law, which presupposes a real creditor with a viable cause of action against the same transferee in the nonbankruptcy world. If sovereign immunity forecloses every creditor\u2019s ability to obtain that relief against the United States, then the statutory predicate fails; \u00a7 106(a) can waive immunity \u201cwith respect to\u201d \u00a7 544 without rewriting \u00a7 544(b)(1) into a bankruptcy-only avoidance power, and Nordic Village counsels against inferring such a consequential expansion from general waiver language. On a practical-consequences view, respondent\u2019s construction would expose federal payments to broad state-law avoidance theories without an unmistakably clear congressional directive, a result our immunity precedents caution us to avoid.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Chief Justice Roberts and Justice Kagan press the strongest point that \u00a7 544(b)(1) is derivative and demands a real-world creditor who could sue the same transferee, so sovereign immunity means the \u201cvoidable \u2026 by a creditor\u201d condition fails. But that framing effectively bakes a federal sovereign-immunity bar into the meaning of \u201cvoidable\u201d under \u201capplicable law,\u201d even though immunity is a separate, federal jurisdictional defense that Congress expressly removed \u201cwith respect to\u201d \u00a7 544 in \u00a7 106(a); reading \u00a7 544(b)(1) to reintroduce that defense through the creditor-reference makes \u00a7 106(a)\u2019s specific listing of \u00a7 544 largely pointless where the United States is the transferee. Nordic Village and Hoffman require clarity for waivers, and the 1994 amendments supplied it by naming \u00a7 544; I cannot, consistent with bankruptcy\u2019s equitable-distribution aims and the real-world harms to ordinary creditors, treat \u00a7 106(a) as doing only a sliver of work when Congress spoke directly. While Justice Alito worries about expansive exposure, that policy concern cannot override the statute Congress wrote, and any remaining limits come from the incorporated state-law cause of action itself, not a resurrected immunity bar.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Sotomayor\u2019s best point is that \u00a7 106(a)\u2019s express waiver would do little work if \u00a7 544(b)(1)\u2019s \u201cvoidable \u2026 by a creditor\u201d clause is read to let sovereign immunity defeat every action against the United States. But as the Chief Justice stresses, \u00a7 544(b)(1) is textually structured as a derivative power with an incorporated predicate\u2014there must exist an actual creditor who can avoid the transfer under \u201capplicable law\u201d\u2014and sovereign immunity goes to whether that real-world cause of action exists at all, not merely to a waivable litigation defense. The clear-statement line (Nordic Village, Hoffman, and as Justice Alito notes Cooper/Lac du Flambeau\u2019s strict construction) makes me unwilling to treat \u00a7 106(a)\u2019s \u201cwith respect to\u201d language as silently transforming \u00a7 544(b) into a bankruptcy-only avoidance right against the sovereign that no creditor possesses outside bankruptcy. I therefore stay with petitioner: \u00a7 106(a) removes the Government\u2019s immunity where the trustee otherwise satisfies \u00a7 544(b)(1)\u2019s actual-creditor requirement, but it does not erase that requirement.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor\u2019s principal claim\u2014that sovereign immunity is merely a federal defense that \u00a7 106(a) removes \u201cwith respect to\u201d \u00a7 544\u2014has force only if \u00a7 544(b)(1)\u2019s \u201cvoidable \u2026 by a creditor\u201d language does not itself require a real-world creditor capable of obtaining that relief against the same transferee. But as Chief Justice Roberts and Justice Kagan emphasize, \u00a7 544(b)(1) is expressly derivative: it authorizes the trustee to act only when some actual unsecured creditor has a viable cause of action under \u201capplicable law,\u201d and sovereign immunity bears directly on whether any creditor can sue the United States at all. Reading \u00a7 106(a) to erase that embedded limitation would effectively transform \u00a7 544(b)(1) into a bankruptcy-only avoidance right against the sovereign\u2014an expansion we cannot infer from \u201cwith respect to\u201d given the strict clear-statement rule in Nordic Village and its successors. \u00a7 106(a) still does work on our reading by removing immunity where a qualifying creditor exists; it just does not rewrite \u00a7 544(b)(1)\u2019s predicate.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s strongest point remains that \u00a7 106(a)\u2019s waiver should not be rendered a practical nullity by letting immunity reenter through \u00a7 544(b)(1)\u2019s creditor-reference. But as Chief Justice Roberts and Justice Kagan explain, \u00a7 544(b)(1) is derivative by design: the trustee\u2019s authority exists only if an actual unsecured creditor could avoid the transfer against the same transferee under applicable law in the real world, and sovereign immunity is part of that real-world legal landscape determining whether any creditor has a viable cause of action against the United States. Reading \u00a7 106(a)\u2019s \u201cwith respect to\u201d language to erase that embedded prerequisite would not just remove a defense; it would silently transform \u00a7 544 into a bankruptcy-only avoidance power against the sovereign\u2014an expansion Nordic Village and related clear-statement cases counsel us not to infer without unmistakable textual direction. On an institutionalist, precedent-respecting approach, the narrower construction preserves \u00a7 544(b)(1)\u2019s longstanding structure while still giving \u00a7 106(a) meaningful work when a qualifying creditor exists.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s best point is that Congress enacted \u00a7 106(a) to supply the clear statement Hoffman and Nordic Village demanded, and we should not let \u00a7 544(b)(1)\u2019s creditor-reference function as a backdoor immunity. But I agree with Chief Justice Roberts and Justice Kagan that \u00a7 544(b)(1) is textually derivative: it authorizes avoidance only of transfers \u201cvoidable \u2026 by a creditor\u201d under \u201capplicable law,\u201d which incorporates the real-world ability of some creditor to sue the same transferee; sovereign immunity can mean that predicate never exists rather than merely supplying a waivable defense. Reading \u00a7 106(a)\u2019s \u201cwith respect to\u201d language to erase \u00a7 544(b)(1)\u2019s embedded actual-creditor condition would silently convert a state-law-derivative power into a bankruptcy-only avoidance right against the United States, a significant expansion that Nordic Village counsels us not to infer absent unmistakable textual direction. On that understanding, \u00a7 106(a) still does work\u2014removing immunity where a qualifying creditor exists\u2014without rewriting \u00a7 544(b)(1)\u2019s substantive prerequisite.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Sotomayor is right to press that \u00a7 106(a)\u2019s express waiver should not be reduced to a nullity; if the Government could always evade \u00a7 544(b)(1) via immunity, listing \u00a7 544 in \u00a7 106(a) would do little work in the very cases where the sovereign is the transferee. But I remain persuaded by Chief Justice Roberts\u2019s and Justice Kagan\u2019s point that \u00a7 544(b)(1) is structurally derivative and makes an actual, real-world creditor\u2019s ability to avoid the transfer a substantive predicate\u2014not merely a defense question\u2014and sovereign immunity can determine whether any such creditor exists. Nordic Village and FAA v. Cooper (as the Chief notes) reinforce that we should not treat \u201cwith respect to\u201d as silently converting a state-law-derivative trustee power into a bankruptcy-only avoidance right against the United States with significant fiscal consequences absent an unmistakable statement. On my pragmatic, procedure-focused view, the cleaner, narrower path is to read \u00a7 106(a) as removing immunity in properly constituted \u00a7 544 actions while leaving intact \u00a7 544(b)(1)\u2019s requirement that some creditor could sue the same transferee outside bankruptcy.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 544(b)(1) by its terms authorizes avoidance only of a transfer that is \u201cvoidable \u2026 by a creditor\u201d under \u201capplicable law,\u201d which requires the existence of an actual unsecured creditor who could bring the same state-law action against the same transferee outside bankruptcy. Although \u00a7 106(a) waives sovereign immunity \u201cwith respect to\u201d \u00a7 544, that waiver is best read as removing immunity as a defense in otherwise-authorized \u00a7 544 actions, not as expanding \u00a7 544(b)(1)\u2019s substantive \u201cactual creditor\u201d prerequisite to create an avoidance right no creditor possesses in the real world. Under the clear-statement rule for waivers of sovereign immunity, any plausible reading that preserves immunity (or, here, preserves embedded statutory limits that prevent an end-run around immunity) must be adopted absent unmistakably clear text to the contrary. See United States v. Nordic Village, Inc., 503 U.S. 30 (1992); FAA v. Cooper, 566 U.S. 284 (2012); Lac du Flambeau Band v. Coughlin, 599 U.S. 382 (2023).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 544(b)(1) is textually limited to transfers \u201cvoidable \u2026 by a creditor,\u201d which requires an actual unsecured creditor who could bring the same avoidance action against the same transferee under \u201capplicable law\u201d outside bankruptcy; if sovereign immunity would bar every such creditor from suing the United States, then the transfer is not \u201cvoidable \u2026 by a creditor\u201d as \u00a7 544(b)(1) demands. Section 106(a) waives sovereign immunity \u201cwith respect to\u201d \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s incorporated actual-creditor limitation or create a freestanding cause of action broader than any creditor possesses. This reading accords with the rule that waivers of federal sovereign immunity must be unequivocally expressed and strictly construed, as emphasized in Nordic Village and Hoffman. Because Congress did not clearly state that \u00a7 106(a) eliminates \u00a7 544(b)(1)\u2019s actual-creditor requirement as applied to the United States, the trustee\u2019s state-law fraudulent-transfer claim cannot proceed.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Section 544(b)(1) is textually limited to transfers that are \"voidable under applicable law by a creditor,\" which presupposes an actual unsecured creditor who could bring the same avoidance action against the same transferee outside bankruptcy; if sovereign immunity would defeat every such creditor\u2019s state-law suit against the United States, the trustee cannot satisfy that embedded requirement. Section 106(a) waives the Government\u2019s immunity \"with respect to\" \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s substantive predicate or create a broader avoidance right than any real creditor possesses\u2014especially given the clear-statement rule that waivers are \"construed strictly in favor of the sovereign.\" Reading \u00a7 106(a) to dispense with the actual-creditor limitation would effectively transform \u00a7 544(b)(1) into a freestanding federal cause of action against the United States, a significant expansion Congress did not unmistakably enact. That restrained reading accords with Nordic Village\u2019s insistence on demanding clarity in sovereign-immunity waivers and avoids disruptive practical consequences for federal fiscal administration.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 106(a) unequivocally waives federal sovereign immunity \u201cwith respect to\u201d \u00a7 544, and reading \u00a7 544(b)(1)\u2019s \u201cactual creditor\u201d language to reintroduce immunity would undermine the very remedial scheme Congress strengthened in the 1994 amendments after Hoffman and Nordic Village demanded clearer waivers. The trustee still must identify an allowable unsecured creditor and prove the transfer is \u201cvoidable \u2026 under applicable law,\u201d but sovereign immunity is not an element of state-law voidability; it is a separate federal defense Congress removed in bankruptcy through \u00a7 106(a). This construction fits the clear-statement rule from Nordic Village without treating Congress\u2019s explicit waiver as an empty gesture, and it better serves bankruptcy\u2019s equitable function of maximizing the estate for all creditors, including vulnerable ones harmed by fraudulent transfers.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 544(b)(1) is textually conditional: the trustee may avoid a transfer only if it is \u201cvoidable under applicable law by a creditor holding an unsecured claim,\u201d which naturally imports the real-world ability of at least one actual creditor to bring that same cause of action against the same transferee. Section 106(a) unquestionably waives the United States\u2019 sovereign immunity \u201cwith respect to\u201d \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s incorporated actual-creditor limitation or transform state law into something \u201cvoidable \u2026 by a creditor\u201d when sovereign immunity would bar every creditor\u2019s suit outside bankruptcy. Given the clear-statement rule that waivers must be \u201cunequivocally expressed\u201d and are construed strictly in the sovereign\u2019s favor, reading \u00a7 106(a) to eliminate \u00a7 544(b)(1)\u2019s embedded predicate goes beyond what Congress said, even after the 1994 amendments responding to Hoffman and Nordic Village. That narrower construction is also more workable and coherent because it preserves \u00a7 544(b)(1)\u2019s derivative design rather than creating a bankruptcy-only federal avoidance right pegged to state law but unavailable to any actual creditor.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 544(b)(1) authorizes avoidance only of a transfer \u201cvoidable under applicable law by a creditor holding an unsecured claim,\u201d which, by its plain terms, requires an actual creditor who could bring the same action against the same transferee outside bankruptcy; where sovereign immunity would defeat any such creditor\u2019s state-law suit against the United States, the transfer is not \u201cvoidable \u2026 by a creditor.\u201d Section 106(a) waives sovereign immunity \u201cwith respect to\u201d \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s embedded actual-creditor limitation or create a new federal cause of action untethered from what \u201capplicable law\u201d makes voidable by a creditor. Given the clear-statement rule that waivers of sovereign immunity must be \u201cunequivocally expressed\u201d and are construed strictly in favor of the sovereign, any plausible reading that preserves immunity in this setting must prevail. Nordic Village underscores that point and cautions against inferring a broader monetary avoidance remedy against the United States absent unmistakable statutory text.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 544(b)(1) by its text authorizes avoidance only of a transfer that is \u201cvoidable \u2026 by a creditor\u201d under applicable law, which historically has required an actual unsecured creditor who could bring the same action against the same transferee outside bankruptcy; if sovereign immunity would bar any such creditor from suing the United States, the trustee cannot satisfy \u00a7 544(b)(1)\u2019s embedded actual-creditor requirement. Section 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 should be read to remove the United States\u2019 immunity as a bankruptcy defendant where the trustee otherwise has a valid \u00a7 544(b)(1) cause of action, not to expand \u00a7 544(b)(1) into a new, broader avoidance right untethered to any real creditor\u2019s ability to sue. Under the clear-statement rule, waivers must be \u201cunequivocally expressed\u201d and construed strictly in favor of the sovereign; where a plausible reading preserves immunity\u2019s practical effect in this context, that reading controls. See United States v. Nordic Village, Inc., 503 U.S. 30, 34 (1992).",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 544(b)(1) authorizes avoidance only of a transfer \u201cvoidable under applicable law by a creditor holding an unsecured claim,\u201d which, on its face, requires an actual creditor who could bring the same action against the same transferee outside bankruptcy; sovereign immunity means no such creditor exists for suits against the United States. Section 106(a) waives immunity \u201cwith respect to\u201d \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s embedded actual-creditor predicate or transform state-law \u2018voidability\u2019 into something that exists even when no creditor could sue the sovereign in the real world. Under the clear-statement rule, waivers of federal sovereign immunity are strictly construed and courts must adopt a plausible immunity-preserving interpretation absent unequivocal text to the contrary. Reading \u00a7 106(a) to eliminate \u00a7 544(b)(1)\u2019s actual-creditor limitation would create a broader avoidance right against the United States than any creditor possesses under \u201capplicable law,\u201d a result not clearly expressed in the statutory text.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 544(b)(1) is textually limited to transfers that are \u201cvoidable \u2026 by a creditor\u201d under \u201capplicable law,\u201d which imports an actual-creditor requirement: there must exist at least one unsecured creditor who could bring the same state-law action against the same transferee outside bankruptcy. Although \u00a7 106(a) unequivocally waives sovereign immunity \u201cwith respect to\u201d \u00a7 544, that waiver removes the United States\u2019 immunity as a defendant in bankruptcy court; it does not rewrite \u00a7 544(b)(1)\u2019s embedded predicate that the cause of action be one a real creditor could assert in the first place. Reading \u00a7 106(a) to dispense with the actual-creditor limitation would expand \u00a7 544 beyond its established derivative design and would conflict with the clear-statement rule that waivers are construed strictly in the sovereign\u2019s favor, as emphasized in Nordic Village. The practical consequence of respondent\u2019s reading would be to create a uniquely bankruptcy-only fraudulent-transfer cause of action against the federal government untethered from any nonbankruptcy creditor right, a significant alteration Congress did not clearly state in \u00a7 544\u2019s text.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.751,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "23-824",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether 11 U.S.C. \u00a7 544(b)(1) permits a bankruptcy trustee to use state fraudulent-transfer law to avoid a debtor\u2019s tax payments to the United States when no real-world creditor could sue the United States outside bankruptcy because of federal sovereign immunity.",
+      "legal_provision": "11 U.S.C. \u00a7\u00a7 544(b)(1) and 106(a) (Bankruptcy Code\u2014trustee\u2019s \u201cstrong-arm\u201d/derivative avoidance power and the federal government\u2019s waiver of sovereign immunity \u201cwith respect to\u201d specified Bankruptcy Code sections, including \u00a7 544).",
+      "petitioner_position": "The United States argues that \u00a7 544(b)(1) is derivative: a trustee may avoid a transfer only if an actual unsecured creditor could have avoided it under \u201capplicable law\u201d outside bankruptcy. Because sovereign immunity would bar any creditor\u2019s state-law fraudulent-transfer suit against the United States outside bankruptcy, there is no qualifying creditor and thus no \u00a7 544(b)(1) avoidance action against the government. In the government\u2019s view, \u00a7 106(a)\u2019s waiver does not supply the missing \u2018actual creditor\u2019 predicate under \u00a7 544(b)(1); it merely removes a jurisdictional/immunity defense once the trustee otherwise satisfies \u00a7 544(b)(1)\u2019s creditor-based condition.",
+      "respondent_position": "Miller argues that \u00a7 106(a) broadly and unambiguously waives federal sovereign immunity \u2018with respect to\u2019 \u00a7 544, so trustees may bring \u00a7 544(b)(1) actions against the United States to the same extent they may bring them against private transferees. On this view, reading sovereign immunity back into \u00a7 544(b)(1) would contradict Congress\u2019s express waiver and undermine bankruptcy\u2019s core policy of equitable asset recovery; the \u2018actual creditor\u2019 requirement is satisfied so long as there exists a creditor with a viable state-law fraudulent-transfer claim absent the special obstacle of federal sovereign immunity (which \u00a7 106(a) removes in bankruptcy).",
+      "key_precedents": [
+        "Lebron v. National Railroad Passenger Corp., 513 U.S. 374 (1995)",
+        "Glover v. United States, 531 U.S. 198 (2001)",
+        "Ohio Adjutant General\u2019s Department v. FLRA, 598 U.S. 449 (2023)",
+        "United States v. Nordic Village, Inc., 503 U.S. 30 (1992)",
+        "Hoffman v. Connecticut Department of Income Maintenance, 492 U.S. 96 (1989)",
+        "Seminole Tribe of Florida v. Florida, 517 U.S. 44 (1996)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to press that \u00a7 106(a)\u2019s express waiver \u201cwith respect to\u201d \u00a7 544 should not be rendered functionally meaningless in the very setting where immunity is predictably invoked; that is the best argument on the other side. But as Justice Kagan explains, \u00a7 544(b)(1) is not merely an \u201cimmunity obstacle\u201d\u2014it defines the trustee\u2019s avoiding power by incorporating an actual creditor\u2019s nonbankruptcy rights, so if sovereign immunity means no creditor \u201cmay avoid\u201d the transfer under applicable law, the statutory predicate never arises in the first place. Nordic Village\u2019s strict-construction rule for waivers (emphasized by Justice Alito and others) reinforces that we should not treat \u00a7 106(a) as silently transforming \u201ca creditor \u2026 may avoid\u201d into a hypothetical-creditor construct, which would expand substantive exposure beyond what any real creditor could assert outside bankruptcy. A narrow holding\u2014no qualifying triggering creditor here, while \u00a7 106(a) still does work where such a creditor exists\u2014best preserves text, precedent, and institutional legitimacy without resolving more than necessary.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor\u2019s \u201chollow waiver\u201d point deserves a straight answer: \u00a7 106(a) can do substantial work without rewriting \u00a7 544(b)(1)\u2019s triggering condition, because it removes immunity in \u00a7 544 actions where an actual creditor exists who \u201cmay avoid\u201d under applicable law, as Chief Justice Roberts and Justice Kagan explain. But where sovereign immunity means no unsecured creditor can bring the incorporated state-law action against the United States outside bankruptcy, \u00a7 544(b)(1)\u2019s derivative predicate is not met, and \u00a7 106(a)\u2019s general phrase \u201cwith respect to\u201d cannot be stretched to supply a missing creditor or create a federal \u201csuper-creditor.\u201d Nordic Village, invoked by Roberts and Alito, reinforces that we require an unequivocal statement to expand the Government\u2019s exposure; reading \u00a7 106(a) to alter \u00a7 544(b)(1)\u2019s substantive scope would extend the waiver by implication. Under a strict textualist/originalist approach, any remedial gap is for Congress to fix explicitly, not for us to cure by deeming away \u00a7 544(b)(1)\u2019s actual-creditor requirement.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor\u2019s \u201chollowing out\u201d argument has intuitive force, but under the clear-statement rule for sovereign-immunity waivers it cannot justify reading \u00a7 106(a) to alter \u00a7 544(b)(1)\u2019s substantive, derivative predicate that an actual unsecured creditor \u201cmay avoid\u201d the transfer under nonbankruptcy applicable law. As Chief Justice Roberts and Justice Kagan emphasize, \u00a7 106(a) can still do real work by removing immunity as a defense in properly constituted \u00a7 544 actions where a qualifying creditor exists (or where applicable law itself permits suit), without converting \u00a7 544(b)(1) into a hypothetical-creditor device whenever the United States is the transferee. Nordic Village, cited by multiple colleagues, reinforces that we do not extend waivers by implication to expand liability or dispense with statutory conditions, and Sotomayor\u2019s reading would effectively do both. The practical concern that some transfers to the United States remain unavoidable under \u00a7 544(b)(1) is for Congress to address expressly, not for us to cure by rewriting the derivative structure Congress chose.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Chief Justice Roberts and Justice Kagan make the best textual point that \u00a7 544(b)(1) is framed as derivative and speaks in terms of what a real creditor \u201cmay avoid\u201d under applicable law, and Nordic Village cautions against expanding waivers by implication. But their construction still lets sovereign immunity re-enter through \u00a7 544\u2019s incorporated state-law cause of action, leaving \u00a7 106(a)\u2019s explicit waiver \u201cwith respect to\u201d \u00a7 544 doing vanishingly little precisely in the cases Congress would most plausibly have had in mind when it singled \u00a7 544 out by name. Under my pragmatic, consequence-attentive approach, I read \u201cwith respect to\u201d to waive immunity for the full \u00a7 544(b)(1) mechanism as it operates in practice (derivative state-law avoidance), rather than treating the actual-creditor requirement as an immunity trap that defeats equitable recovery for the bankruptcy estate. Nordic Village still matters, but Congress responded with a provision-by-provision waiver; I do not think strict construction requires us to render that targeted waiver largely ineffectual in the very setting where immunity would otherwise block avoidance.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right that Congress\u2019s decision to list \u00a7 544 in \u00a7 106(a) suggests it wanted the waiver to matter in the very derivative actions trustees typically bring, and we should not read the waiver to be purely ornamental. But as Chief Justice Roberts and Justice Kavanaugh emphasize, \u00a7 544(b)(1) is not just a venue for an \u201cimmunity defense\u201d; it defines the trustee\u2019s power by incorporating a real creditor\u2019s ability to avoid under applicable law, and \u00a7 106(a) waives immunity without unmistakably altering that incorporated predicate. Nordic Village\u2019s strict-construction principle therefore cuts against treating \u201cwith respect to\u201d as a quiet conversion of \u00a7 544(b)(1) into a hypothetical-creditor mechanism whenever the United States is the transferee. On my pragmatic textualism, the administrable middle ground is to give \u00a7 106(a) effect where a qualifying creditor exists, but not to deem one into existence by implication when sovereign immunity means none \u201cmay avoid\u201d outside bankruptcy.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s \u201chollow waiver\u201d argument has intuitive force, but it treats \u00a7 106(a) as silently revising \u00a7 544(b)(1)\u2019s substantive, derivative trigger\u2014\u201ca creditor \u2026 may avoid\u201d\u2014into a hypothetical-creditor regime whenever the United States is the transferee. As the Chief Justice and Justice Kagan emphasize, \u00a7 106(a) can still do meaningful work by removing immunity as a defense in properly constituted \u00a7 544 actions where a qualifying creditor exists under applicable law; it need not (and under Nordic Village cannot) be read to supply a missing state-law cause of action against the sovereign. The phrase \u201cwith respect to\u201d is not the unmistakable clear statement needed to expand liability beyond \u00a7 544(b)(1)\u2019s built-in limitation, and separation-of-powers concerns counsel against our creating a federal \u201csuper-creditor\u201d by inference rather than legislation. Accordingly, I remain with the Petitioner.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s strongest point remains that reading \u00a7 106(a) narrowly risks making the waiver \u201cwith respect to\u201d \u00a7 544 ineffective in the very scenario where the United States is the transferee, but that argument treats \u00a7 544(b)(1)\u2019s actual-creditor requirement as merely an immunity obstacle rather than a substantive condition on the trustee\u2019s power. As Chief Justice Roberts and Justice Kagan emphasize, \u00a7 544(b)(1) incorporates state-law avoiding rights only to the extent an actual unsecured creditor \u201cmay avoid\u201d the transfer under applicable law; when sovereign immunity means no creditor can sue the United States outside bankruptcy, the statutory predicate never arises, and \u00a7 106(a) cannot be read to supply a missing cause of action without an unequivocal statement. Nordic Village\u2019s strict-construction rule confirms that we should not extend a waiver from removing a defense into effectively creating a \u201csuper-creditor\u201d federal power untethered to real-world creditor rights. I therefore remain with the Petitioner because this interpretation preserves \u00a7 544(b)(1)\u2019s historically derivative design while still giving \u00a7 106(a) operative effect where a qualifying creditor exists.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s hollow-waiver point is the best pushback: if \u00a7 106(a) waives immunity \u201cwith respect to\u201d \u00a7 544, it seems odd to let immunity defeat the archetypal \u00a7 544(b)(1) action whenever the United States is the transferee. But as Chief Justice Roberts and Justice Kagan emphasize, \u00a7 544(b)(1) is not merely an immunity \u201cobstacle\u201d; it is a derivative grant that turns on whether an actual unsecured creditor \u201cmay avoid\u201d the transfer under applicable nonbankruptcy law, and federal sovereign immunity means no such creditor exists here. Under Nordic Village\u2019s clear-statement rule, \u00a7 106(a)\u2019s waiver cannot be read to silently supply that missing predicate or to create substantive state-law avoidance exposure against the United States by implication. This construction still gives \u00a7 106(a) work to do in \u00a7 544 cases where a qualifying creditor exists under applicable law, while preserving \u00a7 544(b)(1)\u2019s text and derivative design.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.69,
+        "reasoning": "Justice Sotomayor is right to worry that a narrow reading can make \u00a7 106(a)\u2019s waiver feel functionally thin in the very \u00a7 544(b)(1) cases trustees often bring, but that pragmatic concern cannot override the clear-statement rule for sovereign-immunity waivers or justify treating \u00a7 106(a) as silently rewriting \u00a7 544(b)(1)\u2019s substantive trigger. As the Chief and Justice Kagan emphasize, \u00a7 544(b)(1) is expressly derivative\u2014its power exists only if an actual unsecured creditor \u201cmay avoid\u201d the transfer under applicable nonbankruptcy law\u2014and \u00a7 106(a)\u2019s \u201cwith respect to\u201d language most naturally operates to remove an immunity defense in a properly triggered \u00a7 544 action, not to conjure a qualifying creditor where none could sue the United States outside bankruptcy. Nordic Village reinforces that we do not expand governmental exposure or dispense with statutory conditions by implication, and the trustee\u2019s reading would effectively create a federal \u201csuper-creditor\u201d untethered to real-world creditor rights. On a progressive pragmatic view, the more procedurally fair and administrable line is to keep \u00a7 544(b)(1) anchored to actual creditor entitlements and leave any broader exposure of the United States in this setting for Congress to state unmistakably.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Section 544(b)(1) is written as a derivative power: the trustee may avoid a transfer only if an actual unsecured creditor \u201cmay avoid\u201d it under \u201capplicable law,\u201d and here no creditor could bring the requisite state-law fraudulent-transfer action against the United States outside bankruptcy because sovereign immunity would bar it. Section 106(a) waives sovereign immunity \u201cwith respect to\u201d \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s creditor-based predicate; it merely removes an immunity defense once the trustee otherwise satisfies \u00a7 544\u2019s terms. Under the strict-construction rule for waivers of federal sovereign immunity, any plausible reading that preserves immunity must control, and Nordic Village underscores that waivers must be unequivocally expressed and not implied to expand substantive liability beyond the statute\u2019s conditions. A narrow holding for the government preserves \u00a7 544(b)(1)\u2019s established derivative structure and avoids an atextual expansion that could unsettle bankruptcy-federalism balances by effectively creating new causes of action against the United States via state law.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 544(b)(1) is textually derivative: the trustee may avoid a transfer only if \u201can unsecured creditor\u201d could avoid it under \u201capplicable law,\u201d and where federal sovereign immunity would bar every such creditor from suing the United States outside bankruptcy, the statutory predicate is missing. Section 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 removes the Government\u2019s immunity defense only for actions that otherwise satisfy \u00a7 544(b)(1); it does not rewrite \u00a7 544(b)(1)\u2019s actual-creditor requirement into a hypothetical-creditor rule. This reading accords with the clear-statement rule for waivers of sovereign immunity and the instruction to construe such waivers strictly, see United States v. Nordic Village, Inc., 503 U.S. 30 (1992), and avoids inferring an expansion of substantive avoidance power beyond the text. Because Congress did not unmistakably state that \u00a7 106(a) dispenses with \u00a7 544(b)(1)\u2019s real-world creditor requirement, the trustee cannot use state law to claw back tax payments from the United States in these circumstances.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "Section 544(b)(1) is textually derivative: the trustee may avoid a transfer only if there exists an actual unsecured creditor who \u201cmay\u201d avoid it under \u201capplicable law\u201d outside bankruptcy, and here sovereign immunity means no real-world creditor could bring the requisite state-law fraudulent-transfer action against the United States. Section 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 removes an immunity defense to a properly grounded \u00a7 544 action, but it does not rewrite \u00a7 544(b)(1)\u2019s predicate creditor requirement or create a cause of action where no creditor could sue in the first place. Under the clear-statement rule, waivers of sovereign immunity are strictly construed and cannot be extended by implication to expand substantive liability beyond the statute\u2019s terms. Practical consequences also counsel against the respondent\u2019s reading, which would allow trustees to leverage state law to claw back federal tax payments in bankruptcy even though Congress did not clearly authorize that result.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 106(a) unambiguously waives federal sovereign immunity \u201cwith respect to\u201d \u00a7 544, and that waiver should be read to allow the trustee to pursue the same \u00a7 544(b)(1) avoidance action against the United States that would otherwise exist against a private transferee, rather than letting immunity silently re-enter through \u00a7 544(b)(1)\u2019s derivative framing. While Nordic Village requires waivers be \u201cunequivocally expressed\u201d and strictly construed, Congress responded by enacting \u00a7 106(a)\u2019s express waiver as to specified Code provisions, including \u00a7 544, and that text is best understood to remove the very immunity obstacle that would otherwise defeat the action. A contrary reading would hollow out \u00a7 106(a) in a core bankruptcy context and frustrate equitable recovery for creditors\u2014often including workers, tort victims, and other vulnerable claimants\u2014by insulating tax payments from fraudulent-transfer scrutiny solely because the transferee is the government. Consistent with bankruptcy\u2019s remedial purpose and \u00a7 106(a)\u2019s plain language, I would hold the trustee may proceed under \u00a7 544(b)(1) notwithstanding that sovereign immunity would block the same suit outside bankruptcy.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 544(b)(1) is textually derivative: the trustee may avoid a transfer only if an actual unsecured creditor \"may avoid\" it under \"applicable law\" outside bankruptcy, and here federal sovereign immunity would bar any such state-law suit against the United States, leaving no qualifying triggering creditor. Section 106(a) waives sovereign immunity \"with respect to\" \u00a7 544, but it does not rewrite \u00a7 544(b)(1)\u2019s predicate requirement; it removes an immunity defense once a trustee has a valid \u00a7 544(b)(1) claim rather than supplying a creditor who could sue in the real world. Reading \u00a7 106(a) to eliminate the actual-creditor condition would expand \u00a7 544(b)(1) beyond its coherent statutory design and collide with the clear-statement/strict-construction approach to sovereign-immunity waivers reflected in Nordic Village. A workable, middle-ground reading preserves \u00a7 106(a)\u2019s waiver for \u00a7 544 actions where a creditor exists under applicable law, while respecting \u00a7 544(b)(1)\u2019s built-in limits when sovereign immunity prevents any creditor from suing the United States outside bankruptcy.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Section 544(b)(1) is written in unmistakably derivative terms: the trustee may avoid a transfer only if \u201ca creditor holding an unsecured claim\u201d could avoid it \u201cunder applicable law,\u201d and where the transferee is the United States no real-world creditor could bring the state-law action because sovereign immunity bars it. Section 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 is best read to remove an immunity defense once a trustee has a valid \u00a7 544(b)(1) cause of action; it does not rewrite \u00a7 544(b)(1)\u2019s creditor-based predicate or create a federal \u201csuper-creditor\u201d untethered from any creditor\u2019s actual outside-bankruptcy rights, consistent with separation-of-powers and the statute\u2019s plain text. Under Nordic Village, waivers of federal sovereign immunity must be \u201cunequivocally expressed\u201d and construed strictly in the sovereign\u2019s favor; at minimum, it is plausible that \u00a7 106(a) does not eliminate \u00a7 544(b)(1)\u2019s requirement of an actual creditor who could sue under nonbankruptcy law, so the trustee\u2019s claim fails. Reading \u00a7 106(a) to silently expand \u00a7 544(b)(1) would exceed what Congress clearly said and would effectively let bankruptcy courts displace the sovereign-immunity baseline without a clear statement tied to the underlying \u201capplicable law.\u201d",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Section 544(b)(1) is textually derivative: the trustee may avoid a transfer only if an actual unsecured creditor could have avoided it under \u201capplicable law,\u201d and here no such creditor exists because federal sovereign immunity would bar any state-law fraudulent-transfer suit against the United States outside bankruptcy. Section 106(a)\u2019s waiver of sovereign immunity \u201cwith respect to\u201d \u00a7 544 removes an immunity defense to a properly grounded \u00a7 544 action, but it does not rewrite \u00a7 544(b)(1)\u2019s creditor-based predicate or create a cause of action where none exists in the real world. Under this Court\u2019s strict-construction approach to waivers of sovereign immunity, as emphasized in Nordic Village, a waiver must be unequivocally expressed and should not be read to alter substantive conditions Congress separately imposed in \u00a7 544(b)(1). This reading also preserves workability and predictability by keeping \u00a7 544(b)(1) tethered to an identifiable actual creditor, rather than making the trustee\u2019s power turn on hypothetical creditors divested only of immunity obstacles.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 544(b)(1) is textually derivative: the trustee may avoid a transfer only if there exists an actual unsecured creditor who \u201cmay avoid\u201d it under \u201capplicable law\u201d outside bankruptcy, and sovereign immunity means no such creditor could sue the United States under state fraudulent-transfer law in the real world. Section 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 removes the Government\u2019s immunity as a defense in bankruptcy proceedings, but it does not rewrite \u00a7 544(b)(1)\u2019s predicate condition by creating a creditor cause of action that cannot exist outside bankruptcy. Reading \u00a7 106(a) to supply the missing \u201cactual creditor\u201d would extend the waiver beyond what Congress \u201cunequivocally expressed,\u201d contrary to the rule that waivers of federal sovereign immunity must be clear and strictly construed. See United States v. Nordic Village, Inc., 503 U.S. 30 (1992).",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Section 544(b)(1) is textually derivative: it authorizes avoidance only of a transfer that is \u201cvoidable under applicable law by a creditor,\u201d which requires an actual, real-world unsecured creditor who could bring the state-law fraudulent-transfer action outside bankruptcy. Because federal sovereign immunity would bar any such creditor from suing the United States under state law, the trustee cannot satisfy \u00a7 544(b)(1)\u2019s predicate, and \u00a7 106(a)\u2019s waiver \u201cwith respect to\u201d \u00a7 544 cannot be read to rewrite \u00a7 544(b)(1)\u2019s creditor-based condition rather than merely removing an immunity defense once that condition is met. This reading accords with the clear-statement rule that waivers must be \u201cunequivocally expressed\u201d and \u201cconstrued strictly in favor of the sovereign,\u201d and where a plausible interpretation preserves immunity courts must adopt it. See United States v. Nordic Village, Inc., 503 U.S. 30, 34 (1992).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.758,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

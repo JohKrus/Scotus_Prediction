@@ -1,0 +1,570 @@
+[
+  {
+    "docket": "23-146",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether life-insurance proceeds received by a closely held corporation upon a shareholder's death to fund a stock redemption agreement should be included as a net corporate asset when calculating the fair market value of the deceased shareholder's shares for federal estate tax purposes.",
+      "legal_provision": "Internal Revenue Code provisions governing federal estate tax valuation (26 U.S.C. \u00a7 2031), specifically the fair market value 'willing-buyer/willing-seller' standard, along with 26 U.S.C. \u00a7 7422(f)(1) and 28 U.S.C. \u00a7 1346(a)(1) governing tax-refund actions.",
+      "petitioner_position": "Thomas Connelly argues that life-insurance proceeds held by Crown Corporation should NOT be counted as a net corporate asset when valuing the deceased shareholder Michael Connelly's shares, because the proceeds were earmarked exclusively to fund the contractual stock redemption obligation and thus created an offsetting corporate liability. Including the proceeds inflates the estate's tax burden by treating restricted, purpose-bound funds as general corporate wealth. The willing-buyer/willing-seller standard, as applied in United States v. Cartwright, requires accounting for legal and practical limitations on asset value, including the redemption obligation that encumbers the insurance proceeds.",
+      "respondent_position": "The United States argues that the life-insurance proceeds are a legitimate corporate asset that increases the overall fair market value of Crown Corporation, and therefore must be included when valuing the decedent's shares under the willing-buyer/willing-seller standard. The government contends that a hypothetical willing buyer with full knowledge of all relevant facts would recognize the insurance proceeds as adding real economic value to the corporation. The government further notes that petitioner did not dispute in the lower courts that the central issue was simply whether the proceeds should be included in Crown's valuation, and that no alternative valuation evidence was submitted.",
+      "key_precedents": [
+        "United States v. Cartwright, 411 U.S. 546 (1973) - established that the willing-buyer/willing-seller test must account for legal and practical limitations affecting asset value, applied here in the context of mutual-fund share valuation under the Investment Company Act",
+        "Rev. Rul. 59-60, 1959-1 C.B. 237 - IRS Revenue Ruling providing foundational guidance on valuation methodology for closely held corporation stock for estate and gift tax purposes",
+        "Eighth Circuit Court of Appeals decision, 70 F.4th 412 (2023) - affirmed inclusion of life-insurance proceeds in corporate valuation",
+        "District Court decision, 2021 WL 4281288 (2021) - granted summary judgment for the government, holding insurance proceeds must be included in Crown's valuation"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a sound and unanimous consensus, and I am satisfied that the narrow grounds I identified in my prior reasoning remain the appropriate basis for decision. Justice Kagan's formulation that the redemption obligation is 'simultaneously extinguished upon the very transaction being valued' is the analytical core of the opinion \u2014 it explains precisely why petitioner's offset theory fails without requiring us to make sweeping pronouncements about all purpose-restricted corporate assets. As Chief Justice, I would assign a majority opinion that rests on three narrow pillars: the plain text of \u00a7 2031 and the Treasury regulation at 26 C.F.R. 20.2031-2(f)(2) mandate inclusion of the insurance proceeds; the redemption obligation is not a cognizable offsetting liability because it dissolves at the moment of the hypothetical sale; and petitioner's failure to introduce alternative valuation evidence forecloses reversal on this record. I would include a brief acknowledgment of Justice Sotomayor's concern about the burden this framework places on family-owned businesses, directing Congress and the IRS to consider whether regulatory accommodation is warranted for legitimate succession planning arrangements, thereby preserving institutional legitimacy while leaving appropriate policy space for the political branches.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have collectively reinforced the core originalist and textualist analysis: the plain text of 26 U.S.C. \u00a7 2031 and its implementing regulations require valuation at fair market value under the willing-buyer/willing-seller standard, and the Treasury regulation at 26 C.F.R. 20.2031-2(f)(2) explicitly mandates inclusion of life-insurance proceeds payable to the corporation \u2014 this is not a judicial gloss but a direct regulatory command. Justice Kagan's observation that the redemption obligation is 'simultaneously extinguished upon the very transaction being valued' is particularly compelling from a textualist standpoint: the obligation cannot function as a cognizable offsetting liability because it dissolves at the moment of the hypothetical sale, meaning a willing buyer would not price it as a persistent corporate debt. Justice Gorsuch correctly distinguishes Cartwright \u2014 that case involved a statutory restriction under the Investment Company Act that structurally and legally capped resale value, whereas here the redemption agreement is a private contractual arrangement that directs the use of assets without diminishing the corporation's underlying net worth in any legally cognizable sense. The petitioner's failure to introduce alternative valuation evidence below is also dispositive under our standard review framework, as we cannot reverse on a valuation methodology question without a concrete evidentiary record demonstrating the government's approach produced a materially distorted result.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have collectively reinforced the core textualist analysis I find most compelling: under 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard, the insurance proceeds are a real, liquid corporate asset that a hypothetical informed buyer would price into the shares. Justice Kagan makes a particularly sharp point that I want to emphasize \u2014 the redemption obligation is simultaneously extinguished upon the very transaction being valued, meaning it cannot function as a traditional offsetting liability in the accounting sense; it is not a debt owed to a third-party creditor that reduces net worth independent of the valuation event itself. Justice Gorsuch correctly distinguishes Cartwright: that case involved a statutory restriction under the Investment Company Act that directly capped resale value as a matter of law, whereas here we have a privately negotiated contractual arrangement that directs the use of proceeds but does not eliminate their economic reality as corporate assets. The petitioner's failure to introduce alternative valuation evidence below is also dispositive from a practical standpoint \u2014 even if one were sympathetic to the theoretical argument that purpose-bound proceeds should be offset, there is no evidentiary record to support a different fair market value calculation, and we should not manufacture a judicial carve-out unsupported by the statutory text or the record.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The conference has converged on a well-reasoned position, and I find myself more confident after this round of deliberation. Justice Kagan's observation about the self-extinguishing nature of the redemption obligation remains the analytical linchpin \u2014 the circularity problem is fatal to petitioner's position because a willing buyer does not bear the redemption obligation and would therefore price the insurance proceeds as genuine corporate wealth. I continue to hold the pragmatic concern I raised in round one: the Connelly family faces a genuinely harsh result, and I would urge Congress to create a statutory carve-out for insurance-funded redemption agreements used in legitimate family business succession planning, perhaps modeled on the existing exclusions for certain qualified plan assets. But my sympathy for the family's situation cannot override the plain text of \u00a7 2031, the Treasury regulations at 26 C.F.R. 20.2031-2(f)(2), and the petitioner's failure to introduce alternative valuation evidence \u2014 the record simply does not support reversal under any methodology this Court could responsibly apply.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's observation about circular reasoning is particularly apt and reinforces my own analysis: the petitioner's argument that the redemption obligation offsets the insurance proceeds collapses into circularity because the 'liability' and the 'asset' arise from the same transaction being valued, making it analytically impossible to net them against each other without undermining the entire willing-buyer/willing-seller framework. Justice Sotomayor correctly identifies that the economic reality here is that the insurance proceeds genuinely enhance corporate value for surviving shareholders\u2014the redemption merely transfers equity ownership rather than depleting the corporation's underlying asset base. The strongest argument for petitioner\u2014that a willing buyer would discount the shares knowing the corporation must use its liquid assets to redeem them\u2014fails because that buyer is not the estate and bears no redemption obligation; they would be acquiring shares in a corporation that retains real economic value from those proceeds. The petitioner's failure to introduce alternative valuation evidence below is not merely a procedural point but reflects the substantive difficulty of demonstrating that any alternative methodology would yield a more accurate fair market value under the statutory standard.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's observation that the redemption obligation is 'simultaneously extinguished upon the very transaction being valued' is particularly sharp \u2014 it highlights the circularity problem with treating the redemption as a true offsetting liability, because a hypothetical willing buyer is not the estate and bears no redemption obligation, meaning the proceeds remain genuine corporate wealth from that buyer's perspective. Justice Barrett's point about the distinction between obligations to third-party creditors versus obligations inextricably linked to the equity transaction itself reinforces my textualist analysis: \u00a7 2031's willing-buyer/willing-seller standard asks what a hypothetical arm's-length purchaser would pay, and such a purchaser would see liquid assets on the balance sheet without the corresponding obligation that only attaches to the estate. The petitioner's strongest counter-argument \u2014 that economic reality demands we recognize the proceeds as earmarked and therefore not freely available corporate wealth \u2014 has genuine force, but it ultimately asks us to create a judicial carve-out for purpose-restricted insurance proceeds that finds no support in the statutory text, the Treasury regulations at 26 C.F.R. 20.2031-2(f)(2), or any recognized accounting principle treating redemption obligations as liabilities equivalent to third-party debt. Absent congressional action or clear regulatory guidance creating such an offset, the plain text and the established willing-buyer/willing-seller framework compel affirmance.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "After reviewing my colleagues' arguments, I find the consensus reasoning compelling and consistent with my own analysis. Justice Barrett's point about circular reasoning is particularly well-taken \u2014 the petitioner's argument that the redemption obligation offsets the insurance proceeds fails because the 'liability' and the 'asset' are inextricably linked to the same transaction, meaning you cannot net them against each other without logical circularity. Justice Kagan's observation that the redemption obligation is simultaneously extinguished upon the very transaction being valued reinforces this point from a practical standpoint. The petitioner's failure to introduce alternative valuation evidence below remains a significant procedural obstacle, and the longstanding IRS administrative guidance in Rev. Rul. 59-60 \u2014 which my institutionalist approach counsels deference to absent compelling contrary authority \u2014 squarely supports including the insurance proceeds in Crown's fair market value calculation.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, and Justice Kagan's observation about the self-extinguishing nature of the redemption obligation is particularly apt from a textual and analytical standpoint: the obligation is simultaneously discharged upon the very transaction being valued, which means it cannot function as a traditional offsetting liability in the accounting sense. Justice Thomas correctly distinguishes Cartwright \u2014 that case involved a statutory restriction under the Investment Company Act that directly and legally capped resale value, whereas here the redemption agreement is a privately negotiated contractual arrangement that does not eliminate the insurance proceeds as a corporate asset but merely directs their deployment. Applying the plain text of 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard, a hypothetical buyer with full knowledge would price the insurance proceeds as genuine corporate wealth, recognizing that the redemption transfers equity value among shareholders rather than depleting the corporation's underlying asset base. The petitioner's failure to introduce alternative valuation evidence below is also dispositive under any methodology \u2014 we cannot reverse on a valuation theory that was never tested in the record.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a well-reasoned consensus, and I find my own position reinforced rather than challenged by this deliberation. Justice Kagan's circularity observation remains the analytical linchpin \u2014 the redemption obligation cannot simultaneously be the transaction being valued and an offsetting liability against the asset being valued; a hypothetical willing buyer stepping into the picture post-redemption would see liquid corporate assets without bearing the estate's obligation. Justice Barrett's distinction between the Cartwright statutory restriction (which legally capped resale value as a matter of law) and the privately negotiated redemption agreement here (which directs asset deployment without eliminating economic reality) is texturally sound and consistent with my pragmatic approach to statutory interpretation. While my public defender background keeps me attentive to the genuine hardship this imposes on the Connelly family and similarly situated small business owners \u2014 and I join Justice Sotomayor in urging Congress to address the inequitable burden on family businesses using insurance-funded succession planning \u2014 the statutory framework under \u00a7 2031 and the petitioner's failure to introduce alternative valuation evidence below leave us no principled basis for reversal on this record.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "While the petitioner's argument has surface appeal, the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 and Cartwright requires a hypothetical buyer with full knowledge of all relevant facts to assess what they would actually pay for the shares \u2014 and that buyer would recognize the insurance proceeds as real corporate assets increasing the corporation's net worth. The critical distinction from Cartwright is that the redemption obligation here is not a fixed, ascertainable liability in the traditional accounting sense that a willing buyer would necessarily treat as a dollar-for-dollar offset; rather, it is a contractual obligation to redeem shares at fair market value, which is itself circular and does not straightforwardly cancel the asset. Applying my preference for narrow, institutionally stable rulings, I find that the lower courts correctly applied the established willing-buyer/willing-seller framework, and the petitioner failed to introduce alternative valuation evidence in the proceedings below, making reversal on this record particularly difficult to justify without broader doctrinal disruption. The IRS's longstanding administrative interpretation reflected in Rev. Rul. 59-60 counsels deference to the government's valuation methodology absent a compelling showing that the redemption obligation constitutes a cognizable corporate liability under standard valuation principles.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Applying the textualist and originalist framework to 26 U.S.C. \u00a7 2031, the fair market value standard requires valuing property as a willing buyer and willing seller would, with full knowledge of all relevant facts. The life-insurance proceeds are a real, tangible corporate asset that increases Crown Corporation's net worth at the moment of valuation \u2014 the redemption obligation is a contingent contractual duty, not a fixed corporate liability in the traditional accounting sense, and a sophisticated willing buyer would recognize that the proceeds represent genuine economic value to the corporation. While Cartwright instructs that legal and practical limitations must be accounted for, that case addressed a statutory restriction under the Investment Company Act that directly capped resale value \u2014 a materially different circumstance from a privately negotiated redemption agreement that does not eliminate the asset but merely directs its use. Furthermore, petitioner failed to introduce alternative valuation evidence in the lower courts, and the text of \u00a7 2031 and its implementing regulations provide no basis for treating purpose-bound corporate assets as categorically offset by redemption obligations absent a recognized accounting liability.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Under 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard codified in 26 C.F.R. 20.2031-1(b), a hypothetical willing buyer with full knowledge of relevant facts would recognize that the life-insurance proceeds represent real, tangible economic value held by Crown Corporation at the moment of valuation \u2014 they are cash assets on the corporate balance sheet. The Treasury regulations at 26 C.F.R. 20.2031-2(f)(2) explicitly instruct that life-insurance proceeds payable to the corporation must be included in valuing closely held stock, reflecting a deliberate regulatory judgment that such proceeds enhance corporate value. While petitioner argues the redemption obligation constitutes an offsetting liability, this conflates the corporation's obligation to the estate with the estate's own tax liability \u2014 the redemption agreement does not diminish the corporation's net worth in the hands of a willing buyer who is not the decedent's estate and bears no redemption obligation. Applying a textualist reading of the governing statute and regulations, and consistent with the Eighth Circuit's well-reasoned analysis, the proceeds must be included in Crown's valuation, and petitioner's failure to submit alternative valuation evidence below forecloses any equitable escape from this straightforward regulatory command.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "While I am deeply sympathetic to the Connelly family's position and mindful of the burden this ruling places on small family businesses, the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires that a hypothetical purchaser with full knowledge of all relevant facts would recognize the life-insurance proceeds as a real corporate asset increasing Crown's overall value. The redemption obligation, unlike a traditional corporate liability, does not diminish the corporation's net worth in the hands of surviving shareholders \u2014 it merely transfers ownership of shares already held by the estate, leaving the remaining shareholders with proportionally greater stakes in a corporation that retains the insurance proceeds' economic benefit. Cartwright's lesson cuts both ways: just as legal restrictions can reduce fair market value, the actual economic reality here is that the proceeds genuinely enhance corporate value for the surviving shareholders, and no alternative valuation evidence was presented below to demonstrate a true offsetting liability of equivalent magnitude. Though I would urge Congress and the IRS to consider clearer guidance or relief mechanisms for closely held family businesses structured this way, the statutory framework as written compels inclusion of the proceeds in Crown's valuation.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "While the petitioner's argument has theoretical appeal\u2014that a contractual redemption obligation should offset insurance proceeds as a cognizable corporate liability\u2014the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires us to assess what a hypothetical informed buyer would actually pay for these shares in an arm's-length transaction. A willing buyer acquiring Michael Connelly's shares would recognize that the insurance proceeds represent real, liquid corporate wealth that increases Crown's net worth at the moment of valuation, and the redemption obligation is not a traditional liability in the accounting sense because it is simultaneously extinguished upon the very transaction being valued\u2014the share purchase itself. Rev. Rul. 59-60 instructs courts to consider all relevant facts affecting fair market value, and the practical reality is that the insurance proceeds enhance the corporation's financial position in a way a rational buyer would price into the shares. Furthermore, the petitioner failed to introduce alternative valuation evidence in the lower courts, which significantly undermines the claim that a different methodology would yield a more accurate fair market value, and workable tax administration requires a clear, administrable rule that does not invite manipulation through circular redemption arrangements.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The plain text of 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard require valuing property at the price a hypothetical buyer with full knowledge would pay, and a sophisticated buyer purchasing shares in Crown Corporation would unquestionably recognize the life-insurance proceeds as a real, present corporate asset increasing the corporation's net worth. While Cartwright instructs that legal and practical limitations on asset value must be accounted for, the redemption obligation here is not a true corporate liability in the traditional sense \u2014 it is an obligation to pay shareholders for their own equity, which does not diminish the corporation's underlying asset base in the way a debt to a creditor would. The petitioner's framing conflates the estate's separate contractual obligation under the redemption agreement with a corporate liability that offsets the insurance proceeds, but these are analytically distinct: the corporation holds real, liquid assets, and the redemption merely transfers value among equity holders rather than depleting corporate wealth. Furthermore, the petitioner failed to introduce alternative valuation evidence in the lower courts, and a textualist reading of the statutory scheme does not support judicially creating a special carve-out for purpose-restricted insurance proceeds absent clear congressional authorization.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Under the willing-buyer/willing-seller standard established in Cartwright and codified through Rev. Rul. 59-60, a hypothetical buyer with full knowledge of all relevant facts would recognize the life-insurance proceeds as a real corporate asset increasing Crown's fair market value. The petitioner's argument that the redemption obligation creates an offsetting liability is unpersuasive because the stock redemption agreement benefits the remaining shareholders by consolidating ownership, meaning the obligation is not a pure liability in the traditional sense \u2014 a willing buyer purchasing the decedent's shares would factor in that the corporation holds liquid assets, even if those assets are earmarked for redemption. Furthermore, the petitioner failed to introduce alternative valuation evidence in the lower courts, and the practical workability of estate tax administration counsels against carving out purpose-bound insurance proceeds from corporate asset calculations absent clear statutory authority, as such exceptions would invite manipulation of redemption structures to minimize estate tax exposure. Consistent with my institutionalist approach favoring judicial restraint and deference to longstanding IRS administrative guidance, I would affirm the Eighth Circuit's straightforward application of the willing-buyer/willing-seller test.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 and Rev. Rul. 59-60, a hypothetical willing buyer with full knowledge of all relevant facts would recognize that the life-insurance proceeds represent real, tangible economic value held by Crown Corporation at the moment of valuation \u2014 they are an actual asset on the corporate balance sheet, not merely a contingent or speculative one. While the petitioner argues that the redemption obligation constitutes an offsetting corporate liability, the critical textual and analytical distinction is that a stock redemption obligation is not a liability owed to a third-party creditor that diminishes the corporation's net worth in the traditional accounting sense; rather, it is an obligation to the very shareholders whose interests are being valued, meaning the 'liability' and the 'asset' are inextricably linked to the same transaction and cannot be cleanly netted against each other without circular reasoning. Under Cartwright's willing-buyer/willing-seller framework, the proper inquiry focuses on what a rational, informed buyer would pay for the decedent's shares given all known facts, and such a buyer would recognize that the insurance proceeds increase the corporation's liquidity and overall value, even if those proceeds are earmarked for redemption. Furthermore, petitioner's failure to present alternative valuation evidence in the lower courts forecloses the argument that a different methodology should govern, and the Eighth Circuit correctly affirmed that the proceeds must be included in Crown's fair market value calculation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "While I am sympathetic to the petitioner's argument that purpose-bound insurance proceeds should be offset by the corresponding redemption obligation, the willing-buyer/willing-seller standard as applied under 26 U.S.C. \u00a7 2031 and Rev. Rul. 59-60 requires valuing the corporation as a whole based on all relevant facts a hypothetical buyer would consider. A sophisticated willing buyer would recognize that the insurance proceeds represent real economic value to the corporation \u2014 they enable the redemption without depleting other corporate assets, thereby preserving the going-concern value for remaining shareholders. Unlike the restriction in Cartwright, where the Investment Company Act imposed a legal limitation that structurally depressed resale value, the redemption obligation here is a contractual arrangement that a willing buyer would factor into the price paid for shares rather than treat as a dollar-for-dollar offset eliminating the proceeds' value entirely. Furthermore, petitioner's failure to submit alternative valuation evidence in the lower courts undermines the claim that the government's methodology produced a distorted result, and practical fairness requires that estate tax valuations rest on concrete evidentiary records rather than theoretical offsets unsupported by expert testimony.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.864,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "23-146",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether life-insurance proceeds received by a closely held corporation upon a shareholder's death to fund a stock redemption agreement should be included as a net corporate asset when calculating the fair market value of the deceased shareholder's shares for federal estate tax purposes.",
+      "legal_provision": "Internal Revenue Code provisions governing federal estate tax valuation (26 U.S.C. \u00a7 2031), specifically the fair market value 'willing-buyer/willing-seller' standard, along with 26 U.S.C. \u00a7 7422(f)(1) and 28 U.S.C. \u00a7 1346(a)(1) governing tax-refund actions.",
+      "petitioner_position": "Thomas Connelly argues that life-insurance proceeds held by Crown (the closely held corporation) should NOT be counted as a net corporate asset when valuing the decedent Michael Connelly's shares, because those proceeds were earmarked exclusively to fund the contractual stock redemption obligation and therefore created an offsetting corporate liability. Including the proceeds inflates the estate's tax burden beyond the true economic value of the shares, as a hypothetical willing buyer would recognize that the insurance proceeds were encumbered by the redemption agreement and not freely available corporate assets. The fair market value should reflect the practical and legal limitations on the proceeds, consistent with United States v. Cartwright.",
+      "respondent_position": "The United States (IRS) argues that the life-insurance proceeds are unambiguously a corporate asset that increases the fair market value of Crown's stock and must be included in the estate-tax valuation. The government contends that the stock redemption agreement does not create a formal corporate liability under standard accounting or legal principles, and that the willing-buyer/willing-seller test requires inclusion of all assets actually held by the corporation. The government further notes that petitioner did not dispute in the lower courts that the central issue was simply whether insurance proceeds should be included in Crown's valuation, and that the company was worth either $3.86 million or $6.86 million depending solely on that determination.",
+      "key_precedents": [
+        "United States v. Cartwright, 411 U.S. 546 (1973) - established that the willing-buyer/willing-seller fair market value test must account for legal and practical limitations affecting property value, applied here in the context of mutual-fund share valuation under the Investment Company Act",
+        "Rev. Rul. 59-60, 1959-1 C.B. 237 - IRS Revenue Ruling providing foundational guidance on valuation of closely held corporation stock for estate and gift tax purposes",
+        "Eighth Circuit Court of Appeals opinion, 70 F.4th 412 (June 2, 2023) - affirmed inclusion of life-insurance proceeds in corporate valuation",
+        "District Court opinion, 2021 WL 4281288 (September 21, 2021) - granted summary judgment for the government on the insurance proceeds valuation issue"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a strong consensus, and I find my minimalist instincts well-served by the narrow holding we can craft here. Justice Kagan's point about Cartwright's distinguishability remains the linchpin \u2014 that case addressed externally imposed statutory restrictions under the Investment Company Act, not privately negotiated contractual arrangements, and limiting our holding to that distinction keeps us from disturbing broader buy-sell agreement jurisprudence unnecessarily. Justice Barrett's value-neutrality observation is analytically precise and provides the clearest path to a narrow opinion: because the redemption transaction simultaneously retires shares and deploys assets, there is no net diminution of corporate worth, and the proceeds were unencumbered corporate property at the moment of death under \u00a7 2031's plain text. As Chief Justice, I would assign the majority opinion with instructions to write narrowly \u2014 holding only that under \u00a7 2031's willing-buyer/willing-seller standard, life-insurance proceeds that are unencumbered corporate assets at death must be included in fair market value, and that a contingent contractual redemption obligation of this type does not constitute a recognized offsetting liability, without purporting to resolve every permutation of buy-sell agreement valuation.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments, I find the consensus well-grounded in the text of \u00a7 2031 and the willing-buyer/willing-seller standard. Justice Kagan raises the strongest potential counterargument \u2014 that Cartwright's principle of accounting for legal and practical limitations might extend to a redemption obligation \u2014 but I agree with her own conclusion that Cartwright is distinguishable because it addressed externally imposed statutory restrictions under the Investment Company Act, not a privately negotiated contractual arrangement. The petitioner's most compelling argument is that a hypothetical willing buyer would discount the shares knowing the proceeds are earmarked for redemption, but this conflates the corporation's asset base with the price a buyer would negotiate for the shares \u2014 the proceeds are unencumbered corporate property until deployed, and any discount for the redemption obligation would be reflected in the share price negotiation, not as a formal balance-sheet offset. Justice Barrett correctly identifies that the redemption transaction is essentially value-neutral to remaining shareholders, as it simultaneously retires shares and deploys assets, which undermines the claim that the proceeds constitute a net liability reducing corporate worth. The plain text of \u00a7 2031 requires valuing all assets actually held, and nothing in the statute or its implementing regulations supports treating a contingent contractual obligation as a dollar-for-dollar accounting offset against a hard liquid asset.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Kagan's observation that Cartwright is distinguishable because it addressed externally imposed statutory restrictions under the Investment Company Act \u2014 not privately negotiated contractual arrangements \u2014 is particularly well-taken and reinforces my position. The petitioner's strongest argument is that a willing buyer would discount the shares because the insurance proceeds are effectively earmarked for the redemption, but this conflates the corporation's asset base with the price a buyer would negotiate for the shares; a sophisticated buyer would simply factor the redemption obligation into the price paid, not treat it as a formal offset against gross corporate assets. Justice Barrett correctly identifies the analytical flaw in petitioner's liability theory: the redemption transaction is essentially value-neutral to remaining shareholders because the proceeds are exchanged for the retired shares, meaning there is no net diminution of corporate worth that would justify excluding the proceeds from valuation. The tax-avoidance concern Justice Roberts raises is also dispositive under a practical-consequences analysis \u2014 accepting petitioner's position would create a straightforward template for sheltering corporate assets from estate tax through the simple mechanism of buy-sell agreements, a result the statute's broad valuation mandate cannot countenance.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The conference has reached a well-reasoned consensus, and I find my colleagues' collective analysis has actually strengthened my confidence somewhat. Justice Barrett's observation that the redemption transaction is value-neutral to remaining shareholders \u2014 because the proceeds are exchanged for the very shares being retired, simultaneously reducing both assets and outstanding shares \u2014 directly addresses my lingering concern about double taxation: the estate is not being taxed twice on the same economic value, but rather on the full asset base of the corporation at the moment of death, with the redemption obligation properly reflected in the negotiated share price rather than as a balance-sheet offset. I remain attentive to the real-world burden on this estate, and I want our eventual opinion to acknowledge the genuine equitable tension rather than dismissing it, but Justice Jackson's point about the absence of a principled limiting principle is ultimately dispositive for me \u2014 if privately negotiated redemption agreements could categorically shelter identified corporate assets from estate valuation, the integrity of \u00a7 2031's broad mandate would be systematically undermined without any textual or structural basis for drawing the line. The Cartwright distinction Justice Kagan articulates \u2014 externally imposed statutory restrictions versus privately negotiated contractual arrangements \u2014 provides the doctrinal anchor that prevents this holding from sweeping too broadly.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "After a second round of deliberation, I find my colleagues' collective reasoning has sharpened rather than merely reinforced my position. Justice Barrett's value-neutrality point \u2014 that the redemption transaction simultaneously retires shares and deploys assets, leaving remaining shareholders no worse off \u2014 directly addresses the circularity concern I flagged in round one: the proceeds are not 'earmarked' in any legally cognizable sense that reduces net corporate worth, because the shares being redeemed are themselves extinguished in the exchange. Justice Jackson's limiting-principle observation continues to weigh heavily with me from a pragmatic standpoint: if privately negotiated redemption agreements could categorically offset identified liquid assets, the estate tax valuation regime would face systematic erosion with no principled basis for distinguishing which contractual obligations qualify as offsets and which do not. I am moving my confidence modestly upward from 0.75 to 0.80 because the conference has collectively worked through the strongest counterarguments \u2014 particularly the Cartwright 'practical limitations' argument and the willing-buyer discount theory \u2014 and I find the textual and structural responses to both genuinely persuasive rather than merely convenient.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's candid acknowledgment of the circularity problem \u2014 that we are valuing the decedent's shares by reference to proceeds that exist solely to retire those shares \u2014 deserves a direct response under my textualist methodology. The circularity concern is real but ultimately does not undermine the statutory analysis: \u00a7 2031 requires valuing 'the value of the gross estate,' which means all property the decedent owned or had an interest in at the moment of death, and the insurance proceeds were unambiguously Crown's unencumbered corporate property at that moment, not the decedent's personal property subject to any encumbrance. The redemption agreement is a contingent contractual obligation \u2014 not a recognized accounting liability \u2014 and my textualist methodology cannot authorize treating a privately negotiated buy-sell arrangement as a balance-sheet offset without any statutory or regulatory text authorizing that treatment. Justice Barrett's value-neutrality observation further confirms that the remaining shareholders suffer no net diminution from the redemption transaction, which means the proceeds genuinely represent corporate value that must be included under the plain meaning of \u00a7 2031.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments, I find the conference remarkably unified, and the core reasoning is sound. Justice Barrett's observation is particularly clarifying: the redemption transaction is essentially value-neutral to remaining shareholders because it simultaneously reduces both corporate assets and outstanding shares, meaning the per-share value is not artificially inflated by the insurance proceeds in the way petitioner suggests \u2014 the proceeds are exchanged for the very shares being retired. The strongest argument for petitioner would be that a willing buyer, knowing the proceeds are contractually committed to redemption, would discount them accordingly, but as Justice Kagan notes, Cartwright addressed externally imposed regulatory constraints under the Investment Company Act, not privately negotiated contractual arrangements that sophisticated parties could modify or price into their negotiations. Permitting redemption agreements to categorically offset insurance proceeds would create a significant tax-planning loophole with no principled limiting principle, undermining the administrability of the estate tax valuation regime that Rev. Rul. 59-60 has consistently maintained.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After two rounds of deliberation, I remain firmly with the Respondent, and I want to directly engage with what Justice Kagan identifies as the most serious remaining counterargument: the circularity problem, that we are valuing the decedent's shares by reference to proceeds that exist solely to retire those shares. This is genuinely interesting, but I think it dissolves under careful analysis. The circularity concern would be compelling if the insurance proceeds had no independent existence as corporate assets \u2014 but they do. Crown held those proceeds as unencumbered liquid assets at the moment of death, and the redemption obligation was a contingent contractual commitment, not a vested encumbrance on the asset itself. The willing-buyer/willing-seller framework resolves any apparent circularity: a hypothetical buyer negotiating the share price would account for the redemption agreement's terms in the price paid, not by treating the proceeds as a balance-sheet nullity. Justice Kagan's own point about Cartwright's distinguishability \u2014 externally imposed statutory constraints versus privately negotiated arrangements \u2014 remains the decisive structural distinction, and I would add that accepting petitioner's position would require us to read into \u00a7 2031 a liability-offset mechanism that Congress never enacted and that lacks any principled limiting principle.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have collectively reinforced the core analytical point I find most persuasive: the stock redemption agreement does not constitute a formal corporate liability under standard accounting principles, and therefore cannot serve as a dollar-for-dollar offset against the insurance proceeds under \u00a7 2031's fair market value standard. Justice Sotomayor's observation \u2014 that a hypothetical buyer would factor the redemption obligation into the *price paid for the shares*, not into the corporation's gross asset value \u2014 captures the precise analytical distinction that defeats the petitioner's argument. The petitioner's strongest counter is the Cartwright principle that practical encumbrances on value must be recognized, but as Justice Kagan correctly notes, Cartwright addressed externally imposed statutory restrictions under the Investment Company Act, not a privately negotiated contractual arrangement that the corporation itself could theoretically modify or waive. My background as a public defender makes me attentive to the real economic burden this ruling places on the estate, but the tax avoidance concern is genuine and principled \u2014 permitting redemption agreements to systematically shelter corporate assets from estate valuation lacks a limiting principle and would undermine the integrity of \u00a7 2031's broad mandate.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "While Cartwright establishes that the willing-buyer/willing-seller test accounts for legal and practical limitations on property value, the critical distinction here is that the stock redemption agreement does not create a formal corporate liability under standard accounting or legal principles \u2014 it is a contractual obligation that may or may not be exercised and does not appear on the corporation's balance sheet as a recognized debt. A hypothetical willing buyer purchasing Crown's shares would see the insurance proceeds as a genuine corporate asset increasing the company's net worth, and the redemption obligation runs to the shareholder's estate rather than constituting a traditional encumbrance on corporate assets in the way the Investment Company Act restricted mutual fund shares in Cartwright. Applying my preference for narrow, institutionally stable rulings, I find that the IRS's position is more consistent with the plain application of 26 U.S.C. \u00a7 2031's fair market value standard and Rev. Rul. 59-60's foundational guidance, which directs valuators to consider all corporate assets without carving out proceeds based on their intended use. Permitting such a carve-out would invite significant tax-planning manipulation and undermine the administrability of the estate tax valuation regime, concerns that counsel against adopting the petitioner's broader rule.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the textualist and originalist framework to 26 U.S.C. \u00a7 2031, the fair market value standard requires valuing what the corporation actually holds at the moment of death \u2014 and at that moment, the life-insurance proceeds are unambiguously a corporate asset on the balance sheet. While Cartwright correctly establishes that the willing-buyer/willing-seller test accounts for legal and practical limitations, a stock redemption agreement does not constitute a formal corporate liability under standard accounting principles; it is a contingent contractual obligation that a hypothetical willing buyer would price into the negotiated purchase price of the shares, not a balance-sheet offset that reduces net asset value dollar-for-dollar. The petitioner's argument conflates the economic motivation behind holding the insurance policy with its legal character as a corporate asset, and nothing in the text of \u00a7 2031 or its implementing regulations supports treating a redemption agreement as an accounting liability that cancels out a hard asset. Furthermore, the lower courts correctly noted that petitioner did not contest the binary framing of the valuation question, and the IRS's position is consistent with the plain meaning of 'fair market value' as applied to all assets actually held by the corporation.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Under a straightforward textualist application of 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard, the life-insurance proceeds are unambiguously a corporate asset held by Crown at the valuation date, and the statute requires inclusion of all assets actually owned by the corporation in determining fair market value. The stock redemption agreement does not constitute a formal corporate liability under standard accounting principles sufficient to offset those proceeds \u2014 a contractual obligation to redeem shares is fundamentally different from a debt or encumbrance on the insurance proceeds themselves, and a willing buyer would recognize that the corporation holds real, liquid assets regardless of how management intends to deploy them. Rev. Rul. 59-60 instructs valuators to consider all relevant factors including a corporation's financial condition and earning capacity, but it does not authorize treating a contingent redemption obligation as a dollar-for-dollar offset against specific identified assets. The practical consequence of accepting petitioner's position would be to allow closely held corporations to systematically shelter corporate assets from estate tax valuation through the simple expedient of earmarking them for redemption agreements, a result inconsistent with the statute's broad valuation mandate.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Although my instinct is to protect vulnerable taxpayers from inflated estate tax burdens, the legal framework here compels a ruling for the government. The willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires valuing all assets actually held by the corporation at the moment of death, and the life-insurance proceeds were unambiguously a corporate asset at that moment. While Cartwright teaches that the willing-buyer/willing-seller test accounts for legal and practical limitations on property value, the stock redemption agreement here does not constitute a formal corporate liability under standard accounting principles \u2014 it is a contractual obligation that a hypothetical buyer would factor into the *price they pay for the shares*, not a liability that offsets the corporation's gross asset value. Furthermore, the petitioner's framing conflates the corporation's asset base with the separate question of what a buyer would pay for the decedent's specific shares, and allowing redemption agreements to categorically offset insurance proceeds would create significant tax-avoidance opportunities that undermine the integrity of the estate tax system \u2014 a concern that ultimately weighs against the petitioner's position despite its surface-level equitable appeal.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires valuing what a hypothetical buyer would actually pay for the decedent's shares, and a corporation that holds life-insurance proceeds as a liquid asset is objectively worth more than one that does not \u2014 regardless of the intended use of those proceeds. While the research materials present a compelling argument that the redemption obligation constitutes an offsetting liability under traditional accounting principles and Missouri contract law, the critical distinction is that a stock redemption agreement does not reduce Crown's net assets in the same way a formal debt obligation does: the proceeds are unencumbered corporate property until actually deployed, and the redemption obligation is contingent on the very death event that triggers the valuation. Rev. Rul. 59-60's 'common sense' and holistic approach cuts both ways, but a willing buyer purchasing the remaining shares post-redemption would recognize that the corporation's asset base \u2014 including the insurance proceeds used to retire the decedent's shares \u2014 directly determines the per-share value of what remains. Cartwright is distinguishable because it addressed statutory restrictions on mutual-fund redemption prices that were legally mandated by the Investment Company Act, not a privately negotiated contractual arrangement that a corporation could theoretically modify.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Applying the plain meaning of 26 U.S.C. \u00a7 2031 and the willing-buyer/willing-seller standard, the life-insurance proceeds are unambiguously an asset held by Crown at the valuation date and must be included in the corporation's fair market value. The critical textual and economic question is whether the stock redemption agreement creates a formal offsetting corporate liability, and under standard accounting principles and the plain operation of the willing-buyer/willing-seller test, a contractual obligation to redeem shares does not constitute a recognized balance-sheet liability in the same way a debt obligation would \u2014 the redemption agreement is a contingent obligation that is extinguished upon completion of the very transaction being valued. While Cartwright instructs that legal and practical limitations on property value must be accounted for, that precedent addressed externally imposed regulatory constraints on transferability, not a corporation's own contractual arrangement that a sophisticated willing buyer would simply price into the negotiation over the redemption agreement's terms. The Eighth Circuit correctly recognized that the proceeds genuinely increased Crown's net worth, and the petitioner's argument would effectively allow privately negotiated redemption agreements to systematically reduce estate tax valuations in a manner inconsistent with the statute's text and the IRS's longstanding guidance in Rev. Rul. 59-60.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires valuing Crown's stock based on all assets actually held by the corporation at the time of the decedent's death, and the life-insurance proceeds were unambiguously a corporate asset at that moment. While Cartwright confirms that legal and practical limitations on property value must be accounted for, a stock redemption agreement does not constitute a formal corporate liability under standard accounting principles \u2014 it is a contractual obligation contingent on the redemption actually occurring, not a debt that reduces net asset value in the same manner as a true liability. A hypothetical willing buyer and seller, both fully informed, would recognize that the proceeds increased the corporation's liquid assets and that the redemption agreement simultaneously reduced the number of outstanding shares, meaning the remaining shareholder received proportionally greater value \u2014 there is no double-counting problem that would justify excluding the proceeds. The practical workability of estate tax administration also counsels against creating exceptions for earmarked assets, as such a rule would invite manipulation and undermine the administrability of the fair market value standard that Rev. Rul. 59-60 and decades of IRS guidance have consistently applied.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 and Treasury Regulation \u00a7 20.2031-1(b), the life-insurance proceeds are unambiguously an asset on Crown's balance sheet at the moment of valuation \u2014 they are cash actually held by the corporation. The petitioner's argument that the redemption obligation constitutes an offsetting liability is textually and analytically problematic: a stock redemption agreement obligates the corporation to purchase shares and retire them, which simultaneously reduces outstanding shares and corporate assets, meaning the transaction is essentially value-neutral to remaining shareholders rather than a net liability that diminishes corporate worth. A hypothetical willing buyer purchasing the decedent's shares would recognize that the insurance proceeds increase the corporation's liquid assets, and that upon redemption those proceeds would be exchanged for the very shares being valued \u2014 the redemption obligation does not function like a traditional third-party liability such as debt or a tort claim. While Cartwright instructs that legal and practical limitations on property must be considered, that principle addressed externally imposed regulatory constraints on asset transferability, not internally structured buy-sell arrangements that a willing buyer would price into the transaction itself.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "While I am sympathetic to the petitioner's argument that a willing buyer would recognize the practical encumbrance on the insurance proceeds, the willing-buyer/willing-seller standard under 26 U.S.C. \u00a7 2031 requires inclusion of all actual corporate assets, and the stock redemption agreement does not constitute a formal corporate liability under standard accounting principles \u2014 it is a contingent obligation that was triggered by and simultaneously resolved through the redemption itself. Cartwright, 411 U.S. 546 (1973), supports accounting for legal and practical limitations on value, but those limitations must be genuine encumbrances on the asset itself, not merely a designated use of funds; the insurance proceeds were unencumbered corporate property that Crown could have deployed otherwise had it chosen not to honor the redemption agreement. Furthermore, Rev. Rul. 59-60 instructs that closely held corporation valuations must reflect actual net asset value, and permitting shareholders to contractually reduce estate tax exposure through privately negotiated redemption agreements would create significant tax avoidance opportunities inconsistent with the statute's purpose. The practical consequence of the petitioner's position \u2014 that parties could structure buy-sell agreements to systematically deflate estate valuations \u2014 counsels against adoption of a rule that lacks a principled limiting principle.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.842,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  }
+]

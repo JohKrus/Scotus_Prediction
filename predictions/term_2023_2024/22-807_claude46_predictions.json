@@ -1,0 +1,622 @@
+[
+  {
+    "docket": "22-807",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether South Carolina's Congressional District 1 constitutes an unconstitutional racial gerrymander under the Equal Protection Clause, and whether the district court applied proper legal standards in finding that race predominated over partisan considerations in drawing the district's boundaries.",
+      "legal_provision": "U.S. Constitution, Fourteenth Amendment (Equal Protection Clause); Section 2 of the Voting Rights Act of 1965, 52 U.S.C. \u00a7 10301; Section 5 of the Voting Rights Act of 1965 (historically applicable); 52 U.S.C. \u00a7 10308(d)",
+      "petitioner_position": "Appellants (South Carolina legislative leaders) argue that the district court committed clear legal error by finding that race, rather than partisan political considerations, predominated in the drawing of Congressional District 1. They contend that the redistricting decisions were driven by legitimate partisan goals \u2014 specifically, securing a safe Republican district \u2014 and that the court improperly conflated race and party affiliation. They further argue that the district court applied an incorrect legal standard in evaluating the racial gerrymandering and intentional vote dilution claims, and that the plaintiffs failed to meet their burden of proof in demonstrating that race was the predominant factor overriding traditional redistricting principles.",
+      "respondent_position": "Appellees (South Carolina NAACP and other plaintiffs) argue that the district court correctly found that South Carolina's mapmakers used race as the predominant factor in redrawing Congressional District 1, specifically by removing a significant number of Black voters from the district in a manner that cannot be explained by partisan objectives alone. They contend that the legislature intentionally diluted minority voting power in violation of the Equal Protection Clause, and that the circumstantial and direct evidence \u2014 including demographic data, mapmaker decisions, and the racial composition of precincts moved in and out of the district \u2014 supports the district court's findings, which should not be disturbed absent clear error.",
+      "key_precedents": [
+        "Shelby County v. Holder, 570 U.S. 529 (2013) \u2014 eliminated Section 5 preclearance requirements, affecting the legal landscape for redistricting",
+        "Cooper v. Harris, 581 U.S. 285 (2017) \u2014 established that partisanship cannot serve as a proxy for race and that predominant use of race must be narrowly tailored to a compelling state interest",
+        "Miller v. Johnson, 515 U.S. 900 (1995) \u2014 established the standard that race must not be the predominant factor in drawing district lines",
+        "Shaw v. Reno, 509 U.S. 630 (1993) \u2014 foundational racial gerrymandering case establishing Equal Protection claims for racially motivated redistricting",
+        "Hunt v. Cromartie, 526 U.S. 541 (1999) \u2014 addressed the distinction between racial and political gerrymandering",
+        "Easley v. Cromartie, 532 U.S. 234 (2001) \u2014 clarified evidentiary standards for distinguishing racial from political gerrymandering",
+        "Colleton County Council v. McConnell (referenced in district court opinion) \u2014 prior South Carolina redistricting litigation",
+        "Arlington Heights v. Metropolitan Housing Development Corp., 429 U.S. 252 (1977) \u2014 framework for proving intentional racial discrimination"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that Cooper v. Harris rejected alternative maps as a categorical prerequisite is technically correct and deserves full acknowledgment \u2014 but as I noted in my prior reasoning, the absence of a viable partisan-neutral alternative here is not merely a procedural gap but substantive evidence bearing on whether plaintiffs met their burden under Miller v. Johnson. Justice Sotomayor's invocation of Arlington Heights and the surgical precision of precinct movements is the strongest argument for affirmance, and I take seriously the concern that a partisan-label defense could swallow racial gerrymandering doctrine in high-correlation jurisdictions. However, my minimalist instinct counsels that the proper remedy is not affirmance but a narrow remand requiring the district court to affirmatively disentangle racial from partisan motivation with the rigor Easley v. Cromartie demands \u2014 specifically addressing why the demographic precision of precinct movements cannot be explained by partisan objectives given that plaintiffs' own alternative maps confirm the near-coextensiveness of racial and partisan sorting in South Carolina. This narrow holding preserves Cooper v. Harris's vitality, avoids creating a categorical bar on partisan redistricting in high-correlation states, and respects institutional legitimacy by returning the question to the fact-finder with proper legal instructions rather than resolving a contested factual record at this level.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's argument \u2014 that the district court made specific factual findings about demographic precision in precinct movements that cannot be fully explained by partisan objectives, entitled to clear error deference \u2014 is the most serious challenge to my position, and I acknowledge it has genuine force under Arlington Heights. However, the originalist framework I apply to the Equal Protection Clause demands that racial predominance be established with rigor, not inferred from demographic correlation in an environment where race and party are nearly coextensive; the Fourteenth Amendment targets intentional racial discrimination, and the district court's analytical framework must affirmatively rule out the partisan hypothesis before that demanding standard is met. Justice Jackson is correct that Cooper v. Harris does not categorically require alternative maps, but as I noted in my prior reasoning, the fact that plaintiffs' own alternative maps converted District 1 into a majority-Democratic district is not merely a procedural gap \u2014 it is substantive evidence that the enacted plan's racial composition is fully explicable by partisan objectives, which goes to whether plaintiffs carried their burden under Miller v. Johnson. The district court's failure to engage in the rigorous disentanglement Cromartie II demands \u2014 particularly given South Carolina's near-perfect race-party correlation \u2014 constitutes legal error not shielded by clear error review, and remand with proper instructions is the appropriate remedy.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor's strongest argument \u2014 that Cooper v. Harris establishes that partisanship cannot serve as a post-hoc justification when demographic data reveals race-conscious line-drawing \u2014 actually cuts in favor of reversal here, because the district court failed to rigorously disentangle the two motivations before reaching that conclusion. The critical analytical flaw Justice Sotomayor overlooks is that in Cooper, the plaintiffs produced alternative maps demonstrating that the legislature's partisan objectives could have been achieved with substantially less racial impact; here, as Justice Jackson acknowledges, the plaintiffs' own alternative maps converted CD1 into a majority-Democratic district, meaning they failed to demonstrate that the enacted plan's racial composition was separable from its partisan objectives. This is precisely the evidentiary gap that Easley v. Cromartie demands be filled before a court may override a legislature's stated partisan rationale \u2014 when every alternative map undermines the stated political goal, the inference that race rather than party predominated is insufficiently supported. Justice Jackson's contention that Cooper holds alternative maps are merely evidentiary tools rather than mandatory prerequisites does not rescue the district court's analysis, because the absence of a viable partisan-neutral alternative here is not a procedural deficiency but a substantive failure of proof on the predominance question itself.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's argument that the plaintiffs' alternative maps all converted District 1 into a majority-Democratic district is the strongest challenge to my position, but it misreads Cooper v. Harris, which explicitly rejected the notion that plaintiffs must produce a map achieving the legislature's partisan objectives with less racial impact as a categorical prerequisite \u2014 alternative maps are evidentiary tools, not mandatory proof elements, as Justice Jackson correctly notes. The core problem with my colleagues' reasoning is that it would effectively immunize racial gerrymandering whenever a legislature can articulate a partisan rationale in a jurisdiction where race and party correlate \u2014 precisely the outcome Cooper v. Harris warned against when it held that 'the sorting of voters on the grounds of their race remains suspect even if race and politics correlate.' The district court did not simply infer racial predominance from demographic data alone; it applied the Arlington Heights framework to circumstantial evidence including the surgical precision with which Black voters were moved across precinct lines in ways that exceeded what partisan objectives required, which is the kind of direct evidence of racial sorting that distinguishes this case from Easley. Allowing the partisan-label defense to swallow the racial predominance inquiry would gut the Fourteenth Amendment's protection for Black South Carolinians and render Cooper v. Harris a dead letter.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Jackson's argument remains the most compelling challenge to my position \u2014 her point that Cooper v. Harris explicitly rejected alternative maps as a categorical prerequisite is textually sound, and her emphasis on the district court's specific factual findings about precinct-level demographic precision deserves genuine weight under clear error review. However, I continue to find that the district court's analysis did not adequately perform the disentanglement Cromartie II demands in a high-correlation environment: the fact that plaintiffs' own alternative maps all converted CD1 into a majority-Democratic district is not merely a procedural gap but substantive evidence that the enacted plan's racial composition is explicable by partisan objectives, and the district court needed to affirmatively address this before inferring racial predominance. Justice Sotomayor's warning that allowing partisan labels to swallow racial predominance claims would gut Cooper v. Harris is a serious institutional concern I share, but the answer is not to affirm a finding that may have conflated the two motivations \u2014 it is to remand with clear instructions requiring the district court to apply Cromartie II's demanding standard with the rigor that actually accomplishes the disentanglement the Equal Protection Clause requires. A properly conducted remand protects both the Fourteenth Amendment's anti-subordination values and the analytical integrity that prevents racial gerrymandering doctrine from collapsing into a partisan sorting inquiry.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's argument \u2014 that the district court made specific factual findings about demographic precision in precinct movements that cannot be fully explained by partisan objectives, entitled to clear error deference \u2014 is the strongest challenge to my position, and I take it seriously. However, the clear error standard does not insulate legal errors in the analytical framework itself, and the district court's failure to rigorously apply Easley v. Cromartie's demanding disentanglement requirement is precisely such a legal error. As I noted in my prior reasoning and as Justice Kagan's observation reinforces, when the plaintiffs' own alternative maps converted District 1 into a majority-Democratic district, that is not merely a procedural gap but substantive evidence that the enacted plan's racial composition is explicable by partisan objectives \u2014 evidence the district court failed to adequately credit before inferring racial predominance from demographic correlation. Justice Sotomayor is correct that Cooper v. Harris warned against allowing partisan labels to immunize racial sorting, but Cooper itself distinguished cases where legislative documents revealed race-conscious decision-making from cases where demographic correlation with partisanship drives the inference, and the proper remedy here is remand for the district court to apply the Cromartie II framework with the rigor that demanding standard requires.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's argument that the district court made specific factual findings about demographic precision in precinct movements that cannot be fully explained by partisan objectives deserves serious engagement \u2014 if true, that would be the kind of disentanglement Cromartie II demands. However, Justice Jackson's position ultimately cannot overcome the fundamental evidentiary problem: when plaintiffs' own alternative maps converted District 1 into a majority-Democratic district, as Justice Alito and Justice Kagan both emphasize, this is not merely a procedural gap but substantive evidence that the enacted plan's racial composition is explicable by partisan objectives, which means the district court's factual findings about precinct-level racial sorting may themselves reflect the near-perfect race-party correlation rather than independent racial motivation. Justice Sotomayor's invocation of Cooper v. Harris is the strongest opposing argument, but Cooper's holding that 'sorting voters on grounds of race remains suspect even if race and politics correlate' presupposes that the court has actually disentangled the two \u2014 and the district court's analysis here appears to have treated demographic evidence as sufficient without rigorously crediting the partisan hypothesis in the way Cromartie II's demanding standard requires. The institutionalist concern I share with Chief Justice Roberts counsels that we not effectively prohibit partisan redistricting in high-correlation jurisdictions through an insufficiently rigorous predominance analysis, and remand for proper application of the Easley framework is the narrowest and most defensible path.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "Justice Jackson's argument that the district court made specific factual findings about demographic precision in precinct movements that cannot be fully explained by partisan objectives alone is the most serious challenge to my position, and I take seriously her invocation of clear error deference. However, the legal error I identify is not in the district court's factual findings per se, but in the analytical framework it applied \u2014 specifically, whether it rigorously disentangled racial from partisan motivation as Easley v. Cromartie demands before concluding race predominated. As Justice Kagan observes, the fact that plaintiffs' own alternative maps converted CD1 into a majority-Democratic district is not merely a procedural gap but substantive evidence that the enacted plan's racial composition is explicable by partisan objectives, which goes to whether plaintiffs met their burden of proof under Miller v. Johnson's demanding standard. The district court's failure to affirmatively rule out the partisan hypothesis \u2014 rather than inferring racial predominance from demographic correlation in a jurisdiction where race and party are nearly coextensive \u2014 constitutes a legal error in the framework itself that is not insulated by clear error review, and remand for proper application of the Cromartie II standard remains the appropriate disposition.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's argument \u2014 notable precisely because she is generally sympathetic to voting rights claims \u2014 that the district court must affirmatively disentangle racial from partisan motivation rather than inferring predominance from demographic patterns alone is the most serious challenge to my position, and I take it seriously. But I cannot accept the logical endpoint of my colleagues' collective reasoning: if the presence of high race-party correlation combined with the absence of a 'viable partisan-neutral alternative' is sufficient to defeat a racial gerrymandering claim, then Cooper v. Harris is effectively a dead letter in the South, where those conditions will almost always obtain. The district court did not merely observe demographic correlation \u2014 it made specific factual findings under Arlington Heights about the surgical precision with which particular precincts were moved in ways that tracked racial composition more closely than partisan voting history, and Justice Alito's alternative-maps argument, while powerful, does not address why those specific precinct-level movements cannot be explained by partisan objectives alone without reference to race. The clear error standard of review means I need a legal error in the district court's framework, not merely a different weighing of the same evidence, and my colleagues have not identified a categorical rule in Cromartie II that prohibits the district court from crediting precinct-level racial sorting evidence even when alternative maps are unavailable \u2014 they have identified a preference for how the evidence should have been weighed.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Under Easley v. Cromartie, 532 U.S. 234 (2001), when race and partisan affiliation are highly correlated, plaintiffs bear a demanding burden to show that race rather than politics predominated, and courts must exercise extraordinary caution before concluding that a legislature engaged in racial gerrymandering. While the clear error standard requires significant deference to district court factual findings as established in Cooper v. Harris, 581 U.S. 285 (2017), the district court's analysis appears to have insufficiently grappled with the alternative partisan explanation \u2014 namely, that Republican mapmakers were targeting Democratic voters who happened to be Black, rather than targeting Black voters per se. My minimalist instinct counsels that where the evidentiary record admits of a plausible partisan explanation consistent with Hunt v. Cromartie and Easley, the district court must do more than identify racial disparities in precinct movements; it must affirmatively rule out the partisan hypothesis with sufficient rigor before the demanding predominance standard is satisfied. Remanding for application of the proper evidentiary framework, rather than affirming a potentially overbroad racial predominance finding, best preserves both institutional legitimacy and the narrow grounds on which such sensitive constitutional determinations should rest.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As an originalist, I am deeply skeptical of the expansive judicial role in policing legislative redistricting decisions, and the district court's findings here warrant reversal under the clear error standard given the well-established principle from Easley v. Cromartie that when race and party affiliation are highly correlated, plaintiffs bear a demanding burden to prove racial rather than partisan predominance. The district court's conflation of racial and partisan motivations \u2014 particularly where Black voters in South Carolina vote overwhelmingly Democratic \u2014 represents precisely the analytical error this Court warned against in Hunt v. Cromartie and Easley v. Cromartie, as legislative mapmakers pursuing legitimate partisan objectives cannot be presumed to be acting on racial grounds merely because the demographic data correlates. Furthermore, from an originalist perspective, the Equal Protection Clause was designed to prohibit intentional racial discrimination, and the evidentiary record here \u2014 where the legislature's stated and documented goal was securing a safe Republican district \u2014 does not clearly establish that race, rather than party, was the predominant factor overriding traditional redistricting principles under Miller v. Johnson. The district court's failure to give adequate weight to the presumption of legislative good faith articulated in Miller, combined with its insufficient distinction between racial and partisan sorting, constitutes legal error that requires reversal.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under Easley v. Cromartie, 532 U.S. 234 (2001), extraordinary caution is required when a state articulates a legitimate political explanation for redistricting decisions in a jurisdiction where race and party affiliation are highly correlated \u2014 precisely the situation here, where South Carolina's Republican-controlled legislature sought to shore up a district that had unexpectedly flipped Democratic in 2018. The district court committed clear error by failing to adequately distinguish racial from partisan motivation, particularly given that the plaintiffs' own alternative maps all converted District 1 into a majority-Democratic district, demonstrating that the enacted plan's partisan objectives could not be achieved through those alternatives \u2014 meaning race was not the only explanation for the boundary choices. As I argued in my Cooper v. Harris dissent, when race and party are highly correlated, plaintiffs must produce a viable alternative map demonstrating that the legislature's political objectives could have been achieved with less racial impact; without such evidence, the inference of racial predominance is insufficiently supported. The district court's findings do not survive clear error review under the demanding standard established by Miller v. Johnson and Easley v. Cromartie, and reversing protects legislatures' legitimate authority to engage in partisan redistricting as affirmed in Rucho v. Common Cause.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The district court's factual findings that race predominated in drawing Congressional District 1 are entitled to substantial deference under the clear error standard established in Easley v. Cromartie and reaffirmed in Cooper v. Harris. The evidence that mapmakers specifically moved Black voters out of the district in a racially targeted manner \u2014 distinct from what partisan objectives alone would require \u2014 mirrors the fact pattern in Cooper v. Harris where the Court held that partisanship cannot serve as a post-hoc justification when the demographic data reveals race-conscious line-drawing. Under Arlington Heights, the circumstantial evidence including the racial composition of precincts moved in and out of the district, combined with the legislature's awareness of racial demographics, supports an inference of intentional racial sorting that dilutes minority voting power in violation of the Equal Protection Clause. The practical impact on Black South Carolinians' ability to elect representatives of their choice is precisely the kind of real-world harm to a vulnerable population that the Fourteenth Amendment and Section 2 of the Voting Rights Act were designed to prevent, and allowing legislators to hide racial gerrymandering behind partisan labels would effectively gut these constitutional protections.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Under Easley v. Cromartie, extraordinary caution is required when race and political affiliation are highly correlated and the legislature has articulated a legitimate partisan justification, as South Carolina did in seeking to restore Republican dominance in District 1 after the 2018 upset. The district court's findings must be evaluated against the demanding standard that plaintiffs bear the burden of proving race \u2014 not politics \u2014 predominated, and Cooper v. Harris makes clear that alternative maps are critical evidentiary tools for disentangling racial from partisan motives. Here, the plaintiffs' alternative maps each undermined the legislature's stated partisan objective by converting District 1 into a majority-Democratic district, which fatally weakens their claim that the enacted plan's racial composition cannot be explained by partisan goals alone. While the district court's factual findings deserve deference under clear error review, the legal framework it applied appears to have insufficiently accounted for the race-party correlation problem that Cromartie II specifically warned against, warranting reversal and remand for proper application of the predominance standard.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Easley v. Cromartie, extraordinary caution is required when race and party affiliation are highly correlated and the legislature has articulated a legitimate partisan justification \u2014 precisely the circumstances here, where South Carolina sought to shore up a Republican district that had unexpectedly flipped Democratic in 2018. The district court's methodology risks the very conflation of race and party that Miller v. Johnson and Cooper v. Harris warn against; when Black voters in South Carolina vote overwhelmingly Democratic, moving Democratic precincts to achieve partisan ends will inevitably alter racial composition, and that demographic byproduct cannot alone establish racial predominance. Plaintiffs bore the burden of proving that race, not politics, was the predominant factor, and the alternative maps they offered all converted District 1 into a majority-Democratic district \u2014 meaning their own evidence demonstrated that the enacted plan's racial composition was explicable by partisan objectives, fatally undermining the predominance finding. As a textualist committed to the separation of powers and skeptical of judicial second-guessing of legislative line-drawing absent clear proof of constitutional violation, I would reverse the district court for failing to apply the demanding evidentiary standard Cromartie II requires before displacing a legislature's stated partisan rationale.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Easley v. Cromartie and Cooper v. Harris, plaintiffs bear a demanding burden to prove that race, rather than partisan considerations, was the predominant factor in drawing district lines \u2014 a burden that is especially difficult to meet when race and party affiliation are highly correlated, as they are in South Carolina's CD1. The district court's findings must be reviewed for clear error, but the legal framework requires extraordinary caution before attributing redistricting decisions to racial rather than partisan motives, consistent with Miller v. Johnson's presumption of legislative good faith. Here, where the General Assembly articulated a legitimate partisan objective of securing a safe Republican district, and where Black voters in South Carolina vote overwhelmingly Democratic, the circumstantial evidence of racial predominance is insufficient without more direct proof \u2014 such as an alternative map demonstrating that the partisan goal could have been achieved without the racial sorting that occurred \u2014 that the legislature's decisions cannot be explained by politics alone. Institutional concerns about judicial second-guessing of legislative redistricting decisions, combined with the demanding evidentiary standard established in Cromartie II, counsel reversal of the district court's finding of racial predominance.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Easley v. Cromartie and Cooper v. Harris, when race and partisan affiliation are highly correlated, plaintiffs bear a demanding burden to demonstrate that race\u2014not politics\u2014was the predominant factor overriding traditional redistricting principles. The district court's findings must be reviewed for clear error, but that standard does not insulate legal errors in the analytical framework, and conflating racial and partisan motivations constitutes precisely such an error. Where the legislature articulated a legitimate partisan objective of securing a safe Republican district, and where Black voters in South Carolina vote overwhelmingly Democratic such that race and party are nearly coextensive, the district court was required to engage in rigorous disentanglement of these two variables\u2014ideally through comparative map analysis as contemplated by Easley\u2014before concluding race predominated. The record as presented suggests the district court may have impermissibly inferred racial predominance from demographic data alone without adequately crediting the partisan explanation, which under Miller v. Johnson and Hunt v. Cromartie represents a legal error warranting reversal and remand for proper application of the predominance standard.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As Justice Jackson, I would affirm the district court's findings that race predominated in redrawing Congressional District 1. Under Cooper v. Harris and Miller v. Johnson, when a legislature uses race as the predominant factor overriding traditional redistricting principles, it violates the Equal Protection Clause, and the district court's factual findings are entitled to clear error deference under Easley v. Cromartie. The district court carefully applied the Arlington Heights framework and weighed circumstantial evidence \u2014 including the racial composition of precincts moved in and out of the district and the demographic precision of those moves \u2014 which supports the conclusion that the legislature's actions cannot be explained by partisan objectives alone, particularly given that plaintiffs' alternative maps demonstrated that partisan goals could have been achieved without the same racial sorting. While Easley counsels caution when race and party are correlated, that caution does not require plaintiffs to produce a partisan-neutral alternative map as a categorical prerequisite, as Cooper explicitly held that alternative maps are evidentiary tools rather than mandatory proof elements, and the totality of evidence here sufficiently distinguishes racial from political motivation.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.789,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "22-807",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the district court committed clear error or applied improper legal standards in finding that South Carolina's Congressional District 1 constitutes an unconstitutional racial gerrymander violating the Equal Protection Clause and intentional vote dilution under the Voting Rights Act.",
+      "legal_provision": "Equal Protection Clause of the Fourteenth Amendment; Section 2 of the Voting Rights Act of 1965, 52 U.S.C. 10301; Section 5 of the Voting Rights Act (historically relevant); 52 U.S.C. 10308(d)",
+      "petitioner_position": "South Carolina legislative appellants argue that the district court committed both legal and clear factual error in concluding that Congressional District 1 was drawn as an unconstitutional racial gerrymander, contending that the redistricting decisions were driven by legitimate partisan and political considerations rather than racial predominance, and that the court misapplied the controlling legal standards for distinguishing racial from political gerrymandering. They further argue the court erred in finding intentional racial discrimination in the enactment of District 1.",
+      "respondent_position": "The South Carolina State Conference of the NAACP and co-appellees argue that the district court correctly found that race was the predominant factor in drawing Congressional District 1, resulting in an unconstitutional racial gerrymander under the Equal Protection Clause, and that the redistricting plan was intentionally designed to dilute minority voting power in violation of both the Constitution and the Voting Rights Act.",
+      "key_precedents": [
+        "Shelby County v. Holder, 570 U.S. 529 (2013) - eliminated Section 5 non-retrogression requirements",
+        "Cooper v. Harris, 137 S. Ct. 1455 (2017) - established that partisanship cannot serve as a proxy for race and racial predominance must be narrowly tailored",
+        "Colleton County Council v. [unnamed] - prior court-designed redistricting plan following 2000 census",
+        "Shaw v. Reno (implied through racial gerrymandering Equal Protection framework)",
+        "Miller v. Johnson (implied through racial predominance standard in redistricting)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Jackson's argument remains the most compelling challenge \u2014 the district court did not merely find correlation but identified a specific 17% racial floor with 'surgical precision' in removing Black voters, findings ordinarily entitled to clear error deference. But I cannot accept that framing as dispositive because, as Justice Barrett correctly observes, in a state with near-perfect racial-partisan correlation, a 17% African-American population figure and a 17% Democratic performance floor are mathematically nearly identical numbers, and the district court's obligation under Cooper v. Harris was to demonstrate through rigorous disaggregation that race \u2014 not partisan behavior that correlates with it \u2014 was the predominant factor. Justice Kagan's point that any Shelby County contamination warrants only targeted remand rather than wholesale reversal is actually persuasive to me and reinforces my preference for a narrow vacate-and-remand rather than outright reversal \u2014 the appropriate instruction being that the district court must apply the Cooper disaggregation framework with full rigor, explicitly crediting documented partisan objectives, and without importing Section 5 non-retrogression logic that Shelby County rendered inoperative. This narrow formulation preserves institutional legitimacy by neither immunizing racial gerrymanders nor converting every redistricting decision in a racially polarized state into a constitutional violation, and I believe it could attract Justice Kagan if the remand instructions are carefully cabined to the legal framework error rather than the underlying factual findings.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most serious challenge by arguing that when race and party are functionally interchangeable in South Carolina, using one as a proxy for the other is constitutionally indistinguishable from racial predominance itself \u2014 but this argument proves too much and would effectively eliminate partisan gerrymandering as a legitimate legislative tool in any racially polarized state, contrary to Rucho v. Common Cause's holding that partisan gerrymandering is nonjusticiable. The critical methodological error Justice Gorsuch correctly identifies is that the district court treated racial correlation with partisan data as sufficient proof of racial predominance rather than demanding the direct evidence Miller v. Johnson requires \u2014 the 17% African-American population figure Justice Jackson cites could equally reflect a partisan floor derived from election performance data, and the district court's failure to rigorously disaggregate these motivations constitutes legal error reviewable de novo, not merely a factual finding entitled to clear error deference. From an originalist standpoint, the Equal Protection Clause as understood at ratification prohibited invidious racial classifications by government actors, but it did not prohibit legislatures from making political calculations that happen to correlate with race, and the demanding Miller standard exists precisely to prevent courts from converting every politically motivated redistricting decision in a racially polarized state into a constitutional violation. The district court's apparent importation of Section 5 non-retrogression logic \u2014 as Justice Gorsuch and I both recognize \u2014 is legally untenable post-Shelby County and independently warrants vacatur and remand for proper application of the Cooper v. Harris racial predominance framework.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that when race and party are so highly correlated, using one as a proxy for the other is constitutionally indistinguishable from racial predominance itself. But this argument proves too much: if accepted, it would effectively make partisan gerrymandering in racially polarized states automatically unconstitutional, directly contradicting Rucho v. Common Cause's holding that partisan gerrymandering is nonjusticiable. As Justice Kavanaugh correctly notes, the district court's analysis appears to have conflated correlation with causation, treating the racial composition of partisan decisions as proof of racial predominance rather than demanding the direct evidence Miller v. Johnson requires. The 17% African-American population figure Justice Jackson emphasizes is not dispositive \u2014 the critical question is whether that figure was a racial target or simply the demographic byproduct of drawing lines for partisan advantage in a state where Black voters overwhelmingly vote Democratic, and the district court failed to rigorously disentangle these explanations as Cooper v. Harris demands.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Roberts and the petitioner bloc raise the concern that the district court conflated partisan motivation with racial predominance in a highly correlated state \u2014 the precise error Cooper v. Harris warned against in its discussion of Easley v. Cromartie. But this argument proves too much: Cooper itself held that legislators cannot launder racial sorting through partisan labels precisely because, when race and party are functionally interchangeable proxies, using election data as a stand-in for racial data does not cleanse the constitutional violation. The district court's finding of a specific 17% African-American population target \u2014 a racial floor that could not be explained by purely partisan objectives \u2014 is exactly the kind of direct evidence Cooper identified as distinguishing impermissible racial predominance from permissible partisan line-drawing, and that factual finding is entitled to clear error deference. Justice Kavanaugh's invocation of Rucho v. Common Cause is a red herring: the respondents are not bringing a partisan gerrymandering claim, but an Equal Protection racial predominance claim and a VRA Section 2 intentional discrimination claim, both of which remain fully justiciable, and Shelby County's elimination of Section 5 non-retrogression obligations does not immunize states from the Fourteenth Amendment's prohibition on using race as the predominant factor in drawing district lines.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's disaggregation argument remains the most sophisticated challenge, but I continue to find it ultimately unpersuasive for a reason none of my petitioner colleagues have adequately addressed: the district court did not merely observe demographic correlation and infer racial predominance \u2014 it found a specific numerical racial target (17% African-American population) that the legislature used as a design floor, combined with credibility determinations about legislative witnesses and findings of 'surgical precision' in removing Black voters from District 1. Justice Barrett argues that a 17% African-American population figure and a 17% Democratic performance floor are 'functionally the same number' in a highly correlated state, but this conflates the question of what the legislature was actually tracking \u2014 and the district court, having heard testimony and assessed credibility, found that the legislature chose to use racial population data rather than election performance data as its operative metric, which is precisely the kind of direct evidence Cooper v. Harris identified as distinguishing racial predominance from partisan line-drawing. On the Shelby County contamination point that Justices Gorsuch and Thomas press, I acknowledge this is a genuine concern, but the appropriate remedy for any non-retrogression contamination is a targeted remand on that specific legal error \u2014 not wholesale reversal that would effectively immunize what the district court found to be deliberate racial sorting and would demand a practically impossible level of proof whenever a legislature deliberately obscures racial motivations behind partisan justifications, as Justice Jackson correctly warns. The 6-3 tally does not alter my assessment; Cooper v. Harris's core holding that legislators cannot launder racial sorting through partisan labels is directly implicated here, and a dissent protecting the integrity of that doctrine serves the Court's long-term institutional credibility on racial gerrymandering claims.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Jackson's argument about 'surgical precision' in removing Black voters from District 1 and the 17% racial floor is the strongest challenge to my position, and I take it seriously \u2014 but it does not overcome the fundamental legal error I identify in the district court's framework. Justice Kagan argues that the 17% target is 'direct evidence of a racial floor operating as a design constraint,' but this characterization assumes the conclusion: in a state where Black voters vote Democratic at rates exceeding 90%, a partisan floor and a racial floor are mathematically nearly identical, and Cooper v. Harris demands the court demonstrate that race \u2014 not the partisan behavior that correlates with it \u2014 was the predominant factor. The district court's apparent reliance on Section 5 non-retrogression logic, which Shelby County rendered legally inoperative, constitutes a framework error that is not insulated by clear-error deference regardless of how detailed the factual findings are, because legal errors in the governing standard infect the entire analysis. Justice Sotomayor's argument that this reasoning 'proves too much' by eliminating partisan gerrymandering as a tool in polarized states is precisely my point \u2014 Cooper itself preserved that tool, and the demanding disaggregation requirement exists to prevent courts from converting every redistricting decision in a racially polarized state into a constitutional violation, which is why remand under the correct framework, not affirmance, is the appropriate remedy.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan's argument that the 17% African-American population target constitutes 'direct evidence of a racial floor operating as a design constraint' is the strongest challenge to my position, and I take it seriously \u2014 but it does not ultimately overcome the Cooper v. Harris disaggregation requirement. The critical question is not whether the legislature was aware of racial demographics, but whether race *subordinated* traditional redistricting principles independent of partisan objectives, and the district court's analysis appears to have treated the demographic correlation as largely dispositive rather than as one factor requiring rigorous weighing against documented partisan motivations. Justice Jackson's 'surgical precision' argument is compelling circumstantially, but as Justice Barrett correctly notes, the clear error standard does not insulate legal framework errors \u2014 and if the district court imported Section 5 non-retrogression logic or failed to demand the demanding disaggregation Easley v. Cromartie requires, that is a legal error warranting vacatur and remand. Consistent with Chief Justice Roberts' preference for institutional restraint, I would favor a narrow remand that instructs the district court to rigorously apply the correct Cooper framework rather than a broad reversal that could appear to immunize racial sorting wholesale.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument about the 17% African-American population floor operating as direct evidence of racial sorting remains the most serious challenge to my position, and I want to engage it carefully. Cooper v. Harris does hold that legislators cannot launder racial sorting through partisan labels \u2014 but Cooper also requires courts to rigorously disaggregate the two motivations, and the critical legal question is whether the district court performed that disaggregation correctly or instead treated the demographic target as self-evidently racial rather than as potentially a partisan floor derived from voting behavior data. Justice Kagan argues that the legislature 'chose to use racial targets' rather than race-neutral election data, but that characterization assumes the conclusion \u2014 in a state with near-perfect racial-partisan correlation, a 17% African-American population figure and a 17% Democratic performance floor are functionally the same number, and the district court's obligation under Miller and Cooper was to determine which variable was actually driving the decision, not to infer racial predominance from the demographic result alone. Justice Sotomayor's point that Cooper forecloses using partisan labels to launder racial sorting is correct as a legal matter, but the converse is equally true: courts cannot use racial labels to describe what is functionally partisan sorting, and the record as I read it suggests the district court may have committed precisely that error by treating correlation as causation without adequately crediting the legislature's documented partisan objectives. I therefore maintain my position that vacatur and remand for proper application of the disaggregation framework is the appropriate remedy, consistent with the demanding standard Miller and Cooper together impose.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's argument that the district court may have treated demographic correlation as self-evidently racial rather than performing rigorous disaggregation remains the most sophisticated challenge to my position, but it ultimately fails to account for what the district court actually found: not merely that the district had 17% African-American population, but that this figure operated as a design floor \u2014 a constraint that shaped the map independent of and prior to partisan calculations \u2014 combined with credibility determinations about legislative witnesses and the 'surgical precision' with which Black voters were excised from District 1. Justice Barrett's framing that 'a 17% African-American population figure and a 17% Democratic performance floor are functionally the same number' proves too much, because Cooper v. Harris explicitly held that this functional interchangeability is precisely why legislators cannot launder racial sorting through partisan labels \u2014 accepting Barrett's logic would effectively make Cooper a dead letter in any racially polarized state. The petitioner bloc's repeated invocation of Shelby County to undermine the district court's framework is unavailing because, as Justice Kagan correctly notes, the core findings rest on Equal Protection racial predominance doctrine, and any Section 5 contamination would warrant targeted remand on that specific issue rather than wholesale reversal that rewards deliberate racial sorting. I maintain my position that the district court's detailed factual findings, entitled to clear error deference, demonstrate racial predominance that cannot be recharacterized as mere partisan byproduct, and I write separately to emphasize that demanding practically impossible levels of proof when legislatures deliberately obscure racial motivations behind partisan justifications would hollow out the Equal Protection Clause's protection against racial gerrymandering.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While the district court's factual findings on racial predominance are entitled to significant deference under the clear error standard established in Cooper v. Harris, 581 U.S. 285 (2017), the record suggests the district court may have conflated partisan motivation with racial predominance in a state where race and party affiliation are highly correlated \u2014 precisely the analytical error Cooper warned against. Under Miller v. Johnson, 515 U.S. 900 (1995), the plaintiff bears the burden of proving race was the predominant factor, and where legitimate partisan explanations exist, courts must carefully disentangle the two. Additionally, following Shelby County v. Holder, 570 U.S. 529 (2013), the district court cannot resurrect a de facto non-retrogression standard under the guise of Equal Protection analysis, as that would effectively reinstate Section 5 obligations Congress has not re-authorized. Consistent with my preference for narrow rulings that preserve institutional legitimacy, I would vacate and remand for the district court to apply the correct legal standard with proper attention to the partisan-versus-racial distinction rather than affirm findings potentially infected by legal error.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The district court's finding of racial predominance must be scrutinized carefully under the clear error standard, and the record suggests the court may have improperly conflated racial and partisan motivations in a State where race and party affiliation are highly correlated\u2014a methodological error that Cooper v. Harris itself warned against. Under Miller v. Johnson, 515 U.S. 900 (1995), the plaintiff bears a demanding burden to demonstrate that race, rather than legitimate political considerations, was the predominant factor overriding traditional race-neutral redistricting principles, and that burden is not satisfied merely by showing racial awareness or even racial motivation as one factor among many. From an originalist perspective, the Equal Protection Clause as understood at ratification was designed to prohibit invidious racial classifications, but the redistricting context demands extraordinary judicial caution given the presumption of good faith owed to legislative enactments, and the district court's analysis appears to have insufficiently credited the State's legitimate partisan justifications. Furthermore, following Shelby County v. Holder, 570 U.S. 529 (2013), South Carolina was no longer subject to Section 5 preclearance non-retrogression requirements, meaning any VRA-based compliance rationale for race-consciousness was substantially diminished, yet the court's analysis of intentional vote dilution under Count Two relied on the same flawed predominance finding rather than independently establishing discriminatory purpose under the demanding Arlington Heights framework.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The district court applied an insufficiently demanding standard when evaluating whether race or partisan motivation predominated in drawing Congressional District 1. Under Cooper v. Harris and Miller v. Johnson, plaintiffs bear a demanding burden to show that race\u2014not partisan considerations\u2014was the predominant factor, and when a legislature offers credible partisan justifications for race-correlated line-drawing, courts must conduct an especially careful inquiry before concluding racial predominance. South Carolina's legislators had obvious partisan motivations to shore up CD1 as a safe Republican seat following the 2020 census, and the district court committed clear error by failing to adequately credit these legitimate political explanations and instead treating the racial correlation of partisan decisions as proof of racial predominance. Furthermore, post-Shelby County, the elimination of Section 5 preclearance requirements means legislatures are no longer compelled to maximize minority percentages, undermining the inference that race drove the line-drawing rather than the well-documented partisan objectives the legislature articulated.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The district court's factual findings regarding racial predominance in drawing Congressional District 1 are entitled to significant deference under the clear error standard, and the evidence presented \u2014 including the use of a specific African American population target of 17% that could not be achieved through traditional districting principles alone \u2014 strongly supports the conclusion that race was the predominant factor. Under Cooper v. Harris, 581 U.S. 285 (2017), the burden shifts to the State once plaintiffs establish a prima facie case of racial predominance, and the State's reliance on partisan justifications is undermined precisely because race and partisanship are so highly correlated in South Carolina that using one as a proxy for the other is constitutionally indistinguishable from racial predominance itself. The district court correctly applied the principle from Cooper that legislators cannot launder racial sorting through partisan labels when the two variables are functionally interchangeable in a given jurisdiction, and the real-world impact on Black voters in District 1 \u2014 their systematic removal to dilute their electoral influence \u2014 constitutes exactly the kind of harm to vulnerable populations that the Equal Protection Clause and Section 2 of the Voting Rights Act were designed to prevent. Reversing the district court would effectively immunize racial gerrymanders in highly racially polarized states by allowing legislatures to invoke partisanship as an untouchable shield.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "While I take seriously the concern articulated in Easley v. Cromartie that extraordinary caution is warranted when race and party affiliation are highly correlated, the district court's factual findings on racial predominance are entitled to clear error deference under Cooper v. Harris, and the petitioners bear a heavy burden to demonstrate that the trial court's credibility determinations and circumstantial evidence assessments were plainly wrong. The district court's finding that the General Assembly used race as a proxy for partisan sorting \u2014 moving Black voters out of District 1 in ways that tracked racial rather than purely partisan lines \u2014 is precisely the kind of fact-intensive determination Cooper v. Harris instructs appellate courts to respect absent clear error. The petitioners' argument that plaintiffs' alternative maps all produced majority-Democratic districts is not dispositive; Cooper explicitly held that the absence of a 'perfect' alternative map does not automatically defeat a racial predominance claim when other direct and circumstantial evidence, including legislative history and demographic sorting patterns, supports the inference that race, not merely party, was the predominant criterion. Shelby County's elimination of Section 5 non-retrogression obligations does not immunize the state from Equal Protection scrutiny, and the district court's intentional discrimination finding under the VRA Section 2 framework deserves deference given the totality of the evidentiary record.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "As a textualist and originalist, I am deeply concerned that the district court conflated racial and partisan motivations in violation of the demanding standard established in Cooper v. Harris and Miller v. Johnson, which require proof that race was the *predominant* factor subordinating traditional redistricting principles \u2014 a high bar that demands careful separation of racial from political explanations. The district court's apparent reliance on a non-retrogression framework derived from Section 5 of the Voting Rights Act is legally untenable post-Shelby County v. Holder, which rendered the Section 4(b) coverage formula inoperative and eliminated any freestanding non-retrogression obligation on states absent new congressional action \u2014 courts cannot unilaterally resurrect that standard under the guise of Fourteenth Amendment analysis. Furthermore, where a legislature offers a plausible partisan explanation for district lines, the Equal Protection framework requires the factfinder to rigorously disentangle race from party, and the record suggests the district court may have improperly treated racial correlation with partisan data as sufficient proof of racial predominance rather than demanding direct evidence that race, not politics, drove the mapmakers' decisions. While I apply the deferential clear-error standard to factual findings, legal errors in the governing framework \u2014 particularly the improper importation of Section 5 non-retrogression logic \u2014 constitute reversible error warranting remand for proper application of the Cooper v. Harris racial predominance standard.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While the clear error standard under Cooper v. Harris, 581 U.S. 285 (2017), demands significant deference to district court factual findings on racial predominance, the record here raises serious concerns about whether the district court properly distinguished legitimate partisan motivation from racial predominance, particularly given that Rucho v. Common Cause, 588 U.S. 684 (2019) confirmed that partisan gerrymandering claims are nonjusticiable and legislatures retain broad authority to draw maps for political advantage. The district court's analysis appears to have conflated the correlation between race and party affiliation in South Carolina without adequately crediting the state's partisan justifications under the demanding standard Cooper itself requires before overriding legislative judgments. Furthermore, post-Shelby County, the district court cannot effectively resurrect a non-retrogression framework under the guise of Equal Protection or Section 2 analysis, as doing so improperly substitutes judicial redistricting preferences for legislative ones. Institutional respect for state legislative prerogatives in redistricting, combined with the genuine difficulty of disentangling race from party in a highly polarized electorate, counsels reversal and remand for proper application of the racial predominance standard.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Applying the demanding standard established in Cooper v. Harris and Miller v. Johnson, plaintiffs bear a heavy burden to demonstrate that race was the 'predominant factor' subordinating all other legitimate redistricting criteria, including partisan considerations. The textual and historical record here suggests the district court may have insufficiently credited the legislative appellants' partisan motivation evidence, particularly given that in South Carolina, race and party affiliation are highly correlated\u2014a correlation that Cooper v. Harris itself recognized creates significant analytical difficulty requiring careful disaggregation of racial from political motives. Under the clear error standard of review, appellate courts owe significant deference to district court factual findings, but that deference does not insulate legal errors in the application of the racial predominance framework, and the record suggests the district court may have conflated correlation between race and partisanship with proof that race, rather than partisan advantage, was the legislature's predominant motivation. Consistent with my textualist and originalist approach to the Equal Protection Clause, the Fourteenth Amendment's prohibition on racial classifications requires proof that the legislature actually sorted voters by race rather than by political affiliation, and the evidence as presented appears insufficient to meet that demanding threshold under Miller and its progeny.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Cooper v. Harris, 581 U.S. 285 (2017), when a plaintiff demonstrates that race was the predominant factor in drawing district lines, the burden shifts to the state to prove the plan survives strict scrutiny \u2014 and critically, Cooper reaffirmed that legislators cannot use race as a proxy for political affiliation even when race and party are highly correlated, because election data itself is available for partisan purposes. The district court's factual findings regarding racial predominance in District 1 are entitled to significant deference under the clear error standard, and the petitioners' argument that the legislature used election data rather than racial targets is undermined by the district court's detailed factual record showing the 17% African-American population target operated as a racial floor driving line-drawing decisions. My background as a public defender and commitment to equal protection reinforces that procedural fairness demands we take seriously district court findings of intentional racial discrimination, particularly where minority voting power is systematically diluted in ways that track the removal of Black voters from a district with surgical precision. The practical consequences of reversing here \u2014 effectively immunizing racial gerrymanders by allowing legislators to invoke partisan motivation as a shield whenever race and party correlate \u2014 would devastate Section 2 Voting Rights Act enforcement and the Equal Protection Clause's promise of equal political participation.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.752,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  }
+]

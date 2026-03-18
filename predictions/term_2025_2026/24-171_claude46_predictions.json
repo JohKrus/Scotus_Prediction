@@ -1,0 +1,579 @@
+[
+  {
+    "docket": "24-171",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether an internet service provider (ISP) can be held secondarily liable for copyright infringement committed by its subscribers under the Digital Millennium Copyright Act's safe harbor provisions, specifically what standard of knowledge and financial benefit must be established to impose contributory or vicarious liability on ISPs.",
+      "legal_provision": "Digital Millennium Copyright Act (DMCA), 17 U.S.C. \u00a7 512(a) - Safe Harbor for Transitory Digital Network Communications; 17 U.S.C. \u00a7 106 - Exclusive Rights in Copyrighted Works; 17 U.S.C. \u00a7 501 - Infringement of Copyright (secondary liability doctrines of contributory and vicarious infringement)",
+      "petitioner_position": "Cox Communications argues that ISPs acting as mere conduits for internet traffic should be protected by the DMCA's safe harbor provisions and should not be held secondarily liable for copyright infringement committed by subscribers, contending that the Fourth Circuit applied an overly broad and incorrect legal standard for contributory and vicarious liability that threatens the foundational architecture of internet service provision, and that imposing such liability without clear knowledge of specific infringing acts and meaningful ability to control specific infringement would effectively force ISPs to become copyright enforcement agents, undermining the balance Congress struck in the DMCA.",
+      "respondent_position": "Sony Music Entertainment and other major record labels argue that Cox Communications willfully ignored repeated, detailed notices of subscriber copyright infringement, failed to implement a meaningful repeat infringer termination policy as required by the DMCA, and therefore forfeited any safe harbor protection, contending that Cox financially benefited from attracting and retaining infringing subscribers while possessing the right and ability to supervise and control their infringing conduct, thus satisfying the legal standards for both contributory and vicarious copyright liability and justifying the substantial damages award.",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc., 464 U.S. 417 (1984) - Betamax case establishing staple article of commerce doctrine for contributory liability",
+        "MGM Studios, Inc. v. Grokster, Ltd., 545 U.S. 913 (2005) - Inducement theory of contributory copyright infringement",
+        "Perfect 10, Inc. v. Amazon.com, Inc., 508 F.3d 1146 (9th Cir. 2007) - ISP secondary liability standards",
+        "BMG Rights Management v. Cox Communications, 881 F.3d 293 (4th Cir. 2018) - Prior Fourth Circuit ruling in related Cox litigation",
+        "Capitol Records, LLC v. Vimeo, LLC, 826 F.3d 78 (2d Cir. 2016) - DMCA safe harbor and red flag knowledge standard",
+        "Fonovisa, Inc. v. Cherry Auction, Inc., 76 F.3d 259 (9th Cir. 1996) - Vicarious liability financial benefit and supervision standards",
+        "A&M Records, Inc. v. Napster, Inc., 239 F.3d 1004 (9th Cir. 2001) - Secondary liability for peer-to-peer file sharing platforms",
+        "UMG Recordings, Inc. v. Grande Communications Networks, LLC (5th Cir.) - Related ISP secondary liability case with circuit implications",
+        "Religious Technology Center v. Netcom On-Line Communication Services, Inc., 907 F. Supp. 1361 (N.D. Cal. 1995) - Early ISP liability framework predating DMCA"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has achieved remarkable unanimity, and I am gratified that Justice Kagan's textual analysis of \u00a7 512(l) \u2014 which I had underweighted in my initial assessment \u2014 has proven to be the load-bearing structural argument that anchors our consensus. The Fourth Circuit's fundamental error was treating safe harbor ineligibility as a liability-generating mechanism rather than simply a threshold determination that returns parties to traditional secondary liability doctrine, and \u00a7 512(l)'s plain text forecloses that approach. Justice Barrett's point about the categorical distinction between \u00a7 512(a) conduit providers and the active supervision present in Fonovisa remains critical: Cox's role as a passive transmission intermediary cannot satisfy vicarious liability's 'right and ability to control' element without stretching that doctrine beyond its common law foundations in ways Congress did not authorize. As Chief Justice, I would assign a narrow majority opinion that (1) holds \u00a7 512(l) bars adverse liability inferences from safe harbor ineligibility, (2) clarifies that \u00a7 512(a) conduit providers are not subject to \u00a7 512(c) takedown obligations, (3) reaffirms that knowledge and control elements must be assessed under Sony and Grokster independently of safe harbor analysis, and (4) remands for proper application of those standards \u2014 leaving willful blindness doctrine's precise contours for a case with a cleaner record, consistent with my minimalist commitment to deciding no more than necessary.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective reinforcement of \u00a7 512(l)'s plain text prohibition \u2014 which Justice Kagan articulated most precisely and which I had already identified as the statutory anchor \u2014 to be dispositive. The Fourth Circuit's framework commits a fundamental textual error: it treats safe harbor ineligibility as generating liability rather than merely removing immunity, directly contravening Congress's explicit command in \u00a7 512(l). Justice Barrett's structural observation that \u00a7 512(a) conduit providers are not even subject to \u00a7 512(c)'s takedown notice obligations is an important point I should have foregrounded more prominently in my own analysis, because it exposes the additional layer of textual incoherence in using Cox's notice-handling practices as a proxy for the knowledge element of contributory liability. The strongest argument for respondent \u2014 that Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts constitutes willful blindness sufficient for contributory liability \u2014 retains genuine force, but as I noted in my initial analysis, willful blindness doctrine cannot be stretched to impose liability where the underlying knowledge and control standards of Grokster are not independently satisfied, and \u00a7 512(l) forecloses using safe harbor non-compliance as a shortcut to that conclusion; the proper remedy is remand for application of correctly calibrated secondary liability standards.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective weight of Justice Kagan's \u00a7 512(l) textual argument and Justice Barrett's categorical distinction between passive conduit transmission and active supervision to be mutually reinforcing in a way that solidifies my position. The strongest argument for respondents \u2014 Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts as a deliberate policy \u2014 remains genuinely troubling, but as Justice Kagan correctly observes, \u00a7 512(a) conduit providers are not even subject to \u00a7 512(c)'s takedown notice obligations, meaning Cox's notice-handling failures cannot be straightforwardly imported into the knowledge element for secondary liability without committing the precise textual conflation \u00a7 512(l) was designed to prevent. I agree with Chief Justice Roberts's minimalist instinct that we should write narrowly: reverse the Fourth Circuit's liability framework, hold that \u00a7 512(l) bars drawing adverse liability inferences from safe harbor ineligibility, reaffirm that traditional Sony and Grokster standards govern secondary liability analysis for conduit ISPs, and remand for proper application of those standards \u2014 including the willful blindness question \u2014 without categorically resolving every ISP liability question. The billion-dollar damages award cannot stand on the Fourth Circuit's overbroad framework, and the institutionally appropriate remedy is remand rather than either outright reversal or affirmance.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective weight of Justice Kagan's \u00a7 512(l) textual argument and Justice Barrett's structural distinction between conduit and active-host providers fully persuasive. The strongest remaining argument for respondent \u2014 that Cox's documented pattern of capping notice processing at 200 per month and deliberately resetting strike counts constitutes willful blindness sufficient to establish contributory liability \u2014 has genuine force from my pragmatic perspective, because copyright holders, many of them individual artists and musicians from working-class backgrounds, deserve meaningful protection against ISPs that game their own compliance systems. However, as Justice Jackson correctly notes, \u00a7 512(a) conduit providers are not even subject to the \u00a7 512(c) takedown notice regime, meaning Cox's notice-handling failures cannot be straightforwardly imported into the knowledge element for secondary liability without conflating distinct statutory provisions Congress carefully separated. I would write separately to emphasize that on remand, courts must take seriously the willful blindness question under Grokster's inducement framework, because the real-world impact on creators \u2014 particularly independent artists without litigation resources \u2014 demands that 'properly calibrated standards' not become a euphemism for effectively immunizing ISPs who deliberately structure their policies to avoid actual enforcement.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the collective reinforcement of my \u00a7 512(l) textual argument \u2014 echoed by Justice Thomas, Justice Barrett, Justice Jackson, and others \u2014 has actually strengthened my confidence rather than merely confirmed it. The strongest argument remaining for respondent is that Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts constitutes genuine willful blindness that should survive even a properly calibrated Grokster analysis on remand, and I take that seriously \u2014 but as Justice Alito correctly notes, \u00a7 512(a)'s conduit safe harbor is not conditioned on responding to takedown notices at all, meaning Cox's notice-handling failures cannot be straightforwardly imported into the knowledge element for contributory liability without conflating structurally distinct provisions. I align with Chief Justice Roberts's minimalist instinct: we should write narrowly to clarify that \u00a7 512(l) bars the Fourth Circuit's approach, reaffirm the categorical distinction between passive conduit transmission and active supervision, and remand for proper application of traditional secondary liability standards \u2014 leaving the harder willful blindness question for the lower courts to address on a clean record under the correct legal framework. The institutional stakes here are significant enough that a narrow, texturally grounded opinion that commands broad agreement is preferable to a sweeping ruling that resolves every ISP liability question in one stroke.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective weight of Justice Thomas's \u00a7 512(l) textual argument and Justice Barrett's structural distinction between passive conduit transmission and active supervision fully consistent with my own originalist methodology. The strongest argument for Respondent \u2014 that Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts constitutes willful blindness sufficient for contributory liability \u2014 retains genuine force, but as Justice Kagan correctly observes, \u00a7 512(a) conduit providers are not even subject to \u00a7 512(c)'s takedown notice obligations, meaning Cox's notice-handling failures cannot be straightforwardly imported into the knowledge element for secondary liability without conflating distinct statutory provisions Congress carefully separated. I maintain my position that remand rather than outright reversal is the appropriate remedy, because the willful blindness question under Grokster's inducement theory \u2014 whether Cox's policy was a genuine sham designed to retain infringing subscribers \u2014 deserves proper application on a clean record unburdened by the Fourth Circuit's \u00a7 512(l)-violating inference. The separation of powers concern remains paramount: Congress calibrated the DMCA's safe harbor architecture with precision, and it is not our role to expand secondary liability doctrine to fill gaps Congress deliberately left open, particularly when \u00a7 512(l)'s plain text forecloses the analytical shortcut the court below employed.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the cumulative weight of Justice Kagan's \u00a7 512(l) textual argument and Justice Barrett's structural distinction between passive conduit transmission and active supervision to be mutually reinforcing in a way that solidifies my position. The strongest argument for respondent \u2014 that Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts constitutes willful blindness sufficient for contributory liability \u2014 retains genuine force, but as Justice Kagan correctly observes, \u00a7 512(a) conduit providers are not even subject to the takedown notice obligations of \u00a7 512(c), meaning we cannot straightforwardly translate Cox's notice-handling failures into the knowledge element for secondary liability without conflating distinct statutory provisions Congress carefully separated. Justice Thomas's originalist point about what 'right and ability to control' meant under common law secondary liability doctrine as understood in 1998 further reinforces that the Fourth Circuit's approach stretched vicarious liability beyond its doctrinal foundations. I would reverse and remand with instructions to apply properly calibrated Sony/Grokster standards, writing narrowly enough \u2014 consistent with Chief Justice Roberts's minimalist counsel \u2014 to clarify the \u00a7 512(l) prohibition and the conduit/host distinction without resolving every future ISP liability question.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective reinforcement of the \u00a7 512(l) textual argument \u2014 particularly as articulated by Justice Thomas and echoed by Justice Kagan \u2014 has strengthened my confidence in the petitioner's position beyond my initial 0.75. The strongest remaining argument for respondent is Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts, which Justice Gorsuch correctly identifies as raising a genuine willful blindness question under Grokster's inducement theory \u2014 but as I have maintained, this concern is properly addressed on remand under correctly calibrated standards, not by affirming a damages award premised on the Fourth Circuit's textual inversion of \u00a7 512(l). Chief Justice Roberts's minimalist framing resonates with my own instinct that we should write narrowly: clarify that \u00a7 512(l) bars adverse liability inference from safe harbor ineligibility, reaffirm the categorical distinction between \u00a7 512(a) conduit providers and \u00a7 512(c) active hosts, and remand for proper application of Sony and Grokster standards \u2014 leaving the harder willful blindness questions for a cleaner record. The unanimity of this conference, while not itself a reason to hold a position, reflects that the Fourth Circuit's framework was genuinely untenable under the DMCA's text and structure.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the convergence around \u00a7 512(l)'s plain text prohibition particularly clarifying \u2014 as Justice Kagan articulates with precision, Congress explicitly barred courts from treating safe harbor ineligibility as adverse evidence of liability, and the Fourth Circuit's framework does exactly that by converting Cox's imperfect repeat-infringer policy administration into near-automatic secondary liability. Justice Barrett's structural point that \u00a7 512(a) conduit providers are not even subject to \u00a7 512(c)'s takedown notice obligations is critical: Cox's notice-handling failures cannot be straightforwardly imported into the knowledge element for contributory liability without collapsing distinct statutory provisions Congress carefully separated. The strongest argument for respondent \u2014 that Cox's documented pattern of capping notice processing at 200 per month and resetting strike counts constitutes willful blindness sufficient for contributory liability \u2014 retains genuine force and I do not dismiss it lightly given my background representing clients harmed by institutional indifference to legal obligations, but as Justice Kavanaugh correctly notes, this concern is better addressed through a properly calibrated remand than by affirming a billion-dollar damages award premised on an overbroad liability framework that would impose crushing compliance burdens on smaller ISPs serving vulnerable communities. I join the consensus for reversal and remand with instructions to apply traditional secondary liability standards under Sony and Grokster, unburdened by the improper inference the Fourth Circuit drew from safe harbor ineligibility.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The DMCA's safe harbor provisions in 17 U.S.C. \u00a7 512(a) reflect a deliberate congressional balance that courts should not disturb through expansive secondary liability doctrines, and the Fourth Circuit's standard risks collapsing the careful distinction this Court drew in Grokster between passive facilitation and active inducement. Under Sony's staple article of commerce doctrine, mere knowledge that some subscribers misuse internet services cannot suffice for contributory liability without a more specific showing of knowledge tied to particular infringing acts and meaningful ability to control them \u2014 standards the lower court applied too loosely. However, I would remand rather than categorically immunize Cox, because the record suggests Cox may have willfully blinded itself to specific, repeated infringement notices in a manner that could forfeit safe harbor protection under \u00a7 512(i)'s repeat infringer policy requirement, which is a narrower and more institutionally appropriate ground for any remaining liability. A minimalist ruling clarifying the knowledge and control standards without broadly resolving all ISP liability questions would best preserve both copyright protection and the internet's foundational architecture.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 17 U.S.C. \u00a7 512(l) explicitly forbids courts from treating failure to qualify for safe harbor as evidence of liability, meaning the Fourth Circuit's approach of converting \u00a7 512(i) non-compliance into a near-automatic finding of secondary liability directly contradicts the statutory text Congress enacted. As a textualist, I must give effect to \u00a7 512(l)'s plain meaning: substantive copyright law and its traditional defenses \u2014 not heightened liability \u2014 govern ISPs outside the safe harbor. The secondary liability doctrines of contributory and vicarious infringement, as understood through Sony Corp. v. Universal City Studios and MGM v. Grokster, require specific knowledge of particular infringing acts and meaningful control over the infringement itself, not merely the general awareness that some subscribers may be infringing; Cox, as a conduit ISP under \u00a7 512(a), exercises no editorial control over transmitted content in the manner contemplated by vicarious liability doctrine. Furthermore, the financial benefit prong of vicarious liability requires that infringing activity serve as a direct draw to subscribers, and the record does not establish with the requisite specificity that Cox's subscriber base was attracted primarily by the ability to infringe, as distinguished from the general utility of broadband internet service.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must begin with the statutory text of 17 U.S.C. \u00a7 512(a), which Congress deliberately crafted to protect ISPs functioning as mere conduits for transitory digital network communications, reflecting a considered legislative judgment about the proper balance between copyright enforcement and internet infrastructure. Cox's conduct, while arguably negligent in administering its repeat infringer policy, does not rise to the level of active inducement required under Grokster's inducement theory, nor does the mere continuation of service to subscribers constitute the 'active and culpable participation' that Taamneh demands for secondary liability. The Fourth Circuit's expansive reading of vicarious liability's 'financial benefit' prong\u2014treating general subscriber revenue as sufficient without requiring a direct causal nexus between the infringing activity and the financial benefit\u2014stretches the doctrine beyond what Fonovisa and its progeny actually require and would effectively conscript every ISP into a copyright enforcement role that Congress explicitly declined to mandate. Imposing billion-dollar liability on this record would have severe practical consequences for internet infrastructure and would contravene the DMCA's carefully negotiated safe harbor framework, which represents Congress's deliberate policy choice rather than an oversight to be corrected by judicial expansion of common-law secondary liability doctrines.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While Cox's conduct in ignoring repeated infringement notices is deeply troubling and I have genuine sympathy for the creative artists whose livelihoods depend on copyright protection, the DMCA's safe harbor framework under 17 U.S.C. \u00a7 512(a) reflects Congress's deliberate policy choice to protect ISPs acting as mere conduits, and collapsing that protection through an overbroad secondary liability standard would have devastating real-world consequences for internet access \u2014 particularly for vulnerable, low-income communities who depend on affordable ISP services. The Grokster inducement framework and Sony's staple article of commerce doctrine together establish that secondary liability requires more than passive facilitation; Cox, unlike Grokster, did not affirmatively promote infringement, and the Fourth Circuit's standard for vicarious liability \u2014 requiring only a general financial benefit from subscriber retention \u2014 sweeps too broadly and would effectively conscript every ISP into a copyright enforcement role Congress never intended. However, Cox's willful blindness to specific, repeated notices and its failure to implement a genuine repeat infringer termination policy as required by \u00a7 512(i) does undermine its safe harbor claim, suggesting a remand to apply the correct legal standards rather than affirming the full damages award would be the most appropriate remedy that balances both copyright holders' rights and the structural integrity of internet infrastructure.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of \u00a7 512(l) explicitly prohibits courts from drawing adverse liability inferences from a failure to qualify for safe harbor protection, which means the Fourth Circuit's approach of treating Cox's imperfect repeat-infringer policy as evidence of liability inverts Congress's carefully calibrated statutory scheme. As a transitory digital network communications provider under \u00a7 512(a), Cox's safe harbor eligibility is not conditioned on responding to takedown notices at all \u2014 those obligations are creatures of \u00a7 512(c), and conflating the two provisions produces textual incoherence that Congress did not intend. While Sony Music's concerns about willful blindness are not without force, the contributory and vicarious liability standards must still be assessed under traditional secondary liability doctrine as informed by Grokster's inducement framework and Sony's staple article of commerce principle, neither of which is satisfied merely by an ISP's failure to terminate subscribers upon receipt of third-party infringement allegations of uncertain reliability. Imposing liability on this record would effectively conscript ISPs into copyright enforcement roles that Congress deliberately declined to mandate, threatening the workable internet architecture that the DMCA was designed to preserve.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 512(a) establishes a safe harbor specifically for ISPs acting as passive conduits for transitory digital network communications, and Congress's deliberate structural choice to create this provision reflects a considered judgment that mere transmission intermediaries occupy a categorically different position than active content hosts or inducers. The Fourth Circuit's conflation of the DMCA's safe harbor conditions\u2014specifically the repeat infringer termination policy under \u00a7 512(i)(1)(A)\u2014with the affirmative elements of contributory and vicarious liability transforms Congress's carefully calibrated limitation on liability into an independent source of liability, a textual inversion that the statute's plain structure cannot support. Under Grokster's inducement theory and Sony's staple article of commerce doctrine, secondary liability requires something beyond passive transmission with generalized knowledge of infringement; the separation of powers demands that courts not expand copyright liability beyond what Congress has enacted, and the rule of lenity in construing penal-adjacent statutory schemes counsels restraint. That said, Cox's documented pattern of ignoring specific, detailed infringement notices and its facially deficient repeat infringer policy present a close question on whether it genuinely qualified for safe harbor protection in the first instance, warranting remand for proper application of the conduit safe harbor standard rather than outright affirmance of the damages award.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As an institutionalist who values precedent, history, and workability, I find that the Fourth Circuit's standard for secondary liability sweeps too broadly and threatens the foundational architecture Congress deliberately constructed in the DMCA's safe harbor provisions. The DMCA's \u00a7 512(a) reflects a careful congressional balance, and imposing vicarious or contributory liability on ISPs functioning as mere conduits\u2014without requiring specific knowledge of particular infringing acts and a meaningful ability to control specific infringement\u2014would effectively conscript ISPs as copyright enforcement agents, a role Congress did not assign them. Grokster's inducement theory and Sony's staple article of commerce doctrine both require active, culpable participation beyond passive transmission, and this Court's reasoning in Twitter v. Taamneh reinforces that mere provision of services to users who happen to infringe does not satisfy the 'material contribution' standard. While Cox's repeat-infringer policy failures are troubling and may forfeit safe harbor protection on those specific grounds, the broader liability standard applied below is unworkable and inconsistent with the statutory text and controlling precedent.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A textualist reading of 17 U.S.C. \u00a7 512(l) is dispositive on the threshold question: Congress expressly provided that failure to qualify for safe harbor 'shall not bear adversely upon the consideration of a defense' against infringement liability, meaning the Fourth Circuit erred to the extent it treated safe harbor ineligibility as functionally equivalent to establishing secondary liability. The original public meaning of the DMCA's safe harbor framework, enacted during the internet's infancy, reflects a deliberate congressional choice to offer immunity as an incentive while preserving traditional secondary liability doctrines\u2014contributory and vicarious infringement\u2014with their established knowledge and control requirements drawn from Sony Corp. v. Universal City Studios and Fonovisa. Applying those traditional standards rigorously, Cox's role as a mere conduit under \u00a7 512(a) cuts against the 'right and ability to control' element of vicarious liability, as passive transmission of internet traffic is categorically distinct from the active supervision present in Fonovisa's swap meet context or Napster's centralized index architecture. However, the contributory liability question is closer, as Grokster's inducement theory and the record of Cox's deliberate non-enforcement of its repeat infringer policy may satisfy the knowledge element under traditional doctrine, warranting remand for proper application of these standards rather than affirmance of the damages award as structured.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While Cox's conduct in capping notice processing and restarting strike counts reflects troubling indifference to copyright holders' rights, the Fourth Circuit's framework risks transforming the DMCA's safe harbor architecture into a liability-generating mechanism that Congress never intended, effectively conscripting ISPs as copyright enforcement agents without clear statutory authorization. The procedural fairness concern here cuts both ways: the standard for forfeiting safe harbor protection must be sufficiently clear and administrable so that ISPs can comply without facing crushing, unpredictable liability based on hindsight judicial scrutiny of millions of monthly notices, as the research materials underscore. Under Sony Corp. v. Universal City Studios and Grokster, secondary liability requires meaningful knowledge of specific infringement and practical ability to control it \u2014 standards that must be applied rigorously rather than constructively expanded through the safe harbor's back door. I would remand for application of a more precisely calibrated standard distinguishing genuine willful blindness from the operational limitations inherent in large-scale internet service provision, ensuring that contributory and vicarious liability doctrine develops coherently rather than being distorted by the DMCA's threshold conditions.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.818,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "24-171",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether an internet service provider (ISP) can be held secondarily liable for copyright infringement committed by its subscribers under the Digital Millennium Copyright Act's safe harbor provisions, specifically what standard of knowledge and willful blindness applies to ISP liability as a 'contributory' or 'vicarious' infringer.",
+      "legal_provision": "Digital Millennium Copyright Act (DMCA), 17 U.S.C. \u00a7 512(a) - Safe Harbor for Transitory Digital Network Communications; 17 U.S.C. \u00a7 512(i) - conditions for eligibility including repeat infringer policy; broader secondary copyright liability doctrines under 17 U.S.C. \u00a7 501",
+      "petitioner_position": "Cox Communications argues that ISPs should not be held secondarily liable for copyright infringement by subscribers when the ISP lacks direct financial benefit from specific infringing activity and does not have the right and ability to supervise or control the specific infringing conduct; Cox contends the Fourth Circuit applied an overly broad standard that effectively strips ISPs of DMCA safe harbor protections, threatening the foundational architecture of internet service provision and imposing an impossible standard requiring ISPs to police all subscriber activity",
+      "respondent_position": "Sony Music Entertainment and co-respondents argue that Cox Communications willfully ignored repeated and specific notices of subscriber copyright infringement, failed to implement a meaningful repeat infringer termination policy as required by DMCA \u00a7 512(i), and therefore forfeited safe harbor protections; respondents contend Cox financially benefited from retaining infringing subscribers and had sufficient control over its network to qualify for vicarious liability, justifying the substantial damages award upheld by the Fourth Circuit",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc., 464 U.S. 417 (1984) - Betamax case establishing contributory infringement standards",
+        "MGM Studios, Inc. v. Grokster, Ltd., 545 U.S. 913 (2005) - inducement theory of secondary copyright liability",
+        "BMG Rights Management v. Cox Communications, 881 F.3d 293 (4th Cir. 2018) - prior Fourth Circuit ruling against Cox establishing repeat infringer policy requirements",
+        "Perfect 10, Inc. v. Amazon.com, Inc., 508 F.3d 1146 (9th Cir. 2007) - DMCA safe harbor and secondary liability standards",
+        "Viacom International Inc. v. YouTube, Inc., 676 F.3d 19 (2d Cir. 2012) - knowledge standards for DMCA safe harbor eligibility",
+        "Capitol Records, LLC v. Vimeo, LLC, 826 F.3d 78 (2d Cir. 2016) - red flag knowledge and willful blindness under DMCA",
+        "UMG Recordings, Inc. v. Grande Communications Networks, LLC (5th Cir.) - related ISP secondary liability case creating potential circuit split",
+        "A&M Records, Inc. v. Napster, Inc., 239 F.3d 1004 (9th Cir. 2001) - vicarious and contributory liability for peer-to-peer file sharing"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The conference has crystallized my thinking considerably. Justice Alito's respondent argument remains the most serious challenge \u2014 his point that Cox's internal communications explicitly acknowledging the tension between subscriber revenue and termination obligations places this closer to Grokster's purposeful facilitation than passive conduit scenarios is factually compelling and not easily dismissed. However, Justice Gorsuch's textual point about \u00a7 512(l) \u2014 that the statute's plain prohibition on using safe harbor failure as adverse evidence 'shall not bear adversely upon the consideration of a defense' \u2014 creates a structural statutory problem that Cox's bad conduct cannot cure; Congress wrote no exception for particularly egregious actors, and my minimalist instincts counsel against reading one in. The convergence of seven colleagues on the petitioner side, each arriving through somewhat different reasoning, actually reinforces my view that the appropriate narrow holding is a remand requiring the Fourth Circuit to conduct the secondary liability analysis under properly calibrated Grokster standards untainted by the \u00a7 512(i) ineligibility finding \u2014 this preserves the ability to hold Cox accountable on remand while establishing a workable standard that does not destabilize ISP liability architecture for the broader internet ecosystem.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's respondent argument is the strongest opposing view, correctly noting that Cox's internal policies \u2014 resetting strike counts upon reinstatement, capping daily notice processing, refusing termination until after thirteen notices \u2014 reflect calculated business decisions rather than good-faith implementation failures. However, this factual record, however troubling, does not overcome the textual command of \u00a7 512(l), which Justice Gorsuch correctly identifies as an affirmative congressional prohibition on using safe harbor ineligibility as adverse evidence of liability. Even accepting that Cox's conduct was egregious, the secondary liability analysis must proceed independently under Sony and Grokster's standards, and the Fourth Circuit's approach of bootstrapping \u00a7 512(i) non-compliance into near-automatic secondary liability directly contradicts Congress's expressed statutory design. Justice Alito's distinction between Cox's deliberate evasion and ordinary ISP negligence is factually compelling but legally insufficient to overcome \u00a7 512(l)'s plain text, which admits no exception for particularly bad actors \u2014 if Congress wanted such an exception, it could have written one.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Justice Thomas and Justice Gorsuch's \u00a7 512(l) argument remains the most formidable challenge to my position, and I have genuinely wrestled with it across both rounds of deliberation. However, I maintain that \u00a7 512(l) addresses the evidentiary consequence of safe harbor ineligibility on the underlying liability determination \u2014 it prohibits courts from treating safe harbor failure as a per se admission of liability \u2014 but it does not immunize conduct that independently satisfies secondary liability standards through willful blindness doctrine established in Grokster and common law. Cox's internal communications, the thirteen-notice threshold, daily caps, and systematic reinstatement policies constitute affirmative evidence of deliberate avoidance of specific, credible infringement notices that stands on its own without bootstrapping from \u00a7 512(i) ineligibility. I acknowledge Justice Kagan's concern that the Fourth Circuit's standard may sweep too broadly in future cases, and I would be receptive to a narrow affirmance that cabins the holding to Cox's documented bad faith rather than establishing a general willful blindness standard applicable to ISPs receiving mass automated notices \u2014 but the answer to overbroad articulation is to narrow the standard, not to reverse a damages award against a defendant whose own employees acknowledged they were systematically ignoring actionable infringement notices for revenue reasons.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Justice Thomas and Justice Gorsuch's \u00a7 512(l) argument is the most formidable challenge to my position, and I must engage with it directly: \u00a7 512(l) prohibits using safe harbor failure as 'adverse' evidence of liability, but I read this as preventing safe harbor ineligibility from being treated as a per se finding of liability \u2014 it does not bar courts from considering the same underlying conduct (systematic notice-capping, strike resets, the thirteen-notice threshold) as independently satisfying Grokster's inducement standard or willful blindness doctrine. The conduct and the safe harbor analysis are analytically separable: Cox's internal communications acknowledging the revenue-termination tension constitute direct evidence of purposeful facilitation that would satisfy Grokster on its own terms, not merely as a derivative consequence of \u00a7 512(i) non-compliance. Justice Kagan's concern about the Fourth Circuit's standard sweeping beyond Cox's egregious facts to threaten ISPs with defensible policies genuinely moves me, and I acknowledge the majority's remand position has institutional merit \u2014 but I cannot accept that \u00a7 512(l) immunizes conduct as deliberate as Cox's from secondary liability findings when the underlying evidence independently satisfies established common law standards. I maintain my respondent position while conceding that a properly cabined opinion should make explicit that the willful blindness finding rests on Cox's specific documented conduct rather than safe harbor ineligibility as such.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Alito's argument remains the most serious challenge to my position, and I continue to credit his observation that Cox's internal communications \u2014 employees explicitly acknowledging the tension between subscriber revenue and termination obligations \u2014 place this case closer to Grokster's purposeful facilitation than passive conduit scenarios. However, Justice Alito's argument ultimately proves too much: even if Cox's conduct independently satisfies willful blindness under Grokster without bootstrapping from \u00a7 512(i), the Fourth Circuit's opinion did not cleanly separate those analyses, and the damages award was premised on a standard that conflated safe harbor ineligibility with secondary liability in precisely the manner \u00a7 512(l) forbids. Justice Gorsuch's textual point about \u00a7 512(l)'s plain command \u2014 that safe harbor failure 'shall not bear adversely upon the consideration of a defense' \u2014 is not merely a formalist quibble but reflects Congress's deliberate structural choice to keep these inquiries analytically independent, a choice courts cannot override by pointing to a particularly bad actor. The appropriate remedy is reversal and remand with instructions to apply the Grokster/Sony secondary liability framework on its own terms, untainted by the \u00a7 512(i) ineligibility finding, which will allow the lower court to address Cox's genuinely troubling conduct through the correct legal lens rather than a doctrinal shortcut that will harm good-faith ISPs in future cases.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's most refined argument in Round 2 \u2014 that \u00a7 512(l) addresses only the consequence of safe harbor ineligibility on underlying liability determinations, not whether Cox's conduct independently satisfies secondary liability standards \u2014 is the strongest remaining challenge to my position, and I acknowledge it has genuine analytical force. However, this argument proves too much: if the Fourth Circuit's willful blindness analysis were truly independent of \u00a7 512(i) non-compliance, the court below would have needed to demonstrate that Cox had actual knowledge of specific infringing acts or took affirmative steps to induce infringement under Grokster's framework, and the record shows the court instead used Cox's systematic notice-handling failures as the primary evidence of culpable mental state \u2014 which is precisely the \u00a7 512(l) bootstrapping problem Justice Thomas and I have identified. Justice Kagan's point about the doctrinal collapse between willful blindness to specific credible infringement versus systematic non-response to mass automated notices of uncertain provenance remains unaddressed by the respondents, and that distinction is not merely prudential but textually grounded in what Congress actually codified. The appropriate remedy is remand so that secondary liability can be assessed under properly calibrated Sony/Grokster standards without the distorting inference drawn from safe harbor ineligibility \u2014 a narrow holding that addresses Cox's egregious conduct without blessing an expansive liability theory Congress did not clearly authorize.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's argument remains the most compelling challenge to my position, and I continue to take seriously his point that Cox's documented internal policies \u2014 the thirteen-notice threshold, daily caps, and systematic reinstatement \u2014 reflect calculated business decisions rather than mere negligence, placing this closer to Grokster's inducement framework than passive conduit cases. However, Justice Gorsuch's textualist reading of \u00a7 512(l) remains dispositive for me: that provision's plain prohibition on using safe harbor failure as adverse evidence of liability is not a technicality but a structural congressional choice that courts cannot circumvent by pointing to a defendant's bad conduct, however egregious. Justice Kagan's concern about the Fourth Circuit's standard sweeping beyond Cox's facts to threaten ISPs making reasonable judgments about mass automated notices of uncertain reliability reinforces my institutionalist worry that affirming here would destabilize the settled DMCA framework without clear congressional authorization. The appropriate path remains reversal and remand with a properly calibrated standard that can address Cox's bad faith through the independent Sony/Grokster analysis without bootstrapping \u00a7 512(i) ineligibility into near-automatic secondary liability \u2014 a narrower holding that preserves both the Court's institutional credibility and Congress's carefully balanced statutory design.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito and Justice Sotomayor present the most serious challenge to my position by arguing that \u00a7 512(l) addresses only the threshold liability determination and does not immunize conduct that independently satisfies secondary liability standards \u2014 this is a genuinely sophisticated reading that I cannot dismiss. However, the problem is that the Fourth Circuit's analysis did not cleanly separate the \u00a7 512(i) inquiry from the secondary liability analysis; the willful blindness standard it applied was contaminated by the safe harbor failure finding, and \u00a7 512(l)'s plain text prohibition on adverse use of safe harbor ineligibility must mean something more than a formal disclaimer that the court recites before proceeding to use that ineligibility as the functional predicate for liability. Justice Gorsuch correctly identifies that the traditional Sony/Grokster framework must do independent work, and the record below was never evaluated through that lens untainted by the \u00a7 512(i) deficiency finding \u2014 which is precisely why remand is required rather than affirmance. I also maintain Justice Kagan's concern that the willful blindness standard as articulated sweeps too broadly, conflating Cox's documented bad conduct with a doctrinal rule that would threaten ISPs making reasonable good-faith judgments about mass automated notices of uncertain reliability, and Congress's silence on codifying willful blindness in the DMCA's text counsels against judicial interpolation of that standard from common law tort doctrine.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito and Justice Sotomayor make the most compelling case for the respondents by emphasizing that Cox's conduct \u2014 the thirteen-notice threshold, daily processing caps, strike-count resets upon reinstatement, and internal communications acknowledging the tension between revenue and termination obligations \u2014 constitutes affirmative facilitation rather than passive infrastructure provision, placing this squarely within Grokster's inducement framework independent of \u00a7 512(i). I take that argument seriously, and the factual record genuinely troubles me. However, Justice Gorsuch's textualist point about \u00a7 512(l) remains dispositive for me: the Fourth Circuit's analysis was conducted through the distorting lens of safe harbor ineligibility, and we cannot be confident the secondary liability determination would have reached the same result had the court applied Sony/Grokster on its own terms without the impermissible adverse inference. My background as a public defender also makes me acutely aware that the willful blindness standard as articulated below \u2014 applied to mass automated notices of uncertain reliability \u2014 creates procedural fairness problems for subscribers who face termination based on unverified claims, and the appropriate remedy is a remand that requires the secondary liability analysis to proceed independently, with guidance that distinguishes Cox's documented bad faith from the broader industry standard without collapsing \u00a7 512(i) eligibility into automatic liability.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While the Fourth Circuit's prior ruling in BMG v. Cox correctly identified deficiencies in Cox's repeat infringer policy under \u00a7 512(i)(1)(A), the broader question of secondary liability standards demands a narrower, more carefully calibrated ruling that avoids transforming ISPs into universal guarantors of subscriber conduct. The willful blindness standard applied below risks sweeping too broadly, threatening the foundational architecture Congress deliberately preserved in the DMCA's safe harbor framework; as this Court cautioned in Grokster, secondary liability requires purposeful facilitation rather than mere awareness of infringing uses on one's network. Consistent with my preference for narrow grounds, I would remand for clearer articulation of what 'reasonably implementing' a repeat infringer policy requires under \u00a7 512(i), rather than affirming a damages award premised on an ill-defined standard that creates irreconcilable tension with Viacom's knowledge framework and risks a destabilizing circuit split with the Fifth Circuit's Grande Communications approach. Institutional legitimacy counsels against this Court blessing an expansive liability theory that Congress did not clearly authorize and that would pressure ISPs toward mass disconnections, chilling lawful internet use in ways Sony's Betamax principles were designed to prevent.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 17 U.S.C. \u00a7 512(l) explicitly prohibits courts from using failure to qualify for safe harbor as adverse evidence of liability, reflecting Congress's original design that the DMCA safe harbors operate as an additional protection layered atop existing copyright law rather than as a strict liability trap. Reading the statute according to its original public meaning at enactment in 1998, 'reasonably implement' in \u00a7 512(i)(1)(A) cannot be stretched to impose a willful blindness standard that Congress never codified in the DMCA's text \u2014 such a standard must be found in the statute's actual words, not judicially interpolated from common law tort doctrine. The Fourth Circuit's approach effectively converts the safe harbor framework into a mechanism of automatic or near-automatic secondary liability whenever an ISP's termination policy is deemed imperfect, directly contradicting \u00a7 512(l)'s plain command and Congress's expressed caution about legislating for a nascent technology. Consistent with my textualist methodology, I would hold that absent clear statutory text imposing a willful blindness standard within \u00a7 512(i), courts may not graft one onto the DMCA, and the traditional secondary liability standards from Sony Corp. v. Universal City Studios and Grokster must be applied independently without the safe harbor failure serving as a thumb on the scale.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of 17 U.S.C. \u00a7 512(i)(1)(A) is unambiguous: safe harbor eligibility requires that an ISP 'adopt and reasonably implement' a policy providing for termination of repeat infringers 'in appropriate circumstances.' Cox's deliberate internal policies \u2014 refusing to consider termination until after thirteen notices, capping daily notice processing, and resetting strike counts upon reinstatement \u2014 demonstrate not merely negligent implementation but a calculated business decision to retain profitable infringing subscribers while nominally maintaining a termination policy. This conduct falls squarely outside the statutory safe harbor as a matter of textual interpretation, and the Fourth Circuit correctly applied the statutory standard in BMG Rights Management v. Cox Communications, 881 F.3d 293 (4th Cir. 2018). While I share some concern about imposing impossible policing burdens on ISPs generally, Cox's situation is distinguishable because the record reflects specific, repeated, and actionable notices that Cox systematically chose to ignore for financial reasons, satisfying the knowledge and willful blindness standards consistent with MGM Studios, Inc. v. Grokster, Ltd., 545 U.S. 913 (2005), and the practical consequence of allowing such deliberate evasion would effectively nullify Congress's explicit statutory condition for safe harbor protection.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Cox Communications forfeited DMCA safe harbor protection under \u00a7 512(i)(1)(A) by failing to adopt and reasonably implement a meaningful repeat infringer termination policy \u2014 the research confirms Cox did not even consider subscribers for termination until they had accumulated an extraordinary number of infringement notices, effectively rendering the policy a nullity. Under Grokster's material contribution framework and the willful blindness doctrine affirmed in Viacom v. YouTube, an ISP that receives specific, repeated notices of subscriber infringement and deliberately structures its policy to avoid acting on them cannot claim ignorance as a shield. From my perspective as a jurist attentive to real-world impacts, the recording artists, songwriters, and smaller rights holders represented by respondents are precisely the vulnerable economic actors Congress sought to protect when it conditioned safe harbor eligibility on genuine compliance with \u00a7 512(i) \u2014 not paper policies designed to retain revenue-generating subscribers while ignoring documented harm. However, I would caution against an overly broad standard that collapses the distinction between willful blindness to specific, documented infringement and general awareness that some subscribers may infringe, as the latter would threaten the foundational internet infrastructure architecture and risk chilling lawful speech and commerce in ways Congress did not intend.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of \u00a7 512(i)(1)(A) requires that an ISP adopt and 'reasonably implement' a repeat infringer policy, but the statute does not demand perfect enforcement or automatic termination upon every unverified notice \u2014 and reading it to do so would render the safe harbor illusory for the very infrastructure providers Congress sought to protect. Under Viacom v. YouTube and Capitol Records v. Vimeo, willful blindness can defeat safe harbor eligibility, but that standard requires deliberate avoidance of specific, credible knowledge \u2014 not mere receipt of mass automated notices from rights holders whose accuracy Cox had legitimate reason to question. The Fourth Circuit's standard, as applied here, collapses the distinction between actual knowledge and constructive negligence in a way that is textually unsupported and practically unworkable, effectively requiring ISPs to adjudicate copyright disputes before terminating subscribers, which neither \u00a7 512 nor Grokster's inducement doctrine contemplates. Consistent with the pragmatic concern articulated in Twombly about sprawling, costly litigation and the policy warning in Taamneh against transforming infrastructure providers into universal guarantors of end-user conduct, I would reverse and remand for application of a more textually grounded and administrable knowledge standard.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 512(l) explicitly forbids courts from treating failure to qualify for safe harbor as evidence of liability, which means the Fourth Circuit's approach of converting \u00a7 512(i)'s repeat infringer policy requirement into a near-automatic liability trigger directly contradicts Congress's expressed statutory command. As a textualist, I must give effect to \u00a7 512(l)'s unambiguous directive that the safe harbor framework 'shall not bear adversely upon the consideration of a defense' \u2014 the safe harbor is a carve-out offering additional protection, not a boundary condition defining the outer limits of permissible ISP conduct. The secondary liability standards established in Sony v. Universal City Studios and refined in Grokster require specific showings of knowledge and control that courts must evaluate under traditional copyright doctrine, not through an impermissible inference bootstrapped from DMCA safe harbor ineligibility. Furthermore, the rule of lenity and separation of powers concerns counsel against judicially expanding secondary liability doctrines in ways Congress never endorsed, particularly where \u00a7 512(l) affirmatively signals that Congress did not intend safe harbor failure to carry such consequences.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The DMCA's safe harbor framework under \u00a7 512(i) requires a 'reasonably implemented' repeat infringer policy, but Congress did not define that standard with precision, and courts have struggled to articulate workable boundaries\u2014a problem that counsels judicial restraint and caution before affirming a damages award that could destabilize the foundational architecture of internet service provision. The Fourth Circuit's approach effectively collapses the distinction between actual knowledge and willful blindness in ways that go beyond what Grokster's inducement theory and the Viacom/Capitol Records line of cases contemplated, threatening to impose strict monitoring obligations on passive conduit providers that Congress specifically sought to protect under \u00a7 512(a). History and tradition matter here: since the DMCA's enactment in 1998, Congress and the courts have consistently treated ISPs as infrastructure providers rather than content supervisors, and departing from that settled understanding requires clearer statutory authorization than the Fourth Circuit identified. While Cox's conduct was troubling and the respondents' arguments about willful blindness have genuine force\u2014particularly given Cox's documented practice of reinstating terminated subscribers\u2014the appropriate remedy is a more carefully calibrated standard that preserves meaningful safe harbor protection while requiring good-faith implementation of termination policies, not the broad secondary liability framework the Fourth Circuit endorsed.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "A textualist reading of 17 U.S.C. \u00a7 512(i) requires that an ISP 'adopt and reasonably implement' a repeat infringer termination policy, but the statute's text does not mandate termination upon every allegation or notice of infringement \u2014 it requires a policy operative 'in appropriate circumstances,' language that necessarily contemplates ISP discretion and a threshold of verified, repeated infringement rather than unilateral copyright holder accusations. The Fourth Circuit's standard effectively rewrites \u00a7 512(i) by treating receipt of DMCA notices as constructive knowledge sufficient to strip safe harbor eligibility as a threshold matter, conflating the \u00a7 512(i) eligibility inquiry with the substantive secondary liability analysis in a manner unsupported by the statute's structure. Under Grokster, contributory liability requires either actual knowledge combined with material contribution or active inducement \u2014 Cox's passive provision of internet infrastructure, without evidence of purposeful facilitation analogous to Grokster's inducement, does not satisfy that standard, and the willful blindness doctrine as applied here sweeps too broadly by treating systemic non-response to mass automated notices as equivalent to the deliberate ignorance this Court has recognized in criminal law contexts. Furthermore, the vicarious liability theory fails because Cox lacked the 'right and ability to supervise' specific infringing conduct in the sense Napster and subsequent cases require \u2014 general contractual authority to terminate subscribers is categorically different from the direct supervisory control over infringing activity that vicarious liability demands.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The DMCA's safe harbor framework under \u00a7 512(a) and \u00a7 512(i) reflects Congress's deliberate policy choice to protect ISPs from secondary liability provided they adopt and 'reasonably implement' a repeat infringer termination policy \u2014 a standard that must be interpreted with practical workability in mind, not as an impossible mandate to police millions of subscribers based on unverified third-party notices. As the research materials confirm, the Fourth Circuit's standard risks collapsing the safe harbor entirely by treating willful blindness too expansively, effectively requiring ISPs to act as copyright enforcement arms without adjudicatory capacity, which raises serious procedural fairness concerns for subscribers who may be wrongly accused. Drawing on Viacom v. YouTube and Capitol Records v. Vimeo, the knowledge standard for forfeiting safe harbor protection should require specific, credible, and actionable knowledge of infringement \u2014 not merely receipt of mass automated notices of uncertain reliability \u2014 and the willful blindness doctrine should not be stretched to swallow the safe harbor's protections wholesale. While Cox's conduct raises legitimate concerns about the adequacy of its termination policy, the appropriate remedy is a remand to apply a properly calibrated \u00a7 512(i) standard rather than affirming a damages award premised on an overbroad liability theory that threatens the foundational architecture of internet service provision and the due process rights of subscribers.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.739,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

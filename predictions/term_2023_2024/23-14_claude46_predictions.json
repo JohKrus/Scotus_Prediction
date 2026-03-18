@@ -1,0 +1,664 @@
+[
+  {
+    "docket": "23-14",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Federal Rule of Evidence 704(b) permits a law enforcement expert witness to testify that drug-trafficking organizations typically do not use unwitting couriers, thereby implicitly opining on the defendant's mental state (knowledge) regarding the drugs she transported.",
+      "legal_provision": "Federal Rule of Evidence 704(b), which prohibits expert witnesses in criminal cases from stating an opinion about whether the defendant did or did not have the mental state constituting an element of the crime charged or of a defense thereto, while leaving that ultimate inference to the jury.",
+      "petitioner_position": "Delilah Diaz argues that the expert testimony \u2014 that drug-trafficking organizations rarely use unknowing couriers for large drug shipments \u2014 effectively constituted an impermissible opinion on her mens rea (knowledge), in violation of FRE 704(b), because it invited the jury to conclude she must have known she was transporting drugs, thereby usurping the jury's role as the exclusive finder of fact on the ultimate mental state element and violating due process principles established in Sandstrom v. Montana by creating a functional presumption of guilt.",
+      "respondent_position": "The United States argues that the expert testimony was permissible 'framework' or background evidence about the general practices of drug-trafficking organizations, not a direct opinion on Diaz's specific mental state, and that FRE 704(b) only bars explicit ultimate-issue opinions on the defendant's mens rea \u2014 not general statistical or organizational behavior testimony that merely provides context from which the jury may independently draw its own inferences about knowledge.",
+      "key_precedents": [
+        "Sandstrom v. Montana, 442 U.S. 510 (1979) \u2014 prohibiting jury instructions that effectively presume mens rea from predicate facts",
+        "Federal Rule of Evidence 704(b) \u2014 the core statutory provision governing expert testimony on mental state in criminal cases",
+        "Fifth Circuit precedent referenced regarding juror capacity to distinguish framework evidence from ultimate-issue opinions",
+        "28 U.S.C. 1254(1) \u2014 jurisdictional basis for Supreme Court review of Ninth Circuit decisions"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan's 'no meaningful inferential gap' formulation is the most intellectually serious challenge to my position, and I want to engage it directly: the problem is that 'meaningful inferential gap' is precisely the kind of standardless, case-by-case inquiry that would require courts to evaluate the inferential proximity of every piece of expert testimony to the ultimate mental state question \u2014 which is functionally indistinguishable from the pre-1975 ultimate-issue rule Congress deliberately abolished. Justice Jackson's point about the institutional authority of law enforcement experts has genuine force, but it is an argument about the weight and persuasive power of evidence, not about whether the testimony crosses the textual line Rule 704(b) draws; Rule 403 and careful jury instructions are the appropriate tools for managing that concern. I remain persuaded that the distinction between a judicial instruction that legally compels a presumption (Sandstrom) and expert testimony that a jury may freely credit or reject is constitutionally and doctrinally meaningful, and that a minimalist holding affirming admissibility while signaling that testimony explicitly stating 'all persons in circumstances like defendant's must have known' could cross the line would preserve the rule's core protection without creating the standardless inquiry Justice Kagan's test would require. As Chief Justice, I would assign a narrow majority opinion that reaffirms the textual boundary of 704(b) while acknowledging the legitimate concern about artful circumvention, leaving room for future cases to address the outer limits.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Barrett's textualist argument remains the most serious challenge to my position, and I have genuinely wrestled with it across both rounds of deliberation. She is correct that the text of 704(b) targets opinions 'about whether the defendant did or did not have a mental state,' and I share her commitment to reading statutory text as written rather than as we might wish it to read. However, the word 'about' is doing critical work here, and a rigorous textualist reading of that preposition cannot be limited to testimony that uses the defendant's name alongside the word 'knew' \u2014 'about' a mental state encompasses testimony that is substantively directed at resolving the mental state question, which this narrowly tailored organizational testimony functionally is. Justice Kagan's observation that the jury was handed a near-complete syllogism with only the defendant's name left to fill in is not merely a pragmatic concern but reflects the actual semantic content of what the expert communicated, and no textualist methodology requires us to honor a formal distinction that the ordinary public meaning of 'about' does not support. Justice Kavanaugh's concern about resurrecting the ultimate-issue rule is well-taken, but there is a meaningful textual difference between Rule 704(a)'s general abolition and 704(b)'s targeted criminal mens rea protection \u2014 reading 704(b) to have real force in cases where knowledge is the sole contested element does not resurrect the broader rule Congress rejected.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson make the most forceful opposing arguments, contending that organizational modus operandi testimony functionally operates as a prohibited ultimate-issue opinion by inviting the jury to presume knowledge from statistical generalizations \u2014 and I take that concern seriously. However, their argument proves too much: under their reading, virtually any expert testimony about how criminal enterprises operate would be barred whenever knowledge is a contested element, effectively resurrecting a far broader prohibition than Congress enacted in 704(b). The text of the rule prohibits opinions 'about whether the defendant did or did not have a mental state' \u2014 language targeting explicit, case-specific conclusions about a named defendant, not general organizational behavior testimony that leaves the inferential leap entirely to the jury. The Sandstrom analogy also fails because that case addressed mandatory judicial instructions that legally compelled a presumption, whereas here jurors retained full discretion to credit Diaz's ignorance defense and reject the expert's organizational framework entirely \u2014 a constitutionally meaningful distinction that Justice Kavanaugh and Justice Barrett correctly identify.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh and Justice Alito make the strongest opposing argument \u2014 that FRE 704(b) was enacted as a targeted prohibition on explicit ultimate-issue opinions following the Hinckley trial, not a broad bar on inferentially relevant organizational testimony. I take that legislative history seriously, but it does not resolve the question before us: when expert testimony is so narrowly tailored to the specific circumstances of this defendant's case that it leaves virtually no inferential gap for the jury to independently traverse, the 'framework evidence' label becomes a formalism that swallows the rule's substance. Justice Jackson's point about the institutional authority of law enforcement experts is particularly compelling \u2014 when a government agent testifies with statistical confidence that organizations 'typically do not use unwitting couriers' for large shipments precisely like the one Diaz was carrying, the jury does not experience this as neutral background context but as a near-directive on the central contested element. The Sandstrom concern is not limited to jury instructions; it reaches any mechanism that functionally shifts the burden on mens rea, and permitting this workaround would render 704(b)'s protection illusory in virtually every drug courier prosecution where knowledge is contested.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's textualist challenge remains the most formidable, and I want to engage it one final time with precision: she argues that 'about' in ordinary 1984 usage referred to the subject matter of an assertion, and that testimony whose subject matter is organizational practice is not 'about' a specific defendant's mental state. But this reading proves too much in the opposite direction \u2014 it would permit any expert to testify that 'persons carrying 30 kilograms of cocaine in circumstances identical to the defendant's virtually always know what they are carrying' without violating 704(b), so long as the expert never utters the defendant's name. The word 'about' cannot bear that weight; testimony substantively directed at resolving the sole contested mental state element, tailored with case-specific precision to the defendant's exact circumstances, is testimony 'about' that mental state in any ordinary sense of the word. Justice Barrett's proposed remedy \u2014 Rules 403 and 702 \u2014 is not an adequate substitute because those rules require a different showing and provide different relief than 704(b)'s categorical protection, which Congress enacted precisely because it did not trust case-by-case balancing to protect defendants on the mens rea element in criminal cases; if 403 were sufficient, 704(b) would be superfluous.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's argument that 'about' in Rule 704(b) should encompass testimony that is 'substantively directed at the mental state question' deserves serious engagement, but it ultimately asks me to read a targeted statutory prohibition as though Congress wrote something broader \u2014 and that is precisely the interpretive move textualism forbids. Congress enacted 704(a) to abolish the ultimate-issue rule generally, then carved out 704(b) as a narrow exception targeting explicit opinions 'about whether the defendant did or did not have a mental state'; reading 'about' to sweep in all inferentially proximate testimony would effectively resurrect the very supercharged ultimate-issue rule Congress deliberately dismantled, a result no textualist methodology can endorse. Justice Kagan's 'no meaningful inferential gap' standard is intellectually serious and I understand its appeal, but it creates exactly the kind of standardless, case-by-case judicial balancing that produces unpredictable results \u2014 courts would be required to measure inferential proximity on a spectrum with no textual anchor, which is why Justice Barrett correctly identifies this as functionally equivalent to resurrecting the discredited ultimate-issue rule. The Sandstrom analogy Justice Sotomayor and Justice Jackson press remains unpersuasive to me because Sandstrom addressed a structural feature of jury deliberation \u2014 a mandatory judicial instruction that legally compelled an inference and relieved the prosecution of its burden \u2014 whereas here the jury retained full discretion to credit Diaz's ignorance defense, and that distinction is constitutionally and doctrinally meaningful rather than merely formalistic.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Jackson's argument that completing the syllogism by substituting Diaz's name constitutes no genuine independent jury reasoning is the most compelling challenge I face, and I want to engage it honestly: she is right that the inferential gap here is narrow, but the question is whether narrowness of inference is the legal standard Congress enacted or whether it is a policy concern better addressed through other doctrinal tools. Justice Kagan's 'no meaningful inferential gap' formulation remains the most intellectually serious challenge, but as I noted previously, it substitutes a standardless judicial assessment of inferential proximity for the textual line Congress drew \u2014 and Justice Barrett correctly identifies that this would require courts to measure inferential proximity on a spectrum with no textual anchor, producing exactly the unpredictable case-by-case balancing that textualism and institutional legitimacy concerns both counsel against. The answer to artful circumvention of 704(b) is not to expand the prohibition beyond its text but to apply Rules 403 and 702 as the tools Congress preserved for managing unduly prejudicial expert testimony, and I would write separately to signal that testimony explicitly framing organizational generalizations as applying to 'all persons in circumstances precisely like the defendant's' may warrant closer 403 scrutiny. I remain persuaded that the textual prohibition targets explicit case-specific mental state conclusions about a named defendant, not organizational background testimony that preserves a genuine inferential step \u2014 however narrow \u2014 for the jury.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Jackson's argument that completing a syllogism with only the defendant's name remaining is not 'independent jury reasoning' is the most compelling challenge I face, and I want to engage it with full seriousness: the syllogism concern is real, but it proves too much, because virtually any inferentially powerful expert testimony \u2014 a fingerprint examiner, a DNA analyst, a forensic accountant \u2014 completes a near-syllogism on some contested element, and we do not exclude such testimony under 704(b) merely because it is highly probative. Justice Kagan's 'no meaningful inferential gap' standard remains intellectually serious, but as I noted in prior rounds, it requires courts to measure inferential proximity on a spectrum with no textual anchor \u2014 the word 'about' in 704(b) refers to the subject matter of the opinion, and testimony whose subject matter is organizational practice is not 'about' Diaz's mental state even if it bears powerfully on that question. The appropriate tools for managing the institutional authority concern Justice Jackson raises \u2014 the risk that jurors will not critically interrogate law enforcement expert testimony \u2014 are Rules 403 and 702, which Congress preserved precisely for this purpose, not an expansion of 704(b) beyond its text. I remain persuaded that the line Congress drew is the line the text enacts, and that holding otherwise would require judicial rewriting rather than judicial interpretation.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's textualist argument remains the most formidable challenge, but I continue to find it unpersuasive for a reason she does not adequately address: the word 'about' in 704(b) is doing real work, and testimony that is substantively directed at the mental state question \u2014 even if it avoids the magic words \u2014 is testimony 'about' that mental state. Justice Kavanaugh argues that the distinction between 'organizations use knowing couriers' and 'Diaz knew' preserves a meaningful inferential gap, but this assumes the gap has genuine cognitive content for the jury; when the expert has already narrowed the organizational generalization to large shipments precisely like Diaz's, the only remaining step is substituting her name \u2014 that is not independent jury reasoning, it is completing a syllogism the government has already constructed. Justice Gorsuch's point about Congress knowing how to write a broader prohibition is well-taken, but the question is not whether Congress could have written broader language \u2014 it is whether the language Congress did write, prohibiting opinions 'about' mental states, encompasses testimony that functions as a near-complete opinion while maintaining nominal distance. My background as a public defender reinforces my conviction that the institutional authority of law enforcement experts creates exactly the kind of functional burden-shifting that 704(b) was designed to prevent, and no amount of formal inferential distance changes that practical reality for defendants like Diaz.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "FRE 704(b)'s legislative history, rooted in the Insanity Defense Reform Act of 1984, demonstrates that Congress enacted a targeted prohibition on explicit ultimate-issue opinions regarding a defendant's mental state, not a sweeping bar on all inferentially relevant expert testimony about organizational behavior or modus operandi. The expert testimony here \u2014 that drug-trafficking organizations typically do not use unwitting couriers \u2014 describes general practices of criminal enterprises rather than directly opining that Diaz specifically knew she was transporting drugs, preserving the jury's role as the ultimate factfinder on her mens rea. Sandstrom v. Montana is distinguishable because that case addressed mandatory presumptions in jury instructions that effectively relieved the prosecution of its burden of proof, whereas here the jury retained full discretion to weigh the expert's background testimony against Diaz's defense and draw its own inference. Consistent with my preference for narrow rulings, I would hold only that FRE 704(b) does not prohibit modus operandi testimony of this character, while leaving open whether sufficiently direct or case-specific expert inferences about a particular defendant's knowledge might cross the line the Rule draws.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Reading Rule 704(b) according to its original public meaning and text, the prohibition on expert opinions 'about' a defendant's mental state must be understood to encompass testimony that is functionally equivalent to a direct ultimate-issue opinion. The 1984 statutory text barred testimony 'as to whether the defendant did or did not have the mental state constituting an element of the crime,' and classwide mens rea testimony \u2014 asserting that drug-trafficking organizations do not use unwitting couriers \u2014 directly addresses the subject of mental state in a manner that compels the jury toward a predetermined inference about this specific defendant's knowledge, effectively usurping the jury's exclusive factfinding role. While I acknowledge the Government's argument that general organizational behavior testimony is merely contextual 'framework' evidence, this distinction is formalistic rather than substantive; Congress enacted 704(b) precisely to prevent experts from directing juries toward conclusions on mental state elements, and permitting functionally identical testimony through the 'framework' label would render the Rule's protection illusory. The Sandstrom principle reinforces this reading, as testimony creating a near-compelled inference of guilt from predicate facts raises the same constitutional concerns as a presumptive jury instruction.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Federal Rule of Evidence 704(b) was enacted as a targeted, narrow exception to the general abolition of the ultimate-issue rule, designed specifically to prevent experts from explicitly opining that a defendant did or did not have the requisite mental state \u2014 not to bar all inferentially relevant background testimony about how criminal organizations operate. The legislative history confirms Congress intended a precise prohibition on ultimate-issue opinions, not a sweeping bar on contextual framework evidence that merely assists the jury in drawing its own independent inferences. The government's expert here testified about general drug-trafficking organizational practices, not that Diaz specifically knew she was carrying drugs, leaving the ultimate mens rea determination squarely with the jury as Rule 704(b) requires. Petitioner's proposed interpretation would effectively resurrect a supercharged version of the discredited ultimate-issue rule that no court or commentator has endorsed, and would severely hamper law enforcement's ability to present relevant expert context in drug prosecutions \u2014 a practical consequence Congress plainly did not intend.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The expert testimony that drug-trafficking organizations 'typically do not use unwitting couriers' for large shipments functionally operates as an opinion on Diaz's mental state in violation of FRE 704(b), because it invites the jury to presume \u2014 based on organizational generalizations rather than individualized evidence \u2014 that she must have known about the drugs. As the research materials make clear, Rule 704(b) exists precisely to protect against 'classwide mens rea testimony' that 'invites the jury to presume, based on generalizations, that the defendant acted with a guilty mind,' which is the mirror image of the unconstitutional burden-shifting condemned in Sandstrom v. Montana, 442 U.S. 510 (1979). The government's 'framework evidence' distinction is formalistic and ignores the practical reality that jurors hearing a law enforcement expert testify about organizational practices will inevitably treat it as a direct commentary on this defendant's knowledge \u2014 particularly when knowledge is the central contested issue at trial. For a defendant like Diaz, who likely lacked resources to mount a sophisticated defense against this kind of expert testimony, permitting such evidence undermines both the letter of FRE 704(b) and the fundamental fairness principles that protect vulnerable defendants from having the jury's role on mens rea effectively usurped.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "While FRE 704(b)'s text and legislative history confirm it was designed narrowly \u2014 targeting explicit ultimate-issue opinions on mental state rather than all inferential testimony \u2014 the expert testimony here crosses a meaningful line that my pragmatic textualism cannot ignore. When a law enforcement expert testifies that drug-trafficking organizations 'typically do not use unwitting couriers' for large shipments, this is not mere organizational background context; it is a thinly veiled inferential opinion that Diaz specifically must have known, functionally collapsing the jury's independent role into a near-compelled conclusion. The Sandstrom concern is directly implicated: testimony structured to create a statistical near-presumption of knowledge operates as a functional equivalent of the prohibited ultimate-issue opinion, particularly where the defendant's knowledge is the sole contested element. A workable reading of 704(b) must account for testimony that, while technically indirect, so thoroughly forecloses the jury's independent inference-drawing that it usurps the very fact-finding function the rule was designed to protect \u2014 otherwise the rule becomes a formalism easily circumvented by artful phrasing.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Reading FRE 704(b) according to its plain text, the rule prohibits expert opinions 'about whether the defendant did or did not have a mental state' \u2014 a formulation that targets explicit ultimate-issue conclusions about a specific defendant's mens rea, not general organizational behavior testimony that leaves the final inferential step to the jury. The 1984 legislative history confirms Congress enacted 704(b) as a targeted response to the Hinckley trial's spectacle of dueling psychiatrists directly opining on ultimate legal conclusions, not as a broad prohibition on all testimony from which mental state inferences might be drawn. Petitioner's reading would effectively resurrect a supercharged version of the old ultimate-issue rule that Congress itself abolished in Rule 704(a), and no court or commentator has endorsed an interpretation that sweeps in all inferentially relevant background testimony. While Sandstrom v. Montana rightly prohibits jury instructions that functionally presume guilt, that due process concern addresses judicial directives to jurors \u2014 not expert testimony about industry practices that jurors remain free to weigh, credit, or reject in reaching their own independent conclusions about knowledge.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Federal Rule of Evidence 704(b) prohibits expert witnesses from stating an opinion about whether the defendant 'did or did not have a mental state,' but the expert testimony here \u2014 describing general practices of drug-trafficking organizations regarding the use of couriers \u2014 does not constitute a direct opinion on Diaz's specific mental state. The legislative history following the Hinckley trial confirms Congress intended to bar explicit ultimate-issue opinions on mens rea while preserving the admissibility of background and framework testimony from which juries independently draw inferences; extending 704(b) to cover functionally equivalent implicit opinions, as Petitioner urges, would represent a dramatic expansion unsupported by any court or commentator and would effectively resurrect a supercharged version of the old ultimate-issue rule Congress deliberately abolished in 1975. Sandstrom v. Montana addresses constitutionally impermissible jury instructions that create mandatory presumptions of guilt, which is categorically distinct from expert testimony providing organizational context that the jury remains free to weigh or disregard. Consistent with my commitment to judicial restraint and respect for the text Congress actually enacted, I would not stretch 704(b) beyond its plain meaning to encompass inferentially relevant background testimony that leaves the final inferential step \u2014 whether Diaz knew \u2014 squarely with the jury.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "A textualist reading of FRE 704(b) compels the conclusion that the rule prohibits only direct opinions about 'whether the defendant did or did not have a mental state' \u2014 not general organizational behavior testimony that leaves the ultimate inferential step to the jury. The 2011 restyling did not substantively alter the rule's scope, and the legislative history surrounding the 1984 Insanity Defense Reform Act confirms Congress drew a precise line at explicit ultimate-issue conclusions, not inferentially relevant background evidence. The expert's testimony about drug-trafficking organizations' general practices of not using unwitting couriers for large shipments is categorically different from stating 'Diaz knew she was carrying drugs' \u2014 it provides a factual framework from which jurors, exercising their independent judgment, may draw their own inferences. While Sandstrom v. Montana rightly prohibits mandatory presumptions that effectively relieve the prosecution of its burden on mens rea, that concern is not triggered here because the jury retained full discretion to weigh the organizational behavior evidence against Diaz's claimed ignorance without being compelled to any particular conclusion.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The expert testimony that drug-trafficking organizations 'typically do not use unwitting couriers' for large shipments functionally operates as an opinion on Diaz's specific mental state in violation of FRE 704(b), because it invites the jury to presume knowledge from predicate facts rather than independently evaluate her mens rea. As the research materials demonstrate, this creates precisely the kind of rebuttable presumption condemned in Sandstrom v. Montana and Francis v. Franklin \u2014 the constitutional prohibition on burden-shifting does not evaporate merely because the presumption is embedded in expert testimony rather than a jury instruction, particularly when that expert is a government law enforcement agent speaking with institutional authority. My background as a public defender reinforces my concern that such 'framework' testimony, especially when narrowed by the expert to effectively cover 'all' drivers in circumstances like Diaz's, strips the jury of its independent fact-finding role on the most critical element of the offense and systematically disadvantages defendants who cannot effectively rebut statistical generalizations about organizational behavior with individualized evidence. FRE 704(b) was specifically designed to preserve the jury's exclusive province over mental state determinations, and permitting this workaround would render that protection largely illusory in drug courier cases.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.751,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-14",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Federal Rule of Evidence 704(b) permits a law enforcement expert witness to testify that drug-trafficking organizations typically do not use unwitting couriers, thereby implicitly opining on the defendant's mental state (knowledge) regarding the drugs she was transporting.",
+      "legal_provision": "Federal Rule of Evidence 704(b), which restricts expert witnesses in criminal cases from stating an opinion about whether the defendant did or did not have the mental state constituting an element of the crime charged or of a defense thereto.",
+      "petitioner_position": "Delilah Diaz argues that the expert testimony \u2014 that drug-trafficking organizations rarely use unknowing couriers for large drug shipments \u2014 constituted an impermissible opinion on her mens rea (knowledge), in violation of FRE 704(b), because it effectively told the jury she must have known she was transporting drugs, thereby usurping the jury's exclusive role in determining the ultimate mental state element of the offense and violating due process principles established in cases like Sandstrom v. Montana.",
+      "respondent_position": "The United States argues that the expert testimony was permissible 'framework' or background evidence about the general practices of drug-trafficking organizations, which does not constitute a direct opinion on the specific defendant's mental state as prohibited by FRE 704(b), and that the district court acted within its broad discretion in admitting such testimony because it provided jurors with specialized knowledge about drug courier operations that they would not otherwise possess, leaving the ultimate mens rea determination to the jury.",
+      "key_precedents": [
+        "Sandstrom v. Montana, 442 U.S. 510 (1979) \u2014 prohibiting legal presumptions that effectively establish mens rea from predicate facts, undermining the jury's role",
+        "Federal Rule of Evidence 704(b) \u2014 the central statutory provision governing expert opinion on mental state in criminal cases",
+        "Fifth Circuit precedent referenced regarding juror capacity to evaluate competing expert testimony under Rule 704(b)",
+        "Daubert v. Merrell Dow Pharmaceuticals (implicitly relevant to admissibility standards for expert testimony under the Federal Rules of Evidence)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's most serious remaining challenge \u2014 that the 'meaningful independent analytical work' standard lacks firm textual grounding in Rule 704(b) and that the proper remedy is Rule 403 balancing \u2014 deserves a direct response. On the textual point, I agree with Justice Kagan that the word 'about' in the current Rule is capacious enough to reach testimony that is substantively about the defendant's mental state even when formally framed as organizational statistics, and this reading is reinforced rather than undermined by Justice Thomas's observation that if the 2011 restyling was non-substantive, the original 1984 Congress's functional concern about expert usurpation of the jury's mens rea role remains the operative interpretive touchstone. On the Rule 403 alternative, I find it insufficient because it would require case-by-case exclusion of highly probative evidence on discretionary grounds, leaving Rule 704(b) with no independent work to do in precisely the cases where its protection matters most. My narrow holding \u2014 focused on whether testimony in context leaves the jury meaningful independent analytical work on the sole contested mens rea element \u2014 preserves most organizational-practice testimony, addresses Justice Kavanaugh's workability concern, and gives the Rule genuine effect without categorically barring background expert testimony, which I believe is the most institutionally sound path forward and the one most likely to command a durable majority.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's most serious challenge \u2014 that the 2011 restyling's 'about' language was declared nonsubstantive and therefore cannot expand Rule 704(b)'s scope \u2014 actually reinforces my position rather than undermining it, because if the restyling changed nothing, then the original 1984 Congress's functional concern about preventing expert usurpation of the jury's mens rea role remains the operative interpretive touchstone, and that concern is fully implicated by testimony that DTOs 'rarely use unknowing couriers.' Justice Alito's argument that permitting this testimony is consistent with allowing drug-packaging and quantity evidence proves too much in the other direction: those forms of evidence are circumstantial facts from which knowledge may be inferred through multiple independent steps, whereas organizational-practice testimony of the 'rarely unknowing' variety collapses directly onto the sole contested element with near-inescapable logical force. Justice Kavanaugh's concern about workable rules is legitimate, and I would endorse Chief Justice Roberts' narrowing suggestion \u2014 that the holding focus on whether testimony, in context, leaves the jury meaningful independent analytical work on the mens rea element \u2014 as this provides district courts a functional but bounded standard that avoids categorically barring all organizational-practice testimony while still giving Rule 704(b) genuine effect. The Morales 'necessarily implies' standard, properly understood, is not a free-floating functional equivalence doctrine but a textually grounded inquiry into whether testimony is substantively 'about' the defendant's mental state, which the word 'about' in Rule 704(b) capaciously supports.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Roberts' 'meaningful independent analytical work' formulation is the most intellectually serious challenge to my position, and I acknowledge it has genuine pragmatic appeal \u2014 but it lacks any textual anchor in Rule 704(b)'s actual language, which prohibits opinions 'about whether the defendant did or did not have a mental state,' not testimony that reduces the jury's analytical burden. Justice Barrett correctly identifies that this functional standard would create significant uncertainty for district courts, and my deeper concern is that the majority is essentially rewriting Rule 704(b) through interpretation to reach a policy outcome they prefer, when the proper vehicle for highly probative but potentially prejudicial expert testimony is Rule 403 balancing \u2014 a tool specifically designed for exactly this kind of contextual, case-specific assessment. Justice Gorsuch's 'inferential compulsion' refinement is creative, but 'degree of inferential compulsion' is not a standard courts can apply with any consistency, and it would effectively prohibit testimony about drug quantity and packaging that every circuit has uniformly permitted precisely because such testimony is probative of knowledge. I maintain my position that Agent Flood's testimony about general DTO organizational practices does not constitute a direct opinion 'about whether the defendant did or did not have a mental state' under the text Congress enacted, and I would affirm.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett's most compelling point remains that the 2011 restyling was non-substantive and that 704(b) targets direct opinions about 'the defendant's' mental state \u2014 but as Justice Jackson's public defender experience illuminates, and as I have seen in my own work with vulnerable communities, the formal distinction between 'direct opinion' and 'one-step inference' dissolves entirely when the expert is a law enforcement officer testifying before a lay jury about statistical organizational practices in the very case before them. Justice Kavanaugh's concern about workable rules is legitimate and I share it, which is why I find Chief Justice Roberts' narrower formulation \u2014 asking whether the testimony leaves the jury 'meaningful independent analytical work' on the mens rea element \u2014 more administrable than a categorical ban on all organizational-practice testimony. The practical reality that Justice Jackson and I both emphasize is that Agent Flood's testimony that DTOs 'rarely use unknowing couriers' for large shipments, delivered in a case where Diaz's knowledge was the sole contested issue, left the jury with essentially no independent analytical work to perform on knowledge \u2014 the statistical framing achieved the same burden-shifting effect as a direct opinion while evading the rule's formal prohibition. Justice Alito's point that similar testimony about drug packaging and quantity has been uniformly permitted is distinguishable because those forms of testimony require the jury to make multiple independent inferences about knowledge, whereas 'DTOs rarely use unknowing couriers' maps directly and almost exclusively onto the single contested element.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's most compelling point remains that the 2011 restyling's 'about' language was declared non-substantive, and that virtually any expert testimony bearing on intent could be characterized as 'one inferential step' from a mental state conclusion \u2014 but I think this proves too little rather than too much. The critical distinction, which Justice Roberts helpfully sharpens, is not between direct and indirect testimony categorically, but whether the testimony leaves the jury 'meaningful independent analytical work' on the mens rea element \u2014 and when the sole contested issue is knowledge and the expert testifies that DTOs 'rarely' use unknowing couriers for large shipments, the jury has no meaningful independent determination left to make on that element. Justice Kavanaugh's concern about workable rules is legitimate and I take it seriously, which is why I would join Justice Roberts in crafting a narrow holding focused on the 'meaningful independent work' standard rather than a categorical bar on all organizational-practice testimony \u2014 this preserves district court flexibility while giving Rule 704(b) genuine teeth against circumvention through artful framing. The word 'about' in the current text, read in light of the Rule's evident purpose of protecting the jury's mens rea role, is capacious enough to reach testimony that is substantively about the defendant's knowledge even when formally framed as organizational statistics, and a contrary reading would render the Rule's protection largely illusory.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's most serious challenge remains that my 'one inferential step' reasoning proves too much \u2014 but I think the distinction lies in the degree of inferential compulsion, not merely the number of steps. When Agent Flood testified that DTOs 'rarely use unknowing couriers' for large shipments, he was not offering background context that the jury could weigh against competing inferences; he was effectively telling the jury that people in Diaz's position almost always know, which leaves the jury with no meaningful independent analytical work on the sole contested element. Justice Kavanaugh's concern about workable rules is legitimate and I share it \u2014 which is why I would adopt the Morales 'necessarily implies' standard rather than a categorical bar on all organizational-practice testimony, preserving room for genuinely background expert testimony while prohibiting testimony whose inferential chain to the defendant's specific mental state is so compressed as to be nearly inescapable. Justice Alito's point that the Sandstrom line addresses mandatory presumptions rather than permissive inferences is formally correct, but the functional concern Sandstrom identified \u2014 that evidentiary mechanisms can effectively shift the burden on mens rea without formally doing so \u2014 applies with equal force when a law enforcement expert's statistical generalization leaves the jury with only one reasonable conclusion about this defendant's knowledge.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "Justice Roberts' 'meaningful independent analytical work' formulation continues to be the most intellectually serious challenge to my position, and I acknowledge that six colleagues find it compelling \u2014 but I remain concerned that this standard, however elegantly stated, lacks firm textual grounding in Rule 704(b)'s actual language and will prove unworkable in practice. The Rule prohibits opinions 'about whether the defendant did or did not have a mental state,' and as Justice Barrett correctly maintains, the Advisory Committee's 1984 notes specifically contemplated that experts could testify about predicate facts from which mental state might be inferred \u2014 the line Congress drew was at direct opinions, not at testimony that makes inferences more probable. Justice Alito's point about drug quantity and packaging testimony remains the most underappreciated argument in this deliberation: if 'one highly probative inferential step' is the test, then virtually all expert testimony in drug prosecutions would be swept in, and the majority has not articulated a principled limiting principle that distinguishes Agent Flood's testimony from the packaging and concealment testimony every circuit uniformly permits. I maintain my position for the respondent, though with diminished confidence given the weight of my colleagues' reasoning, because a well-reasoned dissent preserving the text's actual meaning serves the Court's long-term institutional credibility better than joining a functional-equivalence doctrine that will generate significant uncertainty in district courts managing complex drug prosecutions.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Chief Justice Roberts' 'meaningful independent analytical work' formulation is the most intellectually serious challenge to my position, and I acknowledge it has genuine pragmatic appeal \u2014 but I cannot find it in Rule 704(b)'s text, which prohibits opinions 'about whether the defendant did or did not have a mental state,' a phrase that naturally targets direct conclusions about a specific defendant's mental state, not background organizational testimony whose inferential weight is a matter of degree. Justice Gorsuch argues the distinction lies in 'inferential compulsion' rather than number of steps, but this standard is itself untethered from the Rule's text and would require courts to make inherently subjective judgments about how 'compressed' an inferential chain must be before it becomes prohibited \u2014 a standard that will generate precisely the circuit splits and district court uncertainty Justice Kavanaugh and I both fear. Justice Kagan's argument that 'about' is capacious enough to reach testimony substantively about the defendant's knowledge is foreclosed by the Advisory Committee's explicit statement that the 2011 restyling was non-substantive, and if the word 'about' cannot be read to expand the Rule's scope, then the functional equivalence doctrine must find its limiting principle in Rule 403 balancing rather than in 704(b) itself \u2014 which is exactly where Congress placed it by drawing a clear textual line at direct opinions rather than at inferentially powerful testimony.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito and Justice Barrett make the strongest opposing argument \u2014 that 704(b)'s text targets only direct opinions about 'the defendant's' mental state, not general organizational practice testimony \u2014 but this formalistic distinction cannot withstand scrutiny when the testimony's inferential impact is examined honestly. As Justice Kagan correctly observes, the government's 'framework evidence' framing is too clever by half: when an expert tells a jury that DTOs 'rarely use unknowing couriers' for large shipments in a case where the sole contested issue is whether this defendant knew, the logical chain to the prohibited conclusion is direct and nearly inescapable, leaving the jury with no meaningful independent determination to make. Justice Barrett's reliance on the jury's theoretical freedom to 'discount or find inapplicable' such testimony ignores the empirical reality \u2014 which my experience as a public defender confirms \u2014 that law enforcement expert testimony carries disproportionate authority with juries, effectively transforming a statistical generalization into a near-conclusive inference about this specific defendant's knowledge. The functional equivalence doctrine, properly applied, requires courts to look past formal framing to actual inferential impact, and testimony that narrows the inference space to near-certainty on the knowledge element is precisely what 704(b) was enacted to prohibit.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Federal Rule of Evidence 704(b) was specifically designed to prevent expert witnesses from effectively directing the jury's verdict on the ultimate mental state element of a crime, and testimony that drug-trafficking organizations 'rarely use unknowing couriers' for large shipments comes perilously close to that prohibited line when applied to a specific defendant on trial for exactly that offense. While I am sympathetic to the government's framing of such testimony as mere 'background' or 'framework' evidence, the practical effect on the jury \u2014 hearing from a law enforcement expert that organizations like the one allegedly employing Diaz do not use unwitting couriers \u2014 functions as an implicit opinion that this particular defendant must have known, which is precisely the mental state element the jury must independently determine. Sandstrom v. Montana cautions against evidentiary mechanisms that effectively shift the burden or create presumptions regarding mens rea, and testimony this closely tethered to the defendant's specific conduct risks that constitutional infirmity. Consistent with my preference for narrow rulings, I would hold that such testimony crosses the 704(b) line when it is so directly applicable to the defendant's charged conduct that it leaves the jury with little analytical work to do before reaching a conclusion on knowledge, without foreclosing all organizational-practice testimony in drug cases.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a textualist, I must examine what Rule 704(b) actually says and what Congress intended when it enacted the provision in 1984 following the Hinckley verdict. The original 1984 text barred expert testimony 'as to whether the defendant did or did not have the mental state constituting an element of the crime,' and the 2011 restyling was explicitly non-substantive. When a law enforcement expert testifies that drug-trafficking organizations 'typically do not use unwitting couriers,' this is not mere background about DTO organizational practices \u2014 it is a classwide mens rea opinion that directly addresses the subject of knowledge and effectively tells the jury that this defendant, as a courier of a large shipment, must have known. This functionally collapses the inferential gap Rule 704(b) was designed to preserve for the jury, and is distinguishable from testimony about drug packaging or monetary value, which only incidentally bears on mental state. Sandstrom v. Montana reinforces that the jury's exclusive role in determining mens rea cannot be usurped by evidentiary devices \u2014 whether presumptions or expert opinions \u2014 that effectively direct a finding on the ultimate mental state element.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The text of FRE 704(b) prohibits expert opinions 'about whether the defendant did or did not have a mental state,' which is a narrowly drawn prohibition targeting direct conclusions about a specific defendant's mens rea, not general background testimony about drug-trafficking organizational practices. A textualist reading of the Rule confirms that testimony describing how drug-trafficking organizations typically operate provides inferential context that leaves the ultimate mental state determination to the jury, which is precisely the line the Rule draws. The 2011 restyling was explicitly non-substantive, and Petitioner's reading would improperly expand 704(b) beyond its textual scope to prohibit any expert testimony that is inferentially relevant to mental state \u2014 a result unsupported by the Rule's text or its legislative history. Moreover, from a practical standpoint, law enforcement expertise about drug courier operations provides jurors with specialized knowledge they lack, and excluding such testimony would unduly hamper the government's ability to prosecute complex drug trafficking cases without any clear textual mandate to do so.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The expert testimony that drug-trafficking organizations 'rarely use unknowing couriers' for large shipments functionally operates as an opinion on Delilah Diaz's mental state, because it invites the jury to draw a near-deterministic inference that she must have known about the drugs \u2014 precisely the kind of implicit compulsion that FRE 704(b) was designed to prevent and that Sandstrom v. Montana condemned as undermining the jury's exclusive role in determining mens rea. While the government characterizes this as mere 'background' or 'framework' testimony, the practical effect on a lay jury is indistinguishable from a direct statement that 'this defendant knew' \u2014 the expert is essentially saying that people in her position virtually always know, which leaves the jury with no meaningful independent determination to make on the knowledge element. The legislative history of the 1984 amendment, though focused on the insanity defense context, reflects Congress's core concern about expert testimony that usurps the jury's fact-finding role on mental state, and permitting law enforcement experts to systematically narrow the inference space to near-certainty through organizational practice statistics achieves the same prohibited result through a different rhetorical path. From a pragmatic standpoint, this type of testimony is particularly dangerous for vulnerable defendants like Diaz who may genuinely have been unwitting couriers, because it effectively shifts the burden by making knowledge the statistical default rather than something the government must prove beyond a reasonable doubt.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "As a pragmatic textualist, I read FRE 704(b)'s prohibition on expert opinions about 'whether the defendant did or did not have a mental state constituting an element of the crime' to reach functionally equivalent testimony that compels the same inference, not merely explicit ultimate-issue declarations. The government's 'framework evidence' framing is too clever by half \u2014 testimony that drug-trafficking organizations 'rarely use unknowing couriers' for large shipments is, in practical effect, an opinion that this defendant knew about the drugs, because the logical chain the jury is invited to draw is direct and nearly inescapable. The Advisory Committee Notes to the 2023 amendment to Rule 702 reinforce that expert testimony must stay within reliable methodological bounds, and the Second Circuit's recognition that expert mental-state testimony poses 'uniquely heightened danger' to the jury's fact-finding role supports reading 704(b) to cover implicit as well as explicit opinions on mens rea. While I acknowledge the government's legitimate interest in providing jurors with specialized knowledge about drug courier operations, Sandstrom v. Montana's core principle \u2014 that evidence or instructions effectively establishing mens rea from predicate facts undermine the jury's constitutional role \u2014 counsels against permitting statistical organizational-practice testimony that functions as a near-conclusive inference about this specific defendant's knowledge.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Reading FRE 704(b)'s plain text carefully, the rule prohibits expert opinions 'about whether the defendant did or did not have a mental state' constituting an element of the crime \u2014 and testimony that drug-trafficking organizations 'rarely use unknowing couriers' for large shipments is functionally an opinion that this defendant knew about the drugs, because the logical inference the jury is invited to draw is direct and nearly inescapable. While the Government frames this as 'background' testimony about organizational practices, the textualist inquiry must focus on what the testimony actually communicates to the jury about the specific defendant's mental state, not merely how the proponent labels it; a rule that can be circumvented by one inferential step would be largely hollow. Congress enacted the 1984 amendment precisely to prevent experts from usurping the jury's role on mens rea determinations, and Sandstrom v. Montana confirms that even indirect mechanisms that effectively establish mental state from predicate facts raise serious constitutional concerns about the jury's exclusive fact-finding function. The rule of lenity further counsels that where the scope of a criminal evidentiary restriction is genuinely ambiguous, courts should resolve that ambiguity in favor of the defendant rather than the prosecution.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Federal Rule of Evidence 704(b), as amended following the Hinckley verdict, prohibits expert opinions stating whether a defendant 'did or did not have a mental state,' but Agent Flood's testimony about the general practices of drug-trafficking organizations \u2014 that they typically do not use unwitting couriers \u2014 stops short of that direct prohibition by leaving the inferential step to the jury. The legislative history confirms Congress intended to bar direct mental state conclusions, not all testimony from which mental state might be inferred, and the 2011 restyling introduced the word 'about' without substantive change to that scope. Consistent with my institutionalist approach favoring workable, text-grounded rules and judicial restraint in disturbing established evidentiary frameworks, I find that district courts retain broad discretion to admit background expert testimony about criminal organization practices, provided \u2014 as here \u2014 the expert refrains from opining on the specific defendant's state of mind, leaving that ultimate determination to the jury as required by Sandstrom's underlying principle protecting the jury's role in finding mens rea.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "A textualist reading of Rule 704(b) compels the conclusion that the provision prohibits only direct opinions about whether 'the defendant did or did not have a mental state,' not general framework testimony about the practices of drug-trafficking organizations from which a jury may draw inferences. The expert here testified about organizational practices \u2014 a category of specialized knowledge the jury lacked \u2014 without opining that Diaz specifically knew she was carrying drugs, leaving the ultimate inferential step to the jury as the factfinder. The 2011 restyling of the Rule was explicitly nonsubstantive, meaning petitioner's expansive reading of 'about' cannot bear the weight she assigns it, and adopting her interpretation would effectively prohibit vast categories of inferentially relevant expert testimony that Congress never intended to exclude when it enacted the 1984 amendment in response to the Hinckley verdict. While Sandstrom v. Montana rightly guards against mandatory presumptions that usurp the jury's role on mens rea, general statistical or organizational background testimony \u2014 which the jury remains free to credit, discount, or find inapplicable to the specific defendant \u2014 does not create the kind of burden-shifting legal presumption Sandstrom condemned.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Federal Rule of Evidence 704(b) prohibits expert opinions about whether a defendant 'did or did not have a mental state' constituting an element of the crime, and testimony that drug-trafficking organizations 'rarely use unknowing couriers' is the functional equivalent of opining that this specific defendant knew she was carrying drugs \u2014 precisely what the Ninth Circuit recognized in United States v. Morales when it held that 704(b) is violated if testimony 'necessarily implies the mens rea element.' The government's 'framework testimony' characterization is a formalistic distinction without a meaningful difference: when an expert tells a jury that sophisticated DTOs never entrust large shipments to unwitting couriers, the logical and practical effect is to tell the jury that Diaz must have known, thereby usurping the jury's exclusive role in determining the ultimate mental state element in violation of both 704(b)'s text and the due process principles articulated in Sandstrom v. Montana. My background as a public defender reinforces my concern that this type of testimony \u2014 cloaked in the authority of law enforcement expertise \u2014 carries disproportionate weight with juries and effectively shifts the burden of proof on the knowledge element, undermining procedural fairness. The functional equivalence doctrine properly applied here requires that courts look past the formal framing of expert testimony to its actual inferential impact on the jury's determination of the defendant's specific mental state.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.724,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  }
+]

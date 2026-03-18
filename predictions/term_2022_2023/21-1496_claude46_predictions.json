@@ -1,0 +1,575 @@
+[
+  {
+    "docket": "21-1496",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Twitter and other social media platforms can be held liable under the Anti-Terrorism Act (ATA) for aiding and abetting ISIS terrorism by allegedly providing material support through their platforms' algorithmic recommendation systems and failure to remove terrorist content.",
+      "legal_provision": "Anti-Terrorism Act (ATA), 18 U.S.C. \u00a7 2333, specifically the aiding and abetting and conspiracy liability provisions added by the Justice Against Sponsors of Terrorism Act (JASTA); Section 230 of the Communications Decency Act, 47 U.S.C. \u00a7 230",
+      "petitioner_position": "Twitter argues that merely providing a general-purpose social media platform to all users, including bad actors, does not constitute 'aiding and abetting' terrorism under JASTA, as there was no knowing and substantial assistance specifically directed at the terrorist attack in question; Twitter contends that imposing liability would effectively hold platforms responsible for all user-generated content, undermining Section 230 protections and chilling free expression and innovation across the internet ecosystem",
+      "respondent_position": "The Taamneh family, relatives of a victim killed in the 2017 Istanbul Reina nightclub ISIS terrorist attack, argue that Twitter knowingly allowed ISIS to use its platform for recruitment, propaganda, and fundraising over an extended period despite repeated warnings, and that this sustained, knowing assistance constitutes aiding and abetting under JASTA; respondents contend that Twitter's algorithmic amplification of ISIS content went beyond passive hosting and constituted active, substantial assistance to the terrorist organization",
+      "key_precedents": [
+        "Gonzalez v. Google LLC (companion case, No. 18-16700, Ninth Circuit) - addressing Section 230 immunity and algorithmic recommendations",
+        "Halberstam v. Welch, 705 F.2d 472 (D.C. Cir. 1983) - establishing the standard for civil aiding and abetting liability",
+        "Fields v. Twitter, Inc. (N.D. Cal.) - earlier related litigation involving ATA claims against social media platforms",
+        "Force v. Facebook, Inc. (2d Cir. 2020) - addressing similar ATA claims against social media platforms",
+        "Boim v. Holy Land Foundation for Relief & Development (7th Cir. 2008) - interpreting ATA liability standards",
+        "Justice Against Sponsors of Terrorism Act (JASTA) legislative history and congressional intent"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the core reasoning sound across all nine positions: JASTA's incorporation of Halberstam requires knowing and substantial assistance to the tortious enterprise, and Twitter's general-purpose platform provision simply does not satisfy that standard on these facts. Justice Kagan's framing is particularly useful \u2014 the critical distinction is between platforms that actively and knowingly assist a specific terrorist act versus those providing neutral, general-purpose services that bad actors exploit, and this distinction provides an administrable rule that courts can apply going forward. Justice Sotomayor's separate emphasis on congressional authority is also well-taken; the minimalist approach here preserves space for Congress to craft more targeted platform accountability legislation without the Court overreaching into complex policy terrain. As the opinion-assigning Justice, I would seek a narrow holding focused on the attenuation of the causal nexus and the failure to allege knowing assistance directed at this specific attack, avoiding broader pronouncements about Section 230 or the general viability of JASTA claims against platforms, which would command the broadest coalition and leave the most room for future development.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have converged on a sound textual and common-law analysis, and I find particular resonance with Justice Barrett's observation that Halberstam's defendant had 'direct, sustained, and knowing participation in the criminal enterprise itself' \u2014 laundering proceeds indispensable to the burglary operation's continuation \u2014 which stands in stark contrast to Twitter's indiscriminate provision of a general-purpose platform to hundreds of millions of users. The strongest argument for the respondents would be that Halberstam permits enterprise-level liability without requiring nexus to a specific act, but even accepting that broader reading, the original public meaning of 'aiding and abetting' at common law required conscious, culpable participation in the wrongdoing, not mere provision of a neutral instrumentality that bad actors happen to exploit. Justice Kagan correctly identifies the administrability problem: a rule holding platforms liable whenever a terrorist who used their services commits an attack anywhere in the world would sweep in virtually every internet intermediary, producing results Congress manifestly did not intend when it incorporated Halberstam's demanding framework rather than crafting a broader negligence standard. The text of \u00a7 2333(d)(2) demands 'knowing' assistance, and that word must do real work \u2014 it cannot be satisfied by generalized awareness that some fraction of billions of users may harbor malicious intent.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "My colleagues have converged on a sound textual and doctrinal analysis, and I find the collective reasoning reinforces rather than undermines my position. Justice Thomas raises a particularly important point that I want to emphasize: stretching 'aiding and abetting' to encompass passive platform provision risks effectively nullifying Section 230's carefully crafted immunity framework, which Congress deliberately preserved alongside JASTA \u2014 this structural canon of statutory interpretation strongly counsels against the respondents' broad reading. The strongest argument on the other side would be that Halberstam permits enterprise-level liability without requiring nexus to a specific act, but as Justice Barrett correctly notes, even in Halberstam the defendant had direct, sustained, knowing participation in the criminal enterprise itself \u2014 laundering proceeds indispensable to the burglary operation's continuation \u2014 which is categorically different from Twitter's neutral, algorithmic platform services applied uniformly to billions of users. The practical consequences of the respondents' theory, which Justice Kavanaugh articulates well, would expose every internet platform to ATA liability whenever any terrorist who ever used their services commits an attack anywhere in the world, a result the statutory text simply cannot bear and that Congress must address through targeted legislation rather than judicial expansion.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The near-unanimous convergence across methodological lines \u2014 from Justice Thomas's originalist analysis to Justice Kagan's purposivist framing to Justice Jackson's concern for administrable standards \u2014 reinforces my view that the statutory text of \u00a72333(d)(2) simply cannot bear the weight respondents ask it to carry. Justice Jackson's engagement with the strongest counterargument is particularly valuable: even accepting Halberstam's enterprise-level liability framework, Linda Hamilton's assistance was consciously integrated into and functionally indispensable to the burglary ring's operations, whereas Twitter's algorithmic amplification was content-neutral engagement optimization applied uniformly across billions of users, not consciously directed at ISIS's operational needs. I write separately to emphasize what my colleagues have acknowledged but perhaps understated: the Taamneh family's suffering is real and the documented failures of platforms to act on specific warnings about ISIS activity are genuinely troubling \u2014 but my role is to interpret the statute Congress wrote, not the one I might prefer, and Congress must now act with precision to hold platforms accountable without chilling the access to information and communication that vulnerable communities worldwide depend upon. The absence of a direct nexus between Twitter's platform operations and the specific 2017 Reina attack remains dispositive under the statutory text as written.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when Roberts, Thomas, Sotomayor, and Jackson all converge on a statutory reading, that convergence reflects genuine textual force rather than mere policy preference. Justice Jackson's point about Halberstam's deep integration requirement is particularly well-taken: Linda Hamilton wasn't just a passive conduit who happened to know burglars used her services; she was operationally embedded in the enterprise, laundering proceeds that were functionally necessary to its continuation. Twitter's situation is categorically different \u2014 its platform was provided indiscriminately to billions of users, and the complaint alleges no specific nexus between Twitter's algorithmic systems and the operational planning or execution of the Reina attack. The strongest counterargument \u2014 that Halberstam permits enterprise-level liability without requiring assistance to the specific act \u2014 is real, but even enterprise liability under Halberstam requires the defendant to be 'generally aware of his role' in the tortious enterprise, and providing a neutral communications platform to the world, with policies against terrorist content, does not constitute the kind of conscious, culpable role-awareness that standard demands; to hold otherwise would make every general-purpose internet service provider a potential ATA defendant whenever any user commits terrorism anywhere.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when textualists and purposivists converge on the same statutory reading, that convergence carries real weight. Justice Thomas correctly identifies that the original public meaning of 'aiding and abetting' at common law demanded conscious, culpable participation in the wrongdoing, not the passive provision of neutral infrastructure that bad actors exploit. Justice Kagan's point about administrability is also well-taken from a purely textual standpoint: a reading of \u00a72333(d)(2) that sweeps in every general-purpose platform for any terrorist use would produce results so anomalous that Congress plainly could not have intended them, and anomalous results are a reliable signal of misreading. The strongest counterargument \u2014 that Halberstam permits enterprise-level liability and ISIS's use of Twitter was systematic and well-documented \u2014 ultimately fails because even Halberstam required the defendant's assistance to be integral to the enterprise's operations, not merely incidentally available to it; Twitter's platform was no more integral to ISIS than the postal service or telephone network, and we would not hold those liable under aiding-and-abetting doctrine.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "The conference has reached remarkable unanimity, and I find my colleagues' reasoning compelling and consistent with my own analysis. Justice Kagan's formulation is particularly apt: a workable and coherent reading of \u00a72333(d)(2) must distinguish between platforms that actively and knowingly assist a specific terrorist act versus those that provide neutral, general-purpose services that bad actors exploit \u2014 otherwise the statute would sweep in virtually every internet intermediary. I would add, consistent with my institutionalist concerns, that the strongest argument for respondents \u2014 that Halberstam permits enterprise-level liability without requiring nexus to the specific act \u2014 ultimately fails because even Halberstam's defendant was deeply and consciously integrated into the criminal enterprise's operational structure, not merely providing a general communications infrastructure to billions of users. Justice Jackson's observation that she remains 'deeply troubled' by platforms' documented failures resonates with me, but that concern is properly addressed through congressional action rather than judicial expansion of secondary liability doctrine that would create unworkable standards and severe institutional consequences.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is instructive \u2014 when textualists and purposivists converge on the same statutory reading, that convergence carries significant weight. Justice Kagan's formulation is particularly apt: a workable reading of \u00a72333(d)(2) must distinguish between platforms that actively and knowingly assist a specific terrorist act versus those providing neutral, general-purpose services that bad actors exploit. The strongest argument for respondents would be that Halberstam itself permitted enterprise-level liability without requiring nexus to each specific act \u2014 but as Justice Thomas correctly notes, the Halberstam defendant's assistance was indispensable and consciously integrated into the criminal enterprise's operations, not incidental to a platform serving billions. Applying the original public meaning of 'aiding and abetting' at common law, which required conscious, culpable participation rather than mere provision of general services later misused, Twitter's conduct here \u2014 even with algorithmic amplification \u2014 lacks the knowing and substantial character that JASTA's text demands, and I would reverse the Ninth Circuit.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached genuine unanimity grounded in sound textual and common-law analysis, and I find my own reasoning reinforced rather than challenged by my colleagues' arguments. Justice Kagan's formulation \u2014 distinguishing platforms that actively and knowingly assist a specific terrorist act from those providing neutral, general-purpose services that bad actors exploit \u2014 captures precisely the administrable rule that \u00a72333(d)(2)'s 'knowing and substantial assistance' language demands. I want to be clear, however, that my agreement with the outcome does not diminish my concern about Twitter's documented failures to act on specific warnings about ISIS activity; as Justice Sotomayor notes, these troubling facts simply do not satisfy Halberstam's demanding framework as Congress incorporated it, because even enterprise-level liability under Halberstam required the defendant to be consciously and operationally integrated into the tortious enterprise \u2014 not merely a neutral conduit whose infrastructure was exploited. The strongest remaining counterargument \u2014 that algorithmic amplification transforms passive hosting into active assistance \u2014 ultimately fails because the amplification here was content-neutral engagement optimization applied uniformly across billions of users, not conscious direction of resources toward ISIS's operational needs, and accepting that argument would make every recommendation algorithm a potential basis for ATA liability whenever any user commits terrorism anywhere in the world.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under Halberstam v. Welch, which Congress expressly incorporated as the governing framework for JASTA aiding-and-abetting liability, the defendant must provide knowing and substantial assistance to the specific act of terrorism causing the plaintiff's injury \u2014 not merely to a terrorist organization's general operations. Twitter's provision of a general-purpose platform, even with knowledge that ISIS used it, does not constitute the kind of targeted, substantial assistance to the specific Reina nightclub attack required under \u00a72333(d)(2); the connection between Twitter's platform services and this particular attack is far too attenuated to satisfy the causation and specificity requirements embedded in traditional aiding-and-abetting doctrine. Adopting the respondents' broader theory would effectively transform every general-purpose internet platform into an insurer against terrorism whenever a bad actor uses their services, a sweeping expansion of liability that Congress did not clearly authorize and that would raise profound institutional concerns about judicial overreach into complex policy questions better resolved by the legislative branch. The narrow, minimalist ruling here \u2014 holding that general platform services without specific nexus to the particular terrorist act cannot satisfy JASTA's aiding-and-abetting standard \u2014 preserves institutional legitimacy while leaving Congress free to legislate more targeted liability if it chooses.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Applying the Halberstam framework as Congress explicitly incorporated into JASTA, the plaintiffs must demonstrate that Twitter provided knowing and substantial assistance to ISIS's tortious acts, not merely that it operated a general-purpose platform that bad actors exploited. The text of 18 U.S.C. \u00a7 2333(d)(2) requires 'knowing' assistance, and the original public meaning of 'aiding and abetting' at common law demanded a conscious, culpable participation in the wrongdoing \u2014 Twitter's neutral, algorithm-driven platform operations, applied uniformly to all users, do not satisfy this demanding standard absent specific, directed assistance to the particular terrorist enterprise causing the injury. While Halberstam does permit liability for assistance to a general unlawful enterprise rather than a specific act, the defendant there actively and knowingly participated in the criminal scheme by laundering proceeds; Twitter's provision of a general communications platform to billions of users, without more particularized knowledge and assistance directed at ISIS's operational activities, falls categorically short of that threshold. Furthermore, as a textualist matter, stretching 'aiding and abetting' to encompass passive platform provision would exceed the statutory text and effectively nullify Section 230's carefully crafted immunity framework, which Congress deliberately preserved alongside JASTA.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under JASTA's aiding and abetting standard, as informed by Halberstam v. Welch, a defendant must be 'generally aware of his role as part of an overall illegal or tortious activity' and must 'knowingly and substantially assist the principal violation.' Twitter's provision of a general-purpose platform to all users, including ISIS, does not satisfy the 'knowing and substantial assistance' requirement when there is no specific nexus between Twitter's algorithmic recommendations and the particular 2017 Istanbul attack \u2014 the platform's neutral, passive hosting of content, even with awareness that bad actors use it, falls far short of the deliberate, targeted facilitation that Halberstam contemplated. The textual requirements of 18 U.S.C. \u00a7 2333(d)(2) demand more than generalized awareness that a terrorist organization uses a platform; to hold otherwise would effectively transform every social media company into an insurer against any terrorist act committed by anyone who ever used their service, a result Congress did not intend and the statutory text does not support. Furthermore, extending ATA liability on these facts would create severe practical consequences for internet platforms and free expression, and the proper vehicle for addressing platform responsibility for terrorist content is legislative action, not judicial expansion of secondary liability doctrine.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While my heart goes out to the Taamneh family and all victims of terrorism, the statutory text of JASTA and the Halberstam framework Congress explicitly incorporated require that a defendant knowingly provide substantial assistance to the specific act of terrorism causing the plaintiff's injuries \u2014 not merely to a terrorist organization's general enterprise. Twitter's provision of a general-purpose platform, even with algorithmic amplification, lacks the requisite nexus to the specific 2017 Istanbul Reina attack, as there is no showing that Twitter's assistance was directed at or substantially contributed to that particular attack. Although Halberstam does permit liability for aiding a broader criminal enterprise, the facts here \u2014 where Twitter had policies against terrorist content and no direct interaction with the Reina attack perpetrators \u2014 fall short of the knowing and substantial assistance standard, distinguishing this from the sustained, integral assistance the Halberstam defendant provided to the burglary enterprise. I write separately to emphasize that Congress retains the power to craft more targeted legislation holding platforms accountable for systematic facilitation of terrorism, and courts should not stretch JASTA beyond its textual limits in ways that could inadvertently chill legitimate speech and access to information for vulnerable communities worldwide.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Under JASTA's aiding and abetting standard, which Congress explicitly grounded in Halberstam v. Welch, liability requires knowing and substantial assistance directed at the specific act of terrorism causing the plaintiff's injuries \u2014 not merely general platform provision to all users including bad actors. Twitter's algorithmic recommendation systems and failure to remove content, while troubling, do not constitute the kind of targeted, knowing assistance to the specific 2017 Reina nightclub attack that JASTA demands; the nexus between Twitter's generalized platform services and this particular attack is far too attenuated to satisfy Halberstam's framework. A workable and coherent reading of \u00a72333(d)(2) must distinguish between platforms that actively and knowingly assist a specific terrorist act versus those that provide neutral, general-purpose services that bad actors exploit \u2014 otherwise the statute would sweep in virtually every internet intermediary for any terrorist use of their platforms, producing an unworkable standard that Congress could not have intended. Consistent with the statutory text, legislative history, and the need for administrable rules, the complaint fails to allege the requisite substantial and knowing assistance tied to this specific attack.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Reading JASTA's aiding and abetting provision according to its plain meaning, as informed by Congress's explicit incorporation of Halberstam v. Welch as the governing framework, the statute requires that a defendant be 'generally aware of his role as part of an overall illegal or tortious activity' and 'knowingly and substantially assist the principal violation.' Twitter's provision of a general-purpose platform to all comers \u2014 including ISIS users \u2014 without more specific, conscious, and culpable assistance directed at the terrorist enterprise does not satisfy the 'knowing and substantial assistance' prong under any fair reading of Halberstam. The Halberstam defendant actively laundered proceeds integral to the burglary enterprise over five years with full awareness of her role; Twitter's algorithmic systems, by contrast, operated neutrally across billions of users without the requisite conscious, targeted facilitation of ISIS's specific terrorist activities. Consistent with my commitment to reading statutes as written rather than stretching liability to achieve policy outcomes, and applying the rule of lenity where the scope of civil liability is genuinely ambiguous, I would hold that generalized platform access and neutral algorithmic recommendation do not constitute the 'substantial assistance' JASTA demands.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under Halberstam v. Welch's framework, which Congress expressly incorporated into JASTA, aiding and abetting liability requires knowing and substantial assistance to the tortious enterprise, but even Halberstam's broad enterprise-liability theory demands a meaningful nexus between the defendant's assistance and the unlawful activity \u2014 Twitter's provision of a general-purpose platform to all users, including ISIS, without specific direction toward or substantial connection to the Reina nightclub attack, falls short of the 'knowing' and 'substantial assistance' elements required. Imposing liability on platforms merely for hosting terrorist content or operating recommendation algorithms that incidentally amplify such content would effectively transform Section 230's carefully calibrated immunity framework into a nullity and create an unworkable standard requiring platforms to perfectly police all user content under threat of terrorism liability. From a practical workability standpoint \u2014 a consideration central to my judicial philosophy \u2014 allowing this theory of liability would expose every major internet platform to ATA suits whenever a terrorist who used their services commits an attack anywhere in the world, a result Congress did not intend when enacting JASTA and one that would have severe institutional and economic consequences the Court should be cautious about endorsing without clearer congressional direction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Applying the Halberstam framework that Congress expressly incorporated into JASTA, civil aiding and abetting liability requires that a defendant's assistance be knowingly directed at the tortious enterprise with substantial connection to the specific harm alleged. While Halberstam permits liability for assisting a general unlawful enterprise rather than a specific act, the defendant in that case had direct, sustained, and knowing participation in the criminal enterprise itself \u2014 laundering proceeds that were indispensable to the burglary operation's continuation. Twitter's provision of a general-purpose platform to hundreds of millions of users, even with knowledge that some bad actors misuse it, does not rise to the level of 'knowing' and 'substantial' assistance under a rigorous textual and common-law reading of JASTA's aiding and abetting provision, particularly absent allegations of a direct nexus between Twitter's conduct and the specific Reina attack. Imposing liability on this attenuated theory would stretch the statutory text beyond its original public meaning and effectively transform every general-purpose internet platform into an insurer against all terrorist misuse of its services, a result the statutory text and legislative history do not support.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under the Halberstam framework that Congress explicitly incorporated into JASTA, aiding and abetting liability requires that the defendant be 'generally aware of his role as part of an overall illegal or tortious activity' and provide 'knowing and substantial assistance' to the principal violation. While Twitter's failure to remove ISIS content and its algorithmic amplification raise serious concerns, the Taamneh family has not sufficiently alleged that Twitter's provision of a general-purpose platform constituted knowing and substantial assistance specifically connected to the 2017 Istanbul Reina attack \u2014 the relevant 'act of international terrorism' under 18 U.S.C. \u00a7 2333. The Halberstam precedent itself is instructive: even there, the defendant's assistance was deeply integrated into the specific criminal enterprise's operational needs, whereas here Twitter's platform services were provided indiscriminately to billions of users, making the causal and mens rea nexus to this particular attack too attenuated to satisfy JASTA's demanding standard. Imposing liability on this record would effectively transform platforms into insurers against all terrorist misuse of general communication tools, a result inconsistent with both JASTA's text and the practical realities of how the internet functions, though I remain deeply troubled by platforms' documented failures to act on repeated warnings about ISIS activity.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.897,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "21-1496",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Twitter and other social media platforms can be held liable under the Anti-Terrorism Act (ATA) for aiding and abetting ISIS terrorism by allegedly providing material support through their platforms' general services and recommendation algorithms.",
+      "legal_provision": "Anti-Terrorism Act (ATA), 18 U.S.C. \u00a7 2333, specifically the aiding and abetting and conspiracy liability provisions added by the Justice Against Sponsors of Terrorism Act (JASTA), as well as Section 230 of the Communications Decency Act, 47 U.S.C. \u00a7 230",
+      "petitioner_position": "Twitter argues that its general, widely available platform services do not constitute 'substantial assistance' to ISIS terrorism as required for aiding and abetting liability under JASTA, contending that merely hosting terrorist content without specific, knowing facilitation of a particular act of terrorism is insufficient to impose secondary liability, and that imposing such liability would have devastating consequences for internet platforms and online communication broadly",
+      "respondent_position": "The Taamneh family, relatives of a victim of the 2017 Istanbul Reina nightclub terrorist attack carried out by ISIS, argues that Twitter knowingly allowed ISIS to use its platform to recruit, radicalize, and spread propaganda, and that Twitter's algorithmic recommendation systems actively amplified ISIS content, thereby providing substantial assistance to ISIS's terrorist activities sufficient to establish aiding and abetting liability under JASTA",
+      "key_precedents": [
+        "Gonzalez v. Google LLC (companion case, No. 18-16700, Ninth Circuit)",
+        "Halberstam v. Welch, 705 F.2d 472 (D.C. Cir. 1983) - foundational aiding and abetting standard",
+        "Fields v. Twitter, Inc. (prior related litigation)",
+        "Force v. Facebook, Inc. (Second Circuit ATA social media liability case)",
+        "Boim v. Holy Land Foundation for Relief and Development (Seventh Circuit ATA liability standard)",
+        "Section 230 Communications Decency Act precedents from Ninth Circuit",
+        "Holder v. Humanitarian Law Project, 561 U.S. 1 (2010) - material support to terrorism"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The conference has reached a remarkable unanimity, and I find the core reasoning sound: JASTA's incorporation of the Halberstam framework requires knowing and substantial assistance to the tortious enterprise, and Twitter's neutral, algorithmically undifferentiated platform services simply do not satisfy that standard. Justice Kagan's pragmatic observation that extending liability here would render the statute unworkable and sweep in virtually every internet intermediary is particularly persuasive from an institutional legitimacy standpoint \u2014 courts should not expand secondary liability in ways that effectively conscript entire industries without clear congressional authorization. Justice Sotomayor's separate emphasis that Congress retains power to craft more targeted legislation is exactly the kind of narrow, institutionally humble framing I would incorporate into the majority opinion, preserving space for legislative action while avoiding judicial overreach. As Chief Justice, I would assign the opinion with instructions to write narrowly on the Halberstam 'knowing and substantial assistance' elements as applied to these specific facts, explicitly leaving open whether more targeted, knowing assistance to a specific terrorist act could give rise to liability, and avoiding unnecessary resolution of Section 230 questions.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have converged on a sound reading of JASTA's text and the Halberstam framework, and I find the analysis compelling from an originalist standpoint. Justice Alito correctly emphasizes that the legislative record confirms liability 'should only attach to persons who have actual knowledge that they are directly providing substantial assistance to a designated foreign terrorist organization in connection with the commission of an act of international terrorism' \u2014 and while I am generally skeptical of legislative history as a tool of statutory interpretation, here it reinforces rather than contradicts the plain text of \u00a7 2333(d)(2). The original public meaning of 'aiding and abetting' at common law, which Congress codified by reference to Halberstam, required a meaningful nexus between the assistance rendered and the specific tortious enterprise \u2014 not the kind of attenuated, algorithmically neutral facilitation that Twitter provided to billions of users indiscriminately. Justice Barrett's observation that even Halberstam's enterprise liability theory required the defendant's active, knowing participation in the core criminal operation \u2014 not mere passive provision of services that bad actors happen to exploit \u2014 confirms that extending liability here would stretch the statutory text beyond its original meaning and effectively rewrite the scope of secondary liability in a manner that belongs to Congress, not this Court.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The unanimity of my colleagues across the ideological spectrum reinforces my confidence that the Halberstam framework, as Congress incorporated it into JASTA, simply cannot bear the weight the Taamneh family's theory requires. Justice Kagan's pragmatic observation is particularly apt: extending liability to general-purpose platforms for hosting content by bad actors absent a direct nexus to the particular terrorist act would render the statute unworkable and sweep in virtually every internet intermediary \u2014 a result Congress plainly did not intend. Justice Thomas's originalist point about the common law meaning of 'aiding and abetting' requiring a meaningful nexus between assistance and the specific injurious act further confirms that Twitter's neutral, algorithmic services to billions of users cannot constitute the 'knowing substantial assistance' JASTA demands. The strongest argument on the other side \u2014 that Halberstam permits enterprise-level liability without requiring assistance to the specific wrongful act \u2014 is answered by Justice Barrett's careful observation that even in Halberstam, the defendant actively and knowingly participated in the ongoing criminal enterprise's core operations, which is categorically different from Twitter's undifferentiated platform services applied neutrally across all users.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a well-reasoned unanimity, and I find Justice Jackson's careful distinction between passive hosting and active algorithmic amplification particularly important to preserve in our opinion \u2014 even as we rule for Twitter, we must not foreclose future cases where a platform consciously continues facilitating specific terrorist recruitment or operational planning after concrete notice. Justice Kagan's pragmatic framing remains the analytical anchor for me: the workability concern is not merely practical but doctrinal, because a statute that sweeps in every internet intermediary cannot reflect what Congress intended when it incorporated Halberstam's carefully bounded framework. The strongest argument for Respondents \u2014 that Halberstam's enterprise liability theory dispenses with the need for nexus to the specific act \u2014 is answered by the critical observation that Linda Hamilton in Halberstam was actively laundering criminal proceeds with conscious awareness of her role, not providing neutral infrastructure to billions of users some of whom happened to be terrorists. I maintain my position for Petitioner and would urge the majority opinion to explicitly preserve the possibility that more targeted allegations showing conscious, knowing facilitation of specific terrorist activity after notice could satisfy JASTA's requirements, protecting vulnerable communities through doctrinal precision rather than overreach.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find my colleagues' reasoning largely sound, though I want to sharpen one point that distinguishes my pragmatic textualist approach from some of the more originalist framings offered by Justices Thomas and Gorsuch. Justice Sotomayor's observation \u2014 that Halberstam's enterprise liability theory still requires a 'meaningful nexus' between the assistance and the harmful activities \u2014 is the analytically critical move here, and I agree with her that the complaint's allegations of neutral, algorithmic platform services don't clear that bar. What I would emphasize, building on Justice Jackson's careful parsing of Halberstam's three-part framework, is that 'generally aware of his role' requires something more than constructive knowledge that a platform is used by bad actors \u2014 it demands conscious awareness of participation in the tortious enterprise itself, which Twitter's undifferentiated service provision simply cannot supply. The pragmatic concern I would add to my colleagues' analysis is that a workable JASTA standard must be administrable: if general platform hosting plus algorithmic amplification suffices, courts will face impossible line-drawing problems distinguishing liable from non-liable platforms, confirming that Congress did not intend this result when it incorporated Halberstam's carefully bounded framework.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached remarkable unanimity, and reviewing my colleagues' arguments reinforces rather than undermines my textual analysis. Justice Thomas's point about the common law meaning of 'aiding and abetting' requiring a meaningful nexus between assistance and the specific injurious act is particularly well-taken from an originalist perspective \u2014 the original public meaning of secondary liability never contemplated that a neutral instrumentality provider would be conscripted into liability merely because bad actors exploited generally available services. Justice Kagan's pragmatic observation that extending liability here would render the statute unworkable by sweeping in virtually every internet intermediary confirms that no plausible reading of JASTA's text supports the Ninth Circuit's approach. The strongest argument for respondents \u2014 that Halberstam permits enterprise-level liability without requiring assistance to the specific wrongful act \u2014 is answered by the critical distinction Justice Barrett draws: Halberstam's defendant actively and knowingly participated in the core criminal operation, whereas Twitter's neutral algorithmic recommendations applied across billions of users without conscious direction toward ISIS's enterprise cannot satisfy the 'generally aware of his role' requirement in any meaningful sense.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is instructive \u2014 when Justices Sotomayor, Kagan, and Jackson reach the same destination as Justices Thomas, Alito, and Gorsuch through different methodological paths, that convergence suggests the legal answer is relatively clear. Justice Kagan's pragmatic observation that extending liability to general-purpose platforms absent a direct nexus to the particular terrorist act 'would render the statute unworkable and sweep in virtually every internet intermediary' resonates strongly with my institutionalist concerns about the Court's role \u2014 we should not be the vehicle for a dramatic expansion of secondary liability that Congress has not clearly authorized, particularly given the severe practical consequences for internet infrastructure. The strongest argument for the Respondents would be that Halberstam's enterprise liability theory does not require nexus to the specific act, only to the general enterprise \u2014 but as Justice Barrett correctly notes, even in Halberstam the defendant actively and knowingly participated in the core operations of the criminal enterprise, not merely provided neutral services to billions of users some of whom happened to be criminals. My institutionalist methodology counsels that where Congress has not spoken clearly to impose liability on this scale, and where the practical consequences would be so sweeping, judicial restraint requires us to hold the line at what the statutory text and incorporated common law framework actually demand.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find my colleagues' reasoning largely sound and consistent with my own textualist and originalist analysis. Justice Thomas correctly identifies that the original public meaning of 'aiding and abetting' at common law required a meaningful nexus between the assistance rendered and the specific injurious act \u2014 Twitter's neutral algorithmic recommendations, applied indiscriminately across billions of users, simply cannot satisfy the 'knowing' element that JASTA's text demands when read against the Halberstam framework Congress expressly incorporated. Justice Kagan's pragmatic observation that extending liability here would render the statute unworkable and sweep in virtually every internet intermediary reinforces my textual conclusion: when a statutory construction produces absurd or boundless results, that is strong evidence the text does not support that construction. I write separately to emphasize that the strongest counterargument \u2014 that Halberstam permits enterprise-level liability without requiring assistance to the specific wrongful act \u2014 is distinguishable because even Halberstam's defendant had direct, knowing, and repeated involvement in the criminal operation's core activities, whereas Twitter's platform services are genuinely neutral infrastructure that ISIS exploited without Twitter's conscious participation in the terrorist enterprise.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a sound and well-reasoned unanimity, and I find my position strengthened rather than challenged by this deliberation. Justice Barrett's careful articulation of why even Halberstam's enterprise liability theory cannot save the Respondents' claim is particularly compelling \u2014 the critical distinction is not merely that Halberstam permits enterprise-level liability without nexus to the specific act, but that Linda Hamilton's conduct in that case involved direct, knowing, repeated participation in the criminal operation's core functions, which is categorically different from Twitter's genuinely neutral algorithmic infrastructure applied indiscriminately across billions of users. I write to preserve what I flagged in my initial reasoning: the majority opinion should explicitly leave open whether more targeted allegations \u2014 showing a platform consciously continued facilitating specific terrorist recruitment or operational planning after concrete, particularized notice \u2014 could satisfy JASTA's requirements, because my background as a public defender makes me acutely aware that overly broad immunity doctrines can insulate powerful actors from accountability in ways Congress did not intend. Justice Kagan's administrability concern reinforces this limiting principle: a workable standard must distinguish between passive hosting and conscious, knowing participation in a terrorist enterprise's operations, and today's ruling should be understood as drawing that line at the facts presented here, not as categorically immunizing platforms from all secondary liability under JASTA.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under the Halberstam framework that Congress expressly incorporated into JASTA, aiding and abetting liability requires that the defendant be 'generally aware of his role as part of an overall illegal or tortious activity' and 'knowingly and substantially assist the principal violation.' The Taamneh family's allegations that Twitter provided general platform services and algorithmic recommendations to all users \u2014 including ISIS \u2014 do not satisfy the knowing and substantial assistance requirements because Twitter's neutral, widely available services lack the requisite nexus to the specific act of terrorism at the Reina nightclub. Consistent with my preference for narrow rulings that preserve institutional legitimacy, I would hold that permitting ATA liability on these facts would stretch JASTA's text beyond what Congress intended and would effectively conscript every internet platform into a counter-terrorism enforcement role without clear statutory authorization, a result better left to legislative rather than judicial action. This narrow holding avoids unnecessarily resolving the broader Section 230 questions and leaves open the possibility that more targeted, knowing assistance to a specific terrorist act could still give rise to liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Applying the Halberstam framework as Congress codified it in JASTA, the text of 18 U.S.C. \u00a7 2333(d)(2) requires that a defendant provide 'substantial assistance' with actual knowledge that it is playing a role in a specific wrongful act \u2014 not merely that a platform provides neutral, generally available services to the public at large, including bad actors. Twitter's provision of standard platform services to all users, including ISIS members, does not satisfy the knowing substantial assistance element any more than a telephone company would be liable for calls made by terrorists; the original public meaning of 'aiding and abetting' at common law required a meaningful nexus between the assistance rendered and the specific injurious act, not mere general facilitation of an enterprise's existence. While Halberstam does permit liability for assisting a general unlawful enterprise, the defendant there had direct, knowing, and repeated involvement in the criminal operation itself \u2014 a far cry from Twitter's algorithmic recommendations that operate neutrally across billions of users without specific direction toward ISIS's 2017 Istanbul attack. Imposing liability on this attenuated theory would effectively conscript private platforms into a surveillance and enforcement role that Congress, consistent with its Section 230 framework, has not clearly mandated, and courts must not expand statutory liability beyond what the text and its original meaning plainly support.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under JASTA's aiding and abetting standard, as informed by Halberstam v. Welch, a defendant must 'knowingly and substantially assist the principal violation' \u2014 meaning the specific act of international terrorism at issue, not merely a terrorist organization's general activities. The legislative history makes this explicit: Representative Goodlatte clarified that liability 'should only attach to persons who have actual knowledge that they are directly providing substantial assistance to a designated foreign terrorist organization in connection with the commission of an act of international terrorism.' Twitter's provision of general, widely available platform services to all users \u2014 including ISIS members \u2014 does not constitute the knowing, substantial assistance to the specific 2017 Istanbul Reina nightclub attack required by the statute's text and the Halberstam framework Congress incorporated. Allowing liability based solely on a platform's general services and neutral recommendation algorithms would stretch the statutory text beyond recognition and impose catastrophic practical consequences on internet infrastructure, contrary to the careful, targeted scope Congress intended when it enacted JASTA.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While my heart goes out to the Taamneh family and all victims of ISIS terrorism, the legal standard under JASTA as informed by Halberstam v. Welch requires more than general platform services to constitute 'substantial assistance' to a specific act of terrorism. The complaint fails to allege that Twitter's general, widely available services were specifically directed at facilitating the 2017 Istanbul Reina attack, and even under Halberstam's enterprise liability theory \u2014 which allowed liability for assisting a general criminal enterprise \u2014 there must be a meaningful nexus between the assistance provided and the terrorist organization's harmful activities, not merely passive hosting of content. Critically, the algorithmic recommendation systems, while troubling in their potential amplification of extremist content, do not without more demonstrate the 'knowing' and 'substantial' assistance required; Twitter's algorithms operated neutrally across all content, and the platforms did take steps to remove terrorist content, distinguishing this from the deliberate laundering assistance in Halberstam. I write separately to emphasize that Congress retains the power to craft more targeted legislation that could impose liability on platforms that knowingly and repeatedly fail to act on specific terrorist content after notice, which would better protect vulnerable communities from terrorism while preserving the open internet.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under JASTA's aiding and abetting standard, which Congress explicitly anchored to Halberstam v. Welch, a defendant must knowingly and substantially assist the principal violation \u2014 meaning the specific act of terrorism that caused the plaintiff's injury, not merely the terrorist organization's general operations. Twitter's provision of widely available platform services to all users, without specific knowledge of or targeted assistance toward the 2017 Reina nightclub attack, cannot satisfy the 'knowing substantial assistance' element as Halberstam construes it. A pragmatic reading of the statutory text and purpose confirms that extending liability to general-purpose platforms for hosting content by bad actors \u2014 absent a direct nexus to the particular terrorist act \u2014 would render the statute unworkable and sweep in virtually every internet intermediary, a result Congress did not intend when it incorporated Halberstam's carefully calibrated framework. The Taamneh family's allegations, while sympathetic, describe Twitter's passive hosting and algorithmic amplification of ISIS content generally, which falls short of the conscious, particularized facilitation that JASTA demands.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Reading JASTA's text carefully alongside the Halberstam framework Congress explicitly incorporated, aiding and abetting liability requires that a defendant be 'generally aware of his role as part of an overall illegal or tortious activity' and 'knowingly and substantially assist the principal violation.' Twitter's provision of general, widely available platform services to all users \u2014 including ISIS \u2014 does not satisfy the knowing and substantial assistance elements when the platform neither designed its services for terrorist use nor took affirmative steps to facilitate the specific attack at issue. The plain meaning of 'knowingly' demands more than constructive awareness that bad actors use a neutral platform; it requires conscious awareness of one's role in the tortious enterprise, and providing algorithmically neutral recommendation services to billions of users, some of whom happen to be terrorists, falls well short of that threshold. Extending liability on these facts would effectively conscript every general-purpose internet platform into liability for the independent criminal acts of their users, a result the statutory text does not compel and that raises serious separation-of-powers concerns about courts rewriting the scope of secondary liability beyond what Congress enacted.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under Halberstam v. Welch as incorporated by JASTA, aiding and abetting liability requires that a defendant provide knowing, substantial assistance to the specific wrongful act causing injury \u2014 not merely that a defendant's neutral, generally available services were used by a tortfeasor in furtherance of a broader criminal enterprise. Twitter's provision of standard platform services and algorithmic recommendations to all users, without specific, conscious awareness of and assistance to the particular 2017 Istanbul attack, fails to satisfy the 'knowing' and 'substantial assistance' elements as properly construed. Imposing secondary liability on platforms for generalized services would represent a dramatic and unprecedented expansion of ATA liability with severe practical consequences for internet communication, counseling judicial restraint in the absence of clear congressional direction to that effect. While Halberstam does permit liability for assistance to a general enterprise, the connection between Twitter's undifferentiated platform services and this specific act of terrorism is too attenuated to meet the statutory threshold Congress established in JASTA.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Applying the Halberstam framework that Congress expressly incorporated into JASTA, the Taamneh family's complaint fails to establish that Twitter 'knowingly and substantially assisted' the particular act of terrorism at the Reina nightclub. The text of 18 U.S.C. \u00a7 2333(d)(2) requires more than passive hosting of content or the provision of neutral, widely available platform services to all users indiscriminately \u2014 the defendant must be 'generally aware of his role as part of an overall illegal or tortious activity' in a meaningful, particularized sense. While Halberstam does permit liability for assistance to a general criminal enterprise rather than a specific act, the defendant there actively and knowingly participated in the ongoing burglary enterprise's core operations; Twitter's algorithmic recommendations, applied neutrally across billions of users, do not rise to the level of conscious, culpable participation in ISIS's terrorist enterprise that the statute demands. Imposing liability on this attenuated theory would stretch JASTA's text beyond its original public meaning and effectively conscript every general-purpose internet platform into an insurer against terrorism whenever bad actors exploit their services.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under Halberstam v. Welch's three-part framework\u2014which Congress explicitly incorporated into JASTA\u2014the Taamneh family must demonstrate that Twitter was 'generally aware of its role as part of an overall illegal or tortious activity' and provided 'knowing and substantial assistance' to the principal violation. While I am deeply sympathetic to the victims and recognize the real harms of terrorist content online, Twitter's provision of general, widely available platform services to all users, including ISIS, does not rise to the level of 'knowing substantial assistance' to a specific act of terrorism without allegations that Twitter consciously and culpably participated in the particular terrorist enterprise that caused the Istanbul attack. The Halberstam framework, though it does not require assistance with the specific wrongful act itself\u2014as illustrated by the defendant who helped launder burglary proceeds without participating in the burglaries\u2014still requires meaningful, knowing participation in the broader tortious enterprise, not merely passive hosting of content that bad actors exploit. Imposing ATA liability on platforms for algorithmic recommendations that are applied neutrally across all content, without specific knowledge of facilitation of terrorist activity, would stretch secondary liability beyond what JASTA's text and Halberstam's framework can bear, with severe practical consequences for online communication that Congress did not clearly authorize.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.898,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "docket": "25-112",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the execution of a geofence warrant \u2014 compelling Google to disclose location data of all devices near a crime scene \u2014 constitutes an unreasonable search in violation of the Fourth Amendment.",
+      "legal_provision": "Fourth Amendment to the United States Constitution, prohibiting unreasonable searches and seizures and requiring warrants supported by probable cause particularly describing the place to be searched and persons or things to be seized.",
+      "petitioner_position": "The geofence warrant violated the Fourth Amendment because it constituted a broad, suspicionless dragnet search of the private location data of millions of innocent individuals who happened to be near the crime scene, lacking the particularity required by the Fourth Amendment; the search invaded reasonable expectations of privacy in highly personal digital data regardless of whether a warrant was obtained, as the warrant itself was constitutionally defective.",
+      "respondent_position": "Based on the available documents, the government's position is not directly detailed in the provided briefs, as all submitted documents are from amici supporting the petitioner or supporting neither party; however, the implied government position is that the geofence warrant satisfied Fourth Amendment requirements because law enforcement obtained judicial approval before executing the search, and that location data shared with a third party (Google) falls outside Fourth Amendment protection under the third-party doctrine.",
+      "key_precedents": [
+        "Katz v. United States, 389 U.S. 347 (1967) \u2014 established the reasonable expectation of privacy test for Fourth Amendment searches",
+        "Carpenter v. United States, 585 U.S. 296 (2018) \u2014 held that government acquisition of cell-site location information constitutes a Fourth Amendment search, limiting the third-party doctrine in the digital context",
+        "Lon Fuller, The Case of the Speluncean Explorers, 62 Harv. L. Rev. 616 (1949) \u2014 cited as jurisprudential reference in amicus brief by Brian L. Owsley"
+      ],
+      "legal_complexity": "Complex \u2014 this case sits at the intersection of Fourth Amendment doctrine, digital privacy law, emerging surveillance technology, and the limits of the third-party doctrine, requiring the Court to extend or refine precedents like Katz and Carpenter to a novel investigative technique with sweeping implications for reverse warrants broadly, affecting millions of innocent individuals' data and potentially reshaping law enforcement's use of technology-driven investigative tools."
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The conference has reached a strong consensus, and I find the core reasoning sound: judicial pre-approval does not cure the constitutional defect of a general warrant, as Justice Gorsuch correctly notes the Founders condemned writs of assistance precisely because magistrates were issuing them. Justice Alito's remaining concern \u2014 that we should preserve space for more carefully tailored geofence processes \u2014 is one I share and can address through opinion-writing rather than by changing my vote. As Chief Justice, I would assign myself the majority opinion and write it narrowly along the lines Justice Kavanaugh and Justice Barrett suggest: holding only that this specific warrant, lacking meaningful geographic and temporal constraints and any individualized suspicion predicate at the moment of initial compelled disclosure, is constitutionally defective, while explicitly reserving judgment on whether more rigorously constrained geofence warrants with genuine ex ante particularity might survive scrutiny. This narrow approach honors my minimalist judicial philosophy, addresses Justice Alito's legitimate law enforcement concerns without categorical prohibition, and should hold the 8-1 coalition together while producing a workable rule for lower courts.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that the voluntary opt-in to Google's Location History services distinguishes this case from Carpenter's passive CSLI collection, and that judicial pre-approval with geographic and temporal constraints can satisfy the Fourth Amendment. But this argument fails on originalist grounds that I find dispositive: the particularity requirement was designed precisely to prevent general warrants, and the voluntariness of disclosure to a third party is irrelevant to whether the warrant itself satisfies the constitutional text. A warrant that cannot name a suspect \u2014 that instead compels disclosure of data on millions of persons to generate suspects from the innocent \u2014 is a general warrant in every meaningful sense, regardless of magistrate approval; as Justice Gorsuch correctly notes, judicial approval of a general warrant does not cure its constitutional deficiency, a principle well-established even before the Founding. While I continue to harbor deep reservations about the Katz reasonable-expectation-of-privacy framework as an atextual judicial invention, the original public meaning of the particularity clause independently condemns this dragnet, and Carpenter's recognition that comprehensive digital location data cannot be surrendered to the third-party doctrine reinforces rather than undermines that textual conclusion.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Gorsuch's point about the structural flaw in the three-step process has ultimately moved me: if the initial compelled disclosure of all devices' location data within the geofence *is* the search, then no subsequent narrowing protocol can retroactively cure the constitutional defect, and my instinct to remand for particularization analysis cannot save a warrant that was constitutionally deficient at the moment Google was compelled to produce data on millions of uninvolved individuals. I had been holding onto the distinction between area-based warrants and person-based warrants, but Justice Barrett's observation that the particularity requirement's original public meaning cannot accommodate a warrant that by design sweeps in millions of innocent individuals \u2014 regardless of how precisely geographic boundaries are drawn \u2014 is a point I cannot adequately answer within my own textualist methodology. I maintain, however, that this holding should be written narrowly consistent with Chief Justice Roberts' approach: we should not categorically prohibit all geofence warrants, but should hold only that this specific warrant \u2014 lacking meaningful constraints on initial mass disclosure and any individualized suspicion predicate \u2014 fails the particularity requirement, while preserving space for more rigorously tailored geofence processes that build genuine particularity into the warrant itself before any data is disclosed. My shift is genuine but tempered by concern that an overbroad ruling will foreclose legitimate law enforcement tools that a more carefully crafted warrant process could constitutionally employ.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that geofence warrants are distinguishable from Carpenter because they are area-based, time-limited, and judicially approved, and that the proper remedy is heightened particularity requirements rather than categorical prohibition. But this argument fundamentally misunderstands the constitutional defect: judicial approval of a general warrant does not cure its generality, as the Founders knew well that magistrates in England routinely issued writs of assistance. The constitutional infirmity is not the absence of a warrant but the absence of particularity \u2014 a warrant that sweeps in millions of innocent people cannot be 'particularly' describing the persons to be seized no matter how carefully a judge reviews it. Justice Alito's opt-in distinction also fails because, as Carpenter recognized, the voluntary exposure doctrine cannot be stretched to cover data collection so comprehensive that it 'achieves near perfect surveillance' of citizens' movements \u2014 no reasonable person understands that sharing location data with Google for navigation purposes consents to becoming a suspect in any crime committed near any place they have ever been.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that the voluntary opt-in to Location History services and the existence of judicial pre-approval distinguish geofence warrants from the passive, unavoidable CSLI collection in Carpenter, and that the proper remedy is heightened particularity requirements rather than categorical prohibition. But this argument fails on two grounds. First, as Justice Barrett correctly identifies, the constitutional defect is not cured by the three-step disclosure process because the initial compelled production of all devices' location data within the geofence *is* the search \u2014 judicial approval of a general warrant does not transform it into a particular one, any more than a magistrate's signature on a writ of assistance would have satisfied the Founders. Second, Justice Alito's 'voluntary opt-in' distinction proves too much: Carpenter explicitly rejected the premise that voluntary disclosure to a third party categorically extinguishes Fourth Amendment protection when the data is comprehensive enough to reveal the privacies of life, and location data for millions of individuals across a geographic area is, if anything, more comprehensive than the targeted CSLI at issue there. I would hold the warrant constitutionally defective while acknowledging, consistent with Justice Roberts' narrower framing, that more carefully tailored geofence processes with genuine ex ante particularity \u2014 specific suspects, specific devices, or meaningfully constrained geographic and temporal parameters tied to individualized suspicion \u2014 might survive scrutiny in future cases.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that the voluntary opt-in to Location History distinguishes this from Carpenter's passive CSLI collection, and that judicial pre-approval with geographic and temporal constraints can satisfy the particularity requirement. But this argument fails under both text and original meaning: the Fourth Amendment's particularity requirement is not satisfied by judicial approval of a general warrant, as the Founders well understood that magistrates had been complicit in issuing writs of assistance. The 'voluntary' opt-in argument proves too much \u2014 users who enable Location History to navigate traffic have not consented to government dragnet searches of their movements, and Carpenter explicitly rejected the notion that sharing data with a third party for one purpose surrenders all Fourth Amendment protection in that data. Justice Barrett correctly identifies the critical structural flaw: the initial compelled disclosure of all devices' location data within the geofence *is* the search, and no subsequent narrowing process can retroactively cure the constitutional defect of that initial general rummaging \u2014 the particularity requirement must be satisfied at the warrant stage, not after the dragnet has already been cast.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's remand proposal deserves serious engagement \u2014 his instinct that categorical invalidation is too blunt an instrument, and that heightened particularity requirements might salvage carefully tailored geofence processes, reflects genuine institutionalist caution I share. But as Justice Kagan correctly identifies, the constitutional defect here is structural and cannot be cured by post-hoc narrowing: the initial compelled disclosure of all devices' location data within the geofence *is* the search, and judicial pre-approval of that initial dragnet does not transform it into a particular warrant any more than a magistrate's signature on a writ of assistance satisfied the Founders. I am persuaded by Chief Justice Roberts' narrow framing \u2014 we need not categorically prohibit all geofence warrants, only hold that this specific warrant, lacking meaningful ex ante constraints tied to individualized suspicion before the initial mass disclosure, fails the particularity requirement \u2014 which actually addresses Justice Alito's core concern about preserving legitimate law enforcement tools while still vindicating the constitutional right. The path forward is requiring genuine particularity built into the warrant before any data is disclosed, not permitting the dragnet first and narrowing second.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that the voluntary opt-in to Location History services distinguishes this case from Carpenter's passive CSLI collection, and that the warrant's three-step narrowing process provides meaningful constitutional protection. But this argument fails under both originalist methodology and Carpenter's doctrinal framework for two reasons: first, the 'voluntary' nature of opt-in is illusory given the practical necessity of smartphones in modern life, a point Carpenter explicitly addressed in rejecting mechanical third-party doctrine application; and second, the constitutional defect is not cured by post-hoc narrowing because the initial compelled disclosure of all devices' location data within the geofence is itself the search \u2014 judicial approval of a general warrant does not transform it into a particular one, as Justice Gorsuch correctly notes. Justice Alito's instinct to remand for particularization analysis rather than categorical invalidation has some appeal from a judicial minimalism standpoint, and I share Chief Justice Roberts' preference for a narrow holding, but the particularity requirement's original public meaning cannot accommodate a warrant that by design sweeps in millions of innocent individuals regardless of how precisely the geographic boundaries are drawn. The constitutional infirmity here is structural: a warrant that cannot describe the persons to be seized with any particularity beyond geographic proximity is not a constitutionally valid warrant, and no amount of subsequent narrowing can retroactively cure the initial dragnet disclosure.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito's respondent position \u2014 the most serious challenge to our emerging consensus \u2014 rests on two arguments I must directly address: first, that judicial pre-approval via probable cause satisfies the Fourth Amendment, and second, that voluntary opt-in to Google's Location History distinguishes this from Carpenter's passive CSLI collection. On the first point, as Justice Kagan correctly observes, judicial approval of a general warrant does not cure its constitutional deficiency \u2014 the Founders' specific horror at writs of assistance was that they were issued by magistrates, yet were still condemned as unconstitutional; the vice is in the warrant's structure, not merely its authorization. On the second point, Justice Alito's 'voluntary opt-in' distinction collapses under scrutiny: Carpenter explicitly rejected the notion that the third-party doctrine's voluntariness rationale applies when the comprehensive nature of the data collected transforms it into a detailed chronicle of private life, and the fact that some users affirmatively enabled Location History does not mean they consented to having that data swept into a suspicionless government dragnet targeting millions of innocent people. My background as a public defender compels me to emphasize what the aggregate data shows \u2014 these warrants disproportionately sweep communities of color, and the three-step disclosure process Justice Barrett rightly identifies as constitutionally insufficient actually obscures rather than cures the initial dragnet seizure. I remain firmly with the petitioner at heightened confidence.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Carpenter v. United States compels the conclusion that geofence warrants of this breadth constitute an unreasonable search under the Fourth Amendment. Just as Carpenter held that the comprehensive, retrospective nature of cell-site location information placed it beyond the reach of the third-party doctrine, a geofence warrant sweeps even more broadly \u2014 it is not targeted at a known suspect but instead casts a digital dragnet over every individual present in a geographic area, compelling disclosure of the private location data of millions of innocent persons who have no connection to any crime. The Fourth Amendment's particularity requirement exists precisely to prevent general warrants of this kind, and a warrant that necessarily encompasses vast numbers of innocent individuals cannot satisfy that requirement regardless of judicial pre-approval. I would write narrowly, however, declining to categorically invalidate all geofence warrants and instead holding only that warrants lacking meaningful geographic and temporal constraints \u2014 and lacking individualized suspicion as a predicate for the broader disclosure \u2014 fail constitutional scrutiny, leaving room for more carefully tailored investigative tools.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The geofence warrant is precisely the kind of general warrant the Founders designed the Fourth Amendment to prohibit. As the historical record makes clear, the particularity requirement was a direct response to writs of assistance and general warrants that allowed officers to search broadly without identifying a specific suspect \u2014 and a warrant compelling Google to disclose location data of all devices near a crime scene, sweeping up millions of innocent individuals, is constitutionally indistinguishable from those condemned instruments of arbitrary power. While I have serious reservations about Katz's reasonable expectation of privacy framework as an atextual gloss untethered from the Amendment's original public meaning, the original meaning of 'search' and the particularity requirement independently condemn this dragnet; Carpenter v. United States further confirms that the third-party doctrine cannot be mechanically applied to comprehensive digital location data without gutting the Fourth Amendment's core protections. Returning to first principles, the Fourth Amendment requires the government to identify a suspect before obtaining a warrant rather than searching the many in hopes of finding the one, and this warrant fails that foundational requirement.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While Carpenter v. United States (2018) carved a narrow exception to the third-party doctrine for comprehensive, long-term cell-site location information targeting a specific individual, geofence warrants are fundamentally different in that they are area-based, time-limited, and \u2014 critically \u2014 were executed pursuant to a judicial warrant supported by probable cause, satisfying the core Fourth Amendment requirement. The particularity concern is real and I would not dismiss it lightly, but the proper remedy is to require more precise geographic and temporal limitations in the warrant itself, not to categorically invalidate this investigative technique; law enforcement's practical need to identify unknown suspects at crime scenes is a legitimate governmental interest that the Fourth Amendment, properly read, accommodates when a neutral magistrate has approved the search. The third-party doctrine, though strained by digital realities, retains force here because Google voluntarily collected this data through users' affirmative opt-in to Location History services, distinguishing it from the passive, unavoidable CSLI collection in Carpenter. I would hold that geofence warrants can satisfy the Fourth Amendment when sufficiently particularized, and remand for analysis of whether this specific warrant met that standard rather than announcing a categorical prohibition.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Geofence warrants constitute precisely the kind of suspicionless dragnet search that the Fourth Amendment was designed to prohibit \u2014 they sweep up the intimate location data of millions of innocent individuals who happened to be near a crime scene, bearing no resemblance to the particularized warrants the Framers required. Carpenter v. United States compels this conclusion: Chief Justice Roberts' majority recognized that comprehensive digital location data reveals 'the privacies of life' and that the third-party doctrine cannot be mechanically applied to modern surveillance technologies that achieve a 'near perfect surveillance' of citizens, and a geofence warrant is categorically more invasive than the targeted individual CSLI at issue in Carpenter because it lacks even the threshold requirement of suspicion directed at any particular person. The Fourth Amendment's particularity requirement \u2014 that warrants must particularly describe 'the persons or things to be seized' \u2014 is fatally violated when law enforcement cannot identify any suspect at the time of the warrant's issuance and instead uses the warrant itself as a fishing expedition to generate suspects from a pool of innocent bystanders. As someone who has seen how surveillance tools disproportionately burden vulnerable communities and how dragnet searches chill the exercise of constitutional freedoms, I cannot countenance a rule that transforms Google's location database into a standing instrument of mass suspicionless surveillance available to any law enforcement agency that can articulate a crime scene.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Carpenter v. United States compels the conclusion that geofence warrants \u2014 even when judicially authorized \u2014 constitute constitutionally defective searches because the warrant itself fails the Fourth Amendment's particularity requirement by sweeping in location data of millions of innocent individuals who share no nexus to criminal activity beyond geographic proximity. The Carpenter majority's core insight was that comprehensive digital location data is categorically different from the discrete disclosures contemplated by Smith and Miller, and that logic applies with even greater force here: where Carpenter involved targeted tracking of one suspect, a geofence warrant inverts the constitutional order entirely, beginning with a place rather than a person and demanding that Google produce data on every device present \u2014 a suspicionless dragnet that the Framers' particularity requirement was designed precisely to prohibit. A warrant that cannot describe the persons to be searched with any particularity beyond 'whoever was near this location' is not a constitutionally valid warrant at all, regardless of judicial approval, because judicial approval of a general warrant does not cure its constitutional deficiency. I would hold that the third-party doctrine cannot be stretched to cover this area-based, population-wide data collection, and would require law enforcement to develop more targeted investigative techniques before invoking Fourth Amendment process.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Fourth Amendment's particularity requirement \u2014 demanding warrants 'particularly describing the place to be searched, and the persons or things to be seized' \u2014 is not a technicality but a structural guarantee against general warrants, the precise evil the Founders sought to abolish. A geofence warrant compelling disclosure of location data for every device within a geographic area is, by its very nature, a general warrant: it names no particular person, identifies no particular suspect, and sweeps in millions of innocent individuals based solely on their physical proximity to a crime scene. Carpenter v. United States (2018) already recognized that comprehensive digital location data implicates privacy interests so substantial that the third-party doctrine cannot simply dissolve them, and the reasoning there applies with even greater force here \u2014 where the search is not targeted at a known suspect's historical records but is instead an area-based dragnet designed to generate suspects from a pool of the innocent. Reading the Fourth Amendment's text according to its original and plain meaning, a warrant that fails to particularly describe the persons to be searched is not a warrant at all; it is precisely the kind of 'general, exploratory rummaging' the Amendment was written to forbid.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Carpenter v. United States (2018) established that the third-party doctrine does not automatically apply when the government compels comprehensive digital location data, recognizing that such data reveals the 'privacies of life' in ways the Founders could not have anticipated. A geofence warrant sweeping in location data from millions of wholly innocent individuals who have no nexus to criminal activity represents precisely the kind of 'general warrant' the Fourth Amendment's particularity requirement was designed to prohibit \u2014 it inverts the constitutional logic by identifying suspects from a mass of innocents rather than targeting a known suspect with probable cause. While I am cautious about broad rulings that could hamper legitimate law enforcement, the institutional credibility of the Court and the integrity of Fourth Amendment doctrine require that we draw a workable line: a warrant that lacks particularity as to the persons whose data is seized cannot be saved merely by judicial pre-approval, especially when it sweeps in data from individuals against whom there is zero individualized suspicion. I would hold the geofence warrant constitutionally defective under the Fourth Amendment's particularity clause as informed by Carpenter's recognition that comprehensive digital location surveillance demands heightened constitutional protection, while leaving room for more narrowly tailored geofence processes in future cases.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Applying the original public meaning of the Fourth Amendment's particularity requirement \u2014 that warrants must particularly describe 'the place to be searched, and the persons or things to be seized' \u2014 a geofence warrant compelling disclosure of location data for all devices within a geographic area fails this constitutional standard because it is not directed at any particular person suspected of wrongdoing but instead sweeps in the data of millions of innocent individuals. Carpenter v. United States (2018) is controlling and instructive: the Court recognized that the third-party doctrine cannot be mechanically applied to comprehensive digital location data given the 'seismic shifts in digital technology,' and the geofence warrant here is categorically more invasive than the targeted CSLI at issue in Carpenter because it is explicitly suspicionless as to the vast majority of individuals whose data is seized. The warrant's three-step disclosure process does not cure the constitutional defect \u2014 the initial compelled disclosure of all devices' location data within the geofence constitutes the search, and a warrant authorizing that initial dragnet lacks the particularity the Fourth Amendment demands regardless of subsequent narrowing steps. Methodological consistency with both the text's original meaning and Carpenter's doctrinal framework compels the conclusion that this reverse warrant technique, as executed, is constitutionally unreasonable.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Geofence warrants represent precisely the kind of 'seismic shift in digital technology' that Carpenter v. United States warned must be met with heightened Fourth Amendment scrutiny, as they sweep up the location data of millions of innocent individuals who have committed no wrong and are not suspected of any crime \u2014 a constitutionally intolerable dragnet that no mere judicial approval can cure. The Fourth Amendment's particularity requirement is not satisfied by a warrant that, by design, cannot identify its targets in advance and instead casts a suspicionless net over an entire geographic population; this is the antithesis of the Founders' specific concern about general warrants. My background as a public defender reinforces what the data makes plain: these tools fall disproportionately on communities of color and low-income neighborhoods, compounding equal protection concerns alongside the core Fourth Amendment violation. Carpenter's explicit rejection of 'wooden application' of the third-party doctrine to comprehensive digital location data forecloses the government's argument that voluntary disclosure to Google extinguishes the reasonable expectation of privacy that millions of people retain in the intimate, granular record of their daily movements.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.844,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "25-112",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the execution of a geofence warrant\u2014compelling Google to disclose location data for all devices within a geographic area during a specific time period\u2014constitutes an unreasonable search in violation of the Fourth Amendment.",
+      "legal_provision": "Fourth Amendment to the United States Constitution, prohibiting unreasonable searches and seizures and requiring warrants supported by probable cause",
+      "petitioner_position": "The geofence warrant violated the Fourth Amendment because it constituted a broad, suspicionless search of the private location data of millions of innocent individuals who happened to be in the geographic area, without individualized probable cause as to each person searched; such reverse warrants are categorically unconstitutional regardless of whether law enforcement obtained judicial approval, as the warrant itself fails to satisfy Fourth Amendment particularity and probable cause requirements",
+      "respondent_position": "Based on the available documents, the government's position is not directly detailed, but as the prevailing party in the Fourth Circuit, the United States likely argued that the geofence warrant was constitutionally valid because law enforcement obtained prior judicial approval from a magistrate judge, the search was appropriately limited in geographic and temporal scope, and any disclosed data fell within permissible third-party doctrine or was sufficiently particularized to satisfy Fourth Amendment requirements",
+      "key_precedents": [
+        "Katz v. United States, 389 U.S. 347 (1967) - established the reasonable expectation of privacy standard for Fourth Amendment searches",
+        "Carpenter v. United States, 585 U.S. 296 (2018) - held that government acquisition of cell-site location information constitutes a Fourth Amendment search requiring a warrant",
+        "Lon Fuller, The Case of the Speluncean Explorers, 62 Harv. L. Rev. 616 (1949) - cited philosophically in amicus brief regarding jurisprudential methodology"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has crystallized my thinking considerably. Justice Alito's remaining concern \u2014 that Carpenter's narrowness should counsel restraint in extending its logic to warrant-based compelled disclosure \u2014 is the most serious challenge to my position, but I am persuaded by my own prior reasoning in Carpenter that the existence of a warrant does not end the Fourth Amendment inquiry when the underlying compelled disclosure is categorically defective in its particularity. The near-unanimity of my colleagues on the structural inversion problem \u2014 which Justice Kagan articulates most precisely as a sequencing defect rather than merely a scope problem \u2014 reinforces my view that this is not a close case on the merits, though I remain committed to the narrowest possible holding. As Chief Justice, I intend to assign the majority opinion in a way that holds only that geofence warrants of this breadth fail the particularity requirement as applied, expressly reserving judgment on more narrowly tailored area-based warrants, thereby providing workable guidance to law enforcement while preserving the Court's institutional credibility \u2014 a formulation that should command Justice Alito's partial concurrence and avoid unnecessary doctrinal overreach.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that Carpenter was explicitly narrow and that a judicially-approved, geographically bounded warrant satisfies the Fourth Amendment's requirements \u2014 but this argument fundamentally misapprehends what the particularity requirement demands. The Founders' revulsion against general warrants and writs of assistance was not cured by having a magistrate approve them; the evil was the warrant's indiscriminate scope itself, as Entick v. Carrington made clear. A geofence warrant, however bounded in geography and time, still compels disclosure of location data for every individual in that area without any individualized probable cause as to those persons \u2014 it is a general warrant with GPS coordinates substituted for a neighborhood description. Justice Gorsuch correctly identifies the constitutional inversion at the heart of this practice: the Fourth Amendment requires probable cause to precede the search, not emerge from it, and no amount of post-hoc narrowing by law enforcement can retroactively supply the individualized suspicion the Constitution demands at the moment of the search.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Thomas's argument from Entick v. Carrington has ultimately persuaded me that magistrate approval cannot cure a facially defective warrant \u2014 the colonial revulsion against general warrants was directed at the indiscriminate scope itself, not merely the absence of judicial oversight. I had distinguished geofence warrants from true general warrants on the grounds of geographic and temporal boundedness, but Justice Gorsuch correctly identifies that this distinction fails at the level of constitutional text: the Warrant Clause requires that warrants 'particularly describe the persons or things to be seized,' and a warrant that identifies no particular person but sweeps in every device in an area, hoping to develop individualized suspicion post-hoc, cannot satisfy that textual requirement regardless of its spatial limitations. What finally moves me is the structural sequencing problem: my textualist methodology requires that probable cause precede the search, and the staged disclosure process \u2014 where law enforcement obtains all data first and narrows afterward \u2014 inverts this constitutional architecture in a way that geographic limitations do not cure. I join the majority on the narrowest available grounds consistent with Chief Justice Roberts' framing, holding that this particular warrant's breadth fails particularity as applied, while expressly reserving judgment on more carefully circumscribed geofence warrants.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that Carpenter was explicitly narrow and that a judicially-approved, geographically and temporally bounded warrant satisfies the Fourth Amendment's requirements \u2014 but this argument fundamentally misunderstands what Carpenter's narrowness means. Carpenter's narrowness was about not overruling Smith and Miller wholesale, not about blessing dragnet digital surveillance so long as a magistrate signs off; as Justice Gorsuch correctly observes, the particularity defect is structural and cannot be laundered through prior judicial approval. The core constitutional problem, which Justice Jackson articulates with particular force from her public defender experience, is that probable cause must precede and justify the search of each person's data, not emerge afterward from sifting through millions of innocent people's location histories \u2014 this inversion is precisely what general warrants did, and precisely what the Fourth Amendment was written to abolish. The real-world impact on ordinary people going about their lives near a crime scene \u2014 having their most intimate location data exposed to government scrutiny without any individualized suspicion \u2014 is the kind of concrete harm to vulnerable populations that my jurisprudence demands the Court take seriously, and no amount of geographic limitation cures the absence of individualized probable cause as to the millions swept in.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's remaining argument \u2014 that geographic and temporal boundedness plus judicial pre-approval distinguishes geofence warrants from true general warrants \u2014 continues to be the most serious challenge to my position, but I find it ultimately unpersuasive for the reasons I articulated in round one and that Justice Gorsuch sharpens with particular force: the constitutional defect is not one of degree but of kind, because the Fourth Amendment's sequencing requirement demands individualized probable cause before the search, not as its product. I am gratified that Justice Roberts and I have converged on the same limiting principle \u2014 holding that this warrant's breadth fails particularity as applied while reserving judgment on more carefully tailored area-based warrants \u2014 because that workable middle ground reflects my pragmatic textualist methodology and avoids the categorical prohibition that Justice Barrett and Justice Gorsuch would impose. I note that Justice Alito's concession that the staged disclosure process 'may structurally invert the probable cause requirement in a way that even a textualist must take seriously' is significant; it suggests that even on respondent's best theory, the constitutional question turns on whether the inversion is structural or merely incidental, and the three-step disclosure process here \u2014 where law enforcement receives all data before any narrowing occurs \u2014 makes the inversion structural rather than incidental. My confidence increases modestly because the convergence across methodologically diverse colleagues on the structural inversion point, from Justice Thomas's originalism to Justice Jackson's practical experience to my own pragmatic textualism, suggests the constitutional defect here is genuine and not merely a product of any single interpretive framework.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that Carpenter was explicitly narrow and that a judicially-approved, geographically and temporally bounded warrant satisfies the Fourth Amendment's requirements \u2014 but this argument conflates the form of warrant compliance with its substance. The particularity requirement is not satisfied merely because a magistrate has blessed the warrant; as the text demands, the warrant must 'particularly describe the persons or things to be seized,' and a warrant that identifies no particular person but instead sweeps in every device in an area, hoping to discover a suspect post-hoc, is the functional equivalent of the general warrants the Founders abhorred. Justice Thomas correctly identifies the historical anchor: Entick v. Carrington and the colonial revulsion against writs of assistance establish that the constitutional defect here is not one of degree but of kind \u2014 the inversion of the probable cause requirement, compelling disclosure first and identifying suspects second, is precisely the investigative methodology the Fourth Amendment was written to prohibit. I find Justice Kagan's suggestion of a workable middle ground \u2014 requiring particularized probable cause connecting the specific location to the crime before broader disclosure \u2014 analytically interesting but ultimately insufficient to cure the structural defect, because even a narrowly scoped geofence warrant still lacks individualized suspicion as to the persons actually searched, which the text and original meaning require.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's remaining counterargument \u2014 that geographic and temporal boundedness plus judicial pre-approval distinguishes geofence warrants from true general warrants \u2014 continues to deserve serious engagement, but I find it ultimately unpersuasive for the reasons my colleagues have collectively crystallized. The critical insight, which Justice Kagan frames with particular analytical precision and which aligns with my own reading of Carpenter, is that the constitutional defect is sequential and structural: the Fourth Amendment requires individualized probable cause to precede the search of a particular person's data, and no magistrate's signature can retroactively supply what was absent at the moment of compelled disclosure. I remain committed to the narrowest possible holding \u2014 consistent with Chief Justice Roberts' framing \u2014 that this particular warrant's breadth fails particularity and probable cause requirements as applied, without categorically foreclosing more carefully circumscribed geofence warrants that might incorporate stronger individualization mechanisms at the threshold stage. This institutionalist approach preserves the Court's credibility by neither blessing dragnet surveillance nor unnecessarily disabling legitimate law enforcement tools, and it provides workable guidance while leaving doctrinal space for future refinement as the technology and investigative practices evolve.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's remaining counterargument \u2014 that a geographically and temporally bounded, judicially pre-approved warrant satisfies the Fourth Amendment's requirements \u2014 continues to be the most serious challenge to our position, but it cannot overcome the structural constitutional defect that Justice Kagan and Justice Gorsuch have each identified from different methodological angles: the Fourth Amendment's text requires that warrants 'particularly describe the persons or things to be seized,' and a warrant that identifies no particular person but sweeps in every device in an area to discover suspects post-hoc fails that requirement as a matter of kind, not degree. Justice Alito's concession that the staged disclosure process 'may structurally invert the probable cause requirement' is significant \u2014 once that inversion is acknowledged, the question becomes whether magistrate approval can cure it, and the historical record from Entick v. Carrington through the colonial revulsion against writs of assistance answers clearly that judicial imprimatur does not sanitize a facially defective general warrant. I share Chief Justice Roberts' and Justice Kavanaugh's institutionalist instinct to resolve this on the narrowest possible grounds, holding that this particular warrant's breadth fails particularity and probable cause while expressly reserving judgment on more carefully circumscribed geofence warrants with genuine individualization mechanisms \u2014 this limiting principle provides workable guidance without categorically foreclosing all area-based investigative tools. The convergence of originalist, textualist, and pragmatic methodologies among my colleagues on the structural inversion point reinforces my confidence that the petitioner's position is correct, though I would resist any formulation that forecloses the possibility that a sufficiently narrow, well-particularized geofence warrant might survive constitutional scrutiny in a future case.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that Carpenter was explicitly narrow and that a judicially-approved, geographically and temporally bounded warrant satisfies the Fourth Amendment's requirements. But this argument conflates the form of a warrant with its constitutional substance: judicial pre-approval cannot cure a warrant that is defective on its face because it lacks individualized probable cause as to the millions of innocent people whose data is swept in. As Justice Gorsuch correctly identifies, the constitutional defect is structural \u2014 the geofence warrant inverts the Fourth Amendment's sequence by conducting the mass search first and developing individualized suspicion only afterward, which is precisely the general warrant methodology the Founders designed the Warrant Clause to prohibit. My background as a public defender reinforces what the doctrine compels: the practical reality is that these warrants disproportionately expose the private movements of innocent people \u2014 often from over-policed communities \u2014 to government scrutiny without any threshold showing connecting them to criminal activity, and Carpenter's core holding that comprehensive digital location data warrants heightened protection cannot be satisfied by geographic and temporal limitations alone when the initial compelled disclosure remains a suspicionless dragnet.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Carpenter v. United States (2018) established that the third-party doctrine does not mechanically apply when the government compels disclosure of comprehensive digital location data, recognizing that such data is categorically different in kind from the limited records at issue in Smith and Miller. A geofence warrant, by its very nature, inverts the traditional Fourth Amendment requirement of individualized probable cause \u2014 it begins with a geographic area and works backward to identify suspects, sweeping in the location data of potentially millions of innocent individuals who have no connection to any crime. While I am reluctant to issue a broad categorical ruling, the particularity and probable cause requirements of the Fourth Amendment cannot be satisfied by a warrant that, at the moment of issuance, lacks any individualized suspicion as to the vast majority of persons whose data is seized; judicial approval of the warrant form does not cure this constitutional deficiency. I would resolve this case on the narrowest possible grounds, holding that geofence warrants of this breadth fail the Fourth Amendment's particularity requirement as applied here, while leaving open questions about more narrowly tailored area-based warrants for another day.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The original public meaning of the Fourth Amendment's Warrant Clause was specifically designed to prohibit general warrants and writs of assistance \u2014 precisely the kind of indiscriminate, suspicionless dragnet that a geofence warrant represents. As the Founders understood, the particularity requirement demands that a warrant identify specific persons, places, and things to be searched or seized, not authorize a sweeping search of every individual who happened to occupy a geographic area, leaving officers with unconstrained discretion to sift through the data of countless innocent people. Carpenter v. United States correctly recognized that digital location data implicates core Fourth Amendment protections, and the third-party doctrine cannot be stretched to swallow the constitutional guarantee of security in one's person and effects \u2014 a principle rooted in Entick v. Carrington and the colonial revulsion against writs of assistance that directly informed the Framers' drafting. A warrant that compels disclosure of location data for all devices in an area without individualized probable cause as to each person searched is constitutionally indistinguishable from the general warrants the Fourth Amendment was enacted to abolish, and no amount of judicial pre-approval cures a warrant that is defective on its face for lack of particularity.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist who values law enforcement interests and is skeptical of expansive readings of constitutional protections that impede legitimate investigative tools, I would side with the government here. While Carpenter v. United States (2018) extended Fourth Amendment protections to comprehensive cell-site location information and cautioned against mechanical application of the third-party doctrine to digital data, the majority's holding was explicitly narrow and did not categorically invalidate all warrant-based compelled disclosure of location data from third parties. A geofence warrant, when properly scoped with geographic and temporal limitations and supported by judicial approval from a magistrate, satisfies the Fourth Amendment's warrant requirement\u2014the particularity and probable cause concerns raised by petitioner go to the warrant's execution and scope, not to a categorical constitutional prohibition. Carpenter's limiting principles counsel against extending its reasoning to invalidate a judicially-approved, bounded investigative tool that law enforcement legitimately relies upon, and the practical consequences of categorically prohibiting geofence warrants would severely hamper the investigation of serious crimes.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Geofence warrants represent precisely the kind of dragnet, suspicionless surveillance that the Fourth Amendment was designed to prevent, and my own concurrence in Jones and the majority holding in Carpenter v. United States compel the conclusion that comprehensive digital location data warrants heightened constitutional protection. As I noted in Jones, people reveal enormous amounts of private information through mundane digital activity, and the third-party doctrine cannot be mechanically applied to swallow all Fourth Amendment protections in the digital age. A geofence warrant fails the particularity requirement because it sweeps in the private location data of millions of innocent individuals who are not suspects, inverting the constitutional mandate that warrants identify particular persons, places, and things to be searched rather than casting a wide net hoping to find a needle in a haystack. The practical reality\u2014that innocent people going about their daily lives near a crime scene have their most sensitive location data exposed to government scrutiny without any individualized suspicion\u2014is exactly the kind of harm to vulnerable populations and ordinary citizens that the Fourth Amendment must guard against in the digital era.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Carpenter v. United States (2018) established that the third-party doctrine cannot be mechanically applied to comprehensive digital location data given its capacity to reveal the privacies of life, and the logic of that holding extends with considerable force to geofence warrants, which sweep even more broadly by collecting location data on every device in a geographic area regardless of any individualized suspicion. A geofence warrant inverts the traditional Fourth Amendment framework\u2014rather than identifying a suspect and then seeking their data, it harvests data on potentially millions of innocent individuals to find a suspect\u2014and this structural defect cannot be cured merely by obtaining prior judicial approval, because the warrant itself fails the particularity and probable cause requirements as to the individuals actually searched. While I would not categorically prohibit all geofence warrants, the version at issue here, compelling disclosure of all devices in a broad area without any threshold showing of individualized suspicion, crosses the constitutional line Carpenter drew against dragnet surveillance of digital location information. A workable middle ground would require courts to assess whether the geographic and temporal scope is sufficiently narrow and whether there is particularized probable cause connecting the specific location to the crime before any broader disclosure is compelled.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "A geofence warrant compelling Google to disclose location data for all devices within a geographic area is constitutionally defective under a faithful reading of the Fourth Amendment's text and original meaning, which required particularity and individualized probable cause precisely to prevent the general warrants and writs of assistance the Founders abhorred. Carpenter v. United States correctly recognized that comprehensive digital location data is qualitatively different from ordinary third-party business records, and the logic extends with even greater force here: unlike Carpenter, where at least a known suspect's data was targeted, a geofence warrant begins with no suspect at all, sweeping in the location data of potentially millions of innocent persons and only afterward attempting to narrow the field\u2014inverting the Fourth Amendment's requirement that probable cause precede the search, not follow from it. The particularity requirement of the Warrant Clause is not satisfied merely because a magistrate approved the warrant; the Clause demands that warrants particularly describe the persons or things to be seized, and a warrant authorizing a dragnet search of all devices in a geographic area, with the hope of identifying a suspect post-hoc, is precisely the kind of general warrant the Amendment was written to prohibit. Applying the rule of lenity and the original public meaning of 'unreasonable searches,' I would hold such warrants categorically invalid absent a mechanism that confines the initial compelled disclosure to data tied to individualized probable cause.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Carpenter v. United States (2018) established that the third-party doctrine does not automatically apply to comprehensive digital location data given its uniquely revealing nature, and the logic of that holding extends with considerable force to geofence warrants, which by design sweep in the location data of potentially millions of entirely innocent individuals who had no connection to any crime. Unlike a traditional warrant supported by individualized probable cause directed at a specific suspect, a geofence warrant inverts the Fourth Amendment's particularity requirement\u2014it begins with a place and time and works backward to identify persons, a methodology that the Founders' general warrant concerns were specifically designed to prohibit. While I am mindful of the practical law enforcement value of such tools and would not categorically foreclose all geofence warrants, the warrant here, compelling disclosure of all device location data across a broad geographic area without individualized suspicion as to each person searched, fails to satisfy the Fourth Amendment's core requirements of particularity and probable cause as interpreted through Katz's reasonable expectation of privacy framework and Carpenter's digital-age refinements. Consistent with my institutionalist approach, I would hold narrowly that geofence warrants of this breadth are constitutionally deficient while leaving room for more carefully circumscribed area-based warrants supported by stronger particularization.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "A textualist and originalist analysis of the Fourth Amendment's particularity and probable cause requirements reveals that geofence warrants are constitutionally defective as applied here. The Fourth Amendment's text demands warrants that 'particularly describ[e] the place to be searched, and the persons or things to be seized,' and a warrant compelling disclosure of location data for all devices within a geographic area\u2014sweeping in millions of presumptively innocent individuals without individualized suspicion\u2014cannot satisfy this particularity requirement regardless of prior judicial approval. Carpenter v. United States (2018) is controlling and indeed compels this result: the Chief Justice's majority opinion recognized that comprehensive digital location data implicates a qualitatively different privacy interest than traditional third-party records, and the logic of Carpenter applies with greater force to geofence warrants, which are not retrospective searches of a single identified suspect's records but rather suspicionless dragnet searches of an entire population's movements. The government cannot launder a constitutionally deficient warrant through a magistrate's approval; the warrant itself must satisfy the Fourth Amendment's twin requirements of probable cause as to each person searched and particularity in describing what is to be seized, and a geofence warrant by its very nature fails both.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Carpenter v. United States (2018) established that the government's acquisition of comprehensive digital location data constitutes a Fourth Amendment search requiring a warrant, and its reasoning applies with even greater force to geofence warrants, which sweep in the location data of potentially millions of innocent individuals who have no connection to any crime. The geofence warrant fails the Fourth Amendment's particularity requirement because it lacks individualized probable cause as to each person whose data is searched\u2014it is precisely the kind of general, exploratory rummaging the Founders designed the Fourth Amendment to prohibit. My background as a public defender reinforces my concern about the practical consequences of sanctioning such reverse warrants: permitting law enforcement to conduct suspicionless dragnet searches of entire geographic areas inverts the constitutional requirement that probable cause precede a search, not follow it, and disproportionately burdens communities already subject to over-policing. While judicial approval and geographic/temporal limitations are relevant considerations, they cannot cure the fundamental constitutional defect that the warrant authorizes a mass search of innocent people's private data without any individualized suspicion, a result Carpenter's logic and the Fourth Amendment's core protections cannot countenance.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.84,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

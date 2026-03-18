@@ -1,0 +1,662 @@
+[
+  {
+    "docket": "23-909",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether federal wire-fraud convictions under 18 U.S.C. \u00a7 1343 require proof that the scheme contemplated (or caused) net pecuniary loss to the victim, as opposed to merely using deception to induce a property transaction.",
+      "legal_provision": "18 U.S.C. \u00a7 1343 (wire fraud) and, derivatively, 18 U.S.C. \u00a7 1349 (conspiracy to commit wire fraud).",
+      "petitioner_position": "Petitioners argue that a \u201cscheme to defraud\u201d under the wire-fraud statute requires an intent to harm a property interest\u2014i.e., contemplated or actual net economic loss to the victim. In their view, deception that merely induces a transaction (including alleged misrepresentations about compliance with contracting requirements) is not enough if the victim receives the benefit of the bargain in economic terms. They contend that permitting conviction without proof of net pecuniary loss effectively federalizes ordinary breaches of contract or regulatory noncompliance, expands prosecutorial power beyond the statute\u2019s historical core (property-fraud), and fails to provide fair notice by turning any deceptive inducement into a felony even where no economic harm is intended.",
+      "respondent_position": "The United States argues that wire fraud does not require proof of net pecuniary loss. It is enough that defendants devised a scheme using material deception to obtain money or property (or to cause the victim to part with money/property) and that the object of the scheme involved property. The government maintains that common-law fraud/false pretenses historically did not require actual pecuniary loss so long as the victim was deprived of the thing bargained for (or was induced to transfer property by deception). On the government\u2019s account, petitioners\u2019 conduct\u2014false certifications regarding a disadvantaged-business subcontracting requirement and resulting overcharges\u2014fits comfortably within \u00a7 1343 even if the victim may have received contracted-for work, because the money was obtained through a deceptive scheme targeting property, not merely an \u201cintangible right.\u201d",
+      "key_precedents": [
+        "Durland v. United States, 161 U.S. 306 (1896)",
+        "McNally v. United States, 483 U.S. 350 (1987)",
+        "In re Rudebeck, 95 Wash. 433 (1917)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "Justice Kagan and Justice Gorsuch press the strongest point against us: \u00a71343 does not speak in net-loss terms, and Durland reads \u201cscheme to defraud\u201d broadly; I agree we cannot graft a realized-loss or ex post valuation requirement onto the statute. But Justice Jackson\u2019s framing\u2014that \u201cobtaining the victim\u2019s money by materially false pretenses is itself\u201d always enough\u2014risks collapsing the McNally/Kelly/Ciminelli property boundary into a mere transfer-of-title test and functionally reviving \u201cright to control\u201d whenever money changes hands after a lie. The narrow way through, consistent with Neder\u2019s common-law backdrop and our recent property-fraud cases, is to hold that the scheme\u2019s object must be to obtain money or property on terms the defendant understands to be economically adverse to the victim (benefit-of-the-bargain deprivation), without demanding proof of ultimate loss or inviting broad, free-floating valuation disputes. That limiter answers the institutional legitimacy and fair-notice concerns while preserving Durland\u2019s core insight that the offense is the scheme, not the completed harm.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Chief Justice Roberts\u2019s proposed \u201ceconomically adverse terms\u201d limiter is the strongest contrary argument, but it asks us to add a benefit-of-the-bargain component that the text of \u00a7 1343 does not contain and that the public meaning of \u201cscheme to defraud \u2026 for obtaining money or property\u201d does not require. As Justice Kagan and Justice Gorsuch explain, McNally, Kelly, and Ciminelli restrict what qualifies as \u201cproperty\u201d (rejecting intangible autonomy/regulatory interests), not whether the victim was net-worse-off after a valuation exercise; treating economic equivalence as dispositive risks reviving an atextual, indeterminate gloss. Neder\u2019s common-law backdrop supports materiality and fraudulent intent, but it does not justify rewriting the statute to require contemplated pecuniary loss where the object is to obtain the victim\u2019s money by deception\u2014a classic false-pretenses wrong even when some consideration is later delivered. Federalism and fair-notice concerns are addressed by enforcing the statutory \u201cmoney or property\u201d requirement and rejecting \u201cright to control\u201d theories, not by judicially imposing an additional economic-harm element.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Justice Kagan and Justice Gorsuch press the best point for Respondents: \u00a71343 does not say \u201cnet loss,\u201d and Durland recognizes inchoate schemes\u2014so we should be wary of importing a freestanding loss element. But Chief Justice Roberts is right that, after McNally, Kelly, and Ciminelli, we need a limiting principle that keeps \u201cmoney or property\u201d from collapsing into a mere decisionmaking-autonomy theory whenever a lie induces a payment; treating any deceit-induced transfer as sufficient risks recreating the right-to-control problem under a different label. Justice Jackson\u2019s administrability concerns are real, yet an \u201cobject of the scheme\u201d requirement\u2014aimed at obtaining property on economically adverse terms as the defendant understood them\u2014does not demand post hoc net-loss accounting and better fits Neder\u2019s common-law backdrop of \u201cdefraud\u201d as cheating. Justice Thomas\u2019s text-first view shows why the requirement must be framed narrowly and tied to traditional property deprivation, but without some adverse-economic-terms constraint the statutory property cabin becomes too porous in practice.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Kagan\u2019s strongest point\u2014that \u00a71343\u2019s text and Durland permit broad coverage without any net-loss overlay\u2014does not answer the limiting-principle problem that Ciminelli and Kelly foreground: if any material lie that induces a payment is \u201cproperty fraud,\u201d we effectively criminalize deception that merely influences choice, just relabeled as a transfer-of-money case. I agree with Justice Jackson that post hoc valuation fights are undesirable, which is why I understand the Chief Justice\u2019s test as an object-of-the-scheme requirement (did the defendant seek money on terms he understood to be economically adverse to the victim), not a realized-loss or precise-benefit accounting. Justice Thomas is right that common-law false pretenses can involve consideration, but historically the deceit still works a cheating of value\u2014loss of the benefit of the bargain\u2014rather than simply persuading someone to enter a transaction they would have declined for non-economic reasons. In the criminal context, this narrower economic-adversity constraint better preserves fair notice and prevents federal overreach into ordinary commercial misstatements while still reaching classic cheating schemes.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Chief Justice\u2019s (and Justice Barrett\u2019s) limiting-principle concern is the hardest issue: we should not let \u00a71343 become a general federal ban on dishonest dealing. But their proposed \u201ceconomically adverse terms\u201d requirement is still an atextual graft that turns the statute from \u201cobtaining money or property by means of\u201d material deception into a valuation-heavy benefit-of-the-bargain inquiry, inviting exactly the indeterminacy and unevenness Justice Jackson warns about. The McNally\u2013Cleveland\u2013Kelly\u2013Ciminelli line (as Justice Sotomayor emphasizes) is best read to police what counts as \u201cproperty\u201d (rejecting regulatory/decisionmaking interests), not to require proof that the defendant contemplated net economic loss where the object was to obtain the victim\u2019s money through materially false pretenses. Under a pragmatic textualist approach, the workable middle ground is to enforce the existing textual limit\u2014object-of-the-scheme obtaining traditional money/property\u2014plus Neder\u2019s materiality, rather than create a new economic-harm element that Congress did not write and that would destabilize classic false-pretenses fraud recognized since Durland.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The Chief Justice\u2019s and Justice Barrett\u2019s limiting-principle concern is substantial, but their proposed \u201ceconomically adverse terms/benefit-of-the-bargain\u201d gloss adds an element \u00a7 1343 does not contain and invites precisely the valuation disputes Justice Jackson warns will make the statute less administrable and less predictable. As Justice Kagan and Justice Thomas note, our McNally\u2013Cleveland\u2013Kelly\u2013Ciminelli line already supplies the needed boundary by insisting the object be traditional \u201cmoney or property,\u201d while rejecting regulatory and \u201cright to control\u201d theories; it does not authorize courts to demand proof the defendant contemplated net pecuniary loss. Durland and Neder, read in their ordinary-meaning and common-law backdrop, support materiality and the idea that inducing a transfer of money by materially false pretenses is itself the property deprivation, even if consideration later arrives. If we graft on an \u201ceconomic harm\u201d requirement, we risk rewriting classic false-pretenses fraud out of the statute and displacing Congress\u2019s chosen text with our own policy limiter.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Justice Kagan\u2019s and Justice Gorsuch\u2019s strongest point remains textual\u2014\u00a7 1343 does not say \u201cnet loss,\u201d and Durland confirms the statute reaches schemes and false promises without completed harm. But the Chief Justice is right that our McNally\u2013Kelly\u2013Ciminelli line reflects an institutional and precedential demand for a limiting principle so \u201cmoney or property\u201d does not collapse into punishment for lies that merely affect a victim\u2019s choices whenever money later changes hands. I do not read our approach as a realized-loss or ex post valuation mandate; rather, consistent with Neder\u2019s common-law backdrop, \u201cdefraud\u201d can be understood to require that the scheme\u2019s object be to obtain property on terms the defendant understood to be economically adverse to the victim (loss of the benefit of the bargain), which preserves the property line while avoiding a general federal dishonesty code. Justice Thomas\u2019s warning about atextual additions is important, but history and our recent cases justify this narrow, object-of-the-scheme constraint as part of what \u201cdefraud\u201d entails in the property-fraud context.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan\u2019s and Justice Gorsuch\u2019s strongest point is textual: \u00a7 1343 does not say \u201cnet loss,\u201d and Durland confirms the statute reaches inchoate schemes and false promises. But that does not resolve what \u201cdefraud\u201d conveyed in ordinary usage when paired with \u201cmoney or property\u201d; as the Chief Justice notes, our McNally\u2013Kelly\u2013Ciminelli line requires a limiting principle so the property requirement does not collapse into punishing deception that merely alters decisionmaking. I agree with Justice Jackson that post hoc valuation can be messy, yet Petitioners\u2019 rule is not a realized-loss or net-loss accounting test\u2014it asks whether the object of the scheme was to obtain the victim\u2019s property on terms the defendant understood to be economically adverse (i.e., depriving economic value), which preserves Durland\u2019s breadth while respecting the property boundary those cases enforce. On my originalist/textualist approach, that object-of-the-scheme requirement better fits \u201cdefraud\u201d as cheating someone out of property and avoids reintroducing \u201cright to control\u201d in transfer-of-title clothing.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.79,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Barrett\u2019s limiting-principle concern\u2014avoiding a federal \u201cdishonesty code\u201d and backdoor \u201cright to control\u201d\u2014is the strongest point for Petitioners, but their proposed \u201ccontemplated economic harm/benefit-of-the-bargain\u201d gloss still adds an element \u00a7 1343 does not contain and would, as Justice Gorsuch notes, pivot trials into ex post valuation disputes untethered to the statute\u2019s text. The McNally/Cleveland/Kelly/Ciminelli line properly polices what qualifies as \u201cproperty\u201d (rejecting regulatory or decisionmaking interests), not whether the victim ends up economically worse off after the fraudster obtains money by materially false pretenses; that is why Justice Kagan\u2019s framing\u2014object of the scheme must be obtaining traditional property\u2014is the more faithful limiting principle. Justice Alito\u2019s federalism and notice worries are real, but in my view they are better addressed by enforcing materiality, intent, and the requirement that the scheme\u2019s object be obtaining money or property, rather than importing a historically contestable \u201ceconomic equivalence\u201d inquiry that risks under-enforcing classic false-pretenses fraud where victims were plainly tricked into paying. Under a pragmatic, procedural-fairness approach, Petitioners\u2019 overlay would increase uncertainty and disparity by turning culpability on accountants\u2019 debates rather than on whether defendants intentionally used material lies to obtain the victim\u2019s money.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 1343 criminalizes a \u201cscheme or artifice to defraud\u201d for money or property, and our cases read that phrase to track the core of common-law fraud absent clear statutory displacement. Neder v. United States, 527 U.S. 1, 25 (1999), and McNally v. United States, 483 U.S. 350, 360 (1987), emphasize that the fraud statutes target property fraud\u2014not every deceit\u2014and that construing \u201cscheme to defraud\u201d to cover mere deceptive inducement without contemplated economic harm risks federalizing broad swaths of state contract and regulatory disputes, undermining fair notice and federalism. Consistent with our recent insistence that the \u201cvictim\u2019s loss must be an objective of the deceitful scheme\u201d in property-fraud prosecutions, the government must prove the scheme contemplated (or was designed to cause) pecuniary harm, not simply that deception influenced a transaction. A narrow rule requiring intended economic harm preserves the statute\u2019s property focus while avoiding an overbroad expansion of federal criminal authority.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1343 prohibits any \u201cscheme or artifice to defraud\u201d or to obtain \u201cmoney or property\u201d by false pretenses, and nothing in that language requires proof of net pecuniary loss; it targets deceptive schemes aimed at causing the victim to part with property. Consistent with the original public meaning reflected in common-law false-pretenses practice, the gravamen is obtaining property by deception, not a post hoc showing that the victim ended up economically worse off on net. This Court\u2019s decision in Durland v. United States construed the analogous mail-fraud language broadly to reach schemes designed to obtain money by deceit, and McNally v. United States confirms the statute\u2019s property focus without adding a net-loss element. Requiring proof of net pecuniary loss would add an atextual limitation and risk narrowing \u201cscheme to defraud\u201d contrary to its settled property-fraud meaning at the time Congress adopted and carried forward this language.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1343 targets a \u201cscheme or artifice to defraud\u201d for obtaining \u201cmoney or property,\u201d which\u2014read in light of the common-law meaning Congress incorporated\u2014requires an intended deprivation of property in a way that contemplates economic harm, not merely deception that induces a transaction. Neder v. United States, 527 U.S. 1 (1999), explains that the federal fraud statutes largely codify common-law fraud absent clear statutory inconsistency, and common-law fraud centered on causing (or intending) financial injury, not policing regulatory or contractual misstatements where the victim receives full value. Allowing conviction whenever a misrepresentation is \u201cmaterial\u201d to the victim\u2019s decision, even without contemplated net pecuniary loss, risks federalizing ordinary contract and compliance disputes and creates serious notice and line-drawing problems inconsistent with McNally\u2019s insistence on limiting these statutes to property fraud. Practical consequences also counsel against the government\u2019s expansive theory, which would hand federal prosecutors a sweeping weapon untethered to objective economic harm.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 1343 targets schemes to obtain \u201cmoney or property\u201d by fraud, and our cases after McNally v. United States have repeatedly insisted that federal fraud law not expand into policing regulatory or contracting compliance through theories untethered to traditional property harm. As Cleveland v. United States and, most recently, Ciminelli v. United States underscore, the statute does not criminalize deceptions that merely affect a victim\u2019s decisionmaking or \u201cright to control\u201d absent a contemplated deprivation of property in a traditional sense. Requiring the government to prove that the scheme contemplated real economic harm\u2014net pecuniary loss or the taking of something of economic value different from what was bargained for\u2014provides fair notice and cabins federal power, avoiding the practical risk of turning ordinary contract disputes into felonies. Given the statute\u2019s property focus and the need to protect vulnerable defendants from overbroad prosecutorial theories, I would read \u00a7 1343 to require proof of intended (or caused) economic harm, not mere deceptive inducement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 1343\u2019s text targets any \u201cscheme or artifice to defraud\u201d or to obtain \u201cmoney or property\u201d by false pretenses, and it does not add a requirement that the victim suffer (or the scheme contemplate) net pecuniary loss. Consistent with Durland v. United States, the fraud statutes reach deceptive schemes to obtain property even when framed as inducement rather than direct theft, and Neder v. United States reads the statutes against the background of common-law fraud principally to incorporate materiality\u2014not to graft on an economic-loss element that Congress did not write. McNally\u2019s property/right line limits the statute to property-based deprivations, but once the object is money or property, the government need only prove material deception and intent to obtain that property, not a showing that the victim\u2019s ledger ends up negative. A net-loss requirement would be hard to administer and would invite arbitrary outcomes in cases where the victim is deprived of the benefit of its bargain or control over spending decisions even if market value is roughly equivalent.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 1343 criminalizes \u201cany scheme or artifice to defraud\u201d using interstate wires \u201cfor the purpose of executing such scheme,\u201d and it specifically reaches schemes \u201cfor obtaining money or property\u201d; nothing in that text adds a requirement that the victim suffer (or the defendant intend) a net pecuniary loss. Consistent with our property-fraud decisions after McNally v. United States, 483 U.S. 350 (1987), the statute\u2019s limiting principle is that the object of the scheme must be money or property, not an \u201cintangible right,\u201d but once property is the target, deception that induces the victim to part with that property suffices even if the victim receives some consideration. Durland v. United States, 161 U.S. 306 (1896), reads the fraud statutes broadly to cover schemes employing falsehoods to obtain property and does not condition liability on proving economic loss; and the common-law false-pretenses tradition likewise focused on wrongful obtaining by deception rather than net-loss accounting. Petitioners\u2019 proposed net-loss element is thus atextual and, while separation-of-powers concerns counsel vigilance against transforming regulatory violations into \u201cproperty fraud,\u201d that concern is addressed by requiring the scheme\u2019s object to be property, not by inventing a pecuniary-loss requirement.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 1343 targets schemes to obtain \u201cmoney or property,\u201d and our precedents caution against reading the statute to criminalize mere deception untethered to traditional property fraud. Under McNally v. United States, the fraud statutes are limited to property rights, and Cleveland v. United States and Kelly v. United States reinforce that the scheme\u2019s object must be to obtain the victim\u2019s money or property, not to enforce regulatory or contractual compliance for its own sake. Requiring proof that the scheme contemplated real economic harm (a net pecuniary loss or its equivalent) supplies a workable limiting principle consistent with history and tradition and avoids converting ordinary misrepresentations in commercial dealings into federal felonies. Durland v. United States confirms that the statute covers inchoate schemes and false promises, but it does not eliminate the need for an intent to cheat the victim out of money or property in a way that results in economic harm rather than merely inducing a transaction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 1343\u2019s text targets schemes \u201cto defraud\u201d or to obtain \u201cmoney or property,\u201d and our cases read that phrase to require a scheme aimed at depriving the victim of a traditional property interest\u2014not merely inducing a transaction through deception. McNally v. United States and Ciminelli v. United States emphasize that the federal fraud statutes are limited to property fraud and do not criminalize expansive theories that effectively federalize state-law disputes or intangible-interest deprivations. Consistent with that property-focus, a deceptive inducement that leaves the victim with the full economic benefit of its bargain does not by itself establish the requisite property harm; the government must prove that the scheme contemplated obtaining money or property in a way that would leave the victim economically worse off (even if loss need not be realized because the statute covers schemes and attempts). Cleveland v. United States reinforces the need to hew to the statute\u2019s \u201cmoney-or-property\u201d limitation rather than expand \u00a7 1343 to encompass any dishonest dealing untethered from economic harm to the victim\u2019s property.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Section 1343 criminalizes a \u201cscheme or artifice to defraud\u201d or to obtain \u201cmoney or property by means of false or fraudulent pretenses,\u201d and its text contains no requirement that the scheme contemplate (or cause) net pecuniary loss. Under Neder v. United States, 527 U.S. 1, 24\u201325 (1999), the statute targets the scheme itself\u2014so the government need not prove reliance or ultimate loss, so long as the deception is material and aimed at obtaining money or property. Durland v. United States, 161 U.S. 306 (1896), likewise confirms that fraudulent inducement to part with property fits within federal fraud even if the conduct could also resemble contract misconduct, and McNally v. United States, 483 U.S. 350 (1987), limits the statute to property interests\u2014an element satisfied here without importing a net-loss overlay. As a matter of procedural fairness and administrability, requiring proof of \u201cnet pecuniary loss\u201d would create indeterminate valuation disputes and undercut enforcement where the victim is induced to pay out money it would not have paid absent the lie, even if some services were delivered.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.73,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-909",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether federal wire-fraud convictions require proof that the defendant\u2019s deceptive scheme aimed to cause (and did cause or intended) net pecuniary loss to the victim, as opposed to merely inducing a transaction through deception about a contract term.",
+      "legal_provision": "18 U.S.C. \u00a7 1343 (wire fraud) and, derivatively, 18 U.S.C. \u00a7 1349 (conspiracy to commit wire fraud).",
+      "petitioner_position": "Petitioners argue that a \u201cscheme to defraud\u201d under \u00a7 1343 requires contemplated harm to a property interest\u2014specifically, net pecuniary loss (or at least deprivation of traditional property value)\u2014and that mere fraudulent inducement (lying to obtain a contract or payment while still providing the bargained-for work/value) is not enough. They contend the government\u2019s approach collapses wire fraud into a broad federal prohibition on deceptive conduct in contracting and regulatory compliance, effectively reviving the rejected notion of prosecuting dishonesty untethered to property loss. They rely on the history of the federal fraud statutes and common-law false-pretenses concepts to argue that the touchstone is actual economic injury (or intended economic injury), warning that otherwise ordinary breaches, compliance misstatements, and procurement certifications become felonies without clear notice or administrable boundaries.",
+      "respondent_position": "The United States argues that \u00a7 1343 does not require proof of net pecuniary loss and that a victim can be defrauded of money or property even if it receives something of value in return. In the contracting context, the government maintains that when a defendant uses material misrepresentations (e.g., false certifications of compliance with a disadvantaged-business subcontracting requirement) to obtain payment or contract awards, the defendant has targeted the victim\u2019s property (its money) by deceptive means; the fraud is complete upon obtaining money/property through lies, regardless of whether the victim\u2019s ultimate balance sheet shows net loss. The government also disputes petitioners\u2019 historical claim, emphasizing that \u201cdefrauded\u201d has not been limited to scenarios of net pecuniary loss and that older false-pretenses sources treated the substitution of \u201can entirely different thing\u201d than what was promised as legal fraud even absent proven pecuniary loss.",
+      "key_precedents": [
+        "Durland v. United States, 161 U.S. 306 (1896)",
+        "McNally v. United States, 483 U.S. 350 (1987)",
+        "In re Rudebeck, 95 Wash. 433 (1917)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Justice Kagan and Justice Gorsuch raise the most serious concern: that \u201cmaterial lie inducing payment\u201d can drift into the right-to-control theory we rejected in Kelly and Ciminelli by making impaired decisionmaking the harm. But those cases turned on the Government identifying only intangible interests (regulatory control or information) as \u201cproperty\u201d; here, as Justice Alito emphasizes, the object alleged is obtaining the victim\u2019s money itself by deceit, which is traditional property and fits Durland\u2019s understanding that fraudulent inducement can be fraud even when some value is exchanged. I am not persuaded by Justice Thomas\u2019s and Justice Sotomayor\u2019s proposed \u201ceconomic value of the bargain\u201d gloss because it effectively adds an atextual loss-or-shortfall element that risks narrowing classic procurement/payment frauds and invites indeterminate after-the-fact valuation disputes; the tighter constraint is the object-of-the-scheme requirement plus materiality, written narrowly to exclude \u201ccompliance-only\u201d or purely informational deceptions. Properly framed, we can reaffirm Kelly/Ciminelli\u2019s property line without converting \u00a7 1343 into a general dishonesty code or importing a net-loss test Congress did not enact.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Barrett\u2019s best point is that \u00a7 1343 contains no textual \u201cnet loss\u201d element and that Durland recognizes fraudulent inducement as fraud even where value is exchanged. But their proposed limiter\u2014material deception plus obtaining payment\u2014treats every lie that influences a payment decision as a deprivation of \u201cmoney or property,\u201d which effectively reinstates the right-to-control theory we rejected in Kelly and Ciminelli by collapsing the statutory property requirement into impaired decisionmaking. Under the statute\u2019s original public meaning and McNally\u2019s property limitation, the object must be obtaining money by depriving the victim of traditional economic value in the bargain (different kind/quality/value), not merely securing assent through deception while providing the full benefit. Any residual uncertainty in a criminal statute must be resolved narrowly under lenity rather than expanding \u00a7 1343 into a general dishonesty code.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Kagan and Justice Gorsuch offer the best objection: that \u201cmaterial lie + payment\u201d could morph into right-to-control by treating impaired decisionmaking as the harm. But I agree with Chief Justice Roberts and Justice Barrett that the statute\u2019s textual limiter is the object requirement\u2014whether the scheme aims to obtain the victim\u2019s money itself by deception\u2014and that keeps us on the property side of McNally/Kelly/Ciminelli rather than the information/regulatory side. Those cases bar redefining \u201cproperty\u201d as accurate information or discretionary control, not the traditional proposition recognized in Durland that obtaining money by fraudulent inducement is paradigmatic fraud even if some value is later delivered. Petitioner's proposed \u201ceconomic value of the bargain\u201d overlay (as Justice Kavanaugh frames it) imports an indeterminate, extra-textual element that would unduly narrow classic payment/procurement frauds and invites courts to become arbiters of \u201cnet value\u201d in criminal cases.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Chief Justice Roberts and Justice Barrett are right that \u00a7 1343 contains no express net-loss element and that Durland recognizes fraudulent inducement as paradigmatic fraud even when value is exchanged. But Roberts\u2019s \u201cthe money paid is the property\u201d formulation still risks turning any material lie that induces assent into a federal felony, effectively recreating the right-to-control theory we rejected in Kelly and Ciminelli by treating impaired decisionmaking as the property deprivation. As Justice Kagan and Justice Gorsuch emphasize, the object-of-the-scheme requirement must do real work: the Government must show the scheme aimed to obtain money by depriving the victim of traditional property value in the bargain (different in kind/quality/price or other economic shortfall), not merely to secure agreement through deception while delivering the full economic benefit. Given fair-notice and overcriminalization concerns\u2014especially in prosecutions that can sweep in ordinary commercial misstatements\u2014I would hold the line on a property deprivation tethered to traditional economic harm, without importing a rigid net-loss test.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Chief Justice Roberts and Justice Barrett are right to emphasize that \u00a7 1343 contains no express net-loss element and that Durland treats fraudulent inducement as within the historic core of \u201cscheme to defraud.\u201d But their \u201cmaterial lie + payment = property\u201d formulation still risks (as Justice Sotomayor and Justice Gorsuch note) collapsing the statute\u2019s \u201cmoney or property\u201d requirement into impaired decisionmaking\u2014precisely the drift we rejected in Kelly and Ciminelli\u2014because any bargain can be reframed as \u201cthe money paid.\u201d The workable reconciliation is to require that the object of the scheme be obtaining money by depriving the victim of a traditional property interest in the bargain (different in kind/quality/value or other concrete economic shortfall), without importing a free-standing net-loss test; that keeps McNally\u2019s property limitation meaningful while avoiding a right-to-control rebrand. Justice Alito\u2019s worry about indeterminacy is fair, but the \u201ctraditional property value in the bargain\u201d inquiry is more administrable and text-coherent than treating payment alone as dispositive.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Chief Justice\u2019s and Justice Barrett\u2019s best point is that \u00a7 1343 contains no express net-loss element and that Durland recognizes fraudulent inducement as fraud even when some value is exchanged. But their proposed limiter\u2014material lie plus obtaining the victim\u2019s money\u2014treats the payment itself as the property deprivation even when the victim receives the full economic benefit of the bargain, which risks recreating the right-to-control/information theory we rejected in Kelly and Ciminelli by relabeling impaired decisionmaking as \u201cmoney or property.\u201d Justice Alito\u2019s \u201cobject of the scheme\u201d framing is helpful, but the object inquiry cannot be satisfied merely by pointing to money changing hands; the object must be to obtain money by depriving the victim of a traditional property interest in the bargain (something of value, kind, or quality), not simply to secure assent through deceit. Given the criminal context and the separation-of-powers concerns with expanding federal fraud into a general dishonesty code, any uncertainty at that boundary should be resolved narrowly under lenity rather than by extending Durland beyond its historically grounded core.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Barrett\u2019s best point is that \u00a7 1343 has no express net-loss requirement and Durland treats fraudulent inducement as within fraud\u2019s historic core, even when some value is exchanged. But as Justice Kagan and Justice Gorsuch emphasize, that cannot answer the antecedent Kelly/Ciminelli question\u2014whether the object is to obtain \u201cmoney or property\u201d in the traditional sense rather than to punish impaired decisionmaking by calling any induced payment a property deprivation. Roberts\u2019s \u201cmateriality + payment\u201d limiter remains insufficiently tethered to the object inquiry and risks reanimating right-to-control in contract form; an administrable, precedent-consistent boundary is that the scheme must contemplate depriving the victim of traditional economic value in the bargain (different in kind/quality/price), even if ultimate loss need not be proved. Given fair-notice and overcriminalization concerns in a criminal statute, I do not think Durland licenses the broader rule Respondent proposes.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Gorsuch\u2019s and Justice Kagan\u2019s limiting-principle objection\u2014that \u201cmaterial lie + payment\u201d risks reviving Kelly/Ciminelli\u2019s right-to-control theory\u2014identifies a real boundary problem, but I do not think their proposed \u201cdiminution-in-value\u201d requirement is textually grounded. Section 1343 asks whether the scheme\u2019s object is to obtain \u201cmoney or property\u201d by deceit; when the defendant\u2019s plan is to cause the victim to transfer money he would not otherwise transfer because of a material misrepresentation about the bargain, the object is the money itself, a traditional property interest, consistent with Durland\u2019s fraudulent-inducement understanding. Kelly and Ciminelli exclude cases where the alleged property is information, regulatory control, or decisionmaking autonomy, but they do not add an atextual element that the defendant must intend an inferior economic bargain beyond the payment induced. Administrability and fair-notice concerns (raised by Justice Sotomayor) are better addressed by insisting the misrepresentation be material to the nature of the bargain and that obtaining money/property be the scheme\u2019s object, rather than importing a judicially created \u201ceconomic-harm\u201d overlay.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Barrett\u2019s strongest point is textual and historical: \u00a7 1343 does not say \u201cnet loss,\u201d and Durland recognizes that fraudulent inducement can be fraud even when some value is exchanged. But their proposed limiter\u2014material misrepresentation + payment = property fraud\u2014still risks, as Justice Kagan and Justice Gorsuch emphasize, collapsing the \u201cmoney or property\u201d element into impaired decisionmaking by treating any induced payment as the property deprivation, effectively reviving the right-to-control theory rejected in Kelly and Ciminelli. Those cases require that the scheme\u2019s object be a traditional property deprivation, which in the contract setting should mean a contemplated deprivation of the economic value of the bargain (different kind/quality/price), not merely securing assent through lies while delivering the full economic benefit. Given fair-warning and administrability in a criminal statute, I would keep the statute\u2019s reach tethered to intended deprivation of traditional property value rather than broadening it to a general dishonesty prohibition.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 1343 criminalizes \u201cany scheme or artifice to defraud, or for obtaining money or property by means of false or fraudulent pretenses,\u201d and nothing in that text imposes a net-pecuniary-loss element. Our precedent has long treated fraudulent inducement that results in the victim parting with money as a paradigmatic fraud, even when the dispute could also be characterized as contractual, see Durland v. United States, 161 U.S. 306 (1896), and McNally v. United States, 483 U.S. 350 (1987), limits the statute to \u201cmoney or property\u201d rather than adding a net-loss requirement. A narrower, precedent-respecting resolution is to hold that the government must prove the object of the scheme was to obtain the victim\u2019s money or property by deception and that the misrepresentation was material to the transaction, but it need not separately prove intended or actual net pecuniary loss. That approach preserves the statute\u2019s historic core while avoiding an atextual limitation better left to Congress and maintains institutional legitimacy by adhering to settled interpretations rather than reshaping federal fraud law.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1343 criminalizes schemes \u201cto defraud\u201d or to obtain \u201cmoney or property\u201d by false pretenses, and at its original public meaning that phrase targeted deprivations of traditional property interests\u2014not mere deception untethered to contemplated property harm. McNally v. United States, 483 U.S. 350 (1987), reaffirmed the property-rights limitation on the federal fraud statutes, and this Court has repeatedly rejected government theories that effectively federalize dishonest dealing absent a cognizable property injury (see Kelly v. United States, 590 U.S. 391 (2020); Ciminelli v. United States, 598 U.S. 306 (2023)). If the victim receives the economic benefit of its bargain and the scheme aims only at inducing assent to a contract term through misrepresentation, the government\u2019s theory collapses \u00a7 1343 into a general anti-lying statute and provides inadequate notice. Because the statute is best read to require intended (or actual) deprivation of money or property in the traditional sense\u2014i.e., contemplated pecuniary harm\u2014the convictions cannot rest on fraudulent inducement alone.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1343 prohibits \u201cany scheme or artifice to defraud\u201d or \u201cfor obtaining money or property by means of false or fraudulent pretenses,\u201d and it contains no requirement that the Government prove a net pecuniary loss to the victim. Under Durland v. United States, 161 U.S. 306 (1896), the fraud statutes reach schemes that use material deception to obtain the victim\u2019s money or property, including fraudulent inducement, and the Court rejected the notion that such conduct is merely an \u201cintention to commit a violation of a contract.\u201d McNally v. United States, 483 U.S. 350 (1987), reinforces that the federal fraud statutes are limited to property (not \u201chonest services\u201d absent statute), but it does not impose a net-loss element where money is obtained by lies. As a practical matter, requiring proof of net loss would unduly narrow \u00a7 1343 and impede enforcement against procurement and payment schemes where the defendant\u2019s object is to obtain government or private funds by material misrepresentations.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Section 1343 reaches only schemes to obtain \u201cmoney or property\u201d by fraud, and our cases caution against converting deception untethered to property harm into a roving federal honesty code. McNally v. United States limited the fraud statutes to property-based harms, and Kelly v. United States reinforced that the object of the scheme must be to obtain or take property\u2014not merely to influence a decision through misinformation or regulatory noncompliance. Consistent with Neder\u2019s understanding that the fraud statutes track core common-law concepts, requiring contemplated economic harm (at least an intent to deprive the victim of the benefit of its bargain in a pecuniary sense) provides fair notice and avoids sweeping ordinary contract and compliance disputes into federal felonies. On that understanding, mere fraudulent inducement about a contract term, without intended or actual pecuniary harm, is insufficient under \u00a7 1343 (and therefore \u00a7 1349).",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 1343 reaches only schemes \u201cto defraud\u201d that have as their object obtaining \u201cmoney or property,\u201d and our cases from McNally through Kelly and Ciminelli insist the property object be a traditional property interest rather than a repackaged regulatory or compliance interest. A rule allowing conviction whenever a defendant lies about a contract term\u2014even if the victim receives the full economic value of the bargain\u2014risks recreating the rejected \u201cright-to-control\u201d/intangible-interest theory by treating deception itself as the property harm. That said, the statute does not require proof of ultimate net pecuniary loss in every case; what it requires is that the scheme aim to obtain money or property by misrepresenting the nature of the bargain in a way that would deprive the victim of a traditional property interest, not merely to secure regulatory compliance. Limiting \u00a7 1343 this way best fits the statutory text and preserves administrable boundaries consistent with Cleveland\u2019s and Kelly\u2019s distinction between property and regulatory interests.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The text of 18 U.S.C. \u00a7 1343 criminalizes a \u201cscheme or artifice to defraud\u201d for the purpose of obtaining \u201cmoney or property,\u201d which at the time of enactment referred to traditional property interests, not the mere deprivation of accurate information used in bargaining. As Ciminelli v. United States (2023) and McNally v. United States (1987) instruct, this Court has repeatedly rejected prosecutorial theories that detach federal fraud from traditional property harm and convert it into a general ban on dishonesty in commercial dealings. A scheme that seeks only to induce a transaction by lying about a contract term\u2014while not aiming to deprive the victim of money or property in a way cognizable as traditional property harm\u2014falls outside \u00a7 1343, and any remaining ambiguity in this criminal statute must be resolved for the defendant under the rule of lenity. That reading also respects separation-of-powers limits by leaving ordinary contract and regulatory disputes to state law and Congress, not prosecutorial innovation.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 1343 reaches only schemes to obtain \u201cmoney or property,\u201d and our cases have repeatedly cautioned against converting the mail/wire fraud statutes into broad federal prohibitions on deceptive conduct untethered to traditional property harms. In Ciminelli v. United States and McNally v. United States, the Court emphasized that the fraud statutes are \u201climited in scope to the protection of property rights,\u201d rejecting theories that treat impaired decisionmaking or regulatory noncompliance as the property interest itself. Consistent with Neder\u2019s linkage of the federal fraud statutes to common-law fraud concepts, the better reading\u2014grounded in history, fair notice, and administrable limits\u2014is that the government must prove the scheme contemplated (and intended) obtaining money or property by causing economic harm, not merely inducing a transaction through misstatements about a contract term while delivering the bargained-for economic value. Requiring intended pecuniary harm also promotes practical workability and restraint, avoiding a sweeping expansion of federal criminal law into ordinary contracting disputes and compliance representations.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Section 1343\u2019s text requires a \u201cscheme or artifice to defraud\u201d for the purpose of \u201cobtaining money or property,\u201d but it does not add a further requirement that the victim suffer (or the defendant intend) net pecuniary loss; obtaining the victim\u2019s money by material deception about a contractual term fits the ordinary meaning of \u201cdefraud.\u201d McNally v. United States, 483 U.S. 350 (1987), limits the statute to schemes targeting \u201cmoney or property,\u201d but it does not impose a \u201cnet loss\u201d element, and this case still involves the victim\u2019s property\u2014its payments\u2014being induced by lies. Precedent construing the federal fraud statutes, including Durland v. United States, 161 U.S. 306 (1896), supports a broad understanding of \u201cscheme to defraud\u201d that reaches deceptive acquisition of property even when the victim receives some value in return. Requiring proof of net pecuniary loss would add an atextual limitation and risk undercutting the statute\u2019s core application to obtaining money by fraud.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Section 1343 targets schemes \u201cto defraud\u201d aimed at obtaining \u201cmoney or property,\u201d and after McNally v. United States the Court has repeatedly resisted expansions that criminalize deception untethered to traditional property harm. Ciminelli v. United States underscores that the wire-fraud statutes do not protect intangible interests like decisionmaking autonomy or access to economically useful information; allowing \u201cfraudulent inducement\u201d based solely on misstatements about contract terms risks recreating those rejected theories with no administrable limiting principle. While Durland confirms the statute reaches schemes and does not require completed loss, the object of the scheme must still be to wrongfully obtain money/property by harming the victim\u2019s property interest, not merely to secure a transaction the victim later deems undesirable. Given procedural-fairness and notice concerns in criminal law, I would require proof that the scheme contemplated deprivation of traditional property value\u2014at least intended economic harm\u2014rather than treating any material lie in contracting as federal wire fraud under \u00a7 1343 (and thus \u00a7 1349).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.714,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  }
+]

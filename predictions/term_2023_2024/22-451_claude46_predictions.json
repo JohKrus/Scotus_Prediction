@@ -1,0 +1,627 @@
+[
+  {
+    "docket": "22-451",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Supreme Court should overturn or limit the Chevron doctrine, which requires courts to defer to federal agencies' reasonable interpretations of ambiguous statutes they administer.",
+      "legal_provision": "Administrative Procedure Act (APA), 5 U.S.C. \u00a7 706, which governs judicial review of agency actions, alongside the foundational Chevron U.S.A., Inc. v. Natural Resources Defense Council (1984) framework; the underlying dispute also involves the Magnuson-Stevens Fishery Conservation and Management Act.",
+      "petitioner_position": "Petitioners (Loper Bright Enterprises, a commercial fishing company) argue that the Chevron deference doctrine is inconsistent with the APA's mandate that courts independently interpret statutes, violates the separation of powers by delegating interpretive authority to executive agencies rather than courts, and should be overruled or substantially narrowed. They contend that courts, not agencies, bear the constitutional responsibility to say what the law is, as established in Marbury v. Madison.",
+      "respondent_position": "Respondents (Secretary of Commerce Gina Raimondo and federal agencies) argue that Chevron deference is a well-established, workable doctrine with deep reliance interests embedded in decades of administrative law, that agencies possess superior technical expertise justifying judicial deference on ambiguous statutory questions, and that overruling Chevron would create massive legal instability by unsettling thousands of regulations and prior court decisions built upon the framework.",
+      "key_precedents": [
+        "Chevron U.S.A., Inc. v. Natural Resources Defense Council, 467 U.S. 837 (1984) - the foundational deference doctrine at issue",
+        "Marbury v. Madison, 5 U.S. 137 (1803) - establishing judicial authority to interpret law",
+        "Skidmore v. Swift & Co., 323 U.S. 134 (1944) - alternative, lesser deference standard based on agency persuasiveness",
+        "United States v. Mead Corp., 533 U.S. 218 (2001) - limiting Chevron to formal agency interpretations",
+        "King v. Burwell, 576 U.S. 473 (2015) - Court declining to apply Chevron to major policy questions",
+        "West Virginia v. EPA, 597 U.S. 697 (2022) - Major Questions Doctrine limiting agency authority",
+        "Motor Vehicle Manufacturers Ass'n v. State Farm, 463 U.S. 29 (1983) - arbitrary and capricious review standard",
+        "Bowles v. Seminole Rock & Sand Co., 325 U.S. 410 (1945) - agency deference to own regulatory interpretations",
+        "Auer v. Robbins, 519 U.S. 452 (1997) - deference to agency interpretations of their own regulations",
+        "Kisor v. Wilkie, 588 U.S. 558 (2019) - reaffirming but narrowing Auer deference"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's observation that the progressive narrowing through Mead, King v. Burwell, and West Virginia v. EPA demonstrates the Court's capacity to cabin Chevron organically is the most serious challenge to my position \u2014 but I find it ultimately self-defeating. Those very decisions, which I authored or joined, are themselves evidence that Chevron's categorical framework has become so riddled with exceptions that it no longer provides the predictability and clarity that justified its adoption; we have spent forty years building escape hatches precisely because the core doctrine is unworkable. Justice Jackson's argument that Chevron deference is itself a judicial determination about congressional intent is theoretically interesting, but as Justice Barrett correctly notes, if courts must independently determine whether Congress delegated interpretive authority, that independent determination is precisely what \u00a7 706 requires \u2014 Chevron's automatic step-two deference to any 'reasonable' interpretation bypasses that inquiry entirely. As Chief Justice, I am persuaded that the narrowest ground commanding a majority is replacing Chevron with Skidmore rather than adopting Justice Thomas's broader constitutional condemnation, and I would write the majority opinion on those terms, with prospective application to protect reliance interests and acknowledge the legitimate concerns Justice Sotomayor and Justice Jackson raise about regulatory disruption.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.98,
+        "reasoning": "Justice Kagan raises the most serious challenge by arguing that \u00a7 706's original meaning is 'genuinely contested' and that Congress legislated against a Skidmore backdrop already tolerating some deference \u2014 but this argument proves too little. The pre-APA Skidmore framework accorded only persuasive weight to agency interpretations, which is precisely the alternative we are endorsing; it did not mandate deference upon finding ambiguity as Chevron does. Justice Jackson's argument that Chevron deference is itself a judicial determination about congressional intent is circular \u2014 it assumes the very delegation it purports to find, and no Congress in 1946 would have understood 'the reviewing court shall decide all relevant questions of law' to mean 'the reviewing court shall defer to the executive branch whenever a statute seems ambiguous.' The separation of powers concern is not merely structural aesthetics: when we allow agencies to resolve statutory ambiguities in their own favor, we permit the executive to expand its own jurisdiction, a result incompatible with Marbury's foundational command that courts say what the law is. Stare decisis cannot entrench a doctrine that is both textually indefensible under the APA and structurally incompatible with Article III's vesting of judicial power.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Kagan raises the most serious challenge to my position by arguing that \u00a7 706's original meaning is 'genuinely contested' and that Congress legislated against a backdrop already tolerating Skidmore deference \u2014 but this argument actually supports overruling Chevron rather than preserving it, because Skidmore's persuasiveness standard is precisely the alternative framework I favor. The existence of Skidmore in 1944 demonstrates that Congress knew how to authorize deference when it wanted to, and the APA's mandatory 'shall decide' language enacted two years later signals a deliberate choice to require independent judicial judgment. Justice Sotomayor's reliance interests argument, while emotionally compelling, cannot override a clear statutory command \u2014 the APA is a statute like any other, and if Congress wishes to authorize mandatory Chevron-style deference, it can say so explicitly rather than having courts infer it from silence or ambiguity. The transition costs of moving to Skidmore are real but manageable, and as Justice Roberts correctly notes, Skidmore provides a workable framework that respects agency expertise without abdicating the judiciary's constitutional responsibility articulated in Marbury.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "Justice Gorsuch and Justice Thomas make the most forceful textual argument \u2014 that APA \u00a7 706's 'shall decide' language is an unambiguous mandate for de novo judicial review \u2014 but this reading ignores that Chevron deference is itself a judicial decision: courts independently determine at Step Zero and Step One whether Congress has spoken clearly, and only then defer to reasonable agency interpretations of genuinely ambiguous text, which is itself a judicial conclusion about congressional intent. Justice Kagan correctly identifies that the pre-APA Skidmore framework from 1944 demonstrates Congress legislated against a backdrop already tolerating judicial deference to agency expertise, which fatally undermines the claim that \u00a7 706 unambiguously prohibits all forms of deference. The reliance interests here are not merely abstract \u2014 forty years of environmental, labor, healthcare, and consumer protection regulations built on Chevron represent concrete protections for the most vulnerable Americans, and replacing Chevron with Skidmore's more unpredictable, case-by-case persuasiveness standard will produce circuit splits, regulatory uncertainty, and litigation that ultimately harms those communities. The Major Questions Doctrine already addresses the most serious concerns about agency overreach on politically significant questions, making wholesale overruling of Chevron a solution far more destructive than the problem it purports to solve.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Kavanaugh's argument that the proliferation of escape hatches \u2014 Mead, King v. Burwell, West Virginia \u2014 demonstrates Chevron is 'unworkable' is the strongest remaining challenge to my position, but I think it proves the opposite of what he intends: a doctrine that sophisticated jurists have successfully cabined through targeted tools is a doctrine that works, not one that must be abandoned. Justice Barrett's refined textualist argument that Congress wrote \u00a7 706 against the Skidmore backdrop and chose not to codify mandatory deference is genuinely compelling, but it cannot overcome the fact that the textual case remains contested enough that reasonable jurists \u2014 including those on this Court \u2014 read the same provision differently, which is precisely the kind of interpretive uncertainty where stare decisis should carry decisive weight. I share Justice Jackson's concern that the majority coalition rests on three distinct rationales \u2014 Thomas's constitutional condemnation, Barrett's textualism, Kavanaugh's pragmatic restoration \u2014 which undermines the claim that overruling Chevron produces doctrinal clarity rather than substituting one form of uncertainty for another. I maintain my Respondent position because the transition costs are real and front-loaded, the textual case is not unambiguous, and the Court's existing toolkit already accomplishes the legitimate goals the petitioner side seeks without the institutional disruption of formally overruling a forty-year foundational precedent.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Kagan raises the most serious challenge to my position by arguing that \u00a7 706's original meaning is 'genuinely contested' and that the pre-existing Skidmore framework demonstrates Congress legislated against a backdrop already tolerating some judicial deference \u2014 but this argument proves too much. Skidmore itself does not require deference; it accords persuasive weight proportional to the quality of agency reasoning, which is entirely consistent with a court independently deciding questions of law while finding an agency's well-reasoned interpretation persuasive. The critical distinction is between a court that considers agency expertise as one input into its independent judgment versus a court that, upon finding ambiguity, is compelled to accept any reasonable agency interpretation \u2014 the latter is what Chevron mandates and what \u00a7 706's 'shall decide' language forecloses. Justice Jackson's argument that Chevron deference is itself a judicial determination about congressional intent is clever but circular: the question is whether courts may infer a blanket delegation of interpretive authority from statutory silence or ambiguity, and nothing in the text of any statute supports that inference. I remain firmly with the Petitioner, agreeing with Justice Thomas that stare decisis cannot rescue a doctrine constitutionally and statutorily infirm at its foundation.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson's argument that Chevron deference is itself a judicial determination \u2014 and therefore compatible with \u00a7 706's 'shall decide' language \u2014 is the most intellectually serious challenge remaining, but I find it ultimately unpersuasive because it conflates the initial judicial determination of ambiguity with the subsequent mandatory deference that Chevron requires; once a court declares a statute ambiguous under Chevron Step One, it loses the independent judgment \u00a7 706 demands and must accept any reasonable agency interpretation, which is precisely the abdication Marbury forbids. Justice Kagan's observation that King v. Burwell and West Virginia v. EPA demonstrate the Court's capacity to cabin Chevron organically actually reinforces my view that the doctrine has become so riddled with exceptions and workarounds that it no longer provides the clarity and predictability that stare decisis is meant to protect \u2014 a doctrine that requires constant judicial management to prevent its own worst consequences is not a stable precedent worth preserving. I am persuaded by Chief Justice Roberts' institutionalist framing that the narrowest ground \u2014 replacing Chevron with Skidmore rather than adopting Justice Thomas's broader constitutional condemnation \u2014 best serves the Court's legitimacy while addressing the genuine textual and structural deficiencies Justice Gorsuch and Justice Barrett have identified. The transition to Skidmore substantially addresses Justice Sotomayor's reliance concerns because agencies' well-reasoned technical interpretations will continue to carry significant persuasive weight, and prospective application can further mitigate disruption to settled regulatory regimes.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Kagan raises the most serious challenge to my position by arguing that \u00a7 706's original meaning is 'genuinely contested' and that Congress legislated against a backdrop already tolerating Skidmore deference \u2014 but this argument actually reinforces my conclusion rather than undermining it. If Skidmore's persuasiveness framework was already operative in 1944 when Congress drafted the APA, then Congress wrote \u00a7 706's mandatory 'shall decide' language against that backdrop and chose not to codify anything resembling Chevron's mandatory deference; the most natural reading is that Congress intended to preserve judicial primacy while allowing courts to find agency interpretations persuasive, not binding. Justice Jackson's argument that Chevron deference is itself a judicial determination about congressional intent is theoretically interesting but proves too much \u2014 if courts must independently determine whether Congress delegated interpretive authority, that independent determination is precisely what \u00a7 706 requires, and Chevron's automatic deference to any 'reasonable' agency interpretation in step two bypasses that inquiry entirely. I remain firmly with the Petitioner: the text of \u00a7 706, its original public meaning, Marbury's foundational principle, and the structural separation of powers all converge on overruling Chevron and restoring Skidmore as the operative framework.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kavanaugh's argument that Chevron's step-two mandatory deference constitutes an 'abdication' that Marbury forbids is the most refined version of the petitioner case, but it still conflates two distinct questions: whether courts must defer and whether courts may find agency reasoning persuasive as part of their independent judgment. The Chevron framework, properly understood through Mead and Kisor, already requires courts to make independent determinations at Step Zero and Step One before any deference attaches \u2014 this is not abdication but structured judicial analysis. Justice Roberts' own acknowledgment that he seeks 'the narrowest ground commanding a majority' and that prospective application is needed to protect reliance interests actually concedes the core of my concern: the majority is not vindicating a clear textual command but managing the disruption of a coalition built on incompatible rationales, from Justice Thomas's constitutional condemnation to Justice Kavanaugh's pragmatic restoration. I will write separately to emphasize that the communities most dependent on the regulatory infrastructure built under Chevron \u2014 environmental justice communities, workers, patients \u2014 will bear the transition costs of this doctrinal disruption while the Court's institutionalist concerns about its own legitimacy are served.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "While I am deeply cautious about overturning forty years of settled administrative law given the reliance interests at stake, the text of APA Section 706 is difficult to reconcile with mandatory Chevron deference \u2014 it instructs that 'the reviewing court shall decide all relevant questions of law,' language that reflects the judiciary's core constitutional function articulated in Marbury v. Madison. My own opinion in King v. Burwell already signaled that courts should not reflexively defer to agencies on questions of deep economic and political significance, and West Virginia v. EPA's Major Questions Doctrine represents a recognition that Chevron's scope had grown untenable. Rather than a wholesale repudiation that destabilizes thousands of existing regulations, I would favor overruling Chevron's mandatory deference framework while preserving Skidmore's persuasiveness standard, which respects agency expertise without abdicating judicial responsibility \u2014 a narrower ground that protects institutional legitimacy while correcting a doctrinal error that has persisted too long.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.98,
+        "reasoning": "The text of APA \u00a7 706 is unambiguous: 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions' \u2014 this is a mandatory directive to courts, not a permissive invitation to defer to executive agencies. As I wrote in my dissent from denial of certiorari in Baldwin v. United States, the meaning of a statute was understood at the time of the APA's enactment as a quintessential question of law, and \u00a7 706 places statutory interpretation on equal footing with constitutional interpretation, yet we never defer to agencies on constitutional questions. Chevron, decided in 1984, cannot override the original public meaning of the 1946 APA, and it fundamentally contradicts Marbury v. Madison's foundational principle that it is emphatically the province and duty of the judicial department to say what the law is \u2014 a responsibility that cannot be delegated to the executive branch without violating the separation of powers. Stare decisis cannot save a doctrine that is constitutionally and statutorily infirm at its foundation; erroneous precedents, particularly those that distort the constitutional structure, must be corrected.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of APA \u00a7 706 is unambiguous: 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions, and determine the meaning or applicability of the terms of an agency action.' This mandatory language, consistent with Marbury v. Madison's foundational principle that it is emphatically the province of the judiciary to say what the law is, cannot be reconciled with a doctrine that compels courts to defer to executive agencies on statutory interpretation questions. Chevron inverts the proper constitutional order by effectively delegating interpretive authority to agencies with policy agendas, and the Major Questions Doctrine articulated in West Virginia v. EPA already signals this Court's recognition that Chevron has been stretched far beyond any defensible textual or structural foundation. While reliance interests deserve some consideration, the Skidmore framework provides a workable alternative that respects agency expertise without abdicating judicial responsibility, and stare decisis cannot perpetuate a doctrine that conflicts with both the APA's text and the separation of powers.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "Overruling Chevron would devastate the regulatory infrastructure that protects vulnerable populations \u2014 workers, consumers, patients, and the environment \u2014 by stripping agencies of the interpretive authority Congress implicitly delegated to them when it enacted complex technical statutes. The APA's \u00a7 706 does not mandate de novo judicial review of every statutory ambiguity; rather, Chevron correctly recognizes that when Congress leaves gaps in technical legislation, it expects expert agencies, not generalist judges, to fill them with reasonable interpretations. The reliance interests embedded in forty years of Chevron-based regulations are staggering \u2014 thousands of rules governing food safety, environmental protection, financial regulation, and civil rights hang in the balance, and destabilizing them would cause concrete, irreversible harm to the very communities I have dedicated my jurisprudence to protecting. While Skidmore offers a partial alternative by according persuasive weight to well-reasoned agency interpretations, it lacks the predictability and uniformity that Chevron provides, and the Major Questions Doctrine established in West Virginia v. EPA already adequately cabins agency overreach on the most consequential policy questions without requiring wholesale abandonment of deference.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I have long acknowledged Chevron's imperfections and supported its narrowing through tools like the Major Questions Doctrine established in West Virginia v. EPA and the limiting principles of Mead Corp., wholesale overruling of a forty-year-old doctrine embedded in thousands of regulatory decisions creates precisely the kind of legal instability and workability crisis that pragmatic jurisprudence must avoid. Section 706's original meaning is, as the research confirms, genuinely contested \u2014 it is far from the 'clear mandate' for de novo review that petitioners claim, and the pre-existing Skidmore framework from 1944 demonstrates that Congress legislated against a backdrop already tolerating some judicial deference to agency expertise. The better path is to continue the Court's organic narrowing of Chevron \u2014 confining it to formal agency interpretations per Mead, excluding major policy questions per King v. Burwell, and demanding genuine statutory ambiguity before deference attaches \u2014 rather than the seismic disruption of outright overruling that would unsettle reliance interests built across the entire administrative state. Courts can and should exercise independent judgment under a robust Skidmore persuasiveness standard while still crediting the technical expertise that agencies genuinely possess, preserving statutory coherence without the destabilizing consequences of abandoning stare decisis on a foundational administrative law precedent.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The text of APA \u00a7 706 is unambiguous: 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions, and determine the meaning or applicability of the terms of an agency action.' As a textualist, I cannot read that mandatory directive \u2014 'shall decide' \u2014 as permitting courts to abdicate their interpretive responsibility to executive agencies whenever a statute appears ambiguous. Marbury v. Madison established that it is emphatically the province of the judiciary to say what the law is, and Chevron's two-step framework inverts that constitutional order by treating statutory ambiguity as an implicit congressional delegation of lawmaking power to agencies \u2014 a fiction unsupported by any text and inconsistent with the separation of powers. The Skidmore framework, which accords agency interpretations persuasive weight proportional to their thoroughness and consistency, provides a workable alternative that respects both agency expertise and the judiciary's constitutional role without the structural distortions Chevron has produced over forty years.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of APA Section 706's mandate that 'the reviewing court shall decide all relevant questions of law' is in significant tension with Chevron deference as it has been applied, and the 1946 legislative history supports independent judicial judgment on statutory interpretation. However, rather than wholesale overruling Chevron, I would substantially limit it by holding that courts must exercise independent judgment under Section 706 while still giving appropriate weight to agency expertise under a Skidmore-style framework \u2014 preserving reliance interests and institutional stability while correcting Chevron's most problematic applications. The Major Questions Doctrine articulated in West Virginia v. EPA and the narrowing already accomplished through Mead and King v. Burwell demonstrate that the Court has been progressively cabining Chevron, and a clean doctrinal resolution replacing it with Skidmore deference would be more workable and less disruptive than continued ad hoc limitations. This approach respects Marbury's foundational principle that it is emphatically the province of the judiciary to say what the law is, while acknowledging that agencies' technical expertise remains a legitimate and persuasive \u2014 though not binding \u2014 consideration in statutory construction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of APA \u00a7 706 is dispositive: Congress mandated that 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions, and determine the meaning or applicability of the terms of an agency action' \u2014 language that, at the time of enactment in 1946, carried the original public meaning of requiring independent judicial judgment, not deference to executive interpretations. As a textualist and originalist, I cannot reconcile Chevron's mandatory deference framework with this unambiguous statutory command, particularly given that the APA places statutory interpretation on equal footing with constitutional interpretation, and courts have never deferred to agencies on constitutional questions. Marbury v. Madison's foundational principle that 'it is emphatically the province and duty of the judicial department to say what the law is' reinforces that interpretive authority is constitutionally vested in Article III courts, not executive agencies, and Chevron's 1984 judicial construction cannot override a clear 1946 congressional mandate. While I take seriously the reliance interests embedded in decades of administrative law, the proper remedy is to restore Skidmore's persuasiveness-based framework, which respects agency expertise without unconstitutionally transferring interpretive sovereignty to the executive branch.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As Justice Jackson, I would vote for the Respondent and against overruling Chevron, though I recognize the doctrine's genuine tensions. The APA's Section 706 directive that courts 'decide all relevant questions of law' is best read, as Merrill argues, as compatible with Chevron when a court independently concludes Congress delegated interpretive authority to an agency \u2014 Chevron deference is itself a judicial determination about congressional intent, not an abdication of judicial responsibility. Agencies possess genuine technical expertise that courts lack, and the reliance interests embedded in decades of regulatory frameworks \u2014 affecting environmental protections, labor standards, healthcare regulations, and criminal justice \u2014 are enormous; overruling Chevron would disproportionately harm vulnerable communities who depend on robust agency enforcement of protective statutes. Rather than wholesale elimination, I would preserve Chevron while reinforcing the Mead and Kisor limiting principles and the Major Questions Doctrine from West Virginia v. EPA to cabin its scope, ensuring deference applies only where Congress has genuinely delegated interpretive authority through formal agency action.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.85,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "22-451",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Supreme Court should overturn or limit the Chevron doctrine, which requires courts to defer to federal agencies' reasonable interpretations of ambiguous statutes they administer.",
+      "legal_provision": "Administrative Procedure Act (APA), 5 U.S.C. \u00a7 706, which governs judicial review of agency actions, alongside the foundational Chevron U.S.A., Inc. v. Natural Resources Defense Council (1984) doctrine and its two-step deference framework.",
+      "petitioner_position": "Petitioners (Loper Bright Enterprises, a commercial fishing company) argue that Chevron deference unconstitutionally transfers interpretive authority from the judiciary to executive agencies, violating the separation of powers, Article III judicial power, and the APA's mandate that courts independently decide questions of law. They contend that agencies should not receive automatic deference on statutory ambiguities, as this effectively allows agencies to expand their own power beyond congressional authorization.",
+      "respondent_position": "Respondents (Secretary of Commerce Gina Raimondo and federal agencies) argue that Chevron deference is a well-established, constitutionally sound doctrine that respects congressional intent to delegate interpretive authority to expert agencies. They emphasize strong reliance interests built over decades of administrative law, the practical necessity of agency expertise in complex regulatory domains, and the principle of stare decisis as reasons to preserve the Chevron framework.",
+      "key_precedents": [
+        "Chevron U.S.A., Inc. v. Natural Resources Defense Council, 467 U.S. 837 (1984) - the foundational deference doctrine at issue",
+        "Marbury v. Madison, 5 U.S. 137 (1803) - establishing judicial authority to say what the law is",
+        "Skidmore v. Swift & Co., 323 U.S. 134 (1944) - alternative persuasive deference standard",
+        "United States v. Mead Corp., 533 U.S. 218 (2001) - limiting Chevron to formal agency interpretations",
+        "Kisor v. Wilkie, 588 U.S. 558 (2019) - limiting Auer deference to agency regulatory interpretations",
+        "West Virginia v. EPA, 597 U.S. 697 (2022) - major questions doctrine limiting agency authority",
+        "Becerra v. Empire Health Foundation - cited in amicus briefs regarding administrative law",
+        "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Auto Insurance Co. (1983) - arbitrary and capricious review standard"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that \u00a7 706's 'shall decide' language permits courts to 'decide' that Congress delegated interpretive authority to agencies is the most intellectually serious challenge to my position, and I want to engage it honestly: the problem is that this reading collapses the distinction between a court independently determining that a delegation occurred versus a court deferring to an agency's self-serving interpretation of its own statutory authority. As I wrote in Kisor, rigorous threshold conditions can do real work, but Justice Kagan is correct that nominally preserving Chevron while gutting its application creates doctrinal incoherence that undermines the very predictability stare decisis is meant to protect. I remain persuaded that Skidmore's persuasive deference framework is the honest and workable path \u2014 it preserves courts' ability to credit genuine agency expertise while restoring \u00a7 706's command, and it avoids the maximalist overruling that Justices Thomas and Gorsuch advocate, which would unnecessarily destabilize settled regulatory arrangements. As Chief Justice, I would assign a majority opinion on the narrowest possible grounds: overruling Chevron's mandatory two-step framework while explicitly preserving Skidmore and emphasizing that well-reasoned agency interpretations in technical domains will continue to carry substantial persuasive weight, managing reliance interests through prospective application guidance.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.98,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious opposing arguments \u2014 that overruling Chevron will harm vulnerable populations by transferring regulatory authority to generalist judges lacking technical expertise. But this argument proves too much: it would justify any unconstitutional arrangement so long as it produces outcomes someone prefers, which is precisely the kind of consequentialist reasoning that originalism rejects. The Constitution does not permit us to preserve structurally defective doctrines because we approve of their policy results. As I have written previously, the accumulation of legislative, executive, and judicial power in a single branch \u2014 here, agencies that write rules, enforce them, and now interpret their own statutory authority \u2014 is the very definition of tyranny the Founders sought to prevent. Justice Gorsuch correctly identifies that the APA's 'shall decide all relevant questions of law' language was understood at enactment as a deliberate check on administrative overreach, and no reliance interest, however substantial, can override a clear constitutional and statutory command that courts exercise independent judgment.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that overruling Chevron will transfer vast technical regulatory authority to generalist judges, harming vulnerable populations who depend on expert agency protection. This concern deserves a direct response: the premise that agencies are more reliable protectors of these populations than courts is empirically contestable, since the same deference that empowered the EPA under one administration equally empowers agencies to roll back those protections under another. Chevron's mandatory deference is a double-edged sword that cuts against regulated parties and beneficiaries alike depending on who controls the executive branch, whereas Skidmore's persuasive deference preserves judicial independence while still allowing courts to credit well-reasoned, technically sophisticated agency interpretations. I agree with Justice Thomas and Justice Gorsuch that the APA's text is dispositive \u2014 'shall decide all relevant questions of law' is not a suggestion, and no reliance interest, however substantial, can justify perpetuating a doctrine that directly contradicts a congressional mandate and inverts Marbury's foundational allocation of interpretive authority to the judiciary. Chief Justice Roberts' Kisor-style cabining approach is thoughtful but ultimately insufficient \u2014 it preserves the structural defect of mandatory deference while merely adding procedural gatekeeping that courts will apply inconsistently.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's move toward Skidmore is the most troubling development for my position, because she is abandoning Chevron not on constitutional grounds but on a reading of \u00a7 706 that I believe misreads congressional intent \u2014 Congress enacted the APA against a backdrop of existing administrative law that already contemplated deference, and the 'shall decide' language was not understood in 1946 as categorically prohibiting deference to agency expertise on genuinely ambiguous statutes. Justice Thomas and Justice Gorsuch invoke Marbury v. Madison as if it settles the question, but Marbury concerned the Court's power to invalidate unconstitutional legislation \u2014 it said nothing about how courts should handle genuine statutory ambiguity in technical domains where Congress has delegated gap-filling authority to expert agencies. The strongest argument against me is Justice Roberts' Kisor-style reformation, which I actually find partially persuasive \u2014 rigorous threshold conditions and genuine ambiguity requirements are improvements \u2014 but my concern is that 'cabining' Chevron while nominally preserving it is functionally equivalent to overruling it, and the majority's preferred Skidmore standard provides insufficient predictability for the thousands of regulatory decisions protecting workers, patients, and the environment that depend on stable agency authority. Justice Jackson and I stand together in recognizing that the real-world consequences of this doctrinal shift will fall hardest on the most vulnerable communities, and a well-reasoned dissent here is not merely appropriate but necessary.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that \u00a7 706's 'shall decide' language permits courts to 'decide' that Congress delegated interpretive authority to agencies is the most intellectually serious challenge remaining, and I want to engage it directly: the problem is that this reading collapses the distinction between a court independently concluding delegation occurred and a court deferring to an agency's self-serving interpretation of its own statutory authority \u2014 Chevron's Step Two does the latter, not the former, and that is precisely what \u00a7 706 forecloses. Justice Sotomayor's historical argument that the APA was enacted against a backdrop of existing deference norms deserves respect, but as I noted in my own Chevron dissents, the 1946 Congress was reacting against administrative overreach, not codifying it, and the legislative history cuts both ways at best. I remain persuaded that Skidmore's persuasive deference framework \u2014 which Justice Kavanaugh correctly notes still gives substantial weight to well-reasoned agency interpretations in technical domains \u2014 preserves the practical benefits Justice Sotomayor and Justice Jackson identify for vulnerable communities while correcting the structural inversion of interpretive authority that \u00a7 706's text commands. The 7-2 tally does not move me, but the genuine convergence across ideological lines on Skidmore as the workable alternative \u2014 from Justice Gorsuch on the right to my own evolution from the left \u2014 reflects that this middle path is textually sound and institutionally honest in a way that Kisor-style nominal preservation is not.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.97,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that overruling Chevron will transfer vast regulatory power to generalist judges lacking technical expertise, harming vulnerable populations who depend on robust agency protection. But this argument proves too much: the Constitution does not permit us to preserve a structurally unconstitutional doctrine because we prefer its policy outcomes, and the premise that agencies are more reliable interpreters of law than courts is precisely the kind of consequentialist reasoning that should not override the text of Article III and APA \u00a7 706. As I noted in my Gundy dissent, the Founders understood that concentrating legislative, executive, and judicial functions in a single branch \u2014 here, allowing agencies to both make and authoritatively interpret the rules governing their own conduct \u2014 is the very definition of tyranny they designed the separation of powers to prevent. Justice Roberts' Kisor-style cabining approach is thoughtful, but I respectfully disagree that nominal preservation of the Chevron framework while gutting its application is preferable to honest overruling \u2014 Skidmore provides a workable, constitutionally sound alternative that still permits courts to credit agency expertise where it is genuinely persuasive, without the mandatory deference that inverts Marbury's foundational command.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that overruling Chevron will transfer vast regulatory authority to generalist judges lacking technical expertise, harming vulnerable communities who depend on robust agency protection. This concern deserves genuine engagement, but I find it ultimately unpersuasive for two reasons. First, the Skidmore framework I favor does not strip agencies of influence; it simply makes that influence proportional to the quality of reasoning rather than mandatory, meaning well-reasoned agency interpretations in technical domains will still carry substantial persuasive weight with courts. Second, as I noted in Gutierrez-Brizuela, the real structural problem with Chevron is that it allows agencies to effectively expand their own jurisdiction \u2014 a concern that cuts against the very accountability Justice Sotomayor values, since unaccountable agency power expansion is no more democratically legitimate than judicial second-guessing. I agree with Chief Justice Roberts that a Kisor-style reformation is preferable to wholesale overruling, as it manages reliance interests while restoring the APA's original design, and I note that Justice Kagan's willingness to move toward Skidmore from the other side of the ideological spectrum suggests this middle path has genuine cross-ideological appeal rooted in the text of Section 706.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that overruling Chevron will transfer vast regulatory authority to generalist judges lacking technical expertise, harming vulnerable communities who depend on robust agency protection. This concern deserves genuine engagement, but it ultimately proves too much: the Constitution does not permit us to preserve a structurally unsound doctrine merely because the alternative is inconvenient or because we distrust judicial competence. As I read APA \u00a7 706's unambiguous command that 'the reviewing court shall decide all relevant questions of law,' Congress in 1946 made precisely this choice \u2014 to vest interpretive authority in courts, not agencies \u2014 and we are not at liberty to override that democratic judgment because we prefer a different institutional arrangement. Justice Kagan's evolution toward Skidmore is particularly significant; even a longtime Chevron defender now acknowledges the textual case is 'difficult to ignore,' which reinforces that the doctrine's foundational premises were analytically weak from the outset. I agree with Chief Justice Roberts that managing the transition carefully matters, but unlike him I believe Kisor-style cabining is insufficient \u2014 a doctrine that is constitutionally and textually unsound should be overruled, with Skidmore's persuasive-deference framework providing the workable, reliance-preserving alternative.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's move toward Skidmore is the argument that most tests my position, and I must engage with it honestly: she is not abandoning deference on constitutional grounds but on a reading of \u00a7 706 that I still believe misreads the 1946 backdrop, yet her pragmatic concession that Chevron creates doctrinal incoherence when 'cabined' gives me genuine pause. However, I cannot accept the majority's framing that \u00a7 706's 'shall decide' language categorically prohibits deference \u2014 as I argued in round one, deciding a question of law can include deciding that Congress delegated interpretive authority to an agency, which is itself an independent judicial determination. Justice Alito's point that Chevron is a double-edged sword cutting against vulnerable populations under hostile administrations is empirically serious and partially persuades me that the status quo is imperfect, but the answer to that problem is the major questions doctrine and rigorous Step Zero analysis under Kisor, not wholesale abandonment of a framework that has provided 40 years of regulatory stability. I maintain my Respondent position because the real-world disruption of overruling Chevron \u2014 the thousands of settled regulatory interpretations now subject to relitigation \u2014 falls disproportionately on the communities I have spent my career defending, and Skidmore's case-by-case persuasiveness standard provides insufficient predictability to replace that stability.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While I am deeply committed to stare decisis and institutional stability, Chevron presents a unique structural problem that has grown more acute over time: it effectively inverts the APA's mandate under 5 U.S.C. \u00a7 706 that courts 'shall decide all relevant questions of law,' and conflicts with Marbury v. Madison's foundational principle that it is emphatically the province of the judiciary to say what the law is. My preferred path is not wholesale overruling but rather the Kisor v. Wilkie methodology \u2014 cabining Chevron through rigorous threshold conditions, including requiring genuine ambiguity only after exhausting all traditional tools of statutory construction, such that deference becomes the exception rather than the rule. The major questions doctrine articulated in West Virginia v. EPA already signals that this Court has been systematically limiting Chevron's domain, and a Kisor-style reformation \u2014 preserving the nominal framework while gutting its automatic application \u2014 would protect reliance interests while restoring judicial independence on questions of law. This narrow, minimalist approach avoids the convulsive shock of outright overruling while correcting the doctrine's most constitutionally troubling features.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.98,
+        "reasoning": "Chevron deference is fundamentally incompatible with the original meaning of Article III and the APA. As Marbury v. Madison established, it is emphatically the province and duty of the judicial department to say what the law is \u2014 a principle that admits no exception permitting courts to abdicate that responsibility to executive agencies. The APA, 5 U.S.C. \u00a7 706, expressly commands courts to 'decide all relevant questions of law' and 'interpret constitutional and statutory provisions,' which is a clear congressional directive that courts must exercise independent judgment, not rubber-stamp agency interpretations under a deferential two-step framework. Chevron was itself a judicial invention untethered from the constitutional text or the APA's original meaning, and no amount of reliance interests or stare decisis can justify perpetuating a doctrine that structurally violates separation of powers by concentrating legislative, executive, and judicial functions in the executive branch \u2014 precisely the tyranny the Founders designed the Constitution to prevent. Skidmore's persuasive deference standard provides a constitutionally sound alternative that respects agency expertise without surrendering judicial independence.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The text of APA \u00a7 706 is unambiguous: 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions' \u2014 the word 'shall' is mandatory and admits no exception for agency deference. Chevron's mandatory deference framework directly contradicts this statutory command by requiring courts to abdicate their interpretive role whenever a statute is deemed ambiguous, effectively allowing agencies to determine the scope of their own authority. This conflicts with Marbury v. Madison's foundational principle that '[i]t is emphatically the province and duty of the judicial department to say what the law is,' and our recent major questions doctrine in West Virginia v. EPA reinforces that courts must not lightly presume Congress delegated vast interpretive authority to agencies. Stare decisis concerns are insufficient to preserve a doctrine that is textually irreconcilable with the APA and structurally incompatible with Article III; the Skidmore persuasive deference standard provides an adequate, constitutionally sound alternative that respects agency expertise without surrendering judicial independence.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Overturning Chevron would devastate the regulatory infrastructure that protects vulnerable populations \u2014 workers, consumers, patients, and the environment \u2014 by empowering generalist federal judges to second-guess expert agency interpretations in highly technical domains like environmental regulation, public health, and financial oversight. Chevron, properly understood, reflects congressional intent to delegate interpretive authority to agencies with specialized expertise, and stare decisis demands extraordinary justification before discarding a doctrine that has structured administrative law for forty years and generated enormous reliance interests across thousands of regulatory decisions. While I acknowledge the legitimate concerns raised in West Virginia v. EPA regarding the major questions doctrine, those concerns are better addressed through targeted limitations \u2014 as this Court did in Kisor v. Wilkie with Auer deference \u2014 rather than wholesale elimination of a framework that, in practice, ensures that complex regulatory gaps are filled by accountable experts rather than unelected judges with no technical training. The Skidmore standard, though a viable fallback, provides insufficient predictability and would effectively transfer vast regulatory power to the judiciary, harming the very communities that depend on robust agency protection.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While I have long defended Chevron as a pragmatically sound doctrine that respects congressional delegation and agency expertise, the textual case against it has grown difficult to ignore. Section 706 of the APA's directive that 'the reviewing court shall decide all relevant questions of law' reflects a genuine congressional mandate for independent judicial interpretation, and as Marbury v. Madison established, it is emphatically the province of the judiciary to say what the law is. That said, I would not wholesale abandon deference to agency expertise \u2014 rather, I would move toward a Skidmore-style framework where agency interpretations receive weight proportional to their thoroughness, consistency, and persuasive power, preserving the practical benefits of agency expertise without the constitutional overreach of mandatory deference. This approach honors statutory coherence, maintains workable administrative law, and respects the reliance interests built under Chevron while correcting its structural flaw of allowing agencies to be the final arbiters of their own statutory authority.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.97,
+        "reasoning": "The text of APA Section 706 is unambiguous: 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions' \u2014 the word 'shall' is mandatory, and 'all' means all, not 'all except those where agencies claim interpretive authority.' As I wrote in my Gundy dissent and have argued consistently, Chevron inverts the constitutional order established in Marbury v. Madison by transferring the judicial power to 'say what the law is' to executive agencies, violating Article III. The original meaning of the APA, enacted in 1946 as a direct response to concerns about unchecked administrative power, plainly contemplated de novo judicial review of legal questions, as contemporary commentators like John Dickinson recognized at the time of enactment. Skidmore v. Swift & Co. provides a constitutionally sound alternative \u2014 courts may find agency interpretations persuasive based on their thoroughness and reasoning, but persuasion is categorically different from mandatory deference that effectively allows agencies to expand their own jurisdiction.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of APA Section 706 is compelling \u2014 Congress mandated that 'the reviewing court shall decide all relevant questions of law,' which reflects the original understanding that statutory interpretation is a judicial function rooted in Marbury v. Madison. My prior skepticism of Chevron, expressed in my D.C. Circuit concurrence in Gutierrez-Brizuela, aligns with the view that Chevron effectively permits agencies to expand their own authority, a concern reinforced by our major questions doctrine in West Virginia v. EPA. Rather than a wholesale overruling, I would favor returning to the Skidmore persuasive deference framework, which respects agency expertise without surrendering judicial independence, thereby preserving institutional legitimacy and workability while honoring the APA's original design. This approach mirrors the limiting methodology we applied in Kisor v. Wilkie to Auer deference, providing a measured, precedent-conscious path that avoids the most disruptive aspects of a complete doctrinal reversal.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of APA \u00a7 706 is unambiguous in its mandate that 'the reviewing court shall decide all relevant questions of law, interpret constitutional and statutory provisions' \u2014 the word 'shall' is imperative, and 'all' admits no exception for agency-preferred interpretations. As an originalist and textualist, I find it dispositive that this language, enacted in 1946 as a deliberate check on administrative power, was understood by contemporaneous commentators like John Dickinson as a 'clear mandate' for courts to exercise independent judgment on legal questions. Chevron's deference framework is in direct tension with Marbury v. Madison's foundational principle that 'it is emphatically the province and duty of the judicial department to say what the law is,' and our more recent decisions in Kisor v. Wilkie and West Virginia v. EPA reflect a Court already systematically cabining doctrines that improperly transfer interpretive authority to the executive. While stare decisis counsels caution, Chevron's foundational premises were analytically weak from the outset, reliance interests in administrative law can be managed through Skidmore's persuasive-deference framework, and a doctrine that is constitutionally and textually unsound does not earn perpetuation merely through age.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I take seriously the textual argument that APA Section 706's mandate that courts 'decide all relevant questions of law' supports independent judicial review, I am deeply concerned about the practical consequences of overturning Chevron for the regulatory infrastructure that protects workers, consumers, and vulnerable communities. Chevron, properly understood, reflects congressional recognition that expert agencies are better positioned to resolve genuine statutory ambiguities in complex technical domains\u2014and abruptly dismantling four decades of reliance interests would create massive disruption across environmental, labor, and public health regulations that disproportionately protect marginalized populations. Stare decisis counsels strongly against overruling a foundational doctrine absent a compelling showing that it is unworkable, and Kisor v. Wilkie (2019) demonstrates that this Court can meaningfully cabin deference doctrines through careful limiting construction rather than wholesale elimination. I would instead preserve Chevron while reinforcing its gatekeeping mechanisms\u2014requiring genuine ambiguity, meaningful Step Zero analysis per Mead Corp., and robust application of the major questions doctrine from West Virginia v. EPA\u2014to ensure agencies operate within congressionally authorized bounds without sacrificing the practical benefits of expert agency interpretation.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.842,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.97,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.97,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.98,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.97,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

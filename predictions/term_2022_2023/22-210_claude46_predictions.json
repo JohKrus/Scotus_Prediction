@@ -1,0 +1,573 @@
+[
+  {
+    "docket": "22-210",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a party must reassert a purely legal issue rejected at summary judgment in a post-trial motion in order to preserve that issue for appellate review.",
+      "legal_provision": "Federal Rules of Civil Procedure Rule 50 (Motion for Judgment as a Matter of Law) and the Prison Litigation Reform Act (PLRA), 42 U.S.C. \u00a7 1997e(a), governing exhaustion of administrative remedies; also implicating 28 U.S.C. \u00a7 1254(1) (Supreme Court jurisdiction) and general federal appellate preservation doctrines.",
+      "petitioner_position": "Petitioner Neil Dupree (a corrections officer/lieutenant) argues that a purely legal issue \u2014 here, the PLRA exhaustion defense \u2014 that was fully litigated and definitively rejected at summary judgment does not need to be re-raised in a post-trial Rule 50 motion to be preserved for appellate review. Requiring such redundant re-assertion serves no legitimate judicial economy purpose, creates an unfair trap for litigants, and forces parties into an untenable position of making unnecessary and potentially frivolous motions at trial and post-trial solely to preserve already-decided legal questions. Dupree contends that the majority of circuit courts agree with this position and that the circuit split \u2014 spanning virtually all twelve circuits \u2014 demands Supreme Court resolution in favor of the majority rule.",
+      "respondent_position": "Respondent Kevin Younger argues that the Fourth Circuit correctly applied established preservation rules requiring that any argument a party wishes to raise on appeal must be renewed in a post-trial motion, regardless of whether the issue is purely legal or factual. Respondent contends that orders denying summary judgment are interlocutory and non-final, citing Ortiz v. Jordan, and therefore cannot independently serve as a basis for appellate review without subsequent renewal. Respondent further argues that the burden of re-raising the argument is minimal \u2014 essentially adding a single sentence incorporating prior arguments by reference \u2014 and that the Court has repeatedly denied certiorari on this question without dissent, signaling satisfaction with the existing framework.",
+      "key_precedents": [
+        "Ortiz v. Jordan, 562 U.S. 180 (2011) \u2014 summary judgment denials are not final decisions subject to direct appeal",
+        "Ross v. Blake, 136 S. Ct. 1850 (2016) \u2014 PLRA exhaustion and availability of administrative remedies",
+        "Brightwell v. Lehman (cited in documents regarding PLRA remedy unavailability)",
+        "Oakes (cited regarding IIU investigation and administrative remedy availability)",
+        "DeSilva v. DiLeonardi, 181 F.3d (cited regarding difficulty of incorporating arguments by reference)",
+        "Federal Rule of Civil Procedure 50 (governing motions for judgment as a matter of law \u2014 the procedural mechanism at the center of the preservation dispute)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the collective reasoning persuasive on the core textual and structural points. Justice Thomas and Justice Barrett have correctly identified that Rule 50's text is directed at evidentiary sufficiency \u2014 'a legally sufficient evidentiary basis to find for the party' \u2014 language that simply does not encompass purely legal determinations like PLRA exhaustion that were never submitted to the jury and cannot be affected by trial evidence. As Chief Justice, my primary concern is crafting the narrowest possible holding that commands a majority: we should hold only that Rule 50's preservation requirement does not apply to purely legal defenses, fully litigated at summary judgment, that turn on undisputed facts untethered from the trial record \u2014 leaving for another day questions about mixed fact-law issues or defenses where trial evidence might be relevant. Justice Kagan's point about workability is particularly apt for institutional purposes: a clear categorical rule distinguishing evidence-sufficiency questions from purely legal determinations will provide lower courts with administrable guidance while resolving the acknowledged circuit split on the narrowest possible grounds consistent with Rule 50's text and Ortiz's express reservation of this question.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I find myself in substantial agreement with Justice Gorsuch's textualist analysis: Rule 50(a)(1)'s plain text asks whether there is 'a legally sufficient evidentiary basis to find for the party,' language that is categorically directed at trial evidence sufficiency, not at purely legal determinations like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) that were resolved at summary judgment by reference to undisputed facts. The strongest argument for the respondent would be that Ortiz v. Jordan's non-finality principle requires all pre-trial rulings to be renewed post-trial to preserve appellate review, but that argument proves too much \u2014 Ortiz's rationale rested on the premise that trial evidence could alter the factual record underlying a summary judgment denial, a premise that simply has no purchase when the issue is a purely legal question untouched by anything that transpired at trial. Justice Barrett correctly identifies that Ortiz itself left this precise question open, which means the Fourth Circuit's categorical extension of Ortiz to purely legal questions is not compelled by precedent and must stand or fall on its own textual and logical merits \u2014 merits it lacks. Imposing a preservation requirement with no textual basis in Rule 50 and no legitimate judicial economy justification is precisely the kind of extra-textual judicial implication that my originalist and textualist methodology forbids.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas's textualist analysis: Rule 50(a)(1)'s plain language addresses whether there is 'a legally sufficient evidentiary basis to find for the party,' which is categorically distinct from a purely legal defense like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) that turns on undisputed facts never submitted to the jury. Justice Kagan makes a pragmatically compelling point that requiring re-assertion of an already-decided legal question in a Rule 50 motion serves no workable judicial economy purpose \u2014 it neither sharpens the record nor gives the district court new information \u2014 which reinforces my view that the Fourth Circuit's rule imposes a procedural trap untethered from Rule 50's actual function. The strongest argument for the respondent would be that Ortiz v. Jordan's non-finality principle applies categorically to all summary judgment denials regardless of their character, but that argument proves too much: Ortiz's rationale was grounded in the possibility that trial evidence could alter the factual record, a premise that simply has no purchase when the defense is purely legal and the relevant facts are undisputed. Extending Ortiz beyond its rationale to create a forfeiture rule for purely legal questions would be precisely the kind of unprincipled textual expansion I have consistently resisted.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, and I want to emphasize what Justice Jackson articulates so well: requiring litigants to perform a 'meaningless ritual' of re-raising already-decided legal questions under penalty of forfeiture disproportionately harms the very prisoners and pro se litigants the PLRA was designed to govern \u2014 people who often lack sophisticated counsel capable of anticipating this technical trap. Justice Thomas's textualist analysis reinforces my own pragmatic conclusion from a different methodological direction: Rule 50(a)(1)'s plain language addresses 'legally sufficient evidentiary basis' for a jury finding, a concept that is simply incoherent when applied to a threshold legal defense like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) that was never submitted to the jury and whose resolution cannot be altered by anything in the trial record. The strongest argument for the respondent \u2014 that uniform application of Rule 50's preservation requirement promotes systemic clarity and prevents selective invocation \u2014 fails because it sacrifices substantive justice for a false procedural tidiness, imposing forfeiture of meritorious legal defenses based on a technicality disconnected from Rule 50's actual purpose of ensuring evidentiary sufficiency is tested before appeal. Ortiz v. Jordan expressly left this question open, and the majority of circuits have correctly recognized that the factual/legal distinction is both principled and workable.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "My colleagues have collectively reinforced what I find most compelling from a pragmatic textualist standpoint: Rule 50's text is anchored to evidentiary sufficiency at trial, and there is simply no textual hook for extending its preservation requirement to purely legal determinations. Justice Thomas's point about Rule 50(a)(1)'s specific language \u2014 'a legally sufficient evidentiary basis to find for the party' \u2014 is particularly well-taken, because that phrase is inherently jury-facing and trial-record-dependent, not suited to pre-trial legal rulings on undisputed facts. Justice Barrett's observation that Ortiz itself left this question open is critical: we are not overruling precedent but filling a gap Ortiz expressly acknowledged, and filling it in the way that best serves Rule 50's actual purposes. The strongest counterargument \u2014 that uniform application of Rule 50 across all issues promotes clarity and predictability \u2014 fails because it sacrifices textual fidelity and workability for a false uniformity that punishes litigants for failing to perform a conceptually incoherent ritual.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself signals that the textual and structural arguments here are genuinely compelling rather than merely result-oriented. Justice Thomas puts the textualist point precisely: Rule 50(a)(1)'s language \u2014 'legally sufficient evidentiary basis to find for the party' \u2014 is directed at trial evidence, not at antecedent purely legal determinations, and I cannot manufacture a preservation requirement from text that simply does not speak to the question. Justice Kagan's pragmatic observation reinforces this: requiring re-assertion of an already-decided legal question does not sharpen the record, does not give the district court new information, and serves none of Rule 50's actual purposes \u2014 it is pure procedural formalism untethered from any legitimate judicial economy rationale. The strongest argument for the respondent would be systemic predictability \u2014 that a bright-line rule requiring Rule 50 renewal for all issues avoids line-drawing difficulties between 'purely legal' and 'fact-dependent' questions \u2014 but that concern is insufficient to override the plain text of Rule 50 and would require us to impose a forfeiture trap that the Federal Rules themselves, under Rule 1's mandate of just and efficient resolution, were designed to eliminate.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Chief Justice Roberts's institutionalist framing and Justice Kagan's pragmatic textualist analysis \u2014 both correctly identify that Ortiz v. Jordan left this precise question open and that its rationale simply does not extend to purely legal determinations untethered from the trial record. The strongest argument for the respondent would be a strict categorical rule that all pre-trial rulings must be renewed post-trial to preserve appellate review, but that argument proves too much: it would require litigants to re-raise purely legal questions in a procedural vehicle \u2014 Rule 50 \u2014 whose text is directed exclusively at evidentiary sufficiency, creating the kind of formalistic trap that undermines the Rule 1 mandate of just and efficient resolution. Justice Barrett's point about the textual anchor is particularly compelling from my institutionalist perspective: preservation doctrines that lack grounding in the rules themselves erode the Court's credibility by punishing litigants for failing to anticipate judicially-invented requirements. The unanimous conference position here reflects a genuinely sound legal conclusion, not mere consensus-seeking, and I am comfortable holding at high confidence that Rule 50's preservation requirement does not apply to purely legal defenses like PLRA exhaustion that were fully litigated at summary judgment.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas's textual analysis: Rule 50(a)(1)'s operative language \u2014 'a legally sufficient evidentiary basis to find for the party' \u2014 is directed at the sufficiency of evidence presented at trial, and there is simply no textual hook in Rule 50 for imposing a preservation requirement on purely legal questions like PLRA exhaustion that were fully litigated at summary judgment and are entirely untethered from the trial record. Justice Kagan makes the additional pragmatic point that Ortiz v. Jordan expressly left this question open, and its underlying rationale \u2014 that factual disputes may be resolved differently at trial \u2014 has no logical application when the issue turns on undisputed facts or pure law that no amount of trial evidence can alter. The strongest argument for the respondent would be a systemic one: that a bright-line Rule 50 renewal requirement, even if over-inclusive, provides clarity and uniformity that benefits the administration of justice. But this argument fails under my methodology because preservation doctrines must be grounded in the text of the rules themselves, not in judicial implication of administrative convenience, and imposing a forfeiture rule untethered to Rule 50's text is precisely the kind of extra-textual trap that Rule 1's mandate of just and efficient resolution counsels against. Justice Kavanaugh correctly identifies that the majority of circuits have recognized the factual/legal distinction, which further confirms that the Fourth Circuit's categorical extension of Ortiz is an outlier inconsistent with Rule 50's actual purposes.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I find myself in strong agreement with Justice Sotomayor's emphasis on the practical injustice this rule creates for less sophisticated litigants, and Justice Thomas's textual analysis reinforces my own reading that Rule 50(a)(1)'s plain language \u2014 addressing 'a legally sufficient evidentiary basis' \u2014 is simply inapposite to purely legal determinations like PLRA exhaustion that were never submitted to the jury and could not have been. The strongest argument for the respondent would be a systemic judicial economy rationale \u2014 that requiring re-assertion ensures the district court has a final opportunity to reconsider before appeal \u2014 but as Justice Kagan correctly notes, this rationale collapses entirely when the legal question turns on undisputed facts that trial evidence cannot alter, meaning the district court gains no new information from a post-trial motion. My background as a public defender makes me acutely sensitive to procedural traps that operate as forfeiture mechanisms against litigants who lack sophisticated counsel, and the Fourth Circuit's rule is precisely that kind of trap: it punishes parties for failing to perform a conceptually incoherent ritual with no corresponding benefit to the accuracy of the appellate record or the efficiency of the judicial system. The near-unanimous agreement across my colleagues \u2014 spanning textualists, pragmatists, and institutionalists \u2014 reflects that this is not a close case, and the majority circuit rule correctly captures the meaningful distinction between evidence-sufficiency challenges and purely legal defenses.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text of Rule 50 is directed at the sufficiency of evidence at trial, not at purely legal determinations that were fully litigated and definitively resolved at summary judgment \u2014 requiring redundant re-assertion of such issues serves no legitimate purpose that Rule 50 was designed to advance. Ortiz v. Jordan, 562 U.S. 180 (2011), left this precise question open, noting the distinction between fact-dependent summary judgment denials and purely legal issues resolvable with reference only to undisputed facts; the Fourth Circuit's categorical extension of Ortiz to purely legal questions goes beyond what that precedent requires or supports. As a matter of judicial minimalism, the narrowest and most textually grounded resolution is to hold that Rule 50's preservation requirement applies to evidence-sufficiency questions triable to a jury, not to purely legal defenses like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) that were never submitted to the jury and could not have been. Resolving the deep and acknowledged circuit split on this narrow procedural ground preserves institutional legitimacy without disturbing the broader framework of appellate preservation doctrine.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of Rule 50(a)(1) is unambiguous \u2014 it addresses whether there is 'a legally sufficient evidentiary basis to find for the party,' a question wholly distinct from purely legal determinations resolved at summary judgment. As a textualist and originalist, I cannot read into Rule 50 an extra-textual preservation requirement that the rule's plain language simply does not impose; Rule 50's history confirms it was designed to address sufficiency-of-the-evidence challenges, not to serve as a mandatory vehicle for re-litigating settled legal questions. Ortiz v. Jordan correctly held that summary judgment denials are non-final interlocutory orders, but that reasoning addresses evidentiary sufficiency challenges \u2014 it does not compel the conclusion that purely legal rulings, which present no new factual record requiring post-trial reassessment, must be redundantly re-raised in a Rule 50 motion to survive appellate review. Requiring such re-assertion imposes a procedural trap with no textual basis and no legitimate judicial economy justification, running contrary to the Federal Rules' foundational command in Rule 1 to secure just and efficient resolution of disputes.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a textualist, I look first to Rule 50's text, which governs motions for judgment as a matter of law based on the sufficiency of evidence presented at trial \u2014 a mechanism ill-suited to purely legal questions that were never submitted to the jury and cannot be 'mooted' by a verdict. Ortiz v. Jordan established that summary judgment denials are non-final interlocutory orders, but that principle was developed in the context of fact-dependent evidentiary sufficiency determinations that are superseded by the trial record; it does not logically extend to purely legal defenses like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a), which turn on undisputed facts and remain live legal questions unaffected by what transpired at trial. Requiring a litigant to re-raise a purely legal defense in a post-trial Rule 50 motion serves no legitimate judicial economy interest \u2014 Rule 50 is structurally designed to address trial evidence, not pre-trial legal rulings \u2014 and creates an absurd procedural trap that punishes counsel for failing to perform a meaningless ritual. The practical consequences of the Fourth Circuit's rule are severe and disproportionate: it forfeits substantial legal defenses based on a technicality disconnected from Rule 50's actual purpose, which is precisely the kind of formalistic outcome that undermines the orderly administration of justice.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The core rationale underlying Ortiz v. Jordan's rule that summary judgment denials are non-final and non-appealable rests on the premise that trial may alter the factual record \u2014 a premise that simply does not apply to purely legal questions like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a), which are resolved by reference to undisputed facts untethered from the trial record. Requiring a litigant to re-raise in a Rule 50 motion a purely legal defense already fully litigated and definitively rejected at summary judgment serves no legitimate judicial economy purpose and creates an unjust procedural trap that disproportionately harms less sophisticated litigants and their counsel \u2014 precisely the kind of unfair outcome my jurisprudence is committed to preventing. As the research materials confirm, Rule 50 is designed to address sufficiency-of-evidence questions that a jury must resolve, not to serve as a redundant vehicle for re-litigating settled legal determinations; extending its preservation requirement to purely legal issues conflates two categorically distinct procedural contexts. The majority of circuits have correctly recognized this distinction, and the practical burden on courts and litigants of relitigating already-decided legal questions at trial and post-trial \u2014 with no corresponding benefit to the accuracy or completeness of the appellate record \u2014 counsels strongly in favor of the petitioner's position.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Rule 50's text addresses only the sufficiency of evidence at trial, and extending its preservation requirement to purely legal issues decided at summary judgment finds no textual anchor in the Rule itself \u2014 a critical consideration for a pragmatic textualist. Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open the question of purely legal issues, and its rationale \u2014 that summary judgment denials are non-final because factual disputes may be resolved differently at trial \u2014 simply does not apply when the issue turns on undisputed facts or pure law that trial evidence cannot alter. Requiring litigants to re-raise a definitively resolved legal question in a Rule 50 motion serves no workable judicial economy purpose: it does not sharpen the record, does not give the district court new information, and as Justice Alito noted at oral argument in Ortiz, creates a senseless trap that the minority rule's own proponents concede can be satisfied with a single perfunctory sentence. A coherent, workable preservation doctrine should distinguish between fact-dependent sufficiency questions \u2014 where Rule 50 renewal makes sense \u2014 and purely legal determinations where the summary judgment ruling fully preserves the issue for appellate review.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of Rule 50(a)(1) asks whether there is 'a legally sufficient evidentiary basis to find for the party' \u2014 a question directed squarely at sufficiency of evidence, not at purely legal determinations already resolved at summary judgment. As a textualist, I cannot read into Rule 50 a preservation requirement for purely legal questions that the rule's text simply does not address; to do so would be to impose an extra-textual trap that the Federal Rules were explicitly designed to eliminate, as recognized in Foman v. Davis. Ortiz v. Jordan held that summary judgment denials are non-final interlocutory orders, but that principle addresses direct appellate review of such orders \u2014 it does not logically compel the conclusion that a fully litigated, purely legal ruling must be redundantly re-raised in a post-trial motion whose entire purpose is evaluating evidentiary sufficiency. Requiring counsel to file what amounts to a frivolous or superfluous motion solely to preserve an already-decided legal question offends the Rule 1 mandate of 'just, speedy, and inexpensive' resolution and creates precisely the kind of gotcha proceduralism that benefits only those who can afford sophisticated counsel.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The core logic of Ortiz v. Jordan \u2014 that summary judgment denials are non-final and thus not independently appealable \u2014 was designed to address factual sufficiency determinations that can be superseded or rendered moot by trial evidence, not purely legal issues like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) that are entirely untethered from the trial record. Rule 50's preservation requirement serves the practical purpose of giving the district court an opportunity to correct evidentiary insufficiency errors before appeal, but that rationale simply does not apply when the issue is a legal defense whose resolution cannot be affected by anything that happens at trial. Requiring litigants to mechanically re-raise already-decided purely legal questions in post-trial motions creates an unfair procedural trap that serves no legitimate judicial economy interest and undermines the Court's institutional credibility by punishing parties for failing to perform an empty formality. As an institutionalist matter, the widespread circuit split \u2014 with the majority of circuits recognizing the factual/legal distinction \u2014 counsels in favor of adopting the majority rule that better reflects the actual purposes underlying Rule 50's preservation framework.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "A textualist reading of Rule 50 compels the conclusion that its requirements apply only to challenges regarding the sufficiency of evidence presented at trial, not to purely legal questions that were fully litigated and definitively resolved at summary judgment. The text of Rule 50 speaks to whether 'a reasonable jury would not have a legally sufficient evidentiary basis' for a verdict \u2014 language that is inherently tied to trial evidence, not to antecedent legal determinations like PLRA exhaustion that are resolved entirely by reference to undisputed facts or legal standards. Ortiz v. Jordan, 562 U.S. 180 (2011), itself left open precisely this question, acknowledging the distinction between fact-dependent sufficiency challenges and purely legal issues, and the majority of circuits have correctly recognized that requiring redundant re-assertion of an already-decided legal question serves none of Rule 50's underlying purposes \u2014 ensuring the district court has a full opportunity to correct error and providing a developed record for appellate review \u2014 because those purposes were already fully served at summary judgment. Imposing a forfeiture rule untethered to Rule 50's text creates an unjustified procedural trap inconsistent with the principle that preservation doctrines must be grounded in the rules themselves rather than judicial implication.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Rule 50 by its plain text addresses only the sufficiency of evidence presented at trial, and its rationale \u2014 ensuring the district court has an opportunity to correct errors before appeal \u2014 has no meaningful application to purely legal questions already fully litigated and definitively resolved at summary judgment. As Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open the question of purely legal issues, the Fourth Circuit's extension of Ortiz's holding to such issues goes beyond what that precedent requires and creates an unjustifiable procedural trap that serves no legitimate judicial economy interest. From my perspective as a jurist deeply attentive to procedural fairness and practical consequences, requiring litigants to perform a meaningless ritual \u2014 re-raising an already-decided legal question in a post-trial motion under penalty of forfeiture \u2014 imposes a burden with no corresponding benefit to the court system, the parties, or the integrity of the appellate process, and disproportionately harms litigants without sophisticated counsel who may not anticipate this technical requirement. The PLRA exhaustion defense here is a threshold legal question entirely untethered from the trial record and jury findings, making renewal in a Rule 50 motion not only unnecessary but conceptually incoherent, and the majority rule across the circuits correctly recognizes this distinction.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.912,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "22-210",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a party must reassert a purely legal issue rejected at summary judgment in a post-trial motion in order to preserve that issue for appellate review.",
+      "legal_provision": "Federal Rules of Civil Procedure Rule 50 (Motion for Judgment as a Matter of Law) and the Prison Litigation Reform Act (PLRA), 42 U.S.C. \u00a7 1997e(a), governing exhaustion of administrative remedies; also implicating 28 U.S.C. \u00a7 1254(1) for Supreme Court jurisdiction.",
+      "petitioner_position": "Petitioner Neil Dupree (a corrections lieutenant) argues that a purely legal issue \u2014 here, the PLRA exhaustion defense \u2014 that was fully litigated and definitively rejected at the summary judgment stage does not need to be re-raised in a post-trial Rule 50 motion to be preserved for appellate review. Requiring such redundant re-assertion serves no legitimate judicial economy purpose, places litigants in an unfair procedural trap, and creates disparate appellate rights depending solely on which circuit a case arises in. Because the exhaustion question was purely legal and not fact-dependent, the rationale underlying the Rule 50 renewal requirement \u2014 ensuring the trial court has an opportunity to resolve factual disputes \u2014 simply does not apply.",
+      "respondent_position": "Respondent Kevin Younger argues that the court of appeals correctly applied established circuit precedent requiring parties to renew all arguments, including purely legal ones, in post-trial motions to preserve them for appeal. Respondent contends that orders denying summary judgment are interlocutory and non-final, citing Ortiz v. Jordan, 562 U.S. 180 (2011), and therefore cannot independently serve as a preserved basis for appellate review. Respondent further argues that the procedural burden of renewal is minimal \u2014 essentially adding one sentence incorporating prior arguments by reference \u2014 and that the Court has repeatedly denied certiorari on this question without dissent, suggesting the existing rule is acceptable.",
+      "key_precedents": [
+        "Ortiz v. Jordan, 562 U.S. 180 (2011) \u2014 summary judgment denials are not final decisions subject to appeal",
+        "Ross v. Blake, 136 S. Ct. 1850 (2016) \u2014 PLRA exhaustion and availability of administrative remedies",
+        "Brightwell v. Lehman (4th Cir.) \u2014 administrative remedy availability under PLRA",
+        "DeSilva v. DiLeonardi, 181 F.3d (7th Cir.) \u2014 cited regarding difficulty of incorporating arguments by reference",
+        "Federal Rule of Civil Procedure 50 \u2014 standard for judgment as a matter of law and post-trial renewal requirement"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the core reasoning sound: Rule 50's text and purpose are directed at evidentiary sufficiency at trial, not at purely legal determinations already fully litigated at summary judgment. Justice Barrett's methodological point is particularly well-taken \u2014 requiring a litigant to perform a futile procedural act finds no support in Rule 50's text and creates an arbitrary trap inconsistent with the Rules' design. As Chief Justice, I would assign the majority opinion with an eye toward the narrowest possible holding: that purely legal issues, resolvable without reference to trial evidence and already definitively adjudicated at summary judgment, need not be renewed in a Rule 50 motion to be preserved for appellate review. This narrow ground resolves the circuit split, leaves Ortiz's core fact-dependent holding undisturbed, and avoids broader pronouncements about summary judgment finality that could create unintended consequences in future cases.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have articulated the core textual and structural arguments with considerable force, and I find myself in substantial agreement. Justice Gorsuch's point about the historical common-law backdrop of the directed verdict device is particularly apt from an originalist perspective \u2014 the motion for directed verdict was designed to test evidentiary sufficiency, not to serve as a universal preservation mechanism for purely legal questions, and that historical understanding confirms the original public meaning of Rule 50's scope. Justice Barrett's methodological point about Ortiz's own reservation is well-taken: the Court in Ortiz recognized that purely legal issues present a categorically different situation, and extending the renewal requirement to such issues would require us to impose an obligation with no textual foundation in Rule 50 itself. The strongest argument for the Respondent \u2014 that uniform procedural rules require consistent application regardless of whether an issue is legal or factual \u2014 ultimately fails because Rule 50's text simply does not reach purely legal determinations, and imposing extra-textual requirements through judicial gloss is precisely the interpretive error that originalism and textualism exist to correct.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas's textualist analysis and Justice Barrett's methodological point: Rule 50's plain text addresses evidentiary sufficiency at trial, and there is simply no textual hook for extending its renewal requirement to purely legal determinations that were fully adjudicated at summary judgment. The strongest argument for the Respondent would be one grounded in systemic concerns about finality and the orderly development of the trial record \u2014 but as Justice Gorsuch correctly notes, the historical common-law backdrop of the directed verdict device confirms it was designed to police evidentiary sufficiency, not to serve as a catch-all preservation mechanism for legal questions. The PLRA exhaustion defense under 42 U.S.C. \u00a7 1997e(a) presents a threshold legal question that no amount of trial evidence could alter, and requiring its redundant re-assertion in a Rule 50 motion imposes a procedural burden with no textual grounding and no functional justification. I would hold narrowly, consistent with Chief Justice Roberts's framing, that purely legal issues fully litigated at summary judgment are preserved for appellate review without Rule 50 renewal, leaving Ortiz's core holding regarding fact-dependent sufficiency questions undisturbed.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I find myself in strong agreement with Justice Jackson's observation that Ortiz v. Jordan expressly left open the purely legal issue question, and that the circuit split itself reveals this rule functions as an arbitrary trap rather than a meaningful preservation mechanism \u2014 a point that resonates deeply with my concern for how procedural rules operate on the ground for real litigants, particularly incarcerated persons navigating complex federal procedure without counsel. Justice Thomas's textualist analysis, with which I rarely align so completely, reinforces my own view from a different methodological direction: Rule 50's plain text simply does not reach purely legal determinations untethered from trial evidence, and no amount of judicial gloss can manufacture that textual hook. The strongest argument for the respondent \u2014 that finality and preservation rules serve systemic interests in judicial economy \u2014 fails here because requiring a redundant, pro forma sentence in a post-trial motion where no new facts could alter the legal analysis serves none of those systemic interests while imposing real costs on litigants who lose meritorious appeals through pure formalism. The unanimity of my colleagues across the ideological spectrum, from Justice Thomas to Justice Jackson, reflects not groupthink but the genuine weakness of any textual or purposive defense of the Fourth Circuit's categorical rule.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with the conference, and Justice Barrett's methodological point is particularly well-taken: requiring renewal of a purely legal issue in a Rule 50 motion would be a 'futile procedural act' because the district court would face 'precisely the same question' it already definitively resolved \u2014 no new trial record, no new factual development, nothing that Rule 50's evidentiary-sufficiency rationale is designed to address. The strongest argument for the respondent would be a systemic one: that a bright-line renewal requirement, even for legal issues, promotes finality and gives district courts a clean opportunity to correct errors before appeal. But as Justice Gorsuch correctly observes, Rule 50(a)(1)'s text asks specifically about 'a legally sufficient evidentiary basis' \u2014 language that simply cannot be stretched to encompass a PLRA exhaustion defense that turns on undisputed facts and pure statutory interpretation. The circuit split Justice Jackson highlights further confirms that this rule operates as an arbitrary trap rather than a principled preservation mechanism, and a narrow ruling confined to purely legal issues fully litigated at summary judgment would resolve the split without disturbing Ortiz's core non-finality holding for fact-dependent denials.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas's textual analysis and Justice Barrett's methodological point: Rule 50's text is directed at evidentiary sufficiency at trial, and no amount of textual creativity can stretch it to cover purely legal determinations that were fully adjudicated at summary judgment on undisputed facts. The strongest argument for the respondent would be a systemic one \u2014 that requiring Rule 50 renewal even for legal issues promotes finality and gives district courts a chance to correct their own errors \u2014 but this argument founders on the text itself, which asks only whether there is 'a legally sufficient evidentiary basis,' a phrase that presupposes a factual record to evaluate, not a legal question already resolved. Justice Sotomayor correctly identifies the practical inequity: a rule that can be satisfied by a single perfunctory sentence, as respondent's counsel concedes, reveals itself as pure formalism with no legitimate procedural function. The canon against surplusage and the historical common-law backdrop of the directed verdict device both confirm that Rule 50 was never designed as a catch-all preservation mechanism for purely legal questions, and I will not manufacture such a requirement from whole cloth.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Chief Justice Roberts's institutionalist framing \u2014 the narrowest, most defensible ruling here is that Rule 50's renewal requirement simply does not extend to purely legal issues that were fully litigated at summary judgment, because the rule's text and underlying rationale are directed at evidentiary sufficiency, not legal determinations. Justice Barrett's methodological point is particularly well-taken: Ortiz itself acknowledged the distinction between fact-dependent denials and purely legal issues, and extending Ortiz's non-finality rationale beyond its own stated scope would be an unwarranted judicial expansion of a procedural trap with no textual anchor. The strongest counterargument for the respondent \u2014 that finality and preservation rules must be applied uniformly to prevent piecemeal appeals and protect judicial economy \u2014 is real but ultimately unpersuasive here, because the judicial economy rationale cuts the other way when re-raising the issue would be entirely futile and the district court has already given the question full consideration. A narrow ruling preserving appellate review of purely legal issues fully litigated at summary judgment resolves the circuit split, respects Ortiz's core holding, and avoids the arbitrary forfeiture of meritorious legal defenses that the Federal Rules were never designed to produce.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Justice Thomas's textual analysis and Justice Gorsuch's historical grounding: Rule 50(a)(1)'s text asks only whether there is 'a legally sufficient evidentiary basis to find for the party,' which is a question directed at trial evidence, not at purely legal determinations that were fully adjudicated at summary judgment. The strongest counterargument for the respondent would be that Ortiz's non-finality principle \u2014 that interlocutory rulings merge into the final judgment and require post-trial renewal \u2014 applies categorically regardless of whether the issue is legal or factual. But as Justice Kagan correctly observes, that argument proves too much: Ortiz's rationale was grounded in the fact-dependent nature of summary judgment denials where trial evidence can alter the analysis, and that rationale simply has no purchase when the legal question is entirely unaffected by anything that happens at trial. Requiring a litigant to perform a futile procedural act \u2014 re-raising an already-rejected legal argument that no trial evidence could change \u2014 finds no support in Rule 50's text, serves none of its purposes, and creates precisely the kind of arbitrary procedural trap that undermines the Federal Rules' design under Rule 1.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached a remarkable degree of consensus across methodological lines \u2014 Justice Thomas's textualist analysis, Justice Sotomayor's equity-focused reasoning, and Justice Barrett's structural approach all converge on the same conclusion: Rule 50's text and purpose are directed at evidentiary sufficiency, not purely legal determinations. The strongest argument for the respondent would be that Ortiz's non-finality principle should apply categorically to all summary judgment denials to promote clean procedural rules and prevent parties from strategically sandbagging legal arguments, but that concern is adequately addressed by limiting our holding to purely legal issues that present 'precisely the same question' post-trial as they did at summary judgment \u2014 no new record, no new facts, no legitimate judicial economy interest served by re-assertion. Justice Gorsuch's invocation of Rule 1's mandate to secure 'just, speedy, and inexpensive' resolution reinforces my view that imposing a redundant procedural ritual without textual grounding is precisely the kind of arbitrary formalism that disproportionately harms incarcerated litigants and others without sophisticated counsel navigating technical forfeiture traps. My background as a public defender makes me acutely aware that procedural rules operating as 'gotcha' mechanisms \u2014 particularly in the PLRA context where Congress already erected substantial barriers to prisoner litigation \u2014 undermine the legitimacy of the judicial system itself.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The narrowest and most institutionally sound resolution here is that Rule 50's renewal requirement, which exists to give trial courts an opportunity to resolve factual insufficiency before appellate review, simply does not extend categorically to purely legal issues resolved at summary judgment. Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open this precise question regarding 'purely legal issues' decidable 'with reference only to undisputed facts,' and the Fourth Circuit's categorical extension of Ortiz to such issues goes beyond what that precedent requires or supports. Requiring litigants to perform a purely formal, redundant act \u2014 re-raising a legal argument already fully briefed and definitively resolved \u2014 serves no legitimate judicial economy purpose and creates an arbitrary procedural trap that undermines the merits-based adjudication the Federal Rules were designed to ensure. A narrow ruling holding only that purely legal issues fully litigated at summary judgment are preserved for appellate review without Rule 50 renewal would resolve the circuit split without disturbing Ortiz's core holding regarding fact-dependent sufficiency-of-evidence questions.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of Rule 50 is unambiguous: it governs motions challenging the sufficiency of evidence presented at trial, not purely legal determinations that were fully adjudicated at summary judgment on undisputed facts. Requiring a litigant to re-raise a purely legal issue in a Rule 50 motion finds no textual basis in the Rule itself, and imposing such a requirement through judicial gloss rather than the Rule's actual text is precisely the kind of atextual procedural trap that sound interpretation must reject. Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open the question of purely legal issues decided at summary judgment, and its reasoning was grounded in the evidentiary-sufficiency rationale underlying Rule 50 \u2014 a rationale that simply does not apply when the issue is legal rather than factual. The PLRA exhaustion defense under 42 U.S.C. \u00a7 1997e(a) presents a purely legal question unaffected by trial evidence, and the Fourth Circuit's categorical forfeiture rule imposes an obligation with no grounding in the text of Rule 50 or any other applicable provision.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As a textualist, I must acknowledge that Rule 50's plain text addresses only motions regarding the sufficiency of evidence at trial \u2014 it provides no textual basis for requiring re-assertion of purely legal issues that were fully litigated at summary judgment and are entirely divorced from the factual record developed at trial. While Ortiz v. Jordan, 562 U.S. 180 (2011), correctly held that denied summary judgment orders are non-final interlocutory rulings, the Court expressly left open whether purely legal issues \u2014 those resolvable 'with reference only to undisputed facts' \u2014 require renewal in a Rule 50 motion, and the rationale underlying Ortiz's rule simply does not extend to such determinations. The PLRA exhaustion defense under 42 U.S.C. \u00a7 1997e(a) is a threshold legal question that the district court fully considered; requiring a litigant to redundantly re-raise it in a post-trial motion serves no legitimate judicial economy purpose and creates an arbitrary procedural trap that varies by circuit. Practical consequences matter here too \u2014 imposing this burden without textual grounding in Rule 50 produces unfair forfeiture of meritorious legal defenses, which is precisely the kind of outcome that careful attention to the Rules' actual text and structure should prevent.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Rule 50 by its plain text addresses sufficiency of evidence at trial, not purely legal questions already fully litigated and definitively resolved at summary judgment \u2014 requiring redundant re-assertion of a legal issue like PLRA exhaustion under 42 U.S.C. \u00a7 1997e(a) serves no legitimate judicial economy purpose and creates an arbitrary procedural trap that disproportionately harms pro se and under-resourced litigants, including incarcerated persons seeking to vindicate civil rights. Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open the question of purely legal issues decided at summary judgment, and its non-finality rationale \u2014 rooted in the fact-dependent nature of sufficiency-of-evidence determinations \u2014 simply does not translate to questions of law that require no further factual development at trial. The circuit split this case embodies means that a litigant's appellate rights turn entirely on geography rather than the merits of their legal arguments, a result fundamentally at odds with fairness and uniform administration of federal law. Imposing a forfeiture rule that respondent's own counsel concedes can be satisfied by a single sentence reveals the rule as pure formalism \u2014 a gotcha mechanism that serves no party, no court, and no legitimate procedural value.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Rule 50's text and purpose are directed squarely at sufficiency-of-the-evidence determinations at trial, not at purely legal issues that were fully litigated and definitively resolved at summary judgment. As Ortiz v. Jordan, 562 U.S. 180 (2011), expressly left open the question of purely legal issues, the Fourth Circuit's extension of the renewal requirement to such issues finds no textual anchor in Rule 50 and serves none of the rule's underlying rationales \u2014 there are no factual disputes for the trial court to resolve, no jury verdict to be tested, and no new record to evaluate. Requiring a litigant to mechanically re-raise an already-decided legal question in a post-trial motion creates precisely the kind of unworkable procedural trap that undermines judicial economy and produces arbitrary disparities in appellate rights across circuits, contrary to the coherent, purposive administration of the Federal Rules. The PLRA exhaustion defense here is a threshold legal question that the district court conclusively addressed; treating its denial as forfeited for want of a perfunctory Rule 50 sentence elevates form over substance in a manner inconsistent with the Rules' design.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of Rule 50(a)(1) asks only whether there is 'a legally sufficient evidentiary basis to find for the party' \u2014 a question directed squarely at the sufficiency of trial evidence, not at purely legal determinations that were fully litigated and resolved at summary judgment without reference to any factual record. Reading Rule 50 to require renewal of purely legal issues imposes an extra-textual procedural trap that finds no support in the rule's language or structure, and the historical common-law backdrop of the directed verdict device confirms it was designed to police evidentiary sufficiency, not to serve as a catch-all preservation mechanism for legal questions. While Ortiz v. Jordan correctly holds that interlocutory summary judgment denials are not independently appealable final decisions, that principle does not compel the further conclusion that a party must perform a meaningless ritual of re-raising a purely legal argument in a Rule 50 motion when no amount of trial evidence could alter the legal analysis; the rule of lenity and the canon against surplusage both counsel against manufacturing procedural requirements the text does not impose. Requiring such redundant re-assertion promotes the worst kind of empty formalism \u2014 precisely the kind of 'gotcha' proceduralism that undermines the Federal Rules' paramount command under Rule 1 to secure just, speedy, and inexpensive resolution of disputes.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Ortiz v. Jordan, while establishing that summary judgment denials are generally non-final and unappealable after trial, expressly left open the question of purely legal issues that could be decided 'with reference only to undisputed facts,' and that reservation is dispositive here. Rule 50's text and purpose are directed at the sufficiency of evidence presented at trial \u2014 ensuring the trial court can resolve factual disputes before they reach the jury \u2014 and that rationale simply has no application to a PLRA exhaustion defense that is purely legal in character and was never submitted to the jury. Requiring a litigant to mechanically re-raise in a post-trial motion a legal question that the district court already definitively resolved, and that no amount of trial evidence could alter, serves no legitimate judicial economy interest, creates an arbitrary procedural trap, and produces a circuit split that undermines the uniform administration of federal law. Practical workability and institutional fairness counsel against a rule that extinguishes meritorious legal defenses based solely on a litigant's failure to perform a redundant procedural act with no functional purpose.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of Rule 50 is directed specifically at the sufficiency of evidence presented at trial, and its renewal requirement serves the purpose of giving the district court an opportunity to resolve factual disputes before appellate review \u2014 a rationale that simply does not apply when the issue is purely legal and was already definitively adjudicated at summary judgment. As Ortiz v. Jordan, 562 U.S. 180 (2011), itself acknowledged, the Court left open the question of purely legal issues, and the non-finality rationale for summary judgment denials is grounded in the fact-dependent nature of such rulings, not in legal determinations that would present 'precisely the same question' to the district court if re-raised post-trial. Requiring a litigant to perform a futile procedural act \u2014 reasserting an already-rejected legal argument in a Rule 50 motion \u2014 finds no support in Rule 50's text, creates an arbitrary procedural trap that penalizes parties for failing to take a meaningless step, and produces the kind of circuit-split inconsistency in appellate rights that undermines the uniform administration of federal procedure. Methodological consistency demands that we not extend Rule 50's renewal requirement beyond its textual and functional scope to encompass purely legal issues that were fully and carefully litigated at summary judgment.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Ortiz v. Jordan, 562 U.S. 180 (2011), explicitly left open whether purely legal issues decided at summary judgment must be re-raised in a Rule 50 motion, recognizing a meaningful distinction between fact-dependent denials \u2014 where trial develops the record \u2014 and purely legal determinations that remain unchanged regardless of what evidence is presented at trial. Rule 50's text and purpose are directed at the sufficiency of evidence, not at resolving legal questions that were fully and definitively adjudicated pre-trial; requiring redundant re-assertion of a purely legal PLRA exhaustion defense serves no legitimate judicial economy interest and instead creates an arbitrary procedural trap that disproportionately harms litigants \u2014 including incarcerated persons and their adversaries \u2014 who lack sophisticated counsel to navigate such technical forfeiture rules. From a procedural fairness standpoint, the circuit split itself demonstrates that this rule operates as a trap rather than a meaningful preservation mechanism, producing disparate appellate rights based solely on geography rather than the merits of the legal question. The practical consequences of affirming would be to insulate district court legal errors from appellate correction whenever a party fails to utter a pro forma sentence in a post-trial motion, an outcome inconsistent with the appellate system's core error-correction function.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.893,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

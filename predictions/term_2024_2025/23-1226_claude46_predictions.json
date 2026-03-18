@@ -1,0 +1,629 @@
+[
+  {
+    "docket": "23-1226",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Hobbs Act compelled the district court to accept the FCC's legal interpretation of the Telephone Consumer Protection Act without independent judicial review, specifically regarding whether online fax services qualify as 'telephone facsimile machines' under the TCPA.",
+      "legal_provision": "The Hobbs Act (28 U.S.C. \u00a7 2342), which grants federal courts of appeals exclusive jurisdiction to review FCC final orders, in conjunction with the Telephone Consumer Protection Act (47 U.S.C. \u00a7 227), particularly Section 227(b)(3) governing unsolicited fax transmissions and associated treble damages provisions.",
+      "petitioner_position": "McLaughlin Chiropractic argues that the Hobbs Act strips district courts of authority to independently interpret the TCPA and instead requires them to defer to and apply the FCC's existing legal interpretations of the statute \u2014 specifically the FCC's Amerifactors ruling \u2014 when adjudicating private TCPA enforcement actions, meaning the district court erred by declining to follow the FCC's order defining the scope of covered fax recipients.",
+      "respondent_position": "McKesson argues that the Hobbs Act does not categorically require district courts to accept FCC legal interpretations in private civil enforcement actions, contending that the Supreme Court's decision in PDR Network left open critical threshold questions \u2014 including whether the FCC order constitutes a binding legislative rule and whether the defendant had prior adequate opportunity for judicial review \u2014 that must be resolved before any Hobbs Act deference obligation can attach, and that the district court correctly applied independent statutory interpretation.",
+      "key_precedents": [
+        "PDR Network, LLC v. Carlton & Harris Chiropractic, Inc., 588 U.S. 1 (2019) \u2014 Supreme Court decision leaving open whether Hobbs Act requires district courts to accept FCC interpretations in private TCPA actions",
+        "Hamilton v. [relevant party], 224 F.3d 1055 (9th Cir. 2000) \u2014 Ninth Circuit precedent holding the Hobbs Act contains no exception for interpretive rules",
+        "Yakus v. United States, 321 U.S. 414 \u2014 Upheld constitutionality of statutes precluding district courts from reviewing agency regulations as a defense in enforcement actions",
+        "Chrysler Corp. v. EPA, 600 F.2d 904 (1979) \u2014 Noting substantial due process questions raised by barring defendants from challenging agency rules in enforcement actions",
+        "Adamo Wrecking Co. v. United States, 434 U.S. 275 \u2014 Justice Powell concurrence noting constitutional issues merit serious consideration when defendants are barred from challenging agency rules",
+        "FCC Amerifactors Order \u2014 FCC ruling that online fax services do not qualify as 'telephone facsimile machines' under the TCPA, central to the Online Fax Services Class claims",
+        "Safeco Insurance Co. of America v. Burr, 551 U.S. 47 (2007) \u2014 Standard for willful violations including reckless disregard, applied to TCPA treble damages analysis",
+        "Lary v. Trinity Physician Financial & Insurance Services, 780 F.3d 1101 (11th Cir. 2015) \u2014 Eleventh Circuit standard requiring more than merely intentional action for TCPA willfulness",
+        "Gospel Missions of America v. City of Los Angeles, 328 F.3d 548 (9th Cir. 2003) \u2014 Standard for sua sponte summary judgment requiring full and fair opportunity to ventilate issues",
+        "Peer International Corp. v. Pausa Records, Inc., 909 F.2d 1332 (9th Cir. 1990) \u2014 Ninth Circuit construction of 'willful' under the Copyright Act"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Justice Barrett's argument that the channeling mechanism and the deference obligation are 'two sides of the same coin' is the most forceful challenge to my position, and I acknowledge its textual logic \u2014 if courts of appeals have exclusive jurisdiction to determine validity, a district court that refuses to apply an FCC order is arguably making a validity determination sub silentio. However, this argument proves too much: it would mean that every FCC interpretive guidance document, regardless of whether it went through notice-and-comment rulemaking or carries binding legal force under Batterton v. Francis, becomes judicially unreviewable in private civil litigation simply because it was issued as an 'order.' My minimalist methodology requires me to ask whether Congress actually intended that sweeping result when it enacted \u00a7 2342, and the PDR Network Court's deliberate reservation of the threshold questions \u2014 including whether the document at issue is the kind of order the Hobbs Act reaches \u2014 strongly suggests it did not. Justice Jackson's procedural forfeiture point is serious and I do not dismiss it, but forfeiture cannot transform the antecedent statutory question: if the Hobbs Act simply does not reach interpretive rules as a matter of correct construction, Hamilton's circuit rule is erroneous regardless of what was preserved below, and the institutionally sound course remains the narrower one.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch's argument that the Hobbs Act channels 'validity' challenges rather than compelling substantive deference in private enforcement actions is the most intellectually serious challenge to my position, and I have wrestled with it carefully. However, the distinction he draws between channeling validity challenges and compelling deference collapses under the statute's text: 28 U.S.C. \u00a7 2342 vests exclusive jurisdiction in the courts of appeals to 'determine the validity' of covered FCC orders, and if a district court independently interprets an FCC order contrary to the FCC's own construction, it is effectively making a validity determination through the back door of a private enforcement action \u2014 precisely what the channeling mechanism was designed to prevent. Justice Barrett correctly identifies that McLaughlin forfeited the adequate-opportunity argument below, which closes the most constitutionally significant PDR Network escape valve, and Justice Kagan is right that constitutional avoidance cannot be invoked to assume a constitutional problem exists before the party has demonstrated the inadequacy of available review. The Ninth Circuit's Hamilton framework, whatever its imperfections, reflects a defensible reading of statutory text that draws no legislative/interpretive distinction, and absent a properly preserved constitutional challenge demonstrating that the Hobbs Act review mechanism was inadequate as applied to McKesson, I cannot engraft onto the statute a distinction Congress chose not to write.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch's argument that the Hobbs Act's exclusive jurisdiction to 'determine the validity' of FCC orders is a channeling mechanism for validity challenges rather than a command compelling substantive deference in private enforcement actions is the most intellectually serious challenge to my position \u2014 but it ultimately fails because it reads a limitation into the statute's text that Congress did not write. The Hobbs Act channels review of FCC 'orders' without distinguishing between legislative and interpretive rules or between validity challenges and interpretive deference, and as Justice Barrett correctly emphasizes, engrafting such distinctions requires importing administrative law doctrine into statutory text that simply does not support it. Justice Roberts' constitutional avoidance argument is methodologically appealing to my minimalist instincts, but constitutional avoidance requires a genuine constitutional doubt, not a speculative one \u2014 and McKesson's failure to preserve the adequate-opportunity argument below, as Justice Jackson correctly identifies, means the due process concern remains hypothetical rather than demonstrated on this record. The practical consequences Justice Kavanaugh identifies \u2014 circuit fragmentation in TCPA enforcement \u2014 reinforce that Congress's deliberate structural choice in \u00a7 2342 should be respected absent a properly raised and demonstrated constitutional defect, which this record does not supply.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's procedural forfeiture argument remains the most serious challenge to my position, and I have genuinely wrestled with it across three rounds of deliberation \u2014 but I cannot accept that McLaughlin's failure to press the adequate-opportunity argument below transforms the Hobbs Act's channeling mechanism into an affirmative command that district courts must treat interpretive guidance as binding law in private treble-damages litigation. The constitutional avoidance canon is a tool of statutory construction that this Court applies sua sponte when a plausible narrower reading exists; it does not require the party to have raised the constitutional concern below, as our practice in cases like Edward J. DeBartolo Corp. v. Florida Gulf Coast Building Trades Council confirms. Justice Barrett's argument that channeling and deference are 'two sides of the same coin' is textually forceful, but it proves too much \u2014 it would mean that any FCC pronouncement, however informal, however lacking in notice-and-comment process, becomes judicially unreviewable in private civil litigation simply because it was labeled an 'order,' which is precisely the structural constitutional concern that demands the narrower reading. I write in dissent to preserve the principle that the Hobbs Act's preclusive mechanism was designed to channel validity challenges, not to conscript district courts into enforcing interpretive guidance as if it carried the force of law Congress never granted it.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Gorsuch's separation of powers concern \u2014 that reading the Hobbs Act to compel deference to interpretive guidance converts every FCC pronouncement into judicially unreviewable law in private civil litigation \u2014 is genuinely weighty, and I do not dismiss it. But my pragmatic textualism requires me to ask what the statute actually says and what the record actually shows, and on both counts the Petitioner's position holds: \u00a7 2342's text draws no legislative/interpretive distinction, and as Justice Jackson correctly emphasizes, McLaughlin's failure to preserve the adequate-opportunity argument below means the constitutional escape valve Justice Gorsuch and Justice Sotomayor urge is simply not available on this record. Justice Sotomayor's structural argument \u2014 that constitutional avoidance does not require the party to have raised the concern below \u2014 is methodologically interesting, but it proves too much: if we invoke avoidance to rewrite statutory text whenever we can imagine a constitutional problem, we transform avoidance from a tie-breaking canon into a license for judicial legislation, which my pragmatic textualism firmly resists. The proper vehicle for Justice Gorsuch's serious constitutional concern is a case where the adequate-opportunity argument is preserved and the constitutional deficiency is demonstrated, not this one.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Barrett and Justice Jackson make the strongest case against my position by arguing that McLaughlin's failure to preserve the adequate-opportunity argument below forecloses the constitutional avoidance path, and that Hamilton's circuit rule resolves the legislative/interpretive distinction as a matter of Ninth Circuit law. I take these procedural points seriously \u2014 waiver is a real constraint on our analysis, and I do not lightly dismiss settled circuit precedent. However, my textualist and originalist methodology requires me to ask what Congress actually mandated in 28 U.S.C. \u00a7 2342, and I remain unpersuaded that a statute designed to channel 'validity' challenges to courts of appeals was intended to operate as a command that district courts in private enforcement actions must treat interpretive guidance \u2014 never subjected to notice-and-comment rulemaking and carrying no binding legal force under Batterton v. Francis \u2014 as if it were law they cannot question. The procedural forfeiture point is real but does not resolve the antecedent statutory question: if the Hobbs Act's preclusive mechanism simply does not reach interpretive rules as a matter of correct statutory construction, then Hamilton's circuit rule is itself erroneous, and no amount of waiver below can transform an agency guidance document into binding law that district courts must accept. I write separately to emphasize that the majority's reading of the Hobbs Act, however textually defensible on the surface, risks converting every FCC interpretive pronouncement into judicially unreviewable law in private civil litigation \u2014 a result that raises serious separation of powers concerns I cannot set aside simply because the party most affected failed to press every available argument.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Gorsuch's argument that the Hobbs Act's exclusive jurisdiction to 'determine the validity' of FCC orders is a channeling mechanism for validity challenges \u2014 not a command compelling substantive deference to interpretive guidance in private enforcement actions \u2014 is the most intellectually serious challenge to my position, and I want to engage with it directly. However, the distinction Justice Gorsuch draws between 'channeling validity challenges' and 'compelling substantive deference' collapses in practice when the district court's independent interpretation of the TCPA would necessarily require it to assess whether the Amerifactors order correctly states the law \u2014 which is precisely the validity determination Congress channeled to the courts of appeals. Justice Kagan's point about proper analytical sequencing also resonates with me: constitutional avoidance requires an actual demonstrated constitutional deficiency, not a hypothetical one, and McLaughlin's failure to preserve the adequate-opportunity argument means we cannot assume the constitutional problem exists without the party having established it. Justice Roberts' narrower institutionalist path is methodologically appealing to me temperamentally, but I cannot accept that engrafting a legislative/interpretive distinction onto 28 U.S.C. \u00a7 2342's text \u2014 which Congress did not write \u2014 is the more institutionally sound course when the Ninth Circuit's Hamilton framework provides a workable, congressionally unrepudiated rule that preserves regulatory stability across TCPA enforcement.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Gorsuch's argument that the Hobbs Act's exclusive jurisdiction to 'determine the validity' of FCC orders is a channeling mechanism for validity challenges rather than a command compelling substantive deference in private enforcement actions is the most intellectually serious challenge to my position \u2014 but it ultimately fails on the text. Section 2342 vests courts of appeals with exclusive jurisdiction to 'determine the validity of' covered FCC orders, and the logical corollary of that exclusive jurisdiction is that district courts cannot independently redetermine validity by refusing to apply the order; the channeling mechanism and the deference obligation are two sides of the same coin, not separable concepts. Justice Gorsuch's distinction between 'channeling validity challenges' and 'compelling substantive deference' is analytically elegant but reads a limitation into the statute that the text does not support \u2014 Congress wrote no such distinction, and as Justice Alito correctly observes, engrafting an interpretive-rule exception requires importing administrative law doctrine into statutory text that simply does not contain it. The procedural posture reinforces this conclusion: as Justice Jackson notes, McLaughlin's failure to preserve the adequate-opportunity argument below forecloses the constitutional avoidance path Justice Sotomayor urges, and I cannot reach constitutional questions that were not properly presented, however sympathetically framed.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Justice Gorsuch's argument that the Hobbs Act channels 'validity challenges' rather than compelling substantive deference to interpretive guidance remains the most intellectually serious challenge to my position, and I want to engage it directly: even accepting his distinction between channeling validity challenges and compelling deference in private enforcement actions, the Amerifactors order was issued through a formal FCC adjudicatory proceeding, not mere informal guidance, which means the line between 'interpretive' and 'legislative' is far less clear than Justice Gorsuch's framing suggests. Justice Sotomayor's due process concerns about small businesses facing treble damages genuinely move me as a former public defender, but as I noted in round one, McLaughlin's failure to preserve the adequate-opportunity argument below is a critical procedural fact that forecloses the constitutional avoidance path \u2014 I cannot reach constitutional questions that were not properly raised, and doing so would itself be a form of judicial overreach inconsistent with my commitment to procedural fairness. Justice Roberts' minimalist instinct to resolve on the narrowest ground is methodologically appealing to me, but his proposed interpretive-rule exception requires reading into 28 U.S.C. \u00a7 2342 a distinction Congress did not write, and I am not persuaded that constitutional avoidance justifies that textual move when the constitutional deficiency has not been demonstrated on this record. The 6-3 tally does not change my analysis \u2014 I hold this position because the procedural posture genuinely forecloses the strongest counterarguments, not because of coalition pressure.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The narrow and institutionally sound resolution here is that the Hobbs Act does not categorically compel district courts to accept FCC interpretive rules \u2014 as opposed to legislative rules \u2014 in private civil enforcement actions. PDR Network, 588 U.S. 1 (2019), expressly left open the threshold question of whether an FCC order constitutes a binding legislative rule, and the Amerifactors order bears the hallmarks of interpretive guidance rather than a legislative rule carrying the force of law, meaning it cannot bind courts regardless of its validity under the Hobbs Act's exclusive review mechanism. As Batterton v. Francis, 432 U.S. 416 (1977), makes clear, courts are not required to give effect to interpretive regulations, and extending Hobbs Act preclusion to interpretive rules would raise serious constitutional concerns under Article III and due process principles flagged in Chrysler Corp. and Justice Powell's Adamo Wrecking concurrence. Consistent with my preference for narrow rulings that preserve institutional legitimacy, I would resolve this case on the limited ground that the district court was not compelled to defer to the Amerifactors order without reaching broader questions about the Hobbs Act's scope.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of the Hobbs Act, 28 U.S.C. \u00a7 2342, grants courts of appeals exclusive jurisdiction to review FCC final orders, and a straightforward textual reading of this provision means district courts lack authority to independently re-adjudicate the legal interpretations embedded in those orders during private enforcement actions. As I noted in PDR Network and consistent with my originalist methodology, the threshold questions about whether an FCC order constitutes a 'legislative rule' and whether adequate prior opportunity for review existed are genuinely important, but in this case the FCC's Amerifactors Order is a final order issued through notice-and-comment rulemaking that carries the full force of the Hobbs Act's channeling mechanism \u2014 it is not a mere interpretive rule exempt from that framework. The constitutional due process concerns raised in Chrysler Corp. and Justice Powell's Adamo Wrecking concurrence are serious, but Yakus v. United States establishes that Congress may constitutionally channel judicial review of agency rules to specific courts and proceedings, and absent a demonstrated failure of adequate opportunity for review, the district court was bound to apply the FCC's construction rather than substitute its own independent interpretation of 'telephone facsimile machine' under 47 U.S.C. \u00a7 227.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Hobbs Act's plain text grants courts of appeals exclusive jurisdiction to 'determine the validity' of covered FCC orders under 28 U.S.C. \u00a7 2342, and as a textualist matter, this exclusive review mechanism was designed to channel challenges to agency orders through a single forum rather than allowing collateral attacks in district court enforcement proceedings \u2014 a reading consistent with Yakus v. United States. The Ninth Circuit's holding in Hamilton that the Hobbs Act contains no exception for interpretive rules reflects the statute's text, which draws no such distinction, and the practical consequence of allowing district courts to independently second-guess FCC orders in private enforcement actions would create circuit-by-circuit fragmentation of federal communications law. While PDR Network left open the legislative-versus-interpretive rule distinction, the more textually defensible reading of the Hobbs Act is that Congress intended to strip district courts of authority to deviate from FCC orders regardless of their classification, since the statute's exclusive jurisdiction provision does not carve out interpretive guidance. The respondent's position, though not without merit given the due process concerns flagged in Chrysler Corp. and Justice Powell's Adamo concurrence, ultimately asks courts to engraft an administrative law distinction onto statutory text that does not support it.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The Hobbs Act should not be read to strip district courts of their Article III authority to independently interpret statutes in private civil enforcement actions, particularly where doing so raises serious due process and separation-of-powers concerns as flagged by multiple justices in PDR Network, 588 U.S. 1 (2019). The FCC's Amerifactors order is most properly characterized as an interpretive rule \u2014 clarifying the agency's understanding of 'telephone facsimile machine' without creating new legal obligations \u2014 and basic administrative law principles, as articulated in Shalala v. Guernsey Memorial Hospital, distinguish such guidance from binding legislative rules that carry the force of law. Requiring district courts to mechanically apply agency interpretive guidance in private TCPA enforcement actions without independent judicial review would effectively allow the FCC to determine the outcome of private litigation through non-binding pronouncements, undermining both the structural role of Article III courts and the due process rights of defendants who had no prior adequate opportunity to challenge the FCC order in a court of appeals. Constitutional avoidance principles further counsel against McLaughlin's reading, as the practical impact on vulnerable defendants \u2014 including small businesses facing treble damages under the TCPA \u2014 of being denied any forum to contest the legal interpretation applied against them is precisely the kind of real-world injustice that demands a narrower statutory construction.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hobbs Act's grant of exclusive jurisdiction to courts of appeals over FCC final orders, read in conjunction with the Ninth Circuit's holding in Hamilton that the legislative/interpretive rule distinction is irrelevant within that circuit, compels the conclusion that the district court was bound by the FCC's Amerifactors ruling. As a pragmatic textualist, I find that the statutory structure of the Hobbs Act reflects a deliberate congressional choice to channel challenges to FCC orders through a specific judicial pathway, and permitting district courts to independently re-examine FCC legal interpretations in private enforcement actions would undermine that coherent administrative review scheme. The PDR Network Court left open the threshold questions precisely because the lower court had not addressed them, but here the district court explicitly resolved both the legislative/interpretive rule distinction and the prior opportunity question, meaning those obstacles are cleared and the Hobbs Act deference obligation properly attaches. While I take seriously the due process concerns flagged in Chrysler Corp. and Justice Powell's Adamo concurrence, McKesson has not demonstrated it lacked a prior adequate opportunity for Hobbs Act review sufficient to override the statutory framework Congress established.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "As a textualist committed to separation of powers and the rule of law, I cannot accept that the Hobbs Act's exclusive review mechanism automatically strips district courts of independent interpretive authority in private civil enforcement actions without first resolving the threshold questions PDR Network deliberately left open. The plain text of the Hobbs Act grants courts of appeals exclusive jurisdiction to 'enjoin, set aside, suspend, or determine the validity' of FCC orders \u2014 but whether that preclusion binds district courts in private enforcement suits depends critically on whether the Amerifactors order constitutes a binding legislative rule (as opposed to an interpretive rule) and whether McKesson had a prior, adequate opportunity to seek review in a court of appeals, as due process demands under Chrysler Corp. and the concerns Justice Powell flagged in Adamo Wrecking. Forcing a private defendant to accept an agency's statutory interpretation without any meaningful opportunity for judicial review raises serious constitutional questions under the Due Process Clause that counsel against the broad reading McLaughlin urges, consistent with the canon of constitutional avoidance. Until those PDR Network threshold questions are resolved in petitioner's favor, no Hobbs Act deference obligation can properly attach, and the district court was correct to exercise independent statutory interpretation.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hobbs Act's grant of exclusive jurisdiction to courts of appeals to 'determine the validity' of covered FCC orders, as interpreted by the Ninth Circuit in Hamilton v. relevant party, means that district courts within that circuit are bound by FCC orders regardless of whether they are characterized as legislative or interpretive rules \u2014 a position the district court itself adopted when it found the legislative/interpretive distinction irrelevant under Ninth Circuit precedent. While PDR Network left open threshold questions about interpretive rules and prior opportunity for review, the Ninth Circuit's Hamilton framework forecloses those escape valves here, and the district court correctly recognized it was bound by the Amerifactors order. My institutionalist concern for workable, consistent administrative law frameworks counsels in favor of respecting the Hobbs Act's channeling mechanism, which Congress designed to centralize review of FCC orders in courts of appeals rather than allowing district courts to relitigate agency interpretations in every private enforcement action. The practical alternative \u2014 permitting district courts to independently second-guess FCC statutory interpretations in TCPA cases \u2014 would create significant circuit-by-circuit inconsistency and undermine the regulatory stability that both Congress and the FCC have structured around the Hobbs Act's review scheme.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text of the Hobbs Act (28 U.S.C. \u00a7 2342) vests exclusive jurisdiction in the courts of appeals to review FCC final orders, and a straightforward textual reading of that provision forecloses district courts from independently re-adjudicating the legal questions those orders resolve. The Ninth Circuit's Hamilton precedent correctly recognizes that this exclusive review mechanism applies regardless of whether the FCC order is characterized as legislative or interpretive \u2014 a distinction the statute itself does not draw \u2014 and the district court here was therefore bound by the Amerifactors ruling when adjudicating McKesson's private TCPA enforcement action. While PDR Network left open threshold questions about the nature of the FCC order and prior opportunity for review, the Ninth Circuit's settled rule eliminates those as live obstacles in this circuit, and the constitutional due process concerns flagged by Justice Kavanaugh's concurrence and Chrysler Corp. are better addressed through the Hobbs Act's own review mechanism rather than by permitting district courts to conduct independent statutory interpretation that would fragment administrative law uniformity. Methodological consistency demands that we honor Congress's deliberate channeling of FCC order challenges to the courts of appeals, and McKesson has not demonstrated it was denied an adequate prior opportunity to seek that review.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hobbs Act's exclusive jurisdiction framework, as interpreted by the Ninth Circuit in Hamilton, requires district courts to accept FCC final orders \u2014 including the Amerifactors ruling \u2014 without independent re-examination of the agency's statutory interpretation. The two threshold questions left open in PDR Network, 588 U.S. 1 (2019), are resolved in this circuit: the Ninth Circuit has held that the Hobbs Act applies to both interpretive and legislative rules, and McLaughlin did not argue it lacked a prior adequate opportunity to seek appellate review of the FCC order. While my background as a public defender makes me deeply attentive to due process concerns raised in Justice Kavanaugh's PDR Network concurrence and echoed in Chrysler Corp. and Adamo Wrecking \u2014 particularly the fairness of binding private civil defendants to agency interpretations they had no realistic chance to challenge \u2014 those constitutional questions are not squarely presented here given McLaughlin's failure to raise the adequate-opportunity argument, and the district court was therefore obligated under binding circuit precedent to apply the FCC's Amerifactors interpretation rather than conduct independent statutory review.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.739,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "23-1226",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Hobbs Act compelled the district court to accept the FCC's legal interpretation of the Telephone Consumer Protection Act without independent judicial review, specifically regarding whether online fax services fall within the TCPA's coverage.",
+      "legal_provision": "The Hobbs Act (28 U.S.C. \u00a7 2342), which grants courts of appeals exclusive jurisdiction to review FCC orders, in conjunction with the Telephone Consumer Protection Act (47 U.S.C. \u00a7 227), particularly its prohibition on unsolicited fax advertisements, and implicated constitutional provisions including the Due Process Clause and separation of powers principles.",
+      "petitioner_position": "McLaughlin Chiropractic argues that the Hobbs Act required the district court to accept and apply the FCC's Amerifactors ruling as binding legal interpretation of the TCPA, meaning the district court lacked authority to independently evaluate or deviate from the FCC's determination that online fax services fall outside TCPA protections. Petitioner contends the Ninth Circuit erred by allowing the district court to sidestep the FCC's authoritative interpretation, thereby improperly decertifying the Online Fax Services Class and denying relief to class members who received unsolicited faxes through online fax services.",
+      "respondent_position": "McKesson argues that the Hobbs Act does not categorically strip district courts of authority to evaluate FCC interpretations in private enforcement actions, particularly where the FCC order at issue may constitute an interpretive rather than legislative rule, and where the defendant had no prior or adequate opportunity to seek judicial review of the FCC order. Respondents further contend that the FCC's Amerifactors ruling correctly determined that online fax services fall outside the TCPA's scope, and that the district court properly applied this interpretation to decertify the Online Fax Services Class and enter summary judgment against it.",
+      "key_precedents": [
+        "PDR Network, LLC v. Carlton & Harris Chiropractic, Inc., 588 U.S. 1 (2019) \u2014 central precedent examining whether Hobbs Act requires deference to FCC orders in private TCPA actions",
+        "Hamilton v. Accu-tek, 224 F.3d 1055 (9th Cir. 2000) \u2014 Ninth Circuit precedent holding the Hobbs Act contains no exception for interpretive rules",
+        "Yakus v. United States, 321 U.S. 414 \u2014 upheld constitutionality of precluding district courts from reviewing validity of wartime price regulations in enforcement actions",
+        "Chrysler Corp. v. EPA, 600 F.2d 904 (1979) \u2014 noted substantial due process questions raised by barring defendants from challenging agency rules",
+        "Adamo Wrecking Co. v. United States, 434 U.S. 275 \u2014 addressed constitutional concerns of precluding judicial review of agency rules in enforcement actions",
+        "Safeco Insurance Co. of America v. Burr, 551 U.S. 47 (2007) \u2014 established standard for willful violations including reckless disregard, applied to TCPA willfulness analysis",
+        "Lary v. Trinity Physician Financial & Insurance Services, 780 F.3d 1101 (11th Cir. 2015) \u2014 held TCPA willfulness standard requires more than merely intentional action",
+        "Gospel Missions of America v. City of Los Angeles, 328 F.3d 548 (9th Cir. 2003) \u2014 established standard for sua sponte summary judgment requiring full and fair opportunity to ventilate issues",
+        "In re Amerifactors Financial Group, LLC, FCC Ruling \u2014 FCC order determining online fax services fall outside TCPA protections, the specific agency interpretation at issue",
+        "Peer International Corp. v. Pausa Records, Inc., 909 F.2d 1332 (9th Cir. 1990) \u2014 construed willfulness under Copyright Act in analogous context"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kavanaugh's most compelling challenge \u2014 that Amerifactors functions as a legislative rule through formal adjudication with precedential effect \u2014 remains unpersuasive to me because the absence of notice-and-comment procedures and the FCC's own characterization of the ruling as statutory interpretation are the dispositive markers under our administrative law jurisprudence, regardless of the ruling's practical influence. Justice Barrett's textual analysis continues to anchor my view: the Hobbs Act's 'determine the validity' language most naturally applies to orders carrying independent legal force, and an interpretive rule's 'validity' is essentially a non-question since it binds no one regardless. I am gratified that a strong coalition \u2014 including Justices Thomas, Alito, Barrett, Gorsuch, Jackson, and now Sotomayor \u2014 converges on the interpretive rule distinction as the narrowest ground, which allows us to resolve this case without reaching the broader constitutional questions flagged by Justices Thomas and Gorsuch under Marbury and Loper Bright. As Chief Justice, I would assign the majority opinion to Justice Barrett, whose careful textualist framing of the legislative/interpretive rule distinction provides the cleanest, most durable ground for a decision that preserves institutional legitimacy without unnecessarily unsettling the Hobbs Act's channeling function in cases involving genuine legislative rules.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's most forceful argument \u2014 that Amerifactors functions as a legislative rule because it was issued through formal adjudication with precedential effect \u2014 actually reinforces my concern rather than resolving it: if an agency can bootstrap an interpretive ruling into quasi-legislative force simply by issuing it through formal adjudication, then the constitutional problem is worse, not better, because it means agencies can circumvent notice-and-comment requirements while still claiming Hobbs Act preclusion of district court review. Justice Kagan's institutional chaos argument has pragmatic appeal, but Marbury v. Madison established that courts, not agencies, say what the law is, and the chaos concern cannot override that structural constitutional principle \u2014 if the FCC wants uniform application of its statutory interpretations, it must issue proper legislative rules subject to notice-and-comment and the full Hobbs Act review mechanism. Justice Barrett correctly identifies that the Hobbs Act's 'determine the validity' language is most naturally read to address binding legislative rules, and I would add that reading it to cover interpretive rules would raise a serious nondelegation concern by effectively transferring judicial interpretive authority to an executive agency in private enforcement proceedings. The convergence of textualist, due process, and separation-of-powers reasoning across this conference \u2014 including Justice Jackson's procedural fairness point about structural asymmetry in private enforcement actions \u2014 confirms that the respondent's position rests on the firmest constitutional and textual ground.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's most compelling argument \u2014 that Amerifactors functions as a legislative rule because it was issued through formal adjudication with precedential effect \u2014 remains unpersuasive to me because the administrative law distinction between legislative and interpretive rules does not turn on whether an agency pronouncement has precedential effect within the agency; it turns on whether the rule was issued pursuant to delegated legislative authority with notice-and-comment procedures and carries independent legal force. Justice Kagan's institutional chaos concern is real, but as I noted in round one, the proper remedy for that chaos is for the FCC to issue a proper legislative rule through notice-and-comment rulemaking \u2014 not to stretch the Hobbs Act's 'determine the validity' language to cover interpretive pronouncements that, by definition, bind no one regardless of their validity. Justice Barrett's textual point remains decisive for me: you cannot 'determine the validity' of something that has no independent legal force, so the Hobbs Act's exclusive jurisdiction provision simply has no purchase over interpretive rules. The convergence of my colleagues Roberts, Thomas, Gorsuch, Barrett, Jackson, and now Sotomayor on this interpretive-rule distinction confirms that this is the narrowest, most principled ground for decision, and I see no reason to depart from it.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Barrett's textualist analysis remains the most persuasive anchor for my position: the Hobbs Act's 'determine the validity' language speaks to binding legislative rules with independent legal force, and an interpretive rule like Amerifactors \u2014 issued without notice-and-comment and purporting only to clarify existing statutory meaning \u2014 simply falls outside that channeling mechanism because its 'validity' is a non-question. Justice Kavanaugh's institutional chaos concern is real and I take it seriously from a pragmatic standpoint, but as Justice Kagan herself acknowledges, the due process safety valve he endorses for defendants genuinely foreclosed from prior review actually undermines the categorical rule he defends \u2014 if exceptions must be carved out, the narrower interpretive-rule distinction is the cleaner and more principled ground. What ultimately moves me from my initial hesitation is Justice Jackson's procedural fairness point: private defendants in TCPA enforcement actions face a structural asymmetry where they had no concrete incentive to seek court of appeals review of an FCC order before being sued, and binding them to that order in litigation without meaningful opportunity to contest it raises the kind of real-world due process harm to vulnerable parties that my judicial philosophy demands I take seriously. The convergence of textualist, due process, and separation-of-powers reasoning across methodological lines \u2014 from Justice Thomas to Justice Jackson \u2014 persuades me this is the correct result.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's textualist argument about the legislative/interpretive rule distinction remains the strongest challenge to my position, and I acknowledge that the convergence of seven colleagues on this ground gives me genuine pause \u2014 but I cannot accept that the interpretive/legislative rule distinction is as clean in practice as my colleagues suggest. The Amerifactors ruling was issued through formal FCC adjudication, carries precedential weight within the agency, and functions in private enforcement actions exactly as a binding rule would \u2014 defendants are sued based on conduct the FCC has declared violates the TCPA, and the 'interpretive' label does not change that practical reality. Justice Kavanaugh correctly identifies that allowing defendants to escape the Hobbs Act's channeling mechanism simply by characterizing the relevant FCC order as 'interpretive' would invite exactly the piecemeal threshold litigation that Congress designed the Hobbs Act to prevent. That said, I am genuinely moved by Justice Jackson's procedural fairness point and Justice Thomas's separation-of-powers concern, and I would insist that any majority opinion for petitioner must incorporate the due process carve-out I identified \u2014 defendants who genuinely lacked any prior opportunity for Hobbs Act review cannot be bound \u2014 which addresses the constitutional avoidance concerns without abandoning the channeling principle entirely.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's most forceful argument \u2014 that Amerifactors' issuance through formal adjudication with precedential effect makes it functionally equivalent to a legislative rule \u2014 remains unpersuasive to me because the relevant question under administrative law is not functional equivalence but formal categorization: a rule issued without notice-and-comment that purports only to interpret existing statutory text is an interpretive rule regardless of its practical impact, and the Hobbs Act's 'determine the validity' language simply has no purchase over pronouncements that carry no independent legal force. Justice Barrett's textual analysis is correct on this point, and it aligns with my own textualist methodology \u2014 we read statutes as written, not as agencies might prefer them to operate. Justice Kagan's institutional chaos concern deserves genuine respect, but the answer to that concern is for the FCC to issue proper legislative rules through notice-and-comment rulemaking, not to stretch the Hobbs Act's text beyond its natural meaning to cover interpretive glosses. The convergence of my separation-of-powers commitments, the constitutional avoidance canon, and the plain text of the Hobbs Act \u2014 reinforced by Loper Bright's vindication of the principle that Article III courts must independently say what the law is \u2014 compels me to hold that district courts retain independent review authority over interpretive FCC rulings in private enforcement actions.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Justice Barrett's textualist argument about the interpretive/legislative rule distinction remains the strongest challenge to my position, and I acknowledge the near-unanimous convergence of my colleagues on this ground gives me serious pause. However, I cannot fully embrace the respondents' position because the interpretive rule distinction, while textually defensible, creates a workability problem that Justice Kagan correctly identifies: every TCPA defendant will now characterize any inconvenient FCC order as 'interpretive' to escape the Hobbs Act's channeling mechanism, and district courts will be left to litigate that threshold classification question without clear guidance, producing exactly the inconsistency Congress designed the Hobbs Act to prevent. I also remain skeptical that Amerifactors is cleanly categorized as an interpretive rule \u2014 it was issued through formal adjudication with binding precedential effect within the agency, and the majority's reliance on the absence of notice-and-comment as the dispositive criterion may be too formalistic given the functional reality of how the FCC's adjudicatory orders operate in private enforcement contexts. That said, I acknowledge my colleagues' due process concerns have genuine force, and I would insist that any majority opinion for petitioner must incorporate the targeted exception I proposed in PDR Network for defendants who genuinely lacked a prior opportunity for Hobbs Act review \u2014 without that safety valve, I would find the constitutional concerns sufficiently serious to reconsider my position.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's most compelling argument remains that Amerifactors was issued through formal adjudication with precedential effect, functionally resembling a legislative rule. But this conflates the administrative law distinction between legislative and interpretive rules with the question of precedential effect within an agency \u2014 an FCC order can have internal precedential weight while still being an interpretive rule that carries no independent legal force on private parties, which is the relevant distinction for Hobbs Act purposes. The Hobbs Act's 'determine the validity' language presupposes an order whose validity matters \u2014 that is, one that binds parties regardless of a reviewing court's independent judgment \u2014 and an interpretive rule, by definition, does not bind anyone regardless of its validity, making the exclusive jurisdiction provision simply inapplicable. I am further reinforced by Justice Thomas's constitutional avoidance point: reading the Hobbs Act to compel district courts to defer to agency statutory interpretations in private enforcement actions would raise serious Article III and due process concerns that Congress would need to address with unmistakably clear text, which the Hobbs Act does not provide.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's most forceful argument \u2014 that Amerifactors' issuance through formal adjudication with precedential effect makes it functionally equivalent to a legislative rule \u2014 is genuinely interesting, but it proves too much: if functional precedential effect alone suffices to trigger Hobbs Act exclusive review, then virtually every agency adjudication would be channeled to the courts of appeals, collapsing the legislative/interpretive rule distinction that our administrative law jurisprudence has carefully maintained. Justice Barrett's textual point remains decisive for me: the Hobbs Act grants exclusive jurisdiction to 'determine the validity' of FCC orders, and an interpretive rule's validity is simply not the operative question \u2014 it binds no one regardless of its validity, so there is nothing for the court of appeals to exclusively 'determine' in the relevant sense. My background as a public defender reinforces my concern about the structural asymmetry Justice Gorsuch identifies: a private defendant in a TCPA enforcement action had no concrete incentive to seek Hobbs Act review of the Amerifactors ruling before being sued, and reading the statute to foreclose district court review in those circumstances raises the precise due process concerns that constitutional avoidance counsels against. The convergence of textualist, procedural fairness, and constitutional avoidance reasoning across this conference \u2014 including Justice Sotomayor's thoughtful reconsideration \u2014 confirms that the narrowest and most principled ground is that interpretive rules fall outside the Hobbs Act's channeling mechanism.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Consistent with my approach in PDR Network v. Carlton & Harris Chiropractic, 588 U.S. 1 (2019), where I declined to resolve the Hobbs Act deference question on preliminary grounds, I find that the narrowest and most institutionally sound resolution here favors McKesson. The Hobbs Act grants courts of appeals exclusive jurisdiction to 'determine the validity' of FCC orders, but as the research materials indicate, interpretive rules present a distinct problem: they are non-binding on courts regardless of their validity, meaning the Hobbs Act's channeling mechanism does not compel district courts to treat them as binding law in private enforcement actions. Requiring district courts to accept FCC interpretive rules without independent review in private enforcement actions \u2014 where defendants may have had no practical opportunity to seek court of appeals review \u2014 raises serious due process concerns flagged in Chrysler Corp. v. EPA and Adamo Wrecking Co. that counsel against such a broad reading of the Hobbs Act. Applying my preference for narrow rulings that avoid unnecessary constitutional questions, I would hold that the district court was not compelled to accept the Amerifactors ruling as binding, and affirm on that limited ground without broadly resolving the full scope of Hobbs Act deference.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As an originalist and textualist, I must examine what the Hobbs Act (28 U.S.C. \u00a7 2342) actually says and what it meant when enacted. The text channels exclusive review of FCC orders to courts of appeals, but this structural arrangement raises serious constitutional questions when applied to preclude a defendant in a private enforcement action from challenging an agency's statutory interpretation \u2014 particularly where that defendant had no prior adequate opportunity to seek review in a court of appeals. Justice Kavanaugh's PDR Network concurrence correctly identified that prohibiting such a defense raises significant Due Process Clause concerns, and I would go further to note that compelling district courts to accept agency statutory interpretations without independent judicial review implicates separation of powers principles, as Article III courts \u2014 not administrative agencies \u2014 hold the judicial power to say what the law is. The Ninth Circuit's Hamilton rule that even interpretive rules bind district courts under the Hobbs Act extends the statute well beyond what its text and original public meaning can bear, effectively delegating final interpretive authority over a federal statute to an executive agency in violation of foundational constitutional structure.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must examine what the Hobbs Act actually says: it grants courts of appeals exclusive jurisdiction to 'determine the validity' of covered FCC orders under 28 U.S.C. \u00a7 2342. The critical distinction here is between legislative rules, which carry the force of law and bind courts, and interpretive rules, which merely clarify an agency's understanding of a statute and bind no one regardless of their validity. The FCC's Amerifactors ruling is a prototypical interpretive rule clarifying the TCPA's definition of 'telephone facsimile machine' without imposing new obligations through notice-and-comment rulemaking, meaning the district court was not categorically stripped of authority to independently evaluate it. Furthermore, reading the Hobbs Act to preclude all district court review of FCC interpretations in private enforcement actions would raise serious due process concerns under Chrysler Corp. v. EPA and Adamo Wrecking Co., as defendants like McKesson would have no adequate opportunity to challenge agency interpretations that bind them in litigation \u2014 a constitutional avoidance concern that counsels against McLaughlin's expansive reading of the statute.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hobbs Act grants courts of appeals exclusive jurisdiction to determine the validity of FCC orders, and the Ninth Circuit's rule \u2014 established in Hamilton v. Accu-tek \u2014 that district courts are bound by FCC orders regardless of whether they are legislative or interpretive rules creates a serious structural problem for private litigants who never had a meaningful opportunity to challenge the agency's interpretation. As PDR Network flagged, due process concerns arise when defendants in private enforcement actions are bound by agency orders they had no prior opportunity to contest in a court of appeals, and those concerns counsel against reading the Hobbs Act to categorically foreclose independent judicial review in all circumstances. From my perspective, the practical impact on vulnerable class members \u2014 consumers who received unsolicited faxes through online fax services \u2014 weighs heavily in favor of preserving district court authority to scrutinize whether the FCC's Amerifactors ruling, which narrowed TCPA protections, was correctly applied, rather than allowing an agency interpretive ruling to insulate itself from any meaningful judicial check in the very proceedings where it causes harm.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hobbs Act's grant of exclusive jurisdiction to courts of appeals over FCC orders, read in light of the statutory scheme's purpose of channeling administrative review through a single forum, compels district courts to accept FCC interpretations like the Amerifactors ruling rather than independently second-guessing them in private enforcement actions. The Ninth Circuit's rule in Hamilton \u2014 that both legislative and interpretive FCC rules bind district courts \u2014 represents a workable, coherent approach to the Hobbs Act that avoids the chaos of inconsistent district court rulings on the same FCC order. While Justice Kavanaugh's concurrence in PDR Network raises legitimate due process concerns about defendants who lacked a prior opportunity to challenge FCC orders, those concerns are better addressed through targeted exceptions for parties who were genuinely foreclosed from Hobbs Act review, not through a wholesale abandonment of the channeling principle that Congress embedded in the statute. Here, the district court correctly recognized it was bound by Amerifactors, and the Ninth Circuit's affirmance on that threshold point should be upheld, even if the underlying merits of the FCC's interpretation of the TCPA remain contestable through proper administrative channels.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "As a textualist committed to separation of powers, I must grapple seriously with what the Hobbs Act's plain text actually requires and whether it constitutionally can strip district courts of independent review in private enforcement actions. The unresolved questions from PDR Network \u2014 whether the Hobbs Act applies equally to interpretive rules and whether due process demands an opportunity for judicial review when a defendant had no prior chance to challenge the FCC order \u2014 cut strongly in McKesson's favor here. Compelling a district court to mechanically apply an agency's statutory interpretation without any independent judicial review raises profound Article III and Due Process concerns, as Justice Kavanaugh's PDR Network concurrence recognized; courts, not agencies, must say what the law means in enforcement proceedings. Furthermore, my deep skepticism of agency deference \u2014 reflected in my Chevron skepticism and the Court's subsequent Loper Bright reasoning \u2014 counsels against reading the Hobbs Act to constitutionally mandate that district courts rubber-stamp FCC interpretations of the TCPA's scope, particularly where the Amerifactors ruling may constitute an interpretive rather than legislative rule and where the defendant lacked a prior adequate opportunity to seek direct appellate review.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Hobbs Act's exclusive jurisdiction framework, as I articulated in my PDR Network concurrence, traditionally requires district courts in private enforcement actions to accept FCC orders as binding legal interpretations of statutes like the TCPA, absent a showing that the order is merely interpretive or that the defendant lacked a prior adequate opportunity for judicial review. Here, unlike in PDR Network where those two preliminary issues prevented resolution, the record indicates neither barrier applies \u2014 the Amerifactors ruling functions as a legislative rule issued through proper FCC channels, and the Hobbs Act's review scheme provided an adequate prior opportunity for challenge in the courts of appeals. Allowing district courts to independently second-guess FCC statutory interpretations in private enforcement suits would undermine the uniform application of federal communications law and the institutional design Congress established through the Hobbs Act. While I remain attentive to the due process concerns I flagged in PDR Network regarding defendants who genuinely lacked any prior opportunity to challenge an FCC order, those concerns do not override the statutory mandate where adequate review mechanisms existed.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "As a textualist, I begin with the Hobbs Act's text, which grants courts of appeals exclusive jurisdiction to 'determine the validity' of covered FCC orders under 28 U.S.C. \u00a7 2342. The critical distinction here is between legislative rules, which carry the force of law and whose validity is properly subject to exclusive appellate review, and interpretive rules, which merely reflect an agency's understanding of existing statutory text and are non-binding regardless of their validity. The FCC's Amerifactors ruling, which interpreted the TCPA's scope with respect to online fax services, is properly characterized as an interpretive rule \u2014 it did not go through notice-and-comment rulemaking and did not purport to create new legal obligations beyond what the statute itself requires. Following the Fourth Circuit's careful analysis in Carlton & Harris Chiropractic on remand from PDR Network, as well as the Third, Second, and Eighth Circuits' consistent treatment of such FCC interpretive rulings, the district court was not compelled by the Hobbs Act to accept the Amerifactors order as binding, and McKesson's position that independent judicial review was permissible is correct as a matter of statutory text and structure.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The Hobbs Act's grant of exclusive appellate jurisdiction to review FCC orders does not categorically compel district courts to accept agency interpretations as binding in private enforcement actions, particularly where the defendant lacked a prior and adequate opportunity to seek judicial review of the FCC order \u2014 a concern left unresolved by PDR Network, 588 U.S. 1 (2019), which remanded precisely because these threshold questions were unanswered. From a procedural fairness standpoint, forcing a private party to be bound by an agency interpretation it had no meaningful opportunity to challenge raises serious Due Process Clause concerns, as Justice Kavanaugh's concurrence in PDR Network recognized, noting that 'barring defendants in as-applied enforcement actions from raising arguments about the reach and authority of agency rules enforced against them raises significant questions under the Due Process Clause.' My background as a public defender reinforces my concern about structural arrangements that deny parties a fair opportunity to contest the legal rules being enforced against them, and the canon of constitutional avoidance counsels against reading the Hobbs Act to foreclose all district court review where such review was never meaningfully available. Furthermore, if the Amerifactors ruling constitutes an interpretive rather than legislative rule, it may fall outside the Hobbs Act's jurisdictional grant entirely, leaving district courts free to evaluate the FCC's statutory construction independently.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.747,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.53,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

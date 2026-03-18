@@ -1,0 +1,619 @@
+[
+  {
+    "docket": "24-304",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a federal court may certify a class action under Federal Rule of Civil Procedure 23(b)(3) when some members of the proposed class lack any Article III standing due to absence of injury.",
+      "legal_provision": "U.S. Constitution Article III (standing/injury-in-fact requirement); Federal Rule of Civil Procedure 23(b)(3) (class action certification requirements); Americans with Disabilities Act (underlying substantive claim regarding accessibility discrimination)",
+      "petitioner_position": "Labcorp argues that federal courts lack constitutional authority under Article III to certify class actions that include members who have suffered no concrete injury, as each class member must independently satisfy standing requirements to participate in federal litigation, and the Ninth Circuit erred in affirming certification of classes containing uninjured members. Labcorp further argues it is challenging the Ninth Circuit's overall judgment rather than any specific class definition, and that the court reviews judgments, not merely statements in lower court opinions.",
+      "respondent_position": "Respondents (Davis, Vargas, and American Council of the Blind) argue that the Ninth Circuit correctly affirmed certification of two classes of plaintiffs who were genuinely injured by Labcorp's alleged discrimination against individuals with disabilities, framing the question as whether the court of appeals erred in affirming certification of injured plaintiffs rather than whether uninjured members were improperly included. Respondents also raised jurisdictional arguments suggesting the Court's review extends only to the original May class definition, not a subsequently modified August definition.",
+      "key_precedents": [
+        "Amgen Inc. v. Sanofi, 598 U.S. 594 (2023) - courts review judgments of lower courts, not statements in opinions",
+        "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021) - Article III standing requires concrete injury for each class member",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) - concrete and particularized injury requirement for standing",
+        "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011) - Rule 23 class certification requirements",
+        "Tyson Foods, Inc. v. Bouaphakeo, 577 U.S. 442 (2016) - class certification and individualized issues under Rule 23(b)(3)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's Amgen-based argument continues to be the most serious challenge, and I want to be precise about why it does not ultimately move me: the question is not merely whether we review judgments or opinions, but whether the judgment below is constitutionally defensible on the record, and the record here shows the class definition \u2014 even as modified in August \u2014 lacked a workable mechanism to distinguish members who actually encountered concrete ADA barriers from those who did not. Justice Kagan acknowledges my narrower 'workable method' formulation is 'genuinely attractive' and could command a majority she might join in a different case, which confirms that the constitutional principle I am articulating is sound \u2014 the disagreement is about whether this record is the right vehicle, not about the underlying rule. I am persuaded that the judgment itself, not merely the Ninth Circuit's reasoning, is defective because the class definition facially swept in members with no plausible concrete injury, and Justice Sotomayor's concern about gutting civil rights class actions is better addressed through careful class definition going forward than through affirming a certification that failed to do that work here. As Chief Justice, I would assign the majority opinion with the narrow 'workable method' standard precisely because it preserves Rule 23's utility for well-defined ADA classes while enforcing Article III's constitutional floor \u2014 a formulation that may yet attract Justice Kagan or Justice Jackson if the opinion is drafted with sufficient care to distinguish this case from properly cabined civil rights classes.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Kagan raises the most serious challenge to my position, arguing that under Amgen we review judgments rather than opinions, and that if the certified class as actually defined encompasses only injured members, there is no constitutional infirmity. This argument has surface appeal but ultimately fails under a faithful originalist reading of Article III: the constitutional defect is not merely in the Ninth Circuit's reasoning but in the judgment itself, which affirmed certification of a class definition that facially swept in members who could not demonstrate concrete injury-in-fact. Justice Sotomayor's concern that rigorous standing scrutiny at certification would gut civil rights class actions is a policy argument that cannot override a constitutional mandate \u2014 the Framers vested judicial power only over actual Cases and Controversies, and no amount of congressional remedial intent can expand that power through Rule 23's procedural machinery. As I emphasized in TransUnion, permitting uninjured plaintiffs to proceed through class certification and potentially recover damages is not a procedural nicety but a constitutional violation, and the Rules Enabling Act's prohibition on enlarging substantive rights through procedural rules confirms that Rule 23 cannot serve as an end-run around Article III's threshold requirements.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Kagan raises the most serious challenge to our position by invoking Amgen's principle that we review judgments rather than opinions, suggesting the certified class may in fact consist of only injured members. But this argument proves too much \u2014 if the class definition as certified facially sweeps in members who never encountered an inaccessible Labcorp facility or never sought services there, then the judgment itself is constitutionally infirm regardless of how it is characterized. Justice Sotomayor's concern about gutting civil rights class actions is sympathetic but ultimately conflates policy preferences with constitutional requirements; TransUnion's holding that every class member must have standing to recover individual damages is not a suggestion that courts may honor when convenient. The Rules Enabling Act point raised by Justices Gorsuch and Kavanaugh reinforces my view \u2014 Rule 23 is a procedural instrument that cannot constitutionally expand federal court jurisdiction to encompass uninjured plaintiffs, and the Ninth Circuit's failure to rigorously police the class definition at certification created precisely the Article III infirmity that TransUnion warned against. Chief Justice Roberts' narrower formulation \u2014 requiring a workable method to exclude uninjured members rather than individualized proof for every absent class member \u2014 is a sensible limiting principle I can embrace while still reversing the judgment below.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Chief Justice Roberts' narrower formulation \u2014 requiring a 'workable method' to ensure class membership is cabined to plausibly injured plaintiffs rather than individualized proof for every absent member \u2014 is the most intellectually honest position from the petitioner side, and I acknowledge it has genuine constitutional grounding. However, I maintain my respondent position because, as Justice Kagan correctly emphasizes, we review judgments not opinions under Amgen, and the August modified class definition did precisely the work Roberts describes by limiting membership to individuals who encountered specific ADA accessibility barriers at Labcorp facilities. Justice Barrett's argument that standing cannot be deferred to back-end damages proceedings conflates the threshold question of class definition with the individualized recovery question \u2014 a certified class defined to include only those who encountered concrete barriers is constitutionally sound even if individual damages proceedings later reveal some members cannot recover. The 6-3 tally does not move me because the majority's rule, however narrowly framed, will in practice be applied by lower courts to require individualized standing screening that destroys the class action mechanism for exactly the diffuse civil rights injuries \u2014 affecting disabled people with limited resources \u2014 that Congress designed the ADA to remedy.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.52,
+        "reasoning": "Justice Roberts' narrower formulation \u2014 requiring a 'workable method' rather than individualized proof \u2014 is genuinely attractive and I want to engage with it seriously, because it reflects my own preference for pragmatic, administrable rules that preserve Rule 23's utility. But here is where I part ways with the majority: the record question of whether the August modified class definition *actually* swept in uninjured members is precisely the kind of factual-legal determination that should be resolved by asking whether the judgment below is defensible, not by announcing a new constitutional rule and remanding. Justice Barrett argues the judgment itself is constitutionally defective because the class definition facially included non-injured members, but that characterization of the record is contested, and under Amgen we should affirm if any adequate ground supports the judgment \u2014 including the modified class definition's narrowing work. The 6-3 tally gives me genuine pause, and I acknowledge Justice Roberts' formulation could command a majority I might join in a different case with a cleaner record, but TransUnion's deliberate reservation of the certification question means the constitutional logic the majority calls 'inexorable' is actually an extension rather than a command, and I am not prepared to foreclose civil rights class actions on that basis without a cleaner vehicle.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Kagan raises the most serious challenge to our position \u2014 that under Amgen, we review judgments not opinions, and if the certified class actually encompasses only injured members, there is no constitutional infirmity. But this argument proves too much: the constitutional defect is not merely in the Ninth Circuit's reasoning but in the class definition itself, which facially swept in members who never encountered an allegedly non-compliant facility and thus suffered no concrete injury. Justice Sotomayor's concern that rigorous standing scrutiny at certification would gut civil rights class actions is understandable as a policy matter, but Article III's case-or-controversy requirement is not a policy preference Congress or Rule 23 can override \u2014 TransUnion's logic that 'every class member must have Article III standing to recover individual damages' necessarily implies that courts cannot certify classes containing those who could never recover, regardless of the remedial purposes behind the ADA. The Rules Enabling Act reinforces this: Rule 23 cannot enlarge the substantive right of uninjured parties to access federal court, and permitting certification of facially overbroad classes effectively does exactly that by forcing defendants to litigate against plaintiffs who lack any cognizable injury. The proper constitutional course is to require district courts to employ a workable method at certification \u2014 consistent with Chief Justice Roberts's narrower framing \u2014 to ensure class membership is cabined to those with plausible concrete injury.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan raises the most compelling argument for the respondents \u2014 that under Amgen Inc. v. Sanofi, we review judgments rather than opinions, and if the certified class as actually defined encompasses only injured members, the constitutional infirmity disappears. This is a serious point that I cannot dismiss lightly. However, the record here reveals that the class definitions as certified were not adequately cabined to injured members, and the Ninth Circuit's reasoning affirmatively blessed a certification framework that made no workable provision for excluding uninjured plaintiffs \u2014 so the judgment itself, not merely the opinion's reasoning, reflects the constitutional error. Justice Roberts correctly identifies the narrow path forward: we need not require individualized standing proof for every absent class member before certification, but district courts must employ a workable method ensuring the class definition plausibly limits membership to those with concrete injury, which the Ninth Circuit's judgment failed to demand. Justice Sotomayor's concern about gutting civil rights class actions is genuinely weighty, but the answer to that concern is careful class definition and rigorous Rule 23 scrutiny, not relaxing Article III's constitutional floor \u2014 the Rules Enabling Act and TransUnion's logic together foreclose using procedural aggregation to circumvent the injury-in-fact requirement.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan raises the most compelling counterargument \u2014 that under Amgen Inc. v. Sanofi, we review judgments rather than opinions, and if the certified class as actually defined encompasses only injured members, the constitutional infirmity disappears. This is a serious point that I take seriously, but it ultimately fails because the record here shows the class definition as certified did sweep in members who could not demonstrate concrete injury-in-fact, meaning the judgment itself \u2014 not merely the reasoning \u2014 is constitutionally defective. Justice Sotomayor's concern about gutting civil rights class actions is understandable as a policy matter, but Article III's requirements are not subject to relaxation based on the sympathetic nature of the underlying claim or the practical difficulties of enforcement; as TransUnion made clear, the constitutional floor applies equally to ADA cases and securities fraud cases alike. Justice Jackson's suggestion that individualized damages proceedings are the appropriate mechanism for filtering uninjured members conflates the back-end remedy question TransUnion resolved with the threshold jurisdictional question of whether a federal court has power to include those members in a certified class at all \u2014 if standing is a prerequisite to federal jurisdiction, it cannot be deferred to a later stage without the court exercising power it does not constitutionally possess.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that standing is a prerequisite to federal jurisdiction that cannot be deferred to a later stage has genuine force, and I take seriously the 6-3 tally reflecting real constitutional weight. However, I remain unpersuaded that TransUnion's reservation of the certification-stage question was inadvertent \u2014 the Court's deliberate silence on this precise issue means the 'inexorable logic' my colleagues invoke is an extension of TransUnion, not its direct command, and extensions of constitutional holdings that would effectively eliminate class actions for diffuse civil rights injuries deserve careful scrutiny rather than automatic application. Justice Kagan's Amgen point remains my strongest anchor: if the August modified class definition genuinely cabined membership to individuals who encountered specific ADA accessibility barriers at Labcorp facilities, then the judgment below may be constitutionally sound regardless of the Ninth Circuit's imprecise reasoning, and the proper remedy would be a remand to assess whether that definition did adequate work rather than wholesale reversal. My background as a public defender reinforces my reluctance to adopt a categorical rule that, as Justice Sotomayor correctly identifies, would gut civil rights class actions for the disabled populations Congress most intended to protect \u2014 the constitutional floor Justice Barrett invokes should be enforced through rigorous Rule 23 supervision and careful class definition, not a certification-stage individualized standing inquiry that no diffuse-injury class could practically survive.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), established unambiguously that '[e]very class member must have Article III standing in order to recover individual damages,' and while that case reserved the precise question of standing at the certification stage, the constitutional logic is inescapable \u2014 Article III is a threshold jurisdictional requirement that Rule 23 cannot override or circumvent. My own concurrence in Tyson Foods recognized that federal courts lack power to order relief to uninjured plaintiffs regardless of the class action vehicle, and certifying a class that facially includes uninjured members creates precisely the constitutional infirmity TransUnion warned against. Consistent with my preference for narrow rulings, I would hold only that district courts must, at the certification stage, employ a workable method to ensure the certified class is limited to members who can plausibly demonstrate concrete injury-in-fact, without necessarily requiring individualized standing proof for every putative member before certification \u2014 thereby preserving Rule 23's utility while respecting Article III's limits. The Ninth Circuit's judgment affirming a class definition that made no adequate provision for excluding uninjured members cannot stand under this framework.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Article III's case-or-controversy requirement, rooted in the original public meaning of the Constitution, demands that every plaintiff demonstrate a concrete injury-in-fact before a federal court may exercise jurisdiction \u2014 this is a threshold constitutional requirement, not a procedural nicety that Rule 23 can override. As I joined in TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), '[e]very class member must have Article III standing in order to recover individual damages,' and the Federal Rules of Civil Procedure, being mere procedural instruments enacted pursuant to the Rules Enabling Act, cannot expand the judicial power vested by Article III. The Ninth Circuit's certification of a class containing uninjured members directly contravenes this constitutional mandate, as permitting uninjured plaintiffs to proceed to trial and potentially recover damages would allow Rule 23(b)(3) to function as an unconstitutional expansion of federal judicial power beyond what the Framers understood and intended. The Court reviews the judgment below, and that judgment \u2014 affirming certification of a class that facially includes members without cognizable injury \u2014 cannot stand under a faithful originalist reading of Article III's standing requirements.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional floor that no procedural rule, including Rule 23, can override. As the Court made clear in TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), every class member must have Article III standing and demonstrate concrete injury to recover individual damages \u2014 Rule 23's certification mechanism cannot serve as an end-run around this constitutional limitation. The Ninth Circuit erred in affirming certification of classes that included members who suffered no concrete injury-in-fact, as permitting such certification would violate the separation of powers and the Rules Enabling Act's prohibition on using procedural rules to abridge substantive rights. While TransUnion expressly reserved the question of standing at the certification stage, its underlying logic compels the conclusion that district courts must rigorously scrutinize whether proposed class definitions sweep in uninjured members before certification is granted.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), established that every class member must have Article III standing to recover individual damages, the Court expressly reserved the question of whether standing must be demonstrated at the certification stage, leaving room for courts to certify classes of genuinely injured plaintiffs without requiring individualized standing inquiries upfront. The respondents here represent classes of individuals with disabilities who suffered concrete, particularized injuries from Labcorp's alleged ADA violations, and the practical effect of requiring rigorous standing screening at certification would be to gut the class action mechanism for exactly the kind of vulnerable, diffuse populations it was designed to protect. Under Amgen Inc. v. Sanofi, this Court reviews the judgment below\u2014which affirmed certification of classes of injured plaintiffs\u2014not merely the Ninth Circuit's reasoning, and if the certified classes as actually defined consist of injured members, there is no constitutional infirmity in the judgment itself. Demanding that every absent class member independently prove injury at the certification stage would impose an unworkable burden that would effectively eliminate class actions as a vehicle for enforcing civil rights laws like the ADA against large institutional defendants, undermining Congress's remedial intent and leaving disabled individuals without meaningful access to justice.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "While TransUnion clearly established that every class member must have Article III standing to recover individual damages, the critical question here is whether the Ninth Circuit's judgment \u2014 as opposed to any particular statement in its opinion \u2014 actually certified a class of uninjured members or instead certified classes of genuinely injured plaintiffs. Under Amgen Inc. v. Sanofi, this Court reviews judgments, not opinions, and if the certified class as actually defined encompasses only injured members, Labcorp's challenge loses its constitutional footing regardless of imprecise language in the lower court's reasoning. My pragmatic instinct is that the proper remedy for overbroad class definitions is refinement through the district court's ongoing supervisory authority under Rule 23(c)(1)(C), not wholesale decertification, and the record here suggests the August modified class definition adequately cabined membership to those with cognizable ADA injuries. I would affirm on the ground that the judgment below certified injured classes, while writing separately to emphasize that district courts must rigorously police class definitions at certification to exclude uninjured members consistent with TransUnion's constitutional mandate.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional floor that no procedural rule, including Rule 23, can lower \u2014 this follows directly from the text and structure of Article III, which vests judicial power only over actual 'Cases' and 'Controversies.' TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), expressly held that '[e]very class member must have Article III standing in order to recover individual damages,' and while TransUnion reserved the certification-stage question, its constitutional logic admits no exception: a federal court simply lacks power to adjudicate claims of uninjured parties regardless of the procedural vehicle used. The Rules Enabling Act further confirms that Rule 23 cannot 'abridge, enlarge or modify any substantive right,' and permitting certification of classes containing uninjured members would effectively enlarge those members' rights by granting them access to federal court they could not otherwise obtain. Consistent with my textualist and originalist methodology, the plain meaning of Article III's injury-in-fact requirement \u2014 reinforced by Spokeo v. Robins and TransUnion \u2014 demands that courts rigorously police class membership at the certification stage to exclude those who suffered no concrete harm.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021) established clearly that every class member must have Article III standing to recover individual damages, and while TransUnion expressly reserved the question of how courts address standing at the certification stage, the constitutional principle it articulated cannot be circumvented by Rule 23's procedural machinery. As an institutionalist, I am mindful that the Rules Enabling Act prohibits Rule 23 from abridging, enlarging, or modifying substantive rights, and permitting certification of classes containing uninjured members would effectively do exactly that by allowing Article III's concrete injury requirement to be bypassed through procedural aggregation. History and tradition confirm that federal courts have always required a genuine case or controversy, and certifying a class that includes members with no cognizable injury stretches that constitutional boundary in a way that threatens the Court's institutional legitimacy and the separation of powers. The practical workability concern also weighs heavily here\u2014without a mechanism at certification to identify and exclude uninjured members, defendants face due process problems and courts lose the ability to manage the litigation consistent with constitutional constraints.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Article III's foundational requirement, federal courts possess jurisdiction only over cases and controversies involving parties with concrete, particularized injuries, and as TransUnion LLC v. Ramirez, 594 U.S. 413, 431 (2021) unambiguously held, '[e]very class member must have Article III standing in order to recover individual damages.' The procedural mechanism of Rule 23 cannot expand the constitutional jurisdiction of federal courts beyond what Article III permits \u2014 the Rules Enabling Act itself prohibits Federal Rules from abridging, enlarging, or modifying substantive rights, and certifying a class containing uninjured members would do precisely that by subjecting Labcorp to liability exposure for plaintiffs who suffered no cognizable harm. While TransUnion expressly reserved the certification-stage question, the constitutional logic is inexorable: if an uninjured plaintiff cannot recover at the back end of litigation, a federal court lacks authority to include that plaintiff in a certified class at the front end, as standing is a threshold jurisdictional prerequisite that cannot be deferred indefinitely. The Ninth Circuit's affirmance of a class definition that swept in uninjured members therefore exceeded the constitutional bounds of Article III judicial power, regardless of how the judgment is framed.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While TransUnion clearly established that every class member must have Article III standing to recover individual damages, that case expressly reserved the question of whether standing must be demonstrated at the certification stage, and the Court reviews judgments rather than statements in opinions per Amgen. The Ninth Circuit's judgment affirming certification of classes of genuinely injured plaintiffs with disabilities under the ADA should be upheld where the named plaintiffs and the certified class definitions, as practically construed, encompass individuals who suffered concrete accessibility discrimination injuries. My background as a public defender and commitment to procedural fairness counsels against using standing doctrine as a blunt instrument to foreclose meritorious civil rights class actions at the certification stage before any individualized damages determination, particularly where the ADA's remedial purposes would be severely undermined. The appropriate mechanism for addressing potentially uninjured class members is through rigorous application of Rule 23's requirements and individualized damages proceedings, not wholesale decertification of classes representing genuinely harmed disabled individuals.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.763,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.52,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.52,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "24-304",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a federal court may certify a class action under Federal Rule of Civil Procedure 23(b)(3) when some members of the proposed class lack any Article III standing due to the absence of a cognizable injury.",
+      "legal_provision": "U.S. Constitution Article III (standing/injury-in-fact requirement); Federal Rule of Civil Procedure 23(b)(3) (class action certification requirements); Americans with Disabilities Act (underlying substantive claim regarding accessibility discrimination)",
+      "petitioner_position": "Labcorp argues that federal courts lack constitutional authority under Article III to certify class actions that include members who have suffered no actual injury, as each class member must independently satisfy the injury-in-fact requirement for standing. Certifying such 'overbroad' classes violates the case-or-controversy limitation on federal judicial power and improperly allows uninjured plaintiffs to obtain relief, creating significant litigation and liability exposure for defendants beyond what the Constitution permits.",
+      "respondent_position": "Respondents (Davis, Vargas, and American Council of the Blind) argue that the Ninth Circuit correctly affirmed certification of two classes of plaintiffs who were genuinely injured by Labcorp's alleged discrimination against individuals with disabilities. Respondents contend that the certified classes were properly defined and that the court of appeals did not err in its certification analysis, framing the question as one about disability discrimination remediation rather than a broad constitutional standing defect.",
+      "key_precedents": [
+        "Amgen Inc. v. Sanofi, 598 U.S. 594 (2023) - courts review judgments of lower courts, not statements in opinions",
+        "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021) - Article III standing requires concrete injury for each class member",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) - injury-in-fact must be concrete and particularized",
+        "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011) - Rule 23 certification requirements must be rigorously analyzed",
+        "Comcast Corp. v. Behrend, 569 U.S. 27 (2013) - class certification requires rigorous analysis of Rule 23(b)(3) requirements"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson's argument about the named plaintiff/absent class member distinction and TransUnion's footnote 4 reservation is the most intellectually serious challenge to our position, and I want to engage with it directly: the reservation in footnote 4 does real work, but it reserved the procedural mechanism for addressing standing defects at certification, not whether Article III's requirements apply at that stage at all. My minimalist instincts counsel writing narrowly here \u2014 I agree with Justice Kagan that the holding should require rigorous scrutiny of the class definition to exclude members who could not plausibly demonstrate cognizable injury, rather than mandating individualized mini-trials or categorically foreclosing ADA class actions. Justice Sotomayor's access-to-justice concerns are legitimate and I take them seriously, but the constitutional logic is that certifying a facially overbroad class creates in terrorem settlement pressure that itself constitutes the constitutional harm \u2014 the cure is a refined class definition, not deferred winnowing. As Chief Justice, I would assign the majority opinion to Justice Kagan or myself to write the narrowest possible holding that commands the broadest coalition, preserving workable class action practice while establishing that district courts must rigorously examine class definitions at certification for facial overbreadth under Article III.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor raises the most serious counterargument \u2014 that TransUnion addressed the merits stage rather than certification, and that later-stage mechanisms can ensure only injured members recover \u2014 but this reasoning inverts the constitutional logic of Article III. The case-or-controversy requirement is jurisdictional, not merely a damages-phase filter; as I explained in TransUnion, federal courts lack the power to adjudicate claims on behalf of uninjured parties from the outset, not merely the power to award them damages at the end. Justice Jackson's concern about gutting civil rights class actions is understandable as a policy matter, but the original public meaning of Article III's 'Cases' and 'Controversies' language admits no exception for socially beneficial litigation \u2014 the Constitution's structural limits on judicial power apply regardless of the worthiness of the underlying cause. Justice Kagan's pragmatic suggestion of refined class definitions and bifurcated proceedings actually supports the Petitioner's position: if the solution is to exclude uninjured members from the class definition, that exclusion must happen before certification, not after, confirming that the Ninth Circuit's approach of deferring the inquiry is constitutionally deficient.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.93,
+        "reasoning": "Justice Sotomayor raises the most serious challenge by arguing that district courts retain post-certification tools \u2014 class refinement, damages-phase winnowing, individualized proof requirements \u2014 to ensure only injured members ultimately recover, and that TransUnion addressed the merits stage rather than certification. But this argument proves too much: if Article III requires every class member to have standing to recover individual damages, as TransUnion unambiguously holds, then certifying a class that facially includes uninjured members subjects the defendant to unconstitutional litigation pressure and in terrorem settlement dynamics before any winnowing occurs, which is precisely the harm the Rules Enabling Act and Article III together forbid. Justice Jackson's reliance on TransUnion's footnote 4 reservation is unavailing \u2014 that footnote reserved the precise procedural mechanism for addressing standing defects at certification, not whether Article III applies at that stage, and the constitutional logic of Steel Co. v. Citizens for a Better Environment compels courts to resolve jurisdictional prerequisites before proceeding. The practical access-to-justice concerns raised by Justices Sotomayor and Jackson are legitimate policy considerations, but they cannot override the constitutional text of Article III, and the proper remedy is a refined class definition that excludes members lacking cognizable injury rather than deferring the constitutional inquiry entirely.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that certifying an overbroad class 'initiates proceedings the court lacks constitutional power to complete' is the strongest formulation from the petitioner side, but it still conflates the named plaintiff's Article III standing \u2014 which is uncontested and sufficient to invoke federal jurisdiction \u2014 with the distinct question of whether absent class members must individually prove injury before certification rather than before recovery. Justice Kagan's concession that 'refined class definitions and bifurcated proceedings' can cure overbreadth actually vindicates the Ninth Circuit's approach here, because the class was defined as individuals who actually encountered Labcorp's facilities, which structurally embeds the injury inquiry into the class definition itself rather than deferring it entirely. The in terrorem settlement pressure argument my colleagues invoke proves too much \u2014 it would equally condemn any class action where individualized damages questions remain, which is most of them, and TransUnion's footnote 4 reservation cannot be dismissed as mere dictum when it expressly declined to resolve the certification-stage question we are now asked to decide. I remain persuaded that requiring individualized standing mini-trials at certification for ADA accessibility cases would impose asymmetric burdens that systematically destroy the only viable enforcement mechanism for disabled individuals, and nothing in the constitutional text or TransUnion's holding compels that outcome.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument most directly engages my concern \u2014 she correctly notes that Steel Co. addressed merits jurisdiction rather than the absent-class-member standing question, and that TransUnion's footnote 4 reservation is doing real constitutional work. But I think Justice Jackson and I are actually converging on the same procedural solution from different directions: she says the Ninth Circuit's class definition (individuals who actually encountered Labcorp's facilities) is already doing the work of excluding the uninjured, and I say district courts must rigorously scrutinize class definitions to ensure they exclude the uninjured. The question then becomes whether the Ninth Circuit's definition actually accomplished that task or merely gestured at it \u2014 and on that factual question about the adequacy of the class definition's tailoring, I remain persuaded that the certification record was insufficiently rigorous. Justice Sotomayor's point that 'injury is structurally embedded' in a class of disabled individuals who encountered inaccessible facilities is compelling as a general matter, but it elides the individualized question of whether each member's encounter actually produced a concrete, particularized harm rather than a bare procedural or technical violation \u2014 precisely the distinction TransUnion drew at the merits stage that must inform how we define cognizable injury at certification.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that TransUnion's reservation in footnote 4 leaves open whether standing must be demonstrated at certification rather than at the remedies stage, and that later-stage mechanisms can perform the necessary sifting. But this argument proves too much: if we know at the outset that a class definition sweeps in members who cannot possibly demonstrate injury, certifying that class and then winnowing it later does not cure the constitutional defect \u2014 it merely defers it while imposing the very in terrorem settlement pressure that distorts litigation. The text of Article III does not say federal courts may provisionally exercise judicial power over uninjured parties and correct the error later; it says the judicial power extends only to Cases and Controversies, which requires a cognizable injury from the start. Justice Kagan's pragmatic framing is actually consistent with my position: the solution is rigorous scrutiny of the class definition at certification to ensure it is drawn to exclude the uninjured, not a categorical rule requiring individualized mini-trials for every member, but also not the Ninth Circuit's permissive approach of deferring the inquiry entirely. The Rules Enabling Act reinforces this \u2014 Rule 23 cannot be used to enlarge the class of persons who may invoke federal judicial power beyond what Article III permits, and certifying an overbroad class does exactly that.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Jackson's argument about Steel Co. v. Citizens for a Better Environment is the most technically precise challenge to my position \u2014 she correctly notes that Steel Co. addressed whether a court could reach the merits without named plaintiff standing, not whether absent class members must individually demonstrate injury at certification. This distinction has genuine force, and I acknowledge that TransUnion's footnote 4 reservation was not mere dictum. However, the constitutional logic I find most persuasive is the one Justice Barrett articulates clearly: if Article III prohibits courts from ordering relief to uninjured plaintiffs at the back end, certifying a class that structurally includes such plaintiffs at the front end initiates proceedings the court lacks constitutional power to complete with respect to those members \u2014 the 'later sifting' approach defers rather than cures the constitutional defect while generating the in terrorem settlement pressure that distorts litigation outcomes. Consistent with my institutionalist methodology and Justice Kagan's pragmatic framing, I would cabin the holding narrowly: district courts must rigorously scrutinize class definitions at certification to ensure they do not facially sweep in members who could not plausibly demonstrate concrete injury, but this does not require individualized mini-trials for every absent member \u2014 refined class definitions and bifurcated proceedings remain available tools that preserve workable class action practice while respecting Article III's structural floor. This formulation respects the Court's institutional credibility by maintaining constitutional boundaries consistently without categorically foreclosing ADA class actions where injury is genuinely embedded in the class definition.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious counterargument \u2014 that TransUnion's footnote 4 expressly reserved the certification-stage question, and that later-stage mechanisms can perform the necessary sifting to ensure only injured members recover. But this argument proves too much: if Article III prohibits courts from ordering relief to uninjured plaintiffs at the back end, as TransUnion unambiguously holds, then certifying a class that structurally includes such plaintiffs at the front end necessarily initiates proceedings the court lacks constitutional power to complete with respect to those members. The 'later sifting' approach also ignores the in terrorem settlement pressure that overbroad certification creates \u2014 defendants facing massive certified classes of partially uninjured members are coerced into settlements that effectively compensate non-injured parties, which is precisely the constitutional harm Article III's injury-in-fact requirement is designed to prevent. Justice Kagan's pragmatic point about cabining the holding narrowly is well-taken, and I would join her in requiring rigorous scrutiny of the class definition itself rather than mandating individualized mini-trials for every putative member, but the constitutional floor remains: a class definition that facially sweeps in members who could not plausibly demonstrate concrete injury cannot survive certification under Article III's case-or-controversy requirement, read in light of TransUnion and the Rules Enabling Act's prohibition on Rule 23 enlarging substantive rights.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's pragmatic argument is the most compelling from the petitioner side, and I note that her proposed remedy \u2014 rigorous scrutiny of class definitions at certification to exclude uninjured members \u2014 is actually what the Ninth Circuit did here by limiting the class to individuals who actually encountered Labcorp's facilities, making her argument functionally supportive of affirmance rather than reversal. Justice Barrett's contention that certifying a class 'structurally including' uninjured plaintiffs initiates proceedings the court lacks constitutional power to complete assumes the conclusion: whether this particular class definition structurally includes uninjured members is precisely the disputed factual and legal question, and a class limited to individuals who physically encountered allegedly noncompliant facilities is not facially overbroad in the way Barrett's argument requires. The convergence of my colleagues around 'rigorous scrutiny of class definitions' as the appropriate standard actually vindicates the Ninth Circuit's approach rather than condemning it, because the district court did scrutinize the class definition \u2014 the disagreement is about whether that scrutiny was rigorous enough, which is a factbound question that does not warrant the categorical constitutional rule the petitioner seeks. I maintain my position for respondent because TransUnion's footnote 4 reservation is doing genuine constitutional work, the named plaintiff's standing is uncontested, and the practical elimination of ADA class actions through certification-stage individualized injury mini-trials remains an asymmetric burden that my commitment to procedural fairness and access to justice compels me to resist absent clearer constitutional command.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021) established clearly that every class member must have Article III standing to recover individual damages, and while that case reserved the precise question of how courts address standing defects at the certification stage, the constitutional principle is unambiguous \u2014 Rule 23 cannot expand federal judicial power beyond Article III's case-or-controversy limitation. Consistent with my minimalist approach, I would resolve this narrowly: a district court must, at the certification stage, ensure that the class definition does not facially sweep in members who could not plausibly demonstrate a cognizable injury, as certifying such an overbroad class improperly subjects defendants to liability exposure untethered from constitutional requirements. The Ninth Circuit's approach, which defers the standing inquiry entirely to a later merits stage, conflicts with the rigorous analysis mandate of Wal-Mart Stores v. Dukes and Comcast Corp. v. Behrend, and risks using Rule 23 as an instrument to circumvent Article III \u2014 precisely the outcome the Rules Enabling Act forbids. I would vacate and remand on narrow grounds requiring the lower court to rigorously examine whether the class definition can be refined to exclude members lacking any cognizable injury, without broadly pronouncing on the merits of the underlying ADA claims.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional limitation on federal judicial power that no procedural rule, including Rule 23, can circumvent. As I made clear in TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), every member of a Rule 23(b)(3) damages class must independently demonstrate Article III standing, including a concrete and particularized injury-in-fact \u2014 this is not a merits question but a jurisdictional prerequisite that must be assessed before reaching the merits per Byrd v. United States. The original public meaning of Article III's 'Cases' and 'Controversies' language confirms that federal courts were never granted authority to adjudicate disputes on behalf of parties who suffered no actual injury, and certifying a class that includes uninjured members impermissibly expands judicial power beyond its constitutional bounds. Federal Rule of Civil Procedure 23 is a procedural mechanism enacted pursuant to the Rules Enabling Act and cannot enlarge substantive rights or override constitutional standing requirements, as we also recognized in Wal-Mart Stores, Inc. v. Dukes.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional threshold that cannot be circumvented by procedural mechanisms like Rule 23, and as I read TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), every class member seeking individual damages must independently demonstrate a concrete, particularized injury-in-fact \u2014 a class action 'adds nothing to the question of standing.' The Ninth Circuit's certification of classes that include uninjured members directly contravenes this constitutional mandate, as federal courts simply lack the power under Article III to order relief to plaintiffs who have suffered no cognizable harm, regardless of whether the vehicle is a class action or individual suit. Our rigorous analysis requirement from Wal-Mart Stores v. Dukes and Comcast Corp. v. Behrend demands that district courts scrutinize whether Rule 23's requirements are actually met, which necessarily includes ensuring the proposed class does not sweep in members lacking standing, and the Ninth Circuit's permissive approach to predominance and superiority analysis fails this standard. Allowing overbroad class certification not only violates Article III but creates precisely the kind of in terrorem settlement pressure and liability exposure that the Rules Enabling Act was designed to prevent, as Rule 23 cannot be used to abridge or modify substantive constitutional rights.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), established that every class member must have Article III standing to recover individual damages, that holding addressed the merits stage rather than mandating wholesale decertification at the certification stage when the class definition itself targets genuinely injured individuals. The Ninth Circuit's certification of classes of individuals with disabilities who actually encountered Labcorp's allegedly inaccessible facilities reflects a properly tailored class definition under Rule 23(b)(3), and the practical reality is that district courts retain tools \u2014 including class refinement, damages-phase winnowing, and individualized proof requirements \u2014 to ensure that only injured members ultimately recover, consistent with both Article III and the ADA's remedial purposes. Labcorp's framing would weaponize standing doctrine to gut class action litigation for vulnerable populations like individuals with disabilities, who depend on collective action precisely because individual suits are economically unviable, a consequence that cuts sharply against the access-to-justice values I consider central to federal courts' role. Following Amgen Inc. v. Sanofi, 598 U.S. 594 (2023), this Court should review what the lower court actually did \u2014 certify classes of genuinely aggrieved disabled individuals \u2014 rather than abstract statements about standing, and on that record, affirmance is warranted.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), established unambiguously that '[e]very class member must have Article III standing in order to recover individual damages,' and while the Court reserved the precise certification question, the constitutional logic is inescapable: if uninjured members cannot recover at the back end, certifying a class that includes them at the front end wastes judicial resources and imposes unconstitutional litigation pressure on defendants. My pragmatic textualist instincts counsel against reading Rule 23(b)(3)'s 'predominance' and 'superiority' requirements in isolation from Article III's threshold constraints \u2014 a workable class action regime cannot be built on a foundation that includes plaintiffs who suffered no cognizable injury, as this distorts settlement dynamics and undermines the coherent administration of the federal courts. That said, I would cabin the holding narrowly: rather than requiring individualized standing inquiries before certification in every case, district courts should rigorously scrutinize whether the class definition itself is drawn to exclude uninjured members, consistent with Wal-Mart's demand for rigorous analysis, and may use manageable procedural mechanisms \u2014 such as refined class definitions or bifurcated proceedings \u2014 to cure overbreadth without categorically foreclosing certification of well-defined classes where injury is common to the class.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional floor that no procedural rule, including Rule 23, can lower. As TransUnion LLC v. Ramirez, 594 U.S. 413, 431 (2021) made explicit, '[e]very class member must have Article III standing in order to recover individual damages,' and the Court further emphasized that 'Article III does not give federal courts the power to order relief to any uninjured plaintiff, class action or not.' Certifying a class that includes members with no cognizable injury-in-fact is not merely a procedural irregularity \u2014 it is an exercise of judicial power the Constitution simply does not confer, and the Rules Enabling Act independently forbids using Rule 23 to abridge, enlarge, or modify substantive rights in a manner that circumvents this threshold constitutional requirement. While TransUnion reserved the precise question of how courts must handle standing defects at the certification stage rather than post-trial, the logical and textual force of that holding compels the conclusion that courts must rigorously screen for uninjured class members before, not after, certification, consistent with the rigorous analysis demanded by Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011).",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional threshold that cannot be circumvented by procedural mechanisms like Rule 23, and as TransUnion LLC v. Ramirez made clear, every class member must have Article III standing to recover individual damages because 'Article III does not give federal courts the power to order relief to any uninjured plaintiff, class action or not.' The rigorous analysis required at class certification under Wal-Mart Stores v. Dukes and Comcast Corp. v. Behrend must necessarily encompass constitutional standing requirements, not merely the textual elements of Rule 23 itself, since certifying a class that includes uninjured members would exceed the federal judicial power from the outset. While TransUnion expressly reserved the question of whether every class member must demonstrate standing before certification, the logical and constitutional structure of Article III compels the answer that courts cannot proceed to certify classes containing members who lack cognizable injury, as standing is a jurisdictional prerequisite that must be assessed before a court may 'proceed at all' per Steel Co. v. Citizens for a Better Environment. Practical workability concerns do not override constitutional limits, and the evidentiary inquiry into concrete harm at certification is distinct from merits adjudication and is manageable, as TransUnion itself demonstrated by analyzing standing for over 8,000 class members.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Article III's case-or-controversy requirement is a constitutional threshold that no procedural rule, including Rule 23, can circumvent or override \u2014 this flows directly from the text of Article III and the structural principle that federal courts possess only the judicial power vested in them by the Constitution. TransUnion LLC v. Ramirez, 594 U.S. 413 (2021), firmly established that every class member must have Article III standing to recover individual damages, and the logical corollary \u2014 which TransUnion expressly reserved but did not foreclose \u2014 is that certifying a class containing members with no cognizable injury is constitutionally impermissible from the outset, as there is no Article III basis to litigate claims on behalf of uninjured parties. The Rules Enabling Act further reinforces this conclusion: Rule 23 cannot be applied in a manner that abridges, enlarges, or modifies substantive rights, and permitting certification of overbroad classes would effectively enlarge the substantive right to sue beyond what Article III permits. Wal-Mart Stores, Inc. v. Dukes and Comcast Corp. v. Behrend both demand rigorous analysis of Rule 23 requirements, and that rigor must extend to ensuring the class definition itself does not sweep in members who lack the threshold constitutional prerequisite of a concrete, particularized injury.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "While TransUnion LLC v. Ramirez (2021) established that every class member must have Article III standing to recover individual damages, the Court expressly reserved the question of whether standing must be demonstrated at the certification stage rather than at the remedies stage, citing footnote 4. My background as a public defender and commitment to procedural fairness leads me to recognize that requiring individualized standing determinations at certification would effectively gut class action litigation as a tool for vindicating civil rights under the ADA, where injuries may be diffuse and difficult to prove en masse at the outset. The practical consequences of Labcorp's position would be devastating to disability rights enforcement \u2014 requiring courts to conduct mini-trials on injury for each putative class member before certification inverts the logical sequence of litigation and imposes asymmetric burdens that systematically favor well-resourced defendants. Consistent with Amgen Inc. v. Sanofi's instruction that we review judgments rather than opinion language, and recognizing that later-stage mechanisms including merits adjudication and settlement approval can perform the necessary sifting function to ensure only injured members recover, I would affirm the Ninth Circuit's certification while preserving the requirement that uninjured members cannot ultimately collect damages.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.804,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

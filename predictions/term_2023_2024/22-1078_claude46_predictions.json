@@ -1,0 +1,575 @@
+[
+  {
+    "docket": "22-1078",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a copyright plaintiff can recover damages for infringing acts that occurred more than three years before filing suit, even under the discovery accrual rule recognized by circuit courts.",
+      "legal_provision": "17 U.S.C. \u00a7 507(b) - The Copyright Act's three-year statute of limitations for civil actions, which states that 'No civil action shall be maintained under the provisions of this title unless it is commenced within three years after the claim accrued.'",
+      "petitioner_position": "Warner Chappell Music argues that regardless of which accrual rule applies (injury or discovery), the Copyright Act's three-year statute of limitations creates an absolute damages bar, meaning plaintiffs can only recover damages for infringing acts occurring within three years of filing suit. Allowing recovery beyond this window would render the limitations period meaningless, create undue uncertainty for defendants, and expose them to stale claims with no temporal boundary on liability.",
+      "respondent_position": "Sherman Nealy and Music Specialist argue that under the discovery accrual rule \u2014 which tolls the limitations period until a plaintiff knew or reasonably should have known of the infringement \u2014 a plaintiff who timely files within three years of discovering the infringement should be entitled to recover all damages stemming from the infringing conduct, even if those acts occurred more than three years before filing. Restricting damages to a fixed three-year lookback period would unfairly penalize plaintiffs who were unaware of ongoing infringement through no fault of their own.",
+      "key_precedents": [
+        "Petrella v. Metro-Goldwyn-Mayer, Inc., 572 U.S. 663 (2014) - Supreme Court addressed the Copyright Act's statute of limitations and laches doctrine, with language suggesting a three-year damages window tied to the injury accrual rule",
+        "Rotkiske v. Klemm, 140 S. Ct. 355 (2019) - Supreme Court addressed the discovery rule in the context of federal statutes of limitations",
+        "TRW Inc. v. Andrews, 534 U.S. 19 (2001) - Supreme Court addressed whether the discovery rule applies when Congress has not expressly provided for it",
+        "Nealy v. Warner Chappell Music, Inc., 60 F.4th 1325 (11th Cir. 2023) - The Eleventh Circuit decision under review, holding that the discovery rule permits damages recovery beyond three years",
+        "Sohm v. Scholastic Inc., 959 F.3d 39 (2d Cir. 2020) - Second Circuit held that damages are limited to the three-year period before filing regardless of the discovery rule",
+        "Starz Entertainment, LLC v. MGM Domestic Television Distribution, LLC, 39 F.4th 1236 (9th Cir. 2022) - Ninth Circuit addressed the scope of damages under the discovery accrual rule",
+        "Psihoyos v. John Wiley & Sons, Inc., 748 F.3d 120 (2d Cir. 2014) - Second Circuit addressed the discovery rule in copyright cases"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to our position, but I am increasingly confident that her core analytical move \u2014 treating the discovery rule's accrual function as automatically expanding the damages window \u2014 conflates two distinct statutory questions that the text of \u00a7 507(b) keeps separate. As Justice Kagan correctly identifies, the statute's language governs when a civil action may be maintained, not how far back damages may reach once timeliness is established; these are analytically severable inquiries, and the discovery rule answers only the first. I remain committed to the narrow holding I outlined: that even accepting the discovery rule for accrual purposes \u2014 expressly reserving whether that rule is valid under the Copyright Act \u2014 the damages window does not extend beyond three years preceding suit, a holding that preserves institutional legitimacy by avoiding the broader textualist question while still providing clear guidance to lower courts. As Chief Justice, I would assign the majority opinion with instructions to draft on these narrow grounds, which commands the broadest consensus and leaves the discovery rule's validity for a case that squarely presents it.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Sotomayor raises the most compelling argument for the respondent \u2014 that imposing a damages bar on pre-discovery infringement effectively renders the discovery rule illusory and punishes plaintiffs for circumstances beyond their control. But this argument, however sympathetic, conflates two distinct questions: when a claim accrues (timeliness) and how far back damages may reach (scope of relief). The text of \u00a7 507(b) speaks to one thing: 'no civil action shall be maintained unless it is commenced within three years after the claim accrued.' It says nothing about expanding the damages window beyond three years, and as TRW Inc. v. Andrews instructs, courts may not supply absent statutory provisions. Justice Gorsuch correctly notes that even accepting the discovery rule for accrual purposes \u2014 itself a significant concession I make only arguendo \u2014 that rule cannot be bootstrapped into an unlimited retrospective damages period, as doing so would render the limitations period a nullity for defendants and contradict the structural reading of \u00a7 507(b) that Petrella's analysis strongly supports.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that imposing a damages bar on pre-discovery infringement effectively rewards concealment and devastates plaintiffs like Nealy who were genuinely unable to monitor their rights. This is a serious equitable concern, but it does not overcome the textual analysis. The statute says 'no civil action shall be maintained unless commenced within three years after the claim accrued' \u2014 it speaks to the maintenance of the action and its temporal scope, not merely to a filing deadline. As Justice Thomas correctly emphasizes, TRW Inc. v. Andrews counsels against judicially grafting discovery exceptions onto limitations statutes, and if Congress wanted to protect plaintiffs who discover infringement late, it could have expressly provided for both a discovery-based accrual rule and an extended damages window, as it has done in other statutory contexts. The discovery rule, even if accepted for timeliness purposes, cannot be stretched to also rewrite the damages window without textual support \u2014 doing so would transform a limitations period into a mere procedural formality with no substantive protective function for defendants, a result that the plain text of \u00a7 507(b) and Petrella's structural analysis both foreclose.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's argument \u2014 that the discovery rule addresses timeliness while the three-year window separately cabins damages \u2014 is the most sophisticated version of the petitioner's position, and I take it seriously. But I remain unpersuaded because it assumes the conclusion: the 'three-year window' for damages is itself derived from reading \u00a7 507(b) as doing double duty as both an accrual rule and an independent damages cap, yet the text says only that 'no civil action shall be maintained unless commenced within three years after the claim accrued' \u2014 it speaks to when suit may be brought, not to what damages are recoverable once suit is timely filed. Justice Jackson's concession that the discovery rule creates genuine hardship while still voting to cabin damages illustrates the tension: if the claim accrues at discovery under the discovery rule, then the three-year period runs from discovery, and there is no separate textual hook for an independent damages limitation. The majority's position requires reading into the statute a damages cap that Congress never wrote, which is precisely the kind of judicial gap-filling that textualists like Justice Gorsuch and Justice Barrett should resist \u2014 the irony being that their methodology actually supports the respondent's position here.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to my position, and I want to engage with it directly one final time: she contends that if the discovery rule governs accrual, then the three-year window simply runs from discovery, and there is no separate 'damages cap' \u2014 the statute speaks in one voice about when claims may be maintained. This is a coherent reading, but it proves too much. If accepted, it would mean a plaintiff who discovers infringement from 1980 in 2024 could sue for 44 years of damages, with the limitations period serving no repose function whatsoever for defendants \u2014 a result that cannot be squared with the structural purpose of \u00a7 507(b) as Petrella's analysis illuminates. Justice Jackson's point about the proper institutional response is well-taken: the equitable concerns Justice Sotomayor raises are real and deserve legislative attention, but the textual and structural case for separating the accrual question from the damages-scope question is stronger than the alternative, and workability concerns \u2014 which I take seriously as a pragmatic matter \u2014 reinforce rather than undermine the three-year damages window reading.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that imposing a damages bar on pre-discovery infringement effectively rewards concealment and devastates plaintiffs like Nealy who were genuinely unaware of violations through no fault of their own. This is a serious equitable concern that I do not dismiss lightly. However, as a textualist, my role is to apply the statute Congress wrote, not the statute I might prefer. Section 507(b) says 'no civil action shall be maintained unless commenced within three years after the claim accrued' \u2014 and critically, the discovery rule itself lacks express statutory authorization under TRW Inc. v. Andrews. If we are already stretching the text to accommodate a judicially-implied discovery rule for accrual purposes, we compound the problem by then using that judge-made rule to also expand the damages window indefinitely, effectively transforming a limitations period into a mere filing deadline with no substantive repose function. Justice Sotomayor's equitable concerns are better addressed by Congress, which knows how to write discovery-based accrual rules with explicit damages provisions when it chooses to do so, as Justice Thomas correctly notes.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to my position \u2014 the concern that a damages bar rewards concealment and renders the discovery rule practically hollow for plaintiffs like Nealy is a genuine equitable problem that I do not dismiss. However, as Justice Kagan articulates with precision, the analytical distinction between accrual (when you may file) and damages scope (how far back you may recover) is not a formality but a structural feature of how limitations statutes operate \u2014 conflating them would transform \u00a7 507(b) into a mere procedural filing deadline with no substantive repose function for defendants. The institutionalist concern reinforces this: permitting damages reaching back to the 1980s based on claimed ignorance creates precisely the stale, unmanageable litigation that limitations periods exist to prevent, and the workability problems this generates for lower courts are real. Congress retains full authority to craft a more tailored remedy for plaintiffs in Nealy's circumstances \u2014 including explicit discovery-based accrual rules paired with extended damages windows, as it has done elsewhere \u2014 and that legislative path is the appropriate institutional response rather than judicial expansion of a damages window the statute does not authorize.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that imposing a damages bar on pre-discovery infringement effectively rewards concealment and devastates plaintiffs like Nealy who were genuinely unaware of violations through no fault of their own. This is a serious equitable concern that I do not dismiss lightly. However, as a textualist, I cannot allow sympathetic facts to drive statutory construction that the text will not bear. Section 507(b) says 'no civil action shall be maintained unless commenced within three years after the claim accrued' \u2014 this language ties the actionable period to accrual, and even accepting the discovery rule for timeliness purposes, it does not follow that the rule also silently expands the damages window beyond what the text specifies. Justice Thomas correctly notes that TRW Inc. v. Andrews counsels against judicially implying discovery exceptions absent congressional authorization, and if Congress wishes to protect plaintiffs in Nealy's circumstances through an extended damages window, it is fully capable of doing so expressly \u2014 as it has in other statutory contexts \u2014 rather than leaving courts to construct that remedy from whole cloth.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to my position \u2014 her point that the discovery rule and the damages window are not analytically separable if we accept that the claim itself accrues at discovery is genuinely compelling as a matter of logical coherence. However, I remain persuaded by Justice Kagan's structural analysis that \u00a7 507(b)'s text does not support silently expanding the damages window simply because we accept the discovery rule for accrual/timeliness purposes; these are distinct legal questions that the statute addresses differently, and the absence of any textual hook for an unlimited retrospective damages period is dispositive under sound interpretive methodology. Justice Sotomayor's concern about rewarding concealment is real, but as I noted in round one, that concern is better addressed through targeted legislative action \u2014 Congress knows how to write discovery-based accrual rules with explicit extended damages provisions, as it has done elsewhere \u2014 rather than through judicial construction that would create indeterminate liability exposure for defendants based on claimed ignorance stretching back decades. My background as a public defender makes me acutely sensitive to procedural rules that systematically disadvantage resource-constrained plaintiffs, but that sensitivity cannot override the structural reading that the limitations period must retain some substantive repose function for defendants, lest it become a mere filing deadline.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) states plainly that no civil action shall be maintained unless 'commenced within three years after the claim accrued,' and while I would prefer to resolve this case on the narrowest possible grounds, the statutory text most naturally supports a damages limitation tied to a three-year lookback window regardless of which accrual rule governs timeliness. Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while not definitively resolving the discovery rule question, consistently framed available relief in terms of a three-year retrospective window, and allowing unlimited backward-looking damages under the discovery rule would effectively nullify the limitations period's core function of providing repose and certainty to defendants. The institutional concern here is significant: permitting plaintiffs to reach back decades for damages \u2014 as in Nealy's case involving conduct from the 1980s \u2014 creates precisely the kind of stale, boundless liability that statutes of limitations are designed to prevent, and the Court should not endorse a reading that renders the limitations period a mere filing deadline with no substantive damages consequence. I would hold that whatever accrual rule governs the timeliness of suit, the Copyright Act's three-year period cabins the scope of recoverable damages to acts occurring within three years of filing, leaving open for another day the broader question of whether the discovery rule itself is valid under the Copyright Act.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) is unambiguous: 'no civil action shall be maintained unless it is commenced within three years after the claim accrued.' Congress did not expressly incorporate a discovery rule into this provision, and as TRW Inc. v. Andrews, 534 U.S. 19 (2001) makes clear, there is no general federal discovery rule that courts may judicially imply into a limitations statute absent congressional authorization. Rotkiske v. Klemm reinforces this textualist principle, holding that 'absent provisions cannot be supplied by the court,' and noting that Congress knows how to write discovery-based accrual rules when it chooses to do so. Furthermore, Petrella v. MGM, which analyzed this very statute, consistently described accrual in injury-based terms and contemplated a rolling three-year damages window, strongly suggesting that permitting unbounded retrospective damages recovery under a judicially-created discovery rule would contradict both the statutory text and this Court's own prior analysis of \u00a7 507(b).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained unless it is commenced within three years after the claim accrued,' and as a textualist, I read this as establishing a firm temporal boundary on actionable claims, not merely on when suit may be filed. Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while addressing laches, strongly suggested that damages are cabined to the three-year lookback window, and the Second Circuit's reading in Sohm v. Scholastic Inc. correctly recognized that this language was integral to the Court's analysis rather than mere dicta. Allowing unbounded retrospective damages under the discovery rule would effectively nullify the statute of limitations as a practical matter, exposing defendants to liability for acts decades old with no meaningful temporal ceiling \u2014 a result Congress plainly did not intend and one that creates severe uncertainty for commercial actors who rely on copyright licenses. Furthermore, as Rotkiske v. Klemm and TRW Inc. v. Andrews demonstrate, courts should be cautious about judicially grafting discovery-rule exceptions onto statutory limitations periods where Congress has not expressly provided for them, and even if the discovery rule governs accrual, it does not follow that it also expands the damages window beyond what the statute's text supports.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Under the discovery accrual rule, which the majority of circuits have recognized and which this Court has never foreclosed, a plaintiff's claim does not accrue until they knew or reasonably should have known of the infringement \u2014 meaning the three-year limitations period in 17 U.S.C. \u00a7 507(b) runs from that discovery date, not from the date of the infringing act. Petrella's language about a three-year damages window was premised on the injury accrual rule and, as the Ninth and Eleventh Circuits correctly recognized, constitutes dicta that does not bind courts applying the discovery rule to a fundamentally different factual scenario. Imposing an artificial damages bar that cuts off recovery for pre-discovery infringement would devastate plaintiffs like Nealy who were genuinely unaware of ongoing violations \u2014 often due to incarceration or other circumstances beyond their control \u2014 effectively rewarding infringers who successfully conceal their misconduct for more than three years. The practical impact on vulnerable creators who lack resources to monitor their intellectual property counsels strongly against reading into the statute a damages limitation that Congress never expressly enacted, particularly when doing so would render the discovery rule largely illusory.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained unless it is commenced within three years after the claim accrued,' and while the discovery rule may determine *when* a claim accrues for timeliness purposes, it does not follow that it also expands the temporal scope of recoverable damages without limit. Petrella v. MGM, even if its damages language was technically dicta, reflects a coherent structural reading of the Copyright Act: the three-year window serves as both a filing trigger and a damages boundary, preventing defendants from facing unbounded retrospective liability for stale conduct. Allowing unlimited lookback damages under the discovery rule would effectively nullify the limitations period's protective function for defendants, creating the very uncertainty and staleness problems the statute was designed to prevent \u2014 a workability concern that weighs heavily in my analysis. The more textually coherent and practically workable reading is that the discovery rule tolls the filing deadline but does not independently expand the damages window beyond three years, consistent with the Second Circuit's approach in Sohm v. Scholastic Inc.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained unless it is commenced within three years after the claim accrued' \u2014 and critically, the statute says nothing about extending the damages window beyond three years once a claim is timely filed. As a textualist, I am skeptical of the discovery rule itself, which has no express statutory basis in \u00a7 507(b), as TRW Inc. v. Andrews counsels that courts should not graft judge-made accrual rules onto statutes where Congress has not provided for them. Even if I were to accept the discovery rule for accrual purposes \u2014 a significant concession \u2014 it does not follow that the rule also expands the damages window; the discovery rule tolls when the clock starts, but it cannot rewrite the three-year limitation into a boundless retrospective damages period, which would render the limitations period effectively meaningless for defendants. Petrella's discussion of a three-year damages window, while arguably dicta, reflects the natural reading of the statute: a plaintiff may sue within three years of accrual and recover for acts within that window, not for acts stretching back indefinitely into the past.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) states plainly that no civil action shall be maintained unless 'commenced within three years after the claim accrued,' and while the discovery rule may determine when a claim accrues for timeliness purposes, it does not follow that it also expands the temporal scope of recoverable damages without limit. Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while addressing laches, strongly suggested that a copyright plaintiff is 'entitled to damages' only for 'infringement occurring within the three years prior to filing,' and allowing unlimited retrospective damages under the discovery rule would effectively nullify the limitations period's practical protective function for defendants. From an institutionalist and workability standpoint, permitting damages reaching back decades \u2014 so long as a plaintiff claims ignorance \u2014 creates precisely the kind of stale, unmanageable litigation that statutes of limitations are designed to prevent, and the Second Circuit's reading in Sohm v. Scholastic Inc. better respects the structural integrity of \u00a7 507(b) as a damages-limiting provision, not merely a filing deadline. Judicial restraint counsels against reading the discovery rule, which courts have implied rather than Congress having expressly enacted, to dramatically expand liability exposure beyond what the statutory text can reasonably bear.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) is unambiguous: 'no civil action shall be maintained unless it is commenced within three years after the claim accrued.' As a textualist, I must give effect to this language, which ties the limitations period to when each discrete claim accrues \u2014 not when the plaintiff discovers it. Even accepting arguendo that a discovery accrual rule applies to the timeliness question (a proposition this Court has not definitively endorsed, as acknowledged in Petrella), that rule governs only whether a claim is timely filed, not the temporal scope of recoverable damages. Allowing a plaintiff who files within three years of discovery to reach back indefinitely for damages would effectively nullify the repose function of \u00a7 507(b), exposing defendants to unbounded retrospective liability \u2014 a result inconsistent with the statute's text and the general principle, reinforced in TRW Inc. v. Andrews, that courts should not engraft discovery exceptions onto limitations statutes absent clear congressional authorization. While Petrella's damages language may technically be dicta, its structural reasoning \u2014 that each infringing act generates a discrete claim subject to its own three-year window \u2014 reflects the most faithful reading of the statute's text and confirms that damages recovery must be cabined to the three-year period preceding suit.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While my sympathies lie with plaintiffs like Nealy who were genuinely unaware of ongoing infringement, the text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained unless commenced within three years after the claim accrued,' and the discovery rule addresses only when a claim accrues \u2014 not how far back damages may reach once suit is timely filed. Petrella v. MGM, even if its damages-window language was technically dicta in the laches context, reflects the Court's understanding that the Copyright Act's limitations period operates as a rolling three-year damages window, and conflating the accrual question with the damages-scope question risks untethering liability from any meaningful temporal boundary. Allowing unlimited retrospective damages under the discovery rule would expose defendants to claims of indeterminate age with no practical ceiling, undermining the repose function that statutes of limitations are designed to serve, as recognized in TRW Inc. v. Andrews. I write separately to emphasize that Congress, not this Court, is the appropriate body to craft a broader remedy for plaintiffs like Nealy who face genuine hardship under this framework.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.819,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-1078",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a copyright plaintiff can recover damages for infringing acts that occurred more than three years before filing suit, even under the discovery accrual rule recognized by circuit courts.",
+      "legal_provision": "17 U.S.C. \u00a7 507(b) - The Copyright Act's three-year statute of limitations for civil actions, which states that 'No civil action shall be maintained under the provisions of this title unless it is commenced within three years after the claim accrued.'",
+      "petitioner_position": "Warner Chappell Music argues that regardless of which accrual rule applies (injury or discovery), the Copyright Act's three-year statute of limitations creates an absolute damages bar, meaning plaintiffs can only recover damages for infringing acts occurring within three years of filing suit. Permitting recovery beyond this window would render the limitations period meaningless, create undue uncertainty for defendants, and expose them to stale claims with no temporal boundary on liability.",
+      "respondent_position": "Sherman Nealy and Music Specialist argue that under the discovery accrual rule \u2014 widely adopted by circuit courts \u2014 the three-year limitations period does not begin to run until the plaintiff discovers, or reasonably should have discovered, the infringement. Therefore, once a timely claim is established under the discovery rule, a plaintiff should be entitled to recover all damages stemming from the infringement, including those arising from acts occurring more than three years before filing, without an artificial retrospective damages cap.",
+      "key_precedents": [
+        "Petrella v. Metro-Goldwyn-Mayer, Inc., 572 U.S. 663 (2014) - Supreme Court addressed the Copyright Act's statute of limitations and laches, suggesting a three-year lookback period for damages",
+        "Rotkiske v. Klemm, 140 S. Ct. 355 (2019) - Supreme Court addressed the discovery rule in the context of federal statutes of limitations",
+        "Nealy v. Warner Chappell Music, Inc., 60 F.4th 1325 (11th Cir. 2023) - The Eleventh Circuit decision below holding that the discovery rule permits recovery beyond the three-year window",
+        "Psihoyos v. John Wiley & Sons, Inc., 748 F.3d 120 (2d Cir. 2014) - Second Circuit applying discovery accrual rule to copyright claims",
+        "Polar Bear Productions, Inc. v. Timex Corp., 384 F.3d 700 (9th Cir. 2004) - Ninth Circuit addressing damages availability under the Copyright Act's limitations period",
+        "TRW Inc. v. Andrews, 534 U.S. 19 (2001) - Supreme Court addressing the presumption in favor of the discovery rule for federal statutes"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's textual argument \u2014 that \u00a7 507(b) speaks only to accrual timing and not to a separate damages cap \u2014 remains the most serious challenge to our position, and I want to be precise about why it ultimately fails under my minimalist methodology. The statute's three-year period cannot coherently function as both the operative temporal unit for timeliness and yet impose zero constraint on retrospective damages exposure; as Justice Kagan correctly frames it, these are separable but structurally linked questions, and reading them as entirely independent would render the limitations period a practical nullity whenever a plaintiff invokes delayed discovery. My minimalist instincts counsel a narrow holding: the discovery rule may continue to govern when the three-year clock begins running for timeliness purposes, but the three-year window independently cabins the retrospective period for which damages may be recovered \u2014 this preserves the discovery rule's equitable function while giving \u00a7 507(b)'s temporal constraint meaningful bite. As Chief Justice, I would assign the majority opinion with instructions to write narrowly on the damages question, explicitly declining to resolve whether the discovery rule itself is valid under the Copyright Act, thereby preserving that question for a future case while providing the clear, administrable rule that Justice Kavanaugh rightly identifies as essential for courts and litigants.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most serious challenge \u2014 that \u00a7 507(b)'s text speaks only to accrual timing, not a separate damages limitation, and that Petrella's three-year lookback language was dicta confined to the injury-accrual and laches context. But this argument proves too much: if the discovery rule can push the accrual date forward indefinitely, and if there is no separate damages limitation, then a plaintiff could theoretically recover for infringement occurring decades before suit was filed, rendering the limitations period a nullity as a practical matter of defendant repose. As I noted in Rotkiske v. Klemm, courts should not casually graft discovery rules onto statutes that do not mention them, and the same discipline applies here \u2014 we should not read the discovery rule as silently eliminating the temporal boundary that \u00a7 507(b)'s three-year period plainly contemplates. Justice Kagan's observation that treating Petrella's damages language as mere dicta creates an 'unworkable regime' of unlimited retrospective liability is well-taken and reinforces that the most faithful textual reading treats the three-year period as a substantive constraint on damages recovery, not merely a filing deadline that the discovery rule can render toothless.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that \u00a7 507(b) speaks only to accrual timing, not to a separate damages limitation, and that denying full recovery to plaintiffs genuinely unaware of infringement rewards concealment. But this argument proves too much: if the discovery rule's sole function is to determine when the three-year clock begins running, then once that clock starts, the statute's three-year period must mean something as a constraint on retrospective liability \u2014 otherwise the limitations period becomes a mere filing deadline with no substantive bite. As Justice Kagan correctly observes, reading \u00a7 507(b) to permit unbounded retrospective damages so long as a plaintiff invokes delayed discovery would effectively nullify the limitations period as a practical matter, exposing defendants to liability for acts stretching back decades with no workable temporal anchor. Petrella's three-year lookback language, whatever its precise doctrinal status, reflects the most coherent structural reading of a statute that Congress designed to provide defendants meaningful repose \u2014 and the discovery rule, lacking explicit textual authorization in the Copyright Act as Rotkiske v. Klemm counsels us to scrutinize, cannot be permitted to swallow that structural constraint entirely.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Justice Kagan's argument \u2014 that treating Petrella's damages language as mere dicta produces an 'unworkable regime' of unlimited retrospective liability \u2014 is the most sophisticated challenge to my position, and I must engage it directly: the workability concern is real, but it does not justify reading a damages cap into statutory text that simply does not contain one. The statute says 'no civil action shall be maintained... unless it is commenced within three years after the claim accrued' \u2014 this is a filing deadline, full stop, and Congress knew how to write damages limitations when it wanted to, as it did elsewhere in the U.S. Code. Justice Jackson's concession that the equitable concern about concealment is 'better addressed through tolling doctrines like fraudulent concealment' actually supports my position \u2014 it acknowledges that equity can do the work here without judicially grafting a damages cap onto \u00a7 507(b), and the majority's approach of using workability concerns to override textual silence is precisely the kind of judicial legislation I cannot endorse. I remain a lone dissenter not out of stubbornness but because the eight-justice majority is solving a real problem \u2014 defendant repose \u2014 through the wrong legal mechanism, and a well-reasoned dissent here may guide Congress toward the explicit statutory fix this question actually requires.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge \u2014 her point that \u00a7 507(b)'s text addresses only accrual timing, not a separate damages cap, is textually precise and I cannot dismiss it as simply wrong. But after hearing from all colleagues, I am more confident that her reading, however textually defensible in isolation, produces a structural absurdity: a limitations period that limits nothing. As Justice Kavanaugh correctly frames it, the Second Circuit's bifurcated approach in Sohm \u2014 discovery rule governs timeliness, three-year window governs damages \u2014 is the most administrable reading because it preserves both the discovery rule's equitable function and \u00a7 507(b)'s repose function without nullifying either. Justice Sotomayor's suggestion that laches and estoppel can adequately police the problem of unlimited retrospective liability is unpersuasive to me as a pragmatic matter: those equitable doctrines are unpredictable, fact-intensive, and provide far less workable guidance than a clear statutory rule, which is precisely what Congress enacted in \u00a7 507(b) and what courts and litigants need.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that \u00a7 507(b)'s text speaks only to accrual timing, not to a separate damages limitation, and that Petrella's three-year lookback language was dicta confined to the injury-accrual and laches context. I take this seriously, but it ultimately fails on its own textual terms: if the discovery rule determines when a claim 'accrues,' and the statute bars any civil action not 'commenced within three years after the claim accrued,' then the three-year period is the operative temporal unit of the entire limitations scheme \u2014 it cannot simultaneously be the measure of timeliness and yet impose no constraint whatsoever on the retrospective reach of damages. Justice Kagan's point is well-taken that treating Petrella's damages discussion as mere dicta produces an unworkable regime where defendants face effectively unlimited retrospective liability, which no faithful reading of \u00a7 507(b)'s structure can support. My deeper concern, which I share with Justice Thomas, is that the discovery rule itself lacks firm textual grounding in the Copyright Act \u2014 Rotkiske v. Klemm signals that courts should not casually graft discovery rules onto statutes silent on the matter \u2014 and accepting the discovery rule arguendo while then permitting it to dissolve all temporal limits on damages compounds one textually unsupported judicial creation with another.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument that \u00a7 507(b) speaks only to accrual timing and not to a separate damages cap remains the most serious challenge to our position, and I want to engage it directly: she is correct that the statute's text does not contain an explicit damages limitation clause separate from the accrual provision. However, as Justice Kagan articulates with characteristic precision, this textual observation does not resolve the structural question \u2014 if the discovery rule can push the accrual date back indefinitely while simultaneously unlocking damages for that entire pre-discovery period, then the three-year period in \u00a7 507(b) functions as neither a meaningful filing constraint nor a repose mechanism, which cannot reflect a coherent congressional design. My institutionalist concern reinforces this conclusion: the Court's legitimacy depends on providing workable, administrable rules, and the Second Circuit's bifurcated approach in Sohm \u2014 discovery rule governs timeliness, three-year window governs damages \u2014 gives courts and litigants a clear, predictable framework that the Ninth Circuit's approach entirely lacks. Justice Sotomayor's equitable concern about creators lacking resources to monitor infringement is genuine and sympathetic, but as Justice Jackson acknowledges, fraudulent concealment tolling and equitable estoppel are the appropriate doctrinal tools for addressing concealment, not a wholesale collapse of the accrual and damages questions that renders \u00a7 507(b)'s temporal boundary a nullity.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor raises the most compelling counterargument \u2014 that \u00a7 507(b)'s text speaks only to claim accrual and not to a separate damages limitation, and that Petrella's three-year lookback language was dicta confined to the injury-accrual and laches context. I take this seriously as a textualist, because she is correct that the statute does not explicitly enumerate a damages cap separate from the filing deadline. However, her argument proves too much: if the discovery rule's only function is to determine when the clock starts, and once started the plaintiff may reach back indefinitely for damages, then the limitations period provides defendants with no meaningful repose whatsoever \u2014 a result that contradicts the structural logic of statutes of limitations as this Court recognized in Rotkiske v. Klemm. The more coherent textual reading, as Justice Kagan articulates, is that the three-year period operates as a substantive boundary on the temporal scope of liability, not merely a filing deadline, because any other reading renders the statute's temporal constraint a nullity whenever a plaintiff can plausibly invoke delayed discovery. Petrella's damages discussion, while perhaps technically dicta on the precise discovery rule question, reflects the Court's considered structural interpretation of \u00a7 507(b) and should not be casually discarded in favor of a regime that exposes defendants to decades of retrospective liability with no statutory anchor.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument remains the most serious challenge to my position \u2014 she is correct that \u00a7 507(b)'s text does not explicitly enumerate a separate damages cap, and her point that Petrella's three-year lookback language arose in the laches context deserves continued respect. However, after hearing my colleagues' full deliberation, I am more persuaded by the structural logic Justice Kagan articulates: if the discovery rule can push accrual back indefinitely while simultaneously unlocking damages for that entire pre-discovery period, the three-year limitation becomes functionally meaningless as a repose mechanism, which cannot reflect Congress's intent in enacting a limitations period at all. Justice Sotomayor's response \u2014 that equitable doctrines like laches and estoppel can address the concealment concern \u2014 actually reinforces my position, because it acknowledges that the statute itself need not bear the full weight of remedying bad-faith concealment, and those targeted doctrines are better calibrated to address culpable conduct without collapsing the timeliness and damages questions entirely. My background as a public defender makes me acutely aware that this result is imperfect for resource-constrained creators like Nealy, but the structural coherence of \u00a7 507(b) as an integrated scheme \u2014 and the practical administrability concerns Justice Kavanaugh raises \u2014 ultimately counsel in favor of the Petitioner's reading.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) states plainly that no civil action shall be maintained unless 'commenced within three years after the claim accrued,' and Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while not definitively resolving the discovery rule question, strongly suggested that damages are cabined to a three-year lookback window \u2014 language the Second Circuit correctly recognized as integral to the holding rather than mere dicta. My minimalist instincts counsel against reading the discovery accrual rule, which this Court has never formally endorsed for copyright claims, as a mechanism to unlock unlimited retrospective damages liability, since that would effectively nullify the limitations period's core function of providing repose to defendants. The circuit split itself \u2014 with the Second Circuit limiting damages to three years and the Ninth and Eleventh Circuits permitting broader recovery \u2014 reflects genuine textual and structural ambiguity that should be resolved in favor of the narrower, more institutionally stable reading that preserves the statute's temporal boundary. Permitting unbounded retrospective damages under the discovery rule would create precisely the kind of open-ended liability that statutes of limitations are designed to prevent, regardless of which accrual rule governs the timeliness of the claim itself.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued,' and as a strict textualist I must give effect to what the statute actually says rather than what courts have grafted onto it through the judicially-created discovery rule. The discovery accrual rule itself lacks a firm textual foundation in the Copyright Act, and as I noted in Rotkiske v. Klemm, courts should not casually presume a discovery rule where Congress has not enacted one. Even assuming arguendo that the discovery rule applies to accrual, it cannot logically expand the damages window beyond what the statutory text permits \u2014 the three-year period operates as a substantive limitation on recovery, not merely a filing deadline, and Petrella's discussion of a three-year lookback for damages, while perhaps dicta, correctly reflects the statute's structure. Permitting unlimited retrospective damages under the guise of the discovery rule would render the limitations period a nullity, contradicting the fundamental principle that statutes of limitations serve to protect defendants from stale claims and provide repose.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued,' and Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), explicitly delimited recoverable damages to the three-year period prior to filing suit \u2014 language that, whatever its precise doctrinal label, reflects the statute's built-in temporal boundary on liability. Permitting plaintiffs to recover damages for acts occurring well beyond three years before filing, merely because they invoke the discovery rule to establish timeliness, would effectively nullify the limitations period as a practical constraint on defendants' exposure, creating precisely the kind of indefinite, stale-claims liability that statutes of limitations are designed to prevent. As a textualist, I am skeptical of judicially-created doctrines like the discovery rule that lack explicit statutory authorization, and to the extent any such rule applies, it should govern only the threshold question of timeliness \u2014 not expand the temporal scope of recoverable damages beyond what the statute's text and structure support. The Second Circuit's reasoning in Sohm v. Scholastic Inc. correctly recognizes that Petrella's damages limitation is not mere dicta but reflects the Court's structural interpretation of how \u00a7 507(b) itself accounts for delay.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) speaks only to when a 'claim accrued,' not to a separate damages limitation period, and under the discovery accrual rule widely adopted by circuit courts, the claim does not accrue until the plaintiff discovers or reasonably should have discovered the infringement \u2014 meaning the three-year window runs from that discovery date, not from the infringing act itself. Petrella's language about a three-year lookback was dicta directed at the injury-accrual context and the laches analysis, as the Ninth Circuit correctly recognized in Starz and as the Eleventh Circuit held below in Nealy \u2014 the Court in Petrella explicitly acknowledged it had 'not passed on the question' of the discovery rule. Imposing an artificial retrospective damages cap on plaintiffs who were genuinely unaware of infringement \u2014 often creators from vulnerable economic positions who lack resources to monitor widespread unauthorized use of their works \u2014 would gut the practical remedial value of the discovery rule and reward infringers who successfully conceal their misconduct. From a pragmatic standpoint, denying full damages to a plaintiff who could not have known about the infringement until recently creates a perverse incentive structure that undermines the Copyright Act's core purpose of protecting creators and deterring infringement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued,' and while the discovery rule may govern when a claim accrues for timeliness purposes, it does not follow that the limitations period imposes no temporal boundary on recoverable damages. Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while not definitively resolving the discovery rule question, strongly suggested that damages are cabined to a three-year lookback window, and treating that language as mere dicta \u2014 as the Ninth and Eleventh Circuits did \u2014 creates an unworkable regime where defendants face effectively unlimited retrospective liability so long as a plaintiff can invoke delayed discovery. As a pragmatic textualist, I find that reading \u00a7 507(b) to permit unbounded damages recovery would undermine the statute's evident purpose of providing repose and certainty to defendants, and the more coherent statutory interpretation is that the discovery rule tolls the filing deadline but does not expand the damages window beyond three years preceding suit. The Second Circuit's reasoning in Sohm v. Scholastic Inc., 959 F.3d 39 (2d Cir. 2020), that Petrella's damages discussion was integral \u2014 not incidental \u2014 to the laches holding is more persuasive and produces a workable, administrable rule.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The plain text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued' \u2014 the statute speaks to when a claim accrues and when suit must be filed, but it does not separately address the temporal scope of recoverable damages. However, reading the statute as a whole, permitting unlimited retrospective damages under a judicially-created discovery rule would effectively nullify the limitations period's core function of providing repose, a result inconsistent with the text's evident purpose. While I harbor serious doubts about whether the discovery accrual rule itself is textually grounded \u2014 Rotkiske v. Klemm signals the Court's skepticism of grafting discovery rules onto statutes that don't mention them \u2014 even accepting the discovery rule arguendo, Petrella's discussion of a three-year damages lookback, though arguably dicta, reflects the most coherent reading of \u00a7 507(b) as establishing a temporal boundary on liability rather than merely a filing deadline. A contrary reading would expose defendants to damages of indefinite vintage, untethered to any statutory anchor, which no faithful reading of the text can support.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of 17 U.S.C. \u00a7 507(b) is unambiguous that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued,' and Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), while addressing laches, strongly suggested that the damages window is limited to three years preceding suit \u2014 language I would not dismiss as mere dicta given its integral role in the Court's reasoning about the limitations scheme. Permitting unlimited retrospective damages under the discovery rule would effectively nullify the statute of limitations as a practical matter, exposing defendants to liability for acts stretching back decades with no workable temporal boundary, which conflicts with the principle of practical workability I find essential to sound statutory interpretation. The Second Circuit's reading in Sohm v. Scholastic Inc. is more persuasive: the three-year damages cap operates independently of whichever accrual rule applies, meaning the discovery rule determines when suit may be filed but does not expand the retrospective damages window beyond three years. This approach respects both the discovery rule's equitable function and Congress's evident intent to provide defendants with meaningful repose, consistent with the Court's reasoning in Rotkiske v. Klemm that courts should not stretch limitations provisions beyond their textual boundaries.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist, I must begin with the plain text of 17 U.S.C. \u00a7 507(b), which states that 'no civil action shall be maintained' unless 'commenced within three years after the claim accrued.' The statute's text does not distinguish between the accrual rule applied and the scope of recoverable damages \u2014 it establishes a single temporal boundary. While I acknowledge that this Court has not definitively resolved whether the discovery rule applies to copyright claims, the critical point is that even if the discovery rule governs when a claim accrues, it cannot logically expand the damages window beyond what the statute permits; the discovery rule merely determines when the three-year clock begins, not that it eliminates the three-year limitation on retrospective damages altogether. Petrella's discussion of a three-year lookback period, while arguably dicta on the precise question presented here, reflects the natural reading of \u00a7 507(b) as creating a damages limitation coextensive with the limitations period, and permitting unlimited retrospective damages under the discovery rule would effectively nullify the statute's temporal constraint in a manner inconsistent with the text's original public meaning and the structural logic of statutes of limitations as recognized in Rotkiske v. Klemm.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "While I am sympathetic to the respondent's position that the discovery rule should permit full recovery once a timely claim is established, the text of 17 U.S.C. \u00a7 507(b) states that 'no civil action shall be maintained' unless commenced within three years after accrual, and Petrella v. Metro-Goldwyn-Mayer, 572 U.S. 663 (2014), strongly suggested \u2014 even if arguably in dicta \u2014 that damages are cabined to a three-year lookback window. The practical consequences cut both ways: unlimited retrospective damages exposure creates genuine uncertainty for defendants who may have no reasonable way to preserve records or defend against stale claims, which undermines the very fairness concerns central to my judicial philosophy. As the Court noted in Rotkiske v. Klemm, the discovery rule modifies when the clock starts, but that does not necessarily expand the temporal scope of recoverable damages beyond what the statute's limitations period contemplates. Separating the accrual question from the damages question \u2014 as the Eleventh Circuit did below \u2014 creates an anomaly where the discovery rule effectively nullifies the limitations period's protective function entirely, a result that neither the statute's text nor Petrella's reasoning supports.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.817,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

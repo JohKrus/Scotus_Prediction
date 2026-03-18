@@ -1,0 +1,578 @@
+[
+  {
+    "docket": "21-757",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Circuit's enablement standard under 35 U.S.C. \u00a7 112 is overly stringent in requiring that a patent specification enable a person of ordinary skill in the art to make and use the full scope of a broadly claimed invention, particularly for genus claims in the biotechnology and pharmaceutical fields.",
+      "legal_provision": "35 U.S.C. \u00a7 112 (Patent Enablement Requirement) \u2014 requiring that a patent specification contain a written description of the invention and the manner of making and using it in 'such full, clear, concise, and exact terms' as to enable any person skilled in the pertinent art to make and use the invention.",
+      "petitioner_position": "Amgen argues that the Federal Circuit has applied an improperly heightened and unpredictable enablement standard that effectively requires inventors to individually identify and reduce to practice every embodiment within a broadly claimed genus, which goes beyond what \u00a7 112 requires, undermines the incentive to pioneer breakthrough inventions, and conflicts with historical Supreme Court precedent permitting broad genus claims when the inventor has made a genuine and substantial contribution to the field. Amgen further contends that enablement should be evaluated based on whether undue experimentation is required, not whether every species within a genus has been explicitly disclosed.",
+      "respondent_position": "Sanofi and Regeneron argue that Amgen's broadly claimed genus of antibodies \u2014 covering potentially millions of antibody variants defined by their function rather than their structure \u2014 is not sufficiently enabled because the patent specification only discloses a limited number of specific antibody examples, and a person of ordinary skill in the art would need to engage in substantial and undue experimentation to identify and produce the full range of antibodies encompassed by the claims, making the patent claims impermissibly overbroad relative to the actual disclosure.",
+      "key_precedents": [
+        "In re Wands, 858 F.2d 731 (Fed. Cir. 1988) \u2014 established the multi-factor 'Wands factors' test for determining whether undue experimentation is required for enablement",
+        "Morse v. O'Reilly (historical Supreme Court precedent on overbroad functional claiming)",
+        "Minerals Separation, Ltd. v. Hyde, 242 U.S. 261 (1916) \u2014 Supreme Court precedent on enablement and undue experimentation",
+        "Incandescent Lamp Patent (Sawyer & Man v. Edison) \u2014 early Supreme Court case on genus claiming and enablement",
+        "Holland Furniture Co. v. Perkins Glue Co., 277 U.S. 245 (1928) \u2014 Supreme Court precedent on functional claim scope and enablement",
+        "Liebel-Flarsheim Co. v. Medrad, Inc., 481 F.3d 1371 (Fed. Cir. 2007) \u2014 Federal Circuit precedent on claim scope and enablement",
+        "MagSil Corp. v. Hitachi Global Storage Technologies, 687 F.3d 1377 (Fed. Cir. 2012) \u2014 Federal Circuit precedent on functional genus claims and enablement",
+        "Wyeth & Cordis Corp. v. Abbott Laboratories, 720 F.3d 1380 (Fed. Cir. 2013) \u2014 Federal Circuit precedent on pharmaceutical genus claims",
+        "AbbVie Deutschland GmbH v. Janssen Biotech, Inc., 759 F.3d 1285 (Fed. Cir. 2014) \u2014 Federal Circuit precedent on antibody genus claims and written description",
+        "Idenix Pharmaceuticals LLC v. Gilead Sciences Inc., 941 F.3d 1149 (Fed. Cir. 2019) \u2014 Federal Circuit precedent on functional genus claims in pharmaceutical context"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The unanimity across methodological lines \u2014 from Justice Thomas's originalism to Justice Sotomayor's pragmatic concern for patients and competition \u2014 reinforces my confidence that affirming the Federal Circuit is correct, and as Chief Justice I am now focused on ensuring the opinion is written on the narrowest possible ground. Justice Kagan's formulation remains the one I would build the majority opinion around: the breadth of the claim must be matched by the breadth of the enabling disclosure, applied through the existing Wands factors framework to this specific factual record, without announcing a categorical rule against functional genus claiming in biotechnology. I would assign the opinion with explicit instructions to avoid broad pronouncements about all functional claiming, instead grounding the holding in the undisputed finding that practicing the full scope of Amgen's claimed genus requires an open-ended, unpredictable research program that constitutes undue experimentation under \u00a7 112 as consistently interpreted from O'Reilly v. Morse forward. Amgen's strongest argument \u2014 that pioneer inventors deserve protection commensurate with their breakthrough contributions \u2014 is answered by Justice Gorsuch's correct observation that the remedy for any perceived inadequacy in the patent system's treatment of pioneering biotechnology research lies with Congress, not with judicial relaxation of the statutory text.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have collectively and persuasively reinforced the originalist and textualist case for affirming the Federal Circuit. Justice Barrett's analysis is particularly compelling in its precision: O'Reilly v. Morse is not merely analogous but directly controlling, as Morse's eighth claim was invalidated for precisely the same structural defect present here \u2014 claiming all future means of achieving a functional result without enabling that full scope. The strongest argument Amgen could make is that pioneer inventors deserve broad protection to incentivize costly early-stage research, but as Justice Gorsuch correctly notes, that policy argument is properly addressed to Congress, not to courts willing to rewrite \u00a7 112's plain text. The original public meaning of the enablement requirement, consistently applied from Morse through the Incandescent Lamp Patent cases, establishes that the patent bargain requires a genuine, commensurate disclosure \u2014 Amgen's functional genus claims covering potentially millions of undisclosed antibody variants receive no shelter from that foundational principle.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "My colleagues have presented a remarkably unified and compelling front, and I find Justice Barrett's textualist analysis particularly persuasive in its direct application of O'Reilly v. Morse \u2014 the parallel between Morse's eighth claim (all means of electromagnetic printing) and Amgen's functional genus claim (all antibodies that bind PCSK9 and block its interaction with LDL receptors) is essentially exact. The strongest argument Amgen could make \u2014 that pioneer inventors deserve broad protection to incentivize the enormous investment required for breakthrough research \u2014 is a policy argument that, however sympathetic, cannot override the plain statutory text of \u00a7 112 or the historical quid pro quo of the patent bargain. As Justice Gorsuch correctly notes, if Congress wishes to create special claiming rules for pioneering biotechnology inventions, that is Congress's prerogative, not ours. The Wands factors framework already provides sufficient flexibility to distinguish between genuinely enabled genus claims and functional placeholders for future discoveries, and the record here demonstrates that identifying antibodies within Amgen's claimed genus requires precisely the kind of open-ended, unpredictable research program that constitutes undue experimentation under any reasonable reading of \u00a7 112.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "The convergence of my colleagues across such disparate methodological approaches \u2014 from Justice Thomas's originalism to Justice Kagan's pragmatic textualism \u2014 reinforces rather than merely confirms my own analysis, because each methodology independently arrives at the same statutory conclusion. Justice Barrett's precise mapping of O'Reilly v. Morse onto Amgen's functional genus claims is particularly compelling: just as Morse could not claim all future means of electromagnetic printing by virtue of having invented one such means, Amgen cannot claim all antibodies that bind PCSK9 and block LDL receptor interaction merely by having discovered that such binding achieves a therapeutic result. The strongest argument for Amgen \u2014 that pioneer inventors deserve broad protection commensurate with their breakthrough investment \u2014 remains genuinely sympathetic to me as someone who cares deeply about medical innovation and patient access, but as Justice Kavanaugh correctly identifies, the policy calculus actually cuts against Amgen here: permitting this functional overclaiming would foreclose competitors from developing potentially superior or more affordable therapies, ultimately harming the very patients whose access to life-saving cholesterol treatments I care most about. Chief Justice Roberts's instinct toward the narrowest possible holding is wise \u2014 we should affirm on the specific record showing undue experimentation under the Wands framework without categorically condemning all functional genus claiming in biotechnology.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have collectively reinforced what I find to be the most compelling reading of \u00a7 112, and I want to particularly engage with Justice Barrett's point about O'Reilly v. Morse being 'directly on point' \u2014 she is right that Morse's eighth claim was invalidated precisely because it claimed all future electromagnetic printing means regardless of structure, which maps almost perfectly onto Amgen's functional genus claims covering all antibodies that bind PCSK9 and block its interaction with LDL receptors regardless of their structural composition. The strongest argument from Amgen's side \u2014 that pioneer inventors deserve broad protection to incentivize the enormous investment required for breakthrough research \u2014 is genuinely compelling as a policy matter, but as Justice Gorsuch correctly notes, that argument is addressed to Congress, not to courts interpreting a statutory text that has consistently been understood to require commensurate disclosure. I would add one nuance to my colleagues' analysis: we should be careful to affirm on the narrowest possible ground, confirming that the Wands factors framework correctly implements \u00a7 112 as applied to this specific record showing that skilled artisans would need to engage in an open-ended research program to identify antibodies within the claimed genus, rather than issuing a categorical rule against all functional genus claiming in biotechnology. The workable solution here is to affirm the Federal Circuit while making clear that the enablement inquiry remains fact-specific and that some degree of functional claiming remains permissible where the disclosure is genuinely commensurate with the claimed scope.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have presented a remarkably unified front, and I find their collective reasoning reinforces rather than undermines my own textualist analysis. Justice Barrett's observation that Amgen's approach would effectively resurrect the overclaiming condemned in O'Reilly v. Morse is particularly apt \u2014 the Morse Court's rejection of claim eight was not a policy judgment but a textual one: the specification simply did not enable what was claimed. Justice Jackson raises the most sympathetic concern for Amgen, noting the potential chilling effect on pioneering innovation, but as I noted in my initial reasoning, the remedy for that concern lies with Congress adjusting the statutory framework \u2014 perhaps through extended protection periods or other mechanisms \u2014 not with courts reading \u00a7 112 to permit claims that sweep far beyond what the specification actually teaches. The quid pro quo at the heart of the patent system, as Justice Kavanaugh correctly identifies, is not merely a policy preference but is embedded in the statutory text itself: the public receives an enabling disclosure, and in exchange the patentee receives a time-limited monopoly commensurate with that disclosure, nothing more.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have collectively reinforced the core principle I identified in my initial reasoning: the statutory text of \u00a7 112 and the historical precedents from O'Reilly v. Morse through Holland Furniture Co. establish a clear, workable rule that claim scope must be commensurate with enabling disclosure. Justice Barrett's observation that Amgen's position would effectively 'resurrect the very overclaiming the Court rejected in Morse' is particularly apt \u2014 the parallel between Morse's eighth claim (all means of electromagnetic printing at a distance) and Amgen's functional genus claim (all antibodies that bind PCSK9 and block its interaction with LDL receptors) is structurally identical. Justice Sotomayor's point that permitting such overbroad claims would actually harm vulnerable patients by foreclosing competitors from developing potentially superior therapies addresses the strongest practical argument for Amgen \u2014 that pioneer biotech research deserves broad protection \u2014 and I find it persuasive that the policy calculus actually cuts against Amgen here. The near-unanimity of my colleagues, while not itself determinative, reflects that the legal analysis across multiple methodological approaches \u2014 textualism, originalism, institutionalism \u2014 converges on the same result, which gives me greater confidence that affirming the Federal Circuit is the correct and institutionally sound outcome.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced the core textualist and originalist analysis I find compelling: \u00a7 112's plain requirement that the specification enable 'any person skilled in the art to make and use the invention' cannot be satisfied when a claim sweeps across millions of functionally-defined antibody variants while disclosing only dozens of specific structural examples. Justice Kagan's observation \u2014 which I find particularly well-framed from a pragmatic statutory standpoint \u2014 that 'the breadth of the claim must be matched by the breadth of the enabling disclosure' captures precisely what the text demands without requiring us to craft any novel doctrine. Justice Jackson raises the most sympathetic counterpoint by noting that an overly stringent standard could disadvantage smaller innovators and chill pioneering research, but this concern is better addressed through the Wands factors' inherent flexibility than by relaxing the statutory enablement requirement itself; the quid pro quo of the patent bargain requires genuine disclosure, not functional placeholding. Amgen's strongest argument \u2014 that pioneer inventors deserve broad protection commensurate with their breakthrough contributions \u2014 fails under Morse's foundational holding that the magnitude of an invention does not license claiming beyond what has actually been enabled, and Congress, not this Court, is the appropriate institution to recalibrate that balance if the biotechnology industry requires different treatment.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments, I find the convergence of textualist, originalist, and pragmatic reasoning compelling and consistent with my own analysis. Justice Kagan's observation that 'the breadth of the claim must be matched by the breadth of the enabling disclosure' captures precisely the statutory quid pro quo at stake, and her acknowledgment that the Wands factors provide sufficient flexibility to avoid undue rigidity addresses my primary concern about chilling pioneering innovation \u2014 the framework is calibrated, not absolutist. Justice Sotomayor's point that permitting Amgen to foreclose competitors from developing potentially superior antibody therapies would itself harm vulnerable patients resonates deeply with my public defender background and concern for practical consequences on those who depend on medical innovation. While I remain attentive to the risk that an overly rigid 'full scope' formulation could disadvantage pioneer inventors in ways that ultimately harm patients, the record here \u2014 where practicing the full claimed genus requires open-ended, unpredictable screening that goes well beyond routine skill \u2014 places Amgen's claims squarely within the category of functional overclaiming that O'Reilly v. Morse condemned, and no argument from Amgen's side has been presented in this round to genuinely undermine that conclusion.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The statutory text of 35 U.S.C. \u00a7 112 is unambiguous in requiring that the specification enable a person skilled in the art to make and use the full scope of the claimed invention, and Amgen's functionally defined genus claims \u2014 covering potentially millions of antibody variants \u2014 far outstrip what their limited exemplary disclosures actually teach. The historical Supreme Court precedents, particularly O'Reilly v. Morse and the Incandescent Lamp Patent cases, firmly establish that a patentee cannot claim all future means of achieving a functional result simply by virtue of having pioneered the field; the scope of the claim must be commensurate with the scope of the enabling disclosure. Affirming the Federal Circuit here is the narrowest available ground \u2014 it does not require us to craft a new standard but merely to confirm that the existing undue experimentation framework, as applied through the Wands factors, correctly implements \u00a7 112's plain requirements when applied to overbroad functional genus claims. Institutional legitimacy counsels against disturbing a well-developed body of Federal Circuit doctrine on enablement absent a clear statutory misreading, and here the Federal Circuit's application is consistent with this Court's own long-standing precedents on functional claiming.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Reading 35 U.S.C. \u00a7 112 according to its original public meaning and the text's plain requirement that a specification enable persons skilled in the art to 'make and use the invention' in 'full, clear, concise, and exact terms,' a patentee cannot claim a vast functional genus encompassing potentially millions of antibody variants while disclosing only a handful of specific embodiments. This reading is firmly grounded in O'Reilly v. Morse, 56 U.S. 62 (1854), where this Court rejected Morse's attempt to claim all future means of transmitting intelligence electrically beyond what he had actually invented and disclosed \u2014 the foundational originalist precedent establishing that patent scope cannot exceed actual enablement. The historical understanding of the patent bargain, reflected consistently in early Supreme Court decisions including Minerals Separation and the Incandescent Lamp Patent cases, required that the public receive a genuine, working disclosure commensurate with the monopoly granted, not a functional placeholder for future discoveries. Amgen's genus claims, defined by function rather than structure and covering antibody variants not yet identified or produced, are precisely the kind of overbroad functional claims that the original meaning of the enablement requirement was designed to prohibit, regardless of the field of technology.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As a textualist, I begin with the plain language of 35 U.S.C. \u00a7 112, which unambiguously requires that the specification enable a person skilled in the art to 'make and use the invention' \u2014 and when a claim encompasses potentially millions of antibody variants defined purely by function, the statutory text demands that the full scope of what is claimed be enabled, not merely a handful of representative examples. The historical Supreme Court precedents, particularly O'Reilly v. Morse and the Incandescent Lamp Patent cases, firmly establish that a patentee cannot claim all means of achieving a functional result when the specification discloses only limited specific embodiments \u2014 Morse himself was denied a claim to all means of using electromagnetism for printing at a distance because he had not enabled that full scope. From a practical consequences standpoint, permitting Amgen's broadly functional genus claims would allow patent holders to monopolize entire fields of future innovation that they have not actually reduced to practice or taught, which would paradoxically undermine rather than promote the innovation incentives the patent system is designed to foster. The Federal Circuit's application of the Wands factors and its requirement that the full scope of a claimed genus be enabled is not an impermissible heightening of the standard but rather a faithful application of what \u00a7 112 has always required.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While I am deeply sympathetic to the argument that overly stringent enablement standards could chill pioneering biomedical research that benefits vulnerable patients who desperately need new treatments, the statutory text of 35 U.S.C. \u00a7 112 and the historical Supreme Court precedent established in O'Reilly v. Morse compel me to conclude that Amgen's functionally-defined genus claims \u2014 covering potentially millions of antibody variants based on functional results rather than disclosed structure \u2014 exceed what the patent specification actually enables. The core principle from Morse, reaffirmed in the Incandescent Lamp Patent cases, is that inventors cannot claim all future embodiments of a functional result simply by demonstrating one or a few working examples; doing so would allow Amgen to foreclose competitors from developing potentially superior antibody therapies that patients might need, which itself harms vulnerable populations. Permitting Amgen to claim the full universe of PCSK9-inhibiting antibodies based on disclosure of only a handful of specific examples would grant a monopoly vastly disproportionate to the actual contribution to the art, precisely the evil \u00a7 112's enablement requirement is designed to prevent. The Federal Circuit's application of the Wands factors here, while demanding, correctly reflects that undue experimentation \u2014 essentially an open-ended research program \u2014 would be required to practice the full scope of Amgen's claims.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The text of 35 U.S.C. \u00a7 112 requires that the specification enable a person skilled in the art to 'make and use' the claimed invention, and when a patent claims a genus potentially encompassing millions of antibody variants defined purely by function rather than structure, the statutory text demands that the disclosure be commensurate in scope with what is claimed. The historical Supreme Court precedent from O'Reilly v. Morse through Holland Furniture Co. consistently rejected attempts to claim a function or principle itself without enabling the full scope of that claim, and Amgen's functionally-defined genus \u2014 where the specification discloses only a handful of specific antibodies out of potentially millions \u2014 falls squarely within that tradition of impermissible overbreadth. While I am sympathetic to Amgen's concern that an overly rigid 'full scope' formulation could chill pioneering research, the workable and pragmatically sound reading of \u00a7 112 is that the breadth of the claim must be matched by the breadth of the enabling disclosure, not that inventors may claim vast unexplored structural territory simply by identifying a desired function; the Wands factors already provide sufficient flexibility to avoid undue rigidity without abandoning the core statutory requirement. Affirming the Federal Circuit here preserves statutory coherence and prevents the patent system from being used to monopolize entire fields of research that the inventor has not actually enabled.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Reading \u00a7 112's plain text, a patentee must enable 'any person skilled in the art' to 'make and use' the invention \u2014 and when a claim sweeps across potentially millions of functionally defined antibody variants while the specification discloses only a handful of specific examples, the text simply is not satisfied for the full scope claimed. O'Reilly v. Morse, 56 U.S. 62 (1853), establishes the foundational principle \u2014 rooted in the original understanding of the patent bargain \u2014 that one cannot claim all means of achieving a functional result when only specific means have been enabled; Amgen's genus claims are precisely this kind of impermissible functional overreach. The historical quid pro quo of the patent system, as this Court recognized in J.E.M. Ag Supply, demands that the public receive a genuine, workable disclosure commensurate with the exclusionary scope granted, and requiring inventors to enable the full scope of what they claim is not a heightened standard but the standard the statute has always demanded. While I am sympathetic to Amgen's concern that pioneer inventors deserve meaningful protection, the remedy lies with Congress adjusting the statutory framework, not with courts relaxing the textual requirements of \u00a7 112 to accommodate a particular industry's preferred claiming strategy.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The historical Supreme Court precedents \u2014 from Morse v. O'Reilly through Holland Furniture Co. v. Perkins Glue Co. \u2014 consistently establish that a patent's claims must be proportionate to its actual disclosure, and one cannot claim all means of achieving a functional result without enabling the full scope of that claim. Under 35 U.S.C. \u00a7 112, the enablement requirement is not merely a procedural formality but a foundational bargain: the public receives a genuine, enabling disclosure in exchange for the patent monopoly. Amgen's functionally-defined genus claims covering potentially millions of antibody variants, supported by only a limited number of disclosed examples, falls squarely within the category of overbroad functional claiming that the Court condemned in Morse \u2014 claiming a result rather than a genuinely enabled invention. While I am mindful of the practical concerns about incentivizing pioneering biotechnology research, the Federal Circuit's application of the undue experimentation standard through the Wands factors represents a workable, historically grounded framework that appropriately calibrates claim scope to actual disclosure, and departing from it would undermine the structural integrity of the patent system in ways that could create far greater uncertainty.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Applying textualist analysis to 35 U.S.C. \u00a7 112, the statutory text demands that the specification enable 'any person skilled in the art to make and use' the invention \u2014 and where a claim's scope encompasses potentially millions of functionally defined antibody variants with only a handful of structurally disclosed examples, the specification plainly fails to enable the full scope of what is claimed. The historical Supreme Court precedent in O'Reilly v. Morse is directly on point: the Court invalidated Morse's eighth claim precisely because it claimed all future means of electromagnetic printing at a distance regardless of structure, recognizing that inventors cannot claim the full scope of a functional genus without commensurate disclosure enabling that scope. This principle was consistently applied in Incandescent Lamp Patent and Holland Furniture Co., establishing that the enablement requirement is coextensive with claim scope \u2014 a principle the Federal Circuit faithfully applied here through the Wands factors framework. Amgen's argument that pioneering inventors deserve broad functional genus claims without full enabling disclosure would effectively resurrect the very overclaiming the Court rejected in Morse, rewarding under-disclosure while preempting future inventors who independently discover structurally distinct antibodies achieving the same functional result.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While I am deeply sympathetic to Amgen's concern that an overly stringent enablement standard could chill pioneering innovation, the statutory text of 35 U.S.C. \u00a7 112 requires that the specification enable a person of ordinary skill in the art to 'make and use the invention' \u2014 and when a patentee claims potentially millions of functionally-defined antibody variants while disclosing only dozens of specific examples, the practical consequence is that competitors must engage in substantial, undue experimentation to access the full claimed scope, which is precisely what \u00a7 112 guards against. The historical precedent of O'Reilly v. Morse is instructive: the Court distinguished between enabling a genuine contribution and claiming all future functional embodiments of a result, and Amgen's genus claims \u2014 defined by function rather than structure \u2014 risk preempting the entire field of PCSK9-inhibiting antibodies regardless of how future inventors might achieve that function through different structural means. Minerals Separation is distinguishable because the Court there found the process claim 'clearly sufficiently definite to guide' skilled artisans to successful application, whereas here the record reflects that identifying antibodies within Amgen's claimed genus requires iterative, unpredictable screening that goes beyond routine skill. From a procedural fairness standpoint, allowing overbroad functional genus claims would systematically disadvantage subsequent innovators \u2014 including smaller biotechnology firms and academic researchers \u2014 by permitting pioneer patentees to monopolize entire functional spaces they have not actually enabled, undermining the quid pro quo at the heart of the patent system.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.87,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "21-757",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Circuit's enablement standard under 35 U.S.C. \u00a7 112 is too stringent in requiring that a patent's specification enable a person skilled in the art to make and use the full scope of the claimed invention without undue experimentation, particularly as applied to broad genus claims in the biotechnology and pharmaceutical fields.",
+      "legal_provision": "35 U.S.C. \u00a7 112 (Patent Act - Enablement Requirement), which mandates that a patent specification contain a written description of the invention in sufficient detail to enable any person skilled in the relevant art to make and use the claimed invention.",
+      "petitioner_position": "Amgen argues that the Federal Circuit applied an overly rigid and demanding enablement standard that effectively requires inventors to individually identify and disclose every species within a claimed genus, which is scientifically impractical for broad biological inventions such as antibody patents. Amgen contends that its patent specification provided sufficient guidance through functional claim limitations and representative examples to enable skilled practitioners to practice the full scope of the invention without undue experimentation, and that the Federal Circuit's approach undermines the incentive structure of the patent system by denying protection to pioneering innovations in biotechnology.",
+      "respondent_position": "Sanofi and Regeneron argue that Amgen's broad genus claims covering potentially millions of antibody variants are not sufficiently enabled by the patent specification, which only disclosed a limited number of specific antibody examples. Respondents contend that the Federal Circuit correctly applied the established Wands factors and that requiring inventors to enable the full scope of their claims is a fundamental and necessary check on overbroad patent claims, preventing patent holders from claiming vast technological territory they have not actually invented or disclosed, which would improperly foreclose competition and downstream innovation.",
+      "key_precedents": [
+        "In re Wands, 858 F.2d 731 (Fed. Cir. 1988) - established the multi-factor test for determining undue experimentation in enablement analysis",
+        "Markman v. Westview Instruments, Inc. - established claim interpretation as a question of law",
+        "Graham v. John Deere Co. - established obviousness as a question of law with underlying factual inquiries",
+        "Amgen Inc. v. Sanofi (Federal Circuit decisions below) - applied Wands factors to invalidate Amgen's genus claims for lack of enablement",
+        "O'Reilly v. Morse - historical Supreme Court precedent on scope of patent claims relative to disclosed invention",
+        "Morse v. O'Reilly (Samuel Morse telegraph case) - foundational precedent limiting claim scope to what is actually enabled"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find my minimalist instincts well-served by the narrow ground Justice Kavanaugh identifies: the Federal Circuit correctly applied the Wands factors to these specific facts, and we need not resolve broader questions about biotechnology patent policy to affirm. Justice Kagan's point that the solution is not to weaken enablement but to ensure Wands factors are applied with appropriate sensitivity to the relevant art is particularly well-taken \u2014 it allows us to affirm without writing a categorical rule that might create unintended consequences across all genus claims in biotechnology. As Chief Justice, I would assign the majority opinion with instructions to write narrowly: affirm on the ground that Amgen's specification, with its limited examples and functional 'roadmap' requiring substantial further experimentation, failed to enable the full scope of the claimed genus under the existing Wands framework, without reaching broader questions about whether biotechnology deserves special treatment or whether the Wands factors themselves need revision. This minimalist approach respects congressional design in \u00a7 112, honors O'Reilly v. Morse without extending it unnecessarily, and preserves the Court's institutional legitimacy by deciding no more than the case requires.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced what I find to be the most compelling textual and historical basis for affirming the Federal Circuit. Justice Gorsuch's point resonates most directly with my own methodology: the plain text of \u00a7 112(a) requires enablement of 'the invention' as claimed, and where Amgen defines its invention by functional scope encompassing potentially millions of variants, that functional scope must be enabled \u2014 there is no textual basis for a carve-out. The strongest argument for Amgen \u2014 that biotechnology's inherent complexity and unpredictability should warrant a more permissive standard for pioneering inventors \u2014 is precisely the kind of policy argument that belongs to Congress, not this Court; \u00a7 112 admits no field-specific exceptions, and it is not my role to rewrite the statute to accommodate inventors who have claimed more than they have actually enabled. Justice Barrett's observation that O'Reilly v. Morse is not judicial gloss but a faithful reading of the statutory bargain further confirms that this principle has deep historical roots predating the 1952 codification, and the consistent line from Morse through Holland Furniture through the Federal Circuit's Wands framework reflects a coherent, texturally grounded doctrine that I have no basis to disturb.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced the core textual and historical analysis I find most compelling. Justice Thomas correctly identifies that the plain text of \u00a7 112 admits no special carve-out for biotechnology \u2014 the statute says what it says, and Amgen's argument that complexity warrants a relaxed standard is a policy argument for Congress, not courts. Justice Kavanaugh's point about O'Reilly v. Morse is particularly apt: Morse could not claim all future uses of electromagnetism for printing at a distance, and the structural parallel to Amgen's functional genus claims covering millions of antibody variants is essentially identical \u2014 both represent attempts to monopolize vast functional territory exceeding what was actually disclosed and enabled. The strongest argument for Amgen \u2014 that rigid enablement standards will chill pioneering biotech innovation \u2014 is addressed by Justice Sotomayor's observation that such overclaiming would itself foreclose downstream innovation, meaning the practical consequences actually cut against Amgen, not in its favor. The Federal Circuit's Wands factors represent a faithful, workable operationalization of the statutory text, and I see no basis for disturbing that framework.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After carefully reviewing my colleagues' arguments, I find myself in strong agreement with the core reasoning, though I arrive there through a somewhat different emphasis. Justice Kagan's point that the solution to any rigidity in the Wands factors is not to weaken enablement but to ensure sensitive application resonates deeply with me \u2014 the real-world impact on downstream innovators, generic manufacturers, and ultimately patients who depend on affordable medicines is best served by maintaining a meaningful enablement standard, not by relaxing it for well-resourced pioneering firms. Justice Jackson's observation that permitting overbroad genus claims would paradoxically concentrate market power beyond what actual inventive contribution warrants speaks directly to my concern for vulnerable populations \u2014 it is not just the large biotech companies that suffer when broad functional claims foreclose the field, but the patients who never see the competing therapies that might have emerged. The strongest argument for Amgen \u2014 that chilling pioneering innovation harms patients who need breakthrough medicines \u2014 ultimately fails because the patent system's quid pro quo is not merely a formality; allowing Amgen to claim millions of uninvented antibody variants would create the very monopolistic stagnation that harms patients most, and the appropriate legislative response, if any adjustment is needed, belongs to Congress rather than to this Court rewriting \u00a7 112.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "My colleagues have presented a remarkably unified front, and I find myself in substantial agreement with the core reasoning, though I want to add a dimension that Justice Sotomayor's argument gestures toward but doesn't fully develop. The strongest argument Amgen could make \u2014 and the one I take most seriously \u2014 is that the Wands factors as applied by the Federal Circuit effectively impose an impossible standard on pioneering biotechnology inventors who cannot enumerate every species in a vast functional genus, potentially chilling exactly the kind of breakthrough innovation the patent system is designed to reward. But as I noted in my initial reasoning, the answer to that concern is not to weaken \u00a7 112's enablement requirement; it is to ensure the Wands factors are applied with appropriate sensitivity to what a skilled artisan in the relevant field could actually accomplish. Justice Barrett's point about the 'original public meaning' of \u00a7 112 reinforces my textual analysis: the statute says 'make and use' the claimed invention, and where the claimed invention is defined functionally to encompass millions of variants, the specification must enable access to that functional territory \u2014 not through exhaustive enumeration, but through sufficient structural guidance that skilled artisans can navigate the space without undue experimentation. Amgen provided a roadmap to a research program, not enablement of an invention, and that distinction is both textually and historically sound.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "My colleagues have collectively reinforced what I find to be the most compelling textual and historical argument: \u00a7 112's plain language requires enablement of the full claimed scope, and O'Reilly v. Morse established this principle long before the 1952 codification. Justice Thomas's point about the constitutional dimension is particularly well-taken \u2014 the Patent Clause itself conditions the grant of exclusivity on actual disclosure, and Amgen's functional genus claims covering potentially millions of antibody variants represent precisely the kind of overclaiming Morse attempted with electromagnetism. I note that Amgen's strongest counterargument \u2014 that requiring full genus enablement would chill pioneering biotech innovation \u2014 is a policy argument that, as Justice Alito correctly observes, belongs to Congress rather than to courts interpreting unambiguous statutory text. The unanimity of my colleagues' reasoning here, while not itself determinative, reflects that the textual, historical, and precedential case for affirmance is genuinely strong, and I see no argument from the petitioner's side that would require me to reconsider my position.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced what I find to be the most compelling institutional argument: affirming the Federal Circuit on the narrowest available grounds preserves the Court's legitimacy and respects congressional design without requiring us to venture into contested biotechnology policy territory. Chief Justice Roberts' minimalist framing resonates most with my judicial philosophy \u2014 we need not resolve every question about genus claims in biotechnology to hold simply that Amgen's specification, with its limited examples and 'roadmap' guidance requiring substantial further experimentation, did not satisfy the statutory enablement requirement for the full scope of what was claimed. The strongest argument from Amgen's side \u2014 that pioneering inventors in complex fields like biotechnology deserve more latitude because requiring exhaustive disclosure would be practically impossible \u2014 is ultimately a policy argument that, as Justice Thomas and Justice Gorsuch correctly note, belongs to Congress rather than this Court; \u00a7 112's text admits no field-specific carve-outs. The historical continuity from O'Reilly v. Morse through the 1952 codification of \u00a7 112 demonstrates that this is not a novel judicial gloss but a settled principle that the patent bargain requires disclosure commensurate with claim scope, and disturbing that settled framework would risk both doctrinal instability and the Court's institutional credibility as a faithful interpreter of statutory text.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced the textual and historical foundations of my position, and I find the convergence of originalist, textualist, and pragmatic reasoning across the ideological spectrum particularly compelling. Justice Thomas correctly identifies that the text of \u00a7 112 admits no special carve-out for biotechnology \u2014 the statutory command that the specification enable 'any person skilled in the art' to 'make and use' the claimed invention applies with equal force regardless of technological complexity, and Amgen's argument to the contrary is a policy plea that belongs to Congress. Justice Kagan's observation that the workable solution is not to weaken enablement but to ensure the Wands factors are applied with appropriate sensitivity to the relevant art is particularly apt \u2014 the Federal Circuit did exactly that here, and Amgen's specification, which offered only a handful of examples and a research program requiring substantial further experimentation, simply cannot bear the weight of claims potentially covering millions of antibody variants. The strongest argument for Amgen \u2014 that pioneering inventors in complex fields deserve broader protection commensurate with their breakthrough contributions \u2014 fails under my methodology because the statutory text sets the standard, not the magnitude of the inventor's achievement, and O'Reilly v. Morse itself arose in the context of a genuinely transformative invention where the Court nonetheless held that claim scope must be commensurate with actual enablement.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have presented a remarkably unified front, and I find Justice Sotomayor's framing particularly resonant with my own judicial philosophy: the enablement requirement serves a democratic function protecting downstream innovators, generic competitors, and ultimately vulnerable patients who depend on affordable medicines \u2014 precisely the populations I have spent my career concerned about. Justice Thomas's textualist argument, while coming from a different methodological tradition than my own, actually reinforces my pragmatic conclusion: \u00a7 112's plain text requires enablement of the full claimed scope, and no amount of biotechnology complexity can rewrite that statutory command. The strongest argument for Amgen \u2014 that overly rigid enablement standards will chill pioneering innovation and harm patients \u2014 actually cuts against them when examined carefully, because allowing broad functional genus claims would concentrate market power in pioneering firms and foreclose the very downstream innovation that produces competing therapies and drives down prices. My background as a public defender makes me acutely sensitive to how legal doctrines distribute power and access, and here the patent system's fundamental bargain \u2014 disclosure in exchange for limited monopoly \u2014 must be honored to prevent the kind of structural overreach that harms the public Amgen claims to serve.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The enablement requirement of 35 U.S.C. \u00a7 112 has deep historical roots that this Court should not disturb on narrow grounds, and the Federal Circuit's application of the Wands factors represents a faithful interpretation of longstanding statutory text rather than an impermissible judicial innovation. O'Reilly v. Morse established the foundational principle that a patentee cannot claim dominion over vast technological territory \u2014 including future inventions by others \u2014 merely by describing a desired function or result, and Amgen's broad genus claims covering potentially millions of antibody variants present precisely this concern. Affirming the Federal Circuit on the narrowest available grounds \u2014 that the specification's limited examples and 'roadmap' guidance did not enable the full scope of the claimed genus without undue experimentation \u2014 preserves institutional legitimacy by respecting both congressional design in \u00a7 112 and the Court's own precedent, without requiring us to resolve broader questions about biotechnology patent policy that are better addressed by Congress. This minimalist approach avoids disturbing the settled expectations of the pharmaceutical and biotechnology industries while reaffirming that the quid pro quo of the patent system requires actual enablement commensurate with claim scope.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As an originalist and textualist, I must look to the plain statutory text of 35 U.S.C. \u00a7 112, which unambiguously requires that the specification enable 'any person skilled in the art' to 'make and use' the claimed invention \u2014 the full scope of what is claimed, not merely representative examples. This textual command is reinforced by the foundational historical precedent of O'Reilly v. Morse (1854), where this Court rejected Samuel Morse's attempt to claim all future means of electrical communication beyond what he actually disclosed and reduced to practice, establishing that a patentee cannot claim vast functional territory exceeding the actual invention disclosed. The Holland Furniture line of cases further confirms that allowing broad functional genus claims untethered to sufficient disclosed species would 'extend the patent monopoly beyond the discovery' and 'discourage rather than promote invention,' contrary to the constitutional purpose of the Patent Clause itself. Amgen's argument that biotechnology's complexity warrants a relaxed standard is a policy argument that belongs to Congress, not the courts; the text of \u00a7 112 admits no special carve-out for particular technological fields, and it is not my role to rewrite the statute to accommodate pioneering inventors who have claimed more than they have actually enabled.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The text of 35 U.S.C. \u00a7 112 is unambiguous in requiring that the specification enable 'any person skilled in the art' to 'make and use' the claimed invention \u2014 the full scope of what is claimed, not merely representative examples. Amgen's broad genus claims covering potentially millions of antibody variants, supported by only a handful of disclosed examples and functional claim limitations, represent precisely the kind of overclaiming and underdisclosure that this Court condemned in O'Reilly v. Morse, where we struck down Morse's eighth claim for attempting to monopolize all future uses of electromagnetism for printing at a distance regardless of the specific means employed. The practical consequences of accepting Amgen's position would be severe: allowing pioneering inventors in biotechnology to claim vast functional territory they have not actually reduced to practice would foreclose competition and downstream innovation, undermining the fundamental bargain of the patent system in which disclosure is exchanged for a limited monopoly. The Federal Circuit's application of the Wands factors represents a faithful, workable implementation of the statutory enablement requirement, and there is no textual basis in \u00a7 112 for carving out a more permissive standard for biotechnology genus claims.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "While I am deeply sympathetic to Amgen's concern that overly rigid enablement standards could chill pioneering biotech innovation and harm patients who depend on breakthrough medicines, the foundational principle established in O'Reilly v. Morse \u2014 that a patent's claim scope cannot exceed what the inventor has actually disclosed and enabled \u2014 reflects a critical structural balance in the patent system that protects the public interest. Amgen's broad genus claims covering potentially millions of antibody variants, supported by only a limited number of disclosed examples, would effectively allow the company to foreclose vast technological territory it has not actually invented, which would harm downstream innovators, generic competitors, and ultimately the vulnerable patients who depend on affordable medicines. Section 112's enablement requirement, as applied through the Wands factors, serves a vital democratic function: it ensures that the public bargain underlying patent grants \u2014 disclosure in exchange for limited monopoly \u2014 is actually honored, and that broad functional claims do not become instruments of monopolistic overreach that stifle the very innovation they purport to reward. The practical impact on competition and access to life-saving drugs weighs heavily in favor of maintaining a meaningful enablement standard, even as I would encourage Congress to consider whether tailored legislative solutions might better balance these competing interests in the biotechnology context.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The text of 35 U.S.C. \u00a7 112 is unambiguous in requiring that the specification enable 'any person skilled in the art' to 'make and use' the claimed invention, and the historical principle stretching from O'Reilly v. Morse through Holland Furniture Co. v. Perkins Glue Co. consistently holds that a patent's monopoly cannot extend beyond what the inventor has actually disclosed and enabled. Amgen's functional genus claims covering potentially millions of antibody variants, supported by only a limited number of disclosed examples, represent precisely the kind of claim that 'foreclose[s] efforts to discover other and better types' while extending 'the patent monopoly beyond the discovery' \u2014 language the Court has used to invalidate such overreach for nearly two centuries. While I am sympathetic to Amgen's concern that the Federal Circuit's Wands factors may be applied with excessive rigidity in biotechnology contexts, the workable solution is not to weaken the enablement requirement but rather to ensure the Wands factors are applied with appropriate sensitivity to the relevant art, which the Federal Circuit did here. Permitting broad functional genus claims without commensurate disclosure would undermine the statutory bargain at the heart of the patent system and improperly foreclose downstream innovation in a critical field.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The plain text of 35 U.S.C. \u00a7 112(a) requires that the specification enable 'any person skilled in the art to make and use' the claimed invention, and when Amgen claims a genus potentially encompassing millions of antibody variants while disclosing only a handful of specific examples, the statutory text simply is not satisfied for the full scope of what is claimed. The foundational precedent of O'Reilly v. Morse, which this Court decided long before the 1952 Patent Act codified enablement requirements, established that a patentee cannot claim all means of achieving a functional result when the specification only enables some of those means \u2014 Morse could not claim all uses of electromagnetism for printing at a distance, and Amgen similarly cannot claim all antibodies performing a particular binding function when it has not enabled practitioners to make them without substantial trial and error. As a textualist, I am bound by what \u00a7 112 actually says: the specification must enable making and using 'the invention,' and where the claimed invention is defined by its functional scope, that functional scope must be enabled; the Federal Circuit's application of the Wands factors is a reasonable operationalization of the statutory text, not an impermissible judicial gloss. Amgen's argument that requiring enablement of the full claim scope is 'too stringent' is essentially an invitation to rewrite the statute to accommodate biotechnology's practical difficulties, which is a task for Congress, not this Court.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The Federal Circuit correctly applied the enablement requirement under 35 U.S.C. \u00a7 112, which has deep historical roots stretching back to O'Reilly v. Morse (1854), where this Court rejected Morse's overbroad eighth claim covering all future uses of electromagnetism for printing at a distance because its scope vastly exceeded what he had actually disclosed and enabled. Amgen's broad genus claims covering potentially millions of antibody variants, supported by only a limited number of disclosed examples, present precisely the same over-claiming and under-disclosing problem that has been consistently rejected throughout this Court's history. The Wands factors applied by the Federal Circuit represent a workable, well-established framework that appropriately balances inventor incentives against the fundamental bargain underlying the patent system \u2014 full disclosure in exchange for a limited monopoly \u2014 and I see no principled basis for carving out a special, more permissive enablement standard for biotechnology that would allow patentees to claim vast technological territory they have not actually invented. Judicial restraint counsels against disturbing this settled doctrinal framework, particularly when doing so would risk allowing functional genus claims to foreclose downstream innovation by competitors like Sanofi and Regeneron who independently developed their own antibody solutions.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The text of 35 U.S.C. \u00a7 112 plainly requires that the specification enable 'any person skilled in the art' to 'make and use' the claimed invention \u2014 and the original public meaning of that statutory language, read against the backdrop of foundational precedents like O'Reilly v. Morse, compels the conclusion that the scope of enablement must be commensurate with the scope of the claims. Amgen's broad functional genus claims purport to cover potentially millions of antibody variants, yet the specification discloses only a limited number of specific examples and a research program requiring substantial further experimentation to identify additional species \u2014 precisely the kind of 'undue experimentation' the statute forbids. The historical principle articulated in O'Reilly v. Morse, that a patentee cannot claim all future means of achieving a functional result beyond what has actually been enabled, is not a judicial gloss but a faithful reading of the statutory bargain: disclosure in exchange for exclusivity. The Federal Circuit's application of the Wands factors represents a methodologically sound, multi-factor framework that gives content to the statutory text without imposing a categorical rule requiring enumeration of every species, and Amgen's specification simply failed to meet that standard given the extraordinary breadth of what it claimed.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Under 35 U.S.C. \u00a7 112, the enablement requirement serves a fundamental constitutional purpose: inventors receive a limited monopoly in exchange for a genuine public disclosure sufficient to advance the useful arts. Amgen's broad genus claims covering potentially millions of antibody variants, supported by only a limited number of disclosed examples and a functional 'roadmap,' ask the Court to permit patent holders to claim vast technological territory they have not actually reduced to practice \u2014 precisely the overreach condemned in O'Reilly v. Morse, where the Court rejected Morse's claim to all means of using electromagnetism for printing at a distance regardless of whether he had enabled those means. The Federal Circuit's application of the Wands factors appropriately operationalizes the statutory text by ensuring that the scope of the patent grant is commensurate with what the inventor has actually taught; while I am attentive to the practical consequences for biotechnology innovation, permitting overbroad genus claims would paradoxically foreclose downstream innovation and competition \u2014 including by smaller researchers and generic manufacturers \u2014 in ways that harm the public interest and concentrate market power in pioneering firms beyond what their actual inventive contribution warrants. The NYIPLA's proposed alternative, while creative, would introduce significant uncertainty at the claim construction stage and does not resolve the core statutory problem that Amgen's specification simply does not enable the full scope of what is claimed.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.891,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "docket": "21-1576",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the proper remedy for the government's failure to prove venue at trial is a judgment of acquittal barring reprosecution, or whether the government may retry the defendant for the same offense in a properly venued jurisdiction.",
+      "legal_provision": "U.S. Constitution Article III, Section 2, Clause 3 ('Trial shall be held in the State where the said Crimes shall have been committed'); Sixth Amendment ('In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed'); Federal Rule of Criminal Procedure 18 (venue in criminal cases); Double Jeopardy Clause of the Fifth Amendment (implicated by the question of whether retrial is permissible after a venue failure).",
+      "petitioner_position": "Timothy J. Smith argues that when the government fails to prove proper venue at trial, the constitutionally and legally mandated remedy is a judgment of acquittal that bars any subsequent reprosecution for the same offense under the Double Jeopardy Clause. Smith contends that venue is a fundamental constitutional right \u2014 not merely a procedural convenience \u2014 rooted in both Article III and the Sixth Amendment, and that allowing retrial after a venue failure effectively permits the government to get a second bite at the apple after failing to meet its burden of proof. He further argues that the Fifth and Eighth Circuits have correctly recognized this rule, and that the Eleventh Circuit's decision to vacate and dismiss without prejudice \u2014 thereby permitting retrial \u2014 creates an entrenched circuit split that warrants Supreme Court resolution.",
+      "respondent_position": "The United States argues that a venue defect is a non-jurisdictional, procedural matter that does not implicate the sufficiency of the evidence supporting guilt, and therefore does not trigger the Double Jeopardy Clause's bar on retrial. The government contends that the court of appeals permissibly vacated the conviction and dismissed the count without prejudice, allowing reprosecution in a district where venue is proper, because a venue failure is categorically distinct from an acquittal on the merits. The government further argues that the majority of circuit courts \u2014 the Sixth, Ninth, Tenth, and Eleventh Circuits \u2014 have correctly held that venue is a question of where a crime was committed, not whether it was committed, and that dismissal without prejudice is the appropriate and well-established remedy consistent with Supreme Court precedent.",
+      "key_precedents": [
+        "United States v. Cabrales, 524 U.S. 1 (1998) \u2014 Supreme Court addressed venue propriety for money laundering charges, holding that venue must lie where the essential conduct elements of the offense occurred",
+        "United States v. Cores, 356 U.S. 405 (1958) \u2014 Supreme Court explained that the venue right is a safeguard against prosecuting an accused in a remote place, and that venue requires determination of where the crime was committed",
+        "Travis v. United States \u2014 Supreme Court held that venue was constitutionally improper where Congress carefully indicated the locus of the crime",
+        "United States v. Auernheimer, 748 F.3d 525 (3rd Cir. 2014) \u2014 Third Circuit case addressing venue in a computer access offense, cited by petitioner for the proposition that venue must lie where the defendant's conduct occurred",
+        "United States v. Jones, No. 3:16CR428-MHT, 2017 WL 727033 (M.D. Ala. Feb. 23, 2017) \u2014 District court case denying pretrial dismissal for improper venue where underlying factual disputes existed",
+        "United States v. Smith, 22 F.4th 1236 (11th Cir. 2022) \u2014 The Eleventh Circuit decision below, which vacated and dismissed without prejudice rather than directing acquittal",
+        "United States v. Smith, 469 F. Supp. 3d 1249 (N.D. Fla. 2020) \u2014 The district court order denying Smith's motion for judgment of acquittal on venue grounds"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Alito's 'where versus whether' distinction remains the strongest argument for the government, and I do not dismiss it lightly \u2014 it has genuine textual force and maps onto the Scott framework in a coherent way. But after further reflection, I cannot escape the internal inconsistency that Justice Thomas and Justice Barrett both press: if the jury's acquittal on Count I for venue failure indisputably bars reprosecution under settled double jeopardy doctrine, the Eleventh Circuit's rule that an appellate court's identical venue insufficiency finding on Count II does not bar retrial requires a principled distinction that the government has not supplied. Justice Kagan's proposed narrow rule \u2014 limiting double jeopardy protection to cases where the government has had its full trial opportunity to prove venue and failed \u2014 appeals to my minimalist instincts because it does not sweep in pre-trial dismissals or mid-trial transfers, preserving prosecutorial flexibility in the vast majority of cases. I would write the majority opinion on this narrow ground, holding only that when the government has had a complete trial opportunity to prove venue and a court determines the evidence was legally insufficient, Evans and Burks together require that double jeopardy bar retrial, without resolving broader questions about venue's status as a 'merits' element.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's 'where versus whether' distinction remains the most serious challenge to my position, but after careful reflection it cannot bear the constitutional weight the Respondents place on it. The Framers did not create a hierarchy of proof burdens in the constitutional text \u2014 Article III, Section 2, Clause 3 and the Sixth Amendment impose venue as a mandatory requirement, and the government's failure to prove that requirement at trial is an evidentiary insufficiency that Evans v. Michigan compels treating as an acquittal. Justice Roberts' shift to Petitioner on the narrow Evans/Martin Linen Supply Co. ground is particularly significant because it confirms that even a minimalist, precedent-respecting approach cannot sustain the Eleventh Circuit's rule \u2014 when the government has had its full trial opportunity and failed to prove a constitutionally mandated element, double jeopardy bars a second attempt regardless of whether we characterize that element as going to guilt or forum. The internal inconsistency I identified from the outset \u2014 that the jury's Count I acquittal for venue failure indisputably bars reprosecution while the appellate court's identical Count II venue determination does not \u2014 remains unrebutted by Justice Kavanaugh's attempt to distinguish jury verdicts from appellate determinations, because Evans explicitly holds that the correctness of the insufficiency ruling is irrelevant to double jeopardy analysis.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Roberts' shift to Petitioner based on Evans v. Michigan deserves the most serious engagement, and I acknowledge the force of the internal inconsistency argument Justice Thomas raises regarding Count I versus Count II. However, I remain unpersuaded that Evans controls here: Evans involved a directed verdict on an element going to the defendant's guilt or innocence, and the Court's language about 'resolution of factual elements of the offense charged' is most naturally read to encompass elements that determine whether the defendant committed the crime \u2014 not the geographic forum where the crime is tried. The venue clauses in Article III and the Sixth Amendment establish a defendant's right to be tried in the proper district, but a venue failure does not mean the government failed to prove the defendant committed the offense; it means the government chose the wrong courthouse, and retrial in the correct district does not expose the defendant to the oppression Burks condemned because the government is not getting a second opportunity to prove guilt \u2014 it already proved guilt, just in the wrong forum. Justice Sotomayor's argument that courts instruct juries to acquit when venue is unproven conflates the procedural mechanism of acquittal with the substantive constitutional inquiry under the Double Jeopardy Clause; the fact that acquittal is the remedy for a venue failure does not transform venue into a merits element any more than a statute of limitations dismissal becomes a merits adjudication because it terminates the prosecution.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's argument that venue speaks to 'where' rather than 'whether' a crime was committed is the strongest challenge to my position, but it ultimately fails because it treats the constitutional venue guarantee as a second-class right divorced from the evidentiary framework courts actually apply \u2014 federal courts instruct juries to acquit when venue is unproven, and under Evans v. Michigan, when a court determines the government's proof is legally insufficient on any constitutionally required element, double jeopardy protection attaches regardless of whether we label that element 'merits' or 'procedural.' Justice Roberts' invocation of Scott v. United States is similarly unavailing because Scott distinguished dismissals based on the defendant's own motion from government evidentiary failures \u2014 here, the government simply failed to meet its burden, which is squarely within Burks' core holding. The internal inconsistency Justice Thomas identifies is particularly compelling to me: the Eleventh Circuit's rule produces the absurd result that a jury acquittal for venue failure on Count I bars retrial while an appellate court's identical venue finding on Count II does not, which cannot be reconciled with any principled reading of double jeopardy doctrine. Permitting the government a second bite after failing to prove a constitutionally mandated element \u2014 whatever we call it \u2014 is precisely the prosecutorial overreach the Double Jeopardy Clause was designed to prevent, and the real-world impact on defendants who have already endured one trial cannot be dismissed as a mere procedural technicality.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's 'where vs. whether' distinction remains the most serious challenge to my position, but after reviewing Justice Roberts' shift and the full deliberation, I am more confident it cannot bear the weight the Respondents need it to carry. The critical point \u2014 which Justice Thomas and Justice Jackson both press effectively \u2014 is that the constitutional text does not create a hierarchy among the elements the government must prove to a jury; it simply mandates proof, and Evans v. Michigan establishes that a judicial determination of legally insufficient proof triggers double jeopardy protection regardless of how we categorize the underlying right. Justice Kavanaugh's attempt to distinguish jury acquittals from appellate insufficiency findings on the ground that jury verdicts cannot be disaggregated is creative, but it proves too much \u2014 it would mean double jeopardy protection turns on the fortuity of which tribunal first identifies the government's evidentiary failure, which is precisely the kind of arbitrary line Evans was designed to eliminate. I would write narrowly, as Chief Justice Roberts suggests, limiting the holding to cases where the government has had a full trial opportunity to prove venue and failed, thereby preserving pre-trial dismissals and mid-trial transfers from this rule's reach.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's 'where versus whether' distinction remains the most serious challenge to my position, but after careful reflection it cannot bear the constitutional weight the Respondents place on it. The text of the Double Jeopardy Clause does not sort protected acquittals by the subject matter of the unproven element \u2014 it protects against being 'twice put in jeopardy' after a court determines the government's proof was legally insufficient, full stop. Justice Roberts' shift to Petitioner is particularly significant because his minimalist instinct typically counsels restraint in expanding constitutional protections, yet even he cannot reconcile the Eleventh Circuit's asymmetry: if the jury's acquittal on Count I for venue failure indisputably bars reprosecution under Burks, no principled textualist or originalist distinction explains why an appellate court's functionally identical venue insufficiency finding on Count II should carry different double jeopardy consequences. Evans v. Michigan's holding that a court's ruling of insufficient evidence constitutes an acquittal regardless of whether the ruling was correct forecloses Justice Kavanaugh's attempt to distinguish jury acquittals from appellate determinations \u2014 the constitutional protection attaches to the government's failure to prove what it was required to prove, not to the identity of the tribunal that so determined.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.47,
+        "reasoning": "Chief Justice Roberts' shift to Petitioner, grounded in Evans v. Michigan and the internal inconsistency he identifies in the Eleventh Circuit's rule, is the argument that most moves me. I had previously distinguished jury acquittals on venue grounds from appellate venue determinations by noting that a general verdict cannot be disaggregated \u2014 but Roberts correctly observes that this distinction cannot bear the constitutional weight I placed on it, because Evans makes clear that double jeopardy consequences attach to any judicial determination of legally insufficient evidence, regardless of which tribunal makes it. Justice Alito's 'where vs. whether' distinction remains analytically appealing to me, and I do not fully abandon it \u2014 venue genuinely is different from an element going to guilt \u2014 but I cannot reconcile the Eleventh Circuit's asymmetric treatment of Count I and Count II without a more principled basis than the merits/procedure line, which Scott does not clearly extend to this context. I therefore shift narrowly to Petitioner, while emphasizing that this holding should be cabined to cases where the government has had a full trial opportunity to prove venue and failed, preserving pre-trial transfers and mid-trial procedural corrections from double jeopardy consequences.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Alito's 'where versus whether' distinction remains the most serious challenge to my position, but after careful reflection I find it cannot bear the weight placed on it for the following reason: the Double Jeopardy Clause's operative question under Evans v. Michigan and Burks is not whether the element at issue goes to guilt or geography, but whether the government had a full trial opportunity to prove a constitutionally mandated element and failed \u2014 and venue, embedded in two separate constitutional provisions by Framers who viewed it as a substantive protection against governmental oppression, satisfies that test. Justice Kavanaugh's attempt to distinguish jury acquittals from appellate venue determinations by noting that general verdicts cannot be disaggregated is clever but ultimately unavailing: the constitutional protection cannot logically turn on which tribunal identifies the government's evidentiary failure, since Evans explicitly held that double jeopardy attaches to judicial insufficiency determinations regardless of whether the underlying ruling was even correct. Justice Roberts' shift to Petitioner on the narrow Evans/Martin Linen ground is persuasive precisely because it is minimalist \u2014 it does not require us to hold that venue is an 'element of the offense' in every doctrinal context, only that a post-trial judicial determination of legally insufficient venue evidence functions as an acquittal for double jeopardy purposes. I would write to make clear that this holding is limited to cases where the government has had its full trial opportunity, preserving the government's ability to seek pre-trial venue transfers and avoiding the sweeping immunity concern Justice Alito raises.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's argument that venue speaks to 'where' rather than 'whether' a crime occurred is the strongest opposing argument, but it ultimately fails because it treats the constitutional text as merely descriptive of the venue right's subject matter rather than as establishing the government's burden of proof at trial. When federal courts instruct juries that they must acquit if venue is unproven \u2014 as they routinely do \u2014 the functional reality is that venue proof is an element the government must establish, and under Evans v. Michigan and Martin Linen Supply Co., a judicial determination of insufficient proof on any element the government was required to prove triggers Double Jeopardy protection. Justice Thomas correctly identifies the internal inconsistency that exposes the Eleventh Circuit's rule as untenable: if the jury's acquittal on Count I for venue failure indisputably bars reprosecution, there is no principled constitutional basis for treating the appellate court's identical venue insufficiency finding on Count II differently \u2014 the government's evidentiary failure is the same in both instances. My background as a public defender reinforces that the 'where vs. whether' distinction, while analytically tidy, functions in practice as a mechanism permitting the government to cure its own constitutional failure through serial prosecution, which is precisely the asymmetric burden Burks was designed to prevent.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "My minimalist instinct here is to resolve this on the narrowest available ground: venue is a question of *where* a crime was committed, not *whether* it was committed, and the Double Jeopardy Clause's core protection under Burks v. United States, 437 U.S. 1 (1978), attaches specifically when evidence is legally insufficient to sustain a conviction on the merits. United States v. Scott, 437 U.S. 82 (1978), reinforces that not every termination of proceedings favorable to a defendant constitutes an acquittal triggering double jeopardy protection \u2014 the critical distinction is whether the ruling resolves factual guilt or innocence. A venue failure, as recognized in United States v. Cabrales, 524 U.S. 1 (1998), is a procedural defect going to the proper forum rather than to the sufficiency of proof of the underlying offense, and permitting retrial in a properly venued district does not expose the defendant to the governmental oppression and harassment that the Double Jeopardy Clause was designed to prevent. While I acknowledge the circuit split is genuine and the petitioner's constitutional arguments are not frivolous, institutional considerations counsel against expanding double jeopardy protections beyond their established merits-based foundation in a way that would immunize defendants from prosecution based solely on the government's choice of forum.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of both Article III, Section 2, Clause 3 and the Sixth Amendment are unambiguous in requiring that trial be held in the state and district where the crime was committed \u2014 these are not mere procedural conveniences but affirmative constitutional mandates rooted in the Founders' deep suspicion of the Crown's practice of transporting colonists to distant venues for trial, as evidenced by the Declaration of Independence's specific grievance on this point. When the government fails to prove venue at trial and the jury is instructed to acquit on that basis, the Double Jeopardy Clause analysis under Burks v. United States and United States v. Martin Linen Supply Co. compels the conclusion that a finding of legally insufficient evidence to sustain a conviction \u2014 including insufficient venue evidence \u2014 constitutes an acquittal barring retrial, because the constitutional text does not distinguish between categories of insufficiency. The Eleventh Circuit's vacatur-without-prejudice remedy effectively nullifies the constitutional venue guarantee by permitting the government unlimited retrials after failing to meet its burden, which is irreconcilable with the original public meaning of these provisions and creates precisely the serial prosecution abuse the Founders sought to prevent. Furthermore, the internal inconsistency identified in the record \u2014 where the jury's acquittal on Count I for venue failure indisputably bars reprosecution while the appellate court's identical venue finding on Count II does not \u2014 reveals the Eleventh Circuit's rule to be constitutionally untenable.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "As a textualist, I must distinguish between what the Double Jeopardy Clause actually prohibits and what petitioner wishes it prohibited. Under Burks v. United States, 437 U.S. 1 (1978), and United States v. Scott, 437 U.S. 82 (1978), the Double Jeopardy Clause bars retrial only when a court determines that the government's evidence was legally insufficient to sustain a conviction on the merits \u2014 it does not bar retrial following dismissal for procedural or non-merits defects. Venue is categorically a question of where a crime was committed, not whether it was committed; a venue failure says nothing about the sufficiency of the evidence establishing the defendant's guilt, and conflating these two distinct inquiries distorts the text and purpose of the Double Jeopardy Clause. Permitting retrial in a properly venued district is consistent with the practical reality that the government has proven the defendant committed the offense \u2014 it simply did so in the wrong forum \u2014 and the constitutional venue protections of Article III and the Sixth Amendment are fully vindicated by vacatur and dismissal without prejudice, which forces the government to refile in the correct jurisdiction rather than rewarding a procedural misstep with a windfall acquittal on the merits.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Venue is a constitutional right rooted in both Article III and the Sixth Amendment, not merely a procedural technicality, and when the government fails to prove it at trial, that failure is functionally indistinguishable from insufficient evidence on any other element \u2014 triggering the Double Jeopardy bar under Burks v. United States, 437 U.S. 1 (1978). As Burks established, when evidence is so lacking it should not have been submitted to the jury, retrial constitutes exactly the kind of governmental 'second bite at the apple' the Double Jeopardy Clause was designed to prevent. The practical impact on defendants like Smith is severe: permitting retrial after a venue failure allows the government to cure its own evidentiary deficiency through a do-over, undermining the fundamental fairness protections the venue right was designed to provide to accused persons against being hauled into distant or hostile forums. Consistency with Smith v. Massachusetts, 543 U.S. 462 (2005), and Evans v. Michigan, 568 U.S. 313 (2013), further compels treating a court's determination of insufficient venue proof as an acquittal barring reprosecution, regardless of whether the ruling came from the trial court or an appellate court.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The text of both Article III and the Sixth Amendment independently require that trial occur in the proper venue, and when the government fails to prove venue at trial \u2014 a burden it bears \u2014 the resulting insufficiency of proof is functionally indistinguishable from other evidentiary failures that trigger Double Jeopardy protection under Burks v. United States. While I am sympathetic to the government's argument that venue is procedural rather than merits-based, the pragmatic reality is that courts routinely instruct juries to acquit when venue is unproven, and under Evans v. Michigan and Smith v. Massachusetts, there is no principled basis for treating a judicial determination of venue insufficiency differently from a jury acquittal on the same ground. The workable rule here is that when the government has had its full opportunity to prove venue at trial and failed, permitting retrial would allow precisely the kind of prosecutorial 'second bite at the apple' that Burks condemned, even if the underlying conduct element of guilt was sufficiently proven. That said, I acknowledge the force of the government's position that venue speaks to where, not whether, a crime occurred, which introduces genuine complexity and limits my confidence.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of both Article III, Section 2 and the Sixth Amendment is unambiguous: trial 'shall be held' in the state and district where the crime was committed \u2014 this is a constitutional mandate, not a procedural nicety. As this Court recognized in Johnson v. United States and Travis v. United States, venue questions are 'more than matters of mere procedure,' and the government bears the burden of proving venue to the jury as a constitutionally required element of every federal prosecution. Under Burks v. United States and Martin Linen Supply Co., when a court determines that the government's evidence was legally insufficient to sustain a conviction \u2014 including insufficient to establish a constitutionally required element like venue \u2014 double jeopardy protection attaches and bars retrial, because permitting the government to retry after failing to meet its burden of proof would allow precisely the kind of prosecutorial overreach the Double Jeopardy Clause was designed to prevent. The Eleventh Circuit's dismissal without prejudice effectively rewards the government for its failure to prove a constitutional prerequisite, treating the Constitution's venue guarantee as a mere technicality subject to a do-over \u2014 an outcome inconsistent with the original meaning of both the venue clauses and the Double Jeopardy Clause.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Venue is a constitutionally grounded but fundamentally procedural right that speaks to *where* a crime is tried, not *whether* the defendant committed the offense \u2014 a distinction the Court drew clearly in United States v. Cabrales and United States v. Cores. Under Burks v. United States, Double Jeopardy protection attaches when a court finds the evidence legally insufficient to sustain a conviction on the merits, but a venue failure is categorically distinct: the government's evidence may fully prove guilt while simply failing to establish that the crime occurred in the charged district. Permitting retrial in a properly venued jurisdiction does not expose the defendant to the core evil the Double Jeopardy Clause guards against \u2014 being tried twice for the same offense after an adjudication of innocence \u2014 because no court has found the evidence of guilt wanting, only that the wrong forum was chosen. Consistent with my commitment to judicial restraint and practical workability, I would affirm the Eleventh Circuit's vacatur and dismissal without prejudice, which vindicates the defendant's venue rights without converting a procedural defect into a windfall acquittal that immunizes a factually guilty defendant from any prosecution.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A careful textualist and originalist reading of Article III, Section 2, Clause 3 and the Sixth Amendment reveals that venue is not merely a procedural convenience but a constitutionally mandated element of a valid criminal prosecution \u2014 the Framers deliberately embedded venue requirements in two separate constitutional provisions precisely to protect defendants from being tried in remote or hostile forums. Under Burks v. United States, 437 U.S. 1 (1978), and United States v. Martin Linen Supply Co., 430 U.S. 564 (1977), the Double Jeopardy Clause bars retrial when the government's evidence is legally insufficient to sustain a conviction, and because federal courts routinely instruct juries that they must acquit if the government fails to prove venue by a preponderance of the evidence, a judicial determination of the same insufficiency should carry identical double jeopardy consequences under Evans v. Michigan, 568 U.S. 313 (2013). The Eleventh Circuit's approach of vacating without prejudice impermissibly conflates the constitutional venue question with the separate Double Jeopardy analysis, and allowing the government a second opportunity to prosecute in a properly venued district after failing to prove venue at trial effectively nullifies the constitutional protection by permitting exactly the kind of prosecutorial overreach the Framers sought to prevent. While I acknowledge the force of the government's argument that venue speaks to where rather than whether a crime occurred, the original public meaning of these constitutional provisions, combined with the Court's precedent treating jury instructions on venue as acquittal-triggering, compels the conclusion that dismissal with prejudice is the constitutionally required remedy.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a justice deeply committed to procedural fairness and protecting defendants from government overreach, I find that when the government fails to prove venue at trial \u2014 a constitutionally mandated element rooted in both Article III and the Sixth Amendment \u2014 the Double Jeopardy Clause bars retrial under the framework established in Burks v. United States, 437 U.S. 1 (1978). Burks unequivocally held that reversal for evidentiary insufficiency, as opposed to trial error, precludes retrial because it would allow the government to 'strengthen its case' after failing to 'muster' sufficient proof in the first proceeding \u2014 a principle that applies with equal force whether the insufficiency concerns an element of guilt or venue. The government's characterization of venue as a mere procedural convenience rather than a constitutional safeguard is belied by the text of both Article III and the Sixth Amendment, which explicitly guarantee trial in the district where the crime was committed, and treating venue proof failure as categorically distinct from other evidentiary failures creates precisely the 'purely arbitrary distinction' Burks warned against. My background as a public defender reinforces my concern that permitting retrial after a venue failure effectively gives the government a second opportunity to cure its own evidentiary deficiency, placing an asymmetric burden on defendants who have already endured one trial.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.73,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.47,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.47,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "21-1576",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the proper remedy for the government's failure to prove venue at trial is a judgment of acquittal barring reprosecution, or whether the government may retry the defendant for the same offense in a different venue.",
+      "legal_provision": "U.S. Constitution Article III, Section 2, Clause 3 (trial in the state where the crime was committed); Sixth Amendment (right to trial in the district where the crime was committed); Fifth Amendment Double Jeopardy Clause; Federal Rule of Criminal Procedure 18 (venue in criminal cases)",
+      "petitioner_position": "Timothy J. Smith argues that when the government fails to prove venue at trial, the proper remedy is a judgment of acquittal that bars reprosecution under the Double Jeopardy Clause, consistent with the holdings of the Fifth and Eighth Circuits. He contends that venue is a fundamental constitutional right \u2014 not merely a procedural convenience \u2014 rooted in common-law heritage, and that allowing retrial in a different venue after a venue failure effectively permits the government to get a second bite at the apple, undermining constitutional protections. Smith further argues that the Eleventh Circuit erred by vacating and dismissing his conviction without prejudice rather than directing a judgment of acquittal.",
+      "respondent_position": "The United States argues that the court of appeals permissibly vacated and dismissed the count without prejudice because a venue defect is a non-jurisdictional procedural matter rather than a substantive element of the offense, and therefore does not trigger Double Jeopardy protections. The government contends that failure to prove venue does not constitute an acquittal on the merits, and that allowing retrial in a proper venue serves the interests of justice without offending constitutional guarantees. The government further asserts that the majority of circuit courts \u2014 the Sixth, Ninth, Tenth, and Eleventh Circuits \u2014 have correctly held that retrial in a proper venue is permissible after a venue defect is established.",
+      "key_precedents": [
+        "United States v. Cabrales, 524 U.S. 1 (1998) \u2014 Supreme Court ruling on venue propriety based on where essential conduct elements of the offense occurred",
+        "United States v. Cores, 356 U.S. 405 (1958) \u2014 Supreme Court explanation that venue determination requires identifying where the crime was committed, as a safeguard against prosecuting accused in remote places",
+        "Travis v. United States \u2014 Supreme Court holding that venue was constitutionally improper where Congress carefully indicated the locus of the crime",
+        "United States v. Auernheimer, 748 F.3d 525 (3rd Cir. 2014) \u2014 Third Circuit case cited by petitioner regarding improper venue in computer crime cases based on physical location of servers and defendant",
+        "United States v. Jones, No. 3:16CR428-MHT (M.D. Ala. 2017) \u2014 District court decision denying pretrial motion to dismiss for improper venue due to underlying factual disputes",
+        "United States v. Smith, 22 F.4th 1236 (11th Cir. 2022) \u2014 Eleventh Circuit opinion below, vacating and dismissing count without prejudice rather than directing acquittal",
+        "United States v. Smith, 469 F. Supp. 3d 1249 (N.D. Fla. 2020) \u2014 District court order denying motion for judgment of acquittal on venue grounds"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The conference has reached unanimity, which is itself significant, but I want to be clear about the narrow grounds on which I would rest the majority opinion. Justice Alito's concession \u2014 that the Burks framework and doctrinal consistency require joining the Petitioner's position \u2014 actually reinforces my view that the opinion should be written narrowly: we should hold only that when the government submits venue to the jury as a required finding and the jury's verdict reflects insufficient evidence of venue, the Double Jeopardy Clause bars retrial, without reaching the broader originalist claims about the constitutional status of venue that Justices Thomas and Gorsuch advance. Justice Kagan's Evans v. Michigan point about the arbitrary distinction between jury acquittals and appellate findings of the same insufficiency is the strongest analytical pillar for the majority opinion, and I would build the holding around that principle rather than the more sweeping historical arguments. As Chief Justice, I would assign this opinion to Justice Kagan or myself to ensure the holding remains tethered to Burks and Evans rather than expanding into broader constitutional territory that this case does not require us to resolve.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the most serious challenge by arguing that venue is a 'procedural safeguard' rather than an element of the offense, and that the Double Jeopardy Clause's acquittal bar was designed only for insufficiency on the substantive offense itself. But this distinction between 'procedural' and 'substantive' elements is precisely the kind of judge-made gloss untethered from constitutional text and history that I have consistently rejected \u2014 the Constitution itself, in both Article III, Section 2, Clause 3 and the Sixth Amendment, treats venue as a mandatory condition of trial, not a mere procedural convenience, and the Founding-era common law did not recognize this modern bifurcation. Justice Gorsuch correctly identifies that the historical record confirms the Framers understood venue protections as fundamental safeguards against Crown abuses, meaning the original public meaning of the Double Jeopardy Clause would not have carved out a special exception permitting the government to retry a defendant after failing to prove a constitutionally required fact at trial. The government's 'practical consequences' argument \u2014 that guilty defendants might escape accountability \u2014 cannot override constitutional text; the Founders accepted that the Double Jeopardy Clause would sometimes benefit the guilty, and it is not our role to rewrite constitutional protections because we find their application inconvenient in particular cases.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Having engaged carefully with my colleagues' arguments, I am persuaded to maintain my position for the Petitioner, though I write to clarify my reasoning. Justice Kagan's point about the 'purely arbitrary distinction' condemned in Burks remains the most compelling to me as a matter of doctrinal consistency \u2014 if a jury acquittal on venue grounds would unquestionably bar retrial under our precedents, it is logically indefensible to permit the Eleventh Circuit's vacatur-without-prejudice remedy simply because an appellate court rather than the jury identified the same evidentiary insufficiency. I continue to harbor reservations about the broader originalist claims advanced by Justices Thomas and Gorsuch \u2014 I would not reach the question of whether venue is constitutionally equivalent to a substantive element in all contexts \u2014 but in this specific procedural posture, where venue was submitted to the jury as a required finding and the government failed to carry its burden, the Burks framework controls and the Double Jeopardy bar applies. I would write separately to emphasize the narrowness of this holding: we are not deciding that venue can never be retried in a different district after a procedural defect, but only that when the government submits venue to the jury and loses on sufficiency grounds, it cannot obtain a second opportunity to prove what it failed to prove the first time.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito raises the most serious challenge to our position \u2014 that venue is a procedural safeguard governing *where* trial occurs rather than an element of the offense itself, and that the Double Jeopardy Clause's acquittal bar under Burks was designed to prevent retrial on the substantive offense, not to immunize defendants from prosecution in the proper forum. But this argument, while pragmatically appealing, cannot be squared with the constitutional text or our precedents: Article III and the Sixth Amendment treat venue as a constitutionally mandated condition of trial, not a mere procedural convenience, and as Justice Kagan correctly observes, the Eleventh Circuit's vacatur-without-prejudice approach creates precisely the 'purely arbitrary distinction' Burks condemned \u2014 where the same failure of proof produces different remedies depending solely on who made the finding. The practical concern that guilty defendants might escape accountability is real, but it is the same concern present in every Burks case, and we have consistently held that the government's failure to carry its burden of proof at trial is the government's problem to bear, not the defendant's constitutional rights to sacrifice. Justice Alito's distinction between 'procedural' and 'substantive' elements is itself a judge-made gloss unsupported by constitutional text, and I find Justice Thomas's point on this score particularly compelling \u2014 the Founding-era understanding of autrefois acquit did not carve out such exceptions.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's partial concession in Round 2 is significant \u2014 even the justice most skeptical of our position acknowledges that the founding-era autrefois acquit doctrine did not carve out a procedural/substantive distinction, and that the arbitrary inconsistency between jury acquittals and appellate findings of venue insufficiency is doctrinally indefensible. I am gratified that Justice Roberts has converged on the narrow Burks-based rationale I favor, rather than the broader originalist claims advanced by Justices Thomas and Gorsuch \u2014 this case should be decided on the specific procedural posture where venue was submitted to the jury and found insufficient, without resolving every question about venue's constitutional status. Justice Alito's separate concurrence concern about limiting the holding to cases where venue was actually submitted to and resolved by the jury is a sound institutional instinct that I share, and I would welcome that limiting principle in the majority opinion itself rather than a separate writing. The government had a full and fair opportunity to prove venue, failed, and the Double Jeopardy Clause's core purpose \u2014 preventing the government from using its superior resources to wear down defendants through repeated prosecutions \u2014 is directly implicated here regardless of whether we label venue 'procedural' or 'substantive.'",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that the Double Jeopardy Clause protects against being tried twice for the 'same offence' and that venue is a procedural safeguard governing where trial occurs rather than whether the defendant committed the underlying conduct. But this argument proves too much: the constitutional text of Article III and the Sixth Amendment does not treat venue as a mere procedural nicety, and the Framers' deliberate inclusion of venue requirements in two separate constitutional provisions signals that venue is a constitutionally mandated condition of a valid trial, not an afterthought. As Justice Thomas correctly notes, the 'procedural versus substantive' distinction is itself a modern judicial invention untethered from constitutional text or history \u2014 the Founding-era understanding of autrefois acquit did not carve out such exceptions. Under Burks, the relevant question is whether the government failed to carry its burden of proof on a required element at trial; when venue is submitted to the jury and the government's evidence is legally insufficient, the rule of lenity and the constitutional text both counsel that the Double Jeopardy bar applies, and the Eleventh Circuit's vacatur-without-prejudice remedy creates precisely the arbitrary distinction Burks condemned.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's move to join the Petitioner position, even at reduced confidence with a stated intent to write separately, actually reinforces my own institutionalist concerns about the scope of this holding. I agree with Chief Justice Roberts that the narrowest and most defensible path is to ground the majority opinion firmly in Burks and the specific procedural posture here \u2014 where venue was submitted to the jury as a required finding and the government's evidence was found insufficient \u2014 rather than adopting the broader originalist framework advanced by Justices Thomas and Gorsuch. The Eleventh Circuit's vacatur-without-prejudice approach creates precisely the arbitrary distinction Burks condemned, and Justice Kagan's point about Evans v. Michigan reinforces that our precedents do not permit the remedy to turn on the identity of the decisionmaker. I would caution against writing an opinion that resolves the broader constitutional status of venue beyond what this case requires, as the Court's institutional legitimacy is best served by deciding no more than necessary.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "After reviewing my colleagues' arguments in round two, I find the conference has converged on a sound constitutional basis for ruling in favor of the petitioner, and I write to explain why I maintain and slightly strengthen my position. Justice Alito's move to join the petitioner's side \u2014 despite his residual practical concerns \u2014 is significant precisely because he is the colleague most sympathetic to the government's 'geographic technicality' argument, and his acknowledgment that the founding-era understanding of autrefois acquit did not carve out procedural exceptions confirms that the originalist and textualist foundations here are genuinely strong. Justice Roberts correctly identifies the institutionally narrow path: we need not resolve every question about venue's constitutional status in the abstract, but only hold that when the government submits venue to the jury as a required finding and fails to carry its burden, Burks v. United States compels the same result as any other acquittal for insufficient evidence. Justice Kagan's Evans v. Michigan point remains the most analytically decisive for me \u2014 the Double Jeopardy protection cannot rationally turn on the identity of the decisionmaker, and the Eleventh Circuit's vacatur-without-prejudice remedy creates precisely the 'purely arbitrary distinction' our precedents condemn, regardless of whether one approaches this question through originalism, textualism, or precedent-based reasoning.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito's movement toward our position \u2014 despite his initial skepticism \u2014 is telling, and his concession that the founding-era understanding of autrefois acquit did not carve out procedural exceptions validates the core of Justice Thomas's originalist argument. The unanimous convergence across very different judicial methodologies (originalism, pragmatism, precedent-based reasoning) strongly confirms that the Eleventh Circuit's vacatur-without-prejudice remedy cannot stand. I am particularly persuaded by Justice Kagan's doctrinal point, which I share: the arbitrary distinction between a jury acquittal on venue insufficiency (which unquestionably bars retrial) and an appellate finding of the identical insufficiency (which the Eleventh Circuit treats differently) is precisely the kind of irrational asymmetry Burks condemned, and no coherent theory of Double Jeopardy can make that distinction turn on the identity of the decisionmaker rather than the quality of the government's proof. My background as a public defender reinforces that this asymmetry imposes the heaviest burden on defendants with the fewest resources, who must mount repeated defenses while the government gets unlimited opportunities to cure its own evidentiary failures \u2014 a result the Constitution's venue protections were specifically designed to prevent.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Double Jeopardy Clause analysis under Burks v. United States (1978) compels the conclusion that when the government fails to prove venue at trial \u2014 a matter submitted to the jury as an element requiring proof by preponderance \u2014 the resulting insufficiency is functionally indistinguishable from evidentiary insufficiency on any other element, and retrial is barred. The narrow, institutionally cautious path here is to apply existing Double Jeopardy doctrine consistently rather than carve out a novel exception for venue that would require this Court to characterize venue as categorically non-merits in a way that conflicts with how courts actually instruct juries. The circuit split between the Fifth and Eighth Circuits on one side and the Eleventh Circuit on the other is genuine and irreconcilable, and the Eleventh Circuit's approach of vacating without prejudice creates an arbitrary distinction \u2014 condemned in Burks \u2014 that turns on the identity of the decisionmaker rather than the sufficiency of the government's proof. Institutional legitimacy counsels resolving this split by applying settled precedent uniformly rather than permitting the government a second opportunity to cure a failure of proof it had a full and fair chance to address at trial.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The original public meaning of the Double Jeopardy Clause, rooted in the common law doctrine of autrefois acquit, understood that any acquittal following the government's failure of proof at trial barred reprosecution \u2014 the Founding-era understanding did not carve out exceptions for 'procedural' versus 'substantive' elements, a distinction that is itself a modern judicial invention untethered from constitutional text or history. Article III, Section 2, Clause 3 and the Sixth Amendment independently require proof of proper venue as a constitutional prerequisite to a valid conviction, and when the government's evidence is legally insufficient to sustain a conviction on any required element \u2014 including venue \u2014 the Double Jeopardy Clause attaches under the principle articulated in United States v. Martin Linen Supply Co., 430 U.S. 564 (1977). The government's argument that venue is merely 'procedural' and thus exempt from double jeopardy protection reflects precisely the kind of ahistorical, judge-made doctrinal gloss I have consistently rejected; the text of the Constitution and its original meaning do not support a tiered system of constitutional rights where some trial failures permit a second bite at the apple. Allowing retrial after a venue failure effectively nullifies the constitutional venue guarantee by reducing it to a mere procedural inconvenience, contrary to the Founders' deliberate design to protect accused persons from being hauled into distant or hostile forums.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must examine what the Double Jeopardy Clause actually protects against \u2014 being tried twice for the 'same offence' after an acquittal or conviction on the merits. Venue is not an element of the offense defined by statute; it is a constitutionally prescribed procedural safeguard governing where a trial occurs, not whether the defendant committed the underlying conduct. The practical consequences of adopting petitioner's rule are severe: a defendant who commits a clear federal crime could escape all accountability simply because the government failed to present sufficient venue evidence at trial, even where the underlying guilt is not in dispute. While I take seriously the constitutional dimensions of venue as articulated in Cores and the Article III and Sixth Amendment provisions, the Double Jeopardy Clause's acquittal bar under Burks v. United States (1978) was designed to prevent retrial after insufficiency of evidence on the substantive offense itself \u2014 not to immunize defendants from prosecution in the proper forum when a procedural venue defect is identified.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The Double Jeopardy Clause, as interpreted in Burks v. United States, 437 U.S. 1 (1978), bars retrial whenever the government's evidence is legally insufficient to sustain a conviction \u2014 and the government's failure to prove venue at trial is precisely such an insufficiency. Venue is not a mere procedural technicality; it is a constitutional safeguard rooted in Article III and the Sixth Amendment, designed to protect defendants from being hauled into remote or hostile forums, as this Court recognized in United States v. Cores. Allowing the government to retry a defendant in a different venue after failing to prove venue at the first trial gives the prosecution an impermissible second bite at the apple \u2014 the very evil Burks sought to prevent \u2014 and creates an arbitrary distinction between jury acquittals on venue grounds and appellate reversals for the same insufficiency, which Evans v. Michigan, 568 U.S. 313 (2013), explicitly condemned. From a practical standpoint, permitting retrial after a venue failure disproportionately burdens defendants with fewer resources to mount a second defense, undermining the fundamental fairness that constitutional venue protections were designed to guarantee.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Double Jeopardy Clause analysis under Burks v. United States, 437 U.S. 1 (1978), draws a critical distinction between reversals based on trial error \u2014 which permit retrial \u2014 and reversals based on evidentiary insufficiency \u2014 which bar reprosecution. When the government fails to prove venue at trial, that failure is functionally indistinguishable from an insufficiency of the evidence: the government simply did not carry its burden of proof on a required element that the jury was instructed to find. The Eleventh Circuit's approach of vacating without prejudice creates precisely the 'purely arbitrary distinction' Burks warned against, where the remedy turns not on the quality of the government's proof but on who made the finding \u2014 producing the anomaly that a jury acquittal on venue grounds would bar retrial while an appellate finding of the same venue failure would not. While I recognize the government's pragmatic concern that venue is procedural in character, the constitutional text of both Article III and the Sixth Amendment, combined with the common-law heritage of venue as a defendant's protection against remote prosecution articulated in Cores, 356 U.S. 405 (1958), compels treating a proven venue failure as a merits-equivalent acquittal that triggers Double Jeopardy protection.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, I must take seriously the constitutional text of Article III, Section 2 and the Sixth Amendment, both of which treat venue as a constitutionally mandated condition of trial \u2014 not a mere procedural nicety. The historical record at the Founding confirms that venue protections were understood as fundamental safeguards against the Crown's practice of hauling defendants to distant or hostile forums, suggesting the Framers intended these provisions to carry real teeth. Under Burks v. United States, 437 U.S. 1 (1978), when the government fails to carry its burden of proof at trial \u2014 whether on an element or a constitutionally required fact like venue \u2014 the Double Jeopardy Clause bars retrial, because allowing the government a second attempt after a failure of proof would undermine the finality that the Clause was designed to protect. The government's characterization of venue as merely 'procedural' cannot be squared with the constitutional text, the common-law heritage, or the jury's role in finding venue facts, and the rule of lenity further counsels resolving any ambiguity in the defendant's favor.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The Double Jeopardy Clause's core principle, as articulated in Burks v. United States (1978), is that when the government fails to produce sufficient evidence to sustain a conviction at trial, the defendant is entitled to an acquittal that bars retrial \u2014 the government does not get a second bite at the apple. Venue is not merely a procedural technicality; this Court has repeatedly emphasized in cases like Johnson v. United States and Travis v. United States that venue questions are 'more than matters of mere procedure,' and the Constitution itself \u2014 in both Article III and the Sixth Amendment \u2014 mandates trial in the proper district as a substantive protection for defendants. When the government puts venue before the jury and fails to prove it beyond a reasonable doubt, that failure of proof is functionally indistinguishable from failing to prove any other required element, and Sanabria v. United States (1978) confirms that acquittals resulting from insufficient proof of required elements \u2014 even non-traditional ones like jurisdictional facts \u2014 bar reprosecution. While I recognize the practical concerns about allowing guilty defendants to escape justice on venue technicalities, the institutional integrity of the Court's Double Jeopardy jurisprudence and the constitutional text demand a consistent rule that does not permit the government to retry defendants after failing to meet its evidentiary burden at trial.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text and original public meaning of both Article III, Section 2, Clause 3 and the Sixth Amendment establish venue as a constitutionally mandated requirement \u2014 not merely a procedural convenience \u2014 rooted in the common-law tradition of protecting defendants from being hauled before distant tribunals. When the government bears the burden of proving venue at trial and fails to do so, the analytical framework established in Burks v. United States (1978) counsels that a failure of proof on a constitutionally required element should result in an acquittal barring retrial, because allowing the government a second opportunity to cure its evidentiary failure is precisely the kind of prosecutorial overreach the Double Jeopardy Clause was designed to prevent. The Eleventh Circuit's vacatur-without-prejudice remedy effectively permits unlimited serial retrials, a result that sits in deep tension with the constitutional text and the historical purposes of the venue provisions as articulated in United States v. Cores (1958), which emphasized venue as a safeguard against remote prosecution. While I acknowledge the government's Blockburger-based argument that venue in different districts constitutes different 'offenses,' that reasoning proves too much and would render the constitutional venue guarantee largely illusory as a practical protection.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Double Jeopardy Clause's protections, as articulated in Burks v. United States, 437 U.S. 1 (1978), establish that when the government's evidence is insufficient to sustain a conviction \u2014 whether on a substantive element or on venue \u2014 the proper remedy is a judgment of acquittal barring reprosecution, not a dismissal without prejudice that permits the government a second opportunity to cure its evidentiary failures. Venue is not merely a procedural convenience; it is a constitutional safeguard rooted in Article III, Section 2 and the Sixth Amendment, designed to protect defendants from being hauled into remote or unfavorable forums \u2014 a protection with particular salience given the historical abuses that motivated these provisions. Allowing the government to retry a defendant in a different venue after failing to prove venue at trial effectively grants prosecutors a second bite at the apple, undermining the core Double Jeopardy principle that the government must marshal sufficient proof the first time. My background as a public defender reinforces my concern that permitting retrial after a government failure of proof creates asymmetric burdens that fall disproportionately on defendants with fewer resources to mount repeated defenses.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.813,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

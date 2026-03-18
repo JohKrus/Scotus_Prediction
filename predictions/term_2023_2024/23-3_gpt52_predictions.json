@@ -1,0 +1,619 @@
+[
+  {
+    "docket": "23-3",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "When an earlier arbitration agreement includes a delegation clause, who decides whether a later, related contract that is silent about arbitration narrows or supersedes that arbitration agreement\u2014the court or the arbitrator?",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 2 (enforceability of written arbitration agreements in contracts evidencing a transaction involving commerce), with related arbitrability/delegation doctrine under the FAA (including the Court\u2019s \u201cclear and unmistakable\u201d standard).",
+      "petitioner_position": "Coinbase argues that because the parties\u2019 earlier User Agreement contains a broad arbitration clause plus a delegation provision (often via incorporation of arbitral rules that assign arbitrability to the arbitrator), the FAA requires enforcing that delegation. Under Supreme Court precedent, once there is \u201cclear and unmistakable\u201d delegation, questions about the scope/enforceability of arbitration\u2014including whether a later contract purportedly narrows, modifies, or supersedes arbitration\u2014must be decided by the arbitrator unless the delegation clause itself is specifically challenged. Coinbase and its amici emphasize the FAA\u2019s pro-arbitration, efficiency-oriented policy: sending the \u2018later contract modifies arbitration\u2019 question to court undermines delegation clauses, invites front-end litigation, and creates uncertainty for common multi-document consumer/business relationships. They also contend the Ninth Circuit\u2019s approach deepens a split, because some courts treat this as a gateway issue reserved for courts while others compel arbitration and let the arbitrator decide the effect of the later agreement.",
+      "respondent_position": "Respondents argue there is no \u2018clear and unmistakable\u2019 agreement to delegate arbitrability for disputes arising under the later sweepstakes contracts, which are silent about arbitration and therefore do not manifest an intent to send sweepstakes-related disputes (or the threshold question of the proper forum) to an arbitrator. They contend courts must decide whether an arbitration agreement exists/continues to apply after a subsequent contract, and that this case is fact-bound and unusual (\u2018one-off\u2019), making it a poor vehicle. They also raise a threshold FAA applicability issue, disputing whether Coinbase\u2019s User Agreements qualify as \u2018contract[s] evidencing a transaction\u2019 under FAA \u00a7 2. In their view, allowing an arbitrator to decide whether the later contract displaced arbitration would improperly assume the very point in dispute\u2014whether the parties agreed to arbitrate (and delegate) sweepstakes-related disputes at all.",
+      "key_precedents": [
+        "Coinbase, Inc. v. Bielski, 599 U.S. 736 (2023) (FAA stay pending interlocutory appeal under 9 U.S.C. \u00a7 16)",
+        "Henry Schein, Inc. v. Archer & White Sales, Inc. (delegation clauses; courts must respect delegation when clear and unmistakable and not specially challenged)",
+        "Viking River Cruises, Inc. v. Moriana, 596 U.S. 639 (2022) (FAA preemption/structure of arbitration agreements)",
+        "SMJ General Construction, Inc. v. Jet Commercial Construction, LLC, 440 P.3d 210 (Alaska 2019) (state supreme court holding courts decide whether successive contracts require arbitration despite delegation language in earlier contract)",
+        "Transcor Astra Group S.A. v. Petrobras America Inc., 650 S.W.3d 462 (Tex. 2022) (Texas Supreme Court approach to delegation/successive contracts context)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan and Justice Gorsuch press the strongest point: once a \u201cclear and unmistakable\u201d delegation is concededly formed, Rent-A-Center and Henry Schein generally require sending gateway disputes\u2014including continuing-effect questions\u2014to the arbitrator absent a specific challenge to the delegation clause itself. But that framing still presupposes that the conceded delegation agreement is the operative agreement for this dispute after an alleged later contract; Granite Rock and First Options preserve a limited, antecedent judicial duty to determine whether the parties made an agreement to arbitrate (and thus to delegate) this controversy at all. My narrow approach does not resurrect a \u201cwholly groundless\u201d exception barred by Schein; it confines courts to deciding the discrete supersession/existence issue, and only if the earlier delegation survives does the arbitrator decide all other arbitrability questions. That line best protects consent and institutional legitimacy by avoiding bootstrapping arbitrators\u2019 jurisdiction from an instrument whose continued governance is itself the threshold dispute.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Chief Justice Roberts\u2019s bootstrapping concern is the strongest Respondent point, but it misdescribes what First Options and Granite Rock require: courts must decide whether an agreement to delegate was formed, not whether a concededly formed delegation clause should be displaced based on a later, arbitration-silent contract. As Justice Alito and Justice Gorsuch explain, treating \u201csupersession\u201d as an antecedent judicial \u2018existence/applicability\u2019 question would create a nontextual carve-out from Rent-A-Center\u2019s severability rule, allowing parties to evade delegation simply by relabeling a scope/continuing-effect dispute as formation. Henry Schein reinforces that once a clear and unmistakable delegation is established, we lack authority to interpose a judicial screen for gateway issues the parties assigned to the arbitrator, and the FAA\u2019s text requires enforcing that written allocation \u201caccording to [its] terms.\u201d Policy concerns about notice or fairness, raised by Justice Sotomayor and Justice Jackson, cannot justify reassigning the delegated question to courts under an originalist and textualist reading of the statute and the parties\u2019 agreement.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Chief Justice Roberts\u2019s \u201csupersession-as-antecedent existence\u201d framing is the strongest Respondent point, grounded in First Options and Granite Rock, but it stretches those cases beyond their formation/assent role where (as everyone concedes) the earlier arbitration agreement and its clear delegation clause were validly formed. Treating any later-contract supersession argument as a court-resolved \u201cexistence\u201d question effectively creates an atextual carve-out from Rent-A-Center\u2019s severability rule, allowing parties to evade delegation simply by invoking a subsequent writing. Henry Schein reinforces that once the parties have clearly delegated arbitrability, courts may not decide the very gateway dispute (here, whether the earlier arbitration regime continues to govern) absent a specific challenge to the delegation provision itself\u2014a line Justice Kagan articulates in administrable, consent-respecting terms. Justice Sotomayor\u2019s and Justice Jackson\u2019s bootstrapping/fairness concerns are policy arguments that cannot justify reclassifying a delegated scope/continuing-effect dispute into a formation inquiry under the FAA\u2019s command to enforce arbitration agreements according to their terms.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Kagan and Justice Gorsuch are right that Rent-A-Center and Henry Schein require courts to honor a clear delegation clause and not invent a \u201cwholly groundless\u201d screen for gateway disputes. But their argument still presupposes a prior judicial determination that the conceded delegation clause is the operative agreement governing this later transaction; Granite Rock and First Options reserve that antecedent consent inquiry to courts, and it cannot be answered by the arbitrator without bootstrapping authority from an instrument whose continuing force is itself disputed. Chief Justice Roberts\u2019s narrower approach appropriately limits courts to deciding the supersession/existence question and then, only if the delegation survives, sending remaining arbitrability issues to the arbitrator\u2014an administrable line that respects the FAA\u2019s consent premise in multi-document consumer settings. Henry Schein does not compel a different result because it operates after a court concludes the parties actually agreed to delegate arbitrability for this dispute, which is exactly what the supersession claim puts in question.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Jackson\u2019s bootstrapping point\u2014that courts must first decide whether a later contract displaced the earlier delegation clause under Granite Rock and First Options\u2014presses on the consent premise, but it stretches \u201cformation\u201d beyond its administrable boundary. Here, the parties concede a written, clear-and-unmistakable delegation agreement was formed; the later document is merely silent, so the dispute is about the continuing effect/scope of an admitted delegation, which Rent-A-Center treats as severably enforceable absent a specific challenge to the delegation itself. If we let \u201csupersession\u201d automatically recharacterize a delegated scope question into a judicial \u201cexistence\u201d inquiry, we invite exactly the front-end litigation Henry Schein rejected once delegation is established. On my pragmatic textualist view, the workable rule that best enforces the FAA \u201caccording to [the agreement\u2019s] terms\u201d is: courts decide genuine assent/formation challenges to the delegation clause; otherwise, the arbitrator decides whether later documents superseded the earlier arbitration framework.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Chief Justice Roberts\u2019s bootstrapping point usefully stresses that courts must decide genuine formation disputes under First Options and Granite Rock, and I accept that a court must confirm the parties actually agreed to delegate. But here, as Justice Kagan emphasizes, formation and clarity of the delegation clause are conceded; the later contract is merely silent, so the dispute is about the continuing effect/scope of an existing arbitration regime, which Rent-A-Center treats as for the arbitrator absent a specific challenge to the delegation provision itself. Recasting every supersession defense as an \u201cexistence\u201d question would create an atextual carve-out that invites the very front-end litigation Henry Schein rejected once delegation is established. Justice Jackson\u2019s fairness/notice concerns are substantial, but under the FAA\u2019s command to enforce agreements \u201caccording to their terms,\u201d those policy concerns cannot justify shifting a delegated gateway question back to the courts without a targeted attack on the delegation agreement.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Chief Justice Roberts\u2019s bootstrapping concern is the strongest Respondent point: Granite Rock and First Options do require a court to decide whether the parties formed an agreement to arbitrate (and delegate) in the first place. But here, as Justice Kagan stresses, the delegation clause\u2019s formation and \u201cclear and unmistakable\u201d character are conceded; the later-contract supersession theory is best characterized as a dispute over the continuing effect/scope of that conceded arbitration framework, which Rent-A-Center treats as delegated absent a specific challenge to the delegation provision itself. Henry Schein then forecloses a judicial carve-out that would let courts decide this gateway question merely by relabeling it \u201cexistence/applicability\u201d whenever a party asserts a later document displaced the earlier regime. Institutionally, I understand the fairness/notice worry Justice Jackson raises, but under the FAA\u2019s enforce-according-to-terms command, the more administrable and legitimacy-preserving line is to police genuine assent challenges to delegation, not to expand them to cover supersession defenses that go to arbitrability.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.79,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Jackson\u2019s bootstrapping concern is the strongest point for Respondent, but it depends on reclassifying a conceded, clearly formed delegation clause as non-operative whenever a later contract is asserted\u2014an inquiry that, in substance, asks whether the earlier arbitration framework continues to govern, which is the kind of gateway question the parties delegated. Granite Rock and First Options require courts to decide whether any arbitration agreement was formed; they do not, on their terms, authorize courts to decide a supersession defense that targets the contract as a whole rather than the delegation clause specifically, which Rent-A-Center treats as severable and enforceable absent a focused challenge. Henry Schein then forecloses a judicial merits-like screening of delegated arbitrability disputes simply because the court finds the supersession argument persuasive. As Justice Kagan notes, an administrable, text-faithful line is to reserve for courts only genuine formation/assent disputes about the delegation itself; otherwise, enforce the delegation \u201caccording to [its] terms\u201d and let the arbitrator decide supersession.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.69,
+        "reasoning": "Justice Kagan\u2019s and Justice Barrett\u2019s strongest point is that Rent-A-Center and Henry Schein require honoring a concededly clear delegation clause absent a specific attack on that delegation, and I agree that courts cannot revive a \u201cwholly groundless\u201d screen once a governing delegation is established. But that framing still presupposes what Granite Rock and First Options require a court to determine first: whether the earlier delegation clause is the operative agreement for this later-contract dispute at all, given a plausible supersession by a subsequent bargain. Chief Justice Roberts persuasively identifies the bootstrapping problem\u2014delegation cannot be used to prove its own continuing applicability across successive consumer contracts\u2014so a narrow judicial inquiry into supersession/existence is procedurally fair and consent-protective without sliding into merits review. Henry Schein, as I read it, limits judicial discretion only after we are satisfied the delegation provision actually governs this controversy; it does not erase the antecedent judicial duty to identify the controlling agreement.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.64,
+        "reasoning": "Under the FAA, courts must first satisfy themselves that an arbitration agreement exists and is applicable to the dispute before compelling arbitration under 9 U.S.C. \u00a7 2, and the \u201cclear and unmistakable\u201d standard requires an affirmative showing that the parties agreed to delegate arbitrability for the controversy at hand. Rent-A-Center and Henry Schein require enforcement of a delegation clause when the parties\u2019 dispute is about the validity or scope of an existing arbitration agreement and the delegation itself is not specifically challenged, but they do not permit an arbitrator to assume the continued existence/applicability of the arbitration agreement when the parties\u2019 threshold dispute is whether a later contract displaced it. A narrow, institutionally modest resolution is that a court decides whether the later, related agreement superseded or limited the earlier arbitration-and-delegation arrangement; only if the court finds the earlier arbitration agreement still governs does Schein require sending remaining arbitrability questions to the arbitrator. This approach preserves delegation where clearly agreed while respecting the judiciary\u2019s gateway role recognized in First Options and avoids extending the FAA beyond demonstrated consent.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The FAA provides that a written agreement to arbitrate \u201cshall be valid, irrevocable, and enforceable.\u201d 9 U.S.C. \u00a7 2, and that command applies equally to a separate delegation agreement. Under Rent-A-Center, West, Inc. v. Jackson, a delegation clause is \u201can additional, antecedent agreement\u201d that must be enforced unless the delegation provision itself is specifically challenged; Henry Schein likewise holds courts may not decide delegated arbitrability questions even if the arbitration argument seems weak. Here, once the existence of an earlier arbitration agreement with a clear delegation clause is shown, the dispute over whether a later related contract silently narrows or supersedes that agreement is a question of the arbitration agreement\u2019s continuing applicability/scope that the parties assigned to the arbitrator. Allowing courts to resolve that question notwithstanding an undisputed delegation clause would contradict the textually mandated enforcement regime of the FAA and the Court\u2019s clear-and-unmistakable delegation doctrine.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Under the FAA, 9 U.S.C. \u00a7 2, courts must enforce written arbitration agreements according to their terms, including a separate delegation provision that is an \u201cadditional, antecedent agreement\u201d to arbitrate arbitrability. Rent-A-Center requires a court to compel arbitration of gateway questions unless the party resisting arbitration specifically challenges the delegation clause itself, and Henry Schein reinforces that courts may not carve out even \u201cwholly groundless\u201d arbitrability disputes when delegation is clear and unmistakable. The question whether a later, related contract silently narrows or supersedes the earlier arbitration arrangement is, in substance, a dispute about the continued scope/applicability of the earlier arbitration agreement, and thus falls within a valid delegation absent a targeted delegation challenge. Sending that issue to courts would invite front-end litigation and undercut the practical benefits of delegation clauses that the FAA and our precedents protect.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The FAA makes written arbitration agreements enforceable, 9 U.S.C. \u00a7 2, but it does not authorize courts to presume arbitration (or delegation) where the parties\u2019 later agreement is silent and plausibly reflects a different bargain; a court must first determine whether an agreement to arbitrate this dispute exists before it can compel arbitration. Rent-A-Center treats a delegation clause as an \u201cadditional, antecedent agreement\u201d that must itself be enforced only when the parties clearly agreed to delegate, and that clarity cannot be bootstrapped from an earlier contract to cover disputes arising under a later, separate contract whose terms may narrow or supersede the prior arrangement. Henry Schein requires courts to respect clear and unmistakable delegation and forbids a \u201cwholly groundless\u201d exception, but it does not eliminate the judiciary\u2019s threshold duty to decide whether the delegation agreement continues to govern in light of a subsequent contract that may have displaced it. Given the real-world stakes for consumers facing adhesive, multi-document relationships, requiring courts to decide this supersession question protects access to a judicial forum unless and until the parties unmistakably chose to hand that gateway decision to an arbitrator.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "FAA \u00a7 2 requires courts to enforce written arbitration agreements according to their terms, and under First Options and Henry Schein that includes enforcing a \u201cclear and unmistakable\u201d delegation of arbitrability unless the delegation provision itself is specifically challenged. If the earlier User Agreement undisputedly contains such a delegation, then the question whether a later related contract (silent on arbitration) narrows or supersedes the earlier arbitration obligation is best characterized as a scope/enforceability question the parties agreed to send to the arbitrator, not a free-standing \u201cno agreement to arbitrate\u201d formation dispute for a court. Rent-A-Center reinforces that allocation: absent a targeted attack on the delegation clause, courts may not decide gateway arbitrability questions the parties delegated. This approach is also more workable and coherent for multi-document relationships, avoiding front-end litigation over successive-contract effects that the parties opted to have the arbitrator resolve.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "FAA \u00a7 2 requires courts to enforce written arbitration agreements according to their terms, and when the parties have \"clearly and unmistakably\" delegated arbitrability, a court \"possesses no power\" to decide that threshold issue unless the delegation clause itself is specifically challenged. Henry Schein instructs that courts may not carve out arbitrability questions for themselves once delegation is established, and the severability logic of Rent-A-Center confirms that delegation is to be treated as an antecedent agreement that must be enforced as written. A contention that a later, related contract (silent on arbitration) narrows or supersedes the earlier agreement goes to the scope and continued enforceability of the arbitration arrangement the parties made\u2014not to the formation of the delegation clause\u2014and thus is for the arbitrator under the delegation provision. To hold otherwise would invite precisely the front-end judicial litigation the parties contracted to avoid and would dilute the separation-of-powers limits on judicial revision of private contracts embedded in the FAA\u2019s text.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the FAA, 9 U.S.C. \u00a7 2, courts must enforce written arbitration agreements, including a distinct delegation provision, according to their terms. Where the parties concededly formed an earlier arbitration agreement that contains a \u201cclear and unmistakable\u201d delegation of arbitrability, threshold questions about whether this particular dispute falls within (or is excluded from) that arbitration framework are for the arbitrator, absent a specific challenge to the delegation clause itself. Rent-A-Center holds that the delegation clause is an \u201cadditional, antecedent agreement\u201d that must be enforced unless specifically attacked, and Henry Schein rejects a judicial carve-out even when the pro-arbitration argument seems weak. The later contract\u2019s silence on arbitration goes to whether the dispute is within the scope or effect of the existing arbitration/delegation regime\u2014an issue the arbitrator should decide in the first instance once delegation is established, consistent with Granite Rock\u2019s formation/scope framework.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The FAA requires courts to enforce written arbitration agreements, including an antecedent delegation agreement, according to their terms. 9 U.S.C. \u00a7 2; Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63, 70\u201372 (2010). Where the earlier User Agreement contains \u201cclear and unmistakable\u201d delegation, the question whether a later, related contract silently narrows or supersedes the earlier arbitration obligation is best understood as a dispute about the continued applicability/scope of the arbitration agreement\u2014precisely the kind of threshold issue the parties delegated to the arbitrator\u2014unless the delegation provision itself is specifically challenged. Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524, 529\u201330 (2019). Respondents\u2019 characterization of the issue as \u201cexistence\u201d cannot overcome the text of the parties\u2019 delegation agreement; the court\u2019s role is limited to enforcing that delegation and leaving contract-supersession arguments for the arbitrator in the first instance.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under the FAA, a court must first be satisfied that there is an enforceable agreement to arbitrate the specific dispute at issue, because delegation cannot be used to \u201cassume the very point in dispute\u201d\u2014whether the later sweepstakes contract displaced or narrowed the earlier arbitration commitment. Rent-A-Center treats delegation as an \u201cadditional, antecedent\u201d arbitration agreement enforceable under 9 U.S.C. \u00a7 2, but that presupposes the parties clearly and unmistakably agreed to delegate arbitrability for the dispute being litigated; a later contract that is silent on arbitration can create a genuine contract-existence/supersession question for the court to resolve as a matter of procedural fairness. Henry Schein requires courts to enforce a clear delegation clause and to avoid \u201cwholly groundless\u201d merits screening, yet it does not eliminate the judiciary\u2019s threshold role in determining whether the delegation agreement governs this later contract at all. Practical consequences also counsel against allowing a drafter to bootstrap delegation across later, separate consumer contracts without clear notice, particularly where the later contract contains its own forum-selection terms and the consumer\u2019s assent is being used to expand arbitral power by implication.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.751,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "23-3",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "When an earlier arbitration agreement includes a delegation clause, who decides whether a later, related contract that is silent about arbitration narrows or supersedes the earlier agreement\u2014the court or the arbitrator?",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 2 (and related FAA principles governing enforceability of arbitration agreements and delegation of arbitrability questions).",
+      "petitioner_position": "Coinbase argues that the parties\u2019 arbitration agreement contains a broad delegation clause (often implemented by incorporating arbitral rules that assign arbitrability to the arbitrator), and under the FAA that clear delegation requires an arbitrator\u2014not a court\u2014to decide threshold questions about the arbitration agreement\u2019s scope and enforceability, including whether a later contract (here, sweepstakes terms) implicitly limits or displaces arbitration. Coinbase (and supporting amici) emphasize that forcing courts to decide whether later agreements modify earlier arbitration/delegation provisions undermines the efficiency and predictability that delegation clauses are designed to secure and conflicts with the FAA\u2019s pro-arbitration framework.",
+      "respondent_position": "Respondents contend that this dispute is not governed by a 'clear and unmistakable' delegation for sweepstakes-related claims because the later sweepstakes contract is silent on arbitration and thus does not clearly assign the forum-selection method to an arbitrator. They also raise a threshold statutory argument that Coinbase\u2019s User Agreements may not qualify as 'contract[s] evidencing a transaction' under 9 U.S.C. \u00a7 2, and they argue the case is an unusual, poor vehicle (including presenting a first-impression statutory issue) and that no court has found delegation on comparable facts\u2014supporting the Ninth Circuit\u2019s view that courts must decide whether a later contract displaced or narrowed the earlier arbitration/delegation arrangement.",
+      "key_precedents": [
+        "Coinbase, Inc. v. Bielski, 599 U.S. 736 (2023)",
+        "Viking River Cruises, Inc. v. Moriana, 596 U.S. 639 (2022)",
+        "Henry Schein, Inc. v. Archer & White Sales, Inc. (2019)",
+        "SMJ General Construction, Inc. v. Jet Commercial Construction, LLC, 440 P.3d 210 (Alaska 2019)",
+        "Transcor Astra Group S.A. v. Petrobras America Inc., 650 S.W.3d 462 (Tex. 2022)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best point: Granite Rock obliges courts to ensure an agreement to arbitrate (and thus to delegate) exists for the controversy, and a later arbitration-silent contract could, in theory, displace the earlier regime. But on this record\u2014where formation of the earlier User Agreement and its delegation clause is conceded\u2014Rent-A-Center treats that delegation as an antecedent agreement that must be enforced absent a specific challenge to the delegation provision itself, and Henry Schein bars us from deciding gateway applicability questions once delegation is established. The supersession/which-terms-control argument is best characterized as an arbitrability/applicability dispute the parties assigned to the arbitrator, not a threshold \u201cno agreement was ever made\u201d formation dispute Granite Rock reserves for courts. I would favor a narrow opinion along the lines Justice Kagan suggests: confirm formation and clear delegation, then leave the later-terms displacement question for the arbitrator in the first instance.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.79,
+        "reasoning": "Justice Sotomayor and Justice Jackson press Granite Rock\u2019s admonition that courts must decide whether there is an agreement to arbitrate \u201cthis dispute,\u201d arguing a later, arbitration-silent sweepstakes contract may have displaced the earlier delegation clause. But as Chief Justice Roberts and Justice Alito explain, once the earlier User Agreement\u2019s delegation provision is concededly formed and not specifically challenged, Rent-A-Center requires treating that delegation as an antecedent agreement that must be enforced, and Henry Schein forbids courts from deciding gateway arbitrability under the guise of a \u201csupersession\u201d inquiry. On a textualist view of the FAA, the court\u2019s role is limited to confirming the existence of the arbitration agreement (including delegation) and then enforcing it \u201caccording to its terms,\u201d leaving the effect of later terms on coverage/applicability to the decisionmaker the parties selected. Recasting a priority/scope dispute between two sets of terms as \u201cformation\u201d would create a judge-made carveout inconsistent with the statute and our precedent.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best objection: Granite Rock requires a court to ensure an agreement to arbitrate \u201cthis dispute\u201d before compelling arbitration, and a later sweepstakes contract silent on arbitration might be said to displace the earlier regime. But as Chief Justice Roberts and Justice Kagan emphasize, once there is a concededly formed User Agreement with a clear delegation, Rent-A-Center treats that delegation as an antecedent agreement the court must enforce absent a specific challenge to the delegation clause itself; the alleged supersession by later terms is therefore an applicability/priority question the parties assigned to the arbitrator. Reading Granite Rock to let courts decide any \u201clater-contract silence\u201d dispute would create a broad, judge-made carveout that Henry Schein rejects and would undermine the FAA\u2019s command to enforce arbitration agreements according to their terms. Under a textualist, consequences-aware approach, the administrable line is: courts decide whether a delegation agreement was formed; arbitrators decide whether later terms narrowed or superseded it.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Chief Justice Roberts and Justice Kagan make the best case that, once a clear delegation clause is shown, Henry Schein and Rent-A-Center generally require sending gateway questions\u2014including applicability\u2014to the arbitrator. But that syllogism assumes the antecedent point Granite Rock insists courts decide: whether the arbitration/delegation agreement is the operative contract for \u201cthis dispute\u201d after the parties entered later sweepstakes terms that are silent on arbitration and plausibly re-set the forum arrangement. In my view, a genuine supersession/which-contract-controls dispute is not merely \u201cscope\u201d within an undisputed arbitration regime; it is a consent and contract-formation-adjacent question about whether the earlier delegation survives the later agreement at all, and courts must resolve that before compelling a nonjudicial forum with serious consequences for consumers. Henry Schein\u2019s bar on judge-made \u201cwholly groundless\u201d exceptions does not require courts to presume the continued existence of a delegation agreement when the later contract itself may have displaced the parties\u2019 prior procedural commitments.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best counterpoint: Granite Rock requires a court to ensure an agreement to arbitrate \u201cthis dispute,\u201d and a later sweepstakes contract might plausibly change the forum arrangement. But where, as Chief Justice Roberts emphasizes, formation of the earlier User Agreement (including a clear and unmistakable delegation) is conceded and the delegation itself is not specifically challenged, Rent-A-Center\u2019s severability logic makes the delegation an enforceable antecedent agreement allocating gateway questions to the arbitrator. Treating \u201clater contract silent on arbitration\u201d as a freestanding judicial supersession exception would, as Henry Schein warns, invite threshold litigation that effectively reintroduces a judge-made merits screen under a different label and undermines FAA \u00a7 2\u2019s instruction to enforce arbitration agreements according to their terms. Granite Rock still does real work\u2014courts must decide whether any delegation agreement was formed\u2014but it should not be expanded to let courts decide priority/supersession disputes that the parties, via delegation, assigned to the arbitrator.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s and Justice Jackson\u2019s best point\u2014invoking Granite Rock\u2014is that a court must be satisfied the parties agreed to arbitrate \u201cthis dispute,\u201d and that a later sweepstakes contract silent on arbitration could have displaced the earlier delegation regime. But as Chief Justice Roberts and Justice Kagan explain, the parties concededly formed an earlier User Agreement containing a clear delegation, and Rent-A-Center requires enforcing that antecedent delegation agreement absent a specific challenge to the delegation provision itself. Treating \u201csupersession by later terms\u201d as a formation issue would create a judge-made carveout that Henry Schein forbids once delegation is established, because the question whether the arbitration package remains applicable is itself a delegated arbitrability dispute. Granite Rock still polices genuine non-formation (no assent at all), but it does not authorize courts to resolve competing-contract priority questions when the parties have already assigned those gateway questions to the arbitrator.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best objection: Granite Rock requires courts to ensure an agreement to arbitrate \u201cthis dispute,\u201d and a later sweepstakes contract silent on arbitration might be viewed as displacing the earlier forum choice. But as Chief Justice Roberts and Justice Kagan explain, once the earlier User Agreement (including a clear and unmistakable delegation clause) is concededly formed and no one specifically challenges the delegation provision itself, Rent-A-Center requires us to treat that delegation as an antecedent agreement the court must enforce. The supersession/which-contract-controls contention is best understood as an applicability or scope dispute about the continued reach of the arbitration package\u2014precisely the kind of gateway question Henry Schein says courts may not decide when the parties delegated arbitrability. Under an institutional, precedent-focused approach, we should not create a \u201csupersession\u201d carveout that invites threshold litigation whenever later terms are silent; Granite Rock is satisfied by confirming formation of the delegation agreement and leaving the displacement question to the arbitrator in the first instance.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best objection: Granite Rock requires courts to assure an agreement to arbitrate \u201cthis dispute,\u201d and a later sweepstakes contract silent on arbitration might have displaced the earlier delegation regime. But as Chief Justice Roberts explains, the court\u2019s antecedent task is satisfied once it finds a concededly formed User Agreement containing a clear and unmistakable delegation; under Rent-A-Center that delegation is severable and must be enforced absent a specific challenge to the delegation clause itself. The supersession/priority question\u2014whether later terms implicitly narrow or supersede the earlier arbitration package\u2014is therefore an applicability/scope dispute that Henry Schein says courts may not decide once delegation is established, and relabeling it \u201cformation\u201d would create an exception that swallows the rule. Granite Rock still polices true formation defects (no assent, fraud in the factum, or a targeted attack on the delegation), but it does not authorize courts to resolve competing-contract priority questions the parties assigned to the arbitrator.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Chief Justice Roberts and Justice Kagan press that, once a concededly valid delegation exists, Rent-A-Center and Henry Schein require sending any supersession/applicability dispute to the arbitrator. But that argument assumes the earlier delegation clause remains the operative procedural term after the parties entered a later sweepstakes contract that plausibly functions as the governing agreement for this controversy; under Granite Rock, a court must first determine whether there is an agreement to arbitrate \u201cthis dispute\u201d before compelling any arbitral forum, and that antecedent consent inquiry includes whether a later contract displaced the earlier arbitration/delegation regime. Treating that priority question as mere \u201cscope\u201d risks enforcing a nonjudicial forum without confirming the parties\u2019 current consent\u2014especially when the later contract is silent\u2014contrary to the FAA\u2019s consent-based premise and procedural fairness concerns. Henry Schein\u2019s no\u2013\u201cwholly groundless\u201d rule does not eliminate the court\u2019s threshold duty to identify the controlling contract and thus whether the delegation clause is still in force for this dispute.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Under the FAA, 9 U.S.C. \u00a7 2, courts must enforce arbitration agreements according to their terms, including a \u201cclear and unmistakable\u201d delegation of arbitrability to the arbitrator. As Henry Schein, Inc. v. Archer & White Sales, Inc. holds, once such a delegation clause exists and is not specifically challenged, a court may not decide threshold questions of scope or enforceability\u2014including whether a later related agreement implicitly narrows or supersedes the earlier arbitration arrangement. The limited judicial role at this stage is to determine that an arbitration agreement with a delegation provision was formed and to enforce that antecedent delegation agreement, consistent with Rent-A-Center\u2019s framework. A narrow ruling respecting the parties\u2019 delegation choice best preserves institutional legitimacy by applying settled FAA precedent without opining broadly on the merits of how the later contract affects the parties\u2019 substantive rights.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The FAA commands enforcement of arbitration agreements according to their terms, 9 U.S.C. \u00a7 2, and a delegation clause is itself an \u201cantecedent\u201d agreement that must be enforced unless specifically challenged. Rent-A-Ctr., W., Inc. v. Jackson, 561 U.S. 63, 70-72 (2010). Where the parties clearly and unmistakably delegated arbitrability, courts may not decide threshold questions about the arbitration agreement\u2019s scope or applicability, even if the court believes the arbitration argument is weak. Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524, 529-31 (2019). Because Coinbase has shown an existing arbitration agreement covering at least some disputes, whether later, related sweepstakes terms (silent on arbitration) narrow or supersede that earlier agreement is a question of scope/applicability for the arbitrator under the delegation clause, not a court. Granite Rock Co. v. Int\u2019l Bhd. of Teamsters, 561 U.S. 287, 298 (2010).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under the FAA, 9 U.S.C. \u00a7 2, courts must enforce arbitration agreements according to their terms, and a delegation clause is an \u201cadditional, antecedent agreement\u201d that must likewise be enforced unless it is specifically challenged. Rent-A-Ctr., W., Inc. v. Jackson holds that absent a specific attack on the delegation provision, threshold arbitrability questions go to the arbitrator, and Henry Schein rejects any judicial carve-out (even for supposedly weak or \u201cwholly groundless\u201d arbitration arguments). Here, because the earlier User Agreement concededly contains a broad delegation (including by incorporating rules assigning arbitrability to the arbitrator), the question whether later sweepstakes terms silently narrow or supersede arbitration is a scope/priority dispute that the parties delegated to the arbitrator. Allowing courts to decide such displacement questions despite a valid delegation would undermine the predictable, efficiency-promoting allocation of authority the FAA requires and invite litigation gamesmanship against arbitration.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under the FAA, a court must be satisfied that the parties formed an agreement to arbitrate this dispute before compelling arbitration, and \u201cclear and unmistakable\u201d delegation cannot be presumed where the later, operative contract for the challenged conduct is silent on arbitration and plausibly alters the forum arrangement. Granite Rock teaches that courts decide formation-type questions\u2014whether an agreement to arbitrate was made for the dispute at hand\u2014before sending anything to an arbitrator, and that principle fits a claim that the sweepstakes terms displaced or narrowed the earlier arbitration package. Henry Schein and Rent-A-Center require enforcement of a delegation clause only once it is established that the delegation agreement governs the controversy; they do not compel an arbitrator to decide whether a later contract superseded the very arbitration/delegation regime absent clear assent. Given the real-world consequences for consumers and vulnerable litigants, I would keep this threshold supersession question with the court to ensure genuine consent and access to judicial remedies where arbitration was not clearly chosen (FAA \u00a7 2).",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Once a valid arbitration agreement containing a \u201cclear and unmistakable\u201d delegation clause is shown, the FAA requires courts to enforce that antecedent delegation agreement and leave gateway questions of arbitrability\u2014including whether particular claims fall within the arbitration arrangement\u2014to the arbitrator. Henry Schein, Inc. v. Archer & White Sales, Inc. holds that courts may not decide such arbitrability questions (even if they view the pro-arbitration argument as weak) when the parties delegated them, and Rent-A-Center, West, Inc. v. Jackson treats the delegation clause as a separate agreement enforceable under 9 U.S.C. \u00a7 2 absent a specific challenge to the delegation itself. Here, the dispute about whether the later sweepstakes terms silently narrowed or superseded the earlier arbitration/delegation provision is best characterized as a scope/supersession issue going to \u201capplicability\u201d of arbitration to this dispute, not a denial that any arbitration agreement was formed at all, and is therefore for the arbitrator under the delegation clause.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Under FAA \u00a7 2, courts must enforce arbitration agreements according to their terms, including a clear delegation of \u201cthreshold arbitrability\u201d questions. Henry Schein, Inc. v. Archer & White Sales, Inc. holds that when parties delegate arbitrability to the arbitrator, a court may not decide those gateway questions, and that logic applies here: whether later sweepstakes terms (silent on arbitration) narrow or supersede an earlier arbitration/delegation arrangement is a classic scope/effect question for the arbitrator once a valid delegation clause is shown. Granite Rock confirms courts decide formation, but once an agreement to arbitrate (with delegation) is established, disputes about what falls within it are for the decisionmaker the contract specifies. Respecting the delegation clause also accords with separation-of-powers principles by adhering to the statute\u2019s text and the parties\u2019 bargain rather than crafting judge-made carveouts from the FAA\u2019s command.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Under the FAA, 9 U.S.C. \u00a7 2, courts must enforce arbitration agreements according to their terms, including a separately enforceable delegation clause that assigns threshold arbitrability questions to the arbitrator. This Court\u2019s decisions in Rent-A-Center and Henry Schein require sending disputes about the scope or applicability of an arbitration agreement to the arbitrator when the parties have \u201cclearly and unmistakably\u201d delegated those issues, absent a specific challenge to the delegation provision itself. Here, once it is established that an arbitration agreement with a delegation clause exists and governs at least some disputes, the question whether later, related sweepstakes terms (silent on arbitration) narrow or supersede the earlier agreement is best characterized as a scope/arbitrability question for the arbitrator rather than a contract-formation question for the court. That approach respects precedent, promotes workability, and avoids courts re-litigating threshold scope issues that the parties agreed to delegate.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 2 of the FAA requires courts to enforce arbitration agreements according to their terms, and a delegation clause is an \u201cadditional, antecedent agreement\u201d that must likewise be enforced absent a specific challenge to the delegation itself. Rent-A-Ctr., W., Inc. v. Jackson, 561 U.S. 63, 70\u201372 (2010). Where the parties clearly and unmistakably delegated arbitrability, a court may not decide gateway scope questions\u2014even if it views the pro-arbitration argument as weak\u2014because those questions are for the arbitrator. Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524, 529\u201330 (2019). Whether later sweepstakes terms that are silent about arbitration narrow or supersede the earlier arbitration/delegation agreement is, in substance, a question about the scope and continued enforceability of the arbitration arrangement and therefore belongs to the arbitrator under the parties\u2019 delegation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under the FAA, courts must decide whether an arbitration agreement was formed and what contract terms govern before compelling arbitration, and a delegation clause is enforceable only when there is \u201cclear and unmistakable\u201d evidence the parties agreed to delegate the particular threshold dispute. See Rent-A-Ctr., W., Inc. v. Jackson, 561 U.S. 63, 70-72 (2010); Granite Rock Co. v. Int\u2019l Bhd. of Teamsters, 561 U.S. 287, 296-99 (2010). Where the later, related sweepstakes contract is silent about arbitration, the antecedent question is whether that later contract superseded or narrowed the earlier arbitration/delegation arrangement\u2014an issue of what agreement the parties actually made for this dispute\u2014which is for a court to resolve as a matter of procedural fairness before sending parties to a nonjudicial forum. Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524 (2019), requires enforcing a valid delegation clause, but it does not eliminate the court\u2019s duty to determine whether the delegation agreement still governs this controversy in light of a later contract that arguably changed the forum-selection deal.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.747,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

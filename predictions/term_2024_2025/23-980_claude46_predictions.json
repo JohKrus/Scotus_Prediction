@@ -1,0 +1,666 @@
+[
+  {
+    "docket": "23-980",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether risk disclosures in corporate filings can be considered materially misleading under securities law when they describe risks as hypothetical that had allegedly already materialized, specifically regarding Facebook's data privacy practices and their known risks.",
+      "legal_provision": "Securities Exchange Act of 1934, Section 10(b) and SEC Rule 10b-5, which prohibit materially false or misleading statements in connection with the purchase or sale of securities, as well as SEC Regulation S-K governing risk factor disclosures in public company filings.",
+      "petitioner_position": "Facebook argues that its risk factor disclosures were not materially misleading because: (1) risk disclosures are inherently forward-looking and cautionary in nature and need not catalog every past incident; (2) the Ninth Circuit's ruling improperly lowers the materiality threshold, effectively requiring companies to disclose every potential risk manifestation regardless of significance; and (3) the decision below will force companies into counterproductive 'overwarning,' flooding investors with immaterial information that obscures genuinely material disclosures and undermines the SEC's carefully calibrated risk-disclosure regime.",
+      "respondent_position": "Amalgamated Bank and other respondents argue that Facebook's risk disclosures were materially misleading because they framed data misuse and privacy risks as hypothetical future possibilities when Facebook allegedly already knew those risks had materialized through specific incidents, including the Cambridge Analytica data scandal, thereby deceiving reasonable investors about the true state of known risks facing the company.",
+      "key_precedents": [
+        "Basic Inc. v. Levinson, 485 U.S. 224 (1988) - establishing the materiality standard in securities fraud cases",
+        "TSC Industries, Inc. v. Northway, Inc., 426 U.S. 438 (1976) - defining materiality as information a reasonable investor would consider significant",
+        "Omnicare, Inc. v. Laborers District Council Construction Industry Pension Fund, 575 U.S. 175 (2015) - addressing when statements of opinion can be misleading",
+        "Matrixx Initiatives, Inc. v. Siracusano, 563 U.S. 27 (2011) - addressing materiality of undisclosed risk information",
+        "Virginia Bankshares, Inc. v. Sandberg, 501 U.S. 1083 (1991) - addressing misleading statements in securities context"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan and Justice Barrett press the strongest version of the respondents' argument \u2014 that conditional language carries an implied premise of non-occurrence, and that knowingly contradicting that premise constitutes an actionable misleading half-truth under Rule 10b-5(b). I take this seriously, and I acknowledge it has genuine force under Omnicare's reasonable-investor standard. But my concern remains that the Ninth Circuit's rule, as applied, does not adequately cabin this principle: if any known manifestation of a disclosed risk category renders conditional framing actionable, we have effectively created the affirmative disclosure duty Macquarie rejected, because companies will invariably possess some internal knowledge of risk incidents before public disclosure. The institutionally sound path \u2014 consistent with my minimalist methodology \u2014 is to reverse the Ninth Circuit's categorical rule and remand with instructions to apply a more calibrated standard requiring that the prior incident be of such magnitude and specificity that its omission rendered the conditional framing affirmatively deceptive to a reasonable investor, which preserves the Macquarie framework while leaving room for truly egregious cases of known-risk concealment to remain actionable.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Gorsuch's argument \u2014 that conditional language carries an ordinary-meaning implication of non-occurrence, such that 'this could happen' means 'this has not yet happened' \u2014 is the most sophisticated challenge to my position, but it fails under rigorous textualist analysis because it conflates the semantic content of conditional framing with an implied certification about the speaker's current knowledge state. Rule 10b-5(b) asks whether 'the statements made' are misleading in light of omitted facts, and the ordinary public meaning of Item 105 risk-factor disclosures \u2014 as understood by reasonable investors in the securities markets at the time these disclosure regimes were constructed \u2014 is that they identify categories of potential future harm, not that they certify the absence of any prior incident within those categories; Justice Kagan's concession that a 'magnitude and specificity' limiting principle is necessary actually confirms that the conditional framing alone does not carry the implied representation, because if it did, no further calibration would be needed. Justice Barrett's observation that the disagreement has narrowed to remedy rather than doctrine is partially correct, but the Ninth Circuit's categorical 'come to fruition' rule remains structurally incompatible with Macquarie Infrastructure's limit on the private right of action regardless of how a remand is framed, because affirming the core holding validates a doctrinal trigger \u2014 any known manifestation of a disclosed risk category \u2014 that effectively resurrects the affirmative disclosure duty Macquarie rejected, and the institutionally sound course is to reverse and require plaintiffs to identify specific language that objectively and affirmatively implied no prior materialization.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's argument that the Cambridge Analytica incident was categorically different from routine internal risk monitoring \u2014 and her acknowledgment that a remand under a properly calibrated standard would be acceptable \u2014 actually confirms my core concern rather than undermining it: the Ninth Circuit's categorical 'come to fruition' rule is overbroad regardless of how egregious the underlying facts are, because a rule's validity must be assessed by what it permits across the full range of cases it governs, not just the sympathetic case before us. Justice Kagan's proposed limiting principle requiring 'specific, concrete knowledge of material manifestation' is doctrinally sound, but it is better implemented by reversing and remanding with explicit instructions than by affirming a rule that lacks those guardrails and trusting lower courts to apply them retroactively. The convergence Justice Barrett identifies between her position and the petitioner-side remand standard is real, but it cuts in favor of reversal \u2014 if the Ninth Circuit's rule requires substantial modification to be workable, the institutionally sound course is to reverse it and articulate the correct standard, not to affirm it and hope the limiting principles take hold on remand. Justice Gorsuch's plain-meaning argument that 'could' implies 'has not yet occurred' has genuine force, but it still does not establish that Item 105 risk disclosures \u2014 understood by reasonable sophisticated investors as categorically forward-looking under Omnicare \u2014 carry that implied certification as an objective matter rather than as a post-hoc litigation construction.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Roberts raises the most serious challenge from the petitioner side \u2014 that accepting the Ninth Circuit's reading would transform Section 10(b) into an affirmative disclosure obligation for every known risk manifestation, collapsing the Macquarie distinction between pure omissions and misleading half-truths. But this argument proves too much: the claim here is not that Facebook failed to disclose Cambridge Analytica in a vacuum, but that Facebook's affirmative choice to use conditional, hypothetical language ('may,' 'could,' 'if') created a false implied premise that no such events had yet occurred \u2014 precisely the misleading half-truth that Macquarie left actionable. As Justice Kagan correctly notes, a reasonable investor reading conditional risk language would naturally understand it as indicating no current knowledge of materialized risks, and Facebook's alleged knowledge that Cambridge Analytica had already exploited user data transforms that framing into an affirmative misrepresentation of present circumstances. The 'overwarning' concern is a legitimate policy consideration for calibrating the standard on remand, but it cannot override the textual command of Rule 10b-5(b) when the specific omitted facts directly contradict the hypothetical framing the company itself chose \u2014 ordinary retail investors who rely on these disclosures deserve the protection the statute actually provides.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's argument that materiality and the false-implied-premise inquiry are 'distinct inquiries' that I am conflating deserves a direct response: I think he is right that they are analytically distinct, but wrong that affirming the Ninth Circuit's core holding necessarily conflates them. The proper sequencing is first to ask whether the conditional language carried an implied representation of non-occurrence (a question about the statement's meaning under its ordinary sense), and only then to ask whether the omitted incident was material enough that its omission rendered that implied representation deceptive \u2014 TSC Industries operates at the second step, not the first. Justice Roberts and I have genuinely converged on the limiting principle: liability requires that the prior incident be of sufficient magnitude and specificity that its omission rendered the conditional framing affirmatively deceptive to a reasonable investor, and the Cambridge Analytica facts as alleged satisfy that threshold. The remaining disagreement \u2014 whether to affirm with a remand instruction calibrating the standard, or to reverse and remand \u2014 is real but secondary to the doctrinal point, and I continue to believe that affirming the Ninth Circuit's cognizability holding while remanding for proper application of the materiality-and-specificity threshold is the more institutionally coherent path because it does not suggest the Ninth Circuit's entire analytical framework was wrong, only that it needs calibration.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's argument that reasonable investors understand Item 105 risk disclosures as identifying 'risk categories for forward-looking purposes, not as certifications of the company's complete incident history' is the strongest challenge to my position \u2014 but it misapprehends what respondents actually allege. The claim is not that Facebook failed to certify its incident history; it is that Facebook's specific choice of conditional framing ('could,' 'may,' 'if') carries an ordinary-meaning implication that the described contingency remains unrealized, and that implication is affirmatively false when the speaker knows the risk has already materially manifested. Justice Thomas is correct that Macquarie and Omnicare together require that the affirmative statement itself carry an implied representation of present fact \u2014 but that is precisely what conditional language does under its plain meaning, as any ordinary reader understands 'this could happen' to mean 'this has not yet happened.' The TSC Industries materiality threshold already limits liability to significant, specific materializations that directly contradict the conditional framing, which addresses the overwarning concern Justice Roberts and Justice Kavanaugh raise without immunizing the deliberate concealment of known, large-scale data exploitation behind hypothetical language.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's observation that my proposed limiting principle \u2014 requiring the omitted incident to be of 'such magnitude and specificity that its omission rendered the conditional framing objectively deceptive' \u2014 is 'quite close' to her own position is the most important development in this round, and I want to engage with it honestly. The convergence she identifies is real, and it suggests the doctrinal gap between the petitioner and respondent blocs is narrower than the vote count implies. But the remaining disagreement is not merely about remedy: affirming the Ninth Circuit's 'come to fruition' rule, even with a remand instruction, leaves in place a categorical holding that any known manifestation of a disclosed risk category can render conditional framing actionable \u2014 and that holding will be applied by lower courts without the limiting gloss we might add in a remand instruction. Justice Kagan argues that TSC Industries materiality does the filtering work, but as I noted in round two, materiality addresses investor importance, not whether the specific conditional framing carried a false implied premise; those are distinct inquiries, and the Ninth Circuit's rule conflates them in a way that effectively resurrects the affirmative disclosure duty Macquarie rejected. The institutionally sound course remains reversal and remand under a properly calibrated standard that makes the magnitude-and-specificity requirement the threshold inquiry rather than a downstream materiality filter.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kavanaugh's argument that materiality under TSC Industries addresses whether a fact is important to investors but not whether conditional framing carried a false implied premise represents the most analytically precise challenge to my position \u2014 and he is right that these are conceptually distinct inquiries. However, I think this distinction, while real, does not ultimately undermine the respondents' claim: the implied-premise inquiry is answered by the ordinary public meaning of conditional language ('could,' 'may,' 'if'), which carries an objective implication of non-occurrence that is part of the statement's semantic content, not a separate disclosure obligation; and the materiality threshold then filters which omitted incidents are significant enough that their contradiction of that implied premise renders the overall disclosure misleading. The convergence between my position and Justice Roberts's and Justice Kavanaugh's proposed remand standard \u2014 requiring that the omitted incident be of sufficient magnitude and specificity that its omission rendered conditional framing objectively deceptive \u2014 confirms that the real dispute is about the scope of the Ninth Circuit's categorical rule rather than the underlying legal principle, and I would affirm the core cognizability of this claim while remanding for application of a properly calibrated standard that preserves the Macquarie framework. Justice Thomas's argument that sophisticated investors understand Item 105 disclosures as purely forward-looking has genuine force as a matter of market practice, but it cannot override the ordinary public meaning of the specific conditional language chosen when that language affirmatively implies a present state of affairs that the speaker knows to be false.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Roberts' argument that risk disclosures are 'inherently prospective and cautionary in nature' is the strongest challenge to my position, but it proves too much \u2014 it would immunize any company that wraps known, materialized harms in forward-looking language, which is precisely the deceptive practice Rule 10b-5(b) was designed to prevent. The critical distinction, as Justice Sotomayor correctly identifies, is not between omissions and affirmative statements in the abstract, but between genuinely contingent risks and known, already-materialized events that a company deliberately frames as merely hypothetical \u2014 the latter creates an affirmatively false picture of the company's actual risk landscape. Macquarie Infrastructure's holding against pure omissions does not control here because respondents are not alleging Facebook failed to volunteer information; they are alleging that Facebook's affirmative conditional language ('may,' 'could,' 'if') carried an implied representation of non-occurrence that was false when made, which falls squarely within the misleading half-truth doctrine. The 'overwarning' concern raised by Justices Roberts, Thomas, Alito, and Kavanaugh is a legitimate policy consideration, but the materiality threshold under TSC Industries already performs the filtering function they seek \u2014 companies need not disclose every minor incident, only those whose omission renders affirmative statements materially misleading to a reasonable investor.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the framework established in Omnicare and reaffirmed in Macquarie Infrastructure Corp. v. Moab Partners (2024), pure omissions are not actionable under Rule 10b-5(b), and liability attaches only where an omission renders an affirmative statement misleading from the perspective of a reasonable investor. While respondents raise a serious concern \u2014 that framing already-materialized risks as merely hypothetical can deceive investors \u2014 the narrow and institutionally cautious path here is to recognize that risk factor disclosures are inherently prospective and cautionary in nature, and that the materiality standard under TSC Industries and Basic Inc. v. Levinson requires a substantial likelihood that a reasonable investor would view the omitted information as significantly altering the total mix of available information. Accepting the Ninth Circuit's broad reading would effectively transform Section 10(b) into an affirmative disclosure obligation for every known risk manifestation, collapsing the careful distinction this Court drew in Macquarie between pure omissions and misleading half-truths, and risking the 'overwarning' problem that undermines the SEC's calibrated disclosure regime. The better, narrower ruling is to hold that risk disclosures framed in hypothetical terms are not rendered materially misleading merely because some version of the described risk had previously occurred, absent a showing that the specific prior incident was of such significance that its omission made the overall disclosure affirmatively deceptive to a reasonable investor.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Applying the plain text of Section 10(b) and Rule 10b-5(b), as confirmed by this Court's recent holding in Macquarie Infrastructure Corp. v. Moab Partners (2024), pure omissions are not actionable and there is no affirmative duty to disclose all material information. Facebook's risk factor disclosures, read in their proper textual and contextual form, described genuine forward-looking risks in the manner contemplated by SEC Regulation S-K, and the Ninth Circuit's expansive reading effectively transforms every known risk incident into a mandatory disclosure obligation untethered from the statute's actual text. Under Omnicare, the question is whether a reasonable investor would be misled by the affirmative statements made, assessed objectively in context \u2014 and boilerplate risk disclosures are understood by reasonable investors as cautionary in nature, not as certifications that no prior incidents have occurred. Extending liability here would compel the very 'overwarning' that dilutes material disclosures, contravening the carefully bounded private right of action this Court has inferred from Section 10(b) rather than expanding it beyond its textual and structural limits.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under a textualist reading of Section 10(b) and Rule 10b-5(b), an omission is actionable only when it renders an affirmative statement misleading, not merely when it fails to catalog every past incident that might relate to a disclosed risk category \u2014 as this Court reaffirmed in Macquarie Infrastructure Corp. v. Moab Partners (2024). Facebook's risk disclosures, read in context as Item 105 requires, warned investors of precisely the category of data-misuse risks that materialized; a reasonable investor reading forward-looking cautionary language does not necessarily understand it as a representation that no prior incidents have occurred, particularly absent an affirmative assertion to that effect. The Ninth Circuit's rule \u2014 that any risk disclosure becomes materially misleading whenever a stated risk has 'come to fruition,' even without demonstrated ensuing harm \u2014 improperly collapses the distinction between affirmative misstatements and mere omissions, effectively creating a broad affirmative disclosure duty that neither the statute nor Rule 10b-5 contemplates. Omnicare's context-sensitive reasonable-investor standard, properly applied, does not support converting boilerplate risk-factor language into an implicit certification that no manifestation of the described risk has yet occurred, as that reading would produce the counterproductive overwarning dynamic that undermines the SEC's carefully calibrated disclosure regime.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under Omnicare, the misleading nature of a statement is assessed from the perspective of a reasonable investor and depends on context, including what the statement implies about the company's known circumstances. When Facebook framed data misuse risks as hypothetical future possibilities while allegedly knowing those risks had already materialized through incidents like Cambridge Analytica, those disclosures created a false impression that no such events had yet occurred \u2014 precisely the kind of omission that renders affirmative statements misleading under Rule 10b-5(b) as interpreted in Macquarie Infrastructure. The materiality standard from TSC Industries and Basic Inc. v. Levinson is satisfied here because a reasonable investor would consider it highly significant whether a described risk was merely theoretical or had already concretely manifested, affecting their assessment of the company's actual exposure and regulatory vulnerability. Facebook's 'overwarning' concern is unpersuasive \u2014 the holding does not require disclosure of every minor incident, but rather prohibits the specific deception of presenting known, materialized risks as merely speculative, which is precisely the kind of misleading half-truth that securities law has always prohibited and that disproportionately harms ordinary retail investors who rely on these disclosures.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the framework established in Omnicare and reinforced by Macquarie Infrastructure, while pure omissions are not independently actionable under Rule 10b-5(b), an omission that renders affirmative statements misleading is actionable \u2014 and that is precisely what respondents allege here. When Facebook framed data misuse risks as hypothetical future possibilities using conditional language ('may,' 'could'), while allegedly knowing those risks had already materialized through the Cambridge Analytica incident, the affirmative risk disclosures themselves became misleading to a reasonable investor who would naturally understand such language as indicating the company had no current knowledge of materialized risks. The TSC Industries/Basic materiality standard asks what a reasonable investor would consider significant, and a reasonable investor reading risk disclosures would draw a meaningful distinction between 'this could happen' and 'this has already happened' \u2014 Facebook's framing allegedly exploited that distinction deceptively. Facebook's overwarning concern is not without merit and should inform how we calibrate the standard on remand, but it does not defeat the core claim that knowingly framing materialized risks as merely hypothetical crosses the line from permissible forward-looking caution into actionable misrepresentation.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain text of Rule 10b-5(b) prohibits omitting 'a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading.' When Facebook framed known, already-materialized risks as merely hypothetical future possibilities, the ordinary meaning of those words conveyed a false picture of the company's actual risk landscape \u2014 this is not a 'pure omission' case that Macquarie Infrastructure forecloses, but rather a case where affirmative statements were rendered misleading by selective framing, precisely the scenario Rule 10b-5(b) addresses. Under Omnicare's objective reasonable-investor standard, rooted in common law fraudulent misrepresentation principles, a reasonable investor reading risk disclosures phrased in the conditional ('could,' 'may,' 'if') would understand them to describe contingent future risks, not risks that had already come to pass \u2014 and Facebook's alleged knowledge that Cambridge Analytica had already exploited user data transforms those conditional phrasings into affirmative misrepresentations of present fact. Facebook's 'overwarning' concern is a policy argument better directed to Congress or the SEC, not a basis for this Court to narrow the plain statutory and regulatory text that has governed securities fraud since 1934.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Under the framework established in Omnicare and reaffirmed in Macquarie Infrastructure, an omission is only actionable under Section 10(b) and Rule 10b-5(b) when it renders an affirmative statement misleading, assessed from the perspective of a reasonable investor in context. Facebook's risk factor disclosures, while framed in forward-looking terms, must be evaluated against the practical reality that risk disclosures by their nature warn of potential future harms without requiring exhaustive cataloguing of every prior incident \u2014 the Ninth Circuit's approach effectively collapses the distinction between disclosure obligations and the narrower anti-fraud provisions, contrary to Macquarie's clear holding that these provisions 'do not create an affirmative duty to disclose any and all material information.' Requiring companies to reframe risk disclosures as historical recitations whenever any manifestation of a risk has occurred would produce the 'overwarning' problem that undermines the SEC's carefully calibrated disclosure regime and would impose an unworkable standard that courts and companies cannot administer consistently. Institutional considerations also counsel restraint here \u2014 expanding securities fraud liability in this manner would invite strike suits and chill the kind of candid forward-looking risk communication that the securities laws are designed to encourage.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The text of Rule 10b-5(b) prohibits statements that omit material facts 'necessary to make the statements made, in the light of the circumstances under which they were made, not misleading,' and under Omnicare's framework, the objective reasonable investor standard governs whether a forward-looking or opinion-framed statement becomes misleading when known facts contradict its implied premise. If Facebook's risk disclosures framed data misuse as a hypothetical future possibility while Facebook allegedly possessed specific knowledge that such risks had already materialized through incidents like Cambridge Analytica, those disclosures would carry a false implied premise \u2014 that the described risks remained unrealized \u2014 which a reasonable investor would find material under TSC Industries and Basic Inc. v. Levinson. As Macquarie Infrastructure confirms, the duty to disclose arises not from a freestanding obligation to reveal all material information, but from the obligation not to render affirmative statements misleading through omission; here, the affirmative risk-factor statements themselves created the misleading impression. Facebook's 'overwarning' concern, while legitimate as a policy matter, does not override the textual command of Rule 10b-5(b) when the specific omitted facts directly contradict the hypothetical framing chosen by the company in its own disclosures.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under the framework established in Omnicare and Basic Inc. v. Levinson, a reasonable investor assessing Facebook's risk disclosures would be materially misled by language framing data misuse as a hypothetical future risk when Facebook allegedly knew those risks had already materialized through specific incidents like Cambridge Analytica. The SEC's own 2018 cybersecurity guidance explicitly warns that treating known, occurred breaches as merely hypothetical risks renders disclosures misleading \u2014 a regulatory interpretation entitled to serious weight. As Matrixx Initiatives confirms, even facially accurate statements can become actionably misleading through omission of known contrary facts, and the practical consequence of permitting companies to use conditional risk language to obscure known harms would fundamentally undermine investor protection and market integrity. Facebook's 'overwarning' concern is unpersuasive because the materiality threshold under TSC Industries \u2014 whether a reasonable investor would consider the information significant \u2014 already filters out truly immaterial disclosures, and companies retain control over what they say to the market, as Macquarie Infrastructure reaffirms.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.767,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-980",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether risk disclosures in corporate filings can be considered materially misleading under securities law when they describe risks as hypothetical that had allegedly already materialized, specifically regarding Facebook's data privacy practices and their known risks.",
+      "legal_provision": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, which prohibit materially false or misleading statements in connection with the purchase or sale of securities, along with the SEC's risk disclosure regulations under Regulation S-K.",
+      "petitioner_position": "Facebook and its executives argue that their risk factor disclosures were accurate, forward-looking statements of genuine business risks and not materially misleading, contending that the Ninth Circuit's ruling improperly lowers the materiality threshold under securities law, would force companies to disclose every potential risk as a certainty, and would lead to information overload that ultimately harms rather than helps investors by flooding disclosures with excessive warnings that obscure truly material information.",
+      "respondent_position": "Amalgamated Bank and other institutional investor respondents argue that Facebook's risk disclosures were materially misleading because they framed known, already-occurring risks \u2014 specifically the misuse of user data by third parties such as Cambridge Analytica \u2014 as merely hypothetical future possibilities, thereby deceiving reasonable investors about the true state of the company's data privacy vulnerabilities and their potential financial and reputational consequences.",
+      "key_precedents": [
+        "Basic Inc. v. Levinson, 485 U.S. 224 (1988) - establishing the materiality standard in securities fraud cases",
+        "TSC Industries, Inc. v. Northway, Inc., 426 U.S. 438 (1976) - defining materiality as information a reasonable investor would consider significant",
+        "Omnicare, Inc. v. Laborers District Council Construction Industry Pension Fund, 575 U.S. 175 (2015) - addressing when statements of opinion can be materially misleading",
+        "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007) - addressing pleading standards for securities fraud under the PSLRA",
+        "Matrixx Initiatives, Inc. v. Siracusano, 563 U.S. 27 (2011) - addressing materiality in the context of risk disclosure omissions"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Kavanaugh's argument that the Ninth Circuit 'did apply Tellabs' and that a remand would effectively reward Facebook for the ambiguity it created is the most serious challenge to my proposed narrow ground this round, and I take it seriously \u2014 but I remain unpersuaded for a reason rooted in my minimalist methodology: the question is not whether Tellabs was nominally invoked below, but whether it was applied with the rigor our precedents demand to the specific conditional language at issue, and the Ninth Circuit's reasoning suggests it treated the existence of undisclosed contrary facts as sufficient without adequately distinguishing the omission/misstatement line Macquarie Infrastructure preserved. Justice Kagan's limiting principle \u2014 that companies cannot frame known, already-occurring events as speculative hypotheticals \u2014 continues to be the strongest argument for the respondents, and I acknowledge its textual grounding in Omnicare's half-truth doctrine, but the principle's workability depends entirely on courts being able to determine at the pleading stage when a risk has 'already occurred' versus 'begun to materialize,' and that degree-of-certainty inquiry is precisely what Tellabs' particularity requirements must rigorously police before a case proceeds to discovery. A remand opinion I could author narrowly \u2014 holding only that the Ninth Circuit failed to apply Tellabs with sufficient rigor to the specific conditional language, without endorsing or rejecting the broader half-truth theory \u2014 would preserve Omnicare, avoid creating categorical immunity for boilerplate risk language, and attract Justices Barrett and Kavanaugh to a five-justice coalition that leaves the harder questions for another day, which is the institutional approach I believe best serves the Court's legitimacy.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's limiting principle \u2014 that companies cannot affirmatively frame known, already-occurring events as speculative hypotheticals \u2014 remains the strongest challenge to my position, but it ultimately fails under rigorous originalist and textualist analysis for a reason none of my colleagues have fully addressed: the statutory text of Section 10(b) and Rule 10b-5(b) prohibit 'untrue statement[s] of a material fact' and omissions that make statements 'misleading,' and the question of what constitutes an 'untrue statement' must be assessed against the objective communicative content of the specific language in context, not against a retrospective inference that conditional framing implies present non-occurrence. Justice Jackson invokes Omnicare's 'everyday ways of speaking and thinking' standard, but that standard cuts both ways \u2014 in the everyday context of SEC risk factor filings, which are a recognized genre of legal-commercial communication, sophisticated and retail investors alike are on constructive notice that risk disclosures catalogue exposure categories rather than certify present non-occurrence, and the PSLRA's heightened pleading requirements under Tellabs exist precisely to prevent plaintiffs from bootstrapping this genre-level inference into a particularized allegation of affirmative misrepresentation. Justice Barrett correctly identifies the proper resolution: the Ninth Circuit failed to apply Tellabs' demanding standard to assess whether the specific language chosen \u2014 as opposed to the mere existence of undisclosed contrary facts \u2014 affirmatively conveyed a false present-tense representation, and remanding on that particularized inquiry preserves Omnicare's half-truth doctrine while preventing its expansion into a de facto real-time disclosure mandate that neither the statutory text nor the PSLRA's design can support.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's limiting principle \u2014 that companies cannot affirmatively frame known, already-occurring events as speculative hypotheticals \u2014 is the most serious challenge to my position, and I want to engage with it directly: the principle sounds workable in the abstract but dissolves under scrutiny because it requires courts to determine at the pleading stage whether a risk had 'already occurred' versus 'begun to materialize,' a distinction that will generate precisely the fact-intensive litigation the PSLRA's heightened pleading standards were designed to prevent. Justice Sotomayor's 'if this were to occur' textual argument has genuine force, but it proves too much \u2014 under that logic, virtually every conditional risk disclosure becomes an implicit certification of present non-occurrence, collapsing the omission/misstatement distinction that Macquarie Infrastructure carefully preserved and that I believe the statutory text requires us to maintain. Justice Kavanaugh's invocation of the SEC's 2018 cybersecurity guidance as structural support for the respondents' position is worth noting, but agency guidance cannot expand Section 10(b)'s scope beyond what the statutory text authorizes, and the guidance itself does not resolve the threshold question of when conditional language transforms into an affirmative misrepresentation of present fact. The proper resolution remains that the Ninth Circuit failed to apply Tellabs' rigorous pleading standard to assess whether Facebook's specific language \u2014 not merely the existence of undisclosed facts \u2014 affirmatively conveyed a false present-tense representation to a reasonable investor.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's argument that sophisticated investors understand boilerplate risk language as identifying categories of exposure rather than certifying current absence of risks is the strongest challenge to my position \u2014 but it ultimately fails because Omnicare's reasonable investor standard is not limited to sophisticated institutional investors, and more importantly, the question is not what risk language generally signals but what Facebook's specific conditional framing ('if this were to occur') affirmatively communicated. When a company uses language that grammatically and semantically implies a future contingency, it makes an implicit factual assertion about present reality that goes beyond mere category identification \u2014 this is precisely the 'everyday ways of speaking and thinking' that Omnicare instructs us to apply. Justice Kagan correctly identifies the workable limiting principle: companies need not disclose every risk as a certainty, but they cannot affirmatively frame known, already-occurring events as speculative hypotheticals, which is a coherent and manageable standard. The practical concern raised by Justices Alito and Barrett about disclosure overload actually cuts the other way \u2014 permitting companies to immunize known harms through hypothetical framing creates perverse incentives that harm the most vulnerable retail investors who lack the resources to investigate beyond public disclosures.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett's remand argument continues to be the most intellectually serious challenge to my position, and I want to be precise about why I ultimately reject it: the Ninth Circuit did apply Omnicare's demanding standard to the specific conditional language, and the question before us is whether that application was legally correct \u2014 a remand would not clarify the legal standard but would simply give petitioners a second bite at defeating a legally sound ruling. Justice Gorsuch's genre-convention argument remains sophisticated, but it proves too much: his pharmaceutical analogy ('may cause liver damage') actually illustrates the distinction rather than erasing it, because a drug warning does not say 'if a patient were to experience liver damage,' which is the specific temporal framing that transforms category identification into an implicit present-tense assertion. Justice Roberts' coalition-building strategy \u2014 remanding on Tellabs grounds to attract Barrett and Kavanaugh \u2014 is procedurally clever but legally insufficient, because Tellabs' pleading standard was satisfied by the specificity of the Cambridge Analytica allegations, and using a remand to effectively reverse on grounds the Ninth Circuit already addressed would be a jurisprudential sleight of hand that I cannot endorse. My limiting principle \u2014 companies cannot affirmatively frame known, already-occurring events as speculative hypotheticals \u2014 remains workable, textually grounded in Omnicare's half-truth doctrine, and meaningfully narrower than the disclosure regime petitioners fear.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's limiting principle \u2014 that companies cannot affirmatively frame known, already-occurring events as speculative hypotheticals \u2014 remains the strongest challenge to my position, and I want to engage it with full seriousness. The principle sounds workable in the abstract, but it founders on the same problem that afflicts all half-truth theories applied to risk factor disclosures: it requires courts and juries to determine, after the fact, precisely when a risk 'materialized' sufficiently to transform forward-looking language into an affirmative misrepresentation of present fact, and that inquiry is neither textually grounded in Section 10(b)'s 'in connection with' language nor manageable under Tellabs' rigorous pleading standard. Justice Jackson invokes Omnicare's 'everyday ways of speaking and thinking' instruction, but that standard cuts both ways \u2014 in the everyday genre of SEC risk factor filings, sophisticated and retail investors alike understand that 'we may be subject to data misuse' does not certify that no data misuse has ever occurred internally, any more than a pharmaceutical company's warning that a drug 'may cause liver damage' certifies that no patient has yet experienced liver damage. The PSLRA's heightened pleading requirements exist precisely to prevent the inferential chain Justice Kagan's theory requires \u2014 from 'conditional language was used' to 'reasonable investor understood this as a present-tense certification of non-occurrence' \u2014 from sustaining securities fraud claims without particularized factual allegations that the specific language, not merely the omission of contrary facts, affirmatively conveyed a false representation, and the Ninth Circuit's failure to apply that standard independently warrants reversal.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's remand proposal continues to be the most procedurally attractive alternative, and I want to engage it with full seriousness one final time: she argues that the Ninth Circuit failed to apply Omnicare's demanding standard with sufficient rigor to the specific conditional language, and that a remand would preserve the half-truth doctrine without endorsing overbroad reasoning. But I cannot join this position for a reason that has crystallized through three rounds of deliberation \u2014 the Ninth Circuit did apply Tellabs and Omnicare, and the specific 'if this were to occur' language is not a close case under those standards because it grammatically and semantically asserts a present-tense contingency that Facebook knew had already materialized. Justice Gorsuch's genre-convention argument remains the most intellectually serious challenge, but as I have consistently maintained, Omnicare's reasonable investor standard is not calibrated exclusively to sophisticated institutional investors who understand risk factors as mere category catalogues, and the ordinary semantic content of conditional framing carries an implicit present-tense representation that distinguishes this from pure omission cases where Macquarie Infrastructure's reasoning would control. The PSLRA's Tellabs pleading standard \u2014 which Justice Jackson correctly notes was satisfied by the specificity of the Cambridge Analytica allegations \u2014 provides the structural check against strike suits without requiring categorical immunity for affirmative half-truths, and I remain persuaded that affirming on the narrow half-truth theory is the legally correct result even as I acknowledge the genuine force of my colleagues' concerns about disclosure overload.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Kagan and Justice Jackson press the strongest opposing argument \u2014 that Facebook's conditional 'if this were to occur' framing constitutes a classic Omnicare half-truth because it affirmatively implies the described harm has not yet occurred, and I continue to find this the most serious challenge to my position. However, I remain unpersuaded that this argument justifies affirming the Ninth Circuit's broad ruling rather than remanding for careful application of the Omnicare standard to the specific language at issue. The critical methodological point under my textualist framework is that Omnicare's 'everyday ways of speaking and thinking' test must be applied to the actual words Facebook used in the context of a recognized genre of SEC disclosure \u2014 and the Ninth Circuit failed to conduct that particularized inquiry with the rigor Tellabs demands. Justice Jackson's invocation of Omnicare's 'everyday speech' instruction is well-taken, but that instruction cuts both ways: in the everyday context of SEC risk factor filings, sophisticated and retail investors alike are on notice that risk disclosures identify categories of exposure, and the proper resolution is a remand that requires plaintiffs to plead with particularity that the specific conditional language \u2014 not merely the existence of undisclosed facts \u2014 affirmatively conveyed a false present-tense representation, which preserves the Macquarie Infrastructure distinction without immunizing genuine half-truths.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett's remand proposal continues to be the most procedurally sophisticated challenge to my position, but I remain unpersuaded for a reason I want to sharpen: the Ninth Circuit did not merely gesture at Omnicare \u2014 it applied the standard to specific language and found the conditional framing actionable, and a remand would not cure any legal error but would simply give petitioners a second bite at the apple on a question already correctly resolved below. Justice Gorsuch's genre-convention argument \u2014 that 'if this were to occur' in an SEC filing signals category exposure rather than present-tense certification \u2014 is genuinely powerful, but it cannot be reconciled with Omnicare's instruction to apply 'everyday ways of speaking and thinking,' because that standard was deliberately chosen to protect retail investors who do not read SEC filings as specialized legal genre documents. The petitioner coalition's repeated invocation of Tellabs as a structural safeguard actually supports my position: the Cambridge Analytica allegations satisfy Tellabs' particularity requirements precisely because they identify not merely an omitted fact but a specific known event that Facebook's conditional framing affirmatively misrepresented as a future contingency. I write separately to emphasize that my public defender background informs my view that the most vulnerable market participants \u2014 retail investors without institutional research capacity \u2014 are the ones most harmed when we permit sophisticated actors to exploit genre conventions to immunize known harms through grammatical sleight of hand.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Consistent with my minimalist approach and the framework established in Macquarie Infrastructure Corp. v. Moab Partners (2024), Section 10(b) and Rule 10b-5(b) do not create affirmative duties to disclose all material information, and omissions are actionable only when they render affirmative statements misleading. While Omnicare establishes that facially accurate statements can mislead through omission of known contrary facts, the proper narrow ground here is that boilerplate risk factor disclosures framed as contingent possibilities do not automatically become actionable securities fraud merely because some underlying risk had begun to materialize, absent a showing that the specific language used would mislead a reasonable investor under the objective standard articulated in Omnicare. The Ninth Circuit's ruling risks an overbroad expansion of securities liability that would compel companies to characterize every ongoing operational risk as a certainty, undermining the institutional legitimacy of securities disclosure regimes and flooding investors with information that obscures rather than illuminates material facts, a concern the Court recognized in TSC Industries when it cautioned against setting materiality thresholds so low as to bury significant information in a mass of trivial data. I would reverse on narrow grounds, holding that the pleading standard under Tellabs requires more particularized allegations that the specific risk language chosen affirmatively misled reasonable investors, rather than merely that known risks existed.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Reading Section 10(b) and Rule 10b-5(b) according to their plain text, as confirmed in Macquarie Infrastructure Corp. v. Moab Partners (2024), these provisions do not create an affirmative duty to disclose all material information, and pure omissions are not independently actionable. Facebook's risk disclosures, even if imperfectly framed, must be evaluated as affirmative statements under the objective reasonable investor standard articulated in Omnicare \u2014 and genuinely contingent forward-looking risk language does not automatically become a material misrepresentation merely because some underlying risk had begun to manifest, absent a showing that the specific framing rendered the statement affirmatively false rather than merely incomplete. The Ninth Circuit's expansive reading effectively transforms every risk factor disclosure into a certification of non-occurrence, which finds no support in the original public meaning of 'misleading' under Section 10(b) or in the common law fraud principles that informed it, and would improperly expand federal securities liability beyond what Congress authorized in 1934. Furthermore, the PSLRA's heightened pleading standards under Tellabs counsel against allowing such attenuated theories of misleading statements to proceed without rigorous scrutiny of whether the specific language crossed from legitimate risk disclosure into affirmative misrepresentation of present fact.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under a textualist reading of Section 10(b) and Rule 10b-5(b), the statute prohibits materially false or misleading affirmative statements, but as this Court reaffirmed in Macquarie Infrastructure Corp. v. Moab Partners (2024), pure omissions are not actionable and the failure to disclose renders a statement misleading only when the omission itself corrupts an affirmative representation. Facebook's risk factor disclosures, framed as forward-looking cautionary language, are a standard genre of corporate communication that reasonable investors understand as identifying categories of risk rather than certifying the current state of affairs \u2014 and Omnicare's reasonable-investor standard must be applied with practical rigor, not stretched to convert every generic risk warning into an implicit representation that the described risk has not yet occurred. Allowing the Ninth Circuit's approach to stand would effectively impose an affirmative duty of comprehensive real-time disclosure every time a risk factor touches on an ongoing business condition, a result inconsistent with the plain text of the statute and with the PSLRA's heightened pleading requirements as construed in Tellabs. The practical consequences of the respondents' rule \u2014 flooding disclosures with hyper-specific current-state certifications or exposing companies to strike suits whenever a disclosed risk category overlaps with known internal concerns \u2014 would undermine the very investor-protection goals securities law is meant to serve.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under Section 10(b) and Rule 10b-5(b), while companies have no freestanding duty to disclose all material information, once they choose to speak they must not render their statements misleading through omission of known facts \u2014 as established in Matrixx Initiatives and reinforced by Omnicare's objective reasonable investor standard. Facebook's risk disclosures framed the misuse of user data by third parties as a hypothetical future possibility when, according to the complaint's well-pleaded allegations, that risk had already materialized through Cambridge Analytica's actual exploitation of user data; this is precisely the kind of half-truth that deceives reasonable investors about the true state of a company's vulnerabilities. The Omnicare framework makes clear that the misleading nature of a statement is assessed objectively from the perspective of a reasonable investor in context, and a reasonable investor reading a conditional 'if this were to occur' disclosure would naturally and correctly understand it to mean the described harm had not yet occurred \u2014 making the omission of known materialization directly actionable. From a practical standpoint, permitting companies to immunize known, ongoing harms by burying them in hypothetical risk language would gut investor protections for the most vulnerable market participants and undermine the fundamental purpose of securities disclosure regimes.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the framework established in Omnicare and reinforced by Macquarie Infrastructure, an omission is actionable under Section 10(b) and Rule 10b-5(b) when it renders affirmative statements misleading from the perspective of a reasonable investor assessed objectively in context. Facebook's risk disclosures framing already-materialized data misuse events as merely hypothetical future possibilities presents precisely the kind of half-truth that Omnicare identified as actionable \u2014 a facially accurate statement that omits known contrary facts sufficient to render the overall disclosure misleading. The materiality standard from TSC Industries and Basic asks whether a reasonable investor would consider the information significant, and a reasonable investor would plainly view the distinction between 'this could happen' and 'this has already happened' as significant to their investment decision regarding a company whose core business model depends on data trust. I am mindful of Facebook's concern about disclosure overload, but the workable limiting principle here is not that companies must disclose every risk as a certainty \u2014 it is simply that they cannot affirmatively frame known, already-occurring events as speculative hypotheticals, which is a manageable and coherent standard consistent with the statute's text and purpose.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Reading Section 10(b) and Rule 10b-5(b) by their plain text, as reinforced by Macquarie Infrastructure Corp. v. Moab Partners (2024), pure omissions are not actionable and there is no affirmative duty to disclose all material information \u2014 an omission is only actionable when it renders an affirmative statement misleading from the perspective of a reasonable investor. Facebook's risk disclosures, read in their full context, warned investors of precisely the category of risks that materialized; the question is whether a reasonable investor would have understood those disclosures as representations that the described risks had not yet occurred, and I am skeptical that boilerplate forward-looking risk language carries that implied factual assertion with sufficient clarity to sustain a fraud claim. Omnicare teaches that the misleading nature of a statement depends on 'our everyday ways of speaking and thinking' and the circumstances of the statement \u2014 standard risk factor language in SEC filings is conventionally understood by sophisticated investors as identifying categories of exposure, not certifying the current absence of those risks, and stretching that language into an affirmative false statement of present fact risks collapsing the distinction between omissions and misstatements that Congress and this Court have carefully maintained. Permitting this theory to proceed would effectively impose an affirmative disclosure duty through the back door, compelling companies to convert every risk factor into a real-time status report under penalty of securities fraud liability \u2014 a result inconsistent with the statutory text and the PSLRA's design to cabin strike suits.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under the materiality standard established in TSC Industries and Basic Inc. v. Levinson, a reasonable investor would find it significant that Facebook framed already-occurring data misuse as merely hypothetical future risks. Omnicare's framework confirms that facially accurate statements can nonetheless be materially misleading when they omit known contrary facts that render the overall disclosure deceptive \u2014 a principle that applies with particular force when a company affirmatively chooses to speak about a risk category. The SEC's own 2018 cybersecurity guidance reinforces this reading, explicitly warning that treating known, materialized breaches as hypothetical risks in disclosures is insufficient and potentially misleading. While I share Facebook's concern about information overload and the practical burdens on corporate disclosures \u2014 considerations that counsel against an overly expansive reading \u2014 the PSLRA's heightened pleading standards under Tellabs provide a meaningful check against strike suits, and the core principle that companies cannot actively mislead investors by describing known present conditions as speculative future possibilities is well-grounded in precedent and the text of Section 10(b).",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Applying the textualist framework established in Macquarie Infrastructure Corp. v. Moab Partners (2024) and Rule 10b-5(b)'s plain text, Section 10(b) imposes no affirmative duty to disclose all material information; an omission is actionable only when it renders an affirmative statement misleading. Facebook's risk factor disclosures, read in their full context under the objective reasonable investor standard articulated in Omnicare, 575 U.S. at 186-187, must be assessed not merely by whether a risk had partially materialized internally, but whether the specific language used would mislead a reasonable investor about the company's actual circumstances \u2014 a demanding standard that requires careful attention to what the disclosures actually said rather than what plaintiffs wish they had said. The Ninth Circuit's approach risks collapsing the distinction between forward-looking risk disclosures and affirmative misrepresentations of present fact, effectively imposing a disclosure obligation that neither the statutory text nor TSC Industries' materiality standard supports, and would compel companies to characterize every known internal incident as a fully materialized risk, producing the information overload problem that undermines the very investor protection goals of the securities laws. Consistent with Tellabs' instruction that courts apply rigorous scrutiny to securities fraud pleadings, the proper inquiry demands that respondents demonstrate the specific statements were objectively misleading under the circumstances, not merely that undisclosed facts existed that investors might have found significant.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Omnicare, 575 U.S. 175 (2015), the misleading nature of a statement is assessed from the perspective of a reasonable investor based on the circumstances in which it was made, and a facially accurate statement can become materially misleading through omission of known contrary facts. Facebook's framing of already-materialized data misuse risks as merely hypothetical future possibilities is precisely the kind of half-truth that Rule 10b-5(b) targets \u2014 the omission of the known present reality rendered the affirmative risk disclosures misleading, not merely incomplete. Under TSC Industries and Basic Inc. v. Levinson, a reasonable investor would consider the distinction between a hypothetical risk and an already-occurring one highly significant in evaluating the company's exposure, and Facebook's scienter in knowing the Cambridge Analytica situation had already occurred while describing it as a contingency strengthens the fraud claim. While I take seriously Facebook's concern about disclosure overload, that policy argument cannot override the statutory text and the Omnicare framework, which already cabin liability to statements rendered misleading by omission rather than imposing a freestanding duty to disclose all material facts.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.744,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4"
+  }
+]

@@ -1,0 +1,619 @@
+[
+  {
+    "docket": "25-406",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Communications Act provisions governing the FCC's assessment and enforcement of monetary forfeitures violate the Seventh Amendment right to a jury trial and Article III's vesting of judicial power in federal courts.",
+      "legal_provision": "Seventh Amendment to the U.S. Constitution (right to jury trial in suits at common law), Article III of the U.S. Constitution (judicial power vesting clause), and the Communications Act provisions governing FCC monetary forfeiture assessment and enforcement procedures.",
+      "petitioner_position": "The FCC and federal government argue that Congress lawfully assigned monetary forfeiture proceedings to administrative adjudication under the Communications Act, and that such agency enforcement mechanisms are constitutionally permissible exercises of legislative power that do not require Article III courts or jury trials, consistent with the public rights doctrine and established administrative law frameworks.",
+      "respondent_position": "AT&T and Verizon, supported by numerous amici, argue that FCC civil monetary penalty proceedings are functionally equivalent to traditional legal claims cognizable at common law, and that the Seventh Amendment \u2014 as reaffirmed in SEC v. Jarkesy (2024) \u2014 prohibits Congress from stripping defendants of their jury trial rights by routing such claims through administrative tribunals rather than Article III courts, regardless of the statutory label applied.",
+      "key_precedents": [
+        "SEC v. Jarkesy, 603 U.S. 109 (2024) \u2014 reaffirmed Seventh Amendment jury trial rights apply to agency adjudications of common law-type claims",
+        "Axon Enterprise Inc. v. FTC, No. 21-86 (2022) \u2014 referenced for party realignment procedure",
+        "Campos-Chaves v. Garland, No. 22-674 (2023) \u2014 referenced for party realignment procedure",
+        "Pugin v. Garland, No. 22-23 (2023) \u2014 referenced for party realignment procedure",
+        "Thomas M. Cooley, A Treatise on the Constitutional Limitations (4th ed. 1878) \u2014 cited as historical authority on legislative power limitations"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's persistent argument that \u00a7 504(a) provides genuine de novo Article III adjudication \u2014 not merely rubber-stamp enforcement \u2014 remains the most serious challenge to my position, and I want to be honest that the factual record on what \u00a7 504(a) actually provides has not been fully developed in this conference. However, I am ultimately persuaded by Justice Barrett's precise formulation: the Seventh Amendment right attaches at the adjudication of liability, and by the time the FCC files a \u00a7 504(a) collection action, the agency has already exercised what is functionally judicial power to determine guilt and fix the penalty amount \u2014 the carrier then litigates against a presumptively valid administrative determination, which is constitutionally insufficient regardless of how we characterize the downstream proceeding. My minimalist instincts counsel writing narrowly: I would hold only that forfeiture proceedings imposing punitive monetary penalties payable to the Treasury, adjudicating conduct with common law antecedents in privacy and property, require Seventh Amendment jury trial rights \u2014 explicitly declining to address the broader FCC regulatory apparatus, licensing conditions, or administrative enforcement mechanisms that do not share these specific characteristics, and explicitly declining to overrule Atlas Roofing wholesale, only confirming that Jarkesy cabined its reach for claims of this punitive character. This narrow framing should address Justice Alito's and Justice Jackson's legitimate concerns about collateral disruption while maintaining the constitutional principle that Congress cannot route punitive liability determinations through administrative tribunals to avoid jury trial rights.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.95,
+        "reasoning": "Justice Kagan's argument that the Communications Act's collection mechanism under 47 U.S.C. \u00a7 504(a) provides meaningful Article III review is the strongest argument from the opposing side, but it fails under my originalist methodology for a fundamental reason: the Seventh Amendment's guarantee attaches at the point of adjudication of liability, not merely at the point of collection. If the FCC has already determined guilt and fixed the penalty amount through an administrative proceeding, the subsequent Article III collection action is not a de novo jury trial on the merits \u2014 it is enforcement of an already-determined liability, which provides no meaningful Seventh Amendment protection. Justice Barrett correctly identifies that the constitutional right attaches to the nature of the claim and remedy, not procedural labels Congress affixes, and Justice Gorsuch rightly emphasizes that the substance controls over form. The FCC's forfeiture proceedings are punitive monetary penalties paid to the Treasury adjudicating past violations \u2014 indistinguishable in constitutional character from the SEC's civil penalties in Jarkesy \u2014 and the public rights exception, properly confined to its historical origins, cannot encompass enforcement of duties with deep common law roots in privacy and property protection merely because Congress routed them through an administrative tribunal.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's \u00a7 504(a) argument remains the most serious challenge to my position, and I want to engage with it one final time with genuine intellectual honesty: she is correct that the Communications Act's collection mechanism provides a structural safeguard absent in Jarkesy, and I do not dismiss this lightly. However, the constitutional defect she identifies as cured by \u00a7 504(a) is not a collection problem \u2014 it is an adjudication problem. The Seventh Amendment right attaches when liability is determined, and by the time the FCC files its collection action in district court, the agency has already exercised what is functionally judicial power by finding the carrier liable and fixing the penalty amount; the carrier then bears the burden of litigating against a presumptively valid administrative determination, which inverts the constitutional structure rather than preserving it. Justice Barrett's point that the substance controls over form is dispositive for me: a post-hoc collection proceeding cannot retroactively supply the jury trial right that should have attached at the adjudicatory stage, any more than appellate review of a bench trial satisfies a criminal defendant's Sixth Amendment right. I write with genuine concern about the administrative disruption this holding causes to consumer protection enforcement \u2014 this is not an abstract exercise for me, as the people harmed by CPNI violations are often vulnerable individuals \u2014 but the Seventh Amendment's guarantee cannot be conditioned on the sympathetic or unsympathetic character of the regulated party, and intellectual honesty requires me to apply Jarkesy's logic consistently even where I find its consequences uncomfortable.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.52,
+        "reasoning": "Justice Barrett, Justice Gorsuch, and Justice Thomas all converge on the same response to my \u00a7 504(a) argument: that the Seventh Amendment right attaches at the adjudication of liability, not at collection, so a downstream Article III proceeding cannot cure the constitutional defect. I take this seriously, and it is the strongest counter to my position. However, I think my colleagues are eliding a critical distinction: under \u00a7 504(a), the district court proceeding is not merely deferential review of an agency determination \u2014 the government must affirmatively file suit and prove its case, and the carrier can contest liability de novo, including potentially invoking jury rights at that stage. If the \u00a7 504(a) proceeding genuinely functions as a de novo Article III adjudication rather than rubber-stamp enforcement, then the constitutional right has not been denied \u2014 it has been preserved through a different procedural pathway. The majority's response assumes the collection proceeding is merely ministerial, but that factual and legal question about the actual scope of \u00a7 504(a) review has not been adequately resolved in this conference, and intellectual honesty requires me to maintain my position that this structural distinction is constitutionally meaningful until the majority more fully grapples with what \u00a7 504(a) actually provides.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Kagan's distinction regarding the Communications Act's collection mechanism under 47 U.S.C. \u00a7 504(a) \u2014 requiring Article III court proceedings before penalties are actually imposed \u2014 is the strongest argument on the other side, and I take it seriously. However, this procedural pathway does not cure the constitutional defect: the Seventh Amendment right attaches at the adjudication of liability, not merely at the collection stage, and a rubber-stamp enforcement proceeding in district court after administrative guilt has already been determined does not preserve the jury trial right any more than the SEC's scheme in Jarkesy was saved by judicial review provisions. Justice Barrett correctly identifies that the government's own concession on Seventh Amendment applicability is telling, and Justice Thomas rightly emphasizes that the structural Article III concern \u2014 an executive agency serving simultaneously as prosecutor and adjudicator of retrospective punitive liability \u2014 independently reinforces the constitutional infirmity here. Justice Alito's point about the heavily regulated industry context and Atlas Roofing deserves acknowledgment, but Jarkesy explicitly addressed and narrowed Atlas Roofing's reach, holding that the public rights exception cannot be stretched to cover claims whose essential character tracks common law antecedents simply because Congress embedded them in a regulatory scheme.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's \u00a7 504(a) argument remains the most serious challenge to my position, but after two rounds of deliberation I am more confident it fails for the reason Justice Barrett articulates with precision: the Seventh Amendment right attaches at the adjudication of liability, not at the collection stage, and a post-hoc Article III enforcement proceeding that reviews an already-determined administrative penalty cannot retroactively cure the constitutional defect that occurred when the agency adjudicated guilt without a jury. Justice Kagan's structural distinction would be compelling if \u00a7 504(a) provided genuine de novo jury trial on the merits of liability \u2014 but it does not; it provides judicial enforcement of an already-rendered administrative determination, which is constitutionally insufficient under Jarkesy's logic. I share Chief Justice Roberts's minimalist instinct and would write narrowly to hold only that these specific forfeiture proceedings \u2014 punitive monetary penalties paid to the Treasury adjudicating conduct with common law antecedents \u2014 require Seventh Amendment protection, without broadly disrupting the FCC's regulatory apparatus or foreclosing Congress's ability to craft genuinely novel public rights schemes. Justice Alito's Atlas Roofing and licensing-condition arguments deserve respect, but Jarkesy explicitly cabined Atlas Roofing's reach, and the licensing framework cannot transform a retrospective punitive penalty proceeding into a public rights matter simply because the defendant holds a federal license.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Kagan's argument about the Communications Act's de novo judicial review mechanism under 47 U.S.C. \u00a7 504(a) is the strongest challenge to my position, and I take it seriously \u2014 if carriers genuinely receive a full Article III forum before any penalty is actually collected, that structural feature might distinguish this case from Jarkesy. However, the constitutional right attaches at the adjudication stage, not merely the collection stage; a defendant's Seventh Amendment right to have a jury determine liability cannot be satisfied by post-hoc judicial review of an agency's already-rendered liability determination, any more than a criminal defendant's jury trial right could be satisfied by appellate review of a bench verdict. Justice Gorsuch correctly identifies that the substance controls over form, and the FCC's proceedings \u2014 which make final determinations of legal guilt and impose punitive monetary liability payable to the Treasury \u2014 constitute the exercise of judicial power over a claim with deep common law roots, regardless of the downstream collection mechanism. Justice Alito's invocation of Atlas Roofing and the heavily regulated industry rationale is historically serious, but Jarkesy explicitly cabined Atlas Roofing's reach and the licensing-condition theory cannot transform a punitive penalty proceeding into a public rights matter simply because the defendant holds a federal license.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that the Seventh Amendment right attaches at the adjudicatory stage rather than the collection stage is the most powerful challenge to my position, and I want to engage with it honestly: she is correct that a post-hoc collection proceeding cannot fully substitute for a jury determination of liability at the outset. However, I am not persuaded that the \u00a7 504(a) mechanism is merely a 'rubber stamp' \u2014 the collection proceeding is a genuine Article III action where the carrier can contest liability de novo before a federal court, which is structurally different from the SEC scheme in Jarkesy where no such independent judicial forum existed before enforcement. Justice Sotomayor's concern that the public rights exception would 'swallow the rule' if pervasive regulation suffices is well-taken, but I would ground the distinction not in regulatory density alone but in the specific licensing architecture where the federal government's authority is constitutive of the carrier's right to operate at all \u2014 a narrower claim than she attributes to me. I remain at Petitioner, though with reduced confidence, because the \u00a7 504(a) structural distinction is a genuine constitutional argument that the majority has not fully answered, and intellectual honesty requires me to maintain a position I believe is textually and historically defensible even when outnumbered.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "After three rounds of deliberation, Justice Barrett's argument that the Seventh Amendment right attaches at the adjudication of liability rather than the collection stage has finally persuaded me to change my position. I had maintained that \u00a7 504(a)'s de novo district court proceedings meaningfully distinguished this case from Jarkesy, but Justice Kagan \u2014 my closest ally \u2014 has herself acknowledged that the majority's response to this argument is powerful, and her own confidence has dropped to 0.5. The critical insight I could not escape is this: if the FCC has already determined guilt and fixed the penalty amount, the carrier entering \u00a7 504(a) proceedings is not a party whose liability remains undetermined \u2014 the carrier bears the practical burden of overcoming an agency determination, which is structurally different from the fresh adjudication I had imagined. Justice Roberts's minimalist framing also addresses my Atlas Roofing concern adequately: a narrow holding confined to punitive monetary penalties payable to the Treasury adjudicating conduct with common law antecedents need not destabilize the broader FCC regulatory apparatus or licensing framework, and I can join that narrow holding without abandoning my view that Jarkesy should not be read to foreclose all administrative enforcement in heavily regulated industries.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Under SEC v. Jarkesy (2024), the Seventh Amendment's jury trial right attaches when a government enforcement action is analogous to a common law suit at law, and FCC monetary forfeiture proceedings \u2014 which seek punitive penalties paid to the Treasury based on conduct historically cognizable at common law \u2014 appear to satisfy that test. My minimalist instincts counsel caution here: rather than broadly invalidating the entire FCC forfeiture scheme, I would hold narrowly that where the FCC's penalty proceedings are functionally indistinguishable from legal claims that would have been tried before a jury at common law in 1791, the public rights exception cannot swallow the Seventh Amendment guarantee. Jarkesy's limiting principle \u2014 that the public rights doctrine does not extend to claims whose elements trace to common law antecedents merely because Congress has relabeled them as regulatory enforcement \u2014 controls here, and I would apply it narrowly to these specific forfeiture provisions without disturbing the broader administrative state. I write separately to emphasize that this holding should be construed as applying only to monetary penalty schemes of this character, preserving Congress's latitude to assign genuinely novel statutory rights and remedies to agency adjudication.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.95,
+        "reasoning": "The Seventh Amendment's guarantee of jury trial in 'suits at common law' must be interpreted according to its original public meaning at the Founding, which encompassed actions seeking retrospective monetary penalties analogous to common law causes of action. The FCC's forfeiture proceedings \u2014 which adjudicate past violations, impose punitive monetary liability payable to the Treasury, and constitute final determinations of legal guilt \u2014 are functionally indistinguishable from the kind of legal claims that would have been tried before a jury in 1791. SEC v. Jarkesy (2024) correctly applied the historical analogy test and narrowly construed the 'public rights' exception, confirming that Congress cannot strip defendants of jury trial rights merely by routing common law-type claims through administrative tribunals; the FCC's enforcement scheme falls squarely within that prohibition. Furthermore, Article III's vesting of judicial power in federal courts \u2014 a structural protection for individual liberty that I have long argued must be enforced rigorously \u2014 is violated when an executive agency both prosecutes and adjudicates retrospective liability, as the FCC does here under 47 U.S.C. \u00a7 503(b)(4).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While Jarkesy (2024) reaffirmed Seventh Amendment protections for common law-type claims adjudicated in Article III courts, the critical distinction here is whether Congress may assign FCC forfeiture proceedings to administrative adjudication under the public rights doctrine. The Communications Act's forfeiture regime operates within a heavily regulated industry where carriers accept licensing conditions as a prerequisite to operating, and the FCC's enforcement of statutory obligations differs meaningfully from the SEC's fraud claims at issue in Jarkesy. However, the Fifth Circuit's reasoning that negligence claims against common carriers have historically been adjudicated in courts is textually and historically serious, and Atlas Roofing's principle that Congress may assign public rights matters to agencies even when analogous to common law claims provides the stronger constitutional foundation here. The practical consequences of invalidating the FCC's administrative enforcement structure would be enormously disruptive to the regulatory framework Congress deliberately constructed, and textualist fidelity to the Communications Act's carefully designed forfeiture scheme counsels deference to legislative design absent a clearer constitutional violation.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While my judicial philosophy strongly favors robust regulatory enforcement mechanisms that protect vulnerable consumers and the public interest, I am constrained by the constitutional framework reaffirmed in SEC v. Jarkesy (2024), which held that when an agency enforcement action is functionally analogous to a common law claim \u2014 here, the FCC's Section 222 forfeiture proceedings targeting carrier negligence in handling customer data bear a clear kinship to common law negligence and actions in debt \u2014 the Seventh Amendment requires jury trial rights that cannot be circumvented by routing proceedings through administrative tribunals. The research materials confirm that the 'public rights' exception is narrowly construed and does not swallow the rule simply because Congress created a statutory enforcement scheme, particularly where the underlying conduct 'targets the same basic conduct' as a cognizable common law action. I write separately to emphasize that this outcome does not invalidate the FCC's substantive regulatory authority, but merely requires that monetary penalty enforcement proceed through Article III courts with jury trial protections \u2014 a result that, while administratively burdensome, ultimately serves the fairness values I hold dear by ensuring regulated parties receive neutral adjudication. Congress retains broad power to craft remedial schemes, but must do so within constitutional guardrails that protect defendants regardless of their corporate size.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While Jarkesy's analogous-common-law-action test creates genuine pressure on FCC forfeiture proceedings, I would distinguish the FCC's Communications Act enforcement scheme on the grounds that it incorporates meaningful de novo judicial review mechanisms that preserve the constitutional core of Article III oversight, unlike the SEC's scheme at issue in Jarkesy. The Communications Act's enforcement structure \u2014 where forfeitures are assessed administratively but must be collected through Article III court proceedings under 47 U.S.C. \u00a7 504(a), affording carriers a full judicial forum before any penalty is actually imposed \u2014 provides the kind of robust pre-payment judicial check that Jarkesy's majority did not foreclose as a constitutional alternative. Section 222's privacy duty, while bearing some resemblance to common law confidentiality obligations, operates within a heavily regulated telecommunications framework that Congress has long assigned to expert agency administration under the public rights doctrine, and the penalties here serve regulatory deterrence rather than purely punitive common law ends. I write with some hesitation because Jarkesy's broad language about civil penalties being the 'prototypical common law remedy' creates real tension with this distinction, and I would urge Congress to clarify the enforcement pathway to ensure Article III courts play a meaningful, non-illusory role.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Under Jarkesy's framework, the Seventh Amendment inquiry turns on whether the government's claim is analogous to a common law suit cognizable at law in 1791, and here the FCC's monetary forfeitures under Section 222 and Section 503(b) are punitive penalties paid to the Treasury \u2014 the 'prototypical common law remedy' \u2014 rather than compensatory or restorative relief, closely tracking the securities fraud analysis in Jarkesy. The plain text of the Seventh Amendment preserves the right to jury trial in 'suits at common law,' and as an originalist and textualist I cannot accept that Congress may simply relabel a legal claim as 'administrative' to strip defendants of a constitutionally guaranteed right; the substance controls over the form. Article III's vesting clause independently reinforces this conclusion, as adjudicating punitive monetary liability of this magnitude constitutes the exercise of judicial power that must reside in Article III courts, not executive-branch tribunals. The public rights exception is narrow \u2014 properly confined to matters genuinely arising between the government and private parties in contexts with no historical common law analog \u2014 and FCC forfeiture proceedings enforcing duties with deep common law roots in privacy and property protection do not qualify.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under SEC v. Jarkesy (2024), the Seventh Amendment's jury trial right applies when the government pursues monetary penalties that are analogous to common law causes of action, and FCC forfeiture proceedings seeking substantial civil penalties payable to the Treasury bear the hallmarks of traditional legal claims rather than purely regulatory or public rights matters. The public rights doctrine exception, as Chief Justice Roberts carefully cabined it in Jarkesy, does not extend to penalty schemes that track common law fraud or trespass analogues simply because Congress routed them through an administrative agency. While I am mindful of the institutional disruption this ruling may cause for the FCC and analogous agencies, my commitment to judicial restraint counsels fidelity to the constitutional text and the Court's recent, carefully reasoned precedent rather than carving out ad hoc exceptions that would effectively nullify Jarkesy's core holding. History and tradition confirm that suits seeking monetary penalties with punitive character were cognizable at common law and thus fall within the Seventh Amendment's protection, and practical workability concerns, while real, cannot override a clear constitutional guarantee.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Under SEC v. Jarkesy (2024), the Seventh Amendment's jury trial right extends to statutory claims that are 'legal in nature,' with the remedy being the more important factor in that determination. The FCC's civil monetary penalties imposed on AT&T and Verizon are straightforwardly punitive in character \u2014 precisely the kind of remedy that Jarkesy identified as cognizable at common law and enforceable only in courts of law \u2014 and the underlying cause of action parallels common-law negligence, satisfying both prongs of the Jarkesy analytical framework. The government's own concession that it does not contest the Seventh Amendment applicability to these proceedings is telling and well-founded; routing these claims through in-house FCC adjudication rather than Article III courts with jury availability cannot be salvaged merely by the statutory enforcement mechanism's procedural quirks, because the constitutional right attaches to the nature of the claim and remedy, not the label Congress affixes. Consistent with my textualist and originalist commitments, the original public meaning of 'Suits at common law' in the Seventh Amendment \u2014 as understood at the founding and reaffirmed through historical practice \u2014 encompasses civil penalty actions of this character, and Congress lacks authority to strip that right by administrative reassignment.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While my background as a public defender makes me deeply attentive to procedural fairness and the structural dangers of agencies serving as prosecutor, judge, and jury, I must grapple seriously with Jarkesy's framework before concluding it compels this result. The FCC's Section 222 enforcement does bear resemblance to common law negligence or privacy tort claims, and the penalties flow to the Treasury rather than compensating harmed customers, suggesting punitive rather than restorative character \u2014 precisely the Jarkesy markers for Seventh Amendment protection. However, I would distinguish this case from Jarkesy on the grounds that telecommunications carriers operate under a comprehensive federal licensing and regulatory scheme that more plausibly implicates the 'public rights' doctrine \u2014 the FCC's authority over common carriers arises from a pervasive federal licensing regime with no true common law analog, unlike securities fraud which Congress explicitly modeled on common law fraud. That said, Jarkesy's logic, as articulated by the majority, is difficult to cabin here, and intellectual honesty requires acknowledging that the Fifth Circuit's application of that precedent is not unreasonable, leading me to vote for the Petitioner with meaningful uncertainty.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.722,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "25-406",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Communications Act provisions governing the FCC's assessment and enforcement of monetary forfeitures violate the Seventh Amendment's jury trial guarantee and Article III's vesting of judicial power in federal courts.",
+      "legal_provision": "Seventh Amendment to the U.S. Constitution (right to jury trial in 'Suits at common law'); Article III of the U.S. Constitution (judicial power vesting clause); Communications Act provisions governing FCC monetary forfeiture assessment and enforcement procedures.",
+      "petitioner_position": "The FCC and federal government argue that Congress lawfully assigned monetary forfeiture proceedings to administrative adjudication under the Communications Act, and that such agency enforcement mechanisms are constitutionally permissible exercises of congressional authority to create and delegate regulatory enforcement to administrative tribunals without requiring Article III courts or jury trials.",
+      "respondent_position": "AT&T and Verizon argue, supported by numerous amici, that the FCC's civil penalty forfeiture regime violates the Seventh Amendment because monetary penalties of this nature are analogous to traditional common law actions that historically required jury trials, and that Congress cannot circumvent constitutional guarantees by routing what are effectively legal claims through administrative agencies rather than Article III courts, relying heavily on the Supreme Court's recent holding in SEC v. Jarkesy (2024).",
+      "key_precedents": [
+        "SEC v. Jarkesy, 603 U.S. 109 (2024) - reaffirmed Seventh Amendment jury trial rights apply to agency adjudications of traditional legal claims",
+        "Campos-Chaves v. Garland, No. 22-674 (2023) - cited for party realignment procedure",
+        "Pugin v. Garland, No. 22-23 (2023) - cited for party realignment procedure",
+        "Axon Enterprise Inc. v. FTC, No. 21-86 (2022) - cited for party realignment procedure",
+        "Thomas M. Cooley, Constitutional Limitations (4th ed. 1878) - cited as historical authority on legislative power limitations"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The unanimity of this conference \u2014 spanning Justice Thomas's originalism to Justice Jackson's pragmatism \u2014 reinforces rather than unsettles my position, though I remain attentive to the institutional implications of this ruling. Justice Kagan's observation that permitting Congress to route any punitive monetary claim through an agency by labeling it 'regulatory' would render the Seventh Amendment illusory is the most analytically precise formulation of the constitutional defect, and it aligns with my minimalist instinct to identify the narrowest structural problem rather than issuing a sweeping condemnation of the administrative state. Justice Kavanaugh's counsel to write narrowly \u2014 limiting the holding to the specific FCC forfeiture provisions at issue, punitive monetary penalties paid to the Treasury for conduct analogous to common law torts \u2014 is exactly the approach I would take as the author of the majority opinion, preserving Congress's authority to restructure enforcement mechanisms while honoring Jarkesy as controlling precedent. The government's apparent concession that these proceedings are 'legal in nature' forecloses the most natural escape route through the public rights doctrine, and no argument presented today has given me reason to depart from that conclusion.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.97,
+        "reasoning": "I am in full agreement with Justice Gorsuch's textualist and originalist analysis: the Seventh Amendment's original public meaning in 1791 unambiguously encompassed actions seeking punitive monetary penalties analogous to common law debt or penalty actions, and the FCC's forfeiture regime is constitutionally indistinguishable from the SEC scheme struck down in Jarkesy. I would go further than Chief Justice Roberts' minimalist instinct to cabin the ruling narrowly \u2014 the constitutional text admits no exception for 'regulatory' penalties that are functionally punitive, and a narrow ruling risks leaving the core constitutional defect unaddressed in future cases involving other agencies. Justice Barrett correctly identifies that the 'public rights' exception must be narrowly construed consistent with its historical origins, applying only to matters genuinely arising from government-created rights with no common law antecedent \u2014 telecommunications penalty enforcement for conduct analogous to common law negligence and fraud plainly does not qualify. The strongest argument for the Petitioner \u2014 that administrative efficiency and the subsequent collection suit mechanism preserve constitutional adequacy \u2014 fails because, as Justice Kagan correctly notes despite her general sympathy for the administrative state, permitting the executive branch to adjudicate guilt and impose punishment before any Article III court or jury acts renders the Seventh Amendment guarantee illusory.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas and Justice Gorsuch that the original public meaning of the Seventh Amendment's 'Suits at common law' language encompasses punitive monetary penalty actions of the type the FCC pursues here, and Jarkesy's framework \u2014 whatever my reservations about its breadth when it was decided \u2014 now controls this analysis. The strongest argument for the Petitioner would be that the FCC's forfeiture regime operates within a uniquely governmental regulatory context distinguishing it from the SEC scheme in Jarkesy, but as Justice Barrett correctly notes, the 'public rights' exception must be narrowly construed and does not extend to punitive monetary sanctions for conduct with clear common law analogues simply because Congress assigned enforcement to an agency. I share Chief Justice Roberts's instinct to write narrowly and avoid a sweeping ruling that destabilizes the entire administrative enforcement apparatus, but the constitutional text and Jarkesy's binding precedent leave little room for a different outcome on the core question of whether AT&T and Verizon were entitled to jury adjudication. The government's apparent concession that these proceedings are 'legal in nature' effectively forecloses the public rights escape hatch, and I would affirm the Fifth Circuit while encouraging Congress to craft a constitutionally compliant enforcement mechanism.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The convergence of my colleagues across the ideological spectrum \u2014 from Justice Thomas's originalism to Justice Jackson's pragmatism \u2014 on the same constitutional conclusion reinforces my view that Jarkesy's framework compels this result, though I reach it through my own lens of concern for vulnerable populations. Justice Jackson's point resonates most deeply with me: the long-term legitimacy of the administrative state, and its capacity to protect ordinary consumers, depends on its operating within constitutional bounds rather than maximizing short-term enforcement efficiency through constitutionally suspect mechanisms. The strongest argument for the Petitioner \u2014 that disrupting the FCC's enforcement apparatus will harm the very consumers I care most about protecting \u2014 is real and I feel its weight acutely, but as Justice Jackson correctly notes, the remedy lies with Congress rather than with judicial acquiescence to constitutional circumvention. I write separately to emphasize that Congress must act urgently to craft constitutionally compliant enforcement mechanisms, because the populations harmed by telecommunications fraud \u2014 often low-income communities and communities of color \u2014 cannot afford a regulatory vacuum while this constitutional restructuring unfolds.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "After reviewing my colleagues' arguments in round two, I remain firmly with the Respondents, and my confidence has modestly increased. The convergence across methodological lines \u2014 from Justice Thomas's originalism to Justice Jackson's pragmatism \u2014 reflects not mere groupthink but genuine analytical convergence on a sound constitutional principle. The argument I find most worth engaging is the Petitioner's strongest implicit claim: that the FCC's regulatory context is meaningfully distinguishable from Jarkesy's securities fraud setting. But as Justice Barrett correctly identifies, Jarkesy's majority reasoning was not domain-specific \u2014 it articulated a functional test keyed to the punitive nature of the remedy and its historical common law analogues, and the FCC's forfeiture regime satisfies both prongs. I write to emphasize, consistent with my pragmatic textualist methodology, that the holding should be written as narrowly as Chief Justice Roberts suggests \u2014 confined to punitive monetary penalties paid to the Treasury for conduct with clear common law analogues \u2014 precisely because a broader ruling would unnecessarily destabilize administrative enforcement regimes that may have different constitutional profiles, and because Congress retains full authority to restructure these mechanisms in ways that honor both the Seventh Amendment and effective regulatory governance.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have articulated the constitutional framework with admirable clarity, and I find myself in substantial agreement with Justice Thomas's originalist analysis and Justice Barrett's methodologically consistent application of Jarkesy. The strongest argument for the Petitioner \u2014 that the FCC's forfeiture regime serves a distinctly public regulatory function distinguishable from private common law actions \u2014 fails under careful originalist scrutiny because the 'public rights' exception, as I understand it from its historical origins, was never meant to encompass punitive monetary sanctions imposed on private parties for conduct with clear common law analogues simply because Congress assigned enforcement to an agency. Justice Kagan correctly identifies the constitutional logic: permitting Congress to route any punitive monetary claim through an agency by labeling it 'regulatory' would render the Seventh Amendment's protections entirely illusory, which cannot be reconciled with the original public meaning of 'Suits at common law.' The subsequent collection suit mechanism does not cure the defect because the constitutional guarantee attaches to the initial adjudication of liability, not merely to the ultimate collection of the penalty \u2014 allowing the executive branch to determine guilt and impose punishment before any Article III court acts is precisely the structural violation the Founders designed the Seventh Amendment to prevent.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The unanimity of my colleagues across methodological lines \u2014 from Justice Thomas's originalism to Justice Kagan's pragmatic textualism to Justice Jackson's structural constitutionalism \u2014 reinforces rather than merely reflects the strength of the legal analysis here. Justice Kagan's observation, which I find most persuasive, that permitting Congress to route any punitive monetary claim through an agency by labeling it 'regulatory' would render the Seventh Amendment illusory captures precisely the structural constitutional defect that Jarkesy identified and that I cannot distinguish away in the FCC context. The government's own concession that these proceedings are 'legal in nature' effectively forecloses the public rights escape hatch, as Justice Alito correctly notes, leaving no principled basis for treating the FCC's forfeiture regime differently from the SEC scheme we addressed in Jarkesy. I write to emphasize, consistent with Chief Justice Roberts's minimalist instinct and my own institutionalist concerns, that the holding should be cabined to the specific FCC forfeiture provisions at issue \u2014 punitive monetary penalties paid to the Treasury for conduct with clear common law analogues \u2014 and that Congress retains full authority to restructure enforcement mechanisms in constitutionally compliant ways that preserve regulatory effectiveness.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is notable. Justice Kagan's observation that a rule permitting Congress to route any punitive monetary claim through an agency simply by labeling it 'regulatory' would render the Seventh Amendment illusory is particularly well-taken from a textualist perspective \u2014 the constitutional guarantee cannot be reduced to a formalistic label that Congress controls. Justice Thomas correctly identifies that the FCC's forfeiture regime is constitutionally indistinguishable from the SEC penalty scheme in Jarkesy: both seek punitive civil penalties paid to the Treasury for conduct historically cognizable at common law, and the 'public rights' exception cannot be stretched to encompass what are functionally punitive legal claims simply because they arise in a telecommunications regulatory context rather than a securities context. The strongest argument for the Petitioner \u2014 that the subsequent collection suit in Article III court provides adequate constitutional protection \u2014 fails under careful analysis because it permits the executive branch to adjudicate guilt and impose punishment before any jury has acted, rendering the right to jury trial a post-hoc formality rather than the meaningful constitutional guarantee the Founders enshrined. I write to emphasize, consistent with Justice Kavanaugh's institutionalist concern, that Congress retains authority to restructure enforcement mechanisms to comply with constitutional requirements while preserving regulatory effectiveness.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' positions in this second round of deliberation, I remain firmly with the Respondents and find the convergence across methodological lines \u2014 from Justice Thomas's originalism to Justice Kagan's pragmatic textualism \u2014 genuinely reinforcing rather than merely peer pressure. Justice Gorsuch's point that 'the constitutional guarantee attaches to the initial adjudication of liability, not merely to the ultimate collection of the penalty' is particularly precise and addresses what I consider the strongest remaining argument for the Petitioner: that the subsequent Article III collection suit provides adequate constitutional protection. That argument fails because, as my background as a public defender makes viscerally clear, the determination of guilt and the imposition of punishment are the constitutionally critical moments \u2014 by the time a collection suit arrives, the executive branch has already done the constitutional damage. I write to emphasize, consistent with Justice Sotomayor's concern for ordinary consumers, that today's holding should be accompanied by a clear signal that Congress can and should restructure the FCC's enforcement mechanisms to be both constitutionally compliant and practically effective at protecting the public from corporate misconduct.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under my minimalist approach, I would prefer to resolve this on the narrowest available grounds, but Jarkesy's analytical framework cannot be cabined to securities fraud alone \u2014 the majority articulated a broader principle that when an agency seeks punitive monetary penalties paid to the Treasury for conduct analogous to common law wrongs, the Seventh Amendment's jury trial guarantee applies regardless of the statutory label Congress attaches. The FCC's forfeiture regime, like the SEC's penalty scheme struck in Jarkesy, imposes punitive sanctions rather than compensatory relief, and the underlying conduct \u2014 negligent or willful misuse of customer data and communications \u2014 bears sufficient resemblance to common law tort and fraud actions to trigger constitutional protection. I am mindful of the institutional costs of broadly invalidating administrative enforcement mechanisms, and I would write narrowly to address only the specific forfeiture provisions at issue rather than issue a sweeping ruling on all agency civil penalties, but the constitutional text and Jarkesy's precedent compel the conclusion that AT&T and Verizon were entitled to have liability determined by a jury in an Article III court before punishment was imposed. The argument that a later collection suit cures the constitutional defect is unpersuasive, as it renders the jury right illusory and contingent on the defendant's financial capitulation.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.95,
+        "reasoning": "The Seventh Amendment's text preserving the right to jury trial in 'Suits at common law' must be interpreted according to its original public meaning at the time of ratification, which encompassed actions seeking punitive monetary penalties analogous to common law causes of action. The FCC's monetary forfeiture regime is constitutionally indistinguishable from the SEC penalty scheme struck down in SEC v. Jarkesy (2024), as both seek punitive civil penalties paid to the Treasury for conduct historically cognizable at common law, triggering the Seventh Amendment's jury trial guarantee. Congress cannot circumvent Article III's vesting of judicial power in federal courts or the Seventh Amendment's jury trial guarantee merely by routing what are effectively legal claims through administrative agencies \u2014 the constitutional text admits no such legislative workaround, and the 'public rights' exception must be narrowly construed consistent with its historical origins to avoid swallowing the constitutional guarantee entirely. I would go further than the majority in Jarkesy to note that the entire administrative adjudication framework for imposing civil penalties of this nature rests on constitutionally dubious foundations that deserve searching originalist scrutiny.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Under the analytical framework established in SEC v. Jarkesy (2024), the Seventh Amendment's jury trial guarantee extends to statutory claims that are 'legal in nature,' with the remedy being the more important factor in that determination. The FCC's civil monetary forfeiture regime imposes punitive penalties paid to the Treasury \u2014 precisely the type of remedy that, as Jarkesy confirmed, 'could only be enforced in courts of law' at common law \u2014 and the government itself does not contest that the Fifth Circuit correctly held the scheme requires an Article III decisionmaker and jury trial. While I am generally skeptical of expansive readings that constrain regulatory enforcement mechanisms, the text and original meaning of the Seventh Amendment, combined with Jarkesy's controlling precedent, compel the conclusion that Congress cannot circumvent constitutional jury trial guarantees merely by routing traditional legal penalties through an administrative agency, as the public rights doctrine does not swallow claims of this character.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While my judicial philosophy strongly favors robust administrative agency power to protect vulnerable consumers and enforce regulatory regimes, I cannot ignore that SEC v. Jarkesy (2024) established a clear analytical framework: when the government seeks civil monetary penalties analogous to common law causes of action, the Seventh Amendment's jury trial guarantee applies regardless of whether Congress has routed enforcement through an administrative tribunal. The FCC's forfeiture scheme \u2014 seeking punitive monetary sanctions paid to the Treasury for conduct akin to common law negligence \u2014 is materially indistinguishable from the SEC penalty scheme struck down in Jarkesy, and the government's concession that these enforcement actions are 'legal in nature' effectively forecloses the public rights exception. I am deeply concerned about the practical consequences of dismantling administrative enforcement mechanisms that protect ordinary consumers and maintain regulatory order, but the constitutional text and Jarkesy's binding precedent compel the conclusion that AT&T and Verizon were entitled to Article III adjudication and jury trial rights at the initial adjudication stage. The majority's framework in Jarkesy, however much I disagreed with its broader implications for the administrative state, must be applied consistently.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under SEC v. Jarkesy's analytical framework, the Seventh Amendment inquiry turns on the 'substance of the suit' rather than the label Congress attaches to it, and FCC monetary forfeitures share the critical features identified in Jarkesy as triggering jury trial rights: they are punitive rather than compensatory, paid to the Treasury, and analogous to common law actions for penalties. While I am sympathetic to the government's argument that administrative enforcement regimes serve important regulatory purposes and that Jarkesy was decided in the securities fraud context, the majority's reasoning in that case was not cabined to securities law but articulated a broader test applicable across regulatory enforcement schemes that seek punitive monetary sanctions for conduct analogous to common law wrongs. The workability concerns that animate my pragmatic approach cut both ways here\u2014a constitutional rule that permits Congress to route any punitive monetary claim through an agency simply by labeling it 'regulatory' would render the Seventh Amendment's protections illusory, and the subsequent collection suit mechanism identified by the Second Circuit does not cure the constitutional defect because it allows the executive branch to adjudicate guilt and impose punishment before any Article III court or jury has acted. I would hold that the Communications Act's forfeiture provisions, as applied to impose substantial punitive penalties, require adjudication before an Article III court with jury trial rights, while leaving open whether Congress might restructure the scheme to preserve meaningful administrative efficiency consistent with constitutional requirements.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "As a textualist and originalist, I must follow the Constitution's plain meaning and historical understanding. The Seventh Amendment preserves the right to jury trial in 'Suits at common law,' and the original public meaning of that phrase in 1791 encompassed actions seeking punitive monetary penalties analogous to common law debt or penalty actions \u2014 precisely what the FCC's forfeiture regime imposes on AT&T and Verizon. Jarkesy (2024) reaffirmed that Congress cannot evade Article III and the Seventh Amendment by routing traditionally legal claims through administrative tribunals, and the 'public rights' exception does not swallow the constitutional guarantee simply because Congress labels a penalty 'statutory' or 'regulatory.' The FCC's forfeiture proceedings \u2014 which adjudicate guilt and impose substantial punitive monetary sanctions without an independent Article III judge or jury \u2014 violate both the Seventh Amendment and Article III's vesting of judicial power, and the possibility of a later collection suit cannot retroactively cure that constitutional defect, as the determination of liability must occur in court before a jury in the first instance.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under SEC v. Jarkesy (2024), the Seventh Amendment's jury trial right applies when a government enforcement action seeks civil penalties analogous to traditional common law suits, and the FCC's monetary forfeiture regime\u2014which imposes punitive sanctions paid to the Treasury rather than compensating specific victims\u2014bears the hallmarks the Jarkesy majority identified as triggering constitutional protection. As an institutionalist, I am mindful that overextending administrative adjudication erodes the structural constitutional guarantees that underpin public confidence in both the judiciary and the regulatory state, and the historical record does not support treating telecommunications penalty enforcement as a 'public rights' matter sufficiently distinct from private common law actions to escape Seventh Amendment scrutiny. The 'public rights' exception, properly understood after Jarkesy, is narrow and does not swallow claims that are functionally punitive and historically rooted in common law analogues simply because Congress chose an administrative vehicle for enforcement. I write with some hesitation given the significant practical disruption to the FCC's enforcement apparatus, and I would encourage Congress to craft a constitutionally compliant enforcement mechanism that preserves regulatory effectiveness while respecting the jury trial guarantee.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the analytical framework established in SEC v. Jarkesy (2024), the FCC's monetary forfeiture regime triggers Seventh Amendment jury trial protections because the penalties are punitive in nature, paid to the Treasury rather than compensating injured parties, and bear sufficient historical analogy to common law actions that would have required jury adjudication at the founding. The original public meaning of 'Suits at common law' in the Seventh Amendment, as understood in 1791, encompassed actions seeking monetary penalties for regulatory-type wrongs with common law analogues, and Congress cannot circumvent this constitutional guarantee merely by routing enforcement through an administrative agency rather than an Article III court. The 'public rights' exception, narrowly construed consistent with its historical origins and as reaffirmed in Jarkesy, does not swallow the Seventh Amendment's core guarantee simply because Congress has assigned a regulatory enforcement function to an agency; the exception applies to matters genuinely arising from government-created rights with no common law antecedent, not to punitive monetary sanctions for conduct analogous to common law wrongs. Methodological consistency with Jarkesy's textualist and historically-grounded framework compels the conclusion that AT&T and Verizon are entitled to jury adjudication of the FCC's forfeiture claims.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Under SEC v. Jarkesy (2024), the Seventh Amendment's jury trial right applies when an agency seeks punitive monetary penalties analogous to traditional common law causes of action, and the FCC's forfeiture regime \u2014 which imposes civil penalties paid to the Treasury to punish or deter conduct rather than compensate for harm \u2014 shares the same constitutionally problematic features the Court identified in striking down the SEC's scheme. While my progressive pragmatist instincts counsel deference to Congress's regulatory design and concern me about the downstream consequences for the administrative state's capacity to enforce consumer protection and public interest mandates, Jarkesy's analytical framework compels the conclusion that regulated parties retain a Seventh Amendment right to jury adjudication when the government pursues what are functionally punitive legal claims with common law analogues. The 'public rights' exception, narrowly construed by Jarkesy, cannot rescue the FCC's scheme here because telecommunications enforcement penalties do not arise from a uniquely governmental regulatory relationship sufficiently distinct from private common law rights, and routing such claims through an administrative tribunal to avoid Article III courts and juries is precisely the constitutional circumvention Jarkesy forbids. I write separately to emphasize that Congress retains broad authority to restructure these enforcement mechanisms consistent with constitutional requirements, and that this holding should not be read to categorically invalidate all administrative penalty regimes.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.852,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.97,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.97,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  }
+]

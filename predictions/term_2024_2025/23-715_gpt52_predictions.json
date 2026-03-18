@@ -1,0 +1,570 @@
+[
+  {
+    "docket": "23-715",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Medicare\u2019s Disproportionate Share Hospital (DSH) formula counts a patient as \u201centitled to supplementary security income (SSI) benefits\u201d based on SSI eligibility/status codes generally, or only if the patient was actually entitled to receive SSI cash payments during the month of the hospital stay.",
+      "legal_provision": "42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I) (Medicare DSH \u201cSSI fraction\u201d referring to patients \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d); cross-referenced Title XVI SSI provisions in 42 U.S.C. \u00a7 1381 et seq.",
+      "petitioner_position": "Hospitals argue that the statutory phrase \u201centitled to supplementary security income benefits\u201d should be read broadly to include patients whom SSA data indicates were SSI-eligible or SSI-entitled in a status sense, even if SSA did not actually pay SSI cash benefits for the hospitalization month. They contend HHS improperly narrows the SSI fraction by treating \u201centitled\u201d as requiring contemporaneous payment-entitlement, and that this interpretation undercounts low-income patients and reduces DSH payments, contrary to the DSH program\u2019s purpose and to how SSA codes reflect entitlement.",
+      "respondent_position": "The Secretary argues \u201centitled to supplementary security income benefits\u201d means entitled to receive SSI income-supplementing payments for the relevant month, not merely associated with SSI in SSA\u2019s data codes. HHS\u2019s approach aligns with the text (benefits under Title XVI are cash payments), the temporal link in the DSH fraction (entitlement while the patient received hospital services), and avoids sweeping in many people who are not SSI-eligible or are coded as ineligible/no-longer-eligible. The government also argues that differences between Medicare and SSI statutory schemes justify different uses of similar terms and that the hospitals\u2019 reading would include many individuals not actually entitled to SSI payments.",
+      "key_precedents": [
+        "Metropolitan Hospital v. HHS, 712 F.3d 248 (D.C. Cir. 2013)",
+        "Florida Health Sciences Center, Inc. v. Becerra, No. 19-cv-3487-RC, 2021 WL 2823104 (D.D.C. July 7, 2021)",
+        "Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007)",
+        "Allina Health System v. Sebelius, 982 F. Supp. 2d 1 (D.D.C. 2013)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioners\u2019 best point is that \u201centitled\u201d can be a broader, status-based concept in Medicare (they will lean on Empire Health), but Justice Barrett is right that Empire was Medicare-Part-A specific and expressly did not decide the SSI-fraction question. Here the statute\u2019s object\u2014\u201csupplementary security income benefits \u2026 under subchapter XVI\u201d\u2014and the temporal linkage (\u201cfor such days\u201d) fit Title XVI\u2019s month-by-month cash-payment entitlement, not untethered SSA status codes that may reflect suspension, termination, or ineligibility. Justice Kagan\u2019s administrability concern reinforces the textual point: importing a thicket of codes would effectively rewrite Congress\u2019s proxy and destabilize a technical reimbursement scheme. Duke Energy (raised by Justice Alito) further supports reading the same word in its statutory setting rather than forcing a Medicare term-of-art onto a cross-referenced Title XVI payment regime, so I would uphold the Secretary on narrow grounds without announcing a trans-substantive definition of \u201centitled.\u201d",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Petitioners\u2019 best point is that \u201centitled\u201d can sometimes denote a broader program-status concept, and they invoke Empire Health to press that reading here. But as Chief Justice Roberts and Justice Barrett emphasize, this provision cross-references Title XVI and speaks of \u201csupplementary security income benefits,\u201d which in that scheme are month-by-month cash payments; reading \u201centitled\u201d to sweep in suspension/nonpay status codes would detach the statute\u2019s temporal hook (\u201cfor such days\u201d) from any legal right to benefits for the relevant month. Justice Alito\u2019s citation to Environmental Defense v. Duke Energy reinforces that identical words may take their meaning from context, so Empire\u2019s Medicare-Part-A gloss cannot be mechanically imported to override Title XVI\u2019s payment-centered structure. Under an original public-meaning approach, the best reading remains that \u201centitled to \u2026 benefits\u201d requires a present legal right to the SSI payment for that month, not an administrative classification that may reflect ineligibility or nonpay.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "The hospitals\u2019 best point remains that \u201centitled\u201d can sometimes denote status rather than contemporaneous payment, and they invoke Empire Health to argue for a broad Medicare-wide gloss. But as Chief Justice Roberts and Justice Barrett emphasize, this clause does not speak in Medicare Part A terms; it asks whether a patient was \u201centitled to supplementary security income benefits \u2026 under subchapter XVI\u201d \u201cfor such days,\u201d which naturally tracks Title XVI\u2019s month-specific cash-payment entitlement, not SSA coding artifacts that may reflect suspension or nonpayability. Justice Kagan\u2019s administrability concern reinforces the textual reading: importing a thicket of status codes would expand the numerator beyond those legally entitled to SSI benefits for the hospitalization month and destabilize a technical reimbursement regime. Environmental Defense v. Duke Energy, noted by multiple colleagues, confirms that Empire\u2019s Medicare-specific usage does not control where Congress cross-references a distinct benefits scheme with different structural cues.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The petitioners\u2019 best point remains that Congress likely used SSI as a low-income proxy and that broader SSA eligibility/status codes might capture similarly poor patients whose payments fluctuate, but that policy impulse cannot override the statute\u2019s insistence on being \u201centitled to supplementary security income benefits \u2026 under subchapter XVI\u201d \u201cfor such days,\u201d which aligns with Title XVI\u2019s month-specific cash-payment entitlement. Chief Justice Roberts\u2019s emphasis on the temporal hook and cross-reference persuades me that importing untethered SSA codes would dilute the statute\u2019s focus and sweep in suspension/termination/nonpay categories that are not legal entitlement to SSI benefits for the hospitalization month. Justice Barrett\u2019s discussion of Empire Health Foundation and the point (echoed by Justice Kagan and Justice Alito) that Duke Energy allows context-specific meanings undercuts the hospitals\u2019 claim that Medicare\u2019s broader \u201centitled\u201d usage must control here. On pragmatic grounds tied to access and fairness, the Secretary\u2019s approach also better constrains discretion and avoids making safety-net funding turn on opaque coding conventions rather than the actual legal right Congress referenced.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The petitioners\u2019 best point remains that \u201centitled\u201d can operate as a broader eligibility/status concept and that SSI is a proxy for low income, so we should not let month-to-month payment mechanics defeat the proxy. But as Chief Justice Roberts and Justice Barrett stress, the statute\u2019s object is \u201csupplementary security income benefits \u2026 under subchapter XVI\u201d and it asks about entitlement \u201cfor such days,\u201d which fits Title XVI\u2019s month-specific legal right to a cash payment, not an SSA coding category that may include suspension, termination, or ineligibility. Justice Alito\u2019s citation to Environmental Defense v. Duke Energy strengthens the contextual reading: Empire Health\u2019s Medicare Part A usage does not control a cross-reference to a distinct benefits scheme with its own entitlement structure. On a pragmatic textualist view, the Secretary\u2019s interpretation is both the better textual fit and the more administrable, statute-tethered rule in a technical reimbursement regime, so nothing in conference undermines my current position.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.79,
+        "reasoning": "The hospitals\u2019 best counter is that \u201centitled\u201d can denote program status rather than payment, invoking Empire Health, but that overlooks that this provision asks whether the patient was \u201centitled to supplementary security income benefits \u2026 under title XVI\u201d for the relevant days/month\u2014where \u201cbenefits\u201d are month-by-month cash payments and entitlement is correspondingly time-bound. Justice Barrett\u2019s point remains decisive: Empire construed Medicare Part A within Medicare\u2019s own scheme and expressly did not resolve the SSI cross-reference, so it cannot justify importing a Medicare term-of-art to override Title XVI\u2019s payment-centered structure. Environmental Defense v. Duke Energy (noted by Justice Alito) reinforces that identical words may take their meaning from statutory context, and here the cross-referenced context is Title XVI, not SSA\u2019s administratively convenient but overinclusive status codes. Justice Kagan\u2019s administrability concern further supports the textual reading because the petitioners\u2019 approach would sweep in suspension/termination/nonpay categories and thereby expand the numerator beyond what Congress authorized.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "Petitioners\u2019 best point remains that \u201centitled to\u201d can sometimes denote broader statutory eligibility, and they will invoke Empire Health to press for a Medicare-wide, status-based reading. But as Chief Justice Roberts and Justice Barrett stress, the statutory object here is \u201csupplementary security income benefits \u2026 under [Title] XVI,\u201d where \u201cbenefits\u201d are month-by-month cash payments, and the DSH fraction\u2019s \u201cfor such days\u201d linkage makes contemporaneous payment entitlement the most natural fit. Justice Kagan\u2019s administrability point reinforces\u2014not replaces\u2014the text: relying on opaque SSA status codes that include suspension/termination/nonpay categories would expand the numerator beyond legal entitlement to Title XVI benefits for the hospitalization month and destabilize this technical reimbursement program. Environmental Defense v. Duke Energy, raised by several colleagues, confirms that we should not impose a uniform gloss on \u201centitled\u201d across distinct statutory contexts, so Empire Health\u2019s Medicare-specific construction does not control this cross-reference to Title XVI.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The petitioners\u2019 strongest argument\u2014that \u201centitled\u201d in Medicare can be a broad status concept (invoking Empire Health)\u2014does not overcome the text here, which asks whether the patient was \u201centitled to supplementary security income benefits \u2026 under subchapter XVI\u201d and ties that inquiry to the hospitalization period (\u201cfor such days\u201d), naturally tracking month-specific legal entitlement to Title XVI cash payments rather than SSA status codes that may include nonpayable or ineligible categories. Chief Justice Roberts\u2019s emphasis on the temporal hook reinforces that reading: a code untethered to a given month cannot sensibly answer whether one was entitled to benefits for that month\u2019s inpatient days. Justice Kagan\u2019s administrability point also cuts against petitioners because adopting a broad code-based numerator would expand the fraction beyond what Congress measured and make reimbursement turn on opaque coding conventions rather than Title XVI\u2019s entitlement rules. Environmental Defense v. Duke Energy, noted by Justices Alito and Gorsuch, further supports giving \u201centitled\u201d a context-sensitive meaning tied to the cross-referenced SSI scheme, so Empire\u2019s Medicare-specific gloss does not control.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The hospitals\u2019 strongest point remains that \u201centitled\u201d in Medicare can be status-based (they lean on Empire Health), but Justice Barrett and the Chief Justice persuasively explain why that Medicare-specific gloss cannot be transplanted onto a clause that expressly ties entitlement to Title XVI \u201cbenefits\u201d and to the hospitalization days (\u201cfor such days\u201d). Justice Alito\u2019s and Justice Kagan\u2019s reliance on Environmental Defense v. Duke Energy reinforces a context-sensitive reading: identical words can mean different things across statutory schemes, and here Title XVI\u2019s month-by-month cash-benefit structure supplies the relevant content. From a procedural-fairness and consequences-focused perspective, using actual month-specific entitlement to SSI cash benefits better constrains agency discretion and avoids making hospital reimbursement turn on opaque or overinclusive SSA status codes that may reflect suspension, termination, or ineligibility rather than a legal right to payment during the hospitalization period.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The Medicare DSH statute asks whether a patient was \u201centitled to [SSI] benefits \u2026 under subchapter XVI\u201d in the period \u201cfor such days\u201d the patient received inpatient services, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), which naturally links the inquiry to a contemporaneous legal right to SSI cash payments for that month, not to broader SSA status/eligibility codes untethered from payment entitlement. Title XVI\u2019s \u201cbenefits\u201d are income-supplementing cash payments, so reading \u201centitled\u201d to mean entitled-to-be-paid fits the statutory text and avoids importing administrative coding artifacts into a reimbursement formula. Consistent with Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), identical words can bear different meanings in different statutory settings; thus hospitals\u2019 appeal to a Medicare-wide \u201centitled\u201d gloss does not overcome the DSH provision\u2019s temporal and substantive focus. A narrow ruling upholding the Secretary\u2019s month-of-service payment-entitlement approach best respects Congress\u2019s chosen words and preserves institutional stability in a complex reimbursement regime without rewriting the fraction by judicially expanding who counts as \u201centitled.\u201d",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The text asks whether a patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d during the period the patient \u201cwas furnished\u201d inpatient hospital services. 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I). At enactment and in Title XVI\u2019s ordinary usage, \u201cSSI benefits\u201d principally denotes the monthly cash payment authorized under 42 U.S.C. \u00a7 1382, so \u201centitled\u201d most naturally refers to a present legal right to that payment for the relevant month, not merely an administrative status code or historical association in SSA data. Reading \u201centitled\u201d to include non-payable or ineligible coded statuses would sever the statute\u2019s temporal link and expand the fraction beyond what the words can bear, and I would not rewrite the statute to serve perceived programmatic purposes. Cf. Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007) (same term may take meaning from statutory context), supporting the Secretary\u2019s context-specific reading.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The text asks whether the patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d \u201cfor such month\u201d in which the patient received the inpatient hospital services, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and under Title XVI the relevant \u201cbenefits\u201d are the monthly cash payments SSI provides\u2014not merely an administrative status code untethered to payment entitlement. Reading \u201centitled\u201d to mean actually entitled to receive SSI cash payments for the hospitalization month best fits that temporal linkage and avoids sweeping in individuals coded in SSA data as ineligible, suspended, or otherwise not entitled to payment, with significant practical and fiscal consequences for the DSH program. Although Becerra v. Empire Health Foundation, 597 U.S. 424 (2022), construed \u201centitled to [Medicare Part A] benefits\u201d broadly, Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), cautions that identical words can take different meanings in different statutory contexts; here the cross-reference to Title XVI and the month-specific inquiry support the Secretary\u2019s narrower, payment-focused reading. The Secretary\u2019s interpretation therefore better adheres to the statutory text and administrability, while respecting Congress\u2019s chosen metrics rather than expanding the fraction based on imperfect coding conventions.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The SSI fraction counts patients \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d during the period they \u201creceived\u201d inpatient services, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and under Title XVI \u201cbenefits\u201d are monthly cash payments payable only if the person is determined eligible for that month (see 42 U.S.C. \u00a7\u00a7 1381a, 1382(c)(1)). Reading \u201centitled\u201d to mean mere status codes untethered to actual monthly payment entitlement would sweep in individuals not eligible for a cash payment for the hospitalization month, diluting the statutory link to low-income patients and inviting error from administrative coding conventions not incorporated into Medicare by Congress. While Empire Health Foundation v. Becerra interprets \u201centitled to\u201d Part A broadly as program qualification, it also underscores that the meaning of \u201cbenefits\u201d depends on the entitlement program at issue, and SSI\u2019s entitlement is inherently month-and-payment specific. Consistent with Environmental Defense v. Duke Energy, similar words can take different content when the statutory programs differ, and nothing in \u00a7 1395ww directs HHS to treat SSA status codes as dispositive over Title XVI\u2019s payment-based entitlement rules.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Medicare DSH SSI fraction asks whether a patient was \u201centitled to supplementary security income benefits \u2026 under subchapter XVI\u201d \u201cfor such days,\u201d 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), which naturally points to entitlement to the Title XVI \u201cbenefits\u201d that SSI actually provides\u2014cash payment eligibility for the relevant month of inpatient service\u2014rather than any broader administrative status code. Reading \u201centitled \u2026 benefits\u201d to require contemporaneous payment-entitlement also best fits the provision\u2019s day-linked fraction and avoids sweeping in many codes that denote ineligibility or termination, a workability concern reflected in Metro. Hosp. v. HHS, 712 F.3d 248, 268 (D.C. Cir. 2013), and Fla. Health Scis. Ctr., Inc. v. Becerra, 2021 WL 2823104, at *1. And under Environmental Defense v. Duke Energy Corp., 549 U.S. 561, 574 (2007), even identical terms can legitimately vary with statutory context, so any asserted cross-scheme inconsistency in how \u201centitled\u201d is used does not defeat the Secretary\u2019s context-sensitive reading.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Section 1395ww(d)(5)(F)(vi)(I) asks whether the patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d for the month the patient \u201cwas entitled to benefits under part A,\u201d tying the SSI inquiry to contemporaneous entitlement to Title XVI \u201cbenefits,\u201d i.e., SSI cash payments, not merely a status code in SSA data. Reading \u201cbenefits\u201d as actual payment-entitlement fits the ordinary meaning and Title XVI\u2019s structure, and avoids expanding the fraction by administrative labels that can include ineligible or nonpay cases, a result the text does not authorize. Purpose-driven arguments cannot displace the statute\u2019s plain terms, and differences in statutory schemes allow the same word to operate with scheme-specific meaning, consistent with Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007). Auburn Regional describes the SSI fraction as measuring low-income Medicare patients \u201cas measured by their entitlement to SSI benefits,\u201d reinforcing a payment-entitlement understanding rather than a broader coding-based proxy. ",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The best reading of 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I) ties \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d to entitlement to receive SSI\u2019s Title XVI cash payments for the relevant month, because Title XVI defines SSI \u201cbenefits\u201d as income-supplementing cash assistance and the DSH fraction is explicitly month-specific (counting patients \u201cfor such days\u201d they received hospital services). That interpretation also fits the statute\u2019s practical administration and avoids importing broad SSA status codes that may include individuals not actually eligible for SSI cash payment in that month. Consistent with Environmental Defense v. Duke Energy Corp., the same word can take meaning from context, and Metropolitan Hospital v. HHS supports treating \u201centitled\u201d in the SSI portion as tethered to SSI\u2019s cash-payment structure rather than a generalized status label. Respecting that contextual, workable construction aligns with precedent and institutional restraint in a technically complex Medicare payment scheme.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Medicare DSH provision asks whether, \u201cfor such days,\u201d the patient \u201cwas entitled to supplementary security income benefits \u2026 under title XVI,\u201d 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and under Title XVI the \u201cbenefits\u201d Congress provides are cash payments designed to \u201cassure a minimum level of income.\u201d Reading \u201centitled to \u2026 benefits\u201d in its ordinary textual sense thus ties entitlement to a legal right to receive an SSI payment for the relevant month, not to the presence of an SSA eligibility/status code that may reflect nonpayment or ineligibility. While Empire Health Foundation v. Becerra construed \u201centitled to benefits under Part A\u201d broadly, it expressly reserved the SSI question and relied on Medicare-specific usage; importing that Medicare term-of-art into Title XVI ignores statutory context and the cross-referenced SSI scheme. Given that context and the temporal linkage (\u201cfor such days\u201d) in \u00a7 1395ww(d)(5)(F)(vi)(I), the Secretary\u2019s payment-entitlement approach best fits the text and avoids counting individuals not actually entitled to SSI payments during the hospitalization month.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Medicare DSH SSI fraction asks whether the patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d \u201cfor such days\u201d of hospitalization, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), which naturally ties the inquiry to contemporaneous eligibility for Title XVI cash-benefit payments rather than broader SSA status/administrative codes that may reflect ineligibility or nonpayment. Treating \u201centitled\u201d as satisfied by status codes that include many \u201cnot eligible/no longer eligible\u201d categories risks diluting the accuracy of the low-income proxy and produces practical consequences (over- or under-inclusion) unmoored from the statute\u2019s temporal focus on the hospitalization month. Environmental Defense v. Duke Energy supports the Secretary\u2019s argument that the shared word \u201centitled\u201d can reasonably take on different operational meaning when linked to different statutory objects and implementation strategies, especially where Medicare is using SSI as an external proxy rather than administering SSI itself. Consistent with Metropolitan Hospital and Florida Health Sciences Center, I would uphold HHS\u2019s interpretation as the better fit with the text, structure, and administrability of the DSH calculation while preserving procedural regularity in how agencies translate cross-program references into workable rules.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.763,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "23-715",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Medicare\u2019s Disproportionate Share Hospital (DSH) calculation must treat patients as \u201centitled to supplementary security income (SSI) benefits\u201d based on certain Social Security Administration (SSA) status codes even when those patients were not actually eligible for, or receiving, SSI cash payments during the hospital stay.",
+      "legal_provision": "42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I) (Medicare DSH fraction\u2014reference to patients \u201centitled to supplementary security income benefits ... under [Title] XVI\u201d); Title XVI of the Social Security Act, 42 U.S.C. \u00a7 1381 et seq. (SSI benefits framework).",
+      "petitioner_position": "Hospitals argue that the statutory phrase \u201centitled to supplementary security income benefits\u201d should be read broadly to include patients identified by various SSA SSI-related payment/status codes (including codes reflecting suspended, terminated, or otherwise non-pay statuses), because those codes indicate an SSI entitlement relationship sufficient for the Medicare DSH proxy. They contend the Secretary\u2019s narrower approach\u2014counting essentially only those actually entitled to SSI cash payments during the inpatient period\u2014improperly excludes many low-income patients Congress meant DSH to capture, depresses DSH payments, and inconsistently treats \u201centitled\u201d across related benefit contexts.",
+      "respondent_position": "The Secretary argues that in this Medicare provision \u201centitled to SSI benefits\u201d refers to patients who, at the time they received hospital services, were entitled to SSI income-supplementing payments under Title XVI (i.e., eligible for and payable SSI cash benefits), not merely associated with an SSI application/record or a non-pay status code. The government emphasizes that many of the status codes hospitals seek to include explicitly denote ineligibility or loss of eligibility, so counting them would sweep in people not entitled to SSI at all; it also maintains that any perceived intra-statutory inconsistency can be explained by different statutory contexts and that the agency\u2019s interpretation aligns with the D.C. Circuit\u2019s understanding of the Medicare/SSI linkage.",
+      "key_precedents": [
+        "Metropolitan Hospital v. HHS, 712 F.3d 248 (D.C. Cir. 2013) (as referenced in the record excerpt)",
+        "Florida Health Sciences Center, Inc. v. Becerra, No. 19-cv-3487-RC, 2021 WL 2823104 (D.D.C. July 7, 2021) (as referenced in the record excerpt)",
+        "Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007) (as referenced in the record excerpt)",
+        "Allina Health System v. Sebelius, 982 F. Supp. 2d 1 (D.D.C. 2013) (as referenced in the record excerpt)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s strongest point\u2014echoing Empire Health\u2014that \u201centitled\u201d cannot be collapsed into actual payment has force as a general matter, but it loses traction once Congress specifically tied this proxy to \u201csupplementary security income benefits \u2026 under Title XVI,\u201d a cash-benefit program in which many disputed status codes affirmatively denote suspension, termination, or ineligibility rather than mere payment routing. As Justice Kagan and Justice Gorsuch emphasize, the temporal phrase \u201cfor such days\u201d reinforces that the inquiry is contemporaneous entitlement to Title XVI benefits, not a broader low-income affiliation that persists through non-entitlement months. Justice Kavanaugh\u2019s reliance on Duke Energy is persuasive here: the same word (\u201centitled\u201d) can carry different content across Medicare subclauses, and Empire\u2019s Part A context does not compel importing a broader concept of entitlement into a cross-reference that incorporates Title XVI\u2019s own entitlement/payability rules. On narrow, institutional grounds, I would uphold the Secretary\u2019s approach without opining on every edge case, holding only that codes reflecting suspension/termination/non-pay ineligibility are not \u201centitled \u2026 under Title XVI\u201d for the relevant inpatient days.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best argument is that SSI is a low-income proxy and that Empire Health rejected treating \u201centitled\u201d as requiring an \u201cabsolute right to payment.\u201d But Empire construed Medicare Part A, where \u201centitlement\u201d is a beneficiary-status concept that can persist even when Medicare is not the payer; as Justice Barrett and Justice Gorsuch emphasize, Congress here cross-referenced \u201csupplementary security income benefits \u2026 under Title XVI,\u201d a cash-benefit scheme in which many of the disputed codes denote suspension/termination or non-payability\u2014i.e., no present legal right to the Title XVI benefit for the relevant period. The temporal phrase \u201cfor such days\u201d further ties the Medicare numerator to contemporaneous Title XVI entitlement, not to broader administrative classifications untethered from payability. Under a textualist, original-public-meaning approach, statutory purpose cannot expand \u201centitled to \u2026 benefits under Title XVI\u201d to include statuses Title XVI itself treats as non-entitlement for the days at issue.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is that SSI operates as a low-income proxy and that Empire Health warns against equating \u201centitled\u201d with actual payment, including where payment is withheld for administrative reasons. But as Chief Justice Roberts and Justice Barrett emphasize, Congress did not refer to \u201clow income\u201d in the abstract; it tethered the DSH numerator to being \u201centitled to supplementary security income benefits \u2026 under Title XVI,\u201d and Title XVI \u201cbenefits\u201d are the payable cash assistance\u2014so status codes that denote suspension/termination/non-pay are difficult to reconcile with being \u201centitled \u2026 [to] benefits\u201d for \u201csuch days.\u201d Empire Health\u2019s Medicare Part A context, where entitlement can persist despite nonpayment because of the coverage/beneficiary-status structure, does not translate cleanly to Title XVI\u2019s payability-based regime, and adopting Sotomayor\u2019s broader proxy-driven reading would sever the Medicare cross-reference from the incorporated SSI rules and distort the DSH adjustment in practice. The cited context principle (as Justice Kavanaugh notes via Duke Energy) reinforces that \u201centitled\u201d can sensibly track different legal concepts across different statutory programs, and here the Secretary\u2019s narrower, payability-linked line better fits the cross-reference and temporal language.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.58,
+        "reasoning": "The opposing side\u2019s strongest point, pressed by Chief Justice Roberts and Justice Kagan, is that Title XVI is a cash-benefits program and that \u201cfor such days\u201d plus \u201cSSI benefits\u201d implies contemporaneous payability, making suspension/termination codes hard to count as \u201centitled.\u201d But that reading still risks collapsing \u201centitled\u201d into \u201cpaid,\u201d even though SSI eligibility is determined on a monthly basis and payment can be withheld for administrative or procedural reasons that do not negate the underlying low-income status Congress used as a proxy in the DSH fraction. Justice Kavanaugh\u2019s reliance on Duke Energy\u2014that identical words can differ by context\u2014cuts both ways: here the DSH formula\u2019s proxy function is itself a contextual signal against importing an overly payment-mechanical rule that systematically undercounts indigent patients because of coding/payment artifacts. Empire Health does not control, but it reinforces that \u201centitled\u201d need not mean an absolute, presently payable check; where the statute\u2019s purpose is to measure treatment of the poor, I would not read the cross-reference to Title XVI to exclude economically vulnerable patients based on nonpayment statuses unless Congress spoke more clearly.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor\u2019s best argument is that SSI operates as a low-income proxy and that Empire Health warns against collapsing \u201centitled\u201d into \u201cpaid,\u201d but that precedent\u2019s logic depends on Medicare Part A\u2019s coverage-status structure, where entitlement can persist even when payment is not due for a particular stay. Here, as Chief Justice Roberts and Justice Barrett emphasize, Congress cross-referenced \u201csupplementary security income benefits \u2026 under Title XVI,\u201d and in that cash-benefit regime many of the disputed SSA codes signify suspension/termination or other non-pay states\u2014hard to reconcile with ordinary usage of being \u201centitled to \u2026 benefits\u201d for \u201csuch days.\u201d Environmental Defense v. Duke Energy (raised by Justice Kavanaugh) reinforces that symmetry across subclauses cannot override this context, so importing non-pay/ineligible codes would decouple the Medicare proxy from Title XVI\u2019s own entitlement/payability rules and make the line less coherent and less workable. I therefore see no legal argument here that undermines the Secretary\u2019s narrower, context-specific construction.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "Justice Sotomayor presses the best point: SSI is a low-income proxy and Empire Health rejects treating \u201centitled\u201d as synonymous with actual payment, so excluding suspended/nonpay months could undercount poor patients. But, as Chief Justice Roberts and Justice Barrett emphasize, Empire\u2019s analysis was tethered to Medicare Part A\u2019s coverage-status architecture, where \u201centitlement\u201d can persist even when Medicare is not the payer; here Congress instead cross-referenced \u201csupplementary security income benefits \u2026 under Title XVI,\u201d a cash-benefits regime in which many disputed codes denote suspension/termination or other nonpayability that negates any present legal right to the Title XVI \u201cbenefit\u201d for the relevant period. The phrase \u201cfor such days\u201d reinforces that the inquiry is temporal and contemporaneous\u2014linking the Medicare fraction to Title XVI\u2019s own month-specific entitlement/payability rules rather than a broader program-affiliation proxy. Duke Energy, noted by Justice Kavanaugh, supports this context-specific reading: identical words need not carry identical meanings across different statutory schemes, and nothing in the enacted text authorizes expanding \u201centitled \u2026 to benefits under Title XVI\u201d to include statuses Title XVI itself treats as not eligible/payable for that period.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best point remains that SSI status is a low-income proxy and that Empire Health cautions against reading \u201centitled\u201d as synonymous with actual payment, but Empire involved Medicare Part A where entitlement can persist even when Medicare is not the payer for a particular stay. As Chief Justice Roberts and Justice Kagan emphasize, Congress here cross-referenced \u201cSSI benefits \u2026 under Title XVI\u201d and added the temporal limiter \u201cfor such days,\u201d which most naturally ties the inquiry to contemporaneous Title XVI eligibility/payability\u2014not to SSA status codes that affirmatively denote suspension, termination, or ineligibility. Duke Energy (noted by Justice Kagan and consistent with my view) supports treating identical words differently across statutory contexts when structure and cross-references differ, and that context-specific reading also promotes administrable, stable lines in a nationwide reimbursement formula. Nothing raised in conference undermines the Secretary\u2019s narrower construction sufficiently to justify overruling it absent clearer statutory direction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s strongest point\u2014that SSI is a low-income proxy and Empire Health cautions against collapsing \u201centitled\u201d into \u201cpaid\u201d\u2014does not overcome the specific cross-reference Congress chose: \u201csupplementary security income benefits \u2026 under Title XVI\u201d for the relevant days. As Chief Justice Roberts and Justice Kagan explain, Title XVI \u201cbenefits\u201d are cash payments conditioned on contemporaneous eligibility/payability, and many of the disputed status codes indicate suspension/termination/nonpay that negate any present legal right to those benefits for that period. Empire Health is therefore contextually distinguishable because Medicare Part A entitlement can persist even when Medicare is not the payer, while here importing nonpay/ineligible codes would sever the Medicare fraction from Title XVI\u2019s own entitlement rules and erode the administrable, payment-linked line recognized in Metropolitan Hospital. Under an originalist/textualist approach, purpose as proxy cannot expand \u201centitled \u2026 under Title XVI\u201d beyond what Title XVI itself makes one legally entitled to receive for those days.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor\u2019s best point is the equitable one: SSI is a low-income proxy, and counting only paid months may undercapture vulnerable patients when payments are withheld for administrative reasons. But as Justice Kagan and Chief Justice Roberts stress, Congress did not incorporate \u201cSSI-like\u201d poverty status; it keyed the numerator to being \u201centitled to supplementary security income benefits \u2026 under Title XVI\u201d \u201cfor such days,\u201d and many of the disputed codes denote suspension/termination/nonpay states that Title XVI itself treats as nonpayable\u2014so including them would detach the Medicare proxy from the very entitlement/payability framework Congress cross-referenced. Empire Health meaningfully informs the word \u201centitled,\u201d yet, as Justice Kavanaugh notes via Duke Energy, context matters: Medicare Part A can preserve entitlement despite nonpayment for a stay, while Title XVI cash benefits turn on contemporaneous payable eligibility, making a payment-linked, day-tethered rule more textually and administratively coherent. On pragmatic fairness grounds, I also remain concerned that a code-driven overinclusive numerator would produce arbitrary windfalls and uneven treatment across hospitals based on opaque SSA coding rather than legally operative entitlement for the inpatient days.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 1395ww(d)(5)(F)(vi)(I) asks whether the patient was \u201centitled to supplementary security income benefits ... under [Title] XVI\u201d at the time the inpatient services were furnished, and Title XVI entitlement is tied to eligibility for, and payable receipt of, SSI cash assistance\u2014not merely the existence of an SSA record or a status code that may reflect suspension or termination. Unlike Becerra v. Empire Health Foundation (2022), where \u201centitled to benefits\u201d under Medicare Part A functioned as a term of art for program qualification even when payment was limited, the SSI phrase here points to an income-support payment status that many of the hospitals\u2019 proposed codes expressly denote is not payable or not eligible. Counting non-pay/ineligible codes would broaden the numerator beyond Congress\u2019s chosen proxy and would risk administrability and institutional legitimacy by forcing Medicare to treat \u201centitled\u201d as overriding Title XVI\u2019s own eligibility rules. Consistent with Metropolitan Hospital v. HHS (D.C. Cir. 2013), I would uphold the Secretary\u2019s narrower, context-specific reading on the narrow ground that these non-pay status codes do not establish Title XVI entitlement during the relevant hospital stay.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The text asks whether a patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI,\u201d 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and Title XVI makes entitlement turn on meeting statutory eligibility conditions for, and being payable, SSI cash benefits for the relevant month\u2014not merely possessing an SSA record or a status code reflecting suspension/termination or other non-pay conditions. Reading \u201centitled\u201d to include codes that expressly denote ineligibility or non-pay status would depart from the ordinary public meaning of \u201centitled\u201d as having a present legal right to the benefit and would sever the Medicare proxy from the SSI program Congress referenced. Although Empire Health construed \u201centitled to [Medicare Part A] benefits\u201d broadly, that holding rested on Part A\u2019s beneficiary status structure and does not justify importing SSA administrative coding conventions that capture non-entitlement into Title XVI\u2019s distinct eligibility/payability framework. Under a textualist approach, the Secretary\u2019s construction best matches the incorporated Title XVI criteria and avoids counting persons not legally entitled to SSI payments during the service period.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Medicare DSH statute asks whether a patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI\u201d during the relevant inpatient period, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and \u201cbenefits\u201d in Title XVI are income-supplementing cash payments payable only when the claimant is eligible and not in a suspended or terminated (non-pay) status. Treating SSA status codes that expressly reflect non-pay, suspension, or loss of eligibility as \u201centitled\u201d would detach the term from its ordinary legal meaning and produce the practical consequence of inflating the SSI proxy with persons not actually qualifying for SSI payments at the time\u2014something Congress could not have intended for this targeted adjustment. Becerra v. Empire Health Foundation, 597 U.S. 424 (2022), does not compel the hospitals\u2019 broader reading because it construed \u201centitled to [Medicare Part A] benefits\u201d in a different programmatic context where entitlement can exist despite nonpayment for a particular stay, whereas here the cited codes often denote absence of Title XVI entitlement itself. Given the statutory text and the risk of overinclusion undermining the DSH mechanism, I would uphold the Secretary\u2019s narrower, payment-linked interpretation.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "In \u00a7 1395ww(d)(5)(F)(vi)(I), Congress used SSI entitlement as a proxy for low-income status in the Medicare DSH fraction, and that purpose is best served by treating \u201centitled to supplementary security income benefits\u201d as turning on SSI program eligibility rather than actual receipt of a cash payment during the inpatient stay. This Court in Becerra v. Empire Health Foundation rejected reading \u201centitled\u201d as requiring an \u201cabsolute right\u201d to payment, supporting a broader, eligibility-based understanding of entitlement in closely related Medicare contexts. Excluding patients flagged by SSA SSI-related status codes solely because payment was suspended/withheld risks systematically undercounting vulnerable low-income beneficiaries and undermining the remedial function of DSH, contrary to Congress\u2019s design. Given the statute\u2019s proxy function and Empire\u2019s construction of \u201centitled,\u201d the Secretary\u2019s cash-payment-only approach reads \u201centitled\u201d too narrowly in this setting.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Medicare DSH numerator asks whether patients were \u201centitled to supplementary security income benefits \u2026 under [Title] XVI,\u201d 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), and in ordinary benefits-law usage that phrasing points to current legal eligibility for, and payability of, Title XVI cash assistance\u2014not merely the existence of an SSA record or a status code that may reflect suspension, termination, or other non-pay states. Reading \u201centitled \u2026 benefits\u201d to include codes that denote ineligibility would stretch the text beyond its workable meaning and risk counting individuals who are not entitled to SSI at all, undermining statutory coherence in using SSI as a low-income proxy. Petitioners\u2019 reliance on intra-subsection symmetry with the Part A phrase is weakened by context: this Court has recognized that identical words can bear different meanings in different statutory settings, Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), and the SSI cross-reference here specifically ties entitlement to Title XVI benefits. Given the technical administration of SSI eligibility and the need for a workable rule in a complex payment formula, the Secretary\u2019s payability-focused interpretation is at least the better textual fit and merits deference to the extent ambiguity remains.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Section 1395ww(d)(5)(F)(vi)(I) asks whether, \u201cfor such days,\u201d patients were \u201centitled to supplementary security income benefits \u2026 under [Title] XVI,\u201d and Title XVI\u2019s \u201csupplementary security income\u201d is a cash payment due only for months of payable eligibility, not merely the existence of an SSA record or a non-pay status code. Reading \u201centitled to \u2026 benefits\u201d to include suspended/terminated/non-pay statuses would detach the text from the benefit Congress referenced\u2014an income-supplementing payment\u2014and sweep in persons Title XVI deems not eligible to receive any payment for the relevant period. Becerra v. Empire Health Foundation, 597 U.S. 424 (2022), is not to the contrary: it construed \u201centitled to [Medicare Part A] benefits\u201d in a program where entitlement denotes qualifying for Part A coverage even if Medicare is not the payer, whereas here Congress specified \u201cSSI benefits \u2026 under Title XVI,\u201d whose entitlement turns on payable cash eligibility for the month. Given the statute\u2019s temporal focus (\u201cfor such days\u201d) and the ordinary meaning of \u201cbenefits\u201d in Title XVI, the Secretary\u2019s interpretation best fits the enacted text without resort to expansive agency gloss.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Medicare DSH provision asks whether, \u201cfor such days,\u201d a patient was \u201centitled to supplementary security income benefits \u2026 under [Title] XVI,\u201d 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), which most naturally refers to legal eligibility for payable SSI cash benefits during the relevant inpatient days\u2014not merely the existence of an SSA record or a status code that may reflect suspension or termination. Counting status codes that expressly denote non-pay or ineligibility would stretch \u201centitled\u201d beyond its ordinary meaning and undermine administrable, workable line-drawing for a nationwide payment formula, a practical consideration that favors the Secretary\u2019s approach. Consistent with this Court\u2019s recognition that identical words can take different meanings in different statutory contexts, Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), the SSI-reference here can reasonably be tied to actual Title XVI benefit entitlement during the hospital stay rather than broader program affiliation. And the D.C. Circuit\u2019s reading in Metropolitan Hospital v. HHS, 712 F.3d 248 (D.C. Cir. 2013), supports the Secretary\u2019s narrower construction in this specialized Medicare reimbursement setting, which counsels restraint in upsetting the settled administrative framework.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I) counts days for patients \u201centitled to supplementary security income benefits \u2026 under [Title] XVI,\u201d and in ordinary legal usage \u201centitled\u201d denotes a present legal right to receive the benefit, not merely an administrative record or non-pay status code that may reflect suspension or termination. Reading \u201centitled\u201d to include codes that \u201cexplicitly denote ineligibility or loss of eligibility\u201d would detach the Medicare proxy from Title XVI\u2019s actual benefit conferral and would expand the numerator beyond those Congress chose to identify by reference to SSI \u201cbenefits.\u201d Metropolitan Hospital v. HHS, 712 F.3d 248, 268\u201369 (6th Cir. 2013), upheld the Secretary\u2019s interpretation that entitlement to SSI in this fraction turns on current eligibility/payability, and it also recognized that any tension with Medicare Part A \u201centitlement\u201d is explained by structural differences between the SSI and Medicare schemes. Given that precedent and the statutory cross-reference to Title XVI benefits, I would affirm the Secretary\u2019s narrower, payment-linked construction rather than an approach driven by SSA status codes alone.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Medicare DSH statute counts patient days for those who (for such days) were \u201centitled to supplementary security income benefits\u201d under Title XVI, 42 U.S.C. \u00a7 1395ww(d)(5)(F)(vi)(I), which most naturally ties entitlement to contemporaneous eligibility/payability of SSI cash assistance during the inpatient stay, not merely the existence of an SSA record or a non-pay status code. Many of the codes hospitals seek to include (e.g., suspension or termination codes) reflect ineligibility or non-pay status, and treating them as \u201centitled\u201d would distort the proxy Congress chose and produce substantial, administratively unworkable overinclusion with significant fiscal consequences. Consistent with Environmental Defense v. Duke Energy Corp., 549 U.S. 561 (2007), the same word can take its meaning from context, and here the \u201cfor such days\u201d language and the linkage to Title XVI\u2019s cash-benefit framework support the Secretary\u2019s narrower construction. This reading also accords with the D.C. Circuit\u2019s understanding of the Medicare/SSI linkage in Metropolitan Hospital v. HHS, 712 F.3d 248 (D.C. Cir. 2013), reinforcing procedural regularity and administrable lines in a complex benefits program.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.707,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.61,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1"
+  }
+]

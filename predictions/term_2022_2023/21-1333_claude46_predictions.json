@@ -1,0 +1,671 @@
+[
+  {
+    "docket": "21-1333",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 230 of the Communications Decency Act immunizes Google/YouTube from liability for algorithmically recommending terrorist content that allegedly aided and abetted the ISIS attack that killed Nohemi Gonzalez.",
+      "legal_provision": "Section 230 of the Communications Decency Act (47 U.S.C. \u00a7 230), which provides immunity to interactive computer service providers for third-party content, alongside potential implications under the Anti-Terrorism Act (18 U.S.C. \u00a7 2333) and the Justice Against Sponsors of Terrorism Act (JASTA)",
+      "petitioner_position": "Google's algorithmic recommendation system \u2014 which actively curated and promoted ISIS recruitment and radicalization videos to targeted users \u2014 constitutes the platform's own expressive conduct rather than passive hosting of third-party content, and therefore falls outside Section 230's immunity protections, exposing Google to civil liability for aiding and abetting terrorism under federal anti-terrorism statutes",
+      "respondent_position": "Section 230 broadly immunizes Google from any liability arising from its role as a publisher or speaker of third-party content, including the use of neutral algorithmic recommendation tools, because such recommendations are an inherent and inseparable function of organizing and displaying user-generated content, and imposing liability would fundamentally undermine the statutory framework Congress designed to protect internet platforms",
+      "key_precedents": [
+        "Force v. Facebook, Inc. (2d Cir. 2019) - Section 230 immunity applied to algorithmic recommendations",
+        "Zeran v. America Online, Inc. (4th Cir. 1997) - foundational Section 230 immunity interpretation",
+        "Fair Housing Council of San Fernando Valley v. Roommates.com (9th Cir. 2008) - distinguishing between neutral tools and content development",
+        "Malwarebytes, Inc. v. Enigma Software Group USA (2020) - Section 230 scope",
+        "Herrick v. Grindr LLC (2d Cir. 2019) - platform liability under Section 230",
+        "Fields v. Twitter, Inc. (9th Cir. 2018) - anti-terrorism claims against platforms",
+        "Taamneh v. Twitter, Inc. (9th Cir. 2021) - companion case addressing aiding and abetting terrorism liability"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The convergence of Justices Kagan, Kavanaugh, Barrett, Alito, and now Gorsuch around the Taamneh JASTA vehicle reflects not mere institutional convenience but a genuine legal judgment that the factual record is insufficient to resolve the Section 230 algorithmic-development question responsibly \u2014 and Justice Gorsuch's shift is particularly significant because his textualist methodology led him to the same conclusion, confirming that the record deficiency is a real legal obstacle rather than a dodge. Justice Thomas's argument that YouTube's engagement-maximization algorithms constitute 'development' under Section 230(f)(3) remains the most intellectually serious challenge, and I continue to acknowledge its force \u2014 but as Justice Barrett correctly identifies, the Roommates.com 'material contribution' test requires a factual predicate establishing that YouTube's system was specifically calibrated to amplify ISIS content rather than operating as a general engagement optimizer, and that predicate is not established here. As Chief Justice, my minimalist instinct is reinforced: we should resolve this case on the narrowest available ground that commands a majority, which is the JASTA aiding-and-abetting analysis, while writing separately to signal to Congress that the algorithmic-immunity question warrants legislative attention and to preserve the Section 230 question for a case with a fully developed record. I would assign the majority opinion to Justice Kagan, whose reasoning most precisely threads the needle between preserving Section 230's foundational architecture and leaving open the material contribution exception for algorithms specifically engineered to amplify demonstrably illegal content.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan's argument that algorithmic curation is 'functionally inseparable from publishing' remains the strongest counterargument, but I continue to find it unpersuasive because it renders Section 230(f)(3)'s 'development' language essentially surplusage \u2014 a result no textualist can accept. Justice Barrett's point that 'development' in its ordinary 1996 meaning connotes affirmative contribution to content's substance is well-taken, but I would note that when YouTube's engagement-maximization algorithms systematically identify and deliver ISIS recruitment videos to behaviorally profiled users most susceptible to radicalization, the platform is doing something materially different from passive hosting \u2014 it is constructing a personalized content product whose harmful character is inseparable from the algorithmic targeting itself. The Taamneh vehicle that Justices Roberts, Alito, Kagan, Kavanaugh, and Barrett prefer is a legitimate narrower ground, and I acknowledge its institutional appeal, but resolving only the JASTA question while leaving the Section 230 algorithmic immunity question unaddressed simply defers the inevitable and leaves lower courts without guidance on a question of enormous consequence \u2014 the better course remains remand for factual development on whether YouTube's recommendation system constitutes 'development' under the statute's own definitional architecture, which is the precise question the text demands we answer.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's argument about systematic algorithmic amplification of extremist content remains the most serious challenge, and I continue to acknowledge its force \u2014 but as Justice Barrett correctly identifies, the factual predicate that YouTube's algorithms were specifically calibrated to amplify ISIS content rather than operating as a general engagement-maximization system that incidentally surfaced such content has not been established on this record, and 'development' under Section 230(f)(3) requires more than incidental amplification through neutral engagement logic. Justice Gorsuch's shift to respondent while preserving the algorithmic-development question for a case with a fuller record is the intellectually honest textualist move here \u2014 if the statute's definitional architecture is to be applied rigorously, it must be applied to facts that actually establish the threshold, not inferred from the mere existence of an engagement-optimization system. The convergence of Chief Justice Roberts, Justice Kagan, Justice Kavanaugh, Justice Barrett, and now Justice Gorsuch on the Taamneh JASTA vehicle reflects not institutional convenience but a sound judgment that a narrower statutory ground that fits the actual facts is preferable to a broader Section 230 ruling that would require factual development this record cannot support. Congress, with its superior fact-finding capacity and democratic legitimacy, remains the appropriate institution to recalibrate Section 230's immunity framework for algorithmic amplification if the policy balance has shifted \u2014 our role is to apply the statute as written to the facts before us, not to retrofit it to address harms its drafters did not anticipate on a record that does not establish the predicate for stripping immunity.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Barrett's argument that 'development' in its ordinary 1996 meaning connotes affirmative contribution to content's substance rather than distribution pathway remains the strongest textual challenge to my position, and I acknowledge that six colleagues \u2014 including Justice Gorsuch, who shares my textualist instincts about the statutory architecture \u2014 have now converged on the Taamneh vehicle as the cleaner resolution. But I cannot join the respondent position simply because it commands a supermajority: the institutional convenience of resolving this case on JASTA grounds through Taamneh does not answer whether Section 230 immunizes algorithmic systems that, as Justice Thomas correctly identifies, construct personalized content products whose harmful character is inseparable from the targeting itself. Justice Kagan's 'functionally inseparable from publishing' argument would be more persuasive to me if the record clearly established that YouTube's algorithms were genuinely content-neutral engagement optimizers \u2014 but the record's ambiguity on that precise question is exactly why I believe a remand for factual development is required rather than blanket immunity. I maintain my position that victims like Nohemi Gonzalez deserve at minimum a factual inquiry into whether YouTube's algorithmic choices crossed the Roommates.com material contribution threshold, and I will write separately to preserve that question even as the majority resolves this case on narrower JASTA grounds.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's argument that YouTube's algorithms 'systematically amplified extremist material because it drove higher engagement' remains the most serious challenge, but I continue to find it insufficient to satisfy Section 230(f)(3)'s 'development' standard on this record \u2014 the statute requires affirmative contribution to the content's unlawful character, not incidental amplification through engagement-neutral logic, and the factual predicate for the former has not been established here. Justice Gorsuch's shift to respondent is particularly significant to me not because of the vote count, but because a textualist who initially found the statutory architecture argument compelling has concluded that the record cannot support the factual predicate his own framework requires \u2014 that convergence of textualist methodology and factual insufficiency reinforces my view that we should not resolve the algorithmic-immunity question on this record. Justice Jackson's concern about asymmetric power and victims without recourse is genuinely moving, but the answer to that institutional concern is the Taamneh JASTA vehicle, which provides a textually grounded accountability framework with appropriate causation requirements, not a reinterpretation of 'development' that would sweep in all algorithmic editorial functions and destabilize the foundational publisher/developer distinction Congress deliberately built into Section 230. I would write to preserve the material contribution exception for algorithms specifically engineered to amplify demonstrably illegal content while signaling clearly to Congress that legislative recalibration is warranted.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.47,
+        "reasoning": "Justice Kagan and Justice Barrett's convergent point about the underdeveloped factual record has genuinely moved me \u2014 my textualist methodology requires that I apply Section 230(f)(3)'s 'development' standard to actual facts, and if the record does not establish that YouTube's algorithms were specifically calibrated to amplify ISIS content rather than operating as a general engagement-maximization system, then I cannot in good conscience hold that the statute's definitional architecture has been satisfied on this record. Justice Roberts' institutional argument about resolving this case through Taamneh's JASTA aiding-and-abetting analysis is more compelling than I initially credited \u2014 not because I defer to institutional convenience, but because a textualist should prefer the narrower statutory ground that actually fits the facts over a broader Section 230 ruling that would require factual development I cannot perform at this stage. I maintain that the statutory architecture distinguishing 'interactive computer services' from 'information content providers' is meaningful and that algorithmic targeting could constitute 'development' in an appropriate case \u2014 but Justice Barrett is correct that this record does not establish the factual predicate necessary to strip immunity, and a remand for factual development, while intellectually honest, would be practically indistinguishable from a respondent ruling given the Taamneh vehicle. I therefore shift to respondent while writing separately to preserve the Section 230 algorithmic-development question for a case with a fully developed record.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's textualist argument about Section 230(f)(3)'s definitional architecture retains genuine force, and I want to be direct that I am not dismissing it on institutional convenience grounds alone \u2014 but Justice Barrett's point about the ordinary 1996 meaning of 'development' requiring affirmative contribution to content's substance or unlawful character, rather than distribution pathway optimization, provides the textual answer that Justice Thomas's surplusage concern demands without collapsing the publisher/developer distinction. The convergence of Justices Roberts, Alito, Kagan, Barrett, and now Gorsuch on the Taamneh JASTA vehicle reflects not mere institutional timidity but a shared recognition that the factual record does not establish the specific algorithmic calibration toward ISIS content that Roommates.com's material contribution test would require \u2014 and resolving the Section 230 algorithmic immunity question on an underdeveloped record would be worse for the law's long-term coherence than reserving it. Justice Gorsuch's shift is particularly significant to me because he arrived at the respondent position through textualist methodology rather than institutional deference, confirming that the narrower ground is not merely convenient but legally correct on this record. I would join a majority opinion resolving this case on JASTA aiding-and-abetting grounds through Taamneh, writing separately only to signal that the Section 230 algorithmic development question remains open and warrants both legislative attention and a future case with a fully developed factual record.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Thomas's argument that YouTube's engagement-maximization algorithms constitute 'development' because they systematically construct a personalized content product whose harmful character is inseparable from the algorithmic targeting remains the most serious challenge, but it still fails on this record for the reason I articulated in prior rounds: the Roommates.com material contribution test requires that the platform's structural choices affirmatively contribute to the content's unlawful character, not merely that they incidentally surface harmful content at higher rates through neutral engagement logic. Justice Gorsuch's shift to the respondent position is significant \u2014 not because I defer to the emerging consensus, but because his textualist methodology independently confirms my reading that 'development' in its ordinary 1996 meaning requires more than distribution optimization, and his acknowledgment that the factual predicate is underdeveloped reinforces my institutional instinct that we should not extend or contract Section 230's foundational architecture on ambiguous facts. Justice Jackson's point about the asymmetry of power and victims' lack of recourse is genuinely moving as a matter of policy, but my judicial methodology requires me to apply the statute as written rather than retrofit it to address harms Congress did not anticipate \u2014 and the appropriate institutional response is to signal clearly, as Justice Kagan suggests, that Congress should recalibrate algorithmic immunity with the empirical record and democratic legitimacy this Court lacks. I write to preserve the material contribution exception for algorithms specifically engineered to amplify demonstrably illegal content, while resolving this case on the narrower Taamneh JASTA ground.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Gorsuch's shift to respondent based on the underdeveloped factual record is the argument that most tests my position, and I want to engage it honestly: he is correct that a textualist methodology requires applying 'development' to actual established facts, and if the record does not demonstrate YouTube's algorithms were specifically calibrated toward ISIS content, the statutory threshold may not be met on this record. But my response is that this factual inadequacy is precisely the argument for remand rather than affirmance \u2014 a ruling for respondent on this record does not merely defer the Section 230 algorithmic immunity question, it forecloses the Gonzalez family's ability to develop the factual predicate that Justice Gorsuch himself acknowledges could satisfy the statute in an appropriate case. Justice Barrett's convergent point about the 1996 ordinary meaning of 'development' is the strongest textual argument against my position, and I genuinely credit it \u2014 but Roommates.com's 'material contribution to unlawful character' test was itself an extension of that ordinary meaning, and I cannot accept that the Court should permanently immunize algorithmic targeting without allowing factual development on whether YouTube's engagement-optimization system was genuinely content-neutral or specifically tuned to amplify extremist content because it drove higher engagement. My background as a public defender makes me acutely aware that 'the record is underdeveloped' too often functions as a structural barrier that systematically disadvantages victims against institutional defendants with superior resources and information asymmetry \u2014 and a remand, not affirmance, is the appropriate remedy for that inadequacy.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Consistent with my minimalist philosophy, I would avoid resolving the broad Section 230 question and instead dispose of this case on the narrower Anti-Terrorism Act aiding-and-abetting grounds, as the companion Taamneh case provides a cleaner path. However, if forced to address Section 230 directly, the institutional stakes of destabilizing the internet's foundational liability framework counsel restraint \u2014 Congress, not this Court, is the appropriate body to recalibrate Section 230's scope in the algorithmic age. While the Roommates.com distinction between neutral tools and content development has genuine force, and the petitioners raise serious arguments that targeted algorithmic promotion differs from passive hosting, the line between 'recommendation' and 'publishing' is insufficiently clear to justify stripping immunity without congressional guidance, and Zeran's foundational broad immunity interpretation has structured enormous reliance interests over decades. I would hold that Section 230 applies here while strongly signaling to Congress that the statute warrants reexamination as applied to algorithmic amplification of harmful content.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of Section 230(c)(1) immunizes platforms only for content 'provided by another information content provider,' and Section 230(f)(3) defines an 'information content provider' as any entity responsible 'in whole or in part, for the creation or development of information.' When YouTube's algorithms affirmatively select, curate, and target specific content to specific users, the platform moves beyond passive hosting into active content development, potentially making it a co-developer under Section 230(f)(3) \u2014 a distinction the Ninth Circuit itself recognized in Fair Housing Council v. Roommates.com. The original public meaning of 'publisher' in 1996 would not have encompassed a system that proactively pushes tailored content to users; Congress was concerned with platforms that passively hosted or editorially removed third-party material, not platforms that deploy sophisticated recommendation engines to maximize engagement with specific content. I have previously written in my statement respecting denial of certiorari in Malwarebytes that courts have 'long stretched' Section 230 beyond its text, and this case presents precisely the opportunity to restore fidelity to the statute's actual language rather than the expansive judicial gloss lower courts have applied.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Section 230's text immunizes providers from liability for content created by third parties, and Google's algorithmic recommendations, while active in nature, remain fundamentally tied to organizing and displaying third-party content rather than creating or developing that content itself. Unlike Roommates.com, where the platform affirmatively induced users to express illegal discriminatory preferences through mandatory questionnaires, Google's neutral recommendation algorithms sort and surface content without materially contributing to the unlawfulness of the underlying ISIS videos. The petitioners' theory would effectively hold Google liable as a publisher or speaker of third-party content \u2014 precisely what Section 230(c)(1) prohibits \u2014 because the recommendations derive their entire character from the third-party content they surface. However, I am genuinely troubled by the practical consequences of extending blanket immunity to algorithmic amplification of terrorist content, and Congress, not this Court, should clarify whether Section 230 was intended to shield this conduct, particularly given the Anti-Terrorism Act's separate liability framework which may provide an independent basis for relief that does not require overriding Section 230.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Google's algorithmic recommendation system is not merely passive hosting of third-party content but an affirmative, targeted act of curation that selects specific ISIS recruitment videos for specific users \u2014 conduct that goes beyond what Section 230(c)(1) was designed to immunize. As the Roommates.com framework instructs, a platform loses immunity when it materially contributes to unlawful content through its own structural choices, and here Google's algorithms did not treat ISIS content neutrally but actively amplified it to vulnerable, targeted audiences in ways that allegedly facilitated radicalization and terrorism. The practical, real-world impact on victims like Nohemi Gonzalez cannot be dismissed by characterizing algorithmic targeting as mere 'neutral' publishing; a recommendation, by its very nature, treats some content differently from other content, and Section 230 should not be read to immunize that affirmative promotional conduct. While I recognize the significant uncertainty in this area and the risk of disrupting the broader internet ecosystem, Congress did not intend Section 230 to be a blanket shield against liability for platforms that actively weaponize their recommendation engines to promote terrorist content.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While the Roommates.com framework presents a genuine analytical challenge, Google's recommendation algorithm differs materially from the discriminatory questionnaire in that case \u2014 YouTube's system is a neutral organizational tool applied uniformly across content categories rather than one specifically designed to surface or amplify unlawful material. Section 230's text immunizes providers from liability 'as the publisher or speaker' of third-party content, and algorithmic curation is functionally inseparable from the act of publishing in the modern internet context; to hold otherwise would require courts to draw hopelessly unworkable lines between 'passive' and 'active' content organization. That said, I would write narrowly to preserve the possibility that a platform whose algorithm is specifically tuned to promote demonstrably illegal content \u2014 not merely content that happens to be illegal \u2014 could fall outside immunity under the 'information content provider' exception, consistent with Roommates.com's material contribution test. The better vehicle for addressing terrorism liability here is the aiding-and-abetting standard under JASTA and the companion Taamneh case, which provides a more textually grounded and workable framework than stretching Section 230's publisher-immunity carve-out.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Reading Section 230(c)(1) by its plain text, immunity extends only to treatment as 'the publisher or speaker' of information 'provided by another information content provider' \u2014 and Section 230(f)(3) defines an information content provider as any entity 'responsible, in whole or in part, for the creation or development' of content. When Google's algorithms affirmatively select, curate, and target-deliver specific ISIS recruitment videos to specific users based on proprietary computational processes, there is a serious textual argument that Google has moved from passive publisher to active developer of that curated output, potentially removing it from Section 230(c)(1)'s shelter. The statute's own definitional architecture \u2014 distinguishing 'interactive computer services' from 'information content providers' \u2014 suggests Congress understood these categories as meaningfully distinct, and a platform cannot simultaneously claim immunity as a mere conduit while exercising sophisticated editorial judgment about which harmful content reaches which vulnerable users. Consistent with Roommates.com's reasoning that platforms lose immunity when they materially contribute to the unlawful character of content, I would remand for factual development on whether YouTube's recommendation algorithms constitute 'development' of information under Section 230(f)(3), rather than extending a judicially-created immunity that the statutory text does not clearly compel.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Section 230(c)(1)'s text immunizes providers from liability as 'publisher or speaker' of third-party content, and algorithmic recommendation systems \u2014 while sophisticated \u2014 remain fundamentally a publisher function of organizing and presenting content created by others, consistent with Zeran v. AOL's foundational interpretation that Congress intended broad immunity for traditional editorial decisions. The legislative history of Section 230 reflects Congress's deliberate choice to protect platforms from liability that would otherwise chill the development of the internet, and extending liability to neutral algorithmic curation would effectively make platforms liable as publishers in precisely the way Congress sought to prevent. However, I am genuinely troubled by the practical distinction between passive hosting and affirmative algorithmic targeting of vulnerable users with terrorist recruitment content, and I would signal strongly to Congress that Section 230's current scope may warrant legislative revision to address recommendation systems that go beyond neutral organization. The companion Taamneh case's aiding-and-abetting analysis under JASTA provides a more appropriate doctrinal vehicle for addressing platform liability for terrorism, and I would resolve this case on those narrower statutory grounds where possible rather than dramatically reinterpreting Section 230's scope.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Beginning with the statutory text of Section 230(c)(1), the phrase 'publisher or speaker of any information provided by another information content provider' must be understood according to its ordinary public meaning at enactment in 1996, where 'publisher' encompassed the traditional editorial functions of selecting, organizing, and distributing content \u2014 functions that algorithmic recommendation systems perform as an inherent extension of the platform's role in presenting third-party content. While the Roommates.com 'material contribution' test from the Ninth Circuit offers a meaningful limiting principle \u2014 distinguishing between neutral organizational tools and platforms that actively develop harmful content \u2014 the record here does not sufficiently establish that YouTube's recommendation algorithms crossed from passive curation into affirmative content creation or development within the meaning of Section 230(f)(3). The Anti-Terrorism Act and JASTA claims face the additional threshold problem identified in Fields v. Twitter and Taamneh, requiring a substantial causal nexus between the platform's conduct and the specific terrorist act, which algorithmic neutrality undermines. That said, I write with reservation: this Court should not foreclose the possibility that sufficiently targeted, personalized algorithmic promotion could constitute 'development' under Section 230(f)(3), and the statutory text may warrant a narrower reading of immunity than courts have historically applied \u2014 a question Congress, not this Court, is best positioned to resolve definitively.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 230's immunity was designed to protect platforms acting as passive conduits for third-party content, not to shield affirmative algorithmic conduct that actively selects, targets, and promotes specific content to specific users based on their profiles and behavioral data. Drawing on Fair Housing Council v. Roommates.com, when a platform's structural choices materially contribute to the unlawful character of content's dissemination \u2014 here, algorithmically amplifying ISIS recruitment videos to vulnerable, targeted individuals \u2014 that conduct transcends neutral hosting and approaches content development or co-creation. My background as a public defender heightens my concern about the practical consequences of extending blanket immunity to algorithmic systems that foreseeably radicalize users toward violence, as such an interpretation would insulate platforms from accountability for their most consequential editorial decisions while leaving terrorism victims without recourse. However, I recognize the significant line-drawing difficulties and the risk of chilling legitimate curation, which tempers my confidence, and I would remand for further development of the factual record on whether Google's recommendation system was truly content-neutral or specifically optimized to amplify extremist content.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.654,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.47,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.47,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "21-1333",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 230 of the Communications Decency Act immunizes Google/YouTube from liability for algorithmically recommending terrorist content that allegedly aided and abetted the ISIS attack in Paris that killed Nohemi Gonzalez.",
+      "legal_provision": "Section 230 of the Communications Decency Act (47 U.S.C. \u00a7 230), which provides immunity to interactive computer service providers for third-party content, and potentially the Anti-Terrorism Act (18 U.S.C. \u00a7 2333) regarding civil liability for aiding and abetting acts of international terrorism.",
+      "petitioner_position": "Google/YouTube's algorithmic recommendation system constitutes the platform's own expressive conduct and content creation \u2014 not merely passive hosting of third-party content \u2014 and therefore falls outside Section 230 immunity. By actively curating, promoting, and recommending ISIS recruitment and propaganda videos to targeted users, Google became a co-developer of harmful content and should be held liable under the Anti-Terrorism Act for materially supporting terrorism that resulted in the death of Nohemi Gonzalez in the November 2015 Paris attacks.",
+      "respondent_position": "Section 230 broadly immunizes Google from liability because its recommendation algorithms are an inherent and inseparable function of organizing and displaying third-party content. Holding platforms liable for algorithmic recommendations would fundamentally undermine Section 230's core purpose of enabling free expression and innovation online, as any editorial curation or content organization would expose platforms to unlimited litigation, effectively destroying the modern internet ecosystem.",
+      "key_precedents": [
+        "Force v. Facebook, Inc. (2d Cir. 2019) - Section 230 immunity for algorithmic recommendations",
+        "Dyroff v. Ultimate Software Group (9th Cir. 2019) - Platform recommendations protected under Section 230",
+        "Fair Housing Council of San Fernando Valley v. Roommates.com (9th Cir. 2008) - Co-developer exception to Section 230 immunity",
+        "Zeran v. America Online, Inc. (4th Cir. 1997) - Foundational Section 230 immunity case",
+        "Malwarebytes, Inc. v. Enigma Software Group USA (2020) - Section 230 scope",
+        "Twitter, Inc. v. Taamneh (companion case, No. 21-1496) - Aiding and abetting liability under Anti-Terrorism Act",
+        "Crosby v. Twitter, Inc. (6th Cir. 2019) - Section 230 and terrorism-related claims",
+        "Fields v. Twitter, Inc. (9th Cir. 2018) - Material support and Anti-Terrorism Act claims against platforms"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument about affirmative promotional conduct directed at radicalization-susceptible users remains the most serious challenge to my position, and I credit its moral force \u2014 but it ultimately cannot overcome the textual and structural problems Justice Kagan identifies with precision: the line between 'neutral curation' and 'co-development' that would strip immunity for algorithmic recommendations has no principled stopping point, because every recommendation algorithm simultaneously organizes and promotes content, making the distinction constitutively unworkable rather than merely difficult. The Roommates.com framework, properly understood, requires that the platform's conduct materially contribute to the *unlawful nature* of the content itself \u2014 and as Justice Alito correctly observes, YouTube's recommendation engine does not make ISIS propaganda more terrorist in character, any more than a bookstore's 'customers also bought' feature makes a dangerous book more dangerous. As Chief Justice, I am increasingly confident that the narrowest and most institutionally sound disposition is to resolve Twitter v. Taamneh first on the Anti-Terrorism Act's demanding proximate causation and scienter requirements, which would allow us to avoid restructuring Section 230's foundational architecture without congressional authorization \u2014 a path that Justice Barrett, Justice Kagan, and Justice Gorsuch all endorse and that reflects the minimalist methodology I believe best preserves this Court's legitimacy. If we must reach Section 230, I would author a majority opinion holding narrowly that neutral algorithmic curation falls within the publication function while explicitly reserving the question of whether algorithms specifically designed to amplify content based on its harmful character might present a different case, giving Congress the opportunity to act with full awareness of the technological landscape.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's workability concern remains the most serious challenge to my position, and I acknowledge it with full candor \u2014 she is correct that virtually every modern platform uses algorithmic curation, and a ruling that strips Section 230 immunity for recommendation systems risks nullifying the statute's core protection without textual warrant. However, I cannot accept the conclusion that this line-drawing difficulty compels complete immunity, because the Roommates.com framework already requires courts to distinguish between neutral organizational tools and systems that affirmatively direct harmful content to receptive targets \u2014 that inquiry is fact-intensive but not categorically unmanageable, and the difficulty of drawing a line has never been this Court's basis for refusing to draw it. Justice Alito's argument that 'any' in the statutory text is extraordinarily broad is textually significant, but breadth of coverage does not resolve whether algorithmic targeting constitutes the platform's own 'information content provider' activity \u2014 a platform that develops behavioral profiling systems to match users to content based on predicted engagement is doing something qualitatively different from passive hosting, and the original public meaning of 'publisher or speaker' in 1996 did not encompass that conduct. I maintain my position for petitioner but would confine the ruling narrowly to a remand for factual development under the Roommates.com framework, rather than a categorical holding, which addresses Justice Barrett's and Justice Gorsuch's legitimate concerns about institutional overreach.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's argument that algorithmic targeting constitutes the platform's own 'information content provider' activity deserves serious engagement, but it founders on the statutory text: Section 230(c)(1) immunizes providers from liability for 'any information provided by another information content provider,' and the word 'any' does not admit of an exception for content that was algorithmically surfaced rather than passively hosted \u2014 the algorithm is the delivery mechanism, not the content itself. Justice Sotomayor's emotionally powerful argument about Nohemi Gonzalez's death cannot substitute for a textual warrant, and the Roommates.com framework she invokes actually confirms my position: that case required that the platform materially contribute to the *unlawful nature* of the content, not merely that it affirmatively directed content to receptive users \u2014 YouTube's recommendation engine does not make ISIS propaganda more terrorist in character, any more than a bookstore's 'customers also bought' feature makes a dangerous book more dangerous. Justice Jackson's pragmatic concern about terrorism victims' access to recourse is legitimate, but the Anti-Terrorism Act's demanding proximate causation and scienter requirements in Taamneh provide exactly the accountability mechanism Congress designed for this purpose, without requiring us to rewrite Section 230's architecture through judicial fiat. The workability problem Justice Kagan identifies remains decisive: petitioners' theory has no limiting principle that would not expose every algorithmic curation decision \u2014 from Google Search rankings to Netflix recommendations \u2014 to potential co-developer liability, a result that would effectively nullify Section 230 for the modern internet without any textual authorization from Congress.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan's workability concern remains the most serious challenge to my position, and I want to engage with it directly: she argues that because all modern platforms use algorithmic curation, stripping immunity for recommendation systems would effectively nullify Section 230 for the entire internet ecosystem. But I think this argument conflates two distinct questions \u2014 whether a line is difficult to draw and whether no line exists at all. The Roommates.com framework did not immunize all editorial decisions; it distinguished between platforms that passively organize content and those whose own design choices materially contribute to the harmful character of the content. Justice Kavanaugh's analogy to a library card catalog is instructive but ultimately inapt: a card catalog does not use behavioral profiling to identify users with demonstrated susceptibility to radicalization and then affirmatively serve them escalating extremist content \u2014 that is not passive organization but targeted amplification that the platform's own engineers designed to maximize engagement with predictably harmful consequences. I acknowledge that Justice Barrett's suggestion to resolve Taamneh first has institutional merit, and I would accept a narrow disposition that avoids a sweeping Section 230 ruling, but I cannot join a holding that categorically immunizes deliberate algorithmic amplification of terrorist recruitment material as a matter of statutory text that Congress enacted to promote responsible conduct, not to insulate platforms from accountability for their own affirmative promotional decisions.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor and Justice Jackson both press the argument that the difficulty of line-drawing 'proves too much' \u2014 that a hard line is not no line \u2014 but I think they underestimate how the specific difficulty here is constitutive rather than incidental. The Roommates.com framework works because the line between 'did the platform elicit and structure the illegal content as a condition of service' and 'did the platform merely host it' is administrable; the line between 'algorithmic curation that passively surfaces content' and 'algorithmic curation that affirmatively promotes harmful content' is not, because every recommendation algorithm is simultaneously both. Justice Thomas's argument that behavioral profiling constitutes the platform's own expressive conduct is the most intellectually serious challenge to my position, but it proves too much in the other direction \u2014 if targeted recommendation is the platform's own speech, then Section 230 would paradoxically strip platforms of immunity for their own editorial judgments, which is precisely the opposite of what Congress intended when it sought to encourage responsible curation without liability. Justice Barrett's procedural instinct to resolve Taamneh first remains the most institutionally sound path, and I am increasingly confident that the Anti-Terrorism Act's demanding proximate causation and scienter requirements in Taamneh provide the accountability mechanism Congress actually authorized without requiring us to restructure Section 230's foundational architecture through judicial interpretation of a statute that has never been amended to address algorithmic amplification.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Thomas's argument that algorithmic targeting constitutes the platform's own expressive conduct rather than passive republication remains the most serious challenge to my position, but I find it ultimately unpersuasive for a reason he does not fully answer: the Roommates.com co-developer exception turns on whether the platform materially contributes to the *unlawful nature* of the content itself, and YouTube's recommendation engine \u2014 however sophisticated its behavioral profiling \u2014 does not make ISIS propaganda more terrorist in character, any more than a bookseller's recommendation algorithm makes a dangerous book more dangerous. Justice Kagan's workability concern reinforces my textualist instinct here: where the statutory text of Section 230(c)(1) immunizes providers from liability for 'any information provided by another information content provider,' and where 'any' is extraordinarily broad, I cannot identify a textual limiting principle that would distinguish YouTube's algorithm from every other form of editorial curation without effectively nullifying the statute Congress enacted. Justice Barrett's procedural instinct about Taamneh remains sound \u2014 if the Anti-Terrorism Act's demanding proximate causation and scienter requirements cannot be satisfied, we need not reach Section 230 at all, and that restraint is precisely what my textualist methodology counsels when Congress has not clearly authorized stripping immunity for algorithmic curation. I hold for respondent with modestly increased confidence, while reiterating that Congress \u2014 not this Court \u2014 holds the appropriate institutional tools to address algorithmic amplification's genuine harms.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor's argument that YouTube's algorithms constitute affirmative promotional conduct remains the most serious challenge to my position, but I am increasingly confident it fails for a reason Justice Kagan identifies precisely: the publication function has always encompassed editorial decisions about what to surface and sequence, and Section 230's text immunizes providers from liability as 'publisher or speaker' without limiting that immunity to passive hosting. Justice Thomas's originalist argument that 1996 Congress did not contemplate algorithmic amplification is historically interesting but cuts the wrong way \u2014 the legislative history of Section 230 shows Congress was specifically trying to encourage platforms to make exactly these kinds of editorial curation decisions without fear of liability, and recommendation algorithms are the modern form of that editorial judgment. Justice Barrett's movement toward the respondent position reinforces my view that the institutionally sound path is to affirm Section 230 immunity here while allowing Taamneh's Anti-Terrorism Act framework to address terrorism liability through its demanding proximate causation and scienter requirements \u2014 that sequencing respects both statutory schemes without this Court unilaterally restructuring the internet ecosystem. The absence of any workable limiting principle in the petitioners' theory \u2014 a deficiency that Justices Jackson and Sotomayor acknowledge even while supporting petitioners \u2014 confirms that any line-drawing here would be judicial legislation, not statutory interpretation.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Thomas's argument that behavioral profiling constitutes the platform's own expressive conduct remains the most intellectually serious challenge to my position, but as Justice Kagan correctly identifies, that argument proves too much in the wrong direction \u2014 if targeted recommendation is the platform's own speech rather than publication of another's content, Section 230 would paradoxically expose platforms to greater liability for their editorial judgments, inverting Congress's purpose. The Roommates.com co-developer exception requires material contribution to the *unlawful nature* of the content itself, and YouTube's recommendation engine does not make ISIS propaganda more terrorist in character; it merely surfaces it, which is precisely the publication function the statute immunizes. Justice Sotomayor's argument about affirmative promotional conduct directed at radicalization-susceptible users is compelling as a policy matter, but I cannot identify the textual anchor that distinguishes this from the editorial curation functions that Zeran and Barnes v. Yahoo! squarely immunize, and the absence of a workable limiting principle is not a line-drawing difficulty but a structural defect in the petitioners' theory that would effectively nullify Section 230 without congressional authorization. The institutionally sound path, as Chief Justice Roberts and Justice Kagan both recognize, is to resolve the Anti-Terrorism Act aiding-and-abetting question in Taamneh first under Halberstam's demanding proximate causation and scienter requirements, preserving the Section 230 question for a case with a better-developed factual record and, ideally, congressional guidance on algorithmic amplification.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.52,
+        "reasoning": "Justice Kagan's workability argument remains the most powerful challenge to my position, and I want to engage with it directly: she is right that virtually all modern platforms use algorithmic curation, and that Barnes v. Yahoo! and Zeran establish editorial decisions as core publication functions. However, I cannot accept that Section 230 was designed to immunize a platform's affirmative, commercially-motivated decision to target specific users with specific radicalization content based on behavioral profiling \u2014 that is categorically different from the passive hosting Congress contemplated in 1996. Justice Barrett's move toward Taamneh as the cleaner vehicle is institutionally attractive and I find myself increasingly drawn to it as a pragmatic matter: if we can resolve the ATA aiding-and-abetting question in Taamneh without reaching Section 230, that narrower path respects both the victims' need for accountability and the legitimate concern about destabilizing the internet ecosystem. I maintain my position for petitioner but with reduced confidence, and I would strongly support a disposition that vacates and remands with instructions to address Taamneh first, preserving the Section 230 question for a case with a better-developed factual record about the specific mechanics of algorithmic amplification of terrorist content.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Consistent with my minimalist approach, I would resolve this case on the narrowest available grounds by declining to broadly reinterpret Section 230's scope, while recognizing that the companion case Twitter v. Taamneh likely resolves the underlying Anti-Terrorism Act aiding-and-abetting question without requiring us to disturb Section 230's foundational architecture. The Roommates.com co-developer exception is distinguishable here because Google's recommendation algorithms, unlike Roommates.com's discriminatory questionnaires, do not solicit or induce unlawful content from users \u2014 they organize and surface third-party content that already exists, placing this case closer to Dyroff v. Ultimate Software Group. Holding platforms liable for algorithmic curation would effectively nullify Section 230 for any platform that organizes content, a sweeping result that Congress \u2014 not this Court \u2014 should authorize, particularly given the profound institutional and economic consequences for the modern internet ecosystem. The appropriate vehicle for recalibrating Section 230's balance in the age of algorithmic amplification is legislative action, and judicial restraint counsels against this Court unilaterally rewriting a statutory immunity that Congress has repeatedly declined to narrow.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The text of Section 230(c)(1) immunizes providers from being treated as 'publisher or speaker of any information provided by another information content provider' \u2014 but algorithmic recommendation systems that actively curate and target specific content to specific users go beyond passive hosting and constitute the platform's own expressive conduct, not merely republishing third-party information. As I noted in my statement respecting denial of certiorari in Malwarebytes, lower courts have extended Section 230 immunity far beyond what the statutory text supports, and the original public meaning of 'publisher or speaker' in 1996 would not have contemplated sophisticated algorithmic systems that affirmatively direct users toward specific content as a product feature. The Roommates.com co-developer framework from the Ninth Circuit correctly identifies that when a platform materially contributes to the harmful character of content through its own systems \u2014 here, actively recommending ISIS recruitment videos to targeted users \u2014 it steps outside Section 230's textual protection. Congress in 1996 could not have intended to immunize conduct that transforms a passive conduit into an active participant in content dissemination, and I would remand for consideration of whether Google's recommendation algorithms constitute its own 'information content provider' activity under the statute's plain text.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist, I must read Section 230's plain language, which immunizes providers from liability for 'any information provided by another information content provider' \u2014 and YouTube's algorithmic recommendations, while sophisticated, are fundamentally a neutral organizational tool that surfaces third-party content rather than materially contributing to the unlawfulness of that content as required by the Roommates.com co-developer exception. The Gonzalez family's theory would require treating every editorial curation decision as content creation, which the statutory text does not support and which would expose platforms to virtually unlimited litigation over their organizational functions. Unlike Roommates.com, where the platform affirmatively required users to input discriminatory preferences through a mandatory questionnaire that directly elicited illegal content, Google's recommendation algorithm is a neutral tool that organizes pre-existing third-party content without materially contributing to its terrorist character. Furthermore, the companion case Twitter v. Taamneh presents the more appropriate vehicle for resolving the aiding-and-abetting liability question under the Anti-Terrorism Act, and the practical consequences of stripping Section 230 immunity for algorithmic recommendations would be judicially unmanageable and legislatively better addressed by Congress.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Google's algorithmic recommendation system is not passive hosting of third-party content but an affirmative, targeted act of promotion that selects specific ISIS videos for specific users \u2014 conduct that goes beyond what Section 230(c)(1) was designed to immunize. Under Fair Housing Council v. Roommates.com, a platform loses Section 230 protection when it materially contributes to the unlawful nature of content through its own design choices and affirmative conduct, and YouTube's recommendation algorithms do precisely that by actively curating and amplifying terrorist recruitment material to receptive audiences. The practical reality \u2014 that a young woman, Nohemi Gonzalez, died in part because an algorithm deliberately surfaced ISIS propaganda to radicalize her killers \u2014 demands that we not read Section 230 so broadly as to render platforms completely unaccountable for their own affirmative promotional decisions, as opposed to their passive hosting functions. Allowing platforms to escape all liability for algorithmically amplifying terrorist content would create perverse incentives and leave vulnerable populations without meaningful recourse, a result Congress did not intend when it enacted Section 230 to promote responsible online conduct.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Section 230's text immunizes providers from being 'treated as the publisher or speaker' of third-party content, and Google's algorithmic recommendations \u2014 while sophisticated \u2014 are fundamentally an exercise in organizing, curating, and deciding whether to surface content that others created, which falls squarely within the publication function as defined in Barnes v. Yahoo! and Zeran v. AOL. Unlike Roommates.com, where the platform's own design actively induced users to express illegal discriminatory preferences through mandatory questionnaires, Google's recommendation algorithm does not materially contribute to the creation of ISIS content itself \u2014 it sorts and surfaces pre-existing third-party material, which is a distinction the Roommates co-developer exception requires us to take seriously. I am also persuaded by the workability concern: drawing a principled line between 'passive hosting' and 'active recommendation' is extraordinarily difficult given that virtually all modern platforms use algorithmic curation, and a ruling for petitioners would expose every platform to essentially unlimited litigation over their organizational choices, undermining Section 230's core statutory purpose of enabling a functional internet ecosystem. The companion case of Twitter v. Taamneh provides a more appropriate and textually grounded vehicle for addressing terrorism liability through the Anti-Terrorism Act's aiding-and-abetting framework rather than by distorting Section 230's immunity provisions.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Reading Section 230's text carefully, the statute immunizes providers from liability for 'any information provided by another information content provider,' and the threshold question is whether Google's recommendation algorithm transforms it into a co-developer of the underlying ISIS content. Under the plain meaning of 'information content provider' \u2014 one who is 'responsible, in whole or in part, for the creation or development of information' \u2014 algorithmic recommendations that merely organize, sequence, and surface third-party content without materially contributing to the unlawful nature of that content do not strip the platform of immunity under the Roommates.com framework. Unlike Roommates.com, where the platform affirmatively solicited and structured discriminatory preferences as a required condition of service, YouTube's recommendation engine is a neutral tool that operates on third-party content without itself generating or materially shaping the harmful character of that content. However, I write separately to note serious reservations about the breadth of Section 230 immunity as courts have construed it \u2014 Congress in 1996 could not have anticipated algorithmic amplification at this scale, and this Court should be cautious about extending statutory immunity beyond its textual warrant, leaving the harder policy questions to Congress where they belong.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As an institutionalist, I am deeply concerned about the Court issuing a sweeping ruling that would destabilize the entire internet ecosystem Congress deliberately constructed through Section 230, and I find the better path is to resolve this case on the Anti-Terrorism Act's aiding and abetting standard rather than rewrite Section 230 doctrine. The Roommates.com co-developer exception is distinguishable here because Google's recommendation algorithms, unlike Roommates.com's mandatory discriminatory questionnaires, are neutral tools that organize and surface third-party content without materially contributing to the unlawful character of that content \u2014 the algorithms do not create ISIS propaganda, they merely sort it alongside billions of other videos. Consistent with Force v. Facebook and Dyroff v. Ultimate Software Group, treating algorithmic recommendations as platform-created content would effectively nullify Section 230 for every major platform, since all content organization involves some form of algorithmic curation, a result Congress plainly did not intend in 1996. Given the companion case Twitter v. Taamneh provides a cleaner vehicle to address the underlying terrorism liability question under the Anti-Terrorism Act's demanding proximate causation standard, judicial restraint counsels against using this case to dramatically reshape Section 230 when the statutory text and decades of consistent lower court interpretation support immunity.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "A textualist reading of Section 230(c)(1) immunizes providers from liability for content created by 'another information content provider,' but the statute's plain text does not clearly extend immunity to a platform's own affirmative conduct in algorithmically selecting and recommending specific content to targeted users \u2014 that is Google's own expressive act, not passive hosting of third-party material. As Roommates.com established, the co-developer exception recognizes that a platform loses immunity when its own conduct materially contributes to the alleged unlawfulness, and Google's recommendation algorithms are not neutral conduits but active curatorial choices that treat ISIS content differently by affirmatively surfacing it to receptive audiences. However, I write with measured confidence because the companion case Twitter v. Taamneh raises serious questions about whether the Anti-Terrorism Act's aiding-and-abetting standard is actually satisfied here \u2014 algorithmic recommendations that apply neutrally across all content categories may not constitute the 'knowing' and 'substantial' assistance required under Halberstam v. Welch's framework for secondary liability. The most prudent disposition may be to vacate and remand on the Section 230 question while resolving the threshold Anti-Terrorism Act liability question in Taamneh first, rather than issuing a sweeping ruling that restructures the entire internet ecosystem without full briefing on the statutory text's original public meaning.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Roommates.com 'material contribution' framework is instructive here: just as Roommates.com crossed from passive hosting into co-developer status by actively structuring and inducing harmful content through mandatory discriminatory criteria, YouTube's algorithmic recommendation system goes beyond neutral content organization by affirmatively selecting, targeting, and amplifying ISIS recruitment content to specific users \u2014 conduct that materially shapes the harmful information ecosystem rather than merely transmitting it. Section 230's immunity under 47 U.S.C. \u00a7 230(c)(1) protects providers from being treated as 'publishers or speakers' of third-party content, but as Barnes v. Yahoo! clarifies, the immunity attaches only when the duty alleged derives from the provider's status as publisher; here, the Gonzalez family's claim is premised not on Google hosting ISIS content but on Google's own algorithmic conduct affirmatively recommending it, which is a distinct expressive act. From a practical consequences standpoint rooted in my judicial philosophy, allowing Section 230 to immunize algorithmically curated recommendations that foreseeably direct users toward terrorist recruitment material would effectively insulate platforms from accountability for their most consequential editorial decisions, undermining both the Anti-Terrorism Act's civil liability framework under 18 U.S.C. \u00a7 2333 and basic principles of equal protection for terrorism victims. That said, I hold this position with measured confidence because the line between neutral curation and co-development remains genuinely difficult to draw, and I would remand for further factual development on whether YouTube's specific algorithmic conduct crossed the Roommates.com threshold.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.704,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  }
+]

@@ -1,0 +1,627 @@
+[
+  {
+    "docket": "24-316",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Affordable Care Act's requirement that employer health plans cover preventive services \u2014 specifically PrEP drugs and other services recommended by the U.S. Preventive Services Task Force (USPSTF) \u2014 is constitutional, and whether such mandates violate the Religious Freedom Restoration Act (RFRA) or constitute an unconstitutional delegation of legislative authority.",
+      "legal_provision": "Affordable Care Act (ACA) Section 2713, 42 U.S.C. \u00a7 300gg-13, which mandates coverage of preventive services recommended by the USPSTF, ACIP, and HRSA; the Religious Freedom Restoration Act (RFRA), 42 U.S.C. \u00a7 2000bb et seq.; and the Appointments Clause and nondelegation doctrine under Articles I and II of the U.S. Constitution.",
+      "petitioner_position": "The federal government (HHS) argues that the ACA's preventive services mandate is a valid exercise of congressional authority, that the USPSTF members are not 'Officers of the United States' requiring Senate confirmation under the Appointments Clause, and that the mandate does not substantially burden religious exercise under RFRA because employers are not morally complicit in employees' personal healthcare decisions. Petitioners are supported by a broad coalition of amici \u2014 including public health organizations, hospital associations, economic scholars, and disease-specific foundations like Susan G. Komen \u2014 who emphasize the significant public health and economic benefits of no-cost preventive care coverage, warning that invalidation would strip tens of millions of Americans of critical preventive services including cancer screenings, HIV prevention (PrEP), and vaccinations.",
+      "respondent_position": "Braidwood Management and co-respondents argue that the ACA's delegation of authority to the USPSTF to determine mandatory coverage requirements is an unconstitutional delegation of legislative power to a private body whose members were never appointed through constitutionally required procedures. They further contend that being compelled to cover PrEP drugs \u2014 which they associate with conduct they consider sinful (homosexual behavior and intravenous drug use) \u2014 constitutes a substantial burden on their religious exercise in violation of RFRA. Respondents, represented in part by America First Legal Foundation and Mitchell Law PLLC, also challenge standing arguments raised by the government, asserting that the ongoing legal obligation to cover PrEP constitutes a present and concrete injury sufficient to confer standing.",
+      "key_precedents": [
+        "Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020) \u2014 on removal restrictions and structural constitutional limits on agency authority",
+        "Gundy v. United States, 588 U.S. 128 (2019) \u2014 on the nondelegation doctrine and limits of congressional delegation",
+        "Burwell v. Hobby Lobby Stores, Inc., 573 U.S. 682 (2014) \u2014 on RFRA's application to closely held corporations and contraceptive mandates",
+        "Tanzin v. Tanvir, 592 U.S. 43 (2020) \u2014 on RFRA remedies",
+        "Lucia v. SEC, 585 U.S. 237 (2018) \u2014 on the Appointments Clause and who qualifies as an 'Officer of the United States'",
+        "Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010) \u2014 on unconstitutional delegation to private or quasi-private entities",
+        "Weissman v. [relevant circuit decision] \u2014 cited regarding purchaser standing doctrine in the Fifth Circuit context",
+        "NFIB v. Sebelius, 567 U.S. 519 (2012) \u2014 foundational ACA constitutionality ruling",
+        "Employment Division v. Smith, 494 U.S. 872 (1990) \u2014 on the baseline for religious freedom claims prior to RFRA"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Gorsuch's argument that prospective ratification cannot cure the structural routing problem \u2014 because Congress has permanently designed the statute so that binding mandates flow automatically from USPSTF recommendations without intervening discretionary judgment by a Senate-confirmed official \u2014 remains the most formidable challenge to my position, and I want to be honest that it has moved me somewhat. However, I am ultimately persuaded that Seila Law's severability framework provides a constitutionally adequate remedy: the defect there was also structural, yet we severed and cured it prospectively, and Justice Gorsuch's distinction that the CFPB post-Seila operated through properly appointed officials going forward applies equally here once USPSTF members are properly appointed as inferior officers under the HHS Secretary. Justice Thomas's argument that this renders the Appointments Clause a formality proves too much \u2014 Free Enterprise Fund's condemnation of the PCAOB turned on complete insulation from presidential supervision, and the Secretary's ongoing regulatory authority, even if underutilized, provides the meaningful supervision Edmond requires. As Chief Justice, I will assign the majority opinion to Justice Kavanaugh with instructions to write narrowly on the inferior officer classification and prospective cure remedy, explicitly declining to reach the nondelegation question, which I believe is the minimally disruptive resolution that can hold the six-justice majority while leaving Congress the opportunity to address the appointments structure legislatively.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan argues that Congress merely incorporated expert recommendations by reference as a permissible legislative drafting technique, but this characterization cannot survive scrutiny: the USPSTF's recommendations do not merely inform agency discretion \u2014 they automatically and bindingly mandate coverage for tens of millions of Americans without any intervening executive judgment, which is precisely the 'significant authority pursuant to the laws of the United States' that Buckley v. Valeo and Lucia identify as the constitutional trigger for officer status. Justice Roberts' suggestion that we construe the ACA to require meaningful agency review before recommendations acquire binding force is an attractive narrow ground, but it requires us to rewrite the statute rather than interpret it \u2014 the text of Section 2713 contains no such review requirement, and inventing one would be a judicial amendment, not construction. Justice Kavanaugh's severability-and-remand solution is procedurally appealing but constitutionally insufficient: as I explained in my Gundy concurrence and as Free Enterprise Fund confirms, the structural violation here is not merely a curable procedural defect but a fundamental separation-of-powers problem \u2014 Congress cannot permanently delegate binding legislative authority to an improperly constituted body and cure it through ad hoc executive ratification, because that would render the Appointments Clause a mere formality. The government's concession that USPSTF members are officers of the United States, combined with the absence of any meaningful supervision by a Senate-confirmed official over prospective recommendations, compels the conclusion that the Fifth Circuit reached the correct result on the Appointments Clause question.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kavanaugh's severability-and-remand solution remains the most practically compelling counterargument, and I acknowledge its force \u2014 Seila Law does demonstrate that this Court can sever and cure Appointments Clause defects without wholesale invalidation. However, the critical distinction Justice Thomas and I have pressed throughout deliberations is that Seila Law involved a single director whose removal protection could be severed, leaving a properly supervised officer in place, whereas here the structural problem is that Congress has permanently delegated binding regulatory authority to a body that operates outside Article II's appointment requirements, and prospective ratification by the HHS Secretary does not cure the fundamental design defect that Congress built into Section 2713. Justice Barrett's argument that the Secretary retains 'meaningful authority to accept, modify, or reject USPSTF recommendations through the regulatory process' is the most serious challenge to my position, but the statutory text simply does not support this reading \u2014 Section 2713 contains no such review mechanism, and inventing one would be the kind of judicial rewriting that our textualist methodology forbids. The government's concession that USPSTF members are officers, combined with the absence of any textually grounded supervisory mechanism, means the Fifth Circuit reached the correct structural conclusion, and the proper remedy is to require Congress to fix this defect rather than for courts to engineer a workaround that the statute's text does not permit.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas's argument that USPSTF members exercise unreviewable, binding authority analogous to principal officers is the strongest challenge to my position, but I find it ultimately unpersuasive because the statutory scheme does not grant USPSTF members the kind of sovereign, coercive enforcement power that defines principal officer status \u2014 they issue expert recommendations that Congress has incorporated by reference, and the HHS Secretary retains meaningful supervisory authority that distinguishes this arrangement from the fully autonomous PCAOB condemned in Free Enterprise Fund. Justice Gorsuch's point about the government's concession that USPSTF members are officers is significant, but even accepting officer status, the proper remedy is structural cure through ratification or prospective appointment reform \u2014 as Justice Kavanaugh correctly notes \u2014 not wholesale invalidation that would strip preventive care from an estimated 150 million Americans. On the RFRA question, Justice Alito's invocation of Hobby Lobby fails to grapple with the critical distinction that the causal chain between an employer's insurance coverage and an employee's independent decision to seek PrEP is far more attenuated than direct contraceptive coverage, and the government's compelling interest in preventing HIV transmission \u2014 which disproportionately devastates LGBTQ+ communities and low-income populations who have no alternative means of access \u2014 satisfies strict scrutiny. The real-world consequences of affirming the Fifth Circuit cannot be separated from the constitutional analysis: a ruling that treats evidence-based preventive care mandates as structurally infirm would enshrine an employer's religious veto over employees' independent healthcare decisions in a way that fundamentally undermines health equity and the ACA's core purpose.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas and Justice Gorsuch press the most formidable opposing argument \u2014 that the government's concession of officer status, combined with the automatic binding effect of USPSTF recommendations without intervening executive discretion, compels a finding of structural constitutional infirmity that cannot be papered over by prospective ratification. I take this seriously, but I think Justice Gorsuch's own textualist methodology actually cuts against him here: Lucia's 'significant authority' test was developed in the context of adjudicative functions with direct legal consequences on specific parties, and extending it categorically to expert advisory bodies whose recommendations Congress incorporates by reference requires precisely the kind of doctrinal expansion that textualism should resist absent clear precedential warrant. Justice Kavanaugh's Seila Law analogy remains the most persuasive path \u2014 that case demonstrates that this Court can identify an Appointments Clause defect and remedy it through severability and prospective compliance without invalidating the entire statutory scheme, and the distinction between curing a structural defect going forward versus blessing an unconstitutional structure permanently is one that Free Enterprise Fund itself recognized when it preserved the PCAOB's prior actions. The catastrophic disruption to 150 million Americans' preventive care coverage is not merely a policy consideration but a remedial one \u2014 our severability jurisprudence has consistently asked whether Congress would have preferred partial preservation to wholesale invalidation, and the ACA's comprehensive preventive care framework answers that question unambiguously.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kavanaugh's severability-and-remand solution remains the most practically compelling counterargument, and I want to engage with it seriously: Seila Law does demonstrate that this Court can sever and cure Appointments Clause defects without invalidating underlying statutory schemes. But the critical distinction is that in Seila Law, the structural defect was the removal protection for a single Senate-confirmed officer \u2014 once cured, the CFPB operated through properly appointed officials going forward. Here, the problem is categorically different: Congress has permanently structured the statute so that binding coverage mandates flow automatically from USPSTF recommendations without any intervening discretionary act by a Senate-confirmed official, and simply appointing USPSTF members as inferior officers under the Secretary doesn't cure the statutory mechanism that strips the Secretary of meaningful discretion over which recommendations acquire binding force. Justice Barrett's argument that the Secretary retains 'meaningful authority to accept, modify, or reject' recommendations through the regulatory process is the strongest petitioner argument, but it requires reading supervisory authority into a statute that, by its plain text, makes coverage mandatory upon recommendation \u2014 that is Roberts' narrowing construction problem, not a genuine textual reading. The government's concession on officer status, combined with the automatic binding mechanism Congress enacted, means the constitutional defect here is structural in the way Free Enterprise Fund condemned, not merely procedural in the way Seila Law remedied.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Gorsuch's argument that the structural defect here is categorically different from Seila Law because Congress built the automatic binding mechanism into the statute itself \u2014 not merely a removal protection for an already-properly-appointed officer \u2014 remains the most serious challenge to my position, and I want to be honest that it has genuine force. However, I continue to believe that Edmond's functional supervision test is the operative framework, and the HHS Secretary's authority over the regulatory process in which USPSTF recommendations operate \u2014 even if underutilized and not explicitly mandated by the statutory text \u2014 provides the kind of meaningful supervisory relationship that distinguishes this arrangement from the complete insulation condemned in Free Enterprise Fund. Justice Gorsuch is correct that simply appointing USPSTF members as inferior officers doesn't automatically cure the statutory mechanism, but the proper response to that concern is a remand with instructions requiring the Secretary to exercise meaningful review authority as a condition of the prospective appointments compliance \u2014 this is the kind of narrowing construction that avoids both judicial rewriting and wholesale invalidation. My institutionalist preference for the least disruptive constitutionally adequate resolution, combined with the catastrophic real-world consequences Justice Sotomayor and Justice Jackson have documented, continues to counsel in favor of the severability-and-remand path that Chief Justice Roberts and I have converged upon.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Gorsuch's argument that the structural defect here is categorically different from Seila Law because Congress has permanently routed binding authority through an improperly constituted body without any intervening discretionary act by a Senate-confirmed official remains the most formidable challenge to my position. However, I continue to find it unpersuasive for a reason Justice Gorsuch's own textualist methodology should credit: the question of whether the HHS Secretary retains meaningful supervisory authority is not answered by the automatic binding mechanism alone, but by the full statutory and regulatory architecture \u2014 and Edmond's functional supervision test does not require that a principal officer exercise discretion at every step in the causal chain, only that the inferior officer remain subject to meaningful direction and removal. Justice Thomas's argument that prospective ratification renders the Appointments Clause a formality proves too much, because Seila Law itself blessed exactly this kind of structural cure, and the distinction between the PCAOB's complete insulation in Free Enterprise Fund and the Secretary's ongoing relationship with USPSTF is constitutionally meaningful under the functional analysis Edmond requires. The appropriate remedy is to hold USPSTF members are inferior officers subject to appointment by the HHS Secretary as Head of Department under the Excepting Clause, sever the unconstitutional appointment structure, and require prospective compliance \u2014 preserving coverage continuity for 150 million Americans while vindicating the Appointments Clause's structural purpose.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas and Justice Gorsuch make the most formidable opposing arguments, particularly that the government's concession of officer status combined with the automatic, binding nature of USPSTF recommendations compels a finding of constitutional infirmity \u2014 but I remain unpersuaded that this requires wholesale invalidation rather than structural cure. Justice Gorsuch's concern that prospective ratification cannot remedy the structural routing problem is serious, but Seila Law demonstrates that this Court regularly severs and remands to cure Appointments Clause defects while preserving the underlying statutory scheme, and the HHS Secretary's authority to appoint USPSTF members as inferior officers going forward provides a constitutionally adequate path that avoids stripping preventive care from 150 million Americans. Justice Thomas's argument that ad hoc ratification renders the Appointments Clause a formality proves too much \u2014 Seila Law itself blessed exactly this kind of prospective cure, and the structural difference between the PCAOB's total insulation in Free Enterprise Fund and the Secretary's ongoing supervisory relationship with USPSTF is meaningful under Edmond's functional analysis. On RFRA, the attenuated causal chain between employer insurance and an employee's independent decision to seek PrEP, combined with the catastrophic public health consequences that would fall hardest on the low-income and LGBTQ+ communities most vulnerable to HIV \u2014 communities I know intimately from my public defender work \u2014 reinforces that the government has satisfied its compelling interest burden even under Hobby Lobby's demanding framework.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Applying the narrow grounds principle central to my judicial philosophy, I would find for the government on the Appointments Clause question because USPSTF members function more analogously to expert advisors than to officers exercising independent governmental authority \u2014 they do not preside over adversarial proceedings, cannot bind parties in adjudications, and their authority derives from Congress's statutory incorporation of their recommendations rather than from any independent sovereign power, distinguishing them from the ALJs in Lucia v. SEC. On the RFRA question, Hobby Lobby requires a substantial burden on sincere religious exercise, but the causal chain between an employer's insurance coverage and an employee's independent decision to use PrEP is attenuated enough \u2014 as the government's accommodation framework suggests \u2014 that I would find the burden insufficiently substantial, or alternatively that the government's compelling interest in public health and the existing accommodation mechanisms satisfy RFRA's least-restrictive-means test. I am most troubled by the nondelegation concern, as the open-ended prospective delegation to USPSTF does push against the intelligible principle doctrine flagged in Gundy, but I would resolve this narrowly by construing the ACA to require meaningful agency review of USPSTF recommendations before they acquire binding force, rather than invalidating the entire preventive services framework and disrupting coverage for tens of millions of Americans. Institutional legitimacy and the Court's credibility counsel strongly against a sweeping ruling that would unravel a foundational element of the ACA so recently upheld in NFIB v. Sebelius.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The original public meaning of the Appointments Clause, as illuminated by Lucia v. SEC and Free Enterprise Fund v. PCAOB, requires that any individual exercising 'significant authority pursuant to the laws of the United States' must be appointed through constitutionally prescribed procedures \u2014 either by the President with Senate confirmation for principal officers, or by a department head for inferior officers. The government itself has now conceded that USPSTF members are officers of the United States, and the record strongly suggests they function as principal officers given their unreviewable, legally binding authority to mandate coverage affecting tens of millions of Americans without meaningful supervision by a Senate-confirmed official. Congress cannot constitutionally delegate to an unaccountable body \u2014 whether characterized as private citizens or improperly appointed officers \u2014 the power to issue binding legislative-style mandates, as this violates both the Appointments Clause and the nondelegation principles I articulated in my Gundy concurrence. Furthermore, under Hobby Lobby's RFRA framework, compelling closely held religious employers to subsidize coverage they sincerely believe facilitates gravely sinful conduct constitutes a substantial burden that the government has not shown is the least restrictive means of advancing its interests.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The USPSTF members exercise 'significant authority pursuant to the laws of the United States' by issuing recommendations that carry binding legal force on private insurers under ACA Section 2713 \u2014 precisely the kind of authority that Lucia v. SEC and Buckley v. Valeo establish requires proper appointment under the Appointments Clause. The Secretary's post hoc 'ratification' is a constitutionally dubious workaround; as Lucia recognized, even ALJs whose decisions are subject to agency review qualify as Officers, and the USPSTF's authority to effectively mandate coverage for tens of millions of Americans is no less 'significant.' On the RFRA question, Hobby Lobby compels serious scrutiny of mandates that force closely held religious employers to facilitate conduct they sincerely believe to be sinful, and the government bears the burden of demonstrating both a compelling interest and the least restrictive means \u2014 a burden that becomes harder to sustain when exemptions already exist for other entities. While I acknowledge the significant public health consequences emphasized by amici, the structural constitutional violations implicated by the Appointments Clause and the nondelegation concerns raised by Free Enterprise Fund cannot be remedied simply by pointing to beneficial policy outcomes.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The ACA's preventive services mandate represents a constitutional exercise of congressional authority with profound real-world consequences for tens of millions of Americans who depend on no-cost cancer screenings, vaccinations, and HIV prevention through PrEP. On the Appointments Clause and nondelegation questions, the USPSTF operates within a sufficiently intelligible principle established by Congress \u2014 recommending evidence-based preventive care \u2014 and its members function as inferior officers subject to HHS supervision, distinguishing this from the truly private delegation condemned in Free Enterprise Fund. On the RFRA question, while Hobby Lobby recognized complicity-based religious objections, the government here presents a compelling interest in preventing HIV transmission at a population level, and the causal chain between an employer's insurance coverage and an employee's independent decision to use PrEP is far more attenuated than the contraceptive mandate context; moreover, the least restrictive means analysis must account for the devastating public health consequences of carving out religious exemptions from a preventive care regime that disproportionately protects vulnerable LGBTQ+ communities and low-income individuals who cannot afford out-of-pocket costs. Invalidating these mandates would strip preventive care from millions while enshrining an employer's religious veto over employees' independent healthcare decisions, a result fundamentally incompatible with the ACA's core purpose and the practical realities of health equity.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The USPSTF members do not qualify as 'Officers of the United States' under Lucia v. SEC and Free Enterprise Fund because they lack the hallmarks of officer status \u2014 they do not preside over adversarial proceedings, exercise coercive enforcement authority, or make binding adjudicative determinations; rather, Congress has incorporated their expert recommendations by reference into a statutory mandate, which is a permissible legislative drafting technique that does not transform advisory scientists into constitutional officers. On the nondelegation question, Gundy v. United States confirms that Congress retains broad latitude to delegate authority with an intelligible principle, and Section 2713's directive to cover 'evidence-based' preventive services recommended by expert bodies provides sufficient guidance to survive that deferential standard. On the RFRA question, Hobby Lobby requires a substantial burden on sincere religious exercise, but the causal chain between an employer's insurance coverage and an employee's independent decision to use PrEP is too attenuated to constitute the kind of direct moral complicity that RFRA's substantial burden analysis demands \u2014 the government's compelling interest in public health and the workability of the preventive care framework further satisfy strict scrutiny even if some burden exists. Invalidating the USPSTF mandate would strip tens of millions of Americans of no-cost preventive services, an outcome that statutory coherence, congressional purpose, and pragmatic workability all counsel strongly against.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The government has now conceded that USPSTF members are officers of the United States who exercise 'significant authority pursuant to the laws of the United States' under the Buckley v. Valeo standard, which the Fifth Circuit correctly recognized \u2014 this concession is fatal to the government's position on the USPSTF recommendations specifically. Under Lucia v. SEC and Free Enterprise Fund v. PCAOB, officers exercising such authority must be appointed through constitutionally prescribed procedures, and Congress cannot delegate binding legal authority to a body whose members bypass Article II's Appointments Clause requirements entirely. While I am sympathetic to the government's ratification argument regarding ACIP and HRSA \u2014 where a properly appointed Secretary has arguably cured the defect for those specific recommendations \u2014 the USPSTF presents a structural constitutional problem that ratification cannot fully remedy prospectively, as it would allow Congress to permanently route binding regulatory authority through an improperly constituted body subject only to ad hoc executive rubber-stamping. On the RFRA question, Hobby Lobby compels the conclusion that closely held corporations with sincere religious objections cannot be forced to subsidize conduct their owners regard as sinful without the government satisfying strict scrutiny, and the government has not demonstrated it lacks less restrictive means of ensuring PrEP access.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While I find the Appointments Clause question genuinely difficult \u2014 and my own dissent in Free Enterprise Fund recognized that removability at will is the key threshold for identifying inferior officers, which USPSTF members arguably satisfy given HHS Secretary oversight \u2014 I would nonetheless side with the government on the overall outcome because a complete invalidation of the preventive services mandate would be a dramatic institutional overreach with catastrophic practical consequences for tens of millions of Americans. The proper remedy, even if USPSTF members are inferior officers improperly appointed, is a severability and remand solution requiring prospective compliance with Appointments Clause procedures rather than wholesale invalidation, consistent with the Court's preference for narrow, workable remedies as demonstrated in Seila Law. On the RFRA question, Hobby Lobby established that closely held corporations can assert religious liberty claims, but the government's compelling interest in public health and the availability of accommodation mechanisms \u2014 as developed in the contraceptive mandate litigation \u2014 counsel against extending RFRA to block coverage of PrEP, where the causal chain between employer coverage and an employee's independent medical and personal decisions is attenuated. I would remand on the structural constitutional question with instructions to cure the appointments defect prospectively while preserving the mandate's operation, thereby respecting both constitutional structure and the Court's institutional role in avoiding unnecessary disruption to settled reliance interests.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Appointments Clause question is genuinely difficult, but I would hold that USPSTF members are inferior officers \u2014 not principal officers \u2014 whose appointments can be ratified or restructured by the Secretary of HHS as a Head of Department, consistent with Lucia v. SEC and Edmond v. United States. The critical distinction is that USPSTF recommendations, while incorporated by statute, operate within a framework where the Secretary retains supervisory authority, distinguishing this from the fully autonomous PCAOB condemned in Free Enterprise Fund. On the RFRA question, Hobby Lobby compels serious attention to the religious objectors' claims regarding PrEP coverage, but the government's compelling interest in public health and the availability of less restrictive means analysis \u2014 including the accommodation frameworks already developed in the contraceptive mandate context \u2014 likely satisfies RFRA's demanding standard for most services, though I would remand for more granular analysis of specific mandates rather than wholesale invalidation. The nondelegation challenge under Gundy presents the weakest ground for respondents, as Congress provided an intelligible principle by directing coverage of evidence-based preventive services, and wholesale invalidation of Section 2713 would be an extraordinary remedy requiring far clearer constitutional violation than the record here supports.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "On the Appointments Clause and nondelegation questions, the USPSTF members function as inferior officers whose work is supervised and whose recommendations are incorporated into federal law through a structured statutory scheme \u2014 Congress set the intelligible principle (evidence-based preventive care coverage) and the executive branch retains meaningful oversight, distinguishing this from the truly private delegation condemned in Free Enterprise Fund. On the RFRA question, while Hobby Lobby established that complicity-based religious objections can constitute substantial burdens, the causal chain here \u2014 employer provides insurance, employee independently chooses to fill a prescription for PrEP \u2014 is far more attenuated than the direct contraceptive coverage at issue in Hobby Lobby, and critically, the government's compelling interest in preventing HIV transmission through a highly cost-effective intervention satisfies strict scrutiny, particularly given the catastrophic public health consequences that invalidation would impose on tens of millions of Americans who rely on no-cost preventive screenings and vaccinations. My background as a public defender reinforces my concern that gutting the preventive services mandate would fall hardest on low-income and marginalized communities who lack alternative means to access cancer screenings, HIV prevention, and vaccinations. The practical consequences of affirming the Fifth Circuit's ruling \u2014 stripping preventive care from an estimated 150 million Americans \u2014 counsel strongly against an interpretation that treats USPSTF recommendations as constitutionally infirm.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.752,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "24-316",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Affordable Care Act's requirement that employer health plans cover preventive services \u2014 specifically PrEP drugs and other services recommended by the U.S. Preventive Services Task Force (USPSTF) \u2014 is constitutional, and whether such mandates violate the Religious Freedom Restoration Act (RFRA) or constitute an unconstitutional delegation of legislative authority.",
+      "legal_provision": "Affordable Care Act (ACA) Section 2713, 42 U.S.C. \u00a7 300gg-13, which mandates coverage of preventive services recommended by the USPSTF, ACIP, and HRSA; the Religious Freedom Restoration Act (RFRA), 42 U.S.C. \u00a7 2000bb et seq.; and the Appointments Clause and nondelegation doctrine of the U.S. Constitution (Article II).",
+      "petitioner_position": "The federal government (HHS) argues that the ACA's preventive services mandate is a valid exercise of congressional authority, that the USPSTF's recommendations carry the force of law through proper statutory delegation, that the mandate serves compelling governmental interests in public health and reducing healthcare costs, and that any RFRA burden on religious objectors can be addressed through existing exemption frameworks rather than wholesale invalidation of the mandate. Petitioners are supported by a broad coalition of amici including public health organizations, hospital associations, economic scholars, and patient advocacy groups who emphasize the significant public health and economic consequences of striking down the mandate.",
+      "respondent_position": "Braidwood Management and co-respondents argue that the ACA's delegation of authority to the USPSTF \u2014 a private body not subject to Senate confirmation \u2014 to determine mandatory coverage requirements violates the Appointments Clause and the nondelegation doctrine. They further argue that compelling employers with sincere religious objections to cover PrEP drugs (used in HIV prevention) substantially burdens their religious exercise in violation of RFRA, and that the government cannot demonstrate a compelling interest sufficient to override those religious objections, particularly given the availability of less restrictive means. Respondents also contest standing issues raised by the government regarding whether Braidwood has demonstrated sufficient concrete injury.",
+      "key_precedents": [
+        "Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020) \u2014 regarding structural constitutional limits on agency authority",
+        "Gundy v. United States, 588 U.S. 128 (2019) \u2014 nondelegation doctrine analysis",
+        "Burwell v. Hobby Lobby Stores, Inc., 573 U.S. 682 (2014) \u2014 RFRA application to employer contraceptive mandates",
+        "Little Sisters of the Poor Saints Peter and Paul Home v. Pennsylvania, 591 U.S. 657 (2020) \u2014 RFRA and ACA preventive services exemptions",
+        "Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992) \u2014 Article III standing requirements",
+        "Weissman v. [relevant circuit decision] \u2014 purchaser standing doctrine as applied in the Fifth Circuit",
+        "NFIB v. Sebelius, 567 U.S. 519 (2012) \u2014 constitutional limits of the ACA",
+        "Whitman v. American Trucking Associations, 531 U.S. 457 (2001) \u2014 intelligible principle standard for delegation",
+        "Employment Division v. Smith, 494 U.S. 872 (1990) \u2014 free exercise and generally applicable laws"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's invocation of Ryder v. United States against ratification is the most serious challenge to my position, and I want to engage it directly: Ryder held that ratification cannot retroactively cure an Appointments Clause violation in a completed proceeding, but the structural situation here is prospective \u2014 the Secretary's ratification and ongoing supervisory authority operates going forward, not merely to validate past adjudications, which distinguishes Ryder's narrow holding. Justice Gorsuch's concern about the absence of 'meaningful intervening executive discretion' is the strongest version of the respondent's argument, but as Justice Kavanaugh correctly notes, the Secretary retains appointment, removal, and implementation authority that satisfies Edmond's functional test for inferior officer status \u2014 the automatic coverage trigger flows from the ACA's statutory command, not from USPSTF's independent legal authority. As Chief Justice, I would assign a narrow majority opinion holding USPSTF members are inferior officers whose appointment is properly vested in the Secretary under the Appointments Clause, declining to reach the nondelegation question, and remanding RFRA claims for individualized accommodation analysis under Little Sisters \u2014 this preserves institutional legitimacy, avoids destabilizing dozens of expert advisory frameworks as Justice Kavanaugh warns, and resolves the case on the narrowest available grounds consistent with my minimalist philosophy. The 7-2 tally reinforces that this narrow holding commands a workable majority without requiring the Court to reach Justice Thomas's more sweeping structural arguments.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's argument that USPSTF members are inferior rather than principal officers is the strongest challenge to my position, but it ultimately fails because the inferior officer designation does not cure the constitutional defect here \u2014 Congress never properly vested appointment authority in the Secretary through the mechanism required by the Appointments Clause, and the Secretary's post-hoc 'ratification' that Justice Alito and Justice Barrett find persuasive is constitutionally insufficient under Ryder v. United States, which held that ratification cannot retroactively cure an Appointments Clause violation. Justice Kagan's argument that HHS oversight makes USPSTF members inferior officers also misreads the structural reality: when a body's recommendations automatically trigger binding legal obligations on private parties with no meaningful executive discretion to reject them, the label 'advisory' is constitutionally irrelevant under Lucia v. SEC and Freytag v. Commissioner \u2014 the significant authority test looks to actual legal effect, not formal characterization. Justice Barrett's concession that USPSTF members 'do appear to exercise significant authority pursuant to the laws of the United States' actually confirms my analysis, and her reliance on ratification as a cure contradicts the original public meaning of the Appointments Clause, which requires prospective compliance with proper appointment procedures, not retroactive laundering of unconstitutional delegations. The nondelegation concern remains independently fatal: Congress cannot delegate binding rulemaking authority to a body operating outside any intelligible principle that constrains its discretion, and the 'evidence-based preventive care' standard Justice Sotomayor and Justice Jackson invoke is precisely the kind of empty delegation my Gundy concurrence identified as incompatible with Article I's original meaning.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Thomas's invocation of Ryder v. United States against ratification is the most serious challenge to my position, and I acknowledge it has genuine force \u2014 Ryder did hold that ratification cannot retroactively cure an Appointments Clause violation. However, Ryder involved a criminal conviction where the defendant had a direct stake in challenging the officer's authority, and the prospective remedy question here is distinct: the Secretary's ongoing appointment and supervisory authority going forward satisfies Edmond's inferior officer framework without requiring us to rely solely on retroactive ratification. Justice Gorsuch's point about 'automatic binding force' without meaningful executive discretion is the strongest structural argument for the respondents, but I find it overstated given that the coverage mandate flows from the ACA's statutory command rather than from USPSTF's independent legal authority \u2014 the Task Force recommends, Congress mandated coverage, and the Secretary implements, which preserves the chain of executive accountability Edmond requires. On RFRA, I continue to believe the appropriate path is remand for individualized accommodation analysis under Little Sisters rather than categorical invalidation, as the government's compelling interest in HIV prevention is genuine and the least-restrictive-means analysis deserves more careful lower court attention than it received. The 7-2 tally does not move me by itself, but the convergence of Roberts, Kavanaugh, Barrett, and Kagan on the inferior officer analysis under Edmond reflects a sound reading of the structural constitutional requirements that I find persuasive on the merits.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Thomas's originalist argument that USPSTF members exercise 'significant authority pursuant to the laws of the United States' under Buckley v. Valeo is the strongest challenge to my position, but it ultimately fails because the critical question is not whether they exercise significant authority but whether they are principal or inferior officers \u2014 and the Secretary of HHS's appointment and removal authority, combined with meaningful supervisory control, places them firmly in the inferior officer category consistent with Edmond v. United States. Justice Gorsuch's concern that USPSTF recommendations carry 'binding legal force' with 'no meaningful intervening executive discretion' overstates the structural reality: the Secretary retains authority to implement, modify, or decline to enforce recommendations, which is precisely the kind of supervisory check that distinguishes inferior from principal officers. On RFRA, I remain convinced that the government's compelling interest in HIV prevention \u2014 a crisis that has devastated LGBTQ+ communities and communities of color \u2014 combined with the accommodation framework validated in Little Sisters of the Poor, satisfies the least-restrictive-means analysis without requiring wholesale invalidation of coverage that millions depend upon. The real-world consequences of the Fifth Circuit's sweeping remedy \u2014 stripping cost-free preventive care from tens of millions of Americans \u2014 demand that we apply the narrowest constitutional holding available, as Justice Roberts correctly emphasizes.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's most penetrating argument \u2014 that the Secretary's ratification is constitutionally insufficient under Ryder v. United States \u2014 deserves a direct response: Ryder addressed retroactive ratification of a completed proceeding, not prospective structural cure of an ongoing appointment mechanism, and the government's position here is that the Secretary's appointment authority going forward satisfies Edmond's supervisory requirements without relying solely on retroactive blessing of past acts. Justice Gorsuch's concern about 'automatic' binding force remains the strongest version of the respondents' argument, but as Justice Sotomayor correctly identifies, the Secretary retains genuine implementation authority \u2014 the coverage mandate flows from the ACA's statutory command, not from USPSTF's independent legal power, meaning the Task Force's role is functionally advisory even if practically influential. Justice Thomas's nondelegation argument, while intellectually serious and consistent with his Gundy concurrence, cannot command a majority under current doctrine, and the 'evidence-based preventive care' standard provides more intelligible principle guidance than the pre-New Deal delegations that were actually invalidated. The narrowest holding \u2014 USPSTF members are inferior officers whose appointment is properly vested in the Secretary, with RFRA claims remanded for individualized accommodation analysis under Little Sisters \u2014 resolves the legitimate structural concerns without the catastrophic destabilization Justice Kavanaugh rightly warns against.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Justice Kavanaugh's institutionalist argument and Justice Kagan's point that coverage flows from the ACA's statutory command rather than USPSTF's independent legal authority are the strongest challenges to my position, and I acknowledge they have genuine force under Edmond's functional framework. However, I remain unpersuaded that the Secretary's supervisory role is substantive rather than formal \u2014 when a Task Force recommendation automatically triggers a coverage mandate with no statutory mechanism for the Secretary to exercise independent judgment about whether to adopt a particular recommendation, the 'supervision' my colleagues invoke is precisely the kind of nominal oversight that the Appointments Clause was designed to prevent. Justice Thomas correctly identifies that Ryder v. United States forecloses the ratification cure for past violations, though I acknowledge the prospective remedy question is more nuanced than he allows. The 7-2 tally does not change my assessment of the structural argument's merits, and I believe a well-reasoned dissent here \u2014 even if it does not carry the day \u2014 serves the important function of preserving the constitutional principle that binding legal authority over private parties must flow through appointment mechanisms that maintain genuine executive accountability.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch's argument that the absence of 'meaningful executive supervision over binding outputs' represents a structural defect beyond mere labeling is the strongest challenge I face in this round, and I want to engage it directly: the supervision question under Edmond is functional, not formal, but it does not require that a principal officer exercise discretion over every output \u2014 it requires that the officer retain the authority to supervise and remove, which the Secretary demonstrably possesses. Justice Thomas's invocation of Ryder v. United States against ratification is serious, but Ryder addressed retroactive cure of a criminal conviction already obtained through unconstitutionally appointed judges, a context where reliance interests and finality concerns cut sharply against cure \u2014 the prospective structural remedy available here, ensuring the Secretary's ongoing supervisory role is exercised meaningfully, is categorically different. Justice Gorsuch is correct that we cannot simply bless nominal departmental affiliation, which is why I would write narrowly to require that the Secretary's ratification authority be exercised with genuine substantive review rather than rubber-stamp approval, giving the inferior-officer holding real operational content. The institutionalist concern about destabilizing dozens of expert advisory frameworks throughout federal law remains a powerful reason to prefer this narrower holding over the Fifth Circuit's sweeping approach, and nothing in my colleagues' arguments has undermined that structural judgment.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Justice Thomas's invocation of Ryder v. United States against ratification is the most serious challenge to my position in this round, and I take it seriously \u2014 Ryder did hold that ratification cannot retroactively cure an Appointments Clause violation. However, Ryder addressed a situation where an improperly appointed officer had already rendered a judgment that was then challenged; the prospective cure here involves the Secretary formally appointing or re-appointing USPSTF members under proper authority going forward, which is distinguishable from the retroactive laundering Ryder condemned. Justice Gorsuch's point about the absence of 'meaningful executive supervision over binding outputs' remains the strongest structural concern, but I am persuaded that the ACA's coverage mandate flows from the statute itself \u2014 Congress made the policy choice to require coverage of evidence-based preventive services \u2014 and USPSTF members identify which services qualify rather than independently legislating, placing them within the inferior officer framework under Edmond. The appropriate resolution remains a narrow Appointments Clause holding requiring proper appointment mechanisms prospectively, with RFRA claims remanded for individualized accommodation analysis consistent with Little Sisters of the Poor, rather than the Fifth Circuit's wholesale invalidation.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's originalist challenge is the strongest opposing argument, but it proves too much \u2014 under his reading, virtually every expert advisory body embedded in federal regulatory frameworks would face constitutional invalidation, a result that neither the text nor the historical practice of the founding era compels. Justice Gorsuch's point about 'automatic' binding force deserves serious engagement: if USPSTF recommendations truly triggered coverage with zero intervening executive discretion, the Appointments Clause concern would be more acute. But the statutory structure of Section 2713 does involve HHS adoption and implementation, and the Secretary's ratification authority \u2014 as Justice Roberts and Justice Barrett both note \u2014 provides a workable cure for any residual defect without wholesale invalidation. On RFRA, I remain convinced that the HIV prevention interest is categorically stronger than the contraceptive context in Hobby Lobby, and the accommodation framework already validated in Little Sisters of the Poor constitutes a readily available less restrictive means that the Fifth Circuit improperly dismissed \u2014 stripping cost-free PrEP coverage from millions of Americans is a catastrophic practical consequence that demands courts exhaust every available constitutional saving construction before reaching that result.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Applying my characteristic preference for narrow grounds and institutional preservation, I would side with the government on the Appointments Clause question by finding that USPSTF members are inferior officers \u2014 not principal officers \u2014 because they are appointed and removable at will by the Secretary of HHS, who retains supervisory authority over their work, consistent with the framework established in Buckley v. Valeo and refined through Morrison v. Olson. The Fifth Circuit's wholesale invalidation of the preventive services mandate is far too sweeping a remedy even if some constitutional defect existed; severability principles and the availability of a cure through proper appointment ratification counsel strongly against striking down coverage that millions of Americans depend upon, echoing my own instinct in NFIB v. Sebelius to preserve the ACA through the narrowest available constitutional reading. On the RFRA question, Hobby Lobby and Little Sisters of the Poor establish that religious objectors are entitled to accommodation, not to nullification of the entire mandate \u2014 the government's existing exemption framework provides a less restrictive means that satisfies RFRA without invalidating coverage for all employers. My minimalist philosophy compels me to resolve this case on the narrowest grounds possible: cure the appointment defect through the Secretary's ratification authority and remand RFRA claims for individualized accommodation analysis rather than issuing a sweeping ruling that destabilizes the healthcare system.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The original public meaning of the Appointments Clause, Article II, Section 2, Clause 2, plainly requires that officers of the United States exercising significant federal authority be nominated by the President and confirmed by the Senate, or appointed through congressionally authorized inferior officer mechanisms \u2014 the USPSTF satisfies none of these requirements. As the Fifth Circuit correctly recognized, and as the Government itself ultimately conceded, USPSTF members exercise 'significant authority pursuant to the laws of the United States' under Buckley v. Valeo's framework, making them officers subject to Appointments Clause constraints regardless of how Congress labels their outputs as 'recommendations.' The nondelegation concern compounds this structural defect: Congress cannot launder an unconstitutional delegation by routing binding legal obligations through a nominally advisory body insulated from presidential appointment, Senate confirmation, and meaningful intelligible-principle constraints, as Gundy v. United States and my own concurrence therein make clear the original understanding of Article I's vesting clause demands far more rigorous limits on delegated legislative power. On the RFRA question, Hobby Lobby confirms that compelling employers with sincere religious objections to subsidize conduct they find morally objectionable \u2014 here, coverage of PrEP drugs \u2014 constitutes a substantial burden, and the Government has not demonstrated the absence of less restrictive means given the availability of government-funded alternatives.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "While I have serious concerns about the structural constitutional questions raised by respondents, the government's ratification argument by Secretary Becerra provides a workable cure for the Appointments Clause defect as to ACIP and HRSA, consistent with the principle that a properly appointed principal officer can ratify prior actions of subordinates. On the USPSTF question, the nondelegation and Appointments Clause issues are more substantial \u2014 the Task Force does appear to exercise significant authority pursuant to federal law under the Lucia v. SEC framework \u2014 but the appropriate remedy is likely a narrower one targeting the specific constitutional defect rather than wholesale invalidation of the entire preventive services mandate. On RFRA, Hobby Lobby and Little Sisters of the Poor establish that sincere religious objections to facilitating conduct employers find morally objectionable deserve serious weight, but the government's existing exemption frameworks for religious employers may provide sufficient accommodation such that the mandate need not be struck down entirely; I would remand for more careful application of RFRA's compelling interest and least restrictive means analysis rather than ruling categorically for respondents. The standing questions also counsel caution about the breadth of any injunctive relief, as Lujan requires concrete, traceable injury rather than generalized grievances about statutory structure.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The ACA's preventive services mandate represents a valid exercise of congressional authority with a sufficiently intelligible principle \u2014 improving public health through evidence-based preventive care \u2014 that satisfies the nondelegation doctrine as articulated in Whitman v. American Trucking Associations. The USPSTF, while not Senate-confirmed, operates within a congressionally defined framework that provides meaningful constraints on its authority, distinguishing this from a true Appointments Clause violation. On the RFRA question, while Hobby Lobby established that employer mandates can substantially burden religious exercise, the government's compelling interest in preventing HIV transmission \u2014 a public health crisis disproportionately affecting already-marginalized communities \u2014 is precisely the kind of interest that RFRA's least-restrictive-means analysis must weigh seriously, and the existing accommodation framework developed after Little Sisters of the Poor provides a workable less-restrictive alternative that protects religious objectors without gutting coverage for millions who depend on PrEP access. Striking down the mandate wholesale would cause catastrophic real-world harm to vulnerable populations, including LGBTQ+ individuals and communities of color, who rely on cost-free preventive coverage \u2014 an outcome that neither the Constitution nor RFRA compels.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The ACA's preventive services mandate reflects a coherent statutory scheme where Congress provided an intelligible principle \u2014 coverage of evidence-based preventive care \u2014 and designated expert bodies like the USPSTF to operationalize that principle, which satisfies Gundy's nondelegation standard. On the Appointments Clause question, the research reveals the government now concedes USPSTF members are officers, but the threshold question of whether they are principal or inferior officers is dispositive: their recommendations are subject to HHS oversight and the Secretary retains supervisory authority, making them inferior officers whose appointment can be vested in a department head without Senate confirmation, consistent with Seila Law's structural analysis. On RFRA, Hobby Lobby and Little Sisters establish that religious exemptions can be crafted without wholesale invalidation of the mandate \u2014 the government's existing exemption frameworks for sincere religious objectors provide a less restrictive means that preserves the mandate's public health architecture for the vast majority of covered persons. Striking down the entire mandate would be a wildly disproportionate remedy that ignores the severability principles embedded in NFIB v. Sebelius and would cause the concrete, documented public health harms emphasized by the amici coalition.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The USPSTF presents a genuine Appointments Clause problem: when Congress vests an entity with authority whose recommendations automatically carry binding legal force \u2014 triggering mandatory coverage requirements with no meaningful intervening executive discretion \u2014 those exercising that authority are 'Officers of the United States' under Lucia v. SEC and Freytag v. Commissioner, and must be appointed consistent with Article II. The research materials reveal a genuine circuit-level dispute about whether USPSTF members are inferior or principal officers, but even accepting the government's inferior-officer framing, the appointments mechanism must comply with the Vesting Clause \u2014 and the record indicates it does not. My textualist and originalist commitments, reinforced by Seila Law's structural separation-of-powers reasoning, require that Congress cannot launder legislative power through nominally 'expert' recommendations that bind private parties without politically accountable appointment and supervision. On the RFRA question, Hobby Lobby and Little Sisters confirm that substantially burdening sincere religious exercise requires the government to demonstrate a compelling interest pursued through the least restrictive means \u2014 a demanding standard the government has not met with respect to individual employer objectors when less restrictive alternatives exist.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As an institutionalist conservative, I am persuaded that USPSTF members are inferior officers rather than principal officers, given that the Secretary of HHS retains appointment and removal authority and meaningful supervisory control over the Task Force's work \u2014 satisfying the structural requirements established in Edmond v. United States and consistent with how this Court has analyzed similar expert bodies. The Fifth Circuit's holding that these are principal officers requiring Senate confirmation would be a dramatic and destabilizing conclusion that threatens not only the ACA's preventive services mandate but potentially dozens of other expert advisory frameworks embedded throughout federal law, raising serious practical workability concerns that counsel judicial restraint. On the RFRA question, while Hobby Lobby confirms that closely-held corporations can assert sincere religious beliefs, the government's compelling interest in universal HIV prevention through PrEP coverage \u2014 combined with the existing exemption frameworks validated in Little Sisters of the Poor \u2014 provides a workable path to accommodate religious objectors without wholesale invalidation of the mandate. I would reverse the Fifth Circuit on the Appointments Clause question and remand the RFRA claims for individualized analysis under the existing exemption framework rather than categorical invalidation.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "While the Appointments Clause concerns raised by Braidwood are textually serious \u2014 USPSTF members do appear to exercise 'significant authority pursuant to the laws of the United States' under the Lucia v. SEC framework, given that their recommendations automatically trigger binding coverage mandates without further executive discretion \u2014 the Secretary's ratification of prior USPSTF recommendations plausibly cures the constitutional defect as to existing mandates, and the proper remedy is a structural fix (proper appointment or supervision) rather than wholesale invalidation of the preventive services framework. On the RFRA question, Hobby Lobby establishes that a substantial burden on sincere religious exercise requires the government to demonstrate a compelling interest pursued through the least restrictive means, and the government's public health interest in HIV prevention through PrEP coverage is genuinely compelling; moreover, the existing exemption frameworks developed in Little Sisters of the Poor demonstrate that less restrictive accommodations are available for sincere religious objectors without dismantling the mandate entirely. The nondelegation challenge, while intellectually significant given the intelligible principle concerns flagged in Gundy, does not yet command a majority willing to revive a robust nondelegation doctrine, and Section 2713 provides sufficient statutory guidance. I would remand on the Appointments Clause question to ensure proper executive supervision going forward while preserving the mandate's core operation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The ACA's delegation to USPSTF satisfies the intelligible principle standard under Whitman v. American Trucking Associations because Congress provided clear guidance \u2014 recommendations must be evidence-based preventive services \u2014 and the nondelegation doctrine has never been applied to invalidate such expert advisory bodies operating within a defined statutory framework. On the RFRA question, while Hobby Lobby establishes that employer mandates can substantially burden religious exercise, the government's compelling interest in seamless, barrier-free access to HIV prevention is far stronger than the contraceptive context given HIV's status as a public health crisis, and critically, the accommodation framework already developed post-Hobby Lobby for contraceptives provides a readily available less restrictive means that the lower courts failed to adequately credit. The Appointments Clause challenge also fails because USPSTF members function as expert advisors whose recommendations require HHS adoption to carry legal force, meaning they are not 'Officers of the United States' requiring Senate confirmation under the structural framework articulated in Seila Law. From a practical consequences standpoint, invalidating the preventive services mandate would strip tens of millions of Americans of cost-free coverage for life-saving screenings and treatments, a consequence that demands courts apply rigorous scrutiny before accepting structural constitutional arguments that have never before been used to dismantle a public health framework of this magnitude.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.779,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

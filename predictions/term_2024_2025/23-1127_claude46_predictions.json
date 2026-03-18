@@ -1,0 +1,668 @@
+[
+  {
+    "docket": "23-1127",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether reimbursement requests submitted to the federal E-rate program constitute 'claims' under the False Claims Act, thereby subjecting telecommunications providers to FCA liability for alleged fraud in that program.",
+      "legal_provision": "False Claims Act (31 U.S.C. \u00a7 3729 et seq.), specifically the statutory definition of 'claim' under \u00a7 3729(b)(2), which requires that money be demanded or requested from the United States Government or that the Government provide or has provided any portion of the money requested.",
+      "petitioner_position": "Wisconsin Bell argues that E-rate reimbursement requests are NOT 'claims' under the FCA because the E-rate program is administered by a private, non-governmental entity (the Universal Service Administrative Company, or USAC), and the funds disbursed come from private telecommunications carrier contributions rather than from the federal Treasury. Therefore, the FCA's fraud liability framework should not extend to this program. Wisconsin Bell draws support from the Fifth Circuit's holding in United States ex rel. Shupe v. Cisco Systems, Inc., which affirmed dismissal of a similar FCA case involving E-rate fraud on analogous grounds.",
+      "respondent_position": "Todd Heath, as relator, argues that E-rate reimbursement requests DO qualify as 'claims' under the FCA because the federal government exercises substantial oversight and control over the E-rate program through the FCC, the program advances a federal mandate under the Telecommunications Act of 1996, and the government's involvement is sufficient to bring the program within the FCA's scope. Heath contends that the Seventh Circuit correctly rejected Wisconsin Bell's narrow interpretation and that allowing FCA liability is essential to deter fraud in federally directed subsidy programs.",
+      "key_precedents": [
+        "United States ex rel. Shupe v. Cisco Systems, Inc., 759 F.3d 379 (5th Cir. 2014) - Fifth Circuit ruling affirming dismissal of FCA claims related to E-rate fraud, supporting Petitioner's position",
+        "United States ex rel. Heath v. Wisconsin Bell, Inc., 111 F. Supp. (E.D. Wis.) - District court opinion by Judge Adelman denying motion to dismiss and rejecting Wisconsin Bell's argument and Shupe's holding",
+        "Telecommunications Act of 1996 - statutory basis for the E-rate program and universal service fund",
+        "31 U.S.C. \u00a7 3729 - core False Claims Act provision defining liability and the term 'claim'",
+        "Universal Service Administrative Company (USAC) administrative framework - relevant to whether disbursements constitute government funds"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that 'the government did not lose a single penny' and that 'provide' requires supplying from one's own resources remains the most serious challenge to my position, but I continue to find it ultimately unpersuasive for the narrow reason I identified in Round 1: the E-rate program's unique combination of congressional mandate, comprehensive FCC regulatory control, and USAC's purely instrumental role as a federal administrative vehicle with zero independent discretion satisfies the 'Government program or interest' prong of \u00a7 3729(b)(2)(A)(ii). Justice Kavanaugh's argument that the FERA title 'Clarifications To Reflect Original Intent' cuts against expansion is clever, but the original FCA's intent was to prevent fraud against federal programs \u2014 and allowing a private intermediary structure Congress designed for administrative efficiency to become a liability shield is precisely what the 2009 amendments were designed to prevent. I write separately to emphasize that my holding is deliberately narrow: I affirm only because USAC has no independent commercial purpose, no independent discretion, and exists solely to execute a congressionally mandated program \u2014 explicitly reserving judgment on hybrid arrangements with genuine private commercial functions, which should prevent this holding from sweeping in federally regulated private banks or similar entities that Justice Alito correctly identifies as categorically different. As Chief Justice, I would assign the majority opinion with instructions to draft on these narrow grounds, which I believe could attract Justice Kavanaugh if the opinion is sufficiently cabined.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Gorsuch's argument that the 2009 FERA amendments' plain text \u2014 extending liability to claims where money is spent 'to advance a Government program or interest' \u2014 is dispositive deserves serious engagement, but it proves too much: under that reading, virtually any federally regulated private program could trigger FCA liability, which cannot be what Congress intended when it retained the requirement that the government 'provides or has provided any portion of the money.' The word 'provides' in \u00a7 3729(b)(2) carries its ordinary meaning of supplying from one's own resources, and the government's role in mandating that private carriers contribute to a private fund administered by a private entity does not satisfy that textual requirement \u2014 no more than federal banking regulation makes depositors' money 'government funds.' Justice Kagan's agency theory \u2014 that USAC functions as an 'agent of the United States' \u2014 is creative but founders on the statutory text, which requires the government to provide the money, not merely to direct how privately sourced money is spent; USAC's lack of independent discretion speaks to its administrative character, not to the provenance of the funds. The originalist inquiry confirms this: the FCA has historically protected the federal fisc from direct financial loss, and Smyer v. United States establishes that funds merely passing through or regulated by the government do not thereby become public money subject to that protection.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's conjunctive structure argument \u2014 that reading 'provides' to require Treasury passage renders the 'contractor, grantee, or other recipient' extension superfluous \u2014 is the most sophisticated challenge to my position this round, but it conflates two distinct textual questions: whether the government 'provides' funds (the provenance inquiry) and whether those funds are 'used to advance a Government program or interest' (the purpose inquiry). The conjunctive structure does not eliminate the independent force of the 'provides' requirement; it simply means both prongs must be satisfied, and satisfying the purpose prong through USAC's governmental character cannot substitute for satisfying the provenance prong through actual government supply of funds. Justice Gorsuch's Treasury-holding point remains the most factually interesting argument against my position, but as Justice Barrett correctly identifies, temporary custodial holding of delinquent private obligations for enforcement purposes is categorically different from the government supplying money from its own resources \u2014 a court registry holding disputed private funds does not make those funds government-provided, and the same logic applies here. The respondents' reading ultimately collapses the 'provides' requirement into the 'Government program or interest' requirement, leaving no independent textual work for the provenance prong to perform, which is precisely the kind of interpretive move that textualist methodology should resist in a penal statute where ambiguity must be resolved in favor of the defendant.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Barrett's argument that 'provide' requires supplying from one's own resources remains the most serious challenge, but I find it ultimately unpersuasive because it reads the 2009 FERA amendments' conjunctive structure in \u00a7 3729(b)(2)(A)(ii) as if the pre-amendment Treasury-exposure limitation survived intact \u2014 yet Congress's explicit extension to claims made to contractors and agents 'to advance a Government program or interest' would be largely superfluous if direct Treasury disbursement remained the threshold requirement. Justice Thomas's Smyer analogy continues to fail in my view because USAC is categorically unlike a regulated bank: it has no independent commercial existence, no independent discretion, and was constituted entirely by federal statutory mandate \u2014 the E-rate fund cannot exist without the FCC's compulsory contribution authority, making the government constitutively responsible for the fund in a way that satisfies even a demanding reading of 'provides.' Justice Kavanaugh's observation that temporary Treasury holding of delinquent contributions is 'categorically different' from government provision is well-taken as a limiting principle, but it actually reinforces my position that the government's comprehensive constitutive role \u2014 not merely transient custodial holding \u2014 is what distinguishes USAC from a private intermediary. The schoolchildren and underserved communities this program serves would be left without meaningful fraud protection if sophisticated carriers could exploit the private-intermediary structure Congress chose for administrative efficiency, not liability avoidance.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett's argument that 'provide' requires supplying from one's own resources and that the government 'did not lose a single penny' remains the most serious challenge, but I continue to find it legally insufficient for the reason I identified in my prior reasoning: \u00a7 3729(b)(2)(A)(ii)'s conjunctive structure creates an independent pathway that does not require Treasury exposure as a freestanding element, and reading 'provides' to demand direct Treasury disbursement would render the 2009 FERA extension to 'contractor, grantee, or other recipient' largely superfluous since those third parties by definition hold funds that originated elsewhere. Justice Thomas's Smyer analogy is the strongest originalist challenge, but as Justice Sotomayor correctly identifies, Smyer involved funds that merely happened to pass through a government account \u2014 USAC's entire legal existence is constituted by a federal statutory mandate with no independent commercial purpose, which is a categorically different relationship to federal authority than a regulated private bank exercising commercial judgment. Justice Kavanaugh's 'Clarifications' title argument is textually interesting but self-defeating: if Congress was restoring original intent, that original intent reached government-directed programs administered through private intermediaries, which is precisely what USAC represents under 47 C.F.R. \u00a7 54.702's comprehensive FCC control. I would join Chief Justice Roberts' narrow opinion cabined to the E-rate program's unique combination of congressional mandate, comprehensive regulatory control, and USAC's purely instrumental role with zero independent discretion, explicitly reserving judgment on hybrid arrangements with genuine private commercial functions.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's most serious challenge \u2014 that 'provides' in \u00a7 3729(b)(2) carries its ordinary meaning of supplying from one's own resources, and that Smyer establishes funds merely regulated by government don't become public money \u2014 deserves direct engagement. But this reading cannot be reconciled with the 2009 FERA amendments' conjunctive structure: \u00a7 3729(b)(2)(A)(ii) creates an independent pathway requiring only that money be 'used to advance a Government program or interest,' and the legislative title 'Clarifications To Reflect The Original Intent Of the Law' confirms Congress understood the pre-amendment text had been judicially narrowed beyond its intended scope. Justice Barrett's 'government did not lose a single penny' observation is factually accurate but legally insufficient \u2014 it is a policy argument about what the FCA should cover, not what the amended text actually says, and Congress's deliberate choice to extend liability to third-party-administered programs forecloses importing an unstated 'Treasury exposure' limitation. Justice Kavanaugh's argument that 'Clarifications' language suggests restoration rather than expansion actually supports my position: the original FCA's intent, as Congress understood it, reached frauds against government-directed programs, and USAC's complete lack of independent discretion under 47 C.F.R. \u00a7 54.702 \u2014 unlike a regulated bank exercising commercial judgment \u2014 places it squarely within the functional agency relationship the amended statute contemplates.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan's argument that the conjunctive structure of \u00a7 3729(b)(2)(A)(ii) would be rendered superfluous if 'provides' always required direct Treasury disbursement is the most intellectually serious challenge to my position this round, and I have genuinely wrestled with it \u2014 but I ultimately find it unpersuasive because the 'contractor, grantee, or other recipient' extension in the pre-2009 text already contemplated third-party holders of government-disbursed funds, so the 2009 amendments' 'Government program or interest' language adds meaningful content by extending to programs where government direction is comprehensive even without direct Treasury disbursement, without eliminating the independent textual requirement that the government 'provides' some portion of the money. Chief Justice Roberts' minimalist approach \u2014 affirming on the narrow ground of E-rate's unique combination of congressional mandate and zero independent USAC discretion \u2014 is the most attractive version of the respondent's position, and I acknowledge it is carefully crafted to attract my vote, but even his narrowing reservation cannot cure the fundamental problem that 'provides' in ordinary usage means supplying from one's own resources, and mandatory regulatory compulsion of private carrier contributions is not the government supplying funds any more than federal tax mandates make private tax payments government-provided money. Justice Barrett correctly identifies that accepting the agency theory as a substitute for the 'provides' requirement would eliminate any meaningful limiting principle, and as an institutionalist I am wary of a holding that, however narrowly written, establishes a precedent that sophisticated litigants will use to extend FCA liability to any federally mandated private contribution scheme \u2014 the proper remedy for any resulting gap in fraud protection is congressional action, not judicial expansion of a penal statute through creative structural inference.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's conjunctive structure argument \u2014 that reading 'provides' to require Treasury disbursement would render the 'contractor, grantee, or other recipient' extension superfluous \u2014 is the most sophisticated challenge to my position, and I have wrestled with it seriously across three rounds. But I remain unpersuaded because the 'contractor, grantee, or other recipient' language in \u00a7 3729(b)(2)(A)(i) already covers entities that receive government-provided funds and then disburse them to subcontractors; the superfluity concern dissolves once one recognizes that the statute contemplates a chain of government-originated funds passing through multiple hands, not a separate pathway for privately-sourced funds administered for federal purposes. Justice Gorsuch's Treasury-holding point is factually interesting but legally insufficient: temporary custodial holding of delinquent private obligations pending transfer to a private fund is a ministerial enforcement mechanism, not an act of 'providing' funds from government resources, and accepting it as dispositive would mean that any federal enforcement mechanism touching private funds converts them into government-provided money. Chief Justice Roberts' narrowing reservation \u2014 that USAC's zero independent discretion distinguishes it from regulated private entities \u2014 is the most intellectually honest version of the respondent's position, but it cannot cure the fundamental textual problem that 'provides' asks about the provenance of funds, not the administrative character of the recipient, and no amount of FCC control over disbursement changes the fact that the money originated from mandatory private carrier contributions, not the federal fisc.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Barrett's argument that 'provides' requires supplying from one's own resources and that the government 'did not lose a single penny' remains the most serious textual challenge, but I continue to find it insufficient for reasons that have only strengthened through deliberation: the conjunctive structure of \u00a7 3729(b)(2)(A)(ii) creates an independent pathway through the 'Government program or interest' prong, and as Justice Kagan correctly identifies, reading 'provides' to require direct Treasury disbursement would render the 2009 FERA extension to contractors and grantees largely superfluous since those third parties by definition hold funds that originated elsewhere. Justice Thomas's Smyer analogy \u2014 which Justice Alito endorses \u2014 continues to fail in my view because Smyer involved funds that merely passed through a government account incidentally, whereas USAC's entire legal existence is constituted by federal statutory mandate with zero independent commercial purpose, making the government constitutively responsible for the fund in a way that satisfies even a demanding reading of 'provides.' Justice Kavanaugh's temporary-Treasury-holding concession actually reinforces my position: if even he acknowledges that delinquent contributions passing through Treasury give him pause, the broader structural argument that USAC functions as the FCC's purely instrumental administrative arm \u2014 with no independent discretion under 47 C.F.R. \u00a7 54.702 \u2014 provides a far stronger basis for finding the 'provides' prong satisfied than a transient custodial arrangement alone. I write to emphasize, consistent with Chief Justice Roberts' minimalist framing, that this holding should be cabined to entities like USAC that have no independent commercial purpose and exist solely to execute a congressionally mandated program, which provides the limiting principle Justice Barrett correctly demands.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 3729(b)(2)(A)(ii), as amended by the Fraud Enforcement and Recovery Act of 2009, extends FCA liability to claims made to contractors, grantees, or other recipients when money is used 'to advance a Government program or interest' and the Government 'provides or has provided any portion of the money or property requested.' The E-rate program was mandated by Congress through the Telecommunications Act of 1996, is administered under direct FCC regulatory oversight, and USAC functions as an instrumentality executing federal policy \u2014 making this a quintessential case where funds advance a Government program or interest. While I am sympathetic to Wisconsin Bell's argument regarding the private-fund character of USF contributions and the Fifth Circuit's reasoning in Shupe, the 2009 FERA amendments' explicit language about advancing 'a Government program or interest' appears to encompass this arrangement, and I would prefer to resolve this case on the narrowest possible statutory grounds rather than creating a broad categorical rule. My minimalist preference counsels affirming the Seventh Circuit on the specific facts of federal regulatory control here, while leaving open questions about the outer limits of FCA liability in other hybrid public-private funding arrangements.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 31 U.S.C. \u00a7 3729(b)(2) requires that the United States Government provide or have provided the money at issue, and the original public meaning of 'claim' under the FCA has consistently been understood to reach frauds against the federal fisc \u2014 not frauds against private intermediaries administering privately-funded programs. The E-rate fund is capitalized by mandatory contributions from private telecommunications carriers, administered by USAC, a private non-governmental entity, and the government's incidental role in collecting delinquent contributions and holding them temporarily in the Treasury does not convert those private funds into public money, as the long-standing distinction between public money and funds merely held by the government confirms. See Smyer v. United States, 273 U.S. 333 (1927); United States v. Aiello, 912 F.2d 4 (2d Cir. 1990). The 1986 FCA amendments were squarely directed at deterring fraud against the federal fisc, and extending FCA liability to cover alleged fraud against a private administrator where the government loses nothing from the Treasury would stretch the statute well beyond its original meaning and purpose, in conflict with the Fifth Circuit's sound reasoning in United States ex rel. Shupe v. Cisco Systems, Inc., 759 F.3d 379 (5th Cir. 2014).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A textualist reading of 31 U.S.C. \u00a7 3729(b)(2) requires that 'the United States Government provides or has provided any portion of the money or property requested or demanded.' The E-rate fund is capitalized through mandatory contributions from private telecommunications carriers, not from the federal Treasury, and disbursements flow through USAC, a private non-governmental entity \u2014 meaning the Government does not literally 'provide' the money in any straightforward textual sense. Congress's 2009 FERA amendments, while broadening the definition, still require that the Government itself provide or reimburse the funds, and the FCC's regulatory oversight role over USAC does not transform private carrier contributions into government funds any more than federal regulation of a private bank would make depositors' money 'government funds.' The Fifth Circuit's reasoning in Shupe v. Cisco Systems correctly applied this textual limitation, and extending FCA liability to privately-funded, privately-administered programs based solely on federal regulatory oversight would stretch the statute well beyond what its text supports and create unpredictable liability for contractors participating in any federally-regulated program.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The E-rate program was created by federal mandate under the Telecommunications Act of 1996, is comprehensively regulated by the FCC, and serves a distinctly federal policy objective of connecting schools and libraries to the internet \u2014 characteristics that distinguish it from purely private arrangements. While the petitioner correctly notes that USAC is a private entity and funds derive from carrier contributions, the FCA's definition of 'claim' under \u00a7 3729(b)(2)(A)(ii) extends to money the government 'has provided,' and the government's role in mandating, structuring, and overseeing this disbursement mechanism is functionally equivalent to providing those funds for purposes of fraud deterrence. Allowing telecommunications providers to escape FCA liability simply by routing federally mandated subsidies through a private intermediary would create a significant loophole that undermines the FCA's core purpose of protecting the public fisc and deterring fraud in government-directed programs that serve vulnerable populations \u2014 here, schoolchildren and libraries in underserved communities. The Fifth Circuit's reasoning in Shupe adopts an unduly formalistic reading that ignores the practical reality of federal control and would insulate massive fraud from accountability in programs Congress specifically designed to advance federal social policy.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 2009 FERA amendments to \u00a7 3729(b)(2) deliberately broadened the FCA's definition of 'claim' to encompass requests presented to an 'agent of the United States,' and USAC\u2014operating solely pursuant to FCC authority under 47 U.S.C. \u00a7 254 and 47 C.F.R. \u00a7 54.702\u2014functions as precisely such an agent, exercising no independent discretion but disbursing funds strictly as the FCC directs. The statutory text's 'provided or has provided' language, read in light of Congress's evident purpose to close loopholes that allowed fraud in federally directed programs to escape FCA liability, supports treating E-rate disbursements as government funds regardless of whether they momentarily reside in a private account rather than the Treasury. Wisconsin Bell's argument that private carrier contributions strip the funds of their federal character proves too much\u2014it would allow Congress's deliberate choice to route federal mandates through private administrative vehicles to immunize pervasive fraud from the very statute designed to deter it, an outcome inconsistent with the FCA's remedial purpose and the workability concerns I weigh heavily. While the Fifth Circuit's Shupe decision raises legitimate textual concerns about the Treasury-passage argument, the stronger ground here is USAC's agency status under the post-2009 statutory text, which does not require the government to have 'provided' the money at all.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain statutory text of 31 U.S.C. \u00a7 3729(b)(2)(A)(ii) is dispositive: a 'claim' includes requests made to a contractor, grantee, or other recipient 'if the money or property is to be spent or used on the Government's behalf or to advance a Government program or interest' and if the United States 'provides or has provided any portion of the money or property requested or demanded.' The E-rate program was created by federal mandate under the Telecommunications Act of 1996, is administered under FCC regulatory authority, and the funds\u2014though collected from private carriers\u2014are directed, controlled, and disbursed pursuant to federal law to advance an explicit federal program. Congress's 2009 FERA amendments, titled 'Clarifications To The False Claims Act To Reflect The Original Intent Of the Law,' deliberately broadened the definition to reach exactly this kind of government-directed, third-party-administered program, and I must give effect to that plain text rather than importing a narrower reading that would require the money to flow directly from the Treasury. The Fifth Circuit's Shupe holding, while not without force, reads additional requirements into the statute that the text simply does not contain, and the rule of lenity does not apply here because the FCA is a civil fraud statute where the text is sufficiently clear.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 3729(b)(2) requires that the government itself provide or has provided money, and the ordinary meaning of 'provide' means to supply\u2014not to mandate that private parties supply funds through a regulatory framework. The E-rate program's Universal Service Fund is capitalized entirely by private carrier contributions administered through USAC, a private non-governmental entity, meaning the federal Treasury is never exposed to financial loss, which is the hallmark concern animating FCA liability. While I recognize the Seventh Circuit's concern about deterring fraud in federally directed programs, extending FCA liability to purely private funds administered through a private intermediary stretches the statutory text beyond its natural meaning and creates potentially ruinous liability exposure untethered from actual government financial risk. The Fifth Circuit's reasoning in Shupe v. Cisco Systems, though not binding, reflects a more textually grounded and historically consistent interpretation of what constitutes a 'claim' under the FCA, and judicial restraint counsels against expanding liability frameworks beyond what Congress clearly authorized.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Applying textualist and originalist methodology to 31 U.S.C. \u00a7 3729(b)(2), the statutory definition of 'claim' requires that the United States Government either be the direct source of funds demanded or have 'provided or has provided any portion of the money requested.' The E-rate program's funds derive from mandatory contributions by private telecommunications carriers held by USAC, a private non-governmental entity \u2014 not from the federal Treasury. While 'provide' can mean 'make available,' the broader statutory structure of the FCA, which focuses on protecting the public fisc through treble damages and qui tam enforcement, strongly suggests Congress intended the term to reach funds for which the government bears actual financial exposure. The research materials themselves acknowledge that under the Seventh Circuit's reading, 'the government did not lose a single penny' from the alleged fraud, which cuts against extending FCA liability here, and the Fifth Circuit's reasoning in Shupe v. Cisco Systems is more consistent with the FCA's original design as a mechanism to deter fraud against the federal government's own financial interests rather than fraud against privately administered funds subject only to federal regulatory oversight.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "While I find the textual arguments regarding the plain meaning of 'provide' in \u00a7 3729(b)(2) genuinely compelling, the practical consequences of Wisconsin Bell's narrow reading would effectively immunize fraud in federally mandated subsidy programs simply because Congress chose to route funds through a private administrative intermediary \u2014 a result that undermines the FCA's core deterrence function. The E-rate program exists pursuant to a federal statutory mandate in the Telecommunications Act of 1996, is subject to pervasive FCC oversight and regulatory control, and serves an unmistakably federal policy objective; the government's role is not merely supervisory in the abstract but constitutive of the program itself. From a procedural fairness standpoint, allowing sophisticated telecommunications providers to exploit the private-intermediary structure to escape fraud liability would create a deeply inequitable outcome that rewards the very structural complexity Congress and the FCC designed for administrative efficiency, not liability avoidance. I am persuaded that the Seventh Circuit's broader reading better serves the statute's remedial purpose, though I acknowledge the Fifth Circuit's reasoning in Shupe presents a serious textual counterargument that warrants careful engagement.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.747,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4"
+  },
+  {
+    "docket": "23-1127",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether reimbursement requests submitted to the E-rate program constitute 'claims' under the False Claims Act, thereby subjecting telecom providers to FCA liability for alleged fraud in that program.",
+      "legal_provision": "False Claims Act (31 U.S.C. \u00a7 3729 et seq.), specifically the statutory definition of 'claim' under 31 U.S.C. \u00a7 3729(b)(2), which requires that money be spent or used 'on the Government's behalf or to advance a Government program or interest,' and that the Government either provide or reimburse the funds.",
+      "petitioner_position": "Wisconsin Bell argues that E-rate reimbursement requests are NOT 'claims' under the FCA because the E-rate program is administered by a private, non-governmental entity (the Universal Service Administrative Company, or USAC), and the funds disbursed originate from private telecommunications carrier contributions rather than direct government appropriations. Therefore, the FCA's qui tam and penalty provisions should not apply to alleged pricing fraud in the E-rate program. Wisconsin Bell is supported by multiple amici including the U.S. Chamber of Commerce, USTelecom, CTIA, Washington Legal Foundation, and the Center for Constitutional Responsibility, all of whom warn that extending FCA liability to E-rate would expose telecom providers to massive, disproportionate penalties and chill participation in the program.",
+      "respondent_position": "Relator Todd Heath, a telecom auditor, argues that E-rate reimbursement requests DO constitute 'claims' under the FCA because the program advances a clear government interest \u2014 expanding broadband and telecommunications access to schools and libraries \u2014 and because the federal government exercises substantial oversight and control over USAC and the Universal Service Fund. Heath contends that Wisconsin Bell submitted fraudulently inflated pricing to the E-rate program, and that the FCA's broad remedial purpose requires that such fraud be actionable. The Seventh Circuit agreed with Heath, creating a circuit split with the Fifth Circuit's contrary holding in United States ex rel. Shupe v. Cisco Systems, Inc.",
+      "key_precedents": [
+        "United States ex rel. Shupe v. Cisco Systems, Inc., 759 F.3d 379 (5th Cir. 2014) \u2014 Fifth Circuit held E-rate requests are NOT FCA claims, creating the circuit split at issue",
+        "United States ex rel. Heath v. Wisconsin Bell, Inc., 111 F. Supp. (E.D. Wis.) \u2014 District court (Judge Adelman) denied motion to dismiss, rejecting Shupe's holding",
+        "31 U.S.C. \u00a7 3729(b)(2) \u2014 Statutory definition of 'claim' under the FCA as amended by the Fraud Enforcement and Recovery Act (FERA) of 2009",
+        "Universal Service Administrative Company (USAC) administrative framework under 47 U.S.C. \u00a7 254 \u2014 Telecommunications Act of 1996 establishing the E-rate program",
+        "Vermont Agency of Natural Resources v. United States ex rel. Stevens, 529 U.S. 765 (2000) \u2014 Supreme Court precedent on FCA's scope and qui tam standing",
+        "Allison Engine Co. v. United States ex rel. Sanders, 553 U.S. 662 (2008) \u2014 Pre-FERA Supreme Court decision on FCA 'claim' requirements, subsequently addressed by FERA amendments",
+        "Universal Health Services, Inc. v. United States ex rel. Escobar, 579 U.S. 176 (2016) \u2014 Supreme Court precedent on implied false certification theory under the FCA"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's shift toward the Respondent position, grounded in Justice Barrett's textualist analysis, is significant \u2014 if Justice Kagan, who identified the workability concern most precisely, is now persuaded that FERA's 'whether or not the United States has title' language forecloses the Treasury-origin argument, I must take that seriously. My minimalist instinct remains to affirm on the narrowest possible grounds: the E-rate program is not merely a regulated private program but one where Congress mandated the fund's existence under 47 U.S.C. \u00a7 254, the FCC exercises pervasive regulatory control over USAC, and funds have at times been held in Treasury accounts \u2014 these specific indicia of government control distinguish this case from the parade of horribles Justice Thomas and Justice Alito invoke. Justice Thomas's surplusage argument \u2014 that reading 'whether or not the United States has title' to eliminate any government-possession requirement renders the 'provides or has provided' clause superfluous \u2014 is the strongest remaining challenge, but I am persuaded that 'provides' retains independent work by requiring that the government be the architect of the financial structure, not merely a passive regulator, which USAC's statutory origin satisfies. As Chief Justice, I would assign the majority opinion with instructions to write narrowly, tying the holding to E-rate's specific features rather than announcing a broad rule about all federally-mandated programs administered through private intermediaries, which should address Justice Kagan's workability concern and potentially produce a more unified Court.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett's textualist argument that 'provide' in ordinary usage means 'to make available' and that FERA's 'whether or not the United States has title' language forecloses my title-based argument is the most serious challenge I face \u2014 but I maintain that this reading conflates two distinct textual requirements. The 'whether or not the United States has title' clause addresses the timing of title transfer during a transaction, not whether the government ever possessed, appropriated, or disbursed the funds in the first instance; reading it to eliminate any requirement of government financial stake renders the companion 'provides or has provided any portion of the money' clause entirely superfluous, violating the cardinal rule against surplusage. Justice Kagan, despite ultimately leaning toward Respondent, correctly identifies that 'provides' must mean something more than mandating that private parties contribute to a private fund administered by a private corporation \u2014 the government's role here is regulatory compulsion, not financial provision, and the Miscellaneous Receipts Statute confirms that funds held in private accounts by a private entity like USAC are categorically distinct from public money. Under the rule of strict construction applicable to this quasi-penal statute with treble-damages exposure, the genuine textual ambiguity that produced the circuit split with Shupe must resolve in favor of the defendant, and I am not persuaded that the majority's reading, however policy-attractive, is compelled by the statutory text.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's textualist argument that 'provide' in ordinary usage means 'make available' and that the 'whether or not the United States has title' language forecloses my position is the strongest challenge I face, and I have wrestled with it seriously. However, I cannot accept that the 'whether or not the United States has title' clause does the work my colleagues assign it \u2014 that clause addresses the timing of title transfer during a transaction, not whether the government ever possessed, appropriated, or disbursed the funds in the first instance; reading it to eliminate any requirement that the government actually provide money collapses the conjunctive structure of \u00a7 3729(b)(2) and renders the 'provides or has provided any portion of the money' requirement superfluous. Justice Kagan, despite voting with me, identifies the workability concern most precisely: if 'advances a Government program or interest' sweeps in every federally-mandated program administered through private intermediaries, the FCA's treble-damages machinery attaches in contexts Congress never contemplated, and USAC's status as a private corporation that the United States cannot directly bind distinguishes this from Rainwater's direct government disbursements. Under the rule of lenity applicable to this quasi-penal statute \u2014 a principle Justice Thomas and I agree upon \u2014 the genuine circuit split between this case and Shupe reflects textual ambiguity that must resolve in favor of the petitioner rather than expanding liability through interpretive creativity.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.93,
+        "reasoning": "Justice Thomas and Justice Alito make the most serious opposing arguments, contending that the government cannot 'provide' funds it never possessed because USF contributions originate from private carriers rather than congressional appropriations. But this argument founders on the statutory text itself: FERA's 2009 amendments explicitly state that FCA liability attaches 'whether or not the United States has title to the money,' which directly forecloses the argument that private-origin contributions remove E-rate from coverage. Justice Kagan's concern that 'advances a Government program or interest' cannot be read in isolation from the 'provides or has provided' requirement is thoughtful, but the E-rate program satisfies even that narrower reading \u2014 Congress mandated the fund's creation, the FCC exercises pervasive regulatory control over USAC, and the government has at times held these funds in Treasury accounts, meaning the government does 'provide' in any ordinary sense of making the program and its resources available. The structural argument that allowing fraud to escape FCA liability simply because Congress chose a private administrative intermediary would create an easily-exploited loophole is not merely a policy preference \u2014 it reflects the interpretive principle, reaffirmed in Escobar, that the FCA's text must be read to effectuate its broad remedial purpose rather than to reward sophisticated evasion through program architecture.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Justice Thomas's surplusage argument \u2014 that reading 'whether or not the United States has title' to eliminate any government-possession requirement renders 'provides or has provided any portion of the money' superfluous \u2014 is the most serious remaining challenge to my position, and I want to address it directly. But I think it misreads the clause's function: the 'provides or has provided' language still does meaningful work by requiring some affirmative government role in making funds available, as distinct from merely regulating a private transaction; what FERA's title clause eliminates is specifically the argument that private-origin contributions break the chain of government provision. Justice Barrett's point that Congress's characterization of FERA as a 'clarification' strongly suggests the clause addressed source-of-funds arguments \u2014 not merely timing of title transfer \u2014 is textually sound and I find it persuasive. My remaining workability concern is real, but Justice Roberts's minimalist framing \u2014 affirming on the specific indicia of pervasive federal control present in E-rate under 47 U.S.C. \u00a7 254 without announcing a broad rule about all federally-mandated private programs \u2014 gives me the limiting principle I need to hold this position with greater confidence than I had entering deliberations.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Thomas's argument that 'provide' in a financial context requires actual possession and disbursement remains the most serious challenge to my position, and I acknowledge it has genuine textualist force \u2014 but it founders on FERA's explicit 'whether or not the United States has title to the money' language, which Congress added precisely to decouple FCA coverage from Treasury-origin requirements. Justice Kagan's concern about reading 'provides or has provided' conjunctively with 'advances a Government program or interest' is the argument I find most intellectually honest from the petitioner's side, because it respects the statute's structure rather than relying solely on the title argument \u2014 yet even this reading cannot overcome the fact that Congress mandated the USF's existence under 47 U.S.C. \u00a7 254, compelled carrier contributions, and subjected USAC to plenary FCC regulatory authority, which satisfies any ordinary meaning of 'provide' as 'make available.' Justice Alito's rule of lenity argument deserves acknowledgment: treble damages do carry quasi-penal character, and genuine ambiguity should resolve for defendants \u2014 but I do not find the text genuinely ambiguous after FERA's amendments, and applying lenity to override clear statutory text would itself be a methodological error. My textualist methodology requires me to give effect to Congress's deliberate choice to expand FCA coverage beyond direct Treasury disbursements, and I cannot adopt Wisconsin Bell's narrowing construction without substituting my policy preferences for Congress's chosen words.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan's concern about workability remains the most serious challenge to my position \u2014 her argument that the FCA's structural features presuppose a direct federal financial stake has genuine force, and I share her worry about treble damages attaching to every federally-mandated program administered through private intermediaries. However, after reviewing the full conference, I am persuaded that the E-rate program is sufficiently distinct from that parade of horribles: Congress mandated the fund's existence in 47 U.S.C. \u00a7 254, the FCC exercises plenary regulatory authority over USAC, and FERA's explicit 'whether or not the United States has title' language forecloses the title-based argument Justice Thomas advances. Justice Barrett's textualist analysis correctly identifies that Congress knew how to limit coverage to Treasury-sourced funds and deliberately chose not to do so, and Justice Roberts's minimalist framing \u2014 affirming on the narrowest grounds tied to pervasive federal oversight \u2014 provides the institutionally responsible path that avoids sweeping in every regulated private program while still holding fraudsters accountable for exploiting a congressionally-mandated program serving underserved schools and libraries.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's surplusage argument \u2014 that reading 'whether or not the United States has title' to eliminate any government-possession requirement renders 'provides or has provided any portion of the money' superfluous \u2014 is the most sophisticated challenge remaining, and I want to address it directly: the two clauses do independent work. The 'provides or has provided' clause establishes the threshold requirement that the government must have some financial role in the program (distinguishing purely private programs from government-backed ones), while the 'whether or not the United States has title' clause specifies that this financial role need not take the form of Treasury disbursement or title-holding \u2014 Congress mandating and structuring the USF under 47 U.S.C. \u00a7 254 with plenary FCC oversight over USAC satisfies the 'provides' threshold in its ordinary public meaning of 'makes available,' and the title clause then confirms that the private-origin of carrier contributions does not defeat coverage. Justice Kagan's shift to Respondent, despite her initial workability concerns, reinforces my view that Escobar's materiality requirement provides the structural limiting principle that prevents the parade of horribles, and Justice Roberts's minimalist framing \u2014 affirming on the specific indicia of government control present in E-rate without announcing a sweeping rule \u2014 is the institutionally sound approach I would endorse for the majority opinion. Justice Alito's rule of lenity argument deserves acknowledgment, but lenity applies only where genuine ambiguity persists after exhausting all interpretive tools, and FERA's deliberate textual expansion forecloses the ambiguity that would trigger that canon.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kagan's workability concern remains the most intellectually serious challenge to my position \u2014 her argument that 'provides or has provided any portion of the money' must mean something more than establishing a regulatory framework has genuine textual force, and I do not dismiss it lightly. However, after reviewing the full deliberation, I am persuaded that the E-rate program is not merely a regulated private program but one where Congress itself mandated the fund's existence in 47 U.S.C. \u00a7 254, compelled carrier contributions, and subjected USAC to plenary FCC oversight \u2014 this is closer to the government 'making available' funds than mere regulatory supervision, and Justice Barrett's textualist analysis of the ordinary meaning of 'provide' correctly captures this distinction. Justice Thomas's Miscellaneous Receipts Statute argument is creative, but as Justice Gorsuch notes, FERA's explicit 'whether or not the United States has title to the money' language was Congress's direct answer to title-based arguments, and I cannot read a Treasury-origin requirement into text that deliberately omits one. My background as a public defender reinforces my concern that allowing sophisticated actors to exploit the private-intermediary structure of E-rate to evade FCA accountability \u2014 thereby harming the underserved schools and libraries the program exists to serve \u2014 would be precisely the formalistic outcome the FCA's broad remedial purpose was designed to prevent, and Escobar's materiality requirement provides the workability limiting principle Justice Kagan seeks without requiring us to rewrite the statute.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 3729(b)(2), as amended by FERA in 2009, expressly covers claims made to advance a 'Government program or interest' regardless of whether the United States holds title to the funds, and Congress characterized these amendments as clarifying the original intent of the law rather than expanding it. The E-rate program was established by federal statute under 47 U.S.C. \u00a7 254, is subject to substantial FCC oversight, and advances a clear federal interest in expanding telecommunications access to schools and libraries \u2014 making it difficult to conclude that fraudulent reimbursement requests fall categorically outside the FCA's reach. While I am sympathetic to Wisconsin Bell's concerns about extending treble damages liability to a privately-administered fund, the proper remedy for disproportionate penalties lies with Congress, not with this Court narrowing statutory text that does not support such a limitation; the institutional legitimacy of the Court is best served by faithful application of the statutory definition as written. I would affirm the Seventh Circuit on narrow grounds tied to the statutory text and the federal government's demonstrated oversight role over USAC, without broadly resolving every question about privately-administered funds.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Applying the original public meaning of 31 U.S.C. \u00a7 3729(b)(2), the term 'claim' requires that the Government either 'provide' or 'reimburse' the funds at issue, and the plain meaning of 'provide' cannot be stretched to encompass funds that originate from private telecommunications carrier contributions administered by a private non-governmental entity like USAC, merely because those funds briefly pass through the Treasury. The Miscellaneous Receipts Statute, 31 U.S.C. \u00a7 3302, itself confirms that funds deposited in private bank accounts \u2014 as the Universal Service Fund was \u2014 are not 'public money' in the constitutionally and statutorily relevant sense, undermining the Seventh Circuit's reasoning. Furthermore, treating USAC as an 'agent of the United States' for FCA purposes requires an expansive and atextual reading of agency that conflicts with the original meaning of that term, as USAC lacks the capacity to alter the legal rights and duties of the United States. Consistent with the Fifth Circuit's holding in Shupe and the principle that penal statutes like the FCA must be construed strictly according to their text rather than their 'broad remedial purpose,' I would reverse the Seventh Circuit and hold that E-rate reimbursement requests do not constitute 'claims' under the FCA.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A textualist reading of 31 U.S.C. \u00a7 3729(b)(2) requires that the United States Government 'provides or has provided any portion of the money or property requested or demanded,' and the E-rate program's Universal Service Fund is capitalized by mandatory contributions from private telecommunications carriers \u2014 not from congressional appropriations or the federal treasury. While the government exercises regulatory oversight through the FCC and USAC, oversight and control are categorically distinct from 'providing' funds within the ordinary meaning of that term; the government cannot 'provide' money it never possessed. The Fifth Circuit's reasoning in Shupe correctly recognized this structural distinction, and the FERA 2009 amendments, though expanding the definition of 'claim' to include requests presented to government agents, did not eliminate the threshold requirement that government funds actually be at stake. Extending FCA liability \u2014 with its treble damages and per-claim penalties \u2014 to a privately-funded program administered by a private entity like USAC would produce the kind of disproportionate, practically destabilizing consequences that counsel against expansive statutory interpretation, and would effectively conscript the FCA into policing regulatory compliance in programs Congress deliberately structured outside direct federal funding.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.92,
+        "reasoning": "The plain text of 31 U.S.C. \u00a7 3729(b)(2)(A) expressly covers claims 'whether or not the United States has title to the money,' and the 2009 FERA amendments clarified \u2014 not narrowed \u2014 that the FCA reaches funds spent 'to advance a Government program or interest,' language Congress deliberately chose to capture federally-mandated programs administered through private intermediaries like USAC. The E-rate program is unambiguously a federal program: it was created by Congress in the Telecommunications Act of 1996, the FCC exercises substantial regulatory oversight over USAC, and the program advances a clear federal interest in expanding broadband access to schools and libraries serving vulnerable communities. Wisconsin Bell's argument that private administration and carrier-sourced contributions insulate the program from FCA liability would create a dangerous loophole that rewards fraud against programs Congress specifically designed to benefit underserved populations \u2014 precisely the kind of formalistic reasoning that allows bad actors to exploit structural complexity to evade accountability. As Universal Health Services v. Escobar reaffirmed, the FCA's broad remedial purpose demands that courts read its provisions to effectuate Congress's intent to protect federal programs from fraud, not to immunize fraudulent conduct based on the government's chosen administrative architecture.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 3729(b)(2) requires that the government either provide or reimburse the funds at issue, and the E-rate program's structure \u2014 administered by USAC, a private corporation owned by an industry trade group, funded by mandatory carrier contributions rather than congressional appropriations \u2014 does not satisfy this requirement. As the research materials and the Fifth Circuit's Shupe analysis make clear, USAC lacks the power to bind the United States and the federal government lacks day-to-day operational control over USAC, distinguishing this arrangement from the government-controlled corporation in Rainwater v. United States. While I am sympathetic to the FCA's broad remedial purpose and the government's genuine programmatic interest in E-rate, the 2009 FERA amendments' 'advances a Government program or interest' language cannot be read in isolation from the companion requirement that government funds actually be at stake \u2014 otherwise the FCA's structural features, including the government's intervention rights and treble damages, would apply to alleged fraud against private intermediaries where the federal fisc suffers no direct loss, producing workability problems and disproportionate liability that Congress did not intend.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The plain text of 31 U.S.C. \u00a7 3729(b)(2), as amended by FERA 2009, defines 'claim' to include requests for money spent or used 'to advance a Government program or interest,' and the E-rate program is unambiguously a Government program \u2014 established by Congress in 47 U.S.C. \u00a7 254, administered by USAC acting solely pursuant to FCC authority, and funded through carrier contributions that Congress mandated and that have at times flowed through the Treasury itself. Wisconsin Bell's argument that 'provide' must be read narrowly to mean only direct Treasury disbursements is precisely the kind of purposivist narrowing of plain statutory text that a textualist must resist \u2014 the word 'provide' ordinarily encompasses 'make available,' and Congress's choice to use that broader term in FERA's 2009 amendments, rather than limiting coverage to direct appropriations, must be given effect. The FERA amendments also added coverage for requests presented to an 'agent of the United States,' and USAC's purely derivative authority from the FCC places it comfortably within that category. While I have genuine sympathy for the rule-of-lenity and separation-of-powers concerns raised by Wisconsin Bell regarding the FCA's treble-damages regime, those concerns go to the severity of the remedy Congress chose, not to whether the statutory text covers this conduct \u2014 and it is not my role to rewrite a statute whose plain meaning Congress has made sufficiently clear.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The text of 31 U.S.C. \u00a7 3729(b)(2), as amended by FERA in 2009, broadly defines 'claim' to include requests for money 'to advance a Government program or interest,' and Congress expressly stated this was a clarification of original intent rather than an expansion \u2014 meaning the provision should be read to cover programs like E-rate where the federal government exercises substantial oversight through the FCC and USAC advances a congressionally mandated telecommunications policy under 47 U.S.C. \u00a7 254. The statutory text's explicit instruction that FCA liability applies 'whether or not the United States has title to the money' directly undermines Wisconsin Bell's argument that private-origin USF contributions remove E-rate from FCA coverage. While I am mindful of the practical concerns raised by amici regarding disproportionate penalties and program participation, those policy considerations are better addressed through prosecutorial discretion and materiality requirements established in Universal Health Services v. Escobar rather than by categorically excluding a major federal program from fraud accountability. The circuit split with the Fifth Circuit's Shupe decision is real, but the Seventh Circuit's reading more faithfully tracks the post-FERA statutory text and Congress's stated remedial purpose.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "A careful textualist reading of 31 U.S.C. \u00a7 3729(b)(2) as amended by FERA 2009 supports the Seventh Circuit's conclusion. The statute's plain text requires only that money be 'spent or used on the Government's behalf or to advance a Government program or interest' and that the Government 'provides or has provided any portion of the money or property' \u2014 it does not require that funds originate from direct congressional appropriations or flow exclusively through governmental entities. The E-rate program was created by federal statute (47 U.S.C. \u00a7 254), is subject to pervasive FCC oversight and regulatory control, and advances a clearly articulated government interest in expanding telecommunications access to schools and libraries; the fact that USAC is a private intermediary and that contributions come from carriers does not negate the Government's role in 'providing' the program framework and mandating the fund \u2014 consistent with the ordinary meaning of 'provide' as 'make available.' Furthermore, Congress's deliberate expansion of the 'claim' definition in FERA 2009 beyond the pre-existing formulation signals legislative intent to reach fraud in federally-mandated programs administered through private intermediaries, and Wisconsin Bell's contrary reading would create an easily-exploited loophole inconsistent with the statute's text and structure as illuminated by Allison Engine and Escobar.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 2009 FERA amendments to 31 U.S.C. \u00a7 3729(b)(2) expressly expanded the FCA's 'claim' definition to cover funds spent 'to advance a Government program or interest' regardless of whether the United States holds title to the money, and Congress explicitly characterized these amendments as clarifying the original intent of the law rather than creating new liability. The E-rate program was established by federal statute under 47 U.S.C. \u00a7 254, advances a clear federal interest in expanding telecommunications access to schools and libraries, and operates under substantial federal oversight through the FCC's supervision of USAC \u2014 making reimbursement requests squarely within the statutory definition as funds spent to advance a Government program or interest. Wisconsin Bell's argument that USAC's private administrative role and the carrier-contribution funding mechanism remove E-rate from FCA coverage would effectively allow the form of program administration to override the substance of federal interest and control, a result inconsistent with the FCA's broad remedial purpose as recognized in Universal Health Services v. Escobar. From a practical standpoint, permitting fraud in federally-mandated programs to escape FCA liability simply because Congress chose to route funding through a private intermediary would create a significant loophole that undermines the statute's core deterrence function and harms the schools and libraries the program was designed to serve.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.753,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.93,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

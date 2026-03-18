@@ -1,0 +1,625 @@
+[
+  {
+    "docket": "22-6389",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a prior state conviction qualifies as a 'serious drug offense' under the Armed Career Criminal Act depends on the federal controlled-substance schedules in effect at the time of the prior state crime, the time of the federal firearm offense, or the time of federal sentencing.",
+      "legal_provision": "Armed Career Criminal Act of 1984 (ACCA), 18 U.S.C. \u00a7 924(e)(2)(A)(ii), which mandates a 15-year mandatory minimum sentence for defendants convicted of illegal firearm possession who have three or more prior 'violent felonies' or 'serious drug offenses'",
+      "petitioner_position": "Petitioners Brown and Jackson argue that the classification of a prior state conviction as a 'serious drug offense' should be determined by reference to the federal controlled-substance schedules in effect at the time the prior state drug offense was committed, not at the time of the federal firearm offense or sentencing. They contend that applying later-enacted schedules to prior conduct is unjust and inconsistent with statutory interpretation principles, particularly where substances may have since been removed from federal schedules, meaning the prior conduct would no longer constitute a federal drug offense, thus rendering the mandatory 15-year enhancement disproportionate and contrary to ACCA's recidivism-prevention purpose.",
+      "respondent_position": "The United States (Government) argues that the classification of a prior state conviction as a 'serious drug offense' under ACCA should be determined by reference to the federal controlled-substance schedules in effect at the time of the federal firearm offense for which the defendant is being sentenced. The Government contends this approach is consistent with the statutory text of ACCA, aligns with the Supreme Court's precedent in McNeill v. United States, and provides a workable, uniform standard for courts to apply when assessing whether prior state convictions qualify as ACCA predicates.",
+      "key_precedents": [
+        "McNeill v. United States, 563 U.S. 816 (2011) - addressed intervening changes to state sentencing law and how courts should classify prior state convictions under ACCA",
+        "Johnson v. United States, 576 U.S. 591 (2015) - invalidated ACCA's residual clause as unconstitutionally vague, referenced in context of distinguishing ACCA and Guidelines provisions",
+        "United States v. Marrero, 743 F.3d 389 (3d Cir. 2014) - addressed substantial similarity between ACCA and Sentencing Guidelines provisions, abrogated on other grounds by Johnson",
+        "Martinez v. Attorney General, 906 F.3d 281 (3d Cir. 2018) - Third Circuit precedent cited as consistent with the court's ACCA timing analysis",
+        "United States v. Herrick, 545 F.3d 53 (1st Cir. 2008) - addressed application of law across ACCA and Guidelines contexts",
+        "Brown v. United States, 47 F.4th 147 (3d Cir. 2022) - Third Circuit opinion below in Brown's case",
+        "Jackson v. United States, 55 F.4th 846 (11th Cir. 2022) - Eleventh Circuit opinion below in Jackson's case, representing the circuit split",
+        "Jackson v. United States, 36 F.4th 1294 (11th Cir. 2022) - Prior vacated Eleventh Circuit opinion in Jackson's case"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has produced a remarkably coherent convergence on the petitioner's position, and I find the collective reasoning reinforces rather than undermines my own analysis. Justice Alito's strongest remaining argument \u2014 the workability concern about reconstructing historical federal schedules \u2014 has been adequately addressed by Justice Kagan's observation that courts routinely reconstruct historical legal facts, and the alternative of permitting executive-branch rescheduling to expand mandatory minimums retroactively raises far graver separation-of-powers concerns. As Chief Justice, I would assign the majority opinion with an eye toward the narrowest possible holding: that when federal drug scheduling changes post-date the prior offense, the schedule in effect at the time of that prior offense governs the ACCA predicate inquiry, leaving McNeill's core holding about state law changes entirely undisturbed. This narrow temporal-anchor holding, grounded in the text of 'involving' as Justice Thomas and Justice Barrett correctly identify as describing a fixed attribute of the prior offense, combined with the rule of lenity as a backstop, provides the most institutionally sound path forward while resolving the genuine ambiguity in defendants' favor.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's respondent position presents the strongest counterargument \u2014 that McNeill's backward-looking inquiry and ACCA's recidivism rationale support using the time-of-federal-offense as a uniform, workable standard, and that a defendant's dangerousness does not retroactively diminish because Congress later rescheduled a substance. However, this argument conflates two distinct questions: McNeill's instruction to consult 'the law that applied at the time of that conviction' actually cuts against the Government's position, because it anchors the predicate inquiry to historical legal facts rather than to a floating present-tense or future-tense federal classification. From a strict textualist standpoint, the word 'involving' in \u00a7 924(e)(2)(A)(ii) describes a characteristic of the prior offense itself \u2014 a characteristic necessarily fixed at the moment the conduct occurred and the conviction was entered \u2014 and permitting post-hoc executive branch rescheduling decisions to retroactively determine whether a 15-year mandatory minimum applies is inconsistent with the plain statutory text and raises serious separation-of-powers concerns. Justice Gorsuch's observation that Congress used expressly forward-looking language in the federal three-strikes statute but not in ACCA further confirms that the textual silence here should be resolved against the Government's time-of-federal-offense rule, and the rule of lenity provides an additional backstop given the severity of the enhancement at stake.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "After careful reflection on my colleagues' arguments, I find Justice Thomas's textualist point most compelling and ultimately dispositive: the word 'involving' in \u00a7 924(e)(2)(A)(ii) describes a fixed attribute of the prior offense at the moment of commission, and McNeill's backward-looking logic \u2014 which I had invoked in support of the Government \u2014 actually anchors the inquiry to contemporaneous law rather than post-hoc federal scheduling decisions. I had argued that McNeill cuts both ways, but Justice Barrett correctly identifies that McNeill addressed which version of state law governs a prior state conviction's elements, not which federal schedule serves as the comparator when federal law itself has changed post-conduct \u2014 these are genuinely distinct questions, and conflating them was an error in my prior reasoning. The separation-of-powers concern Justice Thomas raises is also not trivial: permitting executive-branch rescheduling decisions to retroactively expand a 15-year mandatory minimum is inconsistent with the principle that criminal enhancements must be clearly authorized by Congress, and the rule of lenity provides the appropriate backstop here. I acknowledge the workability concern I raised remains real, but as Justice Kagan notes, courts routinely reconstruct historical legal facts, and that administrative burden does not justify imposing severe mandatory minimums Congress did not clearly authorize.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito's workability concern \u2014 that courts would face administrative chaos reconstructing historical federal drug schedules \u2014 remains the most serious challenge to the petitioners' position, but as Justice Kagan correctly observes, courts routinely reconstruct historical legal facts, and this concern is manageable compared to the far graver problem of allowing executive-branch rescheduling decisions to retroactively expand mandatory minimums. Justice Barrett's point that McNeill addressed which version of state law governs a prior conviction's elements, not which federal schedule serves as the comparator when federal law itself has changed, is particularly clarifying and distinguishes the Government's reliance on McNeill in a way that is both texturally and doctrinally sound. The convergence of Justice Thomas's textualist reading of 'involving' as describing a fixed attribute of the prior offense, Justice Gorsuch's structural comparison to the federal three-strikes statute's expressly forward-looking language, and the rule of lenity all point firmly toward the petitioners \u2014 and the real-world consequence of imposing a 15-year mandatory minimum on defendants whose prior conduct federal law no longer criminalizes is not merely a policy concern but evidence that the Government's interpretation is untethered from ACCA's recidivism rationale. I remain firmly with the petitioners.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's workability concern remains the most serious challenge to the petitioner's position, but as Justice Barrett correctly identifies, it conflates two distinct questions: McNeill addressed which version of state law governs a prior state conviction's elements, not which federal schedule serves as the comparator when federal law itself has changed post-conduct. The Government's proposed rule creates a troubling asymmetry \u2014 McNeill's backward-looking logic is invoked only when it disadvantages defendants, while post-hoc executive rescheduling decisions are permitted to expand mandatory minimums retroactively in ways defendants could neither anticipate nor conform their behavior to avoid. Justice Gorsuch's structural point about Congress's deliberate use of 'would have been punishable' language in the federal three-strikes statute is particularly compelling under my pragmatic textualist methodology: when Congress knows how to write forward-looking language and chooses not to, that silence is meaningful and should be resolved against the Government's time-of-federal-offense rule. The rule of lenity provides the final backstop \u2014 where a 15-year mandatory minimum turns on genuinely ambiguous statutory text, the tie goes to the defendant, and the separation of powers concern about executive rescheduling decisions driving criminal sentence enhancements is serious enough that I would not require Congress to speak more clearly than it already has.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's workability concern remains the most serious challenge to my position, but I find it ultimately unpersuasive for the reasons Justice Kagan articulates \u2014 courts routinely reconstruct historical legal landscapes, and the administrative burden of consulting historical federal schedules is far less constitutionally troubling than allowing executive-branch rescheduling decisions to retroactively expand a 15-year mandatory minimum. Justice Alito's claim that the Government's reading is 'at least as textually plausible' as petitioners' understates the structural evidence: Congress's deliberate use of 'would have been punishable' language in the federal three-strikes statute, contrasted with ACCA's silence on any forward-looking inquiry, is a meaningful textual signal that the categorical approach should be anchored to the time of the prior offense. Justice Thomas correctly identifies the separation-of-powers dimension \u2014 permitting the executive branch's scheduling decisions under the CSA to determine the scope of a mandatory criminal enhancement is precisely the kind of agency-driven expansion of criminal liability that textualism and the rule of lenity are designed to prevent. The rule of lenity provides the decisive backstop here: where Congress has not clearly authorized a 15-year mandatory minimum based on post-hoc regulatory reclassification, we must resolve that ambiguity in favor of the defendant.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Alito's workability concern \u2014 that requiring sentencing courts to reconstruct federal drug schedules as they existed decades ago creates administrative chaos \u2014 remains the most serious challenge to the petitioner's position, and I want to engage with it directly. But as Justice Kagan correctly observes, courts routinely reconstruct historical legal facts in analogous contexts, including under McNeill itself where courts must determine what state law provided at the time of a prior conviction. The more fundamental problem with Justice Alito's position is the one Justice Barrett articulates with precision: McNeill addressed which version of state law governs a prior state conviction, not which federal schedule serves as the comparator when federal law itself has changed post-conduct \u2014 these are categorically distinct questions, and conflating them does real damage to the statutory analysis. I remain persuaded that the combination of the textual anchor in 'involving,' the structural contrast with the federal three-strikes statute's expressly forward-looking language that Justice Gorsuch identifies, and the rule of lenity as a backstop for a 15-year mandatory minimum compels the petitioner's result, and I would join Chief Justice Roberts in seeking a narrow holding that leaves McNeill's core state-law holding undisturbed.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's workability concern \u2014 that requiring sentencing courts to reconstruct decades-old federal drug schedules creates administrative chaos \u2014 remains the most serious challenge to my position, but as Justice Kagan correctly observes, courts routinely reconstruct historical legal facts, and this burden is far preferable to the alternative of permitting executive-branch rescheduling decisions to retroactively expand a 15-year mandatory minimum. Justice Alito's argument that the prior offense 'had the requisite character when committed' actually reinforces the petitioners' position under McNeill's own logic: if we anchor the inquiry to the moment of the prior conviction, then the relevant federal schedule is the one contemporaneous with that conviction, not one enacted years later. Justice Gorsuch's structural point about Congress's deliberate use of 'would have been punishable' language in the federal three-strikes statute \u2014 language conspicuously absent from ACCA \u2014 is textually decisive for me as an originalist and textualist, because it demonstrates Congress knew how to write a forward-looking inquiry and chose not to do so here. The rule of lenity provides the final backstop: where a severe mandatory minimum turns on genuine statutory ambiguity about temporal reference, that ambiguity must be resolved in the defendant's favor.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's workability concern \u2014 that requiring courts to reconstruct historical federal drug schedules creates administrative chaos \u2014 remains the most serious challenge to our position, but as Justice Kagan correctly observes, courts routinely reconstruct historical legal facts, and this burden is far preferable to the alternative of allowing executive-branch rescheduling decisions to retroactively expand mandatory minimums. Justice Barrett's point that McNeill addressed a fundamentally different question \u2014 which version of state law governs a prior state conviction's elements \u2014 rather than which federal schedule serves as the comparator when federal law itself has changed post-conduct, is particularly clarifying and distinguishes the Government's reliance on McNeill as inapposite. My background as a public defender makes me acutely sensitive to Justice Alito's recidivism rationale, but I cannot accept that ACCA's purpose of targeting genuinely dangerous recidivists is served by imposing a 15-year mandatory minimum on defendants whose prior conduct involved substances Congress has since determined warrant no federal criminal sanction \u2014 the recidivism logic cuts against the Government, not for it. The convergence of textualist, structural, and rule-of-lenity arguments across methodologically diverse colleagues from Justice Thomas to Justice Sotomayor confirms that the petitioners' position is not merely pragmatically appealing but legally compelled.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) asks whether a prior state conviction was for conduct that constituted a 'serious drug offense,' which most naturally directs courts to assess the offense as it existed at the time it was committed \u2014 not at some later point in time when federal schedules may have changed. McNeill v. United States, 563 U.S. 816 (2011), while instructive, addressed only changes in state maximum penalties and did not speak to intervening changes in federal controlled-substance schedules, meaning its reasoning does not compel the Government's preferred time-of-federal-offense rule. Applying my preference for narrow, textually grounded rulings and institutional restraint, I find that using post-hoc federal schedule changes to enhance a sentence for conduct that would no longer qualify as a federal drug offense strains the recidivism rationale underlying ACCA and raises serious fairness concerns that Congress did not clearly authorize. The rule of lenity further counsels in favor of the petitioners where genuine ambiguity remains after exhausting textual and contextual analysis.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) asks whether a defendant has 'three previous convictions' for a 'serious drug offense,' which is inherently a backward-looking inquiry fixed at the time the prior offense was committed and convicted. As McNeill v. United States, 563 U.S. 816 (2011) instructs, '[t]he only way to answer th[e] backward-looking question' of whether a previous conviction qualifies is 'to consult the law that applied at the time of that conviction,' grounding the analysis firmly in the historical facts of the prior offense rather than in subsequently enacted federal schedules. From an originalist and textualist standpoint, the word 'involving' a controlled substance in \u00a7 924(e)(2)(A)(ii) describes an attribute of the prior offense itself \u2014 a characteristic fixed at the moment of that crime \u2014 and applying federal schedules enacted after the fact to recharacterize historical conduct is inconsistent with the plain statutory text and risks imposing severe mandatory minimums based on legal classifications that did not exist when the defendant acted. The parallel subclause in \u00a7 924(e)(2)(A)(i) referencing prior federal CSA convictions further confirms that Congress intended the predicate inquiry to be anchored to historical facts, not to a floating present-tense assessment of federal drug law.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "As a textualist, I begin with the statutory language of 18 U.S.C. \u00a7 924(e)(2)(A)(ii), which defines 'serious drug offense' by reference to offenses 'involving' controlled substances \u2014 and McNeill v. United States, 563 U.S. 816 (2011), establishes the foundational principle that courts must look to the law as it existed at the time of the prior conviction to determine its character as an ACCA predicate, not to subsequently enacted law. The Government's time-of-federal-offense approach is most consistent with McNeill's reasoning and provides a workable, uniform standard that avoids the administrative chaos of requiring courts to reconstruct decades-old federal drug schedules for every prior state conviction. Petitioners' argument that substances removed from federal schedules after their state convictions should escape ACCA enhancement is unpersuasive \u2014 the recidivist purpose of ACCA is to account for demonstrated criminal history, and the dangerousness of the prior offender does not retroactively diminish simply because Congress later rescheduled a substance. Practical consequences also favor the Government's position: allowing defendants to escape mandatory minimums based on post-conviction federal scheduling changes would undermine ACCA's core incapacitation and deterrence objectives and create significant sentencing disparities based on the fortuity of when a substance was rescheduled.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The text of ACCA's 'serious drug offense' definition, 18 U.S.C. \u00a7 924(e)(2)(A)(ii), asks whether the prior state offense involved a substance 'controlled' under federal law, and the most natural temporal anchor for evaluating a prior conviction is the law in effect when that conduct occurred \u2014 consistent with the principle from McNeill v. United States that courts look to the law governing the prior conviction at the time it was imposed. Applying later-enacted federal schedules to prior conduct that has since been federally decriminalized imposes a 15-year mandatory minimum on defendants whose earlier behavior would not qualify as a federal drug offense today, producing a punitive result untethered from ACCA's recidivism-prevention rationale and raising serious fair-notice concerns that Judge Rosenbaum herself acknowledged. From a pragmatic standpoint, subjecting vulnerable defendants to draconian mandatory minimums based on conduct that Congress has since determined warrants no federal criminal sanction is fundamentally unjust and inconsistent with proportionality in sentencing. While McNeill addressed changes in state sentencing law rather than changes in federal scheduling, its core logic \u2014 that the prior conviction should be assessed against the legal landscape contemporaneous with that conviction \u2014 supports the petitioners' time-of-prior-crime approach rather than the government's time-of-federal-offense approach.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) defines 'serious drug offense' by reference to conduct that was an offense 'under State law, involving manufacturing, distributing, or possessing with intent to manufacture or distribute, a controlled substance (as described in section 102 of the Controlled Substances Act)' \u2014 and the most natural reading of this definition anchors the inquiry to what the substance was at the time the prior state offense was committed, not at some later federal reference point. McNeill v. United States, while instructive in directing courts to look backward at the prior state conviction rather than forward, addressed changes in state sentencing law and did not resolve which federal schedule controls when federal law itself has changed; its logic of consulting 'the law that applied when the defendant committed the prior offense' actually cuts in favor of petitioners here. Applying a later-amended federal schedule to conduct that would no longer constitute a federal drug offense creates serious workability and fairness problems \u2014 a defendant's mandatory 15-year enhancement would turn on post-hoc federal scheduling decisions entirely unrelated to the recidivism rationale underlying ACCA, undermining statutory coherence. Where genuine ambiguity remains after textual and structural analysis, the rule of lenity provides an additional basis to resolve the question in petitioners' favor given the severe mandatory minimum at stake.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The plain text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) defines a 'serious drug offense' by reference to conduct that 'involv[es]' a controlled substance, and the most natural reading of that language when applied to a 'previous conviction' is to ask what the law was when that prior offense was committed \u2014 not what schedules happen to be in force at some later, essentially arbitrary moment of federal sentencing. The rule of lenity further counsels that where statutory text is genuinely ambiguous as to which point-in-time controls, that ambiguity must be resolved in favor of the defendant facing a severe 15-year mandatory minimum. McNeill v. United States, 563 U.S. 816 (2011), addressed changes in state sentencing law and held courts look to the law as it existed at the time of the prior conviction, which actually supports petitioners' position rather than the Government's time-of-federal-offense rule; the Government's reading would paradoxically punish defendants more harshly based on federal scheduling decisions made after their prior conduct, untethered to any culpability at that earlier time. Congress's deliberate use of different language in the federal three-strikes statute \u2014 expressly asking whether a prior offense 'would have been punishable' under federal law \u2014 confirms that ACCA's silence on a forward-looking inquiry means no such inquiry was intended, and the separation of powers concern about courts imposing enhanced penalties based on executive-branch rescheduling decisions made after the fact reinforces the textual conclusion.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of ACCA \u00a7 924(e)(2)(A)(ii) incorporates federal controlled-substance schedules by reference, and when a substance is removed from those schedules, it logically follows that a prior state conviction involving only that substance should not trigger the 15-year mandatory minimum. McNeill v. United States, 563 U.S. 816 (2011), addressed the distinct question of which state law governs the elements and maximum punishment of a prior state conviction \u2014 a step-one inquiry \u2014 but does not resolve the step-two question of which federal schedule serves as the comparison benchmark. From a practical workability standpoint, using the time of the prior state offense provides the most coherent and historically grounded anchor, as it avoids the anomaly of a defendant's sentencing exposure fluctuating based on post-offense federal regulatory changes entirely unrelated to his culpability or recidivism risk. Applying later-enacted federal schedules to conduct that predates them raises serious concerns about fair notice and proportionality that counsel in favor of the petitioners' position, consistent with this Court's commitment to textual integrity and the principle that recidivist enhancements should reflect genuine, contemporaneous dangerousness.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) defines 'serious drug offense' by reference to offenses 'involving' substances controlled under federal law, and the most natural textual reading anchors that classification to the law in effect when the prior state offense was committed\u2014the moment that defines the conduct being evaluated. McNeill v. United States, 563 U.S. 816 (2011), while instructive, addressed changes in state sentencing law and its anti-erasure reasoning was expressly limited to 'subsequent changes in state law'; it does not compel applying post-conduct federal schedule amendments to characterize prior state conduct, particularly where the substance at issue has since been removed from federal schedules entirely. Applying current federal schedules to prior conduct raises serious fair notice concerns inconsistent with foundational principles of criminal law\u2014a defendant could not have known at the time of the state offense that it would later be weaponized as an ACCA predicate based on a federal classification that did not exist or has since been abandoned. Methodological consistency with originalist and textualist principles counsels that the relevant legal backdrop for assessing the nature of a prior offense is the law contemporaneous with that offense, not a subsequently enacted federal schedule that Congress has since revised.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The ACCA's text refers to 'previous convictions' for 'serious drug offenses,' which naturally directs courts to evaluate the offense as it existed at the time it was committed \u2014 the moment when the defendant's culpability and the state's punishment were fixed. McNeill v. United States, 563 U.S. 816 (2011), supports this temporal anchoring by requiring courts to consult the maximum sentence 'at the time of his conviction,' and the same logic applies here: if the substance underlying a prior state conviction was federally scheduled at the time of that crime, the offense was genuinely serious then, but if the substance has since been descheduled, applying the enhancement produces a disproportionate mandatory 15-year sentence for conduct that federal law no longer treats as a drug offense at all. As a former public defender, I am acutely aware that mandatory minimums like ACCA's 15-year floor carry devastating consequences, and the rule of lenity counsels that ambiguities in penal statutes should be resolved in favor of the defendant where the statutory text does not clearly mandate otherwise. Applying later-enacted federal schedules retroactively to classify prior conduct also raises serious concerns about fair notice and the ACCA's stated recidivism-prevention purpose, which is undermined when the predicate offense would not qualify as a federal drug crime under the law in effect when the defendant acted.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.79,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-6389",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a prior state conviction qualifies as a 'serious drug offense' under the Armed Career Criminal Act depends on the federal controlled-substance schedules in effect at the time of the prior state crime, the federal firearm offense, or the federal sentencing.",
+      "legal_provision": "Armed Career Criminal Act of 1984 (ACCA), 18 U.S.C. \u00a7 924(e)(2)(A)(ii), which mandates a 15-year minimum sentence for defendants convicted of illegal firearm possession with three or more prior 'violent felonies' or 'serious drug offenses'",
+      "petitioner_position": "Justin Brown (and co-petitioner Eugene Jackson) argue that the classification of a prior state conviction as a 'serious drug offense' should be determined by reference to the federal drug schedules in effect at the time of the prior state drug offense, not at the time of the federal firearm offense or sentencing. Applying later-in-time schedules is unjust because substances may have been rescheduled or removed from federal schedules entirely, meaning defendants could face a 15-year mandatory minimum based on conduct that would no longer be federally criminal.",
+      "respondent_position": "The United States argues that the federal drug schedules in effect at the time of the federal firearm offense or sentencing should govern the 'serious drug offense' classification under ACCA. The government contends this interpretation is consistent with the statutory text, the Supreme Court's holding in McNeill v. United States, and the broader purpose of ACCA to target recidivist offenders who pose a continuing danger to society.",
+      "key_precedents": [
+        "McNeill v. United States, 563 U.S. 816 (2011) - addressed intervening changes to state sentencing law and how prior convictions are classified under ACCA",
+        "Johnson v. United States, 576 U.S. 591 (2015) - invalidated ACCA's residual clause as unconstitutionally vague",
+        "Martinez v. Attorney General, 906 F.3d 281 (3d Cir. 2018) - Third Circuit precedent on timing of ACCA categorical analysis",
+        "United States v. Marrero, 743 F.3d 389 (3d Cir. 2014) - addressed substantial similarity between ACCA and Sentencing Guidelines provisions, abrogated in part by Johnson",
+        "United States v. Herrick, 545 F.3d 53 (1st Cir. 2008) - discussed relationship between ACCA and Guidelines analysis",
+        "Brown v. United States, 47 F.4th 147 (3d Cir. 2022) - Third Circuit opinion below in Brown's case",
+        "Jackson v. United States, 55 F.4th 846 (11th Cir.) - Eleventh Circuit opinion below in Jackson's case, representing the circuit split",
+        "Jackson v. United States, 36 F.4th 1294 (11th Cir.) - Prior vacated Eleventh Circuit opinion in Jackson"
+      ],
+      "legal_complexity": "Complex - The case involves intricate statutory interpretation of ACCA's 'serious drug offense' definition, the dynamic nature of the Controlled Substances Act scheduling process, resolution of a circuit split between the Third and Eleventh Circuits, application of the categorical approach to prior convictions, and significant sentencing consequences including a mandatory 15-year minimum, all requiring careful analysis of temporal statutory references and their interaction with an evolving federal drug scheduling regime."
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The conference has reached remarkable unanimity, with even Justice Alito now joining the petitioner's side after engaging seriously with the textual and structural arguments. As Chief Justice, my minimalist instinct is confirmed: the narrowest holding that resolves the circuit split is that the federal schedules operative at the time of the federal firearm offense govern the step-two categorical comparison \u2014 a rule Justice Kagan, Justice Kavanaugh, and I share, which avoids both the administrative burden of reconstructing historical schedules Justice Alito rightly flagged and the unfairness of imposing a 15-year mandatory minimum based on conduct involving a substance Congress has since determined warrants no federal criminal sanction. I note the internal disagreement among petitioner-side colleagues \u2014 Justice Thomas, Justice Barrett, and Justice Jackson favor anchoring to the time of the prior state conviction, while Justice Kagan, Justice Kavanaugh, and I favor the time of the federal firearm offense \u2014 and as opinion-assigning Chief Justice I would write to the narrower time-of-federal-offense ground, which commands the most votes and leaves the prior-conviction question for another day. This approach honors McNeill's backward-looking logic without extending it beyond its holding, resolves the circuit split on principled textual grounds, and preserves institutional legitimacy by avoiding an unnecessarily broad ruling.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito's respondent position raises the most serious challenge \u2014 that applying historical federal schedules creates administrative chaos and requires sentencing courts to reconstruct past regulatory frameworks. But this practical concern cannot override the textual command of the statute. As I noted in my initial analysis, and as Justice Gorsuch correctly emphasizes, the word 'involv[ed]' in \u00a7 924(e)(2)(A)(ii) is past tense, fixing the offense's character at the moment it was committed \u2014 a completed historical act either involved a controlled substance or it did not, and subsequent administrative rescheduling cannot retroactively alter that fact any more than it could retroactively alter the elements of the offense itself. Justice Alito's reliance on ACCA's recidivist purpose to justify applying current schedules conflates the statute's policy goals with its actual text, a methodological error that textualism exists precisely to correct. Furthermore, the administrative burden Justice Alito identifies is manageable \u2014 courts routinely consult historical legal materials \u2014 and in any event, practical inconvenience to the government cannot justify imposing a 15-year mandatory minimum on conduct involving a substance Congress has since determined does not warrant federal criminal sanction, which the rule of lenity independently forecloses.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I maintain my shift to Petitioner but with greater confidence than before. The internal debate among petitioner-side colleagues \u2014 Justice Kagan and Justice Kavanaugh favoring the time-of-federal-firearm-offense rule versus Justice Thomas and Justice Barrett favoring the time-of-prior-state-conviction rule \u2014 actually reinforces my confidence that the government's time-of-sentencing position is the weakest of the three options, even if I remain uncertain which precise temporal anchor is correct. Justice Roberts's minimalist framing is most persuasive to me: we can resolve the circuit split by holding that the schedules operative at the time of the federal firearm offense control, which addresses my administrative chaos concern (courts consult a single contemporaneous schedule rather than excavating historical ones) while avoiding the unfairness of imposing a 15-year mandatory minimum based on post-offense rescheduling wholly unrelated to the defendant's culpability. The rule of lenity, as Justice Gorsuch emphasizes, provides an independent backstop: any residual ambiguity about which temporal rule governs must resolve in the defendant's favor given the extraordinary severity of the mandatory minimum, and the government has failed to identify a sufficiently clear textual basis for its time-of-sentencing position.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that requiring courts to reconstruct historical federal schedules creates administrative chaos and that ACCA's recidivist purpose is best served by consulting current schedules at sentencing. But this practical concern is overstated: federal drug schedules are public records, and the administrative burden of consulting historical schedules is no greater than the burden McNeill already imposes when courts reconstruct historical state sentencing law. More fundamentally, Justice Thomas and Justice Jackson are correct that the statutory inquiry is inherently backward-looking \u2014 the offense either 'involved' a controlled substance when it was committed or it did not \u2014 and allowing post-offense administrative rescheduling to trigger a 15-year mandatory minimum severs the essential link between punishment and culpability that due process and the rule of lenity demand. I note that while Justice Kagan and Justice Kavanaugh locate the relevant reference point at the time of the federal firearm offense rather than the prior state conviction, this distinction may matter less than the shared core principle that the government cannot use a substance's current scheduling status to enhance a sentence for conduct involving a substance no longer federally controlled \u2014 and any residual ambiguity on the precise temporal anchor must resolve in the defendant's favor given the severity of the mandatory minimum.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The conference has reached a remarkable convergence, and Justice Alito's shift to the petitioner's position \u2014 driven by the fair notice concern that a defendant's mandatory minimum could turn on post-offense administrative rescheduling wholly unrelated to his culpability \u2014 confirms that the textual and structural arguments are decisive. I continue to favor the time-of-federal-firearm-offense rule over Justice Thomas's and Justice Barrett's time-of-prior-state-conviction rule, because McNeill's backward-looking logic addressed step one of the categorical approach (ascertaining state-law attributes), not step two (the federal scheduling comparison), and the administrative burden of reconstructing historical federal schedules for each prior conviction is a genuine workability concern that my preferred rule avoids without sacrificing the core principle. Justice Barrett's counterargument \u2014 that \u00a7 924(e)(2)(A)(ii)'s use of 'involved' as a completed historical inquiry compels using the schedules at the time of the prior conviction \u2014 is textually serious, but it proves too much: the federal schedule is not an element of the prior state offense but rather a federal comparator applied at federal sentencing, and there is no textual directive specifying which historical moment governs that comparator, which is precisely why the rule of lenity resolves any residual ambiguity in the defendant's favor. The 9-0 tally reflects genuine legal convergence rather than mere coalition-building, and I write separately to flag that the opinion should specify the time-of-federal-offense rule as the governing temporal anchor rather than leaving the precise reference point unresolved.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that applying time-of-prior-offense schedules creates administrative chaos requiring courts to reconstruct historical federal schedules \u2014 but this practical concern cannot override the textual and structural analysis. The statute's backward-looking inquiry ('involving... a controlled substance') fixes the offense's character at the moment it occurred, and McNeill's core insight that ACCA asks a historical question about completed convictions applies with equal force here. Justice Kagan's distinction between step one and step two of the categorical approach is thoughtful, but I find it ultimately unpersuasive: the federal schedule is not a separate 'comparison step' divorced from the offense's character \u2014 it is the very definition of what the offense 'involved,' and that definition must be assessed as of the time the conduct occurred. The rule of lenity provides an independent and decisive ground: when a 15-year mandatory minimum turns on which of two plausible temporal reference points governs, any genuine ambiguity must be resolved in the defendant's favor, and Justice Alito's practical-consequences argument, however pragmatically appealing, is not a sufficient textual basis to override that canon.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The deliberation has crystallized an important internal division among petitioner-side colleagues that I should address directly: Justice Barrett and Justice Thomas favor anchoring the inquiry at the time of the prior state conviction, while Justice Kagan, Justice Roberts, and I favor the time of the federal firearm offense. Justice Barrett's argument that \u00a7 924(e)(2)(A)(ii)'s past-tense 'involved' language most naturally points to the prior conviction's historical moment has genuine textual force, but I remain persuaded by Justice Kagan's structural point that McNeill's step-one logic \u2014 reconstructing state-law attributes of the prior conviction \u2014 is analytically distinct from step two's federal scheduling question, which is better anchored to a fixed federal reference point. The time-of-federal-offense rule avoids the administrative burden of excavating historical federal schedules for each prior conviction while still honoring the backward-looking principle that post-offense rescheduling cannot retroactively transform conduct into an ACCA predicate. Justice Alito's shift to petitioner, grounded in the fair notice and rule-of-lenity concerns that cut across methodological lines, confirms that the government's position is untenable regardless of which precise temporal anchor we ultimately adopt.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's shift to the petitioner's position, combined with his residual concern about which precise temporal anchor governs, crystallizes the key internal disagreement among petitioner-side colleagues: whether the relevant schedules are those at the time of the prior state conviction (my view and Justice Thomas's) or those at the time of the federal firearm offense (Justice Kagan's and Justice Kavanaugh's preferred formulation). I find Justice Kagan's step-one/step-two distinction from McNeill thoughtful but ultimately unpersuasive \u2014 McNeill's core logic is that ACCA asks a historical question about a completed offense, and the federal scheduling criterion is not a separate forward-looking comparison but rather the definition of what the prior offense 'involved,' which must be assessed at the time the conduct occurred. That said, I acknowledge the practical force of Justice Roberts's minimalist instinct: a narrower holding anchored to the time of the federal firearm offense would resolve the circuit split, avoid the harshest administrative burden concerns, and command broader agreement \u2014 and I would not write separately to insist on the time-of-prior-conviction rule if the majority coalesces around the time-of-federal-offense rule, since both positions share the decisive principle that post-offense administrative rescheduling cannot retroactively trigger a 15-year mandatory minimum, and the rule of lenity resolves any residual ambiguity in the defendant's favor.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that using schedules at the time of the prior state offense creates administrative chaos requiring courts to reconstruct historical federal schedules \u2014 but this practical concern does not override the fundamental textual and constitutional problems with his position. The backward-looking nature of ACCA's predicate inquiry, as Justice Thomas correctly emphasizes drawing on McNeill's own language about 'the law that applied at the time of that conviction,' anchors the analysis at the moment the defendant's culpability was actually established. Justice Kagan's refinement \u2014 that the schedules operative at the time of the federal firearm offense (rather than the prior state conviction) should govern \u2014 is textually coherent and addresses Justice Alito's administrative workability concern, since courts would consult a single contemporaneous federal schedule rather than excavating historical ones. My background as a public defender reinforces my conviction that imposing a 15-year mandatory minimum based on a substance Congress has since determined does not warrant federal criminal sanction is fundamentally incompatible with the principle that punishment must be proportionate to actual culpability, and any residual ambiguity must be resolved in the defendant's favor under the rule of lenity.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The statutory text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) incorporates federal controlled-substance schedules by reference, and when Congress drafts a statute with dynamic federal law references, courts applying that statute in federal proceedings should consult the schedules as they exist at the time of the federal firearm offense \u2014 not at some earlier moment irrelevant to the federal proceeding. McNeill v. United States, 563 U.S. 816 (2011), is distinguishable on its own terms: McNeill addressed step one of the categorical analysis \u2014 ascertaining the state-law attributes of a prior conviction, including the maximum punishment actually applicable when the defendant was sentenced by the state court \u2014 whereas this case concerns step two, the federal criteria against which those state-law attributes are measured, a question McNeill's reasoning does not resolve. Applying the narrow grounds principle of judicial minimalism, I would hold only that the relevant federal schedules are those in effect at the time of the federal firearm offense, which avoids both the unfairness of punishing conduct no longer federally criminal and the institutional legitimacy concerns that arise when mandatory minimums are imposed on the basis of outdated federal classifications. This narrow ruling preserves ACCA's recidivist purpose while respecting the principle that federal courts apply current federal law in federal proceedings.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) asks whether a defendant was previously convicted of 'an offense under State law, involving... a controlled substance' \u2014 this is an inherently backward-looking inquiry about a completed historical event, and as this Court held in McNeill v. United States, 563 U.S. 816 (2011), '[t]he only way to answer this backward-looking question' about whether a previous conviction qualifies under ACCA 'is to consult the law that applied at the time of that conviction.' Applying the drug schedules in effect at the time of the prior state offense is the only interpretation consistent with the original public meaning of the statutory text, because the offense either 'involved' a controlled substance at the moment it was committed or it did not \u2014 subsequent rescheduling cannot retroactively alter the character of a completed act. Furthermore, applying later-in-time federal schedules to classify prior conduct raises serious constitutional concerns about fair notice and the rule of lenity, which as a matter of textualist principle requires that ambiguities in criminal statutes be resolved in favor of the defendant. The government's position would create the anomalous result that a defendant's mandatory minimum sentence could turn on administrative scheduling decisions made years after the predicate offense, untethered from any congressional directive specifying that temporal reference point.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As a textualist, I find that ACCA's definition of 'serious drug offense' under 18 U.S.C. \u00a7 924(e)(2)(A)(ii) incorporates the Controlled Substances Act's scheduling framework by reference, and the statute's focus on punishing recidivist offenders who currently pose a danger to society supports using the schedules in effect at the time of the federal firearm offense or sentencing. McNeill v. United States, 563 U.S. 816 (2011), while not directly on point, established the principle that courts must look to the law governing the prior conviction to assess its qualifying attributes, and the government's position that the federal schedules operative at sentencing govern the federal-law comparison step is consistent with ACCA's structure as a present-tense recidivist enhancement. The petitioners' approach\u2014freezing the federal drug schedules at the time of the prior state offense\u2014would create administrative chaos and perverse outcomes, as it would require sentencing courts to reconstruct historical federal schedules for each prior conviction, a consequence Congress could not have intended. Practical consequences matter here: ACCA's purpose is to identify dangerous recidivists at the time of federal sentencing, and the schedules in effect at that moment best reflect Congress's current judgment about which substances warrant federal criminal concern.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The ACCA's 'serious drug offense' definition under 18 U.S.C. \u00a7 924(e)(2)(A)(ii) should be evaluated against federal drug schedules in effect at the time of the prior state conviction, not at the time of federal sentencing, because imposing a 15-year mandatory minimum based on conduct that no longer constitutes a federal drug offense is fundamentally unjust and inconsistent with ACCA's punitive rationale. McNeill v. United States, 563 U.S. 816 (2011), while instructive, addressed changes in state sentencing law and does not compel the government's position here \u2014 as the research materials make clear, McNeill's logic actually cuts the other way, since the federal scheduling classification is irrelevant to the state proceeding and only becomes relevant at federal sentencing, making the time-of-prior-conviction the most coherent reference point for what the defendant actually did. Applying post-conviction rescheduling changes to enhance a sentence to 15 years for conduct involving a substance no longer federally controlled raises serious concerns about fairness, notice, and the rule of lenity, which must resolve any remaining ambiguity in favor of the defendant. The practical impact on vulnerable defendants \u2014 many of whom are low-income individuals of color caught in the criminal justice system \u2014 of a mandatory 15-year sentence based on an anachronistic classification demands that we adopt the interpretation most protective of individual liberty.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) incorporates federal controlled-substance schedules by reference, and when a substance is removed from those schedules, the statutory predicate for ACCA enhancement evaporates \u2014 a straightforward textual reading that serves the statute's coherence. McNeill v. United States, 563 U.S. 816 (2011), addressed a categorically distinct question: how to ascertain the elements and maximum punishment of a prior state offense by consulting state law at the time of that conviction. McNeill's logic governs step one of the categorical approach (what did the prior conviction cover under state law), but this case presents step two (whether those state-law elements match the federal criteria), and nothing in McNeill's reasoning compels courts to freeze the federal schedules at any particular past moment rather than apply the schedules operative when the federal firearm offense was committed. Applying the time-of-federal-offense rule is the most workable and textually grounded solution: it avoids the administrative chaos of reconstructing historical federal schedules for each prior conviction, respects the principle that recidivist enhancements attach to conduct that remains federally cognizable at the time of the triggering offense, and any residual ambiguity should be resolved in favor of the defendant under the rule of lenity given the severe 15-year mandatory minimum at stake.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(1) asks whether a defendant has 'three previous convictions' for a 'serious drug offense,' and as McNeill v. United States, 563 U.S. 816 (2011) recognized, this is an inherently 'backward-looking question' that requires consulting 'the law that applied at the time of that conviction.' The definition in \u00a7 924(e)(2)(A)(ii) asks whether the prior offense 'involv[ed]' a controlled substance \u2014 past tense, fixing the offense's attributes at the time it occurred \u2014 and applying later-in-time federal schedules to reclassify historical conduct would be inconsistent with this textual anchor. Imposing a 15-year mandatory minimum based on a substance that has since been removed from federal schedules raises serious rule of lenity concerns, as any genuine ambiguity in a criminal statute of this severity must be resolved in favor of the defendant. The parallel structure of \u00a7 924(e)(2)(A)(i), which references prior federal CSA convictions as historical facts, further confirms that Congress intended the drug scheduling inquiry to be fixed at the time of the predicate offense, not subject to revision by subsequent regulatory action.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The statutory text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) incorporates the Controlled Substances Act's schedules by reference, and when a substance is removed from those schedules, it is effectively removed from ACCA's coverage \u2014 meaning the schedules operative at the time of the federal firearm offense govern whether a prior state conviction qualifies as a predicate. McNeill v. United States, 563 U.S. 816 (2011), addressed a distinct question \u2014 how to ascertain the state-law maximum penalty for a prior conviction \u2014 and its reasoning about consulting law 'at the time of conviction' applies to step one of the categorical analysis (identifying the prior offense's elements and punishment), not step two (comparing those attributes against federal criteria). Applying later-in-time federal schedules that no longer list a substance would impose a 15-year mandatory minimum on conduct that Congress has since determined does not warrant federal criminal sanction, raising serious concerns about practical workability and the principle that recidivist enhancements should reflect a defendant's continuing dangerousness under current federal law. My institutionalist instincts counsel caution about sweeping consequences for recidivist sentencing statutes throughout the U.S. Code, but the textual logic here \u2014 that ACCA's dynamic incorporation of CSA schedules means the schedules at the time of the federal offense control \u2014 is sufficiently grounded to resolve this circuit split in petitioners' favor.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) defines 'serious drug offense' by reference to offenses 'involving' controlled substances, and a rigorous textualist reading requires identifying which schedule governs that classification. McNeill v. United States, 563 U.S. 816 (2011), addressed only changes in state sentencing law\u2014specifically the maximum punishment applicable at the time of the prior state conviction\u2014and its logic does not straightforwardly extend to the distinct question of which version of federal drug schedules applies when the federal classification is entirely irrelevant to the original state proceeding. Applying federal drug schedules in effect at the time of the prior state offense best honors the original public meaning of the statutory text, which looks backward to characterize what the defendant actually did, not to a moving federal regulatory target that could expand ACCA's reach based on post-offense administrative rescheduling decisions wholly unrelated to the defendant's culpability. To the extent genuine ambiguity remains after exhausting textual and structural analysis, the rule of lenity counsels in favor of the petitioners given the severe mandatory minimum consequence of 15 years.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 18 U.S.C. \u00a7 924(e)(2)(A)(ii) requires that a prior state offense involve conduct that would be punishable under the Controlled Substances Act, and the most natural reading of this provision\u2014consistent with fair notice and due process principles\u2014is that the relevant schedules are those in effect at the time of the prior state conviction, when the defendant's culpability was actually established. McNeill v. United States, 563 U.S. 816 (2011), while instructive, addressed changes in state sentencing law and does not compel the conclusion that later federal rescheduling decisions\u2014made entirely outside the context of the defendant's prior conduct\u2014can retroactively transform that conduct into a 'serious drug offense' triggering a 15-year mandatory minimum. My background as a public defender makes me acutely aware of the severe practical consequences of ACCA enhancements, and imposing a mandatory 15-year sentence based on a substance that has since been removed from federal schedules raises profound fairness concerns inconsistent with the principle that criminal punishment should reflect actual culpability at the time of the offense. To the extent genuine ambiguity remains after textual and structural analysis, the rule of lenity requires resolution in the petitioners' favor given the extraordinary sentencing consequences at stake.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.816,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

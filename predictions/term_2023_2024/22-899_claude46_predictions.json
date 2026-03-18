@@ -1,0 +1,621 @@
+[
+  {
+    "docket": "22-899",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Sixth Amendment's Confrontation Clause is satisfied when an expert witness provides opinion testimony based in part on laboratory test data produced by a non-testifying analyst who did not appear at trial.",
+      "legal_provision": "The Confrontation Clause of the Sixth Amendment to the United States Constitution, which guarantees a criminal defendant the right to confront witnesses against them, as applied to forensic expert testimony in criminal proceedings.",
+      "petitioner_position": "Jason Smith argues that the Confrontation Clause is violated when the prosecution presents testimonial statements of a non-testifying laboratory analyst through a surrogate expert witness who relies on that non-testifying analyst's data or conclusions to form their own opinions, effectively denying the defendant the right to cross-examine the actual analyst who performed the underlying forensic work. Petitioner contends this rule is already successfully administered in multiple jurisdictions without undue burden on the criminal justice system.",
+      "respondent_position": "The State of Arizona, supported by the United States as amicus curiae supporting neither party, implicitly argues that expert witnesses may properly rely on data and laboratory results produced by non-testifying analysts as a basis for their own independent expert opinions without triggering Confrontation Clause violations, consistent with standard expert testimony rules and the practical needs of forensic prosecution.",
+      "key_precedents": [
+        "Williams v. Illinois, 132 S. Ct. 221 (2012) - Supreme Court case addressing Confrontation Clause and forensic expert testimony",
+        "State v. Pesqueira, 234 Ariz. 470 (Ariz. Ct. App. 2014) - Arizona Court of Appeals case on confrontation rights and expert testimony",
+        "State v. Rogavich, 188 Ariz. 38 (1997) - Arizona Supreme Court case foundational to the confrontation issue in forensic contexts",
+        "Pe\u00f1a-Rodriguez v. Colorado, 580 U.S. 206 (2017) - Supreme Court case referenced for its methodology of surveying practicalities of proposed legal rules across jurisdictions",
+        "Crawford v. Washington (implied foundational precedent for Confrontation Clause testimonial statement analysis)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's practical-consequences argument remains the most serious challenge to the petitioner's position, but the convergence of my colleagues across methodological lines \u2014 originalist (Thomas, Barrett, Gorsuch), pragmatic textualist (Kagan, Sotomayor), and institutionalist (Kavanaugh, Jackson) \u2014 reinforces my confidence that the narrow functional rule I have identified is both constitutionally sound and institutionally workable. Justice Kagan's formulation, which mirrors my own, provides the clearest path to a majority opinion: the Confrontation Clause is violated when a surrogate expert does nothing more than transmit the conclusions of a non-testifying analyst whose report was prepared for prosecutorial use, without independently analyzing the underlying raw data. This rule does not require every analyst in a forensic chain to testify \u2014 it targets only the specific conduit problem \u2014 and therefore answers Justice Alito's operational-paralysis concern directly without sacrificing the constitutional guarantee. As Chief Justice, I would assign the majority opinion on these narrow grounds, leaving undisturbed cases where an expert genuinely exercises independent judgment while merely referencing underlying materials in the ordinary course of professional reliance.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that the Williams plurality's 'not-for-the-truth' rationale preserves meaningful cross-examination of the testifying expert while avoiding operational paralysis in forensic prosecutions. But this argument fails under my originalist methodology for the same reason I concurred separately in Williams: the 'not-for-the-truth' label is a legal fiction that cannot be reconciled with the original public meaning of the Confrontation Clause. When Elizabeth Rast's laboratory findings are the functional evidentiary foundation establishing the chemical composition of the alleged controlled substance \u2014 an element of the offense \u2014 the jury is necessarily receiving those findings for their truth regardless of the procedural label attached, and the defendant has been denied the right to cross-examine the actual witness against him. Justice Gorsuch correctly identifies that the Williams plurality's reasoning was irreconcilable with Melendez-Diaz and Bullcoming, and I would add that the Framers' specific concern with ex parte examinations and inquisitorial evidence-gathering \u2014 the very practices Crawford identified as the historical evil the Clause was designed to prevent \u2014 is directly implicated when a surrogate expert conveys the conclusions of an absent analyst who prepared her report at the State's request for prosecutorial use. The practical burden argument Justice Alito raises cannot override a clear constitutional guarantee, particularly when, as Justice Barrett and Justice Kavanaugh note, multiple jurisdictions already successfully administer a more protective rule.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.45,
+        "reasoning": "Justice Thomas's argument is the one that most genuinely troubles me, because his formality-and-solemnity framework \u2014 which I have long found more texturally defensible than the plurality's approach in Williams \u2014 actually cuts against the respondent here if Rast's laboratory reports bear the formal, accusatory character of the certificates in Melendez-Diaz and Bullcoming. I cannot dismiss this lightly. However, I remain unpersuaded by the broader coalition's position for a reason none of my colleagues have adequately answered: Chief Justice Roberts' 'narrow' rule \u2014 targeting only surrogate transmission of prosecutorial forensic conclusions \u2014 is far less administrable in practice than he suggests, because the line between 'genuine independent analysis' and 'mere conduit' will be litigated endlessly in every forensic case, producing exactly the doctrinal instability that the Williams confusion already generates. Justice Kagan's pragmatic textualism, which I respect, demands that we consider second-order effects, and a rule that invites satellite litigation over whether each expert exercised 'sufficient' independence imposes its own systemic costs that my colleagues have systematically underweighted. I maintain my position, though with diminished confidence, because the constitutional question remains genuinely close and a well-reasoned dissent preserving the plurality's framework \u2014 even if refined \u2014 serves the long-term institutional interest in doctrinal stability better than joining a majority opinion whose 'narrow' holding will prove unworkable.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's respondent argument \u2014 that the 'not-for-the-truth' rationale preserves meaningful cross-examination of the testifying expert while avoiding operational paralysis \u2014 is the strongest counterargument, but it fails under my pragmatic methodology for a fundamental reason: the jury does not convict on the surrogate expert's abstract methodology, it convicts on the underlying data that the non-testifying analyst generated, observed, and interpreted. As Justice Kagan correctly identifies, calling that data 'not offered for the truth' is a legal fiction that the jury sees through even if the court does not. Justice Thomas's originalist concurrence, which I would not ordinarily find fully persuasive on its own terms, actually reinforces the pragmatic conclusion here: the founding-era evil Crawford targeted was precisely the use of ex parte examinations to convict defendants without live confrontation, and a surrogate expert conveying Rast's findings is functionally identical to that practice. The practical burden argument Justice Alito raises is answered by the petitioner's showing \u2014 which multiple colleagues including Justice Jackson and Justice Roberts have credited \u2014 that jurisdictions already operating under a more protective rule have not experienced the systemic disruption the respondent predicts.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "After reviewing my colleagues' arguments in round two, I remain firmly with the petitioner and find that the convergence across methodological lines \u2014 from Justice Thomas's originalism to Justice Jackson's pragmatism \u2014 actually strengthens rather than weakens the doctrinal foundation, because it demonstrates that the conclusion is not an artifact of any single interpretive methodology. Justice Alito's most refined argument in round two \u2014 that my position conflates the evidentiary function of an expert opinion with the testimonial character of underlying data, and that FRE 703 has long permitted expert reliance on inadmissible materials \u2014 is the argument I must take most seriously, but it fails because the Confrontation Clause operates as a constitutional floor that FRE 703 cannot lower; the question is not whether expert reliance on underlying data is permissible as an evidentiary matter, but whether the Clause independently prohibits routing testimonial forensic conclusions through a surrogate when those conclusions are doing the essential work of proving an element of the offense. Chief Justice Roberts's narrowing formulation \u2014 which I continue to find the most workable path to a majority opinion \u2014 correctly distinguishes between a surrogate who transmits another analyst's prosecutorial conclusions and an expert who independently analyzes raw data while referencing underlying materials in the ordinary course of professional judgment, and this distinction answers Justice Alito's FRE 703 point by preserving the ordinary expert reliance practice while targeting only the specific constitutional violation at issue here. I write separately to note that the opinion, to be durable, must be grounded in this functional distinction rather than in either the Williams plurality's discredited not-for-the-truth rationale or Justice Thomas's formality-and-solemnity test standing alone, because only the functional approach can command a stable majority and provide lower courts with administrable guidance.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's practical-consequences argument \u2014 that requiring the actual analyst to testify would impose severe operational burdens on criminal justice systems \u2014 is the strongest counterargument, but it fails under my methodology for two reasons. First, the Confrontation Clause's text and original meaning do not bend to prosecutorial convenience; Crawford itself was decided knowing it would impose costs on the government, and Melendez-Diaz and Bullcoming confirmed that forensic analysts are 'witnesses against' the defendant within the Clause's original meaning. Second, as Justices Sotomayor, Kagan, and Barrett all note, the empirical premise of Alito's burden argument is undermined by the demonstrated workability of confrontation-protective rules in multiple jurisdictions. I am particularly persuaded by Justice Thomas's point that Rast's laboratory notes and report were prepared at the State's request for the express purpose of generating evidence against Smith \u2014 this is the paradigm case of testimonial statements Crawford identified, and routing them through Longoni as a surrogate does not change their character any more than routing a confession through a third-party witness would. The Williams plurality's 'not offered for the truth' rationale is, as I have long believed, a formalistic evasion that cannot survive honest application of Crawford's logic: if the jury is convicting based on data it received through the expert's testimony, that data is doing evidentiary work regardless of the procedural label attached to it.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's most serious challenge \u2014 that the Confrontation Clause was not designed to displace FRE 703's expert reliance framework and that requiring every analyst to testify would impose operational paralysis \u2014 remains the strongest counterargument, but it continues to fail for the reason Chief Justice Roberts and I have identified: the narrow rule we would adopt does not require every analyst in a forensic chain to testify, only that the prosecution cannot use a surrogate expert as a mere conduit for the testimonial conclusions of an absent analyst whose report was prepared for prosecutorial use. Justice Alito's suggestion that a 'cleaner articulation' of the Williams plurality framework would suffice ignores the fundamental problem that the plurality's 'not-for-the-truth' rationale was rejected by five justices \u2014 including Justice Thomas and the four dissenters \u2014 meaning it cannot serve as workable precedent regardless of how cleanly it is articulated. I am further persuaded by Justice Jackson's point, grounded in her experience as a public defender, that the asymmetric burden of the respondent's rule falls hardest on indigent defendants who cannot independently retest forensic evidence \u2014 a practical consideration that reinforces rather than undermines the constitutional analysis. The convergence of my colleagues across methodological lines, from Justice Thomas's originalism to Justice Kagan's pragmatic textualism to Justice Barrett's careful formalist analysis, on the same narrow functional ground confirms that this is the correct and administrable result.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's most serious challenge \u2014 that the 'not-for-the-truth' rationale preserves meaningful cross-examination of the testifying expert and that Crawford was not designed to displace FRE 703's expert reliance framework \u2014 fails under rigorous textualist and originalist analysis for the reason I articulated in round one and that Justice Gorsuch sharpens further: the Confrontation Clause's original public meaning of 'witnesses against him' cannot be circumvented by a procedural label when the underlying forensic conclusions are doing the essential evidentiary work of establishing an element of the offense. Justice Alito's invocation of FRE 703 is telling but ultimately unavailing \u2014 the Confrontation Clause operates as a constitutional floor that statutory and common-law evidentiary rules cannot displace, and the question is not whether experts may rely on inadmissible materials in forming opinions generally, but whether the Constitution permits the prosecution to introduce the substance of a testimonial forensic report through a surrogate while denying the defendant any opportunity to cross-examine the analyst who actually performed the work. I am persuaded by Chief Justice Roberts's narrowing principle \u2014 which I find consistent with my own methodology \u2014 that the rule need not require every analyst in a forensic chain to testify, but must at minimum prohibit the specific practice of using a surrogate as a mere conduit for the conclusions of a non-testifying analyst whose report was prepared at the State's request for prosecutorial use, which is precisely what occurred here with Rast's laboratory findings transmitted through Longoni. Justice Thomas's formality-and-solemnity framework reinforces rather than undermines this conclusion: Rast's report bears every hallmark of the formal, accusatory, ex parte examination the Framers targeted, and no amount of relabeling can change that constitutional character.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's respondent position \u2014 that the Williams plurality's 'not-for-the-truth' rationale insulates surrogate expert testimony from Confrontation Clause scrutiny \u2014 is the strongest counterargument, but it fails under both my pragmatic methodology and the text of Crawford. As Justice Kagan correctly identifies, the 'not-for-the-truth' framing is a legal fiction: when Longoni testifies that Rast's data showed a particular DNA match, the jury is functionally receiving Rast's testimonial assertion for its truth regardless of the procedural label, and the defendant cannot probe the reliability of the underlying analysis through cross-examination of a surrogate who didn't perform it. Justice Alito's concern about operational burdens on prosecutors is real but overstated \u2014 petitioner's evidence that multiple jurisdictions administer a more protective rule without systemic disruption directly answers the 'practical impossibility' objection, and as a former public defender I am acutely aware that the asymmetric burden of any contrary rule falls hardest on indigent defendants who cannot independently retest forensic evidence. I am encouraged that Chief Justice Roberts' minimalist framing \u2014 focusing on cases where the surrogate does nothing more than transmit another analyst's conclusions prepared for prosecutorial use \u2014 offers a workable narrow ground that could command a majority while preserving space for cases where an expert genuinely independently analyzes raw data.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The fractured decision in Williams v. Illinois, 567 U.S. 50 (2012), produced no majority rationale and has generated precisely the kind of widespread circuit and state court confusion that undermines the institutional legitimacy of this Court and the predictable administration of the Sixth Amendment. As a minimalist matter, I would not adopt the plurality's broad 'not offered for the truth' rationale, which Justice Thomas rightly criticized as inconsistent with Crawford v. Washington's foundational testimonial-statement framework; instead, the narrowest ground commanding five votes would hold that when a surrogate expert does nothing more than transmit the conclusions of a non-testifying analyst whose report was prepared for prosecutorial use, the Confrontation Clause is violated because such statements bear the hallmarks of formality and accusatory purpose that Crawford identified as testimonial. This ruling need not disturb cases where an expert independently analyzes raw data and merely references underlying materials in the ordinary course of expert reliance, preserving a workable distinction that respects both Crawford's core holding and the practical realities of forensic prosecution. The petitioner's showing that multiple jurisdictions already administer a confrontation-protective rule without systemic disruption counsels in favor of a clear, narrow rule that restores doctrinal coherence without imposing undue burden.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The original public meaning of the Confrontation Clause, as I have long argued and as Crawford v. Washington (2004) correctly recognized, requires that a defendant have the opportunity to cross-examine the actual witness whose testimonial statements are being used against him. When Elizabeth Rast prepared her laboratory notes and report at the State's request for the express purpose of generating evidence against Smith, those documents constitute testimonial statements subject to the Clause's full protection, and the prosecution cannot circumvent this requirement by routing her statements through a surrogate expert witness. The line of cases from Crawford through Melendez-Diaz and Bullcoming establishes that forensic analysts who produce testimonial reports are 'witnesses against' the defendant within the original meaning of the Sixth Amendment, and the use of a substitute expert like Longoni to convey Rast's findings is precisely the kind of inquisitorial practice Crawford warned against. Williams v. Illinois's fractured plurality opinion created dangerous ambiguity that allowed lower courts to evade the Clause's core protection, and this case presents the opportunity to restore fidelity to the text and founding-era understanding that a defendant must be able to confront the actual analyst whose work is offered as evidence against him.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As a textualist focused on practical consequences, I find the Williams v. Illinois plurality's not-for-the-truth rationale persuasive: when a testifying expert relies on underlying laboratory data to form an independent opinion, that data is not being introduced as a testimonial statement offered for its truth, and therefore Crawford's protections are not triggered. The Confrontation Clause, properly read, applies to witnesses who bear testimony against the accused \u2014 not to every piece of data an expert consults in forming a professional judgment. Extending Crawford to require the appearance of every analyst in a forensic chain would impose severe practical burdens on law enforcement and prosecutors, potentially making complex forensic cases impossible to try, a consequence the Framers could not have intended. While I acknowledge the deep jurisdictional split Williams created and Justice Thomas's narrower formality-based concurrence, the better-reasoned approach aligns with the plurality's framework, which preserves defendants' meaningful cross-examination rights against the testifying expert while avoiding the operational paralysis that petitioner's rule would impose on criminal justice systems.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The fractured decision in Williams v. Illinois, 567 U.S. 50 (2012), produced no binding majority rationale, leaving lower courts without coherent guidance and creating the very jurisdictional split that now demands resolution. As Justice Kagan's dissent in Williams correctly identified, allowing surrogate expert witnesses to launder the testimonial statements of non-testifying analysts through their own 'independent' opinions effectively guts Crawford v. Washington's core guarantee \u2014 the defendant's right to confront and cross-examine the actual analyst who performed the forensic work, observed the samples, and made the critical judgments underlying the conclusions. From a practical standpoint, the populations most harmed by this constitutional gap are indigent defendants who lack resources to independently retest forensic evidence and who face the full coercive power of the state's forensic machinery without meaningful opportunity to probe its reliability through cross-examination. Petitioner's showing that multiple jurisdictions already successfully administer a more protective rule without undue burden on prosecutions, consistent with the methodology endorsed in Pe\u00f1a-Rodriguez v. Colorado, 580 U.S. 206 (2017), demonstrates that vindicating this Sixth Amendment right is both constitutionally required and practically achievable.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The fractured result in Williams v. Illinois left no workable majority rule, and as a pragmatic textualist I am deeply troubled by the doctrinal incoherence that has resulted \u2014 lower courts across the country cannot reliably administer a Confrontation Clause standard when four justices endorsed a surrogate-witness prohibition, four endorsed a not-for-the-truth rationale, and Justice Thomas's formality-and-solemnity test commands no additional votes. Crawford v. Washington established that testimonial statements require confrontation, and when a non-testifying analyst's laboratory data is the functional evidentiary foundation for a conviction \u2014 regardless of whether a surrogate expert technically 'interprets' it \u2014 the defendant has been denied the ability to cross-examine the actual declarant whose work is doing the real evidentiary work. The petitioner's showing that multiple jurisdictions successfully administer a rule requiring analyst testimony without undue systemic burden, echoing the Pe\u00f1a-Rodriguez methodology of surveying real-world workability, persuades me that a cleaner rule protecting confrontation rights is both constitutionally required and practically achievable. I would hold that where underlying forensic data is testimonial in character and is the essential basis for an expert's opinion going to an element of the offense, the Confrontation Clause requires that the producing analyst be available for cross-examination.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The Confrontation Clause's plain text guarantees the accused the right 'to be confronted with the witnesses against him,' and Crawford v. Washington correctly restored this to its original meaning: testimonial statements by absent witnesses are inadmissible unless the declarant is unavailable and the defendant had a prior opportunity for cross-examination. When a non-testifying analyst produces laboratory data that forms the substantive basis for a prosecution expert's opinion \u2014 data that was generated specifically for use in a criminal proceeding \u2014 that data constitutes a testimonial statement regardless of the procedural label attached to it. The 'not offered for the truth' rationale from the Williams plurality is unpersuasive and formalistic: if the underlying data is functionally doing the work of proving an element of the offense, the jury is receiving its testimonial content whether or not the court formally admits it for its truth, and the defendant has been denied the right to cross-examine the analyst who actually performed the work. Williams produced no binding rule precisely because the plurality's reasoning was irreconcilable with the logic of Melendez-Diaz and Bullcoming, and this Court should resolve that circuit and state-court confusion by holding that the Confrontation Clause requires the actual analyst to testify or be shown unavailable with prior cross-examination opportunity.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The fractured decision in Williams v. Illinois, 567 U.S. 50 (2012), left the law in genuine disarray, with no majority rationale governing when surrogate expert testimony satisfies the Confrontation Clause \u2014 a situation that has produced deep circuit and state court splits demanding resolution. The 'not-for-the-truth' rationale endorsed by the Williams plurality is, as Justice Kagan's dissent persuasively argued, a legal fiction: when a testifying expert conveys that a non-testifying analyst's data showed a particular result, the jury necessarily relies on that data for its truth, and the defendant has no meaningful opportunity to cross-examine the analyst who actually performed the underlying work. Crawford v. Washington established that the Confrontation Clause's core historical purpose was to prevent exactly this kind of testimonial evidence from reaching the jury untested by cross-examination, and allowing prosecutorial circumvention through surrogate experts would hollow out that guarantee. Consistent with my institutionalist approach, I would provide a clear, workable rule \u2014 as Petitioner's position offers \u2014 that respects both the Clause's text and the practical need for administrable standards, noting that multiple jurisdictions already function effectively under a rule requiring the actual analyst to testify.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As an originalist and textualist, I must begin with the Sixth Amendment's text, which guarantees the accused the right 'to be confronted with the witnesses against him.' The original public meaning of 'witnesses against him' encompasses those whose out-of-court statements are introduced to establish facts used to convict the defendant, and a non-testifying analyst's laboratory data, when introduced through a surrogate expert to prove an element of the offense, functions precisely as such testimonial evidence. Williams v. Illinois, 567 U.S. 50 (2012), produced no majority rationale \u2014 the plurality's 'not offered for the truth' reasoning was rejected by five Justices, including Justice Thomas and the four dissenters, leaving the Confrontation Clause doctrine in an untenable state of fragmentation that lower courts have struggled to apply consistently. The most textually and historically defensible rule, consistent with Crawford v. Washington's core holding, is that when forensic laboratory data is prepared with the primary purpose of establishing facts for use in a criminal prosecution and is introduced to prove those facts \u2014 even through a surrogate expert's opinion \u2014 the defendant retains the right to cross-examine the analyst who actually generated that data, and the surrogate's independent 'opinion' label cannot launder the underlying testimonial statements into constitutionally permissible evidence.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Confrontation Clause's core guarantee, established in Crawford v. Washington, is that a defendant has the right to confront the witnesses who produce evidence against them, and allowing a surrogate expert to launder testimonial forensic data through their own opinion testimony effectively circumvents this fundamental protection. Williams v. Illinois, 567 U.S. 50 (2012), produced no controlling majority rule \u2014 the plurality's 'not-for-the-truth' rationale and Justice Thomas's formality-and-solemnity test commanded only four votes each, leaving lower courts in precisely the kind of fractured confusion that Justices Gorsuch and Sotomayor identified in their Stuart dissent. As a former public defender, I am acutely aware that defendants \u2014 disproportionately poor and marginalized \u2014 lack the resources to independently subpoena non-testifying analysts, making the practical burden of any rule placing that obligation on the defense deeply inequitable. The petitioner's evidence that multiple jurisdictions successfully administer a more protective rule without undue burden on prosecutors, consistent with the methodology endorsed in Pe\u00f1a-Rodriguez v. Colorado, 580 U.S. 206 (2017), demonstrates that vindicating the Confrontation Clause here is both constitutionally required and practically achievable.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.814,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.45,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-899",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Sixth Amendment's Confrontation Clause is satisfied when an expert witness provides opinion testimony based in part on data from laboratory tests performed by a non-testifying analyst who is not subject to cross-examination.",
+      "legal_provision": "The Confrontation Clause of the Sixth Amendment to the United States Constitution, which guarantees a criminal defendant the right to confront witnesses against them.",
+      "petitioner_position": "Jason Smith argues that the Confrontation Clause is violated when the prosecution introduces testimonial statements of a non-testifying laboratory analyst through a surrogate expert witness who relies on that non-testifying analyst's data or conclusions to form their own opinions, thereby denying the defendant the right to cross-examine the actual analyst who performed the forensic work. Smith contends this practice circumvents the core constitutional guarantee of confrontation and that requiring live testimony from the actual analysts does not impose an undue burden on the criminal justice system, as evidenced by jurisdictions that already successfully administer this requirement.",
+      "respondent_position": "The State of Arizona argues that the Confrontation Clause is satisfied when a qualified expert witness takes the stand and offers their own independent opinion, even if that opinion is based in part on data or test results generated by non-testifying analysts, because the testifying expert is available for full cross-examination regarding their conclusions, methodology, and reliance on underlying data. Arizona contends that expert reliance on third-party data is a standard and accepted practice under evidence rules and does not transform the underlying data into testimonial statements subject to Confrontation Clause requirements.",
+      "key_precedents": [
+        "Williams v. Illinois, 132 S. Ct. 2221 (2012) - plurality decision addressing whether an expert's testimony based on a non-testifying analyst's report violates the Confrontation Clause",
+        "Crawford v. Washington (foundational Confrontation Clause precedent establishing the testimonial statements framework)",
+        "Melendez-Diaz v. Massachusetts (holding that forensic laboratory reports are testimonial and subject to Confrontation Clause requirements)",
+        "Bullcoming v. New Mexico (holding that surrogate expert testimony cannot substitute for the actual analyst who certified a forensic report)",
+        "State v. Pesqueira, 234 Ariz. 470 (Ariz. Ct. App. 2014) - Arizona Court of Appeals case addressing related Confrontation Clause issues in the forensic expert context)",
+        "State v. Rogavich, 188 Ariz. 38 (1997) - Arizona Supreme Court case cited as foundational precedent in this area of law",
+        "Pe\u00f1a-Rodriguez v. Colorado, 580 U.S. 206 (2017) - cited by amici for the Court's methodology of surveying practicalities of proposed legal rules across jurisdictions"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's 'genuine independent opinion' distinction remains the most serious challenge to my position, and I credit his concern that a categorical rule requiring every laboratory technician to testify would impose severe practical burdens without proportionate constitutional benefit. However, as Justice Barrett correctly articulates, the originalist analysis converges with my minimalist instinct: the narrow holding I would write does not disturb legitimate expert opinion practice broadly, but targets only the specific circumstance where a surrogate expert's opinion is substantively dependent on \u2014 rather than merely informed by \u2014 testimonial forensic data generated specifically for prosecution. Justice Kavanaugh's institutionalist observation reinforces my view that the post-Williams doctrinal disarray is itself a legitimacy problem this Court must resolve, and a narrow reaffirmation of Bullcoming's core principle provides the clear guidance lower courts need without the sweeping disruption Justice Alito warns against. As Chief Justice, I would assign the majority opinion with instructions to write narrowly on these grounds, preserving FRE 703's legitimate applications while closing the surrogate-testimony loophole Crawford was designed to prevent.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that when a qualified expert forms a genuinely independent opinion, the testifying expert is the 'witness' subject to confrontation, and cross-examination of that expert satisfies the Clause. But this reasoning fails under the original public meaning framework I apply: the Confrontation Clause was designed precisely to prevent the civil-law practice of trial by affidavit and surrogate testimony, and when the expert's 'independent opinion' is substantively dependent on data generated by a non-testifying analyst specifically for prosecution purposes, the defendant is denied the ability to probe the actual observations, methodology, and potential bias of the person whose work is the true evidentiary foundation. As Justice Barrett correctly notes, Williams produced no binding rule under Marks, and the plurality's 'not-for-the-truth' rationale is analytically incoherent when the underlying data is the very substance supporting conviction \u2014 if a jury would not convict without the forensic data, it is functionally being used for its truth regardless of the label attached. Crawford's restoration of the historical confrontation right, confirmed by Melendez-Diaz and Bullcoming, compels the conclusion that the analyst who generated testimonial forensic data must be available for cross-examination, and no surrogate can substitute for that constitutional guarantee.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.44999999999999996,
+        "reasoning": "After careful reflection on my colleagues' arguments, particularly Justice Thomas's originalist framing and Justice Kagan's point about the analytical incoherence of the 'not-for-the-truth' rationale, I am persuaded that my position requires modification. The critical concession I must make is this: when a surrogate expert's opinion is substantively dependent on \u2014 rather than merely informed by \u2014 testimonial forensic data generated specifically for prosecution, the 'independent opinion' wrapper cannot do the constitutional work I assigned it, because the jury is functionally relying on the non-testifying analyst's observations for their truth regardless of the limiting instruction. However, I write separately to emphasize that this holding must be carefully cabined: it should not disturb the longstanding practice of experts relying on non-testimonial basis data, and courts must apply a genuine 'substantive dependence' test rather than treating every reference to laboratory data as triggering Confrontation Clause requirements. Justice Roberts's narrow formulation \u2014 distinguishing surrogate testimony that is substantively dependent on testimonial forensic data from legitimate independent expert opinion \u2014 is the most workable rule and best preserves the balance between Crawford's constitutional mandate and the practical administration of forensic evidence.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that when a qualified expert forms a genuinely independent opinion, the testifying expert is the 'witness' for Confrontation Clause purposes, and cross-examination of that expert satisfies the Sixth Amendment. But this reasoning fails because it conflates the form of testimony with its substance: when the surrogate expert's 'independent opinion' is built entirely on data generated by a non-testifying analyst \u2014 data the jury must accept as accurate to give the opinion any weight \u2014 the defendant is functionally denied the ability to probe the actual source of inculpatory evidence. As Justice Thomas correctly notes, this is precisely the kind of end-run around Crawford that allows the prosecution to launder testimonial forensic work product through an expert wrapper, and as Justice Jackson emphasizes from her experience as a public defender, the defendants most harmed by this doctrinal gap are those least able to mount independent forensic challenges. The practical burden argument Justice Alito raises is real but not constitutionally dispositive \u2014 as multiple colleagues note, numerous jurisdictions already successfully administer live-analyst requirements, demonstrating that the State's interest in convenience cannot override a fundamental Sixth Amendment guarantee.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's refined position in round two \u2014 distinguishing genuine independent expert opinion from mere conduit testimony, and questioning whether raw machine-generated data bears the requisite formality to be 'testimonial' \u2014 is the most intellectually serious challenge remaining, and I want to engage it directly. The formality threshold Justice Alito draws from Justice Thomas's Williams concurrence is real, but it cuts against him here: when a forensic laboratory generates data specifically in response to a law enforcement request for prosecution purposes, that data bears precisely the formality and prosecutorial purpose that Crawford and Melendez-Diaz identified as the hallmarks of testimonial statements, regardless of whether it emerges from a machine or a human hand. Justice Roberts's narrowing instinct resonates with my pragmatic textualism \u2014 I would not write a rule that disrupts all expert reliance on laboratory data, but would hold that where the surrogate's opinion is substantively dependent on testimonial forensic data generated for prosecution, the Confrontation Clause requires the actual analyst's availability. Justice Barrett correctly identifies that the 'not-for-the-truth' wrapper is a legal fiction Crawford was designed to prevent, and my own Williams dissent established that this fiction cannot bear constitutional weight when the underlying data is the evidentiary substance of conviction.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that when a qualified expert forms a genuinely independent opinion, the testifying expert is the 'witness' subject to cross-examination, and that Melendez-Diaz and Bullcoming are distinguishable where underlying data is not admitted for its truth. But this reasoning fails under rigorous textualist and originalist analysis: the Confrontation Clause asks who is bearing witness *against* the defendant, and when the forensic analyst's observations, methodology, and certifications are the actual evidentiary foundation of the prosecution's case, that analyst is functionally testifying against the defendant regardless of the 'independent opinion' wrapper placed around their work. As Justice Thomas correctly notes, the 'basis data' framing is precisely the kind of end-run Crawford was designed to prevent \u2014 the original public meaning of 'witnesses against him' cannot be satisfied by cross-examining a proxy who vouches for work they did not perform. Justice Alito's practical concerns about burdening law enforcement are real but constitutionally irrelevant; as Justices Sotomayor and Kagan observe, numerous jurisdictions already successfully administer live-analyst requirements, demonstrating that the constitutional mandate is workable.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's most compelling point \u2014 that a genuinely independent expert opinion satisfies the Confrontation Clause because the testifying expert is the relevant 'witness' \u2014 deserves serious engagement, but I find it ultimately unpersuasive for the reasons Justice Roberts articulates in his narrow formulation: the constitutional question turns on whether the surrogate's opinion is substantively *dependent on* versus merely *informed by* testimonial forensic data generated specifically for prosecution. When the jury cannot evaluate the expert's conclusion without accepting the non-testifying analyst's underlying observations as accurate, the 'independent opinion' wrapper is a legal fiction that Crawford's framework was designed to prevent. My institutionalist concerns about the post-Williams doctrinal disarray \u2014 which Justice Barrett correctly identifies as producing no binding rule under Marks \u2014 reinforce the case for a clear, narrow reaffirmation of Bullcoming's core holding that restores predictability without categorically prohibiting all expert reliance on laboratory data. Justice Roberts' minimalist formulation strikes me as the right approach: hold that where a surrogate's opinion is substantively dependent on testimonial forensic data, the Confrontation Clause requires the actual analyst's availability, while leaving undisturbed legitimate expert opinion practice where genuine independence exists.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's most compelling point \u2014 that a genuinely independent expert opinion satisfies the Confrontation Clause because the testifying expert is the relevant 'witness' \u2014 remains the strongest challenge to my position, but it ultimately fails for the reason Justice Kagan and I have both identified: the 'independence' of the surrogate's opinion is illusory when the jury's reliance on that opinion is entirely contingent on accepting the accuracy of the non-testifying analyst's underlying data. The 'not for the truth' limiting instruction cannot bear the constitutional weight placed upon it when the forensic data is the substantive evidentiary foundation of the prosecution's case \u2014 this is precisely the reliability-based substitution Crawford rejected. I am persuaded by Justice Roberts's framing of a narrow rule: we need not categorically prohibit all expert reliance on laboratory data, but where a surrogate expert's opinion is substantively dependent on \u2014 rather than merely informed by \u2014 testimonial forensic data generated specifically for prosecution, Bullcoming's core holding requires the actual analyst's availability for cross-examination. Justice Alito's practical burden concerns deserve weight in crafting the rule's contours, but they cannot override the Sixth Amendment's textual guarantee, particularly given the empirical evidence that numerous jurisdictions already administer live-analyst requirements successfully.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that when a qualified expert forms a genuinely independent opinion, the testifying expert is the relevant 'witness' and full cross-examination of that expert satisfies the Confrontation Clause. But this reasoning, as Justice Kagan correctly identifies, is analytically incoherent when the underlying forensic data is the actual evidentiary substance of the prosecution's case: the jury is not convicting based on the surrogate's independent judgment in any meaningful sense, but on the non-testifying analyst's observations, methodology, and measurements that the surrogate merely packages and presents. The 'not for the truth' wrapper is a legal fiction that Crawford's framework was specifically designed to prevent \u2014 the Founders' concern with civil-law practices of trial by affidavit applies with full force when forensic data generated specifically for prosecution is introduced through a proxy who cannot be cross-examined on the actual analytical work. As Justice Thomas notes from an originalist direction that converges with my own pragmatic concern for procedural fairness, the defendant is denied the ability to probe the competence, potential bias, and methodology of the person whose work actually generates the inculpatory conclusion \u2014 and that denial is precisely what the Confrontation Clause prohibits.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The fractured nature of Williams v. Illinois, 567 U.S. 50 (2012), has produced precisely the kind of widespread lower court confusion and circuit splits that undermine the institutional legitimacy of this Court and the predictable administration of a fundamental constitutional right. While I am cautious about broadly overruling Williams, the narrow and minimalist path here is to clarify that Bullcoming v. New Mexico and Melendez-Diaz v. Massachusetts establish a coherent line: when forensic laboratory data is generated specifically for use in a criminal prosecution, it constitutes testimonial evidence, and a surrogate expert who merely recites or relies upon that data cannot substitute for the actual analyst subject to cross-examination. Justice Thomas's concurrence in Williams, which provided the fifth vote solely on formality grounds, does not rescue the plurality's not-for-the-truth rationale as controlling law, and a narrow ruling reaffirming the Bullcoming principle \u2014 without disturbing legitimate expert opinion practice \u2014 would restore doctrinal clarity while respecting the Sixth Amendment's core guarantee.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The original public meaning of 'witnesses against' in the Sixth Amendment plainly encompasses those who bear testimony against the accused, and a forensic analyst who generates data and reports specifically for use in a criminal prosecution is precisely such a witness. Crawford v. Washington restored the Confrontation Clause to its historical roots, rejecting reliability-based substitutes for actual cross-examination, and Melendez-Diaz and Bullcoming extended that logic directly to forensic analysts whose reports are testimonial in nature. Allowing a surrogate expert to launder a non-testifying analyst's testimonial work product into evidence by dressing it as 'basis data' for an independent opinion is precisely the kind of end-run around the Confrontation Clause that Crawford's framework was designed to prevent \u2014 the defendant is still denied the ability to cross-examine the person who actually performed the work and whose observations, competence, and potential bias are directly at issue. Williams v. Illinois produced no majority rationale and cannot be read to authorize this practice; to the extent any plurality reasoning there conflicts with the original meaning as articulated in Crawford and its progeny, I would not follow it.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist focused on the original meaning of the Confrontation Clause, I find that the Clause's core guarantee is satisfied when a defendant has the opportunity to fully cross-examine the witness who actually testifies against him and whose opinion is being offered to the jury. The plurality reasoning in Williams v. Illinois, 132 S. Ct. 2221 (2012), correctly identifies that when a qualified expert forms an independent opinion \u2014 rather than acting as a mere conduit for a non-testifying analyst's conclusions \u2014 the testifying expert is the 'witness' within the meaning of the Sixth Amendment, and full cross-examination of that expert satisfies confrontation. While Melendez-Diaz and Bullcoming rightly constrained the introduction of forensic reports as substantive evidence without the certifying analyst's testimony, those cases are distinguishable where the underlying data is not itself admitted for its truth but rather serves as the basis for an independent expert opinion subject to adversarial testing. The practical consequences of requiring every laboratory technician who touched a sample to testify would impose severe burdens on law enforcement and the criminal justice system without meaningfully advancing the confrontation right's core purpose of testing the reliability of evidence offered against a defendant.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Confrontation Clause's core guarantee, as established in Crawford v. Washington and reinforced by Melendez-Diaz and Bullcoming, is that a defendant has the right to cross-examine the actual analyst who performed forensic work and whose findings form the basis of the prosecution's case. Allowing a surrogate expert to launder testimonial forensic data through their own opinion testimony effectively nullifies this right, because the defendant cannot probe the actual analyst's methodology, competence, or potential errors \u2014 the very concerns that make cross-examination constitutionally indispensable. As I noted in my dissent from denial of certiorari in Stuart v. Alabama alongside Justice Gorsuch, Williams yielded no majority rationale and has sown profound confusion in lower courts, with the plurality's 'not-for-the-truth' reasoning rejected by five Justices including myself; this case presents the Court with an opportunity to vindicate the rights of criminal defendants \u2014 disproportionately poor and marginalized individuals \u2014 who face conviction based on forensic evidence they cannot meaningfully challenge. The practical burden on the State of producing live analyst testimony, as demonstrated by jurisdictions that already require it, does not outweigh the fundamental constitutional right at stake.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The fractured Williams decision left no binding rule, and the post-Crawford line of cases \u2014 Melendez-Diaz and Bullcoming \u2014 establishes a clear principle that forensic laboratory reports are testimonial and that surrogate testimony cannot substitute for the actual analyst who performed and certified the work. When a non-testifying analyst's data forms the substantive evidentiary basis for a conviction, allowing a surrogate expert to launder that testimony through an 'independent opinion' wrapper effectively nullifies the Confrontation Clause's core guarantee, which Crawford identified as preventing the civil-law practice of trial by affidavit. As a pragmatic textualist, I am persuaded that the Sixth Amendment's text \u2014 guaranteeing the right to 'confront the witnesses against' the defendant \u2014 must extend to the actual human beings whose forensic work generates the inculpatory data, not merely the expert who packages and presents it; the workability concerns raised by Arizona are real but not constitutionally dispositive, as Pena-Rodriguez's survey methodology confirms that numerous jurisdictions already successfully administer live-analyst requirements. The Williams plurality's 'not for the truth' rationale is analytically incoherent when the underlying data is the very substance of the prosecution's case, and Justice Thomas's formality-and-solemnity concurrence, while providing the fifth vote in Williams, offers an unprincipled limiting principle that I would decline to extend here.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The Sixth Amendment's text guarantees a criminal defendant the right to confront 'witnesses against him,' and as Crawford v. Washington established, this means the actual declarant of testimonial statements must be available for cross-examination. Melendez-Diaz and Bullcoming made clear that forensic laboratory reports are testimonial and that surrogate expert testimony cannot substitute for the actual analyst who performed and certified the forensic work \u2014 the defendant has a right to confront the person whose assertions are being used against him, not merely a proxy who vouches for those assertions. Williams v. Illinois produced no controlling majority rationale, as Justice Sotomayor and I noted in Stuart v. Alabama, and the plurality's 'not for the truth' reasoning is both analytically incoherent and irreconcilable with the plain original meaning of the Confrontation Clause \u2014 if the underlying data is being used to support a conviction, it is functionally being offered for its truth regardless of the label attached. Allowing the prosecution to launder testimonial forensic statements through a surrogate expert effectively nullifies the confrontation right that the Founders enshrined, and the rule of lenity further counsels that ambiguities in the scope of constitutional criminal procedure protections should be resolved in favor of the accused.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The fractured result in Williams v. Illinois left no controlling majority rationale, and the subsequent confusion in lower courts\u2014acknowledged even by Justices Gorsuch and Sotomayor\u2014demonstrates that this Court must provide a workable doctrinal framework. Crawford v. Washington and its progeny, particularly Melendez-Diaz and Bullcoming, establish that the Confrontation Clause's core purpose is to prevent the prosecution from introducing testimonial forensic evidence without affording the defendant an opportunity to cross-examine the actual analyst who performed and certified the work; allowing a surrogate expert to launder that testimonial data through their own opinion testimony risks gutting those holdings. While I am attentive to the practical burdens on state criminal justice systems\u2014a concern that counsels some caution\u2014the history and tradition underlying the Confrontation Clause, as well as the evidence that numerous jurisdictions already successfully require live analyst testimony, suggest that Smith's position is the more constitutionally defensible one, and that the institutional legitimacy of the Court is better served by finally resolving the Williams confusion with a clear rule than by allowing the current circuit and state-court disarray to persist.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The original public meaning of the Confrontation Clause, as illuminated by Crawford v. Washington, guarantees a defendant the right to confront those who bear witness against them through testimonial statements, and forensic laboratory data generated specifically for use in a criminal prosecution is quintessentially testimonial under Melendez-Diaz and Bullcoming. The surrogate expert mechanism employed here permits the prosecution to launder testimonial statements through a testifying expert, effectively nullifying the confrontation right by denying the defendant the ability to cross-examine the analyst who actually performed the forensic work and whose observations and methodology are the true evidentiary foundation of the prosecution's case. Williams v. Illinois, 132 S. Ct. 2221 (2012), produced no binding rule under Marks v. United States precisely because no majority could agree on a coherent rationale for permitting this practice, and the resulting confusion in lower courts\u2014including Arizona's own acknowledgment that Williams provides 'no binding rule'\u2014demonstrates that this Court must resolve the question by returning to first principles: the Clause's text and the historical practice it was designed to codify, which consistently required in-court examination of the actual witness whose out-of-court statements are offered against the accused. Permitting an expert to serve as a conduit for a non-testifying analyst's data, without any opportunity to cross-examine that analyst on their observations, chain of custody, or potential error, renders the confrontation right an empty formality in the forensic context where reliability concerns are most acute.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Confrontation Clause's core guarantee, as established in Crawford v. Washington and reinforced by Melendez-Diaz and Bullcoming, is that a defendant has the right to cross-examine the actual witness whose out-of-court statements are being used against them. When a surrogate expert testifies based on data generated by a non-testifying analyst, the defendant cannot meaningfully cross-examine the person who actually performed the forensic work, observed the samples, and made the critical analytical judgments \u2014 precisely the kind of procedural fairness the Sixth Amendment demands. Williams v. Illinois produced no controlling majority rationale, leaving lower courts in disarray, and the plurality's 'not-for-the-truth' and 'not targeting a specific individual' rationales are both analytically unsatisfying and practically evasive of the constitutional guarantee; as Justice Kagan's four-Justice dissent in Williams correctly identified, allowing surrogate testimony effectively guts the holdings of Melendez-Diaz and Bullcoming. As a former public defender, I am acutely aware that defendants \u2014 disproportionately poor and marginalized \u2014 bear the greatest harm from this doctrinal gap, and the practical burden on the state of producing actual analysts is manageable, as evidenced by jurisdictions that already successfully require live analyst testimony.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.806,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

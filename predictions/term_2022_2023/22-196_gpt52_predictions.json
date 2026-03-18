@@ -1,0 +1,569 @@
+[
+  {
+    "docket": "22-196",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether admitting a non-testifying codefendant\u2019s redacted confession at a joint trial violates the Confrontation Clause when the redaction avoids naming the defendant but the surrounding trial context effectively identifies and inculpates him.",
+      "legal_provision": "U.S. Constitution, Sixth Amendment \u2014 Confrontation Clause",
+      "petitioner_position": "Samia argues that the Constitution is violated when the government introduces a codefendant\u2019s out-of-court confession that has been superficially redacted (e.g., replacing the defendant\u2019s name with neutral terms like \u201canother person\u201d), but nevertheless immediately and powerfully inculpates the defendant once the jury considers the confession in the real-world context of the trial (the number of defendants, the government\u2019s theory, other evidence, and how the statement is presented). He contends that limiting instructions cannot cure this problem because the jury will naturally use the confession against the only plausible person the redaction can mean, so the redaction is functionally equivalent to an explicit accusation without cross-examination.",
+      "respondent_position": "The United States argues that the Confrontation Clause permits admission of a properly redacted statement that does not facially inculpate the defendant and is accompanied by a clear limiting instruction directing the jury to consider it only against the declarant codefendant. In the government\u2019s view, the Sixth Amendment does not require exclusion merely because other evidence introduced at trial might allow jurors to infer the defendant\u2019s identity; that \u201ccontextual linkage\u201d approach is inconsistent with the Court\u2019s governing framework and would be difficult to administer while undermining the strong preference for joint trials.",
+      "key_precedents": [
+        "Bruton v. United States, 391 U.S. 123 (1968)",
+        "Richardson v. Marsh, 481 U.S. 200 (1987)",
+        "Gray v. Maryland, 523 U.S. 185 (1998)",
+        "Crawford v. Washington, 541 U.S. 36 (2004)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the strongest objection: that in a two-defendant joint trial a substitution like \u201canother person\u201d will be \u201cimmediately\u201d understood as the codefendant, making the confession functionally accusatory despite a limiting instruction. But Richardson\u2019s administrable line turns on facial incrimination, and Gray is best read\u2014as Justice Kagan and Justice Alito emphasize\u2014as targeting redactions whose very form (blanks/\u201cdeleted\u201d) itself points to the defendant on the statement\u2019s face; importing a contextual-identification test would collapse Richardson into case-by-case speculation about what jurors \u201cmust have\u201d inferred. Justice Thomas\u2019s text-focused point reinforces that the Confrontation Clause concerns testimony \u201cagainst\u201d the accused, and a neutral substitution is not, on its face, testimony against the nondeclarant in the way Bruton/Gray condemn. A narrow holding affirming admission of neutral-term redactions with a clear limiting instruction preserves precedent and joint-trial practice while leaving room to police truly accusatory redaction forms under Gray.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s \u201cimmediacy/inevitability\u201d proposal rests on a contextual-juror-inference inquiry that the Sixth Amendment\u2019s text does not compel: the Clause bars admitting testimonial statements of a \u201cwitness[] against\u201d the accused, and a confession using a neutral term is not, on its face, testimony against the defendant. As Chief Justice Roberts and Justice Kagan emphasize, Richardson\u2019s facial-inculpation line is the only administrable boundary that plausibly tracks the original public meaning and avoids converting Bruton into a broad, judge-made exclusionary rule triggered whenever other evidence makes an inference easy. Gray does not require a different result because it targeted redactions whose very form (obvious blanks/\u201cdeleted\u201d) supplies an accusation on the face of the statement; a neutral substitution lacks that accusatory feature absent extra linkage. Justice Jackson\u2019s concern that jurors \u201cin reality\u201d will identify the defendant asks us to constitutionalize speculation about jury reasoning and to discard limiting instructions across wide swaths of joint trials\u2014an expansion untethered from text and history.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s and Justice Jackson\u2019s strongest point\u2014that in a two-defendant joint trial jurors will \u201cnaturally and immediately\u201d understand \u201canother person\u201d to mean the defendant\u2014highlights a real-world risk, but Richardson deliberately rejected a contextual-identification approach in favor of a facial-incrimination rule precisely to keep Bruton administrable and cabined. As Chief Justice Roberts and Justice Kagan emphasize, Gray is best read to police redactions whose very form (blanks, \u201cdeleted,\u201d obvious alteration) itself accuses on its face; a neutral substitution does not \u201cwitness against\u201d the defendant without the jury supplying additional linkage from other evidence, which Richardson permits with a limiting instruction. Justice Thomas\u2019s textual point reinforces that the Sixth Amendment targets witnesses \u201cagainst\u201d the accused, and turning \u201cinevitable inference\u201d into a constitutional test would collapse Richardson into case-by-case speculation and impose heavy costs on joint trials without a clear limiting principle. Nothing in Crawford compels that expansion in this narrow Bruton/Richardson/Gray setting.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Kagan\u2019s administrability argument\u2014that Richardson\u2019s facial-inculpation line avoids fact-bound speculation\u2014has genuine force, but it assumes the key question is \u201cface\u201d in isolation rather than how the confession functions as testimony in the joint-trial setting. Gray teaches that the constitutional vice is not merely a literal blank, but a redaction that in ordinary juror understanding operates as an obvious pointer; in a two-defendant trial, a substitution like \u201canother person\u201d can be just as immediately and inevitably identifying, making the statement effectively a witness \u201cagainst\u201d the defendant despite the limiting instruction. Justice Thomas\u2019s originalist concern about contextual linkage is answered by a narrow, pragmatic rule keyed to Gray\u2019s \u201cnatural and immediate\u201d identification\u2014excluding only those substitutions that are transparently accusatory without requiring a later-evidence chain\u2014so Richardson remains intact for genuinely nonidentifying redactions. On my methodology, we should not elevate ease of administration over the real-world inability to cross-examine a functional accusation that disproportionately prejudices defendants in joint trials.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Justice Sotomayor\u2019s \u201cimmediacy/inevitability\u201d framing is the strongest push: in a two-defendant trial, jurors may quickly map \u201canother person\u201d onto the codefendant, making the confession functionally accusatory. But as the Chief Justice stresses, Richardson\u2019s line is facial incrimination versus contextual linkage, and Gray is best read as a narrow carve-out for redactions whose *form* (blanks, \u201cdeleted\u201d) itself communicates an accusation on the statement\u2019s face\u2014precisely to avoid a case-by-case inquiry into how obvious an inference felt in a given trial. Under a pragmatic textualist approach, the Confrontation Clause problem is testimony \u201cagainst\u201d the accused, and a neutral substitution that does not identify the defendant on its face remains on Richardson\u2019s permissible side, with limiting instructions doing the work Richardson presupposes. Adopting Sotomayor/Jackson\u2019s contextual-obviousness test risks collapsing Richardson in most joint trials and destabilizing a coherent, administrable doctrinal boundary without a clear limiting principle.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Sotomayor\u2019s \u201cimmediacy/inevitability\u201d framing is the strongest pushback: in a two-defendant joint trial, jurors may quickly map \u201canother person\u201d onto the defendant, making the confession functionally accusatory. But Richardson\u2019s rule deliberately rejects that context-driven inquiry in favor of a facial-incrimination line, and as Chief Justice Roberts and Justice Kagan stress, that administrable boundary is what prevents Bruton from becoming a sweeping, fact-bound ban on joint trials whenever jurors can connect dots. Gray does not compel a different result because its constitutional concern was that the redaction\u2019s very form (obvious blanks/\u201cdeleted\u201d) itself supplies the accusation on its face, whereas neutral substitutions require additional inferential linkage that limiting instructions are designed to address. Adopting Sotomayor\u2019s test would, in practice, collapse Richardson and lacks a firmer textual/original anchor than the Clause\u2019s focus on statements that are \u201cagainst\u201d the accused on their face.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the strongest fairness point: in a two-defendant trial, jurors may immediately hear \u201canother person\u201d as the defendant, making the confession practically accusatory notwithstanding a limiting instruction. But as Chief Justice Roberts and Justice Kagan emphasize, Richardson deliberately rejected that kind of context-dependent, \u201ctransparent inference\u201d inquiry in favor of an administrable facial-inculpation line, and Gray is best read as limited to redactions whose very form (blanks/\u201cdeleted\u201d) itself points to the defendant on its face. Adopting Sotomayor\u2019s inevitability test would, in practice, collapse Richardson in most joint trials and invite unpredictable, record-specific litigation about juror inference rather than the statement\u2019s face. Under a precedent- and institution-focused approach, the Constitution is satisfied where the redaction is not facially accusatory and the jury receives a clear limiting instruction; Crawford does not compel rewriting that settled Bruton/Richardson/Gray framework here.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201cimmediacy and inevitability\u201d proposal has intuitive force in a two-defendant trial, but it still turns Bruton into a context-dependent inquiry about what jurors likely inferred, the very administrability problem Richardson sought to avoid. As Chief Justice Roberts and Justice Kagan emphasize, our cases maintain a workable line: the Confrontation Clause problem arises when the statement is accusatory on its face (or, under Gray, when the redaction\u2019s form itself functions as an accusation), not when it incriminates only by linkage to other evidence that the limiting instruction directs the jury not to use for that purpose. Justice Jackson\u2019s point that a \u201cneutral\u201d term can be \u201cobvious\u201d in context would, in practice, collapse Richardson whenever the trial structure narrows the referent, effectively constitutionalizing severance in most confession cases without a clear textual anchor in \u201cwitnesses against\u201d the accused. Because a neutral substitution does not itself identify the defendant and the jury is instructed to consider it only against the declarant, I do not think the opposing arguments undermine the Richardson/Gray framework.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Chief Justice Roberts\u2019s administrability concern is substantial, but I do not think a facial-only test can be squared with Gray\u2019s functional focus on what jurors \u201cnaturally and immediately\u201d understand in the courtroom setting; in a two-defendant trial, a neutral placeholder can operate as the kind of obvious identification Gray condemned even if it lacks a literal blank. Justice Kagan\u2019s contextual-linkage framing understates Bruton\u2019s procedural-fairness premise: when the confession itself supplies the accusation and the trial structure makes the referent inevitable, the limiting instruction is not a realistic safeguard. Justice Thomas\u2019s textual objection does not persuade me because Bruton/Richardson/Gray already represent our settled Confrontation Clause implementation in joint trials, and a narrow \u201cinevitable, immediate identification\u201d rule remains administrable without collapsing Richardson into a broad contextual inquiry. On a pragmatic view attentive to real-world jury processing, the State should not be able to secure a joint-trial advantage by introducing an uncross-examined accusatory statement that would be plainly inadmissible if the defendant were tried alone.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Confrontation Clause bars admission of a non-testifying codefendant\u2019s confession in a joint trial when it is powerfully incriminating on its face, even with a limiting instruction. Bruton v. United States, 391 U.S. 123 (1968). But Richardson v. Marsh, 481 U.S. 200 (1987), drew a workable line permitting admission where the statement is not facially incriminating and becomes inculpatory only when linked with other evidence, and that administrable distinction best preserves precedent, joint-trial practice, and institutional legitimacy. Gray v. Maryland, 523 U.S. 185 (1998), is consistent with this approach by excluding only redactions that remain facially accusatory (e.g., obvious blanks), not neutral substitutions whose incriminating force depends on context.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The Sixth Amendment guarantees confrontation with the witnesses \"against\" the accused, but this Court\u2019s precedents draw the constitutional line at statements that are facially accusatory of the defendant at a joint trial. Under Richardson v. Marsh, admission of a non-testifying codefendant\u2019s confession that is redacted to eliminate any reference to the defendant (and even to the existence of an accomplice) and accompanied by a proper limiting instruction does not violate the Confrontation Clause merely because other evidence might allow jurors to infer identity. Bruton v. United States and Gray v. Maryland address the different problem of confessions that explicitly or obviously identify the defendant on their face (including by blanks or \u201cdeleted\u201d), which is not this case if the redaction uses neutral terms. A \u201ccontextual linkage\u201d rule would expand Bruton beyond its original meaning and administrability, effectively treating any inferential use as unconstitutional despite the limiting instruction framework Richardson approved.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The Sixth Amendment Confrontation Clause is not violated where the codefendant\u2019s confession is redacted to avoid naming the defendant and is accompanied by a clear limiting instruction, because under Richardson v. Marsh the Bruton rule applies only to statements that are facially incriminating, not those that incriminate only through linkage with other evidence at trial. Gray v. Maryland is distinguishable because it involved an obvious, face-value redaction (e.g., blanks) that directly signaled the defendant\u2019s identity, whereas neutral terms like \u201canother person\u201d do not, standing alone, point to the defendant. Extending Bruton to cover \u201ccontextual inference\u201d would be difficult to administer and would significantly undermine the practical and longstanding preference for joint trials, with substantial costs to law enforcement and the courts. Crawford v. Washington does not alter this Bruton/Richardson framework for redacted codefendant confessions in joint trials with limiting instructions.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The Sixth Amendment\u2019s Confrontation Clause bars admitting a nontestifying codefendant\u2019s confession when, in the real-world setting of a joint trial, the jury will naturally and immediately understand the redacted \u201canother person\u201d to mean the defendant, making the statement functionally accusatory without cross-examination. Bruton v. United States holds that a limiting instruction cannot cure this kind of powerful inculpation, and Gray v. Maryland makes clear that redactions that still operate as an obvious identification\u2014through the kind of inference a jury draws \u201cimmediately\u201d\u2014remain within Bruton\u2019s rule. While Richardson v. Marsh tolerated redactions that eliminate any reference to an accomplice\u2019s existence, that protection does not extend to redactions that, given the trial\u2019s structure and evidence, effectively point the finger at the only plausible person. Because the confession\u2019s contextual identification turns it into testimony \u201cagainst\u201d the defendant without confrontation, it should have been excluded and the conviction cannot stand.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Confrontation Clause bars admission of a non-testifying codefendant\u2019s confession when it is facially incriminating as to the defendant, because limiting instructions cannot cure the confrontation problem in that circumstance. Bruton v. United States, 391 U.S. 123 (1968). But under Richardson v. Marsh, 481 U.S. 200 (1987), a confession redacted to eliminate not only the defendant\u2019s name but any reference to the defendant\u2019s existence may be admitted with a limiting instruction, even if other evidence later allows the jury to infer who the redaction refers to; Gray v. Maryland, 523 U.S. 185 (1998), narrows that only where the redaction is an obvious blank or similar \u201cobvious indication of alteration\u201d that itself points to the defendant. Because the challenged redaction here uses neutral terms rather than an obvious deletion and becomes incriminating only through contextual linkage, Richardson\u2019s administrable facial-inculpation line\u2014reinforced by the workability concerns Gray recognized\u2014supports admission with a clear limiting instruction consistent with the Sixth Amendment.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Sixth Amendment\u2019s Confrontation Clause bars admitting a non-testifying codefendant\u2019s confession that is facially accusatory of the defendant, because a limiting instruction cannot substitute for cross-examination. Bruton v. United States and Gray v. Maryland cover statements that, on their face, point the jury directly to the defendant (by naming him or by an obvious blank or \u201cdeleted\u201d), but Richardson v. Marsh permits admission where the confession is redacted to eliminate any reference to the defendant\u2019s existence and is paired with a clear limiting instruction. Extending Bruton to statements that become incriminating only through \u201ccontextual linkage\u201d would depart from Richardson\u2019s administrable line and would improperly broaden a judge-made exclusion rule beyond the text and original understanding of the Confrontation Clause.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under Richardson v. Marsh, the Confrontation Clause is not violated when a non-testifying codefendant\u2019s confession is redacted so it does not facially incriminate the defendant and the jury receives a clear limiting instruction to consider the statement only against the declarant. Bruton and Gray address confessions that are directly accusatory on their face (expressly naming the defendant or using obvious blanks/substitutions that function like naming), but Richardson rejected a broader \u201ccontextual linkage\u201d rule that would turn on how other evidence might allow the jury to infer identity. Expanding Bruton to encompass contextual inference would be difficult to administer and would undermine the long-recognized practical preference for joint trials, contrary to a restrained, workable approach grounded in precedent. Crawford does not require a different result here because the controlling Bruton/Richardson line already supplies the Sixth Amendment framework for codefendant confessions in joint trials.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Confrontation Clause bars admitting a non-testifying codefendant\u2019s confession that is facially incriminating of the defendant, even with a limiting instruction, as Bruton v. United States held. But Richardson v. Marsh draws a administrable, textually grounded line permitting admission when the confession is redacted to eliminate any reference to the defendant\u2019s existence and is accompanied by a clear limiting instruction, even if other evidence later supplies a link. Gray v. Maryland reinforces that the constitutional problem arises when the redaction itself points directly to the defendant (e.g., an obvious blank or \u201cdeleted\u201d), not when identification depends on contextual inferences. On that framework, a neutral-term redaction that does not facially inculpate the defendant falls on Richardson\u2019s permissible side, and Crawford v. Washington does not displace Bruton/Richardson\u2019s limiting-instruction doctrine for such redactions.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Sixth Amendment\u2019s Confrontation Clause is violated when a non-testifying codefendant\u2019s \u201credacted\u201d confession, though not naming the defendant, in practical effect points the jury straight to him in the real-world context of a joint trial, because it functions as an accusation the defendant cannot test through cross-examination. Bruton v. United States bars such powerful inculpation notwithstanding limiting instructions, and Gray v. Maryland makes clear that redactions which \u201cobviously refer\u201d to the defendant through immediate, ordinary inferences still trigger Bruton\u2019s core concern. Richardson v. Marsh permits admission only where the redaction eliminates any reference to the defendant\u2019s existence and becomes incriminating only by linkage with other evidence, but where the trial context makes the placeholder transparently identify the defendant, the jury\u2019s use is neither speculative nor curable by instruction. As a matter of procedural fairness and practical consequences, the government should not obtain a joint-trial windfall by introducing evidence that would be inadmissible against the defendant in a separate trial.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.723,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "22-196",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether admitting a non-testifying codefendant\u2019s redacted confession at a joint trial violates the Confrontation Clause when, although not facially incriminating, the surrounding trial context effectively identifies and inculpates the defendant.",
+      "legal_provision": "U.S. Const. amend. VI (Confrontation Clause)",
+      "petitioner_position": "Samia argues that a codefendant\u2019s out-of-court confession cannot be admitted at a joint trial\u2014despite redaction and a limiting instruction\u2014if the confession, in context, immediately and powerfully points to the defendant (e.g., through obvious placeholders or contextual linkage to other evidence), because the jury will inevitably treat it as substantive evidence against the defendant without any opportunity for cross-examination.",
+      "respondent_position": "The United States argues that the Confrontation Clause permits admission of a properly modified/redacted confession at a joint trial when it does not facially incriminate the defendant and the jury is instructed to consider it only against the declarant, rejecting a rule that would deem such statements unconstitutional merely because other evidence introduced at trial could allow jurors to infer the defendant\u2019s identity.",
+      "key_precedents": [
+        "Bruton v. United States",
+        "Richardson v. Marsh",
+        "Gray v. Maryland"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the best point: in a joint trial the jury hears the confession alongside the rest of the case, so a \u201cneutral\u201d reference may operate in practice as an identification. But Richardson deliberately rejected a contextual-linkage test in favor of a facial-incrimination line, and Gray is properly read\u2014as Justice Kagan and Justice Alito emphasize\u2014as a narrow backstop for redactions that themselves function like names (blanks/\u201cdeleted\u201d/obvious stand-ins), not a license for open-ended assessments of juror inference. Extending Bruton to statements that become incriminating only when combined with other evidence would collapse Richardson, invite speculative and inconsistent rulings, and unsettle a workable framework that preserves joint trials while still policing Gray-type end-runs. On this record, absent a Gray-style facial cue, the limiting instruction suffices under our precedents and a narrow affirmance best protects institutional legitimacy.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201cfunctional accusation in context\u201d point is the most forceful, but it asks us to constitutionalize a juror-psychology inquiry untethered to the Confrontation Clause\u2019s text and inconsistent with Richardson\u2019s deliberate, administrable line. As the Chief Justice and Justice Alito emphasize, Richardson rests on the distinction between statements that are powerfully incriminating on their face (Bruton) and those that become incriminating only by linkage to other evidence, where limiting instructions remain the rule. Gray matters, but only as Justice Kagan and Justice Barrett explain: it bars redactions that themselves operate as obvious identifiers (blanks/\u201cdeleted\u201d/transparent stand-ins), not every neutral reference that might be connected to the defendant once the Government\u2019s whole case is heard. Because the challenged statement is not facially accusatory in the Gray sense and requires inferential linkage, I would adhere to Richardson and affirm.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor and Justice Jackson rightly stress the practical risk that jurors will infer the unnamed accomplice is the defendant, but that is precisely the context-driven linkage approach Richardson rejected in favor of an administrable facial-incrimination line coupled with limiting instructions. As Chief Justice Roberts explains, Gray supplies a narrow backstop for redactions that themselves operate as obvious identifiers (blanks, \u201cdeleted,\u201d transparent stand-ins), and extending Gray to any confession that becomes incriminating once other evidence is heard would collapse Richardson and force speculative assessments of juror reasoning. Under a textualist, precedent-respecting approach, the Sixth Amendment defect arises when the statement as presented directly accuses the defendant without cross-examination; where incrimination requires inferential linkage, Richardson\u2019s rule governs. The law-enforcement and efficiency interests in joint trials are not dispositive, but they underscore why we should not constitutionalize a broad, unworkable \u201cpractical effect\u201d test untethered from Richardson\u2019s settled boundary.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.79,
+        "reasoning": "The Chief Justice\u2019s administrability concern is the strongest respondent point: as Justice Roberts and Justice Kagan stress, Richardson\u2019s facial/nonfacial line avoids speculative inquiries and Gray can police obvious end-runs. But in my view that framing misdescribes the inquiry we already undertake\u2014courts routinely assess how evidence operates in the trial\u2019s real-world setting (including for prejudice and harmless error), and Gray\u2019s core warning is precisely against letting redaction mechanics defeat Bruton\u2019s practical insight about juror use and the unreliability of limiting instructions when a statement functions as an accusation. Justice Alito\u2019s efficiency and joint-trial stability arguments are serious, yet they cannot justify a rule that invites prosecutors to draft \u201cneutral nouns\u201d that, given the Government\u2019s own theory and proof, immediately identify the only plausible \u201cother person\u201d as the defendant. Under a pragmatic Confrontation Clause approach attentive to fairness, when the redacted confession is an obvious, predictable pointer to the defendant in the integrated joint-trial context, it is the functional equivalent of naming and should be treated as within Bruton/Gray rather than insulated by Richardson formalism.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Justice Sotomayor\u2019s realism about how jurors \u201cconnect the dots\u201d in a joint trial is the hardest point, and Justice Jackson is right that Gray warns against elevating redaction mechanics over practical effect. But Richardson expressly chose a facial-incrimination boundary to avoid turning Confrontation Clause doctrine into an inevitably speculative, case-by-case inquiry into how jurors synthesize the whole record, and Chief Justice Roberts\u2019s administrability concern follows from that institutional choice. Gray, as I read it, is best treated as a narrow anti-evasion rule where the redaction itself functions as an obvious identifier (blanks/\u201cdeleted\u201d/transparent stand-ins); absent that kind of signal, the statement is not \u201cpowerfully incriminating on its face,\u201d and Richardson\u2019s limiting-instruction regime governs. I therefore do not think the petitioner\u2019s contextual test can be adopted without collapsing Richardson into Bruton and unsettling a coherent, workable line for joint trials.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s argument rightly stresses that context can make a \u201cneutral\u201d redaction feel like an accusation, and Gray warns against formalism when the redaction itself cues the jury to fill in the defendant\u2019s name. But as Chief Justice Roberts and Justice Kagan emphasize, Richardson deliberately adopted an administrable facial-incrimination rule, preserving the limiting-instruction presumption except where the statement is directly accusatory as presented; a broad contextual test would collapse Richardson into Bruton and require speculative, case-by-case juror-psychology assessments untethered to the Confrontation Clause\u2019s text. Gray, properly read, is a narrow backstop for obvious stand-ins (blanks/\u201cdeleted\u201d/transparent placeholders) that function as names on their face, not a license to treat any linkage-based inference as a Sixth Amendment violation. On this record\u2014absent a Gray-type facial signal\u2014the redaction requires inferential linkage, so Richardson controls and the limiting instruction suffices.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor\u2019s and Justice Jackson\u2019s strongest point is that a \u201cneutral\u201d redaction can operate as a functional accusation once the jury hears the rest of the case, and that Gray warns against formalism that ignores real-world trial dynamics. But as Chief Justice Roberts and Justice Kagan emphasize, Richardson deliberately adopted a facial-incrimination line precisely to avoid a context-heavy, case-by-case inquiry into juror inference that would erode administrability, destabilize joint-trial practice, and effectively collapse Richardson into Bruton. Gray still matters, but only as a narrow backstop when the redaction itself is an obvious stand-in (blanks/\u201cdeleted\u201d/transparent substitutions) that points directly to the defendant; absent that, the limiting-instruction framework Richardson endorsed remains the most precedent-faithful and institutionally workable rule. Under an institutionalist, precedent-centered approach, the petitioner\u2019s context test asks us to recalibrate the Bruton-Richardson-Gray balance in a way our cases have resisted and that would invite unpredictable constitutional litigation over ordinary evidentiary linkage.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Sotomayor\u2019s and Justice Jackson\u2019s central claim\u2014that context can make a neutral redaction a functional accusation\u2014captures a real-world concern, but it asks us to replace Richardson\u2019s facial-incrimination line with a contextual \u201cconnect-the-dots\u201d inquiry Richardson expressly rejected. As Chief Justice Roberts and Justice Kagan emphasize, Gray already prevents the end-run where the redaction itself operates as an obvious identifier (blanks/\u201cdeleted\u201d/transparent stand-ins), and expanding Gray to cover any contextual incrimination would largely collapse Richardson and impose unadministrable, speculative judgments about juror reasoning. Nothing in the Sixth Amendment\u2019s text or our settled Confrontation Clause precedents compels that doctrinal shift, especially given Richardson\u2019s reliance on limiting instructions for statements requiring inferential linkage. On this record, where the redaction is not facially accusatory in the Gray sense, Richardson governs and the limiting instruction suffices.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Chief Justice Roberts\u2019s and Justice Kagan\u2019s strongest point is administrability: Richardson\u2019s facial-incrimination line, with Gray as a backstop, offers a clear rule that avoids speculative juror-psychology inquiries. But that account underweights Bruton\u2019s pragmatic premise\u2014emphasized by Justice Sotomayor\u2014that in a joint trial the confession is not experienced in a vacuum, and a \u201cneutral\u201d noun can become a functional name as the Government\u2019s proof unfolds, making the limiting instruction the very sort of procedural fiction Bruton rejected. Gray, in my view, is less about punctuation (blanks vs. nouns) than about substance: whether the redaction leaves an obvious accusatory hook that predictably invites the jury to map the statement onto the nondeclarant defendant, which is a practical-consequences inquiry courts can manage without collapsing Richardson. Efficiency interests, as Justice Alito stresses, are real, but they cannot justify a trial structure that foreseeably supplies an uncross-examined accusatory link against the defendant.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Under the Sixth Amendment\u2019s Confrontation Clause, Bruton v. United States bars admitting a non-testifying codefendant\u2019s confession at a joint trial when it is directly accusatory of the defendant, because a limiting instruction cannot cure that prejudice. But Richardson v. Marsh draws a workable, administrable line: a confession that is properly redacted so it is not facially incriminating may be admitted with a limiting instruction, even if other evidence at trial later allows the jury to infer the defendant\u2019s identity. Gray v. Maryland remains the backstop, excluding redactions that function as obvious substitutes for the defendant\u2019s name (e.g., blanks or \u201cdeleted\u201d), but where the statement is not facially accusatory and does not use an obvious placeholder, precedent and the need for narrow, predictable rules in joint trials counsel affirmance.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Sixth Amendment guarantees the accused the right to confront the witnesses against him, but it does not require exclusion of every out-of-court statement that becomes incriminating only when linked with other properly admitted evidence. Under Richardson v. Marsh, a codefendant\u2019s confession that is redacted to eliminate reference to the defendant\u2019s existence and is accompanied by a limiting instruction may be admitted because it is not facially accusatory and thus is not the kind of statement Bruton deemed powerfully incriminating notwithstanding instructions. Gray v. Maryland prohibits redactions that are obvious stand-ins (e.g., blanks or \u201cdeleted\u201d) that directly invite the jury to fill in the defendant\u2019s name, but when the confession is not facially incriminating and requires inferential linkage to other evidence, the Confrontation Clause is not violated. A contextual-incrimination rule would extend Bruton beyond its original scope and diminish the traditional presumption that juries follow limiting instructions, expanding federal constitutional constraints on joint trials without clear textual warrant.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The Confrontation Clause is not violated where a non-testifying codefendant\u2019s confession is redacted so that it is not facially incriminating of the defendant and the jury is instructed to consider it only against the declarant. Richardson v. Marsh draws a workable, text- and precedent-based line between statements that incriminate \u201con their face\u201d (covered by Bruton) and those that become incriminating only when linked with other trial evidence, and that line protects joint trials and their substantial law-enforcement and efficiency interests. Gray v. Maryland does not require a different result because it addressed obvious redactions that function like an express identification (e.g., blanks or \u201cdeleted\u201d), whereas a neutral substitution that does not point directly to the defendant falls within Richardson\u2019s rule. Extending Bruton to context-based inferences would be difficult to administer and would needlessly disrupt joint trials without a clear Sixth Amendment mandate.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The Confrontation Clause, U.S. Const. amend. VI, is violated when a non-testifying codefendant\u2019s confession\u2014though redacted\u2014still operates as the functional equivalent of an accusation the jury will naturally and immediately attribute to the defendant in the real-world context of the trial. Bruton v. United States recognized that limiting instructions cannot reliably cure the powerful prejudice of an accomplice\u2019s confession that implicates the defendant without cross-examination, and Gray v. Maryland makes clear that courts must look beyond formal redactions to whether the statement remains \u201cdirectly accusatory\u201d in context. A rigid \u201cfour-corners\u201d approach elevates form over substance and undermines fairness, particularly where joint trials and contextual linkage predictably channel the confession against the defendant. Where the surrounding evidence effectively identifies the defendant as the unnamed participant, the practical impact is the same as Bruton, and the Constitution requires exclusion or severance.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Confrontation Clause bars admission of a non-testifying codefendant\u2019s confession only when, as in Bruton v. United States, it is directly accusatory as to the defendant such that a limiting instruction is not a realistic safeguard. Richardson v. Marsh drew a workable line: when a confession is redacted so it is not facially incriminating and becomes inculpatory only when linked with other evidence, the Sixth Amendment is not violated so long as the jury is instructed to consider it only against the declarant. Gray v. Maryland confirms that the constitutional problem arises when the redaction itself functions like an obvious blank or placeholder that points immediately to the defendant; absent that kind of facial signaling, extending Bruton to all contextual inferences would be unadministrable and would unduly undermine joint trials without a clear textual or precedential basis under U.S. Const. amend. VI.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Confrontation Clause forbids admitting a non-testifying codefendant\u2019s confession when it is \u201cpowerfully incriminating\u201d of the defendant on its face, Bruton v. United States, but Richardson v. Marsh draws a constitutional line where the statement is not facially incriminating and becomes so only by linkage to other evidence, coupled with a limiting instruction. A context-driven rule would invite speculative, case-by-case assessments of how jurors might synthesize admissible evidence, expanding Bruton beyond its original and administrable scope and undermining joint trials without clear textual warrant in the Sixth Amendment. Gray v. Maryland confirms the exception where the redaction is an obvious blank or placeholder that directly points to the defendant; absent that kind of facial pointer, Richardson controls and the limiting instruction suffices. Accordingly, admitting a properly redacted confession that does not name or directly identify the defendant does not violate U.S. Const. amend. VI merely because other trial evidence may permit an inference.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Confrontation Clause (U.S. Const. amend. VI) is not violated where a non-testifying codefendant\u2019s confession is redacted so it is not facially incriminating and the jury receives a clear limiting instruction, because Richardson v. Marsh drew a workable line permitting statements that become incriminating only when linked with other evidence. Bruton v. United States forbids only those confessions that directly and powerfully inculpate the defendant on their face, and Gray v. Maryland extends that rule to obvious \"blank\" or \"deleted\" substitutions that function like a direct naming. A context-driven rule that invalidates any neutral-redaction confession whenever other trial evidence might allow an inference would be difficult to administer, would undermine the efficiency of joint trials, and would depart from the Court\u2019s settled \u201cfacially vs. contextually incriminating\u201d distinction. The proper inquiry is whether the redaction itself, as presented to the jury, is the kind of obvious identification condemned in Gray; if not, Richardson and the presumption that juries follow limiting instructions control.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The Sixth Amendment bars admission of a non-testifying codefendant\u2019s confession only when the statement is incriminating on its face as to the defendant, because limiting instructions are presumed effective for statements that become inculpatory only by linkage to other evidence. Richardson v. Marsh draws that constitutional line, permitting a redacted confession that eliminates direct reference to the defendant even if the jury might infer identity from other proof introduced at trial. Gray v. Maryland does not extend Bruton to all context-based inferences; it targets redactions (e.g., blanks or obvious placeholders) that function like an express naming and are immediately accusatory on their face. Because the redaction here is not facially incriminating and the jury was instructed to consider it only against the declarant, the admission does not violate the Confrontation Clause.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Confrontation Clause bars admitting a non-testifying codefendant\u2019s confession when, in the reality of a joint trial, the jury will understand it as accusing the defendant notwithstanding a limiting instruction. Bruton v. United States recognized it is often an \u201cunmitigated fiction\u201d to expect jurors to disregard such a confession as to the nondeclarant, and Gray v. Maryland applied that principle to redactions that function as obvious identifiers. Richardson v. Marsh is best read narrowly to permit redacted confessions only when they remove not just the defendant\u2019s name but any reference to the existence of an accomplice, so that the statement is not effectively accusatory in context. Where contextual linkage makes the redaction the functional equivalent of naming the defendant, admitting the statement violates the Sixth Amendment\u2019s confrontation right and undermines procedural fairness.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.716,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "docket": "22-704",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 2(c) of the Lanham Act, which prohibits trademark registration of a living person's name without their consent, violates the First Amendment as an unconstitutional content-based restriction on speech.",
+      "legal_provision": "Section 2(c) of the Lanham Act, 15 U.S.C. \u00a7 1052(c), which bars registration of marks that identify a particular living individual without their written consent, as applied against the First Amendment's free speech protections.",
+      "petitioner_position": "The USPTO (Petitioner) argues that Section 2(c)'s denial of trademark registration does not constitute a First Amendment violation and should be subject to a reasonableness standard akin to rational basis review, contending that the provision serves legitimate government interests in protecting individuals' rights of publicity and preventing false association or deception, and that heightened scrutiny is unwarranted in the context of a government-administered trademark registration program.",
+      "respondent_position": "Elster (Respondent) argues that Section 2(c) is a content-based restriction on speech that discriminates based on subject matter and must therefore survive strict scrutiny, or at minimum intermediate scrutiny if treated as commercial speech regulation. Respondent contends the provision fails even intermediate scrutiny because it extends far beyond preventing deception or false association \u2014 particularly as applied to public figures \u2014 and unconstitutionally chills political and critical speech, such as marks commenting on public figures' official conduct.",
+      "key_precedents": [
+        "Matal v. Tam, 582 U.S. 218 (2017) \u2014 struck down the Lanham Act's disparagement clause as a viewpoint-based restriction violating the First Amendment",
+        "Iancu v. Brunetti, 588 U.S. 388 (2019) \u2014 struck down the Lanham Act's immoral or scandalous marks provision as viewpoint-based discrimination",
+        "Central Hudson Gas & Electric Corp. v. Public Service Commission, 447 U.S. 557 (1980) \u2014 established the four-part intermediate scrutiny test for commercial speech restrictions",
+        "Reed v. Town of Gilbert, 576 U.S. 155 (2015) \u2014 established that content-based restrictions on speech are presumptively unconstitutional and subject to strict scrutiny"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's most serious remaining challenge \u2014 that intermediate scrutiny's tailoring requirement permits Congress to draw imperfect bright-line rules without case-by-case judgments about who is 'public enough' \u2014 is genuinely thoughtful, but it proves too much: the bright-line rule she defends is not merely imperfect but inverted, extending maximum protection precisely where the government's asserted interests are weakest. As I noted in prior rounds, the narrow ground I prefer \u2014 affirming on intermediate scrutiny tailoring grounds under Central Hudson without resolving whether Section 2(c) is viewpoint-based \u2014 has the virtue of preserving the provision in most applications while addressing the specific constitutional defect as applied to political commentary on public figures. Justice Barrett's structural distinction between Tam/Brunetti and Section 2(c) remains the strongest argument for the petitioner, and I take it seriously enough that I would write the majority opinion to explicitly preserve that distinction rather than extend those precedents \u2014 but the tailoring deficiency is independently fatal under intermediate scrutiny regardless of whether the provision is viewpoint-based or merely content-based. The current 6-3 alignment toward respondent, combined with Justice Kagan's diminished confidence and Justice Alito's acknowledged uncertainty, suggests the narrowest possible holding \u2014 failing intermediate scrutiny as applied to political commentary on maximally public figures \u2014 can command a majority without requiring colleagues to reach the harder structural questions.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's most serious challenge \u2014 that Section 2(c) is viewpoint-neutral and tracks a pre-existing common-law right of publicity \u2014 remains the strongest argument for the petitioner's position, but it does not ultimately move me because it conflates facial neutrality with constitutional sufficiency. The consent mechanism is the structural defect: as I noted in my prior reasoning, the original public meaning of the First Amendment most robustly protected political commentary about public officials, and a provision that grants a former President unilateral veto power over whether 'TRUMP TOO SMALL' receives federal registration benefits \u2014 while permitting 'TRUMP IS GREAT' \u2014 operates as viewpoint discrimination in practice regardless of facial neutrality. Justice Barrett's government-benefit framing is textually serious, but Tam and Brunetti firmly rejected the subsidy-versus-prohibition distinction in the trademark registration context, and I cannot accept that the Founders who debated the Sedition Act of 1798 would have countenanced a federal scheme allowing powerful public officials to suppress critical political marks through a consent mechanism with no deception or confusion requirement. I maintain my position affirming the Federal Circuit, and I note that Justice Roberts' narrower tailoring ground \u2014 which I find persuasive as a secondary rationale \u2014 provides a workable basis for a majority opinion even if colleagues are unwilling to reach the broader structural question.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's most refined argument \u2014 that Section 2(c) is structurally distinct from Tam and Brunetti because it conditions registration on third-party consent rather than evaluating the mark's expressive content \u2014 is the strongest remaining challenge to my position, but it cannot overcome the functional reality that Justice Jackson and I have consistently identified: a consent mechanism that delegates to a named public figure the unilateral power to approve or veto marks about themselves will operate as viewpoint discrimination in practice, because no former president will consent to 'TRUMP TOO SMALL' while approving 'TRUMP IS GREAT,' and the statute provides no limiting principle whatsoever to prevent this selective veto over political speech. Justice Kagan's pragmatist defense of the bright-line consent rule \u2014 that it spares the government from making case-by-case judgments about who is 'public enough' to lose identity protection \u2014 is genuinely appealing as an administrative matter, but administrative convenience cannot justify a provision that fails intermediate scrutiny's tailoring requirement by extending its greatest protection to the most public figures who have the weakest cognizable privacy interest and whose public conduct is precisely what the First Amendment most robustly protects. I continue to find Justice Roberts' and Justice Kavanaugh's narrowest-grounds approach most prudent: we need not resolve whether Section 2(c) is viewpoint-based or merely content-based, because even under intermediate scrutiny the provision is insufficiently tailored \u2014 it sweeps far beyond deceptive uses, provides no consumer-confusion requirement, and suppresses non-deceptive political commentary that no state right-of-publicity law would actually prohibit. The consent mechanism as applied to political commentary on former presidents cannot survive heightened scrutiny, and I affirm the Federal Circuit on those narrow grounds.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's most compelling argument remains that Section 2(c) is facially viewpoint-neutral and tracks a pre-existing common-law right of publicity, which she contends categorically distinguishes it from Tam and Brunetti. But this argument, while textually serious, cannot survive the structural analysis Justice Sotomayor and Justice Jackson correctly identify: the consent mechanism delegates to the named individual \u2014 often a powerful public figure \u2014 the unilateral power to determine which messages receive the registration benefit, and that delegation produces de facto viewpoint discrimination in operation because a former president will consent to 'TRUMP IS GREAT' while vetoing 'TRUMP TOO SMALL,' with no limiting principle in the statute to prevent exactly this selective veto. Justice Kagan's pragmatist argument that the provision serves a genuine interest in preventing identity appropriation is not without force, but as I noted in my prior reasoning, the government cannot condition the substantial benefits of trademark registration on obtaining a private party's consent to political criticism without satisfying heightened scrutiny \u2014 and the provision fails that scrutiny because it sweeps far beyond deceptive uses, extends maximum protection to the most public figures with the weakest cognizable privacy interest, and suppresses non-deceptive political commentary that no state right-of-publicity law would actually prohibit. I remain persuaded that Reed v. Town of Gilbert's content-based framework applies here, and that even under intermediate scrutiny the provision is insufficiently tailored to survive.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's most serious remaining challenge \u2014 that the tailoring deficiency is not fatal under intermediate scrutiny because requiring consent from any named living person is a workable bright-line rule avoiding case-by-case public-figure determinations \u2014 is genuinely thoughtful, but I find it ultimately unpersuasive under my institutionalist methodology for a specific reason: intermediate scrutiny's 'substantially related' requirement is not satisfied by administrative convenience alone when the provision's practical operation suppresses the category of speech \u2014 non-deceptive political commentary about public officials \u2014 that sits at the First Amendment's core. Justice Barrett's structural distinction between Tam/Brunetti and Section 2(c) remains the strongest counter-argument, and I acknowledge it has real force, but the consent mechanism's asymmetric operation in practice \u2014 which Justice Sotomayor correctly identifies as producing de facto viewpoint discrimination regardless of facial neutrality \u2014 means the provision cannot be saved by its common-law pedigree when applied to political commentary about maximally public figures. I remain persuaded by Justice Roberts' narrowest-grounds approach: affirming on intermediate scrutiny tailoring grounds without extending Tam and Brunetti's strict scrutiny framework preserves the Court's institutional flexibility, avoids unnecessary constitutional breadth, and addresses the specific defect that Section 2(c) extends its greatest protection to former presidents and other public figures who have the weakest cognizable identity interest precisely where the First Amendment's protection is strongest. This narrow holding would preserve Section 2(c) in most applications \u2014 private individuals, commercial identity appropriation \u2014 while vindicating the constitutional principle that the government cannot condition federal registration benefits on obtaining a public figure's consent to political criticism.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Justice Roberts and Justice Kavanaugh's tailoring argument remains the most formidable challenge to my position, and I want to engage with it with full seriousness: they are correct that Section 2(c) extends its greatest protection to the most public figures, and that this creates a structural mismatch with any privacy-based rationale. However, I cannot accept that this tailoring deficiency is fatal under intermediate scrutiny for two reasons that remain unaddressed by my colleagues. First, the government's interest is not reducible to privacy protection \u2014 it is a structural interest in preventing the federal registration system from becoming an instrument of identity appropriation without consent, an interest that does not diminish based on the named individual's fame, and a bright-line consent rule avoids the constitutional difficulties of the government adjudicating who is 'public enough' to lose identity protection. Second, and most critically for my textualist methodology, the consent mechanism's asymmetric operation in practice \u2014 which Justice Sotomayor and Justice Jackson correctly identify \u2014 does not transform a facially viewpoint-neutral provision into viewpoint discrimination under Reed v. Town of Gilbert, because the constitutional defect in Tam and Brunetti was the government's own evaluation of expressive content, not the downstream choices of private third parties exercising consent rights that predate the First Amendment concern; the common-law right of publicity never required the named individual to demonstrate viewpoint-neutral consent practices, and importing that requirement here would be a significant doctrinal innovation without textual foundation.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's most compelling argument \u2014 that Section 2(c) is facially viewpoint-neutral and tracks a pre-existing common-law right of publicity, distinguishing it categorically from Tam and Brunetti \u2014 deserves the most serious engagement, but it ultimately cannot bear the constitutional weight she places on it. The consent mechanism is the dispositive structural defect: as Justice Sotomayor and I have both emphasized, a facially neutral provision that delegates to the named individual the unilateral power to determine which messages receive the registration benefit produces viewpoint discrimination in operation, because any rational public figure will consent to favorable marks and withhold consent from critical ones \u2014 and the statute provides no limiting principle whatsoever to prevent exactly this selective veto over political speech. Justice Alito's point that Elster remains free to use the mark in commerce without registration is technically accurate but, as Tam firmly established, the registration system's practical benefits \u2014 nationwide priority, the \u00ae symbol, enhanced enforcement \u2014 are substantial enough that denial constitutes a cognizable burden on speech rather than a mere withholding of a gratuity, and the government cannot condition those benefits on obtaining a private party's consent to political commentary about a public figure without satisfying heightened scrutiny it cannot meet here. I continue to find Justice Roberts' and Justice Kavanaugh's narrowest-grounds approach most prudent \u2014 Section 2(c) fails at minimum under intermediate scrutiny because it is catastrophically poorly tailored, extending its greatest protection to the most public figures who have the weakest cognizable privacy interest while suppressing non-deceptive political commentary that no state right-of-publicity law would actually prohibit \u2014 and I would affirm the Federal Circuit on those grounds.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "After three rounds of deliberation, Justice Roberts and Justice Kavanaugh's tailoring argument has finally moved me, and I want to be honest about why. My defense of Section 2(c) rested on the bright-line rule rationale \u2014 that requiring consent from any named living person avoids case-by-case government judgments about who is 'public enough.' But Justice Kavanaugh correctly identifies that this bright-line defense collapses under its own logic: the provision's greatest operational burden falls precisely on political commentary about the most public figures, where the First Amendment interest is strongest and the cognizable publicity interest is weakest, and the statute contains no limiting principle to prevent a former president from selectively vetoing critical marks while approving laudatory ones. Justice Barrett's structural distinction between Tam/Brunetti and Section 2(c) remains the most serious argument for the petitioner's position, and I do not abandon it lightly \u2014 the consent mechanism is genuinely different from the government itself evaluating expressive content. However, I am ultimately persuaded that even accepting facial viewpoint-neutrality, the provision fails intermediate scrutiny's tailoring requirement as applied to non-deceptive political commentary on public figures, because the government's interest in preventing identity appropriation is not substantially served by a mechanism that suppresses exactly the speech the First Amendment most robustly protects without any requirement of consumer confusion, false association, or actual harm to a cognizable publicity interest.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.47,
+        "reasoning": "After three rounds of deliberation, Justice Roberts' tailoring argument has finally moved me, though not for the reasons he emphasizes most. What ultimately persuades me is the convergence of Justice Thomas's originalist point with Justice Sotomayor's structural analysis: the First Amendment's core protection of political commentary about public officials \u2014 the very speech most at risk from Section 2(c)'s consent mechanism \u2014 cannot be squared with a federal scheme that grants a former president unilateral veto power over registration of critical marks with no deception requirement whatsoever. I had maintained that poor tailoring alone cannot convert a viewpoint-neutral provision into a First Amendment violation, and I still believe that as an abstract proposition, but Justice Kavanaugh's institutionalist framing clarifies why this case is different: when the tailoring failure is so severe that the provision's greatest burden falls precisely on the speech the First Amendment most robustly protects \u2014 non-deceptive political commentary about public figures \u2014 the mismatch between means and ends is not merely imperfect line-drawing but a structural defect that intermediate scrutiny cannot excuse. I write separately to emphasize that this holding should be narrow, preserving Section 2(c) in applications involving private individuals and non-political marks, and declining to extend Tam and Brunetti's strict scrutiny framework beyond what this case requires.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Following Matal v. Tam and Iancu v. Brunetti, a majority of this Court has consistently held that trademark registration restrictions constitute burdens on private speech subject to First Amendment scrutiny, not merely the withholding of a government benefit. However, I would resolve this case on the narrowest possible grounds: Section 2(c) is distinguishable from the viewpoint-based restrictions struck down in Tam and Brunetti because it is facially viewpoint-neutral, yet it still fails because it is so poorly tailored to its asserted interests \u2014 protecting privacy and publicity rights \u2014 that it cannot survive even the intermediate scrutiny applicable to commercial speech under Central Hudson. Critically, as applied here, Section 2(c) perversely extends its greatest protection to the most public figures, including the President, who have the least cognizable privacy interest, while simultaneously suppressing non-deceptive political commentary that no state right-of-publicity law would prohibit, revealing a fundamental mismatch between the provision's stated purposes and its actual operation. I would affirm on these narrow tailoring grounds without broadly resolving the precise level of scrutiny applicable to all trademark registration denials, preserving institutional flexibility for future cases.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Section 2(c) of the Lanham Act is a content-based restriction on speech that discriminates based on subject matter \u2014 specifically, whether a mark identifies a living person \u2014 and under Reed v. Town of Gilbert, such content-based restrictions are presumptively unconstitutional and subject to strict scrutiny. While I have serious reservations about the Court's modern First Amendment doctrinal framework and would prefer to ground analysis in the original public meaning of the First Amendment as understood in 1791, even applying the government's preferred reasonableness standard, Section 2(c) as applied here goes well beyond preventing consumer deception or false association and instead grants private individuals \u2014 including public figures and politicians \u2014 an effective veto over political commentary and criticism, which strikes at the core of what the First Amendment was originally understood to protect. The lessons of Matal v. Tam and Iancu v. Brunetti are instructive: Congress cannot use the trademark registration system as a mechanism to suppress disfavored speech about particular subjects or persons, and giving celebrities and politicians unilateral consent authority over critical marks creates de facto viewpoint discrimination. I would affirm the Federal Circuit, though I write separately to note that the proper inquiry should be rooted in the original meaning of the First Amendment rather than the Court's evolving and often inconsistent tiers-of-scrutiny framework.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Section 2(c) of the Lanham Act is meaningfully distinguishable from the provisions struck down in Matal v. Tam and Iancu v. Brunetti because it does not discriminate based on viewpoint \u2014 it applies neutrally to all marks identifying living persons without consent, regardless of whether the mark is favorable, critical, or neutral toward the subject. Unlike the disparagement clause in Tam, which permitted registration of positive marks about groups while barring negative ones, Section 2(c) reflects a content-neutral protection of individuals' rights of publicity and prevents the government's trademark registration system from being weaponized to appropriate a living person's identity without their consent. The government's interest in not becoming an instrument for the unauthorized commercial exploitation of a person's name and identity is a legitimate and substantial one that does not require the government to take sides on any message or viewpoint. While I acknowledge the tension with Tam's reasoning about the burdens imposed by registration denial, the proper framework here is closer to a government benefit analysis or at most intermediate scrutiny under Central Hudson, which Section 2(c) can survive given its tailored focus on consent rather than message content.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Section 2(c) of the Lanham Act functions as a content-based restriction on speech because it conditions the benefit of trademark registration on the subject matter of the mark \u2014 specifically, whether it identifies a living person \u2014 and as applied here, effectively grants public figures like former President Trump veto power over critical political speech without any requirement to demonstrate consumer confusion, deception, or false association. Under Matal v. Tam and Iancu v. Brunetti, the Court has consistently held that content-based conditions on trademark registration implicate First Amendment scrutiny, and the government's interest in protecting individuals' rights of publicity, while legitimate, does not justify a blanket prohibition that chills political commentary on public officials' conduct. The practical impact on vulnerable speakers \u2014 individual applicants seeking to register marks that criticize powerful public figures \u2014 is particularly troubling, as Section 2(c) creates an asymmetry where celebrities and politicians can selectively consent to favorable marks while vetoing critical ones, effectively weaponizing the registration system against dissent. While I would not necessarily apply strict scrutiny to every application of Section 2(c), the provision as applied to political commentary on public figures fails even intermediate scrutiny under Central Hudson because it is not narrowly tailored to serve the government's stated interests in preventing deception or false association.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While Tam and Brunetti correctly struck down viewpoint-discriminatory provisions, Section 2(c) is meaningfully different because it tracks a pre-existing intellectual property and privacy interest \u2014 the right of individuals to control commercial use of their own identity \u2014 rather than discriminating based on the speaker's viewpoint or the message's content in the traditional sense. Unlike the disparagement clause or the immoral/scandalous provision, Section 2(c) is viewpoint-neutral: it applies equally whether the mark praises or criticizes the named individual, and the consent requirement reflects a longstanding common-law right of publicity that predates the First Amendment concerns animating Tam and Brunetti. A pragmatic reading of the Lanham Act's structure suggests that registration conditions tied to protecting identifiable third-party rights \u2014 rather than suppressing particular messages \u2014 need not survive strict scrutiny, and the denial of a federal registration benefit does not constitute the kind of speech prohibition that demands heightened First Amendment protection, particularly where the applicant remains free to use the mark in commerce without registration.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Section 2(c) of the Lanham Act is a content-based restriction on speech \u2014 it conditions registration eligibility on the subject matter of the mark, specifically whether it identifies a living person \u2014 and under Reed v. Town of Gilbert, such restrictions are presumptively unconstitutional and subject to strict scrutiny. While I would not mechanically apply Matal v. Tam and Iancu v. Brunetti, which addressed viewpoint discrimination specifically, the logic of those decisions confirms that denial of trademark registration constitutes a cognizable burden on speech, not merely a withholding of a government subsidy, because applicants are deterred from selecting marks they cannot register. The government's asserted interest in protecting individuals' rights of publicity may be legitimate, but Section 2(c) as applied to public figures commenting on matters of public concern \u2014 such as the mark 'TRUMP TOO SMALL' criticizing a political figure's conduct \u2014 sweeps far beyond preventing consumer deception or false association, which are the Lanham Act's core purposes, and the provision's consent mechanism effectively grants private parties veto power over critical speech without any showing of harm. Applying the plain text of First Amendment doctrine and the original understanding that political speech receives the highest protection, the government has not demonstrated that Section 2(c) is narrowly tailored to serve a compelling interest, and it therefore fails constitutional scrutiny.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Following Matal v. Tam and Iancu v. Brunetti, the Court has consistently held that the Lanham Act's content-based registration bars burden private speech and cannot escape First Amendment scrutiny merely because they operate through a government benefit program. Section 2(c) discriminates based on the subject matter of the mark \u2014 specifically, whether it identifies a living person \u2014 which constitutes content-based discrimination under Reed v. Town of Gilbert. However, I would be cautious about applying strict scrutiny here, as this provision is meaningfully distinguishable from the viewpoint-based restrictions struck down in Tam and Brunetti; Section 2(c) is more plausibly justified by history, tradition, and the government's legitimate interest in protecting individuals' rights of publicity and preventing false association. Applying intermediate scrutiny under Central Hudson, the provision still fails as applied to marks commenting on public figures' official conduct, because the government's interest in shielding public figures from unwanted political commentary is not substantial enough to justify the broad speech burden, and the provision is not sufficiently tailored since it grants celebrities unchecked veto power without any requirement of consumer confusion or deception.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Section 2(c) of the Lanham Act is best understood not as a viewpoint-based restriction on speech \u2014 unlike the provisions struck down in Matal v. Tam and Iancu v. Brunetti \u2014 but rather as a content-neutral condition on a government benefit that serves the historically rooted interest in protecting individuals' rights against having their identities appropriated without consent, a protection with deep common law roots in the right of publicity and false association doctrine. As an originalist and textualist matter, the trademark registration system is a government-administered benefit program, not a general speech regulation, and denying registration does not prohibit the underlying expressive use of a mark; Elster remains free to use 'TRUMP TOO SMALL' in commerce without federal registration. The provision is viewpoint-neutral on its face \u2014 it bars registration of any living person's name without consent, whether the mark is laudatory, critical, or neutral \u2014 and this distinguishes it categorically from the viewpoint-discriminatory provisions at issue in Tam and Brunetti, which the plurality and concurrences in those cases identified as the core constitutional defect. Applying a reasonableness standard calibrated to the government-benefit context, Section 2(c) survives First Amendment scrutiny because it is reasonably drawn to protect the legitimate interests of living individuals in controlling commercial use of their identities, without discriminating based on viewpoint or suppressing any particular message.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Section 2(c) of the Lanham Act operates as a content-based restriction on speech by conditioning trademark registration on the subject matter of the mark \u2014 specifically, whether it identifies a living person \u2014 and this Court's decisions in Matal v. Tam and Iancu v. Brunetti firmly established that trademark registration denials constitute burdens on private speech subject to First Amendment scrutiny, not merely the withholding of a government benefit. While I am cautious about mechanically applying strict scrutiny to every content-based distinction in the trademark registration context, Section 2(c) is particularly problematic because it effectively grants living individuals \u2014 especially powerful public figures like former presidents \u2014 a heckler's veto over critical or political speech without any requirement that the mark cause consumer confusion, deception, or false association, which are the legitimate harms the Lanham Act is designed to prevent. From a practical standpoint rooted in equal protection and procedural fairness, this consent requirement falls most heavily on speakers seeking to criticize those in power, chilling precisely the kind of political commentary the First Amendment most robustly protects. Even under intermediate scrutiny applicable to commercial speech under Central Hudson, Section 2(c) fails because it is not narrowly tailored to serve the government's asserted interests in privacy and publicity rights \u2014 it sweeps far beyond deceptive uses and targets non-deceptive, critical speech that would not give rise to a right-of-publicity claim in any state.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.711,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.47,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "22-704",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 2(c) of the Lanham Act, which prohibits trademark registration of a living person's name without their consent, violates the First Amendment's free speech protections.",
+      "legal_provision": "Section 2(c) of the Lanham Act, 15 U.S.C. \u00a7 1052(c), which bars registration of marks that identify a particular living individual without their written consent, alongside the First Amendment to the United States Constitution.",
+      "petitioner_position": "The USPTO (Petitioner) argues that Section 2(c)'s denial of trademark registration does not constitute a First Amendment violation, contending that the provision is subject to a reasonableness standard rather than heightened scrutiny, effectively advocating for something approximating rational basis review. The government maintains the restriction has a 'reasonable basis' and that heightened scrutiny is unwarranted, relying on interests such as preventing deception, false association, and protecting individuals' rights of publicity and privacy.",
+      "respondent_position": "Respondent Steve Elster argues that Section 2(c) is an unconstitutional content-based restriction on speech subject to strict scrutiny, or at minimum intermediate scrutiny if viewed as commercial speech regulation. Elster contends the provision fails even intermediate scrutiny because it extends far beyond preventing deception or false association, effectively giving public figures veto power over critical trademarks even where no reasonable person could believe the public figure endorsed the mark. Elster distinguishes this case from prior cases like Tam and Brunetti by acknowledging Section 2(c) is viewpoint neutral, but maintains it is still content-based and therefore subject to heightened scrutiny.",
+      "key_precedents": [
+        "Matal v. Tam (2017) - Supreme Court struck down the Lanham Act's disparagement clause as violating the First Amendment",
+        "Iancu v. Brunetti (2019) - Supreme Court struck down the Lanham Act's immoral or scandalous marks provision as viewpoint discriminatory",
+        "Central Hudson Gas & Electric Corp. v. Public Service Commission (1980) - Established the four-part intermediate scrutiny test for commercial speech",
+        "Reed v. Town of Gilbert (2015) - Established that content-based restrictions on speech are subject to strict scrutiny",
+        "Prior Federal Circuit decisions addressing Section 2(c) constitutional challenges"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I remain persuaded that the as-applied approach is the correct and narrowest ground for decision. Justice Thomas's originalist challenge continues to be the most serious theoretical threat to my position, but as I noted previously, Tam and Brunetti have already resolved the threshold question of whether trademark registration triggers First Amendment scrutiny \u2014 I cannot relitigate those precedents without undermining institutional legitimacy, which is central to my judicial philosophy. Justice Alito's viewpoint-neutrality argument remains the most compelling challenge within the framework I accept, and I acknowledge it warrants a more deferential standard than strict scrutiny, but as Justice Barrett correctly observes, viewpoint neutrality affects the level of scrutiny rather than whether scrutiny applies at all. What ultimately anchors my as-applied holding is the structural mismatch Justice Kavanaugh and Justice Sotomayor both identify: Section 2(c)'s consent requirement paradoxically protects the most prominent public figures \u2014 those with the weakest privacy claims who have voluntarily entered public life \u2014 granting them an effective veto over non-deceptive political commentary, which cannot survive even intermediate scrutiny and which inverts the First Amendment's core purpose of protecting criticism of the powerful. I would assign the majority opinion on the narrowest possible as-applied grounds to preserve the statute's core function while vindicating Elster's First Amendment interests, and I note that Justice Jackson's preference for a facial ruling, while intellectually coherent, sacrifices the institutional benefits of minimalism without sufficient doctrinal necessity.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Gorsuch argues that the original public meaning of 'abridging the freedom of speech' encompassed government actions that 'burdened or penalized' speech, and that conditioning access to a federal legal regime functions as a penalty rather than a withheld gratuity \u2014 but this argument proves too much, as virtually any government benefit program could be recharacterized as a 'burden' on those who don't receive it, collapsing the distinction between direct suppression and non-subsidy that the founding generation understood. Justice Kagan acknowledges that my argument 'has genuine force' but says she is bound by Tam and Brunetti \u2014 yet stare decisis cannot transform a constitutional error into constitutional truth, and if those precedents rest on an ahistorical premise that trademark registration denial constitutes an 'abridgment,' I am not obligated to extend that error further. My colleagues' consensus that Section 2(c) fails tailoring analysis is actually consistent with my position that the government has broad latitude to structure its own registration programs, because if the government has no First Amendment obligation to register marks at all, then Section 2(c)'s consent requirement is simply a permissible condition on a statutory benefit \u2014 the tailoring inquiry my colleagues invoke presupposes the very First Amendment trigger I deny. I maintain my originalist position that the threshold question of whether any First Amendment scrutiny applies here has not been adequately answered by Tam and Brunetti, and I would write separately to preserve this foundational objection even if the majority resolves the case on narrower grounds.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Barrett's invocation of Reed v. Town of Gilbert as compelling strict scrutiny for any content-based restriction remains my primary concern, but I continue to believe that Reed's framework, developed in the context of direct regulation of private speech in public fora, does not translate cleanly to conditions on access to a government registration system \u2014 the government is not silencing Elster, it is declining to extend a statutory benefit, and that distinction matters even after Tam. Chief Justice Roberts's as-applied framing is the most intellectually honest attempt to cabin the damage from Tam and Brunetti, and I acknowledge that the consent requirement's paradoxical protection of the most powerful public figures creates a serious tailoring problem that I cannot dismiss. However, I remain unpersuaded that even intermediate scrutiny necessarily dooms Section 2(c) as applied here \u2014 the government's interest in not being conscripted into facilitating potentially tortious or harassing uses of living persons' identities is not trivial, and the tailoring analysis my colleagues offer assumes that non-deceptive critical commentary is the primary use case, when the statute's broader function of preventing false endorsement claims has genuine merit. I maintain my position, though with diminished confidence, because the doctrinal path from Tam to facial invalidation of Section 2(c) requires analytical steps I find insufficiently grounded in either the original understanding or a coherent limiting principle.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Alito's viewpoint-neutrality argument remains the most serious challenge to my position, and I want to engage it directly: he is correct that Section 2(c) does not discriminate based on perspective, which distinguishes it from Tam and Brunetti and counsels against strict scrutiny. But as Justice Barrett and I both recognize, viewpoint neutrality affects the level of scrutiny applied, not whether scrutiny applies at all \u2014 and under even intermediate scrutiny, Section 2(c) fails because its consent requirement is catastrophically over-inclusive relative to its asserted interests in preventing consumer deception and protecting personal privacy. The provision's structural paradox \u2014 that it most robustly protects the most prominent public figures, precisely those who have voluntarily surrendered privacy expectations and who have the greatest independent resources to protect their reputations \u2014 reveals a fundamental mismatch between means and ends that no level of deference can cure. I am persuaded by Chief Justice Roberts's narrowest-grounds approach that we need not invalidate Section 2(c) facially, but as applied to non-deceptive critical commentary about public figures, the consent requirement functions as a heckler's veto for the powerful, which inverts the First Amendment's core purpose of protecting criticism of those who hold power over our lives.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's viewpoint-neutrality argument continues to be the most intellectually serious challenge to my position, and I want to engage it directly: he is correct that Section 2(c) does not pick winners and losers based on perspective, which distinguishes it from the disparagement clause in Tam and the immoral/scandalous clause in Brunetti. But as Justice Barrett and I agree, viewpoint neutrality affects the level of scrutiny we apply, not whether scrutiny applies at all \u2014 and under even intermediate scrutiny, Section 2(c)'s consent requirement is so poorly tailored to its asserted interests in preventing deception and protecting privacy that it cannot survive. The provision's structural paradox \u2014 protecting only the most prominent public figures who have voluntarily entered public life and have the weakest privacy claims, while granting them an effective veto over non-deceptive critical commentary \u2014 reveals a fundamental mismatch between means and ends that no level of deference can cure. I remain persuaded by Chief Justice Roberts's narrowest-grounds approach: an as-applied holding that Section 2(c) cannot constitutionally require consent for non-deceptive marks criticizing public figures resolves this case without unnecessarily broad pronouncements, preserves the statute's core function in other contexts, and is fully consistent with Tam and Brunetti without requiring us to extend those precedents further than necessary.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge to my position by arguing that trademark registration is a government benefit with no founding-era roots, and therefore the First Amendment is not triggered at all. While I find originalist arguments compelling as a general matter, I cannot accept this framing here: the original public meaning of 'abridging the freedom of speech' encompassed government actions that burdened or penalized speech, and conditioning access to a federal legal regime on surrendering the right to speak about a living person without their consent functions as a penalty on expression, not merely a withholding of a gratuity \u2014 particularly when the registration system creates enforceable legal rights that alter the competitive landscape for speakers. Justice Thomas's reliance on Ysursa is misplaced because that case involved government payroll deductions for political speech, a far more attenuated connection to speech suppression than a federal registration system that directly determines which marks can be legally protected and enforced. I am also persuaded by Chief Justice Roberts's narrower framing that even if we decline to apply strict scrutiny wholesale, Section 2(c) fails reasonable tailoring because its consent requirement grants public figures \u2014 who have voluntarily entered public life and have the weakest privacy claims \u2014 an effective veto over non-deceptive critical commentary, which cannot be squared with the First Amendment's core protection of political speech. The 7-2 tally in favor of respondent reflects a genuine doctrinal consensus built on Tam and Brunetti that I find well-grounded in both text and precedent.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's originalist challenge remains the most serious intellectual threat to my position, but after reviewing the full conference, I am more confident that Tam and Brunetti have settled the threshold government-benefit question as a matter of binding precedent, and my institutionalist commitments counsel strongly against relitigating those holdings in a way that would destabilize the Court's First Amendment jurisprudence. Justice Alito's viewpoint-neutrality argument continues to give me pause \u2014 he is right that Section 2(c) is categorically different from Tam and Brunetti in that respect \u2014 but as Justice Barrett correctly frames it, viewpoint neutrality affects the level of scrutiny rather than whether scrutiny applies, and even under a more deferential intermediate scrutiny standard, the provision's paradoxical structure cannot survive. I am most persuaded by Chief Justice Roberts's as-applied framing, which aligns with my institutionalist preference for narrow holdings: we need not wholesale invalidate Section 2(c) to vindicate Elster's interests, and resolving this on as-applied grounds preserves the statute's core function while protecting non-deceptive critical speech about public figures from an effective consent veto. The mismatch between Section 2(c)'s sweeping consent requirement and its asserted interests in preventing deception and protecting privacy \u2014 a provision that paradoxically shields the most prominent public figures who have the weakest privacy claims \u2014 is the decisive flaw that cannot be cured by the viewpoint-neutrality distinction Justice Alito raises.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's viewpoint-neutrality argument remains the most serious challenge to my position, and I want to engage with it directly: he is correct that Section 2(c) does not discriminate based on perspective, which distinguishes it from Tam and Brunetti and counsels against applying strict scrutiny. However, as I noted in my initial reasoning and as Justice Gorsuch reinforces through Reed v. Town of Gilbert, viewpoint neutrality affects the level of scrutiny rather than whether scrutiny applies \u2014 a content-based restriction that conditions access to federal legal protections on the identity of the person referenced in a mark still burdens speech in a constitutionally cognizable way. Justice Thomas's government-benefit argument is foreclosed by Tam and Brunetti as binding precedent, and while I have some sympathy for his originalist critique of those decisions, I cannot compound the error of ignoring precedent by selectively disregarding it when convenient. The decisive point, which Chief Justice Roberts and Justice Kavanaugh both reinforce, is that even under intermediate scrutiny, Section 2(c)'s consent requirement is so poorly tailored to its asserted interests \u2014 paradoxically protecting the most prominent public figures with the weakest privacy claims while granting them veto power over non-deceptive critical commentary \u2014 that it cannot survive, and I would resolve this on the narrowest as-applied grounds rather than announcing a broader facial rule.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's viewpoint-neutrality argument remains the most serious challenge to my position, and I want to engage it directly one final time: he is correct that Section 2(c) does not discriminate based on perspective, which distinguishes it from the disparagement clause in Tam and the immoral/scandalous clause in Brunetti, but as I have consistently maintained and as Justice Barrett's Reed v. Town of Gilbert analysis confirms, viewpoint neutrality affects the level of scrutiny applied rather than whether scrutiny attaches at all to a content-based restriction on access to a government registration system that confers legally enforceable exclusivity rights. Justice Thomas's originalist challenge is intellectually serious but, as Justice Gorsuch correctly observes, the original public meaning of 'abridging the freedom of speech' encompassed government actions that burdened or penalized expression, and a federal registration system that conditions legal protection on obtaining consent from the very public figures one seeks to criticize functions as a penalty on speech rather than a mere withholding of a gratuity. The decisive structural flaw Justice Sotomayor identifies \u2014 that Section 2(c) paradoxically protects the most prominent public figures who have the weakest privacy claims and the greatest capacity for self-help, while suppressing non-deceptive political commentary \u2014 reveals a fundamental mismatch between the provision's means and its asserted ends that cannot survive even intermediate scrutiny, let alone the more rigorous analysis that content-based restrictions on speech-related government benefits warrant after Tam and Brunetti. I find Chief Justice Roberts's as-applied framing attractive as a minimalist limiting principle, but the structural defect is so fundamental that a cleaner facial ruling better serves the Court's institutional interest in providing workable guidance.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I am deeply reluctant to strike down another provision of the Lanham Act following Tam and Brunetti, the Court has already established in those cases that trademark registration bars constitute restrictions on private speech subject to First Amendment scrutiny, not mere conditions on a government benefit program. That threshold determination, which I would prefer to revisit on narrower grounds, nonetheless binds our analysis here. However, I would resolve this case on the narrowest possible ground: rather than applying strict scrutiny wholesale, I would hold that Section 2(c) as applied to marks criticizing public figures fails even a reasonable tailoring analysis because the provision's consent requirement effectively grants public figures veto power over critical speech that no reasonable person would mistake for an endorsement, extending well beyond the government's legitimate interests in preventing consumer deception and protecting genuine privacy rights. I write separately to emphasize that this holding is limited to the as-applied challenge before us and does not necessarily doom Section 2(c) in all its applications, preserving the statute's core function where genuine confusion or privacy concerns are at stake.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "From an originalist perspective, the First Amendment's prohibition on 'abridging the freedom of speech' must be understood according to its original public meaning, which did not encompass an affirmative right to government-conferred benefits such as trademark registration. Trademark registration is a government-created benefit program with no deep roots in the founding era \u2014 the first federal trademark statute was not enacted until 1870 \u2014 and there is no historical evidence that the Founders understood the First Amendment to compel the government to subsidize or register any particular private expression. Section 2(c) of the Lanham Act does not prevent Elster from using the phrase 'TRUMP TOO SMALL'; it merely withholds a government benefit, and consistent with the distinction drawn in Ysursa v. Pocatello Education Association, the government's refusal to affirmatively assist speech through a registration program is not an abridgment of speech. While I have serious reservations about the Court's commercial speech doctrine and the Central Hudson framework as ahistorical constructs, the threshold question here is whether a First Amendment claim is triggered at all, and the original meaning of the Amendment does not support treating denial of trademark registration as government suppression of speech.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Section 2(c) of the Lanham Act is a viewpoint-neutral restriction that, unlike the provisions struck down in Tam and Brunetti, does not discriminate based on the speaker's message or perspective. The critical unresolved question from Brunetti \u2014 whether a viewpoint-neutral bar on trademark registration constitutes a condition on a government benefit rather than a restriction on private speech \u2014 should be answered in favor of treating registration as a government-conferred benefit, which would subject Section 2(c) to a more deferential reasonableness standard rather than strict or intermediate scrutiny. The provision serves legitimate interests in protecting individuals' privacy and publicity rights and preventing false association, and under a government-benefit framework, Congress has broad latitude to set conditions on access to the federal trademark registration system without triggering heightened First Amendment scrutiny. While I acknowledge the tailoring concerns raised by Elster are not without merit, the proper resolution is to apply a lower standard of review given the viewpoint-neutral character of the provision and the government's legitimate interests in protecting living persons from having their identities appropriated without consent.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Following the framework I articulated in my Brunetti concurrence, I believe Section 2(c) functions as a content-based restriction on private speech rather than a mere condition on a government benefit, and as such must survive at least intermediate scrutiny under Central Hudson. While I am sympathetic to the government's interests in protecting individuals' privacy and publicity rights \u2014 interests that genuinely matter to real people, including those without power or celebrity \u2014 Section 2(c) is so poorly tailored to those interests that it cannot survive even intermediate scrutiny: it paradoxically protects only the most public figures, including the President, while doing nothing for ordinary private individuals who might most need protection. The provision's practical effect, as Tam and Brunetti confirm, is to suppress non-deceptive speech critical of public figures, giving those figures \u2014 who already wield enormous power \u2014 a veto over commentary about them, which cuts directly against the First Amendment's core purpose of protecting political and social criticism. I would hold Section 2(c) unconstitutional as applied here, while leaving open the possibility that a more narrowly tailored consent requirement protecting genuinely private individuals from deceptive commercial exploitation could pass constitutional muster.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Section 2(c) presents a genuinely difficult case, but the textual and doctrinal analysis tips toward finding a First Amendment problem, even if not through strict scrutiny. As the research confirms, Tam's plurality explicitly rejected the government-subsidy framing because trademark registration is not a cash subsidy or equivalent, meaning the government cannot freely condition registration on content-based criteria without scrutiny. While Section 2(c) is viewpoint-neutral\u2014distinguishing it from Tam and Brunetti\u2014it remains a content-based restriction that burdens speech by dissuading speakers from adopting marks they cannot register, and under Sorrell, such targeted content-based burdens require the government to show the restriction directly advances a substantial interest and is drawn to achieve it. The provision as applied to marks criticizing public figures sweeps too broadly: it effectively grants public figures veto power over critical commentary even where no reasonable consumer would perceive endorsement, which cannot survive even intermediate scrutiny because it is not narrowly tailored to the government's legitimate interests in preventing deception and protecting privacy.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "As a textualist and originalist, I must follow the plain meaning of the First Amendment and the Court's established precedents in Matal v. Tam and Iancu v. Brunetti, which held that trademark registration restrictions constitute limitations on private speech subject to First Amendment scrutiny \u2014 not mere conditions on a government subsidy program. Section 2(c) is a content-based restriction because it requires examining the content of the mark to determine whether it identifies a living person, triggering Reed v. Town of Gilbert's strict scrutiny framework. While Section 2(c) is viewpoint-neutral unlike the provisions struck down in Tam and Brunetti, viewpoint neutrality alone does not immunize a content-based restriction from heightened scrutiny, and the provision is so poorly tailored to its asserted interests in preventing deception and protecting privacy that it cannot survive even intermediate scrutiny \u2014 it covers only public figures who have the least privacy interests while blocking non-deceptive critical commentary that would not give rise to any cognizable right-of-publicity claim. The separation of powers concern also weighs heavily here: allowing the government to condition a federal benefit on surrendering the right to use a living person's name without consent effectively deputizes private individuals as censors over speech about themselves, which is precisely the kind of viewpoint-based veto power the First Amendment was designed to prevent.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Following Matal v. Tam and Iancu v. Brunetti, a majority of this Court has already established that Lanham Act registration bars constitute restrictions on private speech subject to First Amendment scrutiny, not merely conditions on a government benefit or subsidy program. While Section 2(c) is viewpoint-neutral unlike the provisions struck down in Tam and Brunetti, that distinction goes to the level of scrutiny rather than whether scrutiny applies at all. Applying at minimum intermediate scrutiny under Central Hudson, Section 2(c) is poorly tailored to its asserted interests in preventing deception and protecting privacy or publicity rights \u2014 it covers only living public figures who are by definition the least in need of privacy protection, and its practical effect is to suppress non-deceptive critical speech about public officials rather than prevent consumer confusion. My institutionalist instincts counsel against extending Tam and Brunetti further than necessary, but the Court's precedents compel the conclusion that some meaningful First Amendment scrutiny applies here, and Section 2(c) cannot survive it given the mismatch between its sweeping consent requirement and its purported justifications.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As an originalist and textualist, I must follow the Court's established precedents in Matal v. Tam and Iancu v. Brunetti, which held that trademark registration restrictions constitute limitations on private speech subject to First Amendment scrutiny, not mere conditions on a government benefit program. Section 2(c) of the Lanham Act is a content-based restriction \u2014 it turns on the specific content of the mark, namely whether it identifies a living person \u2014 and under Reed v. Town of Gilbert, content-based restrictions presumptively trigger heightened scrutiny. While Section 2(c) is viewpoint-neutral, that distinction affects which level of scrutiny applies rather than whether scrutiny applies at all, and the provision's poor fit with its asserted governmental interests in preventing deception and protecting privacy \u2014 given that it covers only public figures and the most prominent political figures who have the least cognizable privacy interests \u2014 renders it unable to survive even intermediate scrutiny under Central Hudson. The government's proposed reasonableness standard finds no firm footing in First Amendment doctrine as this Court has developed it, and adopting such a deferential standard for viewpoint-neutral but content-based speech restrictions would represent an unwarranted departure from established constitutional methodology.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Following the analytical framework established in Matal v. Tam and Iancu v. Brunetti, trademark registration denials constitute restrictions on private speech subject to First Amendment scrutiny, not mere government program administration or government speech. While Section 2(c) is viewpoint-neutral \u2014 distinguishing it from the provisions struck down in Tam and Brunetti \u2014 it remains a content-based restriction that requires at minimum intermediate scrutiny under Central Hudson and Reed v. Town of Gilbert. The government's asserted interests in preventing deception, protecting privacy, and safeguarding publicity rights are legitimate, but Section 2(c) is poorly tailored to achieve those ends: it paradoxically extends heightened protection to the most publicly prominent figures \u2014 those with the least privacy interest \u2014 while doing nothing to prevent genuinely deceptive marks, and it effectively grants public figures veto power over critical commentary that no reasonable consumer would interpret as an endorsement. From a practical consequences standpoint, upholding this provision would allow the government to suppress non-deceptive, non-misleading speech about public officials and figures without adequate constitutional justification, a result that cuts against both free expression values and the equal protection concerns that animate my broader jurisprudence.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.766,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  }
+]

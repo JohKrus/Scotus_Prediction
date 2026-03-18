@@ -1,0 +1,619 @@
+[
+  {
+    "docket": "21-442",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a death row inmate has a due process right under the Fourteenth Amendment to obtain post-conviction DNA testing of evidence that could prove his innocence, and whether his civil rights claim under 42 U.S.C. \u00a7 1983 is time-barred or otherwise procedurally barred.",
+      "legal_provision": "Texas Code of Criminal Procedure Chapter 64 (post-conviction DNA testing statute); 42 U.S.C. \u00a7 1983 (civil rights claims); Fourteenth Amendment Due Process Clause; Ex parte Young doctrine; Rooker-Feldman doctrine; Article III standing requirements",
+      "petitioner_position": "Rodney Reed, a death row inmate convicted of murder, argues that Texas prosecutors unconstitutionally denied him access to DNA testing of biological evidence under Chapter 64, violating his Fourteenth Amendment due process rights. He contends that Ex parte Young provides a valid avenue for his \u00a7 1983 claim against the state prosecutor, that the Rooker-Feldman doctrine does not bar his federal constitutional challenge because he is attacking the constitutionality of Chapter 64 both facially and as applied rather than merely seeking review of the state court judgment, and that he has Article III standing because the prosecutor's refusal to allow testing is directly causing his injury and a declaratory order would provide redress.",
+      "respondent_position": "Texas Attorney General Bryan Goertz argues that Reed's \u00a7 1983 claims are procedurally barred under the Rooker-Feldman doctrine because Reed is effectively challenging the Texas Court of Criminal Appeals' adverse ruling on his Chapter 64 DNA testing request, which constitutes an impermissible collateral attack on a state court judgment in federal court. Respondent further contends that Ex parte Young does not apply to Reed's claims, that Reed lacks proper Article III standing, and that the state's application of Chapter 64 was constitutionally sound.",
+      "key_precedents": [
+        "District Attorney's Office v. Osborne, 557 U.S. 52 (2009) - established that prisoners may have a limited due process right to post-conviction DNA testing",
+        "Skinner v. Switzer, 562 U.S. 521 (2011) - held that a \u00a7 1983 claim is a proper vehicle for challenging constitutionality of a state DNA testing statute",
+        "Ex parte Young, 209 U.S. 123 (1908) - established the doctrine allowing suits against state officials in federal court to enjoin unconstitutional conduct",
+        "Rooker-Feldman doctrine (Rooker v. Fidelity Trust Co., 263 U.S. 413 (1923); District of Columbia Court of Appeals v. Feldman, 460 U.S. 462 (1983)) - bars federal district courts from reviewing state court judgments",
+        "42 U.S.C. \u00a7 1983 - federal civil rights statute under which Reed brought his claims"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge with his Rooker-Feldman analysis, arguing that Reed is functionally seeking federal district court review of the Texas Court of Criminal Appeals' judgment. However, Skinner v. Switzer directly forecloses this argument by drawing a clear distinction between attacking a state court judgment (barred by Rooker-Feldman) and attacking the constitutionality of the statute the state court construed and applied (permissible under \u00a7 1983). Justice Alito's federalism concerns are well-taken \u2014 Osborne does counsel deference to state DNA testing frameworks \u2014 but that deference has limits when the procedures as applied are alleged to be constitutionally deficient, and the proper vehicle for that challenge is precisely what Skinner established. As Chief Justice, I would assign a narrow majority opinion focused solely on the accrual question \u2014 that the limitations period began running when the Texas Court of Criminal Appeals issued its authoritative construction in 2017, not at the trial court denial in 2014 \u2014 without reaching the broader substantive due process question under Osborne, which would attract the broadest coalition and preserve institutional legitimacy by deciding no more than necessary.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I find the convergence around Chief Justice Roberts' narrow accrual framing most persuasive as a matter of textualist methodology \u2014 if the cognizable \u00a7 1983 injury is the statute's unconstitutional operation as authoritatively construed by the state's highest court, then the Fifth Circuit's rule starting the limitations clock at the trial court denial is simply indefensible, because it requires the claim to accrue before the authoritative construction that defines the injury even exists. Justice Gorsuch's careful parsing of Exxon Mobil's actual text \u2014 limiting Rooker-Feldman to injuries 'caused by state-court judgments' rather than injuries caused by the ongoing operation of a statute as enforced by a prosecutor \u2014 reinforces my view that Rooker-Feldman does not bar Reed's claim under a rigorous reading of the doctrine's historical and textual scope. I maintain my deeper skepticism about any freestanding substantive due process right to DNA testing under Osborne, and I would write separately to emphasize that today's holding addresses only the procedural vehicle and accrual questions without endorsing an expansive reading of post-conviction due process rights. The narrow ground identified by Chief Justice Roberts commands my vote precisely because it resolves the case on the most textually defensible basis without requiring me to reach the substantive constitutional questions that most trouble me.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's shift to Petitioner on the narrow accrual and Rooker-Feldman questions is particularly significant \u2014 if even the most skeptical voice on substantive due process expansion acknowledges that Skinner's procedural framework controls the threshold questions here, that confirms my own reading that the Fifth Circuit's accrual rule is textually indefensible. Justice Roberts' minimalist framing remains the most prudent path: we need only hold that the limitations period could not begin running before the Texas Court of Criminal Appeals issued its authoritative construction in 2017, without wading into the contested Osborne substantive due process terrain where my skepticism remains strongest. Justice Sotomayor and Justice Jackson press for a broader ruling addressing Chapter 64's constitutional adequacy as applied, but I continue to resist that expansion \u2014 Osborne counseled substantial deference to state DNA testing frameworks, and nothing in the accrual question before us requires us to second-guess Texas's policy judgments about post-conviction evidence access. I join the Petitioner coalition on the narrow procedural grounds of accrual and Rooker-Feldman jurisdiction, while reserving judgment on whether Chapter 64 as construed actually violates due process.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Thomas raises the most serious counterargument \u2014 that Reed is functionally seeking federal district court review of the Texas Court of Criminal Appeals' judgment, which would implicate Rooker-Feldman. But this argument fails because, as Justice Barrett correctly articulates, Skinner v. Switzer drew a legally meaningful distinction between attacking a state court judgment and attacking the constitutionality of the statute the state court construed and applied; Reed does the latter. Justice Alito's invocation of Osborne's deference to state DNA testing frameworks is also significant, but Osborne itself recognized that due process imposes some floor of procedural adequacy \u2014 it did not grant states unlimited discretion to construct procedures that operate arbitrarily or that effectively foreclose access to potentially exculpatory evidence. Where, as here, a man faces execution and biological evidence exists that could establish his innocence, the Due Process Clause's guarantee of fundamental fairness demands that federal courts have jurisdiction to assess whether the state's procedures meet constitutional minimums, and the practical irreversibility of execution makes the stakes of procedural foreclosure uniquely severe.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge by suggesting Reed is functionally seeking review of the state court judgment, but this conflates the target of the challenge with its procedural effect \u2014 Skinner expressly held that challenging a statute's constitutionality as construed is categorically different from seeking reversal of the judgment itself, and the Rooker-Feldman doctrine's narrow scope, as reaffirmed in Exxon Mobil, does not reach independent constitutional challenges to statutes. Justice Alito's federalism concern about Osborne's deference to state procedures is well-taken as a substantive matter, but it addresses the merits of the due process claim rather than the threshold procedural questions of accrual and Rooker-Feldman that are actually dispositive here. On the accrual question specifically, I find Chief Justice Roberts' minimalist framing persuasive \u2014 we can resolve this case narrowly by holding that the limitations clock could not have started before the Texas Court of Criminal Appeals issued its authoritative construction in 2017, without needing to reach the full Osborne substantive question. The Fifth Circuit's accrual rule is textually indefensible because it starts the clock before the cognizable injury \u2014 the statute's unconstitutional operation as finally and authoritatively construed \u2014 has fully materialized.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Thomas's shift to Petitioner on the narrow accrual and Rooker-Feldman questions is significant precisely because he is the colleague most skeptical of expansive \u00a7 1983 post-conviction claims, and his acknowledgment that Skinner is binding precedent he joined in relevant part \u2014 combined with his recognition that Chief Justice Roberts' accrual framing is textually sound \u2014 confirms that the procedural questions here can be resolved without reaching the substantive due process merits that most trouble the federalism-minded members of this Court. Justice Alito's concession that the Fifth Circuit's rule starting the limitations clock at the trial court denial is 'difficult to defend on textualist grounds' is equally telling: a textualist methodology demands that the cognizable \u00a7 1983 injury cannot accrue before the statute receives its authoritative construction from the state's highest court, and the Texas Court of Criminal Appeals did not issue that construction until 2017, making Reed's 2019 filing timely. I continue to find Justice Barrett's Ex parte Young analysis compelling as an independent basis for jurisdiction \u2014 the prosecutor's ongoing role as gatekeeper of the biological evidence provides the prospective relief hook that distinguishes this from a collateral attack on the state judgment, and this structural point reinforces why Rooker-Feldman does not bar the claim. The unanimous convergence on Petitioner across methodologically diverse colleagues, including the two most skeptical of expansive post-conviction rights, confirms that the textual and precedential case for reversal is strong, and I maintain my position with slightly increased confidence.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable degree of consensus, including Justice Thomas and Justice Alito shifting to Petitioner on the narrow procedural grounds, which reinforces my view that Chief Justice Roberts' minimalist framing is the correct path forward. Justice Thomas's residual skepticism about the substantive due process dimension under Osborne is well-taken and I share it \u2014 we should not use this case to expand freestanding constitutional rights to DNA testing beyond what Osborne recognized \u2014 but that concern is properly reserved for the merits stage rather than resolved at the threshold accrual and jurisdictional questions. The Fifth Circuit's accrual rule is textually indefensible precisely because it starts the limitations clock before the Texas Court of Criminal Appeals issued its authoritative construction of Chapter 64 in 2017, meaning Reed's August 2019 filing was timely under any coherent application of Skinner's framework. I would join a narrow majority opinion focused solely on the accrual question, consistent with the Court's institutional interest in deciding no more than necessary and preserving the broadest possible coalition.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable consensus, and I find the collective reasoning reinforces rather than undermines my position. Justice Thomas's shift to Petitioner on the narrow accrual and Rooker-Feldman questions is particularly significant \u2014 his acknowledgment that Skinner is binding precedent and that the limitations period cannot logically begin before the Texas Court of Criminal Appeals issued its authoritative construction in 2017 reflects exactly the kind of rigorous textualist analysis I find most persuasive. Justice Roberts' minimalist framing remains the wisest path forward: by resolving this case on the accrual question \u2014 that the Fifth Circuit's rule starting the clock at the 2014 trial court denial is incompatible with Skinner's logic because the cognizable injury under \u00a7 1983 cannot accrue before the statute receives its authoritative construction \u2014 we can command the broadest coalition while preserving the harder Osborne substantive due process questions for a case that squarely presents them. I note Justice Alito's residual skepticism about the substantive dimension is well-founded and should inform how narrowly we write the opinion, ensuring we do not inadvertently constitutionalize an expansive right to DNA testing beyond what Osborne's floor requires.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Thomas raises the most serious challenge by arguing that Reed is functionally seeking review of the Texas Court of Criminal Appeals' judgment under the guise of a \u00a7 1983 claim, which would implicate Rooker-Feldman. However, as Justice Barrett correctly identifies, Skinner v. Switzer drew a legally meaningful distinction between attacking a state court judgment and attacking the constitutionality of the statute the court applied \u2014 Reed's claim falls squarely in the latter category, targeting Chapter 64's constitutional deficiencies rather than asking us to reverse the CCA's ruling. Justice Alito's federalism concerns about Osborne are well-taken, but Osborne itself acknowledged that states must provide procedurally adequate mechanisms, and where a death row inmate faces execution and biological evidence exists that could exonerate him, the arbitrary or fundamentally deficient application of a testing statute crosses the constitutional threshold Osborne identified. Justice Roberts' narrow accrual-focused approach is appealing from a minimalist standpoint, but I believe the better course is to address both the procedural vehicle question and the substantive adequacy of Chapter 64 as applied, given the irreversible stakes and the need for clear guidance to lower courts on how Skinner and Osborne interact in capital post-conviction proceedings.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Skinner v. Switzer, 562 U.S. 521 (2011), directly controls the procedural posture here and establishes that \u00a7 1983 is a proper vehicle for challenging the constitutionality of a state DNA testing statute, with the claim accruing when the state courts have authoritatively construed and applied the statute \u2014 not at the trial court level. The Fifth Circuit's ruling that the limitations period began running in November 2014 at the trial court denial is fundamentally incompatible with Skinner's reasoning that such claims challenge the constitutionality of the statute as construed by the state courts, meaning the claim could not have accrued until the Texas Court of Criminal Appeals issued its authoritative construction in 2017. Consistent with my minimalist approach, I would resolve this case on the narrow statute of limitations accrual question without reaching the broader substantive due process question under Osborne, as Reed diligently filed in federal court in August 2019 \u2014 well within two years of the October 2017 final state court ruling. Institutional legitimacy concerns also counsel against allowing the lower courts' cramped reading of Skinner to effectively foreclose federal constitutional review of state DNA testing procedures in capital cases.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I joined the majority in Skinner v. Switzer acknowledging that \u00a7 1983 can be a proper vehicle for challenging a state DNA testing statute's constitutionality, my originalist analysis of the Fourteenth Amendment's Due Process Clause is deeply skeptical of expansive substantive and procedural due process rights that lack grounding in the original public meaning of that provision. As I noted in my Osborne concurrence, the Constitution's text and original meaning do not clearly establish a freestanding due process right to post-conviction DNA testing, and states retain broad authority under our federal structure to define the contours of post-conviction proceedings. The Rooker-Feldman analysis here is genuinely close, but Reed's repeated invocation of the state court's adverse rulings as the source of his injury suggests he is functionally seeking federal district court review of a state court judgment, which only this Court may conduct under 28 U.S.C. \u00a7 1257. Furthermore, principles of federalism and respect for state sovereignty counsel deference to Texas's legislative judgment in crafting Chapter 64, rather than using \u00a7 1983 as a mechanism to override the state's considered policy choices about post-conviction procedures.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While Skinner v. Switzer, 562 U.S. 521 (2011), established that \u00a7 1983 can be a proper vehicle for challenging the constitutionality of a state DNA testing statute, and the Rooker-Feldman doctrine is indeed narrow in scope, Reed's claims present significant procedural complications that counsel in favor of the respondent. Texas has provided a post-conviction DNA testing mechanism through Chapter 64, and under District Attorney's Office v. Osborne, 557 U.S. 52 (2009), states have broad latitude to structure such procedures without federal due process interference so long as the procedures are fundamentally adequate \u2014 the state is not required to provide the optimal or most expansive testing regime. As a textualist, I am skeptical of reading the Fourteenth Amendment's due process clause to impose affirmative obligations on states to provide DNA testing beyond what their legislatures have chosen to enact, particularly where the state courts have already applied Chapter 64 and found Reed's request wanting under the statute's terms. Furthermore, practical concerns about federalism and finality of state criminal judgments weigh heavily against allowing federal courts to second-guess state court applications of state DNA testing statutes through the vehicle of \u00a7 1983.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Skinner v. Switzer, 562 U.S. 521 (2011), directly controls here and forecloses Goertz's procedural objections: a \u00a7 1983 challenge to the constitutionality of a state DNA testing statute is a proper vehicle precisely because success would not 'necessarily imply' the invalidity of Reed's conviction, as DNA results could be inconclusive or even inculpatory. The Rooker-Feldman doctrine, which is narrow and applies only to direct review of state court judgments, does not bar Reed's facial and as-applied constitutional challenge to Chapter 64 itself \u2014 he is attacking the statute's constitutionality, not asking a federal court to reverse the Texas Court of Criminal Appeals' ruling. Ex parte Young provides a valid avenue for prospective injunctive relief against Goertz in his official capacity, and Reed plainly has Article III standing because the prosecutor's refusal to permit testing is the direct cause of his injury and a favorable declaratory judgment would redress it. Most fundamentally, where a man's life hangs in the balance and biological evidence exists that could exonerate him, the Due Process Clause demands meaningful access to that evidence \u2014 the practical stakes for this most vulnerable of petitioners could not be higher.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Skinner v. Switzer, 562 U.S. 521 (2011), directly controls the procedural posture here: Reed's \u00a7 1983 claim targets the constitutionality of Chapter 64 as authoritatively construed by the Texas Court of Criminal Appeals, not the state court judgment itself, placing it squarely outside Rooker-Feldman's narrow scope. The Fifth Circuit's accrual rule \u2014 starting the limitations clock at the trial court's initial denial \u2014 is textually and functionally indefensible because the cognizable \u00a7 1983 injury is the statute's unconstitutional operation as finally construed through the state appellate process, not any preliminary ruling. Under Osborne's framework, Texas must provide adequate procedural mechanisms for post-conviction DNA access, and a workable reading of \u00a7 1983 standing and Ex parte Young together permits Reed to challenge the prosecutor's ongoing enforcement of a constitutionally deficient statute, since the injury is traceable to that enforcement and redressable by declaratory relief. Foreclosing federal review through an artificially early accrual rule would render Skinner's holding hollow and leave death row inmates with no meaningful federal forum to vindicate due process rights that Osborne expressly recognized.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), a \u00a7 1983 challenge to the constitutionality of Texas's Chapter 64 DNA testing statute is a proper vehicle precisely because Reed targets the statute's unconstitutional operation rather than seeking direct review of the Texas Court of Criminal Appeals' judgment \u2014 the Rooker-Feldman doctrine, narrowly construed as its text and history demand, bars only federal district court review of state court decisions themselves, not independent constitutional challenges to the statutes those courts construe. The plain text of \u00a7 1983 provides a cause of action for deprivations of constitutional rights under color of state law, and Ex parte Young supplies the necessary jurisdictional hook against the state prosecutor acting in an ongoing enforcement capacity. As Osborne recognized, prisoners retain some due process interest in accessing evidence that could prove innocence, and where a state's post-conviction testing regime operates in an arbitrary or constitutionally deficient manner as applied, federal courts retain authority to say so without impermissibly colliding with the state judgment. The separation of powers concern cuts in Reed's favor here \u2014 it is the federal judiciary's role, not the executive's, to determine whether a state statute as applied violates the Fourteenth Amendment, and procedural doctrines should not be stretched beyond their textual and historical limits to foreclose that review.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), a \u00a7 1983 claim is a proper vehicle for challenging the constitutionality of a state DNA testing statute, and the Rooker-Feldman doctrine does not bar Reed's claims because he is targeting the constitutionality of Chapter 64 as construed, not seeking direct review of the Texas Court of Criminal Appeals' judgment itself. The research confirms that Skinner drew precisely this distinction: 'a statute or rule governing the decision may be challenged in a federal action,' even where a state court has ruled adversely. From an institutionalist and precedent-respecting standpoint, Skinner is directly on point and controlling, and departing from it without compelling reason would undermine the Court's consistency and legitimacy. While Osborne counsels deference to state DNA testing frameworks, it does not foreclose federal constitutional challenges where a state's procedures are alleged to be fundamentally inadequate, and practical considerations \u2014 including the irreversible consequence of executing a potentially innocent person \u2014 weigh in favor of allowing Reed's claims to proceed on the merits rather than being dismissed on procedural grounds.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1983 provides a cause of action for deprivations of constitutional rights under color of state law, and Skinner v. Switzer, 562 U.S. 521 (2011), directly controls here by holding that a post-conviction challenge to the constitutionality of a state DNA testing statute is properly pursued under \u00a7 1983 rather than habeas corpus, because success would not 'necessarily imply' the invalidity of the underlying conviction. The Rooker-Feldman doctrine, properly understood in its narrow scope as reaffirmed in Exxon Mobil Corp. v. Saudi Basic Industries Corp., 544 U.S. 280 (2005), bars only direct review of state court judgments\u2014it does not bar a federal constitutional challenge to the statute or rule governing the state court's decision, which is precisely what Reed brings here. As Skinner makes clear, the distinction between attacking the state court judgment itself and attacking the constitutionality of the underlying statute is legally meaningful and jurisdictionally significant; Reed's claim falls into the latter category. Furthermore, Ex parte Young provides a proper avenue for prospective declaratory relief against the prosecutor as the gatekeeper of the evidence, and Osborne's recognition of a limited due process interest in post-conviction DNA testing procedures supports the substantive constitutional claim where state procedures are applied in an arbitrary or fundamentally unfair manner.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), Reed's \u00a7 1983 challenge to the constitutionality of Texas Chapter 64 as applied is precisely the type of claim the Court held is properly brought under \u00a7 1983 rather than habeas, and the Rooker-Feldman doctrine does not bar it because Reed targets the unconstitutional statute itself rather than seeking direct review of the Court of Criminal Appeals' judgment. Ex parte Young provides a valid avenue for prospective injunctive relief against the state prosecutor, and Reed has clear Article III standing because the prosecutor's refusal to permit testing is a concrete, traceable injury that a declaratory or injunctive order would redress. My background as a public defender and commitment to procedural fairness compels recognition that where DNA testing could exonerate a death row inmate, the Due Process Clause under Osborne requires that the state's post-conviction testing procedures not be applied in an arbitrary or constitutionally deficient manner that forecloses access to potentially exculpatory evidence. The practical consequences here are irreversible \u2014 an execution cannot be undone \u2014 which weighs heavily in favor of ensuring meaningful procedural access to evidence that could prove innocence.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.832,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "21-442",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a death row inmate's due process claim for post-conviction DNA testing under Texas law is cognizable under Ex parte Young via a Section 1983 action, and what statute of limitations applies to such a claim.",
+      "legal_provision": "Texas Code of Criminal Procedure Article 64 (Chapter 64 - post-conviction DNA testing statute); 42 U.S.C. \u00a7 1983 (Civil Rights Act); Fourteenth Amendment Due Process Clause; Ex parte Young doctrine (209 U.S. 123)",
+      "petitioner_position": "Rodney Reed, a death row inmate convicted of murder, argues that Texas prosecutors violated his constitutional due process rights by refusing to allow DNA testing of evidence that could exonerate him. Reed contends that: (1) his Section 1983 claim is properly brought under Ex parte Young against the state prosecutor in his official capacity to enjoin ongoing unconstitutional conduct; (2) the claim is not barred by the Rooker-Feldman doctrine because he challenges the constitutionality of Article 64 both facially and as applied, not merely the state court judgment itself; (3) he has Article III standing because Goertz's refusal to allow testing is the direct cause of his injury; and (4) a declaratory order would redress his injury by preventing Goertz from relying on the CCA's unconstitutional interpretation of Article 64.",
+      "respondent_position": "Bryan Goertz, the state prosecutor, argues that: (1) Reed's claims are barred by the Rooker-Feldman doctrine because the thrust of Reed's allegations challenge the Texas Court of Criminal Appeals' (CCA) application of Chapter 64, which constitutes a de facto appeal of a state court judgment to a federal district court; (2) Ex parte Young is not the appropriate vehicle for Reed's claims; (3) Reed lacks Article III standing because his alleged injury is not fairly traceable to Goertz's conduct but rather to the state court's adverse ruling; and (4) the federal courts lack jurisdiction to entertain what is essentially a collateral attack on a final state court criminal judgment.",
+      "key_precedents": [
+        "District Attorney's Office v. Osborne, 557 U.S. 52 (2009) - established that prisoners may have a limited due process right to post-conviction DNA testing",
+        "Skinner v. Switzer, 562 U.S. 521 (2011) - held that a Section 1983 action is a proper vehicle to challenge the constitutionality of a state's post-conviction DNA testing statute",
+        "Ex parte Young, 209 U.S. 123 (1908) - established the doctrine allowing suits against state officials in their official capacity to enjoin unconstitutional conduct",
+        "Rooker-Feldman doctrine (Rooker v. Fidelity Trust Co., 263 U.S. 413 (1923); District of Columbia Court of Appeals v. Feldman, 460 U.S. 462 (1983)) - bars federal district courts from reviewing final state court judgments",
+        "42 U.S.C. \u00a7 1983 - the federal civil rights statute under which Reed brought his claim"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's federalism argument remains the most serious challenge, but as Justice Barrett correctly identifies, it cannot overcome Skinner's direct holding \u2014 issued after Osborne \u2014 which explicitly resolved the Rooker-Feldman and Section 1983 vehicle questions in precisely this context. The accrual question is, as Justice Kagan argues, essentially dispositive on the timeliness issue: requiring Reed to file a federal constitutional challenge to a statute 'as authoritatively construed' before the CCA issued that authoritative construction in October 2017 is logically incoherent and would generate the premature, duplicative litigation that sound accrual doctrine exists to prevent. Consistent with my minimalist approach, I would write the majority opinion narrowly \u2014 resolving this case on Skinner's framework and the accrual question without broadly expanding Osborne's post-conviction due process floor or pronouncing on the ultimate merits of Reed's constitutional claim, thereby preserving institutional legitimacy and leaving room for the state courts to address the underlying DNA testing question on remand. This narrow ground should hold the 7-2 coalition while avoiding the overreach that could invite future challenges to the Court's institutional credibility.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Barrett's argument that Skinner was decided after Osborne and directly addressed the precise intersection of Section 1983, Rooker-Feldman, and state post-conviction DNA statutes is the argument that most moves me \u2014 as a textualist and originalist, I cannot simply ignore a controlling precedent from this Court without identifying a principled basis for distinguishing or overruling it, and none of the parties have asked us to overrule Skinner. Justice Kagan's accrual logic is also genuinely compelling under my methodology: the text of a claim challenging a statute 'as authoritatively construed' cannot be read to accrue before the authoritative construction exists, and the Fifth Circuit's contrary approach lacks textual foundation. I maintain serious reservations about whether the Due Process Clause, properly understood through its original public meaning, compels states to provide post-conviction DNA testing procedures beyond what they have chosen to enact, and my federalism concerns about federal courts superintending state post-conviction determinations remain \u2014 but these concerns go to the merits of the constitutional claim, not to the threshold questions of Section 1983 vehicle propriety and timeliness that Skinner and basic accrual principles resolve against the respondent. Accordingly, I am persuaded to join the petitioner's position on the procedural questions while reserving my deeper skepticism about the ultimate constitutional merits for another day.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Barrett and Justice Kagan have persuaded me on the statute of limitations question \u2014 the logic is genuinely sound that a Section 1983 claim challenging a statute 'as authoritatively construed' cannot accrue before that authoritative construction exists, and the Fifth Circuit's approach of running the clock from the 2014 trial court denial is indefensible on basic accrual principles. On the Rooker-Feldman and Ex parte Young questions, I remain more skeptical than my colleagues, and I continue to believe that Osborne's cautionary approach to post-conviction rights deserves more weight than the majority gives it \u2014 but Skinner's holding is difficult to distinguish on its face, and I cannot in good conscience maintain that the jurisdictional bar applies when this Court already resolved the structural question in a materially identical posture. My remaining federalism concerns about federal courts superintending state post-conviction procedures in capital cases are real, but they go to the merits of the underlying due process claim rather than to justiciability, and those concerns are better addressed in how narrowly we write the opinion than in dismissing the case entirely. I therefore join the petitioner's position, though I would write separately to emphasize that today's holding does not broadly expand Osborne's framework and that states retain substantial latitude in designing post-conviction procedures.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Thomas raises the most serious counterargument, contending that Reed's claim is functionally an attack on the CCA's judgment and that the Due Process Clause does not furnish affirmative entitlements to post-conviction procedures beyond what states provide. But this argument cannot survive Skinner's direct holding: we explicitly approved Section 1983 as the vehicle for exactly this kind of challenge, and the Rooker-Feldman doctrine \u2014 as Exxon Mobil clarified \u2014 does not extend to constitutional challenges to statutes merely because a state court has construed them adversely. Justice Alito's statute of limitations argument deserves engagement: running the clock from the trial court's 2014 denial, before the CCA issued its authoritative construction in October 2017, would force prisoners to file federal constitutional challenges against a statute that hasn't yet been definitively interpreted \u2014 an absurdity that Justice Kagan correctly identifies as a workability disaster generating premature, duplicative litigation. From my pragmatic standpoint, the irreversible consequence of executing a potentially innocent man who has been denied access to DNA evidence that could exonerate him \u2014 where the state's procedures are constitutionally deficient \u2014 is precisely the kind of grave injustice the Due Process Clause and Section 1983 were designed to prevent.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's argument that the statute of limitations should run from the trial court's 2014 denial \u2014 rather than the CCA's authoritative 2017 construction \u2014 is the strongest challenge to my position, but it fails on basic accrual logic: a Section 1983 claim challenging a statute 'as authoritatively construed' by the state's highest court simply cannot accrue before that authoritative construction exists. As Justice Barrett correctly identifies, forcing Reed to file before the CCA issued its definitive interpretation would require federal courts to adjudicate constitutional challenges to a moving target, generating exactly the kind of premature and duplicative litigation that sound judicial administration must avoid. Justice Thomas raises legitimate federalism concerns about federal courts superintending state post-conviction procedures, but Skinner v. Switzer already resolved the core structural question \u2014 Section 1983 is the proper vehicle precisely because DNA testing results would not necessarily imply the invalidity of the conviction, and Ex parte Young's ongoing-conduct framework properly targets Goertz's continuing refusal rather than the state court judgment. The workability disaster of the Fifth Circuit's accrual rule \u2014 which would require prisoners to file federal constitutional challenges before state courts finish construing the challenged statute \u2014 is sufficient reason alone to reverse.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge from the opposing side, arguing that Reed's claim is functionally an attack on the CCA's adverse ruling and that the Due Process Clause does not furnish affirmative entitlements to post-conviction procedures beyond what states provide. But this argument conflates two distinct inquiries: whether Rooker-Feldman bars jurisdiction and whether the underlying constitutional claim has merit. Skinner v. Switzer, 562 U.S. 521 (2011), resolved the jurisdictional question by holding that a \u00a7 1983 challenge to a state DNA testing statute as construed does not attack the state court judgment itself \u2014 the injury flows from the prosecutor's ongoing refusal to permit testing, not from the judgment. Justice Barrett correctly identifies that the statute of limitations cannot begin running before the CCA issued its authoritative construction of Article 64 in October 2017, because a claim challenging a statute 'as authoritatively construed' is logically impossible to bring before that construction exists \u2014 a straightforward application of standard accrual principles that the Fifth Circuit simply got wrong. My textualist methodology compels me to apply \u00a7 1983's plain terms and Ex parte Young's established framework without judicial contraction motivated by sympathy for finality interests that Congress did not encode into the statute.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments in round 2, I remain firmly with the petitioner. Justice Thomas's most serious challenge \u2014 that Reed's claim is functionally an attack on the CCA's judgment and that the Due Process Clause does not furnish affirmative entitlements to post-conviction procedures \u2014 cannot survive Skinner v. Switzer's direct holding, which resolved precisely this structural question by focusing on whether success 'necessarily implies' invalidity of the conviction rather than whether the claim is adverse to a state court ruling. Justice Barrett correctly identifies that the 7-2 tally reflects genuine doctrinal weight, not coalition pressure, and her analysis of the accrual question is particularly persuasive: requiring Reed to file before the CCA issued its authoritative construction in October 2017 would force federal courts to adjudicate constitutional challenges to a moving target, generating premature and duplicative litigation that sound judicial administration must avoid. As an institutionalist, I am reinforced in my view that departing from Skinner's clear holding without compelling new reasoning would undermine the Court's consistency and legitimacy \u2014 Justice Alito's concession that the accrual argument 'weakens my confidence' in the respondent's position further confirms that the Fifth Circuit's approach is indefensible on basic accrual principles, and the federalism concerns, while real, were already weighed and resolved in Skinner's framework.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Thomas raises the most serious challenge by arguing that Reed's claim is 'functionally an attack' on the CCA's ruling and that the Due Process Clause does not furnish affirmative entitlements to post-conviction procedures beyond what the State provides\u2014a position grounded in Osborne's cautionary language. However, this argument cannot overcome Skinner's direct holding, which this Court issued after Osborne and which squarely addressed the precise intersection of Section 1983, Rooker-Feldman, and state post-conviction DNA statutes; Skinner's majority explicitly rejected the functional-attack framing by focusing on whether success 'necessarily implies' invalidity of the conviction, not on whether the claim is adverse to a state court ruling. Justice Alito's statute of limitations argument\u2014that running the clock from the trial court's 2014 denial better serves finality\u2014also fails under basic accrual principles: a claim challenging a statute 'as authoritatively construed' by the state's highest court logically cannot accrue before that authoritative construction exists, and requiring premature federal filing before the CCA has spoken would generate the very duplicative, unripe litigation that accrual doctrine is designed to prevent. The 7-2 tally reflects not mere coalition pressure but the genuine doctrinal weight of Skinner, Exxon Mobil's narrow reading of Rooker-Feldman, and Ex parte Young's established application to ongoing official conduct.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "Justice Thomas raises the most serious challenge, arguing that Reed's claim is functionally an attack on the CCA's adverse ruling and that the Due Process Clause does not furnish affirmative entitlements to post-conviction procedures beyond what the State provides \u2014 a position rooted in his Osborne concurrence. But this argument conflates the Rooker-Feldman inquiry with the merits: Skinner explicitly held that a challenge to a statute 'as authoritatively construed' is cognizable under Section 1983 even after a state court has applied that statute adversely, because the injury flows from the ongoing unconstitutional executive conduct of the prosecutor, not from the judgment itself. Justice Alito's statute of limitations argument \u2014 that the clock ran from the trial court's 2014 denial \u2014 is equally untenable, as Justice Kagan correctly identifies: a claim challenging a statute 'as authoritatively construed' by the CCA cannot logically accrue before that authoritative construction was issued in October 2017, and forcing premature federal filings before state proceedings conclude would generate exactly the kind of duplicative, unripe litigation that sound judicial administration abhors. My background as a public defender reinforces what the doctrine already compels: where a death row inmate challenges the constitutionality of the procedures themselves \u2014 not merely their application \u2014 and where the practical consequence of foreclosure is irreversible, procedural fairness demands that the federal courthouse door remain open.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), a Section 1983 action is the proper vehicle to challenge the constitutionality of a state post-conviction DNA testing statute, and such a challenge is not barred by Rooker-Feldman because Reed targets the validity of Chapter 64 as authoritatively construed\u2014not the state court judgment itself. The Rooker-Feldman doctrine occupies narrow ground confined to cases where state-court losers seek direct review and rejection of state court judgments, and as Exxon Mobil clarified, 'a statute or rule governing the decision may be challenged in a federal action.' Ex parte Young remains an appropriate mechanism to enjoin a state prosecutor acting in his official capacity from enforcing an unconstitutionally applied statute, and Reed's injury is fairly traceable to Goertz's ongoing refusal to permit testing rather than solely to the CCA's judgment. Consistent with my preference for narrow rulings, I would resolve this case on the limited grounds established by Skinner without broadly expanding post-conviction rights, while preserving the institutional integrity of federal courts to adjudicate genuine constitutional challenges to state statutes.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While Skinner v. Switzer, 562 U.S. 521 (2011), established that Section 1983 is a proper vehicle for challenging state post-conviction DNA testing statutes without triggering the Heck bar, my originalist reading of the Fourteenth Amendment's Due Process Clause and the limited federal judicial power under Article III counsels significant restraint here. The Rooker-Feldman doctrine, properly understood, reflects the constitutional structure that vests appellate jurisdiction over state court judgments exclusively in this Court under 28 U.S.C. \u00a7 1257, and Reed's claim \u2014 however artfully framed as a constitutional challenge to Article 64 \u2014 is functionally an attack on the Texas Court of Criminal Appeals' adverse ruling. Furthermore, as I noted in my Osborne concurrence, the Due Process Clause does not readily furnish affirmative entitlements to post-conviction procedures beyond what the State has chosen to provide, and federal courts should be deeply reluctant to superintend state criminal justice procedures through expansive Ex parte Young injunctions that effectively commandeer state prosecutorial discretion. The federalism and comity concerns embedded in our constitutional structure, which the Framers understood as fundamental, weigh heavily against permitting federal district courts to become forums for relitigating state court DNA testing determinations.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While Skinner v. Switzer, 562 U.S. 521 (2011), established that Section 1983 is a proper vehicle for challenging the constitutionality of a state's post-conviction DNA testing statute, Reed's claim raises serious jurisdictional concerns that counsel restraint. The Rooker-Feldman doctrine bars federal district courts from entertaining what amounts to a de facto appeal of the Texas Court of Criminal Appeals' authoritative construction of Chapter 64, and Reed's challenge is fundamentally directed at the state court's adverse ruling rather than an independently unconstitutional executive action by Goertz. Furthermore, as District Attorney's Office v. Osborne, 557 U.S. 52 (2009), made clear, states have broad latitude to structure their post-conviction procedures, and federal courts should be deeply cautious about using Ex parte Young to circumvent the finality of state criminal judgments, particularly where federalism and comity interests are at their apex in capital cases. On the statute of limitations question, the Fifth Circuit's approach\u2014running the clock from the trial court's denial rather than the conclusion of all state appeals\u2014better serves the practical interest in finality and discourages strategic delay by defendants seeking to forestall execution.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), a Section 1983 action is the proper vehicle for challenging the constitutionality of a state post-conviction DNA testing statute because success would not 'necessarily imply' the invalidity of Reed's conviction \u2014 DNA results could be inconclusive or even inculpatory \u2014 thereby distinguishing this claim from habeas corpus and defeating the respondent's Rooker-Feldman argument. The Rooker-Feldman doctrine is inapplicable here because Reed challenges the constitutionality of Article 64 as construed by the CCA, not merely the state court judgment itself; federal courts retain jurisdiction to assess whether state procedures comport with due process under Osborne, 557 U.S. 52 (2009). Ex parte Young plainly supports suit against Goertz in his official capacity, as he exercises ongoing control over access to the evidence and his continued refusal to permit testing constitutes prospective unconstitutional conduct subject to injunctive relief. From a pragmatic standpoint, denying a death row inmate access to potentially exonerating DNA evidence \u2014 where the state's own procedures may be constitutionally deficient \u2014 would produce a grave and irreversible injustice that the Due Process Clause and our civil rights statutes were designed to prevent.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), this Court squarely held that a Section 1983 action is the proper vehicle to challenge the constitutionality of a state post-conviction DNA testing statute as construed and applied by state officials \u2014 and that such a challenge is not barred by Rooker-Feldman because it targets the ongoing unconstitutional conduct of the state prosecutor, not the state court judgment itself. The Fifth Circuit's statute of limitations ruling is untenable as a matter of basic accrual logic: Reed's claim challenges Article 64 as construed and applied by the Texas Court of Criminal Appeals, and that authoritative construction was not final until October 2017 when the CCA denied rehearing \u2014 meaning the claim could not have accrued in November 2014 when the trial court acted, before the CCA had even issued its definitive interpretation. Reed's August 2019 filing falls well within the two-year limitations period measured from the CCA's final October 2017 ruling, and to hold otherwise would force prisoners to file federal constitutional challenges before the state court has finished authoritatively construing the very statute being challenged \u2014 a workability disaster that would generate premature, duplicative litigation and undermine the coherent administration of both state and federal law. Ex parte Young is properly invoked here because Goertz, as the prosecutor with ongoing authority over the DNA evidence, is the appropriate official-capacity defendant whose refusal to permit testing constitutes the continuing constitutional violation.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 42 U.S.C. \u00a7 1983 provides a cause of action against any person acting under color of state law who deprives another of federal constitutional rights, and Skinner v. Switzer, 562 U.S. 521 (2011), squarely held that a post-conviction DNA testing claim is properly pursued under \u00a7 1983 rather than habeas corpus because success would not 'necessarily imply' the invalidity of the underlying conviction \u2014 DNA results could be inconclusive or even inculpatory. The Rooker-Feldman doctrine, properly confined to its narrow textual and historical scope as clarified in Exxon Mobil Corp. v. Saudi Basic Industries, 544 U.S. 280 (2005), does not bar Reed's claim because he challenges the constitutionality of Chapter 64 as authoritatively construed, not the state court judgment itself \u2014 a distinction Skinner explicitly endorsed. Ex parte Young's doctrine, rooted in the structural separation between federal and state authority and the need to vindicate federal constitutional rights against ongoing unconstitutional state official conduct, properly applies here because Goertz's refusal to permit testing constitutes continuing prospective conduct by a state official, not a completed judgment immune from federal review. As a textualist, I note that the plain operation of \u00a7 1983 and the Ex parte Young framework, applied consistently and without judicial expansion or contraction, compels this result regardless of the sympathies one might have for either side.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Skinner v. Switzer, 562 U.S. 521 (2011), directly controls here and establishes that a Section 1983 action is the proper vehicle for challenging the constitutionality of a state post-conviction DNA testing statute, because success in such a civil rights action would not 'necessarily imply' the invalidity of Reed's conviction \u2014 DNA testing could prove inconclusive or even inculpatory. The Rooker-Feldman doctrine does not bar Reed's claim because he is challenging the constitutionality of Article 64 as authoritatively construed by the Texas Court of Criminal Appeals, not seeking federal review of the state court judgment itself; this distinction, drawn clearly in Skinner, preserves federal jurisdiction. Ex parte Young properly supports the suit against Goertz in his official capacity because Reed seeks prospective injunctive and declaratory relief to prevent ongoing unconstitutional conduct \u2014 namely, the continued denial of access to DNA testing \u2014 and Goertz, as the prosecutor controlling access to the evidence, is the appropriate defendant as confirmed by Osborne and Skinner. As an institutionalist, I am mindful of federalism concerns and the need for judicial restraint, but Skinner's precedent is clear and workable, and departing from it without compelling reason would undermine the Court's institutional consistency.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), this Court squarely held that a Section 1983 action is the proper vehicle for a convicted prisoner's procedural due process challenge to a state post-conviction DNA testing statute as construed and applied by state officials, because success would not 'necessarily imply' the invalidity of the underlying conviction. The Rooker-Feldman doctrine, properly understood per its narrow scope reaffirmed in Exxon Mobil Corp. v. Saudi Basic Industries Corp., 544 U.S. 280 (2005), bars only suits by state-court losers complaining of injuries caused by state-court judgments; Reed's Section 1983 claim challenges the constitutionality of Article 64 as applied by Goertz in his official capacity, not the state court judgment itself, making Ex parte Young the appropriate doctrinal vehicle. On the statute of limitations question, the Fifth Circuit's holding that the limitations period began running from the trial court's 2014 denial\u2014before the Court of Criminal Appeals issued its authoritative construction of Article 64 in October 2017\u2014is textually and logically untenable, as a Section 1983 claim challenging a statute 'as authoritatively construed' by the state's highest court cannot accrue before that authoritative construction exists. Reed's August 2019 filing, within two years of the CCA's October 2017 final ruling, was therefore timely under the standard accrual principles applicable to Section 1983 claims.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Under Skinner v. Switzer, 562 U.S. 521 (2011), a Section 1983 action is the proper vehicle for Reed's challenge because success would not 'necessarily imply' the invalidity of his conviction \u2014 DNA testing could prove inconclusive or even inculpatory \u2014 meaning habeas corpus is not the exclusive remedy. The Rooker-Feldman doctrine is inapplicable here because Reed challenges the constitutionality of Chapter 64 itself, both facially and as applied, not merely the adverse state court judgment; as Skinner clarified, 'a statute or rule governing the decision may be challenged in a federal action' even when a state court has construed it. Ex parte Young provides a proper jurisdictional basis because Reed seeks prospective injunctive relief against Goertz in his official capacity to enjoin ongoing unconstitutional conduct \u2014 the continued refusal to permit DNA testing \u2014 which constitutes a live, continuing violation traceable directly to the prosecutor's conduct, satisfying Article III standing requirements. My background as a public defender reinforces my conviction that procedural fairness demands that a death row inmate have meaningful access to potentially exculpatory evidence, and the practical consequences of foreclosing this avenue \u2014 execution of a potentially innocent person \u2014 weigh heavily in favor of permitting the claim to proceed.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.8,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 2,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

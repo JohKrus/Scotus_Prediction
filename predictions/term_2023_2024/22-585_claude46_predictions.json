@@ -1,0 +1,624 @@
+[
+  {
+    "docket": "22-585",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Due Process Clause of the Fourteenth Amendment requires a state to provide a preliminary hearing to determine whether continued retention of a seized vehicle pending civil forfeiture proceedings is justified.",
+      "legal_provision": "Fourteenth Amendment to the U.S. Constitution (Due Process Clause); Alabama civil forfeiture statutes governing vehicle seizure and retention pending forfeiture proceedings",
+      "petitioner_position": "Petitioners Culley et al. argue that due process requires a prompt post-seizure preliminary hearing to assess the substantive legal basis for retaining their vehicles during civil forfeiture proceedings, contending that Alabama's forfeiture scheme \u2014 which only offers a bond procedure or eventual trial as remedies \u2014 is constitutionally insufficient and violates their right to timely judicial review before prolonged deprivation of their property",
+      "respondent_position": "Respondents Marshall et al., supported by the United States, Wayne County Michigan, multiple state attorneys general, and municipal associations, argue that the Mathews v. Eldridge balancing test \u2014 not a categorical rule requiring preliminary hearings \u2014 is the proper framework for evaluating due process in civil forfeiture cases, and that Alabama's existing procedures (including the ability to file summary judgment motions and request expedited hearings on innocent owner defenses) provide constitutionally adequate process without mandating a separate preliminary retention hearing",
+      "key_precedents": [
+        "Mathews v. Eldridge, 424 U.S. 319 (1976) \u2014 three-factor balancing test for due process",
+        "Morrissey v. Brewer, 408 U.S. 471 (1972) \u2014 due process requirements under varying circumstances",
+        "United States v. Bajakajian, 524 U.S. 321 (1998) \u2014 civil forfeiture and constitutional limits",
+        "United States v. Von Neumann, 474 U.S. 242 (1986) \u2014 due process in federal forfeiture proceedings",
+        "United States v. $8,850 in U.S. Currency, 461 U.S. 555 (1983) \u2014 timely forfeiture proceedings",
+        "Alvarez v. Smith, 558 U.S. 87 (2009) \u2014 due process challenges to forfeiture procedures",
+        "Bennis v. Michigan, 516 U.S. 442 (1996) \u2014 innocent owner defense in civil forfeiture",
+        "2019 Minnesota Supreme Court case applying Mathews test to vehicle forfeiture post-seizure review"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's argument that bond procedures are 'process in name only' for low-income individuals is the most serious challenge to my position, and I want to engage with it directly: she is correct that Mathews requires us to assess the *actual* risk of erroneous deprivation, not merely the formal availability of procedures. However, her argument proves too much \u2014 it would require this Court to conduct the Mathews balancing ourselves on a record that was never developed under the correct framework, since the Eleventh Circuit applied Barker throughout. Justice Jackson's point that the Mathews factors 'are not close' is precisely the kind of confident factual weighing that should occur in the first instance in lower courts with a fully developed record, not in this Court on a record shaped by the wrong legal standard. The narrow, institutionally sound path \u2014 as Justice Kagan and I agree \u2014 is to correct the Eleventh Circuit's Barker error, hold that Mathews governs, and remand for proper application, which preserves the petitioners' ability to prevail on the merits while respecting the proper role of appellate courts and leaving states room to craft adequate procedures without a categorical federal mandate.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor and Justice Jackson make the most serious challenge to my position by arguing that Alabama's existing procedures are functionally inaccessible to low-income individuals, rendering the risk of erroneous deprivation constitutionally unacceptable under Mathews. I take this hardship argument seriously, but it does not compel a categorical constitutional rule \u2014 it compels, at most, as-applied relief on a developed factual record. More fundamentally, under my originalist methodology, the question is whether the original public meaning of the Fourteenth Amendment's Due Process Clause mandated a preliminary retention hearing in civil forfeiture proceedings, and the historical record \u2014 including well-established founding-era and Reconstruction-era civil forfeiture practice without such hearings \u2014 simply does not support that categorical requirement. Justice Barrett correctly notes that Mathews' flexible balancing test cannot be transformed into a rigid categorical mandate, and Justice Roberts' proposed disposition \u2014 correct the Eleventh Circuit's Barker error and remand for proper Mathews analysis \u2014 is the appropriately narrow holding that respects both federalism and the limits of judicial power. The fact that Alabama has already reformed its forfeiture laws through the political process further confirms that legislative remedies, not judicial imposition of a constitutionally untethered categorical rule, are the proper response to the genuine policy concerns Justice Sotomayor raises.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.88,
+        "reasoning": "Justice Sotomayor raises the most compelling argument for the petitioners \u2014 that low-income individuals who cannot afford bond suffer irreparable harm during prolonged forfeiture proceedings, and that Krimstock's recognition of vehicles' paramount importance in modern life weighs heavily under Mathews' first factor. However, this argument, while sympathetic, does not compel a categorical preliminary hearing rule; it instead confirms that Mathews balancing is the correct framework, because the severity of the private interest must be weighed against the government's substantial interest in preserving instrumentalities of crime and the adequacy of existing procedural safeguards. Alabama's bond procedure, summary judgment mechanisms, and expedited innocent owner hearings are not constitutionally inadequate on their face \u2014 the proper remedy for cases where those procedures prove insufficient is as-applied Mathews analysis, not a categorical rule that would impose mandatory preliminary hearings across all civil forfeiture proceedings regardless of circumstances. Justice Jackson's point about Barker v. Wingo being inapplicable is well-taken and actually supports our position, since correcting the Eleventh Circuit's framework error by remanding for proper Mathews analysis \u2014 rather than constitutionalizing a new categorical requirement \u2014 is the appropriately narrow and institutionally sound disposition.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's argument that I am conflating the framework question with the categorical mandate question is the most sophisticated challenge to my position, and I want to engage it directly: she is right that Mathews is flexible, but flexibility cuts both ways \u2014 when the factual record before us already demonstrates that Alabama's existing procedures systematically fail the population most harmed by prolonged seizure, remanding for 'more balancing' is not institutional humility, it is institutional evasion. Justice Roberts' remand proposal has procedural appeal, but as Justice Jackson correctly notes, the Mathews factors here are not genuinely close \u2014 vehicles are lifelines, bond is functionally unavailable to the poor, and the government's interest in avoiding a preliminary retention hearing (not the full forfeiture hearing) is modest. The majority's reliance on Alabama's bond, summary judgment, and expedited innocent owner procedures as adequate safeguards ignores what Mathews' second factor \u2014 risk of erroneous deprivation \u2014 actually requires: not procedures that exist on paper, but procedures that meaningfully reduce erroneous deprivation for the actual population affected. I maintain my position that the Mathews balance, applied to this record, compels a prompt post-seizure hearing, and I would write separately to emphasize that 'adequate process' cannot mean process accessible only to those who can afford it.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor's most powerful point \u2014 that bond procedures are 'process in name only' for those who cannot afford them \u2014 deserves a direct response: this argument actually strengthens the case for remand rather than a categorical rule, because it demonstrates that the constitutional adequacy of Alabama's procedures depends critically on factual findings about how those procedures operate in practice, findings the record before us may not fully support for purposes of a categorical holding. Justice Jackson argues the Mathews factors 'are not close,' but I disagree \u2014 the government's interest in preserving instrumentalities of crime pending forfeiture proceedings is not 'modest,' as she characterizes it, and the existence of Alabama's legislative reforms suggests the political process is responsive to the documented hardships without requiring us to constitutionalize a specific procedural form. I remain persuaded by Chief Justice Roberts' framing that the narrow, institutionally sound path is to correct the Eleventh Circuit's Barker error and remand for proper Mathews analysis, which preserves the flexibility for lower courts to assess the specific factual record while still vindicating the constitutional principle that Mathews, not Barker, governs. Constitutionalizing a categorical preliminary hearing requirement \u2014 even one framed as what 'the balancing compels on these facts' as Justice Sotomayor suggests \u2014 risks locking in a specific procedural form that may not fit the diversity of state forfeiture regimes, and that rigidity is precisely what Mathews' flexible balancing was designed to avoid.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor's most compelling argument \u2014 that bond procedures are functionally inaccessible to low-income individuals, rendering them process in name only \u2014 deserves serious engagement, but it ultimately supports remand rather than a categorical rule. The Mathews framework is inherently fact-sensitive, and the question of whether Alabama's specific combination of bond, expedited innocent owner hearings, and summary judgment procedures adequately mitigates the risk of erroneous deprivation requires a developed factual record assessed by lower courts in the first instance, not a categorical constitutional mandate from this Court. Justice Jackson argues the Mathews factors 'are not close,' but that confident assertion is precisely the kind of appellate fact-finding that Mathews' flexible balancing test was designed to avoid \u2014 the weighing of governmental administrative burdens against private hardship is contextual, and different forfeiture regimes across different states may yield different results. Consistent with my textualist methodology, I cannot read the Due Process Clause to mandate a specific procedural form \u2014 the preliminary retention hearing \u2014 when the constitutional text demands adequate process and the proper remedy for the Eleventh Circuit's Barker error is remand for correct Mathews analysis, not imposition of a new categorical rule untethered from historical practice at ratification.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor's most compelling argument \u2014 that bond procedures are functionally inaccessible to low-income individuals, making existing safeguards 'process in name only' \u2014 deserves serious engagement, but it ultimately proves too much under Mathews' flexible framework. The Mathews test requires weighing all three factors on a developed factual record, and Justice Sotomayor's argument, while sympathetic, essentially asks us to constitutionalize a categorical rule based on the economic circumstances of a subset of claimants rather than the facial adequacy of Alabama's procedural scheme \u2014 a move that Mathews itself does not compel and that would improperly transform a flexible balancing inquiry into a rigid mandate. Justice Jackson's invocation of Morrissey v. Brewer is instructive but distinguishable: Morrissey involved liberty interests in parole revocation, where the constitutional stakes and historical protections are categorically different from civil forfeiture of property, and the analogy does not translate cleanly. I remain convinced that the institutionally sound path \u2014 consistent with Chief Justice Roberts' approach \u2014 is to correct the Eleventh Circuit's Barker error and remand for proper Mathews analysis, preserving federalism and judicial restraint while leaving room for as-applied challenges where specific procedures prove genuinely inadequate on a developed record.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor's most compelling point \u2014 that bond procedures are functionally inaccessible to low-income individuals, rendering them 'process in name only' \u2014 deserves serious engagement, but it ultimately argues for as-applied relief on a developed factual record rather than a categorical facial rule. The Mathews framework is explicitly fact-sensitive and context-dependent, and as Justice Kagan correctly observes, the question of whether Alabama's specific combination of procedures adequately mitigates erroneous deprivation risk is precisely the kind of weighing that belongs in the first instance to lower courts applying Mathews to the specific record \u2014 not to this Court constitutionalizing a new procedural mandate. Justice Jackson's invocation of Krimstock is instructive but distinguishable: that case arose from New York City's specific administrative scheme and procedural posture, and the Second Circuit's reasoning there does not establish that every state forfeiture regime lacking a categorical preliminary hearing is facially unconstitutional under the Due Process Clause. Consistent with my textualist and originalist methodology, I cannot find in the original public meaning of 'due process of law' a categorical mandate for a specific procedural form \u2014 the preliminary retention hearing \u2014 when historical practice confirms civil forfeiture without such hearings was well-established, and the proper remedy for the Eleventh Circuit's Barker error is remand for proper Mathews analysis, preserving both constitutional flexibility and appropriate federalism.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's argument that I am conflating the framework question with the categorical mandate question is the strongest challenge to my position, and I want to engage it directly: she is right that Mathews is a flexible test, but flexibility does not mean indeterminacy, and when the record before us already demonstrates that Alabama's bond procedure is functionally inaccessible to low-income individuals \u2014 the very population most harmed by prolonged seizure \u2014 we are not speculating about what Mathews might require on some hypothetical future record, we are applying it to the facts actually presented. Justice Barrett's invocation of Von Neumann and $8,850 in U.S. Currency deserves acknowledgment, but those cases addressed timing of forfeiture proceedings generally, not the specific constitutional adequacy of procedures that are nominally available but practically unavailable to the affected population \u2014 a distinction Mathews' second factor (risk of erroneous deprivation given existing safeguards) requires us to take seriously. The majority's remand position has institutional appeal, but when the Mathews factors are this clearly developed in the record \u2014 substantial private interest in vehicles, high risk of erroneous deprivation given inaccessible bond, modest government burden in providing a retention hearing \u2014 remanding simply delays the inevitable constitutional conclusion while prolonging harm to petitioners. I maintain my position that the Mathews balance compels at minimum a prompt post-seizure hearing, consistent with Justice Sotomayor's reasoning that process available only to those who can afford it is not constitutionally adequate process.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Mathews v. Eldridge balancing test, 424 U.S. 319 (1976), is plainly the correct framework for evaluating procedural due process claims in civil forfeiture proceedings, and applying that test here does not compel a categorical rule mandating preliminary retention hearings in all cases. The Eleventh Circuit erred in applying the Barker v. Wingo speedy trial framework, but the proper remedy is to remand for application of Mathews rather than to constitutionalize a new categorical hearing requirement that would impose significant burdens on state forfeiture regimes. Consistent with my preference for narrow rulings that respect federalism and institutional legitimacy, I would hold that Mathews governs, decline to prescribe a one-size-fits-all preliminary hearing mandate, and allow states like Alabama \u2014 which has already amended its forfeiture laws \u2014 to craft procedures that satisfy the three-factor balance without federal judicial micromanagement. This approach honors United States v. $8,850 in U.S. Currency and Von Neumann, which recognized that timely proceedings satisfy due process without requiring a specific procedural form, and avoids unnecessarily disrupting the civil forfeiture frameworks of the many states and municipalities that filed as respondents.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As an originalist, I am deeply skeptical of the Mathews v. Eldridge balancing test as a constitutional framework, since it has no grounding in the original public meaning of 'due process of law' as understood at the Fourteenth Amendment's ratification in 1868. However, the historical record does not support a categorical constitutional requirement for a preliminary retention hearing in civil forfeiture proceedings \u2014 such a categorical rule finds no basis in founding-era or Reconstruction-era legal practice, where civil forfeiture was well established and did not require such preliminary hearings. The petitioners' demand for a judicially-created categorical preliminary hearing rule is even further removed from constitutional text and history than the Mathews balancing test itself. While I would prefer to ground this analysis in original meaning rather than Mathews, the practical result here favors the respondents because neither the text nor the historical practice of due process at ratification mandated a preliminary retention hearing as a categorical constitutional requirement, and Alabama's existing procedures \u2014 including bond procedures and expedited innocent owner defenses \u2014 are consistent with the process historically afforded property owners in forfeiture proceedings as recognized in Bennis v. Michigan.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The Mathews v. Eldridge balancing test, not a categorical rule mandating preliminary retention hearings, is the proper framework for evaluating due process claims in civil forfeiture proceedings. Applying Mathews, Alabama's existing procedures \u2014 including bond procedures, summary judgment motions, and expedited innocent owner hearings \u2014 adequately protect against erroneous deprivation without imposing an additional mandatory preliminary hearing that would burden law enforcement and the state's legitimate interest in retaining instrumentalities of crime pending forfeiture. Petitioners' demand for a categorical preliminary hearing rule finds no support in the text of the Fourteenth Amendment or in this Court's precedents, including United States v. Von Neumann and $8,850 in U.S. Currency, which evaluated forfeiture procedures under flexible balancing rather than rigid categorical mandates. Imposing such a blanket requirement would unduly hamper state forfeiture regimes and law enforcement operations, and the practical consequences of such a rule \u2014 multiplying hearings and judicial resources required \u2014 weigh heavily against it under the third Mathews factor.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Due Process Clause demands more than Alabama's forfeiture scheme provides when individuals are deprived of their vehicles \u2014 often their primary means of accessing employment, healthcare, and daily necessities \u2014 for extended periods without any meaningful judicial review of whether continued retention is justified. Applying the Mathews v. Eldridge three-factor balancing test, the private interest in a vehicle is substantial and well-documented, as the Second Circuit recognized in Krimstock v. Kelly, 306 F.3d 40 (2d Cir. 2002), where it held that the paramount importance of motor vehicles in modern American life weighs heavily in favor of requiring a prompt post-seizure hearing. The risk of erroneous deprivation is significant given that civil forfeiture proceedings can drag on for months or years, and Alabama's bond procedure and eventual trial offer inadequate protection for low-income individuals who cannot afford bond and who suffer irreparable harm in the interim \u2014 precisely the vulnerable populations whose interests due process is designed to protect. While I would not impose a rigid categorical rule, the Mathews balancing here compels the conclusion that a prompt preliminary hearing to assess the legal basis for continued retention is constitutionally required, consistent with the principle articulated in Morrissey v. Brewer that the timing and nature of process must be calibrated to the severity of the deprivation.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Mathews v. Eldridge balancing test, not a categorical rule mandating preliminary hearings, is the appropriate framework for evaluating due process claims in civil forfeiture proceedings. As a pragmatic textualist, I find that the Due Process Clause's flexible, context-sensitive nature \u2014 as interpreted through decades of precedent including Mathews and Good v. United States \u2014 counsels against imposing a rigid categorical requirement that would disrupt workable state forfeiture schemes without careful weighing of the competing interests at stake. Alabama's procedures, including the ability to seek expedited hearings on innocent owner defenses and file summary judgment motions, may well be constitutionally adequate under proper Mathews balancing, though I would remand for that analysis rather than categorically ruling for either side. The Second Circuit's reasoning in Krimstock is instructive in distinguishing between prompt review of continued custody and delays in final judgment, but that distinction supports applying Mathews flexibly rather than mandating a specific preliminary hearing procedure across all civil forfeiture contexts.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Applying the Mathews v. Eldridge balancing framework \u2014 which is the proper constitutional test for procedural due process claims in civil settings \u2014 the existing Alabama procedures do not facially violate the Due Process Clause by failing to provide a categorical preliminary retention hearing. The text and original understanding of the Fourteenth Amendment's Due Process Clause does not mandate a specific procedural form; rather, it requires that deprivations of property occur through adequate process, which is properly assessed by weighing the private interest, risk of erroneous deprivation, and governmental interest as Mathews instructs. As this Court held in United States v. Von Neumann, the right to a timely forfeiture proceeding \u2014 not a separate preliminary retention hearing \u2014 satisfies due process with respect to seized vehicles, and petitioners have not demonstrated that Alabama's bond procedure, summary judgment mechanisms, and expedited innocent-owner hearings are constitutionally insufficient under that balancing analysis. Imposing a categorical rule requiring preliminary hearings would improperly substitute judicial policymaking for the flexible, fact-sensitive Mathews inquiry, and would exceed what the constitutional text and historical practice demand.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The Mathews v. Eldridge balancing test, not a categorical rule mandating preliminary hearings, is the appropriate framework for evaluating due process claims in civil forfeiture proceedings. As the Court established in Mathews, 424 U.S. 319 (1976), and reaffirmed in cases like United States v. Good Real Property, 510 U.S. 43 (1993), due process is a flexible concept requiring procedural protections suited to the particular situation, weighing the private interest, risk of erroneous deprivation, and governmental interest. Applying that balancing test here, Alabama's existing procedures \u2014 including the ability to post bond, file summary judgment motions, and seek expedited hearings on innocent owner defenses \u2014 provide constitutionally adequate process without mandating a separate categorical preliminary retention hearing that would impose significant administrative burdens on state forfeiture regimes. Imposing a rigid preliminary hearing requirement would represent an unwarranted departure from precedent, disrupt settled state practices, and exceed the Court's proper institutional role in dictating specific procedural forms to state legislatures.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Applying the Mathews v. Eldridge three-factor balancing test \u2014 which is the proper framework for evaluating procedural due process claims in civil settings \u2014 the existing Alabama procedures provide constitutionally adequate process without mandating a categorical preliminary retention hearing. The text of the Fourteenth Amendment's Due Process Clause does not specify particular procedural forms, and originalist analysis confirms that 'due process' historically contemplated flexible, context-sensitive procedural protections rather than rigid categorical rules requiring specific hearing types. Under Mathews, while the private interest in a vehicle is significant, Alabama's procedures \u2014 including bond mechanisms, summary judgment motions, and expedited innocent owner hearings \u2014 meaningfully reduce the risk of erroneous deprivation, and the government's substantial interest in preserving potentially forfeitable property pending adjudication weighs against imposing an additional mandatory preliminary hearing layer. Petitioners' proposed categorical rule finds no firm grounding in the constitutional text, historical practice, or this Court's precedents including United States v. $8,850 in U.S. Currency and Von Neumann, which have consistently declined to impose rigid hearing requirements beyond what flexible balancing analysis demands.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As the research and case materials make clear, the Mathews v. Eldridge balancing test \u2014 not the Sixth Amendment's Barker v. Wingo speedy trial framework \u2014 is the proper constitutional standard for evaluating due process claims in civil forfeiture proceedings. The Eleventh Circuit's application of Barker was a categorical error; Barker governs criminal defendants' rights to speedy trial, not the due process rights of civil property owners facing prolonged pre-hearing deprivation. Applying Mathews, the private interest in a motor vehicle is substantial \u2014 as the Second Circuit recognized in Krimstock, vehicles provide access to employment, healthcare, and daily necessities, and prolonged deprivation falls most harshly on low-income individuals who cannot afford Alabama's bond procedure. The risk of erroneous deprivation is significant given that innocent owners may wait over a year for a merits hearing, and the government's interest in avoiding a preliminary retention hearing is modest compared to the constitutional harm of extended, unjustified seizure without any judicial check on the propriety of continued retention.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 2,
+    "respondent_votes": 7,
+    "predicted_winner": "Respondent",
+    "vote_split": "7-2",
+    "average_confidence": 0.782,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "22-585",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Due Process Clause of the Fourteenth Amendment requires a state to provide a prompt post-seizure hearing to determine whether seized property should be returned to its owner pending the outcome of civil forfeiture proceedings.",
+      "legal_provision": "Fourteenth Amendment to the U.S. Constitution (Due Process Clause), as applied to Alabama's civil asset forfeiture statutes governing vehicle seizures",
+      "petitioner_position": "Petitioners Culley et al. argue that Alabama's civil forfeiture procedures violate due process by failing to provide a prompt post-seizure judicial hearing to determine whether seized vehicles should be returned to innocent owners pending the outcome of forfeiture proceedings, contending that the Mathews v. Eldridge balancing test requires such a hearing given the significant private interest in vehicle possession, the risk of erroneous deprivation, and the limited governmental burden of providing expedited review",
+      "respondent_position": "Respondents, supported by the United States, multiple states, and municipal organizations, argue that Alabama's existing procedures \u2014 including the ability to file summary judgment motions, request expedited hearings, and utilize bond procedures \u2014 satisfy due process requirements, and that the Mathews balancing test, properly applied, does not mandate a separate prompt post-seizure hearing because adequate procedural safeguards already exist within the civil forfeiture framework",
+      "key_precedents": [
+        "Mathews v. Eldridge, 424 U.S. 319 (1976) \u2014 three-factor balancing test for due process",
+        "Morrissey v. Brewer, 408 U.S. 471 (1972) \u2014 due process requirements under varying circumstances",
+        "United States v. Bajakajian, 524 U.S. 321 (1998) \u2014 civil forfeiture and constitutional limits",
+        "United States v. Von Neumann, 474 U.S. 242 (1986) \u2014 forfeiture proceedings and due process",
+        "United States v. $8,850 in U.S. Currency, 461 U.S. 555 (1983) \u2014 timing of forfeiture proceedings",
+        "Alvarez v. Smith, 558 U.S. 87 (2009) \u2014 due process challenges to forfeiture procedures",
+        "Bennis v. Michigan, 516 U.S. 442 (1996) \u2014 innocent owner defense in forfeiture proceedings"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the procedural asymmetry argument with genuine force, and I acknowledge that Mathews v. Eldridge's risk-of-erroneous-deprivation factor is precisely designed to address situations where property owners bear the entire burden of initiating complex litigation to recover seized property \u2014 this is not a trivial concern. However, I cannot accept the leap from 'this asymmetry creates constitutional risk' to 'the Constitution categorically mandates a separate retention hearing,' because Mathews is a flexible balancing framework, not a rule-generating mechanism, and constitutionalizing a specific hearing format would constrain state procedural innovation in ways the text and precedent do not compel. The strongest path remains a narrow remand directing the Eleventh Circuit to apply Mathews properly \u2014 including giving full weight to the procedural asymmetry my colleagues identify \u2014 rather than issuing a categorical holding that would bind all states to a particular hearing structure. As Chief Justice, I am also mindful that a remand disposition could attract Justices Kavanaugh and Barrett, potentially producing a 7-2 or 6-3 majority on the methodological error while leaving the ultimate constitutional question for a case with a more developed factual record, which better serves institutional legitimacy than a 5-4 categorical ruling.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Gorsuch and Justice Jackson press the procedural asymmetry argument most forcefully \u2014 that Alabama's existing mechanisms place the burden on property owners to initiate complex litigation rather than requiring the government to affirmatively justify continued retention \u2014 and I acknowledge this has genuine force under Mathews. However, my originalist methodology requires me to ask whether the Fourteenth Amendment's 'due process of law,' as understood in 1868, mandated such affirmative governmental justification hearings in civil forfeiture contexts, and the historical record surveyed in Bennis v. Michigan and the long tradition of in rem forfeiture proceedings rooted in admiralty practice gives me no confidence that it did. Justice Kagan's movement toward the petitioner position is notable, but her reliance on Mathews balancing \u2014 a framework I believe lacks grounding in the original public meaning of due process \u2014 cannot itself establish the constitutional floor she identifies. Alabama's subsequent statutory amendment, which my colleagues on the petitioner side treat as a near-concession of unconstitutionality, is more properly understood as a legislative policy judgment that exceeds constitutional minimums, precisely the kind of democratic self-correction that federalism contemplates and that should not be judicially conscripted into evidence of prior constitutional deficiency.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan's procedural asymmetry argument \u2014 that Alabama's existing mechanisms place the entire burden on property owners to initiate complex litigation rather than requiring the government to affirmatively justify continued retention \u2014 is the strongest challenge to my position, and I take it seriously. However, Mathews v. Eldridge is a flexible balancing test, not a categorical rule, and the question is whether the overall procedural framework is constitutionally adequate when all three factors are weighed together; the mere fact that claimants must initiate proceedings does not automatically render a system unconstitutional, as confirmed by the long tradition of in rem forfeiture proceedings. Justice Sotomayor's argument that Alabama's subsequent legislative amendment constitutes near-concession of prior unconstitutionality proves too much \u2014 if we treat every voluntary legislative improvement as evidence of prior constitutional deficiency, we create perverse incentives that discourage states from proactively strengthening their procedures beyond constitutional minimums, which is precisely the kind of democratic self-correction federalism is designed to encourage. I remain persuaded that the proper disposition is a remand directing the Eleventh Circuit to apply Mathews correctly rather than constitutionalizing a categorical separate-hearing requirement that the text, precedent, and historical practice do not compel.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Kagan's reliance on Von Neumann is the strongest argument from the respondent side, but Von Neumann addressed the timing of the forfeiture proceeding itself under a federal statute \u2014 it did not hold that a prompt merits proceeding categorically satisfies due process with respect to interim retention of seized property, and James Daniel Good Real Property explicitly distinguished between the ultimate forfeiture determination and the constitutional requirement for a pre-deprivation or prompt post-seizure hearing. Justice Barrett's suggestion that the merits proceeding can serve as constitutionally sufficient process 'provided it occurs within a reasonable timeframe' actually concedes the core of the petitioners' argument \u2014 Alabama's proceedings here lasted over a year, and without a mandatory prompt retention hearing, there is no constitutional mechanism to ensure that timeframe is reasonable. Chief Justice Roberts and Justice Alito characterize Alabama's existing procedures as adequate substitutes, but summary judgment motions and bond requirements place the entire burden on the property owner to navigate complex litigation rather than requiring the government to affirmatively justify continued custody \u2014 this procedural asymmetry is precisely what Mathews v. Eldridge's risk-of-erroneous-deprivation factor is designed to address. The fact that Alabama itself subsequently amended its statutes to require retention hearings, as Justice Jackson and Justice Gorsuch both note, is powerful evidence that the prior regime was constitutionally deficient, not merely suboptimal as a matter of policy.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Justice Barrett's argument that Von Neumann and $8,850 permit a timely merits proceeding to itself satisfy due process is the strongest counterargument I must address directly \u2014 but as Justice Gorsuch correctly identifies, Von Neumann addressed the timing of the ultimate forfeiture proceeding under a specific statutory framework, not whether a separate retention hearing is constitutionally required during prolonged pre-judgment custody. The critical distinction is that Mathews demands we assess the risk of erroneous deprivation during the pendency of proceedings, and when Alabama's proceedings lasted over a year with no judicial check on continued retention, the merits proceeding cannot retroactively cure the constitutional injury that occurred in the interim. Justice Alito's point that Mathews requires weighing all three factors together is well-taken, and I acknowledge the governmental interest in retaining potentially forfeitable property is real \u2014 but the procedural asymmetry Justice Jackson identifies, where the property owner must initiate complex litigation rather than the government bearing the burden of justifying continued custody, is not adequately addressed by characterizing summary judgment and bond procedures as meaningful alternatives for individuals who may lack resources to navigate them. Alabama's own subsequent legislative amendment remains, to my mind, the most telling evidence that the prior regime fell below the constitutional floor \u2014 not because legislative reform always signals constitutional deficiency, but because the specific nature of this reform, requiring the government to affirmatively justify retention, directly addresses the Mathews asymmetry that the prior procedures failed to remedy.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Barrett's argument that Von Neumann permits the merits proceeding itself to serve as constitutionally sufficient process deserves serious engagement, but it founders on a critical factual distinction: Von Neumann addressed the timing of the forfeiture proceeding itself, not the question of whether a separate retention hearing is required when the government holds property for over a year before that proceeding concludes. The prolonged deprivation here \u2014 vehicles seized from individuals who may be entirely innocent \u2014 is precisely the scenario James Daniel Good Real Property addressed when the Court held that the government generally must provide notice and an opportunity to be heard before seizing real property, and the same logic extends to personal property of comparable importance to daily life. Justice Kagan's reliance on Von Neumann similarly misreads that case, which did not hold that adequate timing of the ultimate forfeiture proceeding categorically forecloses a constitutional requirement for an interim retention hearing \u2014 indeed, the Mathews framework demands we assess the risk of erroneous deprivation during the pendency of proceedings, not merely at their conclusion. Alabama's own legislative amendment requiring retention hearings is, as Justice Jackson correctly notes, a powerful concession that the prior regime was constitutionally inadequate, and I would not allow the government to benefit from a constitutional deficiency it has since acknowledged by reforming its own statutes.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Justice Kagan's procedural asymmetry argument \u2014 that Mathews is specifically designed to address situations where the burden of initiating proceedings falls entirely on the property owner \u2014 continues to give me genuine pause, and I acknowledge it is the strongest argument from the petitioner side. However, I cannot accept the leap from 'this asymmetry is problematic under Mathews' to 'the Constitution categorically mandates a separate retention hearing,' because Mathews is explicitly a flexible balancing test, not a rule-generating mechanism, and constitutionalizing a specific hearing format risks transforming that flexibility into rigidity that constrains legitimate state procedural variation. Justice Roberts' remand approach remains institutionally sound: the Eleventh Circuit's error in applying Barker v. Wingo rather than Mathews is undisputed, and a remand for proper three-factor balancing with a full factual record would provide meaningful correction without locking in a categorical constitutional mandate. Alabama's subsequent statutory amendment, which Justices Gorsuch and Jackson treat as near-conclusive evidence of prior unconstitutionality, is more properly understood as democratic self-correction that exceeds constitutional minimums \u2014 treating voluntary legislative improvement as a judicial concession of prior deficiency would perversely chill states from proactively strengthening their own procedures.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the procedural asymmetry argument with considerable force, and I acknowledge that the Mathews risk-of-erroneous-deprivation factor does carry real weight when property owners must navigate complex litigation for over a year without any judicial check on continued retention. However, I cannot accept the leap from 'this asymmetry is constitutionally problematic' to 'the Constitution categorically mandates a separate retention hearing,' because Mathews is a flexible balancing test that requires weighing all three factors together against the specific procedural framework at issue \u2014 not a rule that any burden-shifting asymmetry automatically triggers a mandatory hearing requirement. Justice Gorsuch's reliance on James Daniel Good Real Property is instructive but distinguishable, as that case addressed pre-deprivation process for real property seizures, and extending its logic categorically to personal property forfeiture proceedings would require us to do more doctrinal work than the record here supports. I continue to believe Chief Justice Roberts' remand approach is the most defensible disposition \u2014 it corrects the Eleventh Circuit's clear error in applying Barker v. Wingo rather than Mathews, preserves the flexibility that Mathews's balancing framework was designed to provide, and avoids constitutionalizing a specific hearing format that neither the text nor precedent clearly compels.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's reliance on Von Neumann is the strongest argument from the respondent side, but I find it ultimately unpersuasive because Von Neumann addressed the timing of the forfeiture proceeding itself under a different statutory framework \u2014 it did not squarely hold that a prompt post-seizure retention hearing is constitutionally unnecessary when innocent owners face prolonged deprivation of property essential to their daily lives. Justice Barrett's point that the merits proceeding can itself satisfy due process is theoretically sound but practically hollow when that proceeding takes months or years, as it did here, because the constitutional injury \u2014 the unremedied deprivation \u2014 occurs in the interim, not at the conclusion. The Mathews balancing test, properly applied, cannot ignore the asymmetry Justice Sotomayor identifies: Alabama's existing procedures place the burden on the property owner to initiate complex legal proceedings rather than requiring the government to justify continued retention, which inverts the constitutional baseline that deprivations require affirmative justification. Alabama's own subsequent legislative amendment requiring retention hearings is the most powerful evidence that the prior regime was constitutionally deficient \u2014 states do not typically impose procedural burdens on themselves absent recognition that the prior framework was inadequate.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Applying the Mathews v. Eldridge three-factor balancing test, Alabama's existing civil forfeiture procedures \u2014 including summary judgment motions, expedited hearing requests, and bond procedures \u2014 appear to provide constitutionally adequate process without mandating a separate prompt post-seizure retention hearing. While the private interest in continued vehicle use is real and cognizable, the risk of erroneous deprivation is mitigated by the existing procedural mechanisms already available to claimants, and the governmental interest in maintaining custody of potentially forfeitable property during proceedings is legitimate and substantial. Consistent with my preference for narrow rulings and institutional restraint, I would decline to constitutionally mandate a specific hearing format that goes beyond what Mathews requires, particularly given that United States v. $8,850 in U.S. Currency and Von Neumann already addressed timing concerns in forfeiture contexts without imposing such categorical requirements. The Court should be cautious about constitutionalizing procedural specifics that are better left to legislative reform, especially where states retain flexibility to craft their own forfeiture frameworks under principles of federalism.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As an originalist, I am deeply skeptical of the Mathews v. Eldridge balancing test as a freestanding constitutional framework, since it has no grounding in the original public meaning of 'due process of law' as understood in 1868 \u2014 it is a judicial invention from 1976 that substitutes judicial policy preferences for constitutional text and history. The original meaning of due process at the Founding and Reconstruction era recognized that civil forfeiture proceedings, with their roots in English admiralty and common law traditions, did not categorically require a separate prompt post-seizure retention hearing distinct from the underlying forfeiture proceeding itself, as confirmed by the historical practice surveyed in cases like Bennis v. Michigan. Alabama's existing procedures \u2014 including summary judgment motions, expedited hearings, and bond procedures \u2014 are consistent with the procedural traditions that informed the Fourteenth Amendment's ratification, and I would not extend a judicially-created balancing test to mandate procedures beyond what the constitutional text and history require. I write separately to note that the entire Mathews framework deserves reexamination in light of original meaning, and that civil forfeiture itself raises serious constitutional questions under the Takings and Due Process Clauses that this Court should address more forthrightly in a future case.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Applying the Mathews v. Eldridge balancing test, Alabama's existing civil forfeiture procedures \u2014 including summary judgment motions, expedited hearings, and bond procedures \u2014 adequately satisfy due process requirements without mandating a separate prompt post-seizure retention hearing. The governmental interest in retaining seized property pending forfeiture proceedings is substantial, as vehicles may constitute evidence or be subject to dissipation, and law enforcement's ability to effectively prosecute forfeiture actions would be meaningfully burdened by a mandatory preliminary hearing requirement. While petitioners have a real private interest in their vehicles, the risk of erroneous deprivation is mitigated by Alabama's existing procedural safeguards, and the Due Process Clause demands flexibility rather than a rigid categorical rule requiring prompt post-seizure hearings in all civil forfeiture contexts, as confirmed by United States v. $8,850 in U.S. Currency and Von Neumann, which declined to impose strict timing requirements on forfeiture proceedings. Imposing such a blanket constitutional mandate would represent precisely the kind of judicial overreach that transforms a flexible balancing framework into a rigid procedural requirement, undermining the practical realities of law enforcement and the states' legitimate interest in structuring their own forfeiture regimes.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Applying the Mathews v. Eldridge balancing test, all three factors weigh decisively in favor of requiring a prompt post-seizure hearing. The private interest is substantial \u2014 as the Second Circuit recognized in Krimstock v. Kelly, motor vehicles are paramount in modern American life, providing access to employment, schools, and daily necessities, and for low-income individuals the deprivation of a vehicle can be economically catastrophic and irreversible in practical terms long before any final forfeiture judgment. The risk of erroneous deprivation is significant given that innocent owners \u2014 like the petitioners here \u2014 may have their property held for months or years without any judicial assessment of whether continued retention is justified, and Alabama's existing procedures such as summary judgment motions and bond requirements are inadequate substitutes for a prompt, meaningful hearing focused on the propriety of continued government custody. The governmental burden of providing an expedited post-seizure hearing is comparatively modest and does not undermine the integrity of the underlying forfeiture proceedings, as the Constitution has long distinguished between prompt review of continued custody and the ultimate merits determination, a principle reinforced by James Daniel Good Real Property and consistent with the flexible, context-sensitive approach Morrissey v. Brewer demands.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the Mathews v. Eldridge three-factor balancing test, Alabama's existing civil forfeiture procedures \u2014 including summary judgment motions, expedited hearings, and bond procedures \u2014 provide sufficient procedural safeguards to satisfy due process without mandating a separate prompt post-seizure retention hearing. The private interest in vehicle use, while real and significant, must be weighed against the government's legitimate interest in retaining potentially forfeitable property and preventing its dissipation or concealment pending proceedings. Critically, as Von Neumann, 474 U.S. 242 (1986), instructs, the right to a timely forfeiture proceeding itself satisfies due process concerns regarding property deprivation, and the Court there drew no constitutional distinction requiring a separate pre-forfeiture retention hearing for vehicles. Imposing a categorical requirement for prompt post-seizure hearings across all civil forfeiture contexts would be administratively unworkable and would go beyond what Mathews demands when adequate existing procedural mechanisms \u2014 properly utilized \u2014 can address erroneous deprivation concerns.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Fourteenth Amendment's Due Process Clause, read according to its original meaning and historical practice, has long required that deprivations of property be accompanied by appropriate procedural safeguards, and the Mathews v. Eldridge balancing framework \u2014 not the Sixth Amendment's Barker v. Wingo speedy trial test \u2014 is plainly the correct analytical tool for evaluating civil property deprivations. The Eleventh Circuit's application of Barker was a categorical methodological error: Barker addresses criminal defendants' Sixth Amendment rights, not the civil due process interests of property owners who have never been charged with a crime, and importing that framework into a civil forfeiture context distorts both doctrines. Applying Mathews properly, the private interest in continued use of a vehicle \u2014 often essential for employment, family, and daily life \u2014 is substantial; the risk of erroneous deprivation during prolonged forfeiture proceedings lasting over a year is significant, particularly for innocent owners like petitioners; and the governmental burden of providing a prompt post-seizure retention hearing is modest, as Alabama itself subsequently recognized by amending its statutes to require such hearings. The rule of lenity and separation of powers concerns also counsel against allowing the government to retain seized property for extended periods without judicial oversight, as such unchecked executive retention of private property sits uneasily with foundational constitutional commitments to liberty and property rights.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the Mathews v. Eldridge balancing test, Alabama's existing civil forfeiture procedures \u2014 including summary judgment motions, expedited hearing requests, and bond procedures \u2014 provide constitutionally adequate process without mandating a separate prompt post-seizure retention hearing. While the private interest in vehicle possession is real and meaningful, the Mathews framework requires weighing that interest against the risk of erroneous deprivation under existing procedures and the government's legitimate interest in maintaining custody of potentially forfeitable property during proceedings; here, the existing procedural mechanisms sufficiently mitigate erroneous deprivation risk. History and tradition do not establish a constitutional requirement for a separate pre-forfeiture retention hearing, and as Bennis v. Michigan and United States v. $8,850 in U.S. Currency reflect, the Court has consistently afforded states considerable latitude in structuring forfeiture proceedings so long as the overall framework satisfies due process. Imposing a categorical prompt-hearing requirement would represent judicial overreach beyond what the Mathews balancing test demands and would disrupt workable state forfeiture regimes without sufficient constitutional warrant.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Applying the Mathews v. Eldridge three-factor balancing test with textual fidelity to the Due Process Clause's original public meaning, the critical question is whether Alabama's existing procedural framework \u2014 including expedited hearings, summary judgment motions, and bond procedures \u2014 adequately satisfies due process without mandating a distinct preliminary retention hearing. The research materials and Von Neumann, 474 U.S. 242 (1986), strongly suggest that the right to a timely forfeiture proceeding on the merits can itself satisfy due process with respect to seized property, without requiring a separate ancillary post-seizure hearing. Under Mathews, the third factor \u2014 the nature of existing procedures \u2014 weighs significantly here because Alabama does provide meaningful procedural avenues, and the risk of erroneous deprivation is addressed through the merits proceeding itself; the Eleventh Circuit's error was methodological in applying Barker v. Wingo rather than Mathews, but the correct application of Mathews does not necessarily compel a preliminary retention hearing so long as the ultimate forfeiture proceeding is conducted with adequate promptness. While I have genuine concern about the prolonged deprivation of vehicles from potentially innocent owners \u2014 a significant private interest \u2014 the Mathews balancing, properly conducted, permits the merits proceeding to serve as the constitutionally sufficient process, provided it occurs within a reasonable timeframe.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Applying the Mathews v. Eldridge three-factor balancing test, the private interest in continued use of a vehicle is substantial \u2014 vehicles are essential for employment, medical care, and daily life, particularly for lower-income individuals who cannot easily absorb the deprivation. The risk of erroneous deprivation is significant given that innocent owners like the petitioners can be deprived of their property for extended periods based solely on probable cause for seizure, without any judicial check on whether retention is warranted. Alabama's existing procedures \u2014 summary judgment motions and bond requirements \u2014 do not adequately substitute for a prompt post-seizure hearing because they place the burden on the property owner to initiate complex legal proceedings rather than requiring the government to promptly justify continued retention, which is precisely the kind of procedural asymmetry that due process is designed to correct. My background as a public defender reinforces my view that civil forfeiture disproportionately burdens those least able to navigate protracted legal proceedings, and the fact that Alabama itself subsequently amended its laws to require retention hearings is a powerful concession that the prior regime was constitutionally deficient.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.701,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

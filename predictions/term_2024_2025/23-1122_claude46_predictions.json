@@ -1,0 +1,575 @@
+[
+  {
+    "docket": "23-1122",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Texas's law requiring commercial websites to implement age verification systems before allowing access to sexual content violates the First Amendment's free speech protections.",
+      "legal_provision": "Texas House Bill 1181 (HB 1181), codified in the Texas Business and Commerce Code, requiring age verification for online pornographic content, analyzed against the First Amendment to the United States Constitution and its established scrutiny standards for content-based speech restrictions.",
+      "petitioner_position": "The Free Speech Coalition and allied petitioners argue that Texas's age verification law imposes an unconstitutional burden on protected adult speech and must be subjected to strict scrutiny under established First Amendment doctrine, contending that the law is not narrowly tailored to achieve its stated interest of protecting minors, that less restrictive alternatives exist (such as user-side filtering tools), and that the law effectively chills constitutionally protected adult access to legal content by creating privacy risks and practical barriers inherent in mandatory age verification systems, consistent with the reasoning in Ashcroft v. ACLU.",
+      "respondent_position": "Texas Attorney General Ken Paxton, supported by amici including Major Religious Organizations, the Manhattan Institute, the Reward Foundation, and Louisiana State Representative Laurie Schlegel, argues that the state has a compelling interest in protecting minors from harmful pornographic material, that the age verification requirement is a commercially reasonable and minimally burdensome regulation rather than a speech prohibition, that the appropriate standard of review should be rational basis or intermediate scrutiny rather than strict scrutiny, and that the law targets conduct (commercial distribution without age verification) rather than speech itself, distinguishing it from prior cases that struck down similar federal legislation.",
+      "key_precedents": [
+        "Ashcroft v. ACLU, 542 U.S. 656 (2004) - struck down COPA on narrow tailoring grounds under strict scrutiny",
+        "ACLU v. Mukasey, 534 F.3d 181 (3rd Cir. 2008) - affirmed permanent injunction against COPA finding it not narrowly tailored",
+        "Reno v. ACLU, 521 U.S. 844 (1997) - struck down Communications Decency Act provisions restricting online indecent content",
+        "Ginsberg v. New York, 390 U.S. 629 (1968) - upheld state law restricting minors' access to obscene materials",
+        "United States v. Playboy Entertainment Group, 529 U.S. 803 (2000) - applied strict scrutiny to content-based speech restrictions",
+        "Brown v. Entertainment Merchants Association, 564 U.S. 786 (2011) - struck down California law restricting violent video game sales to minors under strict scrutiny",
+        "Sable Communications v. FCC, 492 U.S. 115 (1989) - addressed regulation of indecent telephone communications"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's argument about the civil/criminal distinction and technological change remains the most serious challenge to my position, but I am persuaded by the convergent reasoning of Justices Sotomayor, Kagan, and Barrett that the chilling effect on constitutionally protected adult speech flows from the verification requirement itself \u2014 not from the severity of the penalty \u2014 making the civil/criminal distinction constitutionally irrelevant to the threshold scrutiny question. As Chief Justice, my minimalist instinct is confirmed by the 7-2 tally: the narrowest grounds for affirmance are that Texas has not yet carried its burden under strict scrutiny to demonstrate that less restrictive alternatives are inadequate on this record, without resolving whether technological change might eventually support a different result. I would assign the majority opinion with instructions to write narrowly on the less-restrictive-alternatives prong, explicitly preserving the question Justice Alito raises \u2014 whether a fully developed factual record on current filtering versus verification technology could shift the narrow tailoring analysis \u2014 for a future case, thereby maintaining institutional flexibility while respecting Ashcroft's controlling framework. Justice Thomas's originalist challenge to the strict scrutiny framework itself is intellectually serious but cannot command a majority, and the institutional costs of abandoning settled doctrine without a more compelling historical showing counsel strongly against adopting his methodology here.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Gorsuch argues that the First Amendment's text protects 'the freedom of speech' without carving out exceptions for content deemed harmful by state legislatures, and that Ginsberg's variable obscenity doctrine was not a freestanding police power override \u2014 but this argument proves too little, because the original public meaning of 'the freedom of speech' was understood against a backdrop of robust state authority to regulate obscene and morally harmful material through commercial channels, and the Founders did not understand that phrase to immunize all sexually explicit commercial distribution from state regulation. Justice Barrett's textualist argument that HB 1181 'conditions access to constitutionally protected speech on content-based criteria' assumes the conclusion by treating the modern strict scrutiny framework as the only legitimate constitutional lens, when in fact that framework is itself a mid-twentieth century judicial construction with no clear textual or historical anchor. My colleagues' near-unanimous reliance on Ashcroft as controlling precedent cannot move me when my core methodological objection is that Ashcroft's strict scrutiny framework perpetuates doctrinal error \u2014 the strength of a precedent is not measured by how many times it has been repeated, and I am not obligated to compound error simply because seven colleagues find the existing framework comfortable. The historical tradition of state regulation of harmful-to-minors material through commercial distributors, combined with the civil rather than criminal nature of HB 1181's enforcement mechanism, places this law comfortably within the police power tradition that the original Constitution preserved.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Sotomayor makes the most forceful response to my civil/criminal distinction by arguing that the chilling effect flows from the verification requirement itself rather than the severity of the penalty \u2014 and I acknowledge this is a serious point that partially undermines my structural argument. However, my colleagues' responses collectively fail to grapple with the threshold doctrinal question I find most significant: whether a liability regime imposed on commercial distributors is properly characterized as a direct speech restriction at all, or whether it regulates the commercial transaction through which speech is distributed. Justice Thomas's observation about brick-and-mortar age verification requirements is instructive \u2014 if a liquor store or adult bookshop can be required to verify age without triggering strict scrutiny, the mere fact that the same commercial gatekeeping function is performed online should not automatically elevate the scrutiny tier. I remain persuaded that the majority's near-unanimous application of strict scrutiny papers over this threshold characterization question, and that a more careful analysis would either apply intermediate scrutiny or at minimum require a developed factual record before determining whether Ashcroft's less-restrictive-alternatives analysis controls a materially different technological and regulatory context.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's civil/criminal distinction and technological evolution arguments remain the most serious challenge to my position, but I am persuaded by what Justice Jackson articulates from her public defender experience: the chilling effect on lawful adult speech flows from the verification requirement's privacy exposure itself, not from the severity of the penalty attached to noncompliance. A person who fears that submitting government identification to access legal adult content creates a surveillance record will self-censor whether the consequence for the website's noncompliance is civil or criminal \u2014 the constitutional injury to the adult speaker is identical in both regimes. Justice Alito is correct that the 2004 factual record on filtering technology is stale, but as Justice Kagan and Justice Barrett both emphasize, the burden under strict scrutiny runs to Texas to affirmatively demonstrate through a developed evidentiary record that less restrictive alternatives are now inadequate \u2014 a burden the State has conspicuously failed to carry here. I would affirm the preliminary injunction on the narrow tailoring ground while explicitly preserving the question whether a fully developed record on comparative effectiveness of modern filtering versus verification technology could alter the analysis in a future case.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Alito's civil/criminal distinction and technological change arguments remain the most serious challenge to my position, but after reviewing the full conference, I am more confident \u2014 not less \u2014 that these distinctions cannot bear the constitutional weight Texas asks of them. As Justice Sotomayor correctly identifies, the chilling effect on protected adult speech flows from the verification requirement itself, not from the severity of the penalty; a privacy-conscious adult will self-censor whether facing civil or criminal liability. Justice Thomas's originalist critique is intellectually serious, but as Justice Gorsuch notes, the First Amendment's text contains no carve-out for content state legislatures deem harmful, and Ginsberg's variable obscenity doctrine was explicitly limited to direct sales to minors \u2014 not a regime burdening adult access to legal content. I would write narrowly with Chief Justice Roberts: affirm the preliminary injunction on the less-restrictive-alternatives prong of strict scrutiny, explicitly preserving the question whether a fully developed factual record on current filtering technology versus age verification effectiveness might shift the narrow tailoring analysis in a future case, thereby giving Texas a roadmap without foreclosing the constitutional question permanently.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge to my position, arguing that the modern strict scrutiny framework for content-based speech restrictions is itself an atextual judicial invention inconsistent with original meaning, and that the Founders understood states to retain robust police powers over morality and child protection. I take this originalist argument seriously, but I find it ultimately unpersuasive for a reason Justice Thomas himself should appreciate: the First Amendment's text protects 'the freedom of speech' and 'of the press' without carving out exceptions for content deemed harmful by state legislatures, and the historical record does not support reading an implicit 'harmful to minors' exception into that text \u2014 Ginsberg's rational basis approach was grounded in the variable obscenity doctrine, not in a freestanding state police power that overrides First Amendment text. Justice Alito's argument that technological change undermines Ashcroft's factual premises is more practically compelling, but the burden-shifting logic remains: Texas must affirmatively demonstrate on the record that less restrictive alternatives are inadequate, and as Justice Kagan correctly notes, that evidentiary burden has not been met here. My textualist methodology, consistently applied as in United States v. Stevens, demands that we not permit creative statutory labeling \u2014 calling this a 'conduct regulation' \u2014 to circumvent the First Amendment's plain protections when the operative effect is to condition access to protected speech on government-mandated identity disclosure.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Alito's most serious challenge \u2014 that the civil liability structure combined with technological advancement since 2004 warrants recharacterization as a conduct regulation subject to intermediate scrutiny \u2014 remains unpersuasive under my institutionalist methodology for the reason Justice Kagan correctly identifies: permitting legislatures to circumvent strict scrutiny through creative framing whenever they impose access conditions rather than outright bans would hollow out First Amendment protection for content-based restrictions. Justice Thomas's originalist critique of the strict scrutiny framework is intellectually serious, but institutional respect for settled precedent counsels strongly against abandoning a doctrinal framework that has governed this area for decades absent a far more compelling showing that original understanding demands it \u2014 and as Justice Gorsuch notes, the First Amendment's text does not carve out implicit 'harmful to minors' exceptions for state legislatures to exploit. I remain persuaded by Chief Justice Roberts's minimalist instinct that the narrowest path is to affirm the preliminary injunction on the less-restrictive-alternatives prong of strict scrutiny, explicitly leaving open whether a fully developed factual record on current filtering technology versus age verification effectiveness might eventually shift the narrow tailoring analysis, thereby preserving institutional flexibility without broad doctrinal pronouncements.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's most serious challenge \u2014 that the civil liability structure combined with technological advancement warrants intermediate scrutiny as a conduct regulation \u2014 remains unpersuasive under rigorous textualist analysis. As Justice Gorsuch correctly identifies, allowing legislatures to recharacterize content-based speech restrictions as 'conduct regulations' through creative statutory framing would effectively permit circumvention of strict scrutiny whenever the state imposes access conditions rather than outright bans; the operative constitutional question is whether the law conditions access to protected speech based on content, and HB 1181 plainly does so. Justice Thomas's originalist challenge is the most intellectually serious, but as I noted previously, Ginsberg's variable obscenity doctrine was explicitly cabined to direct sales to minors and did not authorize a regime that burdens adult access to legal content \u2014 and the historical police power examples Justice Thomas invokes (brick-and-mortar age verification) are distinguishable because they do not require government-mandated identity disclosure creating a surveillance record of lawful adult expression. I maintain that strict scrutiny applies, Texas has not carried its burden on the less-restrictive-alternatives prong on this record, and the preliminary injunction should be affirmed on the narrowest available grounds consistent with Chief Justice Roberts's minimalist instinct.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious challenge to my position by arguing that HB 1181's civil liability framework, combined with two decades of technological advancement in age verification, meaningfully distinguishes this case from Ashcroft v. ACLU and warrants at most intermediate scrutiny as a conduct regulation. I find this argument ultimately unpersuasive for two reasons: first, the civil/criminal distinction does not change the constitutional analysis when the operative effect of the law is to condition access to protected adult speech on a government-mandated disclosure regime \u2014 the chilling effect on lawful expression is real regardless of the enforcement mechanism, as my background as a public defender has taught me that compliance burdens and privacy risks deter lawful conduct just as surely as criminal penalties. Second, while Justice Alito is correct that the factual record on filtering technology has evolved since 2004, the burden under strict scrutiny remains with the State to affirmatively demonstrate that less restrictive alternatives are inadequate, not with challengers to prove they remain effective \u2014 and Texas has not carried that burden on this record. Justice Thomas's originalist argument that strict scrutiny is an atextual invention deserves serious engagement, but Ginsberg itself recognized that even under historical police powers, regulations must be appropriately tailored, and the sweeping privacy implications of mandatory identity verification for legal adult content would have alarmed the Founders who were deeply suspicious of government surveillance of lawful conduct.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Texas HB 1181, like COPA before it, constitutes a content-based restriction on speech that presumptively triggers strict scrutiny under established First Amendment doctrine, as reaffirmed in Ashcroft v. ACLU and United States v. Playboy Entertainment Group. While I am genuinely sympathetic to Texas's compelling interest in protecting minors \u2014 an interest this Court has long recognized dating back to Ginsberg v. New York \u2014 the narrow grounds for decision here counsel that we need not resolve the deeper question of whether intermediate scrutiny might apply, because the record does not yet establish that less restrictive alternatives such as user-side filtering tools have become categorically ineffective in the two decades since Ashcroft. My minimalist instinct is to affirm the preliminary injunction on the narrowest available ground: the State has not yet carried its burden of demonstrating that the age verification mandate is more effective than available alternatives, consistent with the framework the Court established in Ashcroft II. I would leave open for future cases whether technological changes or a more developed factual record might eventually support a different scrutiny analysis, particularly regarding whether Ginsberg's rational-basis logic could be extended to the commercial internet context.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As an originalist, I must question whether the modern strict scrutiny framework applied to content-based speech restrictions accurately reflects the original public meaning of the First Amendment. The Founders understood free speech within a context that recognized robust state police powers to regulate morality and protect children, and there is no historical evidence that the First Amendment was understood to prohibit states from restricting minors' access to sexually explicit material \u2014 Ginsberg v. New York correctly recognized this tradition, though I would ground it more firmly in original meaning rather than the variable scrutiny tiers invented by later courts. Texas's HB 1181 regulates commercial conduct \u2014 the distribution of harmful-to-minors content without age verification \u2014 in a manner consistent with longstanding state authority over obscenity and child protection that predates and survives the First Amendment, and the modern strict scrutiny framework applied in Ashcroft v. ACLU represents an atextual judicial invention that I would be willing to revisit. Furthermore, the states retain broad police powers under our constitutional structure, and applying strict scrutiny to effectively nullify reasonable state child-protection regulations reflects the kind of judicial overreach that substitutes the Court's policy preferences for democratic self-governance.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "As a textualist attentive to practical consequences and the legitimate interests of states in protecting minors, I find Texas HB 1181 meaningfully distinguishable from the federal statutes struck down in Reno and Ashcroft. Unlike COPA, HB 1181 imposes civil rather than criminal liability, requires age verification as an affirmative obligation rather than merely providing an affirmative defense, and operates in a technological landscape where age verification systems have materially advanced since 2004, undermining the Court's prior factual premise that such systems were unduly burdensome or ineffective. Ginsberg v. New York firmly established that states possess substantial authority to shield minors from harmful sexual material, and the majority in Ashcroft itself acknowledged that the less-restrictive-alternatives analysis turned heavily on empirical facts about filtering technology that are no longer the same today. I am skeptical that strict scrutiny should automatically apply to what is more properly characterized as a conduct regulation on commercial distributors rather than a direct prohibition on protected speech, and intermediate scrutiny under which this law would likely survive is the more appropriate standard given the state's compelling interest in child protection.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "While I am deeply sympathetic to Texas's compelling interest in protecting minors from harmful sexual content online \u2014 an interest I take seriously as a matter of child welfare \u2014 the First Amendment's protections for adult speech cannot be so easily set aside. Under Ashcroft v. ACLU and Reno v. ACLU, content-based restrictions on protected speech require strict scrutiny, and age verification mandates that chill adult access to legal content by creating privacy risks and practical barriers have consistently failed that standard. Although Texas argues that technological advances since 2004 make age verification less burdensome and that the law targets conduct rather than speech, these arguments do not overcome the fundamental narrow tailoring problem: less restrictive alternatives, including user-side filtering tools and parental controls, remain available and may be equally or more effective without imposing the same chilling effect on constitutionally protected adult expression. I write separately to urge Congress and state legislatures to pursue more carefully tailored solutions that genuinely protect children without sacrificing the privacy and expressive rights of adults, recognizing that the real-world harms of both unchecked minor access to pornography and overbroad speech restrictions fall disproportionately on vulnerable communities.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Texas HB 1181 is a content-based restriction on protected speech that triggers strict scrutiny under established First Amendment doctrine, consistent with Ashcroft v. ACLU (2004), Reno v. ACLU (1997), and United States v. Playboy Entertainment Group (2000). While I take seriously Texas's compelling interest in protecting minors \u2014 an interest Ginsberg v. New York recognized as legitimate \u2014 the critical question under strict scrutiny is narrow tailoring, and the record does not demonstrate that age verification is less restrictive than user-side filtering tools that have grown considerably more sophisticated in the two decades since Ashcroft II. Texas's argument that technological change has rendered filtering software less effective than age verification is not without force, and I would want a robust factual record on that question, but the burden rests with the State to affirmatively demonstrate that less restrictive alternatives are inadequate before imposing a system that creates documented privacy risks and practical chilling effects on constitutionally protected adult access to legal content. I am not persuaded that the Court should abandon strict scrutiny here or recharacterize this as a conduct regulation rather than a speech restriction, as the age verification requirement directly conditions access to protected expression on compliance with a government-mandated disclosure regime.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas HB 1181 is a content-based restriction on speech that triggers strict scrutiny under well-established First Amendment doctrine, as reaffirmed in Ashcroft v. ACLU and Reno v. ACLU \u2014 the plain text of the First Amendment admits no exception for content-based regulations merely because they target a disfavored category of legal speech or employ a regulatory mechanism framed as 'conduct.' The government bears the burden of demonstrating that no less restrictive alternative would serve its compelling interest in protecting minors, and the Court's prior holdings in Ashcroft specifically identified user-side filtering tools as plausible less restrictive alternatives to website-based age verification mandates of precisely this character. Texas's argument that rational basis or intermediate scrutiny applies because the law regulates commercial conduct rather than speech is unpersuasive textualism \u2014 the law's operative effect is to condition access to constitutionally protected adult speech on compliance with a government-mandated verification regime, which is a content-based burden on expression regardless of how the legislature labels it. Consistent application of the methodology I employed in cases like United States v. Stevens demands that we not permit the government to circumvent strict scrutiny by creative statutory drafting when the First Amendment's plain protections are directly implicated.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Texas HB 1181 is a content-based restriction on speech that triggers strict scrutiny under well-established First Amendment doctrine, as reaffirmed in Ashcroft v. ACLU (2004) and United States v. Playboy Entertainment Group (2000). The law conditions access to constitutionally protected adult speech on mandatory age verification based solely on the sexual nature of the content, which is precisely the kind of content-based burden that demands the government demonstrate narrow tailoring and the absence of less restrictive alternatives. Ashcroft v. ACLU is directly controlling here \u2014 the Court struck down COPA, a federal law with nearly identical mechanics, because user-side filtering tools represented a less restrictive and comparably effective alternative, and Texas has not demonstrated that the technological landscape has so fundamentally changed as to overcome that precedent. While I am genuinely sympathetic to Texas's compelling interest in protecting minors and recognize that the practical realities of internet access in 2024 differ from 2004, institutional respect for precedent and the principle of judicial restraint counsel against allowing the Fifth Circuit's departure from controlling strict scrutiny doctrine to stand without this Court's correction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Texas HB 1181 is a content-based restriction on speech that triggers strict scrutiny under well-established First Amendment doctrine, as reaffirmed in Ashcroft v. ACLU, 542 U.S. 656 (2004), and United States v. Playboy Entertainment Group, 529 U.S. 803 (2000). The textual and doctrinal framework is clear: when the government restricts speech based on its content, even to serve the compelling interest of protecting minors, it bears the burden of demonstrating the law is narrowly tailored and that no less restrictive alternatives would be equally effective. Texas's argument that the law regulates 'conduct' rather than 'speech' is unpersuasive under originalist and textualist analysis, as the First Amendment's protection of the press and speech has historically encompassed the act of distribution and publication, not merely the content itself in isolation. Consistent with Ashcroft's holding that parental filtering tools and user-side controls represent plausible less restrictive alternatives, the government has not met its burden of demonstrating that mandatory age verification \u2014 with its attendant privacy risks and chilling effects on constitutionally protected adult access \u2014 is the least restrictive means available, and Brown v. Entertainment Merchants Association, 564 U.S. 786 (2011), confirms that the state's interest in shielding minors, however compelling, does not override the narrow tailoring requirement.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas HB 1181 is a content-based restriction on protected speech that triggers strict scrutiny under well-established First Amendment doctrine, as reaffirmed in Ashcroft v. ACLU, 542 U.S. 656 (2004), and United States v. Playboy Entertainment Group, 529 U.S. 803 (2000). While I take seriously the state's compelling interest in protecting minors from harmful sexual content \u2014 an interest I do not dismiss lightly \u2014 the burden falls squarely on Texas to demonstrate that no less restrictive alternative would be equally effective, and the record strongly suggests that user-side filtering tools and parental control software remain viable, less burdensome alternatives, precisely as this Court found in both Reno v. ACLU and Ashcroft. The mandatory age verification regime imposes substantial practical burdens on constitutionally protected adult speech, including significant privacy risks from data collection inherent in identity verification systems, chilling lawful access in ways that are not narrowly tailored to the state's interest. Consistent with Brown v. Entertainment Merchants Association, the government cannot leverage its legitimate interest in child protection to impose content-based restrictions that sweep too broadly against adult speech when less restrictive means remain available.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.781,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "23-1122",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Texas's law requiring commercial websites to implement age verification systems before allowing access to sexual content violates the First Amendment's free speech protections.",
+      "legal_provision": "Texas House Bill 1181 (HB 1181), codified in the Texas Business and Commerce Code, requiring age verification for online pornographic content, analyzed against the First Amendment to the United States Constitution and its established scrutiny frameworks.",
+      "petitioner_position": "The Free Speech Coalition and allied petitioners argue that Texas's age verification mandate imposes an unconstitutional burden on protected adult speech and must be subject to strict scrutiny under established First Amendment doctrine, particularly as articulated in Ashcroft v. ACLU, where the Supreme Court struck down similar federal age verification requirements as not narrowly tailored; petitioners contend that less restrictive alternatives, such as filtering software, are available and more effective, and that the law chills constitutionally protected adult access to legal content.",
+      "respondent_position": "Texas Attorney General Ken Paxton, supported by amici including major religious organizations, the Manhattan Institute, Louisiana state legislators, and The Reward Foundation, argues that the state has a compelling interest in protecting minors from harmful pornographic material, that the age verification requirement is a reasonable and commercially feasible regulation, and that the Fifth Circuit correctly applied rational basis or a lesser standard of scrutiny rather than strict scrutiny, distinguishing the law as a content-neutral regulation of commercial conduct rather than a direct restriction on protected speech.",
+      "key_precedents": [
+        "Ashcroft v. ACLU, 542 U.S. 656 (2004) - struck down COPA's age verification requirements under strict scrutiny as not narrowly tailored",
+        "ACLU v. Mukasey, 534 F.3d 181 (3d Cir. 2008) - Third Circuit final decision holding federal online pornography age verification law failed narrow tailoring under strict scrutiny",
+        "Ginsberg v. New York (implied - foundational case on states' authority to restrict minors' access to obscene materials)",
+        "Reno v. ACLU (implied - landmark case establishing First Amendment protections for internet speech)",
+        "United States v. Playboy Entertainment Group (implied - strict scrutiny standard for content-based speech restrictions)",
+        "Free Speech Coalition v. Paxton (Fifth Circuit decision below, applying rational basis review and upholding the Texas statute)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached substantial consensus, and I am gratified that colleagues across methodological lines \u2014 Justice Barrett's textualism, Justice Gorsuch's originalism, Justice Kagan's structuralism \u2014 converge on the same narrow ground I identified: the Fifth Circuit's rational basis recharacterization was error, strict scrutiny applies as a legal matter, and remand is the appropriate remedy. Justice Alito's argument about technological change remains the most serious challenge, and I want to be precise about why it does not alter the scrutiny determination: as Justice Barrett correctly frames it, whether age verification is now commercially feasible goes to narrow tailoring under strict scrutiny, not to which tier of scrutiny applies in the first instance. Justice Thomas's originalist challenge deserves a fuller response in the majority opinion \u2014 I would acknowledge that Ginsberg reflects a genuine historical tradition of state authority over harmful-to-minors material, and that this tradition informs our assessment of compelling interest, while explaining that the strict scrutiny framework governs because HB 1181 burdens protected adult speech regardless of its commercial framing. As Chief Justice, I would write the majority opinion narrowly: reaffirm Ashcroft's strict scrutiny standard, vacate the Fifth Circuit, remand for factual development on filtering efficacy and verification burden, and expressly reserve the question whether Texas can satisfy strict scrutiny on an updated record \u2014 this preserves institutional legitimacy, respects Texas's interest, and leaves the door open without issuing a broad ruling on a stale factual record.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett's argument is the most carefully constructed opposing position, and I must engage with it directly: she contends that the threshold scrutiny determination is a purely legal question unaffected by technological change, and that Ashcroft's strict scrutiny framework controls regardless of empirical developments. But this argument assumes that Ashcroft correctly identified the constitutional baseline in the first place \u2014 and as I have explained, that framework is a 20th-century judicial construction, not a derivation from the First Amendment's original public meaning. Justice Gorsuch challenges me to develop the originalist case more fully, and he is right that I have not exhausted that argument here, but the burden should run the other way: those who would apply strict scrutiny to state regulations of commercial pornography distribution to minors must demonstrate that the original public meaning of the First Amendment compelled that result, and no colleague has done so. The majority's position essentially treats Ashcroft as a constitutional fixed point immune from originalist critique, which is precisely the kind of precedent-worship that substitutes judicial construction for constitutional text \u2014 I maintain my position that states retain the police power authority recognized in Ginsberg, and that the Fifth Circuit's judgment, whatever its doctrinal imprecision, reached the constitutionally correct result.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Barrett's argument that the threshold scrutiny determination is a purely legal question unaffected by technological change is the strongest challenge to my position, and I acknowledge its force \u2014 she is correct that Ashcroft's holding that content-based restrictions trigger strict scrutiny is a doctrinal rule, not an empirical one. However, I maintain my position for a reason my colleagues have not adequately addressed: the 'least restrictive means' prong of strict scrutiny is inherently empirical, and if the factual predicate that made filtering software the less restrictive alternative in 2004 has collapsed \u2014 as the record suggests \u2014 then even under strict scrutiny Texas may well prevail on remand, making the difference between my position and the majority's largely academic. Justice Thomas and I agree that Ginsberg reflects a constitutional tradition of state authority that our modern doctrine has strained beyond recognition, and while I accept that the Court will not abandon strict scrutiny today, I would at minimum hold that the Fifth Circuit's rational basis analysis, though labeled incorrectly, reached the right result given the current technological record, and I would affirm rather than remand to preserve judicial economy and respect Texas's legitimate protective interest.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's most serious challenge remains the empirical claim that age verification technology has improved dramatically since 1999, but as Justice Barrett correctly articulates, this conflates the legal question of which scrutiny standard applies with the empirical question of whether Texas can satisfy that standard \u2014 and I agree that Ashcroft's strict scrutiny framework governs content-based restrictions on protected adult speech regardless of technological evolution. Justice Thomas's originalist argument that states retain broad police power over harmful-to-minors material is historically grounded, but as Justice Jackson notes, the question is not whether states may protect minors but what constitutional standard governs when the chosen mechanism substantially burdens protected adult speech \u2014 and the real-world privacy harms I have observed falling disproportionately on LGBTQ+ individuals and other marginalized communities who fear submitting identifying information to commercial pornography sites are precisely the kind of concrete chilling effects that strict scrutiny is designed to surface and evaluate. The Fifth Circuit's recharacterization of a content-based restriction as a commercial conduct regulation is the doctrinal sleight-of-hand that, if permitted, would systematically hollow out First Amendment protections for vulnerable populations who depend on digital spaces for access to legal expression. I remain firmly for reversal and remand for proper strict scrutiny analysis, preserving Texas's opportunity to satisfy that standard with an updated evidentiary record.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's argument remains the most serious challenge to my position, but I am now more confident than in round one that he conflates two analytically distinct questions \u2014 as Justice Barrett articulates with precision, the threshold determination of which scrutiny level applies is a legal question governed by Ashcroft's holding that content-based restrictions on protected adult speech trigger strict scrutiny, and that legal determination does not shift with the technological winds. Justice Thomas's originalist challenge is intellectually serious, but as I have noted, Ginsberg's variable obscenity doctrine addresses a different question than what standard governs when a state's mechanism substantially burdens adult access to constitutionally protected material \u2014 and the Court has consistently applied strict scrutiny in this domain for over two decades, generating reliance interests that counsel strongly against wholesale doctrinal revision without a far more developed originalist record. The Fifth Circuit's recharacterization of HB 1181 as a commercial conduct regulation subject to rational basis review is simply irreconcilable with our precedents and, if permitted to stand, would hand states a template for systematically evading First Amendment protections through regulatory relabeling \u2014 precisely the doctrinal erosion that concerns me most as a textualist who values statutory and constitutional coherence. I would reverse and remand for strict scrutiny analysis with an updated factual record, preserving Texas's genuine opportunity to satisfy that standard if the empirical landscape has shifted as Justice Alito contends.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas raises the most serious challenge to my position by arguing that the original public meaning of the First Amendment never stripped states of authority to regulate commercial distribution of sexually explicit material to minors, and that Ashcroft itself lacks firm originalist grounding. I take this argument seriously as a fellow originalist, but I cannot accept it here for two reasons: first, even granting that states retain some police power over harmful-to-minors material under Ginsberg, the question is whether the First Amendment's original meaning permitted content-based restrictions that burden adult access to constitutionally protected speech \u2014 and the historical record does not clearly establish that the Founding generation understood the federal Constitution to leave adults' access to legal material entirely at state discretion; second, and more practically, this Court has consistently applied strict scrutiny to content-based internet speech regulations for over two decades, and the institutional costs of abandoning that framework without a compelling originalist case \u2014 which Justice Thomas has not fully developed here \u2014 outweigh the benefits of doctrinal revision. Justice Alito's argument that the technological record has shifted since 1999 is well-taken, but as Justice Barrett correctly notes, the applicable standard of scrutiny is a legal question that does not turn on technological change; Texas still bears the burden of demonstrating narrow tailoring under strict scrutiny, and the proper remedy is remand for that analysis rather than wholesale abandonment of the Ashcroft framework.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Alito's argument that the technological landscape has materially shifted since Ashcroft's 1999 factual record remains the strongest challenge to my position, and I acknowledge its force \u2014 but as Justice Barrett correctly identifies, this conflates the legal question of which scrutiny standard applies with the empirical question of whether Texas can satisfy that standard. The Fifth Circuit's recharacterization of a content-based speech restriction as a 'commercial conduct' regulation subject to rational basis review is precisely the kind of doctrinal erosion that, if permitted, would allow states to systematically nullify First Amendment protections through regulatory relabeling \u2014 and as an institutionalist, I am deeply concerned about the precedential signal that affirming such recharacterization would send to every state legislature and circuit court. Justice Thomas's originalist challenge is intellectually serious, but stare decisis has particular force in First Amendment doctrine where reliance interests and chilling effects are real, and I am not prepared to abandon twenty-five years of internet speech jurisprudence without a far more fully developed originalist case than has been presented here. The appropriate disposition is to reverse and remand for strict scrutiny analysis with an updated factual record, preserving Texas's genuine opportunity to satisfy that demanding standard while maintaining the doctrinal integrity that the Court's institutional legitimacy requires.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's originalist challenge remains the most intellectually serious argument on the other side, and I have genuinely wrestled with his contention that Ashcroft's strict scrutiny framework lacks firm grounding in the original public meaning of the First Amendment. However, even accepting that states historically retained broad police power over harmful material, the critical question is whether HB 1181's mechanism \u2014 requiring adults to submit identifying information to access constitutionally protected speech \u2014 was understood at the Founding or Reconstruction to be categorically beyond First Amendment protection, and the historical record does not establish that with the clarity originalism requires before overturning settled doctrine. Justice Alito's argument about technological change is well-taken as an empirical matter, but as I noted in my prior reasoning and as Justices Kagan and Gorsuch correctly observe, the threshold scrutiny determination is a legal question about the nature of the restriction \u2014 content-based \u2014 not an empirical question about current verification technology; that factual development belongs on remand. The conference is now strongly aligned on reversing and remanding for strict scrutiny analysis, and I am modestly more confident in that position having heard no argument that genuinely dislodges the core holding of Ashcroft that content-based restrictions on protected adult speech trigger strict scrutiny regardless of the state's characterization of the regulation as commercial conduct.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's argument that the 2024 technological landscape renders age verification minimally burdensome remains the most serious challenge to my position, but I agree with Justice Barrett's precise analytical separation: the question of which scrutiny tier applies is a legal determination governed by the content-based nature of the restriction, while whether Texas can satisfy that scrutiny is an empirical question properly developed on remand. Justice Thomas's originalist challenge is intellectually honest in acknowledging that Ashcroft lacks firm originalist grounding, but as I noted in my prior reasoning, even accepting that states retain Ginsberg-style police power over harmful-to-minors material, the constitutional question here is specifically whether a mechanism that substantially burdens protected adult speech \u2014 by requiring identifying information submission to access legal content \u2014 can be imposed without satisfying strict scrutiny; my background as a public defender makes me acutely aware that the chilling effects Justice Sotomayor identifies fall hardest on those least able to vindicate their rights. The near-unanimous consensus among my colleagues that the Fifth Circuit's rational basis recharacterization is doctrinal error reinforces my confidence that reversing and remanding for proper strict scrutiny analysis is both legally correct and institutionally sound, preserving Texas's opportunity to satisfy that standard while foreclosing the dangerous precedent that states may relabel content-based speech regulations as commercial conduct regulations to evade First Amendment review.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Ashcroft v. ACLU, 542 U.S. 656 (2004) established that age verification requirements for online sexual content must survive strict scrutiny, and the Fifth Circuit's application of rational basis review below represents a significant and unjustified departure from that controlling precedent. While I am sympathetic to Texas's compelling interest in protecting minors \u2014 an interest I do not dismiss lightly \u2014 the Court's institutional credibility depends on consistent application of established scrutiny frameworks; we cannot simply allow lower courts to recharacterize content-based speech regulations as commercial conduct regulations to avoid strict scrutiny without undermining the coherence of our First Amendment doctrine. The less restrictive alternatives analysis from Ashcroft, though based on an older factual record, retains doctrinal force, and the burden remains on the State to demonstrate that filtering software and parental controls are genuinely inadequate before imposing a government-mandated verification regime that burdens lawful adult access to protected speech. I would prefer to resolve this on the narrow ground of reaffirming the applicable standard of review and remanding for proper strict scrutiny analysis, rather than issuing a broad ruling on the merits, preserving the possibility that Texas could satisfy that standard with an updated evidentiary record.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As an originalist, I must ask what the First Amendment's original public meaning was at ratification and whether it was ever understood to prohibit states from regulating the commercial distribution of sexually explicit material to minors. The historical record strongly suggests that neither the Founding generation nor the Reconstruction Congress understood the First Amendment to strip states of authority to protect children from obscene or harmful sexual material through reasonable commercial regulations \u2014 states have long exercised police power over the distribution of such material, and age-verification requirements for commercial distributors are a natural extension of regulations that have existed in the physical world for generations. While I have serious reservations about the Court's modern strict scrutiny framework as applied to content-based speech regulations, which itself lacks firm originalist grounding, I would not apply Ashcroft v. ACLU's strict scrutiny analysis here because that precedent rests on doctrinal foundations untethered from the Constitution's original meaning, and the variable obscenity doctrine recognized in Ginsberg v. New York better reflects the historical understanding that states retain broad authority to shield minors from harmful sexual content through commercially feasible regulations. Texas's age-verification requirement is a reasonable exercise of state police power over commercial conduct that the original Constitution left to the states, and I would uphold it accordingly.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Texas HB 1181 is best understood as a regulation of commercial conduct \u2014 specifically the distribution of sexually explicit material to minors \u2014 rather than a direct content-based restriction on protected adult speech, and the Fifth Circuit was correct to apply a more deferential standard of review. Ashcroft v. ACLU, while instructive, was decided on a factual record that closed in 1999 and addressed a federal criminal statute with far more punitive reach; the technological landscape has shifted materially in 25 years, and age verification systems are now commercially feasible and minimally burdensome in ways they were not in 2004. States retain broad authority under Ginsberg v. New York to protect minors from harmful sexual material, and a reasonable, commercially neutral age-gate requirement does not meaningfully chill protected adult access when adults can readily verify their age through widely available mechanisms. Even if strict scrutiny were applied, the state's compelling interest in shielding minors from pornographic harm, combined with the demonstrated inadequacy of voluntary filtering software as a reliable protective mechanism, supports the conclusion that Texas's law is sufficiently narrowly tailored to survive constitutional challenge.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Texas HB 1181's age verification mandate constitutes a content-based restriction on protected adult speech that triggers strict scrutiny under Ashcroft v. ACLU and the line of cases from Reno v. ACLU through United States v. Playboy Entertainment Group. The Fifth Circuit's application of rational basis review was a fundamental doctrinal error \u2014 when a law burdens constitutionally protected speech based on its content, strict scrutiny applies regardless of whether the state frames it as a regulation of 'commercial conduct.' While I am deeply sympathetic to Texas's compelling interest in protecting minors from harmful material \u2014 an interest I take seriously given the documented harms to vulnerable young people \u2014 the state must demonstrate that age verification is the least restrictive means available, and the record does not clearly establish that filtering software and parental controls have become so inadequate since Ashcroft that a government-mandated verification regime is now constitutionally required. I am also troubled by the chilling effect on adults, particularly those in marginalized communities, who may be deterred from accessing legal content due to privacy concerns inherent in submitting identifying information to commercial pornography sites, a real-world harm to vulnerable populations that cannot be dismissed.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Texas HB 1181, like COPA before it, restricts access to constitutionally protected adult speech based on content, triggering strict scrutiny under the First Amendment framework established in Reno v. ACLU and applied in Ashcroft v. ACLU. While I take seriously the Fifth Circuit's argument that Ashcroft II did not definitively resolve the applicable tier of scrutiny, the better reading of our precedents is that content-based restrictions on protected speech \u2014 even those aimed at shielding minors \u2014 must satisfy strict scrutiny when they burden adult access to legal material, as the Third Circuit correctly reasoned in holding that laws targeting content 'harmful to minors' automatically impact otherwise protected adult speech. Texas's age verification mandate, however well-intentioned, imposes a substantial chilling effect on adults seeking lawful content and is not narrowly tailored when less restrictive alternatives like filtering software remain available \u2014 precisely the analysis Ashcroft II conducted. My pragmatic concern for workable doctrine counsels against allowing states to circumvent established First Amendment protections through the mechanism of commercial regulation, as that path would swallow the rule.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The plain text of the First Amendment protects speech from government restriction, and this Court's precedents in Ashcroft v. ACLU and Reno v. ACLU establish that content-based restrictions on online sexual speech \u2014 even when aimed at protecting minors \u2014 must survive strict scrutiny, meaning the government must demonstrate the law is narrowly tailored using the least restrictive means available. Texas's HB 1181 is a content-based restriction because it singles out sexual content for differential treatment, triggering strict scrutiny regardless of whether enforcement is civil or criminal; the Fifth Circuit's application of rational basis review was a methodological error that cannot be squared with this Court's precedents. The availability of filtering software as a less restrictive alternative remains a live constitutional question under Ashcroft's framework, and Texas has not demonstrated that age verification \u2014 which burdens adult access to constitutionally protected material and raises serious privacy concerns \u2014 is the least restrictive effective means of achieving its interest in protecting minors. As a textualist and originalist, I am also wary of allowing states to carve out internet speech exceptions through regulatory recharacterization of content-based laws as mere 'commercial conduct' regulations, which would effectively nullify the First Amendment's protections in the digital sphere.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Ashcroft v. ACLU, 542 U.S. 656 (2004), established that online age verification requirements for sexual content must survive strict scrutiny as content-based speech restrictions, and while I take seriously the argument that technological circumstances have evolved since the factual record closed in 1999, the core First Amendment framework demanding narrow tailoring remains binding precedent that I am not prepared to abandon without compelling doctrinal justification. The Fifth Circuit's application of rational basis review represents a significant departure from this Court's established internet speech jurisprudence running from Reno v. ACLU through Ashcroft, and as an institutionalist I am deeply reluctant to permit circuit courts to effectively overrule Supreme Court precedent by applying a lower standard of scrutiny. That said, I would remand for development of a current factual record on whether filtering software remains a genuinely less restrictive alternative, because the practical workability concern is real \u2014 the 2004 record is now a quarter-century old and the Court's own caveat in Ashcroft acknowledged that technological developments could alter the First Amendment calculus. Texas's compelling interest in protecting minors is unquestioned, but the constitutional path to achieving that interest must still satisfy narrow tailoring under strict scrutiny, not merely rational basis.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Texas HB 1181 imposes a content-based restriction on protected adult speech by conditioning access to legal sexual content on compliance with age verification systems, which under established First Amendment doctrine triggers strict scrutiny rather than rational basis review. The Fifth Circuit's application of rational basis review is inconsistent with this Court's precedent in Ashcroft v. ACLU, 542 U.S. 656 (2004), which applied strict scrutiny to materially analogous federal age verification requirements for online sexual content and found them constitutionally deficient because less restrictive alternatives \u2014 specifically filtering software \u2014 were available to achieve the government's compelling interest in protecting minors. While I acknowledge that the technological landscape has evolved considerably since the factual record closed in 1999, and that filtering software's relative effectiveness versus age verification is a genuinely contested empirical question today, the threshold question of which level of scrutiny applies is a legal determination that does not turn on technological change; Texas bears the burden under strict scrutiny to demonstrate narrow tailoring, and the record here does not clearly establish that age verification is the least restrictive means available. Methodological consistency with Ashcroft demands we apply strict scrutiny, remand for proper analysis under that standard, and resist the temptation to resolve the underlying empirical disputes about filtering efficacy at this stage without an adequate factual record.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Texas HB 1181 imposes a content-based restriction on protected adult speech by conditioning access to legal material on compliance with age verification systems, which under Ashcroft v. ACLU and the line of cases from Reno v. ACLU through United States v. Playboy Entertainment Group demands strict scrutiny rather than the rational basis review applied by the Fifth Circuit below. The Fifth Circuit's departure from this Court's established framework for internet speech regulations represents a significant doctrinal error that, if left uncorrected, would permit states to effectively nullify First Amendment protections for online content through commercially burdensome gatekeeping requirements. While I take seriously Texas's compelling interest in protecting minors \u2014 an interest I do not dismiss \u2014 the procedural fairness concern here is that adults seeking lawful content face chilling effects and privacy risks from mandatory data collection inherent in age verification systems, and the government bears the burden under strict scrutiny of demonstrating no less restrictive alternative exists, a burden Texas has not met given the availability of filtering software. The practical consequences of upholding a lesser standard of review would be to invite a cascade of state-level content regulations that collectively strangle protected speech online, disproportionately harming marginalized communities who rely on digital spaces for access to legal expression.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.786,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

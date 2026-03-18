@@ -1,0 +1,574 @@
+[
+  {
+    "docket": "21-1195",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether non-willful violations of the Foreign Bank Account Report (FBAR) filing requirement under 31 U.S.C. \u00a7 5321(a)(5) accrue penalties on a per-form basis or on a per-account basis, determining whether Alexandru Bittner owed $10,000 per unfiled FBAR form or $10,000 per unreported foreign financial account.",
+      "legal_provision": "31 U.S.C. \u00a7 5321(a)(5)(A) and (B)(i) \u2014 the Bank Secrecy Act's civil penalty provision for non-willful failures to file Foreign Bank and Financial Accounts Reports (FBARs), as well as 31 U.S.C. \u00a7 5314, which establishes the underlying FBAR reporting requirement for U.S. persons holding foreign financial accounts exceeding $10,000.",
+      "petitioner_position": "Alexandru Bittner argues that non-willful FBAR penalties should be assessed per FBAR form that was not timely or properly filed, rather than per individual foreign financial account not reported. Bittner contends that the statutory text of \u00a7 5321(a)(5) ties the violation and corresponding penalty to the failure to file a report, not to each account within that report. Under this interpretation, Bittner would owe a maximum of $10,000 per year for each unfiled FBAR form, resulting in significantly lower total penalties. Bittner further argues that the per-account interpretation leads to absurd and disproportionate outcomes Congress could not have intended, potentially exposing individuals with many foreign accounts to ruinous penalties for a single non-willful oversight. Petitioner also invokes the rule of lenity, asserting that any statutory ambiguity should be resolved in favor of the taxpayer, and raises Eighth Amendment concerns regarding excessive fines under the per-account approach.",
+      "respondent_position": "The United States argues that non-willful FBAR penalties accrue on a per-account basis, meaning each foreign financial account that was not reported constitutes a separate violation subject to its own $10,000 penalty. The Government contends that the statutory structure and purpose of the Bank Secrecy Act support this reading, as the reporting obligation is fundamentally account-specific \u2014 each account must be individually disclosed with detailed information. The Government further argues that the per-account interpretation is consistent with the willful violation penalty provision, which explicitly references accounts, and that Congress intended robust penalties to deter non-compliance with foreign account disclosure requirements. The Solicitor General, representing the United States, maintains that the Fifth Circuit correctly upheld the per-account penalty assessment against Bittner.",
+      "key_precedents": [
+        "United States v. Boyd \u2014 Ninth Circuit decision addressing FBAR non-willful penalties on a per-account basis, which the district court considered but declined to follow, creating a circuit split that prompted Supreme Court review",
+        "Watt v. Alaska \u2014 cited by the district court for the principle that statutory construction begins with the text of the statute itself",
+        "Bank Secrecy Act legislative history and regulatory framework under 31 C.F.R. \u00a7 1010.350",
+        "Eighth Amendment Excessive Fines Clause jurisprudence \u2014 raised by Bittner as an alternative constitutional challenge to the per-account penalty interpretation",
+        "Rule of Lenity doctrine \u2014 invoked by Bittner to argue that ambiguity in the penalty statute should be resolved in the taxpayer's favor",
+        "31 U.S.C. \u00a7 5321(a)(5)(C) \u2014 the willful violation penalty provision, referenced by both parties for structural statutory interpretation arguments"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the structural argument articulated by Justice Thomas and echoed by Justices Alito, Barrett, and others to be compelling: Congress's deliberate inclusion of account-specific language ('balance in the account') in the willful penalty provision under \u00a7 5321(a)(5)(C) while omitting that same language from the non-willful provision is textually dispositive under the negative inference canon from Russello. As a minimalist, I am particularly drawn to the narrowest ground for decision \u2014 the per-form reading resolves this case without reaching the Eighth Amendment excessive fines question that Justice Kagan flags, and I would write the majority opinion to rest squarely on the statutory text and structure rather than constitutional avoidance or lenity. I am somewhat more cautious than Justice Gorsuch about extending the rule of lenity to purely civil penalty provisions, but I need not resolve that question here because the textual and structural evidence is sufficiently clear on its own. As Chief Justice, I would assign the opinion to myself and craft a narrow holding that the unit of violation for non-willful FBAR penalties is the failure to file the required annual report, not each individual account omitted therefrom, leaving broader questions about lenity in civil contexts for another day.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have collectively reinforced the core textual and structural analysis I find dispositive. Justice Alito correctly applies the Russello negative inference canon: Congress's deliberate inclusion of 'balance in the account' language in \u00a7 5321(a)(5)(C) for willful violations, while conspicuously omitting equivalent per-account language from the non-willful provision, is textually dispositive under standard canons of construction \u2014 expressio unius est exclusio alterius. Justice Gorsuch's point about the rule of lenity in quasi-criminal civil penalty contexts further strengthens the per-form reading, as the Government cannot multiply a $10,000 cap into potentially hundreds of thousands of dollars without Congress having plainly authorized that result. The strongest argument for the Government \u2014 that each account represents a discrete informational obligation under \u00a7 5314 \u2014 fails because \u00a7 5314 imposes a duty to file a single annual report, and the violation is the failure to file that report, not each datum that should have appeared within it; the Government's reading would render the structural contrast between the willful and non-willful provisions meaningless surplusage.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "My colleagues across the ideological spectrum have converged on the per-form reading, and I find the collective textual analysis persuasive and consistent with my own. Justice Thomas correctly identifies that the structural contrast between the willful and non-willful penalty provisions is textually dispositive \u2014 Congress's deliberate inclusion of 'the balance in the account at the time of the violation' in \u00a7 5321(a)(5)(C) while omitting equivalent per-account language from the non-willful provision under \u00a7 5321(a)(5)(B)(i) is a classic application of the negative inference canon from Russello. The Government's strongest counterargument \u2014 that the phrase 'any violation' in the non-willful provision could encompass each account as a discrete violation \u2014 fails because \u00a7 5314's underlying obligation is keyed to filing a single annual report, not to disclosing each account as a freestanding legal duty. While I am generally skeptical of lenity arguments and resist using absurdity canons as a license for judicial rewriting, the per-form reading here is compelled by the text and structure alone, making resort to those secondary canons unnecessary, though I note Justice Gorsuch's point that even if ambiguity existed, lenity would reinforce this conclusion.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, and the unanimity here reflects the genuine strength of the per-form reading. Justice Thomas's textualist point about the structural contrast between the willful and non-willful provisions is compelling even from my more pragmatic perspective \u2014 when Congress explicitly wrote 'the balance in the account' into \u00a7 5321(a)(5)(C) but omitted equivalent language from the non-willful provision, that deliberate drafting choice is dispositive. Justice Jackson's point about the Eighth Amendment excessive fines concern reinforces my own view that the per-account interpretation would produce penalties bearing no rational relationship to the severity of non-willful, inadvertent conduct \u2014 exactly the kind of outcome that falls hardest on immigrants, dual citizens, and ordinary people navigating complex financial reporting requirements. The strongest argument for the Government \u2014 that each account represents a discrete informational obligation \u2014 fails because \u00a7 5314's duty is fundamentally to file a report, and multiplying penalties by account count reads into the non-willful provision language Congress conspicuously chose not to include.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The unanimity of my colleagues across the ideological spectrum reinforces my confidence in the per-form reading, though I arrive there through my own pragmatic textualist path. Justice Thomas's point about the negative inference canon is particularly well-taken: the willful penalty provision's explicit reference to 'the balance in the account at the time of the violation' is not accidental drafting \u2014 it reflects Congress's deliberate choice to calibrate willful penalties at the account level, and the conspicuous absence of parallel language in the non-willful provision must be given effect under Russello. Justice Sotomayor's practical concern about the disparate impact on immigrants and dual citizens with complex financial histories resonates with me as well, because a statutory interpretation that produces ruinous penalties for inadvertent omissions while the willful violator faces a lower ceiling is not merely harsh \u2014 it is structurally incoherent and suggests we have misread what Congress intended. The Government's strongest counterargument \u2014 that each account represents a discrete informational obligation under \u00a7 5314's implementing regulations \u2014 ultimately fails because the regulatory framework cannot expand the statutory unit of violation beyond what the text of \u00a7 5321(a)(5) itself authorizes.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "My colleagues have converged on the same textual and structural analysis I find compelling, and I want to emphasize what I consider the single strongest argument against our position \u2014 the Government's contention that \u00a7 5314's regulatory implementing language (31 C.F.R. \u00a7 1010.350) defines the obligation in terms of each 'financial account,' such that each account is a discrete reportable item and therefore a discrete potential violation. But this argument fails at the threshold because the penalty statute in \u00a7 5321(a)(5) is keyed to violations of \u00a7 5314 the *statute*, not the implementing regulations, and \u00a7 5314 speaks of filing 'a report' \u2014 singular \u2014 for each calendar year. Justice Thomas correctly identifies that the willful provision's explicit reference to 'the balance in the account at the time of the violation' is textually dispositive by negative implication: Congress wrote account-specific language into one subsection and deliberately omitted it from the adjacent non-willful subsection, and under Russello v. United States we must give that omission legal effect rather than treat it as a drafting oversight. I would add that even if the regulatory definition of the obligation were relevant, allowing Treasury's own implementing regulation to expand the unit of violation \u2014 and thereby multiply a $10,000 statutory cap into potentially unlimited liability \u2014 would raise serious non-delegation and Chevron-avoidance concerns that further counsel the per-form reading. The rule of lenity, which I apply robustly in civil penalty contexts that carry quasi-criminal stigma and substantial financial consequences, provides an independent and sufficient basis to resolve any residual ambiguity in Bittner's favor.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in strong agreement with the conference, and Justice Thomas's textualist analysis is particularly compelling \u2014 the structural contrast between the willful and non-willful penalty provisions is not merely suggestive but dispositive under standard canons of statutory construction. The Government's strongest counterargument would be that \u00a7 5314's implementing regulations require disclosure of each account separately, suggesting account-level granularity was always contemplated, but this confuses the regulatory reporting mechanics with the statutory unit of violation \u2014 the penalty statute's text controls, not the form's structure. Justice Alito's point about the absurdity of a non-willful violator facing greater penalties than a willful one is structurally powerful and confirms that the per-account reading produces results irreconcilable with Congress's evident graduated penalty scheme. My institutionalist concern about the Court's legitimacy is also served by the per-form reading: imposing potentially ruinous penalties on inadvertent, non-willful actors through an ambiguous statute would undermine public confidence in the rule of law and the Court's role in constraining government overreach.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "My colleagues have converged on the same core textual and structural analysis I find most compelling, and I am gratified that Justice Thomas's invocation of the rule of lenity and Justice Gorsuch's careful attention to the quasi-criminal nature of these civil penalties reinforce the per-form reading from multiple methodological angles. The strongest argument for the Government \u2014 that each account represents a discrete reportable item and therefore a discrete violation \u2014 founders on the structural contrast between \u00a7 5321(a)(5)(B)(i) and \u00a7 5321(a)(5)(C)-(D): Congress's explicit use of per-account language in the willful provision is not merely suggestive but dispositive under Russello's negative inference canon, because we must presume Congress acts intentionally when it uses different language in adjacent provisions addressing the same subject matter. Justice Kagan's observation that the per-account reading raises serious Eighth Amendment excessive fines concerns is worth noting as a constitutional avoidance consideration, though I prefer to rest the holding on the statutory text itself rather than constitutional avoidance, which should be a secondary tool. The unanimity of this conference on the per-form reading, while not itself determinative, reflects that the textual case is genuinely strong and that no colleague has surfaced a countervailing argument that requires me to revisit my analysis.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, and the unanimity here reflects the genuine strength of the textual and structural arguments. Justice Thomas's point about the willful penalty provision's explicit account-specific language \u2014 'the balance in the account at the time of the violation' \u2014 being conspicuously absent from the non-willful provision is textually dispositive under the negative inference canon, and I would add that this structural contrast is not merely suggestive but compelled by Russello v. United States. Justice Sotomayor's observation about the practical impact on immigrants, dual citizens, and individuals with complex financial histories resonates deeply with my background as a public defender \u2014 the per-account interpretation would impose crushing penalties on people who made inadvertent errors, not deliberate tax evasion, and that disproportionality is precisely the kind of absurd result the canon against surplusage and the rule of lenity exist to prevent. The Government's strongest counterargument \u2014 that each account represents a discrete reportable item and therefore a discrete violation \u2014 fails because \u00a7 5314 imposes a duty to file a report, not a duty to disclose each account as a freestanding obligation, and the unit of violation must be keyed to the statutory duty actually imposed.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 5321(a)(5) ties the penalty to a 'violation' of the reporting requirement under \u00a7 5314, which mandates filing a single annual FBAR form \u2014 not to each individual account disclosed therein. As a minimalist, I find the per-form reading more faithful to the statute's structure: the obligation is to file a report, and the failure is the non-filing of that report. The Government's per-account interpretation would produce dramatically disproportionate penalties for non-willful conduct \u2014 the very kind of absurd outcome that counsels against adopting a broader reading when a narrower one is textually available. Furthermore, where genuine ambiguity exists in a provision that carries both civil and criminal applications, the principle articulated in Crandon v. United States and Commissioner v. Acker supports resolving that ambiguity in favor of the regulated party, and I need not reach the Eighth Amendment question if the statutory text can be resolved on narrower grounds.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 31 U.S.C. \u00a7 5321(a)(5)(A) and (B)(i) ties the non-willful penalty to a 'violation' of the reporting requirement, which is keyed to the failure to file an FBAR form \u2014 a single annual report \u2014 rather than to each individual account. Congress demonstrated it knew how to write per-account language when it intended that result, as evidenced by the willful violation provision in \u00a7 5321(a)(5)(C)-(D), which explicitly references 'the balance in the account at the time of the violation'; the deliberate omission of equivalent per-account language from the non-willful provision is textually dispositive under standard canons of statutory construction. As an originalist and textualist, I must give effect to the words Congress actually chose, and the structural contrast between the willful and non-willful provisions compels the conclusion that Congress intended the non-willful penalty to attach per form filed, not per account unreported. To the extent any residual ambiguity remains, the rule of lenity further counsels in favor of the taxpayer, as penalty provisions must plainly impose liability before they can be enforced.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 5321(a)(5)(A) and (B)(i) ties the non-willful penalty to 'any violation' of the filing requirement under \u00a7 5314, which is fundamentally a duty to file a single annual FBAR form \u2014 not a per-account obligation. Applying the negative inference canon from Russello v. United States and Hamdan v. Rumsfeld, Congress's deliberate inclusion of account-specific language ('balance in the account') in the willful penalty provision under \u00a7 5321(a)(5)(C) and in the reasonable cause exception under \u00a7 5321(a)(5)(B)(ii), while omitting that same language from the non-willful penalty provision, strongly indicates Congress did not intend per-account penalties for non-willful violations. The per-account interpretation also produces the absurd consequence that a non-willful violator with many low-balance accounts could face penalties exceeding those imposed on a willful violator \u2014 an outcome irreconcilable with the statutory scheme's graduated penalty structure and Congress's evident intent in the 2004 amendments. While I am generally skeptical of lenity arguments and deferential to law enforcement interests, the textual and structural evidence here is sufficiently clear that the per-form interpretation is the correct one without needing to resort to lenity.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The statutory text of \u00a7 5321(a)(5)(A) and (B)(i) ties the non-willful penalty to the failure to file a 'report,' not to each account within that report, and Congress's deliberate choice to include explicit per-account language in the willful violation provision under \u00a7 5321(a)(5)(C) while omitting such language from the non-willful provision is a powerful structural signal that the two provisions operate differently. The per-account interpretation produces absurd and disproportionate outcomes \u2014 as the district court's example illustrates, a non-willful violator could face greater penalties than a willful violator with more assets abroad \u2014 a result Congress plainly could not have intended and which falls hardest on ordinary people who made inadvertent filing errors rather than deliberate tax evaders. From a practical standpoint, the per-account approach exposes immigrants, dual citizens, and individuals with complex financial histories to potentially ruinous penalties for a single non-willful oversight, undermining the fundamental fairness that should animate civil penalty regimes. While I am cautious about extending the rule of lenity to purely civil provisions, the structural ambiguity here, combined with the canon against absurd results and the principle that penalty statutes should be construed in favor of those subject to them, reinforces the per-form reading.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of \u00a7 5321(a)(5)(A) and (B)(i) ties the non-willful penalty to 'any violation' of the reporting requirement under \u00a7 5314, and \u00a7 5314 obligates a person to file a single annual FBAR form \u2014 the violation is therefore the failure to file that form, not each account omitted from it. The structural contrast with the willful penalty provision in \u00a7 5321(a)(5)(C)-(D) is telling: Congress explicitly referenced 'the account' and 'the balance in the account at the time of the violation' when calibrating willful penalties, demonstrating that when Congress intended account-level granularity it said so directly. Applying the per-account interpretation to non-willful violations \u2014 where Congress conspicuously omitted account-specific language \u2014 would produce disproportionate and potentially ruinous penalties for inadvertent omissions, an outcome inconsistent with the statutory purpose of distinguishing non-willful from willful conduct and one that raises serious Eighth Amendment excessive fines concerns. As a pragmatic textualist, I find that the per-form reading produces a coherent, workable penalty structure that respects Congress's deliberate drafting choices across the two subsections and avoids absurd results Congress could not have intended.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The statutory text of \u00a7 5321(a)(5)(A) imposes a penalty on any person who 'violates, or causes any violation of, any provision of section 5314,' and \u00a7 5314 establishes a duty to *file a report* \u2014 not a duty to disclose each individual account as a freestanding obligation. The operative unit of violation is therefore keyed to the failure to file the required annual FBAR form, not to each account that should have appeared within it. The Government's reliance on the willful penalty provision in \u00a7 5321(a)(5)(C)-(D), which explicitly references account balances, actually cuts against the per-account reading for non-willful violations: Congress knew how to write account-specific penalty language when it wanted to, and its conspicuous omission of such language in the non-willful provision is telling under ordinary textual canons. Even if the text were genuinely ambiguous, the rule of lenity \u2014 which I apply in civil penalty contexts involving quasi-criminal sanctions \u2014 would require resolving that ambiguity in Bittner's favor rather than permitting the Government to multiply a $10,000 cap into potentially hundreds of thousands of dollars for a single non-willful filing omission.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 5321(a)(5) ties the non-willful penalty to the failure to file 'a report' required under \u00a7 5314, not to each account contained within that report \u2014 and this textual anchor strongly suggests a per-form unit of violation. The contrast with the willful penalty provision in \u00a7 5321(a)(5)(C), which explicitly references 'the balance in the account,' reinforces that Congress knew how to write account-specific penalty language when it intended to do so, and its omission of such language in the non-willful provision is telling. From a practical and institutionalist standpoint, the per-account interpretation produces wildly disproportionate penalties for non-willful, inadvertent omissions \u2014 the kind of absurd outcome that counsels against adopting that reading \u2014 and where genuine ambiguity remains after textual and structural analysis, the rule of lenity as applied to civil penalty provisions, consistent with Commissioner v. Acker, 361 U.S. 87 (1959), tips the balance in favor of the taxpayer. Judicial restraint and respect for fair notice principles further support resolving this ambiguity against the Government rather than exposing individuals to potentially ruinous penalties Congress did not clearly authorize.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "A careful textualist reading of 31 U.S.C. \u00a7 5321(a)(5)(A) and (B)(i) reveals that the operative unit of violation is keyed to the 'failure to file a report' required under \u00a7 5314, not to each individual account within that report. The structural contrast with \u00a7 5321(a)(5)(C) \u2014 the willful penalty provision, which explicitly references 'the balance in the account' and 'the existence of an account' \u2014 is dispositive under standard canons of statutory construction: Congress's deliberate choice to include account-specific language in the willful provision but omit it from the non-willful provision signals that the non-willful penalty attaches per form, not per account. This reading is reinforced by the principle that where Congress uses different language in adjacent provisions addressing the same subject matter, those differences must be given effect rather than read as surplusage. While I am cautious about relying on absurdity arguments as a primary tool of interpretation, the per-account reading would produce outcomes so disproportionate \u2014 where a non-willful violator could face greater penalties than a willful one \u2014 that they further confirm the per-form reading better reflects the statutory text's original public meaning.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 5321(a)(5)(A) penalizes a 'violation' of \u00a7 5314, and the reporting obligation under \u00a7 5314 is fundamentally tied to the filing of a single annual FBAR form, not to each individual account disclosed within it. The structural contrast between the non-willful penalty provision and the willful penalty provision under \u00a7 5321(a)(5)(C) \u2014 which explicitly references per-account calculations \u2014 strongly suggests Congress knew how to impose per-account penalties when it intended to do so, and its silence in the non-willful provision is meaningful. The per-account interpretation produces grossly disproportionate penalties for non-willful, inadvertent omissions, as illustrated by the scenario where a taxpayer with minimal account balances faces hundreds of thousands of dollars in penalties for a single oversight, raising serious Eighth Amendment excessive fines concerns and producing absurd results Congress could not have intended. My background as a public defender reinforces my concern about punitive penalty structures that bear no rational relationship to the severity of the underlying conduct, and where genuine statutory ambiguity exists, the rule of lenity counsels resolving that ambiguity in favor of the individual rather than the government.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.883,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "21-1195",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether non-willful violations of the Foreign Bank Account Report (FBAR) filing requirement under 31 U.S.C. \u00a7 5321(a)(5) trigger a separate $10,000 penalty per unreported foreign account or a single $10,000 penalty per delinquent FBAR form regardless of the number of accounts not reported.",
+      "legal_provision": "31 U.S.C. \u00a7 5321(a)(5)(A) and (B)(i) \u2014 the Bank Secrecy Act's civil penalty provision for non-willful failures to file Reports of Foreign Bank and Financial Accounts (FBARs), as well as 31 U.S.C. \u00a7 5314, which establishes the underlying FBAR reporting requirement for U.S. persons with foreign financial accounts exceeding $10,000.",
+      "petitioner_position": "Alexandru Bittner argues that the $10,000 statutory cap on non-willful FBAR penalties applies per FBAR form filed late or not filed, rather than per individual foreign account not reported. Bittner contends that the statutory text of \u00a7 5321(a)(5) ties the penalty to the 'violation' of failing to file a required report, not to each account omitted from that report. He further argues that the per-account interpretation leads to absurd, grossly disproportionate penalties that Congress could not have intended, implicates the rule of lenity given statutory ambiguity, and raises serious Eighth Amendment excessive fines concerns. In Bittner's case, the per-account approach resulted in penalties of approximately $2.72 million for five years of non-willful violations across numerous accounts, compared to a maximum of $50,000 under the per-form interpretation.",
+      "respondent_position": "The United States argues that the plain text and structure of \u00a7 5321(a)(5) support a per-account penalty framework, asserting that the statute's reference to 'any violation' of \u00a7 5314 encompasses each individual account that a filer was required to but failed to report. The Government contends that the FBAR reporting obligation is account-specific in nature \u2014 each foreign financial account triggers a discrete legal duty \u2014 and therefore each unreported account constitutes a separate, independently penalizable violation. The Government further argues that the per-account interpretation is consistent with the statute's purpose of deterring offshore tax evasion and financial concealment, and that the penalty amounts, while substantial, are not constitutionally excessive given the regulatory interests at stake.",
+      "key_precedents": [
+        "United States v. Boyd, 991 F.3d 1077 (9th Cir. 2021) \u2014 Ninth Circuit decision holding that non-willful FBAR penalties apply per form, not per account, which created a circuit split with the Fifth Circuit's decision in Bittner",
+        "Watt v. Alaska \u2014 cited by the district court for the principle that statutory construction begins with the text of the statute itself",
+        "31 U.S.C. \u00a7 5314 \u2014 the underlying FBAR reporting statute establishing the legal duty to report foreign financial accounts",
+        "31 U.S.C. \u00a7 5321(a)(5) \u2014 the civil penalty provision directly at issue, including its willful and non-willful penalty tiers",
+        "The rule of lenity \u2014 invoked as a canon of statutory construction favoring the defendant where a penal statute is genuinely ambiguous",
+        "Eighth Amendment excessive fines jurisprudence \u2014 raised by Bittner as a constitutional backstop against the per-account penalty interpretation"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable unanimity, and reviewing my colleagues' arguments strengthens rather than shakes my position. Justice Gorsuch's textual point about Congress's deliberate omission of account-specific language from the non-willful tier \u2014 contrasted with the willful tier's explicit reference to 'the balance in the account' \u2014 is the strongest structural argument in the case, and it reinforces my own reading that the 'violation' attaches to the filing obligation rather than each account. Justice Barrett's observation about the aggregate-balance filing threshold further confirms that the BSA's architecture treats the FBAR as a unified instrument, not a collection of discrete per-account obligations. As Chief Justice, I would assign the majority opinion with an eye toward the narrowest possible holding: the per-form reading is compelled by the statutory text and structure, and we need not reach the Eighth Amendment excessive fines question or rely heavily on lenity \u2014 though both provide additional support \u2014 because the text itself resolves the ambiguity in Bittner's favor, preserving institutional legitimacy by deciding this case on the least constitutionally fraught ground available.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Gorsuch's textual argument is particularly compelling and reinforces my own originalist analysis: Congress demonstrated it knew how to write a per-account penalty when it drafted the willful tier in \u00a7 5321(a)(5)(C), which expressly references 'the balance in the account' as a penalty benchmark \u2014 the deliberate omission of account-specific language from the non-willful tier is textually dispositive under the canon that Congress acts intentionally when it uses different language in related provisions. The strongest argument for the Government is that \u00a7 5321(a)(5)(B)(ii)'s reasonable-cause exception uses the phrase 'the account,' suggesting Congress contemplated account-level analysis even in the non-willful context; but as Justice Barrett correctly observes, that language is better read as describing the subject matter of a violation already defined at the form level, not as independently establishing the unit of violation. The original public meaning of 'violation' in \u00a7 5314 attaches to the single annual filing obligation \u2014 one person, one year, one report \u2014 and the rule of lenity, with its deep common law roots that I have consistently recognized as a legitimate canon of construction, provides an additional and independent basis for resolving any residual ambiguity in Bittner's favor. The near-unanimous conference alignment here reflects not mere consensus but the genuine convergence of multiple sound methodologies \u2014 textualism, originalism, structural analysis, and lenity \u2014 all pointing toward the per-form interpretation.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's textual argument is particularly compelling: Congress's deliberate inclusion of 'balance in the account' language in the willful penalty tier of \u00a7 5321(a)(5)(C) while omitting any account-specific language from the non-willful tier is powerful evidence that the per-account reading is not what Congress intended for non-willful violations. The strongest argument for the Government \u2014 that the reasonable-cause exception in \u00a7 5321(a)(5)(B)(ii) uses 'the account' in the singular, suggesting account-level granularity \u2014 is addressed by Justice Barrett's observation that this language describes the subject matter of a violation already defined at the form level, not the unit of violation itself. My own concern about the Government's administrative-convenience argument remains: if the penalty unit depends on whether the Secretary chose to require one consolidated form or multiple separate forms, that is an unstable and arbitrary foundation for imposing millions of dollars in penalties on non-willful actors, and no serious textualist reading can accept that the severity of civil penalties turns on bureaucratic formatting decisions. The near-unanimous agreement among my colleagues across the ideological spectrum further confirms that the per-form reading is the more defensible textual position, though I reach that conclusion independently on the merits.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, and Justice Gorsuch's textual observation is particularly compelling: Congress demonstrated it knew how to write a per-account penalty when it wanted to, as evidenced by the willful tier's explicit reference to 'the balance in the account' in \u00a7 5321(a)(5)(C)-(D), and the deliberate omission of such language from the non-willful tier is powerful evidence that Congress did not intend per-account penalties there. The strongest argument for the Government \u2014 that the reasonable-cause exception's reference to 'the account' in \u00a7 5321(a)(5)(B)(ii) implies a per-account violation structure \u2014 is addressed well by Justice Barrett's observation that this language describes the subject matter of a violation already defined at the form level, not the unit of violation itself. From my perspective, the real-world consequences here are not merely abstract: Bittner's $2.72 million penalty for non-willful conduct \u2014 the kind of inadvertent noncompliance that affects countless immigrants, dual citizens, and ordinary people with foreign ties \u2014 versus $50,000 under the per-form reading illustrates exactly the kind of disproportionate government overreach that the rule of lenity and Eighth Amendment excessive fines doctrine exist to check. The near-unanimity of my colleagues across very different judicial methodologies \u2014 textualism, pragmatism, minimalism \u2014 converging on the same result gives me additional confidence that the per-form reading is correct.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's point about the textual contrast between the willful and non-willful penalty tiers is particularly compelling \u2014 Congress explicitly referenced 'the balance in the account' in \u00a7 5321(a)(5)(C) for willful violations, and the deliberate omission of account-specific language in the non-willful tier is strong evidence that Congress did not intend per-account penalties there. Justice Barrett's observation about the BSA's aggregate-balance filing threshold further reinforces the per-form reading: the statute's own triggering mechanism is holistic rather than account-by-account, which is structurally inconsistent with a per-account penalty unit. The strongest argument for the Government \u2014 that \u00a7 5321(a)(5)(B)(ii)'s reference to 'the account' in the reasonable-cause exception implies account-level granularity \u2014 is better read, as Justice Barrett suggests, as describing the subject matter of a violation already defined at the form level rather than as defining the violation unit itself. With the rule of lenity providing an additional backstop where genuine ambiguity persists, and the workability concern I raised about Secretary-determined form structure making penalty exposure arbitrary, I remain firmly in the Petitioner camp at increased confidence.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached remarkable unanimity, and I find my colleagues' reasoning reinforces rather than challenges my own analysis. Justice Barrett's textual observation about the contrast between the willful penalty tier's explicit 'balance in the account' language and the non-willful tier's silence on account-specific metrics is particularly compelling under my methodology \u2014 when Congress uses different language in adjacent provisions of the same statute, that difference must mean something, and the most natural inference is that the non-willful tier was deliberately written at the form level. The Government's strongest counterargument \u2014 that \u00a7 5321(a)(5)(B)(ii)'s reasonable-cause exception uses 'the account' in the singular, suggesting account-level granularity \u2014 is addressed by Justice Barrett's point that this language describes the subject matter of an already-defined violation rather than redefining the unit of violation itself. Ultimately, the rule of lenity provides an independent and sufficient basis for my conclusion: where a quasi-penal civil statute is genuinely ambiguous, as the circuit split between the Fifth and Ninth Circuits conclusively demonstrates, courts must resolve that ambiguity in favor of the regulated party rather than allow the government to impose $2.72 million in penalties where Congress calibrated the maximum at $10,000.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference unanimity across nine justices with genuinely divergent methodologies \u2014 from Justice Thomas's originalism to Justice Sotomayor's pragmatic concern for real-world consequences \u2014 reinforces rather than merely reflects the strength of the per-form reading. Justice Gorsuch's textual contrast between the willful tier's explicit 'balance in the account' language and the non-willful tier's silence remains the most dispositive structural argument, and no colleague has identified a Government counterargument that survives scrutiny. Justice Barrett's response to the Government's strongest point \u2014 that the reasonable-cause exception's reference to 'the account' describes the subject matter of an already-defined form-level violation rather than redefining the unit of violation \u2014 is persuasive and consistent with how we ordinarily read exception clauses as operating within, not expanding upon, the scope of the primary provision. I write separately to emphasize that the Chief Justice's instinct toward the narrowest holding is institutionally sound: we should resolve this on the statutory text and structure, reserving the Eighth Amendment excessive fines question and relying on lenity only as a backstop, thereby preserving the Court's credibility as an institution that decides cases on the least constitutionally fraught grounds available.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's observation about the textual contrast between the willful and non-willful penalty tiers is particularly compelling under my originalist and textualist methodology: Congress explicitly referenced 'the balance in the account' in \u00a7 5321(a)(5)(C)-(D) for willful violations, and the deliberate omission of parallel account-specific language in the non-willful tier is the strongest textual signal that Congress did not intend per-account penalties for non-willful conduct. The Government's strongest counterargument \u2014 that \u00a7 5321(a)(5)(B)(ii)'s reasonable-cause exception uses 'the account' in the singular, suggesting account-level granularity \u2014 is textually present but ultimately unpersuasive, because that language describes the subject matter of the exception rather than defining the unit of violation; it tells us what the filer must show reasonable cause *about*, not how many violations occurred. Justice Alito's point about the IRS's own pre-litigation guidance treating the penalty as per-form further undermines any claim that the Government's reading represents the plain and obvious meaning of the statute, and the canon against surplusage reinforces that the willful tier's account-specific language would be rendered redundant if the non-willful tier already operated on a per-account basis. The rule of lenity provides an additional, independent basis for the per-form reading given the genuine circuit split and the quasi-penal character of these substantial financial penalties.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Gorsuch's textual observation that Congress explicitly referenced 'the balance in the account' in the willful penalty tier of \u00a7 5321(a)(5)(C) while omitting any such account-specific language from the non-willful tier is perhaps the most powerful argument in this case \u2014 it demonstrates that Congress knew precisely how to write a per-account penalty and chose not to do so for non-willful violations, making the per-form reading not merely plausible but affirmatively supported by the statute's own internal structure. The Government's strongest counterargument \u2014 that \u00a7 5321(a)(5)(B)(ii)'s reasonable-cause exception uses the phrase 'the account,' suggesting account-level granularity \u2014 is addressed by Justice Barrett's persuasive response that this language describes the subject matter of a violation already defined at the form level rather than redefining the unit of violation itself. My background as a public defender reinforces my conviction that when the statutory text, the rule of lenity, the canon of constitutional avoidance (given Eighth Amendment excessive fines concerns), and the IRS's own pre-litigation guidance all point in the same direction, courts should not supply by inference the kind of dramatically escalating penalties \u2014 $2.72 million versus $50,000 \u2014 that Congress did not clearly authorize for non-willful, non-criminal conduct. The unanimity of my colleagues across very different judicial methodologies, from Justice Thomas's originalism to Justice Kagan's pragmatic textualism, further confirms that the per-form reading is the most legally defensible position.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Reading \u00a7 5321(a)(5) in conjunction with \u00a7 5314, the statute's penalty attaches to the 'violation' of the reporting requirement, which is most naturally understood as the failure to file the required FBAR form rather than each individual account omitted therefrom. My minimalist instinct counsels resolving this case on the narrowest available ground: the text of \u00a7 5321(a)(5)(B)(i) caps the penalty for 'a violation' at $10,000, and where Congress has not clearly specified that each unreported account constitutes a discrete violation, we should not read the statute to impose penalties of potentially millions of dollars on non-willful actors \u2014 a result so disproportionate as to strain any plausible account of congressional intent. The rule of lenity further supports Bittner's position given genuine statutory ambiguity, and the institutional legitimacy of the Court is not served by endorsing an interpretation that raises serious Eighth Amendment excessive fines concerns without clear congressional authorization. The Ninth Circuit's reasoning in Boyd, that the violation is tied to the filing obligation rather than each underlying account, better respects the text and avoids the need to reach the constitutional question.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "As a textualist and originalist, I must examine what 'violation' meant in 31 U.S.C. \u00a7 5321(a)(5) at the time of enactment. Section 5314 imposes a duty to *file a report* \u2014 it is the report itself that is the required act, and the failure to file that single report constitutes the 'violation.' The statute's text ties the penalty to the violation of \u00a7 5314's reporting obligation, which is a single, unified filing duty per year, not a per-account obligation; each account is merely content required within that single report. Furthermore, where genuine statutory ambiguity exists in a penal provision, the rule of lenity \u2014 a longstanding canon of construction with deep common law roots \u2014 requires resolution in favor of the individual over the government, and the per-form interpretation is the most natural reading of the statutory text as it would have been understood at enactment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The text of 31 U.S.C. \u00a7 5321(a)(5) imposes a penalty for a 'violation' of \u00a7 5314, and \u00a7 5314 establishes a duty to *file a report* \u2014 not a separate duty for each account contained within that report. The form-based structure of the FBAR regime, where Congress delegated to the Secretary the discretion to prescribe the format and content of required reports, means the 'violation' is most naturally read as the failure to file the required report, not each omitted account. The Government's argument that the per-account result would be the same if the Secretary had required separate forms for each account proves too much \u2014 it demonstrates that the penalty unit is contingent on administrative convenience rather than statutory text, which is an unstable foundation for imposing millions of dollars in penalties. While I am generally skeptical of lenity arguments and sympathetic to law enforcement interests, the rule of lenity provides an additional textual backstop here given genuine ambiguity, and the IRS's own pre-litigation guidance \u2014 including Letter 3709 and the 2014 Fact Sheet \u2014 consistently treated the penalty as per-form, undermining the Government's claim of plain-text clarity.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The statutory text of 31 U.S.C. \u00a7 5321(a)(5) ties the penalty to a 'violation' of the reporting requirement under \u00a7 5314, and the reporting obligation is fundamentally to file a single FBAR form \u2014 not to report each account as a discrete legal duty. The per-account interpretation produces grossly disproportionate penalties, as Bittner's case illustrates: $2.72 million for non-willful conduct versus $50,000 under the per-form reading, a result that raises serious Eighth Amendment excessive fines concerns and that Congress almost certainly did not intend when establishing a non-willful penalty tier distinct from the far harsher willful tier. Even if the statute is genuinely ambiguous, the rule of lenity as applied to civil penalty statutes \u2014 confirmed in Commissioner v. Acker, 361 U.S. 87 (1959), which requires that taxpayers cannot be 'subjected to a penalty unless the words of the statute plainly impose it' \u2014 mandates the per-form interpretation, particularly given the quasi-punitive nature of these substantial financial penalties. The practical impact on ordinary people who may have foreign accounts for entirely legitimate reasons, including immigrants and dual citizens, reinforces that the more lenient per-form reading better serves fairness and proportionality.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The text of \u00a7 5321(a)(5)(A) penalizes 'any violation of' \u00a7 5314, and \u00a7 5314 imposes a single reporting obligation \u2014 the duty to file a report \u2014 not a series of account-by-account obligations. The FBAR form is the statutory instrument through which compliance is measured, and Congress's silence on per-account penalties in the non-willful tier (contrasted with the willful tier's explicit per-account structure) suggests the per-form reading is correct. As a pragmatic textualist, I find it significant that Congress delegated format decisions to the Secretary, meaning the number of penalties cannot logically hinge on an administrative formatting choice \u2014 if the Secretary required ten separate forms, ten penalties would attach, which produces arbitrary and workability-defeating results. The rule of lenity further supports Bittner where genuine ambiguity exists in a penal provision, and the Ninth Circuit's reasoning in Boyd that the violation is the failure to file the consolidated report, not each omitted account, better serves statutory coherence and avoids grossly disproportionate outcomes Congress did not clearly authorize.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of 31 U.S.C. \u00a7 5321(a)(5) imposes a penalty for a 'violation' of \u00a7 5314, and \u00a7 5314 establishes a duty to *file a report* \u2014 not a separate duty for each account contained within that report. The filing obligation is singular and annual: one person, one calendar year, one FBAR form. Critically, Congress demonstrated it knew how to write a per-account penalty when it wanted to \u2014 the willful penalty tier in \u00a7 5321(a)(5)(C) explicitly references the 'balance in the account' as a penalty benchmark, strongly suggesting that when Congress omitted account-specific language from the non-willful tier, that omission was deliberate. Where the statutory text is genuinely ambiguous as to the unit of violation, the rule of lenity requires courts to resolve that ambiguity in favor of the person subject to the penalty, particularly in a quasi-penal civil context where penalties reached $2.72 million for conduct Congress calibrated at a $10,000 maximum.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The statutory text of \u00a7 5321(a)(5) ties the penalty to a 'violation' of \u00a7 5314's reporting requirement, and \u00a7 5314 itself mandates the filing of a *report* \u2014 not the disclosure of each individual account as a discrete legal act. The Government's per-account theory is undermined by the fact that Congress delegated to the Secretary the authority to determine the form and content of the required report, meaning the unit of violation logically attaches to the failure to file the required form rather than to each account that could have appeared on it. This per-form reading is reinforced by the rule of lenity, which counsels that where a penal statute is genuinely ambiguous \u2014 as evidenced by the circuit split between the Ninth Circuit in Boyd and the Fifth Circuit below \u2014 courts should resolve that ambiguity in favor of the regulated party. Practical workability and proportionality concerns also weigh heavily here: the per-account interpretation produces penalties of $2.72 million for non-willful conduct that Congress capped at $10,000, a result that strains the statute's own text and raises serious Eighth Amendment excessive fines questions that judicial restraint counsels avoiding through the narrower statutory construction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 31 U.S.C. \u00a7 5321(a)(5)(A) penalizes 'any violation' of \u00a7 5314, and \u00a7 5314 creates a single annual reporting obligation \u2014 the duty to file one FBAR form \u2014 rather than a discrete legal duty attached to each individual account. As the research materials confirm, the BSA's structure reinforces this reading: the filing threshold is triggered by aggregate account balances exceeding $10,000, not by individual accounts, and the statute obligates filers to submit a single consolidated report per year, suggesting the 'violation' Congress had in mind was the failure to file that report. The contrast between the willful penalty provision \u2014 which expressly references 'the balance in the account' in \u00a7\u00a7 5321(a)(5)(C)-(D) \u2014 and the non-willful provision, which contains no such account-specific language, is textually significant; under the canon that Congress acts intentionally when it uses different language in related provisions, the absence of account-specific language in the non-willful tier counsels against a per-account reading. While the reasonable-cause exception's use of 'the account' in \u00a7 5321(a)(5)(B)(ii) creates some tension, that language is better read as describing the subject matter of a violation already defined at the form level, and any genuine ambiguity remaining should be resolved in favor of the taxpayer under the rule of lenity given the penal character of the provision.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The statutory text of \u00a7 5321(a)(5) ties the penalty to a 'violation' of \u00a7 5314's reporting requirement, and \u00a7 5314 imposes a single duty to file one consolidated FBAR form \u2014 not a separate duty per account \u2014 making the per-form interpretation more textually sound. Where genuine ambiguity exists about the unit of violation, the rule of lenity counsels in favor of the less punitive reading, and as Justice Gorsuch has noted and Comm'r v. Acker, 361 U.S. 87 (1959) confirms, lenity appropriately applies to civil penalty provisions with punitive characteristics. The per-account interpretation produces grossly disproportionate results \u2014 $2.72 million for non-willful conduct versus $50,000 under the per-form reading \u2014 raising serious Eighth Amendment excessive fines concerns that further counsel against adopting the government's position. My background as a public defender reinforces my conviction that when Congress has not clearly spoken to impose such dramatically escalating penalties for non-willful, non-criminal conduct, courts should not supply that severity by inference, particularly where the Ninth Circuit's Boyd decision demonstrates a reasonable alternative construction exists.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.874,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

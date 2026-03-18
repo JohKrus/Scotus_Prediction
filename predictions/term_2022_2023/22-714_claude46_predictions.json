@@ -1,0 +1,572 @@
+[
+  {
+    "docket": "22-714",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Sixth Circuit was required to remand to the FDIC after finding it applied incorrect legal standards, and whether separation-of-powers challengers must show concrete prejudice before courts can resolve removal restriction challenges on the merits.",
+      "legal_provision": "U.S. Constitution Article II (Appointments Clause and Separation of Powers); 5 U.S.C. \u00a7 105 (Executive Agency definitions under Title 5); 28 U.S.C. \u00a7 1254(1) (Supreme Court jurisdiction); Administrative Procedure Act (APA) governing agency adjudications and judicial review standards.",
+      "petitioner_position": "Calcutt argues that under the Chenery doctrine, once the Sixth Circuit determined the FDIC Board applied incorrect legal standards, it was obligated to remand the case back to the agency rather than independently affirming the removal order, because courts may not substitute their own judgment for that of the agency on questions the agency has not properly decided. He further contends that Collins v. Yellen should not be read to require separation-of-powers challengers to demonstrate concrete, particularized prejudice as a threshold prerequisite before courts will adjudicate the merits of constitutional challenges to removal restrictions protecting FDIC Board members and administrative law judges, as such a requirement effectively insulates unconstitutional structural arrangements from judicial review.",
+      "respondent_position": "The FDIC, represented by the Solicitor General, argues that the Sixth Circuit did not err in declining to remand because any legal error by the Board was harmless and the outcome would have been the same under the correct legal standard, making remand an unnecessary formality. On the separation-of-powers question, the FDIC contends that Collins v. Yellen correctly requires challengers to demonstrate that unconstitutional removal protections actually caused them harm, and that Calcutt failed to show that the tenure protections afforded to FDIC Board members or ALJs had any concrete effect on his adjudication or its outcome, thus defeating his constitutional claims.",
+      "key_precedents": [
+        "SEC v. Chenery Corp., 318 U.S. 80 (1943) - foundational administrative law doctrine requiring courts to evaluate agency decisions only on the grounds the agency itself invoked",
+        "Collins v. Yellen, 141 S. Ct. 1761 (2021) - addressing whether separation-of-powers violations require a showing of prejudice for relief",
+        "Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010) - establishing that dual for-cause removal restrictions on executive officers violate separation of powers",
+        "In the Matter of Michael R. Sapp, 2019 WL 5823871 - FDIC Board precedent addressing removal restriction arguments for ALJs and Board members",
+        "Calcutt v. Federal Deposit Insurance Corporation, 37 F.4th 293 (6th Cir. 2022) - the decision below being reviewed"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito raises the most serious challenge \u2014 that requiring remand when the outcome is 'indisputably the same' elevates procedural formalism over practical consequences \u2014 but this argument proves too much and would effectively swallow the Chenery rule entirely, since courts will almost always be tempted to conclude the agency 'would have' reached the same result under correct standards. The strength of Chenery lies precisely in its categorical nature: once legal error is established in a discretionary proceeding, the reviewing court's role ends, because we cannot know with confidence what the agency would have decided had it applied the correct causation standard from the outset, particularly where penalty discretion was exercised. I am persuaded by Justice Kavanaugh's institutionalist framing that the Chenery remand issue is sufficiently clear to warrant reversal on narrow grounds, and as Chief Justice I would assign an opinion focused tightly on that question, reserving the Collins prejudice issue for a case where it is squarely presented and necessary to the outcome \u2014 this minimalist approach preserves institutional legitimacy while resolving the circuit split. The near-unanimity of my colleagues on the Chenery question reflects not groupthink but the genuine doctrinal clarity that Chenery I and II, INS v. Orlando Ventura, and DHS v. Regents collectively establish.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that requiring remand when the outcome is indisputably the same elevates procedural formalism over practical consequences \u2014 but this argument fundamentally misunderstands Chenery's constitutional grounding. The remand requirement is not mere proceduralism; it reflects the structural reality that discretionary penalty determinations belong to the agency, not the reviewing court, and a court cannot know with the requisite certainty what an agency exercising genuine discretion under correct legal standards would have decided. As Justice Gorsuch correctly notes, the APA contemplates that courts 'set aside' unlawful agency action, not independently affirm it on grounds never properly applied \u2014 the harmless error exception cannot swallow the rule in discretionary proceedings where the agency's own causation analysis was concededly flawed. On the Collins prejudice question, I maintain that the requirement, properly read under the original meaning of Article II and Free Enterprise Fund, addresses remedial scope rather than serving as a threshold bar to merits adjudication of structural constitutional violations.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett's formulation crystallizes the core problem with the Sixth Circuit's approach: the very premise that an outcome is 'indisputable' requires the reviewing court to make exactly the kind of discretionary judgment that Chenery reserves for the agency, meaning the harmless-error exception collapses into the error itself. Justice Gorsuch's structural point about the APA contemplating that courts 'set aside' unlawful agency action rather than independently affirm it on alternative grounds is also compelling from a textualist standpoint \u2014 the statute's structure does not authorize courts to substitute their probabilistic confidence for agency discretion in penalty proceedings. I remain more cautious than my colleagues on the Collins prejudice question, and I would write narrowly as Justice Kavanaugh suggests, resolving the Chenery issue without issuing broad pronouncements on whether Collins' prejudice analysis operates as a merits threshold or merely a remedial limitation \u2014 that question deserves a cleaner vehicle. The near-unanimity here reflects genuine doctrinal clarity on Chenery rather than groupthink, and I am now more confident that the Sixth Circuit's independent affirmance cannot stand.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that requiring remand when the outcome would 'indisputably be the same' elevates procedural formalism over practical consequences \u2014 but this argument fundamentally misunderstands what Chenery protects. The doctrine isn't merely about procedural niceties; it reflects the constitutional reality that discretionary penalty determinations belong to the agency, not the reviewing court, and the Sixth Circuit cannot know with confidence what the FDIC Board would have decided under the correct causation standard because that determination involves precisely the kind of expert judgment and discretionary weighing that Congress delegated to the agency. Justice Kagan correctly identifies that the harmless-error exception applies only where the outcome is a foregone conclusion as a matter of law \u2014 not merely probable \u2014 and the record here, involving discretionary removal from the banking industry with significant consequences for Calcutt's livelihood, does not meet that demanding threshold. From my perspective, the combination of bypassing Chenery's remand requirement and imposing a near-impossible prejudice showing on the separation-of-powers question disproportionately harms individuals like Calcutt who face the full coercive power of federal agencies without the procedural protections those doctrines were designed to provide.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's strongest argument \u2014 that requiring remand when the outcome is indisputably the same elevates procedural formalism over practical consequences \u2014 deserves serious engagement, but it ultimately fails under my pragmatic textualist methodology because the harmless-error exception must remain genuinely narrow or it swallows the Chenery rule entirely. The FDIC's removal determination was discretionary, and as Justice Barrett correctly notes, where the record does not compel only one outcome as a matter of law, a reviewing court that declines to remand is substituting its own probabilistic judgment for the agency's \u2014 precisely what Chenery prohibits. Justice Kavanaugh's institutionalist framing also resonates with me: the Chenery remand issue is sufficiently clear to warrant reversal without requiring the Court to broadly resolve the Collins prejudice question, and I would be inclined to write narrowly on the separation-of-powers issue, treating Collins' prejudice analysis as going to remedial scope rather than as a jurisdictional bar, while leaving the harder questions for a case with a cleaner record. The pragmatic solution here is a remand that preserves both administrative expertise and constitutional accountability without issuing sweeping pronouncements on either doctrine.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that requiring remand when the outcome is indisputably the same elevates procedural formalism over practical consequences. But this misunderstands what Chenery actually protects: it is not merely about outcomes but about which constitutional actor exercises discretionary judgment. When Congress vests penalty discretion in the FDIC, not in Article III courts, a court's confident prediction that the agency 'would have' reached the same result under correct standards is still a substitution of judicial for agency judgment \u2014 precisely what Chenery I forbids. Justice Kavanaugh's institutionalist framing reinforces this point: the harmless error exception cannot swallow the rule wholesale in discretionary penalty proceedings where the record does not compel a single outcome as a matter of law, and the Sixth Circuit's approach would effectively permit courts to become the final arbiters of agency discretion whenever they feel confident enough in the outcome. The APA's structure, as Justice Thomas correctly notes, contemplates that courts 'set aside' unlawful agency action and return it to the proper decisionmaker \u2014 not independently affirm it on grounds the agency never properly applied.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious challenge to our position, arguing that requiring remand when the outcome would 'indisputably be the same' elevates procedural formalism over practical consequences. But as Justice Kagan correctly identifies, the harmless-error exception applies only where the outcome was a foregone conclusion as a matter of law \u2014 not merely probable \u2014 and in a discretionary penalty proceeding like this one, the reviewing court simply cannot know with confidence what the agency would have decided under the correct causation standard. The FDIC Board exercises genuine discretion in assessing removal penalties, and the Sixth Circuit's independent affirmance substituted judicial judgment for agency expertise in precisely the manner Chenery I prohibits when it held that 'an administrative order cannot be upheld unless the grounds upon which the agency acted in exercising its powers were those upon which its action can be sustained.' I am also persuaded by Justice Gorsuch's structural point that the APA contemplates courts 'setting aside' unlawful agency action rather than independently affirming it on grounds the agency never properly applied \u2014 allowing harmless-error analysis to swallow the Chenery rule wholesale would fundamentally alter the court-agency relationship that Congress and our precedents have carefully constructed.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the most serious counterargument: that requiring remand when the outcome would indisputably be the same elevates procedural formalism over practical consequences. But this argument proves too much \u2014 the very premise that the outcome is 'indisputable' requires a court to make exactly the kind of discretionary judgment that Chenery reserves for the agency. As Justice Gorsuch correctly notes, the APA contemplates that courts 'set aside' unlawful agency action, not independently affirm it on grounds the agency never properly applied, and the FDIC's penalty determination involved genuine discretion in weighing causation and proportionality that a reviewing court cannot replicate. The harmless error exception must remain narrow \u2014 applicable only where the record compels a single outcome as a matter of law, not merely where a court finds the same result probable \u2014 otherwise Chenery's structural protection of agency primacy becomes a dead letter, and the separation of powers principles undergirding both Chenery and Article II are compromised.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that requiring remand when the outcome would 'indisputably be the same' elevates procedural formalism over practical consequences \u2014 but this framing fundamentally misunderstands what Chenery protects. As Justice Sotomayor correctly notes, the remand requirement exists precisely because courts cannot know with confidence what a discretionary agency decision-maker would have done under the correct legal standard; the Sixth Circuit's certainty that the FDIC 'would have' reached the same result is itself the usurpation Chenery prohibits. Justice Alito's harmless-error approach would effectively nullify Chenery in any case where a reviewing court believes the agency's error was inconsequential, which is exactly the kind of post-hoc judicial rationalization that SEC v. Chenery Corp. was designed to prevent. On the Collins prejudice question, I find Justice Thomas's textual point compelling \u2014 the prejudice requirement properly addresses remedial scope, not whether courts may adjudicate the structural constitutional claim at all, and reading it as a merits threshold would render Free Enterprise Fund's structural violation framework largely illusory for individuals subject to agency enforcement.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine is well-settled and foundational to the proper relationship between courts and administrative agencies: a reviewing court may uphold agency action only on the grounds the agency itself invoked, and when an agency applies incorrect legal standards, the proper remedy is remand, not independent judicial affirmance. As this Court reaffirmed in Michigan v. EPA and DHS v. Regents of the University of California, courts cannot substitute their own judgment for that of the agency on questions the agency has not properly decided, and harmless error analysis cannot serve as a blanket substitute for agency reconsideration where the agency exercised discretion in assessing penalties under a flawed legal framework. The Sixth Circuit's independent affirmance of the removal order, after conceding legal error below, improperly intruded upon the agency's domain and created a circuit split that undermines the uniformity and institutional integrity that Chenery was designed to protect. On the separation-of-powers question, reading Collins v. Yellen to impose a demanding concrete-prejudice prerequisite before courts may even reach the merits of structural constitutional challenges would effectively insulate unconstitutional arrangements from judicial review in a manner inconsistent with Free Enterprise Fund's recognition that such structural defects are cognizable injuries.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under the foundational Chenery doctrine, SEC v. Chenery Corp., 318 U.S. 80 (1943), a reviewing court is categorically prohibited from affirming an agency's discretionary decision on grounds the agency itself did not invoke or apply \u2014 once the agency's legal error is 'laid bare,' the reviewing court's function ends and remand is required. The Sixth Circuit's substitution of its own judgment for the FDIC Board's on questions of causation and penalty discretion directly contravenes this bedrock principle, which is rooted in the constitutional separation of powers and the proper role of Article III courts vis-\u00e0-vis executive agencies. On the separation-of-powers question, requiring challengers to demonstrate concrete prejudice as a threshold prerequisite before courts will adjudicate structural constitutional violations is textually and historically unsupported \u2014 the Appointments Clause and Article II vesting clause protect structural constitutional arrangements whose violation does not depend on a showing of outcome-determinative harm, as Free Enterprise Fund v. PCAOB, 561 U.S. 477 (2010), recognized. Collins v. Yellen's prejudice requirement, properly read, addresses remedial relief rather than merits adjudication, and extending it to bar courts from even reaching the merits of removal restriction challenges would improperly insulate unconstitutional executive structures from judicial review in a manner inconsistent with the original meaning of Article II.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "On the Chenery question, the Sixth Circuit's harmless error analysis was appropriate \u2014 requiring remand when the outcome would indisputably be the same under correct legal standards elevates procedural formalism over practical consequences, and nothing in Chenery mandates such an empty exercise. On the separation-of-powers question, Collins v. Yellen, 141 S. Ct. 1761 (2021), squarely requires plaintiffs to demonstrate that unconstitutional removal restrictions 'inflicted compensable harm,' and Calcutt has failed to identify any concrete nexus between the FDIC Board members' or ALJs' tenure protections and the outcome of his adjudication. Permitting constitutional challenges to proceed without this threshold showing would allow structural separation-of-powers claims to function as automatic get-out-of-jail-free cards for regulated parties who suffered no actual prejudice from the challenged arrangement, undermining the practical functioning of the administrative state and law enforcement mechanisms Congress deliberately constructed. The FDIC's enforcement authority and the integrity of its adjudicative process should not be nullified absent a showing that the removal restrictions actually infected the proceeding.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Chenery doctrine is foundational to administrative law precisely because agencies possess specialized expertise and discretionary authority that courts must respect \u2014 when the FDIC applied an incorrect causation standard, the Sixth Circuit had no business substituting its own judgment on what the agency would have decided under the correct standard, as this Court made unmistakably clear in both INS v. Orlando Ventura and Gonzales v. Thomas through summary reversals. From a practical standpoint, allowing courts to conduct their own harmless-error analysis in discretionary penalty proceedings effectively nullifies the remand requirement and strips regulated parties of their right to have the proper decisionmaker \u2014 the agency \u2014 apply the correct legal standard to the facts in the first instance. On the separation-of-powers question, requiring challengers like Calcutt to demonstrate concrete prejudice as a threshold merits prerequisite creates an almost insurmountable barrier that insulates unconstitutional structural arrangements from judicial review, particularly for individuals subject to agency enforcement who have no way to prove how differently an officer with different tenure protections might have acted. The combination of these errors \u2014 bypassing Chenery's remand requirement and erecting a near-impossible prejudice showing \u2014 disproportionately harms individuals facing the coercive power of federal agencies, precisely the vulnerable population my jurisprudence is committed to protecting.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine's core principle \u2014 that courts may not affirm agency action on grounds the agency itself did not invoke \u2014 demands remand here because the FDIC Board applied incorrect legal standards, and the Sixth Circuit's independent affirmance substituted judicial judgment for agency discretion in precisely the way Chenery I, 318 U.S. 80 (1943), prohibits. While I acknowledge the harmless-error exception recognized in cases like United Video and Morgan Stanley, that exception applies only where the legal error was truly confined and the outcome was a foregone conclusion as a matter of law, not merely probable \u2014 a demanding standard the record here does not clearly satisfy given the Board's discretionary removal determination. On the separation-of-powers question, requiring Calcutt to demonstrate concrete prejudice as a threshold merits prerequisite effectively immunizes structural constitutional violations from judicial review, and Collins v. Yellen's prejudice analysis is better read as going to the scope of available relief rather than as a jurisdictional barrier to adjudicating the constitutional claim itself. A pragmatic reading of these doctrines together counsels remand to allow the FDIC to apply correct legal standards, preserving both administrative expertise and constitutional accountability without foreclosing either inquiry.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The Chenery doctrine is a foundational principle of administrative law rooted in separation of powers: when an agency exercises discretion under an incorrect legal standard, the reviewing court must remand rather than substitute its own judgment for the agency's, because the agency\u2014not the court\u2014is the constitutionally and statutorily designated decision-maker. The Sixth Circuit's 'harmless error' approach to Chenery violations is textually and structurally unsound; the APA's judicial review provisions contemplate that courts 'set aside' unlawful agency action, not independently affirm it on grounds the agency never properly applied. As the government itself conceded below, the FDIC applied an incorrect causation standard in a discretionary penalty proceeding, and under SEC v. Chenery Corp., 318 U.S. 80 (1943), once that legal error is 'laid bare,' the reviewing court's function ends and the matter must return to the agency. Permitting courts to speculate that the agency 'would have reached the same result' under the correct standard impermissibly transfers discretionary authority from the executive branch to the judiciary, offending the very separation-of-powers principles that undergird both Chenery and Article II.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine is a foundational principle of administrative law that I take seriously as an institutionalist: when an agency applies an incorrect legal standard in a discretionary adjudication, the proper remedy is remand, not appellate substitution of judgment. The Sixth Circuit's decision to independently affirm the FDIC's removal order after finding the Board applied an erroneous causation standard directly contravenes Chenery I's core holding that 'an administrative order cannot be upheld unless the grounds upon which the agency acted in exercising its powers were those upon which its action can be sustained.' The harmless error exception cannot swallow the Chenery rule wholesale, particularly where the agency exercised discretion in assessing penalties, because the reviewing court cannot know with confidence what the agency would have decided under the correct legal standard. On the Collins prejudice question, I am more sympathetic to the government's position but the Chenery remand issue is sufficiently clear and consequential to warrant reversal, and resolving that question alone provides adequate relief to Calcutt without requiring the Court to broadly address the separation-of-powers prejudice requirement.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine, as established in SEC v. Chenery Corp., 318 U.S. 80 (1943) and reaffirmed in Chenery II, 332 U.S. 194 (1947), is a foundational principle of administrative law rooted in separation of powers: a court may uphold agency action only on the grounds the agency itself invoked, and when an agency has applied incorrect legal standards, the proper remedy is remand so the agency may apply the correct standard in the first instance. The Sixth Circuit's decision to independently affirm the FDIC's removal order after finding legal error\u2014rather than remanding\u2014usurped the agency's primary role in exercising its discretionary judgment under the correct legal framework, precisely what Chenery prohibits. The harmless error exception cannot swallow the rule; where the agency exercised discretion in assessing penalties and the record does not compel only one outcome as a matter of law, a reviewing court substitutes its own judgment for the agency's when it declines to remand, violating the structural separation of powers that Chenery is designed to protect. On the Collins v. Yellen question, requiring challengers to demonstrate concrete prejudice as a threshold merits prerequisite risks insulating unconstitutional structural arrangements from judicial review in a manner inconsistent with the Court's structural separation-of-powers jurisprudence in Free Enterprise Fund v. PCAOB, 561 U.S. 477 (2010).",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under SEC v. Chenery Corp., 318 U.S. 80 (1943), once the Sixth Circuit determined the FDIC Board applied incorrect legal standards, it was obligated to remand to the agency rather than independently affirming the removal order \u2014 courts may not substitute their own judgment for agency discretion on matters the agency has not properly decided under correct legal standards, and harmless error doctrine cannot override this foundational administrative law principle where the agency exercised discretionary penalty assessment. On the separation-of-powers question, reading Collins v. Yellen to require near-insurmountable proof of concrete prejudice as a threshold prerequisite effectively insulates unconstitutional structural arrangements from judicial review, which is inconsistent with Free Enterprise Fund v. PCAOB's recognition that dual for-cause removal restrictions themselves constitute structural constitutional violations warranting remedy. My background as a public defender reinforces my concern that procedural fairness demands agencies apply correct legal standards before courts affirm their decisions, and that individuals subjected to unconstitutional adjudicative structures should not bear an impossible evidentiary burden to vindicate their constitutional rights. The Sixth Circuit's approach on both questions undermines the separation of powers and the procedural integrity that Article II and the APA are designed to protect.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.873,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "22-714",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the Sixth Circuit was required to remand to the FDIC after finding it applied incorrect legal standards, and whether separation-of-powers challengers must show concrete prejudice before courts resolve removal restriction challenges on the merits.",
+      "legal_provision": "U.S. Constitution Article II (Appointments Clause and Separation of Powers); 5 U.S.C. \u00a7 105 (Executive Agency definitions under Title 5); Administrative Procedure Act (APA) governing agency adjudications and judicial review standards",
+      "petitioner_position": "Petitioner Harry Calcutt argues that: (1) under the Chenery doctrine, once the Sixth Circuit determined the FDIC Board applied incorrect legal standards, it was obligated to remand the case back to the agency rather than independently affirming the removal order, as courts cannot substitute their own reasoning for that of the agency; and (2) under Collins v. Yellen, separation-of-powers challengers should not be required to demonstrate concrete proof of prejudice as a prerequisite to having courts resolve the merits of their constitutional challenges to removal restrictions protecting FDIC Board members and administrative law judges, as such a requirement effectively immunizes unconstitutional agency structures from judicial review",
+      "respondent_position": "Respondent FDIC, represented by the Solicitor General, argues that: (1) the court of appeals did not err in declining to remand to the FDIC Board because any legal error was harmless and remand would be a futile formality given the overwhelming evidence supporting the removal order; and (2) the court of appeals correctly rejected petitioner's separation-of-powers challenge because, consistent with Collins v. Yellen, petitioner failed to demonstrate that the tenure and removal protections afforded to FDIC Board members and ALJs actually caused him concrete harm, making the constitutional challenge non-justiciable or unworthy of merits resolution",
+      "key_precedents": [
+        "SEC v. Chenery Corp., 318 U.S. 80 (1943) - establishing that courts must evaluate agency decisions based on the agency's own stated reasoning, not post-hoc judicial rationales",
+        "Collins v. Yellen, 141 S. Ct. 1761 (2021) - addressing whether separation-of-powers violations require a showing of concrete prejudice for relief",
+        "Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010) - holding that dual for-cause removal restrictions on PCAOB members violated separation of powers, while explicitly exempting ALJs from its holding",
+        "In the Matter of Michael R. Sapp, 2019 WL 5823871 - FDIC Board precedent addressing removal restrictions on ALJs and FDIC Board members under Free Enterprise Fund",
+        "Calcutt v. Federal Deposit Insurance Corporation, 37 F.4th 293 (6th Cir. 2022) - the decision below being challenged on certiorari"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that remand would be a mere formality where evidence overwhelmingly supports the outcome \u2014 but this 'harmless error' rationale is precisely what Chenery I and II foreclose in the context of discretionary agency penalty determinations. As I noted in my initial reasoning, and as Justice Kagan reinforces, the FDIC Board's penalty assessment involved discretionary judgment that Congress entrusted to the agency, not to Article III courts; the Sixth Circuit's 'overwhelming evidence' standard effectively transforms judicial review into de novo adjudication of sanctions. The FDIC's own confession of error and non-opposition to remand \u2014 emphasized by Justices Kavanaugh and Barrett \u2014 is particularly telling: when the respondent agency itself acknowledges the court erred, institutional respect for administrative procedure and separation of powers leaves little room for the court of appeals to substitute its judgment. Consistent with my minimalist approach, I would resolve this case narrowly on the Chenery remand ground alone, leaving the Collins structural constitutional question for another day if it remains live after proper agency proceedings.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that Collins v. Yellen's 'compensable harm' framing and Free Enterprise Fund's nexus requirement mean structural violations don't automatically void agency action \u2014 but this conflates the merits question with the remedial question. Collins addressed what relief a court may grant after finding a constitutional violation; it did not hold that courts may refuse to adjudicate the merits of a structural challenge absent a prior showing of prejudice. On the Chenery question, Justice Gorsuch correctly emphasizes the remarkable fact that the FDIC itself confessed error and did not oppose remand \u2014 when the respondent agency acknowledges the Sixth Circuit erred, permitting the court of appeals to substitute its own judgment for the agency's discretionary penalty assessment is not merely procedurally irregular but constitutionally problematic under the separation of powers principles that Chenery was designed to enforce. The 'overwhelming evidence' harmless-error rationale Justice Alito invokes cannot bear the weight placed on it here, because the very question is whether the agency, applying correct legal standards, would have imposed the same sanctions \u2014 a judgment that belongs to the FDIC Board, not an Article III court. My originalist commitment to the structural Constitution reinforces rather than undermines the Chenery remand requirement, as the Constitution's vesting of executive adjudicatory power in agencies means courts exceed their proper role when they affirm on grounds the agency never invoked.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "After engaging with my colleagues' arguments across two rounds of deliberation, I am persuaded to increase my confidence in the Petitioner's position. The argument that most moves me remains the one Justice Kavanaugh and Justice Barrett both emphasize: the FDIC itself confessed error and did not oppose remand, which makes the Sixth Circuit's 'overwhelming evidence' rationale particularly difficult to defend \u2014 the court substituted its judgment not merely for the agency's but against the agency's own assessment of what proper procedure requires. My initial skepticism about requiring remand as a 'mere formality' was grounded in practical efficiency concerns, but as Justice Kagan correctly notes, Chenery II itself anticipated and rejected precisely this pragmatic reasoning, recognizing that the agency's discretionary judgment about how to weigh evidence and calibrate severe penalties like lifetime industry bans is not fungible with a court's independent assessment. I maintain my reservation about the Collins structural-harm question \u2014 I continue to believe that Free Enterprise Fund's remedial framework requires some nexus between the constitutional violation and the challenged outcome \u2014 but Justice Thomas's distinction between the remedial inquiry in Collins and a threshold merits bar is persuasive enough that I would not dissent on that ground alone, and I join the Court's judgment on the Chenery remand issue.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's strongest argument \u2014 that remand would be a mere formality where evidence overwhelmingly supports the outcome \u2014 is precisely the kind of pragmatic shortcut that Chenery I and II were designed to foreclose. As Justice Kagan correctly emphasizes, the Chenery doctrine is not a procedural nicety but a structural safeguard ensuring that discretionary agency judgments, particularly severe sanctions like lifetime industry bans, are actually made by the agency applying correct legal standards. The fact that the FDIC itself confessed error and did not oppose remand, as noted by Justices Kavanaugh and Barrett, is especially telling \u2014 when the respondent agency acknowledges the court erred, it is extraordinarily difficult to justify the court's refusal to remand on 'harmless error' grounds. From my perspective, the real-world impact on regulated individuals like Mr. Calcutt who face career-ending sanctions from agencies that may have applied wrong legal standards demands fidelity to the remand requirement, and Justice Alito's efficiency rationale cannot override the constitutional structure that Chenery protects.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito's strongest argument \u2014 that remand would be a mere formality wasting judicial and agency resources where evidence overwhelmingly supports the outcome \u2014 is precisely the kind of pragmatic reasoning that Chenery II itself anticipated and rejected. The Court in Chenery II recognized that efficiency concerns cannot override the structural requirement that agencies exercise their own discretion under correct legal standards, because the agency's judgment about how to weigh evidence and calibrate penalties is not fungible with a court's independent assessment. Justice Kavanaugh's point about the FDIC's own confession of error is particularly telling: when the agency itself acknowledges the legal standards were wrong and does not oppose remand, a court of appeals that nonetheless refuses to remand is substituting its confidence in the outcome for the agency's own reasoned judgment \u2014 which is the textbook Chenery violation. On the Collins question, I agree with Justice Barrett that Collins addressed remedial relief, not a threshold merits bar, and erecting an impossible-to-satisfy prejudice prerequisite would render Article II's structural protections largely unenforceable in the administrative enforcement context.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Alito raises the strongest counterargument \u2014 that remand would be a mere formality where evidence overwhelmingly supports the agency's order \u2014 but this 'harmless error' rationale is precisely what Chenery I and II foreclose in the context of discretionary agency judgments. As Justice Kagan correctly observes, the Sixth Circuit's 'overwhelming evidence' escape hatch would swallow the remand rule entirely, because courts could always rationalize that the agency would have reached the same result under correct legal standards. The FDIC's own confession of error, emphasized by Justice Kavanaugh and Justice Barrett, is particularly telling: when the respondent agency itself does not oppose remand, a court of appeals that refuses to remand has substituted its judgment not only for the agency's but against the agency's own assessment of what proper procedure requires. On the Collins question, Justice Alito's reliance on the 'compensable harm' framing conflates the remedial inquiry in Collins with a threshold merits bar \u2014 a reading that would render Free Enterprise Fund's structural analysis largely advisory and immunize unconstitutional agency designs from any judicial scrutiny, which my commitment to Article II's original meaning cannot countenance.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that requiring remand is mere formalism when evidence overwhelmingly supports the agency's result and practical consequences counsel against wasted resources. But this argument proves too much: the 'overwhelming evidence' exception would swallow the Chenery rule entirely, since courts could always rationalize that the agency would have reached the same result under correct legal standards. The FDIC's own confession of error is dispositive for me as an institutionalist \u2014 when the respondent agency itself acknowledges the Sixth Circuit erred and did not oppose remand, judicial substitution of reasoning becomes particularly difficult to justify on either practical or principled grounds. Justice Roberts correctly identifies that this Court has twice summarily reversed lower courts for precisely this error in Orlando Ventura and Gonzales v. Thomas, demonstrating the ordinary remand rule carries real teeth. On the Collins question, I agree with Justice Barrett that Collins addressed relief, not a threshold merits bar, and transforming it into a jurisdictional prerequisite would immunize unconstitutional structures in ways Free Enterprise Fund did not contemplate.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Justice Alito raises the most serious counterargument \u2014 that remand would be a mere formality where evidence overwhelmingly supports the agency's ultimate conclusion \u2014 but this 'harmless error' rationale cannot be squared with Chenery's structural logic or with our summary reversals in INS v. Orlando Ventura and Gonzales v. Thomas, which did not carve out an 'overwhelming evidence' exception. The critical point Justice Kavanaugh correctly identifies is that the FDIC itself confessed error and did not oppose remand; when the agency whose expertise and discretion we are protecting affirmatively concedes that it applied incorrect legal standards and that remand is appropriate, a court of appeals has no legitimate basis to substitute its own judgment that the error was harmless in a discretionary penalty context. On the Collins question, Justice Alito's reading of 'compensable harm' as a threshold merits bar rather than a remedial inquiry conflates two distinct analytical steps \u2014 Collins addressed what relief flows from a structural violation, not whether courts must reach the merits of such challenges, and collapsing those inquiries would render Free Enterprise Fund's structural analysis largely advisory. My originalist and textualist commitments reinforce this conclusion: Article II's vesting clause carries real operative meaning that courts cannot effectively nullify by demanding proof of counterfactual harm that the very structure of unconstitutional insulation makes nearly impossible to demonstrate.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "Justice Alito's strongest argument \u2014 that remand would be a mere formality where evidence overwhelmingly supports the outcome \u2014 is precisely the kind of pragmatic reasoning Chenery I rejected when it held that courts cannot affirm agency action on grounds the agency itself did not invoke, regardless of how the evidence might cut. The harmless error exception cannot swallow the rule in discretionary penalty determinations, where the agency's own application of legal standards to facts is the very thing Congress delegated to the FDIC Board, not to Article III courts. Justice Kavanaugh's point about the FDIC's own confession of error is particularly compelling \u2014 when the respondent agency itself acknowledges the Sixth Circuit erred and did not oppose remand, it is difficult to characterize remand as a futile formality, and the court of appeals' refusal to remand despite the agency's concession represents an especially stark usurpation of administrative discretion. On the Collins question, Justice Alito's reliance on 'compensable harm' language from Collins misreads that decision's remedial focus as a threshold merits bar, which would render structural constitutional protections illusory in precisely the enforcement contexts where individuals most need them.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under the Chenery doctrine, once the Sixth Circuit identified that the FDIC Board applied incorrect legal standards, the proper course was to remand to the agency rather than independently affirm on alternative grounds \u2014 this Court has twice summarily reversed lower courts for precisely this error, in INS v. Orlando Ventura and Gonzales v. Thomas, demonstrating the 'ordinary remand rule' is not merely advisory. Allowing courts of appeals to substitute their own reasoning for that of the agency undermines the separation of powers principles that Chenery itself was designed to protect, and the harmless error exception cannot swallow the rule where the agency exercised discretionary judgment in assessing penalties. On the separation-of-powers question, I would resolve it narrowly: Collins v. Yellen does not categorically foreclose merits review of structural constitutional challenges, and requiring a petitioner to demonstrate concrete prejudice as a threshold jurisdictional matter risks immunizing unconstitutional agency structures from any meaningful judicial scrutiny, though I would leave the precise contours of any relief remedy for careful consideration on remand. Consistent with my preference for institutional minimalism, I would vacate and remand on the Chenery ground alone, leaving the broader removal-restriction constitutional question to be addressed only if necessary after proper agency proceedings.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "On the Chenery question, the original administrative law principle is clear: courts review agency action on the grounds the agency itself invoked, and the Sixth Circuit's substitution of its own reasoning for the FDIC Board's flawed legal standards directly contravenes SEC v. Chenery Corp., 318 U.S. 80 (1943), which reflects a structural separation of powers principle rooted in the Constitution's vesting of executive adjudicatory power in agencies, not Article III courts. On the Collins question, my reading of Collins v. Yellen, 141 S. Ct. 1761 (2021), is that it addressed remedial relief, not whether a court must reach the merits of a structural constitutional challenge \u2014 requiring petitioners to demonstrate concrete prejudice as a threshold merits prerequisite effectively immunizes unconstitutional agency structures from judicial review, which conflicts with the Article II Appointments Clause and separation of powers principles I articulated in Free Enterprise Fund v. PCAOB, 561 U.S. 477 (2010). The Constitution's structural provisions protecting executive accountability through the removal power are not merely procedural technicalities but fundamental to the original design of separated powers, and courts cannot simply refuse to adjudicate those challenges on the merits by demanding a showing that is nearly impossible to satisfy when the very harm is structural insulation from presidential oversight.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "On the Chenery question, the Sixth Circuit's affirmance without remand is defensible where the legal error was harmless and the evidence overwhelmingly supported the removal order \u2014 requiring remand as a mere formality would waste judicial and agency resources without any practical benefit, consistent with my view that courts should attend to practical consequences rather than rigid procedural formalism. On the Collins question, the majority opinion in Collins v. Yellen, 141 S. Ct. 1761 (2021), clearly framed the relevant inquiry as whether the removal restriction 'inflicted compensable harm,' meaning a petitioner cannot obtain relief based on the mere possibility of prejudice from an unconstitutional structure; Calcutt has not demonstrated that the FDIC Board members' or ALJs' insulation from removal actually influenced the outcome of his proceeding. Free Enterprise Fund v. PCAOB, 561 U.S. 477 (2010), further supports the view that structural separation-of-powers violations do not automatically void agency action absent a showing of nexus between the constitutional defect and the challenged decision. Granting relief without such a showing would effectively immunize regulated parties from well-supported enforcement actions simply by invoking structural constitutional claims, undermining legitimate law enforcement interests.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine is foundational to the proper relationship between courts and administrative agencies \u2014 when an agency applies incorrect legal standards, courts must remand rather than substitute their own reasoning, as affirmed in both Chenery I (318 U.S. 80) and Chenery II (332 U.S. 194), and reinforced by this Court's summary reversals in INS v. Orlando Ventura and Gonzales v. Thomas. The Sixth Circuit's decision to affirm on independent grounds after finding legal error below undermines the agency's primary role in exercising its delegated discretion, particularly where penalty determinations involve judgment calls that Congress entrusted to the FDIC Board, not the judiciary. On the separation-of-powers question, requiring petitioners to demonstrate concrete prejudice as a threshold showing before courts will even reach the merits of structural constitutional challenges effectively immunizes unconstitutional agency designs from judicial review, a result inconsistent with Collins v. Yellen's actual holding and deeply troubling from the perspective of protecting individuals \u2014 like Mr. Calcutt \u2014 who face enforcement actions from agencies whose very structure may be constitutionally infirm. From my perspective, the practical impact on vulnerable regulated parties who cannot easily demonstrate causal prejudice from structural defects counsels strongly against erecting such a barrier to constitutional adjudication.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine's core principle \u2014 that courts must evaluate agency decisions on the agency's own stated reasoning and remand when that reasoning is legally deficient \u2014 is not merely a procedural formality but a structural safeguard ensuring that discretionary agency judgments, particularly severe sanctions like lifetime industry bans and civil penalties, are actually made by the agency applying correct legal standards. The Sixth Circuit's 'overwhelming evidence' rationale for bypassing remand effectively substitutes judicial judgment for administrative judgment in precisely the way Chenery I and Chenery II forbid, and the circuit split this approach has created on such a foundational administrative law question warrants correction. On the Collins v. Yellen separation-of-powers question, requiring petitioners to demonstrate concrete prejudice as a threshold showing before courts will even reach the merits of structural constitutional challenges risks immunizing agency designs that violate Article II from meaningful judicial review, which is inconsistent with the Court's approach in Free Enterprise Fund. A workable, coherent administrative law framework demands fidelity to the remand requirement as the default remedy when legal error is identified, with narrow and clearly defined exceptions rather than the open-ended 'futility' escape hatch the Sixth Circuit employed.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Under SEC v. Chenery Corp., 318 U.S. 80 (1943), a foundational principle of administrative law holds that courts must evaluate agency action based on the agency's own stated reasoning, not post-hoc judicial rationales \u2014 and when an agency has applied incorrect legal standards, the proper remedy is remand, not judicial substitution of judgment. The Sixth Circuit's decision to affirm on independent grounds after finding legal error is precisely the kind of judicial usurpation of agency discretion that Chenery forbids, particularly where the FDIC itself confessed error and did not oppose remand. On the separation-of-powers question, Collins v. Yellen does not categorically require concrete proof of prejudice as a threshold prerequisite to merits adjudication of structural constitutional challenges; such a requirement would effectively immunize unconstitutional agency structures from judicial review in violation of Article II's vesting of executive power in the President. Consistent with my textualist and originalist commitment to separation of powers and the rule that courts must not exceed their proper role \u2014 which cuts both ways, against agencies overreaching and against courts substituting their judgment for that of agencies \u2014 both questions favor remand to the FDIC.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine is well-established and reflects core separation-of-powers principles that courts should not substitute their own reasoning for that of the agency when the agency has exercised discretion and applied incorrect legal standards. The fact that the FDIC itself confessed error and did not oppose remand at the rehearing stage is highly significant \u2014 when the respondent agency acknowledges the court of appeals erred, institutional respect for proper administrative procedure strongly counsels in favor of remand rather than judicial substitution of judgment. As an institutionalist, I am concerned that permitting courts of appeals to affirm agency penalty orders on grounds the agency never relied upon \u2014 particularly in discretionary enforcement contexts \u2014 undermines the accountability and reasoned-explanation requirements that give administrative adjudication its legitimacy. On the Collins prejudice question, while I am sympathetic to the government's position, the threshold prejudice requirement as applied here risks insulating potentially unconstitutional agency structures from any meaningful judicial review, which raises its own institutional concerns.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under SEC v. Chenery Corp., 318 U.S. 80 (1943), a foundational principle of administrative law holds that courts must evaluate agency decisions based on the agency's own stated reasoning, and when an agency has applied incorrect legal standards, the proper remedy is remand rather than judicial substitution of judgment \u2014 particularly where the agency exercised discretion in assessing penalties. The Sixth Circuit's independent affirmance after finding legal error is especially difficult to sustain here given that the FDIC itself confessed error and did not oppose remand at the rehearing stage, which is a remarkable concession that strongly counsels against the court's refusal to remand. On the separation-of-powers question, Collins v. Yellen does not categorically foreclose merits review of structural constitutional challenges absent a showing of concrete prejudice; rather, Collins addressed the specific question of relief, and reading it to erect a blanket prejudice prerequisite would effectively immunize unconstitutional agency structures from judicial scrutiny in a manner inconsistent with Free Enterprise Fund v. PCAOB's structural separation-of-powers analysis. Textually and structurally, Article II's vesting of executive power in the President carries real meaning that courts cannot simply decline to enforce by demanding a showing that is often impossible to prove, and methodological consistency with our precedents requires that we not transform a relief-focused inquiry into a threshold bar to merits adjudication.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chenery doctrine is foundational to the separation of powers between courts and agencies: when an agency applies an incorrect legal standard, courts must remand rather than substitute their own reasoning, as affirmed in SEC v. Chenery Corp., 318 U.S. 80 (1943) and reinforced by this Court's summary reversals in INS v. Orlando Ventura and Gonzales v. Thomas. The Sixth Circuit's decision to affirm on independent grounds after finding legal error below is precisely the kind of judicial usurpation of agency discretion that Chenery prohibits, particularly where the FDIC Board exercised discretionary judgment in assessing penalties \u2014 a domain where agency expertise and reasoned explanation are constitutionally required. On the separation-of-powers question, requiring petitioners to demonstrate concrete prejudice as a threshold to merits review of structural constitutional violations effectively immunizes unconstitutional agency designs from judicial scrutiny, which is inconsistent with the logic of Free Enterprise Fund and places an unworkable burden on challengers who cannot easily prove counterfactual harm from an officer's insulated tenure. My background as a public defender reinforces my concern that procedural fairness demands agencies be held to correct legal standards before their orders are affirmed, and that structural constitutional protections not be rendered illusory through impossible-to-satisfy standing requirements.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.856,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

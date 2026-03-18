@@ -1,0 +1,565 @@
+[
+  {
+    "docket": "22-10",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether submitting a fraudulent Medicaid claim that invokes a real patient's identity constitutes 'use' of another person's means of identification under the federal aggravated identity theft statute, 18 U.S.C. 1028A(a)(1).",
+      "legal_provision": "18 U.S.C. 1028A(a)(1) - Federal Aggravated Identity Theft Statute, which imposes a mandatory two-year consecutive sentence for anyone who 'knowingly transfers, possesses, or uses, without lawful authority, a means of identification of another person' during and in relation to certain enumerated felonies, including healthcare fraud.",
+      "petitioner_position": "David Dubin argues that his conduct \u2014 overbilling Medicaid by misrepresenting the nature and duration of psychological services rendered to a real patient \u2014 does not constitute aggravated identity theft because the patient's identifying information was merely incidental to the underlying healthcare fraud, not the instrument through which the fraud was perpetrated. The petitioner contends that the aggravated identity theft statute was intended to target classic identity theft scenarios where a perpetrator assumes or exploits another's identity as the core mechanism of the crime, not routine billing fraud where a patient's information is used only in the ordinary course of submitting a claim. Petitioner is represented by the Stanford Law School Supreme Court Litigation Clinic, with Jeffrey L. Fisher as counsel of record, and is supported by multiple amici including the National Association of Federal Defenders and the National Association of Criminal Defense Lawyers, reflecting broad concern in the criminal defense community that an expansive reading of the statute would effectively transform every healthcare billing fraud into an aggravated identity theft offense, dramatically increasing sentences without clear congressional intent to do so.",
+      "respondent_position": "The United States, represented by Solicitor General Elizabeth B. Prelogar, argues that sufficient evidence supported the jury's verdict that Dubin 'used' the means of identification of another person within the meaning of 18 U.S.C. 1028A(a)(1). The government contends that by submitting a Medicaid claim specifically invoking a real patient's identity and eligibility to fraudulently obtain reimbursement for a fictitious three-hour psychological examination, Dubin necessarily and knowingly used that patient's identifying information as an integral component of the fraudulent scheme. The government further raises a procedural argument that Dubin may have forfeited his 'use' argument at the trial level, potentially limiting appellate review to a plain-error standard, though the government acknowledges this argument only half-heartedly according to the Fifth Circuit's en banc opinion.",
+      "key_precedents": [
+        "Eberhart v. United States, 546 U.S. 12 (2005) - cited regarding forfeiture of procedural defenses",
+        "Greenlaw v. United States, 554 U.S. 237 (2008) - cited for the principle that appellate courts should not make arguments more forcefully than the parties themselves, particularly favoring the government",
+        "Jones v. Thomas, 491 U.S. 376 (1989) - cited in the amicus brief of Professor Joel S. Johnson regarding the constitutional principle that the legislature must define crimes and fix punishments, relevant to the vagueness avoidance canon of statutory construction",
+        "Carducci v. Regan, 714 F.2d 171 (D.C. Cir. 1983) - Justice Scalia's opinion cited for the principle that appellate courts act as arbiters of questions presented by parties, not self-directed legal researchers",
+        "Rollins v. Home Depot USA, Inc., 8 F.4th 393 (5th Cir. 2021) - cited regarding the impropriety of addressing forfeited issues in a biased manner favoring one party over another",
+        "United States v. Dubin, 27 F.4th 1021 (5th Cir. 2022) - the en banc Fifth Circuit opinion below, affirming conviction",
+        "United States v. Dubin, 982 F.3d 318 (5th Cir. 2020) - the original Fifth Circuit panel opinion"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the convergence of textualist, purposivist, and pragmatic methodologies all pointing toward the same result to be genuinely persuasive rather than merely convenient. Justice Kagan's structural argument is particularly compelling from my minimalist perspective: if the government's reading were correct, the predicate offense list in Section 1028A would be rendered largely superfluous, since virtually every healthcare fraud involving a real patient's information would automatically qualify \u2014 a result that violates the canon against surplusage and suggests Congress intended something more targeted. Justice Thomas's point about the structural distinction between Section 1028(a)(7)'s 'in connection with' language and Section 1028A's more demanding 'during and in relation to' standard reinforces that Congress calibrated these provisions carefully, and we should not collapse that distinction through an expansive reading of 'uses.' As Chief Justice, I would seek to write a narrow majority opinion grounded primarily in the statutory text and structure \u2014 specifically the 'during and in relation to' requirement read in light of Smith v. United States \u2014 rather than relying heavily on legislative history, which would allow all nine justices to join without requiring methodological compromise, and would preserve institutional legitimacy by deciding no more than necessary to resolve this case.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "My colleagues have converged on a textually and structurally sound reading of \u00a7 1028A(a)(1), and I find the collective reasoning reinforces my own originalist analysis. Justice Roberts's analogy to Smith v. United States and \u00a7 924(c) is particularly apt \u2014 just as 'use' of a firearm under \u00a7 924(c) requires that the weapon serve as the instrument of the crime rather than merely be present, 'uses' a 'means of identification' under \u00a7 1028A requires that the identity itself be the operative mechanism of the fraud. The government's strongest counterargument \u2014 that the plain text of 'uses' encompasses any deployment of identifying information in a fraudulent transaction \u2014 fails because it ignores the critical 'during and in relation to' limiting language and would render the predicate offense structure of the statute largely superfluous, as Justice Barrett correctly observes. Under the original public meaning of the statute at the time of its 2004 enactment, Congress was targeting classic identity thieves who assume another's identity as the core instrument of their criminal conduct, not healthcare providers who overbill for services actually rendered to real patients whose names appear on billing forms as they would in any legitimate transaction.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and I find the structural arguments advanced by Chief Justice Roberts and Justice Barrett particularly compelling \u2014 the parallel to Section 924(c)'s 'use' requirement in Smith v. United States is apt, and the distinction between Section 1028(a)(7)'s 'in connection with' language and Section 1028A's more demanding 'during and in relation to' standard is textually significant. The government's strongest counterargument \u2014 that the plain meaning of 'uses' encompasses any deployment of identifying information in furtherance of a crime \u2014 fails because it reads 'uses' in isolation rather than in the context of the full statutory scheme, including the statute's title and the predicate offense structure Congress carefully constructed. As a textualist who takes statutory context seriously, I cannot ignore that Congress titled this the 'Identity Theft Penalty Enhancement Act,' which signals that the operative wrong being targeted is identity theft \u2014 the assumption or exploitation of another's identity \u2014 not merely the incidental appearance of identifying information in a billing fraud where the patient was real and received actual services. The rule of lenity provides an additional backstop: where a mandatory minimum statute is genuinely ambiguous as to its scope, we must resolve that ambiguity against the government, particularly when the expansive reading would sweep in conduct far removed from the core evil Congress targeted.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, which itself signals that the textual and structural arguments here are genuinely compelling rather than merely result-oriented. Justice Jackson's invocation of her public defender background resonates deeply with my own pragmatic concerns: mandatory minimums applied beyond their intended scope don't just produce abstract legal error \u2014 they produce real injustice, coercing guilty pleas and stripping judges of the discretion needed to calibrate punishment to individual culpability. The strongest argument for the government would be a plain-text reading that 'uses' simply means 'employs in any way,' but as Justice Kagan correctly notes, that reading renders the predicate offense structure largely superfluous and would transform virtually every healthcare fraud into aggravated identity theft \u2014 a result so sweeping that it refutes itself as a matter of statutory coherence. The 'during and in relation to' language, as Justice Jackson and Chief Justice Roberts both emphasize through the Section 924(c) analogy from Smith v. United States, demands that the identifying information serve a functional role in the fraud beyond mere incidental presence, and Dubin's overbilling scheme \u2014 where the patient was real and received some services \u2014 simply does not satisfy that requirement.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "The conference has reached remarkable unanimity, and I find the convergence of textual, structural, and purposive arguments compelling. Justice Roberts's analogy to Smith v. United States and Section 924(c) is particularly apt \u2014 just as 'use' of a firearm requires that the weapon serve as the instrument of the crime rather than merely be present, 'use' of a means of identification under Section 1028A requires that the identity be the operative mechanism of the fraud. Justice Barrett's point about the structural relationship between Section 1028(a)(7) and Section 1028A is also persuasive: Congress's deliberate choice to use 'during and in relation to' rather than the broader 'in connection with' language signals a more demanding nexus requirement. The government's strongest counterargument \u2014 that the plain text of 'uses' encompasses any employment of identifying information \u2014 fails because 'uses' must be read in context, and the statute's title, structure, and evident purpose all confirm that Congress targeted identity assumption as the operative wrong, not the incidental appearance of a patient's name in a billing form that would appear in any legitimate transaction as well.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "The unanimity of my colleagues across the ideological spectrum \u2014 from Justice Thomas's originalist analysis to Justice Jackson's structural reading to Justice Sotomayor's purposivist approach \u2014 reinforces what I believe the text and context compel: 'uses' a 'means of identification' in \u00a7 1028A(a)(1) requires that the identity serve as the operative instrument of the fraud, not merely appear incidentally in a billing record. Justice Barrett's point about the structural relationship between \u00a7 1028(a)(7) and \u00a7 1028A is particularly compelling under my textualist methodology \u2014 Congress deliberately chose different language and a separate enhancement provision, signaling that \u00a7 1028A targets a more culpable subset of identity-adjacent conduct where the identity itself is weaponized. The government's strongest counterargument \u2014 that the plain meaning of 'uses' encompasses any deployment of identifying information in furtherance of a crime \u2014 fails because 'uses' must be read in its statutory context, including the 'during and in relation to' requirement borrowed from \u00a7 924(c), which Smith v. United States construed to demand more than incidental presence. Where this mandatory minimum statute remains genuinely ambiguous after exhausting contextual tools, the rule of lenity independently compels the narrower construction favoring Dubin.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in strong agreement with Chief Justice Roberts's structural parallel to Section 924(c) and Smith v. United States \u2014 just as 'use' of a firearm under 924(c) requires that the weapon serve as the instrument of the crime rather than merely be present, 'use' of a means of identification under 1028A must require that the identity itself be the operative mechanism of the fraud. Justice Kagan's point about the predicate offense list becoming largely superfluous under the government's reading is particularly compelling from an institutionalist perspective: if every healthcare fraud automatically becomes aggravated identity theft simply because a patient's name appears on a billing form, Congress's careful structuring of the statute loses coherent meaning. The strongest argument for the government \u2014 that the plain text of 'uses' is broad enough to encompass any deployment of identifying information \u2014 ultimately fails because statutory text must be read in context, and the statute's title, structure, and legislative history all confirm Congress was targeting classic identity assumption, not routine overbilling. My commitment to judicial restraint and the rule of lenity in mandatory minimum cases reinforces this conclusion: where the statute is genuinely ambiguous as to whether incidental use of identifying information qualifies, we must resolve that ambiguity in favor of the defendant.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The conference has reached a remarkable degree of consensus, and the arguments advanced by my colleagues \u2014 particularly Justice Kagan's structural point that accepting the government's reading would render the predicate offense list largely superfluous, and Justice Roberts's analogy to Smith v. United States and Section 924(c) \u2014 reinforce my own textualist and originalist analysis. The strongest argument for the government would be that the plain meaning of 'uses' encompasses any deployment of identifying information in furtherance of a crime, but this reading ignores the critical modifier 'during and in relation to,' which demands a closer nexus than mere incidental presence, as well as the statute's title and evident congressional purpose targeting classic identity assumption. Justice Thomas's point about the structural distinction between Section 1028(a)(7)'s 'in connection with' standard and Section 1028A's more demanding 'during and in relation to' language is particularly compelling from an originalist standpoint \u2014 Congress plainly drew this distinction deliberately, and we must give it effect. I write separately to emphasize that the proper limiting principle is not merely that the identity must be 'central' to the fraud in some amorphous sense, but that the defendant must have exploited the victim's identity as the operative instrument \u2014 the mechanism by which the fraud was perpetrated \u2014 rather than simply invoking identifying information that would appear in any legitimate transaction of the same type.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when textualists like Justice Barrett and Justice Thomas reach the same destination as pragmatists like Justice Sotomayor and myself, the legal case is robust. Justice Kagan's structural argument is particularly compelling to me: if the government's reading were correct, the predicate offense list in \u00a7 1028A would be rendered largely superfluous, because virtually every healthcare fraud involving a real patient's name would automatically qualify \u2014 a result that violates basic canons of statutory construction. The strongest argument for the government is the plain-language reading that Dubin literally 'used' the patient's Medicaid number when submitting the fraudulent claim, but this ignores that 'use' must be read in context: the 'during and in relation to' language, as Justice Roberts correctly notes by analogy to Smith v. United States, demands that the identifying information serve a functional role in the fraud beyond mere incidental presence. My background as a public defender makes me acutely aware that mandatory minimums applied beyond their intended scope create severe sentencing disparities and coercive plea dynamics \u2014 Congress reserved this two-year mandatory consecutive sentence for classic identity theft, not routine overbilling, and we should not expand it through aggressive statutory interpretation.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The narrowest and most textually defensible reading of 18 U.S.C. 1028A(a)(1) requires that the 'use' of another's means of identification be the instrument or mechanism of the fraud itself, not merely incidental to an underlying predicate offense. The structural parallel to Section 924(c) and the Court's reasoning in Smith v. United States is compelling \u2014 just as coincidentally carrying a firearm during a drug crime does not satisfy 'use' under 924(c), incidentally invoking a patient's name on a fraudulent billing form should not satisfy 'use' under 1028A when the identity is not being exploited as the vehicle of the fraud. Adopting the government's expansive reading would effectively transform every healthcare billing fraud involving a real patient's information into aggravated identity theft, imposing a mandatory two-year consecutive sentence Congress almost certainly did not intend for routine overbilling schemes, and would render the distinction between Section 1028(a)(7)'s 'in connection with' standard and Section 1028A's more demanding 'during and in relation to' standard meaningless. Institutional legitimacy and the rule of lenity counsel against reading a mandatory minimum statute so broadly as to sweep in conduct far removed from the core evil \u2014 classic identity theft \u2014 that Congress targeted.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Applying the original public meaning of 18 U.S.C. 1028A(a)(1) at the time of its 2004 enactment, the text and statutory context make clear that 'uses' a 'means of identification' requires that the identity itself serve as the instrument of the fraud, not merely appear incidentally in a billing record. The Identity Theft Penalty Enhancement Act's House Report confirms Congress was targeting classic identity theft \u2014 where a perpetrator exploits another's identity as the core mechanism of criminal conduct \u2014 not routine overbilling fraud where a real patient's name appears only because they actually received some services. The neighboring provision, 18 U.S.C. 1028(a)(7), further reinforces this reading: Congress knew how to draft broad identity-adjacent offenses, and the structural distinction between 1028(a)(7) and 1028A(a)(1) indicates the latter was reserved for more culpable conduct where identity theft is the operative wrong. Accepting the government's expansive reading would effectively convert every healthcare billing fraud involving a real patient into aggravated identity theft, a result Congress plainly did not intend and one that would render the predicate offense structure of the statute largely superfluous \u2014 a construction I must reject under sound textualist principles.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As a textualist, I must examine what 'uses' means in 18 U.S.C. 1028A(a)(1) within its statutory context and the broader scheme of the Identity Theft Penalty Enhancement Act of 2004. The legislative history and structure of the statute make clear that Congress enacted Section 1028A to target classic identity theft \u2014 where a perpetrator assumes or exploits another's identity as the operative mechanism of the crime \u2014 not to impose mandatory two-year consecutive sentences on every healthcare billing fraud that incidentally references a real patient's name and Medicaid number. Dubin's conduct, while constituting healthcare fraud, did not involve using the patient's identity as the instrument of the fraud; the patient was real, received some services, and Dubin merely overbilled \u2014 the identity was not 'used' in any meaningful sense beyond what the predicate fraud offense itself required. Adopting the government's expansive reading would effectively transform the aggravated identity theft statute into a sentencing enhancement automatically applicable to virtually all healthcare fraud, an outcome Congress did not intend and one that raises serious concerns about the mandatory minimum's disproportionate application.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. 1028A(a)(1), was designed by Congress to target the core evil of identity theft \u2014 the assumption or exploitation of another person's identity as the central mechanism of criminal conduct \u2014 not the incidental invocation of a patient's identifying information in an overbilling scheme where the fraud's essence is misrepresentation of services rendered, not impersonation. As the legislative history demonstrates and as courts like the Sixth Circuit have grappled with, an expansive reading that treats every healthcare billing fraud as aggravated identity theft would impose mandatory consecutive two-year sentences far beyond what Congress contemplated, effectively transforming routine Medicaid fraud into a categorically more serious offense without clear legislative warrant. My pragmatic concern for real-world impacts counsels against this reading: mandatory minimums are blunt instruments that strip judges of discretion to calibrate sentences to individual culpability, and an overbroad interpretation here would fall disproportionately on healthcare providers, many serving vulnerable populations, who commit billing irregularities that Congress addressed through the underlying healthcare fraud statutes. Following the Court's approach in cases like Marinello v. United States, 138 S. Ct. 1101 (2018), and Yates v. United States, 574 U.S. 528 (2015), where the Court rejected sweeping readings of criminal statutes inconsistent with their evident purpose, I would adopt the narrower, also-plausible reading that 'use' of a means of identification requires that the identifying information serve as the instrument of the fraud, not merely appear as a component of an otherwise fraudulent transaction.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of 18 U.S.C. 1028A(a)(1) must be read in light of the statute's evident purpose and structural context, not in isolation. The Identity Theft Penalty Enhancement Act was designed to target crimes where identity assumption or impersonation is the operative mechanism \u2014 the core mischief Congress sought to address \u2014 not routine billing fraud where a patient's identifying information appears incidentally in a claim as it would in any legitimate transaction. The structural argument is compelling: Congress chose to enhance penalties only for certain predicate offenses when they involve identity theft, not to automatically enhance all predicate offenses that happen to reference another's name, which would render the predicate offense list largely superfluous and transform virtually every healthcare fraud into aggravated identity theft. Consistent with my approach in cases like Marinello v. United States, where the Court rejected overbroad readings of criminal statutes that would sweep in conduct far beyond Congress's evident concern, I would hold that 'use' under Section 1028A requires that the defendant used another's identity as the instrument of the fraud \u2014 to impersonate or assume that identity \u2014 not merely that the fraud incidentally invoked identifying information in the ordinary course of submitting a claim.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "The plain meaning of 'uses' a 'means of identification' in 18 U.S.C. 1028A(a)(1) must be read in its statutory context, and that context \u2014 including the statute's title ('Identity Theft Penalty Enhancement Act'), its legislative history targeting terrorists and classic identity thieves who assume another's identity as the instrument of their crime, and the structure of the broader 18 U.S.C. 1028 scheme \u2014 strongly indicates Congress intended to punish conduct where another's identity is the mechanism of the fraud, not merely incidental to it. Dubin's conduct was garden-variety healthcare billing fraud: he overbilled for services actually rendered to a real patient whose identity was used in the ordinary course of submitting any Medicaid claim, not weaponized as the vehicle of deception. Accepting the government's expansive reading would mean that virtually every healthcare fraud \u2014 indeed any fraud involving a real person's name on a form \u2014 automatically triggers a mandatory two-year consecutive sentence, a result Congress plainly did not intend and one that would render the predicate offense distinctions Congress carefully drew largely meaningless. The rule of lenity further compels this narrower construction: where a criminal statute is genuinely ambiguous, we must resolve that ambiguity in favor of the defendant rather than the government.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As an institutionalist conservative who values both precedent and practical workability, I find that the government's expansive reading of 'uses' in 18 U.S.C. 1028A(a)(1) would effectively transform every healthcare billing fraud into aggravated identity theft, a result Congress plainly did not intend when crafting a statute targeting classic identity theft scenarios. The legislative history and common understanding of 'identity theft' contemplates a perpetrator exploiting another's identity as the core mechanism of the crime \u2014 not merely invoking a patient's name incidentally in a billing fraud where the patient actually received some services. The word 'uses' is, as Justice Scalia noted in Smith v. United States, 'eminently debatable,' and where three circuits \u2014 the First, Sixth, and Seventh \u2014 have applied the rule of lenity to this very statute, the Fifth Circuit's contrary plain-language reading is difficult to sustain. Consistent with my commitment to judicial restraint and the constitutional principle that legislatures must clearly define the scope of criminal punishment, particularly mandatory minimums, I would hold that Dubin's conduct does not constitute 'use' of another's means of identification within the meaning of Section 1028A(a)(1).",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "A careful textualist and originalist analysis of 18 U.S.C. \u00a7 1028A(a)(1) compels the conclusion that Dubin's conduct does not constitute 'use' of another person's means of identification within the statute's meaning. The statute's title \u2014 the 'Identity Theft Penalty Enhancement Act' \u2014 and its structural relationship to \u00a7 1028(a)(7) both illuminate that Congress targeted scenarios where a defendant exploits another's identity as the operative instrument of the fraud, not merely where identifying information appears incidentally in a fraudulent transaction. As the research materials demonstrate, Congress's deliberate choice to create an enhanced penalty provision separate from the predicate offenses \u2014 rather than simply increasing penalties for healthcare fraud itself \u2014 signals that \u00a7 1028A was meant to reach only those cases where identity theft, properly understood, is the mechanism of the crime. Accepting the government's expansive reading would effectively transform every healthcare billing fraud involving a real patient's name into aggravated identity theft, a result inconsistent with the statute's text, structure, and the original public meaning of 'use' as requiring that the identifying information serve as the operative instrument rather than a mere incidental element of the underlying fraud.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text and structure of 18 U.S.C. 1028A(a)(1) require that the 'use' of another's means of identification be the mechanism through which the fraud is perpetrated, not merely incidental to an underlying billing fraud. As the research materials note, the statute's 'during and in relation to' language \u2014 identical to that construed in Smith v. United States regarding 18 U.S.C. \u00a7 924(c) \u2014 demands that the identifying information have some 'purpose or effect' as to the predicate offense beyond accidental or coincidental presence; Dubin's overbilling scheme was fundamentally a misrepresentation about services rendered, not an exploitation of the patient's identity as the operative instrument of fraud. Adopting the government's expansive reading would effectively transform every healthcare billing fraud involving a real patient's information into aggravated identity theft, triggering a mandatory consecutive two-year sentence that Congress reserved for classic identity theft scenarios \u2014 an outcome inconsistent with the rule of lenity, the constitutional principle that legislatures must fix punishments with clarity, and the practical reality that such an interpretation would give prosecutors unchecked leverage to coerce guilty pleas in routine fraud cases. My background as a public defender reinforces my concern that mandatory minimums applied beyond their intended scope produce unjust sentencing disparities and undermine procedural fairness.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.904,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "22-10",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "petition_filed": "June 30, 2022",
+      "certiorari_granted": "November 10, 2022",
+      "time_extension_granted_by": "Justice Alito"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The near-unanimity of my colleagues across very different judicial methodologies \u2014 from Justice Thomas's textualism to Justice Sotomayor's purposivism to Justice Gorsuch's rule of lenity \u2014 reinforces my minimalist instinct that the Fifth Circuit's reading is simply untenable. Justice Kagan's point about the canon against surplusage is particularly well-taken: if 'in relation to' does not require the identity to be the instrument of the fraud rather than merely incidental to it, that limiting phrase becomes meaningless. Justice Barrett's position for the Respondent, while thoughtful, appears to rest on a misidentification of the precise statutory provision at issue, which weakens its persuasive force here. As Chief Justice, I would assign a narrow majority opinion focused on the 'in relation to' language \u2014 holding that \u00a7 1028A requires the means of identification to be at the crux of the underlying offense, not merely a peripheral element \u2014 a formulation that can command the broadest coalition while preserving institutional legitimacy by avoiding sweeping pronouncements about the full scope of the statute.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with Justice Gorsuch's textualist analysis, which correctly identifies that the plain meaning of 'uses' a means of identification in the context of a statute titled 'Aggravated Identity Theft' connotes something more than the incidental appearance of identifying information in a fraudulent billing record. The government's reading would render the 'in relation to' language effectively surplusage, as Justice Alito correctly notes \u2014 if any fraud that happens to involve a patient identifier qualifies, then the limiting phrase does no work whatsoever. Justice Barrett's position for the Respondent, while thoughtful, does not adequately grapple with the canon against surplusage or the constitutional avoidance concerns raised by a reading that would give prosecutors virtually unlimited discretion to stack mandatory two-year sentences onto any fraud conviction involving another person's identifying information. Reading the statute holistically, as I am bound to do under my originalist and textualist methodology, the text, title, and structure of \u00a7 1028A all point toward a requirement that the identity itself be the instrument of the fraud \u2014 not merely a peripheral record-keeping element \u2014 and the rule of lenity confirms this result where any ambiguity remains.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which is itself telling about the strength of the textual case here. Justice Gorsuch correctly identifies that the circuit split is strong evidence the government's reading is not compelled by the text, and Justice Kagan's point about the canon against surplusage is particularly apt \u2014 if 'in relation to' means nothing more than 'incidentally connected to,' that limiting phrase does no work whatsoever. The strongest argument for the government would be that the text of \u00a7 1028A says 'uses' without qualification, and Dubin did in fact use patient Medicaid numbers in submitting fraudulent claims. But this argument proves too much: virtually every healthcare fraud involves patient identifiers, and reading 'uses' without the limiting function of 'in relation to' would transform \u00a7 1028A into a universal healthcare fraud enhancement, which cannot be what Congress intended when it titled the statute 'Aggravated Identity Theft' and crafted it to target the core evil of identity impersonation. Justice Barrett's position favoring the Respondent rests on an uncertain factual premise about which statute is at issue, and her reasoning about preserving a statute's constitutional core actually supports our position \u2014 the constitutional core of \u00a7 1028A is identity theft, not incidental use of identifying information in a billing fraud scheme.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Justice Kagan's pragmatic textual reading that the means of identification must be 'at the crux of the offense' \u2014 this formulation captures both the statutory text and the real-world consequences I care deeply about. Justice Gorsuch's point about the circuit split as evidence of genuine textual ambiguity is also compelling, and under the rule of lenity that ambiguity must resolve in Dubin's favor. The strongest argument for the government \u2014 that the plain text of 'uses' a means of identification is satisfied whenever identifying information appears in a fraudulent transaction \u2014 fails because it renders the 'in relation to' language surplusage and ignores that the statute's title, structure, and evident purpose all target impersonation and identity theft, not incidental use of patient records in an overbilling scheme. Justice Barrett's position, the lone dissent, rests on an uncertain factual premise about which statute is even at issue, and her vagueness-avoidance framing actually cuts in Dubin's favor \u2014 if the statute is ambiguous enough to require avoidance doctrine, lenity demands we resolve that ambiguity for the defendant, not the government.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is telling \u2014 when textualists like Justice Thomas and Justice Gorsuch reach the same destination as pragmatists like Justice Sotomayor and Justice Jackson, the statutory text is doing real work. Justice Gorsuch's point about the circuit split is particularly apt under my methodology: when sophisticated courts of appeals cannot agree on what 'uses... a means of identification... in relation to' requires, that ambiguity must be resolved against the government in a criminal enhancement context. The strongest argument for the Respondent is that the text of \u00a7 1028A does not on its face require that identity theft be the 'crux' or 'gravamen' \u2014 it simply says 'uses... a means of identification,' and Dubin did use Medicaid numbers. But this reading renders 'in relation to' surplusage and ignores that 'use' must mean something more than incidental appearance in a fraudulent document, otherwise the statute's limiting phrase does no work at all. Justice Alito correctly identifies that the canon against surplusage, combined with the evident statutory purpose of targeting identity weaponization rather than routine billing fraud, compels a narrower construction that reserves the mandatory two-year consecutive enhancement for cases where the identity itself is the instrument of the offense.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Justice Kagan's observation that the identity must be 'at the crux of the offense' rather than merely incidental is precisely the textual and structural point that resolves this case \u2014 the phrase 'in relation to' in \u00a7 1028A(a)(1) is not surplusage, and reading it to encompass any fraud where identifying information happens to appear in a billing record drains that limiting phrase of all meaning. Justice Barrett's position for the Respondent, which appears to rest on preserving a statute's 'identifiable core,' actually cuts against the government here: the identifiable core of a statute titled 'aggravated identity theft' is the theft or misappropriation of identity itself \u2014 impersonation, assumption of another's identity \u2014 not incidental use of a patient's Medicaid number to overbill for services actually rendered to that patient. The rule of lenity, which I apply not as a tiebreaker of last resort but as a genuine reflection of the constitutional requirement of fair notice in criminal law, compels this result: when courts of appeals are so deeply divided that an en banc Fifth Circuit is required to resolve the question, that is powerful evidence that the statute does not unambiguously reach Dubin's conduct. My textualist methodology demands I read the whole statute \u2014 title, text, and structure together \u2014 and that holistic reading confirms that Congress enacted a targeted identity theft statute, not a universal fraud enhancement.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in substantial agreement with Chief Justice Roberts and Justice Kagan that the Fifth Circuit's reading effectively transforms routine billing fraud into aggravated identity theft whenever identifying information appears incidentally in fraudulent records \u2014 a result that strains the statute's text and purpose. Justice Kagan's point about the canon against surplusage is particularly compelling: if 'in relation to' means nothing more than 'appearing somewhere in the transaction,' that limiting phrase does no work whatsoever, and we should not read statutes to render their own limiting language meaningless. Justice Barrett's position for the Respondent, while thoughtful, does not adequately grapple with the fact that \u00a7 1028A's title, structure, and evident purpose all point toward conduct where identity itself is the instrument of the fraud \u2014 impersonation, assumption of another's identity \u2014 rather than mere incidental reference to a patient's Medicaid number in an overbilling scheme. Consistent with my institutionalist approach, I also note that the rule of lenity and the concern about prosecutorial overreach articulated in Bond v. United States counsel strongly against reading a mandatory consecutive sentence enhancement so broadly as to sweep in conduct Congress plainly did not target when it enacted this statute.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Having already shifted my position in round one after engaging with Justice Kagan's surplusage argument and Justice Thomas's holistic textual reading, I find my colleagues' collective reasoning in round two only reinforces that conclusion. The canon against surplusage is dispositive for me: if 'in relation to' does not require the means of identification to be the instrument of the fraud rather than merely incidental to it, that limiting phrase does no work whatsoever, and I cannot adopt a reading that renders statutory text meaningless. Justice Gorsuch's point that the deep circuit split itself evidences the statute does not unambiguously reach Dubin's conduct is well-taken under any serious textualist methodology, and the rule of lenity \u2014 which I apply not as a last resort but as a genuine fair-notice principle \u2014 confirms that ambiguity must resolve in the defendant's favor in a criminal enhancement context. My prior position favoring Respondent rested on a vagueness-avoidance framework that, as Justice Jackson correctly notes, was mismatched to the core interpretive question; the better-grounded analysis of \u00a7 1028A's text, title, and structure compels the conclusion that Congress enacted a targeted identity theft statute requiring the identity to be the crux of the offense, not a universal fraud enhancement triggered whenever patient identifiers appear in billing records.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in strong agreement with Justice Kagan's pragmatic textual reading that the means of identification must be 'at the crux of the offense' rather than merely incidental \u2014 this formulation captures both the statutory text's requirement that the use be 'in relation to' the predicate felony and the practical reality that Dubin's overbilling scheme used the patient's Medicaid number as a record-keeping element, not as the instrument of fraud. Justice Barrett's position for the Respondent, while thoughtful, rests on vagueness avoidance doctrine that seems mismatched to the core interpretive question here, which is not whether the statute is unconstitutionally vague but whether its plain meaning encompasses conduct like Dubin's. My background as a public defender reinforces my concern that the government's expansive reading would trigger mandatory consecutive two-year sentences in virtually every healthcare fraud case involving patient identifiers, producing punishment grossly disproportionate to the conduct Congress targeted when it enacted a statute explicitly titled 'aggravated identity theft.' The near-unanimity of my colleagues across methodological lines \u2014 textualists like Justice Thomas and Justice Gorsuch, pragmatists like Justice Kagan and myself \u2014 suggests that the statute's text, structure, and purpose all converge on the conclusion that identity must be the instrument, not merely an incidental feature, of the underlying fraud.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. \u00a7 1028A(a)(1), requires that a defendant 'use, without lawful authority, a means of identification of another person,' and the narrow, minimalist reading of this provision counsels against an interpretation that would transform routine billing fraud into aggravated identity theft simply because a patient's identifying information appears on a fraudulent claim. As the Court recognized in Bond v. United States, 572 U.S. 844 (2014), we should be wary of statutory interpretations that dramatically expand federal criminal liability beyond a statute's core concerns, and Flores-Figueroa v. United States, 556 U.S. 646 (2009), already established that \u00a7 1028A requires the defendant to know the means of identification belongs to a real person. Applying the rule of lenity and principles of federalism, the government's sweeping reading would federalize virtually every instance of healthcare billing fraud, raising serious concerns about prosecutorial overreach of the kind the Court cautioned against in Bond. The institutional legitimacy of this Court is best served by a narrow construction that reserves \u00a7 1028A's mandatory two-year enhancement for cases where identity theft\u2014not mere fraudulent billing\u2014is the gravamen of the offense.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "As a textualist and originalist, I must interpret the aggravated identity theft statute, 18 U.S.C. \u00a7 1028A, according to its plain meaning and statutory context. The Fifth Circuit's expansive reading of 'uses' another person's 'means of identification' stretches the text beyond what Congress enacted and what a reasonable person reading the statute would understand it to cover, particularly given the statute's title explicitly references 'identity theft,' which connotes impersonation or theft rather than incidental use. While I am generally skeptical of relying on legislative history, the statutory text itself, read holistically and in light of the title and surrounding provisions, does not support punishing conduct that bears no resemblance to identity theft or impersonation. The constitutional avoidance canon further counsels against an interpretation that would raise serious fair notice concerns under the Due Process Clause, as the Fifth Circuit's reading would criminalize conduct that no ordinary citizen reading this statute would understand to be prohibited.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. \u00a7 1028A(a)(1), requires that a defendant 'use' a means of identification of another person 'during and in relation to' a predicate felony, and the text demands that the identity itself be the instrument of the fraud, not merely incidental to it. The Fifth Circuit's en banc interpretation swept too broadly by holding that any use of another's identifying information in connection with a predicate offense suffices, effectively transforming \u00a7 1028A into a mandatory two-year enhancement for virtually every healthcare fraud conviction where a patient's information appears in a fraudulent billing record. A textualist reading of 'in relation to' \u2014 consistent with how this Court interpreted analogous language in Flores-Figueroa v. United States, 556 U.S. 646 (2009), which required the government to prove the defendant knew the means of identification belonged to a real person \u2014 compels the conclusion that the identity must play a central, not merely peripheral, role in the underlying scheme. Allowing the government's expansive reading would render the 'in relation to' limitation surplusage and produce absurd results Congress could not have intended when it crafted a targeted statute aimed at core identity theft, not routine fraud that incidentally involves patient identifiers.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. \u00a7 1028A(a)(1), requires that a defendant 'use' a means of identification of another person 'in relation to' a predicate felony, and the Fifth Circuit's overbroad reading transforms virtually every healthcare fraud involving a patient's identifying information into an automatic additional two-year mandatory sentence. Dubin's case involved billing fraud where the patient's Medicaid number was incidentally used as part of the fraudulent billing scheme \u2014 the identity was not the instrument of the fraud but merely a record-keeping element, and conflating these situations dramatically expands mandatory minimum exposure in ways Congress did not intend. As I emphasized in cases like Descamps v. United States, courts must read criminal statutes with precision to avoid sweeping in conduct beyond the core evil targeted, and here the core evil of \u00a7 1028A is identity theft \u2014 stealing or misappropriating someone's identity to perpetrate fraud \u2014 not merely referencing a patient's ID number in an overbilling scheme. The practical impact on defendants like Dubin, who face a mandatory consecutive two-year sentence stacked onto an already substantial healthcare fraud conviction, reflects exactly the kind of disproportionate punishment that results when courts abandon careful statutory construction in favor of prosecutorial convenience.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. \u00a7 1028A(a)(1), requires that the means of identification be used 'in relation to' the underlying felony in a meaningful, non-incidental way \u2014 the identity must be at the crux of the offense, not merely a billing detail or incidental element. A pragmatic textual reading of 'uses, without lawful authority, a means of identification of another person' demands that the identity itself be the instrument of the fraud, not simply a record that happens to appear in fraudulent conduct. Applying the statute as broadly as the Fifth Circuit did would transform virtually every healthcare fraud or wire fraud case involving patient information into an aggravated identity theft case, producing a mandatory two-year add-on that Congress could not have intended for such routine fraudulent billing scenarios. The canon against surplusage and the principle that criminal statutes should be read to avoid absurd or overbroad results \u2014 consistent with the statutory purpose of targeting identity thieves who weaponize others' identities \u2014 supports reversal.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "As a textualist, I must read the aggravated identity theft statute, 18 U.S.C. \u00a7 1028A, according to its plain meaning \u2014 and that meaning requires that the defendant actually steal or misuse another person's identity without authorization, not merely use legitimately obtained identifying information in a fraudulent billing scheme. The rule of lenity further compels this result: where a criminal statute is ambiguous, we must resolve that ambiguity in favor of the defendant, not the government. The constitutional avoidance canon also counsels against the Fifth Circuit's expansive reading, which would stretch the statute so far beyond its title and evident purpose as to raise serious fair notice concerns. The circuit split itself is telling \u2014 when courts of appeals cannot agree on what a statute means, that is strong evidence that the text does not unambiguously support the government's position, and in criminal cases that ambiguity must be resolved for the accused.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The case involves 18 U.S.C. \u00a7 1028A(a)(1), the aggravated identity theft statute, and the question of what it means to 'use' another person's means of identification 'during and in relation to' a predicate felony. The Fifth Circuit's en banc interpretation appears to have stretched the statute beyond its natural meaning and historical application, effectively converting routine fraud cases into aggravated identity theft whenever a victim's identifying information appears incidentally in the fraudulent transaction. Consistent with my emphasis on text, history, and tradition, the 'use' of a means of identification should require that the identity itself be central to the scheme \u2014 not merely that identifying information appears as a byproduct of the underlying fraud. Judicial restraint counsels against reading a severe mandatory consecutive sentence enhancement so broadly as to sweep in conduct Congress did not intend to target, and the rule of lenity further supports a narrower construction favoring Petitioner Dubin.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.5,
+        "reasoning": "Without knowing the specific legal question presented, I must reason from the available materials, which center on vagueness avoidance doctrine and statutory construction methodology. The research materials suggest the case involves a vague statutory term \u2014 potentially from 18 U.S.C. \u00a7 922(a)(6) concerning false statements in firearms transactions \u2014 and the proper judicial approach to construing such terms. Under my textualist and originalist methodology, courts must first recover the original public meaning of the statutory text through interpretation before resorting to construction; where a term has an identifiable core meaning, vagueness avoidance permits narrowing that term to its constitutional core rather than invalidating it wholesale. Consistent with separation of powers principles articulated in Jones v. Thomas, 491 U.S. 376 (1989), and the Court's methodological commitment to implementing legislative will, I would favor the construction that preserves the statute's identifiable core while declining to extend it to constitutionally indeterminate peripheries, which on balance appears to favor the government as Respondent defending the statute's application.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The aggravated identity theft statute, 18 U.S.C. \u00a7 1028A, requires that a defendant 'use' another person's means of identification 'during and in relation to' a predicate felony, and the critical question is whether mere billing fraud\u2014where the victim's identifying information was used incidentally in an overbilling scheme rather than to assume or steal the victim's identity\u2014falls within the statute's scope. From my perspective as a former public defender, the government's expansive reading of \u00a7 1028A would effectively transform every fraud involving another person's information into aggravated identity theft, triggering mandatory consecutive sentences that Congress likely did not intend for conduct like Dubin's overbilling. The rule of lenity counsels that ambiguous criminal statutes should be construed in favor of the defendant, and the practical consequences of the government's interpretation\u2014mandatory two-year consecutive sentences stacked onto fraud convictions whenever any identifying information appears in fraudulent documents\u2014would produce disproportionate punishment inconsistent with the statute's core purpose of targeting identity theft. The Fifth Circuit's broad reading conflicts with the principle articulated in cases like Yates v. United States, 574 U.S. 528 (2015), that courts must interpret criminal statutes in light of their evident purpose rather than their broadest possible textual reach.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.881,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.5,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1"
+  }
+]

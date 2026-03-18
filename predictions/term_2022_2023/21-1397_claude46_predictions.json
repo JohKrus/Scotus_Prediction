@@ -1,0 +1,579 @@
+[
+  {
+    "docket": "21-1397",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a dual-purpose communication containing both legal and non-legal advice is protected in its entirety by attorney-client privilege when obtaining or providing legal advice was a significant (though not necessarily primary) purpose behind the communication.",
+      "legal_provision": "Federal Common Law of Attorney-Client Privilege (as applied in federal courts, rooted in Federal Rule of Evidence 501), in the specific context of tax return preparation communications subject to grand jury subpoena.",
+      "petitioner_position": "Petitioner argues that a 'significant purpose' standard should govern dual-purpose communications, meaning that if obtaining or providing legal advice was one of the significant purposes behind a communication, the entire communication should be protected by attorney-client privilege, even if non-legal advice (such as tax preparation assistance) was also a purpose. Petitioner contends that the Ninth Circuit's stricter 'primary purpose' test is unworkable, chills attorney-client communications, and fails to reflect the realities of modern legal practice where attorneys routinely provide intertwined legal and business advice.",
+      "respondent_position": "The United States (as Respondent) argues that the district court correctly applied the 'primary purpose' test, under which a dual-purpose communication is only privileged if its primary purpose was to obtain or provide legal advice. The Government contends that communications related to tax return preparation \u2014 which are predominantly non-legal and ministerial in nature \u2014 do not qualify for blanket privilege protection, and that the district court's approach of ordering redaction of specifically legal advice within the communications was a permissible and appropriately narrow application of the privilege that avoids over-extension of the doctrine.",
+      "key_precedents": [
+        "Upjohn Co. v. United States, 449 U.S. 383 (1981) - foundational Supreme Court case on scope of attorney-client privilege in corporate context",
+        "In re Grand Jury (9th Cir. 2021) - the Ninth Circuit decision under review applying the 'primary purpose' test",
+        "In re Grand Jury Subpoena (2nd Cir.) - circuit-level treatment of dual-purpose communications",
+        "Fisher v. United States, 425 U.S. 391 (1976) - attorney-client privilege in the context of tax documents",
+        "Coastal States Gas Corp. v. Department of Energy - discussing the purpose-based framework for privilege",
+        "In re Lindsey, 158 F.3d 1263 (D.C. Cir. 1998) - discussing primary purpose test",
+        "United States v. Kovel, 296 F.2d 918 (2d Cir. 1961) - extending privilege to accountants assisting attorneys",
+        "Restatement (Third) of the Law Governing Lawyers \u00a7 68 - definition and scope of attorney-client privilege",
+        "In re Grand Jury Proceedings (various circuits) - circuit split cases on the primary vs. significant purpose standard"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The conference has reinforced my view that the 'significant purpose' standard, properly cabined, is the correct resolution. Justice Thomas's historical argument remains the strongest challenge, but as I noted in my initial reasoning and as Justice Kagan elaborates persuasively, the historical record on dual-purpose communications is far less settled than the dissent suggests, and Upjohn itself declined to freeze privilege doctrine at any particular historical moment. Justice Alito's workability concern \u2014 that 'significant purpose' risks swallowing the rule \u2014 is the argument I take most seriously, and it is why I would insist on a carefully limited holding: 'significant' must mean genuinely substantial legal advice, not merely incidental legal coloring or pretextual routing through counsel, and the opinion should make clear that courts must apply rigorous scrutiny to ensure tax preparation services dressed in legal garb receive no protection. As Chief Justice, I would assign the majority opinion with instructions to write narrowly \u2014 resolving the circuit split on workable grounds while explicitly preserving the government's ability to challenge privilege claims where legal advice is merely incidental, thereby addressing Justice Alito's institutional concern about grand jury investigations without adopting the unworkable redaction regime the district court employed.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Gorsuch and Justice Barrett both press the argument that FRE 501's 'reason and experience' instruction permits doctrinal evolution beyond a frozen historical baseline, and I acknowledge this is a serious textual point that gives me pause. However, I remain unpersuaded for a reason none of my colleagues have adequately addressed: 'reason and experience' under FRE 501 instructs courts to develop privilege doctrine consistent with common law principles, not to abandon those principles when they become inconvenient for modern practice \u2014 and the common law principle that privilege attaches to communications made *for* legal advice, not merely *including* legal advice, is precisely the kind of foundational limit that FRE 501 was meant to preserve. Justice Kagan's concession that 'significant' must mean 'genuinely significant' rather than 'incidental' actually confirms my concern: if the limiting principle requires courts to make qualitative judgments about how significant the legal component is, we have simply relocated the line-drawing problem from 'primary vs. secondary' to 'genuinely significant vs. incidental,' without gaining workability. Justice Alito correctly identifies that the institutional costs of over-protection in the grand jury context are substantial, and I am not persuaded that the majority's proposed standard provides courts with meaningfully more guidance than the primary purpose test it replaces, particularly when the communications at issue are fundamentally tax preparation documents that happen to involve an attorney.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.55,
+        "reasoning": "Justice Kagan and Justice Barrett both press the compelling point that Upjohn itself declined to freeze privilege doctrine at a historical moment and that the redaction approach simply relocates rather than resolves the line-drawing problem \u2014 I acknowledge these are serious arguments that have genuinely moved me. However, I remain unpersuaded that the 'significant purpose' standard provides a workable limiting principle in practice, particularly in the grand jury context where the institutional costs of over-protection are highest. Justice Kagan's assurance that 'significant' must mean 'genuinely significant' rather than incidental is a judicial aspiration, not an enforceable standard \u2014 lower courts applying this test will inevitably disagree about what crosses that threshold, and the asymmetric incentives in privilege litigation will systematically push toward over-claiming. My core concern, which none of my colleagues have fully answered, is that virtually every communication between a client and a tax attorney can be characterized as having legal advice as 'one significant purpose,' and the limiting principle offered \u2014 that it must be genuinely significant \u2014 provides no more administrable guidance than the primary purpose test my colleagues condemn; I therefore maintain my position that the district court's redaction approach, while imperfect, more faithfully cabins the privilege to its historically recognized core.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's originalist challenge remains the most serious opposing argument, but as I noted in round one and as Justice Barrett reinforces through her FRE 501 analysis, the Rule itself instructs courts to develop privilege doctrine in light of 'reason and experience' \u2014 not to freeze it at a particular historical moment. The historical record Justice Thomas invokes does not actually establish a clear 'primary purpose' hierarchy; it establishes that communications must be made for the purpose of obtaining legal advice, which is entirely consistent with a 'significant purpose' inquiry that still demands genuine, substantial legal advice as a real component. Justice Alito's concern that 'significant purpose' risks swallowing the rule is the most practically serious objection, but it is addressed by the limiting construction that a supermajority of this Court now endorses: 'significant' must mean genuinely substantial legal advice, not incidental legal coloring or pretextual routing through counsel, and courts must apply rigorous scrutiny to that threshold. The real-world harm I cannot ignore \u2014 the chilling effect on candid communication by individuals and small businesses who rely on attorneys who necessarily blend legal and tax advice \u2014 tips the balance decisively toward the petitioner's standard, particularly when the government's redaction alternative merely relocates Upjohn's condemned unpredictability from the document level to the sentence level.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's most serious challenge \u2014 that the historical common law privilege required legal advice to be the dominant purpose \u2014 remains unpersuasive to me for the reasons I articulated in round one, and my colleagues' deliberation has only reinforced this conclusion. Justice Alito's concern that 'significant purpose' risks swallowing the rule is the strongest remaining objection, but as I noted and as Justices Barrett and Jackson both emphasize, this concern is adequately addressed by construing 'significant' to require genuinely substantial legal advice rather than incidental legal coloring or pretextual routing through counsel \u2014 a limiting construction that courts can apply with reasonable consistency. What strikes me most forcefully about Justice Thomas's preferred redaction approach is the point Justice Roberts makes with particular clarity: it simply relocates the uncertainty from the document level to the sentence level, which is precisely the kind of unpredictability Upjohn condemned without any compensating historical justification. I would write the majority opinion to emphasize that the 'significant purpose' standard carries a meaningful burden \u2014 communications where legal advice is peripheral, formulaic, or pretextual receive no protection \u2014 and that district courts must conduct rigorous in camera review rather than deferring to counsel's characterization of the communication's purpose.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's originalist challenge remains the most serious, but as I noted in my initial reasoning and as Justice Barrett reinforces through her reading of FRE 501's 'reason and experience' instruction, the historical common law record on dual-purpose communications is far less settled than Justice Thomas suggests \u2014 courts never confronted the modern integrated legal-tax advisory relationship, and originalism cannot freeze doctrine against conditions that did not exist at the founding. Justice Alito's concern that 'significant purpose' risks swallowing the rule is the most practically serious objection, but it is answered by the limiting construction that has emerged as a near-consensus among my colleagues: 'significant' must mean genuinely substantial legal advice, not merely incidental legal coloring or pretextual routing through counsel, which provides a workable limiting principle. The redaction approach Justice Thomas and Justice Alito favor \u2014 parsing individual sentences within communications to separate legal from non-legal content \u2014 is itself a judicially-invented remedy with no firmer historical pedigree, and it simply relocates Upjohn's condemned unpredictability from the document level to the sentence level. I write separately to emphasize that the 'significant purpose' standard must be applied with rigor: courts should not permit the privilege to attach where legal advice is merely a pretext for shielding business communications, and the government retains meaningful tools \u2014 including in camera review \u2014 to police that line.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's most serious challenge \u2014 that the historical common law privilege required legal advice to be the dominant purpose \u2014 continues to deserve engagement, but as Justice Barrett correctly observes, FRE 501 instructs courts to develop privilege doctrine in light of 'reason and experience,' not merely to freeze doctrine at a historical moment, and the historical record on dual-purpose communications is far less settled than Justice Thomas suggests. Justice Alito's concern that 'significant purpose' risks swallowing the rule remains the strongest practical objection, but this concern is adequately addressed by the limiting construction that has emerged as near-consensus among my colleagues: 'significant' must mean genuinely substantial legal advice, not merely incidental legal coloring or pretextual routing through counsel, which provides a meaningful and administrable line. The redaction approach favored by Justice Thomas and Justice Alito does not escape the line-drawing problem \u2014 it merely relocates it from the document level to the sentence level, creating the very unpredictability Upjohn condemned while imposing substantial burdens on courts and clients alike. I remain persuaded that a carefully cabined 'significant purpose' standard, rigorously applied to exclude purely ministerial and business communications, best serves the privilege's foundational objectives while remaining workable across the range of modern integrated legal-tax practice.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's originalist challenge remains the most serious, but after reviewing the full conference discussion, I am more confident in my position for reasons I share with Justice Kagan and Justice Gorsuch: the historical record on dual-purpose communications is genuinely unsettled, and Upjohn's functional emphasis on predictability reflects FRE 501's instruction to develop privilege doctrine through 'reason and experience' rather than freezing it at a particular historical moment. Justice Alito's concern that 'significant purpose' risks swallowing the rule deserves the most serious attention of any argument raised in conference, and I would address it by insisting that the opinion include a rigorous limiting construction \u2014 'significant' must mean that legal advice constitutes a genuinely substantial and non-pretextual component of the communication's purpose, not merely incidental legal coloring or the mere involvement of counsel. The redaction approach Justice Thomas and Justice Alito favor is itself a judicially-invented remedy with no firmer historical pedigree, and as Justice Kagan correctly observes, it simply relocates Upjohn's condemned unpredictability from the document level to the sentence level. I would write separately to emphasize that lower courts must apply rigorous scrutiny to the 'significant purpose' inquiry and that the standard does not protect communications where legal advice is merely a pretext for shielding otherwise non-privileged business or accounting work.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Thomas's most serious challenge \u2014 that the 'significant purpose' standard lacks historical grounding \u2014 continues to fail on its own terms, as Justice Barrett correctly observes that FRE 501 instructs courts to develop privilege doctrine through 'reason and experience,' not merely to freeze doctrine at a historical moment when integrated legal-tax practice did not exist in its modern form. Justice Alito's concern about the standard swallowing the rule remains the most practically compelling objection, but I am persuaded by the convergence among my colleagues \u2014 including Justice Barrett's careful textualism and Justice Gorsuch's originalist analysis \u2014 that requiring 'significant' to mean genuinely substantial legal advice, not merely incidental or pretextual legal coloring, provides a workable limiting principle that addresses this concern. My background as a public defender reinforces my view that the redaction approach Justice Thomas and Justice Alito prefer would impose disproportionate burdens on clients of modest means who rely on attorneys who necessarily blend legal and tax advice, and that the unpredictability of document-by-document judicial dissection is itself a form of privilege erosion that Upjohn specifically condemned. The near-unanimity of my colleagues on the workability defects of the primary purpose test, combined with the absence of any clear historical mandate for that test, confirms my view that the significant purpose standard \u2014 properly cabined \u2014 is the correct resolution.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Upjohn Co. v. United States, 449 U.S. 383 (1981) emphasized that attorney-client privilege must afford predictability so that attorneys and clients 'can predict with some degree of certainty whether particular discussions will be protected,' and an uncertain or unworkable privilege is little better than no privilege at all. The Ninth Circuit's 'primary purpose' test, as applied below, fails to provide that predictability and creates a chilling effect on candid attorney-client communications in precisely the mixed legal-business contexts Upjohn recognized as legitimate. I would adopt a narrow version of the D.C. Circuit's 'significant purpose' formulation \u2014 asking whether obtaining or providing legal advice was one of the significant purposes of the communication \u2014 as this represents the minimally necessary clarification to resolve the circuit split without broadly expanding privilege doctrine. This approach preserves institutional legitimacy by resolving the conflict on narrow grounds, respects federalism concerns about grand jury proceedings, and avoids either extreme of blanket protection for all attorney-involved communications or an unworkable judicial dissection of every dual-purpose document.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "As an originalist and textualist, I must examine what attorney-client privilege meant at common law when Federal Rule of Evidence 501 was enacted, which incorporated existing common law privilege doctrine. The historical common law privilege was narrowly cabined to communications made for the purpose of obtaining legal advice \u2014 not business, accounting, or tax preparation advice \u2014 and the 'primary purpose' test more faithfully tracks this original understanding by requiring that legal advice be the dominant reason for the communication rather than merely one of several significant purposes. The 'significant purpose' standard advocated by Petitioner risks untethering the privilege from its historical moorings and expanding it well beyond what courts recognized at common law, effectively shielding vast categories of business and tax preparation communications simply because an attorney was involved. While I acknowledge Upjohn's recognition that privilege must have predictability, Upjohn itself did not endorse the 'significant purpose' expansion, and the redaction approach employed by the district court \u2014 protecting specifically legal advice within otherwise non-privileged communications \u2014 represents a more historically grounded and appropriately narrow application of the doctrine.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "As a textualist, I am skeptical of expanding attorney-client privilege beyond its historically recognized boundaries, particularly where doing so would shield communications that are predominantly non-legal in nature from legitimate grand jury subpoenas. The attorney-client privilege, as recognized in Upjohn Co. v. United States, 449 U.S. 383 (1981), exists to encourage frank legal consultation, not to provide a blanket shield for tax preparation services merely because an attorney is involved. The 'significant purpose' test proposed by Petitioner risks swallowing the rule \u2014 virtually any communication routed through counsel could claim some legal advisory component, thereby frustrating law enforcement interests and grand jury investigations that serve critical public functions. The district court's approach of applying the primary purpose test while permitting redaction of specifically legal advice represents a more disciplined, narrowly tailored application of the privilege that respects both the doctrine's legitimate scope and the government's investigative prerogatives under Fisher v. United States, 425 U.S. 391 (1976).",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Drawing on Upjohn Co. v. United States, 449 U.S. 383 (1981), which emphasized that attorney-client privilege must allow attorneys and clients to 'predict with some degree of certainty whether particular discussions will be protected,' I find the 'primary purpose' test unworkably rigid and inconsistent with the realities of modern legal practice where legal and business advice are frequently intertwined. The Ninth Circuit's strict primary purpose test creates a chilling effect on candid attorney-client communication \u2014 precisely the harm Upjohn warned against \u2014 because clients and attorneys cannot reliably know in advance which purpose will be deemed 'primary' by a reviewing court. A 'significant purpose' standard, as articulated by the D.C. Circuit, better serves the privilege's foundational goals by protecting communications where genuine legal advice is meaningfully sought, while still excluding purely ministerial or non-legal communications that have no real legal advisory component. I am also persuaded that vulnerable individuals and small businesses \u2014 not just sophisticated corporations \u2014 rely on attorneys who simultaneously handle tax and legal matters, and a cramped privilege doctrine disproportionately harms those who cannot afford separate specialized counsel for every distinct purpose.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The 'primary purpose' test, as applied by the Ninth Circuit, suffers from the very workability defects that Upjohn warned against when it rejected rigid categorical rules \u2014 as the Court emphasized in Upjohn, 449 U.S. at 393, privilege doctrine must allow attorneys and clients to 'predict with some degree of certainty' what is protected, and a test requiring courts to identify a single predominant purpose among genuinely intertwined motivations fails that standard. The D.C. Circuit's 'significant purpose' formulation from Kellogg better honors Upjohn's functional, purpose-driven inquiry while still providing a meaningful limiting principle that prevents privilege from attaching to purely ministerial or business communications. I am persuaded that the tax context does not warrant a categorical departure from this framework \u2014 Fisher v. United States and Kovel both recognize that legal and accounting functions can be deeply intertwined, and artificially privileging one context over another creates incoherence in the federal common law. That said, I would emphasize that 'significant' must mean genuinely significant legal advice, not merely incidental legal coloring, to prevent the doctrine from swallowing the rule that business advice remains unprotected.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist and originalist, I look first to the historical roots and foundational purposes of the attorney-client privilege, which this Court recognized in Upjohn Co. v. United States as one of the oldest common law privileges, designed to encourage 'full and frank communication between attorneys and their clients.' Upjohn itself explicitly warned that '[a]n uncertain privilege' is little better than no privilege at all, and the Ninth Circuit's 'primary purpose' test creates precisely that uncertainty by requiring courts to weigh and rank the relative significance of intertwined legal and non-legal purposes \u2014 a line-drawing exercise with no principled textual or historical anchor. The 'significant purpose' standard better honors the privilege's original function: where a client genuinely seeks legal advice as a real and substantial purpose of a communication, the privilege should attach, because forcing attorneys and clients to parse and segregate legal from non-legal content in real-time communications would chill the very candor the privilege exists to protect. Furthermore, the rule of lenity and separation of powers concerns counsel against courts crafting narrow, judicially-managed redaction regimes that substitute judicial line-drawing for a clear, administrable rule \u2014 the Government's proposed approach of piecemeal redaction is itself an unpredictable standard that undermines the certainty Upjohn demands.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As this Court emphasized in Upjohn Co. v. United States, 449 U.S. 383 (1981), the attorney-client privilege exists to encourage 'full and frank communication between attorneys and their clients' and requires that 'the attorney and client must be able to predict with some degree of certainty whether particular discussions will be protected.' The Ninth Circuit's rigid 'primary purpose' test fails this predictability requirement by forcing courts to engage in an inherently unworkable balancing exercise to determine which of several intertwined purposes was most dominant \u2014 a line-drawing exercise this Court has repeatedly cautioned against, as noted in Swidler & Berlin v. United States, 524 U.S. 399 (1998). A 'significant purpose' standard, as articulated by the D.C. Circuit in Kellogg, better reflects the practical realities of modern legal practice where legal and business advice are frequently intertwined, while still providing a meaningful limiting principle that prevents abuse by requiring genuine legal advice to be a real and significant \u2014 not merely pretextual \u2014 purpose of the communication. This approach is more consistent with history, tradition, and the functional objectives underlying the privilege as recognized in Upjohn, and avoids the chilling effect on attorney-client communications that an overly restrictive primary purpose test would produce.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "As a textualist and originalist, I must examine what Federal Rule of Evidence 501 and the common law tradition actually require when assessing privilege for dual-purpose communications. Upjohn Co. v. United States, 449 U.S. 383 (1981), did not endorse a rigid 'primary purpose' test; rather, the Court emphasized that the privilege exists to encourage 'full and frank communication between attorneys and their clients' and stressed that an 'uncertain privilege, or one which purports to be certain but results in widely varying applications by the courts, is little better than no privilege at all.' A 'significant purpose' standard better honors this functional rationale and provides the predictability Upjohn demands, whereas the 'primary purpose' test requires courts to engage in an inherently speculative and unworkable hierarchical ranking of purposes within a single communication. That said, I would cabin the holding narrowly: the significant purpose standard does not render all attorney-involved communications privileged, and courts must still rigorously scrutinize whether genuine legal advice \u2014 not merely ministerial tax preparation \u2014 constitutes a real and significant purpose, consistent with the redaction approach the district court employed for purely non-legal content.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Drawing on Upjohn's foundational principle that attorney-client privilege must be construed to encourage 'full and frank communication between attorneys and their clients,' I find that the rigid 'primary purpose' test creates precisely the kind of uncertainty Upjohn warned against when it noted that '[a]n uncertain privilege' undermines the doctrine's core objectives. The practical consequences of the primary purpose test are particularly troubling from a procedural fairness standpoint \u2014 it forces courts into an inherently subjective and unworkable inquiry into which purpose was 'more primary,' chilling legitimate attorney-client communications especially for clients of modest means who cannot afford separate legal and tax counsel. The 'significant purpose' standard, as articulated in the D.C. Circuit's Kellogg framework, better reflects the realities of modern legal practice where tax attorneys necessarily blend legal analysis with compliance work, and it provides the predictability that Upjohn identified as essential to the privilege's function. However, I would emphasize that 'significant' must mean genuinely significant legal advice \u2014 not merely a pretext \u2014 to prevent the standard from becoming a blanket shield for routine ministerial communications.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.733,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.55,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  },
+  {
+    "docket": "21-1397",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a dual-purpose communication containing both legal and non-legal advice is protected in its entirety by attorney-client privilege when obtaining or providing legal advice was a significant (though not necessarily primary) purpose behind the communication.",
+      "legal_provision": "Federal Common Law of Attorney-Client Privilege (as applied in federal courts under Fed. R. Evid. 501), in the context of grand jury proceedings and tax return preparation communications",
+      "petitioner_position": "Petitioner argues that the 'significant purpose' test should govern dual-purpose communications, meaning that if obtaining or providing legal advice was a significant purpose behind a communication \u2014 even if not the sole or primary purpose \u2014 the entire communication should be protected by attorney-client privilege. Petitioner contends that the Ninth Circuit's stricter 'primary purpose' test is unworkable, chills attorney-client communications, and fails to account for the reality that legal and non-legal advice are often inextricably intertwined, particularly in specialized fields like tax law.",
+      "respondent_position": "The United States (as Respondent) argues that the district court permissibly applied the 'primary purpose' test, under which a dual-purpose communication is only privileged if its primary purpose was to obtain or provide legal advice. The government contends that the lower courts correctly denied a blanket privilege claim over tax return preparation communications where legal advice was not the dominant purpose, while still protecting specifically identifiable legal advice through redaction. The government further argues that expanding privilege to a 'significant purpose' standard would broadly shield documents from grand jury subpoenas and obstruct legitimate law enforcement investigations.",
+      "key_precedents": [
+        "Upjohn Co. v. United States, 449 U.S. 383 (1981)",
+        "Fisher v. United States, 425 U.S. 391 (1976)",
+        "In re Grand Jury (9th Cir. 2021) \u2014 the decision under review",
+        "In re Grand Jury Subpoena (D.C. Cir. 2014) \u2014 applying 'primary purpose' test",
+        "In re Kellogg Brown & Root, Inc., 756 F.3d 754 (D.C. Cir. 2014)",
+        "United States v. Kovel, 296 F.2d 918 (2d Cir. 1961)",
+        "Trammel v. United States, 445 U.S. 40 (1980)",
+        "Hunt v. Blackburn, 128 U.S. 464 (1888)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's originalist argument remains the most serious challenge, and I have carefully considered his reading of Hunt v. Blackburn and Greenough v. Gaskell as establishing that privilege attaches only to communications made 'for the purpose' of obtaining legal advice. However, as Justice Barrett correctly observes, those historical cases did not affirmatively require courts to rank competing purposes hierarchically \u2014 they required only that legal advice be a genuine purpose, which is precisely what the significant purpose standard demands. Justice Alito's practical concern about immunizing predominantly non-legal communications is legitimate and I take it seriously as a matter of institutional credibility, but it is adequately addressed by cabining the standard to require that legal advice be genuine, substantial, and non-pretextual \u2014 language I would insist upon in any majority opinion I assign. As Chief Justice, I am mindful that a 7-2 majority with clear, workable limiting language commands far greater institutional authority than a fractured decision, and the formulation I have proposed \u2014 requiring a genuine, substantial, and non-pretextual legal purpose \u2014 resolves the circuit split while preserving the government's legitimate law enforcement interests without wholesale expansion of privilege beyond what Upjohn contemplated.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that the historical common law cases 'did not affirmatively require courts to rank competing purposes hierarchically' is the most sophisticated challenge to my position, but I find it ultimately question-begging: the common law formulation that privilege attaches to communications made 'for the purpose of obtaining legal advice' is most naturally read as requiring legal advice to be the animating, primary purpose \u2014 not merely one among several genuine purposes. When Greenough v. Gaskell and Hunt v. Blackburn speak of communications made 'for the purpose' of legal advice, the indefinite article 'a' versus the definite article 'the' matters enormously in historical legal usage, and the common law tradition consistently used 'the purpose,' suggesting singularity of purpose rather than multiplicity. Justice Gorsuch's claim that the 'primary purpose' framing is 'itself a modern judicial construct without firm founding-era pedigree' proves too much \u2014 the 'significant purpose' standard is equally a modern construct, and if we are choosing between modern glosses, the one more faithful to the common law's narrow, exception-to-disclosure framing is the primary purpose test. I acknowledge the 7-2 tally and my colleagues' thoughtful arguments, but the strength of a legal position is not determined by vote count, and I remain persuaded that the government's legitimate grand jury interests, combined with the availability of redaction for genuinely privileged portions of dual-purpose documents, provides a more historically faithful and practically workable resolution than wholesale privilege protection under the significant purpose standard.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's textualist argument that the historical common law never required hierarchical ranking of purposes is the most sophisticated challenge to my position, and I acknowledge it has genuine force \u2014 but I remain unpersuaded for a critical reason: the absence of explicit hierarchical ranking in early common law cases does not mean those courts would have extended privilege to communications where legal advice was merely one of several significant purposes alongside predominant commercial ones. The historical cases Justice Thomas and I rely upon arose in contexts where the question was whether legal advice was a genuine purpose at all, not because dual-purpose communications were common \u2014 they weren't, given the simpler regulatory environment. My deeper concern, which none of my colleagues have adequately addressed, is the practical consequence Justice Thomas identifies: the 'significant purpose' standard, however carefully cabined with 'genuine and non-pretextual' language, will in practice be applied by lower courts to shield vast categories of dual-purpose documents from grand jury subpoenas, because 'significant' is inherently more elastic than 'primary,' and the KBR decision my colleagues cite approvingly actually applied something functionally closer to a primary purpose inquiry. I write separately to emphasize that whatever standard the Court adopts, the government's burden in grand jury proceedings must be preserved, and courts must apply meaningful scrutiny rather than treating the presence of legal counsel as a near-automatic privilege trigger.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's most compelling argument remains that the historical common law grounded privilege in communications made 'for the purpose of' obtaining legal advice, which he reads as operationalizing the primary purpose test. But as Justice Gorsuch and I have both noted, this reading conflates two distinct inquiries: whether legal advice must be a genuine purpose (which all sides accept) versus whether it must be ranked hierarchically as the dominant purpose (which the historical record does not compel). Justice Alito's concern that the significant purpose standard would immunize predominantly non-legal communications is legitimate, but the Kellogg Brown & Root formulation \u2014 which requires legal advice to be genuine, substantial, and non-pretextual \u2014 already addresses this by preserving judicial authority to pierce sham invocations, and Justice Barrett correctly observes that the early common law cases never affirmatively required the kind of dominant-purpose ranking the Ninth Circuit demands. My pragmatic concern remains that the primary purpose test chills exactly the frank attorney-client communication Upjohn sought to protect, and as Justice Jackson emphasizes, this burden falls disproportionately on individuals of modest means who cannot afford to segregate legal from business counsel \u2014 a real-world inequity that reinforces my view that the significant purpose standard better serves both Upjohn's functional mandate and the underlying purposes of the privilege.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Thomas's most forceful remaining argument is that the historical common law cases \u2014 Greenough v. Gaskell and Hunt v. Blackburn \u2014 establish that privilege attached only to communications made 'for the purpose of' legal advice, which he reads as requiring legal advice to be the dominant purpose. But as Justice Barrett correctly identifies through careful textual analysis, those cases simply required legal advice to be a genuine purpose; they did not affirmatively establish a hierarchical ranking inquiry, and the 'primary purpose' test is itself a modern judicial construct without clear founding-era pedigree. Justice Alito's concern about immunizing predominantly commercial communications remains the most serious practical objection, but the D.C. Circuit's Kellogg Brown & Root formulation \u2014 which I would adopt \u2014 already addresses this by requiring that the legal advice component be genuine, substantial, and non-pretextual, preserving full judicial authority to pierce sham invocations. I am also persuaded by Chief Justice Roberts's institutional point that a clear, workable rule with meaningful cabining language \u2014 requiring an identifiable, substantial legal advice component rather than merely the presence of counsel \u2014 will command broader authority and provide lower courts with the guidance needed to resolve the circuit conflict consistently.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's most forceful argument \u2014 that Greenough v. Gaskell and Hunt v. Blackburn establish a historical baseline requiring legal advice to be *the* purpose \u2014 remains unpersuasive to me because those cases arose in contexts where dual-purpose communications were far less common, and the historical record simply does not show that common law courts engaged in hierarchical purpose-ranking of the kind the Ninth Circuit's test demands. Justice Alito's concern that the significant purpose standard risks immunizing predominantly commercial documents is legitimate and I take it seriously, but as Justice Barrett correctly observes, the standard as properly cabined requires a genuine, identifiable, and substantial legal advice component \u2014 not merely the presence of counsel \u2014 which preserves meaningful limits against pretextual invocations. I am also persuaded by the collective observation across my colleagues that the 'primary purpose' test is itself a modern judicial construct without firm founding-era pedigree, which means Justice Thomas's originalist argument actually undermines the Ninth Circuit's test rather than vindicating it. I would adopt the D.C. Circuit's Kellogg Brown & Root formulation with explicit cabining language requiring that legal advice be genuine and non-pretextual, resolving the circuit split in a manner consistent with both Upjohn's functional mandate and Rule 501's reason-and-experience standard.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's most forceful remaining argument is that the historical common law cases \u2014 Greenough v. Gaskell and Hunt v. Blackburn \u2014 grounded privilege in communications made 'for the purpose of' obtaining legal advice, which he reads as operationalizing a primary purpose inquiry. But as Justice Barrett correctly identifies after careful textualist analysis, those cases did not affirmatively require courts to rank competing purposes hierarchically; they simply required legal advice to be a genuine purpose, which is exactly what the significant purpose standard demands. Justice Alito's concern that we risk immunizing predominantly commercial communications is legitimate and I take it seriously, but the 'genuine and substantial' cabining language that Chief Justice Roberts and I both emphasize \u2014 requiring that legal advice be non-pretextual and identifiable rather than merely incidental \u2014 preserves meaningful limits on privilege while avoiding the speculative dominant-purpose ranking that the Ninth Circuit's test demands. The institutional consideration that most moves me is that a fractured or unclear rule on privilege standards would generate years of satellite litigation, and the D.C. Circuit's Kellogg Brown & Root formulation, adopted by a broad majority here, provides the workable clarity that courts and litigants need.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's most compelling argument remains that Hunt v. Blackburn and Greenough v. Gaskell grounded privilege in communications made 'for the purpose of' obtaining legal advice, which he reads as operationalizing a primary-purpose inquiry. But as I noted in my initial reasoning, and as Justice Gorsuch reinforces, those historical cases did not require courts to engage in hierarchical purpose-ranking \u2014 they simply required legal advice to be a genuine purpose, which is precisely what the significant purpose standard demands. Justice Alito's concern that our standard would immunize predominantly non-legal communications is legitimate and I take it seriously, but it is adequately addressed by the cabining language Chief Justice Roberts and I have both emphasized: the significant purpose test must require a genuine, substantial, and non-pretextual legal advice component, not merely the presence of counsel. I would further note that Justice Thomas's reliance on the availability of redaction as a workable alternative actually undermines the respondent's position \u2014 if document-by-document redaction is the proposed solution, that concedes the very complexity of dual-purpose communications that makes the primary purpose test's hierarchical ranking both artificial and unworkable in practice.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Thomas's most forceful argument \u2014 that the historical common law grounded privilege in communications made 'for the purpose' of obtaining legal advice, making the primary purpose test more historically faithful \u2014 has been thoroughly engaged by my colleagues, and I remain unpersuaded for the reasons Justice Gorsuch articulates: the historical common law never required courts to rank competing purposes hierarchically, and the 'primary purpose' framing is itself a modern judicial construct without firm founding-era pedigree. Justice Alito's concern about shielding predominantly non-legal communications from grand jury subpoenas is the most practically serious objection, but as Chief Justice Roberts and Justice Barrett both emphasize, the significant purpose standard as properly cabined \u2014 requiring legal advice to be genuine, substantial, and non-pretextual \u2014 directly addresses that concern without the chilling effect on attorney-client candor that Upjohn warned against. My background as a public defender reinforces my conviction that the primary purpose test disproportionately burdens clients who cannot afford to segregate legal from business counsel, and that this real-world access-to-justice concern is precisely the kind of practical consequence that Rule 501's 'reason and experience' standard directs us to weigh. The broad consensus among my colleagues on the significant purpose standard, with the careful cabining language Chief Justice Roberts proposes, reflects a workable rule that resolves the circuit split without broadly immunizing pretextual invocations of privilege.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "While I am drawn to the narrowest possible resolution of this circuit split, the 'primary purpose' test as applied by the Ninth Circuit creates the very kind of unpredictable, unworkable standard that Upjohn Co. v. United States, 449 U.S. 383 (1981), cautioned against when it rejected rigid, formulaic approaches to privilege in favor of functional analysis. Upjohn emphasized that attorney-client privilege must be predictable enough that attorneys and clients can 'predict with some degree of certainty whether particular discussions will be protected,' and the Ninth Circuit's single-primary-purpose inquiry fails that standard particularly in complex regulatory fields like tax law where legal and business advice are inextricably intertwined. However, I would adopt a narrow formulation of the 'significant purpose' standard \u2014 closer to the D.C. Circuit's Kellogg Brown & Root framework \u2014 that still requires a genuine, identifiable legal purpose rather than a merely incidental one, thereby preserving meaningful limits on the privilege and protecting the government's legitimate law enforcement interests in grand jury proceedings. This minimalist approach resolves the circuit conflict without broadly expanding privilege doctrine beyond what Upjohn and Trammel v. United States, 445 U.S. 40 (1980), contemplated.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "As an originalist, I must look to the historical common law foundations of attorney-client privilege as it existed at the Founding and was understood by early courts. Hunt v. Blackburn (1888) and the pre-Founding English common law tradition, including Greenough v. Gaskell (1833), consistently grounded the privilege in communications made for the purpose of obtaining legal advice \u2014 not merely communications where legal advice was one of several significant purposes. The 'primary purpose' test more faithfully reflects this historical understanding, as the privilege was never understood at common law to extend wholesale protection to communications that were predominantly commercial or non-legal in nature simply because legal advice was incidentally present. While Upjohn broadly recognized the privilege's importance, it did not mandate a 'significant purpose' expansion, and under Fed. R. Evid. 501's directive to develop privilege law in light of 'reason and experience,' the primary purpose test better cabins the privilege to its historically grounded scope while still permitting redaction of identifiably legal advice within dual-purpose documents.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "While I recognize the practical concerns raised by petitioner regarding dual-purpose communications, the attorney-client privilege is a narrow exception to the general principle that the public has a right to every person's evidence, as recognized in Trammel v. United States and Hunt v. Blackburn. The 'primary purpose' test, consistently applied by the D.C. Circuit in In re Grand Jury Subpoena and In re Kellogg Brown & Root, provides a workable and appropriately cabined standard that prevents overbroad privilege claims from shielding documents from legitimate grand jury subpoenas. Upjohn Co. v. United States, 449 U.S. 383 (1981), while expanding corporate privilege protections, did not mandate a 'significant purpose' standard, and adopting such a broad test would substantially obstruct law enforcement investigations by allowing parties to immunize predominantly non-legal communications \u2014 such as tax return preparation \u2014 simply by involving an attorney in the process. As a textualist skeptical of expansive privilege doctrines that impede legitimate government investigations, I find the government's position that redaction of specifically identifiable legal advice adequately protects privileged material to be the more faithful and practically sound application of federal common law privilege under Fed. R. Evid. 501.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Drawing on Upjohn Co. v. United States, 449 U.S. 383 (1981), which rejected rigid, formalistic tests for attorney-client privilege in favor of functional approaches that account for practical realities, I find that the 'significant purpose' test better serves the privilege's foundational goal of encouraging full and frank attorney-client communication. The Ninth Circuit's strict 'primary purpose' test creates precisely the kind of 'uncertain privilege' that Upjohn warned against, chilling communications in complex regulatory fields like tax law where legal and business advice are inextricably intertwined. From a pragmatic standpoint, requiring clients and attorneys to parse whether legal advice was the 'primary' versus merely a 'significant' purpose imposes an unworkable burden that disproportionately harms individuals and entities navigating complex legal-regulatory environments who most need candid counsel. While I take seriously the government's concern about shielding documents from legitimate grand jury investigations, the significant purpose test \u2014 as articulated in Kellogg Brown & Root \u2014 still requires genuine legal advice as a real purpose, not a mere pretext, providing sufficient protection against abuse.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As a pragmatic textualist concerned with workability, I find the Ninth Circuit's rigid 'primary purpose' test unworkable and inconsistent with Upjohn's functional approach, which rejected formulaic privilege determinations precisely because modern regulatory complexity \u2014 especially in tax law \u2014 makes legal and business advice inextricably intertwined. The 'significant purpose' standard, as articulated by the D.C. Circuit in Kellogg Brown & Root, better serves the foundational goal articulated in Upjohn of enabling 'full and frank communication between attorneys and their clients,' since clients and counsel cannot reliably predict privilege protection under a test that requires courts to rank competing purposes in inherently mixed communications. While I share the government's concern about privilege overreach, the significant purpose standard is not a blank check \u2014 it still requires that legal advice be a genuine, non-pretextual purpose, and courts retain authority to scrutinize sham invocations \u2014 making it a more administrable and honest reflection of how legal advice actually functions in complex regulatory contexts like federal tax law. The alternative risks chilling exactly the kind of candid attorney-client dialogue that Upjohn and Hunt v. Blackburn recognized as essential to the administration of justice.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist and originalist, I look first to the common law foundations of attorney-client privilege as they existed at the founding and as subsequently developed, recognizing that Fed. R. Evid. 501 instructs federal courts to apply privilege according to common law principles. The privilege's historical purpose \u2014 ensuring full and frank communication between attorney and client \u2014 is undermined by a rigid 'primary purpose' test that requires courts to engage in the kind of metaphysical line-drawing Upjohn Co. v. United States, 449 U.S. 383 (1981), explicitly warned against when it rejected formulaic, narrow approaches to privilege in favor of functional analysis. The 'significant purpose' standard better reflects the original common law understanding that privilege attaches to communications made for the purpose of obtaining legal advice, without demanding that legal advice be the dominant or primary motivation \u2014 a distinction the common law never historically required courts to parse. Furthermore, applying the rule of lenity to privilege questions, where the scope of protection is genuinely ambiguous, counsels in favor of the standard that better protects the attorney-client relationship rather than the one that expands government access to confidential communications in grand jury proceedings.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As an institutionalist who values workable legal standards and the functional analysis endorsed in Upjohn Co. v. United States, 449 U.S. 383 (1981), I find the 'significant purpose' test more consistent with the Court's precedent and practical realities of legal practice. Upjohn emphasized that attorney-client privilege must provide predictability so that 'the attorney and client must be able to predict with some degree of certainty whether particular discussions will be protected,' and a rigid 'primary purpose' test \u2014 particularly as applied in the tax context where legal and non-legal advice are often inextricably intertwined \u2014 undermines that predictability and chills frank attorney-client communication. The D.C. Circuit's formulation in In re Kellogg Brown & Root, Inc., 756 F.3d 754 (D.C. Cir. 2014), strikes the appropriate balance by protecting communications where legal advice is a genuine and significant purpose while still guarding against abuse by excluding communications where legal counsel is merely a pretext. Judicial restraint counsels against adopting an overly narrow test that would require courts to engage in speculative line-drawing about which purpose was 'primary,' a task that is neither historically grounded nor practically workable.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As a textualist and originalist, I must acknowledge that attorney-client privilege is a creature of common law, and under Fed. R. Evid. 501, federal courts are to develop it in light of reason and experience. The 'primary purpose' test, as applied by the Ninth Circuit, imposes an artificially rigid, hierarchical inquiry that finds no firm grounding in the historical foundations of the privilege and creates the very uncertainty that Upjohn Co. v. United States, 449 U.S. 383 (1981), warned against when it rejected narrow, formulaic approaches in favor of functional analysis. The 'significant purpose' standard, as articulated in In re Kellogg Brown & Root, Inc., 756 F.3d 754 (D.C. Cir. 2014), and consistent with the Restatement (Third) of the Law Governing Lawyers \u00a7 72, better reflects the practical reality that legal and non-legal advice are often inextricably intertwined \u2014 particularly in complex regulatory fields like tax law \u2014 and that chilling frank attorney-client communication undermines the very purpose the privilege has historically served. That said, I would cabin this holding carefully: the significant purpose test must still require a genuine, identifiable legal advice component, not merely the presence of counsel, lest the privilege swallow legitimate discovery obligations.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As the Court emphasized in Upjohn Co. v. United States, 449 U.S. 383, 389 (1981), the attorney-client privilege exists to 'encourage full and frank communication between attorneys and their clients' and promote the 'broader public interests in the observance of law and administration of justice' \u2014 a functional rationale that counsels against rigid, formalistic tests that chill legitimate attorney-client communications. The 'primary purpose' test is unworkable in practice, particularly in complex fields like tax law where legal and business advice are inextricably intertwined, and its application creates unpredictability that undermines the very candor the privilege is designed to protect. From a procedural fairness standpoint, clients \u2014 including those of modest means who rely on attorney-accountants for integrated legal and tax advice \u2014 should not lose privilege protection simply because a communication serves multiple purposes simultaneously, as that outcome disproportionately disadvantages those who cannot afford separate specialized counsel for each discrete function. However, I would cabin the 'significant purpose' standard carefully to require that the legal advice component be genuine and substantial, not merely pretextual, consistent with Trammel v. United States, 445 U.S. 40 (1980), and the principle that privilege must be 'strictly confined within the narrowest possible limits consistent with the logic of its principle.'",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.768,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]

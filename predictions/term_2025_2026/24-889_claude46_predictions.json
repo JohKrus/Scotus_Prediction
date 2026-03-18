@@ -1,0 +1,580 @@
+[
+  {
+    "docket": "24-889",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a generic drug manufacturer's product label, marketing conduct, and communications constitute sufficient active inducement of patent infringement under 35 U.S.C. \u00a7 271(b) when the label carves out patented uses but physicians may still prescribe the drug for those uses off-label.",
+      "legal_provision": "35 U.S.C. \u00a7 271(b) - Active Inducement of Patent Infringement; also implicating 35 U.S.C. \u00a7 271(e)(2) governing Abbreviated New Drug Applications (ANDAs) under the Hatch-Waxman Act framework",
+      "petitioner_position": "Hikma Pharmaceuticals argues that it cannot be liable for induced infringement because it lawfully carved out the patented method-of-use from its product label (a so-called 'skinny label'), complied with FDA regulatory requirements, and did not affirmatively encourage physicians to prescribe its generic drug for the patented cardiovascular indications held by Amarin. Hikma contends that the Federal Circuit's ruling improperly expands induced infringement liability in a manner that would deter generic manufacturers from entering the market using skinny labels, thereby undermining the Hatch-Waxman Act's core purpose of promoting affordable generic drug competition and reducing prescription drug costs for federal programs including Medicare and Medicaid.",
+      "respondent_position": "Amarin Pharma argues that the Federal Circuit correctly found that Hikma's complaint of conduct \u2014 including its product label, press releases, marketing materials, and public statements referencing the broader cardiovascular market \u2014 plausibly alleged active inducement of infringement of Amarin's method-of-use patents covering the use of icosapentaenoic acid (Vascepa) to reduce cardiovascular risk. Amarin contends that Hikma's communications went beyond mere regulatory compliance and affirmatively encouraged physicians to prescribe the generic product for the patented uses, satisfying the pleading standard for induced infringement under Iqbal/Twombly and established Federal Circuit precedent.",
+      "key_precedents": [
+        "Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011) - establishing knowledge and intent requirements for induced infringement",
+        "Shire LLC v. Amneal Pharmaceuticals, LLC (Federal Circuit) - skinny label induced infringement",
+        "GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc. (Federal Circuit) - finding induced infringement liability despite skinny label carve-out",
+        "Caraco Pharmaceutical Laboratories, Ltd. v. Novo Nordisk A/S, 566 U.S. 399 (2012) - Hatch-Waxman Act use codes and label carve-outs",
+        "Warner-Lambert Co. v. Apotex Corp. (Federal Circuit) - method-of-use patents and generic drug labeling",
+        "Eli Lilly & Co. v. Actavis Elizabeth LLC (Federal Circuit) - induced infringement in ANDA context",
+        "Ashcroft v. Iqbal, 556 U.S. 662 (2009) - pleading standard",
+        "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007) - plausibility pleading standard",
+        "Akamai Technologies, Inc. v. Limelight Networks, Inc., 572 U.S. 915 (2014) - induced infringement standards"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has achieved remarkable unanimity across genuinely divergent methodologies \u2014 Justice Kagan's structural canon argument, Justice Thomas's textualist originalism, Justice Jackson's pragmatic equity concerns, and my own institutionalist minimalism all converge on the same result, which gives me considerable confidence that we have identified the legally correct answer rather than merely a comfortable consensus. The strongest argument Amarin could press \u2014 that Hikma's press releases framing its product as a 'generic version of Vascepa' and referencing the full cardiovascular market constitute affirmative physician-directed encouragement beyond mere regulatory compliance \u2014 fails because, as Justice Gorsuch correctly notes, those communications are far more naturally read as investor-facing market-sizing statements, and Global-Tech's specific-intent requirement cannot be satisfied by conduct equally consistent with lawful competition. As Chief Justice, I would assign the majority opinion with instructions to write narrowly: the holding should be that where a generic manufacturer has lawfully complied with a Section viii carve-out and its public communications do not affirmatively direct physicians toward the carved-out patented use, \u00a7 271(b) liability cannot attach \u2014 leaving open harder cases where manufacturer communications more directly reference the patented indication and cannot be read as consistent with lawful non-patented use promotion. This narrow ground, grounded in Justice Kagan's specific-versus-general canon and the Global-Tech intent standard, preserves the institutional legitimacy of the Court while respecting Congress's deliberate Hatch-Waxman architecture.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I agree with Justice Gorsuch's emphasis on the plain text of \u00a7 271(b) and the separation-of-powers concern: when Congress deliberately enacted the Section viii carve-out pathway, it made a legislative judgment that regulatory compliance with that pathway should not itself constitute the affirmative encouragement necessary for inducement liability, and for courts to hold otherwise would be to judicially nullify a statutory safe harbor through expansive tort liability. The strongest argument for Amarin \u2014 that Hikma's press releases referencing the broader cardiovascular market and describing its product as a 'generic version' of Vascepa crossed the line from mere knowledge into affirmative encouragement \u2014 fails under faithful originalist and textualist analysis because those communications are entirely consistent with lawful competition in a market where the drug has non-patented uses, and Global-Tech requires specific intent to encourage the infringing act itself, not merely awareness that off-label prescribing by independent physicians might occur. Justice Kagan correctly notes that the more specific and later-enacted Hatch-Waxman provisions must cabin the general inducement provision, and under Iqbal and Twombly, where the underlying conduct is lawful regulatory compliance, the inferential chain from market-sizing communications to specific intent to induce infringement of the cardiovascular risk-reduction patents is far too attenuated to survive a motion to dismiss. Allowing Amarin's theory to prevail would effectively transform every generic manufacturer's routine investor communications and AB-rating designations into potential inducement evidence, rendering the skinny label mechanism Congress created a dead letter \u2014 a result no faithful reading of the statutory text can support.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have collectively and persuasively reinforced the core textual and structural arguments that compel reversal of the Federal Circuit. Justice Thomas's point about the common law aiding-and-abetting roots of \u00a7 271(b) is particularly apt \u2014 'active inducement' has always required affirmative culpable conduct beyond mere sale of a product suitable for lawful uses, and Hikma's regulatory compliance with the Section viii carve-out mechanism, combined with press releases that do no more than reference the broader cardiovascular market in which the drug lawfully competes, cannot satisfy that demanding standard under Global-Tech. Justice Kagan's structural argument \u2014 that the more specific and later-enacted Hatch-Waxman provisions must cabin the general inducement provision \u2014 is compelling from a textualist standpoint, because when Congress creates a specific safe harbor mechanism, it necessarily intends that mechanism to have operative legal effect, not to be swallowed by a general provision through expansive judicial interpretation. The practical consequences Justice Sotomayor identifies regarding Medicare and Medicaid beneficiaries further confirm that the Federal Circuit's reading produces results Congress plainly did not intend, and under my methodology, such consequential structural disruption absent clear congressional direction counsels strongly against Amarin's position.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in strong agreement with Justice Jackson's observation that 'merely describing an infringing mode is not the same as recommending, encouraging, or promoting an infringing use' \u2014 this captures precisely why Amarin's theory fails under Global-Tech's demanding intent standard. The strongest argument for Respondent would be that Hikma's press releases explicitly framing its product as a 'generic version' of Vascepa and referencing the full cardiovascular market constitute affirmative steps beyond mere regulatory compliance, but even accepting that framing, those communications are equally consistent with lawful competition for the non-patented triglyceride-lowering indication and do not specifically direct physicians toward the patented cardiovascular risk-reduction use. Justice Kagan's structural point about the more specific Hatch-Waxman provisions cabining the general inducement provision is particularly compelling to me from a pragmatic standpoint \u2014 if skinny-label compliance can be weaponized as evidence of inducement through the vehicle of routine investor communications, Congress's deliberate policy architecture collapses entirely, and the real-world victims are low-income Medicare and Medicaid beneficiaries who depend on affordable generics. The Federal Circuit's expansive reading would effectively require generic manufacturers to choose between market entry and litigation risk in ways that Congress plainly did not sanction when it created the Section viii pathway.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The conference has reached genuine convergence, and I want to engage seriously with what I consider the strongest remaining argument for Amarin: that Hikma's press releases explicitly characterizing its product as a 'generic version of Vascepa' and sizing the full cardiovascular market \u2014 not merely the triglyceride-lowering indication \u2014 constitute affirmative conduct that crosses from mere knowledge into purposeful encouragement of the patented use. But as Justice Jackson's Takeda formulation captures precisely, 'merely describing an infringing mode is not the same as recommending, encouraging, or promoting an infringing use,' and investor communications about total addressable market are categorically different from physician-directed instructions to prescribe for the patented cardiovascular risk-reduction indication. Justice Roberts correctly identifies the narrowest ground: where a generic manufacturer has lawfully carved out patented uses and its public communications do not affirmatively direct physicians toward those uses, the intervening exercise of independent physician judgment breaks any causal chain that \u00a7 271(b)'s 'active inducement' standard requires. My pragmatic textualist methodology compels this result because the coherent reading of \u00a7 271(b) alongside the Hatch-Waxman framework \u2014 treating the more specific, later-enacted carve-out provisions as cabining the general inducement provision \u2014 is not merely a policy preference but the orthodox application of statutory construction principles that give operative effect to Congress's deliberate design.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "My colleagues have collectively and persuasively reinforced the core textual and structural arguments I find most compelling. Justice Kagan's point about the more specific, later-enacted Hatch-Waxman provisions cabining the general \u00a7 271(b) inducement provision is particularly well-taken from a statutory construction standpoint \u2014 when Congress creates a specific regulatory pathway, it does not silently intend for general tort liability to swallow that pathway whole. Justice Jackson's emphasis on the distinction between 'merely describing an infringing mode' versus 'recommending, encouraging, or promoting an infringing use' maps precisely onto the textual demand of \u00a7 271(b) for 'active' inducement, and Hikma's press releases referencing the cardiovascular market are far more naturally read as investor communications about total addressable market than as physician-directed encouragement of the patented indication. The strongest argument for Amarin \u2014 that Hikma's marketing materials referencing the broader cardiovascular market, combined with AB-rating, effectively directed physicians toward the patented use \u2014 fails under Global-Tech because it conflates awareness that off-label prescribing will occur with the specific intent to bring about that infringing act, and independent physician judgment remains an intervening cause that breaks the causal chain required for inducement liability.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan's point about the more specific, later-enacted Hatch-Waxman provisions cabining the general inducement provision of \u00a7 271(b) is particularly compelling from a statutory construction standpoint, and reinforces my own institutionalist concern that the Federal Circuit's expansive reading would effectively nullify a deliberate congressional policy choice. The strongest argument on the other side \u2014 that Hikma's press releases referencing the broader cardiovascular market crossed some line from mere knowledge into affirmative encouragement \u2014 fails under Global-Tech's demanding specific-intent standard because those communications are entirely consistent with lawful competition in a market where the drug has non-patented uses, and the intervening prescribing decisions of independent physicians break any causal chain. Justice Roberts correctly identifies the minimalist path here: where a generic manufacturer has lawfully carved out patented uses and its public statements do no more than the label itself to inform physicians of the drug's existence, \u00a7 271(b) liability cannot attach without rendering the skinny-label mechanism Congress created a dead letter. The practical workability concerns \u2014 deterring generic entry and driving up costs for Medicare and Medicaid beneficiaries \u2014 are not merely policy preferences but reflect the kind of structural disruption that counsels against expanding liability absent clear congressional direction.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference is remarkably unified, and my colleagues have collectively reinforced the core textual and structural arguments that anchor my position. Justice Kagan's point about the canon of construction \u2014 that the more specific, later-enacted Hatch-Waxman provisions must cabin the general inducement provision of \u00a7 271(b) \u2014 is particularly well-taken from a textualist perspective, because it grounds the result not merely in policy preference but in orthodox statutory interpretation methodology. The strongest argument for Amarin would be that Hikma's press releases and marketing materials referencing the broader cardiovascular market constitute affirmative conduct beyond mere regulatory compliance, but as Justice Thomas correctly notes, Global-Tech demands purposeful, culpable conduct directed at fostering the specific infringing use \u2014 and communications that are equally consistent with lawful promotion of non-patented triglyceride-lowering indications cannot plausibly satisfy that demanding standard under Iqbal/Twombly without collapsing the skinny-label safe harbor Congress deliberately constructed. Allowing such attenuated inferential chains to ground \u00a7 271(b) liability would effectively require generic manufacturers to choose between market entry and litigation risk in a manner that nullifies the section viii pathway, a result no faithful reading of the statutory text can support.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "After two rounds of deliberation, the convergence across methodologically diverse colleagues \u2014 from Justice Thomas's originalist textualism to Justice Sotomayor's pragmatic consequentialism \u2014 reinforces rather than undermines my confidence that Amarin's theory fails on the merits. The strongest argument for Respondent remains that Hikma's press releases framing its product as a 'generic version of Vascepa' and referencing the full cardiovascular market crossed from mere regulatory compliance into affirmative market signaling \u2014 but as Justice Kagan correctly identifies, this conflates the downstream effects of AB-rating and automatic substitution with the specific, physician-directed encouragement that Global-Tech demands, and independent prescribing decisions remain an intervening cause that breaks the inducement chain. Justice Barrett's point about Iqbal/Twombly is particularly apt: where the underlying conduct \u2014 skinny-label compliance and investor communications about total addressable market \u2014 is equally consistent with lawful competition in the non-patented triglyceride-lowering space, the inferential leap to specific intent to induce infringement of the cardiovascular risk-reduction patents cannot survive a motion to dismiss. My background as a public defender makes me acutely aware that structural legal rules have distributional consequences, and a ruling for Amarin would impose the heaviest costs on the most economically vulnerable patients \u2014 precisely the population Congress sought to protect when it deliberately constructed the Section viii carve-out pathway.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The narrow question here is whether Hikma's skinny label carve-out, combined with press releases and marketing materials referencing the broader cardiovascular market, crosses the line from mere knowledge that off-label prescribing may occur into affirmative encouragement sufficient for \u00a7 271(b) liability under Global-Tech Appliances. Consistent with my minimalist approach, I would hold that where a generic manufacturer has lawfully carved out patented uses pursuant to the Hatch-Waxman framework, public statements that do no more than the label itself to inform physicians of the drug's existence cannot constitute 'active inducement' without effectively nullifying Congress's deliberate policy choice to permit skinny labels as a mechanism for generic market entry. As Caraco Pharmaceutical Laboratories confirms, Congress carefully calibrated the Hatch-Waxman Act to balance patent protection against generic competition, and expanding induced infringement liability to encompass routine regulatory communications and market-entry press releases would destabilize that balance in ways Congress did not sanction. The institutional concern here is significant: a ruling for Amarin would deter generic manufacturers from utilizing skinny labels altogether, undermining the Act's core purpose of reducing drug costs for programs like Medicare and Medicaid, and this Court should not lightly read \u00a7 271(b) to produce such a consequential structural disruption absent clear congressional direction.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 35 U.S.C. \u00a7 271(b) requires 'active' inducement, a standard rooted in the common law tradition of aiding and abetting that demands affirmative culpable conduct beyond mere sale of a product suitable for lawful uses, as this Court recognized in Grokster, 545 U.S. 913 (2005). When Congress enacted the Hatch-Waxman Act's skinny label carve-out mechanism, codified at 21 U.S.C. \u00a7 355(j)(2)(A)(viii), it deliberately created a safe harbor permitting generic manufacturers to market drugs for unpatented uses without incurring inducement liability \u2014 a congressional design choice that must be given full effect under faithful textualist interpretation. Allowing Amarin's theory to prevail \u2014 that routine commercial communications such as describing a product as a 'generic version' or citing publicly available sales data constitute active inducement \u2014 would effectively nullify the skinny label mechanism Congress created, contravening the Hatch-Waxman Act's express purpose of facilitating generic competition as articulated in Caraco Pharmaceutical Laboratories, Ltd. v. Novo Nordisk A/S, 566 U.S. 399 (2012). Furthermore, under the pleading standards of Iqbal and Twombly, allegations that a generic manufacturer complied with FDA regulatory requirements and made generic commercial statements fall well short of plausibly alleging the specific intent and affirmative steps required by Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist, I read 35 U.S.C. \u00a7 271(b) to require affirmative, specific acts of inducement \u2014 not speculative inferences drawn from general marketing statements or mandatory FDA-compliant labeling that explicitly carves out the patented uses. The Hatch-Waxman Act's skinny label mechanism was deliberately designed by Congress to permit generic entry for non-patented indications, and allowing induced infringement liability to attach based on press releases referencing a broader cardiovascular market or AB-rating classifications would effectively nullify that statutory scheme, producing practical consequences Congress plainly did not intend. Under Global-Tech Appliances, 563 U.S. 754 (2011), induced infringement demands both knowledge of the patent and specific intent to encourage infringement \u2014 Hikma's regulatory compliance and general market communications, absent direct encouragement of the patented cardiovascular risk-reduction methods, cannot satisfy that demanding standard under a proper Iqbal/Twombly plausibility analysis. Extending liability this broadly would deter generic manufacturers from using skinny labels altogether, undermining Congress's explicit policy of reducing drug costs for federal programs including Medicare and Medicaid, a practical consequence that weighs heavily against the Federal Circuit's expansive reading.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Hatch-Waxman Act's skinny label provision was specifically designed by Congress to enable generic manufacturers to enter markets for non-patented uses while protecting patented ones, and allowing Amarin's theory of liability to prevail would effectively nullify that congressional design by making press releases referencing total market size \u2014 standard investor communications for any public company \u2014 into evidence of inducement. Under Global-Tech Appliances, active inducement requires specific intent to encourage infringement, not merely passive awareness that some physicians might prescribe off-label; Hikma's communications referencing Amarin's broader cardiovascular market do not plausibly allege that Hikma affirmatively directed physicians toward the patented cardiovascular risk-reduction indication rather than the carved-out, non-patented triglyceride-lowering use. The practical impact on vulnerable populations \u2014 Medicare and Medicaid beneficiaries who depend on affordable generic drugs \u2014 weighs heavily here, as the Federal Circuit's expansive reading of inducement liability would deter generic entry through skinny labels in nearly half of all eligible cases, forcing low-income patients to pay brand-name prices for uses that Congress explicitly sought to make affordable. Caraco Pharmaceutical Laboratories reinforces that the Hatch-Waxman framework must be construed to facilitate generic competition, and the pleading standard under Iqbal/Twombly requires more than the attenuated inferential chain Amarin offers to transform routine market-sizing communications into actionable inducement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text and structure of the Hatch-Waxman Act's skinny label carve-out provision reflect a deliberate congressional choice to permit generic manufacturers to enter the market while avoiding patented method-of-use claims, and allowing extra-label marketing communications to transform regulatory compliance into inducement liability would render that statutory mechanism largely illusory. Under Global-Tech's knowledge-and-intent framework, \u00a7 271(b) requires affirmative, specific encouragement of the infringing use \u2014 not merely communications about a drug's broader market presence that are consistent with lawful, non-patented indications. As Judges Prost and Dyk persuasively argued in dissenting from denial of rehearing in GlaxoSmithKline, the more specific and later-enacted Hatch-Waxman provisions must be read to cabin the general inducement provision, and treating the carved-out label itself or ambiguous press releases referencing cardiovascular markets as evidence of infringing intent collapses the very safe harbor Congress constructed. A workable, coherent reading of the statutory scheme demands that liability attach only where a manufacturer's communications specifically and affirmatively direct physicians toward the patented use, not where off-label prescribing by independent physicians is the intervening cause of any infringement.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The plain text of 35 U.S.C. \u00a7 271(b) requires 'active inducement' of infringement, and as this Court held in Global-Tech Appliances, that demands specific intent to bring about the infringing act itself \u2014 not mere knowledge that off-label prescribing might occur. When Congress expressly authorized the skinny label carve-out pathway under the Hatch-Waxman Act, it made a deliberate legislative judgment that regulatory compliance with a Section viii carve-out should not itself constitute the affirmative encouragement necessary for inducement liability; to hold otherwise would effectively nullify that congressional design through judicial expansion of tort liability, a separation-of-powers concern I take seriously. Hikma's press releases and marketing materials referencing the broader cardiovascular market, without more, do not rise to the level of 'purposeful, culpable expression and conduct directed toward fostering infringement' that Grokster and Global-Tech require \u2014 they are consistent with lawful competition in a market where the drug has non-patented uses. Allowing Amarin's pleading to survive on these allegations would deter generic manufacturers from using skinny labels at all, collapsing the Hatch-Waxman framework and producing a result Congress plainly did not intend when it created this regulatory pathway.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Hatch-Waxman Act's skinny label carve-out mechanism represents a deliberate congressional balance between patent protection and generic drug competition, and allowing a compliant skinny label itself to serve as evidence of inducement would effectively nullify that statutory scheme \u2014 a result inconsistent with sound principles of statutory construction and institutional restraint. As the dissenters in GlaxoSmithKline correctly observed, Congress enacted the skinny-label provisions precisely as a mechanism for generics to avoid inducement liability, and the more specific Hatch-Waxman provisions should govern over the general inducement provision of 35 U.S.C. \u00a7 271(b). Under Global-Tech, induced infringement requires affirmative acts demonstrating specific intent to encourage infringement, and Hikma's regulatory compliance and general market communications about cardiovascular indications \u2014 without more targeted encouragement of the patented uses \u2014 fall short of that demanding standard. Practical workability concerns also weigh heavily here: a rule permitting inducement liability based on market-share references or general cardiovascular marketing would deter generic entry through skinny labels, driving up drug costs for Medicare, Medicaid, and patients in a manner Congress plainly sought to prevent through the Hatch-Waxman framework.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The text of 35 U.S.C. \u00a7 271(b) requires 'active' inducement, and the statutory structure of the Hatch-Waxman Act's section viii carve-out provision would be rendered largely meaningless if a compliant skinny label could itself serve as evidence of inducement liability \u2014 a result that cannot be reconciled with Congress's deliberate creation of that safe harbor pathway. As the dissenting judges in GlaxoSmithKline correctly observed, canons of statutory construction require that the more specific, later-enacted Hatch-Waxman provisions govern over the general inducement provision of \u00a7 271(b) when a generic manufacturer has played by the skinny-label rules, and Global-Tech's knowledge-and-intent requirements demand affirmative conduct beyond regulatory compliance. Hikma's press releases and marketing materials referencing the broader cardiovascular market, without more, do not plausibly satisfy the Iqbal/Twombly pleading standard for the specific intent element that Global-Tech mandates, particularly where the label itself lawfully carved out the patented indications and the communications at issue were not directed at instructing physicians to prescribe for those carved-out uses. Permitting such attenuated conduct to ground inducement liability would effectively nullify the section viii pathway and deter generic entry in a manner directly contrary to the Hatch-Waxman Act's core purpose of reducing drug costs, a policy judgment Congress made that courts must respect through faithful textual interpretation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Under Global-Tech Appliances, Inc. v. SEB S.A., induced infringement requires both knowledge of the patent and specific intent to encourage infringement \u2014 mere foreseeability that physicians might prescribe a drug off-label for patented uses is constitutionally and statutorily insufficient to satisfy \u00a7 271(b). Hikma's lawful Section viii carve-out under the Hatch-Waxman framework represents Congress's deliberate policy choice to permit generic entry with skinny labels, and allowing Amarin's complaint to proceed based on press releases referencing the broader cardiovascular market \u2014 without particularized allegations of purposeful encouragement of the patented use \u2014 would effectively nullify that congressional design and deter future generic competition, harming the very Medicare and Medicaid beneficiaries the Act was designed to protect. As the district court correctly recognized, 'merely describing an infringing mode is not the same as recommending, encouraging, or promoting an infringing use' under Takeda Pharmaceuticals, and under Twombly and Iqbal's context-sensitive plausibility standard, where the underlying conduct is otherwise lawful regulatory compliance, Amarin's allegations do not plausibly allege the specific intent element that transforms lawful market communications into active inducement. The practical consequences of the Federal Circuit's expansive reading \u2014 chilling generic manufacturers from using skinny labels and thereby entrenching brand-name monopolies \u2014 are precisely the kind of structural inequities that demand careful judicial scrutiny, particularly given the disparate impact on lower-income patients dependent on affordable generic medications.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.852,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "24-889",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a generic drug manufacturer's labeling and marketing conduct constitutes active inducement of infringement of method-of-use patents held by a brand-name pharmaceutical company under 35 U.S.C. \u00a7 271(b).",
+      "legal_provision": "35 U.S.C. \u00a7 271(b) - Active Inducement of Patent Infringement; also implicating the Hatch-Waxman Act (Drug Price Competition and Patent Term Restoration Act of 1984), specifically provisions governing Abbreviated New Drug Applications (ANDAs) and skinny labeling under 21 U.S.C. \u00a7 355(j)",
+      "petitioner_position": "Hikma Pharmaceuticals argues that it cannot be held liable for induced infringement because it utilized a 'skinny label' that carved out the patented method-of-use indications from its generic drug's labeling, as expressly permitted under the Hatch-Waxman framework. Hikma contends that its FDA-approved label, which deliberately omitted Amarin's patented cardiovascular risk reduction indication, does not constitute the specific intent required to actively induce physicians to infringe Amarin's method-of-use patents. Petitioners further argue that the Federal Circuit's ruling improperly expands induced infringement liability in a manner that undermines the skinny labeling mechanism Congress created to facilitate generic drug market entry, threatens to chill generic competition, and raises prescription drug costs for consumers and federal programs including Medicare and Medicaid.",
+      "respondent_position": "Amarin Pharma argues that Hikma's conduct, viewed in its totality beyond merely the label itself, plausibly demonstrates the specific intent necessary to induce infringement of Amarin's patented methods of use. Respondents contend that Hikma's public statements, marketing materials, press releases, and other communications outside the label signaled to physicians and the market that its generic product was interchangeable with Vascepa for all uses, including the patented cardiovascular risk reduction indication. Amarin asserts that the Federal Circuit correctly applied the pleading standard by evaluating the full constellation of alleged facts, and that allowing generic manufacturers to circumvent method-of-use patents through strategic labeling combined with inducing off-label promotion would effectively nullify patent protections for innovative pharmaceutical discoveries and undermine incentives for drug development.",
+      "key_precedents": [
+        "Eli Lilly & Co. v. Medtronic, Inc., 496 U.S. 661 (1990) - Hatch-Waxman Act framework interpretation",
+        "Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011) - Specific intent requirement for induced infringement",
+        "Aro Manufacturing Co. v. Convertible Top Replacement Co., 365 U.S. 336 (1961) - Inducement requires underlying direct infringement",
+        "Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348 (Fed. Cir. 2003) - Skinny labeling and induced infringement in pharmaceutical context",
+        "AstraZeneca LP v. Apotex, Inc., 633 F.3d 1042 (Fed. Cir. 2010) - Generic labeling and inducement liability",
+        "GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc., 7 F.4th 1320 (Fed. Cir. 2021) - Skinny label inducement liability and totality of conduct analysis",
+        "Takeda Pharmaceuticals U.S.A., Inc. v. West-Ward Pharmaceutical Corp., 785 F.3d 625 (Fed. Cir. 2015) - Intent standard for induced infringement via labeling",
+        "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007) - Plausibility pleading standard",
+        "Ashcroft v. Iqbal, 556 U.S. 662 (2009) - Pleading standard for plausible claims"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The conference has reached a remarkable unanimity that I find substantively well-grounded rather than merely convergent. Justice Kagan's articulation of the need for a 'clearly-articulated standard' before extra-label conduct can override the skinny label safe harbor is precisely the kind of workable doctrinal framework that serves institutional legitimacy \u2014 courts below need clear guidance, and the Federal Circuit's GSK II totality-of-conduct test has demonstrably failed to provide it. The strongest argument for Respondent \u2014 that Hikma's press releases characterizing Vascepa as a generic equivalent constitute affirmative encouragement of the patented cardiovascular risk reduction method \u2014 must be taken seriously, but as Justice Barrett correctly notes, those communications are equally consistent with lawful market participation and cannot satisfy Global-Tech's demanding mens rea requirement when the label itself has carved out the patented indication. As Chief Justice, I would assign the majority opinion with instructions to hold narrowly: a properly filed skinny label accompanied by standard market-entry communications cannot satisfy \u00a7 271(b)'s specific intent requirement absent affirmative conduct specifically directed at the carved-out patented use, thereby preserving the theoretical possibility that truly egregious extra-label targeting could still support liability while vindicating the Hatch-Waxman framework Congress deliberately constructed.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "My colleagues have collectively and persuasively reinforced the core textual and structural analysis I began with: \u00a7 271(b)'s 'active inducement' requirement, as interpreted in Global-Tech, demands specific intent to cause infringement, and Congress's deliberate creation of the skinny label carve-out under 21 U.S.C. \u00a7 355(j) cannot be nullified by treating routine market communications as evidence of that intent. Justice Gorsuch's point about separation of powers is particularly well-taken from an originalist perspective \u2014 courts must not allow tort liability to swallow a statutory safe harbor that Congress expressly enacted, as doing so substitutes judicial policy preferences for legislative judgment. Justice Barrett's textual analysis of the Twombly/Iqbal pleading standard as applied to the specific intent element further strengthens the case that Amarin's complaint, read against the backdrop of a lawful skinny label, does not plausibly allege the purposeful, culpable conduct directed at fostering the patented use that \u00a7 271(b) demands. The strongest argument for Respondent \u2014 that Hikma's public statements characterizing its product as a generic equivalent constitute 'culpable expression' under Grokster \u2014 fails because those communications are ordinary commercial speech incident to lawful market participation, not affirmative steps specifically directed at encouraging physicians to practice the patented cardiovascular risk reduction method, and conflating the two would effectively convert \u00a7 271(b) into strict liability whenever a generic enters a market where off-label use is foreseeable.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable unanimity grounded in sound textual and structural analysis, and I find my colleagues' reasoning collectively reinforces rather than undermines my position. Justice Roberts's formulation of the narrow holding is particularly well-crafted from an institutional standpoint: we need not resolve every conceivable scenario involving extra-label communications, but only hold that a properly filed skinny label accompanied by standard market-entry bioequivalence communications cannot satisfy Global-Tech's demanding mens rea requirement absent affirmative conduct specifically directed at the patented indication. The strongest argument for Respondent \u2014 that Hikma's press releases characterizing its product as broadly interchangeable with Vascepa constitute the 'clear expression' of infringing intent that Grokster requires \u2014 fails because, as Justice Barrett correctly identifies, those communications are equally consistent with lawful market participation and do not specifically encourage physicians to prescribe for the patented cardiovascular risk reduction method. Allowing Amarin's theory to proceed on these facts would effectively nullify the skinny label mechanism Congress deliberately enacted, substituting judicial policy preferences for a considered legislative judgment that generic competition serves the public interest \u2014 precisely the kind of structural statutory inversion that separation of powers principles, as Justice Gorsuch emphasizes, forbid.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The unanimity of my colleagues across radically different judicial methodologies \u2014 from Justice Thomas's originalism to Justice Jackson's structural pragmatism \u2014 reinforces rather than diminishes my confidence, because it reflects genuine convergence on the statutory text and real-world consequences rather than mere groupthink. Justice Kagan's articulation of the workability standard is particularly important to my methodology: a vague totality-of-conduct test that cannot reliably distinguish routine bioequivalence communications from culpable inducement will systematically chill generic entry, and the populations I care most about \u2014 low-income patients, the uninsured, those dependent on Medicaid \u2014 bear the heaviest costs of that chilling effect. The strongest argument for Respondent remains that Hikma's press releases affirmatively characterized its product as a generic equivalent for Vascepa broadly, potentially signaling to physicians that it could substitute for all approved uses including the patented cardiovascular risk reduction indication; but under Global-Tech's demanding mens rea standard, communications that are equally consistent with lawful market participation cannot plausibly constitute the purposeful, targeted encouragement of a specific patented method that \u00a7 271(b) requires. Allowing Amarin's theory to survive at the pleading stage would effectively transform the skinny label safe harbor Congress deliberately enacted into a trap \u2014 a result that inverts the Hatch-Waxman framework's core purpose and harms the very vulnerable patients that framework was designed to protect.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable convergence, and I want to sharpen the doctrinal contribution I can make to the eventual opinion. Justice Roberts's formulation of the narrow holding is exactly right institutionally \u2014 we need not resolve every conceivable scenario where extra-label communications might suffice, but only hold that a properly filed skinny label plus standard bioequivalence communications cannot, without affirmative conduct specifically targeting the patented indication, satisfy Global-Tech's demanding mens rea requirement. Justice Gorsuch's point that the Federal Circuit's GSK II totality-of-conduct framework is not merely unworkable but textually indefensible deserves emphasis in the opinion: \u00a7 271(b)'s 'active inducement' language, read alongside Congress's deliberate construction of the \u00a7 355(j) carve-out, simply cannot bear the weight the Federal Circuit placed on it without rendering the carve-out mechanism a dead letter. The strongest remaining argument for Amarin \u2014 that Hikma's press releases characterizing its product as a generic equivalent of Vascepa constitute 'culpable expression' under Grokster \u2014 fails because those communications are equally consistent with lawful market participation and do not specifically direct physicians toward the carved-out cardiovascular risk reduction indication, and accepting that argument would mean every generic manufacturer faces \u00a7 271(b) liability simply for communicating the FDA-mandated bioequivalence information that patients and pharmacists need to access affordable medications.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Kagan's pragmatic framing reinforces my textualist conclusion: the Federal Circuit's GSK II totality-of-conduct framework is not merely unworkable in practice but is textually indefensible, because \u00a7 271(b)'s 'active inducement' language \u2014 read alongside Congress's deliberate enactment of the \u00a7 355(j) carve-out mechanism \u2014 cannot plausibly be construed to impose liability on a manufacturer who has affirmatively excluded the patented indication from its label. The strongest argument for Respondent would be that Hikma's press releases and interchangeability statements constitute the 'clear expression' of infringing intent that Global-Tech requires, but this conflates ordinary commercial speech incident to lawful market entry with the purposeful, targeted encouragement of a specific patented method that Grokster's 'clear expression' standard demands. Justice Thomas correctly identifies that treating routine bioequivalence communications as culpable inducement would stretch \u00a7 271(b) beyond its textual and historical moorings, effectively converting the statute into something approaching strict liability for generic manufacturers who comply with the very safe harbor Congress constructed. The separation of powers principle that courts must not read statutes to render congressional enactments meaningless compels reversal: allowing Amarin's theory to proceed would nullify the skinny label mechanism as surely as if Congress had never enacted it.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable consensus, and I want to directly address the strongest argument for Respondent: that Hikma's press releases characterizing its product as a generic equivalent to Vascepa broadly \u2014 not merely for the carved-out indications \u2014 constitute the 'clear expression' of infringing intent that Global-Tech requires. This argument has genuine force, and I do not dismiss it lightly. But as Justice Kagan correctly frames it, those communications must be evaluated against the congressional baseline established by the skinny label mechanism \u2014 and when Congress authorized generic manufacturers to carve out patented indications while still entering the market, it necessarily contemplated that those manufacturers would communicate their product's general equivalence to the branded drug. Treating ordinary bioequivalence communications as culpable inducement would render the carve-out mechanism a trap rather than a safe harbor, which cannot be what Congress intended. Justice Roberts's formulation of the narrow holding is institutionally sound: we need not resolve every question about when extra-label conduct might suffice, but only hold that a properly filed skinny label accompanied by standard market-entry communications cannot, without affirmative conduct specifically directed at the patented indication, satisfy \u00a7 271(b)'s demanding mens rea requirement \u2014 a holding that preserves coherence in both the patent system and the Hatch-Waxman framework.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The conference has reached a remarkable degree of doctrinal convergence, and I find the collective reasoning reinforces rather than undermines my originalist and textualist analysis. Justice Kagan's call for a 'clearly-articulated standard' resonates deeply with my methodology: the Federal Circuit's totality-of-conduct framework is not merely unworkable in practice but is textually indefensible, because \u00a7 271(b)'s 'active inducement' language \u2014 read alongside Congress's deliberate enactment of the \u00a7 355(j) carve-out \u2014 cannot plausibly be construed to impose liability on a manufacturer who has affirmatively excluded the patented indication from its label. The strongest argument for Respondent \u2014 that Hikma's press releases characterizing Vascepa as broadly interchangeable constitute the 'clear expression' of infringing intent that Global-Tech requires \u2014 fails under my methodology because those communications are equally consistent with lawful market participation and do not specifically encourage physicians to prescribe for the patented cardiovascular risk reduction indication; Grokster's 'culpable expression' standard demands purposeful targeting, not ambient commercial speech. I write to emphasize, consistent with Chief Justice Roberts's narrowing instinct, that we should preserve the theoretical possibility that truly egregious extra-label conduct specifically targeting a carved-out patented use could still support \u00a7 271(b) liability, thereby maintaining doctrinal coherence without nullifying the skinny label mechanism Congress deliberately constructed.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "I find myself in substantial agreement with Justice Kagan's observation that a pragmatically coherent reading of Hatch-Waxman and \u00a7 271(b) demands a demanding, clearly-articulated standard before extra-label conduct can override the skinny label safe harbor \u2014 one requiring communications that affirmatively and specifically encourage the patented use rather than general interchangeability statements. The strongest argument on the other side would be that Hikma's press releases and marketing materials, taken in totality, crossed the line from routine commercial speech into purposeful encouragement of the patented cardiovascular risk reduction indication, but that argument founders on the Global-Tech specific intent requirement: communications that are equally consistent with lawful generic competition cannot plausibly satisfy the culpable-expression standard from Grokster. My background as a public defender makes me acutely sensitive to how legal standards operate in practice \u2014 just as overbroad criminal liability chills constitutionally protected conduct, overbroad inducement liability chills the generic market entry Congress deliberately facilitated, with the heaviest costs falling on the most vulnerable patients who depend on affordable medications. The unanimity of my colleagues on this point, while not determinative, reflects that the statutory text, legislative purpose, and practical consequences all converge on the same answer: Hikma's conduct did not satisfy \u00a7 271(b)'s demanding mens rea requirement.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The narrow ground here favors Hikma: Congress expressly created the skinny label carve-out mechanism under 21 U.S.C. \u00a7 355(j)(2)(A)(viii) precisely to permit generic entry for non-patented uses, and allowing extra-label marketing communications alone to trigger \u00a7 271(b) liability would effectively nullify that statutory safe harbor and undermine the institutional balance Congress struck in Hatch-Waxman. Under Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011), induced infringement requires specific intent to cause infringing acts, and the totality-of-conduct standard applied by the Federal Circuit in GlaxoSmithKline v. Teva risks collapsing that demanding mens rea requirement into something approaching strict liability whenever a generic manufacturer makes routine market communications about its FDA-approved product. Institutional legitimacy counsels deference to the congressional design: as Judge Prost's dissent from en banc rehearing denial in GSK III persuasively observed, the Federal Circuit has transformed a congressional shield for generics into a litigation sword for branded manufacturers, a result inconsistent with the statute's text and purpose. I would reverse and remand on the narrowest available ground, holding that a properly filed skinny label, standing alone or accompanied only by standard market-entry communications, cannot satisfy the specific intent element of \u00a7 271(b) absent affirmative conduct directed at the patented indication.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The text of 35 U.S.C. \u00a7 271(b) requires 'active' inducement, which as this Court recognized in Global-Tech Appliances, 563 U.S. 754, 760 (2011), demands affirmative steps and specific intent to bring about infringement \u2014 not mere market presence or foreseeability of off-label use. Congress expressly authorized skinny labeling under the Hatch-Waxman Act's Section viii carve-out mechanism, and to impose induced infringement liability solely because a generic manufacturer's FDA-approved label omits patented indications while competitors and the market engage in substitution would effectively nullify that Congressional judgment and convert \u00a7 271(b) into something approaching strict liability. Amarin's theory that Hikma's public statements and press releases \u2014 characterizing its product as a generic equivalent for purposes of market entry \u2014 constitute the 'culpable expression and conduct' required by Grokster, 545 U.S. 913, 937 (2005), stretches the specific intent requirement beyond its textual and historical moorings, as such communications are ordinary commercial speech incident to lawful market participation rather than purposeful encouragement of physicians to practice the patented method. Permitting liability on this theory would also raise serious federalism concerns by effectively conscripting generic manufacturers into enforcing brand-name patent monopolies through their labeling choices, undermining the states' traditional police power over pharmaceutical commerce and Congress's deliberate calibration of the generic drug approval framework.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under 35 U.S.C. \u00a7 271(b), as interpreted in Global-Tech Appliances, induced infringement requires affirmative, purposeful steps to encourage direct infringement combined with specific knowledge that the induced acts constitute patent infringement \u2014 mere market presence or interchangeability signals fall short of this demanding standard. Hikma's deliberate use of the skinny label mechanism expressly authorized by Congress under the Hatch-Waxman Act's 21 U.S.C. \u00a7 355(j) framework demonstrates the opposite of culpable intent; Congress specifically created the carve-out procedure to permit generic entry without infringing method-of-use patents, and penalizing a manufacturer for complying with that statutory scheme would nullify the legislative design. Amarin's reliance on press releases and marketing communications as evidence of inducement stretches the 'active steps' requirement beyond what Global-Tech and Grokster permit, as those materials do not constitute 'clear expression or other affirmative steps taken to foster infringement' of the specific patented cardiovascular risk reduction method, particularly when the label itself carved out that indication. Allowing the Federal Circuit's totality-of-conduct approach to override the skinny label's legal significance would chill generic competition, raise drug costs for consumers and federal programs, and effectively render the Hatch-Waxman carve-out provision a nullity \u2014 consequences Congress plainly did not intend.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Hatch-Waxman Act's skinny labeling provision under 21 U.S.C. \u00a7 355(j) was deliberately crafted by Congress to enable generic manufacturers to enter the market while respecting valid method-of-use patents, and allowing induced infringement liability to attach based on extra-label communications like press releases and marketing materials risks swallowing that statutory mechanism entirely, effectively nullifying the generic competition Congress sought to foster. Under Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011), induced infringement requires specific intent to cause direct infringement, and while I take seriously Amarin's argument about the totality of Hikma's conduct, the practical reality is that generic manufacturers must communicate to the market that their product is bioequivalent to the brand-name drug \u2014 characterizing routine commercial communications as evidence of infringing intent sets an impossible standard that will chill generic entry and harm the millions of low-income patients, Medicare and Medicaid beneficiaries, and uninsured Americans who depend on affordable generic medications. The Federal Circuit's expansive reading in GlaxoSmithKline v. Teva and its application here threatens to recreate the very monopoly pricing problem that Hatch-Waxman was designed to address, and as a Justice attentive to real-world impacts on vulnerable populations, I cannot endorse a rule that effectively allows brand manufacturers to use method-of-use patents as a shield against all generic competition whenever any market communication touches on therapeutic equivalence.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text and structure of the Hatch-Waxman Act's skinny labeling provision under 21 U.S.C. \u00a7 355(j) reflects a deliberate congressional choice to permit generic manufacturers to carve out patented method-of-use indications precisely to facilitate market entry and reduce drug costs \u2014 a statutory purpose that would be substantially undermined if compliance with the FDA-mandated carve-out process could itself become the basis for induced infringement liability. Under Global-Tech Appliances, \u00a7 271(b) requires specific intent to cause infringement, and while extra-label communications can theoretically supply that intent, the Federal Circuit's GSK II framework has proven unworkably vague, allowing virtually any routine commercial communication to resurrect liability that the skinny label was designed to foreclose. A pragmatically coherent reading of the two statutory schemes demands that courts apply a demanding, clearly-articulated standard before extra-label conduct can override the safe harbor Congress built into Hatch-Waxman \u2014 one requiring communications that affirmatively and specifically encourage the patented use, not merely general interchangeability statements that are an ordinary incident of generic market entry. The GlaxoSmithKline line of cases, as Judge Prost's dissent persuasively argued, has transformed a congressional shield into a litigation sword in a manner inconsistent with both the statutory text and the workability values that should guide interpretation of overlapping patent and drug regulatory regimes.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The plain text of 35 U.S.C. \u00a7 271(b) demands 'active inducement,' which this Court interpreted in Global-Tech Appliances v. SEB S.A. to require affirmative steps taken with specific intent to cause the infringing conduct \u2014 not mere knowledge that infringement might result from lawful market participation. When Congress enacted the Hatch-Waxman Act's skinny labeling provision under 21 U.S.C. \u00a7 355(j), it expressly authorized generic manufacturers to carve out patented indications, and courts must respect that legislative judgment rather than allow tort liability to swallow a statutory safe harbor through expansive readings of extra-label communications. Allowing Amarin's theory to proceed based on press releases and marketing materials characterizing a generic as broadly interchangeable would effectively nullify the skinny label mechanism Congress created, violating the separation of powers principle that courts should not read statutes to render congressional enactments meaningless. Under Twombly and Iqbal, a plausible claim of induced infringement requires factual allegations of purposeful, culpable conduct directed at fostering the specific patented use \u2014 not ambient commercial communications that are equally consistent with lawful generic competition.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "As an institutionalist who values congressional intent and practical workability, I find that the Hatch-Waxman Act's skinny labeling mechanism under 21 U.S.C. \u00a7 355(j) reflects a deliberate congressional balance between generic competition and patent protection, and the Federal Circuit's totality-of-conduct analysis in GSK II and this case effectively nullifies that statutory safe harbor in ways Congress did not intend. Under Global-Tech Appliances, 563 U.S. 754 (2011), induced infringement requires specific intent to cause infringement, and where a generic manufacturer has affirmatively carved out patented indications from its label as Congress expressly authorized, courts must be careful not to transform routine commercial communications about FDA-approved equivalence into evidence of infringing intent without a demanding evidentiary threshold. The practical consequences here are severe and institutionally significant: allowing brand manufacturers to weaponize extra-label marketing statements against generics who have complied with the skinny label process would deter generic market entry, raise drug costs for Medicare, Medicaid, and consumers, and undermine the carefully negotiated legislative compromise that has saved Americans trillions of dollars since 1984. Judicial restraint counsels against expanding \u00a7 271(b) liability in ways that effectively override Congress's policy judgment embedded in the Hatch-Waxman framework, particularly absent clear statutory text authorizing such an expansive reading.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text of 35 U.S.C. \u00a7 271(b) demands 'active' inducement\u2014affirmative steps taken with specific intent to bring about direct infringement\u2014as Global-Tech Appliances, 563 U.S. at 760, makes clear by requiring 'clear expression or other affirmative steps taken to foster infringement.' Hikma's use of a skinny label that deliberately carved out Amarin's patented cardiovascular risk reduction indication was precisely the mechanism Congress authorized under the Hatch-Waxman Act's 21 U.S.C. \u00a7 355(j) framework to facilitate generic entry without infringing method-of-use patents; treating FDA-compliant label omissions as evidence of inducement would invert the statutory design Congress carefully constructed. While Amarin points to Hikma's extra-label communications, those statements must be evaluated under the Twombly/Iqbal plausibility standard and must plausibly demonstrate the specific intent to induce the patented use\u2014not merely market awareness of interchangeability\u2014and the complaint's allegations, read against the backdrop of a lawful skinny label, do not plausibly cross that threshold without conflating general market promotion with targeted encouragement of the patented method. Permitting liability on these facts would effectively nullify the skinny-labeling carve-out Congress enacted, a result that neither the statutory text nor sound originalist interpretation of the Hatch-Waxman framework supports.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Hatch-Waxman Act's skinny labeling provision under 21 U.S.C. \u00a7 355(j) was deliberately designed by Congress to facilitate generic market entry while preserving method-of-use patent protections, and allowing brand manufacturers to weaponize induced infringement liability against generics that properly carve out patented indications would eviscerate this carefully calibrated statutory balance. Under Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011), induced infringement under \u00a7 271(b) requires specific intent to cause direct infringement, and Hikma's use of an FDA-approved skinny label that affirmatively excluded the patented cardiovascular risk reduction indication cuts strongly against the inference of that specific intent, particularly at the pleading stage under Twombly and Iqbal. The Federal Circuit's totality-of-conduct approach as applied here, and as criticized by Judge Prost's dissent in GSK III, transforms generalized market communications about therapeutic equivalence into actionable inducement in a manner that chills generic competition, raises costs for patients and federal programs like Medicare and Medicaid, and imposes liability that Congress never contemplated when it created the section viii carve-out mechanism. Practical consequences matter enormously here: if generic manufacturers face inducement liability despite proper skinny labeling, the financial risk will deter market entry in nearly half of all eligible cases, undermining the trillions of dollars in savings the Hatch-Waxman framework was designed to deliver to the American public.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.858,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

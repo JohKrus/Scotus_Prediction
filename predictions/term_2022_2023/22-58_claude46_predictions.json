@@ -1,0 +1,580 @@
+[
+  {
+    "docket": "22-58",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the states of Texas and Louisiana have standing to challenge the federal government's immigration enforcement prioritization guidelines issued by the Department of Homeland Security, and whether those guidelines are subject to judicial review under the Administrative Procedure Act.",
+      "legal_provision": "Primary provisions at issue include: 8 U.S.C. \u00a7 1252(f)(1) (limiting injunctive relief in immigration cases), 5 U.S.C. \u00a7 706 (APA judicial review and vacatur authority), and Article III standing requirements under the U.S. Constitution; secondary provisions include the Immigration and Nationality Act (INA) enforcement discretion framework.",
+      "petitioner_position": "The federal government (United States, DHS, ICE, and related agencies) argues that: (1) Texas and Louisiana lack Article III standing because they cannot demonstrate a cognizable injury from the federal government's exercise of prosecutorial discretion in immigration enforcement; (2) immigration enforcement prioritization is a core executive function not subject to judicial override; (3) Section 1252(f)(1) bars the injunctive relief granted by the lower court; and (4) the APA does not authorize courts to vacate agency enforcement guidelines of this nature, as enforcement discretion is committed to agency judgment by law.",
+      "respondent_position": "Texas and Louisiana argue that: (1) they have standing because the federal government's failure to detain and remove certain noncitizens imposes direct financial costs on the states through increased expenditures on education, healthcare, and law enforcement; (2) the DHS enforcement priority memorandum constitutes a substantive rule subject to APA notice-and-comment requirements; (3) the guidelines effectively nullify statutory mandates under the INA requiring detention of certain categories of noncitizens; and (4) federal courts have authority under Section 706(2) of the APA to vacate unlawful agency action, and Section 1252(f)(1) does not bar such relief.",
+      "key_precedents": [
+        "Heckler v. Chaney, 470 U.S. 821 (1985) - establishing presumption of unreviewability for agency enforcement discretion decisions",
+        "Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992) - defining Article III standing requirements including injury-in-fact, causation, and redressability",
+        "Massachusetts v. EPA, 549 U.S. 497 (2007) - addressing state standing in federal regulatory challenges",
+        "DHS v. Regents of the University of California, 591 U.S. 1 (2020) - reviewing APA challenges to immigration enforcement policies (DACA rescission)",
+        "Arizona v. United States, 567 U.S. 387 (2012) - affirming broad federal preemption in immigration enforcement",
+        "Biden v. Texas, 597 U.S. 785 (2022) - addressing related immigration enforcement and APA issues (MPP/Remain in Mexico policy)",
+        "Norton v. Southern Utah Wilderness Alliance, 542 U.S. 55 (2004) - limiting APA review of agency inaction",
+        "Garland v. Aleman Gonzalez, 596 U.S. 543 (2022) - interpreting Section 1252(f)(1) scope of injunctive relief limitations",
+        "INS v. Legalization Assistance Project, 510 U.S. 1301 (1993) - addressing judicial review of immigration enforcement policies",
+        "United States v. Texas, 599 U.S. 670 (2023) - the ultimate Supreme Court decision in this very case"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The conference is remarkably unified, and I find my colleagues' reasoning reinforces rather than challenges my own minimalist approach. Justice Barrett's point about Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez is particularly valuable \u2014 it provides an additional, independent ground for reversal that I had not fully weighted, and it strengthens the case for a narrow holding that avoids the harder APA merits questions entirely. Justice Kagan's observation that 8 U.S.C. \u00a7 1226(c)'s mandatory detention language only operates once removal proceedings are initiated \u2014 and thus does not strip threshold prosecutorial discretion \u2014 is the most precise answer to the strongest argument on the other side, namely that the statutory 'shall' language overcomes Heckler v. Chaney's presumption. As Chief Justice, I would assign the majority opinion to be written on the narrowest available ground \u2014 standing under Lujan \u2014 with a brief note that even reaching the merits, Heckler v. Chaney and Section 1252(f)(1) independently foreclose the relief granted below, thereby preserving institutional legitimacy while providing clear guidance without unnecessarily constraining future executive enforcement discretion.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which is itself notable. Justice Kagan makes a point worth engaging directly from an originalist perspective: even if one accepts that 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) use mandatory 'shall' language, those provisions operate only after the Executive has exercised threshold prosecutorial discretion to initiate removal proceedings \u2014 they do not eliminate the anterior discretion question, and the original public meaning of Article II's Take Care Clause has always encompassed prosecutorial discretion as an executive prerogative. Justice Barrett's observation about \u00a7 1252(f)(1) and Garland v. Aleman Gonzalez is also well-taken: even if we somehow reached the merits, the class-wide injunctive relief granted below is independently barred, and APA \u00a7 706 vacatur cannot serve as an end-run around that jurisdictional limitation. Most fundamentally, as I have written before, the standing defect here is constitutional and dispositive \u2014 Texas and Louisiana's alleged injuries are too attenuated, depending on independent third-party choices, to satisfy the concrete and particularized injury requirement that Article III demands as a structural matter, not merely a prudential one.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas's analysis, particularly his emphasis on the standing defect as dispositive and his caution about expanding APA Section 706 vacatur authority to override executive enforcement prioritization. The strongest argument for the Respondents would be that the mandatory 'shall' language in 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) overcomes Heckler v. Chaney's presumption of unreviewability by providing clear 'law to apply' \u2014 but as Justice Kagan correctly notes, those provisions only operate once removal proceedings are initiated, and they do not eliminate threshold prosecutorial discretion about whether to commence proceedings at all. Even setting aside my sympathy for Texas and Louisiana's substantive statutory argument, the standing problem is constitutionally prior and cannot be circumvented: the causal chain between a federal prioritization memorandum and state expenditures on education and healthcare runs through too many independent third-party decisions to satisfy Lujan's traceability requirement, and allowing states to manufacture Article III standing through such attenuated fiscal theories would give every state a judicial veto over federal enforcement priorities \u2014 a result incompatible with Arizona v. United States and the structural logic of our separation of powers.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.95,
+        "reasoning": "I am gratified that all of my colleagues have converged on the Petitioner's position, though I want to emphasize that my reasoning goes beyond the standing and separation-of-powers grounds that Justice Roberts and Justice Thomas articulate \u2014 while those are correct and dispositive, the human stakes demand we also recognize that allowing states to judicially commandeer federal enforcement priorities would devastate vulnerable communities, forcing deportation of long-term residents, parents of U.S. citizens, and individuals with pending humanitarian claims based on manufactured state fiscal injuries. Justice Kagan's point about the attenuated causal chain is particularly well-developed: the states' costs depend on the independent decisions of noncitizens to remain, state officials to provide services, and federal officers to exercise case-by-case discretion, which comprehensively defeats traceability and redressability under Lujan. Justice Jackson's observation that noncitizens were present in these states regardless of enforcement priorities further underscores that the alleged injury cannot be fairly traced to the DHS guidelines. The convergence of standing doctrine, Heckler v. Chaney's presumption of unreviewability, and Arizona v. United States's affirmation of executive primacy in immigration enforcement all point decisively to reversal, and I would write separately to emphasize the profound human consequences of the lower court's approach.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Justice Roberts and Justice Barrett on the standing question \u2014 the causal chain between DHS's enforcement prioritization guidelines and Texas and Louisiana's alleged fiscal injuries is simply too attenuated under Lujan, broken as it is by the independent decisions of noncitizens to remain, state officials to provide services, and federal officers to exercise case-by-case discretion. Justice Barrett's point about Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez is particularly important and reinforces my view that even if we somehow found standing, the class-wide injunctive relief granted below would be independently barred \u2014 this structural constraint on remedies further undermines redressability. The strongest argument for the Respondents would be that the INA's 'shall' language in \u00a7\u00a7 1226(c) and 1231(a) provides the 'law to apply' necessary to rebut Heckler v. Chaney's presumption, but as I noted in my initial reasoning, that mandatory language only operates once removal proceedings are initiated and does not strip the Executive of threshold prosecutorial discretion about whether to commence proceedings \u2014 Arizona v. United States is clear that this threshold discretion is a core executive prerogative. Allowing states to manufacture standing through downstream fiscal impacts of federal non-enforcement would fundamentally destabilize separation of powers in ways incompatible with workable governance.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which itself is notable \u2014 when textualists and purposivists converge on standing grounds, that convergence reflects the genuine constitutional deficiency in the states' theory. Justice Thomas correctly identifies that the causal chain between a federal prioritization memo and specific state expenditures is broken by the independent choices of third parties, which is fatal under Lujan's traceability requirement. Justice Kagan's point about Heckler v. Chaney's 'law to apply' exception is worth engaging: even if 8 U.S.C. \u00a7 1226(c)'s mandatory language could theoretically rebut the presumption of unreviewability, that provision only operates post-initiation of proceedings and does not eliminate threshold prosecutorial discretion about whether to commence proceedings \u2014 Arizona v. United States forecloses the argument that Congress stripped the Executive of that initial discretion. Most fundamentally, as a textualist I must acknowledge that Article III's case-or-controversy requirement is not merely a prudential doctrine but a hard constitutional limit, and no amount of statutory interpretation creativity can manufacture the traceability and redressability that the Constitution demands before federal courts may act.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Chief Justice Roberts and Justice Kagan that the standing defect is dispositive here and that resolving on the narrowest available ground best serves the Court's institutional legitimacy. The causal chain between DHS's enforcement prioritization memo and Texas and Louisiana's alleged financial injuries is simply too attenuated under Lujan \u2014 the states' costs depend on the independent decisions of noncitizens to remain, state officials to provide services, and federal officers to exercise individual discretion, breaking the traceability and redressability requirements at multiple points. Justice Kagan's observation that the 'law to apply' exception under Heckler v. Chaney cannot be triggered here because 8 U.S.C. \u00a7 1226(c) only operates after removal proceedings are initiated \u2014 and does not strip the Executive of threshold prosecutorial discretion \u2014 is particularly persuasive and reinforces my view that the merits question need not be reached. Allowing states to manufacture standing through downstream fiscal impacts of federal non-enforcement would, as Justice Sotomayor rightly warns, expose every federal non-enforcement decision to state-driven judicial override, fundamentally destabilizing the separation of powers in a way that no sound institutionalist reading of Article III can countenance.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with Justice Thomas and Justice Kagan that the standing defect is dispositive here, though I want to add a textual dimension to the analysis. The states' claimed injuries depend on a causal chain that runs through the independent decisions of noncitizens to remain in Texas and Louisiana, state legislatures to appropriate funds for services, and individual DHS officers to exercise case-by-case discretion \u2014 precisely the kind of attenuated, third-party-dependent causation that Lujan v. Defenders of Wildlife forecloses. Justice Kagan makes a particularly sharp point that I find compelling: even if the mandatory 'shall' language in 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) could theoretically rebut Heckler v. Chaney's presumption of unreviewability, those provisions only operate after the Executive has exercised threshold prosecutorial discretion to initiate proceedings \u2014 they do not eliminate the anterior discretion that Arizona v. United States recognized as constitutionally grounded. On the APA merits, I would add that Section 1252(f)(1)'s bar on classwide injunctive relief, as clarified in Garland v. Aleman Gonzalez, independently forecloses the remedy the lower courts granted, and vacatur under Section 706 cannot serve as a functional substitute for an injunction when Congress has specifically limited that form of relief in the immigration context. The unanimity of this conference on the standing question reflects not groupthink but the genuine weakness of the states' theory, which if accepted would allow any state to transform a policy disagreement with federal enforcement priorities into a justiciable Article III case.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Justice Sotomayor's emphasis on the practical consequences for vulnerable populations, which reinforces my own background as a public defender \u2014 the human cost of forcing the federal government to abandon considered enforcement priorities in favor of mass deportation of long-term residents and humanitarian claimants is profound and cannot be ignored in our analysis. Justice Thomas's concurrence in the actual United States v. Texas (2023) outcome is particularly instructive: even a justice deeply skeptical of executive overreach recognized that the standing defect here is dispositive, because the states' alleged financial injuries are simply too attenuated from the enforcement prioritization memo to satisfy Lujan's traceability requirement. Justice Kagan's point about the 'law to apply' exception under Heckler v. Chaney is well-taken \u2014 while 8 U.S.C. \u00a7 1226(c)'s mandatory language could theoretically rebut the presumption of unreviewability, it only operates once removal proceedings are initiated and does not strip the Executive of threshold prosecutorial discretion about whether to commence proceedings, which is precisely the discretion at issue here. The convergence of standing doctrine, Heckler v. Chaney's presumption, Arizona v. United States's affirmation of federal primacy, and the structural separation-of-powers concerns all point decisively toward reversal, and I would write separately to emphasize that permitting states to manufacture standing through downstream fiscal impacts would expose every federal non-enforcement decision to state-driven judicial override, fundamentally destabilizing workable governance.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Applying my minimalist philosophy, I would resolve this case on the narrowest available ground: standing. Texas and Louisiana have not demonstrated a sufficiently direct, cognizable injury under Lujan v. Defenders of Wildlife to satisfy Article III \u2014 the alleged financial costs from increased state expenditures on education and healthcare are too attenuated and dependent on intervening choices by third parties (the noncitizens themselves) to establish the requisite causation and redressability. Furthermore, Heckler v. Chaney's presumption of unreviewability for enforcement discretion decisions, while not absolute, counsels extreme judicial restraint when states ask federal courts to compel the Executive to arrest and detain specific individuals \u2014 a core executive function deeply embedded in separation of powers principles. Even accepting that DHS's guidelines constitute a reviewable rule under the APA, the institutional legitimacy concerns of having federal courts superintend day-to-day immigration enforcement priorities are profound, and Arizona v. United States already affirmed the breadth of federal preeminence in this domain. Resolving on standing grounds avoids the harder APA merits questions and preserves both executive enforcement discretion and the Court's institutional role.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "As an originalist and textualist, I would vote for the federal government (Petitioner) primarily on standing grounds, consistent with my actual concurrence in United States v. Texas (2023). Texas and Louisiana cannot demonstrate the kind of concrete, particularized injury traceable to the federal government's enforcement prioritization that Article III requires under Lujan v. Defenders of Wildlife \u2014 the states' claimed financial injuries from noncitizens remaining in their borders are too attenuated and depend on independent choices by third parties. Furthermore, the separation of powers concerns here are profound: allowing states to sue the federal government to compel specific immigration enforcement priorities would fundamentally distort the constitutional structure, effectively giving states a judicial veto over core Executive Branch prosecutorial discretion. While I am sympathetic to the argument that 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) impose mandatory detention obligations that could rebut Heckler v. Chaney's presumption of unreviewability, the threshold standing defect forecloses reaching the merits, and I would be cautious about expanding the APA's Section 706 vacatur authority to override what is fundamentally an executive enforcement prioritization decision committed to agency judgment by law.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "While I am sympathetic to Texas and Louisiana's substantive argument that DHS's enforcement prioritization memorandum conflicts with mandatory detention provisions in 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a), the states face a fundamental Article III standing problem under Lujan v. Defenders of Wildlife: the financial costs they allege\u2014increased expenditures on education, healthcare, and law enforcement\u2014are too attenuated and indirect to constitute cognizable injury-in-fact traceable to the specific enforcement guidelines rather than to Congress's broader immigration framework. Furthermore, even if standing could be established, Heckler v. Chaney's presumption of unreviewability for enforcement discretion decisions, combined with the limitations on injunctive relief under 8 U.S.C. \u00a7 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez, substantially constrains the judiciary's authority to second-guess executive prioritization of immigration enforcement resources. The separation of powers concerns articulated in Arizona v. United States counsel strongly against federal courts supervising day-to-day immigration enforcement decisions, even where statutory mandates appear to require affirmative action, because doing so would improperly conscript the judiciary into managing executive branch resource allocation.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.92,
+        "reasoning": "Texas and Louisiana lack Article III standing because the financial costs they allege \u2014 increased expenditures on education, healthcare, and law enforcement attributable to noncitizens not prioritized for removal \u2014 are too attenuated and speculative to constitute a cognizable injury-in-fact under Lujan v. Defenders of Wildlife, and critically, the causal chain between the federal government's enforcement prioritization and the states' alleged expenditures is broken by the independent choices of third parties. More fundamentally, under Heckler v. Chaney and the broader framework affirmed in Arizona v. United States, immigration enforcement prioritization is a quintessential exercise of executive prosecutorial discretion that reflects resource allocation, foreign policy, and humanitarian judgments committed to the Executive Branch \u2014 allowing states to use the APA and manufactured financial injuries to commandeer federal enforcement priorities would fundamentally destabilize the separation of powers and expose every federal non-enforcement decision to state-driven judicial override. The practical consequences for vulnerable populations are severe: upholding the lower court's vacatur would force the federal government to prioritize deportation of individuals with deep community ties, long-term residents, and people with pending humanitarian claims, causing immense human suffering without any genuine constitutional mandate. As the Court ultimately recognized in United States v. Texas (2023), this case presents a novel and dangerous theory of standing that, if accepted, would allow states to transform policy disagreements with the Executive into justiciable federal cases, undermining both executive discretion and the constitutional design of immigration enforcement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana lack Article III standing because the causal chain between the federal government's enforcement prioritization guidelines and the states' alleged financial injuries is too attenuated \u2014 the states' costs depend on independent decisions by noncitizens to remain, by state officials to provide services, and by federal officials to exercise discretion in individual cases, which fails the traceability and redressability requirements of Lujan v. Defenders of Wildlife. Moreover, under Heckler v. Chaney's well-established presumption, enforcement prioritization decisions are committed to agency discretion by law, and while the 'law to apply' exception could theoretically be triggered by mandatory detention language in 8 U.S.C. \u00a7 1226(c), that provision only operates once removal proceedings are initiated \u2014 it does not strip the Executive of threshold prosecutorial discretion about whether to commence proceedings at all, as Arizona v. United States makes clear that enforcement discretion is a core executive prerogative in immigration. Allowing states to manufacture standing through downstream fiscal impacts of federal non-enforcement would fundamentally destabilize the separation of powers by enabling any state to judicially commandeer federal enforcement priorities whenever federal restraint imposes indirect costs, a result incompatible with workable governance and the structural logic of DHS v. Regents and Biden v. Texas.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana fail to establish Article III standing under Lujan v. Defenders of Wildlife because the alleged financial injuries from increased state expenditures are not fairly traceable to the DHS enforcement prioritization guidelines \u2014 states have always borne costs associated with noncitizen populations regardless of federal enforcement priorities, and the causal chain between a federal prioritization memo and specific state expenditures is too attenuated and speculative to satisfy constitutional standing requirements. More fundamentally, this case implicates the core separation-of-powers concern that federal courts should not be in the business of supervising executive enforcement discretion; as Heckler v. Chaney recognized, decisions about how to allocate prosecutorial resources are presumptively committed to agency judgment by law under 5 U.S.C. \u00a7 701(a)(2), and while categorical rules may in some circumstances be distinguishable from individual nonenforcement decisions, the standing defect is dispositive here and forecloses reaching the merits. The APA's judicial review provisions cannot be stretched to give states a cause of action to compel the federal executive to arrest and detain specific individuals, as that would fundamentally distort the separation of powers by conscripting Article III courts into managing executive branch enforcement operations \u2014 a result inconsistent with Arizona v. United States, which reaffirmed broad federal primacy and discretion in immigration enforcement. Because standing is a threshold constitutional requirement and the states have not demonstrated a cognizable, traceable, and redressable injury distinct from a generalized grievance about federal law enforcement policy, I would reverse the lower court without reaching the APA merits.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana lack Article III standing because the states' alleged injuries\u2014increased expenditures on education, healthcare, and law enforcement attributable to the federal government's enforcement prioritization\u2014are not sufficiently traceable to the DHS guidelines nor redressable by a favorable court ruling, as the federal government retains broad discretion over how to allocate finite enforcement resources regardless of any judicial order. Under Lujan v. Defenders of Wildlife, standing requires a concrete, particularized injury fairly traceable to the challenged conduct, and the causal chain here is too attenuated: the presence of noncitizens in these states depends on numerous independent factors beyond DHS's prioritization memo. Moreover, Heckler v. Chaney establishes a strong presumption that enforcement prioritization decisions are committed to agency discretion by law, and while that presumption can be rebutted when a statute provides mandatory guidelines, the practical reality is that the INA's 'shall' provisions must be read against the backdrop of finite resources and longstanding executive enforcement discretion recognized in Arizona v. United States. Allowing states to sue to compel federal immigration enforcement would fundamentally alter the separation of powers and the executive's core prosecutorial discretion function, raising serious institutional concerns that counsel judicial restraint consistent with the Court's role.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana fail to establish Article III standing under Lujan v. Defenders of Wildlife because the alleged financial injuries from increased state expenditures on education, healthcare, and law enforcement are not fairly traceable to the DHS enforcement prioritization guidelines\u2014these costs flow from the independent decisions of third parties (noncitizens) and pre-existing conditions, not directly from the challenged memorandum. Even accepting that states may sometimes assert quasi-sovereign interests in federal regulatory challenges as recognized in Massachusetts v. EPA, the causal chain here is too attenuated and speculative to satisfy the injury-in-fact and redressability requirements. Furthermore, the APA reviewability question is substantially foreclosed by Heckler v. Chaney's presumption of unreviewability for enforcement discretion decisions, and while that presumption can be rebutted where a substantive statute provides guidelines constraining agency discretion, the DHS prioritization guidelines represent a general policy judgment about resource allocation rather than a categorical abdication of statutory duty that would overcome the presumption. Section 1252(f)(1), as interpreted in Garland v. Aleman Gonzalez, also independently bars the class-wide injunctive relief the lower courts granted, and the APA's Section 706 vacatur authority does not provide an end-run around that jurisdictional limitation in the context of enforcement discretion policies committed to agency judgment by law.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana fail to establish Article III standing because the alleged financial injuries from federal immigration enforcement prioritization are too attenuated and indirect to satisfy Lujan's injury-in-fact requirements \u2014 the states' increased expenditures on education, healthcare, and law enforcement are not fairly traceable to the DHS guidelines in any direct causal sense, as noncitizens were present in these states regardless of enforcement priorities. Furthermore, under Heckler v. Chaney, the presumption of unreviewability for agency enforcement discretion decisions is particularly strong here, and the DHS prioritization memorandum represents a quintessential exercise of prosecutorial discretion committed to executive judgment by law, not a substantive rule requiring APA notice-and-comment. As Arizona v. United States affirmed, immigration enforcement is a core federal executive function, and allowing states to judicially override federal enforcement priorities through manufactured standing theories would fundamentally disrupt the constitutional separation of powers and the federal government's exclusive authority over immigration. My background as a public defender reinforces my concern that permitting such challenges would subject vulnerable noncitizen populations to harsher enforcement regimes driven by state litigation rather than considered federal policy, undermining both procedural fairness and the practical consequences for affected individuals.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.896,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.92,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.95,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "22-58",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether the states of Texas and Louisiana have standing to challenge the federal government's immigration enforcement prioritization guidelines issued by the Department of Homeland Security, and whether federal courts can enjoin or vacate those guidelines under the Administrative Procedure Act.",
+      "legal_provision": "Administrative Procedure Act (5 U.S.C. \u00a7 706), Immigration and Nationality Act (8 U.S.C. \u00a7 1252(f)(1)), and Article III standing requirements of the U.S. Constitution",
+      "petitioner_position": "The federal government argues that Texas and Louisiana lack Article III standing to challenge DHS immigration enforcement priorities because states cannot compel the Executive Branch to arrest or detain specific individuals, that enforcement discretion is a core executive function protected from judicial override, that Section 1252(f)(1) bars the injunctive relief granted by the lower court, and that the APA does not authorize vacatur of internal enforcement guidelines in this context",
+      "respondent_position": "Texas and Louisiana argue they have standing because the federal government's relaxed enforcement priorities impose direct financial costs on states through increased expenditures on education, healthcare, and law enforcement for undocumented immigrants, and that DHS's enforcement priority memorandum is a substantive rule subject to APA review that was issued without required notice-and-comment rulemaking, making it unlawful and subject to vacatur or injunction",
+      "key_precedents": [
+        "Lujan v. Defenders of Wildlife (1992) - establishing three-part Article III standing test",
+        "Massachusetts v. EPA (2007) - recognizing state standing in federal regulatory challenges",
+        "Heckler v. Chaney (1985) - establishing presumption of unreviewability for agency enforcement discretion",
+        "DHS v. Regents of the University of California (2020) - APA review of immigration policy",
+        "Biden v. Texas (2022) - related immigration enforcement discretion case",
+        "Garland v. Aleman Gonzalez (2022) - interpreting Section 1252(f)(1) scope",
+        "Norton v. Southern Utah Wilderness Alliance (2004) - limits of APA review of agency inaction",
+        "Texas v. United States (5th Cir. 2022) - lower court decision under review"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The unanimity of my colleagues on standing grounds is striking and reinforces my view that this is the correct narrow path. Justice Kagan's formulation is particularly apt \u2014 the causal chain between DHS enforcement priorities and states' alleged financial injuries requires too many independent intervening discretionary judgments by federal officers to satisfy Lujan's traceability requirement, and redressability is equally problematic since a court order vacating the guidelines would not compel any specific removal. As Chief Justice, I am inclined to write narrowly on standing alone, avoiding the Heckler v. Chaney merits questions and the Section 1252(f)(1) remedial issues, which would preserve the Court's institutional legitimacy and avoid unnecessary constitutional pronouncements \u2014 consistent with my minimalist philosophy. I note that Justice Thomas and Justice Sotomayor, despite their very different judicial philosophies, converge on standing, which suggests the standing analysis here is genuinely principled rather than outcome-driven, and I would assign the majority opinion to reflect this narrow, institutionally protective holding.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with my colleagues across the ideological spectrum, which is itself notable. Justice Gorsuch's textualist analysis of Section 1252(f)(1) and the Take Care Clause resonates most strongly with my originalist methodology \u2014 the Founders vested enforcement discretion in the Executive precisely because they understood that faithful execution of law necessarily involves prioritization judgments. The strongest argument for Respondents would be that 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) impose mandatory detention obligations that strip DHS of the discretion it claims, but even accepting that these statutes create genuine obligations, the proper remedy is not a nationwide injunction of internal enforcement guidelines \u2014 Article III's case-or-controversy requirement, as understood at the founding, demands a concrete dispute with a traceable injury, not an advisory ruling on executive policy. I write separately to note that while I join the judgment on standing and Section 1252(f)(1) grounds, I would not foreclose all APA challenges to enforcement policies that constitute categorical abdication of statutory duty, as the original public meaning of 'laws faithfully executed' does impose some judicially cognizable floor.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "After reviewing my colleagues' arguments, I find broad consensus on the standing and Section 1252(f)(1) grounds, and I am persuaded to increase my confidence in the petitioner's position. Chief Justice Roberts makes the strongest case for resolving this on standing grounds alone \u2014 the minimalist path that avoids entangling the Court in supervising executive enforcement priorities. Justice Gorsuch's textualist analysis of Section 1252(f)(1) reinforces my view that the district court's nationwide injunction was independently barred by that provision as clarified in Garland v. Aleman Gonzalez, regardless of the APA merits. While I remain somewhat more willing than some colleagues to acknowledge that the mandatory language of 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) could theoretically rebut Heckler v. Chaney's presumption in a narrower case, the states' failure to establish traceable, redressable injury under Lujan is dispositive here, and the sweeping injunctive relief granted below cannot survive Section 1252(f)(1)'s jurisdictional bar.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in strong agreement with Justice Kagan's analysis that the causal chain between DHS enforcement priorities and states' alleged financial injuries is fatally attenuated \u2014 the states cannot demonstrate that enjoining the guidelines would actually cause DHS to detain and remove the specific individuals whose presence allegedly generates state costs, since each enforcement decision involves numerous independent discretionary judgments by federal officers. Justice Jackson's point about the devastating practical consequences for vulnerable individuals resonates deeply with my judicial philosophy: allowing states to weaponize APA litigation to compel federal immigration arrests would conscript the Executive into state-preferred enforcement regimes, harming millions of people who have built lives here and whose communities depend on rational, humane enforcement priorities. I also find Justice Roberts' minimalist instinct compelling \u2014 resolving this on standing grounds alone is the cleanest path that avoids entangling courts in supervising day-to-day executive enforcement decisions, preserves institutional comity, and avoids the broader APA merits questions. The strongest argument for Respondents \u2014 that \u00a7\u00a7 1226(c) and 1231(a) impose mandatory 'shall' obligations that rebut Heckler v. Chaney's presumption \u2014 ultimately fails because even mandatory statutory language cannot transform the Executive's resource-allocation judgments about whom to prioritize among millions of removable individuals into judicially enforceable commands, particularly where the causal link to state injury remains too speculative to satisfy Article III.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "I find myself in substantial agreement with Chief Justice Roberts that the cleanest and most institutionally sound path is to resolve this case on standing grounds, avoiding the broader APA merits questions \u2014 though I would go somewhat further than he does in also addressing Section 1252(f)(1) as an independent bar on the relief granted below. The remarkable unanimity among my colleagues reflects that the standing defect here is genuinely severe: under Lujan, the causal chain requires us to assume that enjoining the guidelines would cause DHS officers to make different individual enforcement decisions about specific removable noncitizens, which is far too speculative given the layers of independent discretionary judgments intervening between the policy and the alleged state fiscal harm. Justice Gorsuch's textualist framing of Section 1252(f)(1) is particularly persuasive \u2014 the plain text of that provision, as we clarified in Garland v. Aleman Gonzalez, broadly bars lower courts from enjoining or restraining the operation of removal provisions against a class of aliens, and the district court's nationwide injunction is precisely what that jurisdictional limitation was designed to prevent. While the strongest argument for the respondents would be that mandatory statutory language in 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) rebuts Heckler v. Chaney's presumption of unreviewability \u2014 as Justice Thomas acknowledges \u2014 that argument fails because even mandatory detention statutes do not eliminate the threshold standing defect or cure the Section 1252(f)(1) jurisdictional bar, and the appropriate remedy for statutory non-compliance is not a sweeping injunction commandeering executive enforcement priorities.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "The conference has reached remarkable unanimity, and reviewing my colleagues' arguments reinforces rather than undermines my position. Justice Roberts correctly identifies the minimalist path \u2014 resolving on standing grounds alone \u2014 and while I am sympathetic to that institutional restraint, I believe the Section 1252(f)(1) bar and the Heckler v. Chaney unreviewability question deserve equal emphasis because they provide independent, textually grounded bases for reversal that will give clearer guidance to lower courts. Justice Thomas raises the important point that \u00a7\u00a7 1226(c) and 1231(a) impose genuine statutory obligations that could theoretically rebut Heckler's presumption, but even accepting that these provisions create mandatory duties, the proper remedy cannot be a nationwide injunction commandeering executive enforcement machinery \u2014 the states' standing defect and \u00a7 1252(f)(1)'s jurisdictional bar foreclose that relief regardless of the merits. The strongest argument for the respondents \u2014 that the mandatory 'shall' language in the INA's detention provisions overcomes Heckler \u2014 ultimately fails because it conflates Congress's authority to mandate removal eligibility with a judicially enforceable obligation to prioritize specific individuals for arrest, which would require courts to supervise day-to-day prosecutorial resource allocation in ways Article III's case-or-controversy requirement and the Take Care Clause's structural assignment of enforcement to the Executive simply do not permit.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in strong agreement with Chief Justice Roberts that the cleanest and most institutionally sound path is to resolve this case on standing grounds alone, avoiding the broader APA merits questions. The causal chain Texas and Louisiana must establish under Lujan is simply too attenuated \u2014 they must show that enjoining the Mayorkas Guidelines would actually cause DHS to detain and remove specific individuals whose presence generates state costs, but that chain requires numerous independent discretionary judgments by federal officers that break the traceability requirement. Justice Kagan's point about Section 1252(f)(1) reinforces my view that even if we somehow found standing, the nationwide injunctive relief granted below is independently barred by that provision as clarified in Garland v. Aleman Gonzalez. I would add that the separation of powers concern here is profound \u2014 permitting states to use APA litigation to commandeer federal enforcement priorities would create an unworkable precedent where every administration's enforcement discretion becomes subject to judicial override at the behest of whichever coalition of states prefers a different policy, fundamentally undermining the Executive's core constitutional responsibility under the Take Care Clause.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "I find myself in substantial agreement with Chief Justice Roberts that the cleanest and most institutionally sound path is to resolve this case on standing grounds, avoiding the broader APA merits questions. The causal chain Texas and Louisiana must establish under Lujan is genuinely broken: states have always borne costs associated with undocumented populations, and the connection between a federal enforcement prioritization memorandum and specific state expenditures requires too many independent intervening decisions by third parties \u2014 individual noncitizens' choices, DHS officers' individual enforcement decisions, and state agencies' spending determinations \u2014 to satisfy the traceability and redressability prongs. Justice Thomas raises the important point that \u00a7\u00a7 1226(c) and 1231(a) impose genuine statutory obligations that might rebut Heckler v. Chaney's presumption, but even if those provisions create mandatory duties, the states still cannot clear the Article III threshold because enjoining the guidelines would not necessarily cause DHS to detain the specific individuals whose presence generates the alleged state costs. Section 1252(f)(1) provides an independent and textually compelling basis to reverse the Fifth Circuit's injunction, and I would rest the decision on standing and \u00a7 1252(f)(1) without reaching the harder Heckler v. Chaney questions about whether internal enforcement prioritization guidelines constitute reviewable agency action under the APA.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.88,
+        "reasoning": "I find myself in strong agreement with Justice Sotomayor's emphasis on the real-world stakes for vulnerable immigrant communities, and with Justice Roberts' minimalist instinct to resolve this on standing grounds alone \u2014 though I would go further than Roberts in also addressing Section 1252(f)(1) and Heckler v. Chaney to provide clearer guidance. The remarkable unanimity among my colleagues across very different judicial philosophies \u2014 from Justice Thomas's originalism to Justice Sotomayor's pragmatism \u2014 reinforces that the standing defect here is genuine and not merely a convenient off-ramp: the causal chain from DHS prioritization guidelines to state expenditures runs through the independent choices of millions of individuals and thousands of individual enforcement decisions, which is precisely the kind of attenuated traceability Lujan condemned. Justice Gorsuch's textualist point about Section 1252(f)(1) is particularly well-taken \u2014 the plain text of that provision, as clarified in Garland v. Aleman Gonzalez, independently forecloses the sweeping nationwide injunction the Fifth Circuit affirmed, and this statutory bar deserves prominent treatment in any opinion. My background as a public defender compels me to emphasize, as Justice Sotomayor does, that allowing states to use APA litigation to conscript federal enforcement machinery into their preferred immigration regime would devastate communities and fundamentally invert the constitutional design by making the Executive Branch answerable to whichever state attorneys general can manufacture standing.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas and Louisiana lack sufficient Article III standing under Lujan v. Defenders of Wildlife because the causal chain between DHS enforcement prioritization guidelines and the states' alleged financial injuries is too attenuated and speculative \u2014 the states cannot demonstrate that enjoining the guidelines would redress their claimed harms, as the federal government retains broad discretion over individual enforcement decisions regardless of any court order. Furthermore, Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez substantially limits the lower courts' authority to issue the sweeping injunctive relief granted here, which effectively commandeers executive enforcement machinery. While Heckler v. Chaney's presumption of unreviewability may not be absolute \u2014 and the research materials correctly note it can be rebutted where substantive statutes provide guidelines \u2014 the narrow, minimalist path here is to resolve this case on standing grounds alone, avoiding the broader APA merits questions and preserving institutional comity between the judiciary and the executive on core prosecutorial discretion matters. This approach respects precedent, avoids an unnecessarily broad ruling, and protects the Court's institutional legitimacy by declining to entangle federal courts in supervising day-to-day immigration enforcement priorities.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As an originalist, I am deeply skeptical that Texas and Louisiana have established the concrete, particularized injury required by Article III standing as articulated in Lujan v. Defenders of Wildlife \u2014 generalized fiscal costs from federal non-enforcement do not constitute the direct, traceable injury the Constitution demands, and states cannot commandeer the Executive's prosecutorial discretion through judicial action. The Take Care Clause vests enforcement authority in the Executive Branch, and the original public meaning of Article III's case-or-controversy requirement forecloses federal courts from supervising how the Executive prioritizes law enforcement resources. Furthermore, Section 1252(f)(1) of the INA plainly bars the class-wide injunctive relief the lower court granted, as confirmed by Garland v. Aleman Gonzalez. While I acknowledge that Heckler v. Chaney's presumption of unreviewability may be rebutted where Congress has provided specific statutory mandates \u2014 and 8 U.S.C. \u00a7\u00a7 1226(c) and 1231(a) do impose genuine obligations \u2014 the proper remedy is not a nationwide vacatur or injunction of internal enforcement guidelines, which exceeds what the APA and Article III permit, and I would reverse the Fifth Circuit on standing and remedial grounds while leaving open narrower statutory challenges.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "While I am sympathetic to the states' concerns about federal immigration enforcement abdication, the standing question presents serious constitutional obstacles under Lujan v. Defenders of Wildlife \u2014 the states' alleged financial injuries from increased expenditures on undocumented immigrants are too attenuated and not fairly traceable to the specific enforcement guidelines challenged. Furthermore, Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez substantially limits the lower courts' authority to issue the broad injunctive relief granted here, and Heckler v. Chaney's presumption of unreviewability for enforcement discretion decisions, while not absolute, applies with considerable force to internal prioritization guidelines that do not rise to the level of substantive rulemaking requiring notice-and-comment procedures. The Executive's core Article II authority over prosecutorial and enforcement discretion, particularly in the immigration context where Congress has vested broad authority in DHS under 6 U.S.C. \u00a7 202(5), counsels against judicial override of these internal agency guidelines even where the policy choices may be unwise.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana lack Article III standing because the financial injuries they allege \u2014 increased expenditures on education, healthcare, and law enforcement attributable to the federal government's enforcement prioritization \u2014 are not fairly traceable to the DHS guidelines in the manner required by Lujan v. Defenders of Wildlife; states have no legally cognizable interest in compelling the Executive Branch to arrest or remove specific individuals, and the causal chain between enforcement priorities and state expenditures is too attenuated and dependent on the independent choices of third parties. Even if standing were established, Heckler v. Chaney's presumption of unreviewability for agency enforcement discretion applies here because the Mayorkas Guidelines, whatever their label, fundamentally reflect prosecutorial judgment about how to allocate finite enforcement resources among millions of removable individuals \u2014 a core executive function that courts are institutionally ill-equipped to second-guess. Furthermore, Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez bars the broad injunctive relief the lower courts granted, and the APA's authorization of vacatur cannot be stretched to override the Executive's inherent discretion in deciding whom to prioritize for removal, particularly where Congress has not provided a clear legal standard against which to measure the agency's inaction. I write separately to emphasize that while I vote for the federal government, the real-world stakes for millions of immigrants and their families \u2014 who benefit from rational, humane enforcement priorities \u2014 reinforce why courts must resist becoming instruments for states to weaponize judicial review against vulnerable populations.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Texas and Louisiana lack Article III standing because the causal chain between DHS enforcement priorities and states' alleged financial injuries is too attenuated and speculative under Lujan v. Defenders of Wildlife \u2014 the states cannot demonstrate that enjoining the guidelines would actually cause DHS to detain and remove the specific individuals whose presence allegedly generates state costs, since enforcement decisions involve numerous independent discretionary judgments by federal officers. Even if standing were established, Section 1252(f)(1) as interpreted in Garland v. Aleman Gonzalez broadly bars lower courts from enjoining or restraining the operation of immigration removal provisions against a class of individuals, which is precisely what the district court's nationwide injunction accomplished. Furthermore, while Heckler v. Chaney's presumption of unreviewability may not categorically shield a written enforcement memorandum from all APA scrutiny, the core allocation of prosecutorial resources among categories of removable noncitizens remains committed to executive discretion, and the APA's \u00a7 706 review cannot be weaponized to compel affirmative enforcement actions that Congress left to DHS's judgment under the INA's broad delegation of enforcement authority.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "As a textualist, I must begin with the plain meaning of Article III's standing requirements under Lujan v. Defenders of Wildlife \u2014 Texas and Louisiana have not demonstrated a sufficiently concrete, particularized, and traceable injury from the federal government's enforcement prioritization; the financial costs they allege from undocumented immigrants are too attenuated and not fairly traceable to the specific memorandum rather than to the underlying immigration statutes themselves. More fundamentally, Heckler v. Chaney establishes a strong presumption that enforcement discretion decisions are committed to agency discretion by law under 5 U.S.C. \u00a7 701(a)(2), and while that presumption can be rebutted when a substantive statute provides specific guidelines, the core decision of how to allocate finite enforcement resources among a vast population of removable aliens reflects exactly the kind of executive judgment the Founders vested in the President. Section 1252(f)(1) of the INA further bars lower federal courts from enjoining or restraining the operation of the statutory removal provisions as applied to a class of aliens, and the district court's nationwide injunction runs directly afoul of this jurisdictional limitation as clarified in Garland v. Aleman Gonzalez. Permitting states to commandeer federal enforcement priorities through APA litigation would fundamentally distort the separation of powers by allowing judicial and state actors to override the Executive's core constitutional responsibility to 'take Care that the Laws be faithfully executed' \u2014 a phrase that necessarily implies some prosecutorial discretion in execution.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas and Louisiana lack Article III standing under Lujan v. Defenders of Wildlife because the alleged financial injuries from increased state expenditures on undocumented immigrants are too attenuated and speculative\u2014they depend on independent decisions by third parties, not directly on the DHS enforcement guidelines themselves. Even if standing were established, Heckler v. Chaney's strong presumption of unreviewability for agency enforcement discretion applies here, as the DHS prioritization guidelines represent quintessential executive judgment about how to allocate finite enforcement resources among a large population of removable aliens, and the INA does not provide sufficiently specific statutory guidelines that would overcome that presumption. Furthermore, Section 1252(f)(1) independently bars the nationwide injunctive relief granted by the Fifth Circuit, as Garland v. Aleman Gonzalez confirms that provision broadly restricts lower courts from enjoining or restraining operation of the immigration removal statutes. Permitting states to use the APA to commandeer federal enforcement priorities would fundamentally disrupt the separation of powers and create an unworkable precedent where every shift in executive enforcement policy becomes subject to judicial override at the behest of whichever states prefer more aggressive enforcement.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas and Louisiana fail to establish Article III standing under Lujan v. Defenders of Wildlife because the alleged financial injuries from increased state expenditures are not fairly traceable to the DHS enforcement prioritization memorandum \u2014 states have always borne costs associated with undocumented populations regardless of federal enforcement priorities, and the causal chain requires too many independent intervening decisions by third parties. Even setting aside standing, Heckler v. Chaney's presumption of unreviewability for agency enforcement discretion applies here with full force: the DHS memorandum is quintessentially an exercise of prosecutorial discretion about how to allocate finite enforcement resources among a population Congress has made removable, and while the research materials note this presumption does not apply to rules under 5 U.S.C. \u00a7 551(4), an internal enforcement prioritization memorandum does not constitute a legislative rule subject to notice-and-comment requirements. Furthermore, 8 U.S.C. \u00a7 1252(f)(1) independently bars the class-wide injunctive relief the lower court issued, as Garland v. Aleman Gonzalez confirms that provision broadly prohibits courts from enjoining or restraining the operation of removal provisions against categories of noncitizens, and the Executive's core Article II authority over enforcement discretion counsels against judicial override of resource-allocation judgments that are textually and structurally committed to the political branches.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Texas and Louisiana lack sufficient Article III standing under Lujan v. Defenders of Wildlife because the alleged financial injuries from increased state expenditures are too attenuated and speculative \u2014 they depend on the independent decisions of third parties (undocumented immigrants) and cannot be fairly traced to the DHS enforcement prioritization guidelines themselves. Even if standing were established, the core principle from Heckler v. Chaney (1985) protects the Executive Branch's prosecutorial discretion from judicial override, and while that presumption can be rebutted where a substantive statute provides mandatory enforcement guidelines, the DHS memorandum here represents a general prioritization policy rather than a categorical abdication of statutory duty that would trigger reviewability. Furthermore, Section 1252(f)(1) of the INA, as interpreted in Garland v. Aleman Gonzalez, broadly bars lower federal courts from enjoining or restraining the operation of immigration enforcement provisions, which forecloses the sweeping nationwide injunctive relief granted below. My background as a public defender reinforces my concern that allowing states to weaponize the APA to compel federal immigration arrests would have devastating practical consequences for vulnerable individuals and would fundamentally distort the separation of powers by conscripting the Executive into state-preferred enforcement regimes.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.874,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.88,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

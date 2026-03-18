@@ -1,0 +1,658 @@
+[
+  {
+    "docket": "23-146",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether corporate-owned life-insurance proceeds earmarked to redeem a deceased shareholder\u2019s stock must be treated as a corporate asset when valuing that shareholder\u2019s shares for federal estate-tax purposes.",
+      "legal_provision": "26 U.S.C. \u00a7 2031 (valuation of the gross estate at fair market value), implemented through Treasury Regulations applying the willing-buyer/willing-seller fair-market-value standard (e.g., Treas. Reg. \u00a7 20.2031-1).",
+      "petitioner_position": "Petitioner argues that when a closely held corporation buys life insurance solely to fund a mandatory stock redemption at death, the insurance proceeds should not increase the decedent\u2019s stock value for estate-tax valuation because the proceeds are effectively offset by the corporation\u2019s corresponding obligation to redeem the stock (a liability that a willing buyer would price in). In petitioner\u2019s view, counting the proceeds as a net asset overstates corporate value and produces an economic mismatch: the insurance money is not available to enhance ongoing corporate value for shareholders because it is spoken for by the redemption arrangement. Petitioner further emphasizes that the willing-buyer/willing-seller test requires accounting for legal and practical constraints on value, so a hypothetical buyer would treat the proceeds as encumbered rather than as freely distributable value.",
+      "respondent_position": "The United States argues that the life-insurance proceeds are a real corporate asset at the moment of death and therefore must be included in valuing the corporation and, derivatively, the decedent\u2019s shares under the willing-buyer/willing-seller fair-market-value test. In the government\u2019s view, the redemption obligation does not negate that the corporation has received additional value (cash) and the estate\u2019s shares are worth more because the corporation is worth more; any redemption payment is a separate transaction, and the estate-tax valuation looks to the fair market value of the stock at death, not to post-death cashflows or how the corporation will use the asset. The government also stresses procedural/record points reflected in the lower-court litigation: the parties framed the dispute as binary (corporate value with vs. without insurance), and petitioner did not preserve alternative valuation theories (like control premiums/marketability adjustments) beyond the inclusion question.",
+      "key_precedents": [
+        "United States v. Cartwright, 411 U.S. 546 (1973)"
+      ],
+      "legal_complexity": "Moderate"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch and Justice Sotomayor make the most forceful point that a willing buyer would discount for a binding, death-triggered redemption obligation, and in an ordinary FMV analysis that legal constraint may matter. But as Justice Kagan emphasizes, Treas. Reg. \u00a7 20.2031-2(f)(2) affirmatively directs that corporate-owned life-insurance proceeds be considered among the company\u2019s assets in valuing closely held shares, which is difficult to reconcile with a categorical dollar-for-dollar \u201cnetting\u201d rule that treats the proceeds as if they do not exist at death. Cartwright and Reg. \u00a7 20.2031-1(b) anchor the inquiry to an objective valuation of what the decedent owned at the valuation date; any reduction should occur only through a properly proven, legally cognizable liability under standard FMV principles, not by deeming a concededly realized asset absent based on earmarking. The administrability concern is thus not merely policy\u2014it is tied to preserving a uniform at-death valuation regime and avoiding an easily drafted exception that would destabilize \u00a7 2031\u2019s framework.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Gorsuch\u2019s core point\u2014that a willing buyer would price in a binding redemption duty\u2014has force under \u00a7 2031\u2019s fair-market-value inquiry, but it does not justify treating corporate-owned insurance proceeds as if they are not an asset the corporation indisputably possesses at death. As Chief Justice Roberts emphasizes, adopting an \u201cearmarking\u201d theory would replace the regulation\u2019s at-death valuation of what the decedent owned with a manipulable, fact-bound netting regime untethered to the text and administrability aims of Treas. Reg. \u00a7 20.2031-1(b). Justice Kagan\u2019s reliance on Treas. Reg. \u00a7 20.2031-2(f)(2) is especially telling for a textualist: it affirmatively directs that such nonoperating assets (including insurance proceeds payable to the corporation) be considered in valuing closely held stock, which forecloses a categorical dollar-for-dollar exclusion. Any downward adjustment must occur, if at all, through the ordinary FMV treatment of demonstrated liabilities\u2014not by deeming a concededly owned asset to vanish at the valuation moment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Gorsuch\u2019s and Justice Sotomayor\u2019s strongest point is that a willing buyer would discount for a legally enforceable redemption duty, but that does not justify treating corporate-owned insurance proceeds as if they are not an asset at death. Section 2031 and Treas. Reg. \u00a7 20.2031-1(b) require an at-death valuation of what the decedent\u2019s stock interest is worth given what the corporation then owns, and\u2014as Justice Kagan notes\u2014Treas. Reg. \u00a7 20.2031-2(f)(2) affirmatively directs considering such nonoperating assets in valuing closely held shares. Chief Justice Roberts is right that any redemption obligation can be reflected only through ordinary FMV methodology as a demonstrated liability that actually reduces enterprise value, not through a categorical dollar-for-dollar \u201cnetting\u201d rule that invites manipulation by contractual \u201cearmarking.\u201d Cartwright supports an objective, administrable valuation framework at the valuation date, not a rule that deems a concededly owned asset to vanish because it is contractually destined for later use.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "Chief Justice Roberts\u2019s administrability and \u201cearmarking\u201d manipulation concern is the strongest point for Respondent, and I agree we cannot let artful drafting erase real assets; but his framework still risks treating \u00a7 2031\u2019s willing-buyer/willing-seller test as a balance-sheet formalism that assumes the corporation can retain and deploy proceeds it is legally compelled to pay out. Justice Kagan\u2019s reliance on Treas. Reg. \u00a7 20.2031-2(f)(2) is important, yet that provision speaks to corporate \u201cnet worth,\u201d and a mandatory, non-discretionary redemption obligation triggered at death can prevent those proceeds from increasing net worth in any way a real buyer could realize\u2014so an objective valuation should incorporate that binding constraint rather than pretending the proceeds are free-and-clear. Justice Thomas\u2019s invocation of Cartwright does not move me because objectivity in FMV means pricing known, enforceable legal obligations, not ignoring them; otherwise we predictably overvalue closely held stock and impose tax on value that surviving family shareholders cannot access. A narrow rule that permits offset only for truly binding, contemporaneous obligations (and rejects discretionary or manipulable arrangements) addresses Roberts\u2019s concern while keeping valuation tethered to real-world economic consequences.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Gorsuch and Justice Sotomayor make the best point: a willing buyer would price a binding, death-triggered redemption duty and therefore discount the shares for an offsetting obligation. But that insight operates within, not against, the valuation rules\u2014\u00a7 2031 and Treas. Reg. \u00a7 20.2031-1(b) require valuing the stock at death, and Treas. Reg. \u00a7 20.2031-2(f)(2) affirmatively instructs that corporate-owned life-insurance proceeds be considered in valuing closely held shares, which is hard to reconcile with a categorical rule that the proceeds \u201cdisappear\u201d whenever contractually earmarked. As Chief Justice Roberts emphasizes with Cartwright, the willing-buyer/willing-seller test is objective and administrable: it can reflect a proven, legally cognizable liability that depresses enterprise value, but it does not authorize excluding an asset the corporation indisputably owns at death simply because it will be used in a post-death transaction. A narrow respondent-side approach\u2014include the proceeds as an asset while permitting case-specific reductions for genuine balance-sheet liabilities\u2014best fits the text and avoids the manipulation risk Roberts and Justice Thomas identify.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Chief Justice Roberts\u2019s administrability concern is substantial, but it cannot displace the text of \u00a7 2031 and Treas. Reg. \u00a7 20.2031-1(b), which define FMV by what a willing buyer would pay with knowledge of all legally enforceable constraints as of death. Justice Kagan\u2019s reliance on Reg. \u00a7 20.2031-2(f)(2) (nonoperating assets, including insurance proceeds) is best read as preventing exclusion of proceeds as a mere accounting happenstance; it does not require valuing the shares as if the proceeds increase corporate net worth when an unavoidable, contemporaneous redemption obligation prevents any buyer from realizing that \u201casset\u201d as residual value. Justice Thomas and Justice Alito are right that the corporation owns an enforceable right to payment at death, but FMV is not a balance-sheet exercise: where the same death event simultaneously triggers a mandatory, dollar-for-dollar payout that strips the corporation of those proceeds, a willing buyer would not pay as though the proceeds were freely deployable. I would adopt a narrow rule keyed to binding, non-discretionary obligations that are legally enforceable at death, which addresses the manipulation worry while remaining faithful to the regulations\u2019 FMV standard and Cartwright\u2019s insistence on valuation in the real world.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Gorsuch and Justice Sotomayor fairly press that a willing buyer would price a binding redemption obligation and therefore discount the shares, but that point operates\u2014if at all\u2014through ordinary FMV recognition of legally cognizable liabilities, not by deeming an undeniably owned corporate asset to \u201cvanish\u201d at death. Chief Justice Roberts is right that \u00a7 2031 and Treas. Reg. \u00a7 20.2031-1(b) anchor valuation objectively at the moment of death, and Justice Kagan persuasively adds that Treas. Reg. \u00a7 20.2031-2(f)(2) specifically directs consideration of corporate-owned life-insurance proceeds in valuing closely held stock\u2019s net worth. The petitioner\u2019s categorical netting rule would be difficult to square with that regulatory instruction and would invite the administrability/manipulation problems Roberts and Justice Thomas identify, because \u201cearmarking\u201d would become an easy drafting tool to suppress value without a true enterprise-level liability. I therefore remain with Respondent while leaving room for case-specific proof that the redemption duty is a genuine balance-sheet liability that reduces FMV under standard valuation methods.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch and Justice Sotomayor rightly stress that a willing buyer would price in a binding redemption obligation, but under \u00a7 2031 and Treas. Reg. \u00a7 20.2031-1(b) the valuation remains anchored to the stock\u2019s fair market value at death, including the corporation\u2019s assets then owned. As Justice Kagan notes, Treas. Reg. \u00a7 20.2031-2(f)(2) expressly directs consideration of nonoperating assets like corporate-owned life-insurance proceeds in valuing closely held shares, which is difficult to reconcile with a categorical rule that the proceeds effectively \u201cvanish\u201d whenever they are earmarked for redemption. The willing-buyer/willing-seller test (Cartwright) can incorporate proven, legally cognizable liabilities that actually reduce enterprise value, but that is a case-specific showing within ordinary FMV methodology\u2014not a dollar-for-dollar exclusion of an admitted asset. Chief Justice Roberts\u2019s administrability concern reinforces that petitioner\u2019s netting rule would invite easy \u201cearmarking\u201d structures and destabilize the regulation\u2019s at-death valuation framework.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "Chief Justice Roberts\u2019s administrability point and Justice Kagan\u2019s reliance on Treas. Reg. \u00a7 20.2031-2(f)(2) are the most serious obstacles, but they do not justify valuing the shares as though the insurance proceeds are freely usable when a binding, death-triggered redemption obligation makes those dollars economically unavailable to any willing buyer at the valuation moment. Read pragmatically, \u00a7 20.2031-2(f)(2)\u2019s instruction to \u201cconsider\u201d proceeds in assessing net worth does not compel treating them as an unencumbered windfall; a contemporaneous, legally enforceable obligation that matches the proceeds should be treated as an offsetting liability that prevents any net-worth increase a real buyer could capture. Cartwright\u2019s objectivity, as Justice Thomas frames it, cuts in my direction too: the objective willing-buyer/willing-seller test assumes knowledge of governing legal constraints, and ignoring an unavoidable payout obligation risks systematic overvaluation and unfair estate-tax burdens on closely held businesses. I remain open to an anti-manipulation limiting principle\u2014offset only for truly mandatory, non-discretionary obligations fixed at death\u2014but I do not think the regulations require the government\u2019s asset-only snapshot.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1(b) require valuing the decedent\u2019s shares at the moment of death under the willing-buyer/willing-seller test, and at that moment corporate-owned life-insurance proceeds are a real, realized corporate asset that increases the corporation\u2019s net worth and thus share value. The corporation\u2019s redemption obligation does not automatically net out the proceeds for \u00a7 2031 purposes because the valuation inquiry focuses on the fair market value of the stock itself, not on characterizing the corporation\u2019s post-death use of cash or treating a redemption arrangement as a value-reducing \u201cliability\u201d in all cases. This approach hews to the longstanding, administrable fair-market-value rule reaffirmed in United States v. Cartwright, and it avoids creating a fact-intensive exception that would invite manipulation and undermine uniform estate-tax valuation. A narrow ruling for the government\u2014limited to inclusion of proceeds as an asset at death under the regulations\u2014best fits precedent and preserves institutional legitimacy by applying the established valuation framework.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Section 2031 requires valuation of the gross estate at the property\u2019s \u201cfair market value\u201d at the time of death, and Treasury Regulation \u00a7 20.2031-1(b) defines that value under the willing-buyer/willing-seller test. At that moment, the corporation indisputably owns the life-insurance proceeds, which are a real asset that increases the corporation\u2019s value and thus the value of its shares; the redemption obligation is a separate contractual arrangement and does not erase the existence of the asset for \u00a7 2031 valuation purposes. Cartwright confirms that the willing-buyer/willing-seller inquiry accounts for legal limitations on the property being valued, but it does not authorize excluding an asset the corporation owns simply because management plans (or is obligated) to use it in a subsequent transaction. On the text and the regulation\u2019s valuation-at-death command, the proceeds must be treated as a corporate asset in determining fair market value.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1 require valuation of the decedent\u2019s shares at their fair market value \u201cat the time of the decedent\u2019s death,\u201d applying the willing-buyer/willing-seller standard to the property then held\u2014here, stock in a corporation that, at that moment, has received life-insurance proceeds as a real asset. Under that textual framework, the proceeds are part of the corporation\u2019s balance-sheet value at death and therefore properly included in valuing the shares, and the redemption arrangement is best treated as a separate post-death corporate transaction rather than a basis for ignoring an asset that indisputably exists at the valuation date. Cartwright confirms that legal restrictions affecting the property\u2019s market value must be considered, but it does not justify excluding an actual corporate asset from the valuation of stock where the estate is valuing the stock itself rather than a contractual redemption claim. As a practical matter, adopting petitioner\u2019s rule risks understating estate-tax value through easy-to-structure \u201cearmarking\u201d arrangements that would allow closely held corporations to remove genuine assets from the valuation base at death.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1 require a willing-buyer/willing-seller fair-market-value inquiry that accounts for real-world legal constraints on what a buyer would actually receive, and Treas. Reg. \u00a7 20.2031-2(f)(2) contemplates including life-insurance proceeds only to the extent they increase net worth rather than being offset by obligations. Where the corporation is legally bound to use the proceeds to redeem the decedent\u2019s shares, those proceeds function as an encumbered, dollar-for-dollar offset to the redemption liability, so treating them as a free corporate asset overstates value and burdens estates without any corresponding economic benefit to remaining shareholders. Consistent with Cartwright\u2019s fair-market-value framework, courts have excluded such proceeds when they are effectively matched by an obligation to pay them out, because a hypothetical buyer would price the proceeds and the offsetting liability together rather than as a net windfall. This pragmatic approach better fits \u00a7 2031\u2019s fair-value purpose and avoids an inequitable valuation fiction that can fall hardest on closely held businesses and families.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1 require valuing the stock at the moment of death under the willing-buyer/willing-seller standard, and Treas. Reg. \u00a7 20.2031-2(f)(2) specifically instructs that corporate \"nonoperating assets\" like life-insurance proceeds payable to the company are considered in valuing closely held stock. A redemption agreement may affect value only if it creates a genuine, legally enforceable liability that a buyer would net against assets at death; but treating the proceeds as categorically excluded would conflict with the regulation\u2019s instruction to consider them as part of corporate net worth. United States v. Cartwright reinforces that fair market value is an objective, administrable standard focused on the property\u2019s value at death, not on post-death use of corporate assets, and supports a workable rule that counts realized corporate assets absent a clearly netting, balance-sheet liability. On this record and the parties\u2019 binary framing, the proceeds are properly treated as a corporate asset in valuing the decedent\u2019s shares for estate-tax purposes.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2031 requires valuing the decedent\u2019s property at its \u201cfair market value\u201d at death, and the implementing regulation applies the willing-buyer/willing-seller test that necessarily incorporates known legal and practical constraints on value. Under United States v. Cartwright, 411 U.S. 546 (1973), fair market value is not a stylized asset tally but the price a knowledgeable buyer would pay given the property\u2019s real-world limitations; here, a mandatory redemption obligation is an enforceable liability that a rational buyer would net against the insurance proceeds that are contractually earmarked to satisfy it. Treating the proceeds as a free-and-clear corporate asset, without recognizing the offsetting obligation that springs into effect at the same valuation moment, overstates the corporation\u2019s net value and departs from the plain meaning of \u201cfair market value\u201d under \u00a7 2031. Because the statute and regulations speak in terms of value to a hypothetical buyer at death, not gross receipts unadjusted for binding liabilities, the proceeds should not increase share value to the extent they are matched by the redemption duty.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1(b) direct valuation at fair market value at the moment of death under the willing-buyer/willing-seller standard, and that standard generally treats corporate-owned life-insurance proceeds as part of the corporation\u2019s assets at that time. Under United States v. Cartwright, 411 U.S. 546 (1973), the Court applies a straightforward fair-market-value test rather than recharacterizing valuation based on the taxpayer\u2019s post-death uses of assets, and the redemption arrangement does not change the fact that the corporation has received cash that increases enterprise value. Any purported offset from a redemption obligation is, at most, a separate contractual feature whose valuation effects would need to be proven and preserved under the FMV framework; on this record and framing, the proceeds are properly included as a corporate asset in valuing the shares. That approach is more administrable and consistent with precedent and the regulations\u2019 focus on objective FMV at death rather than transaction-specific earmarking.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Section 2031 directs valuation of the gross estate at the fair market value of the property at the decedent\u2019s death, and the Treasury Regulations\u2019 willing-buyer/willing-seller standard requires taking the corporation as it exists at that moment, including its assets. At death, the corporation\u2019s contractual right to receive the life-insurance proceeds has matured into cash (or an enforceable claim to cash), which is a corporate asset that a hypothetical buyer would account for in valuing the enterprise and thus the decedent\u2019s shares. While the buy-sell arrangement creates an obligation to redeem, treating that obligation as a dollar-for-dollar offset would effectively recharacterize \u00a7 2031\u2019s asset-based valuation into a post-death cashflow/netting inquiry not grounded in the statutory text or the fair-market-value framework as articulated in United States v. Cartwright. Absent a preserved, valuation-grounded showing that the redemption obligation operates as a true liability reducing enterprise value under the willing-buyer/willing-seller test, the proceeds must be included as part of corporate value at the valuation date.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2031 and Treas. Reg. \u00a7 20.2031-1 require valuing the decedent\u2019s shares at fair market value under the willing-buyer/willing-seller test, which assumes knowledge of all relevant facts and prices in legal and practical constraints at the moment of death. Under United States v. Cartwright, 411 U.S. 546 (1973), that hypothetical valuation must account for restrictions and limitations that affect what the buyer is actually acquiring; here, the corporation\u2019s receipt of insurance proceeds is effectively encumbered by a mandatory redemption obligation that a rational buyer would treat as an offsetting liability rather than as freely distributable value. Treating the earmarked proceeds as a gross asset without recognizing the corresponding redemption duty risks overstating the share value in a way that is economically unrealistic and inconsistent with the net-value focus inherent in fair-market-value valuation. On this record, the better application of \u00a7 2031 is to value the shares by considering both the insurance proceeds and the binding redemption obligation that contemporaneously limits their effect on corporate value.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.722,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "23-146",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether corporate-owned life-insurance proceeds earmarked to fund a mandatory redemption of a deceased shareholder\u2019s stock must be treated as a corporate asset when valuing the decedent\u2019s shares for federal estate-tax purposes.",
+      "legal_provision": "26 U.S.C. \u00a7 2031 (valuation of the gross estate at fair market value) (applied through the fair-market-value/willing-buyer-willing-seller standard reflected in Treasury regulations under \u00a7 2031).",
+      "petitioner_position": "The estate argues that although the corporation received life-insurance proceeds upon the shareholder\u2019s death, those proceeds were economically and legally offset by the corporation\u2019s binding obligation to use them to redeem the decedent\u2019s shares; therefore, a hypothetical willing buyer of the corporation (or of the decedent\u2019s block) would not treat the insurance as increasing the company\u2019s net value, because the proceeds are not a \u201cnet asset\u201d available for corporate purposes but instead are effectively encumbered by an equal redemption liability. Counting the proceeds as an added corporate asset, petitioner contends, double-counts the same value (the redemption funded by the insurance) and inflates estate-tax valuation beyond what a real market participant would pay.",
+      "respondent_position": "The United States argues that the life-insurance proceeds are an asset of the corporation at the valuation moment and must be included in determining the company\u2019s fair market value under the willing-buyer/willing-seller test. The government contends the redemption obligation does not offset the asset for valuation because the obligation is to exchange cash (the proceeds) for the corporation\u2019s own shares (a redemption), which does not reduce enterprise value in the same way as a third-party debt; rather, it is a rearrangement of the corporation\u2019s equity. Accordingly, including the proceeds properly reflects what an informed hypothetical buyer would pay for the company (or for the shares), and the Eighth Circuit correctly valued the corporation higher when the proceeds are included.",
+      "key_precedents": [
+        "United States v. Cartwright, 411 U.S. 546 (1973)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s \u201cdouble-counting/earmarking\u201d argument is the strongest pushback because Cartwright assumes a fully informed buyer who would know the proceeds are contractually committed to fund a redemption. But as Justice Kavanaugh explains, that commitment is not a third-party debt that reduces corporate net worth dollar-for-dollar at the valuation moment; it is an internal equity exchange (cash for the corporation\u2019s own shares) that reallocates ownership and share count, and \u00a7 2031 with Treas. Reg. \u00a7 20.2031-2(f) directs us to start from the corporation\u2019s assets as they exist at death, including nonoperating assets like the proceeds. Justice Gorsuch\u2019s invocation of Rev. Rul. 59-60 underscores fact sensitivity, but it cannot override the statute/regulation or justify an administratively unstable rule that lets shareholder agreements \u201cnet out\u201d real assets through drafting. On narrow, legitimacy-preserving grounds, I would hold only that the proceeds are includable as corporate assets for FMV and that a redemption obligation, without a true external liability, is not treated as an offsetting liability in valuing the decedent\u2019s shares.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s \u201cdouble-counting/earmarking\u201d argument presses the willing-buyer/willing-seller test from Cartwright, but it still assumes we may treat an obligation to redeem equity as if it were an external liability that subtracts from corporate net worth at death. The text and structure of \u00a7 2031 and Treas. Reg. \u00a7 20.2031-2(f) direct us to value the shares by reference to the corporation\u2019s assets as they exist at the valuation moment, and the insurance proceeds are unambiguously corporate property then; a mandatory redemption is an internal exchange of cash for the corporation\u2019s own stock that reallocates ownership rather than creating third-party debt. As Chief Justice Roberts and Justice Kavanaugh emphasize, a rule netting redemption obligations dollar-for-dollar would collapse the liability/equity distinction and invite manipulation through drafting, a result the objective FMV inquiry does not require. Rev. Rul. 59-60, raised by Justice Gorsuch, may be a practical valuation guide, but it cannot override the statute/regulation or authorize recharacterizing a corporate asset as economically nonexistent because shareholders agreed on its use.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s \u201cearmarking/double-counting\u201d point is the toughest under Cartwright because a willing buyer is assumed to know the redemption will promptly move the cash out. But that argument smuggles in a liability concept where the law recognizes an equity exchange: Treas. Reg. \u00a7 20.2031-2(f) and \u00a7 2031 start from what the corporation owns at death, and the insurance proceeds are plainly corporate property then; a contractual duty to redeem shares does not become third-party debt that erases an owned asset dollar-for-dollar. As Chief Justice Roberts and Justice Kavanaugh stress, letting shareholder agreements \u201cnet out\u201d corporate assets via redemption mechanics would be administratively destabilizing and invite drafting games inconsistent with an objective FMV regime. Rev. Rul. 59-60, invoked by Justice Gorsuch, is at most a valuation aid and cannot override the statute/regulation\u2019s asset-focused framework or collapse equity transactions into liabilities.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "Chief Justice Roberts and Justice Kavanaugh press the strongest opposing point: at the valuation moment the corporation legally owns the insurance proceeds and a redemption is an equity transaction, so treating it as a dollar-for-dollar \u201cliability\u201d risks collapsing equity into debt and creating administrability/manipulation problems. But under Cartwright\u2019s fully informed willing-buyer/willing-seller test, a contemporaneous, legally enforceable redemption funding mandate is a real market constraint that makes the proceeds economically unavailable to the enterprise, and a rational buyer would discount for that constraint rather than valuing the firm as if the cash were free for business use. Treas. Reg. \u00a7 20.2031-2(f), as Justice Alito invokes it, still points me toward that same realistic valuation because it calls for FMV \u201cin light of all relevant facts,\u201d and its \u201cto the extent \u2026 not been taken into account\u201d language supports avoiding double counting when the proceeds are already effectively spoken for by a binding obligation. I agree with Justice Kagan that the right limiting principle is not a categorical netting rule, but a requirement of proof that the obligation is bona fide, enforceable, and immediate\u2014addressing manipulation without pretending compelled payouts are irrelevant to FMV.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "The strongest opposing point\u2014pressed by Chief Justice Roberts and Justice Kavanaugh\u2014is administrability plus the claim that a redemption is \u201cjust\u201d an equity reallocation, so the corporation\u2019s ownership of the proceeds at death must be fully counted. But \u00a7 2031\u2019s FMV inquiry (as Cartwright frames it) asks what an informed buyer would pay for the shares given binding legal constraints, and a contemporaneous, enforceable redemption obligation makes those proceeds economically unavailable to enhance the enterprise beyond satisfying the compulsory payout; treating them as free corporate value risks precisely the double counting Justice Sotomayor and Justice Gorsuch identify. Treas. Reg. \u00a7 20.2031-2(f)\u2019s net-worth orientation and its \u201cto the extent \u2026 not been taken into account\u201d proviso fit a narrow, administrable rule: net only when the obligation is bona fide, legally binding at death, and specifically fixes the disposition of the proceeds, rather than any discretionary or easily drafted \u201cagreement.\u201d Rev. Rul. 59-60 does not override the regulation, but it supports a realistic valuation methodology that accounts for market-relevant legal encumbrances instead of formal labels like \u201cequity\u201d versus \u201cdebt.\u201d",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "The strongest contrary point, pressed by Chief Justice Roberts and Justice Kavanaugh, is that a redemption is an equity transaction that does not create a third-party \u201cliability,\u201d and that \u00a7 2031 plus Treas. Reg. \u00a7 20.2031-2(f) require valuing corporate assets as they exist at death, including the insurance proceeds. But Cartwright\u2019s willing-buyer/willing-seller test is an objective market inquiry, and a hypothetical buyer would discount cash that is legally and immediately compelled to be paid out; otherwise we risk overstating FMV by treating the same earmarked dollars as both a corporate asset increasing share value and as consideration the corporation must hand over. Justice Alito\u2019s administrability/manipulation concern is serious, yet it can be addressed by insisting the redemption duty be bona fide, enforceable, and not merely a tax-motivated drafting device\u2014rather than adopting a formal rule that ignores binding constraints the market would price. Justice Kagan\u2019s emphasis on the regulation\u2019s \u201cto the extent \u2026 not been taken into account in the determination of net worth\u201d language reinforces my view that our methodology should avoid double counting when the proceeds are already economically spoken for by an enforceable payout obligation.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.79,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s \u201cdouble-counting/earmarking\u201d point is the hardest because Cartwright\u2019s willing-buyer/willing-seller test assumes a buyer knows binding legal constraints, including a mandatory redemption that will quickly move cash out. But I agree with Chief Justice Roberts that \u00a7 2031 and Treas. Reg. \u00a7 20.2031-2(f) direct us to value what the corporation owns at death, and the proceeds are unambiguously corporate property at that moment; treating an agreement to repurchase its own shares as a debt-like liability collapses the equity/liability line and creates a drafting lever to net out assets. Justice Gorsuch\u2019s invocation of Rev. Rul. 59-60 underscores valuation\u2019s fact sensitivity, yet it cannot override the statute/regulation or justify a categorical dollar-for-dollar offset for redemptions; the buyer can account for the redemption through the post-transaction ownership/share-count effects without pretending the asset is economically nonexistent at death. On an institutionalist, administrable approach, the narrower rule\u2014include proceeds as corporate assets and do not automatically net them against an internal redemption obligation absent a true external liability\u2014best preserves predictable valuation and limits manipulation.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s double-counting/earmarking point is the strongest counterargument because Cartwright\u2019s willing-buyer/willing-seller standard assumes full knowledge of binding constraints, and an informed buyer would anticipate the cash will be used promptly in the redemption. But \u00a7 2031 and Treas. Reg. \u00a7 20.2031-2(f), as Justice Alito stresses, direct valuation by reference to what the corporation owns at death, and they do not authorize treating an internal stock redemption commitment as a debt-like liability that erases a concededly owned asset from the balance sheet at the valuation moment. Chief Justice Roberts\u2019s and Justice Kavanaugh\u2019s administrability and manipulation concern is, for me, not merely pragmatic: it tracks the text\u2019s objective FMV inquiry by resisting a rule that would let private shareholder agreements reclassify equity mechanics into dollar-for-dollar offsets against corporate assets. A willing buyer can price the redemption\u2019s effects through share-count/ownership consequences without recharacterizing the proceeds as economically nonexistent at death, so the proceeds remain includable in the corporate asset base for \u00a7 2031 FMV.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Kagan\u2019s double-counting/earmarking argument is the hardest point because Cartwright\u2019s willing-buyer/willing-seller framework does require us to consider binding legal constraints that affect what an informed buyer would pay. But I agree with Chief Justice Roberts and Justice Kavanaugh that a mandatory redemption is not a third-party liability that reduces corporate net worth dollar-for-dollar; it is an internal equity exchange that reallocates value through changes in ownership and share count, while the corporation still indisputably owns the proceeds at the valuation moment under \u00a7 2031 and Treas. Reg. \u00a7 20.2031-2(f). The pragmatic administrability concern they raise is also decisive for me: treating shareholder-drafted redemption provisions as automatic offsets would invite valuation gaming and make FMV determinations unstable, while still leaving room to account for genuinely external obligations on a fact-specific record. Justice Gorsuch\u2019s reliance on Rev. Rul. 59-60 doesn\u2019t alter that conclusion because it is guidance, not law, and it underscores fact sensitivity rather than compelling a categorical netting rule for stock redemptions.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "Section 2031 requires valuing the decedent\u2019s interest at fair market value at death under the objective willing-buyer/willing-seller standard reflected in the Treasury regulations, and that inquiry begins with what assets the corporation in fact owns at the valuation moment. Corporate-owned life-insurance proceeds are indisputably a corporate asset upon receipt, and the corporation\u2019s obligation to redeem its own shares is, in substance, an equity transaction rather than a third-party liability that diminishes enterprise value in the same way debt would. United States v. Cartwright, 411 U.S. 546 (1973), instructs that the hypothetical parties are fully informed and consider relevant legal constraints, but it does not compel treating a mandatory redemption as an offsetting liability that erases an asset from the corporate balance sheet for \u00a7 2031 purposes. On narrow grounds and to maintain administrable, precedent-consistent valuation rules, I would affirm inclusion of the proceeds as a corporate asset in determining fair market value.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Section 2031 requires valuing the gross estate at \u201cfair market value,\u201d and the governing regulations implement that standard through the willing-buyer/willing-seller framework that looks to the corporation\u2019s assets and earning capacity at the valuation date. At that moment, the life-insurance proceeds are plainly an asset of the corporation, and the supposed \u201coffset\u201d is not a third-party liability but an internal equity transaction\u2014an obligation to exchange cash for the corporation\u2019s own shares\u2014which does not diminish enterprise value in the same way as debt. Under the textual fair-market-value inquiry reflected in Treas. Reg. \u00a7 20.2031-2, an informed buyer would account for the corporation\u2019s cash position (including the proceeds) when pricing the stock, notwithstanding a redemption arrangement that merely reallocates ownership. United States v. Cartwright confirms that \u00a7 2031\u2019s valuation turns on the objective willing-buyer/willing-seller standard, not on taxpayer-specific economic characterizations that depart from the asset\u2019s legal status at the valuation moment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Section 2031\u2019s fair-market-value standard, as implemented through the willing-buyer/willing-seller test in the Treasury regulations, requires valuing the corporation\u2019s assets as they exist at the valuation moment, and Treasury Reg. \u00a7 20.2031-2(f) specifically directs that nonoperating assets (including insurance proceeds) be considered in valuing closely held stock. The corporate-owned life-insurance proceeds are indisputably an asset of the corporation upon receipt, and the corporation\u2019s obligation to redeem its own shares is not a third-party liability reducing enterprise value but an equity transaction that reallocates ownership; treating it as an offset would improperly convert a redemption into a deductible \u201cdebt\u201d for valuation purposes. The estate\u2019s approach would invite manipulation of estate-tax values through shareholder agreements that effectively remove real corporate assets from the valuation base notwithstanding their availability to the enterprise at the critical time. Consistent with United States v. Cartwright\u2019s insistence on objective fair-market valuation rather than party-specific arrangements, the proceeds must be included in corporate value under \u00a7 2031.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2031 and its regulations require valuing the decedent\u2019s shares at fair market value under a willing-buyer/willing-seller standard that assumes knowledge of all relevant facts, including binding legal obligations that constrain the property\u2019s economic value. Where the corporation is legally required to use the insurance proceeds to redeem the decedent\u2019s shares, a rational buyer would treat those proceeds as economically offset by the corresponding redemption liability, because the funds are not available for general corporate purposes and counting them as a net asset risks double-counting the same value. Consistent with United States v. Cartwright, 411 U.S. 546 (1973), the valuation must reflect real-world limitations and encumbrances on value rather than formalistic balance-sheet labeling. Treating the proceeds as a free corporate asset would inflate estate-tax valuation beyond what an informed market participant would pay, undermining fairness in applying \u00a7 2031.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2031\u2019s fair-market-value inquiry, as implemented by Treas. Reg. \u00a7 20.2031-1 and the closely held stock valuation guidance in \u00a7 20.2031-2(f)(2), asks what an informed willing buyer would pay taking account of the corporation\u2019s net economic position, including binding obligations. Where corporate-owned life-insurance proceeds are contractually committed to a mandatory redemption, the proceeds are not a free \u201cnonoperating asset\u201d but are economically matched by an offsetting redemption liability, so including the proceeds without the offset overstates value under the willing-buyer/willing-seller standard endorsed in United States v. Cartwright, 411 U.S. 546 (1973). The regulation\u2019s limiting clause (\u201cto the extent that such nonoperating assets have not been taken into account in the determination of net worth\u201d) supports treating the proceeds as already absorbed by the redemption obligation when valuing the company\u2019s net worth. A workable valuation rule should avoid double counting and track how real market participants price an enterprise with earmarked cash and a simultaneous duty to pay it out in a compelled buyout.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 2031 requires valuation at \u201cfair market value,\u201d implemented through the willing-buyer/willing-seller standard, and that standard asks what an informed buyer would pay accounting for all legally binding obligations attached to the enterprise. Under Rev. Rul. 59-60\u2019s common-sense, fact-sensitive approach to net worth, a corporation\u2019s mandatory contractual duty to redeem a deceased shareholder\u2019s shares is an enforceable payment obligation that a willing buyer would treat as reducing the corporation\u2019s value, even if the payment is funded by life-insurance proceeds received at death. Treating the insurance proceeds as a standalone asset without recognizing the offsetting redemption obligation inflates value in a way inconsistent with the market-based inquiry demanded by \u00a7 2031 and this Court\u2019s direction in United States v. Cartwright, 411 U.S. 546 (1973), to apply an objective, realistic willing-buyer/willing-seller test rather than a formalistic label. Because the proceeds are economically encumbered by the redemption requirement at the valuation moment, they should not increase the net value of the decedent\u2019s shares for estate-tax purposes.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Section 2031\u2019s fair-market-value standard (as reflected in the Treasury regulations\u2019 willing-buyer/willing-seller test) requires valuing what the decedent owned\u2014shares of the corporation\u2014by reference to the corporation\u2019s assets and capital structure as a whole at the valuation moment. Corporate-owned life-insurance proceeds are, at that moment, a real corporate asset, and the corporation\u2019s mandatory redemption obligation is not a third-party liability that reduces enterprise value; it is an equity transaction that reallocates ownership and cash among shareholders, so it ordinarily should not be netted against corporate assets when valuing the same equity being redeemed. That approach is consistent with the Court\u2019s emphasis on objective, administrable valuation rules in United States v. Cartwright and avoids a valuation method that would be difficult to police and would invite manipulation through redemption arrangements. Given history and practical workability, the Eighth Circuit\u2019s inclusion of the proceeds best reflects what an informed hypothetical buyer would pay for the shares under \u00a7 2031.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 2031 requires valuing the decedent\u2019s interest at its fair market value, and the Treasury regulations\u2019 willing-buyer/willing-seller standard directs consideration of the corporation\u2019s assets at the valuation moment, including corporate-owned life-insurance proceeds. A redemption obligation funded by those proceeds is not a third-party liability that reduces enterprise value; it is an equity transaction (cash exchanged for the corporation\u2019s own shares) that rearranges ownership rather than diminishing the firm\u2019s net assets in the way debt would. Under Cartwright\u2019s objective FMV framework, the hypothetical buyer would price the corporation by reference to its asset base\u2014including proceeds actually received\u2014while recognizing that the redemption affects post-transaction share count, not the corporation\u2019s underlying value. Precedent and methodological consistency thus favor treating the proceeds as a corporate asset in valuing the decedent\u2019s shares under \u00a7 2031.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 2031 requires valuation at fair market value under the willing-buyer/willing-seller standard, and at the moment of death the corporation indisputably holds the life-insurance proceeds as an asset that an informed buyer would take into account. A mandatory redemption obligation is not meaningfully comparable to third-party debt for FMV purposes because it is an exchange of cash for the corporation\u2019s own equity, reallocating ownership rather than diminishing enterprise value, so it does not offset the asset dollar-for-dollar. While the Eleventh Circuit in Estate of Blount treated the redemption obligation as an offsetting liability, that approach risks understating what a real market participant would pay for the company with the cash in hand and is in tension with the objective valuation principle emphasized in United States v. Cartwright. Considering practical consequences and administrability, including the proceeds provides a clearer, more consistent rule for \u00a7 2031 valuation than treating internally funded redemptions as netting out corporate assets.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.724,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

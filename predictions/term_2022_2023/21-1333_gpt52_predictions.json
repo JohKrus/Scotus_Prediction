@@ -1,0 +1,575 @@
+[
+  {
+    "docket": "21-1333",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 230 of the Communications Decency Act bars civil liability when an online platform\u2019s recommendation algorithms amplify and suggest third-party terrorist content to users, or whether that conduct can be treated as the platform\u2019s own actionable conduct outside Section 230\u2019s immunity (and/or as aiding-and-abetting under the Anti-Terrorism Act).",
+      "legal_provision": "47 U.S.C. \u00a7 230(c)(1) (Communications Decency Act immunity for interactive computer services); related merits backdrop: 18 U.S.C. \u00a7 2333(d) (Anti-Terrorism Act/JASTA aiding-and-abetting liability).",
+      "petitioner_position": "Petitioners (family members of a victim of an ISIS attack) argue that Google/YouTube is not merely hosting third-party ISIS videos but is affirmatively recommending and amplifying them through algorithms designed to increase engagement; that recommending content is Google\u2019s own conduct and/or its own \u2018information content\u2019 in relevant part, so the suit does not treat Google as the publisher or speaker of another\u2019s content in the way Section 230 protects. They contend Section 230 was meant to protect traditional editorial functions like hosting, removing, or organizing user content, not targeted recommendations that materially contribute to harm, and that allowing immunity here would create a sweeping shield even when platforms actively steer users toward terrorist propaganda. They further maintain that this recommendation conduct can support Anti-Terrorism Act aiding-and-abetting theories (at least as a legal sufficiency matter at the pleading stage), because amplification and matching can substantially assist terrorist entities by increasing reach, recruitment, and operational support.",
+      "respondent_position": "Google argues the claims inherently seek to hold YouTube liable for decisions about displaying, arranging, and recommending third-party videos\u2014classic publisher functions protected by Section 230. In Google\u2019s view, algorithmic recommendations are an inseparable part of publishing at internet scale (ranking, sorting, and suggesting content), and imposing liability would effectively treat platforms as speakers of user content, contrary to the statute\u2019s text and purpose. Google also contends petitioners\u2019 theory would expose platforms to massive, unpredictable liability for ordinary content curation tools used across the internet, chilling online speech and forcing over-removal. On the ATA/JASTA backdrop, Google disputes that the complaint plausibly alleges the necessary elements of aiding-and-abetting (e.g., knowing and substantial assistance), characterizing the alleged conduct as generalized platform availability and neutral tools rather than purposeful support of ISIS.",
+      "key_precedents": [
+        "Zeran v. America Online, Inc., 129 F.3d 327 (4th Cir. 1997) (early broad construction of Section 230 immunity)",
+        "Fair Housing Council of San Fernando Valley v. Roommates.com, LLC, 521 F.3d 1157 (9th Cir. 2008) (en banc) (limits on Section 230 when a service materially contributes to unlawful content)",
+        "Force v. Facebook, Inc., 934 F.3d 53 (2d Cir. 2019) (Section 230 applied to recommendation/matching features in terrorism-related claims; note the split/criticism in dissents)",
+        "Dyroff v. Ultimate Software Group, Inc., 934 F.3d 1093 (9th Cir. 2019) (Section 230 immunity for recommendations/notifications tied to user content)",
+        "Gonzalez v. Google LLC, 2 F.4th 871 (9th Cir. 2021) (decision below applying Section 230 to the recommendation claims)",
+        "Twitter, Inc. v. Taamneh, 598 U.S. 471 (2023) (clarified ATA aiding-and-abetting standards; decided in the companion case context)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor\u2019s best point is that \u201caffirmative\u201d recommendations can be characterized as the platform\u2019s own steering conduct, but under \u00a7 230(c)(1) the dispositive question is whether the claim would treat the service as a publisher of information provided by another\u2014and selecting, arranging, and presenting third-party speech (even via algorithms) is the modern form of publishing. As Justice Kagan and Justice Barrett emphasize, Roommates.com\u2019s \u201cmaterial contribution\u201d limit is triggered when the service helps develop the unlawful aspect of the content; a generally applicable recommendation tool applied to already-unlawful ISIS videos does not plausibly make the platform a co-developer of the illegality. The lower-court line Justice Alito notes (Zeran, Force, Dyroff) reinforces that a recommendation carveout would be a judicially invented, hard-to-administer exception with broad chilling effects\u2014an institutional-legitimacy concern better addressed by Congress. Taamneh further supports resolving any culpable-amplification concerns through ATA/JASTA\u2019s demanding knowing-and-substantial-assistance standard rather than by narrowing \u00a7 230 in this case.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s \u201caffirmative steering\u201d framing is the best case for petitioner, but under the ordinary public meaning of \u201cpublisher\u201d in \u00a7 230(c)(1), selecting, arranging, and presenting third-party material\u2014including by automated recommendation\u2014is quintessential publication activity, so imposing liability for that conduct necessarily \u201ctreat[s]\u201d the service as the publisher of \u201cinformation provided by another.\u201d As Chief Justice Roberts and Justice Kagan explain, Roommates.com\u2019s \u201cmaterial contribution\u201d limit is triggered when the service helps develop the unlawful aspect of the content itself; here, the alleged unlawfulness inheres in ISIS\u2019s videos, and a generally applicable ranking tool does not make Google an \u201cinformation content provider\u201d of that illegality. Justice Sotomayor\u2019s concern that this collapses \u00a7 230 whenever algorithms are used is a policy argument better directed to Congress; the text contains no administrable host/recommend line that would exclude ordinary editorial functions at scale. Taamneh further confirms that, even apart from \u00a7 230, these allegations of generalized recommendation features do not plausibly plead knowing and substantial assistance tied to the specific terrorist act.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.83,
+        "reasoning": "Justice Sotomayor\u2019s reframing of recommendations as the platform\u2019s \u201caffirmative conduct\u201d does not overcome \u00a7 230(c)(1)\u2019s text, because the only way her theory generates liability is by treating YouTube as a publisher for its selection, arrangement, and presentation of \u201cinformation provided by another.\u201d As Chief Justice Roberts and Justice Thomas emphasize, those are classic publisher functions in ordinary meaning, and automation does not change their character. Roommates.com\u2019s \u201cmaterial contribution\u201d limit is not plausibly triggered here because, as Justice Barrett notes, the complaint does not allege YouTube developed the unlawful aspect of ISIS\u2019s content; it alleges distribution and prioritization using generally applicable tools. Finally, Taamneh\u2014invoked by several colleagues\u2014confirms that generalized recommendation features, without well-pleaded knowing and substantial assistance tied to the specific terrorist act, are a poor fit for aiding-and-abetting liability and do not justify narrowing \u00a7 230 in this case.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.52,
+        "reasoning": "Chief Justice Roberts\u2019s best point is that recommending and ranking are modern forms of editorial discretion covered by \u00a7 230 as read in Zeran and reflected in Force and Dyroff, and I take seriously his administrability and chilling-effect concerns. But that argument risks reading \u201cpublisher\u201d so capaciously that any algorithmic steering\u2014no matter how intentionally designed to push users toward illegal material\u2014becomes categorically immune, even when the complaint targets the platform\u2019s own conduct (the design and deployment of an amplification system) rather than liability for the underlying third-party words. Justice Kagan is right that Roommates.com\u2019s \u201cmaterial contribution\u201d is clearest when the platform helps develop the illegality of the content, yet I read it more functionally: when a platform\u2019s system plausibly contributes to the wrongful dissemination in a way that is more than passive display\u2014especially alleged targeted promotion to susceptible users\u2014the pleading should not be dismissed as merely treating the platform \u201cas the publisher\u201d of ISIS\u2019s information. Taamneh may well doom petitioners on scienter/substantial assistance later, but it does not justify expanding \u00a7 230 at the threshold to foreclose inquiry into real-world amplification harms that the platform itself allegedly drives.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Sotomayor is right to press that algorithmic \u201crecommendations\u201d can feel like affirmative steering, and if \u00a7 230 turned on intuitive moral salience I might worry about giving platforms a blanket pass. But under the text\u2014liability that would \u201ctreat\u201d the service \u201cas the publisher or speaker\u201d of \u201cinformation provided by another\u201d\u2014the gravamen here is still YouTube\u2019s selection, arrangement, and display of ISIS\u2019s third\u2011party videos, which Chief Justice Roberts and Justice Barrett persuasively frame as quintessential publishing functions even when automated. Roommates.com\u2019s \u201cmaterial contribution\u201d limit does real work, but as Justice Thomas notes it targets situations where the service helps develop the unlawful aspect of the content; a generally applicable engagement-based ranking tool applied to already-unlawful third-party material does not plausibly cross that line on these pleadings. And Taamneh\u2019s demanding knowing/substantial-assistance framework underscores that petitioners\u2019 amplification concerns fit better as merits limits under ATA/JASTA than as atextual narrowing of \u00a7 230 in this case.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best argument is that targeted recommendations are the platform\u2019s own affirmative conduct, but \u00a7 230(c)(1) asks whether the cause of action would \u201ctreat\u201d the service \u201cas the publisher or speaker\u201d of \u201cinformation provided by another,\u201d and\u2014as Chief Justice Roberts and Justice Thomas stress\u2014selection, arrangement, and presentation of third-party speech (whether by humans or automation) is the core publishing function. Roommates.com\u2019s \u201cmaterial contribution\u201d limit does not fit here because, unlike structuring users\u2019 illegal responses, the platform is not alleged to have created, required, or developed the unlawful aspect of ISIS\u2019s videos; using a generally applicable engagement-ranking tool does not make YouTube an \u201cinformation content provider\u201d of the ISIS content. The lower-court line Roberts cites (Zeran; Force; Dyroff) does not bind us, but it confirms the ordinary, administrable reading of the statute\u2019s text and cautions against a judicially invented \u201crecommendation\u201d carveout lacking a textual hook. And as Justice Kagan and others note, Taamneh\u2019s demanding knowing-and-substantial-assistance standard makes this case a poor vehicle to rework \u00a7 230 when the more natural place to test culpable amplification is on ATA/JASTA merits.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor\u2019s best point remains that affirmative, engagement-driven recommendations can look like the platform\u2019s own steering rather than passive hosting, and she invokes Roommates.com\u2019s \u201cmaterial contribution\u201d limit. But as Chief Justice Roberts and Justice Kagan emphasize, the liability theory still necessarily treats YouTube \u201cas the publisher\u201d of \u201cinformation provided by another\u201d because the alleged wrong is the organization, prioritization, and presentation of third-party ISIS videos\u2014functions that fit the ordinary, historically grounded understanding of publishing, whether done by humans or algorithms. Roommates.com is meaningfully different because the service there structured and required illegal content inputs; here the platform is not alleged to have developed the unlawful aspect of the videos, and converting neutral recommendation/ranking into \u201cmaterial contribution\u201d lacks a textual hook and would be unadministrable. Taamneh further supports resolving this case without narrowing \u00a7 230 because the pleadings\u2019 generalized-tool theory also struggles to meet knowing-and-substantial-assistance standards on the merits.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Sotomayor\u2019s best point is that algorithmic recommendations are \u201caffirmative conduct\u201d that can be characterized as the platform\u2019s own steering, but \u00a7 230(c)(1)\u2019s text asks whether the claim would treat the service \u201cas the publisher or speaker\u201d of \u201cinformation provided by another,\u201d and\u2014as the Chief Justice and Justice Thomas stress\u2014selection, arrangement, and presentation of others\u2019 speech are ordinary publishing functions, whether done by humans or automated tools. Roommates.com\u2019s \u201cmaterial contribution\u201d limit, invoked by Justice Sotomayor, does not fit these pleadings because the alleged unlawfulness inheres in ISIS\u2019s videos, not in YouTube\u2019s development of their illegal content; a generally applicable engagement-based ranking tool does not plausibly make YouTube an \u201cinformation content provider\u201d of that content. The lower-court line Chief Justice Roberts cites (Zeran; Force; Dyroff) reinforces this original-meaning reading and underscores the administrability problems of a recommendation carveout without a textual hook. Taamneh further confirms that plaintiffs\u2019 theory sounds in generalized amplification rather than knowing, substantial assistance tied to specific terrorist acts, making this a poor vehicle to narrow \u00a7 230.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best point is that algorithmic \u201crecommendations\u201d can be experienced as affirmative steering and thus as the platform\u2019s own conduct, which raises real fairness and harm concerns at the pleading stage. But as Chief Justice Roberts and Justice Kagan stress, \u00a7 230(c)(1) asks whether the claim would \u201ctreat\u201d the service as the publisher of information provided by another, and the alleged wrong here remains inseparable from arranging and presenting third-party ISIS videos\u2014an editorial function even when automated. Roommates.com does not undermine that conclusion on these allegations because, as Justice Barrett notes, there is no plausible claim that YouTube materially contributed to the unlawfulness of the content itself (by requiring, inducing, or shaping the illegal aspect), as opposed to using a generally applicable ranking tool. Taamneh, highlighted by Justice Kavanaugh, further reinforces the pragmatic concern that narrowing \u00a7 230 in this vehicle would likely produce broad chilling effects without actually fitting the demanding knowing-and-substantial-assistance framework that would make liability sensible on the merits.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 230(c)(1) bars claims that would hold an interactive computer service liable \u201cas the publisher or speaker\u201d of third-party content, and algorithmic ranking and recommendation are, at the relevant level of generality, part of the platform\u2019s traditional editorial function of organizing and displaying others\u2019 speech. Consistent with Zeran\u2019s broad reading of \u00a7 230 and the substantial weight of lower-court authority applying immunity to recommendations (e.g., Force v. Facebook; Dyroff; and the Ninth Circuit\u2019s decision below in Gonzalez), imposing liability here would risk sweeping, speech-chilling consequences and invite courts to supervise ordinary content curation at internet scale\u2014an institutional-legitimacy concern best left to Congress to recalibrate. Roommates.com\u2019s \u201cmaterial contribution\u201d limitation is not satisfied on these pleadings where the alleged unlawfulness lies in ISIS\u2019s videos themselves, not in Google creating or developing the illicit content; the recommendation tools are neutral and operate on third-party material. Any further relief can proceed, if at all, under the ATA/JASTA standards clarified in Twitter v. Taamneh, but \u00a7 230 still forecloses treating YouTube\u2019s recommendations of third-party videos as actionable publication decisions.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The text of \u00a7 230(c)(1) bars treating an interactive computer service \u201cas the publisher or speaker of any information provided by another information content provider,\u201d and recommendation/ranking is best understood as part of the publisher\u2019s function of selecting and presenting third-party material at scale rather than the platform\u2019s own \u201cinformation.\u201d See 47 U.S.C. \u00a7 230(c)(1); Zeran v. AOL, 129 F.3d 327, 332\u201333 (4th Cir. 1997). While Roommates.com recognizes \u00a7 230\u2019s limit where the service \u201cmaterially contributes\u201d to the unlawfulness of the content, merely using neutral algorithms to sort and suggest third-party videos does not plausibly make the platform a co-developer of ISIS\u2019s message. 521 F.3d 1157 (9th Cir. 2008) (en banc). And under Taamneh\u2019s demanding aiding-and-abetting standards, generalized recommendation tools without knowing and substantial assistance to ISIS are insufficient on the ATA theory. 598 U.S. 471 (2023).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the \u201cpublisher or speaker\u201d of information provided by another, and algorithmic ranking and recommendation are modern means of the same publishing functions\u2014selecting, arranging, and presenting third-party content\u2014at internet scale. Consistent with Force v. Facebook and Dyroff, imposing liability because YouTube\u2019s systems suggested ISIS-produced videos would necessarily hinge on YouTube\u2019s dissemination decisions regarding third-party content, which \u00a7 230 protects. Roommates.com\u2019s \u201cmaterial contribution\u201d limitation is not satisfied where the platform did not create or develop the unlawful content itself, but used neutral tools to organize and surface user-provided material. And under Taamneh\u2019s demanding ATA/JASTA aiding-and-abetting standard, generalized recommendations and availability of standard platform features do not plausibly establish the knowing and substantial assistance required, especially given the practical consequences of exposing ubiquitous curation tools to massive liability.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.56,
+        "reasoning": "Section 230(c)(1) bars treating a platform as the \u201cpublisher or speaker\u201d of third-party information, but an affirmative, targeted recommendation system that amplifies and steers users toward terrorist content can be characterized as the platform\u2019s own actionable conduct rather than mere hosting or editorial judgment. Under Roommates.com, Section 230 has limits where the service \u201cmaterially contributes\u201d to the unlawfulness, and algorithmic amplification designed to increase engagement plausibly crosses from neutral organization into conduct that contributes to harmful dissemination. At minimum, the complaint should not be dismissed at the pleading stage where petitioners allege recommendation tools that promote ISIS propaganda to susceptible users, implicating real-world harms to vulnerable populations and warranting judicial scrutiny rather than categorical immunity. Separately, in light of Taamneh\u2019s emphasis on knowing and substantial assistance under 18 U.S.C. \u00a7 2333(d), the amplification allegations may still face a demanding merits standard, but Section 230 should not foreclose consideration where the platform\u2019s own recommendation conduct is the gravamen.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars claims that would \"treat[]\" an interactive computer service \"as the publisher or speaker\" of third-party information, and algorithmic recommendation/ranking is best understood as a modern form of the editorial judgment inherent in publication at scale. Under the Roommates.com \u201cmaterial contribution\u201d limit, immunity is lost when the platform helps develop the unlawfulness of the content itself (e.g., by requiring or shaping illegal content), but recommending existing third-party videos\u2014without plausibly alleging that Google created or materially contributed to their illegal character\u2014looks closer to protected curation than to content development. Consistent with Force v. Facebook and Dyroff, imposing liability for neutral recommendation tools would effectively attach publisher liability to the dissemination/arrangement of others\u2019 speech, undermining statutory coherence and workability across the internet. And in light of Twitter v. Taamneh\u2019s emphasis on knowing and substantial assistance, petitioners\u2019 aiding-and-abetting theory (as pleaded) is better addressed on ATA merits than by narrowing \u00a7230 to carve out routine recommendation functions absent a clear textual hook.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Section 230(c)(1) provides that no provider of an interactive computer service shall be treated as the publisher or speaker of information provided by another, and algorithmic sorting and recommending of third-party videos is best understood as a modern form of the traditional editorial judgment inherent in publication. On that reading, petitioners\u2019 theory still seeks to impose liability for YouTube\u2019s dissemination and arrangement of ISIS-created content, which \u00a7 230 bars as construed in Zeran and applied to recommendation features in Force and Dyroff. Roommates.com\u2019s \u201cmaterial contribution\u201d limit is not satisfied where the platform did not require or develop the unlawful content itself, but instead used generally applicable recommendation tools to display user content. And to the extent petitioners rely on aiding-and-abetting under 18 U.S.C. \u00a7 2333(d), Taamneh underscores the need for knowing and substantial assistance, which is not plausibly shown by neutral, widely available recommendation mechanisms alone.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service \u201cas the publisher or speaker\u201d of third-party content, and algorithmic ranking and recommendation are, in practical operation, part of the core editorial function of organizing and presenting that content at internet scale. The dominant lower-court precedent has applied \u00a7 230 to recommendation and matching features, including Force v. Facebook and Dyroff, and I would be reluctant to upset that settled understanding absent clearer statutory direction from Congress, particularly given the significant workability and chilling-speech concerns. Roommates.com\u2019s \u201cmaterial contribution\u201d limitation does not fit well here because the illegality alleged resides in the third-party ISIS videos, not in content that Google itself required or created. And in light of Twitter v. Taamneh\u2019s demanding standards for ATA/JASTA aiding-and-abetting (knowing, substantial assistance tied to the specific wrongdoing), the complaint\u2019s allegations about generalized recommendation tools are unlikely to plausibly cross that threshold in any event, reinforcing that this is not an appropriate vehicle to narrow \u00a7 230.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars claims that would \u201ctreat\u201d an interactive computer service \u201cas the publisher or speaker\u201d of \u201cinformation provided by another information content provider,\u201d and the ordinary, common-law understanding of publishing includes the editorial functions of selecting, organizing, and presenting others\u2019 speech\u2014functions that, at internet scale, are performed through ranking and recommendation algorithms. Courts have consistently read \u00a7 230(c)(1) to cover liability theories predicated on these publication decisions, including in Zeran v. AOL and later in Force v. Facebook and Dyroff, which treated recommendations and matching features as publisher conduct with respect to third-party content. Petitioners do not plausibly allege that YouTube itself \u201cdevelop[ed]\u201d the ISIS content so as to become an \u201cinformation content provider\u201d under \u00a7 230(f)(3), as Roommates.com requires for the \u201cmaterial contribution\u201d exception, and Taamneh\u2019s demanding ATA/JASTA aiding-and-abetting standard underscores that generalized algorithmic amplification, without well-pleaded knowing and substantial assistance, cannot supply an end-run around \u00a7 230\u2019s text. Accordingly, the complaint\u2019s recommendation-based theory seeks to impose liability for how YouTube disseminated others\u2019 information, which \u00a7 230(c)(1) forecloses.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.64,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the publisher of \u201cinformation provided by another information content provider,\u201d and the pleaded theory here targets YouTube\u2019s ranking and recommendation of third-party ISIS videos\u2014functions that multiple circuits have treated as paradigmatic publication activity at internet scale. While Roommates.com recognizes a limit when the service \u201cmaterially contributes\u201d to the unlawfulness of content, 521 F.3d at 1168, an engagement-optimizing recommendation algorithm that does not itself require or induce unlawful content is more like the neutral matching tools held immune in Force v. Facebook and Dyroff. Given Taamneh\u2019s demanding \u201cknowing and substantial assistance\u201d standard for ATA aiding-and-abetting, the complaint\u2019s generalized allegations about amplification via ubiquitous recommendation tools do not plausibly allege the requisite culpable participation, and expanding liability here would create serious practical chilling and over-removal consequences inconsistent with \u00a7 230\u2019s design.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.71,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.56,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.83,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.52,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "21-1333",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Section 230(c)(1) of the Communications Decency Act immunizes Google/YouTube from civil liability under the Anti-Terrorism Act for allegedly recommending ISIS-related videos to users through algorithmic recommendations, as distinct from merely hosting third-party content.",
+      "legal_provision": "47 U.S.C. \u00a7 230(c)(1) (Communications Decency Act \u00a7 230) (with the underlying cause of action arising under the Anti-Terrorism Act, 18 U.S.C. \u00a7 2333, as amended by JASTA, Pub. L. 114-222).",
+      "petitioner_position": "Petitioners (family members of an ISIS terror victim) argue that YouTube\u2019s targeted algorithmic recommendations are YouTube\u2019s own affirmative conduct\u2014effectively promoting and amplifying ISIS content to users\u2014and therefore fall outside Section 230\u2019s immunity, which they contend protects only passive publishing/hosting of third-party content. They maintain that their claims do not treat Google as the \u2018publisher or speaker\u2019 of another\u2019s content in the traditional sense; rather, Google\u2019s recommendation systems are independent product features that materially contribute to the alleged wrongful act (aiding-and-abetting terrorism under the ATA/JASTA) by matching ISIS content to susceptible audiences. Petitioners urge the Court to draw a line between neutral hosting/search functions and platform-driven recommendations that prioritize and push content.",
+      "respondent_position": "Google argues that recommendations are an ordinary and inseparable part of \u2018publishing\u2019 third-party content online (organizing, ranking, and displaying content to users), so claims attacking recommendations necessarily treat Google as the publisher of information provided by another content provider and are therefore barred by Section 230(c)(1). Google contends that holding platforms liable for algorithmic ranking/recommendation would effectively nullify Section 230\u2019s core protection, because all modern services use algorithms to sort and present vast amounts of user-generated content. Google also disputes that the complaint plausibly establishes the elements of ATA/JASTA aiding-and-abetting liability (including knowing and substantial assistance) based on generalized allegations about ISIS content appearing on YouTube.",
+      "key_precedents": [
+        "Zeran v. America Online, Inc., 129 F.3d 327 (4th Cir. 1997)",
+        "Fair Housing Council of San Fernando Valley v. Roommates.com, LLC, 521 F.3d 1157 (9th Cir. 2008) (en banc)",
+        "Force v. Facebook, Inc., 934 F.3d 53 (2d Cir. 2019)",
+        "Dyroff v. Ultimate Software Group, Inc., 934 F.3d 1093 (9th Cir. 2019)",
+        "Fields v. Twitter, Inc., 881 F.3d 739 (9th Cir. 2018)",
+        "Gonzalez v. Google LLC, 2 F.4th 871 (9th Cir. 2021)",
+        "Twitter, Inc. v. Taamneh, 598 U.S. 471 (2023)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The strongest petitioner point remains that algorithmic \u201crecommendations\u201d are affirmative platform conduct, but as Justice Thomas and Justice Gorsuch emphasize, the ordinary meaning and common-law backdrop of \u201cpublisher\u201d include selecting, arranging, and presenting others\u2019 material\u2014precisely what ranking and recommendation systems do at scale. I also agree with Justice Kagan and Justice Sotomayor that drawing a hosting-versus-recommending line would be unstable and threaten \u00a7230\u2019s core operation, absent a Roommates.com-style allegation that the platform materially contributed to the unlawfulness of the content itself, which is not plausibly pleaded here. Taamneh further supports resolving the case narrowly: even setting \u00a7230 aside, generalized allegations about a ubiquitous recommendation system do not plausibly show knowing and substantial assistance tied to the specific attack. A minimalist disposition would affirm on \u00a7230(c)(1) and, in the alternative, note that the pleadings fail under Taamneh\u2019s aiding-and-abetting standard without announcing a broad rule about all algorithms.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The petitioners\u2019 best point remains that \u201crecommendations\u201d are affirmative platform conduct\u2014perhaps even the platform\u2019s own speech\u2014rather than \u201cpublishing,\u201d but that characterization cannot overcome \u00a7230(c)(1)\u2019s text, which bars claims that would treat a service \u201cas the publisher or speaker\u201d of information \u201cprovided by another,\u201d and the ordinary 1996 meaning of \u201cpublisher\u201d included selection, arrangement, and dissemination. Justice Gorsuch\u2019s emphasis on the common-law backdrop confirms that these are paradigmatic publisher functions, and algorithmic ranking is simply the automated form of the same activity, not a textual carveout. Justice Barrett correctly notes that Roommates.com\u2019s \u201cmaterial contribution\u201d limit turns on the service\u2019s role in developing the unlawful content itself; on these pleadings, YouTube did not require, induce, or create ISIS content, it allegedly displayed it. Chief Justice Roberts\u2019s reliance on Taamneh further reinforces that even apart from \u00a7230, generalized allegations about ubiquitous recommendation systems do not plausibly satisfy JASTA\u2019s knowing-and-substantial-assistance standard tied to the specific attack.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The petitioners\u2019 best point remains that \u201crecommendations\u201d look like affirmative platform conduct, but that label does not change what the claim seeks to do: impose liability for selecting, arranging, and presenting third-party speech, which \u00a7230(c)(1) bars by forbidding treatment of the service \u201cas the publisher or speaker\u201d of information provided by another. Justice Thomas\u2019s ordinary-meaning framing is decisive for a textualist: in 1996, \u201cpublishing\u201d encompassed editorial judgment about what to display and how, and algorithmic ranking is simply that function at scale, not a distinct statutory category. Justice Kagan and the Chief Justice are also right on workability and consequences\u2014carving out recommendations would effectively gut \u00a7230 for modern platforms because almost all dissemination now involves prioritization. Even apart from \u00a7230, Taamneh\u2019s demanding \u201cknowing and substantial assistance\u201d standard confirms these generalized allegations about ubiquitous recommendation systems do not plausibly state JASTA aiding-and-abetting liability tied to the specific attack.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The strongest petitioner point remains that recommendations feel like affirmative promotion, and as a practical matter they can amplify harmful content in ways that plain hosting does not\u2014an effect that matters for vulnerable communities. But Chief Justice Roberts and Justice Kagan persuasively explain that the liability theory here still \u201ctreats\u201d YouTube as a publisher based on how it selects and presents third-party ISIS videos, and carving out recommendations would be unworkable because modern platforms necessarily organize content through ranking and matching. Justice Thomas and Justice Gorsuch\u2019s ordinary-meaning/common-law account of \u201cpublishing\u201d (selection, arrangement, dissemination) reinforces that \u00a7230\u2019s text lacks a stable hook for the hosting/recommendation distinction absent a Roommates.com-style allegation that YouTube materially contributed to the videos\u2019 unlawful content. Even setting \u00a7230 aside, Taamneh\u2019s requirement of knowing and substantial assistance tied to the specific attack makes these generalized algorithm allegations too attenuated to sustain JASTA aiding-and-abetting liability.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The best petitioner point remains that \u201crecommendations\u201d look like affirmative platform conduct\u2014closer to promotion than passive hosting\u2014but that still seeks to impose liability for how YouTube selects and presents third-party ISIS videos, which is exactly what \u00a7230(c)(1) prevents by barring claims that would \u201ctreat\u201d the service as the publisher of information \u201cprovided by another.\u201d Justice Gorsuch\u2019s common-law framing is especially persuasive to me: publishing historically includes selection, arrangement, and dissemination, and an algorithm is just a scalable way to perform those editorial functions, not a textual carveout from the statute. Roommates.com supplies a principled limit (material contribution to the unlawfulness), but as Justice Barrett emphasizes, these allegations do not plausibly claim YouTube helped develop the illegality of ISIS content; they challenge distribution and prioritization. Finally, even putting \u00a7230 aside, Chief Justice Roberts\u2019s reliance on Taamneh highlights that generalized, platform-wide recommendation allegations are too attenuated to plead \u201cknowing and substantial assistance\u201d tied to this attack, and I see no workable, text-grounded way to create a recommendations exception here without Congress.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Petitioners\u2019 best point remains that \u201crecommendations\u201d are affirmative conduct by the platform, arguably distinct from \u201cpublishing,\u201d but that contention still seeks to impose liability for selecting, arranging, and disseminating third-party \u201cinformation\u201d\u2014conduct that, in ordinary legal usage at enactment and at common law, falls within the publisher function \u00a7230(c)(1) addresses. Justice Thomas\u2019s emphasis on the 1996 ordinary meaning of \u201cpublisher,\u201d echoed by Chief Justice Roberts\u2019s workability concerns, reinforces that we lack a textual basis to carve out algorithmic ranking as categorically different from editorial presentation. Roommates.com, as Justice Barrett notes, supplies a limiting principle only where the service materially contributes to the unlawfulness of the content itself; these allegations target distribution and prioritization of ISIS-created videos, not the development of their illegality. And even if \u00a7230\u2019s boundary were debatable, Taamneh\u2019s \u201cknowing and substantial assistance\u201d standard makes this complaint\u2019s generalized allegations about a neutral recommendation system too attenuated to state JASTA aiding-and-abetting liability.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The petitioners\u2019 best point remains that algorithmic recommendations are affirmative platform conduct\u2014akin to targeted promotion\u2014rather than \u201cpublishing,\u201d but that distinction collapses under the ordinary 1996 meaning of \u201cpublisher,\u201d which (as Justice Thomas emphasizes) included selecting, arranging, and presenting others\u2019 speech. Chief Justice Roberts\u2019s reliance on Force and Dyroff is persuasive institutional evidence that the settled lower-court understanding treats ranking and matching tools as \u00a7230(c)(1) functions absent Roommates.com-style \u201cmaterial contribution\u201d to the unlawfulness, which is not plausibly alleged here. Carving out recommendations would create an unstable, unadministrable line that threatens \u00a7230\u2019s core operation for modern platforms, a practical concern consistent with maintaining the Court\u2019s legitimacy and adhering to congressional design. And even apart from \u00a7230, Taamneh\u2019s demanding knowing-and-substantial-assistance standard cautions against allowing generalized allegations about ubiquitous algorithms to substitute for a tight nexus to the specific attack.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The petitioners\u2019 best point\u2014that algorithmic recommendations are affirmative platform conduct rather than \u201cpublishing\u201d\u2014still fails on the statutory text: a claim that targets selection, ordering, and prioritized display of third-party videos necessarily treats the service \u201cas the publisher or speaker\u201d of information \u201cprovided by another.\u201d Justice Thomas\u2019s focus on ordinary 1996 meaning and Justice Gorsuch\u2019s common-law backdrop (including Stratton Oakmont) strengthen my view that editorial discretion\u2014whether executed by human judgment or automated rules\u2014falls within the publisher function \u00a7 230(c)(1) protects, absent Roommates.com-style material contribution to the content\u2019s illegality. Justice Kagan and the Chief Justice persuasively emphasize workability: a recommendations carveout would be unstable because modern platforms inevitably curate through ranking and matching, and the pleadings here do not allege inducement or development of ISIS content. Even setting \u00a7 230 aside, Taamneh\u2019s \u201cknowing and substantial assistance\u201d requirement underscores that generalized allegations about ubiquitous recommendation systems lack the necessary nexus to the specific attack.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The petitioners\u2019 strongest point\u2014that algorithmic recommendations are affirmative \u201cpromotion\u201d rather than passive hosting\u2014still ultimately seeks to impose liability for YouTube\u2019s selection, arrangement, and display of third-party ISIS content, which \u00a7 230(c)(1) bars by preventing claims that treat a service as the \u201cpublisher or speaker\u201d of information provided by another. Justice Kagan\u2019s workability concern is particularly persuasive: trying to carve out \u201crecommendations\u201d would force courts to draw unstable lines among ubiquitous curation tools, with sweeping practical consequences absent clear congressional guidance. Justice Barrett\u2019s and Justice Gorsuch\u2019s reliance on Roommates.com\u2019s \u201cmaterial contribution\u201d limit does not move this case because the pleadings do not plausibly allege Google helped develop the unlawfulness of ISIS videos; they allege dissemination and prioritization. Finally, Chief Justice Roberts\u2019s point about Taamneh reinforces that even if \u00a7 230 were uncertain at the margins, these generalized allegations do not plausibly plead knowing and substantial assistance tied to the specific attack.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the \u201cpublisher or speaker\u201d of information provided by another, and most courts have understood ordinary ranking and recommendation functions as part of publishing that third-party content rather than the platform\u2019s own content creation. Force v. Facebook and Dyroff held that algorithmic recommendations (including friend/group or content matching) are publisher functions protected by \u00a7 230 when they operate on third-party material, and this case can be resolved on that narrow, precedent-consistent ground without rewriting \u00a7 230. Roommates.com\u2019s \u201cmaterial contribution\u201d exception is best read to apply where the platform helps develop unlawful content itself, not where it uses neutral tools to display others\u2019 videos. Separately, Taamneh underscores the demanding \u201cknowing and substantial assistance\u201d standard for ATA/JASTA aiding-and-abetting claims, reinforcing the institutional-legitimacy value of avoiding an expansive new liability theory that would destabilize settled \u00a7 230 doctrine absent clear congressional direction.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars any claim that would \u201ctreat[]\u201d an interactive computer service \u201cas the publisher or speaker\u201d of \u201cinformation provided by another information content provider,\u201d 47 U.S.C. \u00a7 230(c)(1); in ordinary legal usage at the time of enactment, a publisher\u2019s functions included deciding whether and how to disseminate, arrange, and present third-party content, which is what algorithmic ranking and recommendation do. Petitioners\u2019 theory still predicates liability on YouTube\u2019s dissemination and prioritization of ISIS-created videos\u2014i.e., publisher-like presentation of another\u2019s information\u2014rather than on YouTube\u2019s creation of the unlawful content itself, and thus falls within the statutory bar as most courts have understood it. Whatever the merits of narrowing \u00a7 230 as a policy matter, a textualist reading does not justify carving out \u201crecommendations\u201d from publishing when they are simply a means of selecting and displaying third-party material; any change should come from Congress, not this Court. Taamneh underscores the demanding nature of ATA/JASTA aiding-and-abetting liability and counsels against expanding civil liability based on generalized allegations about platform features, reinforcing that this claim is not plausibly distinct from treating the defendant as a publisher of third-party speech.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the \u201cpublisher or speaker\u201d of information \u201cprovided by another information content provider,\u201d and algorithmic recommendations are best understood as a modern means of organizing and presenting third-party content\u2014core publishing functions rather than the platform\u2019s own speech. Consistent with Zeran v. AOL\u2019s broad reading of \u201cpublisher\u201d liability, and with cases like Force v. Facebook and Dyroff v. Ultimate Software holding that ranking/recommending user content remains within \u00a7230, petitioners\u2019 theory would expose platforms to liability whenever they sort content for users, a practical result Congress sought to avoid. Even aside from \u00a7230, Twitter v. Taamneh underscores the demanding nature of ATA/JASTA aiding-and-abetting (knowing and substantial assistance), and generalized allegations about ISIS material appearing and being recommended on YouTube do not plausibly establish that level of culpable assistance. The text and the practical consequences both favor immunity here.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service \u201cas the publisher or speaker\u201d of third-party information, and YouTube\u2019s algorithmic recommendations\u2014however automated and tailored\u2014are best understood as a modern form of organizing and displaying user-generated content. Decisions like Force v. Facebook and Dyroff v. Ultimate Software have treated recommendation, ranking, and notification features as publisher functions protected by \u00a7230 when the platform is not alleged to have created or developed the unlawful content itself. Roommates.com\u2019s \u201cmaterial contribution\u201d exception does not fit these allegations absent a showing that YouTube required, induced, or helped develop ISIS content in the way Roommates induced discriminatory preferences, and Taamneh further cautions against expanding ATA/JASTA aiding-and-abetting liability without plausible allegations of knowing and substantial assistance tied to the specific attack. Given Congress\u2019s broad immunity language and the risk that carving out recommendations would swallow \u00a7230\u2019s core protection for how platforms present third-party speech at scale, I would affirm immunity here.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the \u201cpublisher or speaker\u201d of third-party information, and algorithmic recommendations are best understood\u2014textually and practically\u2014as a form of organizing and presenting that third-party content to users. The complaint targets YouTube\u2019s matching and display of ISIS videos created by others, not Google\u2019s creation or \u201cdevelopment\u201d of unlawful content in the Roommates.com sense (where the platform required and structured discriminatory inputs), so Google is not an \u201cinformation content provider\u201d under \u00a7 230(f)(3). Consistent with Zeran and the dominant lower-court approach reflected in Force and Dyroff, imposing ATA/JASTA liability on recommendations would collapse \u00a7 230\u2019s core protection for modern content-sorting tools and create unworkable line-drawing between \u201chosting\u201d and \u201crecommending.\u201d And in any event, Taamneh underscores the demanding \u201cknowing and substantial assistance\u201d requirement for aiding-and-abetting under the ATA, which generalized allegations about the presence of ISIS content and platform-wide recommendation systems do not plausibly satisfy.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars treating an \u201cinteractive computer service\u201d as the \u201cpublisher or speaker\u201d of information \u201cprovided by another information content provider,\u201d and, at common law, \u201cpublishing\u201d encompassed editorial choices about organizing, selecting, and distributing others\u2019 speech\u2014functions closely aligned with algorithmic ranking and recommendations. The history Congress had in view, including Stratton Oakmont v. Prodigy, confirms that \u201cpublisher\u201d liability turned on exercising editorial control, and \u00a7230 was enacted to prevent imposing that liability on online services for third-party content. While Roommates.com recognizes a limit where the platform materially contributes to unlawfulness as an information content provider, recommending third-party ISIS videos does not itself create or develop the illegal content alleged, and imposing ATA/JASTA aiding-and-abetting liability on these publication-like choices would effectively circumvent \u00a7230(c)(1). In any event, Taamneh underscores the demanding requirements of knowing and substantial assistance under JASTA, which generalized allegations about recommendations struggle to satisfy.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Section 230(c)(1) bars claims that would treat an interactive computer service as the \u201cpublisher or speaker\u201d of third-party information, and longstanding precedent has construed \u201cpublisher\u201d broadly to include core editorial functions such as organizing, presenting, and disseminating others\u2019 content. Under Zeran v. America Online, Inc., \u00a7 230 precludes liability premised on decisions about whether and how to display third-party speech, and lower courts (e.g., Force v. Facebook; Dyroff) have treated algorithmic ranking/recommendation as an ordinary means of publishing at internet scale rather than the platform\u2019s creation of the underlying content. Petitioners\u2019 ATA/JASTA theory still targets Google\u2019s dissemination and prioritization of ISIS-created videos\u2014information \u201cprovided by another information content provider\u201d\u2014and expanding liability for algorithmic recommendations would create serious practical and workability problems inconsistent with \u00a7 230\u2019s text and structure. Separately, Taamneh underscores the demanding nature of aiding-and-abetting liability (knowing and substantial assistance), reinforcing judicial restraint in extending novel liability here absent clearer congressional direction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 230(c)(1) bars treating an \u201cinteractive computer service\u201d as the \u201cpublisher or speaker\u201d of \u201cinformation provided by another information content provider,\u201d and algorithmic recommendations are best understood\u2014as a matter of ordinary meaning and settled lower-court practice\u2014as a quintessential publishing function (organizing, selecting, and presenting third-party content), not the platform\u2019s creation or \u201cdevelopment\u201d of the underlying information. Unlike Roommates.com, where the platform materially contributed to illegality by requiring and structuring unlawful content, the complaint here targets YouTube\u2019s distribution and prioritization of ISIS videos created by others, which falls within the publisher-liability core recognized in Zeran and applied to recommendation features in Force and Dyroff. Methodological consistency and respect for widespread precedent favor applying \u00a7 230 absent plausible allegations that YouTube itself became an \u201cinformation content provider\u201d under \u00a7 230(f)(3) by materially contributing to the content\u2019s unlawfulness. Separately, Taamneh underscores the demanding nature of ATA/JASTA aiding-and-abetting allegations, reinforcing that generalized claims about platform algorithms and ISIS content do not plausibly plead knowing and substantial assistance.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Section 230(c)(1) bars treating an interactive computer service as the \u201cpublisher or speaker\u201d of third-party information, and claims premised on YouTube\u2019s algorithmic sorting and recommendation of user-uploaded ISIS videos still target quintessential publishing functions\u2014organizing, prioritizing, and displaying others\u2019 content at scale. Unlike Roommates.com, where the platform materially contributed to illegality by requiring discriminatory answers and thereby \u201cdevelop[ing]\u201d unlawful content, the alleged wrong here is the dissemination of ISIS-created material, not content that Google itself required or created. Consistent with Force and Dyroff, recommendations that operate neutrally over third-party content generally fall within \u00a7 230 immunity, and extending liability on these pleadings would risk sweeping consequences for ordinary online curation without a clear statutory signal from Congress. Separately, Taamneh underscores the demanding \u201cknowing and substantial assistance\u201d standard for ATA/JASTA aiding-and-abetting liability, and generalized allegations about recommendations and availability of ISIS content do not plausibly clear that hurdle.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.733,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0"
+  }
+]

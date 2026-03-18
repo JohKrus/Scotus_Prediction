@@ -1,0 +1,574 @@
+[
+  {
+    "docket": "24-171",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether an internet service provider may be held secondarily liable for subscribers\u2019 copyright infringement based on a \u201cfailure to terminate\u201d repeat infringers when the provider has not intentionally induced infringement and the plaintiffs\u2019 notices do not establish specific, known infringements attributable to particular subscribers.",
+      "legal_provision": "Copyright Act secondary-liability doctrines (contributory and vicarious infringement) and the Digital Millennium Copyright Act safe harbor for service providers, 17 U.S.C. \u00a7 512 (especially \u00a7 512(i)\u2019s repeat-infringer policy requirement).",
+      "petitioner_position": "Cox argues that the Fourth Circuit effectively imposed an overbroad rule that turns alleged inadequacies in a provider\u2019s repeat-infringer termination practices into automatic secondary liability, untethered from traditional limits on contributory and vicarious infringement. Cox and supporting amici contend that secondary liability requires (1) more concrete knowledge of specific infringements (not just receipt of large volumes of automated allegations) and (2) a culpable mental state akin to intentional encouragement/inducement or, at minimum, willful participation\u2014standards the Fourth Circuit diluted by treating continued service and imperfect enforcement as sufficient. They also argue the decision threatens lawful users (wrongful termination based on unverified accusations), destabilizes the DMCA\u2019s calibrated framework (turning \u00a7 512(i) into a de facto affirmative liability rule rather than a condition for safe-harbor eligibility), and creates severe practical and due-process-like problems for network operators who must adjudicate disputes about infringement without court process. Industry amici (including major online platforms and network operators) emphasize that the ruling would pressure providers to over-terminate, chill internet access, and undermine the neutrality and scalability of internet infrastructure.",
+      "respondent_position": "The music-label respondents argue that Cox knowingly and materially contributed to rampant infringement by continuing to provide service to repeat infringers despite receiving extensive infringement notices, and that Cox\u2019s internal policies and practices (as alleged and found below) demonstrated willful blindness or deliberate non-enforcement designed to retain paying subscribers. On their view, traditional contributory and vicarious infringement doctrines already reach a provider that knows infringement is occurring on its network, has practical ability to curb it (including termination), and profits by keeping repeat infringers online; the Fourth Circuit\u2019s approach is framed as a fact-bound application of settled principles rather than a new rule. Respondents also contend that the DMCA safe harbor is not a shield for providers that do not reasonably implement repeat-infringer policies and that the evidence supported liability even apart from safe-harbor questions.",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc. (1984)",
+        "MGM Studios Inc. v. Grokster, Ltd. (2005)",
+        "Luminarias (or analogous) willful-blindness line of cases often invoked in secondary IP liability analyses (exact citations depend on merits briefing)",
+        "Perfect 10, Inc. v. Amazon.com, Inc. (9th Cir. 2007) (commonly cited for knowledge/material contribution standards in online contexts)",
+        "Viacom Int\u2019l, Inc. v. YouTube, Inc. (2d Cir. 2012) (commonly cited on DMCA knowledge standards)",
+        "BMG Rights Mgmt. (US) LLC v. Cox Communications, Inc. (4th Cir. 2018) (the earlier Cox litigation frequently referenced in repeat-infringer/DMCA discussions)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The respondent\u2019s best point remains that a deluge of notices plus continued service looks like willful blindness or material contribution, but that approach risks turning \u00a7 512(i)\u2019s safe-harbor condition into a freestanding \u201cterminate-on-accusation\u201d duty and collapsing Sony/Grokster\u2019s fault limits into mere inaction. Justice Kagan\u2019s reliance on Viacom\u2019s requirement of \u201cspecific and identifiable infringements\u201d usefully clarifies the line: generalized, high-volume allegations\u2014especially automated and not reliably subscriber-linked\u2014do not supply the concrete, actionable knowledge needed for contributory liability without more culpable conduct. Justice Sotomayor\u2019s practical-consequences concern reinforces the institutional and administrability problem: a broad rule would pressure providers to disconnect users without procedural safeguards Congress did not require. I would therefore reverse on narrow grounds, leaving room for liability where notices credibly tie specific infringements to identifiable subscribers and the provider deliberately avoids that knowledge or affirmatively acts to foster infringement.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The respondent\u2019s best point remains that a flood of notices plus continued service equals knowledge and material contribution, but that collapses Sony/Grokster\u2019s fault requirement into an atextual duty to terminate on accusation. Justice Gorsuch is right that secondary liability is judge-made and must be kept within culpability limits; generalized, automated notice volume is not the infringement-specific knowledge those cases require, and ordinary provision of a lawful, multi-use connection is not \u201cmaterial contribution\u201d absent targeted, culpable conduct. Justice Kagan\u2019s invocation of Viacom\u2019s \u201cspecific and identifiable infringements\u201d framework further confirms that knowledge must be concrete enough to permit meaningful, infringement-directed action, not merely statistical certainty. Textually, as the Chief Justice also notes, \u00a7 512(i) is framed as a safe-harbor eligibility condition, and converting it into a freestanding termination duty would be judicial revision of Congress\u2019s scheme rather than interpretation.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondent\u2019s best point remains that a torrent of notices plus continued service could show willful blindness and thus knowledge and material contribution, but that theory still requires reliable, subscriber-linked, infringement-specific information that makes continued inaction culpable under Sony and Grokster. Chief Justice Roberts\u2019s emphasis that \u00a7 512(i) is a safe-harbor condition\u2014not a freestanding termination mandate\u2014matters textually and structurally; reading it as an affirmative duty would improperly expand judge-made secondary liability and create powerful incentives to disconnect lawful users on automated accusation. Justice Kagan\u2019s reliance on Viacom\u2019s \u201cspecific and identifiable infringements\u201d standard reinforces that generalized awareness (even at scale) cannot substitute for actionable knowledge of particular infringements tied to an identifiable user. On this record, absent inducement or deliberate willful blindness to concrete, attributable infringement, the Fourth Circuit\u2019s \u201cfailure-to-terminate\u201d theory goes too far and should be rejected or sharply cabined.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best point remains that a torrent of notices plus continued service can look like willful blindness and material contribution, but without reliable, subscriber-linked identification of concrete infringements it would collapse Grokster\u2019s \u201cpurposeful, culpable\u201d requirement into a terminate-on-accusation regime. Justice Kagan\u2019s reliance on Viacom\u2019s \u201cspecific and identifiable infringements\u201d framing reinforces that the knowledge must be actionable and particularized, not inferred from volume or automated allegations. Chief Justice Roberts is also right that retooling \u00a7 512(i) from a safe-harbor condition into an independent liability lever would force ISPs into quasi-adjudication without the procedural safeguards that protect innocent or vulnerable users from wrongful disconnection. Those real-world consequences, combined with Sony/Grokster\u2019s fault limits, confirm that the Fourth Circuit\u2019s broad failure-to-terminate theory goes too far on this record.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best point remains that repeated notices plus continued service can look like willful blindness and material contribution, but Sony and Grokster require fault keyed to specific, actionable knowledge and culpable conduct, not generalized awareness that a multi-use service is often used unlawfully. Chief Justice Roberts is right that turning \u00a7 512(i)\u2019s repeat-infringer policy condition into a freestanding termination duty would distort the DMCA\u2019s structure and create an unworkable pressure to cut off service on unverified, automated accusations. Justice Sotomayor\u2019s practical-consequences concern reinforces why a notice-volume proxy for knowledge is a poor fit for a coherent, administrable standard and risks over-deterrence of lawful use. I would still reject (or at least sharply narrow) the Fourth Circuit\u2019s \u201cfailure-to-terminate\u201d theory to situations involving subscriber-linked, reliable notice of particular infringements plus deliberate avoidance or other culpable steps.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondent\u2019s best theory\u2014voluminous repeat notices plus continued service equals actionable knowledge and \u201cmaterial contribution\u201d\u2014still tries to convert generalized awareness into the specific, infringement-linked scienter Sony and Grokster require, and to recast ordinary provision of a lawful, multi-use service as culpable conduct. Justice Kagan\u2019s reliance on Viacom\u2019s insistence on \u201cspecific and identifiable infringements\u201d underscores the key limitation: without reliable, subscriber-linked identification of particular infringements (or deliberate willful blindness to such particulars), the ISP lacks the concrete knowledge needed for meaningful, non-overbroad action. I agree with Justice Thomas that \u00a7 512(i) is textually framed as a condition of safe-harbor eligibility, and treating its \u201crepeat infringer\u201d policy requirement as an affirmative termination duty that itself supplies the fault element would be judicial expansion of judge-made secondary liability. Chief Justice Roberts\u2019s warning about the practical and doctrinal consequences reinforces that we should reject (or sharply cabin) a failure-to-terminate theory untethered from specific knowledge and purposeful, culpable conduct.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best point remains that a deluge of notices plus continued service could look like willful blindness and a culpable material contribution. But as Chief Justice Roberts and Justice Kagan emphasize, Sony/Grokster and Viacom\u2019s \u201cspecific and identifiable infringements\u201d framework require knowledge actionable as to particular infringements and users; generalized, automated, and potentially unreliable notices do not by themselves supply that kind of concrete scienter. I also agree with Justice Thomas that \u00a7 512(i) is structured as a safe-harbor condition, and converting it into a freestanding terminate-on-accusation duty would improperly expand judge-made secondary liability and destabilize Congress\u2019s calibrated scheme. On this record, absent inducement or deliberate willful blindness to reliably subscriber-linked infringement plus affirmative culpable conduct, the Fourth Circuit\u2019s failure-to-terminate theory goes too far and warrants reversal or at least vacatur with a narrowed standard.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondent\u2019s best theory\u2014voluminous notices plus continued access equals knowledge and material contribution\u2014still fails under Sony and Grokster because it collapses fault into mere inaction in providing a lawful, multi-use service. Chief Justice Roberts\u2019s point is persuasive that importing \u00a7 512(i)\u2019s safe-harbor condition into the scienter element would effectively create a terminate-on-accusation duty Congress did not write, upsetting the DMCA\u2019s calibrated structure. Justice Kagan\u2019s reliance on Viacom\u2019s requirement of \u201cspecific and identifiable infringements\u201d reinforces that automated, non-subscriber-linked allegations do not supply the particularized knowledge (or willful blindness to such knowledge) that traditional contributory liability demands. Absent inducement or other purposeful, culpable conduct beyond continued service, the Fourth Circuit\u2019s failure-to-terminate theory extends judge-made secondary liability beyond its precedential and textual limits, so reversal remains warranted.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The respondent\u2019s best point remains that a deluge of notices plus continued service could look like willful blindness and material contribution, but that argument still collapses Sony/Grokster\u2019s fault limits into a de facto duty to terminate on accusation\u2014especially where the notices are automated and not reliably subscriber-linked or actionable. Chief Justice Roberts and Justice Kagan persuasively ground the analysis in the need for \u201cspecific and identifiable infringements,\u201d which aligns with Viacom\u2019s articulation and preserves secondary liability as a culpability-based doctrine rather than a volume-based inference. Justice Sotomayor\u2019s practical-consequences concern reinforces my procedural-fairness view: a rule that predictably pressures termination without safeguards risks wrongful deprivation of essential internet access and invites over-enforcement. Section 512(i) can condition safe-harbor eligibility, but it should not be repurposed to supply scienter or material contribution absent inducement or comparably culpable conduct.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Secondary copyright liability under this Court\u2019s precedents requires more than generalized awareness that infringement occurs on a network; it requires at least knowledge of specific infringing activity (or willful blindness to it) coupled with culpable conduct that materially contributes, rather than mere continued provision of a service with substantial lawful uses. Sony cautions against expanding judge-made contributory liability in ways that threaten lawful technologies and users, and Grokster ties liability to \u201caffirmative steps\u201d and \u201cpurposeful, culpable\u201d encouragement\u2014standards not satisfied by unverified, automated notices that do not reliably identify specific infringements attributable to particular subscribers. The DMCA\u2019s structure likewise counsels a narrow approach: \u00a7 512(i)\u2019s repeat-infringer policy is framed as a condition for safe-harbor eligibility, not an automatic liability rule that displaces traditional contributory and vicarious doctrines whenever termination practices are imperfect. To preserve institutional legitimacy and avoid converting \u00a7 512(i) into a freestanding duty to terminate on accusation alone, I would reject a \u201cfailure-to-terminate\u201d theory absent proof of specific, known infringements and a culpable mental state consistent with Sony/Grokster.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The Copyright Act\u2019s text does not itself impose a freestanding duty on internet service providers to terminate subscribers upon receipt of third-party accusations, and \u00a7 512(i) makes adoption and reasonable implementation of a repeat-infringer policy a condition for DMCA safe-harbor eligibility\u2014not an independent basis for secondary liability. Under Sony Corp. of America v. Universal City Studios and MGM v. Grokster, distributing or providing a lawful, multi-use service with knowledge that some users infringe is insufficient for contributory liability absent purposeful inducement or materially culpable participation tied to specific infringements. Imposing liability merely from a \u201cfailure to terminate\u201d based on notices that do not establish particular, known infringements attributable to identified subscribers untethers secondary liability from its traditional fault limits and risks converting \u00a7 512(i) into an affirmative liability rule Congress did not write. The judgment below should therefore be reversed insofar as it permits secondary liability without the concrete knowledge and culpable conduct required by these doctrines.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Traditional contributory liability requires knowledge tied to specific infringing acts and a culpable contribution, and Sony and Grokster caution against imputing intent or liability from the mere provision of a lawful, generally useful technology or service even when the provider knows infringement occurs. Treating an ISP\u2019s alleged \u201cfailure to terminate\u201d as effectively sufficient for secondary liability\u2014especially where notices do not establish specific, known infringements attributable to particular subscribers\u2014risks collapsing those limits and converting generalized allegations into the requisite knowledge and intent. Section 512(i) makes a reasonably implemented repeat-infringer policy a condition for DMCA safe-harbor eligibility, not a freestanding affirmative-liability rule; using it to expand secondary liability would distort Congress\u2019s calibrated scheme in \u00a7 512. As a practical matter, an overbroad rule would pressure providers to terminate based on unverified accusations, with substantial collateral consequences for lawful users and network administration.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Secondary copyright liability cannot rest on an ISP\u2019s mere continued provision of internet access after receiving high-volume, automated accusations that do not establish specific, known infringements attributable to particular subscribers; Grokster requires \u201cpurposeful, culpable\u201d conduct and makes clear that a \u201cfailure to take affirmative steps to prevent infringement\u201d is not enough. Absent proof of intentional inducement or concrete, subscriber-linked knowledge (or deliberate, specific willful blindness) coupled with material contribution, imposing liability risks over-termination and wrongful loss of internet access for innocent or vulnerable users, a severe real-world consequence that Congress sought to mitigate through the DMCA\u2019s calibrated framework. Section 512(i) conditions safe-harbor eligibility on adopting and reasonably implementing a repeat-infringer policy, but it should not be converted into a freestanding affirmative liability rule that pressures providers to adjudicate contested accusations without due-process-like safeguards. Consistent with Sony\u2019s limits on imposing liability on providers of substantial noninfringing uses, the better course is to require clearer culpability and particularized knowledge before attaching ruinous statutory damages for others\u2019 infringements.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Secondary liability for contributory infringement requires knowledge that is sufficiently specific to enable the defendant to act on particular infringements, not mere generalized awareness that infringement occurs on the network. Viacom Int\u2019l, Inc. v. YouTube, Inc. emphasizes \u201cspecific and identifiable infringements of particular individual items,\u201d and Sony and Grokster caution against expansive liability untethered from culpable intent or concrete facilitation. Reading \u00a7 512(i)\u2019s \u201crepeat infringer\u201d policy requirement as effectively converting imperfect termination practices into affirmative liability would distort the DMCA\u2019s calibrated safe-harbor scheme and create unworkable pressure to terminate subscribers on unverified, automated accusations. On these facts\u2014no intentional inducement and notices not establishing known infringements attributable to particular subscribers\u2014the Fourth Circuit\u2019s \u201cfailure to terminate\u201d theory sweeps beyond traditional contributory/vicarious limits and should be rejected or at least narrowed.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Secondary copyright liability is a judge-made doctrine that must remain anchored to fault-based limits and concrete knowledge of specific infringing acts, not generalized awareness inferred from volumes of automated notices. Grokster emphasizes \u201crules of fault-based liability derived from the common law\u201d and reserves liability absent inducement for circumstances showing culpable participation, while Sony cautions against expanding secondary liability in ways that chill technologies (or services) with substantial lawful uses. Section 512(i) makes a reasonably implemented repeat-infringer policy a condition of safe-harbor eligibility, not an affirmative statutory command that converts imperfect termination practices into contributory or vicarious liability without proof of specific knowledge and material contribution. Where the liability theory would effectively impose punitive consequences based on ambiguous, non-adjudicated accusations, the Court should hesitate to extend secondary liability beyond its traditional bounds and leave any recalibration to Congress.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Traditional secondary-liability limits in copyright require more than generalized awareness that infringement occurs on a network; they require knowledge tied to specific infringing acts and culpable conduct, and this Court in Sony rejected theories that would impose liability based on constructive knowledge from distributing a technology with substantial lawful uses. Grokster likewise confined expanded liability to cases of intentional inducement through \u201caffirmative steps\u201d showing \u201cpurposeful, culpable expression and conduct,\u201d a requirement not satisfied by mere continued provision of internet service absent specific, known infringements attributable to identified subscribers. Reading \u00a7 512(i)\u2019s repeat-infringer policy condition as effectively creating an affirmative \u201cfailure-to-terminate\u201d liability rule would destabilize the DMCA\u2019s calibrated safe-harbor framework and create serious practical workability problems by forcing ISPs to adjudicate unverified allegations on pain of massive secondary liability. Precedent, history, and institutional concerns counsel against the Fourth Circuit\u2019s broader approach and favor vacatur or reversal to restore the traditional Sony/Grokster limits.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Traditional contributory infringement requires knowledge of specific acts of infringement and material contribution to them; generalized awareness that infringement occurs on a network, especially from automated notices not reliably tied to particular subscribers or specific infringements, is insufficient absent willful blindness to identified, concrete infringements. Under Grokster, secondary liability is carefully cabined where a service is capable of substantial noninfringing use, and liability based on providing such a service turns on \u201cpurposeful, culpable expression and conduct\u201d or other affirmative steps to foster infringement\u2014not merely continued provision of service coupled with an alleged failure to terminate. Reading 17 U.S.C. \u00a7 512(i) according to its text, the repeat-infringer policy requirement is a condition for safe-harbor eligibility, not an independent affirmative basis to impose secondary liability untethered from contributory/vicarious doctrines. The Fourth Circuit\u2019s \u201cfailure-to-terminate\u201d theory, as applied on notices lacking particularized, attributable infringements, risks converting \u00a7 512(i) into a de facto liability rule and diluting Sony/Grokster\u2019s limits on imposing secondary liability for technologies with substantial lawful uses.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Secondary liability for contributory or vicarious infringement cannot rest on generalized awareness that infringement occurs on a network or on an ISP\u2019s imperfect enforcement of a repeat-infringer policy; it requires knowledge sufficiently specific to particular infringements such that the defendant could realistically act, consistent with Viacom Int\u2019l, Inc. v. YouTube, Inc.\u2019s requirement of \u201cspecific and identifiable infringements.\u201d Treating \u00a7 512(i)\u2019s \u201creasonably implement\u201d condition as an affirmative, near-automatic liability trigger for \u201cfailure to terminate\u201d would distort the DMCA\u2019s calibrated safe-harbor framework and create serious procedural-fairness and practical-consequences concerns by pressuring termination of internet access based on unverified, automated notices. Absent intentional inducement under Grokster or comparable culpable conduct, continued provision of service in the face of nonspecific allegations does not satisfy the traditional limits recognized in Sony and related doctrine. On this record as framed\u2014where notices do not establish known infringements attributable to particular subscribers\u2014liability would overextend secondary infringement and risk wrongful deprivation of access without adequate process.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.763,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  },
+  {
+    "docket": "24-171",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether an Internet service provider may be held contributorily liable for subscribers\u2019 copyright infringement based on a \u201cshould have known\u201d/willful-blindness theory without proof that the ISP had specific knowledge of particular infringements and materially contributed to them, and whether such a rule improperly collapses the DMCA safe-harbor regime into a broad monitoring-and-termination mandate.",
+      "legal_provision": "Copyright Act (17 U.S.C.)\u2014judge-made doctrine of contributory infringement as applied alongside the Digital Millennium Copyright Act safe harbors, especially 17 U.S.C. \u00a7 512 (including \u00a7 512(i) repeat-infringer policy requirements).",
+      "petitioner_position": "Cox argues that the Fourth Circuit expanded contributory infringement beyond its proper limits by allowing liability based on generalized awareness that infringement occurs on the network (or on imperfect, mass automated notices) rather than requiring knowledge tied to specific acts of infringement and a meaningful causal/material contribution to those acts. Cox and supporting amici contend that the decision effectively forces ISPs to police users and terminate access on accusation, undermining the DMCA\u2019s calibrated framework (in which Congress traded safe harbors for defined notice-and-takedown and repeat-infringer policies, not open-ended monitoring). They further warn that the ruling chills lawful speech and internet access, encourages abusive or inaccurate notices, and creates an unworkable standard for access providers who lack practical visibility into users\u2019 alleged peer-to-peer activity and cannot adjudicate fair use or misidentification at scale.",
+      "respondent_position": "Sony and the other rightsholders argue that Cox can be held contributorily liable because it had ample notice of rampant, repeated infringement by identified subscribers and nevertheless continued providing service\u2014allegedly even maintaining internal practices that blunted or avoided meaningful termination\u2014thereby facilitating ongoing infringement. Respondents maintain that contributory liability has long reached defendants who know (or are willfully blind to) infringement and continue supplying the service that enables it, and that nothing in the DMCA immunizes an ISP that fails to reasonably implement a repeat-infringer policy. In their view, Cox\u2019s conduct fits comfortably within traditional secondary-liability principles (knowledge + contribution/inducement) and the Fourth Circuit correctly treated Cox\u2019s evidence of notice and inaction as sufficient for liability.",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc. (1984)",
+        "Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd. (2005)",
+        "Global-Tech Appliances, Inc. v. SEB S.A. (2011) (willful blindness concept, often analogized across IP doctrines)",
+        "Perfect 10, Inc. v. Amazon.com, Inc. (9th Cir. 2007) (knowledge/material contribution framework in online context)",
+        "Luvdarts, LLC v. AT&T Mobility, LLC (9th Cir. 2013) (limits on contributory liability for service providers)",
+        "BMG Rights Management (US) LLC v. Cox Communications, Inc. (4th Cir. 2018) (earlier stage/related Cox secondary-liability and DMCA-repeat-infringer rulings frequently referenced in this litigation background)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Respondent\u2019s best point remains that Cox\u2019s repeated exposure to notices and apparent incentives to keep subscribers could look like deliberate inaction, but Global-Tech does not allow willful blindness to devolve into a \u201cshould have known\u201d duty untethered to specific infringing acts. Justice Kagan\u2019s framing is most persuasive to me: whatever consequence follows from Cox\u2019s alleged failure to \"reasonably implement\" a repeat-infringer policy fits naturally within \u00a7 512(i) and preserves Congress\u2019s choice in \u00a7 512(m) to reject a general monitoring obligation. Sony and Grokster reinforce the need for culpable, act-linked knowledge (or its stringent willful-blindness equivalent) plus material contribution; the Fourth Circuit\u2019s constructive-knowledge approach risks expanding judge-made contributory liability into negligence and destabilizing the DMCA\u2019s calibrated scheme. A narrow disposition clarifying the knowledge standard while leaving safe-harbor questions to the statutory analysis best protects institutional legitimacy and avoids unnecessary doctrinal expansion.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Respondent\u2019s best point is that \u00a7 512(i)\u2019s repeat-infringer condition reflects Congress\u2019s expectation that providers terminate known repeat infringers, and that ignoring voluminous notices can look like willful blindness. But as Justice Kagan correctly emphasizes, Global-Tech cabins willful blindness to a narrow, subjective standard tied to a high probability of a particular fact and deliberate avoidance\u2014so a Fourth Circuit-style \u201cshould have known\u201d theory would improperly collapse knowledge into negligence and, in practice, impose the kind of generalized monitoring duty \u00a7 512(m) rejects. Chief Justice Roberts\u2019s limiting principle\u2014specific, actionable knowledge (or its willful-blindness equivalent) plus material contribution\u2014best fits Sony and Grokster and preserves the DMCA\u2019s enacted compromise without using judge-made contributory liability to create extra-textual obligations. Any deficiency in Cox\u2019s repeat-infringer policy is properly addressed through loss of safe-harbor eligibility under \u00a7 512(i), not by diluting the knowledge element of secondary liability.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Respondent\u2019s strongest practical contention\u2014that an ISP uniquely can deter infringement by terminating repeat offenders and thus mass notices plus inaction should suffice\u2014would effectively convert contributory infringement into a negligence-like duty to police, which Sony and Grokster caution against when a service has substantial lawful uses. Justice Kagan\u2019s reliance on Global-Tech is the most legally constraining response: willful blindness is a narrow substitute for knowledge requiring a subjective belief in a high probability of a particular fact and deliberate avoidance, not generalized awareness that infringement occurs on a network. Chief Justice Roberts\u2019s limiting principle of specific, actionable knowledge plus material contribution also fits the DMCA\u2019s structure, especially \u00a7 512(m)\u2019s rejection of general monitoring duties and \u00a7 512(i)\u2019s treatment of repeat-infringer policies as a safe-harbor condition rather than a freestanding termination mandate. On that understanding, Cox\u2019s alleged policy failures may defeat safe harbor, but they do not justify diluting the traditional knowledge element of judge-made contributory liability.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best deterrence argument\u2014that a \u201cshould have known\u201d standard is needed to stop ISPs from profiting while ignoring rampant infringement\u2014still collapses willful blindness into negligence and predictably induces over-termination, burdening lawful users who depend on internet access for work, education, and basic services. Justice Kagan\u2019s Global-Tech point is decisive for me: willful blindness is a demanding substitute for actual knowledge (high probability of a particular fact plus deliberate avoidance), not generalized awareness of infringement across a network. As Chief Justice Roberts and Justice Jackson emphasize, the DMCA\u2019s structure\u2014especially \u00a7 512(m)\u2019s rejection of general monitoring duties and \u00a7 512(i)\u2019s repeat-infringer condition\u2014supplies the right place to address bad repeat-infringer practices without expanding judge-made contributory liability into a broad policing mandate. I would keep contributory liability tethered to specific, actionable knowledge (or its willful-blindness equivalent) plus material contribution, preserving due process and access while still allowing liability when concrete notices are deliberately disregarded.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best argument remains that a provider can architect its operations to profit from infringement while insulating itself from \u201cknowledge,\u201d but Global-Tech\u2019s willful-blindness test (subjective high-probability belief plus deliberate avoidance) does not permit sliding into a constructive-notice \u201cshould have known\u201d rule. Chief Justice Roberts\u2019s limiting principle\u2014specific, actionable knowledge (or its willful-blindness equivalent) plus material contribution\u2014best preserves the DMCA\u2019s internal coherence with \u00a7 512(m)\u2019s rejection of generalized monitoring duties while still allowing liability when concrete notices identify particular infringements that are then deliberately disregarded. Justice Sotomayor\u2019s concern about over-termination underscores the pragmatic consequences of respondent\u2019s broader standard and confirms that repeat-infringer failures belong primarily in the \u00a7 512(i) safe-harbor analysis rather than by diluting the knowledge element of judge-made contributory liability. Nothing in colleagues\u2019 points undermines that a narrower, act-linked rule both fits the text/structure and yields a workable, administrable boundary for access ISPs.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "The respondent\u2019s best point remains that sustained, credible infringement allegations plus intentional inaction should qualify as willful blindness, but Global-Tech requires a subjective belief in a high probability of a particular fact and deliberate steps to avoid confirming it\u2014something more than generalized awareness that infringement happens on a network. As Justice Kagan and Chief Justice Roberts emphasize, relaxing that tether to specific, identifiable infringements would collapse contributory liability into a constructive-knowledge/monitoring regime, in tension with \u00a7 512(m)\u2019s rejection of general monitoring and Congress\u2019s choice to police repeat-infringer practices through \u00a7 512(i)\u2019s conditional safe harbor. Sony and Grokster reinforce the limiting principles: operating a lawful service with substantial noninfringing uses is not enough absent culpable, act-linked knowledge (or its true willful-blindness equivalent) and material contribution. Whatever Cox\u2019s shortcomings in implementing a repeat-infringer policy, the proper legal lever is the DMCA safe-harbor inquiry, not expansion of judge-made secondary liability beyond its traditional bounds.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s best point remains that repeated infringement notices, especially coupled with an ISP\u2019s internal practices, can show knowledge and make continued service a material contribution. But as Chief Justice Roberts and Justice Kagan emphasize, Global-Tech\u2019s willful-blindness standard is a narrow substitute for actual knowledge and must be tethered to specific, actionable infringements; otherwise it collapses into a negligence-like \u201cshould have known\u201d regime that effectively imposes a generalized duty to monitor and terminate, in tension with \u00a7 512(m). Even if Cox\u2019s handling of repeat infringers is egregious, that problem fits most naturally in the DMCA framework\u2014particularly \u00a7 512(i)\u2019s safe-harbor condition\u2014rather than diluting the traditional contributory-liability elements recognized in Sony and cabined by Grokster. On institutional and precedent-grounded grounds, the limiting principle should remain specific knowledge (or its willful-blindness equivalent) plus meaningful causal contribution to the identified infringements.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Respondent\u2019s best argument is that Cox engineered its policies to make termination effectively impossible, so it \u201cchose not to know\u201d and should be treated as willfully blind. But as Justice Kagan and the Chief Justice emphasize, Global-Tech cabins willful blindness to deliberate avoidance of a specific fact\u2014here, specific, identifiable infringements\u2014rather than a negligence-like inference from pervasive risk or mass, error-prone notices. Reading generalized awareness plus inaction as \u201cknowledge\u201d would functionally reintroduce a monitoring obligation Congress rejected in \u00a7 512(m) and would displace the DMCA\u2019s calibrated mechanism\u2014especially \u00a7 512(i)\u2019s \u201creasonably implement\u201d condition\u2014as the proper vehicle for addressing repeat-infringer failures. Sony and Grokster reinforce the need for an act-linked culpability limiting principle (specific knowledge or its willful-blindness equivalent plus material contribution), which the Fourth Circuit\u2019s broader approach would erode.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "The strongest respondent-side claim\u2014emphasized by the Chief Justice\u2014is that Cox\u2019s exposure to massive notices plus profit-motivated inaction amounts to willful blindness, so liability should attach without pinpointing each file. But as Justice Kagan and Justice Sotomayor stress, Global-Tech makes willful blindness a demanding, subjective substitute for knowledge, and tying it to generalized \u201cpervasive infringement\u201d would effectively revive a negligence/monitoring duty that \u00a7 512(m) rejects and would predictably induce over-termination with serious fairness consequences. Even if Cox\u2019s repeat-infringer practices were sham or strategically toothless, that is best addressed through \u00a7 512(i)\u2019s \u201creasonably implement\u201d condition (and loss of safe harbor), not by diluting the traditional contributory elements into constructive notice. On pragmatic grounds, the administrability and due-process costs of a generalized-knowledge rule for access ISPs outweigh the marginal deterrence benefits when Congress already calibrated incentives through the DMCA framework.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Contributory infringement in the online service-provider context has generally required knowledge tied to specific, identifiable acts of infringement and a realistic ability to do something about them, not mere generalized awareness that infringement occurs on a network. Perfect 10 v. Amazon and similar cases reflect that \u201cspecific knowledge\u201d plus \u201cmaterial contribution\u201d is the limiting principle that keeps secondary liability from becoming an open-ended duty to monitor, and that principle fits with the DMCA\u2019s calibrated scheme in \u00a7 512, including \u00a7 512(i)\u2019s repeat-infringer policy requirement, which does not itself impose a broad monitoring-and-termination mandate. A \u201cshould have known\u201d/willful-blindness rule untethered from particular infringements risks collapsing the safe-harbor framework into an amorphous negligence standard and undermining Congress\u2019s balance, with substantial consequences for lawful access and institutional legitimacy. The narrower course is to require proof that the ISP had sufficiently specific knowledge of particular infringements and materially contributed to them before imposing contributory liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Contributory infringement is a judge-made doctrine that must be applied consistently with Congress\u2019s enacted scheme in the DMCA, and \u00a7 512(i)(1)(A) makes a \u201crepeat infringer\u201d policy a condition of safe-harbor eligibility\u2014not a freestanding, generalized monitoring-and-termination duty that can substitute for the traditional knowledge and material-contribution elements of secondary liability. The Fourth Circuit\u2019s \u201cshould have known\u201d/willful-blindness approach risks collapsing that statutory framework by allowing liability based on generalized awareness of infringement on a network, rather than requiring sufficiently specific knowledge of particular infringements such that the provider could do something about them, as courts have recognized in the online context. Properly understood under Sony and Grokster, secondary liability turns on knowledge tied to infringing acts plus meaningful causation or inducement; absent that specificity and contribution, imposing liability effectively expands copyright beyond its text and Congress\u2019s calibrated safe-harbor regime in \u00a7 512.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Contributory infringement in this Court\u2019s cases requires more than generalized awareness that infringement occurs on a lawful, widely used service; it requires knowing, culpable conduct tied to infringement, and a meaningful nexus to the infringing acts. Sony limits secondary liability where the service is capable of substantial noninfringing uses, and Grokster\u2019s expansion turns on purposeful inducement rather than a \u201cshould have known\u201d negligence standard. A rule imposing liability on an access ISP based on willful blindness untethered from specific infringements risks effectively converting 17 U.S.C. \u00a7 512\u2019s calibrated safe-harbor framework\u2014particularly \u00a7 512(i)\u2019s repeat-infringer policy requirement\u2014into a de facto monitoring-and-termination mandate that Congress did not enact. Given the practical consequences for lawful internet access and the statutory structure of \u00a7 512, I would reject the Fourth Circuit\u2019s diluted knowledge standard and require proof of specific knowledge and material contribution.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Contributory copyright liability requires more than generalized awareness that infringement occurs on a network; it demands knowledge tied to particular infringing acts and a meaningful nexus between that knowledge and the defendant\u2019s assistance, consistent with Aro\u2019s knowledge requirement and the online context reflected in Perfect 10. A \u201cshould have known\u201d standard risks collapsing willful blindness into negligence, contrary to Global-Tech, which treats willful blindness as a stringent substitute for actual knowledge rather than mere constructive notice. Reading contributory liability this broadly would also pressure access providers to engage in pervasive monitoring and termination on accusation, undermining Congress\u2019s calibrated DMCA framework\u2014especially \u00a7 512\u2019s notice-and-takedown structure and \u00a7 512(i)\u2019s repeat-infringer policy requirement\u2014by turning safe harbors into an open-ended policing mandate. The better course is to require specific, actionable knowledge and a material contribution before imposing secondary liability, while leaving failures to \u201creasonably implement\u201d a repeat-infringer policy to the DMCA safe-harbor analysis rather than expanding judge-made liability.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Traditional contributory infringement requires more than generalized awareness that infringement occurs on a system; it requires knowledge tied to specific infringing acts (or willful blindness to such specific acts) plus a material contribution, consistent with Grokster\u2019s emphasis on purposeful facilitation and Global-Tech\u2019s requirement that willful blindness involve a \u201chigh probability\u201d of a particular fact and deliberate avoidance. Reading a \u201cshould have known\u201d standard untethered to particular infringements risks converting \u00a7 512\u2019s calibrated safe-harbor structure\u2014especially \u00a7 512(m)\u2019s rejection of general monitoring duties and \u00a7 512(i)\u2019s repeat-infringer policy requirement\u2014into an open-ended monitoring-and-termination mandate. Cox may still lose DMCA safe-harbor protection if it failed to \u201creasonably implement\u201d a repeat-infringer policy under \u00a7 512(i), but liability should not attach without proof of specific knowledge (or its willful-blindness equivalent) and meaningful causal/material contribution to the infringements at issue. A narrower rule preserves statutory coherence and workability while leaving room for liability in cases of concrete notice and deliberate nonresponse to identified infringements.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Contributory infringement, as this Court has framed it, requires more than generalized awareness that infringement occurs on a network; it requires knowledge tied to specific infringing acts and conduct that materially contributes to those acts, otherwise the rule risks imposing liability on those providing technologies and services with substantial lawful uses. Sony rejected liability resting on broad knowledge and the mere distribution of a tool capable of lawful use, and Grokster confirms that liability turns on purposeful, culpable conduct (such as inducement), not a nebulous \u201cshould have known\u201d standard. Allowing \u201cshould have known\u201d or loosely defined willful blindness to substitute for specific knowledge would effectively convert \u00a7 512\u2019s calibrated safe-harbor scheme\u2014especially \u00a7 512(i)\u2019s repeat-infringer policy requirement\u2014into an open-ended monitoring-and-termination mandate that Congress did not enact. Where the line between lawful and unlawful use is often contestable and notices may be automated or error-prone, the common-law doctrine should not be expanded to punish lawful provision of internet access absent proof of specific knowledge and material contribution.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Traditional contributory-liability principles require specific, act-linked knowledge and culpable participation, not a generalized \u201cshould have known\u201d standard that would effectively impose a broad duty to monitor. Global-Tech\u2019s willful-blindness doctrine is a narrow substitute for knowledge (subjective belief in a high probability plus deliberate avoidance), and applying it to an access ISP based on mass, imperfect notices risks diluting that standard and collapsing \u00a7 512\u2019s calibrated regime\u2014especially \u00a7 512(i)\u2019s repeat-infringer-policy requirement\u2014into an open-ended monitoring-and-termination mandate Congress did not enact. Consistent with Sony and Grokster, we should preserve breathing room for services with substantial lawful uses and avoid expanding judge-made secondary liability in a way that threatens the workability and legitimacy of the DMCA framework. The Fourth Circuit\u2019s approach, as described, appears to relax the knowledge/material-contribution requirements beyond those historical limits.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Contributory infringement, as this Court described in Sony and later in Grokster, requires more than generalized awareness that infringement occurs where the defendant supplies a lawful service with substantial noninfringing uses; it demands at least knowledge tied to particular infringements (or deliberate avoidance of that specific knowledge) and conduct that materially contributes to those infringements. A \u201cshould have known\u201d standard untethered to identifiable infringements risks imposing liability based on the mere provision of internet access, effectively converting secondary liability into a de facto duty to monitor\u2014an obligation the DMCA\u2019s text conspicuously rejects while instead conditioning \u00a7 512 safe harbors on defined measures, including adopting and reasonably implementing a repeat-infringer policy under \u00a7 512(i). Willful blindness, as in Global-Tech, can substitute for actual knowledge only where the defendant takes deliberate steps to avoid learning of specific wrongdoing, not where it simply operates amid a background risk of infringement. Reading the doctrine otherwise would collapse the calibrated statutory scheme into an open-ended monitoring-and-termination mandate inconsistent with the Copyright Act\u2019s text and this Court\u2019s precedents protecting technologies and services capable of substantial lawful use.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Contributory copyright liability requires more than generalized awareness that infringement occurs on a network; it demands knowledge tied to particular infringing acts (or a willful-blindness substitute that is similarly specific) and a meaningful, material contribution to those acts, consistent with Grokster\u2019s focus on purposeful facilitation and Global-Tech\u2019s requirement of knowledge that the induced acts are infringing. Allowing liability on a \u201cshould have known\u201d theory risks collapsing Congress\u2019s calibrated DMCA framework\u2014especially \u00a7 512\u2019s notice-and-takedown and \u00a7 512(i) repeat-infringer policy\u2014into an open-ended monitoring-and-termination mandate that would predictably overcut access and lawful speech based on automated or erroneous accusations. Procedural fairness concerns are acute where access providers cannot reliably adjudicate infringement, fair use, or misidentification at scale, making a negligence-like standard practically likely to produce wrongful terminations and uneven enforcement. The better rule is that willful blindness, if available, must rest on deliberate avoidance of specific, identified infringements, not broad risk awareness, preserving both traditional secondary-liability limits and the DMCA\u2019s statutory compromise.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.772,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0"
+  }
+]

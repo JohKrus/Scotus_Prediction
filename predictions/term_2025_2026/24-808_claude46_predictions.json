@@ -1,0 +1,672 @@
+[
+  {
+    "docket": "24-808",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Federal Rule of Civil Procedure 60(c)(1)'s 'reasonable time' requirement imposes any time limit on a Rule 60(b)(4) motion to vacate a default judgment that is void for lack of personal jurisdiction.",
+      "legal_provision": "Federal Rules of Civil Procedure 60(b)(4) and 60(c)(1), which together govern relief from void judgments and the timing requirements for such motions respectively.",
+      "petitioner_position": "Coney Island Auto Parts argues that a judgment entered without personal jurisdiction is void ab initio and therefore a legal nullity, meaning Rule 60(c)(1)'s 'reasonable time' requirement cannot logically apply to bar a motion to vacate such a judgment at any point in time, because one cannot ratify or legitimize a judgment that never had legal existence in the first place. Petitioner further contends that settled legal principles treating jurisdictionally void judgments as nullities should override the procedural time constraints of Rule 60(c)(1), and that the Sixth Circuit erred in applying a timeliness bar to what is fundamentally a challenge to the court's foundational authority to act.",
+      "respondent_position": "Trustee Burton argues that Rule 60(c)(1) unambiguously states that 'all' Rule 60(b) motions, including those under subsection (b)(4), must be filed within a reasonable time, with no exception carved out for void judgments. Respondent contends that the Supreme Court itself recently confirmed this universal application in Kemp, that allowing indefinite challenges to judgments would create chaos and undermine finality of judgments, and that petitioner's years-long delay in seeking vacatur \u2014 particularly while a Chapter 7 bankruptcy estate was nearly fully administered \u2014 exemplifies the kind of gamesmanship the Federal Rules are designed to prevent. Respondent also argues the case does not warrant Supreme Court review as it involves a narrow, well-settled procedural dispute.",
+      "key_precedents": [
+        "Kemp v. United States (confirming all Rule 60(b) motions must be filed within a reasonable time)",
+        "Klapprott v. United States, 335 U.S. 601 (1949) (addressing Rule 60(b)(4) and assumption of no definite time limit for void judgment challenges)",
+        "United Student Aid Funds, Inc. v. Espinosa, 559 U.S. 260 (2010) (cited approvingly for proposition that void judgments may be attacked at any time under Rule 60(b)(4))",
+        "United States v. Boch Oldsmobile, Inc., 909 F.2d 657 (1st Cir. 1990) (cited in Espinosa regarding void judgment attacks)",
+        "U.S. For Use & Benefit of Mosher Steel Co. v. Fluor Corp., 436 F.2d 383 (2d Cir. 1970) (addressing court discretion in referring parties to rendering court)",
+        "Allstate Life Ins. Co. v. Linter Grp. Ltd., 994 F.2d 996 (2d Cir. 1993) (addressing abuse of discretion standard for comity decisions)",
+        "Link v. Wabash R.R. Co., 370 U.S. 626 (1962) (establishing inherent power of district courts to manage dockets)",
+        "In re World Trade Ctr. Disaster Site Litig., 722 F.3d 483 (2d Cir. 2013) (affirming courts' inherent docket management power)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan's movement to the petitioner's side \u2014 driven by the combination of Justice Thomas's void-as-term-of-art argument and Justice Kavanaugh's Espinosa distinction \u2014 confirms that the narrow holding I have been advocating is the correct ground for a majority opinion. The key insight, which I now state with greater confidence, is that applying Rule 60(c)(1)'s reasonable-time bar to a judgment void for lack of personal jurisdiction would not merely regulate procedure but would transform a constitutional nullity into a valid judgment through procedural inaction \u2014 an internal incoherence that Justice Kagan correctly identifies as fatal to the respondent's position. Justice Alito's structural argument about the drafters writing 'all' without exception remains the most serious challenge, but as Justice Barrett persuasively explains, this argument misapprehends 'void' as an ordinary adjective rather than a legal term of art whose common-law content the drafters necessarily incorporated, meaning the text itself supplies the limitation without requiring additional carve-outs. As Chief Justice, I would assign myself the majority opinion and draft it narrowly: Rule 60(c)(1)'s reasonable-time requirement cannot operate as an absolute bar to a Rule 60(b)(4) motion challenging personal jurisdiction that was never litigated or waived, while preserving courts' equitable discretion to consider actual notice and prejudice \u2014 a formulation that addresses Justice Kagan's gamesmanship concerns, respects Justice Alito's finality interests, and holds tightly to the personal jurisdiction context without resolving broader questions about other categories of void judgments.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Gorsuch's textualist challenge \u2014 that reading a common-law exception into 'all' based on background legal principles resembles the purposivist reasoning I have criticized \u2014 is the strongest argument against my position, and I must engage it directly. But the response is that I am not importing an extrinsic exception; I am reading 'void' in Rule 60(b)(4) as the legal term of art it was when the Rule was drafted, which means the text itself, properly understood in its original public meaning, incorporates the common-law understanding that a nullity cannot be ratified by procedural inaction. Justice Alito's structural argument \u2014 that the drafters knew how to create exceptions and didn't exempt (b)(4) \u2014 is undermined by the same logic: the drafters also knew that 'void' carried a fixed legal meaning, and their silence on an explicit exception is better read as reliance on that established meaning than as an intent to override it. Justice Kagan's Espinosa point remains the most serious challenge, but Espinosa's forfeiture holding rested on actual notice and participation, not on a pure personal jurisdiction defect never litigated \u2014 and I cannot read that holding to resolve the distinct constitutional question of whether a court can acquire jurisdiction through lapse of time, which World-Wide Volkswagen forecloses.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas's void-ab-initio argument is the most sophisticated challenge to my position, but it ultimately asks me to do precisely what I criticize in other contexts: read a common-law background principle into unambiguous statutory text to create an exception the drafters did not write. Rule 60(c)(1) says 'all' Rule 60(b) motions \u2014 the drafters knew the void/voidable distinction and created explicit exceptions for (b)(1)-(3) but not (b)(4), and that structural choice must mean something. Justice Barrett's Rules Enabling Act argument is creative but misapplied: Rule 60(c)(1) does not abridge the substantive right to challenge a void judgment, it merely requires the challenge be brought within a reasonable time \u2014 a quintessentially procedural constraint \u2014 and courts applying 'reasonable time' can and should give substantial weight to the constitutional gravity of a personal jurisdiction defect without eliminating the requirement entirely. The practical reality here, as Justice Kagan correctly emphasizes, is that Coney Island had actual notice since April 2016 and waited while a bankruptcy estate was nearly fully administered, and Espinosa's actual holding \u2014 not its dicta \u2014 demonstrates that even void-judgment challenges can be forfeited through inaction with actual notice, which is fatal to the categorical exemption my colleagues propose.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan raises the most compelling counterargument \u2014 that Espinosa itself held a party forfeits Rule 60(b)(4) rights through inaction with actual notice, making the 'at any time' language mere dicta, and that Kemp confirmed universal application of Rule 60(c)(1). But this argument conflates the question of whether a reasonable time requirement applies with whether it can function as an absolute bar that effectively ratifies a constitutionally void judgment. The critical distinction, which Justice Barrett articulates well through the Rules Enabling Act lens, is that a judgment void for lack of personal jurisdiction is a legal nullity \u2014 there is no judgment upon which a timeliness bar can operate, and permitting procedural delay to cure a constitutional defect would allow courts to acquire personal jurisdiction through laches, which World-Wide Volkswagen categorically forecloses. Justice Alito's textualist point about the drafters' silence is undermined by the fact that 'void' in Rule 60(b)(4) is a legal term of art with established meaning \u2014 as Justice Thomas correctly notes \u2014 that the drafters incorporated with full awareness of its common law implications, meaning the Rule's text itself, properly understood, does not support applying a timeliness bar to constitutional nullities. The real-world consequences Justice Kagan identifies regarding gamesmanship are legitimate concerns, but they are better addressed through the flexible 'reasonable time' inquiry itself rather than by allowing finality interests to override a constitutional floor.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.44999999999999996,
+        "reasoning": "Justice Barrett's argument has finally moved me, but not for the reason she states. What genuinely shifts my analysis is the combination of Justice Thomas's point about 'void' as a legal term of art and Justice Kavanaugh's narrow formulation: if 'void' in Rule 60(b)(4) incorporates its common law meaning \u2014 a nullity incapable of acquiring validity \u2014 then applying Rule 60(c)(1)'s reasonable-time bar to such a judgment doesn't merely regulate procedure, it effectively transforms a nullity into a valid judgment through procedural inaction, which is internally incoherent as a matter of textual interpretation. I had argued that Espinosa's actual holding forecloses the unlimited-time theory, but Justice Kavanaugh correctly distinguishes Espinosa: that case involved a party who had actual notice and participated in proceedings, making forfeiture analytically coherent because there was something to forfeit. Here, where personal jurisdiction was never litigated and never waived, the 'reasonable time' bar cannot do the same work without raising the constitutional concerns Justice Barrett identifies under the Rules Enabling Act. I remain troubled by the gamesmanship problem and would write separately to emphasize that courts must scrutinize claimed lack of notice with great rigor, and that the holding should be cabined narrowly to personal jurisdiction defects never litigated \u2014 but I cannot in good conscience hold that procedural inaction can ratify what the Constitution renders void from inception.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that 'void' is a legal term of art with settled historical meaning is the most sophisticated challenge to my position, and I genuinely wrestle with it \u2014 but as a textualist, I cannot accept that background common-law principles silently override the plain text of Rule 60(c)(1)'s 'all' without any textual hook in the Rule itself. The drafters knew the void/voidable distinction intimately, as evidenced by their deliberate one-year cap on (b)(1)-(3) motions, and their silence on exempting (b)(4) from the reasonable-time requirement is itself textual evidence against reading in such an exemption. Justice Thomas's argument that 'void' as a term of art carries the common-law implication of susceptibility to attack 'at any time' is creative, but it essentially asks me to import a substantive legal doctrine through a definitional back door \u2014 precisely the kind of purposivist reasoning I resist when applied to statutes, and I see no principled reason to apply it differently to the Federal Rules. Justice Kagan correctly identifies that Espinosa's actual holding \u2014 forfeiture through inaction with actual notice \u2014 cuts against the unlimited-time theory, and I cannot reconcile the petitioner's position with that holding without treating it as a dead letter.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan's pragmatic argument \u2014 that courts can give substantial weight to the constitutional gravity of a personal jurisdiction defect when assessing 'reasonableness' without eliminating the requirement entirely \u2014 is genuinely attractive and represents the most intellectually honest version of the respondent's position. But I think it ultimately fails because it converts a categorical constitutional question (did this court ever have authority to enter this judgment?) into a balancing test that will produce inconsistent results and, more importantly, will sometimes result in courts ratifying judgments they never had constitutional power to enter. Justice Gorsuch's textualist point about Espinosa's actual holding giving me the most pause \u2014 if void-ab-initio truly precluded any timeliness bar, Espinosa would have come out differently \u2014 but I read Espinosa as turning on actual notice and participation, which functionally distinguishes it from a case where the defendant had no meaningful opportunity to contest jurisdiction. Chief Justice Roberts's proposed narrow holding, which I join, preserves finality interests by allowing courts to consider actual notice and prejudice while refusing to let 'reasonable time' operate as an absolute bar that effectively launders a constitutional defect through procedural inaction.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Alito's textualist argument \u2014 that the drafters wrote 'all' without exception and knew how to carve out exemptions \u2014 remains the strongest challenge to my position, but it ultimately fails because it treats 'void' in Rule 60(b)(4) as an ordinary adjective rather than a legal term of art with settled common law content. When the drafters incorporated 'void' into Rule 60(b)(4), they imported its established meaning: a judgment that never legally existed and is incapable of acquiring validity through any procedural mechanism, including lapse of time. Justice Gorsuch's concern that this reasoning is 'purposivist' misapprehends the methodology \u2014 I am not looking behind the text to legislative intent, but rather giving the text's own words their original public meaning, and 'void' in 1938 had a fixed legal meaning that the drafters necessarily incorporated. Justice Kagan's pragmatic point about Espinosa's actual holding deserves serious engagement: Espinosa held forfeiture on facts involving actual notice and participation, but that holding is fully consistent with my position \u2014 'reasonable time' can do real work in assessing whether delay was justified, but it cannot function as an absolute bar that retroactively confers jurisdiction a court never possessed, because that would require Rule 60(c)(1) to abridge the substantive constitutional right not to be bound by a judgment entered without personal jurisdiction, in direct violation of the Rules Enabling Act.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan's pragmatic argument \u2014 that courts can give constitutional weight to personal jurisdiction defects within the 'reasonable time' inquiry rather than eliminating the requirement entirely \u2014 is genuinely attractive and addresses real gamesmanship concerns, but it ultimately fails because it leaves the constitutional floor to the discretion of individual district courts, meaning a party's due process right not to be bound by a void judgment would vary based on judicial temperament rather than constitutional principle. Justice Gorsuch's textualist point that the drafters knew how to create exceptions and didn't is the strongest structural argument against my position, but as Justice Barrett correctly identifies, this argument misapprehends what 'void' means as a legal term of art \u2014 the drafters incorporated that term with full awareness of its common law content, which itself supplies the exception without requiring additional textual carve-outs. My background as a public defender reinforces what the constitutional analysis compels: the parties most likely to face void-judgment situations are those who lacked resources to respond to the original proceeding, and allowing finality interests to override a constitutional nullity would systematically disadvantage the most vulnerable litigants. I join Chief Justice Roberts's narrow formulation \u2014 'reasonable time' cannot operate as an absolute bar where a judgment is void for lack of personal jurisdiction, though courts retain equitable discretion to consider actual notice and prejudice \u2014 which addresses Justice Kagan's legitimate concerns without subordinating constitutional rights to procedural default.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A judgment entered without personal jurisdiction is void ab initio under established due process principles articulated in World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), which distinguishes personal jurisdiction defects \u2014 implicating constitutional due process \u2014 from subject matter jurisdiction defects that render judgments merely voidable. While Kemp v. United States confirmed that Rule 60(c)(1)'s 'reasonable time' requirement applies broadly to Rule 60(b) motions, that case did not squarely address the constitutional dimension of a void-for-lack-of-personal-jurisdiction judgment, and Espinosa's language acknowledging that void judgments 'may be attacked at any time' under Rule 60(b)(4) reflects a deeper structural principle that a court simply cannot legitimize what it had no power to do. My minimalist instinct counsels a narrow holding: rather than declaring Rule 60(c)(1) wholly inapplicable to all void judgments, I would hold that where a judgment is void for lack of personal jurisdiction \u2014 a constitutional defect \u2014 the 'reasonable time' inquiry must account for the fundamental nature of that defect, and courts may not apply a timeliness bar that effectively ratifies a constitutionally void judgment, though they retain discretion to consider equitable factors such as prejudice and delay in fashioning relief.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "As an originalist and textualist, I must grapple seriously with Rule 60(c)(1)'s plain text stating 'all' Rule 60(b) motions must be filed within a reasonable time, and Kemp's confirmation of this universal application. However, the deeper textual and historical question is what 'void' means as a legal term of art \u2014 a judgment void ab initio for lack of personal jurisdiction was understood at common law and at the Founding to be a nullity incapable of legal effect, meaning there is nothing upon which a time limit can operate; one cannot be 'late' in challenging something that never legally existed. The word 'void' in Rule 60(b)(4) must be read in light of its established legal meaning, which courts have consistently understood to mean a judgment susceptible to collateral attack at any time, as reflected in Klapprott and the dicta in Espinosa. Furthermore, Kemp did not directly address or resolve the specific question of whether 'reasonable time' can bar a 60(b)(4) motion challenging a jurisdictionally void judgment, leaving that precise question open despite its broad language, and the overwhelming circuit consensus prior to the Sixth Circuit's decision reflects the correct understanding of the interplay between these provisions.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "The text of Rule 60(c)(1) is unambiguous: 'A motion under Rule 60(b) must be made within a reasonable time,' with no exception carved out for subsection (b)(4). As a textualist, I cannot manufacture an exemption that the drafters chose not to include \u2014 and notably, the drafters demonstrated they knew how to create subsection-specific rules by imposing the one-year cap on (b)(1)-(3) motions, yet imposed no such carve-out for (b)(4). This Court's recent decision in Kemp v. United States, 596 U.S. 528, 533 (2022), confirmed that 'all' Rule 60(b) motions must be filed within a reasonable time, and the practical consequences of allowing indefinite attacks on judgments \u2014 particularly here, where a Chapter 7 bankruptcy estate was nearly fully administered \u2014 would create precisely the kind of chaos and gamesmanship that finality principles are designed to prevent. While I acknowledge the historical equity tradition regarding void judgments, that tradition cannot override the plain text of a validly enacted Federal Rule of Civil Procedure.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "A judgment entered without personal jurisdiction is void ab initio under due process principles established in World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), which held that such judgments are void and not entitled to full faith and credit \u2014 a constitutional defect categorically different from mere subject matter jurisdiction errors. While Rule 60(c)(1) states that 'all' Rule 60(b) motions must be filed within a reasonable time, applying a timeliness bar to a Rule 60(b)(4) motion challenging a void judgment creates an absurdity: it would allow courts to acquire personal jurisdiction through the mere passage of time, effectively permitting procedural rules to override constitutional due process guarantees. The language in Espinosa approvingly citing the proposition that void judgments 'may be attacked at any time' reflects a substantive constitutional principle that cannot be overridden by a procedural timing rule, and Klapprott's assumption of no definite time limit for void judgment challenges reinforces that Rule 60(c)(1)'s reasonable time requirement must yield when the underlying judgment is constitutionally void. From a practical standpoint, allowing a bankruptcy trustee to enforce a judgment that a court never had constitutional authority to enter \u2014 simply because the defendant delayed \u2014 would impose severe real-world consequences on a party whose fundamental due process rights were violated from the outset.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Rule 60(c)(1)'s text is unambiguous: motions under Rule 60(b) \u2014 all of them, including subsection (b)(4) \u2014 'must be made within a reasonable time,' and Kemp v. United States confirmed this universal application without carving out an exception for void judgments. While I am sympathetic to the theoretical elegance of the petitioner's argument that a legal nullity cannot be ratified by delay, the practical consequences of adopting a truly unlimited time horizon for Rule 60(b)(4) motions would be devastating to finality and would invite precisely the kind of strategic gamesmanship evident here \u2014 where Coney Island had actual notice of the default judgment by April 2016 yet waited years while a bankruptcy estate was nearly fully administered. Espinosa itself, though containing broad language about void judgments being attackable 'at any time,' actually held that a party forfeits Rule 60(b)(4) rights through inaction with actual notice, making that sweeping language dicta that cannot override the Rule's plain text. A workable, pragmatic reading of the Rules requires that 'reasonable time' do real work even in the void-judgment context, with courts applying a flexible, fact-specific standard that accounts for actual notice, diligence, and prejudice to relying parties.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain text of Rule 60(c)(1) is unambiguous: it states that motions under Rule 60(b) 'must be made within a reasonable time,' and it applies this requirement to 'all' such motions without carving out an exception for subsection (b)(4). As a textualist, I cannot manufacture an exception the drafters did not write, however appealing the underlying logic of void-ab-initio theory may be. Espinosa itself recognized that parties can forfeit Rule 60(b)(4) rights through inaction, and the Court's recent decision in Kemp confirmed the universal application of Rule 60(c)(1) to all Rule 60(b) motions. While I am sympathetic to the due process concerns underlying personal jurisdiction voidness \u2014 which are constitutionally weightier than subject matter jurisdiction defects \u2014 the proper remedy for a harsh result is for the Advisory Committee to amend the Rules, not for courts to rewrite them; Coney Island's years-long delay with actual notice since April 2016 while a bankruptcy estate was nearly fully administered is precisely the kind of prejudicial gamesmanship that a reasonable-time requirement is designed to prevent.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A judgment entered without personal jurisdiction violates due process under World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), rendering it void ab initio rather than merely voidable \u2014 a distinction with constitutional dimensions that distinguishes this case from subject matter jurisdiction defects addressed in cases like Dailide. While Rule 60(c)(1) facially applies to 'all' Rule 60(b) motions, Espinosa itself acknowledged that void judgments premised on due process violations occupy a special category, and the historical treatment reflected in Klapprott and the Espinosa dicta suggesting such motions may be brought 'at any time' reflects a deeply rooted tradition that courts lack power to legitimize constitutionally void acts through procedural default. My institutionalist concern for finality gives me pause, and I would not extend this ruling broadly, but where a judgment is void for lack of personal jurisdiction \u2014 a constitutional floor \u2014 applying a 'reasonable time' bar would effectively allow courts to acquire jurisdiction by laches, which conflicts with foundational principles this Court has long recognized. I would hold narrowly that Rule 60(c)(1)'s reasonable time requirement does not bar a Rule 60(b)(4) motion challenging a judgment void for lack of personal jurisdiction, while leaving open whether equitable doctrines might address extreme cases of bad-faith delay.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "A textualist and originalist analysis of Rule 60(b)(4) and 60(c)(1) must grapple with the fundamental distinction between void and voidable judgments. While Rule 60(c)(1) facially applies to 'all' Rule 60(b) motions, a judgment entered without personal jurisdiction is not merely erroneous but constitutionally void under due process principles recognized in World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), meaning there is no valid judgment upon which a timeliness bar can operate \u2014 one cannot ratify a legal nullity through procedural inaction. Espinosa, 559 U.S. 260 (2010), while not squarely resolving the 60(c)(1) interaction, meaningfully distinguished personal jurisdiction defects (which implicate due process and render judgments void) from subject matter jurisdiction defects (which may only render judgments voidable), and the Court's language that void judgments 'may be attacked at any time' under Rule 60(b)(4) reflects a substantive constitutional principle that a procedural timing rule cannot override without raising serious due process concerns. Applying Kemp's general confirmation that all 60(b) motions require reasonable time filing cannot be read to extinguish a constitutional right to challenge a judgment that was never lawfully entered, as such a reading would subordinate constitutional void-judgment doctrine to a procedural rule in a manner inconsistent with the Rules Enabling Act's command that the Federal Rules not abridge substantive rights.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "A judgment entered without personal jurisdiction is void ab initio under foundational due process principles recognized in World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), which held that such judgments are void and not entitled to full faith and credit \u2014 a categorically different status from merely voidable judgments. While Rule 60(c)(1) facially applies to 'all' Rule 60(b) motions, the Court's language in Espinosa and the historical treatment in Klapprott strongly suggest that Rule 60(b)(4) challenges to jurisdictionally void judgments occupy a unique constitutional space where the 'reasonable time' inquiry cannot function as an absolute bar, because permitting a court to enforce a judgment it never had constitutional authority to enter implicates due process in a way that mere finality interests cannot override. From a pragmatic standpoint rooted in procedural fairness, applying a timeliness bar to extinguish a challenge to a judgment that was constitutionally void from inception would allow courts to launder jurisdictional defects through the passage of time \u2014 a result that undermines the very foundation of judicial authority and disproportionately harms parties, like those in default proceedings, who may lack resources or legal sophistication to respond promptly. The distinction the research materials draw between subject matter jurisdiction (potentially voidable) and personal jurisdiction (void, implicating due process) is constitutionally significant and counsels against mechanically applying Kemp's general rule to this specific category of void judgments.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.748,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.44999999999999996,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3"
+  },
+  {
+    "docket": "24-808",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether Federal Rule of Civil Procedure 60(c)(1)'s 'reasonable time' requirement imposes any time limit on a Rule 60(b)(4) motion to vacate a default judgment that is void for lack of personal jurisdiction.",
+      "legal_provision": "Federal Rules of Civil Procedure 60(b)(4) \u2014 permitting relief from a void judgment \u2014 and Rule 60(c)(1) \u2014 requiring that any Rule 60(b) motion 'must be made within a reasonable time'",
+      "petitioner_position": "Coney Island Auto Parts argues that because a judgment entered without personal jurisdiction is void ab initio and a legal nullity, Rule 60(c)(1)'s 'reasonable time' requirement cannot logically apply to Rule 60(b)(4) motions challenging such judgments; a void judgment has no legal existence and therefore should be subject to challenge at any time without temporal restriction, consistent with the historical treatment of void judgments under common law and prior Supreme Court precedent suggesting no definite time limit applies.",
+      "respondent_position": "Chapter 7 Trustee Burton argues that Rule 60(c)(1)'s plain text unambiguously applies to 'all' Rule 60(b) motions without exception, including 60(b)(4) motions, as recently confirmed by the Supreme Court in Kemp; permitting indefinite challenges to judgments would undermine finality, enable gamesmanship, and produce chaos in judicial administration \u2014 as illustrated by petitioner's attempt to unwind a nearly fully administered bankruptcy estate seven years after the debtor ceased operating.",
+      "key_precedents": [
+        "Kemp v. United States (Supreme Court \u2014 confirming all Rule 60(b) motions must be filed within a reasonable time)",
+        "Klapprott v. United States, 335 U.S. 601 (1949) (assumed no definite time limit applied to Rule 60(b)(4) motions and addressed merits of voidness)",
+        "United Student Aid Funds, Inc. v. Espinosa, 559 U.S. 260 (2010) (cited approvingly sources suggesting void judgments may be attacked at any time)",
+        "United States v. Boch Oldsmobile, Inc., 909 F.2d 657 (1st Cir. 1990) (cited in Espinosa regarding void judgment challenges)",
+        "U.S. For Use & Benefit of Mosher Steel Co. v. Fluor Corp., 436 F.2d 383 (2d Cir. 1970) (court of registration discretion to defer to rendering court)",
+        "Allstate Life Ins. Co. v. Linter Group Ltd., 994 F.2d 996 (2d Cir. 1993) (abuse of discretion standard for comity decisions)",
+        "Link v. Wabash R.R. Co., 370 U.S. 626 (1962) (district courts' inherent power to manage dockets)",
+        "In re World Trade Center Disaster Site Litigation, 722 F.3d 483 (2d Cir. 2013) (inherent docket management authority)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Jackson's harmonization argument continues to be the most intellectually serious challenge to my position, and I want to be precise about why it ultimately fails under my minimalist methodology: the argument that 'reasonable time' can stretch to effectively indefinite periods for void judgments is not wrong as a matter of contextual interpretation, but it asks courts to apply a standard while simultaneously telling them that one entire category of cases will always satisfy it \u2014 which is a categorical rule wearing the clothing of a flexible standard. Justice Barrett's formulation remains the narrowest defensible ground: Rule 60(c)(1) applies to all Rule 60(b) motions including (b)(4), but jurisdictional voidness is a heavily weighted factor in the reasonableness calculus that may counsel considerable leniency, without eliminating the constraint altogether. This preserves Kemp's textual holding, avoids reading a categorical exemption into the Rules through interpretive improvisation, and leaves the Advisory Committee free to draw a brighter line if experience demonstrates one is needed \u2014 which is precisely the kind of institutional humility my minimalist approach demands. The seven-year delay seeking to unwind a nearly fully administered bankruptcy estate is a concrete illustration of why some temporal constraint must remain judicially enforceable, even under a generous standard.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's synthesis \u2014 that 'reasonable time' applies but jurisdictional voidness counsels 'considerable leniency' \u2014 remains the most intellectually serious challenge to my position, but I cannot accept it as genuinely distinct from the petitioner's result in cases like this one. If the nature of the defect (a void judgment entered without personal jurisdiction, with no notice to the defendant) renders a seven-year delay reasonable, then Barrett's formulation is not a meaningful constraint but a categorical exemption wearing the costume of a flexible standard \u2014 and I would rather be honest about what the law requires than adopt a nominally textualist holding that produces the same practical outcome while obscuring the reasoning. My originalist methodology compels me to fix 'reasonable time' by reference to the legal backdrop against which Rule 60(c)(1) was enacted, and that backdrop \u2014 as the Advisory Committee Notes confirm as contemporaneous evidence of original meaning \u2014 universally treated void judgments as legal nullities attackable at any time; this is not legislative history overriding text but the very context that gives 'reasonable' its content. Justice Alito's structural argument that the drafters knew how to write categorical exemptions is genuinely weighty, but the drafters also knew how to write 'within a reasonable time' as a standard whose application to void judgments would be informed by the common law tradition they were codifying, and their failure to write an explicit carve-out does not mean they intended 'reasonable time' to impose a constraint the common law never recognized for this category of defect.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.9,
+        "reasoning": "Justice Thomas makes the most compelling opposing argument, invoking Advisory Committee records suggesting drafters understood void judgments to be attackable 'at any time' \u2014 but as a textualist, I cannot allow legislative history or drafting notes to override the unambiguous enacted text of Rule 60(c)(1), which states that a motion 'must be made within a reasonable time' with no exception carved out for subsection (b)(4). The drafters' structural choice to impose a specific one-year hard cap on Rule 60(b)(1)-(3) while leaving (b)(4) subject only to 'reasonable time' demonstrates they knew how to craft categorical distinctions \u2014 and their failure to exempt (b)(4) from temporal constraints entirely is a deliberate textual choice I must respect. Justice Jackson's harmonization argument \u2014 that 'reasonable time' for a void judgment may effectively be indefinite \u2014 is creative but ultimately circular: it reads the exception back into the text through the back door of interpretation, producing the same result as a categorical exemption while pretending fidelity to the Rule's language. Kemp's unambiguous holding that 'all' Rule 60(b) motions must be filed within a reasonable time, combined with the practical chaos of permitting a party to unwind a nearly fully administered bankruptcy estate seven years after the fact, confirms that any policy recalibration belongs to the Rules Advisory Committee, not this Court.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Alito's textualist argument remains the strongest challenge to my position \u2014 his point that the drafters knew how to write categorical exemptions and chose not to create one for 60(b)(4) is genuinely difficult to dismiss. However, I am persuaded by Justice Jackson's response that this argument conflates the existence of a time limit with its content: 'reasonable time' is not self-defining, and the historical legal backdrop in which void judgments were universally understood as legal nullities must inform what 'reasonable' means in this context. Justice Barrett's concession that 'reasonable time' is fact-specific and that jurisdictional voidness 'may counsel considerable leniency' actually vindicates the petitioner's practical position \u2014 if a court must give 'considerable leniency' to a defendant who had no notice of a void judgment, the functional difference between that and no temporal bar is negligible, and the respondent's position reduces to a formal distinction without meaningful practical consequence. The due process foundations of personal jurisdiction doctrine, and the disproportionate harm to resource-poor defendants who lacked notice of improper service, counsel against allowing finality principles to permanently insulate judgments that were constitutional nullities from the moment of entry.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's harmonization argument continues to be the most intellectually serious challenge to my position, and I want to be precise about why it ultimately fails under my pragmatic textualist methodology: the argument that 'reasonable time' can yield an effectively indefinite period for void judgments is not wrong as a matter of legal logic, but it produces a categorical rule through interpretive sleight of hand that the text does not authorize and that the Advisory Committee \u2014 not this Court \u2014 should craft explicitly if warranted. Justice Barrett's synthesis remains the most defensible ground: 'reasonable time' in Rule 60(c)(1) applies to all Rule 60(b) motions including (b)(4), but jurisdictional voidness is a heavily weighted factor in the reasonableness calculus, meaning courts must still make findings and cannot simply wave through any delay however long. Justice Thomas's Advisory Committee records are genuinely compelling evidence of drafting intent, but as I have consistently maintained, the Rules Enabling Act framework assigns categorical recalibration to the rulemaking process, and the drafters' ultimate textual choice of 'reasonable time' without an explicit carve-out is what courts are bound to apply. The seven-year delay here, seeking to unwind a nearly fully administered bankruptcy estate, is not merely an equitable concern but a concrete illustration of why some judicially enforceable temporal constraint must remain operative even for void judgments.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas's invocation of Advisory Committee records remains the strongest challenge to my position, but as I explained in my Kemp dissent and as Justice Alito reinforces, drafting history cannot override unambiguous enacted text \u2014 the drafters chose 'reasonable time' and we must apply what they wrote, not what individual committee members may have believed informally. Justice Jackson's harmonization argument is the most sophisticated version of the petitioner's case, and I acknowledge its intellectual appeal: if 'reasonable time' is genuinely contextual, then for a void judgment it might stretch considerably. But this argument proves too much \u2014 the drafters demonstrably knew how to write 'at any time' as categorical rules elsewhere in the Federal Rules, and their choice of 'reasonable time' without exception for subsection (4) reflects deliberate calibration, not an implicit invitation to read (4) outside the temporal framework entirely. Justice Barrett's synthesis \u2014 that 'reasonable time' applies but that jurisdictional voidness is a highly relevant factor counseling leniency \u2014 is the most defensible middle path and confirms that some temporal constraint applies, which is all the Respondent's position requires; any further recalibration belongs to the Advisory Committee under the Rules Enabling Act process.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's argument that 'reasonable time' and 'no time limit' can be harmonized through contextual application remains the most intellectually serious challenge, but I continue to find Justice Barrett's synthesis dispositive: there is a categorical difference between a flexible standard that heavily weights jurisdictional voidness and no standard at all, because the former still requires courts to make findings and leaves open the possibility that some delays \u2014 like seven years seeking to unwind a nearly fully administered bankruptcy estate \u2014 are unreasonable even for void judgments. Justice Thomas's Advisory Committee history is genuinely compelling as evidence of original understanding, but as I noted in prior rounds, the drafters ultimately chose 'reasonable time' without an explicit carve-out, and under the Rules Enabling Act framework, informal pre-enactment committee understandings cannot override that textual choice \u2014 the proper vehicle for any categorical exemption is the rulemaking process, not judicial construction. Justice Sotomayor's observation that the functional difference between 'considerable leniency' and 'no bar' may be negligible in practice is a fair empirical point, but it actually reinforces rather than undermines the Respondent's position: if lower courts applying the Barrett synthesis will almost always find void-judgment delays reasonable, the petitioner suffers little practical harm from maintaining the formal textual constraint, while the respondent's position preserves the institutional integrity of the Rules and the Court's legitimacy as a faithful interpreter of enacted text rather than a policy-making body.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's harmonization argument remains the most intellectually serious challenge to my position, and I want to engage it directly one final time: she is correct that courts routinely apply 'reasonable time' standards that yield effectively indefinite periods in particular contexts, but the critical distinction is that such applications still require a court to make findings and articulate reasons \u2014 they do not categorically foreclose the inquiry for an entire class of motions. Justice Thomas's Advisory Committee records are genuinely compelling as evidence of original understanding, but as I have maintained throughout, the drafters' ultimate textual choice \u2014 'reasonable time' without any explicit carve-out for 60(b)(4) \u2014 is what courts are bound to apply under the Rules Enabling Act framework, and the fact that 'reasonable time' can stretch considerably for void judgments does not mean it stretches infinitely, as the seven-year delay seeking to unwind a nearly fully administered bankruptcy estate illustrates. Justice Sotomayor's argument that the functional difference between 'considerable leniency' and 'no temporal bar' is negligible actually confirms rather than undermines my position: if the practical outcomes are similar in most cases, then the respondent's formulation is superior because it preserves judicial review of timeliness, maintains textual fidelity, and leaves categorical recalibration to the Advisory Committee through proper rulemaking channels. I remain persuaded that the structurally sound resolution is to affirm Rule 60(c)(1)'s application to 60(b)(4) motions while instructing lower courts that jurisdictional voidness is a highly weighty factor in the reasonableness calculus.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Barrett's argument that 'reasonable' necessarily imports some temporal constraint is the strongest challenge to my position, and I take seriously her structural point about the drafters' deliberate calibration between subsections (1)-(3) and (4) \u2014 but I think she and Justice Gorsuch conflate two distinct questions: whether a temporal constraint exists at all, and what that constraint means as applied to a judgment that was void ab initio. The text says 'reasonable time,' not 'a short time' or 'a fixed time,' and the legal backdrop against which that phrase was enacted \u2014 in which void judgments were universally understood as legal nullities \u2014 is not merely legislative history but the very context that gives 'reasonable' its meaning. Justice Kagan's concern that my harmonization argument risks collapsing the distinction between a flexible standard and no standard at all is fair, but courts routinely apply 'reasonable time' standards that yield effectively indefinite periods in particular contexts without abandoning the standard altogether, and a judgment void for lack of personal jurisdiction \u2014 where the defendant had no notice \u2014 presents precisely such a context. My background as a public defender reinforces that finality principles cannot be permitted to permanently insulate constitutionally defective judgments against defendants who lacked resources or notice, and the due process foundations of personal jurisdiction doctrine demand that 'reasonable time' be interpreted to preserve meaningful relief in such cases.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain text of Rule 60(c)(1) unambiguously states that '[a] motion under Rule 60(b) must be made within a reasonable time,' and this Court's recent holding in Kemp v. United States confirmed that this deadline applies to '[a]ll' Rule 60(b) motions without exception. My minimalist instincts counsel against carving out a judge-made exception to an unambiguous textual rule, particularly when the drafters demonstrably knew how to create categorical exceptions \u2014 as evidenced by the one-year limit specifically applied to subsections (1)-(3) but not (4). While I acknowledge the historical common law treatment of void judgments and the tension with dicta in Espinosa and Klapprott, those cases did not squarely hold that 60(b)(4) is exempt from reasonable-time review, and institutional legitimacy is better served by fidelity to the Rules Enabling Act process rather than judicial improvisation; if the balance between finality and voidness requires adjustment, the Advisory Committee is the proper forum. The seven-year delay in challenging a nearly fully administered bankruptcy estate further illustrates why permitting indefinite challenges would produce the very chaos that finality principles are designed to prevent.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "As an originalist, I am compelled to examine what the drafters and the ratifying legal community understood Rule 60(b)(4) to mean at the time of adoption and the 1946 amendments. The surviving records of the Advisory Committee explicitly indicate that members believed void judgments were susceptible to attack 'at any time' and that no proposed amendment would remove existing legal remedies respecting void judgments \u2014 this contemporaneous drafting history is powerful evidence of original meaning. The ancient common law principle, recognized by this Court for over 150 years, holds that a judgment entered without personal jurisdiction is void ab initio and a legal nullity; logic and original public meaning dictate that no passage of time can vivify what never legally existed, and applying Rule 60(c)(1)'s 'reasonable time' requirement to such judgments would permit enforcement of a legal nullity. While I acknowledge the textual force of Respondent's argument that Rule 60(c)(1) applies to 'all' Rule 60(b) motions as confirmed in Kemp, the term 'reasonable time' must be interpreted in light of its original meaning and the historical understanding that void judgments occupy a categorically distinct legal status where temporal limitations are conceptually inapplicable.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "The plain text of Rule 60(c)(1) is unambiguous: '[a] motion under Rule 60(b) must be made within a reasonable time,' and this Court confirmed in Kemp v. United States that '[a]ll must be filed within a reasonable time,' with no exception carved out for Rule 60(b)(4). As a textualist, I cannot manufacture an exception the drafters did not write \u2014 indeed, the drafters demonstrated they knew how to craft specific limitations for particular subsections, imposing a one-year hard cap on Rule 60(b)(1)-(3) motions while leaving Rule 60(b)(4) subject only to the 'reasonable time' standard, which itself imposes a genuine temporal constraint. Permitting indefinite challenges to judgments \u2014 as illustrated here by petitioner's attempt to unwind a nearly fully administered bankruptcy estate seven years after the debtor ceased operating \u2014 would produce precisely the kind of chaos and gamesmanship that finality principles are designed to prevent, and any policy adjustment to accommodate void judgment concerns is properly addressed through the Rules Enabling Act rulemaking process, not judicial rewriting of clear text.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "A judgment entered without personal jurisdiction is void ab initio under due process principles, as recognized in World-Wide Volkswagen Corp. v. Woodson, 444 U.S. 286 (1980), which distinguishes personal jurisdiction defects \u2014 which render judgments categorically void \u2014 from subject matter jurisdiction defects, which render judgments merely voidable. While Kemp confirmed that Rule 60(c)(1)'s reasonable time requirement applies broadly to Rule 60(b) motions, the unique constitutional dimension of personal jurisdiction means that 'reasonable time' in the 60(b)(4) context must be construed with exceptional flexibility, and courts should be extremely reluctant to bar challenges to judgments that were never legally valid in the first place. The practical impact on vulnerable defendants \u2014 often those who lacked resources or notice to timely challenge improper service \u2014 weighs heavily against imposing rigid temporal bars that would allow constitutionally defective judgments to become effectively unreviewable. Espinosa's forfeiture language is distinguishable because it addressed a creditor with actual notice who strategically delayed, not a party genuinely unaware of a void judgment, and the equitable administration of Rule 60(c)(1) must account for these distinctions to avoid perpetuating due process violations.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Rule 60(c)(1)'s text is unambiguous: it applies to '[a]ll' Rule 60(b) motions, and Kemp v. United States confirmed this without carving out an exception for 60(b)(4). While I am genuinely sympathetic to the historical common-law principle that void judgments are nullities \u2014 and Klapprott and Espinosa lend some support to petitioner's position \u2014 those precedents predate Kemp's clarifying textual holding and cannot override the Rule's plain language as currently written. The pragmatic concern about workability also weighs heavily here: permitting indefinite challenges to judgments void for lack of personal jurisdiction would produce serious administrative chaos, as illustrated by this very case where petitioner seeks to unwind a nearly fully administered bankruptcy estate seven years after the fact. If the balance between finality and error correction needs recalibration for void judgments specifically, the Rules Advisory Committee \u2014 not this Court through creative interpretation \u2014 is the proper institution to make that policy judgment, as the rulemaking process can weigh competing interests with the collective experience of bench and bar.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "As a textualist, I must begin and largely end with the plain text of Rule 60(c)(1), which states that '[a] motion under Rule 60(b) must be made within a reasonable time' \u2014 full stop, with no exception carved out for Rule 60(b)(4) motions. The drafters demonstrated they knew how to create subsection-specific rules by imposing the one-year cap exclusively on Rule 60(b)(1)-(3) motions, making the absence of any carve-out for Rule 60(b)(4) a presumptively intentional structural choice. My own dissent in Kemp acknowledged that Rule 60(b) presents a policy question about balancing finality and error correction \u2014 but that is precisely the kind of policy judgment that belongs to the rulemakers, not to courts inventing exceptions the text does not contain. While I have genuine sympathy for the argument that a void judgment is a legal nullity and the historical common law tradition supports attacking void judgments at any time, that tradition cannot override unambiguous text, and any reform should come through the Rules Enabling Act process under 28 U.S.C. \u00a7\u00a7 2072-74 rather than judicial rewriting of Rule 60(c)(1).",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Rule 60(c)(1)'s plain text unambiguously states that a motion under Rule 60(b) 'must be made within a reasonable time,' and as this Court confirmed in Kemp v. United States, 596 U.S. 533 (2022), '[a]ll must be filed within a reasonable time' \u2014 with no textual exception carved out for Rule 60(b)(4) motions. The drafters' deliberate choice to impose a specific one-year cap only on Rule 60(b)(1)-(3) motions while leaving Rule 60(b)(4) subject solely to the 'reasonable time' standard demonstrates that they knew how to craft subsection-specific rules and intentionally declined to exempt void-judgment challenges from temporal constraints altogether. While I acknowledge the historical common law tradition treating void judgments as nullities attackable at any time \u2014 reflected in Klapprott and the Espinosa dicta \u2014 that tradition must yield to the unambiguous text of a validly enacted procedural rule, and practical considerations of finality and judicial administration strongly counsel against permitting a party to unwind a nearly fully administered bankruptcy estate seven years after the fact. The appropriate vehicle for any policy adjustment balancing finality against error correction in the void-judgment context is the Rules Enabling Act rulemaking process, not judicial construction that reads an exception into clear statutory text.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The plain text of Rule 60(c)(1) states that a motion under Rule 60(b) 'must be made within a reasonable time,' and as a textualist I cannot read an implicit exception for subsection (b)(4) into language that admits none \u2014 the drafters knew how to carve out exceptions and chose not to do so here. Kemp v. United States confirmed that Rule 60(c)(1) applies to 'all' Rule 60(b) motions, and while Kemp did not squarely address whether delay could ever be deemed unreasonable in the (b)(4) void-judgment context, its categorical textual holding forecloses petitioner's argument that (b)(4) motions are categorically exempt from any temporal constraint. The historical common-law treatment of void judgments as challengeable 'at any time' predates the Federal Rules, and when the Rules were promulgated the drafters deliberately imposed a 'reasonable time' requirement across all subsections, superseding that common-law baseline \u2014 Klapprott and Espinosa's dicta to the contrary do not constitute holdings that override the Rules' plain text. That said, 'reasonable time' is a fact-specific inquiry, and on remand courts must assess reasonableness in light of the nature of the defect, including that jurisdictional voidness may counsel greater leniency, but it cannot mean no limit whatsoever.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "A judgment entered without personal jurisdiction is void ab initio \u2014 a legal nullity that never had binding force \u2014 and the historical treatment of void judgments under common law, affirmed in Espinosa's citation to Wright & Miller for the proposition that 'there is no time limit on motions to vacate void judgments,' reflects a principled distinction between voidable judgments (where finality interests legitimately govern) and void judgments (where no legitimate finality interest exists because the court lacked power to act). While Kemp confirmed that Rule 60(c)(1)'s 'reasonable time' requirement applies to all Rule 60(b) motions textually, Kemp did not address a 60(b)(4) void judgment scenario, and the 'reasonable time' standard is inherently flexible \u2014 for a truly void judgment, reasonable time may effectively be indefinite, meaning the rule's text and the void judgment doctrine can be harmonized rather than treated as in irreconcilable conflict. My background as a public defender reinforces my concern that allowing procedural time bars to insulate jurisdictionally void judgments would enable courts and creditors to leverage default judgments obtained without proper service as permanent weapons against parties who had no meaningful opportunity to respond, undermining the foundational due process principle that a court must have power over a defendant before its judgment binds them.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.74,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3"
+  }
+]

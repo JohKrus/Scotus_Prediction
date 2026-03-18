@@ -1,0 +1,621 @@
+[
+  {
+    "docket": "23-3",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "When parties have an arbitration agreement containing a delegation clause but later enter a second contract silent on arbitration, should a court or an arbitrator decide whether the second contract narrows or supersedes the original arbitration agreement.",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 2, which governs the enforceability of arbitration agreements in contracts evidencing a transaction, and the broader FAA framework governing delegation clauses and arbitrability determinations.",
+      "petitioner_position": "Coinbase argues that where parties have clearly and unmistakably delegated arbitrability questions to an arbitrator via a delegation clause in their initial User Agreement, that delegation should be honored and an arbitrator \u2014 not a court \u2014 should decide whether a subsequent contract (the sweepstakes rules) modified or narrowed the original arbitration agreement; enforcing delegation clauses in this context is consistent with the FAA's pro-arbitration policy and promotes efficiency in dispute resolution.",
+      "respondent_position": "Respondents (Suski et al.) argue on two grounds: first, that Coinbase's User Agreements may not qualify as 'contracts evidencing a transaction' under 9 U.S.C. \u00a7 2, potentially removing them from FAA coverage altogether; and second, that the parties never 'clearly and unmistakably' intended for an arbitrator to resolve disputes arising specifically from the sweepstakes contracts, which were entirely silent as to arbitration and delegation, making this a threshold gateway question for courts to decide rather than arbitrators.",
+      "key_precedents": [
+        "Coinbase, Inc. v. Bielski, 599 U.S. 736 (2023) \u2014 prior Coinbase case addressing mandatory stays pending interlocutory appeal under 9 U.S.C. \u00a7 16",
+        "Viking River Cruises, Inc. v. Moriana, 596 U.S. 639 (2022) \u2014 FAA preemption and arbitration agreement enforceability",
+        "Henry Schein, Inc. v. Archer & White Sales, Inc. \u2014 delegation clauses and arbitrability",
+        "SMJ General Construction, Inc. v. Jet Commercial Construction, LLC, 440 P.3d 210 (Alaska 2019) \u2014 court decides arbitrability when subsequent contract is silent on arbitration",
+        "Transcor Astra Group S.A. v. Petrobras America Inc., 650 S.W.3d 462 (Tex.) \u2014 Texas Supreme Court declining to enforce delegation clauses in successive contract context",
+        "Epic Systems Corp. v. Lewis \u2014 arbitration agreements and class action waivers under the FAA"
+      ],
+      "legal_complexity": "Complex \u2014 the case sits at the intersection of multiple unsettled FAA doctrines, including: (1) the threshold statutory coverage question under 9 U.S.C. \u00a7 2; (2) the 'clear and unmistakable' delegation standard; (3) the interaction between successive contracts where only the first addresses arbitration; (4) a circuit and state court split on who decides arbitrability in this successive-contract scenario; and (5) broader policy tensions between judicial efficiency, freedom of contract, and the FAA's pro-arbitration mandate."
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kavanaugh's argument that the sweepstakes contract's silence is not a 'clear and unmistakable revocation' remains the most serious challenge, but as I noted in my prior reasoning and as Justice Barrett articulates with particular precision, this framing fundamentally misidentifies the operative question. The First Options 'clear and unmistakable' standard is an affirmative consent requirement \u2014 the burden runs to the party seeking delegation to demonstrate that the parties agreed to delegate arbitrability for the category of dispute at hand, not merely that they once agreed to delegate something in a prior contract. Justice Kavanaugh's position that the arbitrator should decide whether the sweepstakes contract superseded the User Agreement's arbitration provisions is circular: it assumes the delegation clause already extends to that gateway question, which is precisely what must be established before the arbitrator's authority can be invoked. As Chief Justice, I would write narrowly \u2014 holding only that courts must first resolve the antecedent question of which contract governs a particular dispute before any delegation clause can be operative, leaving undisturbed the broader delegation doctrine in single-contract cases and preserving the institutional legitimacy of both courts and arbitral tribunals.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's most sophisticated argument \u2014 that the question of whether the sweepstakes contract superseded the User Agreement is itself an arbitrability question delegated to the arbitrator \u2014 is genuinely clever but ultimately circular and constitutionally problematic under my originalist methodology. The FAA's consent requirement under 9 U.S.C. \u00a7 2, read according to its original public meaning, requires that arbitration obligations arise from actual agreement, not from the inferential extension of a prior contract's delegation clause to bootstrap jurisdiction over disputes arising from a wholly separate instrument. As Justice Barrett correctly frames it, accepting Kavanaugh's position would render the 'clear and unmistakable' standard from First Options a nullity in any case where a prior contract contained a delegation clause \u2014 the arbitrator would always get to decide whether the delegation clause extends to new disputes, which is precisely the self-referential jurisdictional bootstrapping that First Options was designed to prevent. The text of the sweepstakes contract, being entirely silent on arbitration and delegation, cannot supply the affirmative consent that the FAA demands as a threshold matter, and no pro-arbitration policy preference can substitute for that foundational textual and contractual requirement.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kavanaugh's argument that the sweepstakes contract's silence constitutes a merits question for the arbitrator \u2014 rather than a gateway question for courts \u2014 is the most sophisticated challenge to my position, but it ultimately proves too much. His reasoning would allow any sophisticated party to execute a single contract with a delegation clause and thereby insulate all future contractual relationships from judicial scrutiny, because every subsequent dispute about which contract governs would itself become a 'scope of delegation' question committed to the arbitrator. As Justice Barrett correctly identifies, this would render the 'clear and unmistakable' standard from First Options a practical nullity whenever a prior contract contained a delegation clause \u2014 the very outcome that standard was designed to prevent. My textualist methodology requires asking what the parties actually agreed to in the instrument governing the specific dispute, and the sweepstakes contract's complete silence on arbitration and delegation cannot supply the affirmative consent that 9 U.S.C. \u00a7 2 demands as a threshold matter before any arbitral jurisdiction \u2014 including delegated jurisdiction over arbitrability \u2014 can attach.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.87,
+        "reasoning": "Justice Kavanaugh's most refined argument \u2014 that the dispute about the relationship between the User Agreement and the sweepstakes rules is itself an arbitrability question delegated to the arbitrator \u2014 is genuinely clever, but it proves too much and collapses into circularity. As Justice Barrett correctly identifies, accepting this framing would allow a delegation clause in any prior contract to bootstrap arbitral jurisdiction over all future dealings simply by characterizing the threshold question as one of 'scope' \u2014 but the antecedent question of whether Contract B's silence reflects a deliberate choice to operate outside Contract A's arbitration framework is precisely the kind of formation and consent question that courts must resolve under 9 U.S.C. \u00a7 2 before any delegation clause becomes operative. The real-world impact on consumers like the respondents here cannot be ignored: people who enter a sweepstakes have no reason to believe they are waiving judicial access for disputes arising from that transaction, and First Options' 'clear and unmistakable' standard exists precisely to protect against this kind of consent-free extension of arbitration obligations. Justice Jackson's point about sophisticated repeat players using one-time delegation clauses to insulate all future agreements from judicial scrutiny reinforces why the burden must remain on Coinbase to demonstrate affirmative delegation for disputes arising under the sweepstakes contract \u2014 a burden the complete silence of that instrument cannot satisfy.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kavanaugh's most refined argument \u2014 that the question of whether the sweepstakes rules superseded the User Agreement is itself an arbitrability question delegated to the arbitrator \u2014 is genuinely clever, but it proves too much and ultimately collapses into circularity. As Justice Barrett correctly identifies, accepting that framing would allow a delegation clause in any prior contract to bootstrap arbitral jurisdiction over all subsequent agreements by characterizing the threshold contract-formation question as itself a delegated arbitrability dispute \u2014 precisely the kind of self-referential jurisdictional expansion that First Options' 'clear and unmistakable' standard was designed to prevent. The distinction Justice Kavanaugh draws between 'revocation' and 'scope' is real, but it does not rescue his position: the antecedent question of which contract governs the parties' relationship with respect to the sweepstakes dispute is a formation and integration question that courts must resolve before any delegation clause can be operative, because until we know which contract applies, we cannot know whether any delegation clause applies at all. My pragmatic textualist methodology demands workable rules, and a rule that allows delegation clauses in predecessor contracts to sweep in all gateway questions about successor contracts would render the consent requirement of 9 U.S.C. \u00a7 2 effectively unenforceable against sophisticated repeat players.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kavanaugh's most refined argument \u2014 that the dispute about the relationship between the User Agreement and the sweepstakes rules is itself an arbitrability question that falls within the delegation clause's scope, and that Henry Schein requires arbitrators to decide their own jurisdiction once delegation is clearly established \u2014 is genuinely the strongest challenge to my position. But it proves too much, as Justice Barrett correctly identifies: it would allow a delegation clause in Contract A to bootstrap arbitral jurisdiction over all gateway questions about Contract B simply because Contract B is silent, effectively rendering the 'clear and unmistakable' standard a nullity in any case where a prior contract contained a delegation clause. My textualist methodology demands I ask what the parties actually agreed to in the instrument governing the specific dispute \u2014 and the sweepstakes contract's complete silence on arbitration and delegation cannot, under First Options, supply the affirmative textual evidence required to conclude the parties clearly and unmistakably agreed to delegate arbitrability of disputes arising from that instrument. The antecedent question of which contract governs the dispute is a formation and scope question that courts must resolve before any delegation clause can be operative, and Coinbase's position would transform consent-based arbitration into a jurisdictional trap for consumers who entered a sweepstakes with no reason to believe they were waiving judicial access.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.6,
+        "reasoning": "After careful reflection on the arguments from Justice Barrett, Justice Roberts, and my other colleagues, I am persuaded that I have been conflating two distinct inquiries in a way that undermines my position. The question is not whether the sweepstakes contract clearly and unmistakably revoked the delegation clause \u2014 it is whether the delegation clause in the User Agreement ever extended, in the first instance, to cover gateway questions about a wholly separate, subsequent contract that is entirely silent on arbitration and delegation. Justice Barrett's formulation is the most precise: allowing Contract A's delegation clause to automatically sweep in all arbitrability questions about Contract B's relationship to Contract A would render the 'clear and unmistakable' standard from First Options a nullity whenever a sophisticated party had previously secured a delegation clause, which cannot be squared with the FAA's foundational consent requirement under 9 U.S.C. \u00a7 2. Justice Roberts' proposed narrow holding \u2014 that courts must first resolve the antecedent gateway question of which contract governs before any delegation clause can be operative \u2014 provides the workable, institutionally sound guidance that lower courts need without broadly restricting delegation doctrine in cases where the subsequent contract actually addresses arbitration. I change my vote because the distinction between revocation and initial extension of delegation is a genuine legal distinction I had not adequately weighted, and the consent-based foundation of the FAA demands that we not allow a one-time delegation clause to bootstrap arbitral jurisdiction over future, silent contracts.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Kavanaugh's most refined argument \u2014 that the question of whether the sweepstakes contract superseded the User Agreement is itself a merits question for the arbitrator under the delegation clause, distinct from the true First Options gateway question \u2014 is genuinely sophisticated, but it ultimately proves too much by bootstrapping. If we accept that framing, then any party who once signed a contract with a delegation clause could invoke that clause to send to arbitration the very question of whether a subsequent, entirely silent contract brought the dispute within arbitration's scope, effectively allowing the arbitrator to determine the predicate of its own jurisdiction without any affirmative textual consent in the governing instrument. As Justice Gorsuch correctly observes through strict textualism, First Options requires affirmative, clear evidence of delegation \u2014 the burden runs toward the party seeking delegation, not away from it \u2014 and the sweepstakes contract's complete silence cannot supply that affirmative evidence for disputes arising under it. Justice Kavanaugh's Henry Schein citation is well-taken for the proposition that courts cannot short-circuit a valid delegation clause, but Henry Schein presupposes that the delegation clause was validly agreed to for the category of dispute at hand, which is precisely the antecedent formation question that remains for courts under 9 U.S.C. \u00a7 2.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kavanaugh's most sophisticated argument \u2014 that the question of whether the sweepstakes contract superseded the User Agreement is itself an arbitrability question delegated to the arbitrator \u2014 is genuinely clever, but it proves too much and collapses into circularity. As Justice Barrett correctly identifies, accepting this framing would render the 'clear and unmistakable' standard from First Options a nullity: any sophisticated party could insert a delegation clause in an initial contract and then argue that all subsequent gateway questions about successor contracts are themselves delegated arbitrability questions, bootstrapping arbitral jurisdiction indefinitely without ever obtaining fresh consent. My background as a public defender reinforces my concern about the practical consequences of this framework for ordinary consumers \u2014 someone who entered a sweepstakes promotion had no meaningful reason to understand they were waiving judicial access for disputes arising from that promotion by virtue of a prior User Agreement they may barely remember signing. The FAA's consent requirement under 9 U.S.C. \u00a7 2 is not a technicality to be overcome by clever structural arguments; it is the foundational limit on arbitral jurisdiction, and the sweepstakes contract's complete silence on both arbitration and delegation cannot supply the affirmative, clear evidence that First Options demands before courts surrender their default gateway function.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The narrow and institutionally sound resolution here is that a court \u2014 not an arbitrator \u2014 must decide whether the subsequent sweepstakes contract modified or superseded the original arbitration agreement, because the 'clear and unmistakable' delegation standard from Henry Schein and Rent-A-Center requires affirmative evidence that the parties intended to delegate arbitrability for disputes arising under the later contract, and a contract entirely silent on both arbitration and delegation cannot supply that evidence. The delegation clause in the User Agreement speaks to disputes under that agreement; extending it to govern threshold questions about a wholly separate, later contract that says nothing about arbitration would stretch the delegation doctrine beyond what the parties clearly and unmistakably agreed to. This is precisely the kind of gateway question \u2014 whether any valid agreement to arbitrate exists as to the sweepstakes disputes \u2014 that courts have traditionally and presumptively retained authority to resolve, and the FAA's pro-arbitration policy does not override the foundational requirement that arbitration be a matter of genuine consent. A narrow ruling holding that courts decide this antecedent contract-interaction question preserves institutional legitimacy, respects the circuit split by providing clear guidance, and avoids the anomaly of bootstrapping a delegation clause from Contract A to insulate from judicial review the very question of whether Contract A's arbitration provisions survived Contract B.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the original public meaning of the FAA and the 'clear and unmistakable' standard established in First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), delegation of arbitrability to an arbitrator requires affirmative, clear evidence that the parties so agreed \u2014 silence in a subsequent contract cannot satisfy this demanding threshold. When Coinbase and the respondents entered the sweepstakes rules, that second contract was entirely silent on both arbitration and delegation; as a matter of basic contract law and textualism, one cannot read a delegation clause from Contract A into Contract B when Contract B contains no such language and the parties' intent to delegate arbitrability of disputes arising under Contract B is therefore not 'clear and unmistakable.' The threshold question of whether the sweepstakes contract even falls within the scope of the original arbitration agreement \u2014 including whether it modified or superseded that agreement \u2014 is precisely the kind of gateway question courts must resolve absent clear and unmistakable evidence of delegation specific to that dispute, consistent with Henry Schein and First Options. Furthermore, the respondents raise a legitimate threshold statutory question under 9 U.S.C. \u00a7 2 regarding whether the User Agreement constitutes a 'contract evidencing a transaction,' which is itself a matter for judicial determination before any arbitration framework can be invoked.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.65,
+        "reasoning": "The threshold question here is not merely one of scope but of which contract governs the dispute \u2014 a formation and supersession question that courts must resolve before enforcing any delegation clause. Under Rent-A-Center v. Jackson, a delegation clause is enforceable only when the party seeking to evade it fails to challenge the delegation provision specifically; here, respondents do precisely that by arguing the sweepstakes contract, which is entirely silent on arbitration and delegation, constitutes a subsequent agreement that controls disputes arising from it, meaning the delegation clause in the User Agreement was never 'clearly and unmistakably' agreed to for this category of disputes. The 'clear and unmistakable' standard from First Options of Chicago v. Kaplan demands that courts \u2014 not arbitrators \u2014 resolve the antecedent question of whether the parties actually agreed to delegate arbitrability for disputes arising under a wholly separate, silent contract, because bootstrapping a delegation clause from Contract A to resolve gateway questions about Contract B's relationship to Contract A would allow the tail to wag the dog. Practical consequences reinforce this reading: permitting arbitrators to decide whether their own jurisdiction was expanded or contracted by a subsequent agreement creates perverse incentives and undermines the foundational principle that arbitration is a matter of consent, not imposition.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 'clear and unmistakable' standard from First Options v. Kaplan requires that parties affirmatively and explicitly agree to delegate arbitrability questions \u2014 silence in the sweepstakes contract cannot be bootstrapped into a delegation of authority that the parties never contemplated when entering that second agreement. When Coinbase drafted a sweepstakes contract entirely silent on arbitration and containing a forum-selection clause pointing to courts, the most natural reading is that the parties did not intend the earlier User Agreement's delegation clause to govern disputes arising specifically from that later, distinct transaction. Enforcing delegation clauses across wholly separate, silent successor contracts would allow sophisticated corporate actors like Coinbase to unilaterally extend arbitration obligations into new contractual relationships without any affirmative consent from consumers \u2014 precisely the kind of practical harm to vulnerable populations that courts must guard against. The Third and Ninth Circuit approach, as well as the Alaska and Texas courts' reasoning in SMJ General Construction and Transcor Astra, correctly recognize that a court must first determine whether the parties' later contract modified or superseded the original arbitration framework before any delegation clause can be operative.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 'clear and unmistakable' standard for delegation, established in Henry Schein and Rent-A-Center, requires that parties affirmatively agree to delegate arbitrability questions \u2014 but that agreement must be assessed against the specific contractual landscape at issue. When a second contract is wholly silent on arbitration and delegation, it cannot be said that parties 'clearly and unmistakably' intended for an arbitrator to resolve disputes arising from that second contract's scope and effect on the first; silence is not delegation. The pragmatically coherent reading of Granite Rock Co. v. International Brotherhood of Teamsters supports courts retaining the threshold gateway question of whether the second contract modified or superseded the arbitration framework entirely, because that is a contract formation and interpretation question \u2014 not merely a scope question \u2014 and forcing arbitration of that antecedent question would bootstrap the delegation clause beyond its textual reach. Workability and statutory coherence under 9 U.S.C. \u00a7 2 counsel against a rule that allows a delegation clause in Contract A to automatically govern all disputes touching Contract B, particularly where Contract B's silence could itself reflect a deliberate choice to operate outside the arbitration framework.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 'clear and unmistakable' standard from First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), is a threshold interpretive rule rooted in ordinary contract principles \u2014 and as a textualist, I must ask what the parties actually agreed to, not what a pro-arbitration policy might prefer. When the sweepstakes contract is entirely silent on arbitration and delegation, there is simply no textual basis to conclude the parties clearly and unmistakably agreed that an arbitrator \u2014 rather than a court \u2014 would resolve whether that second contract modified or superseded the original arbitration agreement. The delegation clause in the User Agreement speaks to disputes arising under that agreement; extending it to govern the interpretive relationship between two successive contracts requires an inferential leap the FAA's text does not compel and that First Options expressly cautions against. Courts, not arbitrators, retain the default gateway function on questions of arbitrability absent clear contractual evidence of delegation, and silence in a subsequent contract cannot satisfy that demanding standard.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Henry Schein and First Options, when parties have clearly and unmistakably delegated arbitrability questions to an arbitrator, courts must honor that delegation without second-guessing its scope \u2014 the question of whether a subsequent contract modified or superseded the original arbitration agreement is itself a question of arbitrability that falls within the delegation clause's reach. The FAA's pro-arbitration policy, as reinforced by Epic Systems and Viking River Cruises, counsels that ambiguities about the scope of arbitration agreements be resolved in favor of arbitration, and the same logic applies to delegation clauses. Respondents' argument that the sweepstakes rules' silence on arbitration defeats the delegation clause proves too much \u2014 silence is not the same as a clear and unmistakable revocation, and requiring express anti-arbitration language to override a delegation clause is consistent with this Court's precedents demanding specificity before courts override contractual arbitration commitments. Practical workability also favors Coinbase's position: allowing courts to routinely bypass delegation clauses whenever a second contract is silent on arbitration would swallow the delegation doctrine and undermine the reasonable expectations of sophisticated parties who structured their agreements to channel threshold disputes to arbitrators.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The 'clear and unmistakable' standard from First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), requires that delegation of arbitrability be established by the parties' actual agreement, not by implication from a prior contract that the parties may have superseded or narrowed. When a subsequent contract is entirely silent on both arbitration and delegation, a textualist and originalist reading of the FAA framework compels the conclusion that the parties have not clearly and unmistakably agreed to delegate arbitrability questions arising from that second contract to an arbitrator \u2014 the silence is dispositive evidence against delegation. As Henry Schein, Inc. v. Archer & White Sales, Inc. confirms, courts must enforce delegation clauses where they exist, but the threshold question here is precisely whether the delegation clause in Contract A extends to disputes whose governing instrument is Contract B, which contains no such clause; that gateway question of contractual scope is one for courts under First Options. Coinbase's position would effectively transform a delegation clause in one contract into a perpetual, open-ended grant of arbitral jurisdiction over all future contracts between the parties regardless of their terms, a result inconsistent with the FAA's requirement of consent and the principle that arbitration is a matter of contract.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The 'clear and unmistakable' delegation standard requires that both parties affirmatively manifest intent to delegate arbitrability questions \u2014 and where a second contract is entirely silent on arbitration, that silence cannot be bootstrapped into a delegation of gateway questions arising specifically from that second contract. As the Alaska Supreme Court recognized in SMJ General Construction, 440 P.3d 210 (Alaska 2019), and the Texas Supreme Court confirmed in Transcor Astra, 650 S.W.3d 462, courts \u2014 not arbitrators \u2014 must resolve whether a subsequent silent contract modifies or supersedes an earlier arbitration agreement, because the threshold question of which contract governs the dispute is itself a gateway matter that cannot be delegated by an agreement the parties may have already displaced. From a practical consequences standpoint, enforcing Coinbase's position would allow a sophisticated repeat player to effectively immunize any future contract from judicial scrutiny simply by embedding a delegation clause in an initial agreement, a result that disproportionately burdens consumers and undermines the procedural fairness concerns that animate proper application of the FAA under 9 U.S.C. \u00a7 2. The circuit split \u2014 with the Third and Ninth Circuits aligned with the respondents' position \u2014 reflects a sound recognition that delegation clauses must be read in context, and that context here, involving a sweepstakes contract wholly silent on arbitration, does not satisfy the clear and unmistakable standard required by Henry Schein and its progeny.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.806,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.87,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1"
+  },
+  {
+    "docket": "23-3",
+    "llm_model": "Claude-4.6",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "When parties have an arbitration agreement containing a delegation clause, and subsequently enter into a later contract that is silent on arbitration, should a court or an arbitrator decide whether the later contract narrows or supersedes the original arbitration agreement.",
+      "legal_provision": "Federal Arbitration Act (FAA), 9 U.S.C. \u00a7 2, which governs the enforceability of arbitration agreements in contracts evidencing a transaction, and the broader FAA framework governing delegation clauses and arbitrability determinations.",
+      "petitioner_position": "Coinbase argues that because the original User Agreement contained a valid delegation clause broadly empowering the arbitrator to decide all questions of arbitrability \u2014 including scope and enforceability \u2014 an arbitrator, not a court, should determine whether the subsequent sweepstakes contract narrowed or displaced the original arbitration agreement. Coinbase contends that the Ninth Circuit's ruling undermines the FAA's pro-arbitration policy and the efficiency-maximizing purpose of delegation clauses, and that enforcing the delegation clause as written is consistent with Supreme Court precedent requiring courts to honor clear and unmistakable agreements to delegate arbitrability questions.",
+      "respondent_position": "Respondents argue on two primary grounds: first, that Coinbase's User Agreements do not qualify as 'contracts evidencing a transaction' under 9 U.S.C. \u00a7 2, potentially removing them from FAA coverage entirely; and second, that the parties never 'clearly and unmistakably' intended for an arbitrator to resolve disputes arising from the subsequent sweepstakes contracts, which were entirely silent as to arbitration and delegation. Respondents contend that when a later contract introduces a new, independent dispute-resolution framework without referencing arbitration, courts \u2014 not arbitrators \u2014 must determine the threshold question of which contract governs, and that this case presents unique, fact-specific circumstances poorly suited for broad Supreme Court review.",
+      "key_precedents": [
+        "Coinbase, Inc. v. Bielski, 599 U.S. 736 (2023) \u2014 prior related Coinbase case addressing mandatory stays pending interlocutory arbitration appeals under 9 U.S.C. \u00a7 16",
+        "Viking River Cruises, Inc. v. Moriana, 596 U.S. 639 (2022) \u2014 FAA preemption and arbitration agreement enforceability",
+        "Henry Schein, Inc. v. Archer & White Sales, Inc. \u2014 delegation clauses and arbitrability determinations (cited by amici)",
+        "SMJ General Construction, Inc. v. Jet Commercial Construction, LLC, 440 P.3d 210 (Alaska 2019) \u2014 state court holding that courts, not arbitrators, decide whether successive contracts require arbitration",
+        "Transcor Astra Group S.A. v. Petrobras America Inc., 650 S.W.3d 462 (Tex.) \u2014 Texas Supreme Court declining to enforce delegation clauses where a subsequent contract is silent on arbitration",
+        "Epic Systems Corp. v. Lewis \u2014 enforceability of arbitration agreements and class action waivers (referenced by amici)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor and Justice Jackson's most powerful argument \u2014 that the 'clear and unmistakable' standard must be satisfied anew for each dispute, not merely once at contract formation \u2014 deserves a direct response: First Options and its progeny ask whether the parties agreed to delegate arbitrability questions, and Rent-A-Center establishes that a valid delegation clause is a severable agreement that survives unless specifically attacked. The respondents' argument that the sweepstakes contract's silence displaces the delegation clause is not a specific attack on the delegation provision itself; it is a contract-supersession argument about which agreement governs \u2014 precisely the scope question Henry Schein says must go to the arbitrator even when the argument seems weak. I remain persuaded by the narrow ground I identified: courts need not resolve whether the sweepstakes contract superseded the User Agreement, because that question is itself delegated, and silence cannot constitute the 'clear and unmistakable' revocation that would be required to undo an express delegation clause. As Chief Justice, I would assign the opinion with instructions to write on this narrow ground, preserving the possibility that a future case with more explicit supersession language might come out differently, and avoiding any broad pronouncements about FAA coverage that could unnecessarily foreclose consumer-protection arguments in other contexts.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 that silence in a subsequent contract cannot satisfy the 'clear and unmistakable' standard for delegation \u2014 but this argument conflates two distinct inquiries: whether the parties clearly and unmistakably delegated arbitrability questions (which they did, in the original User Agreement), and whether a subsequent contract clearly and unmistakably revoked that delegation (which requires affirmative evidence, not mere silence). Under Rent-A-Center, the delegation clause is a severable, independent agreement that must be specifically challenged to be displaced; the respondents' argument that the sweepstakes contract's silence somehow undoes the delegation is precisely the kind of scope question \u2014 'does this dispute fall within the original agreement's reach?' \u2014 that Henry Schein assigns to the arbitrator regardless of how weak the argument may appear. Justice Jackson's concern about consumer sophistication is a legitimate policy consideration, but the FAA's text does not carve out a judicial gatekeeping exception for consumer contracts, and Congress \u2014 not this Court \u2014 is the proper institution to craft such protections. The Ninth Circuit's approach effectively allows any subsequent silent contract to nullify a delegation clause, which is irreconcilable with the FAA's command to enforce arbitration agreements as written and would swallow the efficiency rationale of delegation clauses entirely.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.9,
+        "reasoning": "Justice Sotomayor and Justice Jackson raise the most serious challenge \u2014 that silence in a subsequent contract cannot satisfy the 'clear and unmistakable' standard for delegation. But this argument fundamentally misframes the inquiry: the 'clear and unmistakable' standard was already satisfied by the original User Agreement's delegation clause, and the question now is whether the subsequent sweepstakes contract clearly and unmistakably *revoked* that delegation. Under Rent-A-Center, the delegation clause is a severable, independent agreement that must be specifically challenged to be displaced, and as Justice Thomas correctly notes, silence is not a specific challenge to the delegation provision itself. Justice Jackson's concern about consumer sophistication is sympathetic but cannot override the FAA's text and this Court's consistent precedent in Henry Schein \u2014 Congress made the policy judgment to enforce arbitration agreements as written, and it is not our role to engraft consumer-protection exceptions that the statute does not contain. The Ninth Circuit's approach improperly allows a subsequent contract's silence to function as an implicit revocation of a delegation clause, which inverts the 'clear and unmistakable' standard and would swallow delegation clauses entirely whenever parties enter any subsequent agreement.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Roberts frames the question as whether the sweepstakes contract 'clearly and unmistakably revoked' the prior delegation \u2014 but this framing smuggles in the very assumption I reject: that the delegation clause was already operative and applicable to disputes arising under the new contract, such that revocation is the relevant inquiry. The 'clear and unmistakable' standard under First Options is not a one-time threshold that, once crossed in any prior agreement, permanently delegates all future arbitrability questions regardless of subsequent contractual developments; it asks whether the parties clearly and unmistakably agreed to delegate the arbitrability question actually before the court. When a consumer enters what appears to be an entirely new, independent contractual relationship \u2014 a sweepstakes promotion that makes no mention of arbitration \u2014 there is simply no affirmative evidence that they understood themselves to be perpetuating the dispute-resolution framework of an earlier, unrelated agreement. Justice Jackson correctly identifies the logical flaw: the question of which contract governs is an antecedent formation and supersession question that courts must resolve first, and allowing arbitrators to decide their own jurisdictional predicate in this circumstance is precisely the kind of structural overreach that First Options' 'clear and unmistakable' standard was designed to prevent, particularly where the practical consequence is systematically foreclosing judicial access for ordinary consumers.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson's argument that the 'clear and unmistakable' standard asks whether parties agreed to delegate the *specific arbitrability question before the court* \u2014 not merely whether they ever agreed to a delegation clause \u2014 is the strongest challenge to my position, and I want to engage it directly. But I think it misreads First Options and Rent-A-Center: the 'clear and unmistakable' standard is a threshold inquiry into whether a delegation agreement exists, not a per-dispute inquiry into whether each new controversy was specifically contemplated by that agreement. If Justice Jackson's reading were correct, delegation clauses would be nearly meaningless \u2014 parties would need to re-establish 'clear and unmistakable' delegation for every dispute, which is precisely what Henry Schein rejected when it held that even frivolous arbitrability arguments must go to the arbitrator once a valid delegation clause exists. Justice Sotomayor's point that Rent-A-Center's severability principle 'presupposes' the parties agreed to delegate for the dispute at hand is more nuanced, but it conflates the severability question (is the delegation clause itself being challenged?) with the scope question (does the original agreement cover this dispute?) \u2014 and the latter is exactly what delegation clauses are designed to send to arbitrators, not courts.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor and Justice Jackson press the strongest counterargument \u2014 that the 'clear and unmistakable' standard must be satisfied with respect to the specific dispute at hand, not merely satisfied once in a prior agreement \u2014 but this framing, while intellectually serious, cannot be reconciled with Rent-A-Center's holding that a delegation clause is a severable, independent agreement. The critical move Justice Jackson makes is to characterize 'which contract governs' as a formation or supersession question that courts must resolve first, but that characterization begs the very question: the original User Agreement's delegation clause expressly assigns contract-scope disputes to the arbitrator, and the claim that a subsequent silent contract superseded the entire User Agreement is precisely a scope dispute. Under Henry Schein, even a 'wholly groundless' arbitrability argument must go to the arbitrator when a valid delegation clause exists \u2014 the Court unanimously rejected judicial gatekeeping there, and I see no textual basis in the FAA for carving out a judicial exception when the scope dispute happens to involve a subsequent silent contract. Justice Jackson's concern about consumer harm is genuinely sympathetic and I do not dismiss it lightly, but the FAA's text does not authorize courts to override delegation clauses on equitable grounds, and the proper remedy lies with Congress or through unconscionability doctrine at the contract-formation stage.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor and Justice Jackson's most powerful argument remains that the 'clear and unmistakable' standard requires affirmative evidence of delegation for the specific dispute at hand, not merely a prior agreement that may or may not govern. But I continue to find this argument unpersuasive for the reason Justice Roberts articulates most cleanly: the question is not whether the parties re-delegated arbitrability in the sweepstakes contract, but whether that subsequent contract clearly and unmistakably *revoked* the prior delegation \u2014 and silence cannot accomplish revocation under basic contract principles any more than silence can constitute 'clear and unmistakable' evidence of anything. Justice Sotomayor's rejoinder that Rent-A-Center's severability principle 'presupposes' the original contract applies is the strongest version of the respondents' case, but it proves too much: under that logic, any time a party argues a subsequent agreement supersedes an arbitration clause, courts would be required to resolve that supersession question first, effectively nullifying delegation clauses in all multi-contract relationships and contradicting Henry Schein's command that even weak arbitrability arguments go to the arbitrator. The institutional concern Justice Jackson raises about consumer access is real and deserves legislative attention, but it cannot override the FAA's textual framework as this Court has consistently interpreted it.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Jackson's argument that the 'clear and unmistakable' standard must be satisfied with respect to the *specific dispute at hand* \u2014 not merely in the abstract through some prior agreement \u2014 is the strongest challenge to my position, and I want to engage it directly. But I think it proves too much: under that logic, every time a party enters a subsequent contract that is silent on arbitration, courts would be required to resolve the supersession question before any delegation clause could operate, which effectively nullifies delegation clauses in any evolving commercial relationship and contradicts Henry Schein's command that even frivolous arbitrability arguments go to the arbitrator when a valid delegation clause exists. Justice Sotomayor's point that Rent-A-Center's severability principle 'presupposes that the parties actually agreed to delegate arbitrability for the dispute at hand' is analytically interesting but circular \u2014 it assumes the answer to the very question the delegation clause is designed to resolve, namely whether the dispute falls within the scope of the arbitration agreement. The textually faithful approach, consistent with the FAA's mandate to enforce written arbitration agreements as written, is to recognize that the delegation clause is a severable, independent agreement that remains operative unless specifically challenged on its own terms, and that the supersession question \u2014 whether the sweepstakes contract displaced the User Agreement \u2014 is precisely the kind of scope determination the parties assigned to the arbitrator.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett's formulation \u2014 that once the 'clear and unmistakable' threshold is met by an express delegation clause, silence in a later contract cannot withdraw it \u2014 is the most sophisticated version of the petitioners' argument, but it fundamentally begs the question: Rent-A-Center's severability principle presupposes that the parties agreed to arbitrate the *specific dispute at hand*, and when the entire controversy is whether a new, independent contract displaced the old arbitration framework entirely, there is no prior agreement whose delegation clause can be severed and enforced without first resolving that antecedent formation question. Justice Roberts' framing \u2014 that the question is whether the sweepstakes contract 'clearly and unmistakably revoked' the prior delegation \u2014 is clever but inverts the FAA's baseline: the default under First Options is judicial resolution of arbitrability, and the burden of demonstrating 'clear and unmistakable' delegation falls on the party seeking to compel arbitration, not on the party seeking court access to demonstrate revocation. The majority's approach would allow any company to perpetually bind consumers to arbitration clauses from prior agreements simply by remaining silent in subsequent contracts, a result that systematically disadvantages ordinary people who lack the sophistication to understand they must affirmatively opt out of dispute-resolution mechanisms they never knowingly accepted for the new relationship. I maintain my position with Justice Sotomayor: the threshold question of which contract governs is a formation and supersession issue courts must resolve first, and no amount of efficiency-based pragmatism can substitute for the affirmative consent the 'clear and unmistakable' standard demands.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Under First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), and Henry Schein, Inc. v. Archer & White Sales, Inc., the 'clear and unmistakable' standard governs whether parties have delegated arbitrability questions to an arbitrator \u2014 and here, that standard was satisfied by the original User Agreement's delegation clause. My minimalist instinct counsels against broad rulings, but the narrow question here is whether a subsequent contract's silence can undo a previously established, clearly and unmistakably expressed delegation; silence is ambiguity, and ambiguity cannot override an express prior agreement under settled FAA principles. Consistent with Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63 (2010), a delegation clause is treated as a severable agreement that must itself be specifically challenged, and respondents have not demonstrated that the sweepstakes contract clearly and unmistakably revoked the delegation \u2014 mere silence falls short of that demanding standard. I would reverse on narrow grounds, holding only that where a valid delegation clause exists and a subsequent contract is silent on arbitration, the threshold question of whether that later contract modified the arbitration agreement belongs to the arbitrator, without prejudging broader questions about FAA coverage or the ultimate merits of arbitrability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "The text of the FAA, 9 U.S.C. \u00a7 2, requires courts to enforce arbitration agreements as written, and the original User Agreement's delegation clause constitutes a separate, antecedent agreement that must be enforced on its own terms under Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63 (2010). Once the parties have clearly and unmistakably delegated threshold arbitrability questions \u2014 including questions of scope \u2014 to the arbitrator, a court has no textual or structural basis under the FAA to reclaim that authority simply because a subsequent contract is silent on arbitration; silence is not a challenge to the delegation clause specifically. Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524 (2019), forecloses the Ninth Circuit's approach by holding that even a wholly groundless argument for arbitration must go to the arbitrator when a valid delegation clause exists \u2014 the question of whether the sweepstakes contract narrowed or superseded the original arbitration agreement is precisely the kind of scope question the parties contracted to have an arbitrator resolve. From an originalist standpoint, the FAA's text reflects a congressional judgment to treat arbitration agreements like any other contract, and courts have no license to engraft a judicial gatekeeping exception where the parties' written agreement contains none.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.87,
+        "reasoning": "Under the FAA and this Court's precedent in Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524 (2019), when parties have clearly and unmistakably delegated threshold arbitrability questions to an arbitrator, courts must honor that delegation even when the argument for arbitration may appear weak or the arbitrator's jurisdiction is contested. The Ninth Circuit's approach improperly conflates the question of which contract governs \u2014 a scope question \u2014 with the antecedent question of whether a valid arbitration agreement exists at all; since Coinbase's User Agreement concededly contains a valid delegation clause and remains operative for some disputes, the question of whether the subsequent sweepstakes contract narrowed or superseded that agreement is precisely the kind of scope determination that Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63 (2010), assigns to the arbitrator. Respondents' challenge must be directed specifically at the delegation clause itself, not merely at the broader arbitration agreement, and a later contract's silence on arbitration does not constitute such a targeted challenge. Textualism and the FAA's pro-arbitration framework, as reinforced by Epic Systems and Viking River Cruises, counsel strongly against judicial second-guessing of contractually delegated arbitrability determinations.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "While I recognize the force of Henry Schein's holding that delegation clauses must be enforced even when arbitrability arguments appear groundless, the 'clear and unmistakable' standard for delegation requires affirmative evidence that parties intended to delegate arbitrability questions \u2014 and silence in a subsequent contract cannot satisfy that demanding threshold. When parties enter a new, independent contractual relationship that makes no reference to arbitration or any prior agreement's dispute-resolution mechanism, it strains credulity to conclude they 'clearly and unmistakably' agreed that an arbitrator would resolve which contract governs their dispute. As the Texas Supreme Court recognized in Transcor Astra and the Alaska Supreme Court held in SMJ General Construction, courts \u2014 not arbitrators \u2014 must make the threshold determination of which contract controls before any delegation clause can be triggered, because the delegation clause itself only operates if the original arbitration agreement applies to the dispute at hand. From a practical standpoint, allowing corporations like Coinbase to bootstrap an old delegation clause onto entirely new contractual relationships would systematically strip ordinary consumers of judicial access, precisely the kind of real-world harm to vulnerable populations that demands careful judicial scrutiny rather than reflexive deference to arbitration.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Under First Options of Chicago and Henry Schein, once parties have clearly and unmistakably delegated arbitrability questions to an arbitrator, that delegation clause operates as a severable agreement that governs threshold questions including whether a subsequent contract modified the original arbitration agreement. The FAA's text and structure, as interpreted through Rent-A-Center, treats delegation clauses as independent agreements that must be specifically challenged to be displaced \u2014 mere silence in a later contract does not constitute the kind of affirmative, clear evidence needed to undo an express delegation. From a pragmatic standpoint, requiring courts to resolve which contract governs every time a later agreement is silent on arbitration would swallow the efficiency rationale of delegation clauses entirely and create perverse incentives for sophisticated parties to strategically draft silent successor agreements to escape arbitration. The workable rule is that the arbitrator decides whether the later contract narrowed the original agreement, subject to judicial review for exceeding authority, rather than having courts make that threshold determination de novo.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The text of the FAA, 9 U.S.C. \u00a7 2, enforces arbitration agreements as written, and the parties' original User Agreement contained a delegation clause that clearly and unmistakably assigned threshold arbitrability questions \u2014 including scope \u2014 to the arbitrator, not a court. Under Henry Schein, Inc. v. Archer & White Sales, Inc., 139 S. Ct. 524 (2019), once a valid delegation clause exists, courts must send even 'wholly groundless' arbitrability arguments to the arbitrator; the Ninth Circuit's contrary ruling substitutes judicial preference for the parties' written agreement. The question of whether the subsequent sweepstakes contract narrowed or superseded the original arbitration agreement is precisely a 'scope' question that Granite Rock Co. v. Int'l Bhd. of Teamsters, 561 U.S. 287, 298 (2010) recognizes as arbitrable once any agreement to arbitrate some matters is concededly in force. Respondents' challenge must be directed specifically at the delegation clause itself under Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63, 72 (2010), and a later contract's silence on arbitration does not, by plain textual logic, constitute a specific attack on the delegation provision that would justify judicial override.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Henry Schein, Inc. v. Archer & White Sales, Inc., once parties have clearly and unmistakably agreed to a delegation clause, courts must send threshold arbitrability questions \u2014 including scope questions \u2014 to the arbitrator, even where the argument for arbitration might seem weak. Here, the parties concededly formed a valid arbitration agreement with a delegation clause in the original User Agreement, and the subsequent sweepstakes contract's silence on arbitration presents precisely the kind of scope question \u2014 whether the original agreement's reach extends to this dispute \u2014 that a delegation clause is designed to resolve. Consistent with Rent-A-Center v. Jackson, the delegation clause is itself an enforceable arbitration agreement that the FAA requires courts to honor unless the challenging party mounts a specific challenge to the delegation provision itself, not merely to the broader arbitration agreement; respondents have not done so here. While I am attentive to the practical concern that delegation clauses could be weaponized to override genuinely superseding contracts, the proper institutional response is to enforce the agreed-upon delegation mechanism and allow the arbitrator to make that determination in the first instance, preserving both the FAA's pro-arbitration framework and the Court's consistent precedent on delegation.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under the FAA and the 'clear and unmistakable' standard established in First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), and reaffirmed in Henry Schein, Inc. v. Archer & White Sales, Inc., when parties have clearly and unmistakably delegated arbitrability questions to an arbitrator in their original agreement, that delegation presumptively governs subsequent disputes about the agreement's scope unless the later contract equally clearly and unmistakably withdraws that delegation. A subsequent contract's mere silence on arbitration and delegation cannot, as a textual matter, constitute the 'clear and unmistakable' evidence required to override an express delegation clause \u2014 silence is ambiguity, not clarity, and the FAA's framework as interpreted in Rent-A-Center, West, Inc. v. Jackson, 561 U.S. 63 (2010), instructs courts to treat delegation clauses as severable and enforceable unless specifically challenged with requisite clarity. The question of whether the sweepstakes contract narrowed or superseded the original arbitration agreement is itself a question of arbitrability \u2014 specifically, one of scope and continued enforceability \u2014 which falls squarely within the delegated authority the parties already assigned to the arbitrator. Methodological consistency demands that we not permit a court to reclaim arbitrability determinations through the back door of a silent subsequent contract when the parties' original, express delegation clause satisfies the governing legal standard.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under First Options of Chicago, Inc. v. Kaplan, 514 U.S. 938 (1995), delegation of arbitrability requires 'clear and unmistakable' evidence of the parties' intent \u2014 a demanding standard that reflects the Court's recognition that arbitrators deciding the scope of their own power is an 'arcane' and consequential choice. When a subsequent contract is entirely silent on arbitration and delegation, a court cannot infer that the parties clearly and unmistakably intended for an arbitrator to resolve the threshold question of which contract governs their dispute; silence is the antithesis of clear and unmistakable intent. My background as a public defender reinforces my concern about the practical consequences of Coinbase's sweeping rule: allowing a delegation clause in an earlier consumer contract to perpetually foreclose judicial review of whether a later, silent contract superseded it would systematically disadvantage ordinary consumers who lack the sophistication to understand that signing a new agreement might still funnel their disputes into arbitration under a prior contract's terms. The court \u2014 not the arbitrator \u2014 must first determine whether the later sweepstakes contract displaced the original arbitration framework, because that threshold question of contract formation and supersession is precisely the kind of gateway issue that courts retain under FAA Section 2 absent unmistakable contrary intent.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.802,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.87,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.9,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2"
+  }
+]
