@@ -64,6 +64,27 @@ For each case, model, and replicate: initial votes, per-round vote trajectories,
 └── syllabi/                    # Placeholder for generated syllabi
 ```
 
+## Raw Case Documents
+
+The raw input PDFs (cert petitions, briefs, amicus filings, joint appendices, oral argument transcripts) are too large to commit directly. They are attached as assets to the [`raw-data-v1` release](https://github.com/JohKrus/Scotus_Prediction/releases/tag/raw-data-v1), organized by OT term to mirror `predictions/`:
+
+- `raw_pdfs_term_2022_2023.zip` (~1.6 GB) — 91 dockets, OT 2022 (matches `predictions/term_2022_2023/`)
+- `raw_pdfs_term_2023_2024.zip` (~820 MB) — 59 dockets, OT 2023 (matches `predictions/term_2023_2024/`)
+- `raw_pdfs_term_2024_2025.zip` (~715 MB) — 64 dockets, OT 2024 (matches `predictions/term_2024_2025/`)
+- `raw_pdfs_term_2025_2026.zip` (~575 MB) — 62 dockets, OT 2025 (matches `predictions/term_2025_2026/`)
+
+Each archive contains one folder per docket (`{docket}_pdfs/`) with all filings, plus a `{docket}_metadata.csv` with filing-level metadata where available. (Note: most `term_2025_2026` dockets ship without metadata CSV — those cases are pre-registered and the metadata file is generated only after the case closes.)
+
+To use them with the pipeline, extract each into the matching `data/term_XX/` directory (the path scheme is in `code/scotus_v2/config.py`):
+
+```bash
+mkdir -p data/term_22 data/term_23 data/term_24 data/term_25
+unzip raw_pdfs_term_2022_2023.zip -d data/term_22
+unzip raw_pdfs_term_2023_2024.zip -d data/term_23
+unzip raw_pdfs_term_2024_2025.zip -d data/term_24
+unzip raw_pdfs_term_2025_2026.zip -d data/term_25
+```
+
 ## Models Used
 
 As configured in `config.yaml`:
