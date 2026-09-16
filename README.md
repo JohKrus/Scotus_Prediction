@@ -41,6 +41,14 @@ Deliberation terminates when votes converge, the margin is stable, or the maximu
 ### 6. Output
 For each case, model, and replicate: initial votes, per-round vote trajectories, final votes with reasoning, predicted winner, and vote split.
 
+## v3 Extension
+
+`code/` also contains the v3 extension of the pipeline (per-justice opinion RAG in `scotus_v3/`,
+the contamination experiment in `experiment/`, oracle fine-tuning in `oracle_experiment/`) plus
+`scotus_v2/evaluate.py`. See [README_v3.md](README_v3.md) for layout, setup and the additional
+release assets (justice indices, slip opinions). Note that all data paths resolve relative to
+`code/`, i.e. raw PDFs go into `code/data/term_XX/`.
+
 ## Repository Structure
 
 ```
@@ -78,6 +86,7 @@ Each archive contains one folder per docket (`{docket}_pdfs/`) with all filings,
 To use them with the pipeline, extract each into the matching `data/term_XX/` directory (the path scheme is in `code/scotus_v2/config.py`):
 
 ```bash
+cd code
 mkdir -p data/term_22 data/term_23 data/term_24 data/term_25
 unzip raw_pdfs_term_2022_2023.zip -d data/term_22
 unzip raw_pdfs_term_2023_2024.zip -d data/term_23
@@ -88,7 +97,7 @@ unzip raw_pdfs_term_2025_2026.zip -d data/term_25
 ## Models Used
 
 As configured in `config.yaml`:
-- **OpenAI**: GPT-5.2
+- **OpenAI**: GPT-5.2 (snapshot `gpt-5.2-2025-12-11`)
 - **Anthropic**: Claude Sonnet 4.6
 - **Google**: Gemini 2.5 Flash
 
@@ -101,7 +110,7 @@ The predictions in `predictions/term_2025_2026/` were generated **before** the S
 ## Requirements
 
 - Python 3.12+
-- API keys for OpenAI, Anthropic, and Google (stored in macOS Keychain)
+- API keys for OpenAI, Anthropic, and Google (environment variables `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`; macOS Keychain as fallback)
 - See `code/pyproject.toml` for Python dependencies
 
 ## Authors
