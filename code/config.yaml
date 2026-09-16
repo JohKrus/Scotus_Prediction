@@ -3,7 +3,7 @@ docket_range: [1, 6000]
 rate_limit_seconds: 1
 
 models:
-  openai: gpt-5.2
+  openai: gpt-5.2-2025-12-11   # pinned snapshot (alias gpt-5.2 resolved to this in all runs)
   anthropic: claude-sonnet-4-6
   google: gemini-2.5-flash
 
@@ -26,3 +26,17 @@ retrieval:
   top_k_per_type: 20
   top_n_reranked: 50
   cross_encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+
+# v3: Per-Justice Opinion RAG
+opinion_scraper:
+  terms: [18, 19, 20, 21, 22, 23, 24, 25]
+  rate_limit_seconds: 1.0
+  opinions_dir: data/opinions
+
+justice_rag:
+  indices_dir: data/justice_indices
+  chunk_size: 1500
+  chunk_overlap: 300
+  top_k: 8
+  rerank_top_n: 5
+  embedding_model: text-embedding-3-large
