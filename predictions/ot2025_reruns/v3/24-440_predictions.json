@@ -1,0 +1,580 @@
+[
+  {
+    "docket": "24-440",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a federal court sitting in diversity must enforce Delaware\u2019s medical-malpractice \u201caffidavit of merit\u201d (AOM) prerequisite (or a similar state-law certificate requirement) or instead treat it as displaced by the Federal Rules of Civil Procedure, such that a malpractice plaintiff may proceed in federal court without complying with the state AOM statute.",
+      "legal_provision": "Delaware\u2019s medical-negligence Affidavit of Merit (AOM) statute (a state-law prefiling/early-filing expert-support requirement for healthcare negligence claims), as applied in federal diversity actions through the Erie doctrine, and its interaction with the Federal Rules of Civil Procedure (particularly Rules 8, 9, 11, 12, and 56).",
+      "petitioner_position": "Berk (supported by AAJ) argues that Delaware\u2019s AOM requirement is a state procedural \u201cscreening\u201d mechanism that conflicts with (and is therefore displaced by) the Federal Rules\u2019 comprehensive pleading, motion-to-dismiss, and sanctions framework; forcing federal plaintiffs to satisfy an extra state-law hurdle effectively heightens federal pleading requirements and can produce inequitable outcomes (including dismissal of otherwise meritorious claims) solely because the case is filed in federal court.",
+      "respondent_position": "Choy and Beebe Medical Center (supported by hospitals, physicians, insurers, DRI, and Prof. Morley) argue that Delaware\u2019s AOM requirement is a substantive condition tied to the viability of a medical-negligence claim (serving to deter nonmeritorious suits and protect access to healthcare) and that it can be applied in federal court without contradicting any Federal Rule; under Erie/Hanna, ignoring the AOM would encourage forum shopping and yield different outcomes in federal versus Delaware courts, so federal courts must enforce the AOM statute in diversity cases.",
+      "key_precedents": [
+        "Erie Railroad Co. v. Tompkins",
+        "Hanna v. Plumer",
+        "Shady Grove Orthopedic Associates, P.A. v. Allstate Insurance Co.",
+        "Burlington Northern Railroad Co. v. Woods",
+        "Walker v. Armco Steel Corp.",
+        "Gasperini v. Center for Humanities, Inc."
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson is right to press that Rules 3, 8, 11, and 12 comprehensively regulate federal commencement, pleading, and early merits-testing, and that a state \u201cfiling prerequisite\u201d risks operating as an add-on to federal procedure. But that framing defines the \u201cquestion in dispute\u201d at too high a level of generality: as Justice Kagan and Justice Alito emphasize, none of those Rules purports to answer whether Delaware may condition the availability of its own medical-negligence cause of action on an early expert attestation, and the Rules can operate as written while Delaware withholds the state-law remedy absent that showing. Absent a direct collision under Hanna/Shady Grove\u2014as in Walker\u2014the analysis returns to Erie\u2019s twin aims, and disregarding the AOM would predictably invite forum shopping and inequitable administration by allowing plaintiffs to evade a central Delaware gatekeeping feature in federal court. I would therefore keep the holding narrow: we enforce this AOM as a condition of the state claim\u2019s viability in diversity, without deciding whether every state \u201cpre-filing\u201d requirement would survive a different, genuinely conflicting Federal Rule.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Jackson\u2019s best point is that Rules 3, 8, 11, and 12 comprehensively regulate what must be filed to commence and maintain a federal civil action, so Delaware\u2019s affidavit-of-merit looks like an impermissible add-on. But as the Chief Justice explains, that framing assumes the Federal Rules confer an entitlement to pursue a state-created malpractice cause of action without satisfying state-law conditions on that claim\u2019s existence; the Rules do not purport to answer that question. There is no direct conflict or logical contradiction: the complaint can satisfy Rule 8 and be tested under Rules 11 and 12 while Delaware independently withholds its remedy absent the expert attestation. Once we see no collision, Erie\u2019s forum-shopping concern\u2014emphasized by Justice Kagan\u2014confirms that federal diversity courts should not become a ready means to evade a neutral state prerequisite.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Jackson\u2019s strongest point is that Rules 3, 8, 11, and 12 comprehensively regulate what must be filed to commence and maintain a federal action, so Delaware\u2019s affidavit-of-merit necessarily \"adds\" an impermissible federal filing prerequisite. But as Chief Justice Roberts explains, that frames the \"question\" at too high a level of generality and skips the Hanna/Shady Grove threshold: none of those Rules, by their ordinary terms, answers whether Delaware has conditioned the availability of this particular state-law malpractice claim on an early expert attestation. The Rules can operate exactly as written\u2014governing complaint content, certifications, and motions\u2014while Delaware separately withholds the cause of action absent the attestation, so there is no direct collision in the Walker sense. And once we are in Erie\u2019s domain, the forum-shopping and inequitable-administration incentives the Chief identifies are not speculative but predictable if plaintiffs may evade Delaware\u2019s screening regime merely by filing in federal court.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.69,
+        "reasoning": "Justice Jackson is right to press that Delaware\u2019s affidavit operates as an additional early submission that, in practice, can determine whether the case proceeds. But that argument treats Rules 3, 8, 11, and 12 as answering a single, undifferentiated question\u2014\"what must be filed\"\u2014when they instead address distinct federal procedural mechanisms (commencement, pleading content, certification/sanctions, and motions), none of which purports to define whether Delaware has made expert support a prerequisite to the availability of its malpractice cause of action. As the Chief Justice and Justice Kagan emphasize, the AOM can be enforced without rewriting Rule 8\u2019s pleading standard or Rule 11\u2019s certification regime; Delaware is not dictating federal complaint content so much as withholding a state-created remedy absent a threshold showing. Reading the Federal Rules to displace such state gatekeeping would have sweeping consequences\u2014inviting predictable forum shopping and allowing federal courts to expand state substantive liability simply by virtue of the chosen forum, precisely what Erie cautions against; if Delaware law were genuinely unsettled on whether this is a condition of the claim or a mere filing formality, certification would be the federalism-respecting tool.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Jackson is right to stress that Rules 3, 8, 11, and 12 comprehensively regulate the mechanics of commencing and policing suits in federal court\u2014and that Delaware\u2019s affidavit requirement operates as an early, state-prescribed submission. But under Hanna/Shady Grove the question is whether a Federal Rule, by its ordinary meaning, answers the same question Delaware answers; as Chief Justice Roberts and Justice Alito note, those Rules govern what a federal complaint must contain and how federal courts test and sanction pleadings, not whether Delaware has conditioned the availability of its medical-negligence cause of action on an expert attestation. Because the Federal Rules can operate exactly as written while Delaware separately withholds this state-created remedy absent the affidavit, I do not see the kind of direct collision that would trigger displacement under the Rules Enabling Act. And once we are in Erie\u2019s domain, ignoring the affidavit would predictably invite forum shopping and unequal administration for the same Delaware claim depending on forum, a result Erie was designed to prevent.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Jackson\u2019s best point is that Rules 3, 8, 11, and 12 form a comprehensive federal scheme for commencing an action and testing pleadings, so a state affidavit-of-merit looks like an impermissible add-on. But as the Chief Justice emphasizes, the Hanna/Shady Grove threshold question is whether any Federal Rule\u2014by its own terms\u2014answers the same question Delaware answers: whether this particular state-created malpractice claim is available absent an early expert attestation; the Rules regulate federal pleadings and motions, not the State\u2019s conditions on the existence or maintenance of its cause of action. Implementing Delaware\u2019s prerequisite does not require rewriting Rule 8\u2019s content demands or Rule 11\u2019s certification standards; it simply respects Delaware\u2019s decision to withhold a state remedy unless that precondition is met. With no direct collision, Erie\u2019s twin aims reinforce applying the AOM, because ignoring it would predictably invite the forum-shopping disparity Justice Alito and the Chief identify.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Jackson\u2019s strongest point is that Rules 3, 8, 11, and 12 comprehensively regulate what must be filed to commence and maintain a federal civil action, so Delaware cannot add an affidavit-of-merit gatekeeping submission without a direct collision. But as the Chief Justice explains, that frames the \u201cquestion in dispute\u201d at too high a level of generality: the Federal Rules specify federal pleading and motion mechanics, while Delaware defines an additional prerequisite for the availability of this particular state-created malpractice claim\u2014something the Rules do not purport to guarantee absent satisfaction of state conditions. Like Walker rather than Shady Grove, the Rules can operate fully as written while Delaware independently withholds the cause of action unless the expert-attestation condition is met, so there is no logical contradiction triggering displacement. And once there is no direct collision, Erie\u2019s twin aims\u2014highlighted by Justice Kagan\u2014strongly support applying the AOM to prevent predictable forum shopping and inequitable administration of the same Delaware claim.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Jackson is right to emphasize that Rules 3, 8, 11, and 12 comprehensively regulate the mechanics of commencing an action, pleading, certification, and early motion practice in federal court, and that Delaware\u2019s affidavit requirement functions as a front-end screen. But that does not establish the Hanna/Shady Grove \u201csame question\u201d collision: as the Chief Justice and Justice Kagan explained, the Federal Rules do not purport to answer whether a State may condition the availability of a particular state-created malpractice claim on an early expert attestation, and the Rules can operate exactly as written while Delaware separately defines when its substantive cause of action is properly invoked. Treating the AOM as displaced would effectively convert general federal pleading/motion rules into an entitlement to bypass state-law prerequisites to the claim itself\u2014an overreading that Walker cautions against. With no direct conflict, Erie\u2019s twin aims (including predictable forum-shopping pressure) reinforce applying the Delaware condition in diversity.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Chief Justice\u2019s and Justice Kagan\u2019s core contention\u2014that Delaware\u2019s AOM is merely a substantive \u201ccondition on the claim\u201d that creates no Hanna/Shady Grove collision\u2014rests on defining the \u201cquestion in dispute\u201d at a level that obscures how the statute operates in federal court. In operation, Delaware is prescribing an additional mandatory, early-filed merits-screening submission that determines whether the action may proceed at all, in a domain that the Federal Rules already regulate comprehensively through Rules 3 and 8 (commencement and required filings/pleading), with Rules 11 and 12 supplying the federal mechanisms for certification and early dismissal. That is the kind of state-law overlay that makes the Federal Rules \u201csufficiently broad to control the issue,\u201d because the Rules answer what is required to initiate and maintain a civil action and how merit is tested at the pleadings stage; labeling the AOM \u201csubstantive\u201d cannot avoid the direct-collision inquiry. Erie\u2019s forum-shopping concerns, while real as Justice Roberts emphasizes, cannot narrow the Federal Rules\u2019 scope where their text and structure already occupy the field of filing prerequisites in federal court.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The threshold question under Hanna/Shady Grove is whether a Federal Rule \"answers the same question\" as Delaware\u2019s AOM statute so that there is a direct collision displacing state law. Here the AOM requirement operates as a state-law precondition to maintaining a medical-negligence claim\u2014an early merits-screening device tied to the substantive viability of that cause of action\u2014rather than a federal pleading standard governed by Rules 8 or 9, and it can be implemented alongside the Federal Rules without rewriting them. Because no Federal Rule requires a malpractice plaintiff to be allowed to proceed without such a state-law prerequisite, applying the AOM in diversity avoids the forum-shopping and outcome-determinative disparity Erie seeks to prevent, and respects Delaware\u2019s allocation of rights and obligations in its medical-liability regime. Accordingly, the federal court should enforce the AOM requirement in diversity cases absent a clear Rules Enabling Act-valid Federal Rule that squarely conflicts.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The threshold question is whether any Federal Rule validly \u201canswers the question in dispute\u201d such that applying Delaware\u2019s affidavit-of-merit requirement would place federal and state law in direct conflict or logical contradiction. Rules 8, 9, 11, 12, and 56 set federal pleading, sanctions, dismissal, and summary-judgment procedures, but none purports to guarantee a right to commence and maintain a state-law medical-negligence claim without first satisfying state-created preconditions to suit; Delaware\u2019s AOM operates as a substantive condition on the viability of that state cause of action and can be applied without displacing or nullifying any Federal Rule\u2019s commands. Because there is no direct collision, the Supremacy Clause does not preempt the Delaware requirement, and Erie\u2019s command to apply state substantive law in diversity reinforces enforcing the AOM to avoid disparate outcomes and forum shopping. The plaintiff therefore cannot proceed in federal court on this Delaware malpractice claim while bypassing the State\u2019s neutral, generally applicable prerequisite.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The first question under Hanna/Shady Grove is whether any Federal Rule, read in its ordinary terms, answers the same question Delaware\u2019s AOM statute answers: whether a plaintiff may commence and maintain a medical-negligence action without an early expert attestation of merit. Rules 8, 9, 11, 12, and 56 regulate pleading, sanctions, motions to dismiss, and summary judgment, but none requires\u2014or forbids\u2014a state-law condition precedent keyed specifically to the substantive entitlement to proceed on a medical-malpractice claim, so there is no \u201cdirect collision\u201d of the Walker sort. Treating the AOM as displaced would invite predictable forum shopping and inequitable administration by letting plaintiffs evade a core state screening protection simply by choosing federal court, a consequence Erie seeks to prevent. Because the Federal Rules do not squarely cover this pre-suit/early-filing prerequisite, the state rule should be enforced in diversity.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Delaware\u2019s AOM statute contains distinct components\u2014(1) an early expert-support showing and (2) a state-law dismissal consequence\u2014that warrant separate Erie/Hanna analysis rather than being treated as a single \u201cpleading rule.\u201d Properly construed, the AOM operates as a state-law condition on maintaining a medical-negligence action (a merits-linked screening requirement), and it does not directly collide with Rules 8, 9, 11, or 12, which regulate what a complaint must allege and how federal courts police frivolous filings, not whether state law demands a threshold expert attestation for this category of claim. Taking petitioner\u2019s theory to its logical endpoint would allow plaintiffs in diversity to evade a central Delaware limitation on malpractice liability simply by choosing a federal forum, inviting forum shopping and inequitable administration of the laws\u2014the core Erie concerns. To the extent Delaware law is genuinely unclear on whether the AOM is best characterized as a substantive precondition or a purely procedural filing rule, a federal court is not ideally positioned to resolve that sensitive question and should consider certification to the Delaware Supreme Court, but on this record I would enforce the AOM in diversity.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The governing baseline under Hanna and Shady Grove is to ask first whether a valid Federal Rule \u201canswers the question in dispute\u201d\u2014here, whether a Delaware medical-negligence plaintiff must supply early expert support as a condition of pursuing that state-created claim. Rules 8, 9, 11, 12, and 56 regulate pleading, sanctions, dismissal, and proof generally, but none creates an entitlement to proceed on a state malpractice claim without satisfying a state-law prerequisite that functions as a condition on the claim\u2019s availability, and so there is no direct collision requiring displacement. With no Rule on point, Erie\u2019s twin aims control, and disregarding Delaware\u2019s AOM would predictably invite forum shopping and produce materially different outcomes between Delaware and federal courts in the same State for the same state-law cause of action. Because federal courts are courts of limited jurisdiction applying state substantive law in diversity, they must enforce Delaware\u2019s AOM requirement as a substantive condition of suit rather than treat it as a mere optional screening device.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Start with the governing texts: Delaware\u2019s AOM statute sets a state-law prerequisite to maintaining a medical-negligence claim, while the Federal Rules (Rules 8, 9, 11, 12, 56) regulate federal pleading, motions, and sanctions. None of those Rules clearly and unambiguously answers the same question Delaware answers\u2014whether a malpractice plaintiff must come forward at the outset with expert support (or face dismissal) as a condition of invoking the state-created cause of action\u2014so I see no direct \u201ccollision\u201d requiring displacement. Under Erie\u2019s structural aim of preventing forum shopping and inequitable administration of the laws, ignoring Delaware\u2019s AOM would invite plaintiffs to select federal court to evade a state limitation bound up with how Delaware defines and polices its malpractice remedy. Because the Federal Rules can operate alongside the AOM (pleading and motion practice proceed as usual, but the state demands this additional showing for this category of claim), the state requirement should be enforced in diversity.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "As a threshold matter, this is a justiciable diversity dispute because dismissal for failure to file the Delaware Affidavit of Merit (AOM) inflicts a concrete injury (loss of the claim), caused by the defendants\u2019 invocation of the statute and redressable by reversal. On the merits, under Hanna and its progeny the question is whether any Federal Rule \"answers the question in dispute\" and thus directly collides with Delaware\u2019s AOM prerequisite; Rules 8, 9, 11, 12, and 56 set federal pleading, sanctions, and adjudication mechanisms, but they do not purport to eliminate a State\u2019s expert-support precondition for maintaining a medical-negligence claim. Because there is no direct clash, Erie requires enforcing the State\u2019s longstanding substantive screening condition in diversity to avoid outcome-determinative forum shopping between Delaware state court and federal court. Allowing plaintiffs to bypass the AOM in federal court would improperly expand the federal courts\u2019 role by disregarding a State-defined condition on the availability of this cause of action.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The threshold question under Hanna/Shady Grove is whether a Federal Rule is sufficiently broad to control the issue and thus \"collide\" with Delaware\u2019s affidavit-of-merit prerequisite. Properly characterized, the AOM statute does not alter Rule 8\u2019s pleading standard or Rule 12\u2019s dismissal framework; it instead supplies a state-law condition on maintaining a Delaware medical-negligence claim\u2014an early merits-screening requirement tied to the claim\u2019s viability that can operate alongside the Federal Rules without rewriting what a complaint must contain. Because no Federal Rule answers the same question\u2014whether this category of state-law claim may proceed absent an expert-attested showing of merit\u2014Erie\u2019s twin aims counsel applying the AOM in diversity to avoid outcome-determinative forum shopping and inequitable administration. Treating the AOM as displaced would let plaintiffs bypass a Delaware gatekeeping rule simply by choosing federal court, producing materially different results for the same state cause of action.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Starting with the operative texts, Delaware\u2019s AOM statute functions as a prefiling (or early-filing) merits-screen that conditions access to court on submitting expert support, while the Federal Rules already supply the comprehensive federal framework governing commencement and pleading (Rules 3, 8, 9), certification and deterrence of meritless filings (Rule 11), and dismissal at the pleadings stage (Rule 12). Read in context and applying the traditional \u201cdirect collision/sufficiently broad to control the issue\u201d inquiry, those Rules answer the question of what a plaintiff must file to initiate and maintain a civil action in federal court, leaving no room for an additional state-law filing prerequisite that effectively heightens the federal pleading/filing standard in diversity. Because a Federal Rule controls, Hanna/Shady Grove require applying the Federal Rules so long as they regulate procedure and do not abridge substantive rights; an AOM requirement is paradigmatically procedural as applied here (a gatekeeping filing device), and enforcing it in federal court would improperly displace the federal scheme through an extra, state-imposed hurdle. Accordingly, the AOM prerequisite is displaced in federal diversity actions and the plaintiff may proceed without complying with it.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.728,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "24-440",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a federal court sitting in diversity must enforce Delaware\u2019s pre-suit/early-suit \u201caffidavit of merit\u201d (AOM) requirement for medical-negligence claims, or instead may disregard it as displaced by the Federal Rules of Civil Procedure.",
+      "legal_provision": "Delaware\u2019s medical-negligence Affidavit/Certificate of Merit statute (Delaware AOM requirement governing commencement/maintenance of healthcare negligence actions) and its interaction with the Federal Rules of Civil Procedure (especially Rules 8, 9, 11, 12, and 56) under Erie/Hanna.",
+      "petitioner_position": "Berk argues that Delaware\u2019s AOM requirement is a state procedural screening device that cannot be applied in federal court when it conflicts with, adds to, or alters the pleading and litigation framework established by the Federal Rules\u2014particularly the Rules governing pleading sufficiency and sanctions (Rules 8/9/11/12). On this view, the Federal Rules provide the exclusive standards for filing and testing the adequacy of a complaint in federal court, so a state-law affidavit/certificate prerequisite operates as an impermissible heightened-pleading or claim-processing condition that is displaced under Hanna and the Rules Enabling Act. Berk (supported by the American Association for Justice) frames non-enforcement as necessary to preserve uniform federal procedure and access to federal forums without state-created extra hurdles.",
+      "respondent_position": "Choy and Beebe Medical Center (supported by hospital, physician, insurer, and defense-side amici) argue that Delaware\u2019s AOM requirement is substantive for Erie purposes because it is tightly bound to Delaware\u2019s definition of a viable medical-negligence claim and is designed to deter non-meritorious malpractice litigation at the outset. They contend there is no direct collision with the Federal Rules: the AOM requirement can coexist with Rule 8\u2019s notice pleading and Rule 11\u2019s sanctions by operating as an additional state-law element/condition of maintaining the claim (or a state-law prerequisite to suit) that federal courts must respect in diversity to avoid forum shopping and inequitable administration of the laws. Respondents emphasize that enforcing the AOM statute advances the Federal Rules\u2019 own objectives\u2014efficient case management, screening weak claims, and reducing unnecessary costs\u2014while honoring state policy judgments about medical-liability litigation.",
+      "key_precedents": [
+        "Erie Railroad Co. v. Tompkins",
+        "Hanna v. Plumer",
+        "Shady Grove Orthopedic Associates, P.A. v. Allstate Insurance Co.",
+        "Burlington Northern Railroad Co. v. Woods",
+        "Walker v. Armco Steel Corp.",
+        "Gasperini v. Center for Humanities, Inc."
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett\u2019s sequencing point has force: Delaware\u2019s affidavit-of-merit requirement does demand material outside the pleadings at the outset, and in practice it can precipitate an early dismissal. But under Hanna and Walker the threshold question is whether a Federal Rule, fairly construed, is \u201csufficiently broad\u201d to answer the same question Delaware answers; as Justice Kagan and Justice Gorsuch emphasize, Rules 8, 11, and 12 regulate the content and testing of pleadings and sanctions, not whether a State may attach a claim-defining condition to the maintenance of a state-created malpractice cause of action. On that framing, there is no direct collision, and disregarding the AOM in diversity would invite precisely the forum shopping Erie was meant to prevent. The opinion should therefore be narrow: treat the AOM as a nonjurisdictional condition of suit enforceable in diversity, without opining on Delaware-law particulars about cure, timing, or exceptions beyond what is necessary to decide the Erie/Rules question.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett\u2019s sequencing argument proves too much because it assumes the Federal Rules affirmatively guarantee a plaintiff may maintain a state-created malpractice claim without satisfying a State\u2019s claim-defining condition of suit. As the Chief Justice and Justice Gorsuch explain, Rules 8, 11, and 12 regulate the content and testing of pleadings and sanctions in federal court, but they do not \u201canswer the question\u201d whether Delaware may require an early expert attestation as a prerequisite to pursuing this particular state cause of action; fairly construed, the texts leave room for the State\u2019s gatekeeping to operate. Without a Federal Rule or statute that expressly supersedes or directly conflicts with Delaware\u2019s requirement, we should not invent a judge-made exemption that would invite the very forum shopping Erie sought to prevent. I would also resist recharacterizing the AOM as jurisdictional; it is better treated as an ordinary, enforceable condition precedent subject to the usual procedural baselines.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett\u2019s sequencing argument has force insofar as the affidavit-of-merit requires something beyond the four corners of the complaint at the outset, but that observation does not establish the necessary \u201cdirect collision\u201d under Hanna and Walker. As the Chief Justice explained, Rules 8, 11, and 12 regulate what must be pleaded, certified, and tested in federal court; they do not purport to confer an entitlement to maintain a state-created malpractice claim when the State has defined that claim as unavailable absent an expert attestation. Treating the Federal Rules as \u201csufficiently broad\u201d to displace any state precondition that accelerates merits screening would invite the very forum shopping Erie sought to prevent\u2014plaintiffs could evade Delaware\u2019s gatekeeping simply by filing in federal court. I therefore remain with Respondent, and I agree with Justice Gorsuch that we should describe the requirement as nonjurisdictional and enforceable in diversity absent an actual textual conflict with a valid Federal Rule.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett is right to stress that Delaware\u2019s affidavit-of-merit front-loads a merits screen and can look like a de facto heightened pleading requirement, potentially deterring access to a federal forum. But as Chief Justice Roberts and Justice Kagan explain, the Hanna/Walker inquiry turns on whether a Federal Rule is fairly construed to answer the same question and leave no room for the state condition to operate; Rules 8, 11, and 12 regulate pleading form, certification, and motions practice, not whether Delaware may define its malpractice cause of action to require an expert attestation as a condition of suit. Treating the AOM as a claim-defining prerequisite avoids stretching the Rules\u2019 scope, respects Erie\u2019s anti\u2013forum-shopping and equal-administration aims, and prevents federal procedural \u201crelabeling\u201d from undermining Delaware\u2019s substantive gatekeeping policy. To the extent Delaware law is unclear about timing, cure, or dismissal consequences, I share my own concern that federal courts are not ideally positioned to improvise and should consider certification rather than reshaping the state scheme.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett\u2019s sequencing point is the best case for the Petitioner: Delaware\u2019s affidavit-of-merit seems to demand evidentiary support outside the pleadings at the outset, and dismissal for noncompliance can look like a de facto heightened pleading regime. But as the Chief Justice and Justice Gorsuch explain, Hanna/Walker asks a narrower question\u2014whether any Federal Rule, fairly construed, is sufficiently broad to answer the same question Delaware addresses\u2014and Rules 8, 11, and 12 regulate what must be pleaded and how pleadings are tested, not whether a State may attach an expert-attestation condition to the maintenance of its malpractice cause of action. Because those regimes can coexist without rewriting the Federal Rules, treating the AOM as displaced would invite precisely the forum shopping Erie seeks to prevent by allowing plaintiffs to evade Delaware\u2019s gatekeeping simply by choosing federal court. I would therefore apply the Delaware requirement in diversity, while keeping the opinion narrow, as Justice Roberts urges, to avoid unnecessary pronouncements about state-law timing and cure mechanisms.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett is right to stress that Delaware\u2019s affidavit-of-merit requirement front-loads a merits screen and, in practice, can precipitate dismissal before discovery. But Hanna and Walker ask a prior, more textual question: whether any Federal Rule, fairly construed, is \u201csufficiently broad\u201d to answer the same question Delaware answers; as the Chief Justice and Justice Kagan explain, Rules 8, 11, and 12 govern pleading form, certification, and motions practice, not the State\u2019s decision to condition the very maintenance of its malpractice cause of action on an expert attestation. We should not inflate the Rules\u2019 general language into a displacement of state claim-defining prerequisites when the two sets of directives can operate side by side, especially given Erie\u2019s concerns about forum shopping and unequal administration if federal court becomes an escape hatch. And I would be careful, as the Chief suggests, to treat the requirement as nonjurisdictional\u2014subject to ordinary waiver/forfeiture principles\u2014without rewriting Delaware\u2019s timing or cure mechanisms beyond what we must decide.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Barrett\u2019s strongest point is that Delaware\u2019s affidavit-of-merit functions as an upfront evidentiary screen that seems to reorder the Federal Rules\u2019 sequencing (pleading, then discovery, then merits testing). But as the Chief Justice and Justice Gorsuch emphasize, the Hanna/Walker inquiry is whether any Federal Rule, fairly construed, answers the same question\u2014here, whether Delaware may condition the maintenance of its malpractice cause of action on an expert attestation\u2014and Rules 8, 11, and 12 regulate pleading and sanctions without purporting to negate state-law conditions of suit. Because the Federal Rules are not \u201csufficiently broad\u201d to leave \u201cno room\u201d for the Delaware prerequisite, there is no direct collision, and Erie\u2019s anti\u2013forum-shopping and equal-administration principles strongly counsel applying the same gatekeeping requirement in federal court that would apply in Delaware courts. Absent a controlling federal statute or an entrenched federal policy to the contrary, we should enforce Delaware\u2019s condition while keeping the holding narrow, as the Chief Justice suggests.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "The Chief Justice\u2019s Walker framing\u2014echoed by Justices Kagan and Gorsuch\u2014that Rules 8, 11, and 12 do not \u201canswer\u201d Delaware\u2019s distinct question about a claim-maintenance prerequisite is the strongest point against me. But that characterization understates the operative effect of Delaware\u2019s AOM: it authorizes dismissal at the threshold for failure to submit proof outside the pleadings, thereby functionally altering what a plaintiff must file to proceed past the Rule 12 stage and reordering the Rules\u2019 architecture (pleading, then discovery, then Rule 56/50 testing). Fairly construed, Rules 8 and 12 (with Rule 11\u2019s certification regime) are sufficiently broad to govern the content required to initiate and maintain a civil action through the pleadings stage, leaving no room for a state rule that imposes an extrinsic evidentiary submission on pain of early dismissal. Treating the AOM as merely \u201csubstantive\u201d risks permitting States to repackage merits screening as a condition of suit and thereby displace the Federal Rules\u2019 sequencing and the jury- and discovery-protecting framework they establish.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.69,
+        "reasoning": "Justice Barrett is right to emphasize the AOM\u2019s practical effect: it demands an evidentiary submission early and can precipitate dismissal before discovery, which looks like it reorders the usual Rule 8\u201312\u201356 sequence. But under Hanna/Walker, that functional impact does not establish a \u201cdirect collision\u201d unless a Federal Rule, fairly construed, is sufficiently broad to answer the same question Delaware answers\u2014whether maintenance of this state-created malpractice claim is conditioned on an expert attestation\u2014and I agree with Chief Justice Roberts and Justice Kagan that Rules 8, 11, and 12 regulate pleading, certification, and motion practice, not state-law claim-defining prerequisites. Because the Rules can operate as written while Delaware\u2019s condition operates as an additional element-like gatekeeping requirement, Erie\u2019s forum-shopping and equal-administration concerns strongly favor applying the AOM in diversity rather than creating an easy federal-court bypass. I would keep the opinion narrow, as the Chief Justice suggests, by treating the AOM as nonjurisdictional and avoiding unnecessary pronouncements about Delaware\u2019s timing/cure details.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "This case presents no Article III or jurisdictional bar, so the threshold question is Hanna\u2019s \u201cdirect collision\u201d inquiry: whether any Federal Rule, fairly construed, is sufficiently broad to control the issue and thereby displace Delaware\u2019s AOM prerequisite. Read in their proper scope, Rules 8, 11, 12, and 56 regulate the form and testing of pleadings and evidentiary showings in federal litigation, but they do not purport to define whether a State has conditioned the very maintenance of a medical-negligence claim on an early expert attestation of merit. As in Walker and Burlington Northern, the Federal Rules need not be stretched to cover a distinct state-law screen that functions as part of Delaware\u2019s substantive policy choice about when malpractice liability may be pursued, and applying it in diversity avoids forum shopping and inequitable administration of the laws. Because there is no direct collision, Erie requires enforcing Delaware\u2019s AOM requirement in federal court.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "This case is straightforward under first principles: Delaware retains sovereign authority to define the prerequisites for maintaining a state-created medical-negligence claim unless valid federal law expressly supersedes or directly conflicts with that requirement. The Federal Rules do not \u201ccommand\u201d that a malpractice plaintiff may commence and maintain suit without satisfying Delaware\u2019s affidavit-of-merit condition; Rules 8, 11, and 12 set federal pleading and motion practice, but they do not purport to displace state-law screening conditions tied to the viability of the claim itself. Because the AOM requirement can operate alongside the Federal Rules without a direct collision, Erie\u2019s concerns about forum shopping and inequitable administration require federal courts sitting in diversity to enforce the Delaware prerequisite. Berk\u2019s contrary position would create a judge-made procedural exemption from a state-law condition of suit without any textual directive in the Rules or a federal statute authorizing that departure.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The controlling question under Hanna and Shady Grove is whether a Federal Rule \u201canswers the question in dispute\u201d and thus directly collides with Delaware\u2019s affidavit-of-merit prerequisite; here, the Federal Rules govern how claims are pleaded and tested (Rules 8, 12, 56, 11), but they do not purport to decide whether state law may condition the very maintenance of a Delaware medical-negligence cause of action on an early expert attestation. The critical point is that Delaware\u2019s AOM requirement functions as a substantive screen tightly bound up with the State\u2019s definition of a viable malpractice claim and its policy judgment about when such claims may proceed, not merely as a different federal pleading formality. Treating the AOM as displaced would invite the very forum-shopping and inequitable administration of the laws Erie sought to prevent, allowing plaintiffs to bypass Delaware\u2019s state-law limitation simply by choosing a federal forum. Because there is no necessary \u201ceither/or\u201d conflict\u2014federal pleading rules can operate alongside a state-law precondition to suit\u2014the diversity court should enforce the AOM requirement.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The threshold question is whether Delaware\u2019s affidavit-of-merit requirement is materially different from (and thus not interchangeable with) ordinary federal pleading and sanctions rules; here, the AOM functions as a state-law precondition to maintaining a medical-negligence claim, not simply a heightened pleading format. Applying the Hanna/Walker inquiry, I do not see a direct collision: Rules 8, 9, 11, and 12 regulate what must be pleaded and how pleadings are tested and sanctioned, but they do not purport to displace state-created prerequisites defining when a particular state claim may proceed. Because Delaware\u2019s AOM requirement reflects a substantive state policy choice about the availability of malpractice claims and enforcing it avoids forum-shopping and inequitable administration (while leaving federal adjudicatory pathways intact once the prerequisite is satisfied), a diversity court should apply it. To the extent there are close, state-law questions about the AOM\u2019s timing, exceptions, or consequence/severability of noncompliance, federal courts should consider certification to the Delaware Supreme Court rather than reshape Delaware\u2019s scheme through federal procedural improvisation.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Start with Hanna\u2019s first step: identify whether any Federal Rule, fairly read, answers the same question as Delaware\u2019s AOM statute. Rules 8, 9, 11, and 12 set federal pleading, certification, and motion-to-dismiss standards, but they do not purport to eliminate state-law conditions on the availability or continuation of a state-created medical-negligence claim; so, as in Walker, there is no \u201cdirect collision\u201d to trigger automatic displacement under the Rules Enabling Act. Treating the AOM as an early merits-screening prerequisite tightly linked to Delaware\u2019s definition of a viable malpractice action, enforcing it in diversity better serves Erie\u2019s core aims by preventing forum shopping and inequitable administration (plaintiffs otherwise could evade Delaware\u2019s gatekeeping simply by choosing federal court). The federal court may still manage timing and enforcement through ordinary federal mechanisms, but it should not disregard the state prerequisite altogether.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Start with the texts that govern in federal court: the Federal Rules specify what a complaint must contain (Rules 8 and 9), how it is tested (Rule 12), and what sanctions may follow from deficient filings (Rule 11), but none of those Rules purports to answer Delaware\u2019s distinct question whether a plaintiff asserting a state-created medical-negligence claim must, as a condition of maintaining that claim, supply an expert affidavit early in the case. Fairly construed, the Rules regulate federal pleading and motion practice; they do not confer a right to proceed on a Delaware malpractice claim absent compliance with Delaware\u2019s substantive screening condition that helps define which claims the State will entertain as sufficiently meritorious. Under Walker\u2019s \u201cfairly construed\u201d/\u201csufficiently broad\u201d inquiry, there is no direct collision, so Erie\u2019s command to apply state law in diversity controls to avoid forum shopping and inequitable administration of the laws. Because the AOM requirement operates as a state-law prerequisite tied to the viability of the state claim\u2014not a jurisdictional limit and not a Federal-Rule-displacing pleading regime\u2014the federal court should enforce it in diversity.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The threshold Hanna/Shady Grove inquiry is whether an established Federal Rule directly answers the question whether a Delaware medical-negligence plaintiff must file an expert affidavit/certificate as a prerequisite to maintaining the claim; Rules 8, 9, 11, and 12 regulate the manner and sufficiency of pleadings and sanctions, but they do not purport to displace state-law conditions that define when a particular state-created claim is viable. Properly characterized in the post-Erie framework, Delaware\u2019s AOM requirement functions as a substantive, claim-defining condition precedent tied to Delaware\u2019s medical-liability policy, and it can operate alongside federal pleading and motion practice without a true \u201cdirect collision.\u201d Enforcing the AOM requirement in diversity also avoids the classic Erie problems of forum shopping and inequitable administration of the laws by preventing plaintiffs from evading Delaware\u2019s gatekeeping regime simply by choosing federal court. Because there is no direct clash with a controlling Federal Rule, the federal court should apply the Delaware requirement.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Delaware\u2019s AOM requirement functions as an early gatekeeping device that conditions the filing or immediate continuation of a medical-negligence action on proof outside the pleadings, thereby shifting merits-screening to the front end of the case and disrupting the Federal Rules\u2019 sequencing (Rule 8 notice pleading, Rule 12(b)(6) testing legal sufficiency, then discovery and Rule 56 summary judgment). Characterizing that requirement as a mere \u201cprerequisite to suit\u201d does not avoid the collision: in federal court the Rules already specify what must be filed to commence an action and what materials may be demanded to survive dismissal at the pleading stage, with Rule 11 supplying the federal mechanism to deter frivolous claims. Under Hanna/Shady Grove, where a Federal Rule answers the question of what is required to file and maintain a complaint through the Rule 12 stage, the Rule governs if valid under the Rules Enabling Act, and applying a state affidavit screen would effectively add a heightened, non-Rule pleading/proof condition. The proper place to test medical-negligence evidentiary support is through the Rules\u2019 ordinary merits procedures (Rule 56/Rule 50), not a state-law front-end filter that risks prematurely resolving (or foreclosing development of) the merits.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Starting with the governing texts, Delaware\u2019s affidavit-of-merit requirement functions as a state-law precondition for maintaining a medical-negligence claim\u2014i.e., a substantive screen Delaware has attached to the availability of that cause of action\u2014rather than a mere alternative federal pleading standard. Applying the Hanna/Burlington Northern \u201cdirect collision\u201d inquiry (as clarified by Justice Stevens\u2019s controlling approach in Shady Grove), Rules 8, 11, and 12 regulate how a complaint is pleaded, tested, and sanctioned in federal court, but they do not purport to answer the distinct question Delaware addresses: whether a malpractice plaintiff may proceed at all absent an expert-supported certification. Because the Federal Rules are not \u201csufficiently broad\u201d to leave \u201cno room\u201d for Delaware\u2019s AOM to operate, there is no displacement, and Erie\u2019s anti\u2013forum-shopping and equal-administration principles favor enforcing the state requirement in diversity. On this record, the AOM can coexist with federal practice (e.g., by being filed contemporaneously or as required by state law) without converting federal pleading into a heightened standard, so the state\u2019s substantive policy choice should be respected.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.704,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.61,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  }
+]

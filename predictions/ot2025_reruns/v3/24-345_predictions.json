@@ -1,0 +1,579 @@
+[
+  {
+    "docket": "24-345",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether Section 47(b) of the Investment Company Act creates an implied private federal cause of action allowing private plaintiffs to sue for rescission of contracts alleged to violate the Act.",
+      "legal_provision": "Investment Company Act of 1940, Section 47(b), 15 U.S.C. \u00a7 80a-46(b) (especially \u00a7 80a-46(b)(2)).",
+      "petitioner_position": "Petitioners argue that Section 47(b) does not create a private right of action for rescission. They contend that under this Court\u2019s modern implied-rights jurisprudence, a private remedy exists only when Congress clearly indicated an intent to create one through rights-creating statutory text and structure. In their view, Section 47(b) is primarily a remedial/contract-validity provision that specifies the legal effect of illegality and the availability of rescission when a proper plaintiff and cause of action already exist, rather than affirmatively authorizing private parties to file suit. Petitioners further emphasize that the ICA contains an express private right of action in another provision (commonly cited in this context as Section 36(b)), suggesting Congress knew how to authorize private suits and chose not to do so in Section 47(b). They warn that recognizing an implied rescission action would invite opportunistic shareholder/activist litigation and expand liability beyond what Congress authorized, even if the remedy is formally framed as rescission rather than damages.",
+      "respondent_position": "Respondents argue that the plain text of Section 47(b)(2) affirmatively contemplates rescission being sought by parties to an illegal contract and therefore authorizes a private cause of action (at least for the limited remedy of rescission/voiding and restitutionary relief). They rely on the statutory language as 'rights-creating' in the sense that it identifies who may obtain rescission and under what circumstances, and they argue that this Court\u2019s precedent (including decisions discussing contract-voiding provisions in related securities statutes) supports a limited private remedy to unwind unlawful contracts even if broader damages remedies are unavailable. Respondents also contend that any circuit disagreement is narrow or underdeveloped and that, in practice, Section 47(b) rescission claims are relatively uncommon and limited in scope (not a backdoor to compensatory damages), reducing the policy concerns asserted by petitioners and amici.",
+      "key_precedents": [
+        "Alexander v. Sandoval, 532 U.S. 275 (2001)",
+        "CTS Corp. v. Waldburger, 573 U.S. 1 (2014)",
+        "Northwest Airlines, Inc. v. Transport Workers Union of America, 451 U.S. 77 (1981)",
+        "Touche Ross & Co. v. Redington, 442 U.S. 560 (1979)",
+        "Transamerica Mortgage Advisors, Inc. (TAMA) v. Lewis, 444 U.S. 11 (1979)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor is right that \u00a747(b)(2)\u2019s \u201cat the instance of any party\u201d is the respondents\u2019 best textual hook, because it sounds like a party can come to court and request rescission. But as Justice Kagan and Justice Thomas emphasize, Sandoval requires clear congressional intent to create a private cause of action, and court-directed remedial language can just as naturally function as a rule of decision once a case is properly before a court (including defensively or within an independently authorized claim). The broader ICA enforcement architecture\u2014SEC-centered enforcement with an express, targeted private action in \u00a736(b)\u2014makes it implausible that Congress silently created an additional, freestanding private rescission suit through contract-validity language. Transamerica, predating our modern implied-rights framework, cannot supply the missing clear authorization in this statutory design.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor\u2019s argument that \u00a747(b)(2) \u201cpresupposes\u201d a private suit because it says a court may not deny rescission at a party\u2019s instance mistakes a remedial limitation for an affirmative cause of action. Under Sandoval, we must find congressional intent to create both a private right and a private remedy; language regulating what a court may do once properly seized of a case does not itself confer a legal right to hale a defendant into federal court. As the Chief Justice and Justice Kagan observe, the ICA\u2019s structure\u2014especially Congress\u2019s express creation of a private action in \u00a736(b) amid an SEC-centered enforcement scheme\u2014strongly indicates Congress did not mean \u00a747(b) to be a freestanding private enforcement mechanism. Section 47(b) can still do work as a rule of decision (including in defensive postures or within an independently authorized action), but it does not supply the cause of action respondents need.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor is right that \u00a747(b)(2)\u2019s phrase \u201ca court may not deny rescission at the instance of any party\u201d is the respondents\u2019 best textual hook, because it sounds like a party may affirmatively request relief. But as the Chief Justice and Justice Kagan emphasize, Sandoval requires evidence that Congress intended to create not just a remedy but a freestanding private cause of action, and court-directed remedial instructions can operate simply as a rule of decision once some proper action is already before the court. The ICA\u2019s overall design\u2014SEC-centered enforcement plus an express, carefully cabined private action in \u00a736(b)\u2014is powerful contextual evidence that Congress did not silently authorize a broad additional private enforcement suit through \u00a747(b). Transamerica, for the reasons Justice Kagan and Justice Thomas give, cannot supply the missing clarity after our modern intent-focused framework and materially different statutory context.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.64,
+        "reasoning": "I take Chief Justice Roberts\u2019s and Justice Kagan\u2019s point that \u00a747(b)(2) can be characterized as merely remedial\u2014telling a court what it may do once a case is properly before it\u2014and that the ICA\u2019s express private action in \u00a736(b) reflects calibrated enforcement. But Sandoval asks whether Congress intended a private remedy, and \u00a747(b)(2)\u2019s directive\u2014\u201ca court may not deny rescission at the instance of any party\u201d\u2014is not just a generic remedial menu; it is a court-facing command keyed to a party\u2019s invocation, which is difficult to reconcile with the view that no party may ever affirmatively seek that relief. The structure cuts both ways: Congress\u2019s choice to specify a narrow, contract-centered rescission obligation here can complement SEC enforcement without creating the broader damages regime my colleagues fear. Put differently, calling \u00a747(b) a \u201crule of decision\u201d does not explain why Congress spoke in mandatory, party-invoking terms that make most sense if unlawful ICA contracts are rescindable in a party-initiated action.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to press that \u00a747(b)(2)\u2019s phrase \u201ca court may not deny rescission at the instance of any party\u201d sounds like it anticipates a party seeking rescission. But as the Chief Justice and Justice Thomas explain, that is most naturally read as a remedial constraint\u2014a rule about what a court may do once a properly authorized claim is before it\u2014rather than the kind of rights-creating, defendant-naming authorization Sandoval requires to infer a freestanding private cause of action. The ICA\u2019s broader enforcement design matters here: Congress knew how to create a private suit and did so expressly in \u00a736(b), while otherwise relying on SEC-centered enforcement, which strongly counsels against treating \u00a747(b) as silently \u201cadding\u201d a new private enforcement mechanism. Transamerica cannot supply the missing clear statement, both because it predates our modern implied-right framework and because importing its approach would override the ICA\u2019s calibrated scheme.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to press the textual hook in \u00a747(b)(2)\u2014\u201ca court may not deny rescission at the instance of any party\u201d\u2014because it sounds like an affirmative request for relief. But as Chief Justice Roberts and Justice Kagan explain, Sandoval requires clear congressional creation of a cause of action, and court-directed remedial instructions can function as rules of decision once a case is properly before a court (including defensively or within an expressly authorized suit) without themselves authorizing anyone to hale a defendant into federal court. The ICA\u2019s structure reinforces that reading: Congress knew how to create a private action when it wished (e.g., \u00a736(b)) and otherwise relied heavily on SEC-centered enforcement, which counsels against \"raising up\" a new freestanding private rescission action from contract-validity language. Transamerica, predating our modern clear-statement approach, cannot supply the missing rights-creating clarity in \u00a747(b).",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is textual: \u00a747(b)(2) says a court may not deny rescission \u201cat the instance of any party,\u201d which can sound like an invitation to file an affirmative suit. But as the Chief Justice and Justice Kagan emphasize, Sandoval requires clear congressional creation of a private cause of action, and court-directed remedial language more naturally presupposes an already-valid vehicle for suit and then constrains the remedy once the court is properly seized. The ICA\u2019s enforcement architecture\u2014SEC-centered, with an expressly created and carefully limited private action in \u00a736(b)\u2014is powerful contextual evidence against silently \u201cadding\u201d a broad private rescission action via \u00a747(b). Section 47(b) can still function as a rule of decision about illegality and rescission within authorized litigation (or defensively) without implying a freestanding private right to sue.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to press the textual force of \u00a747(b)(2)\u2019s phrase \u201ca court may not deny rescission at the instance of any party,\u201d which sounds like it anticipates a party asking for rescission. But as Justice Kagan and the Chief Justice explain, Sandoval requires evidence that Congress created a private cause of action\u2014not merely that it regulated the availability of a remedy once a court is properly engaged\u2014and \u00a747(b) reads more naturally as a remedial limitation/rule of decision rather than rights-creating authorization to sue. The ICA\u2019s structure, including the Act\u2019s SEC-centered enforcement and Congress\u2019s decision to confer an express private right in \u00a736(b) but not generally elsewhere, is strong contextual evidence against implying a freestanding private rescission action from \u00a747(b). Section 47(b) can still have meaningful work to do (including as a defense or as a remedy within an action brought under an express cause of action) without transforming it into an implied private enforcement mechanism.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to press that \u00a747(b)(2)\u2019s \u201cat the instance of any party\u201d sounds like party-initiated litigation, not merely an abstract remedial directive. But as Justice Kagan and the Chief explain, Sandoval requires an unambiguous congressional creation of a private right and remedy, and court-directed limits on denying rescission more naturally operate as a rule of decision once a case is properly before the court, not as an affirmative authorization to sue. The ICA\u2019s structure\u2014particularly Congress\u2019s express choice to create a specific private action in \u00a736(b) within an otherwise SEC-centered scheme\u2014makes it implausible that Congress silently added a broad, freestanding rescission cause of action via \u00a747(b). Transamerica cannot supply the missing clarity under our modern implied-rights framework, and \u00a747(b) still has meaningful work to do without being transformed into an implied private enforcement mechanism.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Beginning with Congress\u2019s enforcement design, the Investment Company Act largely channels compliance through SEC oversight and specified enforcement mechanisms, and when Congress meant to authorize private plaintiffs it did so expressly (as in \u00a7 36(b)), which strongly suggests \u00a7 47(b) is remedial rather than rights-creating. Under our modern implied-rights cases, the question is not whether rescission is a familiar remedy but whether the statute\u2019s text and structure clearly manifest congressional intent to create a private cause of action; \u00a7 47(b)(2)\u2019s direction about when a court may grant rescission presupposes an existing cause of action rather than supplying one. Respondents\u2019 reliance on Transamerica is misplaced because that decision predated Sandoval\u2019s stricter approach and rested on materially different statutory language in the Investment Advisers Act\u2019s contract-voiding provision. Absent clear textual authorization, we should not infer a new private federal cause of action that Congress did not create, particularly given the Act\u2019s calibrated remedial scheme.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Under Sandoval, the judicial task is to determine whether Congress intended to create both a private right and a private remedy; absent that intent, courts may not manufacture a cause of action. Section 47(b) speaks in remedial/contract-validity terms\u2014describing when an ICA-violative contract is unenforceable and when rescission may be appropriate\u2014without expressly authorizing any private party to sue, which is a strong indication Congress did not create a freestanding private cause of action. The Investment Company Act\u2019s structure reinforces that conclusion because Congress elsewhere provided an express private action (e.g., \u00a736(b)), showing it knew how to confer a private remedy when it wished and declined to do so in \u00a747(b). Whatever rescission may be available through historically recognized equitable principles in a properly brought action, \u00a747(b) itself does not create the necessary legal right to relief in federal court.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under Alexander v. Sandoval, the dispositive question is whether \u00a747(b) displays congressional intent to create not only a private right but also a private remedy. Section 47(b) is framed as a contract-validity and remedial directive\u2014specifying the legal consequences of illegality and when rescission is \u201cavailable\u201d\u2014but it does not use rights-creating language that authorizes private plaintiffs to file suit, especially against the backdrop of the ICA\u2019s enforcement scheme that elsewhere provides express private actions (e.g., \u00a736(b)) while generally entrusting enforcement to the SEC. Treating \u00a747(b)(2)\u2019s reference to rescission as itself creating a freestanding federal cause of action would dilute Sandoval by inferring a remedy from something less than a clear indication that Congress meant to confer one. Nor is Transamerica (TAMA) an adequate analogue here, because it turned on materially different statutory text and context, and we should not extend it to create a significant new private enforcement mechanism absent clearer congressional direction.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under Sandoval, the question is whether \u00a747(b) displays an intent to create not just a private right but also a private remedy, and \u00a747(b)(2)\u2019s text does: it speaks in remedial, court-directed terms (\u201ca court may not deny rescission at the instance of any party\u201d) and thus presupposes that a party to an unlawful ICA contract may invoke a judicial remedy to unwind it. Structurally, that mandatory limitation on judicial discretion functions like a money-mandating/relief-mandating command: once an ICA-violative contract and the relevant equities are shown, the statute dictates the availability of rescission (and associated restitution), which is strong textual evidence Congress intended a limited private remedial vehicle rather than mere contract \u201cillegality\u201d rhetoric. Petitioners\u2019 reliance on the ICA\u2019s express private action elsewhere does not overcome this text, because \u00a747(b) is not a freewheeling enforcement provision but a targeted remedial mechanism tied to specific unlawful contracts, complementing SEC enforcement rather than displacing it. This reading also aligns with the Court\u2019s treatment of materially similar contract-voiding language as supporting a limited private rescission remedy in the paired 1940 Acts context.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Section 47(b) speaks to the legal status of contracts made or performed in violation of the Act and to the availability of rescission as a remedy, but it does not anywhere clearly authorize a private party to file suit in federal court to obtain that relief. Under our modern approach, the question is not whether rescission would be sensible policy, but whether Congress unmistakably created a cause of action\u2014and here the Act\u2019s structure cuts the other way, because when Congress wanted private enforcement it said so expressly (as in \u00a736(b)) and otherwise lodged enforcement authority with the SEC. Reading \u00a747(b)(2) as creating a freestanding private rescission action would bypass that enforcement scheme and convert a remedial/contract-validity provision into an implied right to sue without the clear textual signal Sandoval requires. Whatever TAMA may have inferred from different statutory language in a different statute, it cannot overcome the ICA\u2019s text and design, which do not make Congress\u2019s intent to authorize private suits \u201cany clearer.\u201d",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Under Sandoval, a private cause of action must be created by Congress, and we look for clear, unambiguous rights-creating language with an unmistakable focus on the individual plaintiff. Section 47(b) largely speaks in remedial and structural terms\u2014addressing the legal effect of an unlawful contract and directing when a court may deny rescission\u2014without affirmatively authorizing any class of private plaintiffs to sue in the first place. The ICA\u2019s express private action in \u00a736(b) reinforces that Congress knew how to provide investor suits when it wished, and its broader enforcement architecture (SEC oversight and other specified mechanisms) counsels against judicially \u201craising up\u201d an additional rescission action. Whatever TAMA said about a parallel IAA provision, it predates (and cannot overcome) the modern, stringent clarity requirement, and in any event \u00a747(b)\u2019s text still does not supply the necessary rights-creating cause-of-action grant.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Under this Court\u2019s modern implied-rights cases, the question is whether Congress clearly created a private cause of action in the text and structure of the ICA; Section 47(b) reads as a remedial/contract-validity rule (what follows if a contract violates the Act), not an affirmative, rights-creating authorization for private plaintiffs to file suit. The ICA\u2019s broader enforcement architecture reinforces that conclusion: Congress expressly provided limited private enforcement in provisions such as Section 36(b) while otherwise relying primarily on SEC enforcement, which is strong evidence that Congress did not intend an additional implied rescission action in Section 47(b). Respondents\u2019 reliance on the \u201cvoid\u201d language and Transamerica is weakened because Transamerica predates Sandoval\u2019s strict approach and, in any event, a voidness provision can have work to do as a rule of decision (including defensively or within otherwise-proper suits) without creating a new freestanding federal cause of action. Recognizing an implied private right here would improperly convert a statutory remedial consequence into an implied private enforcement mechanism Congress did not clearly authorize.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Applying ordinary interpretive tools, \u00a747(b) speaks in remedial, contract-validity terms (what happens to an unlawful contract and what relief a court may award) but does not use rights-creating language that affirmatively authorizes a private plaintiff to file suit in federal court. The ICA\u2019s structure reinforces that conclusion: Congress provided express private enforcement in limited, specified provisions (notably \u00a736(b), and other targeted private-suit authorizations), while otherwise relying on SEC enforcement and a detailed regulatory scheme\u2014context that is difficult to square with implying a broad, freestanding rescission action under \u00a747(b). Under this Court\u2019s modern implied-rights cases, the presence of such alternative and comprehensive enforcement mechanisms is powerful evidence that Congress did not intend to create additional private litigation beyond what it expressly provided. Section 47(b) therefore supplies a remedy only when a proper cause of action exists elsewhere; it does not itself create a private federal cause of action for rescission of contracts alleged to violate the Act.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Using the traditional tools of statutory construction, Section 47(b) reads as a contract-validity/remedial provision that specifies the consequence of an ICA violation (voidability and possible rescission) rather than unambiguously conferring on private parties an affirmative right to sue in federal court. Section 47(b)(2)\u2019s description of when a court may grant rescission does not supply the clear, rights-creating textual signal or express cause-of-action language that this Court\u2019s modern implied-rights cases require, and it is not enough that respondents are within the statute\u2019s protective purposes. The ICA\u2019s structure reinforces that conclusion because Congress elsewhere provided express, \u201cby-its-terms limited\u201d private enforcement mechanisms (e.g., \u00a7 36(b)), which counsels against implying an additional private rescission action from \u00a7 47(b) absent clear authorization. Treating \u00a7 47(b) as an implied cause of action would improperly use a remedial/waiver-like provision to silently expand the universe of substantive claims beyond what Congress created.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.787,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-345",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether Section 47(b) of the Investment Company Act creates an implied private federal cause of action allowing private plaintiffs to seek rescission of contracts that allegedly violate the Act.",
+      "legal_provision": "Investment Company Act of 1940, Section 47(b), 15 U.S.C. \u00a7 80a-46(b) (especially \u00a7 47(b)(2)).",
+      "petitioner_position": "Petitioners argue that ICA \u00a7 47(b) does not authorize private parties to sue in federal court for rescission. In their view, \u00a7 47(b) is a remedial/contract-validity provision that specifies the consequences of illegality when a proper enforcement action exists, but it does not itself create a 'rights-creating' private right or a private cause of action. They emphasize the Supreme Court\u2019s modern approach (e.g., Sandoval) requiring clear textual and structural evidence of congressional intent to create a private remedy, and contend that the ICA\u2019s detailed enforcement scheme (centered on SEC enforcement and a small number of express private rights elsewhere in the ICA) would be undermined by implying an additional, broad rescission remedy. Petitioners and supporting amici also stress that allowing private rescission suits would invite strategic, self-interested litigation in the registered-fund space and effectively create an end-run around the limits on private enforcement Congress chose.",
+      "respondent_position": "Respondents argue that the plain text of \u00a7 47(b)(2) authorizes parties to an illegal ICA contract to seek rescission and related restitutionary relief. They contend that the provision\u2019s language and structure reflect congressional intent to permit private litigants to unwind unlawful contracts\u2014at least to obtain the traditional equitable remedy of rescission (not compensatory damages). Respondents rely on the idea that when Congress declares certain contracts unlawful/void (or unenforceable), it commonly contemplates judicial rescission at the behest of injured parties, and they maintain that this case fits within that tradition. They further argue that the Second Circuit\u2019s interpretation aligns with statutory text and that policy objections or broader 'contemporary legal context' arguments cannot overcome what they characterize as \u00a7 47(b)(2)\u2019s straightforward remedial direction.",
+      "key_precedents": [
+        "Alexander v. Sandoval, 532 U.S. 275 (2001)",
+        "CTS Corp. v. Waldburger, 573 U.S. 1 (2014)",
+        "Northwest Airlines, Inc. v. Transport Workers Union of America, 451 U.S. 77 (1981)",
+        "Transamerica Mortgage Advisors, Inc. v. Lewis (TAMA), 444 U.S. 11 (1979)",
+        "Touche Ross & Co. v. Redington, 442 U.S. 560 (1979)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s strongest point remains that \u00a747(b)(2) speaks in remedial terms\u2014\u201ca court may not deny rescission at the instance of any party\u201d\u2014which sounds like it contemplates a litigant invoking a court\u2019s power. But as Justice Thomas and Justice Barrett emphasize, Sandoval makes clear that remedial, court-directed language does not itself supply the antecedent cause of action; it can operate as a rule governing the availability of rescission once a dispute is properly before a court under some other source of authority. The ICA\u2019s SEC-centered enforcement scheme and Congress\u2019s selective creation of express private rights elsewhere reinforce that we should not infer a freestanding private rescission action from this contract-validity provision. A narrow holding\u2014limited to the absence of a private cause of action in \u00a747(b) without revisiting Transamerica beyond distinguishing its text and pre-Sandoval context\u2014should maintain the coalition.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.84,
+        "reasoning": "Justice Kagan\u2019s best textual point is that \u00a747(b)(2) specifies a remedy (rescission) and who may invoke it (\u201cany party\u201d), which can sound like an authorization to sue. But as the Chief Justice and Justice Alito explain, Sandoval requires enacted text showing Congress intended to create not only a remedy but also a private cause of action, and court-directed remedial language can \u201cpresuppose\u201d litigation without supplying the antecedent claim-creating authorization. Read most naturally, \u00a747(b) standardizes the remedial consequences of illegality once a dispute is properly before a court (including in SEC actions, defenses, or ancillary equitable proceedings), rather than silently reallocating enforcement authority from the SEC to private plaintiffs. The ICA\u2019s SEC-centered structure and Congress\u2019s choice to provide express private remedies elsewhere make it especially improper for us to imply a freestanding rescission action here.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Justice Kagan\u2019s best point is textual: \u00a747(b)(2) names a remedy (rescission) and says a court may not deny it \u201cat the instance of any party,\u201d which she argues presupposes a party\u2019s ability to sue. But as the Chief Justice and Justice Thomas emphasize, Sandoval requires more than remedial language that assumes litigation; we must find enacted text showing Congress intended to create a freestanding private cause of action, and \u00a747(b) reads more naturally as a constraint on courts\u2019 remedial discretion once a case is properly before them. The ICA\u2019s SEC-centered enforcement structure, coupled with Congress\u2019s decision to provide express private remedies in limited provisions, is powerful evidence against implying an additional private rescission action from contract-validity language. Transamerica, decided in a different statutory setting and before our modern implied-rights framework, cannot supply the missing congressional intent to create a private remedy enforceable by suit here.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan is right that \u00a747(b)(2)\u2019s \u201cat the instance of any party\u201d language most naturally envisions a litigant requesting rescission, and that feature makes the respondent\u2019s textual case the hardest to dismiss. But as the Chief Justice and Justice Barrett emphasize, Sandoval draws a firm line between identifying a remedy and creating a freestanding cause of action, and \u00a747(b) is framed as a limitation on courts\u2019 remedial discretion once rescission is otherwise properly sought, not as rights-creating, plaintiff-focused authorization to sue. Reading \u00a747(b) to silently create a new private rescission action would also sit uneasily with the ICA\u2019s comprehensive, SEC-centered enforcement scheme and Congress\u2019s selective decision to provide express private rights elsewhere\u2014structural signals that counsel against implication here. On this view, \u00a747(b) still does substantial work as a federal rule of decision governing rescission in cases properly before the court (including SEC actions and defensive/ancillary rescission) without reallocating enforcement authority from the SEC to private plaintiffs.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "I take seriously the Chief Justice\u2019s and Justice Thomas\u2019s point that, under Sandoval, remedial language aimed at courts does not automatically supply a freestanding cause of action. But \u00a747(b)(2) is not framed as a general remedial \u201cinstruction\u201d untethered to a litigant; it singles out who may invoke the remedy (\u201cany party\u201d) and then limits when a court may deny it, complete with enumerated exceptions\u2014features that look like Congress designing a narrow equitable action rather than merely describing relief in some other, unspecified suit. The SEC-centered structure is real, as Justice Barrett stresses, yet it cuts both ways: Congress could rationally reserve damages and broad enforcement to the SEC while still permitting parties to unwind unlawful ICA contracts through rescission, and \u00a747(b) is the statute\u2019s specific mechanism for that. On balance, I do not think we can read \u201cat the instance of any party\u201d as doing no authorizing work at all without draining the provision of the clarity Sandoval seeks in identifying who may ask a federal court to act.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "Justice Kagan is right that \u00a747(b)(2) names both a remedy (rescission) and a requester (\u201cany party\u201d), and that is the best textual argument for an affirmative suit. But Sandoval teaches we must find enacted text creating a cause of action, not merely describing what remedies a court may award once a case is properly before it; as the Chief Justice underscores, court-directed remedial language can do real work without supplying the antecedent right to sue. Read in context, \u201cat the instance of any party\u201d functions naturally as a limitation on equitable discretion in cases brought under some other jurisdictional and claim-conferring source (including SEC enforcement or defensive rescission), rather than unmistakable rights-creating language. And the ICA\u2019s SEC-centered enforcement structure\u2014with select express private remedies elsewhere\u2014reinforces that we should not \u201craise up\u201d an additional private cause of action from \u00a747(b)\u2019s contract-validity/remedies provision.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s best textual point is that \u00a747(b)(2) specifies both a remedy (rescission) and who may seek it (\u201cany party\u201d), which can sound like an invitation to sue. But as the Chief Justice and Justice Thomas explain, under Sandoval/Gonzaga we must find enacted text creating a cause of action, and court-directed remedial limits can \u201cpresuppose\u201d litigation while still operating only once a proper claim is otherwise before the court (including SEC enforcement or defensive/ancillary rescission). The ICA\u2019s SEC-centered structure and Congress\u2019s selective inclusion of express private remedies elsewhere make it especially implausible that \u00a747(b) silently created a freestanding private rescission action. On that reading, \u00a747(b) still does meaningful work as a uniform federal rule governing the availability of rescission without expanding judicial power beyond what Congress clearly authorized.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s textual point\u2014\u00a747(b)(2) names a remedy (rescission) and who may invoke it (\u201cany party\u201d)\u2014is the strongest case for a private suit, because it sounds like a litigant-facing entitlement. But as the Chief Justice and Justice Thomas emphasize, Sandoval draws a sharp line between remedial instructions to courts and enacted text creating an antecedent private cause of action; \u00a747(b) reads more naturally as limiting a court\u2019s remedial discretion once rescission is otherwise properly in play, not as authorizing a freestanding federal claim. The ICA\u2019s SEC-centered enforcement design and Congress\u2019s selective creation of express private remedies elsewhere make it implausible that \u00a747(b) silently reallocates enforcement authority to private plaintiffs. On this reading, \u00a747(b) still does real work as a federal rule of decision about the effect of illegality in contracts without requiring us to \u201ccreate\u201d a cause of action Congress did not clearly provide.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan is right that \u00a747(b)(2)\u2019s reference to rescission \u201cat the instance of any party\u201d is the best textual hook for Respondent, because it contemplates a party requesting relief in court. But under Sandoval/Gonzaga, that kind of court-directed remedial instruction is not an \u201cunambiguous conferral\u201d of a privately enforceable right or a freestanding cause of action; as the Chief Justice and Justice Barrett emphasize, it can instead operate as a limitation on courts\u2019 discretion once a case is properly before them under some other claim or posture. The ICA\u2019s SEC-centered enforcement scheme and Congress\u2019s selective creation of express private remedies elsewhere make it implausible to treat \u00a747(b) as silently reallocating enforcement authority to private plaintiffs. On this reading, \u00a747(b) still does real work\u2014standardizing the availability of rescission when illegality is established\u2014without crossing the distinct, text-dependent threshold for creating a new private suit.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The starting point is the statutory scheme Congress enacted in the Investment Company Act: it assigns primary enforcement authority to the SEC and, when Congress wished to authorize private enforcement, it did so expressly in limited provisions\u2014strong structural evidence against implying an additional, freestanding private cause of action for rescission in \u00a747(b). The text of \u00a747(b)(2) (\u201ca court may not deny rescission at the instance of any party\u201d absent specified conditions) is naturally read as a remedial rule governing the availability of rescission once a party is properly in court\u2014e.g., as a defense or in an action brought under an existing cause of action\u2014not as rights-creating language that itself authorizes private plaintiffs to sue. Under this Court\u2019s modern approach, we do not infer private remedies without clear textual and structural indication of congressional intent, and implying one here would circumvent the enforcement design Congress chose. Transamerica does not compel a different result because it turned on materially different statutory language in a different statute and, in any event, predates the stricter interpretive approach reaffirmed in Sandoval.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under Sandoval, the question is whether \u00a747(b)\u2019s enacted text and structure show Congress intended to create both a private right in the plaintiff class and a private remedy enforceable by private suit. Section 47(b) is a contract-validity/remedial directive (\u201ca court may not deny rescission at the instance of any party\u201d) that presupposes a proper cause of action; it does not contain the rights-creating language that focuses on protecting a particular class, and it does not confer an affirmative entitlement to sue. That reading is reinforced by the ICA\u2019s detailed, SEC-centered enforcement scheme and Congress\u2019s decision to provide express private remedies elsewhere, which counsels against judicially implying an additional rescission action here. Recognizing a free-standing private cause of action from \u00a747(b) would therefore amount to courts \u201ccreat[ing] one\u201d without the clear congressional intent Sandoval requires.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Under Sandoval, the dispositive question is whether \u00a747(b) displays congressional intent to create not only a private right but also a private remedy (a cause of action) for private plaintiffs; it is not enough that the provision describes an entitlement to rescission in the abstract. Section 47(b)(2) speaks in remedial terms\u2014directing what a \u201ccourt may not deny\u201d once rescission is sought\u2014but it does not identify a class of protected plaintiffs or contain rights-creating language, and the ICA\u2019s overall structure relies primarily on SEC enforcement with only limited express private remedies elsewhere, counseling against implying an additional one. Reading \u00a747(b) to supply a freestanding private cause of action would therefore be an unwarranted expansion inconsistent with the Court\u2019s general implied-right-of-action precedents. Whatever force Transamerica had in construing the IAA\u2019s distinct provision, Sandoval\u2019s intent-to-create-a-remedy requirement governs here and is not satisfied by \u00a747(b)\u2019s contract-validity language alone.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 47(b) is framed as a remedial rule governing the availability of rescission once a court is already properly exercising jurisdiction over a dispute; it does not, in text or structure, identify a class of private plaintiffs empowered to sue or otherwise supply the kind of rights-creating language that, under Sandoval, signals Congress\u2019s intent to create a new freestanding federal cause of action. Read holistically within the ICA\u2019s comprehensive enforcement design\u2014where Congress expressly created limited private rights in specific provisions but otherwise assigned primary enforcement to the SEC\u2014implying an additional, broadly available rescission suit would disrupt the statute\u2019s calibrated allocation between private litigation and agency enforcement. The phrase that a court may not deny rescission \u201cat the instance of any party\u201d can do work as a federal rule of decision (including defensively or as ancillary equitable relief) without creating a standalone private right to file suit in federal court. Consistent with this Court\u2019s modern implied-rights jurisprudence and its skepticism of expanding private enforcement beyond what Congress enacted, \u00a747(b) is best understood as specifying the consequence of illegality when a proper claim is otherwise before the court, not as authorizing private plaintiffs to initiate federal rescission actions.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The place to start is the statute\u2019s text and enforcement design, and \u00a747(b)(2) speaks in unmistakably remedial, court-directed terms: it instructs when \u201ca court may not deny rescission at the instance of any party\u201d to an unlawful ICA contract, language that presupposes a litigant\u2019s ability to ask a court for rescission rather than merely supplying a background rule in some other action. Unlike a bare jurisdictional grant (e.g., \u00a71331), this provision does not just open the courthouse doors\u2014it identifies a specific form of relief and the party entitled to seek it (\u201cany party\u201d), which is the kind of clarity our cases require to infer a limited cause of action. The ICA\u2019s broader scheme\u2014heavy SEC enforcement plus a few express private rights\u2014counsels against implying sweeping damages remedies, but it does not negate a narrow, traditional equitable rescission action that Congress itself cabined and conditioned in \u00a747(b)(2). That reading fits the statute\u2019s structure and Congress\u2019s evident choice to regulate unlawful contracts by empowering courts to unwind them at a contracting party\u2019s request.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Under Sandoval, the question is not whether rescission would advance the ICA\u2019s purposes, but whether Congress clearly created a private cause of action in the statutory text. Section 47(b) speaks in remedial/contract-validity terms about the legal effect of an unlawful contract (and when a court may not deny rescission), but it does not use the sort of clear, rights-creating language with an unmistakable focus on a protected class that would authorize private plaintiffs to hale defendants into federal court. The ICA\u2019s broader enforcement structure\u2014centered on SEC enforcement and containing select express private remedies elsewhere\u2014strongly suggests Congress chose the means of enforcement and did not invite courts to \"raise up\" an additional, freestanding rescission action under \u00a747(b). Whatever force Transamerica may have had for the IAA\u2019s differently worded provision in its time, our modern implied-rights cases require clearer congressional direction than \u00a747(b) supplies here.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Under Sandoval and this Court\u2019s modern implied-rights cases, the question is whether Congress clearly authorized a private cause of action\u2014and \u00a747(b) reads as a remedial/contract-validity rule, not a rights-creating provision conferring an express right to sue in federal court. The ICA\u2019s overall structure reinforces that conclusion: Congress created a detailed enforcement scheme centered on SEC oversight and included some express private remedies elsewhere, which counsels strongly against implying an additional, broad private rescission action from \u00a747(b)\u2019s text alone. Even if a plaintiff alleges an ICA violation, Article III does not permit federal courts to entertain suits that seek to \u201chold defendants accountable\u201d for statutory noncompliance absent a concrete, personal injury and a congressionally authorized cause of action supplying the remedy. Transamerica\u2019s inference of limited rescission under a different statute\u2019s distinct language and in a pre-Sandoval era cannot overcome the ICA\u2019s text-and-structure here, which does not clearly create a private rescission cause of action.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Starting with the text and structure, \u00a747(b)(2) is framed as a remedial limitation on when \u201ca court may not deny rescission\u201d in a case properly before it, not as a rights-creating grant authorizing private plaintiffs to file an independent federal suit. Read in context, the ICA\u2019s enforcement design is comprehensive and SEC-centered, with only limited express private rights elsewhere\u2014strong structural evidence that Congress did not intend to add a broad implied rescission cause of action through \u00a747(b). Section 47(b) still has work to do without implying a private cause of action: it can govern rescission as a remedy/defense or in SEC-initiated actions, supplying uniform federal rules that displace divergent state limits on rescission. Under Sandoval\u2019s ordinary interpretive tools, the statute lacks the clear textual indication needed to infer a private federal cause of action, and implying one would sit uneasily with the scheme Congress actually enacted.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Applying traditional tools of statutory construction and the Gonzaga/Sandoval requirement of an unambiguous congressional conferral of an individually enforceable right, \u00a747(b) does not clearly create a private cause of action; it speaks in remedial/contract-validity terms (when rescission is available) rather than in rights-creating terms that authorize a private plaintiff to sue. The phrase that \u201ca court may not deny rescission at the instance of any party\u201d can operate as a rule governing relief for parties already properly before a court (e.g., in an enforcement action or as a defense/counterclaim), without silently creating a new federal cause of action. Read in statutory context, the ICA\u2019s detailed enforcement scheme centered on SEC actions\u2014alongside the presence of limited express private rights elsewhere\u2014cuts against inferring an additional implied remedy that Congress did not clearly provide. Because a jurisdictional/remedial directive is not the same as a claim-creating provision, I would not treat \u00a747(b) as unambiguously authorizing private rescission suits.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.782,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  }
+]

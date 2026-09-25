@@ -1,0 +1,66 @@
+{
+ "docket": "23-334",
+ "term": 2023,
+ "llm_model": "Claude-4.6",
+ "replicate": 1,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:03:37+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Samuel Alito",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.35,
+  "Samuel Alito": 0.3,
+  "Neil Gorsuch": 0.08,
+  "Brett Kavanaugh": 0.12,
+  "Amy Coney Barrett": 0.15
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.7,
+   "concurs": 0.0
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.45,
+   "concurs": 0.45
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Chief Justice Roberts, as the most senior justice in the majority, would likely assign the opinion to himself or Alito given their relatively higher confidence and clear articulation of the narrow Mandel-based rationale, with Roberts favoring a minimalist holding that reserves harder questions. The dissenters—particularly Sotomayor and Jackson—are likely to write separately given their strong, well-developed reasoning, and Gorsuch and Kavanaugh may concur separately given their expressed uncertainty and desire to signal limits on the holding.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.35,\n    \"Samuel Alito\": 0.30,\n    \"Neil Gorsuch\": 0.08,\n    \"Brett Kavanaugh\": 0.12,\n    \"Amy Coney Barrett\": 0.15\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Samuel Alito\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.45, \"concurs\": 0.45},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Clarence Thomas\": {\"writes_separately\": 0.70, \"concurs\": 0},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.80, \"concurs\": 0},\n    \"Elena Kagan\": {\"writes_separately\": 0.65, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.75, \"concurs\": 0}\n  },\n  \"rationale\": \"Chief Justice Roberts, as the most senior justice in the majority, would likely assign the opinion to himself or Alito given their relatively higher confidence and clear articulation of the narrow Mandel-based rationale, with Roberts favoring a minimalist holding that reserves harder questions. The dissenters—particularly Sotomayor and Jackson—are likely to write separately given their strong, well-developed reasoning, and Gorsuch and Kavanaugh may concur separately given their expressed uncertainty and desire to signal limits on the holding.\"\n}\n```"
+}

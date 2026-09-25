@@ -1,0 +1,638 @@
+[
+  {
+    "docket": "24-1063",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a defendant\u2019s broad appellate-rights waiver in a plea agreement bars appellate review of a due-process challenge to a supervised-release condition, and whether the waiver becomes unenforceable when the sentencing judge tells the defendant he has a right to appeal without objection from the government.",
+      "legal_provision": "Primarily the enforceability of plea-agreement appeal waivers (grounded in contract principles and Federal Rule of Criminal Procedure 11\u2019s requirements for knowing and voluntary pleas/waivers); underlying conviction statutes referenced include 18 U.S.C. \u00a7\u00a7 1343 (wire fraud) and 2 (aiding and abetting).",
+      "petitioner_position": "Petitioner argues the Fifth Circuit enforced his appeal waiver too broadly. He contends (1) certain claims\u2014here, a due-process challenge to a supervised-release condition regulating his future liberty\u2014should not be deemed waived by a general appeal waiver (or should fall within a recognized exception beyond ineffective assistance and statutory-maximum sentencing claims), and (2) even if the waiver would normally apply, the district court\u2019s clear advisement at sentencing that he \u201cha[d] a right to appeal,\u201d combined with the government\u2019s failure to object, reasonably conveyed that an appeal remained available and therefore renders the waiver unenforceable or at least ambiguous and to be construed against the government.",
+      "respondent_position": "The United States argues the appeal waiver was knowing and voluntary and, by its terms, bars any appeal except ineffective-assistance claims. A due-process challenge to a supervised-release condition is still an appeal of the sentence and therefore falls within the waiver. The government also argues the district court\u2019s routine end-of-sentencing statement that the defendant has a right to appeal\u2014especially when not framed as modifying the plea agreement\u2014does not nullify or amend the waiver, and the government\u2019s lack of objection does not forfeit enforcement of the waiver because the waiver is part of the parties\u2019 binding bargain and is properly enforced on appeal.",
+      "key_precedents": [
+        "Garza v. Idaho, 586 U.S. 232 (2019)",
+        "Ricketts v. Adamson, 483 U.S. 1 (1987)",
+        "Abney v. United States, 431 U.S. 651 (1977)",
+        "Albrecht v. United States, 329 U.S. 599 (1947)",
+        "Margalli-Olvera v. INS, 43 F.3d 345 (8th Cir. 1994)",
+        "Allen v. United States, 144 S. Ct. 859 (2024)",
+        "Harper v. United States, 143 S. Ct. 582 (2023)",
+        "Jimenez v. United States, 143 S. Ct. 1745 (2023)",
+        "Rivers v. United States, 144 S. Ct. 215 (2023)",
+        "Sanchez v. United States, 142 S. Ct. 410 (2021)",
+        "Goldston v. United States, 141 S. Ct. 828 (2020)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan and Justice Gorsuch fairly stress that the Rule 32(j) advisement and Government silence could create practical confusion on this record, and that ambiguity is ordinarily construed against the drafter/beneficiary. But enforceability turns on what the defendant knowingly and voluntarily relinquished at the Rule 11 stage and on the written agreement\u2019s terms, including its modification mechanism; a rote post-sentencing script does not purport to amend the bargain, and treating it as doing so would destabilize appeal waivers and invite satellite litigation. As Justice Alito and Justice Kavanaugh emphasize, the Government\u2019s silence in the face of a generic advisement is not an intentional relinquishment of a bargained-for term, and the better reading is that the court was describing whatever limited appellate rights remained. We should answer only the question presented\u2014whether this sentence-appeal is barred by the waiver as executed\u2014not craft broader exceptions or reframe the case as a freestanding due-process challenge.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.84,
+        "reasoning": "Justice Kagan and Justice Gorsuch\u2019s strongest point is that an unequivocal Rule 32(j) advisement, uncorrected by the Government, creates record \u201cambiguity\u201d that should be resolved against enforcing the waiver. But that treats a rote, post-judgment notice as if it could unsettle (or effectively \u201cwaive\u201d) a written contractual term whose validity and scope were fixed at the Rule 11(b)(1)(N) colloquy, and it ignores the agreement\u2019s own modification mechanism, as the Chief Justice explains. The better structural reading is that Rule 32(j) describes whatever residual appellate rights remain notwithstanding the waiver; otherwise a narrow exception (limited retained rights) becomes the default, turning the parties\u2019 bargain on its head. And as Justice Alito notes, the Government\u2019s silence in response to a standard advisement is not the clear manifestation of intent required to relinquish its right to invoke the waiver on appeal, nor does due process supply a freestanding right to appeal sufficient to override a valid waiver.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.84,
+        "reasoning": "Justice Kagan and Justice Gorsuch\u2019s strongest point is that the Rule 32(j) advisement plus Government silence creates record \u201cambiguity\u201d undermining the knowing-and-intentional nature of the appeal waiver as applied. But under Johnson v. Zerbst the relevant intentional relinquishment occurs when the defendant enters the plea and executes the waiver, and Rule 11(b)(1)(N) is the mechanism for ensuring that relinquishment is knowing and voluntary; a rote post-judgment advisement does not purport to re-open, interpret, or modify the bargain. As the Chief Justice explains, treating that script as effectively nullifying a written waiver (despite the agreement\u2019s modification mechanism) would destabilize plea bargaining and force unworkable rituals at sentencing. And I agree with Justice Barrett that the Government\u2019s silence in response to boilerplate is not the clear manifestation of intent required to show it intentionally relinquished its ability to invoke the waiver on appeal.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "I agree with the Chief Justice and Justice Alito that a rote Rule 32(j) advisement does not \u201camend\u201d a plea agreement, and I would not adopt any amendment or freestanding due-process theory. But Justice Kagan and Justice Gorsuch correctly focus the narrower, record-bound point: when the sentencing judge unequivocally tells the defendant he \u201chas a right to appeal\u201d and the Government\u2014beneficiary of the waiver\u2014offers no correction, the record becomes materially ambiguous as to whether the waiver will be insisted upon as applied to this appeal. Ordinary waiver principles require clarity before we treat the defendant as having intentionally relinquished the very right the court just confirmed at the moment it becomes operative; resolving that ambiguity against enforcement avoids destabilizing waivers generally while deciding only what is necessary on this record. Administrability concerns are addressed by cabining the rule to unequivocal, uncorrected advisements that reasonably negate a later claim of a clearly maintained waiver here.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Chief Justice and Justice Alito are right that Rule 32(j) does not \u201camend\u201d a plea agreement and that Government silence is not automatically an intentional relinquishment of a contractual term; but that frames the question too categorically and risks creating an appeal-waiver-specific gloss that departs from ordinary waiver principles. The point, as Justice Sotomayor and Justice Gorsuch emphasize, is not modification; it is whether the Government has carried its burden to enforce a waiver on this record when the court affirmatively told the defendant he \u201chas a right to appeal\u201d and the waiver\u2019s beneficiary did nothing to dispel the confusion. Treating that advisement as legally irrelevant would insulate appeal waivers from the usual insistence on clear, knowing relinquishment and from resolving material ambiguity against the party invoking the waiver. A narrow holding\u2014limited to unequivocal, uncorrected advisements that reasonably negate clarity on this record\u2014answers administrability concerns without destabilizing appeal waivers generally.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "The Chief Justice and Justice Alito offer the strongest rejoinder: Rule 32(j)\u2019s advisement is boilerplate and cannot \u201camend\u201d a plea agreement that Rule 11 already found knowing and voluntary. But that answer assumes the Government may enforce an appellate waiver as if it were self-executing even when the sentencing court affirmatively tells the defendant he \u201chas a right to appeal\u201d and the waiver\u2019s beneficiary stands silent\u2014creating a record ambiguity about whether the waiver will be invoked in this very case. As Justice Kagan and Justice Sotomayor stress, ordinary waiver doctrine requires clarity before we treat a defendant as having intentionally relinquished a right the court just confirmed, and we should not infer forfeiture against the defendant (or treat the Government\u2019s position as irrevocably \u201cpreserved\u201d) absent some clearer textual or doctrinal command. A narrow holding is available: without rewriting plea bargains generally, we can insist the Government carry the burden of showing an unambiguous, maintained waiver on this record before barring appellate review.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan and Justice Gorsuch raise the strongest point: a Rule 32(j) advisement that the defendant \u201chas a right to appeal,\u201d coupled with Government silence, may generate practical confusion and thus record \u201cambiguity.\u201d But that argument effectively shifts the knowing-and-voluntary inquiry from the Rule 11(b)(1)(N) plea stage\u2014where the waiver is executed and judicially confirmed\u2014to a routine, post-judgment script that neither purports to interpret nor to modify the written agreement, and does not satisfy the agreement\u2019s own modification mechanism, as the Chief Justice and Justice Barrett emphasize. Treating silence in the face of boilerplate advisements as a \u201cwaiver of the waiver\u201d would import issue-preservation concepts into contract modification and create serious administrability problems by requiring prosecutors (and judges) to engage in corrective rituals at every sentencing. On this record, the better view is that the court was describing whatever residual appellate rights remain notwithstanding the waiver, and we should answer only the question presented without reaching broader unwaivability theories not addressed below.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan\u2019s strongest point is that the Rule 32(j) advisement plus the Government\u2019s silence creates record ambiguity undermining a \u201cclear, maintained\u201d relinquishment. But that assigns dispositive legal force to a generic, post-sentencing script that neither interprets nor purports to modify the plea agreement\u2014especially where, as the Chief Justice emphasizes, the waiver\u2019s validity was established at the Rule 11(b)(1)(N) colloquy and the written agreement contains its own modification mechanism. I agree with Justice Alito that the Government\u2019s silence in the face of boilerplate is not the kind of intentional relinquishment required to forfeit a bargained-for waiver defense, and reading it that way would destabilize appeal waivers by effectively nullifying Congress\u2019s and the Rules\u2019 plea-stage safeguards. Because supervised-release conditions are part of the \u201csentence,\u201d the waiver\u2019s text covers this appeal absent any plea-stage defect, which petitioner has not shown.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan and Justice Sotomayor\u2019s central point\u2014that the Rule 32(j) advisement plus Government silence creates material ambiguity about whether the waiver should be enforced in this case\u2014has equitable force, but it misidentifies the operative procedural trigger for waiver enforceability. Under the Rules, the knowing-and-voluntary determination is made at the Rule 11(b)(1)(N) plea colloquy against the text of the written agreement; nothing at sentencing purported to invoke any agreed-upon modification mechanism or to secure mutual assent to alter the bargain. As the Chief Justice emphasizes, treating a routine, post-judgment script as effectively overriding (or \u201cwaiving the waiver\u201d of) a valid, extant written term would create instability and administrability problems untethered to any clear manifestation of intent. And because supervised-release conditions are part of the \u201csentence\u201d as a matter of legal classification, petitioner\u2019s challenge falls within the waiver\u2019s scope absent a text-based exception.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The claim presented is whether this defendant\u2019s knowing and voluntary plea-agreement waiver bars an appeal challenging a supervised-release condition on due-process grounds; that is an appeal of the sentence and falls within the waiver\u2019s broad terms, and the Court should not create a free\u2011floating constitutional exception untethered from the parties\u2019 bargain or settled waiver doctrine. Nothing in Rule 11 authorizes a district court to unilaterally rewrite that bargain at the end of sentencing, and the judge\u2019s generic Rule 32(j) advisement that the defendant has a \u201cright to appeal\u201d is best read as describing whatever limited right remains under the agreement and law, not as an amendment requiring mutual assent (especially where the agreement required written modification). The government\u2019s silence does not transmute the agreement\u2019s terms, because enforceability turns on the waiver\u2019s validity at the time of the plea and the parties\u2019 assent, not on post hoc courtroom \u201cpractice\u201d that cannot dilute the waiver\u2019s effect. On these facts, the Fifth Circuit properly enforced the waiver and dismissed the appeal.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The plea agreement\u2019s waiver covers any appeal of the sentence except ineffective-assistance claims, and a due-process challenge to a supervised-release condition is, by its nature, a challenge to the sentence the court imposed. Nothing in the waiver\u2019s enacted terms (or in Rule 11\u2019s requirements for a knowing and voluntary waiver) creates an atextual exception for constitutional claims; defendants may waive even fundamental rights so long as the waiver itself is valid. The district court\u2019s routine Rule 32(j) advisement that the defendant \u201chas a right to appeal,\u201d without any express modification of the plea agreement, cannot rewrite the parties\u2019 bargain or convert a narrow exception into a general right of review, and the Government\u2019s silence at sentencing does not negate the waiver\u2019s enforceability. Because due process does not guarantee an appeal in the first place, enforcing a valid waiver here does not offend the Constitution.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.77,
+        "reasoning": "Under the federal waiver standard, the defendant\u2019s appeal waiver remains enforceable so long as it reflects a knowing and voluntary \u201cintentional relinquishment \u2026 of a known right,\u201d and nothing in these facts suggests the defendant did not understand he was broadly surrendering appellate review of his sentence, including supervised-release conditions, subject only to the waiver\u2019s stated exceptions. The sentencing judge\u2019s generic end-of-proceeding advisement that the defendant had a \u201cright to appeal,\u201d without any express modification of the plea agreement, does not itself undo the earlier, valid waiver, because the bargain\u2019s terms\u2014not a routine post-sentencing admonition\u2014control the scope of appellate rights. Nor does the Government\u2019s silence amount to a waiver of its ability to invoke the appeal waiver: waiver is a federal-law question requiring an intentional relinquishment, and there is no record basis to infer the Government knowingly abandoned a bargained-for benefit simply by failing to object in the moment. Given the administrability concerns in sentencing practice, treating such routine advisements as nullifying negotiated waivers would invite uncertainty and satellite litigation untethered to any clear manifestation of intent to modify the agreement.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "I would resolve the case on the narrowest sufficient ground: even assuming the plea agreement\u2019s broad waiver could ordinarily encompass a due-process challenge to a supervised-release condition, the sentencing court\u2019s unequivocal advisement that petitioner \u201chas a right to appeal,\u201d coupled with the Government\u2019s silence, creates at least a material ambiguity about whether the waiver would be enforced in this case. Under ordinary principles that govern plea waivers\u2019 enforceability, a waiver must be knowing and voluntary, and the record at sentencing is part of what a defendant reasonably relies on in understanding the practical availability of appeal. Garza confirms appeal waivers are not \u201cmonolithic\u201d and that defendants always retain the ability to contest the waiver\u2019s validity and enforceability; here, the judge\u2019s statement and the Government\u2019s failure to clarify or object undermine the premise that petitioner knowingly understood he was giving up the very appeal the court told him he could take. Any broader decision about which constitutional challenges to supervised-release conditions are categorically unwaivable is unnecessary and should be left for the lower courts on remand, subject to ordinary waiver and forfeiture principles.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "A plea appeal-waiver is enforceable only as an ordinary waiver\u2014\u201cthe intentional relinquishment or abandonment of a known right\u201d\u2014and we should not invent a context-specific rule that treats a defendant as having knowingly given up an appeal the court later affirmatively told him he retained. Here the sentencing judge expressly advised Hunter he had a right to appeal, and the Government\u2014present and benefiting from the waiver\u2014said nothing; under baseline waiver and procedural-enforcement principles, that failure to assert the waiver at the critical moment at least creates reasonable ambiguity about whether the right was being insisted upon, and ambiguity in a Government-drafted bargain is construed against the Government. Separately, nothing in Rule 11 or Rule 32(j) \u201cplainly shows\u201d that a rote post-plea advisement is irrelevant to whether a defendant reasonably understood his appellate rights at sentencing, so enforcing the waiver despite the court\u2019s uncorrected contrary instruction would elevate a routine procedural script into an absolute, nonforfeitable bar. On these facts, the waiver should not foreclose review of the due-process challenge to a supervised-release condition affecting future liberty.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The controlling question is what the waiver\u2019s text, read in its ordinary meaning and in light of Rule 11\u2019s demand for a knowing and voluntary relinquishment, actually covers\u2014and whether the government has a clear basis to treat this defendant as having surrendered appellate review of a due-process objection to a supervised-release condition regulating future liberty. A broad waiver of the right to \u201cappeal the sentence\u201d can reach supervised-release conditions, but the sentencing judge\u2019s unequivocal statement that the defendant \u201chas a right to appeal,\u201d coupled with the government\u2019s silence, creates at least an ambiguity about whether the waiver remained operative as applied to this challenge\u2014an ambiguity that should not be resolved by inferring forfeiture against the defendant absent a clear statement. Because waiver and forfeiture are distinct and the government did not object when the court advised an appeal right, the record does not establish a \u201cfreely\u201d and \u201cknowingly\u201d maintained waiver as to this issue at the critical moment the defendant was told the opposite. On this record, enforcing the waiver to bar review would extend it beyond what the plea colloquy and sentencing advisements clearly conveyed, so appellate review should proceed.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The precise question here is enforceability of an appellate-rights waiver\u2014not the underlying merits of petitioner\u2019s due-process challenge to the supervised-release condition\u2014and a broad waiver of appeals from the sentence ordinarily encompasses conditions of supervised release as part of the sentence. On these facts, the waiver was entered at the plea hearing (when the defendant chose to waive appellate rights), so the district judge\u2019s later, routine Rule 32(j) advisement at sentencing that the defendant \u201chas a right to appeal\u201d does not retroactively render the earlier waiver unknowing or involuntary, absent a clear modification of the plea agreement on the record. The Government\u2019s failure to object at sentencing likewise does not amount to forfeiture of the waiver\u2019s benefit or an amendment of the parties\u2019 bargain; the functional notice relevant to preservation doctrine concerns legal objections in the trial court, not rewriting an agreed-upon waiver by silence. Consistent with precedent enforcing plea bargains according to their terms, I would enforce the waiver here and leave any broader questions about extra-waiver constitutional exceptions to cases where the court of appeals actually addressed them.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The plea agreement\u2019s waiver, by its text and structure, bars an appeal challenging the sentence, and supervised-release conditions are part of the sentence; reading in a broader constitutional \u201cexception\u201d not reflected in the parties\u2019 bargain would risk nullifying the waiver\u2019s operative terms. Garza confirms that waivers are not absolute, but it also underscores that the core preserved claim is a challenge to the waiver\u2019s own validity (knowing and voluntary), not an atextual carveout for any due-process objection to conditions. The sentencing judge\u2019s generic advisement that the defendant had a right to appeal does not amend the written agreement, and the government\u2019s failure to object does not forfeit reliance on the waiver absent some preserved claim that the waiver was rendered unknowing or involuntary by that colloquy. On this record, enforcing the waiver honors Congress\u2019s and the Rules\u2019 emphasis on knowing plea colloquies and the parties\u2019 contractual allocation of appellate risk rather than creating a judicially crafted exception untethered to the waiver\u2019s terms.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The operative procedural trigger for enforcing an appeal waiver is whether, at the time the plea was accepted, the waiver was knowing and voluntary under Rule 11(b)(1)(N) and its own text\u2014here, a broad waiver covering any appeal of the \u201csentence\u201d except ineffective-assistance claims. A due-process challenge to a supervised-release condition is, in legal effect, a challenge to the sentence imposed, so it falls within the waiver\u2019s defined scope absent a textually grounded exception in the agreement itself. The sentencing judge\u2019s later generic advisement that the defendant had a \u201cright to appeal,\u201d without an express modification mechanism being invoked and without mutual assent by the parties, does not change the extant legal status of the plea agreement\u2019s waiver or render its terms ambiguous. Government silence at that moment likewise does not supply the procedural or contractual predicate for rewriting the waiver after judgment; the bargain\u2019s enforceability turns on the waiver\u2019s text and the plea-stage Rule 11 colloquy, not post-plea happenstance.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.746,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-1063",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a defendant\u2019s otherwise valid plea-agreement appeal waiver bars an appeal challenging a supervised-release condition on due-process grounds, and whether the waiver becomes unenforceable when the sentencing judge states the defendant \u201chas a right to appeal\u201d without objection from the government.",
+      "legal_provision": "18 U.S.C. \u00a7 1343 (wire fraud) and 18 U.S.C. \u00a7 2 (aiding and abetting) as the conviction statutes; the enforceability of an appeal waiver in a federal plea agreement under federal common-law/contract principles and Rule 11 plea-colloquy standards (Fed. R. Crim. P. 11), with the underlying claim framed as a Due Process challenge to a condition of supervised release.",
+      "petitioner_position": "Hunter argues that the Fifth Circuit enforces appeal waivers too rigidly by recognizing only narrow exceptions (typically ineffective assistance of counsel or a sentence above the statutory maximum), and that his due-process challenge to a future supervised-release condition should be heard notwithstanding the waiver. He also contends that the district court\u2019s end-of-sentencing advice that he had a right to appeal\u2014combined with the government\u2019s failure to object\u2014either superseded, modified, or at least rendered ambiguous the waiver such that it should not be enforced to dismiss his appeal.",
+      "respondent_position": "The United States argues that Hunter\u2019s waiver was knowing and voluntary and broadly covered any appeal except ineffective assistance of counsel, so it bars his challenge to supervised-release conditions (including due-process theories). The government further maintains that a routine, unobjected-to judicial statement at sentencing that a defendant \u201chas a right to appeal\u201d does not vitiate a previously accepted plea waiver; at most it reflects the general existence of appellate rights, which remain limited by the waiver the defendant executed.",
+      "key_precedents": [
+        "Garza v. Idaho, 586 U.S. 232 (2019)",
+        "Ricketts v. Adamson, 483 U.S. 1 (1987)",
+        "Abney v. United States, 431 U.S. 651 (1977)",
+        "Albrecht v. United States, 329 U.S. 599 (1947)",
+        "Margalli-Olvera v. INS, 43 F.3d 345 (8th Cir. 1994)",
+        "Allen v. United States, 144 S. Ct. 859 (2024)",
+        "Goldston v. United States, 141 S. Ct. 828 (2020)",
+        "Harper v. United States, 143 S. Ct. 582 (2023)",
+        "Jimenez v. United States, 143 S. Ct. 1745 (2023)",
+        "Rivers v. United States, 144 S. Ct. 215 (2023)",
+        "Sanchez v. United States, 142 S. Ct. 410 (2021)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "The best petitioner argument is that the district court\u2019s post-sentencing Rule 32(j) advisement that Hunter \u201chas a right to appeal,\u201d together with the Government\u2019s silence, created ambiguity or effected a modification sufficient to defeat the waiver. But as Justice Kagan and Justice Gorsuch emphasize, Rule 32(j) is a notice requirement; it does not supply mutual assent to amend a plea agreement the court is not a party to, especially after a Rule 11(b)(1)(N) colloquy confirming a knowing and voluntary waiver. At most, any error is case-specific and does not justify a categorical rule that boilerplate advisements nullify waivers; we can resolve this case on the dispositive ground that the broad waiver encompasses this sentencing-component challenge. Having enforced the waiver, we should not reach the merits of the supervised-release due-process claim.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Petitioner\u2019s strongest point is that the district court\u2019s Rule 32(j) advisement that Hunter \"has a right to appeal,\" combined with the Government\u2019s silence, created ambiguity or an implicit modification defeating the waiver. But as Chief Justice Roberts and Justice Barrett explain, Rule 11 treats an appeal waiver as part of the parties\u2019 bargain that the court may accept or reject\u2014not rewrite after the fact\u2014and a boilerplate Rule 32(j) notice does not supply mutual assent or a new Rule 11(b)(1)(N) colloquy establishing any modification. Nor does relabeling the claim as \u201cdue process\u201d avoid the waiver\u2019s text: due process does not itself guarantee an appeal, so the question remains whether this is an appeal from the sentence (including supervised-release conditions), which it is. I would not affirm on a theory of judicial \u201camendment by advisement\u201d never established in the plea record, and I therefore vote to enforce the waiver as written.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s strongest contention remains that the Rule 32(j) advisement that Hunter \u201chas a right to appeal,\u201d combined with the Government\u2019s silence, created ambiguity or an implicit modification of the appeal waiver. But as Chief Justice Roberts and Justice Kagan explain, Rule 32(j) is a generic notice provision and does not purport to amend a plea agreement already accepted under Rule 11(b)(1)(N); the district judge is not a contracting party with authority to rewrite the bargain. Nor does the Government\u2019s failure to object at that moment amount to an intentional relinquishment of its right to invoke the waiver on appeal\u2014especially before any notice of appeal or identification of issues. Enforcing the waiver as written accords with the Rules\u2019 structure and the background principle that waivers are enforced absent a clear statutory or constitutional limitation.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The petitioner\u2019s strongest point is that the Rule 32(j) advisement that Hunter \u201chas a right to appeal,\u201d combined with the Government\u2019s silence, created ambiguity or an implied modification that should defeat enforcement of the waiver. But as Justice Kagan explains, silence at sentencing is not the kind of intentional relinquishment required to waive reliance on an appeal waiver, and Rule 32(j) is a general notice provision that does not purport to amend a plea agreement already confirmed under Rule 11(b)(1)(N). I agree with the Chief Justice that adopting petitioner\u2019s theory would make enforceability turn on happenstance boilerplate at the close of sentencing, rather than the knowing-and-voluntary waiver reflected in the Rule 11 record. We should resolve only the narrow question presented: this generic advisement does not negate the waiver; any remaining disputes about scope or exceptions can be left to ordinary waiver/forfeiture principles on remand in appropriate cases.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best point remains that the judge\u2019s Rule 32(j) advisement (\u201cyou have a right to appeal\u201d), plus the Government\u2019s silence, should be treated as an implied relinquishment or modification defeating enforcement. But as Chief Justice Roberts explains, Rule 32(j) is a notice provision, not a mechanism for rewriting a plea agreement the court is not a party to\u2014especially after a Rule 11(b)(1)(N) colloquy confirmed a knowing and voluntary waiver. And under Olano\u2019s definition of waiver, the Government\u2019s failure to object at sentencing is not an intentional relinquishment of a known right to invoke the waiver against some future, unidentified appeal. Assuming without deciding how to label Hunter\u2019s due-process theory, it is still an appeal from a component of the sentence and falls within the waiver\u2019s broad terms on this record.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "The petitioner\u2019s best point remains that a defendant cannot knowingly surrender review of allegedly unlawful supervised-release conditions, and that the district court\u2019s later Rule 32(j) advisement\u2014\u201cyou have a right to appeal\u201d\u2014should be read to preserve appellate review, especially given the Government\u2019s silence. But as Chief Justice Roberts and Justice Barrett explain, Rule 32(j) is a notice provision, not an amendment mechanism, and the court (not being a party) lacks authority to rewrite a plea agreement that was already confirmed as knowing and voluntary under Rule 11(b)(1)(N). Treating boilerplate advisements plus silence as implied modification would make enforcement turn on happenstance at the close of sentencing, undermining administrable, text-based waiver rules and inviting arbitrary outcomes. Garza does not alter that conclusion; it recognizes that some claims may survive waivers, not that routine advisements nullify otherwise valid waivers covering components of the sentence, including supervised-release conditions.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The petitioner\u2019s strongest point remains that the Rule 32(j) advisement (\u201cyou have a right to appeal\u201d), combined with the Government\u2019s silence, either modified the plea agreement or at least created ambiguity undermining enforcement of the waiver. But as the Chief Justice and Justice Barrett emphasize, Rule 32(j) is a routine, post-sentencing notice that does not supply mutual assent to amend a plea agreement the court is not a party to\u2014especially after a valid Rule 11(b)(1)(N) colloquy confirming a knowing and voluntary waiver. And under Rule 51(b), Hunter did not contemporaneously object, seek clarification, or request any correction at sentencing; that forfeiture pushes any \u201cmodification/ambiguity\u201d theory into Rule 52(b) plain-error review, where any supposed error is not \u201cplain\u201d given widespread practice of giving generic appeal advisements even when waivers exist. Accordingly, the waiver remains enforceable and bars this appeal, and we need not reach the supervised-release due-process merits.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best argument is that the Rule 32(j)(1)(B) advisement that Hunter \u201chas a right to appeal,\u201d combined with the Government\u2019s silence, created ambiguity or an effective modification of the appeal waiver. But as Chief Justice Roberts and Justice Kagan explain, Rule 11(b)(1)(N) makes the waiver a term of a bargained-for plea that the court may accept or reject\u2014not later revise by boilerplate\u2014and Rule 32(j) contains no textual hook authorizing it to nullify that earlier, knowing relinquishment. Reading a generic advisement to override an express waiver would invert the Rules\u2019 structure and make waiver enforceability turn on happenstance at sentencing rather than the Rule 11 record. And as Justice Kavanaugh notes, Hunter did not object or seek clarification at sentencing, so any confusion/modification theory is, at most, forfeited and cannot defeat an otherwise valid waiver on this record.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The petitioner\u2019s strongest point remains that the district court\u2019s boilerplate Rule 32(j) advisement\u2014stating Hunter \u201chas a right to appeal\u201d\u2014together with the Government\u2019s silence, created ambiguity or reliance sufficient to vitiate the earlier waiver. But as Justice Kagan explains, silence at sentencing is not an \u201cintentional relinquishment\u201d by the Government of its ability to invoke a waiver on a later, as-yet-unfiled appeal, and nothing in Rule 32(j) supplies the mutual assent or procedural mechanism to amend a plea agreement already confirmed under Rule 11(b)(1)(N). Consistent with my waiver/consent methodology, the dispositive question is whether anything in the record shows that Hunter\u2019s knowing relinquishment was later altered under the governing rules; this one-size-fits-all advisement, without a contemporaneous clarification request (as Justice Kavanaugh notes), does not. We can decide narrowly\u2014reserving harder cases where the record reflects actual confusion or inducement\u2014and enforce the waiver here as covering an appellate challenge to supervised-release conditions as part of the sentence.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The dispositive question is whether Hunter\u2019s knowing and voluntary plea-agreement appeal waiver\u2014accepted under Rule 11\u2014covers his due-process challenge to a supervised-release condition, and nothing in this record suggests the waiver was limited to particular sentencing components or excluded constitutional theories. Treating the waiver as unenforceable based solely on the judge\u2019s generic post-sentencing remark that Hunter \u201chas a right to appeal,\u201d without any mutual assent to modify the written agreement, would improperly convert an imprecise advisement into a unilateral alteration of a bargained-for term; Rule 11 does not authorize that result, and the Government\u2019s silence does not supply contractual modification. To the extent Hunter seeks a broader rule that such judicial statements categorically create ambiguity or invalidate waivers, that is a facial-type argument that fails because the waiver remains valid in many applications where the parties\u2019 agreement and colloquy establish understanding and scope. Having concluded the waiver is enforceable and encompasses this appeal, we need not reach any further issues about the merits or ripeness of the due-process challenge.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The only relevant question is whether Hunter\u2019s appeal falls within the terms of the waiver he knowingly and voluntarily accepted; a broad waiver of \u201cany appeal\u201d (save ineffective-assistance) encompasses a due-process challenge to supervised-release conditions because it is still an attack on the sentence the court imposed. Due process does not itself guarantee an appeal or successive review mechanisms, so Hunter cannot avoid his bargain by relabeling the claim as \u201cdue process\u201d rather than \u201csentencing error,\u201d and nothing in Rule 11 authorizes a district judge to rewrite a plea agreement post hoc. The judge\u2019s generic Rule 32(j) advisement that Hunter \u201chas a right to appeal,\u201d without more, neither supplies the mutual assent required to modify the written waiver nor creates an appellate basis to disregard it; at most it acknowledges whatever limited appellate rights remain after waiver. Enforcing the waiver therefore respects the statutory/contractual elements of the agreement and avoids appellate \u201csalvage\u201d on a theory (judicial modification/forfeiture) not established by the plea record.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "A knowing and voluntary plea-agreement appeal waiver is enforceable according to its terms, and nothing in Rule 11 or the federal sentencing scheme creates a free-floating due-process exception for challenges to supervised-release conditions where the plea waiver broadly covers \u201cany appeal\u201d (save narrow carveouts like ineffective assistance). The district judge\u2019s routine, post-plea statement at the end of sentencing that the defendant \u201chas a right to appeal\u201d does not modify a plea agreement the court is not a party to, and the Government\u2019s failure to object cannot reasonably be treated as assent to rewrite the bargain, especially when the waiver had already been accepted after a Rule 11(b)(1)(N) colloquy. Background principles favor enforcing waivers as written absent a clear statutory/constitutional bar, and ordinary agency/waiver rules likewise attribute to the defendant the litigation choices surrounding the plea and sentencing rather than allowing later reliance on an ambiguous boilerplate advisement. Accordingly, the waiver bars this due-process attack on the supervised-release condition, and the Fifth Circuit\u2019s dismissal should be affirmed.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The governing question is whether a knowing and voluntary plea-agreement appeal waiver, accepted at the Rule 11 colloquy, is rendered unenforceable by the district court\u2019s later, generic Rule 32(j) advice that the defendant \u201chas a right to appeal\u201d and the Government\u2019s silence. Nothing in Rule 32(j) purports to modify the parties\u2019 agreement, and treating that post-sentencing advisement as implicitly rewriting a bargained-for waiver would depart from the ordinary background rule that Congress and the Rules assume: waivers remain effective absent a clear alteration in the plea process itself. Nor does Garza establish a freestanding constitutional exception to enforcement; it recognizes that waivers are not absolute while leaving the content of exceptions unresolved, so Hunter\u2019s broader due-process challenge to a supervised-release condition is better addressed, if at all, through the existing waiver\u2019s scope and ordinary principles of waiver/forfeiture in the lower courts rather than by announcing a new categorical exception here. On these facts, the technical misadvice at sentencing should not extinguish the waiver the defendant previously executed and the court already found valid.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The narrow dispositive issue is whether Hunter\u2019s knowing and voluntary plea-agreement appeal waiver covers this appeal; assuming without deciding the best label for his due-process challenge to the supervised-release condition, the waiver\u2019s broad terms bar it absent a recognized carve-out, and none applies here. The sentencing judge\u2019s generic statement that Hunter \u201chas a right to appeal\u201d does not, without more, rewrite an already accepted plea agreement; neither Rule 11 nor ordinary contract principles allow a unilateral judicial modification, and the record shows no mutual assent to alter the waiver. Nor did the Government waive its right to invoke the waiver under Olano\u2019s standard: silence at sentencing is not an intentional relinquishment of a known right to enforce the waiver on a future appeal, especially before any notice of appeal and identified issues. Applying the usual, trans-substantive waiver framework\u2014without importing prejudice or reliance requirements\u2014the waiver remains enforceable and bars the appeal.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The narrow question is whether a knowing-and-voluntary plea-agreement appeal waiver, accepted under Rule 11(b)(1)(N), nonetheless permits an appeal attacking supervised-release conditions on due-process grounds, and whether a later generic statement that the defendant \u201chas a right to appeal\u201d nullifies the waiver. Read as written, the waiver bars the appeal here because it broadly covers sentencing challenges and contains no due-process carveout; enforcing it does not require courts to invent extra-textual exceptions. Nor could the district court\u2019s post-sentencing advice under Rule 32(j)(1)(B) modify the bargain: the court is not a party to the plea agreement and Rule 11 limits the court to accepting or rejecting the agreement, while the government\u2019s silence is not mutual assent to amend. Garza reinforces that some appellate rights may persist despite a waiver, but it does not treat a routine advisement as undoing an otherwise valid waiver or as creating an administratively unworkable, happenstance-driven rule turning on an unobjected-to colloquy remark.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under a preservation-first framework, Hunter\u2019s due-process attack on a supervised-release condition is barred if it falls within a knowing and voluntary appeal waiver, and nothing in the facts suggests the waiver was invalid under Rule 11(b)(1)(N). The judge\u2019s generic end-of-sentencing statement that Hunter \u201chas a right to appeal,\u201d required in many cases by Rule 32(j)(1)(B), did not clearly modify the plea agreement; and Hunter did not ask the court to clarify or to conform the judgment to an understanding that the waiver was withdrawn, so any \u201cmodification/ambiguity\u201d theory was not preserved under Rule 51(b). In any event, treating that routine advisement (and the government\u2019s silence) as nullifying an otherwise valid waiver would be inconsistent with administrable preservation rules and plea-agreement enforcement; at most, the unpreserved claim would be reviewed for plain error under Rule 52(b), and any error is not \u201cplain\u201d given the widespread practice of giving generic appeal advisements despite waivers. Accordingly, the waiver remains enforceable and bars this appeal.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The starting point is the plea agreement\u2019s text, which Hunter knowingly and voluntarily accepted and which broadly waives appellate review of his sentence\u2014including supervised-release conditions\u2014except for ineffective-assistance claims; reading the agreement as a whole, a due-process label does not change that it is an appeal of a sentencing component the waiver covers. Structure confirms the point: Rule 11 cabins the court\u2019s role to accepting or rejecting the parties\u2019 bargain, not rewriting it, so a generic Rule 32(j)(1)(B) advisement at sentencing that a defendant \u201chas a right to appeal\u201d cannot, without mutual assent, nullify the waiver Congress and the Rules permit parties to execute. Nor does the government\u2019s silence at sentencing supply the missing contractual assent or create an enforceable modification, and any claim that the advisement rendered the waiver ambiguous would in any event turn on preservation\u2014if Hunter did not object or seek clarification contemporaneously, he cannot later use the uncorrected boilerplate advisement to defeat an otherwise valid waiver. Because the waiver is enforceable on its terms, the appeal is barred and the Fifth Circuit\u2019s dismissal should be affirmed.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Applying waiver/consent doctrine, the appeal right at issue belongs to the defendant and may be relinquished through a knowing and voluntary plea-agreement waiver; on these facts, the Rule 11 colloquy expressly confirmed Hunter understood he was \u201cgiving up [his] right to appeal\u201d his sentence, which includes supervised-release conditions that are part of the sentence. The district court\u2019s later, generic Rule 32(j)-style advisement that Hunter \u201chas a right to appeal,\u201d months after the plea became binding, does not itself undo or modify that earlier, clear relinquishment absent a case-specific showing that it reasonably induced confusion about the waiver\u2019s scope\u2014something the record here (clear plea-stage explanation, no contemporaneous reacceptance or renegotiation) does not support. Consistent with avoidance principles, I would not announce any categorical rule about all such judicial misstatements; it is enough to hold that this post-plea statement, without more, does not render the waiver unenforceable against a due-process challenge to a supervised-release condition. Under contract/plea principles, the proper inquiry is whether the waiver was validly obtained and whether any later government/court conduct actually altered the defendant\u2019s consent; here, it did not.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.793,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3"
+  }
+]

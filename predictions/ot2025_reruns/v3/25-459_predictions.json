@@ -1,0 +1,600 @@
+[
+  {
+    "docket": "25-459",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a free, advertising-supported sports website that provides short video clips qualifies as a \u201cvideo tape service provider\u201d and/or whether its users qualify as \u201cconsumers\u201d under the Video Privacy Protection Act such that alleged sharing of viewing information triggers VPPA liability.",
+      "legal_provision": "18 U.S.C. \u00a7 2710 (the Video Privacy Protection Act of 1988), including the definitions in \u00a7 2710(a) (e.g., \u201cconsumer,\u201d \u201cvideo tape service provider,\u201d and \u201cpersonally identifiable information\u201d) and the disclosure prohibition in \u00a7 2710(b)(1).",
+      "petitioner_position": "Salazar argues the Sixth Circuit adopted an unduly narrow, textually unsound interpretation of the VPPA that effectively limits the statute to legacy video-rental-type businesses; he contends modern online publishers that deliver video content (including free clips) can be covered \u201cvideo tape service providers,\u201d and that his interaction with 247Sports makes him a protected \u201cconsumer,\u201d so the court should resolve the circuit split and reverse on the statutory-interpretation question (and he stresses this case is a clean vehicle with a final judgment, unlike the related NBA petition).",
+      "respondent_position": "Paramount/247Sports argues certiorari should be denied because the case is a poor vehicle and Salazar loses as a matter of law even if the Court reached the \u201cconsumer\u201d question; it maintains 247Sports is a sports news website (not a business that rents/sells/subscribes to audiovisual works) and that the VPPA\u2019s text and purpose do not extend to free online news clips, and it further emphasizes that multiple other issues (including separate circuit splits over VPPA elements like \u201cpersonally identifiable information\u201d standards and standing/percolation concerns) counsel against Supreme Court review now.",
+      "key_precedents": [
+        "Mount Soledad Memorial Ass\u2019n v. Trunk, 567 U.S. 944 (2012)",
+        "Virginia Military Institute v. United States, 508 U.S. 946 (1993)",
+        "Bhd. of Locomotive Firemen & Enginemen v. Bangor & Aroostook R.R. Co., 389 U.S. 327 (1967) (per curiam)",
+        "Fischer v. United States, 603 U.S. 480 (2024)",
+        "Yates v. United States, 574 U.S. 528 (2015)",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) (Spokeo I)",
+        "Robins v. Spokeo, Inc., 867 F.3d 1108 (9th Cir. 2017) (Spokeo II on remand)",
+        "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021)",
+        "Perry v. Cable News Network, Inc., 854 F.3d 1336 (11th Cir. 2017)",
+        "In re Nickelodeon Consumer Privacy Litigation, 827 F.3d 262 (3d Cir. 2016)",
+        "Eichenberger v. ESPN, Inc., 876 F.3d 979 (9th Cir. 2017)",
+        "Van Patten v. Vertical Fitness Group, LLC, 847 F.3d 1037 (9th Cir. 2017)",
+        "A.J.T. v. Osseo Area Schools, Independent School Dist. No. 279, 605 U.S. 335 (2025)",
+        "Ames v. Ohio Dep\u2019t of Youth Servs., 605 U.S. 303 (2025)",
+        "CC/Devas (Mauritius) Ltd. v. Antrix Corp., 145 S. Ct. 1572 (2025)",
+        "Christopherson v. Cinema Ent. Corp., No. 24-3042, 2025 WL 3512393 (8th Cir. Dec. 8, 2025)",
+        "Solomon v. Flipps Media, Inc. (referenced as a pending cert petition relating to VPPA \u201cpersonally identifiable information\u201d)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Sotomayor is right that \u201cdelivery\u201d is not, by its terms, limited to pay-per-view or Blockbuster-style rentals, and the VPPA can reach modern modes of transmission. But the Act\u2019s enacted text links liability to a particular relationship: a covered plaintiff must be a \u201cconsumer\u201d defined as a \u201crenter, purchaser, or subscriber,\u201d and \u00a72710(b)(1) authorizes suit only by a \u201cconsumer of such provider,\u201d reinforcing (as Justice Barrett and Justice Kagan note) a provider\u2013customer connection rather than a casual website visit. Reading \u201cdelivery\u201d to cover any ad-supported publisher that incidentally streams clips would drain \u201cengaged in the business\u201d and the transactional terms Congress chose of limiting force, effectively converting this targeted statute into a general web-tracking law. On these pleadings, the site\u2019s principal business and the user\u2019s relationship do not plausibly fit the statute\u2019s paired definitions, so dismissal is proper and any broader modernization is for Congress.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Sotomayor is right that we should not smuggle a payment requirement into \u201cdelivery,\u201d and digital transmission can qualify as delivery in an appropriate case. But Chief Justice Roberts correctly emphasizes the statute\u2019s linked definitions and \u00a72710(b)(1)\u2019s limitation to a \u201cconsumer of such provider,\u201d which presupposes the renter/purchaser/subscriber relationship Congress chose to define. Reading \u201cdelivery\u201d untethered from \u201cengaged in the business\u201d and the company it keeps with \u201crental\u201d and \u201csale,\u201d as Justice Barrett notes, would effectively convert the VPPA into a general web-tracking regime whenever a publisher embeds clips. On these pleadings\u2014a free, ad-supported sports news site with clips incidental to journalism\u2014the statutory predicates are missing, and any broader modernization must come from Congress rather than judicial reconstruction of the definitional scheme.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Sotomayor is right that \u201cdelivery\u201d need not entail payment and can include modern digital transmission, but her approach, on this record, risks collapsing the VPPA\u2019s limiting definitions into a boundless \u201cany website with video\u201d rule. As the Chief Justice and Justice Barrett emphasize, \u00a72710\u2019s structure links a covered defendant to a covered plaintiff through a defined, transactional relationship\u2014suit lies only by a \u201cconsumer of such provider,\u201d and \u201cconsumer\u201d is limited to a \u201crenter, purchaser, or subscriber,\u201d terms that are not plausibly satisfied by a casual viewer of free, ad-supported clips on a broader news site. Absent concrete allegations showing that this entity is actually \u201cengaged in the business\u201d of delivering audiovisual materials as the product (rather than an incidental feature) and that the plaintiff is a \u201csubscriber\u201d in something like the statutory sense, extending coverage would require speculation about applications. I would affirm while leaving open that a different platform or a better-developed record showing a subscription-like relationship could present a different case.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.6,
+        "reasoning": "The Chief Justice\u2019s whole-statute argument\u2014especially the \u201cconsumer of such provider\u201d linkage in \u00a72710(b)(1)\u2014is the most serious constraint, and I agree it requires some provider\u2013consumer relationship beyond a one-off, drive-by page view. But that structural point does not justify importing a payment requirement the text never states, nor does it warrant treating \u201cdelivery\u201d as limited to rental/sale-like transactions when Congress separately listed \u201cdelivery\u201d alongside those terms. Justice Barrett\u2019s noscitur concern about collapsing the Act into \u201cany website with video\u201d is real, yet it is addressed by a function-and-context inquiry into whether the defendant is plausibly \u201cengaged in the business \u2026 of \u2026 delivery\u201d and whether the plaintiff plausibly qualifies as a \u201csubscriber\u201d on the pleadings, rather than by categorically excluding ad-supported services at Rule 12. On this record, the Sixth Circuit\u2019s narrowing reads modern ongoing user relationships out of \u201csubscriber\u201d and improperly resolves factual and contextual questions about the service\u2019s business model and the user\u2019s relationship at the threshold.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right that we should not freeze the VPPA in 1988 technology, and \u201cdelivery\u201d can naturally include digital transmission. But the statute does not regulate delivery in the abstract: it limits covered defendants to those \u201cengaged in the business\u201d of rental, sale, or delivery, and it limits plaintiffs to \u201cconsumers\u201d defined as \u201crenter[s], purchaser[s], or subscriber[s],\u201d with \u00a72710(b)(1)\u2019s \u201cconsumer of such provider\u201d linking the two, as the Chief Justice stresses. Reading \u201cdelivery\u201d to cover any ad-supported publisher that incidentally streams clips would erase those limiting words and effectively convert the VPPA into a general web-tracking law\u2014an expansion better left to Congress. On these pleadings, I do not see the requisite provider\u2013consumer relationship or a video-delivery business, so I would affirm dismissal while leaving room for a different record involving a video-centric service or a true subscription relationship (Justice Alito\u2019s point).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right that the VPPA\u2019s text does not impose a \u201cfor a fee\u201d requirement, and we should not add one. But her approach still risks untethering \u201cdelivery\u201d from the limiting words Congress did enact\u2014\u201cengaged in the business\u201d and the company it keeps with \u201crental\u201d and \u201csale\u201d\u2014and thereby turning the definition into an atextual \u201cany website with video\u201d rule. As Chief Justice Roberts emphasizes, the statute\u2019s linked definitions and \u00a72710(b)(1)\u2019s authorization of suit only by a \u201cconsumer of such provider\u201d presuppose a renter/purchaser/subscriber relationship with a provider engaged in that business, which is not plausibly alleged by a casual, free viewing of embedded clips on a sports news site. If Congress wishes to extend this targeted statute into a general regime for digital tracking disclosures, it may do so, but we should not revise the statutory predicates to get there.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right that \u201cdelivery\u201d in \u00a7 2710(a)(4) can naturally encompass modern digital transmission and need not be limited to paid Blockbuster-style transactions. But as the Chief Justice and Justice Barrett emphasize, the enacted definitions operate as a linked scheme: liability runs only to a \u201cconsumer of such provider,\u201d and \u201cconsumer\u201d is limited to a \u201crenter, purchaser, or subscriber,\u201d which in context connotes a provider-customer relationship rather than a casual visit to a free, ad-supported news site with incidental clips. Reading \u201cdelivery\u201d alone to cover any website that transmits video would drain \u201cengaged in the business\u201d of meaning and effectively convert the VPPA into a general web-tracking statute\u2014an expansion not supported by the text and better left to Congress. Even if third-party pixel disclosure could present concreteness under TransUnion, the statutory-coverage defect is dispositive on these pleaded facts.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is that \u201cdelivery\u201d can include free, ad-supported distribution and that we should not freeze the VPPA in 1988 technology. But Chief Justice Roberts is right that the statute\u2019s definitions are linked: suit lies only for a \u201cconsumer of such provider,\u201d and \u201cconsumer\u201d is limited to a \u201crenter, purchaser, or subscriber,\u201d which in ordinary usage connotes an ongoing, affirmative relationship with the provider\u2014something more than a casual visit to a news site with embedded clips. Reading \u201cdelivery\u201d untethered from \u201cengaged in the business\u201d and from its statutory neighbors (\u201crental\u201d and \u201csale\u201d) risks collapsing \u201cvideo tape service provider\u201d into \u201cany website with video,\u201d effectively converting a targeted privacy statute into an omnibus web-tracking law. On these pleadings, I would affirm, while leaving open (as Justice Alito notes) that a different record involving a video-centric service or a bona fide subscription relationship could present a different case.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right to resist importing a fee-for-service requirement the VPPA does not state, and to note that \u201cdelivery\u201d can encompass modern digital distribution. But at the right level of specificity, that functional framing risks collapsing the statute\u2019s limiting touchstones\u2014\u201cengaged in the business\u201d and the paired \u201cconsumer of such provider\u201d requirement\u2014into an atextual \u201chas video\u201d rule that would sweep in ordinary online publishers. As the Chief Justice emphasizes, \u00a7 2710(b)(1)\u2019s \u201cconsumer of such provider\u201d links the definitions and presupposes a renter/purchaser/subscriber relationship with a covered provider; on these pleadings, a free, ad-supported sports journalism site with incidental clips and a casual viewer does not plausibly satisfy those linked predicates. Given the chilling risk of uncertain liability for commonplace analytics and embedded media, I would affirm and leave any modernization of this targeted statute to Congress.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The VPPA\u2019s operative text pairs a \u201cconsumer\u201d (a \u201crenter, purchaser, or subscriber\u201d) with a \u201cvideo tape service provider\u201d (one \u201cengaged in the business \u2026 of rental, sale or delivery of \u2026 audio visual materials\u201d), and \u00a7 2710(b)(1) authorizes suit only by a \u201cconsumer of such provider,\u201d confirming the definitions work together rather than extending to any website visitor. Read in that whole-statute context, a free, advertising-supported sports news site that merely makes short clips available without any rental, sale, or subscription relationship is not \u201cengaged in the business\u201d of rental or sale, and the petitioner\u2019s casual use of clips does not make him a \u201crenter\u201d or \u201cpurchaser,\u201d nor a \u201csubscriber\u201d in the statutory sense. The continuity of the enacted 1988 language\u2014focused on transactional relationships for \u201crental, sale or delivery\u201d of prerecorded audiovisual materials\u2014counsels against stretching the definition to cover every ad-supported publisher that streams clips. On these facts, petitioner falls outside the statute\u2019s defined plaintiff class, so the alleged disclosure does not trigger VPPA liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The VPPA\u2019s text and structure define a \u201cvideo tape service provider\u201d as a person \u201cengaged in the business\u201d of \u201crental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials,\u201d and a \u201cconsumer\u201d as one who is a \u201crenter, purchaser, or subscriber\u201d of such goods or services. Read in that statutory setting\u2014and against the specific problem Congress targeted in 1988 (commercial video-rental disclosure, not general online publishing)\u2014a free, advertising-supported sports news site offering short clips looks more like a publisher that incidentally hosts video than a business whose relevant transaction is renting/selling/subscribing to audiovisual materials. The modern platform realities Salazar highlights (ad monetization, tracking pixels, algorithmic distribution) may show how disclosure happens at scale, but they do not supply the missing statutory predicates of a qualifying \u201cprovider\u201d and \u201cconsumer\u201d relationship grounded in rental/purchase/subscription. Given that extension to free news clips would effectively convert much of the ad-supported web into VPPA-regulated \u201cvideo tape service\u201d absent clear textual direction, I would affirm dismissal and leave any modernization to Congress.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "On this record, I would not extend the VPPA to a free, advertising-supported sports news site that offers short clips absent a concrete, non-speculative showing that the site\u2019s business is \u201cengaged in the rental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials\u201d in the sense Congress targeted, rather than merely publishing incidental video as part of a broader news product. Petitioner\u2019s theory risks treating any multipurpose website with embedded video as a \u201cvideo tape service provider,\u201d but the statute\u2019s defined categories require a function-specific, evidence-based inquiry into what 247Sports actually delivers, how users access it, and whether the user relationship resembles the statute\u2019s paradigmatic \u201crental/sale/subscription\u201d transaction\u2014issues that cannot be resolved by broad characterization alone. Likewise, without a developed showing that petitioner was a \u201cconsumer\u201d (as renter, purchaser, or subscriber) rather than a casual visitor, imposing VPPA liability would rest on speculation about statutory coverage. Given that mismatch between the statute\u2019s operative thresholds/definitions and the site\u2019s described business model, I would affirm the judgment for respondent.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Sixth Circuit\u2019s reading effectively narrows the VPPA to legacy video-rental analogs, but the statutory definitions direct us to classify coverage by what the entity does\u2014whether it is \u201cengaged in the business . . . of rental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials\u201d\u2014not by whether it charges a subscription or looks like Blockbuster. On Salazar\u2019s allegations, 247Sports systematically delivers identifiable video clips to users as part of its business model, and denying coverage solely because the clips are free or embedded in an advertising-supported publisher would elevate form over the statute\u2019s text and purpose, undermining Congress\u2019s privacy-protective scheme. Likewise, treating users as non-\u201cconsumers\u201d absent payment or formal subscription would create an atextual carveout where modern digital \u201cdelivery\u201d is most prevalent, even though the complaint plausibly alleges an ongoing user relationship tied to viewing specific videos. At minimum, the better reading is that the VPPA\u2019s protection turns on the delivery of audiovisual materials and the user\u2019s receipt/request of them, so dismissal at the pleading stage was unwarranted.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Start with the statute\u2019s text. A \u201cvideo tape service provider\u201d is a person \u201cengaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials,\u201d and a \u201cconsumer\u201d is a \u201crenter, purchaser, or subscriber\u201d of such goods or services. On these facts, 247Sports is primarily a sports news site offering short, free, ad-supported clips as an adjunct to written reporting, so characterizing it as being in the \u2018business\u2019 of delivering audiovisual materials in the sense the VPPA uses that term stretches the ordinary meaning and statutory structure beyond its rental/sale/subscription hooks; and Salazar\u2019s use\u2014without payment or any ongoing subscription-like commitment\u2014does not fit the statute\u2019s renter/purchaser/subscriber categories. Whatever the privacy risks of pixel-based tracking and downstream disclosure (sale, hacking, subpoena), the Court\u2019s role here is to apply Congress\u2019s chosen definitions, and this record does not place 247Sports (or Salazar) on the covered side of those definitional lines.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.64,
+        "reasoning": "Start with the statute\u2019s text. The VPPA defines a \u201cvideo tape service provider\u201d as a person \u201cengaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials,\u201d and the most natural reading of \u201cengaged in the business\u201d plus the specific nouns (\u201crental, sale\u201d) suggests a commercial video-content enterprise rather than a general sports-news website that merely embeds short, advertising-supported clips ancillary to its journalism. On these alleged facts, extending the Act to any ad-supported publisher that happens to \u201cdeliver\u201d some videos would treat an incidental feature as the business itself and would effectively erase the limiting words Congress chose, converting \u201cvideo tape service provider\u201d into \u201cany website with video,\u201d a step the text does not warrant. Absent a clearer statutory basis, policy arguments about updating an older statute for modern media belong to Congress, and the narrower construction best honors the enacted definitions without judicially rewriting their limits.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Starting with the enacted text, a free, advertising-supported sports news site offering incidental short clips is not, in ordinary statutory usage, a \u201cvideo tape service provider\u201d that is \u201cengaged in the business\u201d of rental, sale, or delivery of \u201cprerecorded video cassette tapes or similar audio visual materials\u201d in the way the VPPA contemplates; stretching those words to cover a general-interest publisher would effectively expand the statute beyond its meaning rather than apply it to new technology. For the same reason, a visitor who merely watches free clips without an ongoing relationship resembling renting, purchasing, or subscribing does not naturally fit the statute\u2019s \u201cconsumer\u201d definition, which presupposes a provider-consumer transactional relationship. Even assuming a disclosure to a third party (e.g., Facebook via a pixel) could satisfy concreteness under TransUnion, the threshold statutory-coverage problem remains dispositive on these facts, so the complaint fails as a matter of law. The proper course is to apply the line Congress drew in the statute\u2019s operative definitions and leave any broader regulation of online tracking to Congress.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Starting with the text and its original public meaning, \u00a7 2710(a)(4) defines a \u201cvideo tape service provider\u201d as a person \u201cengaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audiovisual materials,\u201d and the best reading of \u201cengaged in the business\u201d plus the enumerated commercial modes (rental, sale, subscription-like delivery) points to an enterprise whose business is furnishing audiovisual works\u2014not a general sports-news site that incidentally embeds free, advertising-supported clips. Reading \u201cdelivery\u201d in light of its neighbors (noscitur a sociis/ejusdem generis) avoids converting the VPPA into a sweeping online-tracking statute for any webpage that transmits video, a result hard to square with the statute\u2019s targeted response to the Bork video-rental disclosures. Even if a user could be a \u201cconsumer\u201d when she becomes a \u201csubscriber\u201d (\u00a7 2710(a)(1)), Salazar\u2019s alleged conduct here (watching short clips on a free site without a qualifying subscription relationship) does not fit that term\u2019s ordinary meaning in this statutory context. Precedent counsels restraint in expanding criminal/penal-style privacy statutes beyond their text, consistent with this Court\u2019s approach to overbroad readings in Yates and Fischer.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "At the right level of specificity, the function at issue is a free, advertising-supported sports news website that incidentally provides short clips to complement reporting\u2014not a provider whose business is renting, selling, or delivering video materials as the relevant product. Faithfully applying the VPPA\u2019s definitional touchstones, 18 U.S.C. \u00a7 2710(a) ties \u201cvideo tape service provider\u201d to being \u201cengaged in the business\u201d of providing \u201cprerecorded video cassette tapes or similar audiovisual materials,\u201d and treating any clip-hosting publisher as covered would collapse that inquiry into a broad, category-level \u201chas video\u201d test the statute does not support. That same specificity concern carries to \u201cconsumer\u201d: on these facts, the alleged interaction with 247Sports is best characterized as consuming news content, not establishing the kind of rental/purchase/subscription relationship the Act targets. Given the statute\u2019s text-driven limits and the real-world chilling risk that an overbroad reading would create for online journalism and ordinary web analytics absent clearer congressional direction, I would affirm.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.714,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "25-459",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a free, ad-supported sports news website that publishes video clips is a \u201cvideo tape service provider\u201d under the Video Privacy Protection Act such that it can be liable for disclosing user viewing information.",
+      "legal_provision": "Video Privacy Protection Act (VPPA), 18 U.S.C. \u00a7 2710 (including definitions in \u00a7 2710(a) and the disclosure prohibition in \u00a7 2710(b)(1)).",
+      "petitioner_position": "Salazar argues the Sixth Circuit adopted an unduly narrow, textually misguided interpretation of the VPPA by effectively limiting the statute to businesses akin to traditional video rental/sales operations; he contends that modern digital publishers that deliver video content (including via websites with clips) can fall within the VPPA\u2019s scope, and that Supreme Court review is warranted to resolve an acknowledged circuit split on the VPPA\u2019s reach (also implicated in the NBA-related petition) using this case as a clean vehicle because it comes to the Court after a final judgment and without the procedural complications present in the other petition.",
+      "respondent_position": "Paramount/247Sports argues certiorari should be denied because the case is a poor vehicle and/or the petition fails on the merits: 247Sports is fundamentally a free sports news site\u2014not a business that rents, sells, or offers subscriptions to video content\u2014so the VPPA (enacted to address disclosure of video rental records) does not cover it; respondent further contends Salazar\u2019s complaint fails for multiple independent reasons (not just the \u201cconsumer\u201d/coverage question), and emphasizes that the Court should allow issues to continue percolating rather than taking up a case where dispositive problems would prevent clean resolution of the presented question.",
+      "key_precedents": [
+        "Mount Soledad Memorial Ass\u2019n v. Trunk, 567 U.S. 944 (2012)",
+        "Virginia Military Institute v. United States, 508 U.S. 946 (1993)",
+        "Brotherhood of Locomotive Firemen & Enginemen v. Bangor & Aroostook R.R. Co., 389 U.S. 327 (1967) (per curiam)",
+        "Fischer v. United States, 603 U.S. 480 (2024)",
+        "Yates v. United States, 574 U.S. 528 (2015)",
+        "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016) (Spokeo I)",
+        "Robins v. Spokeo, Inc., 867 F.3d 1108 (9th Cir. 2017) (Spokeo II on remand)",
+        "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021)",
+        "Perry v. Cable News Network, Inc., 854 F.3d 1336 (11th Cir. 2017)",
+        "In re Nickelodeon Consumer Privacy Litigation, 827 F.3d 262 (3d Cir. 2016)",
+        "Eichenberger v. ESPN, Inc., 876 F.3d 979 (9th Cir. 2017)",
+        "Van Patten v. Vertical Fitness Group, LLC, 847 F.3d 1037 (9th Cir. 2017)",
+        "A.J.T. v. Osseo Area Schools, Independent School District No. 279, 605 U.S. 335 (2025)",
+        "Ames v. Ohio Department of Youth Services, 605 U.S. 303 (2025)",
+        "CC/Devas (Mauritius) Ltd. v. Antrix Corp., 145 S. Ct. 1572 (2025)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Petitioner\u2019s best point is that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally encompass internet streaming, and we should not freeze the VPPA in a VHS-era marketplace. But, as Justice Barrett and Justice Kagan emphasize, the definition turns on being \u201cengaged in the business\u201d of renting, selling, or delivering those materials, and that limiting language\u2014together with the statute\u2019s linkage of \u201cconsumer\u201d to a renter/purchaser/subscriber relationship with \u201csuch provider\u201d\u2014does real work that petitioner\u2019s reading largely erases. Justice Thomas\u2019s ejusdem generis point further supports reading \u201csimilar\u201d as tethered to an enterprise centered on furnishing discrete audiovisual works, not general news publishing with incidental clips. A narrow, facts-bound holding that respondent\u2019s alleged core business is journalism supported by advertising and that any video delivery is ancillary resolves this case without opining on entities whose primary product is video delivery.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "Petitioner\u2019s strongest point is that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally encompass streaming video given how thoroughly internet video has displaced the VHS-era market Congress confronted. But, as Justice Barrett and the Chief Justice stress, the statute does not regulate every entity that can transmit video; it regulates those \u201cengaged in the business\u201d of renting, selling, or delivering such materials, and that limiting phrase must constrain the definition rather than be read out of it. Reading \u201cdelivery\u201d to reach an ad-supported news publisher that incidentally embeds clips would sever the definition from the statute\u2019s structure\u2014especially the \u201cconsumer\u201d relationship (renter/purchaser/subscriber) tied to \u201csuch provider\u201d\u2014and effectively convert a targeted privacy rule into a sweeping regime for ordinary web analytics. On the pleaded facts, 247Sports\u2019 core business is publishing journalism supported by ads, with video ancillary, so it is not a \u00a72710(a)(4) provider here.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best point remains that \"delivery\" of \"similar audio visual materials\" can naturally describe streaming or embedded clips, so the definition could be read with technological neutrality. But, as Justice Barrett and the Chief Justice stress, that reading cannot be severed from the statute\u2019s limiting phrase \"engaged in the business\" and the definition of \"consumer\" as a renter/purchaser/subscriber of \"such provider,\" which presuppose a commercial relationship centered on furnishing audiovisual materials as the product. On this record, treating an ad-supported news publisher with incidental video as a covered \"video tape service provider\" would drain those limiting words of meaning and effectively convert a targeted privacy statute into a broad regulation of ordinary web publishing and analytics without a clear textual anchor. Consistent with a cautious, record-based approach to statutory reach, this case is a poor vehicle for adopting petitioner\u2019s expansive construction.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Petitioner\u2019s best textual point remains that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally encompass streaming video, and I do not discount Congress\u2019s use of technology-flexible language. But, as Justice Barrett explains, the statute\u2019s definitional structure links \u201cconsumer\u201d (a renter/purchaser/subscriber) to \u201csuch provider,\u201d which presupposes a provider-consumer relationship in which furnishing audiovisual materials is the business\u2014not incidental clip delivery by an ad-supported news publisher. As the Chief notes, reading \u201cengaged in the business\u201d to sweep in any site that serves video would effectively erase that limiting phrase and predictably expand the VPPA into routine web-analytics disclosures across digital journalism, with significant chilling consequences absent a clear congressional choice. On the pleaded facts, 247Sports is not plausibly a \u00a72710(a)(4) \u201cvideo tape service provider,\u201d so the VPPA claim fails at the threshold.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "Petitioner\u2019s best point is that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally encompass online streaming, so the VPPA should not be frozen in a VHS era. But as Justice Barrett stresses, \u00a72710(a)(4) does not just ask whether a defendant can transmit video; it asks whether the defendant is \u201cengaged in the business\u201d of renting, selling, or delivering those materials\u2014limiting language that must be given effect, especially in a statute built around a renter/purchaser/subscriber relationship. On the pleaded facts, 247Sports functions as an ad-supported news publisher that may embed clips incidentally, not an enterprise whose commercial offering is furnishing discrete audiovisual works to consumers in the way the definition contemplates. As the Chief Justice warns, adopting petitioner\u2019s reading would effectively erase \u201cengaged in the business\u201d and transform a targeted privacy statute into a broad regulation of ordinary web publishing and analytics without clear textual authorization.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "Petitioner\u2019s best textual point is that \u201cdelivery\u201d and \u201csimilar audio visual materials\u201d are naturally capacious enough to reach streaming clips, and Congress needn\u2019t name the Internet to regulate it. But, as Justice Barrett and the Chief Justice stress, the definition does not stop at \u201cdelivery\u201d; it covers only an entity \u201cengaged in the business \u2026 of rental, sale, or delivery\u201d of those materials, and that limiting phrase must be given operative effect. Reading it to encompass any ad-supported publisher that incidentally transmits video would drain the limitation of meaning and sit uneasily with the statute\u2019s structural linkage of \u201cconsumer\u201d (a renter, purchaser, or subscriber) to \u201csuch provider.\u201d On the pleaded facts, respondent looks like a news publisher with ancillary clips, not a business whose product is furnishing audiovisual materials in the statutory sense, so \u00a72710(a)(4) does not reach it.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Petitioner\u2019s strongest point is that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally include online transmission of video clips, so a technologically updated reading could bring respondent within the statute. But as Chief Justice Roberts and Justice Barrett explain, that reading risks draining the limiting phrase \u201cengaged in the business \u2026 of rental, sale, or delivery\u201d of operative force and disconnecting the definition of \u201cconsumer\u201d (a renter/purchaser/subscriber) from \u201csuch provider,\u201d which presupposes a commercial relationship centered on furnishing audiovisual materials as the product. Justice Thomas\u2019s ejusdem generis point further supports reading \u201csimilar\u201d in light of the VHS-era paradigm Congress targeted, not as a general hook to federalize routine web publishing and analytics whenever a site embeds incidental video. On the pleadings here\u2014where the core enterprise is ad-supported journalism with ancillary clips\u2014the complaint does not plausibly allege respondent is a \u201cvideo tape service provider\u201d under \u00a72710(a)(4).",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best textual point is that \u201cdelivery\u201d and \u201csimilar audio visual materials\u201d can linguistically encompass streaming clips, so an ad-supported publisher \u201cdelivers\u201d video. But as Justice Kagan and the Chief Justice stress, that reading cannot be severed from the limiting phrase \u201cengaged in the business\u201d and the statute\u2019s definitional linkage of \u201cconsumer\u201d (a renter, purchaser, or subscriber) to \u201csuch provider,\u201d which presupposes a commercial relationship centered on furnishing audiovisual materials as the product. Justice Thomas\u2019s noscitur a sociis/ejusdem generis point further confirms that \u201csimilar\u201d is tethered to the kind of discrete audiovisual-offerings business Congress described, not generalized journalism with incidental clips. The breadth consequences are thus confirmatory: if petitioner\u2019s construction is right, the limiting words do little work and the VPPA becomes a sweeping web-analytics regime without clear textual warrant.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Petitioner\u2019s strongest point remains that \u201cdelivery\u201d of \u201csimilar audio visual materials\u201d can naturally encompass online streaming, and Congress need not employ \u201cmagic words\u201d to account for new technology. But, as Justice Barrett explains, the definitional structure\u2014linking a \u201cvideo tape service provider\u201d to being \u201cengaged in the business\u201d and tying \u201cconsumer\u201d to a renter/purchaser/subscriber relationship with \u201csuch provider\u201d\u2014signals the right level of specificity: a transactional, video-service line of business, not general web publishing with incidental clips. Chief Justice Roberts\u2019s concern about effectively federalizing routine journalism/analytics underscores how petitioner\u2019s reading would drain \u201cengaged in the business\u201d of limiting force, contrary to our ordinary textual approach. Statutory history confirming Congress\u2019s focus on video rental records corroborates that, on these pleaded facts, respondent is not plausibly a covered provider under \u00a72710(a)(4).",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The VPPA\u2019s text targets entities \u201cengaged in the business\u201d of renting, selling, or delivering \u201cprerecorded video cassette tapes or similar audio visual materials,\u201d which naturally denotes a business whose product is the provision of video content\u2014not a free, ad-supported sports-news website for which video clips are ancillary to written reporting. Reading \u201csimilar audio visual materials\u201d to include any online video clip would sever the definition from its limiting \u201cengaged in the business\u201d language and effectively federalize routine web analytics on sites that are not video-delivery businesses. On these facts, 247Sports functions primarily as a news publisher; treating it as a \u201cvideo tape service provider\u201d would expand the statute beyond the kind of video-service relationship Congress addressed. The complaint therefore fails at the coverage element: respondent is not the type of provider the VPPA regulates.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The VPPA\u2019s text, read in statutory context, defines a \u201cvideo tape service provider\u201d as one \u201cengaged in the business \u2026 of rental, sale, or delivery\u201d of \u201cprerecorded video cassette tapes or similar audio visual materials,\u201d which\u2014under noscitur a sociis/ejusdem generis\u2014targets providers whose business model centers on furnishing discrete video materials or services, not a free, ad-supported news site where video clips are ancillary to written reporting. Technological change matters, but it does not license rewriting the statute\u2019s targeted coverage from the video-rental/paid-delivery paradigm Congress addressed into a sweeping rule for any ad-monetized website that happens to \u201cdeliver\u201d clips over the internet. Structurally, extending VPPA liability to general publishers would transform a focused privacy regime into a broad prohibition affecting vast, algorithmically distributed and ad-supported online content at modern scale\u2014an expansion Congress has not clearly enacted. Because 247Sports\u2019 core business is sports news content supported by advertising rather than renting, selling, or subscription-delivering audiovisual materials, it falls outside \u00a72710(a)(4).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The statutory question turns on the VPPA\u2019s defined terms and real-world coverage, and on this record 247Sports is fundamentally a free, ad-supported sports news website whose video clips are ancillary to its journalism\u2014not a business that \u201crents, sells, or delivers\u201d audiovisual materials in the way the statute\u2019s text and structure contemplate. Absent concrete allegations that 247Sports\u2019 enterprise is the delivery of video content (as opposed to primarily non-expressive news publishing with incidental video), extending \u201cvideo tape service provider\u201d to it risks converting a technology-specific privacy statute into a sweeping regulation of ordinary digital publishers without a clear textual anchor. A cautious, record-based approach counsels against adopting petitioner\u2019s broad construction in a case that (by respondent\u2019s account) presents multiple independent pleading defects, making it a poor vehicle for announcing an expansive interpretation. Consistent with the Court\u2019s admonitions against overreading older, technology-focused statutes beyond their defined terms and context, the better reading is that this site is outside the VPPA\u2019s core reach.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Applying a context- and effects-sensitive approach, I would read \u201cengaged in the business \u2026 of rental, sale, or delivery\u201d to require that delivering audiovisual materials be a meaningful part of the enterprise\u2019s commercial offering, not merely incidental to operating a free, ad-supported sports news site. On these facts, the website\u2019s core function is publishing journalism and monetizing attention through advertising; treating every publisher that embeds clips as a \u201cvideo tape service provider\u201d would sweep broadly in ways Congress did not clearly choose and could predictably chill digital newsgathering and consumption by attaching statutory damages to routine analytics and ad-tech disclosures. That breadth is especially concerning where the statute\u2019s trigger would turn on the content-format consumed (video versus text), a mismatch with the VPPA\u2019s historical focus on transactional video services and the \u201cbreathing space\u201d privacy interests it sought to protect without overdeterring speech-adjacent activity. Because this case is a poor fit for extending the VPPA beyond businesses that actually trade in video delivery as a product, I would affirm the narrower interpretation here.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Start with the VPPA\u2019s text: it reaches only a person \u201cengaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audio visual materials.\u201d A free, ad-supported sports news site that primarily publishes provider-preselected articles and embeds short clips looks, in ordinary terms and functional operation, like a digital publisher using video as an incidental feature of its journalism\u2014not a business whose product is the delivery of \u201csimilar audio visual materials\u201d in the way the statute contemplates. Reading \u201cengaged in the business\u201d to cover any website that happens to deliver some videos would erase the limiting work done by that phrase and by \u201csimilar,\u201d effectively converting a targeted privacy statute for video-distribution businesses into a sweeping regulation of general news sites. On these facts, 247Sports is better characterized as a news outlet than a video-delivery service, so it falls outside \u00a7 2710(a)(4).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The VPPA\u2019s text covers only a \u201cperson engaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audio visual materials.\u201d A free, ad-supported sports news site whose principal business is publishing news\u2014while incidentally hosting short video clips\u2014does not naturally fit that enacted description, and nothing in the statute\u2019s ordinary terms extends it to any website that merely \u201cdelivers\u201d some video as an adjunct to a different business. Petitioner\u2019s broader, policy-driven reading would require us to move away from the statute\u2019s limiting words (\u201cengaged in the business\u201d and \u201csimilar audio visual materials\u201d) and treat them as surplusage. Applying the text as written to these facts, 247Sports is not a covered \u201cvideo tape service provider,\u201d so it cannot incur VPPA liability on this theory.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The precise interpretive inquiry is what Congress meant by \u201cvideo tape service provider,\u201d defined as a person \u201cengaged in the business \u2026 of rental, sale, or delivery of prerecorded video cassette tapes or similar audio visual materials.\u201d Read in text-and-structure context\u2014especially the modifiers \u201cengaged in the business\u201d and \u201csimilar\u201d tied to \u201cprerecorded video cassette tapes\u201d\u2014a free, ad-supported sports news website that merely posts clips as part of a broader publishing enterprise is not plausibly in the business of renting, selling, or delivering video materials in the VPPA sense. The statute\u2019s enacted purpose\u2014responding to disclosure of video rental records\u2014confirms that Congress targeted businesses whose commercial relationship with consumers is centered on providing video materials, not general-content websites incidentally offering videos funded by advertising. Even assuming a cause of action, the Court should be wary of stretching a 1988 privacy statute beyond its defined terms to regulate modern web analytics where the complained-of disclosure is not tied to a qualifying provider-consumer video transaction.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Start with the VPPA\u2019s text and structure: \u00a72710(b)(1) bars disclosure of information identifying a \u201cconsumer,\u201d and the paired definitions in \u00a72710(a) link \u201cconsumer\u201d (a \u201crenter, purchaser, or subscriber\u201d) to \u201csuch provider,\u201d i.e., an entity \u201cengaged in the business \u2026 of rental, sale, or delivery\u201d of covered audiovisual materials. Reading those definitions together, a free, ad-supported sports news website that merely publishes clips is not plausibly \u201cengaged in the business\u201d of renting, selling, or delivering audiovisual materials in the sense the statute uses\u2014its business is journalism/advertising, and any video \u201cdelivery\u201d is incidental to that enterprise rather than the covered line of business. The alternative reading would expand a statute aimed at video rental records to sweep in ordinary web publishers that embed or host clips and use commonplace analytics/advertising tools, an overbroad regime that the enacted text does not clearly adopt; neither enforcement discretion nor mens rea supplies a textual limiting principle. That consequence serves as confirmatory \u201cextra icing,\u201d but the decisive point remains the statute\u2019s definitional context and internal pairing of \u201cconsumer\u201d with providers in the rental/sale/delivery business.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Applying the VPPA\u2019s text at the right level of specificity, the operative question is whether 247Sports\u2019 particular activity\u2014operating a free, ad-supported sports news site that incidentally \u201cpublishes video clips\u201d\u2014amounts to \u201crent[ing], sell[ing], or deliver[ing] prerecorded video cassette tapes or similar audio visual materials\u201d \u201cas a regular part of its business\u201d under \u00a7 2710(a)(4), rather than whether the company is broadly in the \u201cvideo\u201d business. Read naturally, and in light of the statute\u2019s history targeting disclosure of video rental records, that definition most comfortably fits entities whose business is to provide audiovisual materials as a core offering to consumers, not a general news publisher whose principal product is journalism supported by advertising. Congress need not use magic words to regulate new technologies, but the clear-notice principle still counsels against stretching \u201cvideo tape service provider\u201d beyond its functionally video-distribution-centered lane absent clearer textual direction that Congress meant to sweep in free, ad-driven publishers merely because they embed clips. On that activity-focused, text-and-context reading, 247Sports is not plausibly a \u201cvideo tape service provider\u201d on these facts, so dismissal is appropriate.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.776,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3"
+  }
+]

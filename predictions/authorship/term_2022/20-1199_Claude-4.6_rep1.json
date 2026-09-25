@@ -1,0 +1,68 @@
+{
+ "docket": "20-1199",
+ "term": 2022,
+ "llm_model": "Claude-4.6",
+ "replicate": 1,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T10:54:12+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.65,
+  "Clarence Thomas": 0.1,
+  "Samuel Alito": 0.08,
+  "Neil Gorsuch": 0.05,
+  "Brett Kavanaugh": 0.07,
+  "Amy Coney Barrett": 0.05
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.97,
+   "concurs": 0.97
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.85,
+   "concurs": 0.85
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.95,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.55,
+   "concurs": 0.55
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.45,
+   "concurs": 0.45
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.4,
+   "concurs": 0.4
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.85,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts, as Chief Justice and the most institutionally minded member of the majority, is the most likely author of the majority opinion, likely grounding the holding in the failure of narrow tailoring and the expiration of Grutter's temporal framework rather than a categorical colorblind rule. Thomas is nearly certain to write separately to advocate his broader colorblind constitutionalism, Alito is likely to write separately emphasizing the Asian American discrimination evidence, and all three dissenters are highly likely to write separately given the magnitude of the precedent being overruled.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.65,\n    \"Clarence Thomas\": 0.10,\n    \"Samuel Alito\": 0.08,\n    \"Neil Gorsuch\": 0.05,\n    \"Brett Kavanaugh\": 0.07,\n    \"Amy Coney Barrett\": 0.05\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.97, \"concurs\": 0.97},\n    \"Samuel Alito\": {\"writes_separately\": 0.85, \"concurs\": 0.85},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.55, \"concurs\": 0.55},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.45, \"concurs\": 0.45},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.40, \"concurs\": 0.40},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.95, \"concurs\": 0.00},\n    \"Elena Kagan\": {\"writes_separately\": 0.80, \"concurs\": 0.00},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.85, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Roberts, as Chief Justice and the most institutionally minded member of the majority, is the most likely author of the majority opinion, likely grounding the holding in the failure of narrow tailoring and the expiration of Grutter's temporal framework rather than a categorical colorblind rule. Thomas is nearly certain to write separately to advocate his broader colorblind constitutionalism, Alito is likely to write separately emphasizing the Asian American discrimination evidence, and all three dissenters are highly likely to write separately given the magnitude of the precedent being overruled.\"\n}\n```"
+}

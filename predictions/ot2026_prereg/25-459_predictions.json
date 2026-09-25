@@ -1,0 +1,616 @@
+[
+  {
+    "docket": "25-459",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a person who accesses online video content through a free, advertising-supported website/app is a \u201cconsumer\u201d under the Video Privacy Protection Act such that the site\u2019s alleged disclosure of video-viewing information can trigger VPPA liability.",
+      "legal_provision": "18 U.S.C. \u00a7 2710 (Video Privacy Protection Act), specifically \u00a7 2710(a)(1) (definition of \u201cconsumer\u201d) and related provisions governing disclosure of \u201cpersonally identifiable information.\u201d",
+      "petitioner_position": "Salazar argues that he qualifies as a VPPA \u201cconsumer\u201d because he is a \u201csubscriber\u201d of 247Sports\u2019 digital video service: he repeatedly accessed and viewed video content through the service and (as alleged) used the site/app in a manner that creates an ongoing relationship typical of subscription-based access. He contends the Sixth Circuit adopted an unduly narrow, paywall-or-formal-registration rule that is inconsistent with the VPPA\u2019s text and purpose, and that in modern digital markets many subscription-like relationships are free and supported by advertising rather than direct payment. He also emphasizes that construing \u201csubscriber\u201d to cover users of free digital video services is necessary to prevent easy circumvention of the VPPA\u2019s privacy protections.",
+      "respondent_position": "Paramount/247Sports argues Salazar is not a VPPA \u201cconsumer\u201d because he neither rented/purchased audio-visual materials nor \u201csubscribed\u201d in the ordinary statutory sense\u2014i.e., he did not enter into a continuing commitment or ongoing, account-based relationship that makes him a customer of a video service provider. Respondent defends the Sixth Circuit\u2019s approach as consistent with statutory text and administrable boundaries, warning that petitioner\u2019s broader theory would effectively make nearly any website visitor a \u201cconsumer,\u201d dramatically expanding VPPA exposure for publishers and online services and creating substantial compliance and litigation burdens. Respondent further stresses that the VPPA was enacted with specific, transactional video-rental contexts in mind and should not be stretched to cover casual, non-committal access to free online content.",
+      "key_precedents": [
+        "The materials provided do not identify specific Supreme Court precedents by name; the dispute primarily turns on statutory interpretation of the VPPA\u2019s definition of \u201cconsumer,\u201d and (in lower courts generally) VPPA cases often revolve around what constitutes a \u201csubscriber\u201d and what qualifies as \u201cpersonally identifiable information.\u201d"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best point is that the VPPA does not expressly require payment or a formal account, and Yershov illustrates that some nonpaying users can still be \u201csubscribers.\u201d But as Justice Kagan and Justice Jackson emphasize, treating persistent identifiers and repeat access\u2014tracking imposed unilaterally by the provider\u2014as the equivalent of subscription would collapse \u201csubscriber\u201d into \u201cuser,\u201d untethering the term from its statutory neighbors (\u201crenter\u201d and \u201cpurchaser\u201d) and the parallel \u201crental, sale, or delivery\u201d framing in \u00a7 2710(a)(4). Ellis supplies an administrable boundary consistent with judicial restraint: absent some affirmative, ongoing tie (enrollment-like conduct, account features, or comparable commitment), these allegations do not plausibly plead \u201csubscriber\u201d status. Congress\u2019s decision to adjust consent procedures without expanding \u201cconsumer\u201d reinforces, for me, a minimalist holding limited to users who neither register nor otherwise undertake a continuing relationship with the provider.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is that the VPPA nowhere expressly requires payment or a formal account and that Yershov treats persistent identifiers plus repeat access as enough, but that functional approach risks substituting modern tracking realities for the statutory term Congress enacted. Read in its textual setting, I agree with Chief Justice Roberts and Justice Gorsuch that \u201csubscriber\u201d must take meaning from its neighbors (\u201crenter\u201d and \u201cpurchaser\u201d) and the parallel provider-side language (\u201crental, sale, or delivery\u201d), which together denote an affirmative, continuing relationship rather than passive, free viewing that a provider can unilaterally monitor. Yershov, even if plausible on its own facts, cannot override the ordinary 1988 public meaning and would effectively collapse \u201csubscriber\u201d into \u201cviewer,\u201d expanding liability beyond the administrable boundary reflected in Ellis. If Congress wishes to reach all tracked viewers of free online video, it may amend the definition of \u201cconsumer,\u201d but our role is to apply the text as written and originally understood.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s reliance on Yershov and the VPPA\u2019s remedial purpose is the most serious push, but it ultimately asks us to treat provider-imposed tracking identifiers as the functional equivalent of a user\u2019s affirmative subscription\u2014collapsing \u201csubscriber\u201d into \u201cviewer,\u201d which Congress did not enact. As Chief Justice Roberts and Justice Kagan emphasize, the administrability consequences are not merely policy worries; they expose the textual problem that a persistent cookie would convert vast swaths of ordinary web traffic into \u201cconsumers,\u201d untethered from the statute\u2019s transactional framing (\u201crenter, purchaser, or subscriber\u201d paired with \u201crental, sale, or delivery\u201d). Ellis supplies the better text-faithful limiting principle: absent some user-initiated, ongoing relationship (enrollment-like conduct, account, or comparable commitment), Salazar has not plausibly alleged he is a VPPA \u201cconsumer.\u201d Yershov, even if correct on its facts, is distinguishable to the extent it involved an app-like exchange and functionality closer to affirmative enrollment; it does not compel stretching \u201csubscriber\u201d to cover passive repeat visits here.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.58,
+        "reasoning": "Chief Justice Roberts\u2019s administrability point is the most serious counterweight, but it assumes petitioner\u2019s position would treat any tracked visitor as a \u201csubscriber\u201d; I would require an ongoing, user-specific relationship evidenced by repeat access tied to persistent identifiers that the provider uses to deliver the video service in a continuing way, not a one-off anonymous view. Justice Kagan\u2019s proposed \u201caccount-based commitment\u201d reads a formality into \u00a7 2710(a)(1) that Congress did not enact; \u201csubscriber\u201d can include ad-supported, continuing-access arrangements where the provider recognizes and repeatedly serves the same user, even without payment or registration. The contextual/noscitur-a-sociis argument pressed by Justice Thomas and reinforced through Ellis is helpful as a caution against boundless \u201cuser\u201d theories, but it does not compel a registration-or-payment boundary; \u201csubscriber\u201d is the residual category meant to capture non-renter/non-purchaser ongoing relationships, and modern practices can create those relationships through persistent identifiers. Yershov remains persuasive in showing how digital services can create subscriber-like relationships without traditional accounts, and a rigid account requirement would invite easy circumvention of a remedial privacy statute affecting ordinary, vulnerable users with little meaningful notice or bargaining power.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best point is that Congress did not write a payment-or-formal-registration requirement and that, as Yershov suggests, modern services can create ongoing relationships through persistent identifiers and repeat access. But Chief Justice Roberts and Justice Barrett persuasively show why that functional move risks detaching \u201csubscriber\u201d from its statutory neighbors (\u201crenter\u201d and \u201cpurchaser\u201d) and from the provider-side focus on \u201crental, sale, or delivery,\u201d effectively collapsing the statute\u2019s threshold into \u201ctracked viewer.\u201d Justice Jackson\u2019s emphasis that the relationship must be \u201cfrom\u201d the provider\u2014something plausibly rooted in user-initiated enrollment-like conduct or provider-conferred benefits\u2014reinforces my view that unilateral tracking alone is not an administrable textual boundary. Yershov may indicate payment is unnecessary, but it does not compel treating passive, ad-supported repeat viewing without any affirmative undertaking as a \u201csubscription\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s best point is that \u201csubscriber\u201d need not entail payment or a formal account and that modern services can create continuing relationships through identifiers; but that argument effectively lets unilateral tracking substitute for the affirmative, ongoing relationship the term conveyed in 1988, especially alongside \u201crenter\u201d and \u201cpurchaser.\u201d As the Chief Justice notes, using persistent identifiers as the touchstone risks collapsing \u201csubscriber\u201d into \u201cuser,\u201d sweeping in ordinary, open-access website visitors and erasing the statute\u2019s limiting threshold. Yershov may show one plausible digital-era application, but\u2014consistent with Justice Kagan\u2019s contextual reading and Ellis\u2019s limiting principle\u2014it is not compelled by the VPPA\u2019s text and would move us from interpretation to updating. The circumvention concern is real policy, yet under separation-of-powers principles the remedy lies with Congress, not an atextual expansion of \u201csubscriber.\u201d",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s best point is the circumvention concern: modern services can create a continuing, identifiable relationship through persistent identifiers and repeat viewing, as Yershov suggests, even without payment. But Chief Justice Roberts and Justice Kagan correctly note that treating tracking-imposed identifiers as \u201csubscription\u201d collapses \u201csubscriber\u201d into \u201cviewer,\u201d untethering \u00a7 2710(a)(1) from its 1988 context alongside \u201crenter\u201d and \u201cpurchaser\u201d and creating sweeping, hard-to-administer liability for ordinary open-access browsing. Ellis reinforces that we need some affirmative, user-initiated, ongoing tie\u2014account enrollment, login, or comparable commitment\u2014rather than a relationship the provider can unilaterally manufacture via cookies or device IDs. Under my institutionalist approach, the narrower, administrable reading better respects precedent and statutory continuity while leaving any broader modernization to Congress.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s strongest point is that \u201csubscriber\u201d need not entail payment or formal registration and that persistent identifiers plus repeat access can approximate an ongoing relationship (as in Yershov). But as Chief Justice Roberts and Justice Kagan emphasize, reading \u201csubscriber\u201d to arise from tracking that the provider can impose unilaterally risks collapsing the statutory threshold into \u201cviewer,\u201d untethered from the contextual company it keeps with \u201crenter\u201d and \u201cpurchaser\u201d in \u00a7 2710(a)(1) and the parallel \u201crental, sale, or delivery\u201d framing in \u00a7 2710(a)(4). Yershov does not undermine that contextual, original-public-meaning reading because its app-based allegations look more like enrollment-like exchange and functionality, whereas here the complaint lacks any affirmative undertaking or account-like arrangement \u201cfrom\u201d the provider. Ellis, as Justice Jackson notes, supplies a workable line consistent with the text: absent allegations of an affirmative, continuing relationship, repeated free access plus identifiers is not enough to plead \u201csubscriber\u201d status.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s best point is that the VPPA\u2019s remedial purpose and Yershov caution against a paywall-or-registration bright line, and I agree we should not constitutionalize 1988 business models. But her functional test\u2014persistent identifiers plus repeat access\u2014still risks collapsing \u201csubscriber\u201d into \u201cviewer,\u201d because the provider (or third parties) can unilaterally create that \u201crelationship\u201d without any user-side undertaking, raising the administrability and procedural-fairness concerns Chief Justice Roberts and Justice Kagan emphasize. Ellis remains persuasive that \u00a7 2710(a)(1) demands some affirmative, ongoing tie \u201cfrom\u201d the provider\u2014enrollment-like conduct, access privileges, or reciprocal commitments\u2014beyond ordinary free consumption. Congress\u2019s later amendments adjusting consent mechanisms without expanding \u201cconsumer\u201d reinforce restraint in stretching \u201csubscriber\u201d on this record, so I would hold the allegations here insufficient.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Giving \u201csubscriber\u201d its ordinary meaning at the time of enactment, as this Court instructs for undefined statutory terms, counsels against treating a casual user of a free, ad-supported website/app as a \u201csubscriber\u201d absent some continuing, account-based commitment; an expansive reading risks sweeping in nearly any website visitor and dramatically enlarging liability beyond administrable bounds. Taniguchi v. Kan Pac. Saipan, Ltd., 566 U.S. 560, 566 (2012), reflects the Court\u2019s reluctance to adopt broad constructions of ordinary terms that create wide-ranging consequences, and a narrower construction here also better preserves predictable lines for Congress, courts, and regulated entities. On this record, I would affirm that merely accessing free online videos, without more, does not make the user a VPPA \u201cconsumer\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Under the VPPA\u2019s text, a \u201cconsumer\u201d is a \u201crenter, purchaser, or subscriber\u201d of a video tape service provider\u2019s \u201cgoods or services.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in its 1988 public meaning and in context with the statute\u2019s parallel \u201crental, sale, or delivery\u201d language defining the provider, \u00a7 2710(a)(4), \u201csubscriber\u201d connotes an account-based, continuing relationship\u2014typically involving a commitment (often payment) for ongoing delivery\u2014rather than mere repeat access to free, advertising-supported content. Expanding \u201csubscriber\u201d to include any user who watches free videos would sever the term from its statutory companions (\u201crenter\u201d and \u201cpurchaser\u201d) and effectively extend VPPA liability beyond the limited, transaction-focused regime Congress enacted. Because Salazar alleges only casual access to free online content without the kind of subscription relationship the statute contemplates, he is not a \u201cconsumer\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Section 2710(a)(1) defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider,\u201d and read in its ordinary 1988 sense and in context, \u201csubscriber\u201d connotes a continuing, account-based commitment\u2014typically involving affirmative enrollment and often payment\u2014rather than mere repeated, free viewing of ad-supported content. The statutory structure reinforces that reading: \u201crenter/purchaser/subscriber\u201d in \u00a7 2710(a)(1) parallels \u201crental/sale/delivery\u201d in \u00a7 2710(a)(4), indicating Congress targeted transactional or ongoing service relationships, not casual site visitors. Expanding \u201csubscriber\u201d to include anyone who repeatedly accesses free online videos would erase administrable limits, dramatically broaden VPPA exposure for publishers, and invite abusive litigation far beyond the statute\u2019s video-rental context. Because Salazar alleged only free access without the kind of ongoing subscription relationship the text contemplates, he is not a VPPA \u201cconsumer\u201d and the complaint fails at the threshold.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The VPPA defines \u201cconsumer\u201d to include any \u201csubscriber of goods or services from a video tape service provider,\u201d 18 U.S.C. \u00a7 2710(a)(1), and nothing in that text requires payment or a formal video-specific \u201caccount\u201d as a precondition to subscriber status. Consistent with Yershov v. Gannett, 820 F.3d 482, 487\u201389 (1st Cir. 2016), a user who repeatedly accesses a provider\u2019s video service through an app/site in a way that creates an ongoing, identifiable relationship (including through persistent identifiers) can qualify as a \u201csubscriber,\u201d particularly where a contrary rule would permit easy circumvention of Congress\u2019s privacy protections. Ellis v. Cartoon Network, 803 F.3d 1251, 1256\u201357 (11th Cir. 2015), properly rejects treating a purely anonymous, one-off viewer as a subscriber, but it does not justify a rigid paywall-or-registration requirement that fails to account for modern ad-supported subscription-like relationships. Interpreting \u201csubscriber\u201d to include such users best effectuates the VPPA\u2019s remedial purpose of protecting ordinary people\u2014often unaware of tracking\u2014from disclosure of sensitive viewing information, while leaving courts to police administrable limits by requiring a meaningful ongoing relationship rather than mere casual browsing.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in statutory context\u2014alongside the provider definition focused on \u201crental, sale, or delivery\u201d of \u201cprerecorded video cassette tapes or similar audio visual materials,\u201d \u00a7 2710(a)(4)\u2014\u201csubscriber\u201d most naturally connotes an ongoing, account-based commitment (the demand-side analogue to ongoing \u201cdelivery\u201d), not a person who merely views free, ad-supported videos without registration or any continuing obligation. That construction gives administrable boundaries and avoids effectively turning \u201cany\u201d visitor into a \u201cconsumer,\u201d while still covering modern subscription-like relationships where the user affirmatively establishes continuing access (e.g., accounts, logins, or recurring arrangements). Because Salazar alleges only repeated access to free content without the kind of continuing relationship that makes him a \u201csubscriber,\u201d he is not a \u201cconsumer\u201d for purposes of \u00a7 2710(b)(1).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in context and according to ordinary public meaning in 1988, \u201csubscriber\u201d connotes a continuing, account- or payment-based commitment for delivery over time, and it fits alongside \u201crenter\u201d and \u201cpurchaser\u201d as part of a transactional triad; mere free, ad-supported viewing without any such commitment does not. The statute\u2019s parallel structure reinforces this: a \u201cvideo tape service provider\u201d is engaged in the \u201crental, sale, or delivery\u201d of audio-visual materials, \u00a7 2710(a)(4), and the consumer-side terms should be interpreted to match those supply-side concepts rather than expand \u201csubscriber\u201d to include virtually any website visitor. Expanding liability by updating \u201csubscriber\u201d to modern digital usage would be a policy choice for Congress, not this Court, particularly given separation-of-powers concerns about courts effectively rewriting statutory thresholds for private damages actions.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Under the VPPA, a protected \u201cconsumer\u201d is one who \u201crents, purchases, or subscribes to goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in its 1988 statutory context and ordinary meaning, \u201csubscribe\u201d connotes a continuing, account-based commitment\u2014typically involving an affirmative enrollment (and often advance, recurring payment)\u2014and it appears in a limiting triad (\u201crent,\u201d \u201cpurchase,\u201d or \u201csubscribe\u201d) that indicates Congress meant to cover transactional or commitment-based relationships rather than casual, open-access viewing. Extending \u201csubscriber\u201d to anyone who repeatedly watches free, advertising-supported videos without registration risks turning ordinary website visitors into \u201cconsumers,\u201d creating an unworkable and expansive regime not clearly chosen by Congress and raising serious institutional and administrability concerns. Absent a clearer textual hook, judicial restraint and respect for history and tradition counsel leaving any modernization of the VPPA\u2019s scope to Congress rather than judicial expansion through an atextual reading of \u201csubscriber.\u201d",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under the VPPA, a \u201cconsumer\u201d is \u201cany renter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in its ordinary 1988 sense and in the company of \u201crenter\u201d and \u201cpurchaser,\u201d \u201csubscriber\u201d most naturally denotes a person who enters into an ongoing, account-based relationship or continuing commitment for the provider\u2019s goods or services, not a member of the public who merely returns to a free, advertising-supported site to view content. Petitioner\u2019s broader construction risks collapsing the statutory boundary by converting essentially any repeat website visitor into a \u201cconsumer,\u201d a result difficult to square with the statute\u2019s text and administrable limits, especially given Congress\u2019s focus on transactional video-rental contexts when enacting \u00a7 2710. Absent a clearer statutory hook showing that free access alone creates a subscriber relationship \u201cfrom\u201d the provider, I would affirm the narrower reading and vote for Respondent.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d as \u201cany renter, purchaser, or subscriber of goods or services from a video tape service provider,\u201d 18 U.S.C. \u00a7 2710(a)(1), and the ordinary meaning of \u201csubscriber\u201d implies an affirmative, ongoing relationship (typically account-based or otherwise involving a continuing commitment) rather than mere repeated viewing of free, ad-supported content. Consistent with Ellis v. Cartoon Network, Inc., 803 F.3d 1251 (11th Cir. 2015), Congress chose not to use broader terms like \u201cuser\u201d or \u201cviewer,\u201d including when it updated the statute\u2019s consent mechanisms in 2012\u20132013 without expanding \u201cconsumer,\u201d which counsels against extending liability to essentially any website visitor. A broader rule would create serious administrability and fairness concerns\u2014risking VPPA coverage for casual, non-committal access and inviting sweeping litigation exposure untethered to the kind of transactional relationship the statute targets. On this record, absent allegations of a true subscription relationship to audiovisual materials (e.g., registration, account features, or commitments tied to video access), Salazar is not plausibly a \u201cconsumer\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.729,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2026_prereg"
+  },
+  {
+    "docket": "25-459",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": false,
+    "case_analysis": {
+      "focal_point": "Whether a person who downloaded and used the free 247Sports mobile app\u2014without paying money\u2014qualifies as a \u201cconsumer\u201d under the Video Privacy Protection Act such that disclosure of his video-viewing information can trigger liability.",
+      "legal_provision": "18 U.S.C. \u00a7 2710 (Video Privacy Protection Act), especially \u00a7 2710(a)(1) (definition of \u201cconsumer\u201d) and related provisions governing disclosure of \u201cpersonally identifiable information.\u201d",
+      "petitioner_position": "Salazar argues that he is a \u201cconsumer\u201d because the VPPA\u2019s definition covers not only renters or purchasers, but also \u201csubscriber[s]\u201d of a provider\u2019s goods or services, and modern app users are subscribers when they sign up for, obtain ongoing access to, and use an app-based video service (even if it is free). He contends the Sixth Circuit adopted an unduly narrow, payment-focused understanding of \u201csubscriber\u201d that is inconsistent with the statutory text, Congress\u2019s privacy-protective purpose, and the realities of today\u2019s ad-supported digital video ecosystem. He further maintains that construing \u201csubscriber\u201d to require payment or a formal paid relationship would gut the VPPA for the most common contemporary mode of video distribution (free apps funded by advertising and data), undermining Congress\u2019s intent to prevent disclosure of individuals\u2019 video-viewing choices.",
+      "respondent_position": "Paramount/247Sports argues that Salazar is not a \u201cconsumer\u201d because he neither rented nor purchased videos and did not have the kind of ongoing, committed relationship that makes someone a \u201csubscriber\u201d as the statute uses that term. In its view, simply downloading and using a free app (and receiving content) is not enough; otherwise almost any casual viewer would become a \u201csubscriber,\u201d dramatically expanding VPPA exposure beyond what Congress contemplated in 1988. Respondent emphasizes administrable limits and warns that an expansive interpretation would transform routine online data flows and ordinary analytics/advertising practices into high-stakes VPPA litigation, imposing heavy costs on publishers and tech companies and chilling digital media offerings.",
+      "key_precedents": [
+        "The Sixth Circuit decision below in Salazar v. Paramount Global (d/b/a 247Sports) (case under review)",
+        "Ellis v. Cartoon Network, Inc. (11th Cir.) (interpreting \u201csubscriber\u201d under the VPPA in the context of a free app)",
+        "Yershov v. Gannett Satellite Information Network, Inc. (1st Cir.) (VPPA coverage for app users / disclosure of identifiers)",
+        "In re Nickelodeon Consumer Privacy Litigation (3d Cir.) (VPPA interpretation and limits on \u201cpersonally identifiable information\u201d)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan and Justice Jackson offer the strongest counter: \u00a7 2710(a)(1) contains no payment requirement and a \u201ccontinuing affiliation/persistent identifier\u201d test might avoid equating every viewer with a consumer. But even accepting that premise, on these pleadings there is no account, registration, recurring delivery, or other enrollment-like commitment, so the relationship still looks like the transitory access Ellis treated as insufficient, and adopting petitioner\u2019s broader \u201cdata-for-service\u201d theory risks collapsing Congress\u2019s renter/purchaser/subscriber triad into \u201cany user\u201d in a statutory-damages regime. Justice Jackson\u2019s reliance on Yershov usefully highlights the circuit split and shows that some app relationships can be subscription-like when tied to identifiable, ongoing access, but it does not supply a textual hook to extend \u201csubscriber\u201d to ordinary free app use absent concrete indicia of commitment. I would therefore affirm narrowly: Salazar has not plausibly alleged he was a \u201csubscriber\u201d here, leaving room for different facts (account-based or otherwise enrollment-like app relationships) in a future case.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Kagan\u2019s and Justice Jackson\u2019s \u201ccontinuing affiliation/persistent identifier\u201d approach is the strongest petitioner-side limiting principle, but under the original public meaning in 1988\u2014especially in the narrowing triad \u201crenter, purchaser, or subscriber\u201d\u2014\u201csubscriber\u201d connotes an affirmative, enrollment-like commitment to receive a continuing service, not ordinary free app use with passive background data flows. Justice Sotomayor is right that the statute does not require payment, and I do not impose a money-only rule; the problem is that petitioners\u2019 test effectively converts \u201csubscriber\u201d into \u201cuser,\u201d collapsing Congress\u2019s chosen limitation and expanding a statutory-damages regime without clear textual warrant. Yershov, as Justice Jackson notes, may fit cases with more account-like indicia of durable, identified affiliation, but it does not displace Ellis\u2019s administrable distinction where the allegations lack registration, an account, recurring delivery, or other concrete commitment. On these pleadings, I would adhere to the statute\u2019s text as originally understood and affirm.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s strongest point\u2014that \u00a7 2710(a)(1) omits any payment requirement and that ad-supported apps can involve a continuing affiliation\u2014does not answer the textual question of what \u201csubscriber\u201d meant in 1988, especially placed alongside \u201crenter\u201d and \u201cpurchaser.\u201d As the Chief Justice stresses, their \u201congoing relationship/persistent identifier\u201d approach risks collapsing the triad into \u201cany user,\u201d with sweeping statutory-damages consequences, and it does so by treating routine app use plus passive data transmission as subscription-like without the affirmative, enrollment-type commitment Ellis found lacking. Justice Jackson\u2019s reliance on Yershov highlights a split and shows that some app arrangements might plausibly be \u201csubscription-like,\u201d but Yershov\u2019s broader \u201cdata-as-consideration\u201d framing would effectively modernize the term beyond its ordinary meaning; on these pleaded facts (no registration, account, or comparable undertaking), I would not extend the statute. I therefore remain with Respondent on the narrow ground that Salazar has not plausibly alleged he was a \u201csubscriber.\u201d",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Chief Justice Roberts\u2019 administrability warning is the strongest point for Respondent, and I agree we must avoid turning \u201csubscriber\u201d into \u201cany viewer,\u201d especially in a statutory-damages regime. But as Justice Kagan explains, the textual limiter need not be payment or formal registration; it can be indicia of an ongoing affiliation\u2014here alleged through continued app-based access coupled with persistent identification and targeted disclosure\u2014so we do not rewrite Congress\u2019s term into \u201cpaying subscriber.\u201d Justice Thomas and Justice Alito lean on Ellis, yet Ellis is best read to reject purely transitory, noncommittal access; it does not mandate an account-or-money requirement in every modern app setting where continuity and identification are plausibly alleged. Given the VPPA\u2019s remedial privacy purpose and the pleaded facts, I would not foreclose coverage at the threshold and would allow the \u201csubscriber\u201d question to develop past the motion-to-dismiss stage.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Chief Justice\u2019s administrability concern\u2014that treating every free app user as a \u201csubscriber\u201d collapses the renter/purchaser/subscriber triad\u2014is the strongest point on the other side, and I agree we need a limiting principle. But I remain unpersuaded by Chief Justice Roberts\u2019 and Justice Kavanaugh\u2019s move to make \u201cregistration/account/recurring obligation\u201d the decisive proxies, because \u00a7 2710(a)(1) contains no such terms and Ellis is better read as rejecting transitory, noncommittal access\u2014not as imposing a categorical enrollment requirement. My limiter stays textual and workable: a plaintiff must plausibly allege ongoing affiliation/continuity with the service (here, app-based access plus allegations of persistent identification tied to that access), which gives \u201csubscriber\u201d independent meaning without turning it into \u201cuser.\u201d Yershov, while not controlling, reinforces that app-based relationships can be subscription-like when they involve continuing, identified access, and at the pleading stage these allegations are enough to proceed without deciding the outer boundary.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan\u2019s and Justice Sotomayor\u2019s best point is that \u00a7 2710(a)(1) nowhere says a subscriber must pay, and that administrability alone cannot justify rewriting the statute; I agree we cannot smuggle in a payment requirement. But their \u201ccontinuing affiliation/persistent identifier\u201d approach still risks updating \u201csubscriber\u201d to fit modern data-monetization rather than applying the ordinary public meaning Congress enacted in 1988, especially given the narrowing triad \u201crenter, purchaser, or subscriber,\u201d which connotes an affirmative, enrollment-like commitment. Justice Jackson\u2019s reliance on Yershov usefully shows that some app relationships can be subscription-like, yet that case turns on more concrete account-like indicia than the complaint alleges here and cannot erase the textual inference (as the Chief Justice stresses) that Congress chose \u201csubscriber\u201d instead of \u201cuser.\u201d In a statutory-damages regime, any close call should be resolved by hewing to the narrower term Congress used, leaving broader modernization to Congress.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan\u2019s and Justice Jackson\u2019s best point is that \u00a7 2710(a)(1) contains no payment requirement and that ad-supported apps can create continuing, data-driven relationships; I agree we cannot rewrite \u201csubscriber\u201d to mean \u201cpaying subscriber.\u201d But Chief Justice Roberts is right that their \u201ccontinuing affiliation/persistent identifier\u201d test, at least on these pleadings, risks collapsing \u201csubscriber\u201d into \u201cany user,\u201d especially given the narrowing triad \u201crenter, purchaser, or subscriber\u201d and Congress\u2019s decision not to expand that triad when it amended consent in 2012. Yershov (as Justice Jackson stresses) matters because it shows an app can be subscription-like, yet it also featured more concrete, account-like indicia of an ongoing, identified relationship than alleged here, making Ellis\u2019s administrable line the better fit for a statutory-damages regime. Absent allegations of registration, account enrollment, or comparable commitment, I would affirm that Salazar has not plausibly alleged he was a \u201csubscriber.\u201d",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Kagan\u2019s \u201cindicia of continuing affiliation\u201d test is the strongest petitioner-side proposal because it seeks an administrable limit without inserting a payment requirement, and Justice Sotomayor is right that \u00a7 2710(a)(1) does not demand money. But under the original public meaning of \u201csubscriber\u201d in 1988\u2014especially in the narrowing triad \u201crenter, purchaser, or subscriber,\u201d as the Chief Justice emphasizes\u2014there must be some affirmative, subscription-like undertaking (enrollment, account, registration, or comparable commitment) beyond mere download-and-use plus passive identifiers. Justice Jackson\u2019s reliance on Yershov underscores that some app relationships can be subscription-like when tied to identifiable, account-like continuity, yet on these pleaded facts that linkage is not adequately alleged and expanding \u201csubscriber\u201d to cover routine free app use risks collapsing the statutory term into \u201cuser\u201d in a statutory-damages regime. I therefore would affirm on the limited ground that Salazar has not plausibly alleged he was a \u201csubscriber\u201d here, leaving harder app/account cases for a record that actually shows subscription-like indicia.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Chief Justice Roberts\u2019s administrability concern\u2014echoed by Justices Kavanaugh and Barrett\u2014that reading \u201csubscriber\u201d to include routine free-app use would collapse the renter/purchaser/subscriber triad into \u201cany user\u201d is the strongest point for Respondent, but I do not think the proper judicial response is to graft a registration/payment/enrollment prerequisite onto \u00a7 2710(a)(1) that Congress did not write. Justice Kagan\u2019s \u201ccontinuing affiliation\u201d limiter answers the collapse problem in a more text-faithful way: it excludes fleeting, transitory viewing while still giving \u201csubscriber\u201d work to do where the complaint plausibly alleges an ongoing app-based relationship tied to persistent identifiers. Ellis v. Cartoon Network, as Justices Thomas and Gorsuch stress, is best read to reject bare, momentary access without meaningful connection; it does not compel a categorical rule that app users cannot be subscribers absent formal enrollment, especially at the pleading stage. Given the VPPA\u2019s privacy-protective purpose and the statute\u2019s choice to include \u201csubscriber\u201d distinct from \u201cpurchaser,\u201d I would allow these allegations to proceed rather than foreclose coverage as a matter of law.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The VPPA defines \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider,\u201d 18 U.S.C. \u00a7 2710(a)(1); reading \u201csubscriber\u201d to include any person who merely downloads and uses a free app without a continuing, committed relationship risks converting ordinary viewing into subscription and greatly expanding liability beyond the statute\u2019s administrable bounds. Consistent with Ellis v. Cartoon Network, Inc., 803 F.3d 1251 (11th Cir. 2015), Congress could have used broader terms like \u201cuser\u201d or \u201cviewer\u201d (and did not), and its later amendments did not expand the definition of \u201cconsumer,\u201d counseling caution and a narrow construction that preserves institutional legitimacy and avoids disruptive consequences. While petitioner argues that disclosure of data in an ad-supported ecosystem should qualify, that policy judgment is better left to Congress, particularly given the VPPA\u2019s detailed consent regime and the risk of sweeping in routine analytics practices. On these narrow grounds, Salazar\u2019s free-app use without more does not make him a \u201csubscriber\u201d under \u00a7 2710(a)(1), so he is not a \u201cconsumer\u201d entitled to sue under the Act.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Applying the statute\u2019s text as enacted, \u00a7 2710(a)(1) limits \u201cconsumer\u201d to a \u201crenter, purchaser, or subscriber\u201d of a provider\u2019s goods or services, and \u201csubscriber\u201d in ordinary 1988 usage connotes an affirmative, ongoing commitment to receive a continuing service\u2014not mere passive access to freely available content. Reading \u201csubscriber\u201d to include anyone who downloads and uses a free app would effectively rewrite Congress\u2019s narrower terms (\u201csubscriber\u201d) into broader ones (\u201cuser\u201d or \u201cviewer\u201d), a move inconsistent with textualism and the administrable limits the definition supplies. The Eleventh Circuit\u2019s analysis in Ellis v. Cartoon Network appropriately reflects that ordinary meaning, rejecting VPPA coverage where the plaintiff simply used a free app without the kind of ongoing, subscription-like relationship the statute presupposes. Congress\u2019s later amendments addressed online consent mechanisms without expanding \u201cconsumer,\u201d reinforcing that courts should not enlarge liability beyond the text of \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Section 2710(a)(1) defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services,\u201d and the ordinary meaning of \u201csubscriber\u201d connotes an ongoing, committed relationship rather than a casual user of freely available content. As Ellis v. Cartoon Network, Inc., 803 F.3d 1251 (11th Cir. 2015), reasoned, Congress could have used broader terms like \u201cuser\u201d or \u201cviewer\u201d (either in 1988 or when it amended the VPPA in 2012 to modernize consent) but did not, counseling against extending \u201csubscriber\u201d to every free-app downloader. Reading \u201csubscriber\u201d to cover anyone who downloads and uses a free app would effectively treat nearly all digital visitors as VPPA \u201cconsumers,\u201d producing an unadministrable and expansive liability regime inconsistent with the statute\u2019s text and the practical limits Congress appears to have chosen. Accordingly, Salazar\u2019s unpaid use of the 247Sports app, without more indicia of subscription-like commitment, does not trigger VPPA coverage as a \u201cconsumer\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d to include not only \u201cany renter or purchaser\u201d but also \u201cany subscriber of goods or services from a video tape service provider,\u201d 18 U.S.C. \u00a7 2710(a)(1), and nothing in that text makes payment a prerequisite to being a \u201csubscriber.\u201d In a modern ad-supported app ecosystem, users frequently exchange valuable consideration in the form of persistent identifiers and data for ongoing access to audiovisual content; reading \u201csubscriber\u201d to require money would sharply narrow the statute and undermine Congress\u2019s privacy-protective purpose. The First Circuit in Yershov v. Gannett recognized that app-based users can plausibly qualify as \u201cconsumers\u201d under the VPPA where the relationship entails ongoing access and the transmission of identifying information tied to video viewing, and that understanding better fits contemporary realities than the Sixth Circuit\u2019s payment-focused approach. Given the VPPA\u2019s remedial aim and the real-world privacy harms that fall disproportionately on ordinary users with little bargaining power, I would treat a registered or persistently identified app user as a \u201csubscriber\u201d even if the app is free.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The VPPA defines \u201cconsumer\u201d to include not only \u201crenters\u201d and \u201cpurchasers,\u201d but also \u201csubscriber[s] of goods or services from a video tape service provider,\u201d 18 U.S.C. \u00a7 2710(a)(1), and nothing in that text requires monetary payment. Read in statutory context, \u201csubscriber\u201d connotes an ongoing relationship (e.g., registration, account-based access, or regular receipt of app-delivered content), but excluding free, app-based video services would create an underinclusive regime that is hard to reconcile with Congress\u2019s privacy-protective design and the modern, ad-supported market in which \u201cpayment\u201d often takes the form of data. While Ellis v. Cartoon Network, Inc. cautions against treating every casual viewer as a \u201csubscriber,\u201d it does not justify a payment-focused rule; rather, the workable middle ground is to require some indicia of continuing affiliation beyond passive viewing, which an app download and continued use can supply. This construction preserves administrable limits (not every website visitor is covered) while giving coherent effect to Congress\u2019s choice of \u201csubscriber\u201d alongside \u201crenter\u201d and \u201cpurchaser\u201d in \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "The VPPA defines a \u201cconsumer\u201d as a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in its 1988 ordinary-public meaning and in the company it keeps, \u201csubscriber\u201d denotes an ongoing, committed relationship\u2014typically involving enrollment for continuing delivery\u2014rather than the one-step download and casual use of a free app, which would collapse the statute\u2019s limiting triad (renter/purchaser/subscriber) into mere viewership. That reading aligns with Ellis v. Cartoon Network, Inc. (11th Cir.), which rejected treating a free-app downloader as a \u201csubscriber\u201d absent a more durable, account-based commitment, and it avoids expanding liability beyond what Congress specified in \u00a7 2710(a)(1) and the parallel \u201crental, sale, or delivery\u201d framing in \u00a7 2710(a)(4). Where Congress imposed civil liability with statutory damages, any genuine ambiguity should be resolved narrowly rather than by judicial enlargement.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under the VPPA, a \u201cconsumer\u201d is a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Reading \u201csubscriber\u201d in line with its ordinary 1988 meaning and the statute\u2019s focus on renting/purchasing, merely downloading and casually using a free app without any ongoing, committed relationship or registration is insufficient; otherwise the Act would effectively cover any viewer, a result Congress did not adopt when it amended the VPPA\u2019s consent provisions in 2012 without expanding \u201cconsumer.\u201d Ellis v. Cartoon Network supplies a workable limiting principle\u2014requiring something more than free access\u2014to avoid sweeping in routine online video viewing and creating impractical, legitimacy-threatening litigation exposure untethered from the statute\u2019s text and history. Respecting precedent and administrable limits, I would affirm that Salazar is not a \u201cconsumer\u201d on these facts.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under the VPPA\u2019s text, a \u201cconsumer\u201d is a \u201crenter, purchaser, or subscriber of goods or services from a video tape service provider.\u201d 18 U.S.C. \u00a7 2710(a)(1). Read in context, \u201csubscriber\u201d connotes an ongoing, committed relationship for goods or services\u2014not mere access to freely available content\u2014an understanding reflected in Ellis v. Cartoon Network, Inc., 803 F.3d 1251, 1256\u201357 (11th Cir. 2015), which emphasized that Congress did not use broader terms like \u201cuser\u201d or \u201cviewer\u201d and did not expand \u201cconsumer\u201d when amending the Act. Treating every free app download as a \u201csubscription\u201d would stretch \u201csubscriber\u201d beyond its ordinary public meaning and risk converting casual viewing into VPPA coverage untethered to the statute\u2019s purchase/rental/subscription framework. Given that Salazar alleges only free app use without indicia of an ongoing subscriber relationship, he does not plausibly qualify as a \u201cconsumer\u201d under \u00a7 2710(a)(1).",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 2710(a)(1) defines a \u201cconsumer\u201d to include a \u201csubscriber\u201d of a video tape service provider\u2019s goods or services, and nothing in the text imposes a payment requirement; reading \u201csubscriber\u201d to categorically exclude users of free, account-based apps risks collapsing the statutory term into \u201crenter\u201d or \u201cpurchaser\u201d and undermining the VPPA\u2019s privacy-protective purpose. As the First Circuit explained in Yershov v. Gannett, a mobile-app user can plausibly be a \u201cconsumer\u201d where the user obtains ongoing access to the provider\u2019s audiovisual materials through the app and supplies something of value in exchange (e.g., personal/device data), even absent money changing hands. That approach also accords with a practical, administrable focus on whether the user has a continuing relationship with the service (not merely a one-off webpage visit), which avoids both an unduly narrow, payment-focused rule and an unbounded expansion to truly casual viewers. Because a modern ad-supported app economy commonly monetizes users through data rather than fees, interpreting \u201csubscriber\u201d to cover such app users better effectuates Congress\u2019s aim to prevent disclosure of individuals\u2019 video-viewing choices under \u00a7 2710(b).",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.72,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2026_prereg"
+  }
+]

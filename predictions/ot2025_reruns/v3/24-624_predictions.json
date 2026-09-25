@@ -1,0 +1,665 @@
+[
+  {
+    "docket": "24-624",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Fourth Amendment\u2019s emergency-aid exception allows police to enter a home without a warrant based on less than probable cause that an actual emergency is occurring, or whether probable cause is required.",
+      "legal_provision": "U.S. Constitution, Fourth Amendment (prohibition on unreasonable searches and seizures; warrant requirement and probable-cause requirement).",
+      "petitioner_position": "Petitioner argues that a warrantless home entry under the emergency-aid (exigent circumstances) doctrine is constitutional only if officers have at least probable cause to believe an emergency necessitating immediate aid exists; allowing entry on a lesser standard (e.g., reasonable suspicion or generalized \u201creasonableness\u201d) undermines the Fourth Amendment\u2019s core protection for the home, invites discretionary and pretextual intrusions, and conflicts with the Court\u2019s treatment of exigent-circumstances analysis as requiring probable cause of the justifying condition.",
+      "respondent_position": "Respondent (Montana) argues that the emergency-aid exception is governed by an objective reasonableness standard that can be satisfied on less than probable cause in rapidly evolving situations; requiring probable cause would make officers hesitate when seconds matter, would be inconsistent with the practical function of the emergency-aid doctrine (preventing injury or death rather than gathering evidence), and would improperly constitutionalize an overly rigid threshold for welfare checks and other community-caretaking-style interventions aimed at protecting life.",
+      "key_precedents": [
+        "Minnesota v. Olson, 495 U.S. 91 (1990)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Justice Barrett and Justice Thomas press the strongest point: the home sits at the Fourth Amendment\u2019s core, and we must not let \u201cwelfare checks\u201d become a general license for entry; I agree that the threshold must be demanding and tied to a real, imminent exigency. But I remain unpersuaded that importing the probable-cause label is the right\u2014let alone necessary\u2014limiting principle, because Brigham City and Fisher articulate an objective, action-guiding inquiry focused on whether officers had concrete, contemporaneous facts indicating an immediate need to act, not a separate arrest/search construct. Justice Kagan is right that this record may be thin on immediacy; the proper way to police that is rigorous enforcement of the non-manufactured exigency requirement and strict scope-and-duration limits, rather than recharacterizing the doctrinal standard in a way that risks hesitation in genuine emergencies. We can preserve the home\u2019s primacy by demanding specific, articulable indicia of imminent harm and rejecting entries based on generalized uncertainty\u2014without converting emergency aid into a probable-cause-to-prove-an-emergency regime.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The Chief Justice and Justice Alito are right that officers need an objective, action-guiding rule and that our cases use \u201cobjectively reasonable basis\u201d language, but that is not a warrant to dilute the Fourth Amendment\u2019s core protection of the home. As Justice Barrett explains, an \u201cobjectively reasonable basis for believing\u201d an occupant faces serious injury or imminent threat is, in ordinary Fourth Amendment terms, probable cause as applied to the exigency; treating it as something materially less would expand a historically narrow exception in a domain where we have repeatedly refused to enlarge warrantless-entry authority. Brigham City and Fisher involved contemporaneous, concrete indications of violence or injury sufficient to satisfy that threshold, whereas a lower standard here risks converting ambiguous welfare checks into discretionary licenses to cross the home\u2019s threshold. The scope-and-duration limits the Chief proposes may matter once entry is justified, but they cannot cure an entry authorized on an insufficient predicate.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Barrett and Justice Thomas offer the strongest point: the home sits at the Fourth Amendment\u2019s core, and we must not let \u201cwelfare checks\u201d become a license to cross the threshold on thin facts. But their proposed solution\u2014recasting Brigham City and Fisher\u2019s \u201cobjectively reasonable basis\u201d as a probable-cause requirement\u2014risks collapsing the emergency-aid inquiry into a distinct doctrinal category, importing a label and attendant connotations our cases have not adopted for this exception. The better constraint, as the Chief Justice argues, is to insist on concrete, contemporaneous facts indicating an immediate need for aid and to enforce strict scope-and-duration limits tied to locating and assisting a person, which preserves the home\u2019s protection without creating a probable-cause-to-an-actual-emergency regime that invites paralyzing hindsight review. Justice Kagan\u2019s concern about lack of immediacy underscores that this case may be close on application, but it does not justify rewriting the governing standard rather than rigorously applying it.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Chief Justice\u2019s and Justice Alito\u2019s strongest point is administrability: officers need action-guiding language, and Brigham City and Fisher speak of an \u201cobjectively reasonable basis.\u201d But that phrase cannot be untethered from a sufficiently strong, objective showing\u2014functionally probable cause\u2014that a person inside the home is seriously injured or imminently threatened; otherwise, as Justice Kagan warns, \u201cwelfare checks\u201d become a discretionary license to cross the threshold. Scope-and-duration limits (as the Chief proposes) are important, but they do not cure the antecedent defect of an entry justified on too thin a predicate, particularly given the coercive force of an asserted claim of authority to enter a dwelling. On this record\u2014lacking concrete, contemporaneous indicators akin to Brigham City or Fisher\u2014the emergency-aid exception does not apply and a warrant was required.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Chief Justice and Justice Alito are right that our emergency-aid cases aim to give officers an administrable, objective rule, but that concern has traction only when the facts show a genuinely fast-moving situation with \u201cno time to secure a warrant.\u201d On this record\u2014marked by the protracted wait and the absence of contemporaneous signs of violence or injury, as Justice Jackson underscores\u2014the asserted exigency looks neither immediate nor compelling, so the warrant requirement retains its usual force at the home\u2019s threshold. Justice Roberts\u2019s proposed limiting principles (concrete facts plus strict scope/duration limits) are important, but they cannot substitute for an adequate threshold showing that entry is necessary now; otherwise we risk the overbroad welfare-check exception Justice Sotomayor warns against. Whether we attach the label \u201cprobable cause\u201d or not, the doctrine must demand a strong, objective basis for imminent harm, and this case does not meet it.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Chief Justice and Justice Alito offer the best opposing point: administrability demands an action-guiding standard when officers must act fast, and Brigham City and Fisher speak of an \u201cobjectively reasonable basis.\u201d But as Justice Barrett explains, that phrase is most naturally read in ordinary Fourth Amendment terms as probable cause applied to the exigency itself; otherwise \u201cobjective reasonableness\u201d becomes a free-floating lesser standard that dilutes the home\u2019s threshold protection. Scope-and-duration limits (the Chief\u2019s proposed limiter) cannot cure an entry unjustified at the outset, and intra-textual consistency with the Warrant Clause reinforces that crossing the home\u2019s threshold requires a sufficiently strong objective showing. In true seconds-matter scenarios, probable cause can be satisfied quickly by concrete contemporaneous facts and reasonable inferences, so the administrability concern does not justify lowering the quantum of facts required for warrantless entry.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Justice Barrett and Justice Thomas raise the strongest point: the home is the Fourth Amendment\u2019s core, and we must not let \u201cwelfare checks\u201d become a general license for entry. But I do not read Brigham City and Fisher as covertly importing the arrest/search probable-cause label as a threshold requirement; they instead adopt an objective, action-guiding inquiry\u2014whether officers had an objectively reasonable basis, grounded in concrete contemporaneous facts, to believe immediate aid was needed\u2014followed by strict scope-and-duration limits. The real constraint is not relabeling the standard, but enforcing that the emergency must be non-manufactured, imminent, and supported by specific articulable indicia; that approach answers Justice Kagan\u2019s overbreadth concern without deterring reasonable, time-sensitive interventions. As the Chief Justice emphasizes, we should preserve administrability and fidelity to precedent while rigorously policing whether the facts actually establish an ongoing emergency and whether officers\u2019 actions remained tightly tied to rendering aid.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The Chief Justice\u2019s strongest point is administrability: officers need action-guiding language when time is short, and our cases use the phrase \u201cobjectively reasonable basis.\u201d But that argument does not isolate any domain in which the home\u2019s threshold may be crossed on something materially less than the Fourth Amendment\u2019s ordinary quantum of objective justification; as Justice Thomas notes, \u201cobjective reasonableness\u201d in Brigham City and Fisher is most plausibly read as probable cause applied to the existence of the exigency (serious injury or imminent threat), not a free-floating lesser standard. Strict scope-and-duration limits, as the Chief proposes and Justice Kavanaugh echoes, constrain what officers may do after entry, but they do not answer the antecedent question whether entry is justified in the first place\u2014once the controlling rule is properly cabined as an exigency exception, the inquiry is at an end unless the facts at entry amount to that level of objective justification. And Justice Kagan\u2019s emphasis on the absence of concrete, contemporaneous indicators here underscores why treating this as equivalent to Brigham City/Fisher risks converting a narrow exception into a discretionary welfare-check license.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The Chief Justice\u2019s strongest point is administrability: Brigham City and Fisher use \u201cobjectively reasonable basis\u201d to guide officers in time-sensitive crises, and he proposes scope-and-duration limits as the principal constraint. But that does not answer the antecedent Fourth Amendment question\u2014what quantum of objective facts authorizes crossing the home\u2019s threshold in the first place\u2014and, under Ornelas\u2019s two-step framework, we can accept the historical facts (including the protracted wait, lack of contemporaneous indicia of injury or violence, and officers\u2019 expressed doubts) yet still conclude de novo that those facts do not meet the constitutional threshold for emergency entry. Justice Barrett and Justice Kagan persuasively distinguish our precedents: there, officers confronted concrete, contemporaneous signs of active harm, whereas here treating \u201cobjective reasonableness\u201d as materially less than a probable-cause-level showing risks converting emergency aid into a discretionary welfare-check exception. Scope and duration limits (as the Chief suggests) help only after a lawful entry; they cannot cure an entry based on too thin a predicate given the Fourth Amendment\u2019s core protection of the home.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under our emergency-aid precedents, the administrable inquiry is whether officers had an objectively reasonable basis to believe someone inside faced an imminent need for assistance, not whether they could satisfy a freestanding probable-cause threshold to prove an \u201cactual emergency\u201d was occurring. Brigham City and Fisher describe the exception in objective, action-guiding terms suited to rapidly unfolding threats to safety, while still requiring case-specific verification that the feared harm was immediate and genuine rather than police-manufactured. So long as the officers here could point to concrete, contemporaneous facts indicating an urgent risk of injury, their limited entry to locate and aid a person would be reasonable; any further search must remain confined in scope and duration to addressing that emergency. Imposing a probable-cause requirement in this context would reintroduce a fine-grained legal classification that risks hesitation when seconds matter and is not demanded by our emergency-aid cases.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Because this case involves a warrantless entry into a home\u2014the Fourth Amendment\u2019s \u201cvery core\u201d\u2014the State must justify the intrusion under a narrow, historically recognized exception, not a freefloating public-safety or community-caretaking rationale. The emergency-aid doctrine is a species of exigent circumstances, and our precedents treat probable cause as the governing threshold for warrantless home entries justified by exigency; mere reasonable suspicion would risk expanding an exception the Court has repeatedly declined to enlarge. On these facts, officers may enter only if they had probable cause, based on specific, articulable observations, to believe an occupant needed immediate aid or faced imminent injury\u2014not simply that an emergency was possible. A lower standard would weaken the home\u2019s heightened protection and invite discretionary, potentially pretextual, intrusions.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under Brigham City and Michigan v. Fisher, warrantless home entry is permissible when officers have an objectively reasonable basis to believe someone inside is seriously injured or imminently threatened with such injury, and that standard is analytically distinct from the probable-cause requirement governing full-blown arrests. On these facts\u2014a welfare-check style response to indications of an ongoing medical or safety crisis\u2014the Fourth Amendment\u2019s reasonableness inquiry is satisfied if the circumstances confronting the officers would lead a reasonable officer to think immediate aid may be needed; insisting on probable cause of an actual emergency would improperly constitutionalize a more rigid threshold than this Court\u2019s emergency-aid precedents and would produce unworkable results in time-sensitive scenarios. The proper question is objective justification at the moment of entry, not the officers\u2019 subjective motives or an after-the-fact determination that an \u201cactual\u201d emergency did or did not exist. Because the emergency-aid category is aimed at protecting life rather than evidence-gathering, the objectively reasonable basis standard\u2014rather than probable cause\u2014best fits the doctrine and the practical realities of these encounters.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment treats the home as the core protected space, and a warrantless entry is permissible only within a narrowly defined exception whose scope cannot be diluted into a free-floating \u201creasonableness\u201d inquiry. On these facts, the State asks us to authorize home entry on less than probable cause of an actual, immediate need for aid\u2014an expansion that would invite discretionary, potentially pretextual intrusions and would coerce acquiescence through an officer\u2019s asserted authority to enter. Properly understood, the emergency-aid exception requires an objectively reasonable basis that amounts to probable cause to believe someone inside is seriously injured or imminently threatened; anything less fails to preserve the Constitution\u2019s baseline protection for the dwelling. Because Montana\u2019s standard would permit entry without that threshold showing, I would reverse.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The Fourth Amendment makes the warrant requirement the baseline for entering a home, and the emergency-aid exception is a narrow, exigency-based departure allowed only when the totality of the circumstances shows a compelling need for immediate action and no time to get a warrant. On this record, allowing entry on less than probable cause would untether the exception from actual emergencies and invite an overbroad rule that treats routine welfare checks the same as situations like escalating violence or clear signs of imminent injury. Brigham City and Fisher used the language of an \u201cobjectively reasonable basis,\u201d but in each case officers confronted concrete, contemporaneous facts supporting a strong belief that someone inside faced imminent harm\u2014functionally satisfying probable cause to think an emergency existed. Requiring at least probable cause that an emergency is occurring best preserves the home\u2019s core Fourth Amendment protection while still permitting rapid entry when the circumstances truly make waiting for a warrant unreasonable.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment\u2019s text makes the home the paradigmatic place where warrantless entry is \u201cunreasonable\u201d absent a historically grounded exception, and nothing in its ordinary meaning suggests a freestanding, lesser-than-probable-cause threshold for crossing a home\u2019s threshold. Looking to our decisions applying the emergency-aid doctrine, we have consistently described the inquiry as whether officers had an objectively reasonable basis to believe someone inside needed immediate aid\u2014but we have never sustained a home entry where the known facts fell short of probable cause that such an exigency actually existed. On these facts\u2014officers arriving to a vacant and silent residence with no contemporaneous signs of injury, violence, or distress\u2014the State\u2019s invitation to approve entry on something less than probable cause would dilute the Amendment\u2019s baseline protection for the home and create an unstable two-track regime that invites after-the-fact rationalizations. Objective reasonableness remains the touchstone, but in the home-entry context it demands at least probable cause that an emergency requiring immediate aid is occurring.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Fourth Amendment\u2019s ultimate touchstone is reasonableness, and warrantless home entry remains presumptively unlawful unless a recognized exception applies; here the relevant exception is emergency aid. Under Brigham City and Fisher, officers may enter when they have an objectively reasonable basis to believe an occupant is seriously injured or imminently threatened with such injury, and the inquiry is objective and context-sensitive rather than a rigid label of \u201cprobable cause\u201d versus \u201creasonable suspicion.\u201d Requiring a categorical probable-cause threshold for emergency-aid entries would risk deterring prompt action in rapidly unfolding safety crises and is unnecessary because the doctrine already demands a concrete, articulable, objectively reasonable basis tied to immediate aid and limits officers\u2019 conduct to what is reasonable under the circumstances. On these facts, if officers had specific indicators suggesting an ongoing medical or safety emergency and confined their actions to locating and addressing that threat, the entry fits within the established emergency-aid exigency.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The threshold question is the scope of the emergency-aid exception within the Fourth Amendment\u2019s warrant requirement for the home; once the exception\u2019s governing standard is fixed, the inquiry is at an end and we do not engage in freewheeling reasonableness balancing. Read in ordinary legal usage, this Court\u2019s emergency-aid cases requiring an \u201cobjectively reasonable basis for believing\u201d someone is seriously injured or imminently threatened are most plausibly describing probable cause to believe the exigency exists\u2014not a lesser, open-ended suspicion standard\u2014especially given the Fourth Amendment\u2019s longstanding insistence on probable cause for home entries absent a warrant. Montana\u2019s proposed less-than-probable-cause rule fails to isolate a principled domain where home entry may be compelled by emergency yet freed from the Constitution\u2019s usual quantum of proof, and it risks swallowing the home\u2019s core protection by turning welfare checks into discretionary warrantless searches. On these facts, absent probable cause of an actual, imminent need for aid, the emergency-aid exception does not justify entry.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Under Ornelas\u2019s two-step framework, I would accept the lower court\u2019s supported historical findings\u2014most notably that officers knew of Case\u2019s prior suicide threats without follow-through, observed no signs of injury or violence on arrival, waited roughly 40 minutes, and even voiced doubt that immediate aid was needed. At step two, applying de novo review to the constitutional standard, those facts do not supply probable cause to believe an actual, ongoing emergency inside the home required immediate entry, and Brigham City and Fisher\u2014where officers personally observed violent, escalating harm\u2014do not justify lowering the threshold here. Treating \u201cobjective reasonableness\u201d as a lesser-than-probable-cause standard for home entry would dilute the Fourth Amendment\u2019s core protection for the home and invite pretext in mixed criminal/welfare contexts. Because the emergency-aid exception must be tethered to a probable-cause showing of an exigency and is not satisfied on this record, the warrantless entry was unreasonable.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.753,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-624",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Fourth Amendment\u2019s emergency-aid exception permits warrantless entry into a home on less than probable cause that an ongoing emergency exists, or instead requires probable cause.",
+      "legal_provision": "U.S. Constitution, Fourth Amendment (protections against unreasonable searches and seizures; warrant requirement; probable-cause standard).",
+      "petitioner_position": "Case argues that a home entry without a warrant is presumptively unreasonable and that the emergency-aid exception is a narrow exigent-circumstances carveout that requires at least probable cause to believe an actual, imminent emergency exists. He relies on the Court\u2019s Fourth Amendment doctrine emphasizing the home\u2019s heightened protection and contends that allowing entry on a mere \u201creasonable suspicion\u201d or similarly lower threshold invites discretionary, pretextual intrusions and erodes the warrant requirement. Supporting amici reinforce that (1) the Court has treated probable cause as the baseline for exigent-circumstances entries, (2) founding-era practice aimed to curb discretionary home searches, and (3) a lower standard would be especially dangerous when combined with modern surveillance and/or generalized welfare-check rationales.",
+      "respondent_position": "Montana argues that the emergency-aid doctrine is focused on rapid response to protect life and prevent serious injury, and that requiring probable cause in fast-moving welfare-check situations can be impractical and may cost lives. The State maintains that the Fourth Amendment\u2019s touchstone is reasonableness and that, in genuine emergency-aid scenarios, officers should be allowed to enter when they have an objectively reasonable basis to believe someone inside needs immediate assistance\u2014even if that showing is less than traditional probable cause\u2014so long as the entry remains strictly limited in scope to addressing the emergency and is not used as a pretext for evidence-gathering.",
+      "key_precedents": [
+        "Minnesota v. Olson, 495 U.S. 91 (1990)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan and Justice Kavanaugh make the State\u2019s strongest point: Brigham City and Fisher use an \u201cobjectively reasonable basis\u201d formulation and reject any demand for \u201cironclad proof.\u201d But in the home-entry setting, that standard must be tethered to concrete, particularized facts showing an imminent, ongoing emergency; otherwise, as Justice Sotomayor warns, it risks morphing into a discretionary \u201cwelfare check\u201d license with no meaningful limiting principle. Requiring objective facts amounting to probable cause that immediate aid is needed best harmonizes those cases with the Fourth Amendment\u2019s warrant preference for the home, while leaving room for swift action in true crises and enforcing strict limits on the manner and scope of any entry. On this record, the asserted emergency is undermined by the delay and the absence of contemporaneous indicators of imminent harm, making the warrantless entry unreasonable.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan\u2019s strongest point is that Brigham City and Fisher speak of an \u201cobjectively reasonable basis\u201d and that adding the words \u201cprobable cause\u201d may seem semantic or ill-fitting in a noncriminal aid setting. But in the home-entry context, that objective inquiry must still be anchored to the Fourth Amendment\u2019s traditional measure\u2014facts amounting to probable cause that an exigency requiring immediate aid exists\u2014otherwise \u201creasonable basis\u201d risks becoming the freestanding welfare-check authority the Chief Justice and Justice Gorsuch warn against. Justice Alito is right that strict scope limits matter, but scope limits cannot cure an undemanding trigger that effectively bypasses the warrant requirement for the home. I therefore would hold the emergency-aid exception requires objective, particularized facts rising to probable cause of an imminent need for assistance, with entry strictly limited to addressing that exigency.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The Chief Justice and Justice Gorsuch rightly stress the home\u2019s special status and the danger that \u201cwelfare checks\u201d could become a roving license, and I agree the exception must be tightly cabined to particularized, contemporaneous facts showing imminent harm. But I am not persuaded that relabeling Brigham City/Fisher\u2019s \u201cobjectively reasonable basis\u201d as a freestanding \u201cprobable cause\u201d requirement supplies any real limiting principle; as Justice Kagan notes, it is unclear \u201cprobable cause of what\u201d in a noncriminal aid context, and the constitutional work is done by insisting on imminence, specificity, and strict scope limits. Our precedents already reject \u201cironclad proof\u201d while demanding objective, circumstance-based justification, and the remedy for pretext is rigorous enforcement of the emergency-aid trigger and suppression when officers exceed the aid mission. On this record, the State\u2019s position fits the established emergency-aid framework better than importing an arrest-oriented label that risks doctrinal confusion without added constraint.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Kagan and Justice Kavanaugh make their best point that Brigham City and Fisher reject any demand for \u201cironclad proof\u201d and frame the inquiry as objective reasonableness, with tight scope limits. But in the home-entry context, that formulation still must be anchored to concrete, particularized indicators of an imminent emergency; otherwise it risks becoming exactly the discretionary \u201cwelfare check\u201d authority the Fourth Amendment\u2019s core home protection forbids. Chief Justice Roberts\u2019s emphasis on the officers\u2019 40-minute delay and the absence of visible signs of injury or violence underscores that whatever concern existed was not treated as truly immediate, weakening the claim that warrantless entry was necessary at that moment. I therefore remain persuaded\u2014consistent with Justices Thomas and Gorsuch\u2014that the State must show facts functionally equivalent to probable cause of an exigent need for aid before crossing the home\u2019s threshold, with strict limits on scope.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The Chief Justice and Justice Gorsuch have the right instinct that we need a limiting principle for home entry, and Justice Sotomayor is right to fear an unbounded \u201cwelfare check\u201d power. But converting Brigham City/Fisher\u2019s emergency-aid inquiry into a standalone probable-cause requirement does not actually supply the needed constraint here: it is conceptually ill-fitting (\u201cprobable cause of what\u201d in a noncriminal aid setting) and risks rewriting those precedents\u2019 deliberately practical, facts-on-the-ground standard. The workable limit is instead to enforce the emergency-aid trigger strictly\u2014specific, contemporaneous facts indicating serious, imminent harm\u2014and to cabin the manner, scope, and duration of the entry to locating and rendering aid, with suppression when officers pivot to evidence-gathering or rely on speculative or stale indicators. On this record, as Justice Kavanaugh and Justice Barrett stress, the established objective-emergency-aid framework can do the constitutional work without importing a label that is largely semantic and potentially confusing in administration.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Justice Kagan and Justice Kavanaugh are right to stress that Brigham City and Fisher reject any demand for \u201cironclad proof,\u201d and that the inquiry is objective and keyed to what officers reasonably perceived at the moment. But in the home-entry setting, reading \u201cobjectively reasonable basis\u201d as something materially less than probable cause risks converting a carefully circumscribed exigency into a general \u201cwelfare check\u201d warrant substitute\u2014precisely the limiting-principle failure the Chief Justice and Justice Sotomayor identify. Probable cause here is not an arrest-oriented add-on; it is the ordinary Fourth Amendment measure applied to the relevant proposition\u2014whether there is a fair probability of an imminent, serious need for aid\u2014while scope limits (which Justice Alito emphasizes) then ensure the entry remains strictly tied to that exigency. Without that tether, \u201creasonableness\u201d becomes free-floating and the home\u2019s core protection is rendered effectively surplusage whenever the government relabels the intrusion as caretaking.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The Chief Justice\u2019s and Justice Gorsuch\u2019s limiting-principle concern is serious: we cannot allow \u201cwelfare checks\u201d to become a pretextual warrant substitute for home entry. But Brigham City and Fisher already supply a workable, historically grounded constraint\u2014officers need specific, articulable facts giving an objectively reasonable basis to believe someone inside is seriously injured or imminently threatened, and the entry must be strictly confined in scope to locating and rendering aid. Recasting that trigger as a freestanding \u201cprobable cause\u201d requirement risks being largely semantic and administratively confusing (probable cause of what, precisely, in a noncriminal aid context), while the real constitutional work is done by the objective emergency-aid inquiry and tight scope limits, as Justice Kagan emphasizes. The better way to address Justice Sotomayor\u2019s pretext concern is rigorous enforcement of the emergency-aid threshold and suppression when officers exceed the aid mission, not rewriting our precedents into a new categorical probable-cause prerequisite.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The Chief Justice and Justice Gorsuch are right to insist on a limiting principle for warrantless home entry, but I do not think relabeling Brigham City/Fisher\u2019s \u201cobjectively reasonable basis\u201d test as \u201cprobable cause\u201d supplies meaningful additional constraint in this emergency-aid setting\u2014especially given Justice Kagan\u2019s point that \u201cprobable cause of what\u201d is a doctrinal mismatch for noncriminal aid. Our precedents already require particularized, contemporaneous facts supporting an imminent need for assistance; once that trigger is met, the inquiry is at an end, and the remaining safeguards are strict scope-and-duration limits. Justice Sotomayor\u2019s pretext concern is serious, but it is better addressed by rigorous enforcement of imminence/specificity and by suppressing evidence when officers exceed the aid mission, rather than by importing a freestanding probable-cause requirement our emergency-aid cases have not adopted. On this record, the State is invoking the settled emergency-aid doctrine rather than claiming a generalized welfare-check license, so I would affirm.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "I take Justice Kagan\u2019s and Justice Kavanaugh\u2019s point that Brigham City and Fisher speak in terms of an \u201cobjectively reasonable basis,\u201d and that we must not demand \u201cironclad proof\u201d before officers can act to protect life. But labeling the trigger \u201creasonable basis\u201d does not, by itself, supply the limiting principle the home-entry context requires; as Chief Justice Roberts and Justice Sotomayor emphasize, the Fourth Amendment\u2019s warrant preference for the home demands objective, particularized facts indicating an actual, ongoing or imminent need for aid\u2014especially where time permits seeking judicial authorization. Without that anchor, \u201creasonableness\u201d risks becoming the kind of convenient rhetorical maneuver that effectively converts welfare-check uncertainty into a warrant substitute, and the State has not offered a rock-solid merits explanation for why our emergency-aid precedents require a materially lower threshold in the home. I agree with Justice Alito that strict scope limits matter, but scope limits cannot cure an insufficient predicate for the entry in the first place.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment\u2019s core protection is the home, and the baseline rule is that officers must obtain a warrant before entering absent a recognized exigency supported by an objective, case-specific showing. On this record, the State\u2019s proposed rule would effectively authorize home entry on something less than probable cause whenever officers can articulate a generalized \u201cwelfare check,\u201d a categorical lowering of the threshold that risks discretionary and pretextual intrusions and lacks a clear limiting principle. Our emergency-aid cases permit entry when officers have an objectively reasonable basis to believe an occupant is injured or threatened with imminent injury, but that standard, properly understood in the home-entry context, requires at least probable cause based on the facts known at the time and confines any search to what is necessary to address the emergency. Because Montana seeks to validate entry on a lesser quantum of suspicion untethered to probable cause, the warrantless entry here was unreasonable.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment\u2019s \u201cvery core\u201d protects the home, and warrantless entry is presumptively unreasonable unless the State fits within a narrow, already-recognized exception. The emergency-aid doctrine is a species of exigent circumstances, and our cases have sustained home entry only where officers had concrete, objective facts indicating an ongoing or imminent threat of serious harm\u2014facts that, in practice, amount to probable cause rather than a freewheeling \u201creasonable suspicion\u201d standard. Brigham City and Fisher involved direct observations of violence, injury, and chaos; allowing entry on something materially less than probable cause would improperly expand an exception and invite discretionary welfare-check intrusions that bypass the warrant requirement. Because the State asks us to dilute the threshold for entering the home, I would hold probable cause is required and reverse.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Fourth Amendment question here concerns a warrantless home entry (a search), so the State must fit within a recognized exception, and the relevant inquiry is objective reasonableness at the time of entry, not hindsight. Under this Court\u2019s emergency-aid precedents, officers may enter without a warrant when they have an objectively reasonable basis to believe an occupant is seriously injured or imminently threatened with such injury; the doctrine has never been framed as requiring \u201cironclad proof\u201d or a particular quantum labeled \u201cprobable cause.\u201d Requiring a probable-cause formulation in fast-moving welfare-check scenarios risks importing an arrest-oriented metric into a distinct exigency and would be inconsistent with Brigham City and Fisher\u2019s circumstance-based approach, so long as the entry remains strictly limited to addressing the perceived emergency and not evidence-gathering. On the facts presented, where officers responded to indications of a potential medical or safety crisis inside the home, the objective-emergency-aid standard is satisfied even if the showing falls short of traditional probable cause.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The home lies at the core of the Fourth Amendment, and expanding emergency-aid entry to something less than probable cause would predictably invite discretionary and pretextual intrusions that fall hardest on vulnerable people\u2014those in mental-health crisis, communities already subject to over-policing, and households exposed to mistaken or malicious \u201cwelfare check\u201d calls. On these facts, officers waited roughly 40 minutes, observed no signs of injury or violence, and discussed that Case had a pattern of threats without follow-through\u2014circumstances that undermine any claim of an imminent, ongoing emergency and fail the \u2018heavy burden\u2019 for bypassing a warrant. Brigham City and Fisher involved officers\u2019 direct observation of immediate violence or injury; they do not justify lowering the constitutional threshold where the indicators are ambiguous and time permits seeking judicial authorization. Requiring probable cause to believe immediate aid is needed preserves lifesaving discretion in true emergencies while maintaining fair, workable limits that protect the dignity and security of the home.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Our emergency-aid cases, notably Brigham City and Fisher, frame the inquiry in pragmatic Fourth Amendment terms: whether officers had an objectively reasonable basis to believe someone inside faced a serious, imminent threat requiring immediate action, not whether they could assemble traditional probable cause in a fast-moving welfare-check. Text and structure still matter\u2014the home is maximally protected\u2014but the Fourth Amendment\u2019s touchstone is reasonableness, and a probable-cause-only rule would be unworkable when the very point is to prevent death or serious injury before the evidence of an emergency can be fully verified. The doctrinal compromise is a stringent objective standard plus tight cabining: the entry must be limited to addressing the perceived emergency and cannot be used as a pretext for evidence gathering, with suppression available if officers exceed that scope. Applied to these facts\u2014where officers confronted specific, contemporaneous indicators suggesting an ongoing crisis requiring immediate aid\u2014the entry falls within the emergency-aid exception even if the showing was short of probable cause.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment\u2019s text makes probable cause the Constitution\u2019s ordinary metric for justifying a home intrusion, and it is hard to square a freestanding \u201cless-than-probable-cause\u201d home-entry rule with the Amendment\u2019s insistence that warrants issue only \u201cupon probable cause\u201d and its special solicitude for the home. Read naturally, Brigham City and Fisher describe an objectively reasonable belief in an ongoing emergency\u2014a formulation that fits comfortably as probable cause to think immediate aid is needed\u2014rather than a Terry-like license to enter homes on mere suspicion; treating that language as a lower threshold risks making the probable-cause limitation effectively superfluous whenever officers recast a search as a \u201cwelfare check.\u201d History relevant to home entries confirms the founding-era aversion to discretionary house searches, and importing lower-suspicion standards developed for lesser-protected contexts (like stop-and-frisk or vehicles) is a poor fit for the home. On these facts, the emergency-aid exception should allow warrantless entry only when officers have probable cause to believe an imminent, ongoing emergency inside requires immediate assistance, with the entry strictly limited to addressing that emergency.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under the Court\u2019s settled exigent-circumstances framework, the relevant question is whether the officers\u2019 warrantless entry fits within the recognized emergency-aid category and, at the moment of entry, the officers had an objectively reasonable basis for believing that someone inside was seriously injured or threatened with such injury. Brigham City and Fisher use that objective formulation and do not demand a separate, freestanding probable-cause label so long as the officers can point to specific, articulable facts indicating an immediate need for aid and their actions inside remain strictly limited to addressing the emergency. A categorical rule requiring \u201cprobable cause\u201d in name risks becoming academic and underinclusive in fast-moving welfare-check situations; the proper constitutional constraint is the objective emergency-aid standard plus the requirement that the scope of the entry be reasonable and non-pretextual. On the facts as presented\u2014where the entry was undertaken as an emergency response and limited to checking on potential injury\u2014the Fourth Amendment permits the entry.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Our precedents frame the emergency-aid doctrine as turning on whether officers had an \u201cobjectively reasonable basis\u201d to believe someone inside needed immediate assistance, and once that doctrinal trigger is satisfied, \u201cthe inquiry is at an end\u201d\u2014courts do not reweigh whether officers could have waited for a warrant. On this record, the officers confronted specific, contemporaneous indicators of an ongoing medical/safety crisis inside the home (not a generalized welfare check), making the entry reasonable under Brigham City and Fisher. Because those decisions do not impose a separate probable-cause label for emergency aid\u2014and because their operative standard already demands objective, particularized facts rather than discretion or pretext\u2014the Fourth Amendment does not require the State to clear an additional probable-cause hurdle before taking narrowly tailored action to render aid. Interpreting the exception to demand probable cause in all events would also risk constitutional difficulty by forcing officers to delay life-saving intervention in circumstances where the Fourth Amendment\u2019s touchstone is reasonableness.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Amendment\u2019s protection of the home is at its apex, and before this Court relaxes the warrant requirement under an \u201cemergency-aid\u201d label, we should demand a clear, merits-grounded account of why the Constitution permits entry on something less than probable cause that an actual, imminent emergency is occurring. Our exigent-circumstances cases have consistently treated probable cause as the baseline quantum of justification for warrantless home entry, and the State\u2019s effort to reframe the inquiry as mere \u201creasonableness\u201d risks masking\u2014not resolving\u2014the constitutional conflict by collapsing a narrow exception into a discretionary welfare-check authority. Brigham City and Fisher\u2019s formulation (\u201cobjectively reasonable basis\u201d) does not compel a lower-than-probable-cause standard; in practical application, it requires objective facts indicating a real, immediate threat, which is functionally consonant with probable cause when the intrusion is entry into a home. Because the State has not supplied a rock-solid merits rationale for authorizing home entry on less than probable cause\u2014and because the practical consequences would expand warrantless entries in commonplace, ambiguous scenarios\u2014I would hold the emergency-aid exception requires probable cause of an ongoing emergency and vote for the Petitioner.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.734,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4",
+    "run_arm": "ot2025_v3"
+  }
+]

@@ -1,0 +1,68 @@
+{
+ "docket": "22-23",
+ "term": 2022,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T10:58:24+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.3,
+  "Clarence Thomas": 0.1,
+  "Samuel Alito": 0.12,
+  "Elena Kagan": 0.2,
+  "Brett Kavanaugh": 0.1,
+  "Amy Coney Barrett": 0.18
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.7,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.6,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts, as the assigning justice, is likely to either write the majority himself to control the narrower 'functional connection' framing he proposed, or assign it to Kagan or Barrett given their strong analytical contributions and cross-ideological appeal. The dissenters (Sotomayor, Gorsuch, Jackson) are likely to write separately given their distinct and forceful reasoning, with Gorsuch and Jackson potentially joining each other's dissent.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.30,\n    \"Clarence Thomas\": 0.10,\n    \"Samuel Alito\": 0.12,\n    \"Elena Kagan\": 0.20,\n    \"Brett Kavanaugh\": 0.10,\n    \"Amy Coney Barrett\": 0.18\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Clarence Thomas\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Samuel Alito\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Elena Kagan\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.70, \"concurs\": 0},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.65, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.60, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts, as the assigning justice, is likely to either write the majority himself to control the narrower 'functional connection' framing he proposed, or assign it to Kagan or Barrett given their strong analytical contributions and cross-ideological appeal. The dissenters (Sotomayor, Gorsuch, Jackson) are likely to write separately given their distinct and forceful reasoning, with Gorsuch and Jackson potentially joining each other's dissent.\"\n}\n```"
+}

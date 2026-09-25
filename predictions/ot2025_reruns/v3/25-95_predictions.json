@@ -1,0 +1,572 @@
+[
+  {
+    "docket": "25-95",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a county violates the Fifth Amendment Takings Clause (and, if reached, the Eighth Amendment Excessive Fines Clause) by keeping value from a tax-foreclosure sale beyond what is needed to satisfy the delinquent taxes, fees, and costs\u2014especially when the property is sold for less than fair market value.",
+      "legal_provision": "U.S. Const. amend. V (Takings Clause) and U.S. Const. amend. VIII (Excessive Fines Clause), as applied to a county\u2019s tax-foreclosure/sale and retention of sale proceeds/value; with relevant comparison to federal tax-collection surplus-return rule, 26 U.S.C. \u00a7 6342(b).",
+      "petitioner_position": "Petitioner argues the county unconstitutionally took the decedent\u2019s home equity by foreclosing for a small tax debt and retaining property value far exceeding the amount owed. On petitioner\u2019s view, Tyler v. Hennepin County confirms that homeowners have a protected property interest in surplus value/equity; the government may collect what it is owed (taxes, penalties, interest, and allowable costs) but must return the remainder. Petitioner and supporting amici contend the Sixth Circuit used a flawed bright-line valuation rule that measures any \u2018surplus\u2019 only by comparing the tax debt to the property\u2019s depressed sale price (rather than fair market value or actual equity), enabling counties to avoid Tyler by selling below market and still claiming there was no unconstitutional retention. Petitioner also maintains that keeping the excess functions as punishment grossly disproportionate to the tax delinquency, raising an Excessive Fines problem.",
+      "respondent_position": "Respondent (Isabella County) argues there is no constitutional violation because the taxpayer is not entitled to more than whatever surplus proceeds remain after the government\u2019s lawful tax-collection sale under state procedures. The county\u2019s position, as reflected in its opposition and the framing of the dispute in the federal government\u2019s amicus description, is that the Constitution at most requires returning \u2018surplus proceeds\u2019 (if any) from the sale, not paying the taxpayer the difference between fair market value and the sale price. Respondent thus defends the Sixth Circuit approach that looks to sale proceeds and asserts the case either falls outside Tyler or that Tyler does not require re-valuing the property at fair market value. Respondent also argues the Excessive Fines issue is narrow or unnecessary to reach and that the county\u2019s conduct is not a punitive fine within the meaning of the Eighth Amendment.",
+      "key_precedents": [
+        "Tyler v. Hennepin County (U.S. 2023)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "The County\u2019s best point is that without \"surplus proceeds\" from the foreclosure sale there is, administrably, nothing to return and therefore nothing taken. But as Justice Barrett and Justice Thomas explain, Tyler identifies the protected property interest as the owner\u2019s equity\u2014value beyond the tax debt and lawful costs\u2014and that interest cannot be defined away by a government-controlled forced-sale mechanism that predictably depresses price and converts real equity into an accounting zero. This case also lacks the Nelson-type safety valve: the scheme, as applied, operates as an absolute bar to recovering excess value once title transfers, so it is not a matter of the owner failing to invoke a meaningful procedure. Because just compensation for the lost equity would fully redress the injury, I would resolve it under the Takings Clause and avoid the Excessive Fines question.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The County\u2019s strongest contention\u2014that the owner\u2019s cognizable \u201cproperty\u201d after foreclosure is limited to whatever surplus proceeds state law recognizes\u2014fails because it would allow the government to define the Fifth Amendment right out of existence by manipulating the liquidation mechanism. As the Chief Justice explains, Tyler identifies the protected interest as the owner\u2019s equity beyond the tax debt and lawful costs, not an accounting residue that can be erased by a predictably depressed forced-sale price. On an original-public-meaning understanding, once the government appropriates that excess value, the Takings Clause\u2019s compensation command attaches; the availability of a vehicle to sue is a separate remedial question and does not negate the constitutional violation. Any uncertainty about valuation (sale price versus fair market value, timing, offsets) goes to the amount of just compensation on remand, not to whether a taking occurred.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The County\u2019s strongest point is that a tax sale itself fixes the owner\u2019s realizable value and, if no \u201csurplus proceeds\u201d exist, there is nothing the County retained. But that argument impermissibly defines the protected interest by reference to the government\u2019s own forced-sale mechanism; as Chief Justice Roberts and Justice Kavanaugh note, Tyler\u2019s focus is on the owner\u2019s equity beyond the tax debt and lawful costs, not on an accounting residue that can be eliminated by a predictably depressed sale. The merits question is therefore whether the County retained value beyond its lawful claim; as several colleagues (including Justice Barrett) emphasize, disputes about valuation and offsets belong to the remedial phase on remand, and do not defeat liability. I see no basis in Nelson or any other precedent for a categorical rule that the auction price sets the constitutional ceiling on the owner\u2019s equity in this context.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Respondent\u2019s strongest contention\u2014that the tax sale price is the only administrable benchmark and that no auction \u201csurplus\u201d means no property interest\u2014fails under Tyler\u2019s identification of the protected interest as the owner\u2019s equity beyond the tax debt and lawful costs, not the residue of a government-controlled forced sale. As Chief Justice Roberts and Justice Barrett both stress, allowing the County to define the constitutional interest by reference to a predictably depressed sale mechanism would let it \u201cdefine away\u201d the very equity Tyler held the owner retains, contravening Armstrong\u2019s fairness principle. The proper doctrinal move is to recognize takings liability once the government appropriates value beyond what it is owed, while leaving valuation disputes (fair market value, timing, and offsets) for remand rather than using them to negate liability. I remain unpersuaded that we must reach the Excessive Fines question where the Takings Clause can resolve the case cleanly.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The County\u2019s best point is administrability: tying the owner\u2019s entitlement to \u201csurplus proceeds\u201d from the tax sale supplies a clear metric and avoids valuation fights. But as Chief Justice Roberts and Justice Barrett emphasize, Tyler is the critical precedent and it identifies the protected property interest as the owner\u2019s equity beyond the tax debt and lawful costs\u2014not whatever residue remains after a government-designed forced sale that may predictably depress price. Accepting the Sixth Circuit\u2019s sale-proceeds-only rule would let the State \u201cdefine away\u201d the constitutional interest through its chosen mechanism, turning Tyler into a formalism. The harder questions about how to value the equity and what offsets are permissible go to just compensation on remand, not to whether a taking occurred.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Respondent\u2019s best submission is the Nelson-style claim that state law recognizes only \u201csurplus proceeds,\u201d so a sale yielding no surplus leaves no cognizable property to be taken. But as Chief Justice Roberts and Justice Thomas underscore, Tyler does not allow the State to redefine the protected interest by the happenstance (or predictably depressed outcome) of a government-controlled forced sale; the constitutional interest is the owner\u2019s equity\u2014value beyond taxes, penalties, interest, and lawful costs\u2014and the County\u2019s labels cannot make that equity disappear. Treating the auction price as the ceiling on the owner\u2019s property would invite an end run around Tyler by structuring sales to clear at low prices, thereby eliminating \u201csurplus\u201d on paper while still capturing value the government was never owed. The Takings Clause therefore is triggered to the extent the County retained value beyond its lawful claim, with valuation and offsets properly left for remand, and we need not reach the Excessive Fines question.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The County\u2019s strongest point\u2014that absent cash \u201csurplus proceeds\u201d there is no cognizable property interest left to be taken\u2014fails because it improperly makes the government\u2019s own forced-sale mechanism the measure of the constitutional baseline. As Chief Justice Roberts and Justice Barrett emphasize, Tyler identifies the protected interest as the owner\u2019s equity (value beyond the tax debt and lawful costs), and the State cannot define that interest away by employing a process that predictably depresses sale price and then declaring \u201cno surplus\u201d as an accounting matter. The Takings Clause question is whether the government retained value beyond what it was owed; valuation and offsets are remedial questions for remand, not a reason to deny liability. Consistent with our usual approach, we can resolve the case on the Takings Clause and avoid reaching the Excessive Fines issue.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The County\u2019s strongest contention\u2014that there was no taking because the sale generated no \u201csurplus proceeds\u201d\u2014mistakes the protected interest and would let the government define it away through the mechanics of a forced sale. As the Chief Justice explains, Tyler protects the owner\u2019s equity (value beyond the tax debt and lawful costs), and a scheme that extinguishes that equity at title transfer while measuring \u201csurplus\u201d only by a predictably depressed auction price risks an end run around the Takings Clause. Textually and structurally, the Clause is a limitation on the government\u2019s act of taking property, not a permission slip conditioned on how the State labels post-sale proceeds; nothing in text, history, or precedent supports a tax-foreclosure carveout allowing retention of value beyond what the State is owed. Any dispute about valuation (fair market value, timing, offsets) goes to just compensation on remand, consistent with Justice Thomas\u2019s point that compensation cannot be set by a government-controlled forced-sale price when what was taken is the owner\u2019s equity.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The County\u2019s strongest contention\u2014that the auction price supplies the only administrable measure of \u201csurplus,\u201d so no surplus means no taking\u2014fails because it allows the government to define the constitutional entitlement by reference to a government-controlled, predictably value-depressing procedure. As Chief Justice Roberts and Justice Sotomayor stress, Tyler protects the owner\u2019s equity itself (value beyond taxes, penalties, interest, and lawful costs), not a paper \u201csurplus proceeds\u201d figure that can be engineered away through forced-sale mechanics. From a procedural-fairness perspective, the Constitution cannot make the homeowner\u2019s right turn on structural distortions the State designs, especially where the scheme provides no meaningful avenue to recover the excess value once title transfers. The right way to separate merits from remedy is to recognize takings liability for retention of value beyond the lawful debt and leave valuation and offsets for remand, avoiding the Excessive Fines question.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The relevant property interest is the owner\u2019s equity\u2014the value of the home beyond the delinquent taxes, penalties, and allowable costs\u2014and that interest is not extinguished merely because the County\u2019s sale realized a depressed price. Under the Armstrong fairness principle and Tyler\u2019s surplus-value rule, the County may collect what it is owed but may not, through a below-market sale mechanism, force the taxpayer alone to bear the additional public burden of lost equity without just compensation. Unlike Nelson, the dispositive question is whether state law provides a meaningful, defined avenue to recover the owner\u2019s surplus value; on these facts the scheme operates to foreclose any recovery of the excess value once title transfers, so the retention is a taking. Because a Takings remedy would fully redress the loss of equity, I would resolve the case on the Fifth Amendment without reaching the Excessive Fines question.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "We start with the text of the Fifth Amendment, which as understood in 1791 required that when the government takes \u201cprivate property\u201d for public use it must provide \u201cjust compensation,\u201d and Tyler confirms that a taxpayer retains a protected property interest in the value of the home beyond the tax debt. On these facts, the County\u2019s foreclosure extinguished the owner\u2019s equity and then retained value beyond taxes, fees, and costs; that retention is a taking, and \u201cjust compensation\u201d cannot be defined by a government-controlled forced-sale price that predictably depresses value rather than by the value of what was taken (the owner\u2019s equitable interest). The Sixth Circuit\u2019s sale-proceeds-only rule effectively allows the County to evade the compensation requirement by selling below market and declaring there was no surplus, which is incompatible with the Takings Clause\u2019s self-executing guarantee of compensation once a taking occurs. The existence of the constitutional right does not itself supply a cause of action, but assuming an available vehicle (e.g., \u00a71983), the County\u2019s retention of value beyond the debt is unconstitutional; I would not reach the Excessive Fines issue.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Tyler establishes that a taxpayer retains a protected property interest in home equity\u2014i.e., value beyond what is needed to satisfy the tax debt and lawful costs\u2014and that the government may not treat that residual interest as its own simply because it enforced a lien. Applying a merits/remedy separation, the constitutional wrong here is the County\u2019s retention of value in excess of the taxes, fees, and costs; that defect is not cured by structuring the process as a forced sale that predictably yields a depressed price, because the Takings Clause turns on the owner\u2019s property interest in the surplus value, not the County\u2019s ability to eliminate that surplus through the mechanics of sale. The Sixth Circuit\u2019s sale-price-only approach effectively allows the County to evade Tyler by destroying the owner\u2019s equity rather than openly confiscating it, and nothing in Tyler or historical tax-sale practice (including the longstanding norm of returning surplus) supports that result. Because the alleged injury is the loss of surplus value attributable to the County\u2019s retention (rather than a purely formal defect), retrospective relief may be appropriate upon proof of the amount wrongfully kept; the Eighth Amendment issue need not be reached to resolve the takings claim.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Under Tyler, the taxpayer retains a protected property interest in the home\u2019s equity, and the County effects a taking when it confiscates more than is needed to satisfy the delinquent taxes, fees, and allowable costs. The Sixth Circuit\u2019s sale-proceeds-only benchmark risks turning Tyler into a dead letter, because a forced tax sale can predictably yield a depressed price and thereby permit the government to retain substantial equity without paying \u201cjust compensation.\u201d On these facts\u2014foreclosure for roughly $2,200 and retention of value well beyond that amount\u2014the County has taken private property (the surplus equity) for public use without compensating the owner; any further dispute about precise valuation mechanics (fair market value at the time of taking versus some other measure) should not defeat liability and may require remand for application in the first instance. Because the case is resolved on Takings grounds, I would not reach the Excessive Fines question, though the magnitude of the excess retained would raise serious proportionality concerns if characterized as punitive.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Tyler v. Hennepin County supplies the governing framework and is the critical precedent: it held that, even in a tax-collection setting, the former owner retains a constitutionally protected property interest in the value beyond the government\u2019s lawful tax claim, so the State may take what it is owed but not keep the rest. On the specific facts here, the county\u2019s approach\u2014treating \u201csurplus\u201d as only whatever remains after a forced sale price (even if depressed) rather than the owner\u2019s actual equity\u2014lets the government define away the protected interest Tyler recognized and invites retention of value simply by selling below market. That is a taking of the owner\u2019s remaining property interest without just compensation when the county keeps value beyond taxes, penalties, interest, and allowable costs. Because the Fifth Amendment analysis resolves the case under Tyler\u2019s ownership-and-retention rule, I would not reach the Excessive Fines question.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Tyler confirms that a homeowner retains a protected property interest in equity beyond the amount needed to satisfy delinquent taxes, penalties, interest, and allowable costs, and the Constitution\u2019s protection cannot turn on the government\u2019s chosen form of collection (foreclosure-sale mechanics) rather than the substance of what it takes. Using only the depressed sale price as the measure of \u201csurplus\u201d invites an end run around Tyler: the County can sell below fair market value, declare there is no surplus \u201cproceeds,\u201d and still keep the owner\u2019s equity\u2014an outcome that treats the forced-sale procedure as a talisman to erase the underlying property interest. The Takings Clause asks whether the government appropriated value it had no right to keep; on these facts, retaining value beyond the tax debt and costs is a taking even if the sale generated no paper \u201csurplus\u201d because of an under-market sale. Because the Fifth Amendment resolves the case, I would not reach the Excessive Fines issue, though the forfeiture-like retention of excess value also looks at least partly punitive and thus would implicate the Eighth Amendment under Austin\u2019s \u201cin part to punish\u201d rule.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The precise question presented is whether the County may constitutionally retain the owner\u2019s equity by structuring the foreclosure and sale so that no \u201csurplus proceeds\u201d appear on paper\u2014especially where the property is sold below fair market value. Under Tyler v. Hennepin County, the Constitution recognizes that the taxpayer retains a protected property interest in the excess value beyond taxes, penalties, interest, and allowable costs; that property interest does not disappear merely because the County\u2019s chosen sale mechanism yields a depressed price. Reading Tyler narrowly but faithfully, it rejected the government\u2019s claim to keep more than it is owed, and the Takings Clause analysis turns on what the owner lost (home equity), not solely on whether the government booked a cash \u201csurplus\u201d at auction. Because the County\u2019s rule would allow an end-run around Tyler by selling low and keeping the equity indirectly, I would hold there is a taking to the extent the County retained value beyond the lawful debt, without reaching the Excessive Fines issue unless necessary on remand.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The Takings Clause is a limitation on government power, and nothing in its text, history, or precedent supports a tax-foreclosure carveout allowing a county to retain value beyond what it is owed. Under Tyler, the owner has a protected property interest in the home\u2019s equity (the value above taxes, fees, and costs), and the county\u2019s act of extinguishing that equity is properly characterized as a taking of private property for public use. The Sixth Circuit\u2019s sale-price-only approach wrongly redefines the property interest as \u201csurplus proceeds\u201d and lets the government avoid just compensation by selling below market; just compensation is measured by the fair market value of the equity at the time of the taking, not a depressed forced-sale remainder. Because the county kept substantial value beyond the tax debt, it imposed on a discrete owner a burden that should be borne by the public at large, triggering a compensation requirement.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Tyler recognizes that a homeowner retains a constitutionally protected property interest in home equity beyond the amount needed to satisfy taxes, penalties, and allowable costs, and procedural labels in a state foreclosure scheme cannot extinguish that interest without just compensation. A rule that measures \u201csurplus\u201d only by reference to a predictably depressed tax-sale price\u2014especially where the county controls the process and has incentives to accept below-market bids\u2014invites governments to evade Tyler and undermines procedural fairness by making the owner\u2019s constitutional entitlement turn on an auction\u2019s structural distortions rather than the owner\u2019s actual equity. Applying ordinary takings principles and practical consequences, the county\u2019s retention of value beyond the debt is a taking of the owner\u2019s equity, and just compensation cannot be reduced to whatever excess happens to remain after a below-market sale. Because the Fifth Amendment analysis resolves the case, I would not reach the Excessive Fines question here.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.803,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "25-95",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a county violates the Fifth Amendment Takings Clause and/or the Eighth Amendment Excessive Fines Clause when it satisfies a small delinquent property-tax debt by taking title to a home and keeping the owner\u2019s equity (i.e., the value above the tax debt) rather than returning it.",
+      "legal_provision": "U.S. Const. amend. V (Takings Clause: \"nor shall private property be taken for public use, without just compensation\") and U.S. Const. amend. VIII (Excessive Fines Clause); with background relevance to state tax-foreclosure procedures and federal tax-sale surplus rules (e.g., 26 U.S.C. \u00a7\u00a7 6331, 6335, 6342(b), 7403).",
+      "petitioner_position": "Petitioner argues that the county\u2019s retention of the property\u2019s surplus value/equity after collecting a comparatively tiny tax delinquency is an unconstitutional taking of a distinct property interest (home equity/surplus proceeds) requiring just compensation, and also functions as a punitive forfeiture grossly disproportionate to the underlying tax debt, thus constituting an excessive fine. Petitioner further challenges the Sixth Circuit\u2019s \u201cbright-line\u201d valuation approach (as described in the amici) that effectively measures the owner\u2019s loss by the property\u2019s depressed tax-sale price rather than fair market value or the equity actually confiscated, which (on petitioner\u2019s view) lets governments evade constitutional scrutiny by selling below value and then claiming no meaningful surplus existed.",
+      "respondent_position": "Respondent (Isabella County) argues that the Constitution does not entitle a delinquent taxpayer to anything beyond what the governing foreclosure/tax-sale framework provides, and that the county\u2019s actions were a lawful mechanism to collect delinquent taxes rather than a compensable taking or a punitive fine. The county\u2019s opposition briefing (as characterized by petitioner-side amici) relies on administrability and existing circuit/state precedents upholding similar tax-collection regimes, contending that any loss of equity follows from the taxpayer\u2019s failure to pay and the operation of property/tax law\u2014not from an unconstitutional confiscation. Respondent also seeks to narrow or avoid the Excessive Fines issue, framing the case as a tax-collection matter (remedial) rather than punishment triggering the Eighth Amendment.",
+      "key_precedents": [
+        "Tyler v. Hennepin County (2023) (tax foreclosure and retention of surplus equity implicating the Takings Clause)",
+        "Sixth Circuit precedents (unspecified in the excerpts provided) that petitioner-side briefs criticize as \"flawed\" or overly rigid on valuation and surplus/equity concepts",
+        "Federal tax collection statutes and implementing regulations (26 U.S.C. \u00a7 6342(b); 26 C.F.R. \u00a7 301.6342-1(b)) cited by the United States amicus to show the federal government generally refunds surplus sale proceeds"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.86,
+        "reasoning": "The County\u2019s strongest argument is that its foreclosure scheme merely defined the owner\u2019s property interest to end at the moment title vested, so there is no \"surplus\" to take; but Tyler and the historical \"overplus\" rule reject the notion that a State may erase a long-recognized interest in equity by relabeling it as forfeited. The dispositive distinction from Nelson is procedural: as I understand these facts, once title transferred the County\u2019s system afforded no meaningful mechanism to claim and recover the excess value, so the owner\u2019s loss of equity is fairly attributable to the government\u2019s action rather than to the owner\u2019s failure to pursue an available remedy. Justice Kavanaugh\u2019s emphasis that Tyler already supplies a narrow, administrable rule\u2014government may collect the debt but must return (or compensate for) the surplus\u2014reinforces that we can decide this case on the Takings Clause alone. Because that relief fully redresses the injury (the lost equity), I would follow constitutional avoidance and not reach the Excessive Fines question.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Respondent\u2019s best contention is that tax foreclosure merely defines title and thus extinguishes any separate \u201csurplus\u201d interest, leaving nothing for the State to take. But as the Chief Justice explains, Tyler and the settled 1791 \u201coverplus\u201d rule treat the equity beyond the debt and lawful charges as a distinct property interest that the government may not abolish by relabeling; the Takings Clause\u2019s text, understood in that historical context, forbids converting a collection mechanism into uncompensated confiscation. Justice Kavanaugh is right that the Takings Clause supplies a complete basis for decision: once the State takes more than what is owed, a self-executing duty of just compensation attaches, even if questions about the cause of action and remedial vehicle remain analytically separate. Because that right-and-scope question resolves liability, I see no need to reach the Eighth Amendment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The strongest respondent argument is that this is merely a permissible tax-collection device in which state law defines the owner\u2019s post-foreclosure interests to be zero, so there is no \u2018property\u2019 left to take. But Tyler forecloses that move: the homeowner retains a cognizable interest in the surplus value above the tax debt and lawful charges, and a State cannot legislate that traditional \u201coverplus\u201d away by relabeling it as forfeited. As Chief Justice Roberts and Justice Barrett emphasize, the Takings Clause supplies the specific, textually grounded rule here and makes the owner\u2019s loss\u2014retention of equity beyond the debt\u2014the constitutional injury, regardless of resale mechanics or administrability concerns. Because that resolves liability, remedial questions (valuation, offsets, timeliness) can be tailored on remand rather than expanding into an unnecessary Excessive Fines inquiry.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "Respondent\u2019s best point\u2014that once title vests there is no cognizable surplus interest, especially if the County never realizes excess proceeds\u2014rests on a formalism Tyler rejects. The Constitution looks to what the owner lost, and as Chief Justice Roberts underscores, this scheme provided no meaningful mechanism to claim and recover the equity after title transfer, making the government\u2019s retention of value beyond the tax debt fairly attributable to the State. Justice Thomas\u2019s historical \u201coverplus\u201d baseline reinforces that tax collection authority does not include confiscating additional value without compensation. While I share Justice Kagan\u2019s concern that retaining many multiples of the delinquency may look punitive and could implicate Bajakajian, the Takings Clause analysis supplies complete relief here, so I would not reach the Eighth Amendment.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The strongest respondent-side argument would be that this is simply a tax-collection mechanism (and so the owner\u2019s loss of equity is an indirect consequence of delinquency and foreclosure rules), but that causal story is not \u201ctoo attenuated\u201d: the scheme itself is designed to extinguish the owner\u2019s surplus interest once the County takes title, and Tyler makes clear that surplus equity remains the taxpayer\u2019s property. As the Chief notes, unlike regimes that provide a meaningful path to claim the excess, this one operates to transfer the overplus to the government categorically, so the Fifth Amendment\u2019s compensation requirement attaches to what is taken beyond the debt, interest, and costs. Administrability concerns or a depressed sale price cannot redefine away the property interest; they go, at most, to valuation. And with Justice Alito and Justice Kavanaugh, I would resolve the case on the Takings Clause without reaching the Excessive Fines issue absent necessity.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.86,
+        "reasoning": "The strongest respondent move is to say state foreclosure law extinguished any cognizable interest in the surplus by operation of procedure, so nothing \"private\" remained to be taken. But under the Butner/Bess/National Bank of Commerce baseline, we identify the property interest first, and Tyler confirms that the owner retains a distinct interest in the overplus beyond the tax debt and lawful charges that the State may not define away through \"linguistic contortion and logical leap.\" Chief Justice Roberts\u2019s point about the absence of any meaningful mechanism to reclaim the surplus only underscores that the scheme\u2019s operation is confiscatory rather than merely a method of collecting what is owed. I agree with Justice Alito and Justice Kavanaugh that the Takings Clause supplies a complete rule and remedy here, so we need not reach the Eighth Amendment unless the Court thinks the county\u2019s deterrence rationale requires addressing punishment.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.84,
+        "reasoning": "The County\u2019s best point is that this is tax collection by foreclosure and that, once title vests under state law, no separate property remains\u2014so Tyler is distinguishable. But as Chief Justice Roberts explains, Tyler and the historical overplus rule reject the idea that a State may define away the owner\u2019s equity interest above the tax debt, interest, and costs by relabeling the surplus as forfeited at the moment of vesting, especially where (as here) there is no meaningful mechanism to claim and recover the excess. That provides an administrable, categorical rule: the government may collect what it is owed, but must return or compensate for the surplus; we need not add an extra layer of analysis by reaching the Eighth Amendment. Justice Alito\u2019s point about constitutional avoidance is persuasive: the Takings Clause fully resolves liability and relief, leaving valuation and offsets for remand under ordinary procedures.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The County\u2019s strongest contention\u2014that the foreclosure statute automatically extinguishes the owner\u2019s equity so there is no discrete governmental \u201cact\u201d and no compensable property\u2014fails under the Takings Clause\u2019s text and settled background principles. As Chief Justice Roberts and Justice Thomas emphasize, history treated the \u201coverplus\u201d as the taxpayer\u2019s property, and Tyler confirms a State may not define that longstanding interest away by labeling its retention a mere incident of tax collection. The relevant act is the State\u2019s acquisition and retention of value beyond the debt, interest, and lawful costs, and the Fourteenth Amendment constrains the State as an undivided whole, so the County cannot evade the compensation baseline by pointing to the legislature\u2019s choice of mechanism rather than an executive seizure. Any concerns about resale price or administrability go to valuation and remedy, not to whether a taking occurred.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The County\u2019s best argument remains that state foreclosure law extinguishes the owner\u2019s interest at title transfer, so any later \u201csurplus\u201d is not the taxpayer\u2019s property. But as the Chief Justice explains, Tyler rejects that formalism: the constitutional defect is the government\u2019s retention of value beyond the tax debt and lawful costs, and state-law labels cannot erase the historically grounded overplus interest Justice Thomas highlights. Under remedial tailoring principles, the appropriate relief is just compensation for the surplus equity taken\u2014leaving valuation and offsets to be handled on remand\u2014rather than endorsing a scheme that defines away the very interest the Fifth Amendment protects. Because that compensation remedy fully addresses the identified violation, I agree with Justice Kavanaugh that we should resolve the case on the Takings Clause and avoid the Excessive Fines question.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.83,
+        "reasoning": "The Takings Clause embodies a basic fairness principle: the government may collect what is owed in taxes, but it may not force a single taxpayer to bear a public burden by confiscating value far beyond the delinquency. Historical practice and our precedents treat the owner\u2019s \u201csurplus\u201d (equity above the tax debt, interest, and costs) as the owner\u2019s property, and state-law labels cannot erase that long-recognized property interest. Unlike Nelson, this county\u2019s scheme, on these facts, provided no meaningful mechanism for the owner to claim and recover the excess value once title transferred, so retention of the equity states a taking requiring just compensation. Because a Takings remedy would fully redress the alleged injury\u2014the loss of surplus value\u2014I would not reach the Excessive Fines question.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "We begin with the Fifth Amendment\u2019s text\u2014private property shall not \u201cbe taken for public use, without just compensation\u201d\u2014as it was publicly understood in 1791, against the settled background principle that government may collect what is owed but must return any \u201coverplus\u201d beyond the debt and lawful charges. On these facts, once the County satisfied the small property-tax delinquency, its retention of the remaining home equity (whether characterized as surplus proceeds or equitable title/value) appropriated a distinct property interest that the owner otherwise would have kept, and that is a taking requiring just compensation regardless of whether the County profited or sold below market value. Separately, the Eighth Amendment question turns on whether the equity-retention mechanism operates as punishment rather than mere debt collection; but the takings inquiry is a threshold matter, and the County\u2019s permanent confiscation of value exceeding the tax obligation is sufficient to establish a Fifth Amendment violation. Finally, while the Takings Clause is \u201cself-executing\u201d as to the substantive duty to provide compensation, the availability of a judicial cause of action is a separate remedial question typically supplied by statute (e.g., \u00a71983) or state-law mechanisms rather than implied directly from the Constitution.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The governing analysis is supplied by the Fifth Amendment\u2019s Takings Clause\u2014an explicit textual protection for the government\u2019s appropriation of private property\u2014so the case should be resolved there rather than by resort to broader, more generalized theories. Under Tyler v. Hennepin County, the homeowner retains a cognizable property interest in the surplus value (equity) remaining after the tax debt and lawful charges are satisfied, and a State may not define that interest away by labeling the excess as forfeited under its foreclosure scheme. On these facts, once the county used the home\u2019s value to satisfy a small delinquent tax debt and then kept the remaining equity instead of returning it, it took private property for public use without paying just compensation. Any Eighth Amendment question about punishment and proportionality is unnecessary to decide where the Takings Clause already supplies a direct rule and a complete basis for relief.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Under Tyler v. Hennepin County, the homeowner retains a discrete property interest in the surplus equity above the tax debt, and the County\u2019s decision to take title and keep that equity effects a taking requiring just compensation; the Constitution\u2019s focus is the owner\u2019s loss, not whether the County engineered the loss through a below-value sale or by retaining title. The County\u2019s effort to measure the owner\u2019s loss by a depressed tax-sale price rather than the fair value of the confiscated equity cannot defeat that protected property interest, because labeling or administrability concerns do not eliminate the surplus that belongs to the owner. On the Eighth Amendment question, retaining value far exceeding a small tax delinquency looks at least partly punitive rather than purely remedial (it goes beyond making the government whole), triggering Bajakajian\u2019s proportionality inquiry; on these facts, confiscating an entire home\u2019s equity to satisfy a modest tax debt is plausibly grossly disproportionate. At minimum, the County cannot avoid constitutional scrutiny by recasting what is effectively a punitive forfeiture as mere tax collection while providing no mechanism to return surplus value to the taxpayer.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.83,
+        "reasoning": "Start with the Fifth Amendment\u2019s text\u2014private property may not be taken without just compensation\u2014and then ask what the government actually did in operation: it did not merely collect the delinquent tax, it extinguished the owner\u2019s distinct equity interest by taking title and keeping value far exceeding the tax debt. Under Tyler, history and state-law property principles treat that surplus/equity as the owner\u2019s property, so the causal chain is not \u201cattenuated\u201d: the county\u2019s foreclosure mechanism directly effects the uncompensated transfer of the surplus to the government, and administrability or a low tax-sale price cannot re-label that confiscation as if no surplus existed. On the Eighth Amendment claim, the county\u2019s retention of many multiples of the debt functions like a punitive forfeiture rather than a calibrated, remedial collection device, and the gross disproportionality between the small tax delinquency and the equity kept strongly supports an excessive-fines violation.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.83,
+        "reasoning": "Start with the Constitution\u2019s operative protection: the Takings Clause forbids the government from taking \u201cprivate property\u201d without just compensation. Under the Butner/Bess/National Bank of Commerce principle, we look first to state law to identify the baseline property interest, and Tyler confirms that a homeowner retains a cognizable property interest in the surplus value/equity above a tax debt; taking title and keeping that equity to satisfy a small delinquency therefore effects a taking requiring compensation. The county\u2019s administrability-based invitation to treat the equity as forfeited by procedural operation cannot override that property baseline without the sort of \u201clinguistic contortion and logical leap\u201d our precedents reject. And if the county\u2019s retention of surplus is also defended as a deterrent against delinquency, Austin\u2019s rule would at least implicate the Excessive Fines Clause because the scheme serves \u201cin part to punish,\u201d regardless of any remedial tax-collection aims.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "This Court\u2019s existing doctrinal lines\u2014most directly Tyler v. Hennepin County\u2014already supply the rule: while the government may take and sell real property to satisfy a tax debt, it may not categorically confiscate the owner\u2019s separate property interest in the surplus value (equity) above the debt without just compensation. Applying that precedent here, the county\u2019s taking of title to the home to collect a small delinquency and then retaining the value above the tax debt is a taking of the \u201coverplus\u201d interest Tyler recognized, and a timely post-deprivation remedy that returns nothing does not cure that constitutional defect. Petitioner\u2019s Takings Clause claim therefore succeeds at least to the extent of the surplus proceeds/equity the county kept. Given that resolution under controlling Takings precedent, I would not extend the analysis to create a broader Eighth Amendment rule in the first instance absent necessity, especially where the County characterizes the measure as tax collection rather than punishment.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The relevant governmental act is the County\u2019s taking title to the home to satisfy a small tax delinquency and then retaining the owner\u2019s remaining equity\u2014i.e., the value beyond what was owed\u2014without paying anything for that surplus. Read in the Takings Clause\u2019s passive voice, the constitutional question is whether private property was \u201ctaken \u2026 without just compensation,\u201d and neither the Clause\u2019s text nor history supports an exemption for tax-collection mechanisms that confiscate more than the debt. Tyler confirms that a taxpayer retains a property interest in surplus value/equity and that the Constitution does not make compensation turn on whether the government realizes a \u201cwindfall\u201d on resale as opposed to extinguishing the owner\u2019s equity by operation of foreclosure rules. Because the State is constrained as an undivided whole, the County cannot avoid ordinary takings rules by characterizing the confiscation as merely the automatic consequence of a statutory foreclosure process rather than an affirmative seizure requiring compensation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The precise constitutional defect here is not the county\u2019s use of foreclosure to collect delinquent taxes, but its retention of the owner\u2019s surplus equity after the tax debt (and associated lawful costs) was fully satisfied; under Tyler, that surplus is a protected property interest, and keeping it for public use without paying for it is a taking. Tailoring the remedy to that violation, the Constitution requires compensation in the amount of the surplus value appropriated\u2014measured by a fair, administrable valuation tied to what a properly conducted sale would have yielded beyond the debt\u2014rather than a rule that lets the government define away the surplus through a depressed sale price. Due process principles reinforce that point: whatever predeprivation opportunities existed to contest the tax delinquency, they do not authorize the government to confiscate unrelated equity once the debt is paid, and any administrability concerns cannot override the Fifth Amendment\u2019s compensation baseline. Because the case can be resolved on the Takings Clause as a direct limit on uncompensated appropriation, I would not need to reach the Eighth Amendment question to provide complete relief.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.846,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.83,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.83,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.83,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.86,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.86,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.86,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.86,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3"
+  }
+]

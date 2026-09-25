@@ -1,0 +1,70 @@
+{
+ "docket": "22-976",
+ "term": 2023,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:02:40+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.2,
+  "Clarence Thomas": 0.45,
+  "Samuel Alito": 0.1,
+  "Elena Kagan": 0.05,
+  "Neil Gorsuch": 0.1,
+  "Brett Kavanaugh": 0.05,
+  "Amy Coney Barrett": 0.05
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.55,
+   "concurs": 0.55
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.9,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.4,
+   "concurs": 0.4
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.45,
+   "concurs": 0.45
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts assigned the majority opinion, and Thomas is the most likely author given his high confidence, strong textualist framing, and seniority among the conservatives who form the core of the majority. Alito and Gorsuch are likely to write separately to emphasize the rule of lenity or separation-of-powers concerns, while Kagan may concur separately to note the statutory text analysis without broader anti-deference implications, and Sotomayor is very likely to write a dissent given her strong views and the public salience of the case.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.20,\n    \"Clarence Thomas\": 0.45,\n    \"Samuel Alito\": 0.10,\n    \"Elena Kagan\": 0.05,\n    \"Neil Gorsuch\": 0.10,\n    \"Brett Kavanaugh\": 0.05,\n    \"Amy Coney Barrett\": 0.05\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Clarence Thomas\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Samuel Alito\": {\"writes_separately\": 0.55, \"concurs\": 0.55},\n    \"Elena Kagan\": {\"writes_separately\": 0.40, \"concurs\": 0.40},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.45, \"concurs\": 0.45},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.90, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.75, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts assigned the majority opinion, and Thomas is the most likely author given his high confidence, strong textualist framing, and seniority among the conservatives who form the core of the majority. Alito and Gorsuch are likely to write separately to emphasize the rule of lenity or separation-of-powers concerns, while Kagan may concur separately to note the statutory text analysis without broader anti-deference implications, and Sotomayor is very likely to write a dissent given her strong views and the public salience of the case.\"\n}\n```"
+}

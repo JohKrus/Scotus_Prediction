@@ -1,0 +1,568 @@
+[
+  {
+    "docket": "23-1209",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": true,
+    "case_analysis": {
+      "focal_point": "Whether ERISA\u2019s MPPAA requires a multiemployer pension plan to calculate an employer\u2019s withdrawal liability using only the actuarial assumptions in effect (and disclosed in the most recent valuation) as of the end of the plan year preceding the employer\u2019s withdrawal, thereby barring later-adopted assumptions from being applied to that prior-year measurement.",
+      "legal_provision": "Employee Retirement Income Security Act of 1974 (ERISA), as amended by the Multiemployer Pension Plan Amendments Act of 1980 (MPPAA), principally 29 U.S.C. \u00a7 1391 (allocation and measurement of unfunded vested benefits) and related withdrawal-liability calculation provisions in 29 U.S.C. \u00a7 1399 (assessment/collection procedures), with the dispute centered on statutory timing and the permissible use of actuarial assumptions in calculating \u201cunfunded vested benefits.\u201d",
+      "petitioner_position": "Petitioners argue that \u00a7 1391 imposes a clear timing rule: withdrawal liability must be based on the plan\u2019s unfunded vested benefits as of the end of the plan year preceding withdrawal, and because unfunded vested benefits are a present-value measure that depends critically on actuarial assumptions (especially the interest/discount rate), the plan may not retroactively change those assumptions after the measurement date and then apply the new assumptions to the prior-year calculation. They contend that allowing post-year-end assumption changes (even if adopted before the assessment letter issues) unlawfully inflates liability, creates unequal treatment among withdrawing employers depending on when the plan/actuary re-sets assumptions, and defeats predictability; in their view, the statute requires the assumptions used for the relevant year-end valuation to be the ones actually used for the withdrawal-liability computation for that year-end snapshot (or at least those previously reported to regulators). They further maintain that this is not merely an \u2018actuarial reasonableness\u2019 issue for arbitration, but a threshold statutory compliance problem (a prohibited retroactive recalculation) that courts should police.",
+      "respondent_position": "Respondent Fund argues that nothing in the MPPAA freezes actuarial assumptions to the assumptions used in the last completed valuation as of the measurement date, and Congress knew how to write such a fixation rule when it wanted to (pointing to other MPPAA provisions that explicitly tie certain determinations to \u2018assumptions used for the most recent actuarial valuation\u2019). The Fund maintains that the actuary may adopt updated assumptions consistent with professional standards and plan experience and use them in calculating unfunded vested benefits for withdrawal liability, so long as the assumptions are actuarially reasonable; objections that the new assumptions are wrong, unfair, or inconsistent with prior practice are precisely the kinds of disputes Congress channeled into the MPPAA\u2019s mandatory arbitration process. Respondent also disputes the premise that the assessment here was an impermissible post-withdrawal retroactive change, characterizing petitioners\u2019 position as an attempt to convert a reasonableness dispute into a categorical statutory bar that would hamstring plan administration and undermine the funding/protection goals of the multiemployer scheme.",
+      "key_precedents": [
+        "Metz (Second Circuit decision addressing retroactive alteration of interest-rate assumptions in withdrawal-liability calculations, cited by petitioners as controlling in principle)",
+        "Jacobson v. Fireman\u2019s Fund Ins. Co., 111 F.3d 2 (2d Cir. 1997) (mentioned in the record excerpt, though not central to the MPPAA merits issue)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d concern most forcefully warns that allowing later assumption changes could undermine predictability for withdrawing employers, but I do not see a textual basis in \u00a7 1391 for a categorical timing bar on which assumptions may be used to value the fixed year-end measurement date. As Justice Kagan and Justice Barrett emphasize, Congress elsewhere expressly locked calculations to \u201cassumptions used for the most recent actuarial valuation\u201d (e.g., \u00a7 1399(c)(1)(A)(ii)), and the omission of similar language here counsels against reading one in by implication. Concrete Pipe, highlighted by Justice Alito, reinforces that Congress channeled disputes over actuarial inputs into arbitration with review for whether assumptions and methods are, in the aggregate, unreasonable\u2014an administrable, statute-congruent way to police opportunistic changes without creating an extra-textual prohibition. Metz may reflect a policy preference for stability, but under a minimalist approach I would not extend it beyond its facts to impose a nationwide lock-in rule that Congress did not enact.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d point powerfully highlights predictability concerns, but under a textualist reading the snapshot in \u00a7 1391 fixes the measurement date for UVBs and does not add an unstated constraint freezing actuarial assumptions to those previously used. As Chief Justice Roberts and Justice Kagan emphasize, Congress elsewhere expressly tied calculations to \u201cassumptions used for the most recent actuarial valuation\u201d (e.g., \u00a7 1399(c)(1)(A)(ii)); that contrast makes it difficult to infer a categorical timing bar here. Concrete Pipe, invoked by Justice Alito, reinforces that disputes over actuarial assumptions and methods are channeled into \u00a7 1401 arbitration and reviewed under the \u201cin the aggregate, unreasonable\u201d standard, which is the statute\u2019s chosen mechanism to police opportunistic changes without judicially creating an atextual prohibition. Metz may reflect a prudential preference for administrability, but absent clear statutory language it cannot override the enacted structure.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d point is the strongest for Petitioners because it appeals to predictability and a non-manipulable year-end measurement, but it still asks us to graft an assumptions-freeze onto \u00a7 1391 that Congress did not write. As the Chief Justice notes, Congress knew how to impose an explicit lock-in\u2014\u00a7 1399(c)(1)(A)(ii) ties calculations to assumptions used in the most recent valuation\u2014and the omission of parallel language in \u00a7 1391 is telling under a textualist approach. Concrete Pipe, emphasized by Justices Roberts and Kagan, matters because it confirms Congress\u2019s design: actuarial inputs are presumptively correct and policed through arbitration under \u00a7 1401(a)(3)(B)(i)\u2019s \u201cin the aggregate, unreasonable\u201d standard, not via a judicially created categorical timing bar. Metz may express a salutary policy concern about after-the-fact recalibration, but absent clearer statutory text it cannot justify converting a reasonableness dispute into threshold illegality that would displace the scheme Congress enacted.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.55,
+        "reasoning": "Chief Justice Roberts and Justice Kagan press the strongest textual point: \u00a7 1391 fixes the valuation date but does not expressly freeze assumptions, and Congress elsewhere used explicit lock-in language (e.g., \u00a7 1399(c)(1)(A)(ii)). But I read that contrast differently: it shows Congress\u2019s sensitivity to administrable, snapshot-based calculations, and it would be internally incoherent to require installment schedules to track the \u201cmost recent actuarial valuation\u201d assumptions while allowing the principal liability for that same closed year-end to be recomputed later using newly selected assumptions. Concrete Pipe, as Justice Alito emphasizes, reinforces deference to actuarial judgment within the statutory framework, yet it does not answer the threshold statutory question whether a plan may retroactively substitute assumptions for a prior valuation date in the first place; arbitration cannot supply authority the statute withholds. Given the predictable real-world leverage and surprise such retroactive changes create for withdrawing employers (and the downstream effects on workers and access to a meaningful arbitral contest), I continue to read MPPAA\u2019s timing structure as barring after-the-fact remeasurement of a past year-end snapshot by new assumptions.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d point remains the best argument for Petitioners because it highlights real reliance and anti-manipulation concerns if plans can later revise assumptions and apply them to a closed valuation date. But as Chief Justice Roberts and Justice Barrett emphasize, Congress knew how to impose an explicit assumptions lock-in (e.g., \u00a7 1399(c)(1)(A)(ii)), and \u00a7 1391\u2019s silence is hard to reconcile with reading in a categorical timing bar under a textual, architecturally coherent approach. Concrete Pipe, highlighted by Justice Alito, matters here because it confirms Congress\u2019s design choice: disputes about actuarial assumptions and methods are presumptively correct and policed through \u00a7 1401 arbitration for whether they are \u201cin the aggregate, unreasonable,\u201d which is a workable way to address Sotomayor\u2019s fairness concerns without inventing a bright-line statutory prohibition. Metz may reflect a prudential preference for predictability, but in this statutory scheme I don\u2019t see a textual hook strong enough to convert that preference into a nationwide rule of illegality rather than an arbitral reasonableness inquiry.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d concern about after-the-fact recalibration is the most serious pushback, but under a textualist reading \u00a7 1391 fixes the valuation date for measuring UVBs, not a freeze on actuarial assumptions, and importing such a lock-in would add words Congress did not enact. As the Chief Justice and Justice Barrett emphasize, Congress knew how to impose an express assumptions tie (e.g., \u00a7 1399(c)(1)(A)(ii)\u2019s reference to assumptions used in the most recent actuarial valuation) and its omission in \u00a7 1391 is meaningful. Concrete Pipe, highlighted by Justices Alito and Thomas, reinforces that Congress channeled disputes over actuarial inputs into \u00a7 1401 arbitration with an \u201cin the aggregate, unreasonable\u201d standard, which is the proper textual vehicle for policing manipulation without creating a categorical timing bar. Metz and the administrability concerns may inform whether an assumption change is unreasonable or misapplied, but they cannot justify rewriting \u00a7 1391\u2019s scheme.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor\u2019s strongest point remains that a year-end \u201csnapshot\u201d is undermined if plans can later change assumptions and apply them back to that closed date, creating unpredictability and potential manipulation. But as the Chief Justice and Justice Barrett emphasize, \u00a7 1391 fixes the valuation date without locking the assumptions, and Congress demonstrated it knew how to impose an assumptions lock-in when it wanted to (e.g., \u00a7 1399(c)(1)(A)(ii)); under a history-and-tradition, institutionally modest approach, we should not add an atextual categorical timing rule. Concrete Pipe\u2014invoked by Justice Alito\u2014matters because it confirms Congress deliberately routed disputes about actuarial inputs to arbitration with presumptive correctness and an \u201cin the aggregate, unreasonable\u201d backstop, which is the statute\u2019s chosen mechanism to police opportunism while preserving administrability. I therefore see Sotomayor\u2019s fairness concerns as relevant to arbitral reasonableness/misapplication review, not as a threshold statutory illegality that would bypass the MPPAA\u2019s detailed scheme.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d concern about retroactive recalibration has intuitive force, but under a textualist reading \u00a7 1391 fixes the valuation date for measuring UVBs and does not itself freeze actuarial assumptions to those previously in use. As the Chief Justice notes, Congress knew how to impose an express lock-in to \u201cassumptions used for the most recent actuarial valuation\u201d (e.g., \u00a7 1399(c)(1)(A)(ii)), and the absence of comparable language in \u00a7 1391 makes it hard to justify a categorical timing bar by implication. Concrete Pipe, emphasized by Justices Alito and Kagan, supports treating disputes over assumptions and methods as questions for the MPPAA\u2019s arbitration framework under \u00a7 1401(a)(3)(B)(i)\u2019s \u201cin the aggregate, unreasonable\u201d standard rather than threshold statutory illegality. Petitioners\u2019 predictability concerns therefore bear on whether updated assumptions are reasonable and properly applied to the year-end measurement, not on whether the statute forbids their use altogether.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor\u2019s \u201csnapshot\u201d concern about after-the-fact recalibration is the strongest counterargument, and it raises real predictability and manipulation risks for withdrawing employers. But as the Chief Justice and Justice Kagan emphasize, Congress knew how to impose an assumptions lock-in\u2014\u00a7 1399(c)(1)(A)(ii)\u2019s express reference to \u201cassumptions used for the most recent actuarial valuation\u201d is a telling contrast, and \u00a7 1391\u2019s silence is hard to treat as an implied categorical timing bar. Concrete Pipe also matters here: it reinforces that Congress addressed fairness concerns procedurally by routing disputes over the selection/application of assumptions to mandatory arbitration with presumptive correctness, policed by the \u201cin the aggregate, unreasonable\u201d standard, rather than by a judicially created illegality rule. Under my pragmatic, process-focused approach, the better safeguard against opportunism is enforcing that arbitral reasonableness framework (and scrutinizing misapplication), not reading into \u00a7 1391 a bright-line prohibition that Congress did not write.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The statute fixes the measurement date for \u201cunfunded vested benefits\u201d to the end of the plan year preceding withdrawal, 29 U.S.C. \u00a7\u00a7 1381(b)(1), 1391, but it does not expressly freeze the actuarial assumptions that must be used for that calculation to those in the most recent completed valuation. Congress demonstrated it knew how to impose an assumptions-fixation rule when it wished, as in \u00a7 1399(c)(1)(A)(ii) (installment schedules \u201cbased on the assumptions used for the most recent actuarial valuation\u201d), and we should not add a broader limitation by implication given ERISA/MPPAA\u2019s detailed scheme. Disputes over whether updated assumptions are permissible or unfair are channeled into the MPPAA\u2019s arbitration framework and reviewed under the \u201cactuarial reasonableness\u201d standard, preserving administrability and institutional legitimacy through a narrow holding. To the extent Metz suggests a categorical bar on later-adopted assumptions, I would not extend it beyond its facts absent clearer statutory text, particularly where the plan\u2019s actuary adopts assumptions as part of the assessment process rather than to evade a settled liability determination.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The statutory text fixes the measurement date for \u201cunfunded vested benefits\u201d at the end of the plan year preceding withdrawal, 29 U.S.C. \u00a7 1391, but it does not by its terms freeze the actuarial assumptions to those used in the most recent valuation or otherwise prohibit an actuary from applying later-adopted (but actuarially reasonable) assumptions to that measurement. Where Congress intended to lock particular calculations to \u201cthe assumptions used for the most recent actuarial valuation,\u201d it said so expressly elsewhere, underscoring that the absence of such language in \u00a7 1391 is meaningful under a textual reading. Disputes about whether assumptions and methods are \u201cin the aggregate, unreasonable\u201d are channeled to arbitration under 29 U.S.C. \u00a7 1401(a)(3)(B), and Concrete Pipe confirms that this scheme\u2014including deference to actuarial determinations on UVBs\u2014comports with ERISA\u2019s structure while leaving pure questions of law for courts. Petitioners\u2019 proposed categorical timing bar is not found in the enacted text and would override Congress\u2019s chosen reasonableness-and-arbitration mechanism for policing actuarial inputs.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Nothing in 29 U.S.C. \u00a7 1391 expressly freezes the actuarial assumptions for measuring \u201cunfunded vested benefits\u201d to those used (or disclosed) in the most recent valuation as of the end of the prior plan year, and where Congress intended such a fixation rule it said so explicitly (e.g., provisions tying determinations to \u201cassumptions used for the most recent actuarial valuation\u201d). The MPPAA instead channels disputes over actuarial assumptions into mandatory arbitration, and 29 U.S.C. \u00a7 1401(a)(3)(B)(i) sets the governing standard\u2014whether the assumptions and methods used were, in the aggregate, unreasonable\u2014rather than imposing a categorical timing bar. Concrete Pipe confirms Congress\u2019s choice to give presumptive correctness to plan determinations of unfunded vested benefits subject to arbitral review for actuarial unreasonableness, with courts retaining plenary review only for true questions of law; petitioners\u2019 rule would convert an actuarial reasonableness dispute into a rigid statutory prohibition that would impede plan administration and the statute\u2019s protective funding aims.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The MPPAA anchors withdrawal liability to the plan\u2019s \u201cunfunded vested benefits\u201d as determined under \u00a7 1391 as of the end of the plan year preceding the employer\u2019s withdrawal, and that year-end \u201csnapshot\u201d loses much of its meaning if the plan may later revise core actuarial assumptions (especially the discount rate) and apply them retroactively to that closed period. Reading \u00a7\u00a7 1381 and 1391 together with \u00a7 1399(c)(1)(A)(ii)\u2019s express reference to \u201cassumptions used for the most recent actuarial valuation\u201d reinforces Congress\u2019s preference for administrable timing rules that provide predictability and neutral treatment among employers, rather than post hoc discretion that can dramatically inflate liability. While arbitration properly addresses whether assumptions are \u201cactuarially reasonable,\u201d this dispute is a threshold statutory-compliance question about whether later-adopted assumptions may be used to re-measure prior-year UVBs at all, and fairness to withdrawing employers\u2014and ultimately to workers whose jobs depend on stable contributing employers\u2014cuts against retroactive assumption changes. The Second Circuit\u2019s approach in Metz best respects the statute\u2019s timing structure and avoids imposing unexpected, after-the-fact burdens that can destabilize participating employers and access to justice for smaller entities facing inflated assessments.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Nothing in 29 U.S.C. \u00a7 1391 expressly freezes the actuarial assumptions to those used (or disclosed) in the most recent valuation as of the end of the plan year preceding withdrawal; Congress showed elsewhere in the MPPAA that it knew how to impose that kind of \u201cmost recent actuarial valuation\u201d lock-in when it wanted to, and it did not do so for measuring unfunded vested benefits. The better reading, consistent with the MPPAA\u2019s structure and workability, is that the plan may apply updated assumptions so long as they are \u201cactuarially reasonable,\u201d with disputes about whether the new assumptions improperly inflate liability channeled into the statute\u2019s mandatory arbitration process under 29 U.S.C. \u00a7 1401 rather than treated as a categorical statutory bar. Treating the timing objection as an across-the-board illegality would invite formalistic gamesmanship (e.g., shifting meeting dates) and undermine coherent administration of withdrawal-liability assessments under 29 U.S.C. \u00a7 1399. While Metz supports petitioners\u2019 timing-focused theory in the Second Circuit, I would not extend it into a nationwide rule absent clear statutory text, especially where the statute\u2019s remedial purpose favors accurate measurement of liabilities.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "The text of 29 U.S.C. \u00a7 1391 fixes the valuation date (end of the plan year preceding withdrawal) for measuring \u201cunfunded vested benefits,\u201d but it does not freeze the actuarial assumptions to those used in the most recent valuation or those previously disclosed; when Congress meant to lock in \u201cassumptions used for the most recent actuarial valuation,\u201d it said so expressly (e.g., in provisions like \u00a7 1399(c) referenced at argument). Reading an atextual fixation rule into \u00a7 1391 would add words Congress did not enact and would intrude on the scheme Congress chose, which generally channels disputes about actuarial inputs into mandatory arbitration, including whether assumptions are \u201cactuarially reasonable.\u201d PBGC v. R.A. Gray & Co., 467 U.S. 717 (1984), underscores that the MPPAA sets out detailed rules and accommodates retroactive/effective-date choices when Congress so provides, counseling against judicially imposing an additional retroactivity bar absent clear statutory language. Petitioners\u2019 fairness and predictability concerns may be substantial, but they are best addressed through the statute\u2019s reasonableness/arbitration mechanisms rather than a categorical timing prohibition not found in \u00a7 1391\u2019s plain terms.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "The text of ERISA\u2019s MPPAA does not expressly freeze the actuarial assumptions for measuring \u201cunfunded vested benefits\u201d under 29 U.S.C. \u00a7 1391 to those used in (or disclosed in) the most recent valuation as of the prior plan-year end, and where Congress wanted to lock assumptions to the \u201cmost recent actuarial valuation,\u201d it said so expressly elsewhere\u2014undercutting petitioners\u2019 proposed categorical timing rule. Consistent with the statutory design, disputes about the choice and updating of actuarial assumptions are primarily channeled into mandatory arbitration and reviewed under the \u201cin the aggregate, unreasonable\u201d standard in 29 U.S.C. \u00a7 1401(a)(3)(B)(i), rather than treated as a threshold illegality. Concrete Pipe & Products confirms that Congress built withdrawal-liability calculations around actuarial judgment with presumptions and arbitration to ensure workable administration, while reserving purely legal issues for courts; petitioners\u2019 theory risks converting many assumption disputes into broad judicial challenges and reducing practical workability. Given the absence of a clear statutory prohibition on later-adopted (but actuarially reasonable) assumptions, I would affirm for the Fund and leave employers to arbitrate reasonableness and application errors under \u00a7 1401.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The statutory text pegs the measurement date for \u201cunfunded vested benefits\u201d to the end of the plan year preceding withdrawal, 29 U.S.C. \u00a7 1391, but it does not separately freeze the actuarial assumptions to those \u201cin effect\u201d or disclosed in the most recent valuation as of that date; where Congress wanted such a lock-in rule, it said so expressly (e.g., provisions requiring determinations to be \u201cbased on the assumptions used for the most recent actuarial valuation of the plan\u201d). The MPPAA instead channels disputes about the assumptions and methods used to determine unfunded vested benefits into mandatory arbitration with a specific standard: the employer must show the assumptions and methods were, in the aggregate, unreasonable, 29 U.S.C. \u00a7 1401(a)(3)(B)(i). Concrete Pipe confirms that these actuarial-assumption issues are committed to arbitration subject to judicial review, while pure questions of law remain for courts; petitioners\u2019 proposed categorical bar is not grounded in the text of \u00a7 1391 or \u00a7 1399 and would displace the statutory reasonableness framework. Accordingly, absent a clear textual prohibition on using updated (but actuarially reasonable) assumptions for the prior-year valuation, the challenge is one for arbitration rather than a threshold statutory invalidity claim.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Nothing in 29 U.S.C. \u00a7 1391 expressly freezes the actuarial assumptions for measuring \u201cunfunded vested benefits\u201d to those disclosed in the most recent valuation as of the end of the prior plan year, and Congress demonstrated elsewhere that it knew how to impose such a lock-in rule when it wanted to (e.g., provisions tying determinations to \u201cassumptions used for the most recent actuarial valuation\u201d). The MPPAA instead channels disputes about the selection and application of actuarial assumptions into mandatory arbitration, where the plan\u2019s determination is presumed correct unless the employer proves the assumptions and methods were, in the aggregate, unreasonable or significantly misapplied. See 29 U.S.C. \u00a7 1401(a)(3)(B)(i). Under Concrete Pipe & Products v. Construction Laborers Pension Trust, courts should treat this as the sort of actuarial-reasonableness challenge Congress assigned to arbitration (with subsequent judicial review), rather than creating a categorical judicially enforced timing bar that the statute does not clearly state and that could destabilize plan administration and retiree protections.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.71,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.55,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_transcripts"
+  },
+  {
+    "docket": "23-1209",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": true,
+    "case_analysis": {
+      "focal_point": "Whether ERISA\u2019s withdrawal-liability provisions allow a multiemployer pension plan to use actuarial assumptions adopted after an employer\u2019s withdrawal (including revised interest/discount rate assumptions) to recalculate the plan\u2019s unfunded vested benefits and thereby increase that employer\u2019s withdrawal liability.",
+      "legal_provision": "ERISA as amended by the Multiemployer Pension Plan Amendments Act (MPPAA), principally 29 U.S.C. \u00a7\u00a7 1381\u20131405, with the dispute centered on the computation and timing rules in \u00a7 1391 (allocation of unfunded vested benefits) and related calculation/assessment provisions such as \u00a7 1399 (notice and demand) and the arbitration scheme in \u00a7 1401.",
+      "petitioner_position": "Petitioners argue that \u00a7 1391 establishes a clear timing rule tying withdrawal liability to the plan\u2019s unfunded vested benefits as of the end of the plan year preceding withdrawal, and that this necessarily fixes the actuarial assumptions (especially the interest/discount rate) to those in effect for that valuation period. In their view, allowing post-withdrawal changes in assumptions retroactively alters the present value of vested benefits, inflates UVBs, and unlawfully increases withdrawal liability after the relevant valuation date. They contend this undermines predictability, enables opportunistic \u2018do-overs\u2019 by plans (e.g., switching actuaries or methodologies after a withdrawal), and conflicts with decisions\u2014particularly the Second Circuit\u2019s Metz decision\u2014rejecting retroactive assumption changes in withdrawal-liability calculations. They also emphasize that although actuarial reasonableness can be arbitrated, the statute itself prohibits using a later-adopted assumption set to revalue the prior-year UVB figure for purposes of an already-triggered withdrawal.",
+      "respondent_position": "Respondent Trustees argue that MPPAA does not freeze actuarial assumptions as of the withdrawal date (or the end of the prior plan year) and instead permits the plan actuary to apply reasonable assumptions when calculating UVBs and withdrawal liability, even if the actuary updates assumptions after the withdrawal to reflect more accurate economic realities. They maintain that the statute\u2019s text shows Congress knew how to lock assumptions to a specific valuation when it wanted to, and it did so expressly for certain elements (e.g., amortization-period rules) but not for the UVB valuation inputs at issue here. Respondent further argues that the statutory design channels disputes about the propriety of actuarial assumptions into MPPAA arbitration (including claims that assumptions are unreasonable, inconsistent, or unfair), making a categorical judicial rule against post-withdrawal assumption updates unnecessary and inconsistent with the scheme. They also emphasize the systemwide need for accurate funding measurements to protect plan solvency and participants, warning that prohibiting updated assumptions could force plans to rely on demonstrably incorrect discount rates and thereby under-collect withdrawal liability, shifting costs to remaining employers and risking benefit security.",
+      "key_precedents": [
+        "Metz (Second Circuit decision discussed by the parties, rejecting retroactive alteration of interest-rate assumptions in withdrawal-liability calculations)",
+        "Jacobson v. Fireman\u2019s Fund Ins. Co., 111 F.3d 2d (2d Cir. 1997) (cited in the lower-court/arbitration record excerpt provided)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "Justice Kagan\u2019s best point is that \u00a7 1393(a)\u2019s \u201cbest estimate\u201d requirement plus \u00a7 1401 arbitration can screen out opportunistic post-withdrawal assumption changes without our creating an extra-textual \u201cfreeze,\u201d and Justice Jackson adds that Concrete Pipe reflects Congress\u2019s arbitration-first design. But that argument does not resolve the antecedent question Justice Thomas presses: whether \u00a7 1391\u2019s prior-year \u201cas of\u201d measurement permits revaluing the same UVB base after the withdrawal trigger with newly adopted discount rates that were not the \u201cmost recent actuarial valuation\u201d inputs contemplated by \u00a7 1399(c). In a minimalist vein, we can hold only that a plan may not retroactively change assumptions post-withdrawal to increase liability for the statutorily fixed measurement year, while leaving reasonableness challenges to the contemporaneous assumptions (and prospective assumption changes) to arbitration consistent with Concrete Pipe. That preserves administrability and predictability in \u00a7 1399\u2019s notice-and-demand framework without foreclosing arbitrable disputes over whether the original valuation assumptions were reasonable under \u00a7 1393(a).",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.77,
+        "reasoning": "Justice Kagan\u2019s best point is that \u00a7 1393(a) demands \u201creasonable\u201d assumptions reflecting the actuary\u2019s \u201cbest estimate,\u201d and that Congress can expressly lock assumptions when it wants\u2014so we should hesitate before implying a freeze. But under the ordinary public meaning of \u00a7\u00a7 1381 and 1391, Congress fixed withdrawal liability to unfunded vested benefits measured \u201cas of the end of the plan year preceding\u201d withdrawal, and because UVBs are a present-value construct, that as-of date necessarily carries the contemporaneous valuation inputs; otherwise the statutory timing rule becomes contingent on later discretionary revaluations. Chief Justice Roberts\u2019s reliance on \u00a7 1399(c)(1)(A)(ii) reinforces that Congress expected reliance on the assumptions actually \u201cused for the most recent actuarial valuation,\u201d supporting an administrable, fixed baseline for notice-and-demand rather than a post-withdrawal ratchet. Justice Jackson\u2019s invocation of Concrete Pipe and arbitration speaks to who resolves disputes, not what the statute substantively authorizes; arbitration can police reasonableness only within \u00a7 1391\u2019s fixed-date framework, not permit retroactive assumption changes that increase liability after the trigger date.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s strongest point\u2014that \u00a7 1393(a)\u2019s \u201cbest estimate\u201d requirement would be thwarted if plans must use outdated rates and that Congress sometimes expressly \u201clocks\u201d assumptions elsewhere\u2014does not overcome the text\u2019s timing command in \u00a7\u00a7 1381 and 1391 fixing UVBs \u201cas of\u201d the end of the prior plan year. As Chief Justice Roberts emphasizes, \u00a7 1399\u2019s notice-and-demand scheme presupposes an administrable, stable liability amount derived from the most recent valuation record, not a figure subject to post-withdrawal actuarial re-runs that can ratchet liability upward after the legal trigger. Concrete Pipe, invoked by Justice Jackson, reinforces arbitration-first review of actuarial reasonableness, but it presupposes a lawful calculation framework; it does not authorize retroactive substitution of assumptions that effectively moves the statutory snapshot date. Arbitration under \u00a7 1401 can still test whether the contemporaneous assumptions used for the relevant valuation year were reasonable, but it should not be read to permit after-the-fact changes to increase liability for that already-fixed measurement year.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "Justice Kagan\u2019s best point is that \u00a7 1393(a) requires assumptions to be reasonable and the actuary\u2019s best estimate, and she\u2019s right that Congress can expressly \u201clock\u201d assumptions when it wants to. But as Chief Justice Roberts and Justice Barrett explain, \u00a7\u00a7 1381 and 1391 set a backward-looking, fixed \u201cas of\u201d measurement for UVBs, and allowing a post-withdrawal discount-rate swap to re-run that same snapshot makes the liability base manipulable after the trigger\u2014undercutting \u00a7 1399\u2019s notice-and-demand scheme that presumes liability is ascertainable from the most recent valuation record. Justice Jackson\u2019s reliance on Concrete Pipe and \u00a7 1401 arbitration is important for policing reasonableness, yet it doesn\u2019t supply substantive authority to retroactively change the inputs for a statutorily pegged valuation date; arbitration is a forum to test whether the contemporaneous assumptions were reasonable, not a license for after-the-fact ratcheting. Pragmatically, that constraint best protects employers (and the workers and communities depending on them) from opportunistic, unpredictable retroactive increases while still permitting prospective assumption updates for future plan years.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.57,
+        "reasoning": "The strongest point from the other side\u2014pressed by Chief Justice Roberts and Justice Thomas\u2014is that \u00a7 1391\u2019s \u201cas of the end of the plan year preceding\u201d language supplies a fixed \u201csnapshot\u201d and that allowing a later discount-rate change makes the timing command malleable and undermines \u00a7 1399\u2019s administrability. But that argument assumes what it must prove: that a measurement-date directive necessarily freezes every valuation input, even though \u00a7 1393(a) separately commands that the assumptions used be, in the aggregate, reasonable and the actuary\u2019s best estimate\u2014an instruction that would be frustrated if plans must knowingly apply obsolete rates to value the same prior-year benefits. Justice Thomas\u2019s reliance on \u00a7 1399(c)(1)(A)(ii) cuts the other way for me: Congress expressly tied calculations there to \u201cassumptions used for the most recent actuarial valuation,\u201d so its omission of comparable locking language in \u00a7 1391 is telling, especially given that \u00a7 1401 arbitration (as Concrete Pipe underscores) is the statutory mechanism for policing reasonableness and opportunism rather than a judge-made categorical freeze. I therefore remain persuaded that the statute permits updated assumptions so long as they satisfy \u00a7 1393(a), with predictability concerns handled through \u00a7 1401\u2019s presumptions and review rather than an implied Metz-style bar.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan and Justice Jackson are right to stress that \u00a7 1393(a) requires assumptions to be reasonable and the actuary\u2019s best estimate, and that Congress elsewhere can expressly \u201clock\u201d assumptions; but that does not answer what \u00a7 1391 fixes when it pegs the allocable \u201cunfunded vested benefits\u201d to a snapshot \u201cas of the end of the plan year preceding\u201d withdrawal. Because UVBs are, by definition, a present-value measure, the \u201cas of\u201d date must carry the contemporaneous valuation inputs used to translate that year\u2019s benefits into present value, or else the statutory measurement date becomes a manipulable label subject to post-withdrawal recalculation. Justice Roberts\u2019s point about \u00a7 1399\u2019s notice-and-demand structure reinforces that Congress sought an administrable, predictable baseline drawn from the already-existing valuation record, with \u00a7 1401 arbitration (and Concrete Pipe\u2019s arbitration-first emphasis) policing reasonableness within that lawful framework rather than authorizing retroactive revaluation that drains \u00a7 1391\u2019s timing rule of operative force. Put differently, arbitration can test whether the valuation assumptions for the relevant year were reasonable; it cannot supply substantive permission to swap in new, post-trigger assumptions to increase liability for a statutorily fixed year.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan\u2019s best point is that \u00a7 1393(a)\u2019s \u201cbest estimate\u201d and \u201creasonable\u201d commands, plus Congress\u2019s express lock-in language elsewhere (e.g., \u00a7 1399(c)), counsel against courts implying a categorical freeze; but that argument assumes away the antecedent question that Chief Justice Roberts and Justice Thomas frame correctly: \u00a7\u00a7 1381 and 1391 fix a backward-looking UVB amount \u201cas of\u201d the end of the preceding plan year, and a present-value figure is inseparable from the contemporaneously used valuation inputs for that year. Justice Jackson\u2019s reliance on Concrete Pipe usefully underscores arbitration-first review of actuarial reasonableness, yet it presupposes a lawful calculation framework and does not authorize a post-withdrawal \u201credo\u201d that effectively moves the statutory snapshot and destabilizes \u00a7 1399\u2019s notice-and-demand predictability. Under an institutionalist, precedent-respecting approach, a narrow rule barring post-withdrawal assumption changes that retroactively increase liability for the fixed measurement year best fits the statute\u2019s structure while leaving reasonableness disputes about the contemporaneous assumptions to \u00a7 1401 arbitration.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Kagan\u2019s best argument is that \u00a7 1393(a) demands assumptions that are reasonable and the actuary\u2019s best estimate, and that Congress sometimes expressly \u201clocks\u201d assumptions (as in \u00a7 1399(c)), so we should hesitate to infer an unstated freeze in \u00a7 1391. But textually, \u00a7\u00a7 1381 and 1391 do more than select an allocation year: they fix the liability base\u2014unfunded vested benefits\u2014\u201cas of\u201d the end of the prior plan year, and because UVBs are inherently a present-value measure, allowing a post-withdrawal discount-rate substitution to \u201cre-run\u201d that past snapshot effectively changes what Congress pegged to a closed date. Chief Justice Roberts and Justice Thomas persuasively tie this to \u00a7 1399\u2019s notice-and-demand structure and \u00a7 1399(c)(1)(A)(ii)\u2019s reference to \u201cassumptions used for the most recent actuarial valuation,\u201d which indicates Congress expected administrable reliance on contemporaneous, already-used valuation inputs, with \u00a7 1401 arbitration reserved to test reasonableness within that framework rather than to authorize retroactive revaluation that can ratchet liability upward after withdrawal. Concrete Pipe, as Justice Jackson emphasizes, supports arbitration-first review of actuarial judgments, but it presupposes a lawful calculation baseline and does not require reading \u00a7 1393(a) to override \u00a7 1391\u2019s fixed-date command.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.61,
+        "reasoning": "I take seriously Chief Justice Roberts\u2019s and Justice Barrett\u2019s \u201csnapshot\u201d concern: \u00a7 1391\u2019s prior-year measurement is meant to cabin gamesmanship and make liability administrable. But I\u2019m not persuaded that an \u201cas of\u201d date silently freezes the actuarial discount rate, because Congress in \u00a7 1399(c) spoke explicitly of the \u201cassumptions used for the most recent actuarial valuation,\u201d and that contrast (as Justice Kagan notes) suggests \u00a7 1391 does not impose the same lock. The better reconciliation is that \u00a7 1391 fixes which plan year\u2019s benefits are being measured, while \u00a7 1393(a) and \u00a7 1401 arbitration (as Concrete Pipe emphasizes) police whether updated assumptions are reasonable best estimates or an opportunistic do-over\u2014preserving procedural fairness without judicially entrenching known inaccuracies that could threaten plan solvency. On my pragmatic view, predictability concerns are addressed by arbitration presumptions and review standards rather than a categorical bar absent clearer statutory text.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.56,
+        "reasoning": "MPPAA structures withdrawal liability as a backward-looking \u201csnapshot\u201d keyed to the plan\u2019s unfunded vested benefits (UVBs) as of the end of the plan year preceding withdrawal, see 29 U.S.C. \u00a7\u00a7 1381, 1391, and that timing anchor is undermined if a plan may later revalue the same UVB figure using newly adopted discount-rate assumptions to increase an already-triggered assessment. While \u00a7 1401 channels disputes over actuarial reasonableness to arbitration, that mechanism does not answer the antecedent statutory question of which valuation inputs are permissible for the relevant measurement date; a narrow rule tying the calculation to the assumptions used for that valuation best preserves predictability and reduces incentives for post-withdrawal \u201cdo-overs.\u201d Section 1399\u2019s notice-and-demand scheme presupposes that liability can be determined from the most recent valuation materials rather than retroactively revised inputs, and Congress\u2019s express fixation of assumptions in other provisions supports reading \u00a7\u00a7 1381\u20131391 to bar post-withdrawal assumption changes that increase liability for the completed measurement period. Consistent with institutional legitimacy and avoiding open-ended actuarial relitigation, I would adopt the Second Circuit\u2019s approach that rejects retroactive assumption changes that inflate withdrawal liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The MPPAA ties withdrawal liability to the plan\u2019s \u201cunfunded vested benefits\u201d determined under \u00a7 1391, and \u00a7 1391 fixes the relevant UVB measurement to the end of the plan year preceding the employer\u2019s withdrawal; that temporal command is best read to fix the valuation inputs\u2014including the interest/discount-rate assumption\u2014used to compute the present value of nonforfeitable benefits for that year. Reading the statute to allow a plan to adopt new assumptions after withdrawal and then rerun the prior-year UVB calculation effectively makes the statutory measurement date contingent on later discretionary choices, undermining the predictability Congress built into \u00a7\u00a7 1381 and 1391. Section 1399(c)(1)(A)(ii)\u2019s direction to base installment payments on \u201cthe assumptions used for the most recent actuarial valuation\u201d confirms Congress\u2019s emphasis on using settled, contemporaneous valuation assumptions rather than post hoc revisions. The Second Circuit\u2019s Metz decision accords with this original public meaning by rejecting retroactive assumption changes that increase liability after the statutorily fixed measurement date.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The MPPAA\u2019s text anchors withdrawal liability to the plan\u2019s \u201cunfunded vested benefits\u201d measured \u201cas of the end of the plan year preceding the plan year in which the employer withdraws,\u201d 29 U.S.C. \u00a7\u00a7 1381, 1391, which strongly implies a fixed valuation snapshot rather than a moving target subject to later actuarial \u201cdo-overs.\u201d Reading \u00a7 1391 to permit post-withdrawal changes in discount-rate assumptions to revalue that prior-year UVB figure would drain the timing rule of practical meaning and invite opportunistic recalculations after the employer\u2019s withdrawal decision, undermining predictability Congress built into the scheme. The broader statutory context reinforces that Congress sometimes expressly fixes assumptions to a \u201cmost recent actuarial valuation\u201d (e.g., \u00a7 1399(c) on the amortization period), and the Second Circuit\u2019s approach in Metz coheres with that framework by treating the relevant assumptions as those in place for the statutory measurement date. Although arbitration under \u00a7 1401 can police actuarial reasonableness, it does not justify rewriting \u00a7 1391 to allow retroactive assumption changes that increase liability after the withdrawal-triggering valuation date.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "MPPAA ties withdrawal liability to a fixed \u201csnapshot\u201d of the plan\u2019s unfunded vested benefits as of the end of the plan year preceding the employer\u2019s withdrawal, see 29 U.S.C. \u00a7\u00a7 1381, 1391, and that timing rule would be undermined if a plan could later revalue that same measurement date by adopting new post-withdrawal discount/interest assumptions. Section 1399(c)(1)(B)\u2019s directive that the payment schedule be based on \u201cthe assumptions used for the most recent actuarial valuation\u201d reinforces that Congress expected reliance on settled, previously used assumptions\u2014not retroactive recalculations after the withdrawal event. Allowing post-withdrawal assumption changes invites unpredictable and potentially opportunistic increases in liability that can burden employers and, in turn, workers\u2019 jobs and access to benefits, while disputes about reasonableness remain appropriately channeled to arbitration under \u00a7 1401 within the bounds of the statutory timing framework. The Second Circuit\u2019s approach in Metz best harmonizes these provisions by preventing retroactive manipulation while leaving plans free to adopt new assumptions prospectively for future valuation years.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "The MPPAA makes withdrawal liability turn on a plan\u2019s \u201cunfunded vested benefits\u201d allocated under \u00a7 1391, but it separately directs that the actuary\u2019s assumptions for computing that liability must, in the aggregate, be reasonable and reflect the actuary\u2019s best estimate. See 29 U.S.C. \u00a7 1393(a), and it permits reliance on the most recent complete valuation without stating that assumptions are forever fixed to the prior plan-year measurement date. Congress showed it knew how to lock assumptions to a particular valuation when it wished (e.g., the amortization-period provision requiring use of assumptions \u201cused for the most recent actuarial valuation\u201d), so I am reluctant to read an unstated freeze into \u00a7 1391 that could force knowingly inaccurate discount rates and undermine the statute\u2019s solvency-protective design. Workability also points toward routing disputes about post-withdrawal assumption changes into the statute\u2019s arbitration scheme, \u00a7 1401, where the employer can argue the revised assumptions were unreasonable or opportunistic, rather than adopting a categorical judicial bar derived from Metz.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The MPPAA ties an employer\u2019s withdrawal liability to the plan\u2019s \u201cunfunded vested benefits\u201d measured \u201cas of the end of the plan year preceding the plan year in which the employer withdraws,\u201d 29 U.S.C. \u00a7 1391, and withdrawal liability is simply the employer\u2019s allocable share of that fixed figure, \u00a7 1381(b)(1). Because the UVB figure is a present-value calculation, allowing the plan to swap in actuarial assumptions adopted after the statutory measurement date effectively revalues the prior-year UVBs and retroactively increases liability in tension with the statute\u2019s timing rule and the predictability Congress built into the scheme. While \u00a7 1393(a) requires actuarial assumptions to be reasonable (a question channeled to arbitration under \u00a7 1401), that does not authorize re-opening the already-pegged valuation date in \u00a7 1391; Congress elsewhere showed it knew how to specify the relevant assumption set (e.g., \u00a7 1399(c)\u2019s reference to \u201cthe assumptions used for the most recent actuarial valuation\u201d), and its omission here should be respected. The Second Circuit\u2019s approach in Metz best reflects this textual structure by treating the measurement date as fixing the inputs for that valuation rather than permitting post-withdrawal \u2018do-overs\u2019 that change the number after the legal trigger has occurred.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Section 1391 ties withdrawal liability to the plan\u2019s \u201cunfunded vested benefits\u201d as of the end of the plan year preceding withdrawal, which in practice fixes the valuation inputs\u2014including the discount/interest-rate assumption\u2014used to compute the present value of vested benefits for that year\u2019s UVB figure. Allowing plans to retroactively revalue that prior-year UVB number using post-withdrawal assumptions would undermine the MPPAA\u2019s goal of making withdrawal liability a \u201cfixed and certain debt\u201d and would reduce predictability for withdrawing employers, contrary to the statutory scheme\u2019s detailed timing-and-calculation framework in \u00a7\u00a7 1381\u20131405 and the notice-and-demand process in \u00a7 1399. While \u00a7 1401 arbitration polices the reasonableness of assumptions, it does not authorize a plan to reopen the relevant prior-year valuation by adopting new assumptions after withdrawal to increase liability. That understanding is consistent with the approach reflected in Metz, which rejected retroactive interest-rate changes in withdrawal-liability calculations.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "The statutory text anchors withdrawal liability to \u201cunfunded vested benefits\u201d measured at a fixed time\u2014\u201cyears ending before the plan year in which the withdrawal of the employer occurs,\u201d 29 U.S.C. \u00a7 1391(b)(2)(A)(ii)\u2014and that timing rule would be undermined if a plan could later revalue that same prior-year figure by adopting new discount-rate assumptions post-withdrawal. Reading \u00a7\u00a7 1381 and 1391 together, the present-value computation that defines UVBs is part of what must be determined as of the statutory measurement date, while \u00a7 1399\u2019s \u201cnotice and demand\u201d structure presupposes a liability amount that is ascertainable and not subject to after-the-fact actuarial \u201cdo-overs.\u201d Although disputes over actuarial reasonableness are generally channeled to arbitration under \u00a7 1401, that procedural allocation cannot expand substantive authority where \u00a7 1391\u2019s fixed-date measurement supplies the relevant constraint. The Second Circuit\u2019s approach in Metz best fits this text-and-structure reading by rejecting retroactive post-withdrawal assumption changes that increase an already-triggered employer\u2019s liability.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Nothing in MPPAA\u2019s withdrawal-liability provisions\u2014particularly \u00a7 1391\u2019s instruction to allocate unfunded vested benefits as of the end of the plan year preceding withdrawal\u2014expressly freezes the actuarial assumptions (including discount/interest rates) that the plan actuary may reasonably use in determining that plan-year UVB; Congress elsewhere showed it could lock assumptions to a specific valuation when it wished, but did not do so here. The statutory scheme instead channels disputes about whether \u201cthe actuarial assumptions and methods used\u2026were, in the aggregate, unreasonable\u201d to mandatory arbitration under \u00a7 1401(a)(3)(B), with plenary judicial review reserved for legal questions, which promotes procedural fairness by providing a specialized, uniform mechanism to test alleged opportunistic \u201cdo-overs.\u201d Consistent with Concrete Pipe\u2019s understanding of MPPAA\u2019s arbitration-first framework and presumptions for actuarial determinations, I would reject a categorical judicial bar on post-withdrawal assumption updates and leave employers to challenge any retroactive application as unreasonable or clearly erroneous in arbitration. That approach also accounts for practical consequences\u2014protecting plan solvency and participants while preserving employers\u2019 process-based safeguards against arbitrary recalculations.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 7,
+    "respondent_votes": 2,
+    "predicted_winner": "Petitioner",
+    "vote_split": "7-2",
+    "average_confidence": 0.704,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.56,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.56,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.57,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.61,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "7-2",
+    "run_arm": "ot2025_transcripts"
+  }
+]

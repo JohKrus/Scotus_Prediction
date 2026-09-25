@@ -1,0 +1,579 @@
+[
+  {
+    "docket": "24-724",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a federal district court\u2019s final merits judgment between completely diverse parties must be vacated after an appellate court later concludes that removal was improper because the court erroneously dismissed the only nondiverse defendant at the time of removal.",
+      "legal_provision": "28 U.S.C. \u00a7\u00a7 1332 (diversity jurisdiction), 1441\u20131447 (removal and remand; especially \u00a7 1447(c)); plus the final-judgment/merger principles reflected in Fed. R. Civ. P. 54(b) (interlocutory orders) and appellate review of final judgments under 28 U.S.C. \u00a7 1291.",
+      "petitioner_position": "Petitioners argue that once the district court entered a final judgment resolving the case as between the parties remaining in federal court (who were completely diverse), that judgment should not automatically be wiped out merely because the court\u2019s earlier, interlocutory dismissal of a nondiverse party at the removal stage was later deemed erroneous. They contend that vacatur and an across-the-board remand incentivize post-judgment \u2018vertical forum shopping,\u2019 impose massive inefficiency by forcing a do-over in state court after full federal litigation (often including Daubert rulings and dispositive motions), and conflict with principles of finality and harmless-error style reasoning. In their view, the proper approach is to preserve the final federal judgment as to the diverse parties (or at least avoid automatic vacatur), even if there was an error in the removal/dismissal sequence involving the nondiverse party.",
+      "respondent_position": "Respondents argue that because the district court lacked removal jurisdiction (the only nondiverse defendant was improperly dismissed to create diversity), the federal court never had authority to enter a final merits judgment. They emphasize that the dismissal of the nondiverse party was interlocutory and remained subject to revision under Rule 54(b) until it merged into the final judgment; once the appellate court corrected that interlocutory error, the jurisdictional defect meant the final judgment could not stand. Respondents further contend that Congress\u2019s removal/remand scheme (especially \u00a7 1447(c)) favors remand when subject-matter jurisdiction is absent, and that allowing the judgment to survive would undermine limits on federal jurisdiction and permit defendants to benefit from an erroneous dismissal that manufactured federal jurisdiction.",
+      "key_precedents": [
+        "Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996)",
+        "Grupo Dataflux v. Atlas Global Group, L.P., 541 U.S. 567 (2004)",
+        "American Fire & Casualty Co. v. Finn, 341 U.S. 6 (1951)",
+        "Newman-Green, Inc. v. Alfonzo-Larrain, 490 U.S. 826 (1989)",
+        "Federal Rule of Civil Procedure 54(b) (interlocutory orders and revision until final judgment) (doctrinal hook discussed in briefing)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Barrett is right to press Caterpillar\u2019s finality rationale and to warn against making jurisdiction hinge on the correctness of a merits-adjacent interlocutory ruling. But that assumes the district court possessed a lawful basis for diversity at final judgment; as Justice Kavanaugh and Justice Alito emphasize, the only \u201ccure\u201d was an interlocutory Rule 54(b)-revisable dismissal that, once held erroneous on appeal and absorbed into the final judgment under merger principles, cannot be treated as having validly altered the party alignment. Allowing a reversible merits error to manufacture removal jurisdiction would collapse the Land v. Dollar boundary by deciding merits \u201cunder the guise\u201d of jurisdiction and would drain \u00a7 1447(c)\u2019s command to remand when jurisdiction is lacking before final judgment. A narrow holding suffices: Caterpillar preserves judgments only where the defect is actually and validly cured before judgment, not where the supposed cure evaporates upon appellate review.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Barrett\u2019s strongest point is remedial and practical: at the instant of final judgment only diverse parties remained, and Caterpillar\u2019s finality logic would avoid needless relitigation. But as the Chief Justice and Justice Gorsuch explain, that framing presupposes a lawful and durable cure of the jurisdictional defect; here the only \u201ccure\u201d was an interlocutory dismissal later held erroneous and, under merger and Rule 54(b), never provided a valid basis to exercise Article III/statutory diversity jurisdiction. The text of \u00a7 1447(c) directs remand whenever it appears jurisdiction is lacking before final judgment, and we should not create a judge-made harmless-error regime that allows federal jurisdiction to be manufactured by a reversible merits mistake. Caterpillar is therefore limited to cases where the jurisdictional defect is actually cured before judgment, not where the supposed cure evaporates on appeal.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett\u2019s endpoint-focused reading of Caterpillar has force as a pragmatic matter, but it depends on treating an interlocutory, merits-linked dismissal\u2014revisable under Rule 54(b)\u2014as a durable jurisdictional \u201ccure.\u201d As the Chief Justice explains, once the court of appeals correctly holds that dismissal erroneous, merger principles mean the nondiverse defendant was never properly out of the case in any way that can sustain \u00a7 1332 jurisdiction at final judgment, and \u00a7 1447(c)\u2019s directive to remand when jurisdiction is lacking \u201cat any time before final judgment\u201d would be hollow if reversible error could manufacture removal power. Caterpillar is best read narrowly to preserve judgments only when the jurisdictional defect is actually and lawfully cured before judgment, not when the supposed cure evaporates upon appellate review. That is a straightforward application of the statutory scheme\u2019s grant-and-limitation structure, without importing a judge-made harmless-error gloss onto Congress\u2019s jurisdictional rules.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett is right to stress Caterpillar\u2019s finality-and-efficiency logic and the fact that, on the face of the docket at final judgment, only diverse parties remained. But as the Chief Justice and Justice Kagan explain, that \u201ccure\u201d rested entirely on an interlocutory dismissal that was revisable under Rule 54(b) and, once reversed on appeal under ordinary merger principles, reveals the nondiverse defendant was never properly out of the case when judgment was entered. Section 1447(c)\u2019s command to remand whenever lack of subject-matter jurisdiction appears \u201cat any time before final judgment\u201d cannot be satisfied by a jurisdiction-creating error that evaporates upon appellate correction, or else we invite the very strategic behavior and prolonged jurisdictional litigation the removal scheme aims to prevent. Caterpillar remains a narrow exception for defects actually and lawfully cured before judgment, not for defects \u201ccured\u201d only by reversible error.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Barrett\u2019s best point is remedial: even if the interlocutory dismissal was later reversed, the federal court ostensibly had only diverse parties before it at the moment of final judgment, so Caterpillar\u2019s finality logic should prevent unwinding years of litigation. But as the Chief Justice and Justice Kavanaugh explain, that framing assumes a lawful and durable \u201ccure\u201d; here the only route to diversity was an interlocutory, Rule 54(b)-revisable dismissal that, once held erroneous on appeal and merged into the final judgment, means the nondiverse defendant was never properly out of the operative case the judgment purported to resolve. Jurisdiction tracks the case as it will actually be litigated under the operative pleadings and parties, and \u00a7 1447(c)\u2019s scheme cannot be satisfied by jurisdiction manufactured through a reversible merits error. Caterpillar stays cabined to circumstances where the defect is actually cured before judgment, not where the apparent cure evaporates upon appellate review\u2014so the proper course is vacatur and remand.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "Justice Barrett is right to press Caterpillar\u2019s finality logic, but that reasoning presupposes a lawful cure of the jurisdictional defect before judgment. As the Chief Justice and Justice Kavanaugh explain, Rule 54(b) and merger mean the interlocutory dismissal remains part of what we review with the final judgment; once the court of appeals holds that dismissal erroneous, the nondiverse party was never properly out of the case, so complete diversity was never validly secured to support the merits judgment. The plain text of \u00a7 1447(c)\u2014remand whenever it appears jurisdiction is lacking \u201cat any time before final judgment\u201d\u2014leaves no room for preserving federal power through a jurisdiction-manufacturing error later corrected on appeal. Efficiency cannot override Congress\u2019s limits on Article III jurisdiction, and Caterpillar should remain confined to situations where the defect is actually cured, not merely papered over by a reversible ruling.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "Justice Barrett\u2019s strongest point\u2014that diversity existed among the parties bound by the final judgment and Caterpillar counsels against unwinding completed merits litigation\u2014rests on treating the interlocutory dismissal as a durable jurisdictional cure. But as the Chief Justice emphasizes, Caterpillar presupposes an actual, lawful cure before judgment; here the only \u201ccure\u201d was an interlocutory, Rule 54(b)-revisable dismissal that merges into the final judgment and, once reversed, cannot supply jurisdiction retroactively. Under that merger framework, the final judgment\u2019s validity was contingent on the dismissal, so when the dismissal falls, complete diversity was lacking at the time judgment was entered and \u00a7 1447(c)\u2019s remand command applies. This is not a remedial discretion case: absent a true cure, preserving the judgment would let a reversible merits error manufacture federal power, contrary to the jurisdictional limits Congress set.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.58,
+        "reasoning": "Chief Justice Roberts and Justice Kavanaugh press the most serious point: that once the interlocutory dismissal is reversed on appeal, the predicate for diversity \u201cdisappears,\u201d revealing the district court never had jurisdiction to enter final judgment. But that treats appellate correction of a merits-linked, revisable interlocutory ruling as retroactively nullifying adjudicatory authority that indisputably existed on the face of the parties before the court at the time judgment was entered, collapsing the jurisdiction/merits boundary by making jurisdiction turn on the correctness of an antecedent merits decision. Section 1291\u2019s merger principle explains what is reviewable on appeal, not what remedial consequence must follow, and Caterpillar\u2019s logic counsels against automatic vacatur when the jurisdictional defect no longer persists at the endpoint and the case has been fully litigated to judgment. Section 1447(c)\u2019s \u201cbefore final judgment\u201d command is satisfied by asking whether jurisdiction was lacking when judgment was entered; once diversity exists then, the remaining question is remedial, and I do not see Congress clearly requiring the drastic remedy of unraveling an otherwise valid final judgment on this record.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.81,
+        "reasoning": "Justice Barrett\u2019s strongest point\u2014that diversity existed \u201cat the moment\u201d of final judgment and that Caterpillar counsels against undoing a fully litigated federal merits judgment\u2014misidentifies the threshold question as remedial rather than jurisdictional. As Chief Justice Roberts and Justice Kagan emphasize, the only basis for diversity at judgment was an interlocutory dismissal that remained revisable under Rule 54(b) and, once held erroneous on appeal, collapses under merger principles\u2014meaning the nondiverse party was never properly out of the case for jurisdictional purposes. Caterpillar\u2019s narrow finality logic presupposes a lawful, durable cure before judgment; extending it to a cure that exists only because of reversible error would effectively allow jurisdiction to be manufactured by mistake, contrary to \u00a7 1447(c)\u2019s command to remand when jurisdiction is lacking. Because the district court lacked statutory authority to enter judgment once the predicate dismissal is set aside, vacatur and remand follow notwithstanding efficiency concerns.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Our first obligation is to assure ourselves that the case proceeded in the proper forum, and it is both necessary and prudent to resolve that threshold question where, as here, the losing party seeks vacatur and remand on the ground that the district court\u2019s authority to enter judgment depended on an earlier, erroneous interlocutory dismissal of the only nondiverse defendant. Under Caterpillar, finality and efficiency can preserve a federal merits judgment only when the jurisdictional defect has been cured before final judgment; an interlocutory dismissal that is later held erroneous does not \u201ccure\u201d the absence of complete diversity at the time of judgment, because once that interlocutory error is corrected on appeal the nondiverse party\u2019s presence shows subject-matter jurisdiction was lacking all along. Section 1447(c)\u2019s directive that the case \u201cshall be remanded\u201d when jurisdiction is absent before final judgment would be emptied of meaning if an uncorrected jurisdictional defect could be insulated by a merits judgment reached only through the erroneous dismissal that manufactured diversity. And consistent with the Land v. Dollar/Smithers principle, we do not treat merits determinations as a substitute for jurisdiction: the federal court\u2019s merits adjudication cannot stand where its power to adjudicate hinged on a merits-linked interlocutory ruling later determined to be wrong.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Article III and the removal statutes limit federal courts to the jurisdiction Congress has conferred, and \u00a7 1447(c) directs remand whenever \u201cit appears\u201d subject-matter jurisdiction is lacking. On these facts, the case was removed only because the district court erroneously dismissed the sole nondiverse defendant; that interlocutory error remained revisable under Rule 54(b) and, once corrected on appeal, revealed that complete diversity never properly existed for removal in the first place. Because the purported \u201ccure\u201d was itself jurisdiction-creating error rather than a lawful post-removal change, the final merits judgment cannot stand\u2014federal courts may not retain and adjudicate cases beyond their statutory jurisdiction in the name of efficiency or finality. Caterpillar\u2019s narrow finality rationale does not apply where the jurisdictional defect was never validly cured before judgment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The enacted jurisdictional texts, read as an integrated scheme, make subject-matter jurisdiction a categorical threshold: \u00a7\u00a7 1332 and 1441 permit removal only if complete diversity exists, and \u00a7 1447(c) requires remand whenever it is determined that subject-matter jurisdiction is lacking. Here, diversity existed at final judgment only because the district court had earlier (and interlocutorily) dismissed the lone nondiverse defendant; once the court of appeals correctly concluded that dismissal was erroneous, that nondiverse party was never properly out of the case, so the jurisdictional defect was not \u201ccured\u201d at the time judgment was entered. Unlike Caterpillar, where the nondiverse party was actually dismissed before final judgment and jurisdiction therefore existed when judgment was entered, preserving this judgment would effectively allow an erroneous merits dismissal to manufacture federal jurisdiction\u2014an approach not grounded in the statutory text and inconsistent with the structure Congress enacted. Finality and efficiency concerns cannot override the statute\u2019s jurisdictional limits when the defect persists through judgment.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The removal/remand scheme makes subject-matter jurisdiction nonnegotiable: under \u00a7 1447(c), when jurisdiction is absent the federal court must remand, and a merits judgment entered without jurisdiction cannot be insulated by efficiency or finality concerns. Here, the only basis for diversity at removal was the district court\u2019s erroneous, interlocutory dismissal of the sole nondiverse defendant\u2014a ruling revisable under Rule 54(b) and one that merged into the final judgment\u2014so when the court of appeals corrected that error, the jurisdictional defect was revealed as never having been cured in time to support judgment. My approach resists doctrinal workarounds that invite strategic behavior and prolonged jurisdictional maneuvering; allowing a final federal judgment to stand after an error that manufactured diversity would reward gamesmanship and undermine Congress\u2019s limits on federal adjudicatory power. Caterpillar\u2019s narrow rule does not apply because it presupposes that complete diversity is properly secured before judgment; where, as here, the defect persists once the interlocutory dismissal is deemed wrongful, vacatur and remand are required.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Jurisdiction tracks the case as it will actually be litigated, meaning we look to the operative pleading and parties when the final judgment issued\u2014not to a manufactured lineup produced by an erroneous interlocutory dismissal. Here, the only way the federal court could claim complete diversity at judgment was by relying on that mistaken dismissal of the sole nondiverse defendant; once the court of appeals corrects that interlocutory error (which merged into the final judgment under Rule 54(b) principles), the jurisdictional defect was never cured, so the federal merits judgment cannot stand. And because removal jurisdiction mirrors original jurisdiction, a federal court that lacks diversity authority cannot preserve a merits judgment simply because the case proceeded to the end; \u00a7 1447(c)\u2019s scheme makes remand the proper mechanism once subject-matter jurisdiction is absent. Efficiency and finality can matter when jurisdictional facts are actually cured before judgment, but they cannot validate a judgment resting on an uncured absence of complete diversity.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under the statutory text, \u00a7 1447(c) commands remand when \u201cat any time before final judgment\u201d it appears the district court lacked subject-matter jurisdiction; here, the only basis for federal jurisdiction depended on an interlocutory, erroneous dismissal of the sole nondiverse defendant, so removal was never authorized under \u00a7\u00a7 1441\u20131446 and the federal court proceeded without lawful jurisdiction. Rule 54(b) confirms the dismissal remained nonfinal and revisable, and once the court of appeals corrected that interlocutory error, the nondiverse party\u2019s presence meant complete diversity under \u00a7 1332 was absent and the final merits judgment cannot stand. Separation-of-powers principles and the Constitution\u2019s limits on federal jurisdiction leave efficiency and finality concerns to Congress, not the courts, and the rule of decision must track jurisdictional facts as properly understood, not as mistakenly manufactured by a district court order. Caterpillar\u2019s limited exception does not apply because it presupposes the jurisdictional defect is actually cured before final judgment; here, the appellate ruling establishes no such cure ever lawfully occurred.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The operative order for appellate review is the district court\u2019s final merits judgment, but that judgment\u2019s validity was contingent on the earlier interlocutory dismissal of the only nondiverse defendant that purportedly created complete diversity; under merger principles, that interlocutory ruling therefore merges into (and is reviewable with) the final judgment. Once the court of appeals correctly concludes that the dismissal was erroneous, the supposed \u201ccure\u201d of diversity disappears, meaning complete diversity was lacking at the time of final judgment and the federal court lacked subject-matter jurisdiction to enter it. In that posture, \u00a7 1447(c)\u2019s command to remand for lack of subject-matter jurisdiction applies, and this is not a setting for a no-automatic-vacatur/harmless-error approach because the defect goes to the court\u2019s adjudicatory power rather than a remediable trial error. Respondents also retain a concrete Article III stake in vacatur and remand because the judgment binds them and the jurisdictional error determines the proper forum for merits adjudication.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Under \u00a7 1291\u2019s single-appeal/merger principles, the interlocutory dismissal of the nondiverse defendant merges into the final judgment and is reviewable on appeal, but that does not answer whether the ultimate merits judgment must be undone once later developments have displaced the initial jurisdictional posture. Here, by the time final judgment was entered, the only parties to that judgment were completely diverse, so the case falls within Caterpillar\u2019s logic that a cured jurisdictional defect at judgment need not \u201cburden and run with the case,\u201d especially where vacatur would impose a wasteful do-over after full federal merits adjudication. Treating the erroneous nondiverse-party dismissal as automatically voiding the final judgment would collapse the jurisdiction/merits boundary by converting a correct merits judgment between diverse parties into a mandatory nullity even when the federal court had adjudicatory authority at the moment it acted finally. Section 1447(c)\u2019s remand command is strongest when lack of subject-matter jurisdiction persists, but where diversity exists at judgment, the proper course is to preserve the final judgment rather than require categorical vacatur and remand.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "My analysis begins by separating the threshold jurisdictional question from any distinct, equitable remedial inquiry: here, the problem is not merely an appellate defect but a merits judgment entered while the district court\u2019s subject-matter jurisdiction was never actually secured because the nondiverse defendant\u2019s dismissal was interlocutory and later determined erroneous, meaning complete diversity was lacking through final judgment. Under Caterpillar, efficiency and finality can preserve a federal judgment only when the jurisdictional defect has been cured by the time judgment is entered; \u00a7 1447(c)\u2019s command likewise confirms that if jurisdiction is absent \u201cat any time before final judgment,\u201d remand is required, and this defect was not cured before that endpoint. Treating the final judgment as automatically salvageable would improperly broaden Caterpillar into a categorical harmless-error rule untethered to its limit (cure-before-judgment) and would allow a manufactured federal forum to generate a binding merits adjudication despite the absence of jurisdiction. Because the jurisdictional deficiency persisted through final judgment, the proper consequence is vacatur of that judgment and remand.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.772,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.58,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-724",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a federal district court\u2019s final judgment on the merits must be vacated when an appellate court later concludes removal was improper because the district court wrongly dismissed the only nondiverse defendant at removal, even though the case proceeded to final judgment between completely diverse parties.",
+      "legal_provision": "28 U.S.C. \u00a7 1332 (diversity jurisdiction); 28 U.S.C. \u00a7 1441 and \u00a7 1446 (removal); 28 U.S.C. \u00a7 1447(c) (procedure/remand for lack of subject-matter jurisdiction); Federal Rule of Civil Procedure 54(b) (interlocutory orders subject to revision); Federal Rule of Civil Procedure 21 (dropping parties) (as used in jurisdiction-curing contexts).",
+      "petitioner_position": "Petitioners (Hain Celestial/Whole Foods) argue that once the nondiverse party has been dismissed and the case reaches final judgment solely among completely diverse parties, principles of finality and efficiency counsel against vacatur and remand. They contend the Fifth Circuit\u2019s rule elevates a removal-stage error into an automatic undoing of a fully litigated federal judgment, encouraging post-judgment forum shopping and wasting judicial and party resources, even where the federal court ultimately had diversity between the remaining parties. Petitioners emphasize that appellate correction should not require wiping out a merits judgment if the jurisdictional defect has been cured (or is absent) at the time of final judgment, and they frame the Fifth Circuit\u2019s approach as inconsistent with Supreme Court precedent favoring preservation of final judgments where jurisdiction exists at judgment.",
+      "respondent_position": "Respondents (Palmquist plaintiffs) argue that the dismissal of the nondiverse defendant at removal was erroneous and that dismissal order remained interlocutory (subject to revision) until it merged into the final judgment. Because the case was never properly within federal removal jurisdiction when it entered federal court, the final judgment is infected by that error and must be vacated, with the case remanded for adjudication in state court. Respondents stress that removal statutes are strictly construed, that interlocutory rulings can be revisited and corrected on appeal, and that allowing a final judgment to stand would reward improper removal and undermine statutory limits on federal jurisdiction.",
+      "key_precedents": [
+        "Caterpillar Inc. v. Lewis, 519 U.S. 61 (1996)",
+        "Grupo Dataflux v. Atlas Global Group, L.P., 541 U.S. 567 (2004)",
+        "Newman-Green, Inc. v. Alfonzo-Larrain, 490 U.S. 826 (1989)",
+        "American Fire & Casualty Co. v. Finn, 341 U.S. 6 (1951)",
+        "DiCenzo v. A-Best Products Co., 897 N.E.2d 132 (Ohio 2008) (cited in amici discussion of shifting products-liability doctrine)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondents\u2019 strongest point is the ab initio \u201ctaint\u201d theory: that an improper removal, coupled with an arguably erroneous dismissal of the nondiverse defendant, deprives the federal court of power to do anything thereafter. But on appellate review of a final judgment, the threshold question is whether the district court had subject-matter jurisdiction when it exercised dispositive authority; as Justice Kavanaugh notes, \u00a7 1447(c) is explicitly stage-sensitive\u2014remand is required when a lack of jurisdiction appears \u201cbefore final judgment,\u201d and Caterpillar supports refusing automatic vacatur once the jurisdictional defect is cured by judgment. Treating an interlocutory, revisable ruling as forever jurisdiction-destroying would convert ordinary merits-error review into a mandatory nullification remedy untethered from Article III and \u00a7 1332 at the time of judgment. Justice Kagan\u2019s parity point reinforces that removed cases should not be subjected to a stricter post-judgment vacatur rule than originally filed cases absent clear statutory command.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondents\u2019 best point is that a removal defect deprives the federal court of authority ab initio and thus \u201ctaints\u201d everything that follows, including the dismissal of the nondiverse defendant and the final judgment. But as the Chief Justice explains, the jurisdictional question on review of a final judgment is whether the court had subject-matter jurisdiction when it entered that judgment; if complete diversity existed then, the court did not act ultra vires in entering the merits judgment. Justice Kavanaugh\u2019s reliance on \u00a7 1447(c)\u2019s \u201cbefore final judgment\u201d language confirms that Congress keyed the remand remedy to whether a jurisdictional defect persists at the decisive stage, not to an automatic nullification rule for earlier procedural errors. Even if the interlocutory dismissal was mistaken on the merits, labels and sequencing cannot convert a case that satisfied \u00a7 1332 at judgment into one outside Article III power at that time.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondents\u2019 best argument\u2014that an improper removal cannot be \u201ccured\u201d because the federal court lacked authority to dismiss the nondiverse defendant\u2014treats a removal-stage defect as if it were a continuing absence of subject-matter jurisdiction through final judgment. As the Chief Justice and Justice Kavanaugh emphasize, the text of \u00a7 1447(c) is temporally keyed: it directs remand when lack of jurisdiction appears \u201cbefore final judgment,\u201d which strongly implies that once the jurisdictional defect is no longer present at judgment, the statute does not command vacatur as a sanction for earlier error. Structurally, that reading keeps distinct (1) whether removal was defective and (2) whether the district court possessed \u00a7 1332 jurisdiction when it entered the judgment under review; the latter is what matters for post-judgment validity. Any mistake in dismissing the nondiverse party is properly treated as an appealable merits/interlocutory error, not as a jurisdictional nullity that automatically erases a final judgment entered with Article III and statutory jurisdiction.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondents\u2019 best point is the time-of-removal principle: that diversity must exist at removal and a federal court should not be able to \"manufacture\" jurisdiction by erroneously dismissing a nondiverse defendant. But on post-judgment review the administrable question is whether a jurisdictional defect persisted through the entry of final judgment, and here complete diversity existed when the district court entered the dispositive merits judgment\u2014so automatic vacatur would impose a judge-made nullification remedy untethered to \u00a71447(c)\u2019s stage-sensitive design. As Chief Justice Roberts and Justice Kagan emphasize, collapsing an initial removal defect into mandatory post-judgment erasure would defeat finality and invite gamesmanship by turning removal objections into an after-the-fact undo device. Any error in the interlocutory dismissal can be reviewed on appeal on its own terms without treating the final judgment as jurisdictionally void once the defect was cured before judgment.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondents\u2019 best point is the time-of-removal rule: a case improperly removed for want of complete diversity should not be \u201ccured\u201d by a later (and possibly erroneous) dismissal of the nondiverse party, because the federal court supposedly never had authority to proceed. But as the Chief Justice Roberts and Justice Kavanaugh emphasize, \u00a7 1447(c) is stage-sensitive\u2014requiring remand when lack of jurisdiction appears \u201cbefore final judgment\u201d\u2014and our post-judgment inquiry must focus on whether subject-matter jurisdiction existed when the court entered the judgment under review. Caterpillar\u2019s core insight is that a removal defect does not mandate vacatur once the jurisdictional impediment is gone by final judgment; otherwise we would impose atextual automatic nullification that elevates a revisable interlocutory error over the presence of \u00a7 1332 jurisdiction at the decisive moment. Any mistake in dismissing the nondiverse defendant can be addressed on the merits, but it should not transmute a jurisdictionally proper final judgment into an ultra vires act.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondents\u2019 best point remains the time-of-removal principle: a federal court shouldn\u2019t be able to \u201ccreate\u201d diversity jurisdiction through an erroneous interlocutory dismissal of a nondiverse party. But as the Chief Justice explains, on appellate review after a full merits judgment the governing question is whether the district court possessed subject-matter jurisdiction when it entered the judgment under review; here, complete diversity existed then, so the court did not act ultra vires at the dispositive moment. Section 1447(c)\u2019s stage-sensitive directive\u2014remand when lack of jurisdiction appears \u201cbefore final judgment\u201d\u2014and Caterpillar\u2019s teaching (as Justice Kavanaugh emphasizes) counsel against a judge-made rule of automatic vacatur for a cured defect. Any error in the dismissal can be addressed on ordinary appellate review, but it should not convert a jurisdictionally valid final judgment into a nullity absent a clear statutory command.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "The strongest respondent point remains the time-of-removal rule coupled with the claim that an erroneous dismissal of the nondiverse defendant cannot \u201ccure\u201d a jurisdictional defect because the federal court supposedly lacked power to enter that dismissal in the first place. But as the Chief Justice Roberts and Justice Kagan both emphasize, \u00a7 1447(c) is stage-sensitive and the remedial question on appeal from a final judgment is whether a jurisdictional defect persisted at the time the district court entered the dispositive judgment; Caterpillar\u2019s logic rejects automatic vacatur once complete diversity exists at judgment. Treating an interlocutory, revisable ruling as forever \u201cinfecting\u201d a later merits judgment would disregard merger/finality principles and add a categorical nullification remedy untethered from the statute\u2019s text. The proper course is to review any preserved error in the dismissal on ordinary appellate principles, not to set aside an otherwise jurisdictionally sound final judgment.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondents\u2019 best point is the time-of-removal rule and the intuition that an erroneous dismissal of the nondiverse defendant cannot \"manufacture\" federal jurisdiction. But on appeal from a final judgment, the stage-sensitive question is whether a jurisdictional defect persisted when the district court exercised dispositive authority; if complete diversity existed at judgment, the asserted removal defect has been overtaken by later developments rather than remaining a live limit on power. As Chief Justice Roberts and Justice Kavanaugh stress, \u00a7 1447(c) keys remand to a lack of subject-matter jurisdiction appearing \u201cbefore final judgment,\u201d and Caterpillar\u2019s logic resists converting an earlier, revisable interlocutory mistake into mandatory post-judgment nullification. Any error in dismissing the nondiverse defendant can be reviewed on the merits, but it does not compel vacatur where the operative jurisdictional facts at judgment satisfied \u00a7 1332.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondents\u2019 strongest contention\u2014automatic vacatur to deter jurisdictional \u201cmanufacture\u201d via an erroneous dismissal of the nondiverse defendant\u2014still collapses two distinct inquiries: whether removal was defective at the outset, and what remedy is warranted after a final merits judgment entered when \u00a7 1332 indisputably was satisfied. As the Chief Justice explains, the dispositive question on post-judgment review is the district court\u2019s power at the time it entered the judgment under review; treating an earlier interlocutory error as categorically voiding a later jurisdictionally proper judgment would create a court-made erasure rule untethered to \u00a7\u00a7 1441\u20131447. Justice Kavanaugh\u2019s emphasis on \u00a7 1447(c)\u2019s stage-sensitive \u201cbefore final judgment\u201d trigger reinforces that Congress did not mandate automatic nullification once the defect is cured by judgment. Consistent with Caterpillar\u2019s finality-and-efficiency logic and respect for the continuing legal effect of judgments rendered while the case was live, the better course is to leave the final judgment in place absent a separate equitable basis for vacatur.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The threshold question is the federal court\u2019s power to enter the judgment that is now under review, and here the record establishes that by the time of final judgment the only remaining parties were completely diverse, so the district court possessed subject-matter jurisdiction in the case\u2019s final posture. Treating an erroneous removal-stage dismissal of a nondiverse defendant as automatically \u201cinfecting\u201d a later merits judgment would convert an interlocutory, revisable ruling into a mandatory post-judgment undoing, despite the absence of a jurisdictional defect at the time the court acted with dispositive remedial effect\u2014entering final judgment. Our precedent recognizes the necessity and prudence of resolving forum/jurisdiction questions in a way that avoids needless vacatur where jurisdiction exists at judgment, because the remedial stakes (preserving a fully litigated judgment versus starting over in state court) materially differ and finality, efficiency, and economy become overwhelming once the merits have been tried. On these facts, any removal error did not require vacatur where complete diversity existed at judgment and the federal court therefore had power to proceed to and enter the final merits judgment.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Article III and \u00a71332 require subject-matter jurisdiction at the time the federal court enters judgment, and a court acts ultra vires only when it renders a merits judgment without jurisdiction. Here, even assuming removal was improper because the district court mistakenly dismissed the sole nondiverse defendant at the outset, the case proceeded to final judgment between completely diverse parties, so the district court possessed diversity jurisdiction in the posture in which it actually entered judgment. Because the jurisdictional inquiry at judgment does not turn on procedural labels or earlier interlocutory errors, vacatur is not required where the jurisdictional defect was cured before final judgment. The proper course is to recognize that the merits judgment was entered with jurisdiction, consistent with the rule that an initial removal defect does not mandate undoing a final federal judgment once complete diversity exists at judgment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The controlling question is jurisdiction at the time judgment was entered, and the relevant statutory grant is 28 U.S.C. \u00a7 1332: once the only nondiverse defendant was out of the case and the action proceeded to final judgment solely between completely diverse parties, the district court possessed subject-matter jurisdiction in the posture in which it rendered judgment. Section 1447(c) directs remand when it appears the district court lacks subject-matter jurisdiction; read structurally, it does not compel vacatur of a merits judgment entered at a time when \u00a7 1332\u2019s prerequisites were satisfied, merely because removal was defective at the outset. Importing a rigid rule that any erroneous dismissal at removal \u201cinfects\u201d the final judgment elevates a procedural removal error into an automatic jurisdictional nullity untethered from the text of \u00a7 1332 and \u00a7 1447(c). Consistent with the Court\u2019s approach to preserving final judgments where jurisdiction existed at judgment, vacatur is not required on these facts.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Congress\u2019s removal scheme and its strong policy against prolonged jurisdictional skirmishing counsel an administrable finality rule: once the case has proceeded to a final merits judgment in federal court between completely diverse parties, appellate review should not automatically unravel that judgment for a now-cured removal-stage defect. The dismissal of the nondiverse defendant\u2014though potentially erroneous when entered\u2014was interlocutory and merged into the final judgment, and the relevant finality inquiry asks whether the federal court had subject-matter jurisdiction at the time it entered that final judgment, not whether removal was perfect at inception. A contrary rule would invite gamesmanship by encouraging parties to hold removal objections as a post-judgment \u201cundo\u201d mechanism, frustrating Congress\u2019s interest in consolidating review and avoiding fragmented, wasteful relitigation. On these facts\u2014where only diverse parties remained at judgment and the merits were fully adjudicated\u2014finality and efficiency principles reflected in our jurisdictional precedents favor preserving the federal judgment rather than vacatur and remand.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The governing question is whether the district court had subject-matter jurisdiction on the operative party alignment at the time it entered final judgment, not whether there was a removable case at the earlier moment. Once the only nondiverse defendant was dismissed and the merits judgment was entered solely between completely diverse parties, \u00a7 1332\u2019s requirements were satisfied, and nothing in \u00a7\u00a7 1441\u20131447 creates a special removed-case rule demanding automatic vacatur despite jurisdiction at judgment. Caterpillar teaches that a removal-stage defect does not require undoing a fully litigated merits judgment when the jurisdictional defect has been cured before judgment; the contrary approach elevates a statutory removal error over the presence of Article III and statutory jurisdiction at the decisive time. The interlocutory character of the dismissal order (Rule 54(b)) may show the removal error was reviewable, but it does not change that the final judgment rested on a case that\u2014by then\u2014fell within federal diversity jurisdiction.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Under the removal and diversity statutes\u2019 plain text, the dispositive question for Article III and \u00a7 1332 is whether the district court possessed subject-matter jurisdiction when it entered final judgment. Here, whatever error attended the district court\u2019s interlocutory dismissal of the lone nondiverse defendant at the removal stage, complete diversity indisputably existed by the time the case proceeded to judgment solely between diverse parties, so the federal court had jurisdiction at that critical moment. Respect for finality and the limited role of appellate courts\u2014consistent with separation-of-powers principles\u2014counsels against vacating a merits judgment when the jurisdictional defect has been cured before judgment, especially where Congress has not commanded automatic undoing in \u00a7 1447(c). The respondents\u2019 approach would treat a correct jurisdictional posture at judgment as irrelevant, contradicting the pragmatic rule this Court adopted to avoid wasting fully litigated federal judgments.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The controlling question is what the governing removal/jurisdiction scheme requires as a remedial consequence at the time of final judgment: under \u00a7 1447(c)\u2019s text (\u201cbefore final judgment\u201d) and Caterpillar, vacatur is mandatory only if a subject-matter jurisdiction defect remains uncured when judgment is entered, not merely because removal was erroneous at the outset. The interlocutory dismissal of the nondiverse defendant (even if wrong on the merits) is a ruling that \u201caffects the validity\u201d of the final judgment and thus merges for appellate review, but the proper remedy is to correct that error without automatically \u201cset[ting] aside\u201d a final merits judgment entered when complete diversity existed between the parties then before the court. Given Caterpillar\u2019s finality-and-efficiency holding where diversity exists at judgment, and absent a continuing jurisdictional defect at that point, the final judgment need not be vacated solely to enforce a removal-stage mistake. Vertical stare decisis thus points to affirming the judgment when jurisdiction existed at the end of the case, notwithstanding an earlier removal error.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Under the single-appeal principle, the question on review after final judgment is whether any jurisdictional defect remained live at the time judgment was entered, rather than whether an earlier removal-stage ruling was mistaken on the then-existing record. Here, later developments\u2014the dismissal of the only nondiverse defendant and the entry of a final merits judgment among completely diverse parties\u2014superseded the removal-stage defect, so the interlocutory error is not one that compels undoing the final judgment once Article III and \u00a7 1332 jurisdiction existed at judgment. Treating the erroneous dismissal as automatically \u201cinfecting\u201d the final judgment would conflate a procedural removal error with the distinct question of subject-matter jurisdiction at the judgment stage, and it would disregard Congress\u2019s choice to channel most errors into a single, post-judgment appeal. Consistent with stage-sensitive review, the operative jurisdictional facts at final judgment control, making vacatur and remand unnecessary on these facts.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fifth Circuit improperly collapses two distinct inquiries: whether removal was defective at the outset and, separately, what equitable/remedial consequence should follow once a federal court has entered a final merits judgment in a case that\u2014by then\u2014involves only completely diverse parties. Starting from the premise that \u201cwhat is done is done,\u201d the final judgment is presumptively valid and should not be automatically erased absent a recognized basis for mandatory vacatur; nothing in the removal statutes compels a categorical rule undoing a fully litigated judgment when the Article III diversity requirements are satisfied at the time of judgment. Consistent with a narrow, doctrine-anchored approach (and with discretionary, case-specific remedial principles rather than a mandatory remedy), the proper response is to preserve the judgment unless the challenger can justify vacatur under established equitable considerations\u2014not merely point to a removal-stage error. Caterpillar\u2019s finality-and-efficiency rationale applies here because the jurisdictional defect (nondiversity) was no longer present when final judgment was entered, so vacatur-and-remand is an unwarranted, court-invented remedy that disrespects the completed adjudication.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.787,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3"
+  }
+]

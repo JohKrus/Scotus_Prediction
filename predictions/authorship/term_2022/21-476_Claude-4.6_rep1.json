@@ -1,0 +1,68 @@
+{
+ "docket": "21-476",
+ "term": 2022,
+ "llm_model": "Claude-4.6",
+ "replicate": 1,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T10:56:33+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.2,
+  "Clarence Thomas": 0.08,
+  "Samuel Alito": 0.08,
+  "Neil Gorsuch": 0.45,
+  "Brett Kavanaugh": 0.1,
+  "Amy Coney Barrett": 0.09
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.65,
+   "concurs": 0.65
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.55,
+   "concurs": 0.55
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.9,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.6,
+   "concurs": 0.0
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.55,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Gorsuch is the most likely majority author given his strong doctrinal confidence, his authorship of Bostock (showing comfort with LGBTQ-adjacent statutory issues), and Roberts' preference for narrow minimalist holdings that might better suit a concurrence clarifying limits. Thomas is likely to write separately to press originalist and broader free exercise grounds, while Sotomayor is highly likely to author the principal dissent given her forceful reasoning and seniority among the minority.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.20,\n    \"Clarence Thomas\": 0.08,\n    \"Samuel Alito\": 0.08,\n    \"Neil Gorsuch\": 0.45,\n    \"Brett Kavanaugh\": 0.10,\n    \"Amy Coney Barrett\": 0.09\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Clarence Thomas\": {\"writes_separately\": 0.65, \"concurs\": 0.65},\n    \"Samuel Alito\": {\"writes_separately\": 0.55, \"concurs\": 0.55},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.90, \"concurs\": 0.00},\n    \"Elena Kagan\": {\"writes_separately\": 0.60, \"concurs\": 0.00},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.55, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Gorsuch is the most likely majority author given his strong doctrinal confidence, his authorship of Bostock (showing comfort with LGBTQ-adjacent statutory issues), and Roberts' preference for narrow minimalist holdings that might better suit a concurrence clarifying limits. Thomas is likely to write separately to press originalist and broader free exercise grounds, while Sotomayor is highly likely to author the principal dissent given her forceful reasoning and seniority among the minority.\"\n}\n```"
+}

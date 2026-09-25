@@ -1,0 +1,668 @@
+[
+  {
+    "docket": "25-466",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the SEC may obtain disgorgement in a civil enforcement action without proving that investors suffered pecuniary harm.",
+      "legal_provision": "15 U.S.C. \u00a7 78u(d) (particularly subsections (d)(3) and (d)(7) as referenced in the materials) and the scope of equitable disgorgement as recognized in Supreme Court precedent (e.g., Liu v. SEC).",
+      "petitioner_position": "Sripetch argues that disgorgement is properly an equitable remedy tied to restitutionary principles and therefore requires a showing of victim pecuniary harm; allowing disgorgement without investor loss transforms the remedy into an indeterminate penalty, raising due-process and separation-of-powers concerns and exceeding what Congress authorized (especially after the Supreme Court\u2019s limitations on disgorgement in Liu).",
+      "respondent_position": "The SEC argues that investor pecuniary harm is not a prerequisite to disgorgement in SEC civil actions; disgorgement is aimed at stripping wrongdoers of ill-gotten gains to deter violations and prevent unjust enrichment, and Congress has authorized disgorgement in SEC enforcement such that requiring proof of investor loss would improperly constrain the remedy and undermine enforcement.",
+      "key_precedents": [
+        "Liu v. SEC (2020)",
+        "SEC v. Hallam (5th Cir. 2022)",
+        "SEC v. Govil (2d Cir.)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor and Justice Barrett are right that equity may strip unjust gains and that Liu framed its limitations largely in remedial terms\u2014net profits and disposition for victims where feasible\u2014rather than as a categorical, victim-by-victim loss element. But that does not answer the statutory-architecture problem: Congress separately authorized punitive civil penalties in \u00a7 78u(d)(3), and a money judgment under \u00a7 78u(d)(7) untethered to any demonstrated investor harm or any concrete restitutionary path risks functioning as a deterrent exaction, collapsing categories Liu insisted must remain distinct. As Justice Kagan emphasizes, \u201cfor victims\u201d must have operative bite; requiring the SEC to show at least class-wide pecuniary harm and a victim-oriented remedial design (without demanding individualized loss calculations) supplies the narrowest historically and structurally grounded limiting principle. That approach accommodates the respondents\u2019 administrability concerns while keeping (d)(7) within equity\u2019s restitutionary tradition rather than converting it into a penalty by another name.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor and Justice Barrett are correct that Liu framed guardrails in functional terms (net profits; disposition for victims where feasible), but that does not answer the antecedent historical question whether \u00a7 78u(d)(7) authorizes a remedy that equity, at the Founding, recognized in the sovereign\u2019s favor without an identifiable claimant with a superior equitable interest. If the SEC may obtain a money judgment untethered to any concrete victim-harm/restitutionary anchor, the award predictably operates as a penalty, collapsing the distinct scheme Congress created in \u00a7 78u(d)(3) (penalties) versus (d)(5)/(d)(7) (equitable relief), as Chief Justice Roberts emphasizes. Nor does the absence of an express \u201cpecuniary loss\u201d element in (d)(7) resolve the problem; statutory labels cannot expand equity beyond its traditional forms and \u201ccareful limitations,\u201d including constraints akin to tracing and victim-focused restitution rather than general profit-stripping for deterrence. On this record, requiring at least a demonstrated restitutionary path tied to investor harm (even if aggregate and imperfect) is the minimum historically grounded limit that keeps the remedy equitable rather than punitive.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor and Justice Barrett are right that equity can strip unjust gains without proving each victim\u2019s precise loss, and Liu\u2019s constraints are framed in terms of net profits and victim-oriented disposition rather than a rigid damages model. But that functional account still leaves the characterization problem the Chief Justice identifies: if the SEC need not show any concrete investor harm (or at least a restitutionary class injury capable of being redressed), then a money judgment payable to the sovereign operates as a deterrent exaction and collapses Congress\u2019s separate civil-penalty authorization in \u00a7 78u(d)(3). Liu\u2019s \u201cfor victims\u201d limitation cannot do real work unless there is some showing that victims exist in a meaningful, redressable sense; otherwise the label \u201cdisgorgement\u201d becomes an end run around the statutory architecture. I therefore remain persuaded that a minimal victim-harm/restitutionary tether\u2014short of individualized loss proof\u2014is necessary to keep \u00a7 78u(d)(7) within equitable bounds and to ensure the remedy is redressable in the relevant sense rather than punitive in operation.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "The Chief Justice\u2019s architecture concern\u2014echoed by Justice Kagan\u2014that \u00a778u(d)(7) not become a shadow penalty provision is real, but the proposed solution (a categorical showing of investor pecuniary harm) adds a merits-like prerequisite Congress did not write. Liu\u2019s constraint is functional and remedial: disgorgement must be limited to net profits causally connected to the violation and structured, where feasible, to benefit investors; those guardrails police the penalty line without converting \u201cvictim harm\u201d into an element. Justice Thomas\u2019s historical point about identifiable claimants speaks to whether the award is restitutionary in operation\u2014i.e., whether it is measured and disposed in a way consistent with equity\u2014not to a categorical bar whenever losses are diffuse. The proper course is to affirm availability of (d)(7) disgorgement while requiring courts to make specific findings that the award is nonpunitive in amount and disposition, rather than denying the remedy whenever the SEC cannot prove classwide pecuniary loss at the threshold.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Barrett have the strongest point against us: Liu policed the equity/penalty line through remedy-design constraints (net profits; victim-oriented disposition where feasible), not by announcing a categorical \u201cpecuniary loss\u201d element, and equity can strip unjust gains without perfect loss tracing. But the Chief Justice is right that this case presses a prior, statutory-architecture problem: if the SEC may obtain a money judgment with no demonstrated investor harm and no realistic restitutionary pathway, the award functions as a deterrent exaction and collapses Congress\u2019s separation between \u00a7 78u(d)(3) penalties and \u00a7 78u(d)(7) disgorgement. Giving \u201cfor victims\u201d real work requires at least a showing of victim harm in the aggregate (not investor-by-investor accounting) and a remedial orientation toward redress rather than punishment. So I would reverse the Ninth Circuit to the extent it allows (d)(7) disgorgement untethered to any victim-harm/restitutionary anchor, while leaving room for classwide or diffuse-harm proofs and imperfect distributions.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor and Justice Barrett offer the strongest rejoinder: equity may target unjust enrichment and Liu policed the line through net-profits measurement and victim-oriented disposition rather than a categorical pecuniary-loss element. But if the Commission need not show any concrete victim harm capable of being redressed\u2014at least at an aggregate/class level\u2014then \u201cfor victims\u201d risks becoming merely precatory, and the award predictably functions as a sovereign exaction aimed at deterrence, collapsing \u00a7 78u(d)(7) into an end run around Congress\u2019s distinct civil-penalty authority in \u00a7 78u(d)(3), as the Chief Justice emphasizes. Our task is classification: when a monetary order operates like a penalty, we should not dilute the equitable label to evade the procedural and structural consequences that attend punitive sanctions. Requiring a restitutionary tether\u2014victim harm and a plausible path to benefitting victims, even if distribution is imperfect\u2014supplies the historically grounded limiting principle that keeps (d)(7) within equity\u2019s traditional bounds without demanding individualized loss proofs.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor and Justice Barrett rightly stress that equity can target unjust enrichment and that Liu did not announce a categorical \u201cpecuniary loss\u201d element. But as the Chief Justice emphasizes, \u00a7 78u(d)\u2019s remedial architecture matters: Congress separately authorized civil penalties in (d)(3), and reading (d)(7) to permit Treasury-paid \u201cdisgorgement\u201d without any concrete victim-harm/restitutionary anchor risks converting it into a deterrent exaction under another label. Liu\u2019s \u201cfor victims\u201d limitation must do real work; at minimum the SEC should have to show investor harm at least in aggregate and a realistic restitutionary orientation, even if distribution is imperfect. That limiting principle keeps courts from becoming general compliance enforcers and keeps (d)(7) within equity rather than collapsing into penalties.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The strongest point on the other side\u2014pressed by the Chief Justice and Justice Kagan\u2014is that without some victim-harm tether, disgorgement risks functioning as a deterrent exaction and thus collapsing \u00a7 78u(d)(7) into \u00a7 78u(d)(3)\u2019s penalty authority. But I do not think the way to preserve Congress\u2019s architecture is to add a categorical \u201cpecuniary loss to investors\u201d prerequisite, because that imports a damages-like element that historically attached to actions sounding in compensation, not to equity\u2019s restitutionary aim of stripping unjust gains. Liu\u2019s own constraints\u2014net-profits measurement and a victim-oriented disposition inquiry \u201cwhere feasible\u201d\u2014are remedy-sensitive guardrails that can do the necessary work to keep the award nonpunitive without rewriting (d)(7). Justice Thomas\u2019s historical objection about identifiable claimants is serious, but it bears on the permissible form and disposition of monetary equitable relief, not on an across-the-board merits element equating injury with pecuniary loss in all cases.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The Chief Justice\u2019s and Justice Kagan\u2019s architecture concern\u2014that untethered disgorgement risks collapsing into a deterrent exaction akin to \u00a7 78u(d)(3) penalties\u2014is the strongest point from the other side, and it underscores why Liu\u2019s limits must be applied with rigor. But I do not see a lawful path to the Petitioners\u2019 proposed solution: \u00a7 78u(d)(7) contains no textual requirement of proving \u201cinvestor pecuniary harm,\u201d and importing that as a threshold element rewrites the cause of action rather than policing the remedy\u2019s operation. Justice Thomas\u2019s historical framing usefully cautions against punitive applications, yet that caution is properly implemented through remedy-side constraints (net profits, causation, and victim-oriented disposition where feasible) rather than a categorical gatekeeping rule that would foreclose disgorgement even when unjust enrichment is concrete and distribution to harmed investors is practicable in aggregate. In short, we should prevent disgorgement from functioning as a penalty by tailoring and directing it consistent with Liu, not by adding an extra-textual merits prerequisite.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Congress created a calibrated enforcement architecture in \u00a7 78u(d), separately authorizing civil penalties that punish and deter (\u00a7 78u(d)(3)) and \u201cdisgorgement\u201d (\u00a7 78u(d)(7)); reading (d)(7) to permit disgorgement untethered to any victim pecuniary harm risks converting it into an indeterminate penalty and collapsing the distinct remedial categories Congress drew. Under the historical/common-law analogy that informs our characterization of remedies, equity\u2019s restitutionary remedies targeted unjust enrichment in a manner traditionally connected to restoring losses or returning specific gains to those wronged, not imposing a free-floating deterrent exaction. Liu recognized disgorgement only insofar as it fits within traditional equitable limits\u2014net profits and orientation toward benefiting victims\u2014and requiring the SEC to show that investors suffered pecuniary harm (even if individual distribution is impracticable) is what keeps the remedy on the equitable side of the line rather than a punitive sanction. Because the SEC here seeks disgorgement without proving investor loss, the request functions primarily to punish and deter, and \u00a7 78u(d)(7) should not be read to authorize that result absent a clearer statement from Congress.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Section 78u(d)\u2019s authorization for \u201cequitable relief\u201d should be read, as our cases instruct, to encompass only those remedies recognized in the English Court of Chancery at the Founding and subject to their traditional constraints. The SEC\u2019s request for disgorgement without proving any investor pecuniary harm departs from the restitutionary core of historical equity\u2014accounting for profits and constructive trust\u2014which operated to restore to an identifiable victim what belonged to him (and any profits attributable to that property), not to impose profit-stripping untethered to loss. Allowing disgorgement where no one can be shown to have been financially harmed risks converting \u201cequitable relief\u201d into an indeterminate penalty and enables the very circumvention of equity\u2019s careful limitations (including the requirement that the award be \u201cfor victims\u201d) that modern \u201cdisgorgement\u201d labels invite. Because Congress did not clearly authorize a free-floating, deterrence-driven remedy under the guise of equity, the SEC must show pecuniary harm to a victim (or at least that the award will redress such harm) before obtaining disgorgement in these circumstances.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The SEC seeks disgorgement as a monetary remedy untethered to any showing that identifiable investors suffered pecuniary loss, but under this Court\u2019s framework in Liu the dispositive question is whether the award remains \u201cequitable relief\u201d rather than a punitive sanction. Equity historically permitted stripping net profits only with limits designed to prevent punishment\u2014most notably that the recovery be restitutionary in character and directed to victims rather than to the sovereign as a revenue-raising measure. On these facts, where the Commission does not prove victim loss and therefore cannot show the award is restitution for harmed investors, the requested disgorgement functions as a penalty; absent a clear congressional statement authorizing such a punitive monetary sanction under \u00a7 78u(d)(7), it exceeds the permissible scope of \u201cdisgorgement\u201d recognized by our precedent.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Section 78u(d) authorizes disgorgement as a form of equitable relief so long as it is tethered to traditional equity limits\u2014most critically, that it be confined to the wrongdoer\u2019s net profits causally connected to the violation and ordered \u201cfor the benefit of investors.\u201d Nothing in that text or in historical equity practice makes investor pecuniary harm an element the SEC must prove in every case; equity has long stripped ill-gotten gains to prevent unjust enrichment even when individualized losses are difficult to quantify. The proper constraint is not a categorical \u201charm\u201d requirement but a functional one: the remedy must operate nonpunitively (no more than net profits) and must, where feasible, be directed to investors rather than retained as general revenue. On these facts, so long as the SEC\u2019s calculation is limited to net profits and the district court ensures distribution to investors when practicable, the absence of proven investor pecuniary loss does not categorically bar disgorgement.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Start with what Congress authorized in \u00a7 78u(d) and what this Court has said that authorization means in practice: a disgorgement award can qualify as equitable relief only if it fits within equity\u2019s traditional remedial limits. Under Liu, that turns in significant part on whether the remedy is \u201crestricted to a wrongdoer\u2019s net profits\u201d and \u201cawarded for victims,\u201d i.e., functioning as restitution rather than as a free-floating deterrent sanction. On these facts\u2014as the Ninth Circuit allowed disgorgement without any showing that investors suffered pecuniary harm or that there are identifiable victims to whom funds can be returned\u2014the award risks becoming punitive (a \u201cpenalty\u201d) rather than equitable, exceeding what \u00a7 78u(d) permits. Requiring a showing of victim pecuniary harm (or at minimum some concrete victim injury that restitution can remedy) keeps the remedy tethered to compensation and prevents disgorgement from doing the work of civil penalties under \u00a7 78u(d)(3).",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Disgorgement that the SEC seeks in a civil action operates, in function and effect, as a penalty when it is untethered from returning funds to persons who suffered a concrete injury; and when the government pursues a penalty, our traditions demand clear authorization and careful procedural regularity. Against the common-law and equitable backdrop, restitutionary disgorgement was constrained to a wrongdoer\u2019s net profits awarded for victims, not a freestanding governmental forfeiture whenever the agency proves a violation. Reading \u00a7 78u(d)(7) to allow disgorgement absent any showing of investor pecuniary harm risks converting an equitable remedy into an indeterminate punitive sanction\u2014precisely the drift Liu warned against\u2014and it would do so without the safeguards that attend criminal punishment. Because the SEC here seeks to take property without establishing victim loss (and thus without a principled restitutionary endpoint), I would hold the statute does not authorize that form of disgorgement in this posture.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Disgorgement in an SEC civil action is permissible only insofar as it fits within traditional equitable restitution\u2014relief tied to compensating a person wronged\u2014rather than functioning as a freestanding penalty imposed to deter regulatory violations. On these facts, if the SEC seeks disgorgement without showing that identifiable investors suffered pecuniary harm (or that the award can be directed to victims to restore them toward the status quo), the remedy is untethered from compensation and risks converting the federal courts into instruments for general regulatory compliance and punishment, a result inconsistent with separation-of-powers constraints on judicial power. Congress\u2019s authorization of \u201cdisgorgement\u201d in \u00a7 78u(d) is instructive but cannot be read to eliminate the traditional equitable limitations this Court recognized, particularly where the requested relief would operate like a penalty. Therefore, the SEC must establish investor pecuniary harm (or a restitutionary victim-focused basis) before a court may order disgorgement as equitable relief.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The central claim is whether disgorgement under \u00a7 78u(d) is categorically conditioned on proof of investor pecuniary harm; historically, that requirement tracked remedies that \u201csound in damage,\u201d not every equitable measure aimed at stripping wrongful gains. Mapping the remedy to its equitable pedigree, Liu recognizes an equity practice of depriving a wrongdoer of net profits while cabining the remedy so it does not become punitive\u2014limits like net-profits calculation and directing funds to victims where feasible\u2014without announcing pecuniary loss as an inherent element of disgorgement itself. Petitioner\u2019s proposed loss requirement would collapse \u201cinjury\u201d into \u201cpecuniary loss\u201d and would disable meaningful relief in cases where investors are difficult to identify even though the defendant\u2019s unjust enrichment is concrete, pushing the Court to resolve more than necessary about the scope of (d)(3) and (d)(7). Properly framed, the statute and Liu permit disgorgement without a threshold showing of investor loss so long as the award is tethered to net profits and structured to avoid functioning as a penalty.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Starting with the statutory text, \u00a7 78u(d)(7) authorizes \u201cdisgorgement\u201d without any express modifier requiring proof that investors suffered pecuniary loss, and I would not import that extra limitation into Congress\u2019s chosen language. Petitioner\u2019s argument largely conflates (i) eligibility/availability of a remedial tool Congress authorized for SEC enforcement with (ii) the merits constraints that keep the remedy from becoming punitive\u2014constraints that Liu articulated as limiting disgorgement to a wrongdoer\u2019s net profits and directing it \u201cfor victims,\u201d not as a threshold element requiring the SEC to prove investor out-of-pocket loss in every case. On these facts, the equitable-fairness inquiry can be satisfied by ensuring the award reasonably approximates unjust enrichment (net profits) and is structured to avoid a penalty (e.g., no joint-and-several beyond individual gains; appropriate disposition of funds), even if direct investor pecuniary harm is difficult to prove or not shown. Requiring investor-loss proof as a categorical prerequisite would add an unwritten element that would materially narrow the enforcement scheme Congress enacted and risk undermining the statute\u2019s deterrent and unjust-enrichment purposes.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.752,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "25-466",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether, in an SEC civil enforcement action, a court may award disgorgement without proof that investors suffered pecuniary harm.",
+      "legal_provision": "15 U.S.C. \u00a7 78u(d) (Exchange Act remedies, including subsections (d)(3) and (d)(7) addressing monetary relief and disgorgement), as interpreted alongside the Supreme Court\u2019s equitable-remedies framework in Liu v. SEC.",
+      "petitioner_position": "Sripetch argues that disgorgement is permissible only as a traditionally equitable remedy and thus must be tied to compensating victims for actual pecuniary harm; absent proof of investor loss, disgorgement becomes punitive, exceeds equitable limits recognized in Liu, and raises constitutional concerns (separation of powers and due process) by allowing the SEC/courts to impose an indeterminate, quasi-penal monetary sanction not clearly authorized by Congress.",
+      "respondent_position": "The SEC argues that investor pecuniary harm is not a prerequisite to disgorgement because disgorgement\u2019s core function is to strip wrongdoers of ill-gotten gains and deter violations; the relevant statutory authorization in \u00a7 78u(d) permits disgorgement without requiring a victim-loss showing, and Liu\u2019s constraints focus on limiting disgorgement to net profits and appropriate distribution, not on requiring proof that investors themselves suffered out-of-pocket losses in every case.",
+      "key_precedents": [
+        "Liu v. SEC",
+        "SEC v. Hallam (5th Cir. 2022)",
+        "SEC v. Govil (2d Cir.)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Thomas and Justice Gorsuch are right to insist that equity\u2019s monetary remedies were not a roving commission for punitive exactions, and that Liu\u2019s \u201cfor the benefit of investors\u201d language does real work in separating restitution from penalty. But that history does not justify converting investor out-of-pocket loss into a categorical element of \u201cdisgorgement,\u201d because an accounting for profits traditionally turns on the defendant\u2019s unjust enrichment (net profits causally connected to the wrong) even when the claimant\u2019s loss is difficult to quantify. The administrable line is functional, as Justice Barrett and Justice Kagan emphasize: cap at net profits, avoid penalty-like features (e.g., Treasury-directed deterrence), and require distribution to harmed investors where feasible; if the SEC cannot plausibly structure the award to benefit investors, Liu already supplies the basis to deny it. Reading a hard pecuniary-harm prerequisite into \u00a7 78u(d)(7) risks rewriting the statute and disabling a historically grounded restitutionary remedy precisely where wrongful gains are provable but losses are diffuse.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The Chief Justice and Justice Kagan are correct that an accounting for profits in equity could proceed without a victim\u2019s loss being readily quantifiable. But that point is incomplete unless we also ask whether the SEC\u2019s requested remedy fits within equity\u2019s traditional constraints\u2014i.e., tied to an identifiable equitable claimant or beneficiary and directed to restoring an entitlement, not extracting a deterrent payment to the Treasury under a malleable modern label. Justice Barrett\u2019s case-by-case \u201cfeasibility\u201d framing risks converting Liu\u2019s \u201cfor the benefit of investors\u201d limitation into an afterthought, leaving courts to impose what functions as a penalty without the clear statement Congress would need to authorize that expansion. I therefore remain persuaded, consistent with Justice Gorsuch\u2019s concern, that absent a realistic path to benefiting harmed investors (or an equivalent historically grounded beneficiary tether), \u201cdisgorgement\u201d under \u00a7 78u(d)(7) exceeds what \u201cequitable relief\u201d traditionally encompassed and becomes punitive.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Thomas and Justice Gorsuch press the most serious point: absent identifiable harmed investors, disgorgement risks degenerating into a punitive, Treasury-directed exaction, and Liu\u2019s \u201cfor the benefit of investors\u201d language must be enforced as a real limit. But converting that concern into a categorical prerequisite\u2014proof of investor out-of-pocket loss in every \u00a7 78u(d)(7) case\u2014adds a condition Congress did not impose, particularly when adjacent provisions speak with greater specificity about investor-directed relief. As the Chief Justice and Justice Barrett emphasize, an accounting for profits in equity traditionally targets unjust gain (net profits) and does not invariably depend on quantifying victims\u2019 loss; Liu\u2019s guardrails (net profits, anti-penalty structure, investor-benefit orientation where feasible) provide the appropriate, text-consistent constraint. If, in a given case, the SEC cannot plausibly structure relief to avoid penalty-like features, that is a Liu application problem for the remedy\u2019s scope\u2014not a basis to rewrite \u00a7 78u(d)(7) to require loss as a threshold element.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Thomas and Justice Gorsuch rightly warn that, without a genuine investor-benefit orientation, disgorgement can degenerate into a Treasury-directed exaction and thus a penalty beyond equity\u2019s traditional bounds. But I agree with the Chief Justice that equity\u2019s accounting for profits historically targeted the wrongdoer\u2019s net gains even where victim loss was hard to quantify, and Liu\u2019s answer was to impose guardrails (net profits, causal tethering, and an investor-benefit constraint), not to constitutionalize a categorical pecuniary-loss prerequisite. Justice Kavanaugh\u2019s concern about the absence of a concrete distribution plan is serious, yet it is best addressed by enforcing Liu at the remedial stage\u2014denying or narrowing relief when the SEC cannot plausibly structure distribution to harmed investors\u2014rather than by rewriting \u00a7 78u(d)(7) to add an element Congress did not enact. Kokesh\u2019s \u201cpenalty\u201d label for limitations purposes does not compel importing a loss element here; the question remains whether the award, in operation, fits within historically grounded equity and the statute\u2019s investor-benefit limitation.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Gorsuch and Justice Kavanaugh press the best point: without some investor-benefit tether, disgorgement risks devolving into a Treasury-directed penalty dressed up in equitable clothing. But their proposed cure\u2014a categorical prerequisite of proving investor pecuniary loss or otherwise denying disgorgement\u2014adds a damages-like element Congress did not enact in \u00a7 78u(d)(7) and is not demanded by equity\u2019s accounting-for-profits tradition, which targets unjust gain (net profits) even when victims\u2019 losses are hard to quantify. As the Chief Justice explains, Liu already supplies the operative constraint: courts must ensure the remedy is limited to net profits and structured to benefit investors where feasible, and deny or narrow awards that function punitively. The right move is to enforce Liu\u2019s guardrails at the remedial-fit stage (including whether distribution is realistically possible), not to rewrite the statute with an atextual loss element.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The Chief Justice and Justice Kagan are right to resist an atextual requirement that the SEC prove each investor\u2019s out-of-pocket loss; historically, an accounting for profits often turned on the defendant\u2019s unjust gain rather than the plaintiff\u2019s provable damages. But as Justice Thomas stresses, that history also presupposed an equitable claimant and relief directed to identifiable beneficiaries, and Liu\u2019s \u201cfor the benefit of investors\u201d language supplies the critical limiting principle that keeps \u201cdisgorgement\u201d from becoming a penalty. Justice Barrett\u2019s feasibility framing risks reducing that limit to an after-the-fact administrative preference, leaving courts to bless Treasury-directed deterrence payments so long as \u201cnet profits\u201d are observed. Absent a clearer statement in \u00a7 78u(d)(7), I would require the SEC to show a realistic path to returning funds to harmed investors (or otherwise tether the award to an identifiable beneficiary class); without that, the award functions as punitive exaction beyond equity\u2019s traditional bounds.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "I agree with Chief Justice Roberts and Justice Kagan that equity\u2019s accounting-for-profits tradition does not categorically require proof of investor out-of-pocket loss, and I would not graft that damages-like element onto \u00a7 78u(d)(7). But Justice Thomas and Justice Gorsuch are correct that the historical and constitutional limiting principle is that the relief must run to an equitable claimant or identifiable beneficiaries\u2014Liu\u2019s \u201cfor the benefit of investors\u201d constraint is what prevents \u201cdisgorgement\u201d from becoming a Treasury-directed penalty. Here, the SEC\u2019s request, as framed, is insufficiently tethered to a concrete, workable investor-benefit distribution and therefore risks functioning as punitive deterrence, which is exactly the kind of open-ended enforcement remedy that demands a clearer congressional indication. Enforcing a net-profits cap is necessary but not sufficient; absent a realistic investor-benefit path, this remedy crosses the line from restitution to penalty.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Gorsuch and Justice Kavanaugh press the best point: Liu\u2019s \u201cfor the benefit of investors\u201d language must constrain \u00a7 78u(d)(7) so disgorgement does not devolve into a Treasury-directed penalty. But their proposed screen\u2014treating investor pecuniary loss or a concrete distribution plan as a categorical prerequisite\u2014conflates the predicate for an accounting (the defendant\u2019s unjust enrichment measured by net profits causally tied to the wrong) with the administration of the decree, where Liu\u2019s anti-penalty guardrails do the work. As the Chief Justice explains, importing an out-of-pocket-loss element would make a remedy that does not sound in damages operate like damages, adding an atextual requirement Congress did not write. The better historically grounded approach is to cap awards at net profits and, at the remedial stage, require the SEC to show the award is structured to avoid penalty-like operation\u2014including attention to whether investor benefit is feasible\u2014rather than demanding individualized loss proof up front.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.77,
+        "reasoning": "Justice Gorsuch and Justice Kavanaugh press the core concern that Liu\u2019s \u201cfor the benefit of investors\u201d language must function as an administrable constraint to prevent disgorgement from becoming a penalty, especially when distribution to identifiable victims is hard. But their proposed threshold requirement\u2014proof of investor pecuniary loss or a concrete distribution plan as a prerequisite\u2014does not appear in \u00a7 78u(d)(7)\u2019s text and risks converting a profits-focused, restitutionary remedy into a damages-like element Congress did not enact. As the Chief Justice and Justice Kagan explain, the historically grounded limiter is functional: cap awards at net profits causally connected to the wrongdoing and use equitable discretion to deny or tailor relief when the SEC\u2019s request would operate punitively (including when investor-benefit distribution is not feasible), rather than rewriting the statute with an atextual loss prerequisite. Bowen\u2019s \u201cbasic reality\u201d remains that an order to pay money can be equitable restitution when it strips unjust gain in service of Congress\u2019s investor-protection design, and Liu supplies the tools to police penalty-like applications case by case.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Disgorgement, as limited by Liu, is best classified as a restitutionary equitable remedy aimed at stripping a wrongdoer\u2019s net profits, not as a compensatory damages remedy keyed to the victim\u2019s out-of-pocket loss; historically, equity could require an accounting for profits even when the claimant\u2019s loss was difficult to show so long as the defendant\u2019s unjust gain was established. On these facts, conditioning disgorgement on proof that investors suffered pecuniary harm would convert the remedy into something closer to legal damages and would improperly read Liu\u2019s \u201cfor the benefit of investors\u201d language as a categorical loss prerequisite rather than as a constraint against punitive, Treasury-directed sanctions. The constitutional line I have drawn in prior cases turns on function: if the SEC seeks punishment or deterrence untethered to net profits, that looks like a civil penalty (triggering Tull/Granfinanciera concerns), but a net-profits disgorgement award directed to investors (or a feasible proxy consistent with statutory limits) remains equitable even when investors cannot prove individualized pecuniary loss. Accordingly, the Exchange Act permits disgorgement without a separate showing of investor pecuniary harm, provided the award is confined to net profits and structured to benefit investors rather than operate as a penalty.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Under our usual interpretive convention, statutory authorization of \u201cequitable relief\u201d incorporates only those remedies available in the English Court of Chancery at the founding, and profits-based equitable remedies were constrained by restitutionary principles\u2014aimed at restoring to identifiable victims what rightfully belonged to them, not imposing a free-floating monetary sanction. On these facts, ordering \u201cdisgorgement\u201d without any showing that investors suffered pecuniary harm severs the remedy from equity\u2019s traditional plaintiff\u2013defendant relationship and from equity\u2019s compensatory orientation, transforming it into an untethered exaction that operates punitively. Because Congress must speak clearly to authorize such a penal monetary remedy in an SEC civil action, courts should not treat the modern label \u201cdisgorgement\u201d as a license to exceed historically grounded equitable limits. Accordingly, absent proof of investor loss (or another historically cognizable equitable basis tying profits to victims), the award is not permissible as equitable relief.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 78u(d)(7) authorizes \u201cdisgorgement,\u201d and nothing in that text\u2014and especially no language parallel to the provisions in the same remedial scheme that speak expressly and with care about \u201cvictims\u201d and \u201ccompensation\u201d\u2014imposes a prerequisite that the SEC prove investors suffered pecuniary loss in every case. Reading such a requirement into the statute would add a condition Congress did not clearly include, and it would do so \u201cobliquely\u201d by appealing to generalized equitable principles rather than statutory text and structure. Liu limits disgorgement to a nonpunitive form of equitable relief\u2014net profits and, when feasible, return to those harmed\u2014but it does not convert disgorgement into a remedy that is categorically unavailable whenever particular investors cannot be shown to have out-of-pocket losses, so long as the award is confined to ill-gotten net gains. On these facts, the district court ordered only net profits and thus stayed within Liu\u2019s constraints; requiring an additional victim-loss showing would improperly narrow Congress\u2019s chosen remedy and shift to civil penalties what the statute separately authorizes as disgorgement.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 78u(d) authorizes disgorgement as an SEC remedy, and under Liu the controlling question is whether the award is tethered to historically grounded equitable limits\u2014targeting the wrongdoer\u2019s net profits to prevent unjust enrichment and being structured, where feasible, \u201cfor the benefit of investors.\u201d Nothing in Liu makes proof of investor out-of-pocket loss an absolute prerequisite in every case; equity has long permitted stripping ill-gotten gains even when individualized victim pecuniary harm is difficult to quantify, so long as the remedy is not punitive in operation. The legal constraint here is that the court must ensure the disgorgement does not exceed net profits and must attend to administration\u2014whether funds can practicably be returned to harmed investors rather than treated as a general revenue measure\u2014because those features determine whether the award remains equitable rather than a penalty. On these facts, disgorgement may be awarded without a separate showing of pecuniary harm so long as the SEC proves ill-gotten gains and the court enforces Liu\u2019s limits (net profits and investor-benefit distribution), leaving purely punitive objectives to civil penalties expressly authorized elsewhere in \u00a7 78u(d).",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Start with the statute Congress wrote: Section 78u(d)(7) expressly authorizes \u201cdisgorgement,\u201d and nothing in that text makes the remedy turn on a threshold showing that identifiable investors suffered out-of-pocket loss; the natural focus of disgorgement is the defendant\u2019s unjust gains, not the victim\u2019s accounting. Under Liu\u2019s equitable-limits framework, the question is whether the award is structured to remain remedial\u2014i.e., limited to net profits and ordinarily directed toward victim compensation where feasible\u2014rather than becoming a punitive exaction; that inquiry can be satisfied even when pecuniary loss is hard to prove, so long as the court cabins the remedy to ill-gotten gains and guards against penalty-like features. Requiring proof of investor pecuniary harm as an absolute prerequisite would convert Liu\u2019s functional constraints into a categorical bar Congress did not enact, and would disable disgorgement in cases (like certain market-manipulation or disclosure violations) where wrongdoing yields profits without easily traceable investor losses. The proper doctrinal guardrail is Liu\u2019s here-and-now equitable remedial limit\u2014net profits and appropriate distribution\u2014not a victim-loss element that the statute does not demand.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The place to begin is the text Congress enacted. Section 78u(d)(5) authorizes only \u201cequitable relief \u2026 for the benefit of investors,\u201d and \u00a7 78u(d)(7)\u2019s authorization of \u201cdisgorgement\u201d does not clearly expand that historically equitable limitation into a freestanding, Treasury-directed sanction untethered to any investor\u2019s loss. Our decision in Liu treated SEC disgorgement as permissible only insofar as it tracks traditional equitable restitution\u2014net profits awarded for victims\u2014and history teaches that equity\u2019s monetary remedies were not licenses to impose deterrent penalties in the guise of \u201cdisgorgement\u201d when no injured beneficiary can be identified. On these facts, where the SEC seeks disgorgement without proving investors suffered pecuniary harm, the requested award looks less like restoring victims and more like punishment, and absent clear statutory authorization for that shift, courts should not supply it.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Disgorgement in an SEC civil action is permissible only insofar as it fits within the traditional equitable limits this Court emphasized in Liu\u2014net profits awarded in a manner directed \"for the benefit of investors\" rather than operating as a free-floating punitive sanction. On this record, where the SEC seeks disgorgement without proving that investors suffered pecuniary harm (or that disgorgement will restore victims to the status quo), the remedy looks less like equitable restitution and more like a penalty\u2014precisely what Liu cautioned against. Absent a clear congressional statement in \u00a7 78u(d)\u2014a \u201cstronger indication\u201d that courts may impose disgorgement untethered to victim harm\u2014separation-of-powers and judicial-role constraints counsel against expanding equitable relief beyond its historically recognized bounds. Requiring proof of concrete investor loss provides the administrable limiting principle that keeps courts from supervising generalized regulatory compliance through indeterminate monetary exactions.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.56,
+        "reasoning": "Disgorgement, unlike common-law deceit, does not \u201csound in damage\u201d and thus does not carry a historical requirement that the claimant prove a victim\u2019s out-of-pocket pecuniary loss; its traditional equitable function is to strip a wrongdoer\u2019s net profits gained through wrongdoing. Liu constrains that remedy by demanding fidelity to equity\u2019s structure\u2014limiting recovery to net profits and generally directing awards \u201cfor victims\u201d\u2014but it does not make proof of investor pecuniary harm an element in every SEC action, particularly where the defendant\u2019s gains are traceable to the violation even if investor losses are hard to quantify. Keeping the inquiry element-by-element, the threshold showing is the defendant\u2019s unjust enrichment (net profits causally connected to the misconduct), while questions about identifying victims and distribution go to the permissible form and administration of the remedy rather than a categorical prerequisite of proving investor pecuniary harm. On this record, an award confined to net profits and structured to avoid punitive overreach can remain equitable even absent proof that particular investors suffered measurable pecuniary loss.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "I would start with the enacted text: \u00a7 78u(d)(7) expressly authorizes \u201cdisgorgement\u201d in SEC enforcement actions and\u2014unlike provisions that require identifying \u201cvictims\u201d or proving \u201closs\u201d\u2014contains no requirement that the SEC first establish investors\u2019 out-of-pocket pecuniary harm as a prerequisite to that remedy. Applying traditional equity as informed and constrained by Congress\u2019s design (Hecht), Liu supplies the limiting principles that keep disgorgement equitable\u2014net-profits measurement and a benefit-to-investors orientation\u2014rather than a freewheeling punitive sanction; but Liu did not announce a categorical investor-loss element that Congress did not write. On these facts, where the SEC seeks to strip the defendant of ill-gotten gains from the violation (and the proper inquiry is whether the award reflects net profits and is structured, where feasible, to benefit harmed investors or otherwise avoid punishment), the court may award disgorgement even if the evidentiary record does not quantify investor pecuniary harm in the manner petitioner demands. Recasting any monetary payment as impermissible \u201cdamages\u201d would ignore the basic reality Liu and Bowen recognize\u2014that equitable restitution/disgorgement can require paying money without becoming punitive damages\u2014so long as it remains tethered to net profits and the statute\u2019s remedial purposes.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 3,
+    "respondent_votes": 6,
+    "predicted_winner": "Respondent",
+    "vote_split": "6-3",
+    "average_confidence": 0.748,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.56,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3"
+  }
+]

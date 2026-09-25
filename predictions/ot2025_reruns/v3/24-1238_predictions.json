@@ -1,0 +1,673 @@
+[
+  {
+    "docket": "24-1238",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Aviation Administration Authorization Act of 1994 preempts a state-law negligence claim alleging that a freight broker negligently selected an unsafe motor carrier/driver for a shipment.",
+      "legal_provision": "49 U.S.C. \u00a7 14501(c) (FAAAA preemption clause, including the scope of preemption for state laws 'related to a price, route, or service' of a motor carrier/broker/freight forwarder and the safety regulatory exception in \u00a7 14501(c)(2)(A)).",
+      "petitioner_position": "Petitioner argues that a negligent-selection claim against a freight broker is an ordinary state common-law tort claim that regulates safety and compensation for personal injury rather than economic 'services' in the deregulatory sense; it is at most a background, generally applicable duty that only incidentally affects broker operations and therefore is not preempted under \u00a7 14501(c). Petitioner also contends that even if the claim is 'related to' broker services, it falls within the FAAAA\u2019s safety exception for a State\u2019s 'safety regulatory authority' because negligent selection is a traditional means by which states protect the public from unsafe transportation practices, and Congress did not clearly intend to wipe out personal-injury remedies against brokers.",
+      "respondent_position": "Respondents argue that negligent-selection claims directly target how brokers perform their core 'service'\u2014selecting and arranging motor carriers\u2014and therefore have a forbidden 'connection with' or 'reference to' broker services under \u00a7 14501(c). They maintain that allowing 50-state common-law standards for broker selection would recreate the very patchwork regulation Congress sought to eliminate, increasing costs and changing broker behavior (who they choose, how, and on what terms). Respondents also contend the safety exception is narrow and does not preserve private tort suits against brokers (as opposed to state governmental safety regulation), and that extending the exception to negligence claims would largely defeat the preemption clause.",
+      "key_precedents": [
+        "Morales v. Trans World Airlines, Inc., 504 U.S. 374 (1992)",
+        "American Airlines, Inc. v. Wolens, 513 U.S. 219 (1995)",
+        "Rowe v. New Hampshire Motor Transport Assn., 552 U.S. 364 (2008)",
+        "Dan's City Used Cars, Inc. v. Pelkey, 569 U.S. 251 (2013)",
+        "Northwest, Inc. v. Ginsberg, 572 U.S. 273 (2014)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "Justice Thomas is right to caution, invoking Dan\u2019s City, that the limiting phrase \u201cwith respect to the transportation of property\u201d must do real work and cannot be satisfied by mere factual adjacency to a shipment. But this negligent-selection theory is not a post-transport or collateral claim; it is triggered by and seeks to influence (through liability) the broker\u2019s core service\u2014selecting a motor carrier to transport property\u2014so the nexus to \u201ctransportation of property\u201d is direct rather than remote in the Morales/Rowe sense, as Justice Kagan emphasizes. On the safety exception, Justice Barrett and Justice Sotomayor persuasively invoke traditional state tort law, yet \u00a714501(c)(2)(A)\u2019s text (\u201cwith respect to motor vehicles\u201d) is not naturally read to cover broker screening/contracting decisions, and we lack the clear textual footing required to expand that carveout into a general saving clause. The narrowest sound path is to hold only that negligent-selection claims challenging carrier-selection practices in arranging motor-carrier transportation of property are preempted, leaving other tort theories and distinct conduct for another day.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The Chief Justice and Justice Kagan are right that we must look to the conduct the claim targets, and here it involves carrier selection; but their analysis still reads \u00a714501(c)(1) as if \u201crelated to a \u2026 service\u201d alone does the work, leaving \u201cwith respect to the transportation of property\u201d with no limiting function, contrary to Dan\u2019s City\u2019s insistence that the phrase \u201cmassively limits\u201d pre-emption. Even if negligent selection has some connection to a broker\u2019s arranging function, a generally applicable common-law duty imposed only through after-the-fact damages is too indirect to qualify as a state \u201claw \u2026 related to\u201d broker \u201cservice\u201d in the ordinary sense without converting the clause into a broad immunity for crash-related suits. Justice Alito\u2019s and Justice Gorsuch\u2019s cramped reading of \u00a714501(c)(2)(A) is also unpersuasive: \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d naturally encompasses state common-law standards of reasonable care aimed at motor-vehicle risks, and I see no clear textual statement that Congress displaced that traditional mechanism for brokers. The \u201cpatchwork\u201d concerns Justice Kavanaugh raises cannot expand pre-emption beyond what the statute\u2019s limiting text fairly bears.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "Justice Barrett\u2019s and Justice Thomas\u2019s best point is that Dan\u2019s City cautions against reading \u201crelated to\u201d at its furthest stretch and insists the \u201cwith respect to the transportation of property\u201d limitation do real work, especially where States have long used common-law duties in the safety sphere. But here, as the Chief Justice and Justice Kagan emphasize, the duty alleged is triggered by and aims directly at the broker\u2019s quintessential service\u2014selecting a motor carrier to transport property\u2014so it falls comfortably within the limiting phrase rather than rendering it surplusage (unlike Dan\u2019s City\u2019s post-transport storage context). On the safety exception, I remain unpersuaded that a negligence regime dictating how brokers must screen and contract is naturally \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d; reading it to cover broker-selection claims would convert a text-bounded carveout into a general saving clause. Absent a clearer textual signal that Congress preserved negligent-selection suits against brokers notwithstanding the express preemption provision, I do not think we may expand the exception by appeal to general \u201ctraditional state authority\u201d considerations.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Chief Justice Roberts and Justice Kagan rightly insist we look to the conduct targeted, and I accept that negligent selection bears a real \u201cconnection with\u201d a broker\u2019s arranging function. But their reading risks collapsing the statutory limiter \u201cwith respect to the transportation of property\u201d into a mere trigger whenever a shipment exists, contrary to Dan\u2019s City\u2019s instruction that the phrase \u201cmassively limits\u201d preemption; respondents have not supplied a construction that preserves that limit while still sweeping in generally applicable personal-injury negligence duties. And even if the claim relates to a broker \u201cservice,\u201d I remain unpersuaded by Justice Alito\u2019s and Justice Gorsuch\u2019s narrow view of \u00a714501(c)(2)(A): a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d naturally encompasses common-law reasonable-care standards aimed at deterring unsafe motor-carrier operations and compensating crash victims, absent a clear textual command to displace that traditional tool. On this text and structure, the party invoking preemption has not carried the burden to show Congress unmistakably foreclosed this kind of safety-based claim.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.76,
+        "reasoning": "Justice Thomas (and Justice Barrett) is right to insist that Dan\u2019s City makes the phrase \u201cwith respect to the transportation of property\u201d do real limiting work, so we cannot treat every accident-adjacent tort as preempted. But this negligent-selection theory is not a post-transport or collateral claim; it attaches precisely to the broker\u2019s core \u201cservice\u201d of arranging the transportation of property\u2014choosing the motor carrier\u2014and so it fits within the limitation rather than evading it, as the Chief Justice and Justice Alito explain. And while Justice Sotomayor emphasizes the States\u2019 traditional use of common-law duties for safety, \u00a714501(c)(2)(A) preserves safety authority \u201cwith respect to motor vehicles,\u201d which most naturally concerns vehicles and their operation, not a negligence standard aimed at broker contracting/screening decisions; reading it otherwise risks converting a narrow carveout into a general saving clause. On the text and structure Congress enacted\u2014broad preemption plus specific, text-bound exceptions\u2014the claim is preempted.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Justice Thomas and Justice Barrett rightly emphasize Dan\u2019s City\u2019s admonition that \u201cwith respect to the transportation of property\u201d must do real limiting work, and that we should not press \u201crelated to\u201d to its furthest stretch. But this negligent-selection claim is not collateral to transportation (as in Dan\u2019s City\u2019s post-transport storage context); it targets the broker\u2019s quintessential arranging service\u2014choosing the carrier to transport property\u2014so the nexus to \u201ctransportation of property\u201d is direct rather than incidental, as the Chief Justice and Justice Kagan explain. On the statutory sequence, \u00a714501(c)(2)(A) preserves state safety authority \u201cwith respect to motor vehicles,\u201d and I agree with Justice Alito that language naturally reaches regulation of vehicles and their operation, not a common-law regime aimed at broker screening/contracting decisions. Absent clearer textual footing to extend the carveout, we should apply the broad preemption clause Congress wrote to this claim.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Barrett and Justice Thomas rightly emphasize Dan\u2019s City\u2019s warning that the phrase \u201cwith respect to the transportation of property\u201d \u201cmassively limits\u201d preemption, and we should not read \u201crelated to\u201d at its furthest stretch. But this negligent-selection claim is not merely accident-adjacent or post-transport; it is triggered by and directly targets the broker\u2019s core service of arranging transportation\u2014selecting a motor carrier to transport property\u2014so the limiting phrase does real work yet still covers this case, as the Chief Justice and Justice Kagan explain. Functionally, imposing a state-by-state duty governing carrier-selection practices dictates how brokers must provide that federally deregulated service and therefore operates as a regulation \u201ccloaked\u201d in tort garb, creating the very disuniformity Congress sought to prevent. And I agree with Justice Alito and Justice Gorsuch that stretching \u00a714501(c)(2)(A)\u2019s \u201cwith respect to motor vehicles\u201d safety exception to encompass broker-selection negligence would convert a text-bound carveout into an open-ended public-policy saving clause untethered to regulation of motor vehicles themselves.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "I take seriously the Chief Justice\u2019s and Justice Kagan\u2019s point that negligent-selection liability, framed at the level of conduct, bears a substantial connection to a broker\u2019s arranging \u201cservice,\u201d and I agree the limiting phrase does not exclude every claim touching a shipment. But Dan\u2019s City\u2019s insistence that \u201cwith respect to the transportation of property\u201d \u201cmassively limits\u201d preemption requires more than the observation that carrier selection is a core brokerage function; respondents must offer a construction that preserves that limit and then show on this record that the common-law duty operates as state regulation of broker services rather than a generally applicable safety tort with only indirect economic effects. I also remain unpersuaded by Justice Alito\u2019s and Justice Gorsuch\u2019s narrow view of \u00a714501(c)(2)(A): States have long exercised \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d through negligence standards aimed at deterring motor-vehicle risks, and nothing in the text clearly displaces that traditional mechanism here. Given the preemption proponent\u2019s burden, the \u201cpatchwork\u201d argument, without a tighter legal-and-record showing, remains too conclusory to carry the day.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "I take seriously the Chief Justice\u2019s and Justice Kagan\u2019s strongest point: as pleaded, the negligent-selection duty aims at the broker\u2019s carrier-selection function and thus has a meaningful connection to a broker \u201cservice.\u201d But Dan\u2019s City\u2014echoed by Justice Thomas and Justice Barrett\u2014requires us to give independent force to the limiting phrase \u201cwith respect to the transportation of property,\u201d and respondents\u2019 approach risks collapsing that limiter into a rule that any crash arising from a brokered shipment automatically becomes a preempted \u201cservice\u201d claim. Even if \u00a714501(c)(1) is implicated, I am not persuaded by Justice Alito\u2019s and Justice Gorsuch\u2019s reading that \u00a714501(c)(2)(A) excludes common-law safety duties simply because the defendant is a broker; States\u2019 \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d has long operated through negligence standards keyed to motor-vehicle risks, and Congress did not speak clearly enough to displace that traditional mechanism here. On this record, respondents have not carried their burden to show unmistakable displacement rather than an overextension of the preemption clause beyond its text-bound function.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Section 14501(c)(1) preempts state laws \u201crelated to a price, route, or service\u201d of a broker, and the proper unit of analysis here is the conduct the claim targets\u2014how the broker performs its core service of selecting and arranging a motor carrier\u2014rather than the claim\u2019s general tort label. A negligent-selection theory, applied through state common law, effectively imposes a state-specific standard on broker selection practices and thus has the requisite \u201cconnection with\u201d broker services in the sense our cases have recognized. The safety exception in \u00a7 14501(c)(2)(A) is textually cabined to a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d and the claim here regulates the broker\u2019s screening decisions (not the operation of motor vehicles) without the clear statutory indication needed to treat that exception as preserving private negligence suits against brokers notwithstanding the preemption clause. Given Congress\u2019s evident purpose to prevent a patchwork of state rules governing broker services, and absent an explicit directive preserving these claims, the negligence action is preempted.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The starting point is the text of \u00a714501(c)(1), which preempts state laws \u201crelated to a price, route, or service\u201d of a broker only \u201cwith respect to the transportation of property.\u201d A generally applicable negligence claim for personal injuries from an allegedly unsafe carrier selection does not regulate broker \u201cservices\u201d in the deregulatory, economic sense Congress targeted, and it is not plausibly a rule governing the \u201ctransportation of property\u201d as such; it instead supplies a background duty of reasonable care that does not \u201creplace\u201d federal regulation of broker prices, routes, or services. Reading \u201crelated to\u201d to sweep in any tort suit that might affect broker decisionmaking would make the limiting phrase \u201cwith respect to the transportation of property\u201d do no work, contrary to ordinary meaning and Dan\u2019s City\u2019s instruction that this phrase \u201cmassively limits\u201d the preemption clause. And even if there is some connection to broker service, the claim falls within the State\u2019s preserved \u201csafety regulatory authority\u201d in \u00a714501(c)(2)(A), which in ordinary usage encompasses the State\u2019s traditional use of tort law to deter unsafe transportation practices and compensate those injured by them.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Section 14501(c)(1) expressly preempts state laws \u201crelated to a \u2026 service\u201d of a broker, and the negligence theory here targets the broker\u2019s core service\u2014selecting and arranging a motor carrier\u2014by imposing a state-law duty of care governing how that selection must be performed. Invoking general safety concerns or a broad deregulatory \u201cobjective\u201d cannot narrow the enacted text; the question is whether this claim, as applied, has the forbidden connection with broker services, and it does because liability pressure would predictably alter broker selection practices and costs. The safety exception in \u00a7 14501(c)(2)(A) is textually limited \u201cwith respect to motor vehicles,\u201d and a negligent-selection claim against a broker regulates the broker\u2019s contracting decisions rather than motor-vehicle operation itself; Congress knew how to preserve broader categories of state tort remedies but did not do so here. Reading the exception to swallow common-law claims aimed at broker services would dilute the express preemption clause beyond what its terms allow.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "I begin with the text: \u00a7 14501(c)(1) preempts only state laws \u201crelated to a price, route, or service\u201d of a broker \u201cwith respect to the transportation of property,\u201d language that \"massively limits\" the preemptive scope and counsels against reading the clause to displace background, generally applicable tort duties. A negligent-selection claim, as pleaded here, does not regulate the economic terms of brokering or mandate particular brokerage services; it imposes an ordinary duty of reasonable care aimed at preventing physical injury from unsafe carriage, and any effect on broker \u201cservices\u201d is at most indirect and contingent. Even if the claim has some connection to a broker\u2019s arranging function, the alleged wrong concerns safety in motor-vehicle operation and thus falls within \u00a7 14501(c)(2)(A)\u2019s preservation of state \u201csafety regulatory authority,\u201d which historically includes common-law standards that deter unsafe transportation practices. Reading the preemption clause to wipe out personal-injury negligence remedies against brokers would extend the statute beyond its limiting text and create an overbroad rule untethered from the \u201cwith respect to\u201d constraint recognized in our cases.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Start with the text: \u00a714501(c)(1) bars state laws \u201crelated to a price, route, or service\u201d of a \u201cbroker,\u201d and a negligent-selection claim targets the broker\u2019s core service\u2014arranging transportation by choosing a motor carrier\u2014so it has the requisite \u201cconnection with\u201d that service under our Morales/Rowe line. The statute\u2019s limiting phrase \u201cwith respect to the transportation of property\u201d does not save the claim because the alleged duty is triggered precisely by the broker\u2019s arranging of a property shipment, unlike the towing-and-storage dispute in Dan\u2019s City that fell outside that transportation nexus. Nor does \u00a714501(c)(2)(A)\u2019s safety exception fit comfortably on this record: the exception is textually confined to a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d and a private common-law negligence standard applied to a broker\u2019s screening practices is not regulation \u201cwith respect to motor vehicles\u201d in the way the statute\u2019s language suggests. Fidelity to the enacted scheme\u2014broad preemption with narrow, text-bound carveouts\u2014thus requires holding the negligent-selection claim preempted.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "We start where the law starts: \u00a7 14501(c)(1) expressly preempts any state \u201claw, regulation, or other provision having the force and effect of law\u201d (including common-law negligence duties) that is \u201crelated to\u201d a broker\u2019s \u201cprice, route, or service.\u201d A negligent-selection claim against a freight broker targets the broker\u2019s core service\u2014arranging transportation by choosing a motor carrier\u2014and thus has the requisite connection with that service in a way that is not merely remote or peripheral. Proceeding stepwise, the safety exception in \u00a7 14501(c)(2)(A) must be read as written; its text preserves a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d which points most naturally to state safety regulation directed at motor vehicles and their operation, not a private tort suit imposing a general-duty negligence standard on broker contracting decisions. Because the statute supplies the rule of decision and the claim falls within the preemption clause without fitting the exception\u2019s textual limits, the state-law cause of action must yield under the Supremacy Clause only to that extent.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The controlling federal rule is \u00a7 14501(c)(1), which broadly preempts state laws (including generally applicable common-law duties) that have a significant connection with a broker\u2019s \u201cprice, route, or service,\u201d and a negligent-selection claim functionally targets the broker\u2019s core service\u2014choosing and arranging a motor carrier\u2014thereby pressuring brokers to alter their selection criteria and practices. Looking past labels, this is not merely an \u201cincidental\u201d background duty; in practical effect it imposes state-by-state standards that would recreate the very patchwork Congress sought to eliminate in a federal deregulatory regime requiring predictability and uniformity. The \u00a7 14501(c)(2)(A) safety exception does not save the claim here because extending \u201csafety regulatory authority\u201d to private negligent-selection suits against brokers would operate as an open-ended public-policy carveout that would largely swallow the preemption clause, rather than a narrow conflict-based exception anchored in clear congressional authorization. Accordingly, the state tort rule is preempted because it would override the federal baseline by regulating broker services through liability exposure.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The party asserting FAAAA preemption bears the burden to show, under the Court\u2019s controlling \u201crelated to a price, route, or service\u201d framework, that this particular common-law negligent-selection claim has the requisite connection with a broker\u2019s \u201cservice\u201d in the statutory sense\u2014not merely an indirect economic effect\u2014and that showing cannot rest on conclusory invocations of a 50-state \u201cpatchwork.\u201d Here, the claim operates as a generally applicable duty sounding in safety (reasonable care in selecting an unsafe carrier/driver) and seeks compensation for personal injury; under Dan\u2019s City, the Court does not read \u201crelated to\u201d at its \u201cfurthest stretch,\u201d and the record-specific link between this tort duty and regulation of broker prices/routes/services is too attenuated to warrant preemption. Even if the claim has some connection to broker selection practices, it fits comfortably within the safety exception preserving state \u201csafety regulatory authority,\u201d because negligent-selection duties are a traditional mechanism by which States protect the public from unsafe motor-vehicle operations. Absent a clearer textual indication that Congress meant to displace this kind of background personal-injury remedy against brokers, respondents have not carried their burden to establish preemption on these facts.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Starting with the statute\u2019s text and structure, \u00a7 14501(c)(1) preempts only state \u201claw[s] \u2026 related to a price, route, or service\u201d of a broker \u201cwith respect to the transportation of property,\u201d which\u2014as Dan\u2019s City explains\u2014\u201cmassively limits the scope\u201d of FAAAA preemption and cautions against importing the ADA\u2019s broader sweep. A negligent-selection claim, as applied here, is a generally applicable state common-law duty aimed at preventing physical harm from unsafe transportation practices; it does not function like an economic regulation of broker \u201cservices\u201d in the deregulatory sense, and any effect on broker operations is at most indirect. Even if the claim has a sufficient \u201cconnection with\u201d broker services to trigger \u00a7 14501(c)(1), the safety exception in \u00a7 14501(c)(2)(A) preserves state \u201csafety regulatory authority,\u201d and common-law standards of care are among the mechanisms by which States exercise that authority when they set and enforce safety-linked duties through tort law. On this record\u2014where the alleged wrong is the broker\u2019s failure to use reasonable care in selecting a carrier/driver with unsafe indicia\u2014the respondents have not made the necessary showing that Congress clearly displaced this traditional safety-and-compensation regime rather than merely channeling economic regulation of rates, routes, and services.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.724,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-1238",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Federal Aviation Administration Authorization Act\u2019s express preemption clause bars a state-law negligent-selection claim against a freight broker for allegedly choosing an unsafe motor carrier/driver.",
+      "legal_provision": "49 U.S.C. \u00a7 14501(c) (FAAAA preemption clause, including its exception for a state\u2019s \u201csafety regulatory authority\u201d with respect to motor vehicles).",
+      "petitioner_position": "Montgomery argues that a negligent-selection (negligent hiring/entrustment-style) claim against a broker is a traditional state tort remedy that does not impermissibly regulate a broker\u2019s \u201cprices, routes, or services,\u201d at least not in the sweeping way required for FAAAA preemption, and in any event fits within \u00a714501(c)(2)(A)\u2019s safety exception because it is part of the States\u2019 historic police-power role in protecting roadway safety and incentivizing reasonable care in selecting safe carriers.",
+      "respondent_position": "C.H. Robinson and the other respondents contend that negligent-selection claims target and directly relate to a broker\u2019s core \u201cservice\u201d (arranging transportation by selecting a carrier) and would impose state-by-state standards that Congress sought to preempt to ensure a uniform national market for transportation brokerage; they further argue the safety exception is limited (focused on direct motor-vehicle safety regulation) and does not preserve private common-law claims against brokers that function as de facto regulation of brokerage services.",
+      "key_precedents": [
+        "Morales v. Trans World Airlines, Inc. (1992)",
+        "American Airlines, Inc. v. Wolens (1995)",
+        "Rowe v. New Hampshire Motor Transport Assn. (2008)",
+        "Dan's City Used Cars, Inc. v. Pelkey (2013)",
+        "Northwest, Inc. v. Ginsberg (2014)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.71,
+        "reasoning": "Justice Kagan and Justice Gorsuch are right to caution that we must give independent work to the limiting phrase \u201cwith respect to the transportation of property,\u201d and not let \u201crelated to\u201d become a roving tort-displacement mandate. But this claim does more than impose a generally applicable background duty with incidental effects; it keys liability to the broker\u2019s core \u201cservice\u201d of selecting a carrier to transport property, the very unit of analysis Congress specified, and under Morales/Rowe that direct and significant connection falls within the express preemption clause. On the safety exception, Justice Thomas\u2019s but-for approach would effectively pull any crash-traceable claim into \u201cwith respect to motor vehicles,\u201d diluting the carveout\u2019s limiting language and blurring the administrable boundary Congress drew between regulation of brokerage services and regulation of vehicles\u2019 operation/equipment. Absent an unmistakably clear statutory direction to preserve state tort authority over broker selection practices under \u00a714501(c)(2)(A), I would adhere to the text-tethered reading and find the claim preempted.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The Chief Justice and Justice Kavanaugh\u2019s strongest point is that negligent-selection liability targets a broker\u2019s \u201ccore service\u201d and, under Morales/Rowe, common-law duties can qualify as \u201claw.\u201d But that approach risks allowing \u201crelated to\u201d to do all the work while draining Congress\u2019s limiting phrase\u2014\u201cwith respect to the transportation of property\u201d\u2014of independent meaning; a generally applicable negligence rule aimed at preventing highway injuries is not, in ordinary meaning, a regulation of prices, routes, or services in that transportation-of-property sense. And even if the claim is sufficiently connected to a broker \u201cservice,\u201d I remain persuaded by Justice Kagan and Justice Jackson that \u00a714501(c)(2)(A)\u2019s preservation of state \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d naturally encompasses crash-prevention duties that deter putting unsafe carriers and drivers on the road, without atextual restriction to positive enactments. Absent clearer statutory language, I would not extend this express preemption clause to displace traditional state safety tort law.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan and Justice Gorsuch are right to insist that we not treat \u201crelated to\u201d as a roving license and that we must give operative effect to the limiting phrase \u201cwith respect to the transportation of property.\u201d But as the Chief Justice and Justice Barrett emphasize, this negligent-selection claim is aimed at the broker\u2019s quintessential transportation-of-property service\u2014choosing a carrier to haul goods\u2014so it has the kind of direct and significant connection Morales/Rowe recognize as within the statute\u2019s text. The strongest counter is Justice Thomas\u2019s reading of the safety exception, yet \u00a714501(c)(2)(A) preserves state authority \u201cwith respect to motor vehicles,\u201d and a duty regulating a broker\u2019s vetting practices is not naturally a regulation of motor vehicles (their operation, equipment, or use) merely because a crash occurred downstream. Congress\u2019s choice to name \u201cbrokers\u201d in the preemption clause while drafting a cabined exception reinforces that the preemptive rule, not an expansive safety carveout, governs this suit.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "The Chief Justice and Justice Kavanaugh are right that negligent-selection liability targets a broker\u2019s core function of choosing a carrier, and that common-law duties can qualify as \u201claw\u201d under Morales/Rowe. But that cannot end the analysis, because\u2014just as Justice Jackson stresses by invoking Dan\u2019s City\u2014we must give independent effect to Congress\u2019s limiting phrase \u201cwith respect to the transportation of property,\u201d which is ill-served by treating any broker-selection negligence as categorically preempted. Even assuming the claim has a significant connection to \u201cservices,\u201d \u00a714501(c)(2)(A) preserves state \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d and as Justice Kagan and Justice Gorsuch argue, a crash-prevention duty that deters placing unsafe carriers and drivers on the road fits comfortably within ordinary meaning and historical state police powers. Reading the statute to preempt this traditional safety remedy would produce the unfair consequence of foreclosing meritorious crash claims without a clear congressional statement that deregulation extends that far.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.69,
+        "reasoning": "The Chief Justice and Justices Alito/Kavanaugh/Barrett have the best case on the preemption clause: negligent-selection liability is a state \u201claw\u201d that meaningfully bears on a broker\u2019s \u201cservice\u201d of selecting a carrier, and Morales/Rowe read \u201crelated to\u201d broadly. But that broad connective phrase cannot be allowed to do all the work; as Justice Jackson stresses (invoking Dan\u2019s City), Congress added \u201cwith respect to the transportation of property,\u201d and we must give that limitation independent operative effect rather than converting \u00a714501(c)(1) into a general tort-displacement engine. And even if one thinks the claim is sufficiently connected to \u201cservices,\u201d I cannot accept the Chief\u2019s cramped reading of \u00a714501(c)(2)(A): a rule that deters putting unsafe carriers/drivers on the road is naturally \u201cwith respect to motor vehicles,\u201d and nothing in the text suggests \u201cauthority\u201d excludes common-law duties. Absent a clearer congressional instruction to preempt this core safety-based remedy, I would not extend the express-preemption clause beyond its terms.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "The Chief Justice\u2019s and Justice Kavanaugh\u2019s strongest point is that negligent-selection liability targets a broker\u2019s core \u201cservice\u201d of choosing a carrier and so has the kind of significant connection Morales/Rowe describe. But that approach risks letting \u201crelated to\u201d do all the work while leaving Congress\u2019s limiting phrase\u2014\u201cwith respect to the transportation of property\u201d\u2014with no independent office, the concern Justice Jackson (citing Dan\u2019s City) and Justice Thomas rightly press. Even assuming the claim is sufficiently connected to brokerage \u201cservices,\u201d I remain persuaded that \u00a714501(c)(2)(A)\u2019s preservation of state \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d naturally reaches common-law duties aimed at preventing crashes by deterring use of unsafe motor carriers on public roads; I do not see a clear textual command converting the FAAAA\u2019s deregulatory design into broad displacement of traditional safety tort remedies. Policy concerns about disuniformity, while understandable (Justice Barrett), cannot supply the clear statement needed to narrow the safety carveout or expand preemption beyond the limits Congress enacted.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Gorsuch and Justice Jackson make the best textual point that we must give independent meaning to the limiting phrase \u201cwith respect to the transportation of property,\u201d and not let \u201crelated to\u201d become a roving mandate to displace ordinary negligence. But under Morales and Rowe, a state common-law duty is a \u201claw\u201d that is preempted when it has a direct and significant connection to a regulated actor\u2019s core \u201cservice,\u201d and negligent selection is aimed precisely at the broker\u2019s central service of choosing a carrier to transport property\u2014thereby, in practical effect, reimposing state-by-state screening standards in a field Congress sought to deregulate. On the safety exception, I agree with the Chief Justice and Justice Barrett that the narrowing phrase \u201cwith respect to motor vehicles\u201d is not naturally satisfied by a broker-focused vetting duty; it regulates brokerage decisionmaking rather than motor-vehicle operation, equipment, or use in the administrable, text-tethered way the statute demands. Adopting Petitioners\u2019 broader reading risks the open-ended, disuniform carveout Justice Barrett identifies, undermining the uniform federal rule the FAAAA\u2019s express preemption clause was enacted to secure.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Justice Kagan and Justice Gorsuch press the best textual constraint\u2014\u00a714501(c)(1)\u2019s phrase \u201cwith respect to the transportation of property\u201d\u2014and rightly warn against letting \u201crelated to\u201d become a roving tort preemption. But the duty alleged is not a background safety rule of only incidental effect; it attaches to the broker\u2019s quintessential \u201cservice\u201d in the transportation-of-property chain\u2014selecting the carrier to move goods\u2014and under Morales/Rowe that is a significant connection to the very service Congress chose to deregulate. On the exception, I remain aligned with the Chief Justice and Justice Alito that \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d most naturally targets regulation of vehicles and their operation/equipment, not state-by-state negligence standards governing broker vetting practices; Justice Thomas\u2019s broader but-for framing would largely erase the limiting phrase \u201cwith respect to motor vehicles.\u201d Given that Congress expressly named \u201cbrokers\u201d in the preemption provision, I do not see a text- or precedent-based basis to carve out this claim without effectively rewriting the exception.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "The Chief Justice and Justice Kavanaugh offer the strongest case that negligent-selection liability functionally dictates how a broker performs its core service and thus is \u201crelated to\u201d broker \u201cservices\u201d under Morales/Rowe. But that argument still does not grapple with Congress\u2019s added limiter\u2014\u201cwith respect to the transportation of property\u201d\u2014which, as Justice Sotomayor and Justice Kagan emphasize (and as Dan\u2019s City instructs), must be given independent operative effect rather than being eclipsed by an expansive \u201crelated to\u201d reading. On the more specific sequencing, even if the claim sufficiently implicates \u201cservices,\u201d I remain persuaded (with Justice Thomas and Justice Gorsuch) that \u00a714501(c)(2)(A)\u2019s preservation of state \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d most naturally encompasses crash-prevention common-law duties that deter placing unsafe carriers/drivers on the road, and nothing in the text confines \u201cauthority\u201d to positive enactments. I would therefore resolve only the question presented\u2014this crash-based negligent-selection claim\u2014and decline to opine on broader categories of broker-related tort suits.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.63,
+        "reasoning": "Section 14501(c)(1) preempts state \"law[s]\" (including common-law duties) \"related to\" a broker\u2019s \"prices, routes, or services,\" and the gravamen of a negligent-selection claim is that the broker performed its core service\u2014selecting a carrier\u2014unreasonably, thereby imposing a state-law standard on how that service must be provided. Under our cases construing materially similar language, a claim with that direct connection to the manner of providing the service is not a remote or peripheral effect but a significant one, effectively compelling additional screening and altering how brokerage services are offered. The safety exception in \u00a714501(c)(2)(A) must be read as written\u2014preserving a State\u2019s \"safety regulatory authority ... with respect to motor vehicles\"\u2014and a negligent-selection claim against a broker regulates the broker\u2019s selection practices rather than motor-vehicle operation or equipment in a way the text unmistakably covers. Absent clear statutory direction extending the exception to such broker-focused tort duties, the express preemption clause controls here.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "The enacted text preempts only state \u201claw \u2026 related to a price, route, or service of any \u2026 broker \u2026 with respect to the transportation of property,\u201d \u00a714501(c)(1), and a negligent-selection claim is a generally applicable duty of reasonable care aimed at preventing unsafe hauling, not a state command fixing a broker\u2019s prices, routes, or the content of its brokerage offerings. Congress knows how to write broader jurisdiction-stripping language, but it did not; reading \u201crelated to\u201d to swallow ordinary negligence actions would expand preemption beyond what the words enacted through bicameralism and presentment can bear. In any event, the claim falls within \u00a714501(c)(2)(A)\u2019s preservation of a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d because it targets the safety consequences of placing freight with an unsafe carrier/driver, i.e., the operation of motor vehicles on the highways. I would not allow preemption to turn on a policy of uniformity untethered from the statutory text or on an evolving \u201cpenumbra\u201d of agency practice rather than Congress\u2019s chosen words.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The starting point is the text of \u00a714501(c)(1), which expressly preempts state \u201claws\u201d (including common-law duties) \u201crelated to a price, route, or service\u201d of a \u201cbroker,\u201d and the claim here targets the broker\u2019s core service\u2014arranging transportation by selecting a carrier\u2014by imposing a state-law duty that would predictably alter how that service is performed. That is a straightforward application of the operative language, not an appeal to any \u201cbrooding federal interest\u201d in uniformity. The safety exception in \u00a714501(c)(2)(A) is textually limited to a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d and a negligent-selection claim against a broker regulates broker conduct only indirectly and not \u201cwith respect to motor vehicles\u201d in the direct, limiting sense this Court emphasized. Congress\u2019s decision to name \u201cbrokers\u201d in the preemption clause, while cabining the exception by the \u201cmotor vehicles\u201d phrase, confirms that the claim falls within the preemptive rule and outside the exception.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The governing text, \u00a7 14501(c)(1), preempts state laws \u201crelated to\u201d a broker\u2019s \u201cprices, routes, or services,\u201d but our precedents require more than a merely attenuated connection; the claim must have a significant link to economic regulation of those services as such. Properly characterized, this negligent-selection suit does not seek to regulate brokerage \u201cservices\u201d writ large or impose a statewide tariff-like regime; it invokes a background duty of reasonable care\u2014long within States\u2019 historic police powers\u2014triggered by the broker\u2019s alleged choice to tender a load to an unsafe carrier/driver. Even if the claim has some connection to broker \u201cservices,\u201d \u00a7 14501(c)(2)(A)\u2019s safety exception, read according to its limiting phrase \u201cwith respect to motor vehicles,\u201d comfortably preserves state common-law rules that incentivize safe selection to prevent motor-vehicle accidents, rather than rules aimed at manipulating market prices or routes. Reading preemption to wipe out such traditional safety-based tort claims would yield seemingly unfair results by foreclosing potentially meritorious roadway-injury actions on a ground unrelated to their core merits\u2014whether the broker acted reasonably in light of known safety risks.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 14501(c)(1) preempts only state laws \u201crelated to a price, route, or service\u201d of a broker, and that text\u2014read in the statute\u2019s structure\u2014does not naturally sweep in a generally applicable negligent-selection claim whose gravamen is roadway safety in the broker\u2019s choosing an allegedly unsafe carrier, not economic regulation of brokerage \u201cservices\u201d as such. Our cases caution against treating \u201crelated to\u201d as a roving mandate to displace traditional state tort law absent the kind of clear, targeted instruction Congress supplied elsewhere, especially where Congress simultaneously preserved state authority in the safety exception. And the safety exception\u2019s wording (\u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d) is best read to preserve state measures, including common-law duties, that operate to protect motorists from unsafe vehicles and drivers\u2014the very harm alleged here\u2014rather than forcing an across-the-board uniformity rule Congress did not write. On this record, extending preemption to bar this claim would improperly broaden the statute\u2019s exceptionless core beyond its terms and disrupt the ordinary federal\u2013state division of responsibility for highway safety.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Start with the statute\u2019s gateway: \u00a714501(c)(1) preempts only state laws \u201crelated to\u201d a broker\u2019s \u201cprice, route, or service\u201d \u201cwith respect to the transportation of property.\u201d A negligent-selection claim, as applied here, is a generally applicable state duty of reasonable care triggered by the broker\u2019s alleged choice of an unsafe carrier/driver; it does not dictate the broker\u2019s prices or routes and affects \u201cservices\u201d only in the incidental way that any background tort duty influences commercial conduct, which our cases treat as insufficient to trigger express preemption. Even if the claim could be said to touch a broker\u2019s \u201cservice,\u201d the statute then requires a second step: \u00a714501(c)(2)(A) preserves the States\u2019 \u201csafety regulatory authority \u2026 with respect to motor vehicles,\u201d and a suit alleging injury from an unsafe motor carrier on the highways falls comfortably within that safety domain rather than an atextual field-displacement of traditional tort remedies. Under the Supremacy Clause, state law yields only where Congress has clearly made it do so, and here the text\u2014especially the limiting phrases and the safety carveout\u2014signals supplementation, not categorical displacement, of ordinary safety-based negligence claims.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "There is a longstanding, established federal rule under the FAAAA and this Court\u2019s ADA/FAAAA precedents (Morales, Rowe, Ginsberg) that state laws\u2014including common-law duties having the force and effect of law\u2014are preempted when, in practical operation, they relate to and significantly affect a broker\u2019s \u201cservices,\u201d even if styled as ordinary negligence. Here, the negligent-selection claim targets the broker\u2019s core service\u2014arranging transportation by selecting a carrier\u2014and would, in effect, impose state-by-state standards that displace Congress\u2019s deregulatory choice for a uniform national brokerage market. The asserted safety exception is not a narrow, controlling carveout on these facts because the claim regulates the broker\u2019s selection practices rather than the State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d in the direct sense the statutory text and Dan\u2019s City\u2019s limiting-phrase analysis demand. Allowing such claims would functionally override the federal rule and invite the kind of open-ended, nonuniform state public-policy carveouts that federal supremacy and the FAAAA preemption clause were designed to prevent.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The text of \u00a714501(c)(1) expressly preempts state \"laws\"\u2014including common-law duties\u2014that \"relate to\" a broker\u2019s \"prices, routes, or services,\" and a negligent-selection claim targets the broker\u2019s core service: arranging transportation by selecting a carrier. Under Morales/Rowe, imposing state tort liability that effectively dictates how a broker must screen and choose carriers has a significant connection with and reference to brokerage services and would reintroduce the very state-by-state standards Congress displaced in pursuing a uniform national market. The safety exception in \u00a714501(c)(2)(A) is limited to a State\u2019s \"safety regulatory authority \u2026 with respect to motor vehicles,\" and a general common-law negligence standard aimed at broker selection practices is not a motor-vehicle safety rule directed at vehicles or their operation; it is indirect economic regulation of brokerage services by another name. Applying the statute\u2019s plain text and this Court\u2019s \"related to\" precedents, the negligent-selection claim is preempted.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Starting with the statutory text, \u00a7 14501(c)(1) preempts state laws \u201crelated to\u201d a broker\u2019s \u201cprice, route, or service\u201d only \u201cwith respect to the transportation of property,\u201d and a straightforward reading\u2014consistent with Dan\u2019s City\u2014treats that limiting phrase as doing real work, leaving ordinary state tort duties that do not themselves regulate the market for moving property as such outside the clause\u2019s core. This negligent-selection claim targets a broker\u2019s alleged failure to exercise reasonable care in choosing a safe carrier/driver in a particular transaction; any effect on brokerage \u201cservices\u201d is, at most, indirect and background\u2014more akin to generally applicable safety and negligence rules than to the kind of state-by-state economic regulation Congress aimed to displace. And even assuming some relationship to a broker\u2019s \u201cservice,\u201d \u00a7 14501(c)(2)(A)\u2019s preservation of a State\u2019s \u201csafety regulatory authority \u2026 with respect to motor vehicles\u201d is best read to encompass state common-law standards that incentivize roadway safety by requiring reasonable care when putting motor vehicles and drivers on the road, without inserting an atextual limitation that would confine the exception to only positive enactments. Proper issue-framing also counsels a narrow holding: the FAAAA does not expressly preempt this particular negligent-selection claim premised on unsafe carrier selection leading to a motor-vehicle crash.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.734,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "5-4",
+    "run_arm": "ot2025_v3"
+  }
+]

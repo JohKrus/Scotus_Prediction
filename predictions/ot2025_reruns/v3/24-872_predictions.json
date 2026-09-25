@@ -1,0 +1,673 @@
+[
+  {
+    "docket": "24-872",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether, and in what manner, courts may consider multiple IQ test scores cumulatively when determining if a capital defendant has shown intellectual disability (and thus categorical ineligibility for execution) under Atkins.",
+      "legal_provision": "Eighth Amendment (as interpreted in Atkins v. Virginia and its progeny) prohibiting execution of people with intellectual disability; related federal analogue: 18 U.S.C. \u00a7 3596(c) (Federal Death Penalty Act bar on executing intellectually disabled persons).",
+      "petitioner_position": "Alabama argues that its evidentiary framework permissibly evaluates a defendant\u2019s IQ evidence as a whole\u2014including multiple IQ scores\u2014and that a collection of scores mostly in the mid-70s does not make it likely the defendant\u2019s true IQ is 70 or below; the Eleventh Circuit, Alabama contends, misapplied this Court\u2019s Eighth Amendment/Atkins precedents by allowing an Atkins claim to proceed based on an improper approach to aggregating or reweighing IQ-test results and by unduly constraining state experimentation in defining proof standards for intellectual disability.",
+      "respondent_position": "Smith argues that proper application of Atkins and later Supreme Court guidance requires courts to assess IQ evidence consistent with contemporary clinical principles (including recognition of measurement error and the need to avoid rigid cutoffs), and that when multiple scores and their associated margins of error are considered together with other evidence, he has made (at minimum) a sufficient showing to proceed on an intellectual-disability claim rather than being barred by an overly rigid or state-favoring cumulative-score methodology.",
+      "key_precedents": [
+        "Atkins v. Virginia, 536 U.S. 304 (2002)",
+        "Hall v. Florida, 572 U.S. 701 (2014)",
+        "Moore v. Texas, 581 U.S. 1 (2017) (Moore I)",
+        "Moore v. Texas, 139 S. Ct. 666 (2019) (Moore II)",
+        "Powell v. Texas, 392 U.S. 514 (1968) (plurality opinion) (as quoted re: 'fruitful experimentation')"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan and Justice Sotomayor are right to warn that a State cannot use \u201ccumulative\u201d score-counting to recreate the rigid cutoff Hall condemned, especially if it operates as a screen to avoid the clinically required inquiry into adaptive functioning once SEM-adjusted ranges overlap 70. But that concern targets an application that becomes mechanistic or clinically untethered, whereas the question properly presented is narrower: whether Hall and Moore categorically forbid a State from considering multiple IQ scores as part of assessing intellectual functioning. Nothing in Atkins, Hall, or Moore constitutionalizes a one-score-dispositive rule or bars holistic consideration of the full testing history so long as each score is interpreted with its SEM and relevant clinical evidence is not foreclosed as a matter of law. Given Justice Barrett\u2019s and Justice Kavanaugh\u2019s administrability and state-flexibility points, the appropriate course is a narrow reversal on that limited ground, leaving for another case any challenge to a genuinely rigid, outcome-determinative aggregation methodology.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Kagan\u2019s strongest point is functional: numerosity-driven reliance on mid-70s scores can, in practice, replicate the rigid cutoff Hall forbids by screening out adaptive-functioning evidence when SEM-adjusted ranges overlap 70. But that critique presupposes a constitutional rule that any SEM-overlapping score entitles the defendant to a full adaptive-functioning inquiry, and I do not see Atkins, Hall, or Moore adopting that mandate or authorizing appellate courts to supply it by reweighing multiple tests on a cold record. As the Chief Justice and Justice Barrett emphasize, our precedents police legal rigidity and clinically untethered SEM manipulation while preserving state latitude to structure factfinding and evidentiary presentation through trial-court gatekeeping. The Eleventh Circuit\u2019s approach looks less like enforcing Hall\u2019s anti-rigidity principle and more like constitutionalizing an aggregation methodology without a clear predicate in our cases, so I would reverse on the narrow ground that the Constitution does not compel that method.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.71,
+        "reasoning": "Justice Kagan\u2019s strongest point is functional: that a numerosity-driven reliance on several mid-70s scores can, in practice, recreate the rigid cutoff condemned in Hall by screening out the adaptive-functioning inquiry whenever SEM-adjusted ranges overlap 70. That concern is serious, but it goes to an as-applied misuse of the IQ record; it does not justify constitutionalizing a contrary categorical rule that multiple scores may be considered only to help the defendant and never to test whether he has carried his burden. As the Chief Justice and Justice Barrett emphasize, Atkins preserved state flexibility, and Hall/Moore prohibit rigid cutoffs and clinically untethered SEM manipulation\u2014not a holistic, clinically grounded evaluation that interprets each score with SEM and then weighs the entire record, including competing expert views. On this record, the Eleventh Circuit\u2019s approach improperly displaced that comparative weighing by effectively treating proximity to the threshold as nearly dispositive without engaging the State\u2019s contrary evidence in the manner our probability-based standards typically require.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Chief Justice Roberts is right that Hall and Moore do not establish a \u201cone-score rule,\u201d and a State may consider more than one IQ score; I do not read our precedents to make the lowest number dispositive. But Justice Kagan correctly identifies the constitutional danger here: Alabama\u2019s cumulative use of mostly mid-70s scores can operate as a mechanistic screen that, in practice, hardens the cutoff Hall forbids by letting numerosity overwhelm each score\u2019s SEM-adjusted range and thereby foreclose the clinically required inquiry into adaptive functioning and onset. Justice Barrett\u2019s appeal to state flexibility is persuasive only if the framework ensures meaningful consideration of competent, complete clinical evidence\u2014full-scale IQ testing and adaptive-functioning assessments\u2014not a score-counting method that can \u201cignore substantial evidence\u201d and deny record development when near-threshold scores cluster. On this record, the clustered, borderline results should have triggered a comprehensive diagnostic evaluation rather than an aggregation methodology that increases the risk of executing an intellectually disabled person.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.79,
+        "reasoning": "The Chief Justice and Justice Barrett are right that Hall and Moore do not constitutionalize a \u201cone-score rule,\u201d and States may consider the full IQ record. But their proposed narrow reversal abstracts away from how Alabama\u2019s numerosity-driven approach operates: it can make clustered mid-70s scores effectively dispositive notwithstanding SEM-adjusted ranges that overlap 70, thereby functioning as the rigid cutoff Hall forbids and short-circuiting the clinically required adaptive-functioning inquiry. Justice Kavanaugh\u2019s \u201cweight and synthesis\u201d framing understates that, in this particular setting, evidentiary mechanics can become a legal screen that systematically excludes borderline defendants from the protected class. Atkins leaves States latitude, but not latitude to adopt a method that\u2014in practical effect\u2014increases the constitutionally intolerable risk of executing an intellectually disabled person.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Justice Kagan and Justice Jackson press the strongest point: a numerosity-driven approach can, in practice, recreate the rigid cutoff Hall condemned by letting clustered mid-70s scores swamp SEM overlap and thereby truncate the adaptive-functioning inquiry. But that is an as-applied objection to a mechanistic application; it does not supply a precedent-grounded, administrable constitutional rule that compels the Eleventh Circuit\u2019s particular aggregation method or forbids a State from considering the full IQ record when each score is interpreted with its SEM and clinical principles. As the Chief Justice and Justice Barrett explain, Atkins/Hall/Moore police rigidity and clinically untethered screens while preserving state latitude, and lower courts exceed our precedents\u2019 \u201creach\u201d when they convert those decisions into an open-ended judicial reweighing mandate. The right disposition is a narrow reversal, leaving room to challenge any truly rigid score-counting regime that, as a matter of law, forecloses adaptive-functioning evidence notwithstanding SEM-adjusted overlap with 70.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Kagan and Justice Sotomayor raise the best point: a State cannot use a multi-score methodology to \u201cfunctionally\u201d recreate the rigid cutoff Hall and Moore rejected by discounting SEM-adjusted ranges and thereby screening out adaptive-functioning evidence. But that concern targets an as-applied problem\u2014whether the court refused as a matter of law to consider SEM and other clinically relevant evidence\u2014not a categorical constitutional rule forbidding a State from weighing the full IQ record when determining whether the defendant has carried his burden. As the Chief Justice emphasizes, Hall and Moore condemn rigid, outcome-determinative cutoffs and clinically untethered manipulations; they do not clearly adopt a one-low-score entitlement or bar holistic evaluation of multiple tests so long as each is interpreted with its SEM and the inquiry remains open to adaptive-functioning evidence. Given Atkins\u2019s reaffirmed state flexibility and the administrability problems of constitutionalizing an aggregation rule, I would reverse on the narrow ground that the Eleventh Circuit overread our precedents into a new eligibility criterion.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Justice Kagan\u2019s strongest point is functional: a numerosity-driven approach could recreate the rigid cutoff Hall forbids by letting clustered mid-70s scores drown out SEM-adjusted ranges that reach 70 and thereby truncate the adaptive-functioning inquiry. But that is an as-applied objection to a mechanistic rule in operation, not a categorical constitutional bar on considering multiple IQ scores; as the Chief Justice notes, neither Atkins, Hall, nor Moore adopts a one-score-dispositive principle or the Eleventh Circuit\u2019s one-directional rule that multiple scores can only ever benefit the defendant. Textually and structurally, our precedents police rigidity and clinically untethered use of SEM, while preserving state latitude to weigh conflicting evidence so long as each score is interpreted with its SEM and the inquiry does not foreclose relevant clinical evidence as a matter of law. We should therefore reverse the Eleventh Circuit\u2019s constitutionalization of its aggregation method, while making clear that a score-counting regime that effectively screens out adaptive-functioning evidence could present a different, properly framed Eighth Amendment claim.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "I agree with Chief Justice Roberts and Justice Barrett that Hall and Moore do not impose a formal one-score rule and that States may consider multiple IQ scores. But Justice Kagan and Justice Sotomayor correctly focus on function, not labels: a numerosity-driven tally of mid-70s scores can operate as a de facto cutoff that lets aggregation overwhelm SEM-adjusted ranges reaching 70, thereby terminating the inquiry before the clinically required assessment of adaptive functioning and onset. Justice Gorsuch\u2019s administrability critique cuts the other way for me\u2014basic fairness is better served by a workable rule that each score must be interpreted with SEM and, when any properly interpreted score overlaps 70, the State must proceed to the broader diagnostic inquiry rather than using aggregation as a gatekeeping screen. Given Atkins\u2019s categorical bar and the historic allocation of postconviction factfinding to judges subject to constitutional limits, I would not endorse a state-flexibility framing that predictably increases the risk of executing an intellectually disabled person near the threshold.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The question properly presented is narrow\u2014whether Atkins, as elaborated in Hall and Moore, forbids a State from considering multiple IQ scores cumulatively rather than treating a single low score as dispositive\u2014and our precedents do not impose a one-score rule. Hall and Moore require courts to respect the standard error of measurement and to avoid rigid cutoffs or manipulating margins of error, but they also reaffirm that States retain a \u201ccritical role\u201d and \u201cflexibility\u201d in structuring evidentiary frameworks so long as they are not untethered from contemporary clinical understanding. On these facts\u2014where the defendant has multiple scores mostly in the mid-70s\u2014Alabama may permissibly evaluate the full set of scores (with their associated error bands) to decide whether the defendant has carried his burden to show significantly subaverage intellectual functioning, rather than allowing one borderline score to control. The Eleventh Circuit\u2019s approach, insofar as it effectively displaced that holistic assessment and treated one qualifying-score-plus-SEM as sufficient, overreads Hall/Moore and improperly constrains the latitude Atkins left to the States.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Eighth Amendment categorical bar in Atkins requires a satisfactory factual finding that the defendant actually is intellectually disabled, and an appellate court should not, on a cold record, reweigh IQ evidence by treating several nonqualifying scores as if they collectively establish an IQ of 70 or below. Alabama\u2019s consideration of multiple scores as part of a holistic evidentiary framework is permissible so long as each score is properly admitted and evaluated under trial-court gatekeeping, and \u201ccumulative\u201d reasoning cannot substitute for the missing predicate of at least one qualifying, reliably interpreted score demonstrating significantly subaverage intellectual functioning. To the extent the Eleventh Circuit allowed the claim to proceed by aggregating margins of error across multiple mid-70s scores or by overriding state evidentiary structuring without a clear factual finding of class membership, it exceeded appropriate appellate limits and curtailed the sovereign\u2019s leeway to implement Atkins. The proper course is to respect the trial court\u2019s role in making the factual determination and to reject cumulation that functions as a bypass for the required predicate showing.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Hall and Moore do not impose a \u201cone-low-score\u201d rule, but they do require courts to treat each IQ score in a clinically valid way, including recognizing the score\u2019s standard error of measurement and avoiding methodologies that effectively reintroduce a rigid cutoff. On this record\u2014where the defendant has multiple scores mostly in the mid-70s and Alabama\u2019s framework permits considering all scores together\u2014the proper inquiry is comparative and evidentiary: whether, after accounting for measurement error and the circumstances of testing, the totality makes it reasonably likely his true IQ is 70 or below, not whether any single score is dispositive. The Eleventh Circuit\u2019s approach, to the extent it treated a marginal score as automatically sufficient or refused to weigh competing expert interpretations of multiple scores \u201cagainst each other,\u201d misconceives the required factbound analysis and improperly constrains state flexibility that Hall and Moore expressly preserve. Because the State\u2019s cumulative-score framework is not categorically foreclosed and the petitioner\u2019s aggregate evidence (mostly mid-70s) is not, without more, strong and corroborated proof of sub-70 functioning, I would reverse.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Under Atkins as elaborated in Hall and Moore, the constitutional question is not resolved by tallying multiple IQ scores and treating the predominance of mid-70s results as dispositive; courts must evaluate IQ evidence consistent with clinical practice, including the test\u2019s standard error of measurement and the need for a comprehensive diagnostic assessment. Here, the record reflects multiple IQ scores clustered near the Atkins threshold, which\u2014considered cumulatively\u2014should have prompted careful attention to their margins of error and to corroborating clinical evidence (school records, neuropsychological testing, and, critically, adaptive-functioning deficits with onset before age 18), rather than an aggregation method that effectively screens out the claim. Given that the state courts proceeded to weigh \u201cadditional evidence\u201d beyond IQ and the Eleventh Circuit allowed the claim to proceed based on that fuller picture, I would not endorse a framework that risks ignoring substantial evidence suggestive of intellectual disability or substituting a score-counting approach for a clinically grounded determination. The Eighth Amendment requires a meaningful, reliable inquiry, and on these facts Smith has at least made the showing necessary to proceed under a holistic, medically informed analysis.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Atkins, as elaborated by Hall and the Moore decisions, requires that courts evaluate intellectual-disability claims in a way \u201cinformed by the medical community\u2019s diagnostic framework,\u201d which treats IQ testing as a measurement with error and as one component of a broader, clinically grounded assessment\u2014not a rigid numerosity or averaging exercise. Alabama may consider multiple IQ scores, but it cannot use them cumulatively in a manner that functionally reintroduces a fixed cutoff (or a state-favoring aggregation rule) that discounts the standard error of measurement and creates an unacceptable risk of executing an intellectually disabled person. Given that Smith has multiple scores clustered around the mid-70s\u2014close enough that SEM-adjusted ranges can reach 70 or below\u2014Hall\u2019s logic demands allowing the claim to proceed with full consideration of adaptive-functioning evidence rather than barring relief via a mechanistic \u201cwhole-of-scores\u201d approach. Consistent with our precedent-coherence principles, Alabama\u2019s framework is impermissible insofar as it conflicts with Hall\u2019s rejection of rigid IQ-score rules and Moore\u2019s insistence on clinical, not idiosyncratic legal, metrics.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Atkins and this Court\u2019s later decisions in Hall and Moore forbid rigid cutoffs and require accounting for measurement error, but they do not authorize lower courts to adopt an open-ended, cumulative \u201cweighting\u201d approach to multiple IQ scores that effectively invites case-by-case balancing and unpredictable, judge-dependent outcomes. Here, the Eleventh Circuit treated the fact that several scores fell in a 65\u201375 band as enough to keep an Atkins claim alive without identifying any determinate, precedent-grounded rule for how multiple scores should be aggregated or how conflicting scores should be handled. Our precedents\u2019 repeated explanations constrain courts to evaluate each test consistent with its SEM and accepted interpretive principles, not to create an ad hoc probabilistic reweighing regime untethered to what Hall and Moore actually held. Because no clear holding in Hall or Moore prescribes the Eleventh Circuit\u2019s cumulative-score methodology, I would reverse and allow the State to apply a rule-like evidentiary framework that accounts for SEM without devolving into free-form balancing.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Atkins established a categorical bar on executing the intellectually disabled but left the States substantial discretion to develop reasonable procedures and burdens of proof for adjudicating that status, and nothing in Atkins, Hall, or Moore clearly creates a new constitutional \u201celigibility rule\u201d forbidding courts from considering multiple IQ scores cumulatively. Hall and Moore are best read to reject rigid cutoff regimes that treat a single score above 70 as dispositive and that foreclose consideration of the standard error of measurement and adaptive-functioning evidence; they do not require a court to disregard the broader IQ record when deciding whether a claimant has carried his burden. Here, Alabama\u2019s framework\u2014evaluating the full set of scores (mostly in the mid-70s) rather than converting the lowest adjusted score into a dispositive threshold\u2014fits within the discretion Atkins preserved and avoids turning Hall/Moore\u2019s clinical-guidance language into an administratively unworkable constitutional mandate. On this record, the Eleventh Circuit went beyond \u201cclearly established\u201d law by treating Hall/Moore as forbidding the State\u2019s holistic weighing of multiple test results.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Atkins draws a constitutional line but expressly leaves the States \u201cthe task of developing appropriate ways to enforce\u201d it, and Hall and Moore police only the boundary that States may not convert clinical imprecision into a rigid, outcome-determinative cutoff or rely on nonclinical factors to shrink an IQ score\u2019s acknowledged range. Nothing in those decisions textually or structurally requires a court to ignore the rest of the IQ record; to the contrary, considering multiple scores can be a permissible way to assess intellectual functioning so long as each score is treated consistently with its standard error of measurement and the inquiry does not collapse into a mechanistic rule that bars consideration of adaptive functioning once any score falls above 70. Alabama\u2019s approach\u2014evaluating the IQ evidence as a whole, rather than treating a single low score as dispositive\u2014fits within the discretion Atkins preserves, provided it does not use aggregation to reintroduce the very rigidity Hall forbids. Because the Eleventh Circuit\u2019s rule effectively strips States of that reserved flexibility by constitutionalizing a one-directional use of multiple scores, I would reverse and allow Alabama to apply a clinically grounded, non-rigid cumulative assessment.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Eighth Amendment\u2019s basic-fairness requirement in the Atkins context demands an inquiry that is clinically grounded and administrable, not one that functionally recreates a rigid cutoff by treating multiple mid-70s scores as cumulatively dispositive against intellectual disability while discounting measurement error. Historically, sentencing and postconviction determinations permit judges broad discretion over the sources and types of evidence they consider, but that discretion is constitutionally cabined here because Atkins creates a categorical exemption from execution and Hall and Moore specifically forbid evidentiary rules that distort the clinical inquiry into significantly subaverage intellectual functioning. On these facts\u2014multiple IQ scores near the 70 threshold\u2014an approach that aggregates scores to push the defendant outside the protected class risks allocating the decisive factfinding in a way that is inconsistent with the fairness rationale of Hall, which requires courts to treat the SEM as integral and to avoid bright-line mechanisms that systematically skew outcomes. Applying precedent by analogy, the lower court\u2019s willingness to let the claim proceed reflects a workable standard: consider all scores and other evidence, but do so under current clinical principles rather than a state-favoring cumulative-score methodology that effectively hardens the line Hall rejected.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.73,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-872",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether, in determining intellectual disability under Atkins, a court may consider multiple IQ scores cumulatively (and how) to decide if a capital defendant has shown significantly subaverage intellectual functioning (roughly IQ 70 or below accounting for measurement error).",
+      "legal_provision": "Eighth Amendment (as applied through Atkins v. Virginia\u2019s categorical bar on executing intellectually disabled persons), with related federal statutory context in the Federal Death Penalty Act, 18 U.S.C. \u00a7 3596(c).",
+      "petitioner_position": "Alabama argues that its evidentiary framework permissibly requires an Atkins claimant to prove significantly subaverage intellectual functioning and allows courts to evaluate the full set of IQ evidence\u2014i.e., multiple test scores\u2014together rather than treating any single score (adjusted by a standard error of measurement) as dispositive. Because Smith\u2019s reported scores (e.g., 75, 74, 72, 78, 74) cluster above 70, Alabama contends he failed to make the necessary showing that his true IQ is 70 or below, and the Eleventh Circuit improperly expanded Atkins/Hall/Moore by letting him proceed based on an incorrect approach to IQ-score aggregation and uncertainty.",
+      "respondent_position": "Smith argues that Atkins and this Court\u2019s subsequent decisions require courts to apply contemporary clinical standards and to treat IQ scores as imprecise measurements subject to standard error and other sources of variability. He contends the Eleventh Circuit correctly rejected an Alabama approach that effectively uses multiple above-70 scores to negate the constitutional protection even when clinical practice would treat scores near 70 (especially with SEM and other considerations) as consistent with intellectual disability. In his view, a cumulative-score method can create an unconstitutional 'super-score' that inflates perceived ability and risks executing someone whom Atkins forbids executing.",
+      "key_precedents": [
+        "Atkins v. Virginia, 536 U.S. 304 (2002)",
+        "Hall v. Florida, 572 U.S. 701 (2014)",
+        "Moore v. Texas, 581 U.S. 1 (2017)",
+        "Moore v. Texas, 139 S. Ct. 666 (2019)",
+        "Powell v. Texas, 392 U.S. 514 (1968)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Kagan correctly warn that a so-called cumulative approach can be misused to manufacture an unconstitutional \u201csuper-score\u201d that narrows the SEM and effectively forecloses the Hall/Moore inquiry. But that concern goes to an as-applied misuse, not the narrower question presented\u2014whether a State may consider multiple IQ scores together as part of the significantly-subaverage-functioning assessment. As Justice Barrett and Justice Kavanaugh emphasize, our precedents bar rigid cutoffs and require attention to measurement error; they do not establish a one-score dispositive rule in the other direction, nor do they forbid ordinary record-based factfinding that weighs the whole set of standardized scores with SEM in view. A narrow disposition should make explicit that aggregation cannot be deployed as a categorical bar when any reliable SEM-adjusted range implicates 70, while still allowing States to consider multiple scores as evidence.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor and Justice Kagan press the strongest point: a State cannot launder uncertainty into certainty by turning several mid\u201170s point estimates into a dispositive \u201csuper\u2011score\u201d that effectively truncates the SEM and forecloses the adaptive\u2011functioning inquiry. But as the Chief Justice explains, that objection targets an as\u2011applied misuse, not a clearly established constitutional rule forbidding a factfinder from considering multiple standardized scores as part of the intellectual\u2011functioning assessment. Hall and Moore prohibit rigid gatekeeping that bars \u201cfurther exploration\u201d; they do not compel a one-way ratchet under which any single SEM\u2011adjusted score touching 70 automatically satisfies the first prong and displaces state-court factual findings. Given AEDPA\u2019s limits and the need for an administrable eligibility determination for a categorical Eighth Amendment exemption, I would reverse narrowly while making explicit that aggregation cannot operate as a cutoff when a reliable score-range implicates 70.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor and Justice Kagan press the strongest point: a State may not deploy multiple mid-70s scores to manufacture a dispositive \u201csuper-score\u201d that narrows SEM and functionally forecloses the Hall/Moore inquiry. But I agree with the Chief Justice and Justice Barrett that this concern is best handled as an as-applied constraint with a clear limiting principle\u2014aggregation may be considered for evidentiary weight, yet it cannot operate as a rigid gatekeeping rule that truncates acknowledged measurement error or bars meaningful consideration of adaptive functioning when a reliable score-range reaches 70. Hall and Moore condemned cutoffs that preclude \u201cfurther exploration\u201d; they did not create a one-way ratchet in which any single SEM-adjusted score touching 70 automatically satisfies the intellectual-functioning prong regardless of the rest of the admissible record. An administrable disposition is therefore to reverse on the narrow question presented while making explicit that any \u201ccumulative\u201d method cannot be treated as dispositive in the manner Respondent fears.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The Chief Justice\u2019s and Justice Kavanaugh\u2019s narrow framing\u2014that Hall and Moore permit a factfinder to consider multiple standardized scores\u2014does not answer the constitutional defect in how Alabama used those scores here. As Justice Kagan emphasizes, the problem is not admitting the full IQ record, but using a cluster of mid\u201170s point estimates to create a cumulative, effectively dispositive device that narrows (rather than respects) SEM-recognized imprecision and then forecloses the clinically required inquiry into adaptive deficits and onset before age 18. Justice Barrett\u2019s limiting principle reinforces, rather than cures, that concern: once any reliable score\u2019s SEM-adjusted range reaches 70, the State cannot treat above\u201170 point estimates as gatekeeping against Atkins eligibility without meaningfully engaging the adaptive-functioning evidence the record contains. Because the record includes near-threshold full-scale results and expert testimony about measurement error, I would not reverse on a categorical permission to \u201cweigh multiple scores\u201d divorced from the way that weighing functioned as a rule-out mechanism in this case.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The Chief Justice and Justice Kavanaugh are right that Hall and Moore do not impose a single-score rule and that States may consider multiple IQ scores in ordinary evidentiary fashion. But Justice Sotomayor is equally right that Alabama\u2019s \u201ccumulative\u201d method, as used here, can operate as a functional rule-out device\u2014an arithmetic ratchet that narrows (rather than respects) acknowledged measurement error and then forecloses the holistic, clinically grounded inquiry those cases require once any reliable SEM-adjusted range reaches 70. The opposing side\u2019s \u201cas-applied only\u201d framing understates the problem: blessing this methodology in the abstract risks authorizing what Hall forbids in practice, because the aggregation itself is the gatekeeping mechanism. Given the near-threshold score (72) and conceded imprecision, Alabama cannot convert uncertainty into certainty by repetition and stop before meaningful consideration of adaptive functioning and onset.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor and Justice Kagan identify the case\u2019s hardest point: a \u201ccumulative\u201d methodology can be weaponized to manufacture a dispositive \u201csuper-score\u201d that narrows, rather than respects, the SEM and thereby short-circuits the adaptive-functioning inquiry Hall and Moore require. But that critique targets an as-applied misuse\u2014turning evidentiary weighing into a rigid rule-out device\u2014not the antecedent legal question Chief Justice Roberts and Justice Barrett isolate: whether a factfinder may consider multiple standardized scores as part of the intellectual-functioning assessment. Our precedents reject categorical cutoffs and nonclinical gatekeeping; they do not constitutionalize a one-score \u201cratchet\u201d that makes any single SEM-adjusted score dispositive irrespective of the rest of the admissible IQ record. The administrable rule is to allow consideration of all scores for reliability and weight while forbidding any aggregation technique that effectively truncates SEM or categorically bars meaningful consideration of adaptive deficits when a reliable score-range reaches 70.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor and Justice Kagan identify the case\u2019s most serious Eighth Amendment risk: a State may not use multiple above-70 point estimates to create a de facto \u201csuper-score\u201d that narrows SEM and functions as a rigid gatekeeping device, thereby truncating the Hall/Moore inquiry. But as the Chief Justice explains, that is an as-applied misuse problem, not a basis for a categorical rule that a factfinder may not consider multiple standardized scores at all; our precedents prohibit rigid cutoffs that bar \u201cfurther exploration,\u201d not ordinary evidentiary weighing of the full testing record with SEM in view. A narrow reversal should therefore make explicit\u2014consistent with Justice Barrett\u2019s limiting principle\u2014that when any reliable score\u2019s SEM-adjusted range reaches 70, aggregation cannot be treated as dispositive against eligibility or used to preclude meaningful consideration of adaptive functioning. That resolves the constitutional concern without converting Hall/Moore into a one-score ratchet or a new eligibility criterion untethered from what those cases held.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor and Justice Kagan surface the case\u2019s strongest concern: a State cannot use multiple mid\u201170s point estimates to construct a de facto \u201csuper-score\u201d that narrows SEM and functions as a rigid gatekeeping device\u2014doing indirectly what Hall forbids directly. But that objection is best handled, as the Chief Justice and Justice Gorsuch suggest, with an administrable limiting principle: multiple scores may be considered for ordinary evidentiary weight and reliability, yet aggregation may not be treated as dispositive to preclude the adaptive-functioning inquiry when any reliable SEM-adjusted range implicates 70. Reading Hall and Moore to create a one-way ratchet (any single SEM-adjusted near-threshold score automatically satisfies the intellectual-functioning prong regardless of the rest of the record) would trivialize the distinction those cases preserve between forbidding cutoffs and requiring holistic assessment, and would unduly displace state factfinding Atkins left in place. On this posture, the appropriate course is a narrow reversal clarifying that \u201cconsideration\u201d is permissible but \u201csuper-score\u201d dispositiveness is not.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "I accept the Chief Justice\u2019s and Justice Kavanaugh\u2019s core point that Hall and Moore do not \u201cconstitutionalize\u201d a single-score rule and that a factfinder may consider multiple standardized scores with SEM in view. But Justice Sotomayor persuasively shows that, on this record, Alabama\u2019s cumulative method functioned as a one-way ratchet: it used clustering of mid-70s point estimates to manufacture certainty, effectively narrowing SEM-recognized imprecision, and then treated that manufactured certainty as a gatekeeping bar to the clinically grounded, holistic inquiry Hall and Moore require once a reliable score-range reaches 70. Justice Barrett\u2019s proposed limiting principle underscores\u2014not cures\u2014the constitutional defect as applied here: if any reliable SEM-adjusted range implicates 70, aggregation cannot be allowed to do indirectly what Hall forbids directly by foreclosing meaningful consideration of adaptive functioning. Because petitioner\u2019s narrow reversal risks blessing that end-run, I would affirm (or at minimum refuse to reverse on petitioner\u2019s framing) and leave room for States to consider multiple scores only when that consideration does not operate as a dispositive cutoff.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "The question presented is narrow\u2014whether a State may consider multiple IQ scores cumulatively in determining the \u201csignificantly subaverage intellectual functioning\u201d prong\u2014and we should not convert this case into a broader reweighing of the adaptive-functioning evidence or a free\u2011floating inquiry into best clinical practice beyond what Hall and Moore require. Hall forbids a rigid cutoff that treats any score above 70 as dispositive and demands consideration of the SEM, but it does not require a rule that any single near\u201170 score (plus SEM) controls when the record contains several scores clustering above 70. On these facts\u2014scores like 75, 74, 72, 78, 74\u2014Alabama\u2019s approach of looking at the full set of IQ evidence, while accounting for measurement error, fits within the discretion Atkins preserved and does not create the kind of categorical bar on \u201cfurther exploration\u201d that Hall condemned. Moore likewise requires that courts be informed by contemporary clinical standards, but it does not constitutionalize a prohibition on evaluating multiple test results together when determining whether the defendant has carried his burden on the intellectual-functioning prong.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Atkins\u2019 categorical bar presupposes an administrable protected class, which requires an eligibility determination supported by concrete factual findings; here, the record contains multiple IQ scores (75, 74, 72, 78, 74) clustering above 70, and nothing in Atkins or its progeny clearly establishes that a single score (plus SEM) is dispositive or that multiple scores may not be weighed together by the factfinder. Hall and Moore caution against rigid numerical cutoffs and emphasize IQ imprecision, but they do not mandate the Eleventh Circuit\u2019s apparent approach that treats near-70 scores as constitutionally sufficient notwithstanding a full set of higher results; that effectively replaces a factual eligibility determination with an \u201cever-evolving\u201d expert-driven standard federal courts continually refine. Respecting institutional roles, a state court may consider the entire body of IQ evidence and related proof in making the threshold intellectual-functioning finding, and a federal court errs by displacing that weighing rather than applying the proper deference to the state factfinding.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Atkins bars execution of the intellectually disabled, but Hall and Moore do not convert the standard error of measurement into a one-way ratchet that makes any single near-70 score dispositive despite the rest of the record. Alabama\u2019s approach\u2014requiring the defendant to prove significantly subaverage intellectual functioning and permitting the factfinder to weigh all admissible IQ scores together (here, scores clustering above 70 such as 75, 74, 72, 78, 74), along with any evidence bearing on their reliability\u2014fits within the settled framework and is more administrable than a rule that effectively compels an intellectual-disability finding whenever one score\u2019s lower bound touches 70. The Eleventh Circuit\u2019s apparent suggestion that courts must \u201cmove on\u201d whenever the low end of a score-range falls at or below 70 risks displacing States\u2019 traditional factfinding role and creating instability as clinical guidance evolves. On these facts, where the multiple scores largely point the same direction, treating the full IQ record as relevant evidence is consistent with Hall\u2019s insistence that courts consider IQ as an imprecise measure rather than elevating one adjusted score above all others.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The record here reflects multiple IQ scores clustered in the low-to-mid 70s (e.g., 75, 74, 72, 78, 74), and under Hall a court may not treat those numbers as precise measurements or use a rigid 70 cutoff; it must account for the standard error of measurement and other measurement considerations raised by qualified experts. A \u201ccumulative\u201d approach becomes constitutionally problematic if it functions as an inflated \u2018super-score\u2019\u2014using several above-70 results to negate the clinically recognized uncertainty around scores near 70 and thereby to foreclose fuller, standardized assessment of the remaining clinical components (adaptive deficits and onset before 18) reflected in the record. Consistent with Moore, the Constitution requires adherence to current clinical standards in weighing IQ evidence, meaning courts may consider multiple tests only in a methodologically sound way that does not narrow the SEM-adjusted range or ignore substantial evidence suggesting the defendant may fall within the protected class. Because Alabama\u2019s framework, as applied to these facts, risks converting imprecise testing into a dispositive bar despite near-threshold scores, I would affirm the approach allowing Smith to proceed under Atkins\u2019 protection rather than treating the cluster of scores as conclusive.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Atkins, as refined by Hall and Moore, makes clear that intellectual disability is a clinical condition assessed through \u201cinterlocking and overlapping concepts,\u201d not a mechanistic arithmetic exercise in which a State can cumulate several above-70 scores to create an effectively dispositive barrier. Alabama\u2019s approach\u2014treating Smith\u2019s cluster of reported scores (75, 74, 72, 78, 74) as negating the constitutional claim\u2014risks doing indirectly what Hall forbids directly: using IQ evidence in a way that narrows measurement uncertainty and forecloses the holistic inquiry contemporary standards require, including attention to SEM and other relevant evidence. Nothing in our cases precludes considering multiple scores, but the Constitution does require that a court not convert them into a \u201csuper-score\u201d that systematically inflates perceived functioning and increases the likelihood of executing someone Atkins categorically protects. Given those constraints, Smith is entitled at least to an assessment that treats near-threshold scores (including 72) with appropriate measurement error and does not use aggregation to defeat the required clinical inquiry.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Atkins and our later decisions in Hall and Moore require courts to respect the medical reality that IQ testing is imprecise and must be understood with measurement error\u2014but they do not constitutionalize a single-score, single-test rule that makes any SEM-adjusted result dispositive. Alabama\u2019s approach\u2014considering Smith\u2019s several scores (75, 74, 72, 78, 74) as part of an overall evidentiary picture\u2014fits with treating intellectual disability as a factual determination, avoids turning one test into an all-or-nothing gatekeeper, and does not itself adopt an indeterminate \u201cmultiplicity of factors\u201d balancing test untethered to clinical evidence. Given the absence of a clear, uniform rule in our precedents about how to handle multiple scores, and the States\u2019 recognized flexibility to implement Atkins, I would not extend Hall/Moore to forbid a court from weighing all the IQ evidence together so long as it still accounts for error and does not impose a rigid cutoff that ignores SEM.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Atkins established a categorical Eighth Amendment bar for the intellectually disabled but left States substantial leeway to set procedures for determining that eligibility, subject to this Court\u2019s later holdings in Hall and Moore that courts may not treat a fixed IQ cutoff as dispositive and must account for the standard error of measurement and then consider adaptive functioning when the score range reaches 70. Neither Hall nor Moore clearly constitutionalizes a rule that any single lowest score (plus SEM) controls the eligibility inquiry or that a court is forbidden from looking at the full record of multiple IQ scores; indeed Hall said each score must be assessed and acknowledged that joint analysis is \u201ccomplicated,\u201d without prescribing a specific aggregation method. On these facts\u2014five full-scale scores clustered from 72 to 78\u2014Alabama may permissibly consider the entire set of scores in evaluating whether Smith has carried his burden to show significantly subaverage intellectual functioning, so long as the court does not refuse as a matter of law to consider relevant SEM-adjusted evidence or foreclose consideration of adaptive-deficits evidence when the clinical range implicates 70. Because the Eleventh Circuit\u2019s approach can be read to convert Hall/Moore into a rigid single-score rule not adopted by this Court and not grounded in objective indicia of a national consensus, I would reverse.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Atkins, Hall, and Moore forbid rigid, nonclinical cutoffs and \u201crule-out\u201d devices that make an IQ of 70 functionally dispositive against the defendant, but they do not textually or structurally require a one-score approach that renders other standardized IQ evidence irrelevant. Properly understood, Hall\u2019s command to account for measurement error means each score must be interpreted as a range (with SEM) and, if any reliable score\u2019s range reaches 70 or below, the court must proceed to adaptive-functioning evidence; that limiting principle preserves a workable distinction between using multiple scores to assess reliability versus using them to manufacture an unconstitutional \u201csuper-score\u201d that truncates the SEM range. On these facts\u2014scores clustering at 72\u201378 with at least one as low as 72\u2014the Constitution permits Alabama to consider the full battery to evaluate whether Smith proved significantly subaverage functioning, so long as the court does not treat multiple above-70 point estimates as categorically negating the SEM-informed inquiry that Hall requires. The Eleventh Circuit therefore went too far if it treated any single SEM-adjusted score as automatically satisfying the intellectual-functioning prong regardless of the remaining test evidence.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "Atkins, as elaborated by Hall and Moore, ties the Eighth Amendment inquiry to contemporary clinical standards, which treat intellectual disability as a condition assessed holistically\u2014not as a mechanical function of IQ points\u2014and require courts to account for measurement error rather than convert imprecision into a dispositive barrier. Alabama\u2019s proposed cumulative approach, applied to Smith\u2019s cluster of mid-70s scores (75, 74, 72, 78, 74), risks functioning as an unconstitutional \u201csuper-score\u201d that uses repeated above-70 results to negate the protection even though clinical practice would still treat near-70 scores as consistent with significantly subaverage functioning once SEM and other variability are considered. Multiple tests may inform a more accurate estimate, but they do not eliminate uncertainty; the Eighth Amendment problem arises if the aggregation method is used to foreclose consideration of other \u201csubstantial and weighty\u201d evidence or to treat cumulative scoring as dispositive against Smith despite clinically recognized error margins. Consistent with the purpose of Atkins\u2019s categorical bar\u2014avoiding execution of those whose culpability the Constitution deems categorically diminished\u2014courts may consider multiple IQ scores, but only in a manner that preserves SEM and a holistic, clinically grounded assessment rather than an arithmetical ratchet against eligibility.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 6,
+    "respondent_votes": 3,
+    "predicted_winner": "Petitioner",
+    "vote_split": "6-3",
+    "average_confidence": 0.74,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3"
+  }
+]

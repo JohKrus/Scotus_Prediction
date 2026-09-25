@@ -68,7 +68,12 @@ release assets (justice indices, slip opinions). Note that all data paths resolv
 │   ├── term_2022_2023/         # 58 cases × 3 models (GPT-5.2, Claude-4.6, Gemini-2.5)
 │   ├── term_2023_2024/         # 59 cases × 2 models (GPT-5.2, Claude-4.6)
 │   ├── term_2024_2025/         # 64 cases × 2 models (GPT-5.2, Claude-4.6)
-│   └── term_2025_2026/         # 62 cases × 2 models (pre-registered, no ground truth yet)
+│   ├── term_2025_2026/         # 62 cases × 2 models (committed March 18, 2026; see Pre-Registration)
+│   ├── ot2025_reruns/          # September 2026 GPT-5.2 re-runs: control, transcripts, v3
+│   ├── ot2026_prereg/          # October 2026 sitting forecasts (GPT-5.2)
+│   ├── authorship/             # Opinion-author and separate-writing forecasts per saved run
+│   └── ot2025_astra_pilot/     # GPT-6 Astra memorization pilot (one case)
+├── analysis/                   # Scoring and diagnostics (see analysis/README.md)
 └── syllabi/                    # Placeholder for generated syllabi
 ```
 
@@ -105,7 +110,17 @@ Each case is predicted with 2 replicates per model. Prediction files are named `
 
 ## Pre-Registration
 
-The predictions in `predictions/term_2025_2026/` were generated **before** the Supreme Court handed down its opinions for the October 2025 Term. The git commit timestamps serve as proof of pre-registration.
+The predictions in `predictions/term_2025_2026/` were committed on March 18, 2026 (commit `beadb7d`); the git commit timestamps serve as the pre-registration record. That date falls inside the Term: 18 of the 58 cases decided by the end of the Term had already been decided when the forecasts were committed, so only the 40 cases decided on or after March 18, 2026 are pre-registered in the strict sense. Claude Sonnet 4.6's training data runs through January 2026, which also covers the 11 cases decided by then.
+
+`predictions/ot2026_prereg/` holds forecasts for the October 2026 sitting (GPT-5.2, frozen v2 pipeline), made from the complete merits briefing before argument; their commit timestamp is their pre-registration record.
+
+## CELS 2026 Revision (September 2026)
+
+- **Scoring and diagnostics** in `analysis/` (see [analysis/README.md](analysis/README.md)), with OT2025-26 ground truth in `code/data/ground_truth/justice_votes_2025_2026.csv`.
+- **Re-runs of OT2025-26 with GPT-5.2** (`code/run_ot2025_arms.py`, output in `predictions/ot2025_reruns/`): `control` (unchanged v2 pipeline; the noise floor against the March runs), `transcripts` (v2 plus the oral-argument transcript from supremecourt.gov), and `v3`. Replicates whose case analysis had silently fallen back to the generic stub in a first pass were re-run and are marked `"repaired": true`; each case's `_usage.json` records tokens and the OpenAI service tier (standard or flex, same model snapshot).
+- **Authorship and separate-writing forecasts** for all saved runs (`predictions/authorship/`).
+- **GPT-6 Astra pilot** for the memorization test (`predictions/ot2025_astra_pilot/`, one case, standard and anti-contamination prompts; runs at temperature 1, the only value the model accepts).
+- **Pipeline changes**: `retrieval.py` caches the FAISS index per chunk list (identical results, far fewer embedding calls); `pdf.py`/`deliberation.py` detect oral-argument transcripts by content as well as by filename (`code/test_transcript_detection.py`); `scraper_dockets.py` imports `scotus_v2.config`.
 
 ## Requirements
 
