@@ -1,0 +1,68 @@
+{
+ "docket": "24-813",
+ "term": 2025,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:13:26+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Sonia Sotomayor",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Ketanji Brown Jackson"
+ ],
+ "majority_author": {
+  "John Roberts": 0.45,
+  "Sonia Sotomayor": 0.1,
+  "Elena Kagan": 0.18,
+  "Neil Gorsuch": 0.12,
+  "Brett Kavanaugh": 0.1,
+  "Ketanji Brown Jackson": 0.05
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.3,
+   "concurs": 0.25
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.2,
+   "concurs": 0.15
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.3,
+   "concurs": 0.25
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.12
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.2,
+   "concurs": 0.15
+  }
+ },
+ "rationale": "Roberts, as the assigning justice in the majority, is most likely to write the opinion himself given his stated preference for a narrow, minimalist holding that affirms on Watson's particularized-control requirement while preserving future cases. The three dissenters—Thomas, Alito, and Barrett—are each likely to write separately given their distinct rationales (Thomas on the merits, Barrett on the remand/Latiolais ground, Alito partially agreeing with both), while Gorsuch and Sotomayor may write separately to emphasize their own textualist or policy-oriented reasoning.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.45,\n    \"Sonia Sotomayor\": 0.10,\n    \"Elena Kagan\": 0.18,\n    \"Neil Gorsuch\": 0.12,\n    \"Brett Kavanaugh\": 0.10,\n    \"Ketanji Brown Jackson\": 0.05\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.30, \"concurs\": 0.25},\n    \"Elena Kagan\": {\"writes_separately\": 0.20, \"concurs\": 0.15},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.30, \"concurs\": 0.25},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.12},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.20, \"concurs\": 0.15},\n    \"Clarence Thomas\": {\"writes_separately\": 0.80, \"concurs\": 0},\n    \"Samuel Alito\": {\"writes_separately\": 0.65, \"concurs\": 0},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.75, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts, as the assigning justice in the majority, is most likely to write the opinion himself given his stated preference for a narrow, minimalist holding that affirms on Watson's particularized-control requirement while preserving future cases. The three dissenters—Thomas, Alito, and Barrett—are each likely to write separately given their distinct rationales (Thomas on the merits, Barrett on the remand/Latiolais ground, Alito partially agreeing with both), while Gorsuch and Sotomayor may write separately to emphasize their own textualist or policy-oriented reasoning.\"\n}\n```"
+}

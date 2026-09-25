@@ -1,0 +1,68 @@
+{
+ "docket": "25-579",
+ "term": 2025,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:15:28+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.45,
+  "Clarence Thomas": 0.08,
+  "Samuel Alito": 0.07,
+  "Neil Gorsuch": 0.1,
+  "Brett Kavanaugh": 0.05,
+  "Amy Coney Barrett": 0.25
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.85,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.6,
+   "concurs": 0.0
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts explicitly stated his preference to write the majority opinion on the narrowest possible ground, and his minimalist approach aligns with the coalition's shared desire for a narrow holding; Barrett is the second most likely author given her precise doctrinal formulation that resonated across the majority. Thomas is likely to write separately to emphasize originalist and textualist grounds, while Sotomayor will almost certainly author the principal dissent given her 0.85 confidence and detailed reasoning.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.45,\n    \"Amy Coney Barrett\": 0.25,\n    \"Neil Gorsuch\": 0.10,\n    \"Clarence Thomas\": 0.08,\n    \"Samuel Alito\": 0.07,\n    \"Brett Kavanaugh\": 0.05\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Samuel Alito\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.85, \"concurs\": 0.00},\n    \"Elena Kagan\": {\"writes_separately\": 0.60, \"concurs\": 0.00},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.65, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Roberts explicitly stated his preference to write the majority opinion on the narrowest possible ground, and his minimalist approach aligns with the coalition's shared desire for a narrow holding; Barrett is the second most likely author given her precise doctrinal formulation that resonated across the majority. Thomas is likely to write separately to emphasize originalist and textualist grounds, while Sotomayor will almost certainly author the principal dissent given her 0.85 confidence and detailed reasoning.\"\n}\n```"
+}

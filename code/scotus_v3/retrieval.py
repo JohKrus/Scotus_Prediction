@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import hashlib
 import logging
 import time
+from collections import OrderedDict
 
 from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
@@ -25,13 +27,34 @@ def _get_cross_encoder() -> CrossEncoder:
     return _cross_encoder
 
 
+# hybrid_retrieve() is called once for the case context and again for every
+# justice's research query, each time over the same chunks. Rebuilding the index
+# re-embedded the whole case on every call; the cache returns the index already
+# built for an identical chunk list, so retrieval results are unchanged.
+_FAISS_CACHE: "OrderedDict[str, FAISS]" = OrderedDict()
+_FAISS_CACHE_SIZE = 4
+
+
 def build_faiss_index(
     docs: list[Document],
     batch_size: int = 30,
 ) -> FAISS | None:
-    """Build a FAISS vector store with batched embedding and retry logic."""
+    """Build a FAISS vector store with batched embedding and retry logic (cached)."""
     if not docs:
         return None
+    key = hashlib.sha1("\x00".join(d.page_content for d in docs).encode("utf-8")).hexdigest()
+    if key in _FAISS_CACHE:
+        _FAISS_CACHE.move_to_end(key)
+        return _FAISS_CACHE[key]
+    store = _build_faiss_index(docs, batch_size)
+    if store is not None:
+        _FAISS_CACHE[key] = store
+        if len(_FAISS_CACHE) > _FAISS_CACHE_SIZE:
+            _FAISS_CACHE.popitem(last=False)
+    return store
+
+
+def _build_faiss_index(docs: list[Document], batch_size: int) -> FAISS | None:
 
     embedding_model = models.get_embedding_model()
     vector_store: FAISS | None = None

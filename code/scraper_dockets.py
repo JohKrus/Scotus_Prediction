@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-from scotus import config
+from scotus_v2 import config
 
 log = logging.getLogger(__name__)
 

@@ -1,0 +1,576 @@
+[
+  {
+    "docket": "25-406",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Communications Act\u2019s system allowing the FCC to assess and pursue monetary forfeitures through agency processes (rather than a jury trial in an Article III court) violates the Seventh Amendment and related Article III limits on adjudicating traditional legal claims.",
+      "legal_provision": "U.S. Const. amend. VII (Seventh Amendment jury-trial right in \u201cSuits at common law\u201d) and Article III (assignment of adjudicative power to Article III courts), as applied to the Communications Act provisions governing FCC monetary forfeitures (civil penalties).",
+      "petitioner_position": "The federal parties (FCC and the United States) defend the Communications Act\u2019s forfeiture regime as a permissible administrative enforcement mechanism in which Congress may authorize an expert agency to determine regulatory violations and impose monetary forfeitures as part of a public-rights, regulatory scheme; they contend that this type of civil-penalty enforcement may be handled administratively without triggering a Seventh Amendment jury requirement or impermissibly transferring the judicial power to a non-Article III tribunal.",
+      "respondent_position": "AT&T and Verizon argue that FCC forfeitures are, in substance, classic legal claims seeking punitive monetary relief\u2014functionally indistinguishable from common-law actions for penalties or debt\u2014so the Seventh Amendment requires a jury trial and Article III requires adjudication by an independent court; they rely heavily on the principle (reaffirmed in Jarkesy) that Congress cannot evade the jury-trial right by relabeling or routing traditional legal claims into agency adjudication.",
+      "key_precedents": [
+        "SEC v. Jarkesy, 603 U.S. 109 (2024)",
+        "Campos-Chaves v. Garland (Order realigning parties) (Aug. 4, 2023)",
+        "Pugin v. Garland (Order realigning parties) (Jan. 30, 2023)",
+        "Axon Enterprise Inc. v. FTC (Order realigning parties) (June 1, 2022)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing as the Government\u2019s strongest authority, but read in light of our settled Granfinanciera/Tull framework\u2014reaffirmed and clarified in Jarkesy\u2014it cannot be treated as a blanket license for agencies to impose punitive, Treasury-paid monetary sanctions for past misconduct without a jury. As Justice Kagan and Justice Thomas emphasize, this forfeiture tracks the traditional action in debt or for penalties, a paradigmatic \u201csuit at common law,\u201d which triggers the Seventh Amendment baseline and raises the corresponding Article III concern. The remaining question is the public-rights exception, and I do not see how routine, adversarial penalty enforcement against a private party fits the narrow \u201cdistinctive governmental prerogatives\u201d category without allowing Congress to withdraw ordinary legal claims from judicial cognizance. Limited after-the-fact judicial review\u2014often deferential to agency factfinding, as Justice Gorsuch notes\u2014does not supply the constitutionally required jury determination where the claim is legal in nature.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.86,
+        "reasoning": "Justice Sotomayor\u2019s reliance on Atlas Roofing and a broad \u201cpublic rights\u201d characterization does not answer the historically grounded Seventh Amendment and Article III problem here: the FCC is adjudicating liability for past misconduct and fixing a monetary forfeiture payable to the Treasury\u2014relief that maps onto common-law actions in debt or for penalties, i.e., \u201cSuits at common law.\u201d That Congress has created a regulatory duty does not transform a traditional legal penalty action into a matter that may be withdrawn from \u201ccourts of competent jurisdiction,\u201d and later judicial review\u2014often deferential to agency factfinding\u2014does not cure the initial displacement of the jury and the judicial power. As Chief Justice Roberts and Justice Gorsuch emphasize, allowing the Executive to decide guilt and punishment first, with an Article III court only later (and sometimes only if the target refuses to pay), makes the jury right contingent and undermines the separation of powers. Nothing in the Communications Act supplies the kind of narrow, historically rooted exception that would permit this non-Article III adjudication of core private-rights liability for punitive monetary penalties.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing as the Government\u2019s strongest authority, but reading it to permit agency adjudication whenever the United States seeks a civil penalty would, as the Chief Justice notes, swallow Granfinanciera/Tull and the limits reaffirmed in Jarkesy. This FCC forfeiture is a punitive, Treasury-paid sanction for past conduct and is therefore closely analogous to traditional actions in debt or for penalties tried to juries, as Justice Thomas emphasizes. The availability of later judicial review does not cure the problem because the decisive factfinding and liability determination occur first in an executive tribunal, leaving the jury right contingent on enforcement posture, a concern Justice Gorsuch underscored. Institutional caution counsels against extending the \u201cpublic rights\u201d label to cover this kind of routine, adversarial penalty prosecution absent clear historical footing.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.65,
+        "reasoning": "The Chief Justice and Justice Thomas press that the forfeiture\u2019s punitive, Treasury-paid character makes this a classic action in debt or for penalties, thus triggering the Seventh Amendment and Article III. But that remedy-driven framing is precisely what Atlas Roofing rejected: Congress may entrust Government-initiated enforcement of newly created statutory obligations, including civil penalties, to administrative adjudication as a paradigmatic public-rights scheme when the United States acts in its sovereign capacity to remedy a public wrong and Article III review remains available. Jarkesy should not be read to erase \u201cmore than a century\u201d of settled practice sustaining such regimes; it polices attempts to repackage private-rights disputes, not core sovereign enforcement of statutory duties in a comprehensive regulatory program. The contention that later judicial review cannot cure an initial jury deprivation (Justice Thomas) assumes the Seventh Amendment applies to this kind of agency proceeding, but the Amendment by its terms targets \u201cSuits at common law\u201d in district courts\u2014not the administrative resolution of public rights Congress has assigned to an agency pursuant to its constitutional powers.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right that Atlas Roofing is the Government\u2019s best hook, because it describes administrative civil-penalty enforcement within a regulatory scheme as a kind of \u201cpublic rights\u201d matter. But under the framework the Chief Justice and others apply from Granfinanciera/Tull\u2014now sharpened by Jarkesy\u2014the operative questions are the nature of the claim and the remedy, and this looks like a classic punitive, Treasury-paid monetary forfeiture for past conduct, historically analogous to actions in debt or for penalties tried to a jury. That historical characterization also resolves the Article III issue without adopting any \u201ccombination theory\u201d: if this is a suit at common law, Congress cannot make the agency the tribunal of first and last resort, and later judicial review does not supply the missing jury factfinding. Atlas Roofing cannot bear the categorical reading the Government needs here without collapsing the narrowness of the public-rights exception that Jarkesy insisted upon.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing and the long administrative practice it reflects, but that precedent cannot be treated as a license for Congress to move any government-initiated civil-penalty action into the Executive simply by embedding it in a regulatory scheme. As the Chief Justice and Justice Thomas emphasize, this forfeiture is a punitive, Treasury-paid monetary sanction for past conduct\u2014closely analogous to traditional actions in debt or for penalties that were tried to juries, making it a \u201csuit[] at common law\u201d for Seventh Amendment purposes. Jarkesy\u2019s clarification that statutory labeling does not control, and that the public-rights exception is narrow, makes it untenable to extend Atlas Roofing to a regime where the agency determines liability and sets punishment first, with only limited, contingent Article III involvement later. Whatever efficiencies are asserted, they cannot justify displacing the combined structural and procedural safeguards of Article III, the Seventh Amendment, and due process in a paradigmatic legal penalty action.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.79,
+        "reasoning": "Justice Sotomayor is right that Atlas Roofing supplies the Government\u2019s best argument, and we should not read Jarkesy to unsettle settled administrative practice unnecessarily. But as the Chief Justice and Justice Kagan explain, Jarkesy re-centers the Seventh Amendment analysis on the historical analogue: a punitive, Treasury-paid monetary forfeiture for past conduct tracks traditional actions in debt or for penalties\u2014paradigmatic \u201csuits at common law\u201d requiring a jury absent a narrow public-rights exception. Treating any civil-penalty enforcement within a regulatory scheme as a \u201cpublic right\u201d would, as Justice Gorsuch warns, let Congress evade Article III and the jury guarantee by routing ordinary legal penalty claims into the Executive, with judicial involvement only later and often only upon nonpayment. Limited after-the-fact judicial review therefore does not cure the initial displacement of the jury\u2019s role when the claim is legal in nature.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing, but reading it as a categorical permission for agencies to adjudicate any civil penalty within a regulatory scheme cannot be squared with Granfinanciera/Tull as clarified in Jarkesy. As Chief Justice Roberts and Justice Kagan emphasize, the FCC forfeiture is a punitive, Treasury-paid monetary sanction for past conduct\u2014historically analogous to actions in debt or for penalties\u2014so it is a \u201csuit at common law\u201d triggering the Seventh Amendment\u2019s jury guarantee. Nor does later judicial review cure that problem, as Justice Thomas notes, because deferential appellate review of agency factfinding is not a jury determination and makes the jury right contingent on the enforcement path. The Communications Act contains no \u201cfairly possible\u201d construction that reserves liability and penalty-fixing to an Article III court, so constitutional avoidance is unavailable.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor\u2019s reliance on Atlas Roofing is the Government\u2019s strongest point, but I do not read that decision as a freestanding license for Congress to route any punitive civil-penalty enforcement into an agency simply because it sits within a regulatory scheme. Consistent with Chief Justice Roberts\u2019s and Justice Kagan\u2019s application of the Granfinanciera/Tull framework as clarified in Jarkesy, these FCC forfeitures\u2014punitive, Treasury-paid monetary sanctions for past conduct\u2014are most analogous to traditional actions in debt or for penalties, which were \u201cSuits at common law\u201d triable to a jury. On that historical characterization, the narrow public-rights exception cannot do the necessary work here without effectively permitting Congress to withdraw ordinary legal claims from Article III courts. And as Justice Thomas underscores, after-the-fact judicial review (especially deferential review of agency factfinding) does not cure the initial displacement of the jury\u2019s role in determining liability and the amount of the penalty.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.77,
+        "reasoning": "Under the Granfinanciera/Tull framework, the threshold question is whether the FCC\u2019s demand for a monetary forfeiture is analogous to a traditional suit at common law. Here the agency seeks punitive, deterrent money relief for alleged violations of regulatory duties\u2014relief that is functionally akin to common-law actions for penalties or debt and therefore would have been tried to a jury in an Article III court. Turning to the second step, the claim does not fit within the narrowly construed \u201cpublic rights\u201d exception because it resembles a traditional legal claim rather than a distinctive governmental-prerogative adjudication historically committed to non-Article III resolution; Congress may not \"withdraw from judicial cognizance\" such a matter by routing it through agency adjudication. Because the Communications Act regime authorizes final agency determination of liability and amount for such legal penalties, it contravenes the Seventh Amendment jury-trial guarantee and the related Article III separation-of-powers limits.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.83,
+        "reasoning": "The FCC\u2019s forfeiture proceeding adjudicates liability for past misconduct and imposes a fixed monetary penalty payable to the Treasury\u2014relief that is quintessentially legal and historically analogous to common-law actions in debt or for penalties, i.e., \u201cSuits at common law\u201d requiring a jury under the Seventh Amendment. Because the regime empowers a non-Article III agency to decide these core private-rights questions and to assess punitive monetary liability in the first instance, it displaces a \u201ccourt of competent jurisdiction\u201d in the very manner Article III and the Seventh Amendment forbid. Nor is it a constitutional answer that an Article III court may later review the agency order (often deferentially as to factfinding), since that \u201cappellate review model\u201d does not cure the initial deprivation of the jury-trial right and the improper assignment of judicial power. The Government\u2019s \u201cpublic rights\u201d framing fails here because this is an ordinary enforcement action for money damages/penalties that tracks traditional legal claims rather than a novel statutory proceeding unknown to the common law.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The Communications Act\u2019s forfeiture scheme empowers the FCC to adjudicate alleged statutory violations and impose punitive monetary penalties payable to the Treasury\u2014relief that is quintessentially legal and historically analogous to common-law actions for penalties or debt, rather than equitable or specialized administrative relief. Under our modern Seventh Amendment/Article III jurisprudence, and especially after Jarkesy, courts should be wary of allowing Congress to route traditional legal claims into agency adjudication simply by labeling them part of a regulatory program, because that effectively displaces the jury-trial right and transfers core judicial power to a non-Article III forum. Here, the Government\u2019s position would require an expansive \u201cpublic rights\u201d theory that is in substantial tension with the Court\u2019s recent insistence on doctrinal limits and institutional caution when significant monetary consequences are imposed without the protections of an Article III court and a jury. Applying that framework to these specific forfeitures, I would hold the Seventh Amendment is triggered and the adjudication must occur in an Article III court with a jury available on demand.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Communications Act forfeiture proceeding is an enforcement action \u201cbetween the Government and others\u201d in which the United States, acting through the FCC in its sovereign capacity, seeks to remedy a public wrong\u2014noncompliance with a federal regulatory scheme Congress enacted pursuant to its constitutional powers. Our history and more than a century of precedent recognize Congress\u2019s authority to entrust Government-initiated civil-penalty enforcement of statutory obligations to administrative adjudication with judicial review, and the Seventh Amendment\u2019s jury guarantee governs \u201cordinary civil action[s] in the district courts,\u201d not such agency processes. Respondents\u2019 argument that the monetary-forfeiture remedy is dispositive is foreclosed by cases like Atlas Roofing, which rejected a remedy-driven jury-trial rule for civil penalties in public-rights regulatory enforcement. For Article III as well, the question is whether Congress acted pursuant to a constitutional grant of power in structuring this enforcement mechanism, not whether an agency forum is \u201cnecessary\u201d or preferable to court litigation, and the FCC\u2019s regime fits comfortably within that settled public-rights tradition.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under Jarkesy\u2019s Seventh Amendment framework, the FCC\u2019s forfeiture action looks \u201clegal in nature\u201d: it seeks a punitive, Treasury-paid monetary penalty for an alleged statutory violation, tracking the historical analog of common-law actions for penalties or debt rather than an equitable remedy. And the \u201cpublic rights\u201d exception, as Jarkesy understood it, does not extend to letting an agency finally adjudicate and impose such traditional legal penalties simply because Congress placed them in a comprehensive regulatory scheme. Applying the ordinary, settled test rather than a novel blend of theories, that conclusion largely resolves the associated Article III problem too: if the claim is a suit at common law to impose a civil penalty, Congress cannot make the agency the tribunal of first and last resort. The Communications Act\u2019s structure\u2014administrative factfinding culminating in an agency-imposed forfeiture\u2014therefore triggers the jury-trial right and must be pursued (at least for liability and penalty) in an Article III court.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The FCC\u2019s monetary forfeiture proceeding is, in substance, the government\u2019s effort to impose punitive civil penalties\u2014relief that historically was pursued in actions at law and resolved by juries, making it a \u201cSuit[] at common law\u201d under the Seventh Amendment. Invoking a broad \u201cpublic rights\u201d label cannot do the work the government asks, because Congress may not evade the combined protections of the Seventh Amendment, Article III\u2019s guarantee of an independent judicial forum, and the Fifth Amendment\u2019s demand for a fair adjudication simply by routing a traditionally legal claim into an executive tribunal. The Communications Act\u2019s arrangement\u2014agency factfinding and penalty assessment first, with only later and limited judicial review\u2014resembles the very \u201cpenalty-now-trial-later\u201d regime that threatens to \u201cdispense almost entirely\u201d with these constitutional safeguards. Whatever Atlas Roofing may have said in a different context, Jarkesy clarifies that statutory branding does not control and that legal claims for civil penalties must remain with juries in Article III courts absent a narrow, historically grounded exception.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "The default constitutional rule is that when the Government seeks to impose punitive monetary sanctions through a claim that is legal in nature, liability must be determined in an Article III court with a Seventh Amendment jury, unless the case falls within the narrow public-rights exception. Here, the FCC\u2019s Communications Act forfeitures function as classic civil penalties aimed at punishment and deterrence, and the underlying alleged misconduct (failure to take reasonable measures to protect customer data) is closely analogous to traditional common-law duties\u2014so the substance of the action is a \u201cSuit at common law.\u201d Nothing in the Act\u2019s administrative-forfeiture scheme can constitutionally displace that baseline by having the Executive (through the FCC) adjudicate guilt and impose punishment first, with only a later collection action as backstop; that would make the jury right contingent on nonpayment and executive choice. Under a doctrine-driven application of Jarkesy\u2019s Seventh Amendment and Article III analysis, this forfeiture regime as applied violates the Constitution.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.77,
+        "reasoning": "The Communications Act\u2019s forfeiture provisions do not affirmatively supply a statutory entitlement to a jury; so the dispositive question is constitutional\u2014whether these monetary forfeitures are \u201cSuits at common law\u201d and whether Congress may assign their adjudication to an agency consistent with the Seventh Amendment and Article III. Applying Jarkesy\u2019s framework, the FCC seeks punitive, monetary relief for past violations\u2014relief that is legal in nature and historically resembles actions to recover penalties or debt\u2014so a jury right presumptively attaches. Nor is a \u201cfairly possible\u201d construction available to avoid that constitutional problem, because the scheme authorizes the FCC itself to determine liability and set the forfeiture amount in an adversarial enforcement proceeding. And under Jarkesy\u2019s public-rights analysis, routine civil-penalty enforcement against regulated private parties is not the kind of matter that can be removed from Article III courts and the jury-trial guarantee simply by embedding it in a regulatory program.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.72,
+        "reasoning": "Under our existing Seventh Amendment framework\u2014reinforced in SEC v. Jarkesy\u2014the relevant question is whether the FCC is prosecuting a \u201csuit[] at common law\u201d seeking a quintessentially legal remedy, and FCC forfeitures here operate as punitive/deterrent civil penalties for alleged statutory violations that are closely analogous to traditional common-law actions for penalties or negligence-like wrongs. Because this enforcement action is not within the narrow \u201cpublic rights\u201d exception as our precedents have defined it, Congress cannot avoid the jury-trial guarantee (and the ordinary Article III requirement of adjudication in an independent court) by routing the merits determination to agency adjudication. Consistent with my reluctance to create freestanding structural limits, I would not expand doctrine beyond Jarkesy; but applying Jarkesy\u2019s settled test to these specific FCC penalties compels the conclusion that adjudication must occur in an Article III court with a jury available. Any concerns about efficiency or regulatory expertise are properly addressed through Congress\u2019s choice of forum and procedures consistent with the Seventh Amendment, not by recharacterizing punitive penalty actions as purely administrative matters.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.783,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.83,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.86,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.86,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "25-406",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether the Communications Act\u2019s scheme allowing the FCC to assess and pursue monetary forfeitures through administrative processes (with limited judicial involvement) violates Article III and the Seventh Amendment right to a civil jury trial.",
+      "legal_provision": "U.S. Const. art. III; U.S. Const. amend. VII (Seventh Amendment); Communications Act provisions governing FCC monetary forfeitures (civil penalties/forfeitures).",
+      "petitioner_position": "The federal parties (FCC and the United States) defend the Communications Act\u2019s forfeiture framework as a permissible public-rights regulatory enforcement mechanism that Congress can assign to an expert agency, with judicial review or subsequent court involvement providing sufficient constitutional safeguards; they argue FCC-imposed forfeitures are not the kind of traditional common-law damages action that triggers a mandatory jury trial in an Article III court.",
+      "respondent_position": "AT&T and Verizon contend that FCC forfeitures are functionally civil penalties\u2014traditional legal claims analogous to suits for money at common law\u2014so under SEC v. Jarkesy the government cannot avoid Article III adjudication and the Seventh Amendment jury-trial guarantee by routing those claims through an agency; the Constitution requires an Article III court and a jury to determine liability (and typically penalty-related facts) when the government seeks monetary punishment for alleged legal violations.",
+      "key_precedents": [
+        "SEC v. Jarkesy, 603 U.S. 109 (2024)",
+        "Campos-Chaves v. Garland (Order realigning parties) (Aug. 4, 2023)",
+        "Pugin v. Garland (Order realigning parties) (Jan. 30, 2023)",
+        "Axon Enterprise Inc. v. FTC (Order realigning parties) (June 1, 2022)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing\u2019s recognition that Congress may, in a comprehensive regulatory scheme, authorize administrative adjudication of statutory violations and civil penalties; that is the Government\u2019s best point. But after Granfinanciera and Jarkesy, the \u201cpublic rights\u201d label cannot extend to claims that are, in substance, traditional actions at law for punitive money sanctions payable to the Treasury\u2014precisely what the FCC\u2019s forfeiture resembles, as Justice Kagan underscores. The historically grounded carveouts for non-Article III monetary assessments (revenue collection and certain immigration/foreign-commerce penalties) do not map onto this general forfeiture regime, and the back-end collection posture does not cure the constitutional defect because liability and amount are determined in the agency first. I would therefore affirm on an as-applied basis, leaving Atlas Roofing intact for genuinely public-rights adjudications and historically supported exceptions.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.84,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing, but her reading would allow Congress to evade Article III and the Seventh Amendment whenever it embeds a punitive money demand in a \u201ccomprehensive regulatory scheme,\u201d a proposition Jarkesy and Granfinanciera reject when the claim is analogous to a traditional action at law for penalties. As Chief Justice Roberts and Justice Gorsuch emphasize, the FCC\u2019s forfeiture proceeding has the Executive determine past liability and fix a punitive sum payable to the Treasury\u2014an archetypal \u201csuit at common law\u201d\u2014while any later judicial role is contingent and downstream. That sequencing also fails the historically tolerated \u201cappellate review model\u201d (Crowell) because the agency\u2019s liability and factfinding do the decisive work and any court\u2019s review is, in practice, deferential and too attenuated to preserve meaningful Article III control. On these facts, the public-rights exception is at its weakest, and I do not see a principled way to reconcile this regime with the Constitution\u2019s structural allocation of the judicial power and the jury right.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor\u2019s invocation of Atlas Roofing is the strongest argument for petitioner, but it cannot be read as a general license for the Executive to adjudicate\u2014and conclusively determine\u2014liability for punitive monetary penalties that are the modern analogue of common-law actions for penalties, especially after Granfinanciera and Jarkesy\u2019s insistence that the \u201cpublic rights\u201d category is narrow. As Chief Justice Roberts and Justice Kavanaugh emphasize, the FCC\u2019s process has the agency doing the decisive work\u2014finding the facts, determining past legal violations, and fixing a forfeiture payable to the Treasury\u2014while Article III and any jury appear only contingently at the back end if the target refuses to pay. That sequencing is not a mere procedural detail; it effectively displaces the Seventh Amendment right at the point liability is established and punishment assessed, which the \u201ccomprehensive regulatory scheme\u201d label cannot cure. Nor is Justice Sotomayor\u2019s suggestion that this is only an adequacy-of-review concern persuasive here, because the constitutional injury is structural: initial adjudication of a classic legal penalty has been reassigned from an Article III court and jury to the agency itself.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "The Chief Justice and Justice Kagan press their strongest point: that the FCC\u2019s forfeiture is a punitive money sanction historically tried to a jury, and that the agency-first sequencing makes Article III and jury participation contingent and downstream. But that argument still collapses two distinct inquiries our cases keep separate\u2014(1) whether the Seventh Amendment would require a jury if the Government sued for the penalty in district court (Tull), and (2) whether Congress may instead assign initial adjudication of statutory obligations and civil penalties to an agency under the public-rights framework (Atlas Roofing), with judicial review available. Jarkesy, as I read it, does not squarely overrule Atlas Roofing\u2019s settled understanding that Congress may channel civil-penalty enforcement within a comprehensive regulatory scheme to an administrative forum; narrowing \u201cpublic rights\u201d to exclude any punitive monetary sanction would effectively do just that without saying so. To the extent Justice Thomas\u2019s concern is really that the review/enforcement structure leaves Article III control too attenuated in practice, that sounds in a distinct due process/adequacy-of-review challenge that the parties have not properly presented, and I would not resolve it sua sponte.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing: Congress may, in a comprehensive regulatory scheme, authorize an agency to adjudicate statutory violations and impose civil penalties even where a jury would be required in an Article III court. But as Chief Justice Roberts and Justice Kavanaugh emphasize, Jarkesy/Granfinanciera sharpen the inquiry to the nature of the claim and remedy, and this forfeiture looks like a classic action at law for a punitive, Treasury-paid money sanction based on past conduct\u2014historically tried to a jury. The Communications Act\u2019s sequencing compounds the problem: the FCC does the liability-and-amount work first, with Article III/jury involvement only if the target later resists payment, making judicial adjudication contingent and downstream rather than the first-instance forum the Seventh Amendment contemplates for this kind of claim. And I do not think we can recharacterize that as merely an \u201cadequacy-of-review\u201d or due process issue (as Justice Sotomayor suggests) when the constitutional objection is that the decisive adjudication of legal liability is assigned outside Article III in the first place.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Justice Sotomayor\u2019s best point is Atlas Roofing: Congress may, within a comprehensive regulatory scheme, route civil-penalty enforcement to an agency even where a jury would be required in district court. But as the Chief Justice and Justice Kavanaugh explain, Jarkesy and Granfinanciera insist we look to the substance of the claim and remedy, and a retrospective, punitive money demand payable to the Treasury is the sort of classic action at law for penalties historically tried to a jury in an Article III court. The Communications Act\u2019s sequencing only sharpens the problem: the FCC does the decisive liability-and-amount work up front, and any later court involvement is contingent and downstream\u2014too thin a substitute for the \u201ctime-honored\u201d protections of an independent judge and jury when property is declared forfeit. Atlas Roofing cannot be read as a license for Congress to evade Article III and the Seventh Amendment by relabeling a traditional penalty action as part of a regulatory program.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s Atlas Roofing point is the strongest counter, but after Granfinanciera and Jarkesy it cannot be read to permit the Executive to adjudicate, in the first instance, liability for a retrospective, punitive monetary forfeiture that is analogous to a traditional action for penalties at law. As Chief Justice Roberts and Justice Barrett emphasize, the Communications Act\u2019s sequencing\u2014agency liability-and-amount first, with Article III/jury involvement only if the target refuses to pay\u2014does not cure the Seventh Amendment/Article III problem because it makes judicial adjudication contingent and downstream from the agency\u2019s decisive factfinding. Nor is this a historically grounded carveout like revenue collection or certain border/immigration penalties; it is a general punitive forfeiture regime payable to the Treasury. Atlas Roofing remains relevant for genuinely public-rights adjudications, but it cannot be stretched to swallow this classic legal penalty action simply because Congress embedded it in a regulatory program.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor\u2019s reliance on Atlas Roofing is the best argument for petitioner because it recognizes Congress\u2019s power to place enforcement of statutory obligations, including civil penalties, in an administrative forum within a regulatory scheme. But as Chief Justice Roberts and Justice Kavanaugh emphasize, Jarkesy and Granfinanciera require us to look past the \u201cpublic rights\u201d label to the claim\u2019s ordinary nature and remedy; this forfeiture is a punitive, Treasury-paid monetary sanction for past conduct, closely analogous to traditional penalty actions tried to juries at law. The Communications Act\u2019s sequencing aggravates the Seventh Amendment problem because the agency performs the decisive liability and penalty factfinding first, and any later court action is contingent\u2014raising the very practical foreclosure and preclusion concerns Beacon Theatres highlights. Because the statute is silent on juries, there is no statutory jury right to infer, leaving the Seventh Amendment question dispositive here, and for this kind of legal penalty it requires a jury in the first instance.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right to press Atlas Roofing as the Government\u2019s best hook: it recognizes that Congress may, within certain regulatory schemes, assign adjudication of statutory obligations (even with civil penalties) to an agency. But as Chief Justice Roberts and Justice Kagan explain, Jarkesy\u2019s historical-analog and remedy-focused framework makes it difficult to treat this FCC forfeiture\u2014punitive money payable to the Treasury for past conduct\u2014as anything other than a paradigmatic suit at common law for a penalty, where the Seventh Amendment preserves a jury right in the first instance. The Communications Act\u2019s sequencing is also salient: the FCC determines liability and fixes the amount administratively, with Article III/jury involvement only if the target resists payment, which does not supply the constitutionally required forum for the core liability-determining facts. Atlas Roofing cannot be read so broadly that the public-rights label swallows Granfinanciera/Jarkesy whenever Congress places a punitive money sanction in a regulatory statute.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The FCC\u2019s forfeiture proceeding, in substance, authorizes the Executive to adjudicate liability and impose a punitive monetary sanction for alleged legal violations\u2014a classic \u201csuit at common law\u201d historically analogous to actions for debt or penalties that were tried to a jury. Under Granfinanciera\u2019s historical-analog approach, and as reaffirmed in Jarkesy, the Seventh Amendment attaches because the government seeks money as punishment rather than administering a uniquely governmental program with a remedy unknown to the common law. The \u201cpublic rights\u201d exception does not extend to routing traditional legal claims for civil penalties into an agency merely because Congress placed them in a regulatory statute; the narrow historical carveouts for administrative money assessments (e.g., revenue collection or certain immigration/foreign-commerce penalties) do not fit the FCC\u2019s general punitive forfeiture regime. Nor does the possibility of later court involvement cure the problem, because Article III adjudication and a jury must determine liability for the penalty before the Executive\u2019s final punitive determination.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The FCC\u2019s administrative forfeiture regime empowers an agency to adjudicate liability for monetary penalties\u2014classic legal relief designed to punish or deter\u2014against regulated private parties, which is closely analogous to \u201cSuits at common law\u201d and thus implicates the Seventh Amendment jury-trial guarantee. Because the claim targets conduct akin to traditional common-law wrongs (e.g., negligence-like failures to take reasonable protective measures) and seeks a quintessentially legal remedy, it falls outside the narrow \u201cpublic rights\u201d exception and cannot be finally resolved in an agency consistent with Article III. Nor does the Communications Act\u2019s structure cure the problem under the permissible \u201cappellate review model,\u201d since the scheme effectively places primary adjudication of a core private-rights-like penalty action in the agency while leaving an Article III court with limited, deferential review rather than meaningful judicial control over liability-determining facts. Accordingly, routing these civil-penalty forfeiture proceedings through the FCC rather than an Article III court with a jury violates both Article III and the Seventh Amendment.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The threshold constitutional question is whether the FCC\u2019s forfeiture proceeding is the functional equivalent of a suit at common law seeking a punitive, deterrent monetary remedy; under the Communications Act as applied here, the agency assesses civil penalties for alleged statutory violations in a way that closely resembles traditional legal actions for money, not equitable relief. Under Jarkesy\u2019s Seventh Amendment framework, that kind of legal remedy\u2014civil penalties\u2014ordinarily must be tried to a jury in an Article III court, and the \u201cpublic rights\u201d label cannot do the work of withdrawing such claims from Article III and the jury-trial guarantee. I see no reasonable basis to treat these forfeiture claims as falling within the narrow public-rights exception when the liability theory is analogous to common-law negligence and the remedy is a classic legal sanction. Because Congress\u2019s chosen administrative path dispenses with the ordinary Article III adjudication and jury determination of liability (and penalty-related facts) for a quintessential legal remedy, the scheme as used here violates Article III and the Seventh Amendment.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The threshold question is forum: the Communications Act channels the Government\u2019s initial forfeiture determination to the FCC, not to an Article III court, so the Seventh Amendment jury-trial rule that would apply if the United States sued for civil penalties in federal district court (as in Tull) does not by itself answer whether Congress may instead assign that enforcement to an agency under the public-rights framework. Under Atlas Roofing, Congress may commit enforcement of statutory obligations\u2014 including monetary civil penalties\u2014 to in-house administrative adjudication, even where a jury would be required if the same dispute were filed in district court, and the FCC\u2019s forfeiture regime fits that model as part of a comprehensive federal regulatory program governing use of the public airwaves. To the extent respondents reframe Jarkesy as broadly foreclosing agency-imposed monetary penalties, I would read it as turning on claims closely mirroring traditional common-law causes and not as overruling Atlas Roofing\u2019s settled understanding for modern regulatory enforcement, especially where Congress has provided for subsequent judicial involvement to enforce or review the forfeiture. Any separate argument that the particular review/enforcement mechanism is so constrained as to raise an independent due process problem is not properly resolved here absent full party presentation focused on that distinct issue.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Under Jarkesy\u2019s Seventh Amendment/public-rights framework, the FCC\u2019s forfeiture process looks like the Government pursuing a traditional legal claim for money penalties\u2014aimed at punishing past violations and payable to the Treasury\u2014rather than adjudicating a narrowly \"public rights\" dispute. The Communications Act\u2019s structure matters: the FCC itself \"finds the facts, interprets the law, adjudges guilt, and levies punishment\" through an administrative forfeiture order, while any later judicial role typically arises only if the target resists payment and the Government brings a collection action\u2014making Article III and the jury trial effectively contingent on a regulated party\u2019s willingness to incur the consequences of nonpayment. That sequencing leaves the agency exercising the core first-order adjudicatory power that Article III and the Seventh Amendment reserve for courts and juries when the claim is legal in nature. Given those concrete, operational features of the statutory scheme, I would hold the forfeiture framework unconstitutional as applied to impose binding monetary penalties without an Article III court and jury determination in the first instance.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The FCC\u2019s \u00a7503(b) process does not merely implement prospective regulation; it retrospectively adjudicates that a regulated party violated federal law and owes the United States a punitive monetary forfeiture fixed by the agency\u2019s own factfinding, a paradigm historically resolved in court before a jury. Under the Seventh Amendment\u2019s historical test (read together with Article III and due process), a government demand for civil penalties aimed at punishment and deterrence is the sort of \u201csuit at common law\u201d that cannot be reassigned to executive adjudication under the narrow public-rights exception. Whatever later judicial \u201cenforcement\u201d mechanism exists, the agency\u2019s forfeiture order represents a final executive determination of liability and amount, functionally displacing the \u201ctime-honored\u201d protections of an independent Article III judge and a civil jury at the point property is declared forfeited. Because this resembles classic legal liability\u2014here, akin to negligence-style duties to protect customer data\u2014the Constitution requires an Article III court and jury to decide liability (and penalty-related facts) rather than making the agency\u2019s findings effectively dispositive.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Under this Court\u2019s framework in SEC v. Jarkesy, the dispositive questions are (i) whether the government is pursuing a legal claim seeking a punitive monetary remedy and (ii) whether the matter fits within the narrow public-rights exception that would permit agency adjudication without an Article III court and Seventh Amendment jury. FCC forfeiture proceedings under the Communications Act, as applied here to impose substantial monetary penalties for alleged statutory violations analogous to traditional common-law duties (e.g., negligence-like reasonableness obligations), look like classic legal claims for civil penalties intended to punish or deter, so the Seventh Amendment jury-trial right attaches and Article III adjudication is required. The availability of later judicial involvement only after the FCC has already determined liability and assessed the penalty does not cure the structural problem, because the Constitution requires an independent judge (and, where applicable, a jury) for the liability determination itself, not merely a contingent back-end collection mechanism. Consistent with the background presumption of judicial review, regulated parties can raise ultra vires defenses in enforcement, but that presumption cannot substitute for the initial Article III/jury requirement when the Executive seeks to impose punitive monetary sanctions.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The controlling question is whether the Communications Act authorizes the FCC to determine liability and impose punitive monetary forfeitures through an administrative adjudication that substitutes for an Article III court and a Seventh Amendment jury. Looking to the scheme\u2019s ordinary operation, the agency\u2019s process does the decisive work\u2014finding a violation and fixing the forfeiture\u2014while any later court proceeding functions at most as back-end enforcement; under Jarkesy, that sequencing does not cure an Article III/Seventh Amendment problem because the Constitution requires a judge and jury for the liability determination in the first instance when the Government seeks a legal, punitive money sanction. Nor does statutory silence about a jury right help the Government: it simply pushes the analysis to the Seventh Amendment, where monetary penalties analogous to traditional suits at law presumptively trigger a jury. Finally, allowing the agency to decide common liability facts first risks the very preclusion/sequencing concerns Beacon Theatres and its progeny warn about\u2014administrative findings can practically foreclose later jury factfinding\u2014so the scheme, as applied to FCC forfeitures of this kind, is unconstitutional.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Starting from the Seventh Amendment\u2019s text preserving the jury right in \u201cSuits at common law,\u201d and applying Jarkesy\u2019s functional inquiry, the FCC\u2019s forfeiture demand here operates as a punitive monetary penalty paid to the Treasury after a finding of wrongdoing\u2014relief that is classically legal in nature and historically tried to a jury. The Communications Act\u2019s channeling of liability and penalty factfinding into an in-house administrative process, with only limited or deferred Article III involvement, asks the Judiciary to expand the \u201cpublic rights\u201d exception beyond what Jarkesy indicates the Constitution\u2019s structure permits when the Government is pursuing ordinary legal liability for money. Congress\u2019s choice of an agency-first enforcement/review design is important evidence of intent, but it cannot supply a constitutional workaround where the scheme effectively substitutes agency adjudication for the Article III court-and-jury forum the Seventh Amendment presupposes for legal penalties. Because the case squarely presents the constitutionality of this penalty-adjudication framework as applied to major FCC forfeitures, I would hold the scheme violates Article III and the Seventh Amendment to the extent it authorizes binding administrative adjudication of such punitive monetary liability without a jury.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 1,
+    "respondent_votes": 8,
+    "predicted_winner": "Respondent",
+    "vote_split": "8-1",
+    "average_confidence": 0.769,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.84,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  }
+]

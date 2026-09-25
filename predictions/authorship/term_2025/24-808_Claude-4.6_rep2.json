@@ -1,0 +1,68 @@
+{
+ "docket": "24-808",
+ "term": 2025,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:13:21+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.18,
+  "Samuel Alito": 0.15,
+  "Elena Kagan": 0.12,
+  "Neil Gorsuch": 0.12,
+  "Brett Kavanaugh": 0.1,
+  "Amy Coney Barrett": 0.33
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.6,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Barrett is the most likely majority author because her synthesis — Rule 60(c)(1) applies to all Rule 60(b) motions but jurisdictional voidness is a heavily weighted factor in the reasonableness calculus — is the formulation most consistently endorsed across the majority's reasoning, and Roberts as assigning justice would likely reward her for crafting the coalition-holding middle ground. Alito may write separately to emphasize a stricter textualist rationale, while Thomas, Jackson, and Sotomayor are likely to author or join dissents given their strong disagreement with the majority's application of a temporal constraint to void judgments.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.18,\n    \"Samuel Alito\": 0.15,\n    \"Elena Kagan\": 0.12,\n    \"Neil Gorsuch\": 0.12,\n    \"Brett Kavanaugh\": 0.10,\n    \"Amy Coney Barrett\": 0.33\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Samuel Alito\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Elena Kagan\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.80, \"concurs\": 0.00},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.60, \"concurs\": 0.00},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.75, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Barrett is the most likely majority author because her synthesis — Rule 60(c)(1) applies to all Rule 60(b) motions but jurisdictional voidness is a heavily weighted factor in the reasonableness calculus — is the formulation most consistently endorsed across the majority's reasoning, and Roberts as assigning justice would likely reward her for crafting the coalition-holding middle ground. Alito may write separately to emphasize a stricter textualist rationale, while Thomas, Jackson, and Sotomayor are likely to author or join dissents given their strong disagreement with the majority's application of a temporal constraint to void judgments.\"\n}\n```"
+}

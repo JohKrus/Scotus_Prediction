@@ -1,0 +1,68 @@
+{
+ "docket": "23-14",
+ "term": 2023,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:03:12+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Sonia Sotomayor",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Ketanji Brown Jackson"
+ ],
+ "majority_author": {
+  "John Roberts": 0.45,
+  "Clarence Thomas": 0.1,
+  "Sonia Sotomayor": 0.1,
+  "Elena Kagan": 0.15,
+  "Neil Gorsuch": 0.1,
+  "Ketanji Brown Jackson": 0.1
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.4,
+   "concurs": 0.4
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.7,
+   "concurs": 0.0
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.6,
+   "concurs": 0.0
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  }
+ },
+ "rationale": "Roberts is in the majority and as Chief Justice would assign the opinion; his active role in crafting the 'meaningful independent analytical work' narrowing standard that attracted the coalition makes him the most likely author. The dissenters (Alito, Kavanaugh, Barrett) each expressed distinct concerns and are likely to write or join a dissent, with Thomas and Gorsuch having sufficiently distinct textual and functional emphases to prompt separate concurrences.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.45,\n    \"Clarence Thomas\": 0.10,\n    \"Sonia Sotomayor\": 0.10,\n    \"Elena Kagan\": 0.15,\n    \"Neil Gorsuch\": 0.10,\n    \"Ketanji Brown Jackson\": 0.10\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Clarence Thomas\": {\"writes_separately\": 0.40, \"concurs\": 0.40},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Elena Kagan\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Samuel Alito\": {\"writes_separately\": 0.70, \"concurs\": 0.00},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.60, \"concurs\": 0.00},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.65, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Roberts is in the majority and as Chief Justice would assign the opinion; his active role in crafting the 'meaningful independent analytical work' narrowing standard that attracted the coalition makes him the most likely author. The dissenters (Alito, Kavanaugh, Barrett) each expressed distinct concerns and are likely to write or join a dissent, with Thomas and Gorsuch having sufficiently distinct textual and functional emphases to prompt separate concurrences.\"\n}\n```"
+}

@@ -4,3 +4,12 @@ __pycache__/
 *.egg-info/
 .env
 *.log
+
+# Local pipeline data (raw PDFs and indices are release assets; see README_v3.md)
+code/data/term_*/
+code/data/justice_indices/
+code/data/opinions/
+code/results/
+# SCDB is third-party and downloaded separately (see analysis/README.md)
+analysis/data/SCDB_*.csv
+analysis/cache/*.csv

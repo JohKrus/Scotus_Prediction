@@ -1,0 +1,68 @@
+{
+ "docket": "24-351",
+ "term": 2025,
+ "llm_model": "Claude-4.6",
+ "replicate": 1,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:11:48+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Sonia Sotomayor",
+  "Elena Kagan",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett",
+  "Ketanji Brown Jackson"
+ ],
+ "majority_author": {
+  "John Roberts": 0.4,
+  "Sonia Sotomayor": 0.1,
+  "Elena Kagan": 0.12,
+  "Brett Kavanaugh": 0.08,
+  "Amy Coney Barrett": 0.22,
+  "Ketanji Brown Jackson": 0.08
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.7,
+   "concurs": 0.0
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  }
+ },
+ "rationale": "Roberts, as the assigning justice, is most likely to write the majority opinion himself given his stated preference for a narrow ground centered on § 2679(b)(2)(A)'s preservation clause and the canon against implied repeals, which can command the broadest coalition. Barrett is the second most likely author given her textualist framing that bridges the conservative and liberal wings, while Thomas, Alito, and Gorsuch are likely to write separately in dissent given their strong disagreements with the majority's reasoning.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.40,\n    \"Sonia Sotomayor\": 0.10,\n    \"Elena Kagan\": 0.12,\n    \"Brett Kavanaugh\": 0.08,\n    \"Amy Coney Barrett\": 0.22,\n    \"Ketanji Brown Jackson\": 0.08\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Elena Kagan\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Clarence Thomas\": {\"writes_separately\": 0.80, \"concurs\": 0},\n    \"Samuel Alito\": {\"writes_separately\": 0.70, \"concurs\": 0},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.65, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts, as the assigning justice, is most likely to write the majority opinion himself given his stated preference for a narrow ground centered on § 2679(b)(2)(A)'s preservation clause and the canon against implied repeals, which can command the broadest coalition. Barrett is the second most likely author given her textualist framing that bridges the conservative and liberal wings, while Thomas, Alito, and Gorsuch are likely to write separately in dissent given their strong disagreements with the majority's reasoning.\"\n}\n```"
+}

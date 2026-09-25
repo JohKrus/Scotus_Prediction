@@ -1,0 +1,70 @@
+{
+ "docket": "24-809",
+ "term": 2024,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:10:27+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.55,
+  "Clarence Thomas": 0.03,
+  "Samuel Alito": 0.04,
+  "Elena Kagan": 0.15,
+  "Neil Gorsuch": 0.05,
+  "Brett Kavanaugh": 0.1,
+  "Amy Coney Barrett": 0.08
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.85,
+   "concurs": 0.85
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.85,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.9,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts explicitly signals he wants to write the majority opinion on the narrowest possible grounds, declining to overrule Bivens while holding the BOP Administrative Remedy Program sufficient under Egbert, making him the most likely author. Thomas is highly likely to write separately urging full overruling of Bivens, while both Sotomayor and Jackson are nearly certain to dissent given their strong stated disagreement with the majority's categorical approach.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.55,\n    \"Elena Kagan\": 0.15,\n    \"Brett Kavanaugh\": 0.10,\n    \"Amy Coney Barrett\": 0.08,\n    \"Neil Gorsuch\": 0.05,\n    \"Samuel Alito\": 0.04,\n    \"Clarence Thomas\": 0.03\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.85, \"concurs\": 0.85},\n    \"Samuel Alito\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.85, \"concurs\": 0},\n    \"Elena Kagan\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.90, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts explicitly signals he wants to write the majority opinion on the narrowest possible grounds, declining to overrule Bivens while holding the BOP Administrative Remedy Program sufficient under Egbert, making him the most likely author. Thomas is highly likely to write separately urging full overruling of Bivens, while both Sotomayor and Jackson are nearly certain to dissent given their strong stated disagreement with the majority's categorical approach.\"\n}\n```"
+}

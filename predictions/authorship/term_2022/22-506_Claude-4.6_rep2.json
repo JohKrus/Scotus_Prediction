@@ -1,0 +1,70 @@
+{
+ "docket": "22-506",
+ "term": 2022,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T10:58:38+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.65,
+  "Clarence Thomas": 0.05,
+  "Samuel Alito": 0.05,
+  "Elena Kagan": 0.1,
+  "Neil Gorsuch": 0.07,
+  "Brett Kavanaugh": 0.05,
+  "Amy Coney Barrett": 0.03
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.85,
+   "concurs": 0.85
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.4,
+   "concurs": 0.4
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.85,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.75,
+   "concurs": 0.75
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.55,
+   "concurs": 0.55
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.9,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Chief Justice Roberts, as the assigning justice and author of the major questions doctrine framework from West Virginia v. EPA, is the most likely author of the majority opinion given his preference for narrow holdings and his central role in shaping this doctrine. Thomas is highly likely to write separately to advance nondelegation principles, Kagan is likely to write a concurrence emphasizing the narrowness of the holding, and both Sotomayor and Jackson are likely to write dissents given their strong disagreement with the majority's application of the major questions doctrine.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.65,\n    \"Clarence Thomas\": 0.05,\n    \"Samuel Alito\": 0.05,\n    \"Elena Kagan\": 0.10,\n    \"Neil Gorsuch\": 0.07,\n    \"Brett Kavanaugh\": 0.05,\n    \"Amy Coney Barrett\": 0.03\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.85, \"concurs\": 0.85},\n    \"Samuel Alito\": {\"writes_separately\": 0.40, \"concurs\": 0.40},\n    \"Elena Kagan\": {\"writes_separately\": 0.75, \"concurs\": 0.75},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.55, \"concurs\": 0.55},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.85, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.90, \"concurs\": 0}\n  },\n  \"rationale\": \"Chief Justice Roberts, as the assigning justice and author of the major questions doctrine framework from West Virginia v. EPA, is the most likely author of the majority opinion given his preference for narrow holdings and his central role in shaping this doctrine. Thomas is highly likely to write separately to advance nondelegation principles, Kagan is likely to write a concurrence emphasizing the narrowness of the holding, and both Sotomayor and Jackson are likely to write dissents given their strong disagreement with the majority's application of the major questions doctrine.\"\n}\n```"
+}

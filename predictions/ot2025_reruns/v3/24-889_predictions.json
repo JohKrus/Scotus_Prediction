@@ -1,0 +1,580 @@
+[
+  {
+    "docket": "24-889",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a generic drug manufacturer can be held liable for inducing infringement of a brand manufacturer\u2019s method-of-use patents based on its FDA-required labeling and related marketing/communications when the generic is approved and sold with a \u201cskinny label\u201d that carves out the patented uses.",
+      "legal_provision": "35 U.S.C. \u00a7 271(b) (induced infringement) (with background interaction with the Hatch-Waxman Act framework, including 21 U.S.C. \u00a7 355(j) and related \u201csection viii\u201d carve-out/skinny labeling provisions).",
+      "petitioner_position": "Petitioners (Hikma) argue that the Federal Circuit allowed induced-infringement claims to proceed on an overbroad theory that effectively penalizes lawful skinny-label launches and treats routine, FDA-mandated labeling (and other non-infringing, pro-competitive conduct) as \u201cactive steps\u201d to induce infringement. They contend inducement requires intentional encouragement of the specific patented method-of-use\u2014i.e., affirmative conduct directed to promoting the patented indication\u2014not merely selling an unpatented generic with a label that does not instruct the patented use. They warn that the decision undermines Hatch-Waxman\u2019s balance by chilling section viii carve-outs, delaying generic entry, and increasing drug costs, including for federal health programs.",
+      "respondent_position": "Respondents (Amarin) argue that, given the particular facts pleaded, they plausibly alleged Hikma took active steps with the requisite intent to cause healthcare providers to practice Amarin\u2019s patented methods. Even if the generic label nominally carved out the patented indication, Amarin contends the overall \u201cconstellation of facts\u201d (label content, accompanying communications, product presentation, and foreseeable substitution/clinical use patterns) plausibly supported an inference of encouragement and intent at the pleading stage. They maintain that skinny labeling is not a safe harbor from \u00a7 271(b) when a generic\u2019s conduct, taken as a whole, effectively promotes or drives use of the patented method.",
+      "key_precedents": [
+        "Global-Tech Appliances, Inc. v. SEB S.A.",
+        "Limelight Networks, Inc. v. Akamai Technologies, Inc.",
+        "MGM Studios Inc. v. Grokster, Ltd.",
+        "Warner-Lambert Co. v. Apotex Corp.",
+        "AstraZeneca LP v. Apotex, Inc.",
+        "GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc."
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right that inducement may be proved circumstantially and that a \u201cconstellation of facts\u201d can, in some cases, support an inference of intent at the pleading stage. But as Justice Kagan and Justice Thomas emphasize, \u00a7 271(b) as construed in Global-Tech still requires purposeful, method-specific encouragement\u2014\u201cactive steps\u201d aimed at bringing about practice of the patented method\u2014rather than an inference drawn primarily from FDA-required skinny-label content and the foreseeable operation of state substitution and physician prescribing decisions. Reading regulatory compliance and ordinary, label-consistent commercialization as the requisite inducement would destabilize the Hatch\u2013Waxman \u00a7 viii structure Congress designed to permit lawful entry for nonpatented uses, effectively collapsing specific intent into foreseeability. A narrow disposition\u2014no categorical immunity for skinny labels, but dismissal absent plausible allegations of use-specific promotion directed to the carved-out indication\u2014best fits the statutory framework and preserves administrable limits.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor is right that inducement may be proved circumstantially and that a \u201cconstellation of facts\u201d can, in an appropriate case, support an inference of intent even without explicit instructions. But \u00a7271(b) still requires that the defendant \u201cactively induces\u201d infringement\u2014i.e., takes affirmative steps with the purpose of bringing about the specific patented method\u2014and that element cannot be satisfied principally by FDA-mandated labeling features and lawful commercialization within the \u00a7 viii carve-out. As the Chief Justice and Justice Kagan emphasize, treating regulatory compliance plus foreseeable substitution as the requisite \u201cactive steps\u201d would collapse specific intent into foreseeability and effectively impose an atextual duty to prevent third-party infringement. Absent method-specific promotional conduct directed to the carved-out indication, the allegations do not plausibly plead the statutorily required purposeful encouragement under Global-Tech.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right that inducement may be shown circumstantially and that we should not create a categorical safe harbor for skinny labels at the pleading stage. But her \u201cconstellation of facts\u201d theory, as framed here, risks treating FDA-required label features and label-consistent commercialization\u2014coupled with background substitution practices\u2014as a proxy for the \u201cactive\u201d and method-specific encouragement that \u00a7271(b) and Global-Tech require, effectively collapsing specific intent into foreseeability. I agree with the Chief Justice and Justice Kagan that, in a \u00a7 viii carve-out context, we should insist on allegations tying the defendant\u2019s own words or deeds to purposeful encouragement of the carved-out patented method, not litigation-driven characterizations of routine, lawful conduct. On the facts described, absent concrete promotional steps directed to the carved-out indication, the complaint does not plausibly allege inducement.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The Chief Justice\u2019s concern\u2014that treating FDA-required labeling and ordinary, label-consistent marketing as \u201cactive steps\u201d would convert Congress\u2019s \u00a7 viii pathway into a liability trap\u2014has force, but it assumes the complaint rests on labeling-in-the-abstract. As I understand the pleadings, Amarin alleges a coordinated course of conduct (label content plus surrounding communications and product presentation) that plausibly encouraged the patented method despite the carve-out; at this stage, Global-Tech allows intent to be inferred from circumstantial facts showing purposeful encouragement, not only express method-specific instructions. Justice Kagan is right that foreseeability alone cannot substitute for \u201cactively induces,\u201d but dismissing now risks importing a heightened pleading rule that insulates culpable schemes so long as the label avoids magic words. The equitable and culpability concerns Justice Thomas raises can be addressed later\u2014through proof, causation limits, and remedies that target true wrongdoers rather than good-faith \u00a7 viii entrants.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right that inducement can be shown circumstantially through a \u201cconstellation of facts,\u201d and we should not invent a categorical skinny-label safe harbor. But \u00a7271(b)\u2019s gatekeeping term is \u201cactively induces,\u201d and under Global-Tech that requires purposeful, method-specific encouragement of the infringing acts\u2014not an inference drawn mainly from FDA-required label features, lawful \u00a7 viii compliance, and the predictable possibility of off-label prescribing. As Chief Justice Roberts and Justice Gorsuch emphasize, treating those regulatory and market-background facts as the \u201cactive steps\u201d would collapse specific intent into foreseeability and turn Congress\u2019s \u00a7 viii pathway into a liability trap. On the allegations as framed, the causal chain runs through independent physician and pharmacist choices, and without targeted promotion of the carved-out patented method, the complaint does not plausibly plead the intent and proximate connection \u00a7271(b) demands.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right that inducement may be shown circumstantially through a \u201cconstellation of facts,\u201d and Global-Tech does not demand magic words. But \u00a7 271(b) asks whether the defendant \u201cactively induces\u201d infringement\u2014language that, as Justice Thomas emphasizes, requires affirmative conduct undertaken with the purpose of bringing about the specific infringing use, not liability inferred from regulatory compliance and predictable substitution dynamics. Chief Justice Roberts\u2019s administrability concern underscores the statutory-structure problem: if FDA-mandated skinny-label content plus routine, label-consistent commercialization suffices, then Congress\u2019s \u00a7 viii pathway becomes presumptive evidence of culpability, effectively collapsing intent into foreseeability. Absent plausible allegations of method-specific promotional steps directed to the carved-out use, the complaint does not satisfy \u00a7 271(b)\u2019s threshold.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right that inducement can be proved circumstantially and that a \u201cconstellation of facts\u201d may matter at the pleading stage. But as the Chief Justice and Justice Kagan emphasize, \u00a7 271(b) and Global-Tech still require purposeful, method-specific encouragement\u2014an \u201cactive step\u201d aimed at the patented method\u2014not an inference drawn primarily from FDA-mandated skinny-label content plus the predictable background of substitution and off-label prescribing. Here, the alleged causal chain depends heavily on independent third-party decisions (physicians, pharmacists, and state substitution regimes), which weakens the plausibility that Hikma itself specifically intended to bring about the infringing use absent targeted promotion of the carved-out indication. Treating lawful \u00a7 viii compliance and ordinary commercialization as enough would risk turning Congress\u2019s carve-out pathway into a liability trap and collapsing specific intent into mere foreseeability.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right that inducement can be proved circumstantially by a \u201cconstellation of facts,\u201d and we should not announce categorical immunity for every section viii carve-out. But \u00a7271(b)\u2019s operative text\u2014\u201cactively induces\u201d\u2014still demands affirmative, purposeful encouragement of the patented method, and (as the Chief Justice and Justice Thomas stress) it is difficult to treat FDA-required label features plus routine commercialization consistent with the carve-out as the requisite \u201cactive steps\u201d without collapsing specific intent into mere foreseeability. Reading \u00a7271(b) against the whole Hatch\u2013Waxman scheme, Congress expressly created a pathway for lawful generic marketing of nonpatented uses; using compliance with that pathway and background substitution dynamics as the core of inducement would convert the carve-out into a litigation trap. Absent allegations of method-specific promotion directed to the carved-out patented indication, the pleaded causal chain depends too heavily on independent prescribing and substitution decisions to plausibly attribute the infringing encouragement to the defendant itself.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right that inducement can be pled circumstantially and that a \u201cconstellation of facts\u201d can sometimes support an inference of intent. But the proper focus remains the precise statutory requirement in \u00a7271(b)\u2014\u201cactively induces\u201d\u2014and, as the Chief Justice and Justice Kagan stress, Global-Tech demands purposeful, method-specific encouragement, not an inference drawn primarily from FDA-mandated skinny-label compliance plus background substitution dynamics driven by third parties. Read in the Hatch\u2013Waxman scheme, treating label-required language and label-consistent commercialization as the requisite \u201cactive steps\u201d would frustrate Congress\u2019s section viii carve-out pathway by converting lawful participation in that regime into presumptive evidence of culpable intent. Absent a clear, use-specific promotional act directed to the carved-out patented indication, the complaint does not plausibly allege inducement on these facts.",
+        "is_final": true
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "Hatch-Waxman\u2019s Section viii scheme allocates responsibility in a way that permits generic entry where the patented method has been carved out, and it would distort that structure to treat FDA-required, carved-out labeling\u2014standing alone, or paired with routine product marketing\u2014as the \u201caffirmative steps\u201d that \u00a7 271(b) demands. Under Global-Tech, inducement requires intentional encouragement of the specific patented method, with knowledge (at least willful blindness) that the encouraged acts constitute infringement; a skinny label that omits the patented indication does not, without more targeted conduct, plausibly express or promote the infringing use. Allowing inducement claims to proceed based on a \u201cconstellation of facts\u201d untethered to an instruction or promotion of the patented method risks converting lawful compliance with FDA labeling rules into evidence of culpable intent, chilling the very carve-outs Congress designed to facilitate noninfringing generic competition. On these facts, the better reading is that \u00a7 271(b) liability requires clear, method-specific encouragement beyond the sale of a product capable of both infringing and noninfringing uses.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Section 271(b) imposes liability only on one who \u201cactively induces\u201d infringement, which\u2014parsed element by element\u2014requires (1) direct infringement of the patented method, (2) the defendant\u2019s knowledge of that infringement, and (3) affirmative acts undertaken with the specific intent to bring about that infringing use. Here, the generic launched with an FDA-authorized skinny label that carved out the patented indication, and treating FDA-required labeling features (and the Hatch\u2013Waxman substitution framework that Congress contemplated) as the \u201cactive steps\u201d would effectively create an affirmative duty to prevent third-party infringement absent any clear statutory command. Historical inducement principles and our precedents demand more than foreseeable downstream misuse of a lawful product; they require purposeful encouragement of the particular patented method, not inference from conduct Congress expressly permitted through \u00a7 viii carve-outs. On these facts, liability would expand \u00a7 271(b) beyond its text by collapsing intent into mere knowledge-plus-lawful marketing and regulatory compliance.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Section 271(b) requires \u201cactive steps\u201d taken with the purpose of bringing about the specific patented method, and under Global-Tech that intent/knowledge element cannot be satisfied by inference untethered to what the defendant actually said and did in the contemporaneous record. On the pleaded facts as described, Hikma obtained FDA approval to market a nonpatented use via a Section viii carve-out and sold under a skinny label that did not instruct the patented indication; treating FDA-required labeling and ordinary product marketing that is consistent with the carved-out label as inducement risks collapsing the specific-intent inquiry into mere foreseeability that doctors may nonetheless use the drug for the patented method. The Federal Circuit\u2019s \u201cconstellation of facts\u201d approach, if it allows liability absent targeted encouragement of the carved-out indication, effectively penalizes the very labeling pathway Hatch-Waxman created and invites post hoc rationalizations about what the generic \u201cmust have intended\u201d despite its carved-out instructions. The better application of the inducement standard is to require plausible allegations of affirmative promotion of the patented use (not just lawful sale plus background substitution practices), and on this record the complaint as framed does not meet that standard.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.58,
+        "reasoning": "Section 271(b)\u2019s focus is culpable, purposeful encouragement of infringement\u2014\u201cactive steps\u201d taken with the intent to bring about another\u2019s practice of the patented method\u2014not the mere act of selling a lawful generic product. On the specific pleaded facts here, Amarin alleges more than a bare skinny label: a constellation of FDA-required label content plus accompanying communications/marketing and product presentation that plausibly encouraged clinicians to use the drug in the patented manner despite the carve-out, which\u2014at the pleading stage\u2014can support a reasonable inference of intent and knowledge under Global-Tech. Reading \u201cskinny labeling\u201d as a categorical shield would unduly dilute \u00a7271(b)\u2019s protection against deliberate end-runs and would shift to Congress the task of policing intentional inducement accomplished through regulated labeling and coordinated messaging. Consistent with equitable principles that target wrongdoers, liability should attach only if Hikma\u2019s overall conduct is found to have been willful or purposefully directed to the patented use, but the complaint\u2019s allegations suffice to proceed past dismissal.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 271(b)\u2019s operative trigger is \u201cactively induces infringement,\u201d and under Global-Tech that means the defendant must know of the patent and intend to bring about the specific infringing acts\u2014not merely foresee that some downstream users might infringe. On the facts as framed, Hikma launched with an FDA-approved \u201cskinny label\u201d that carved out the patented uses, so Amarin\u2019s theory risks pleading around the statutory intent requirement by recasting lawful sale and FDA-mandated labeling/ordinary product communications as \u201cactive steps\u201d to cause the patented method to be practiced. Absent concrete, affirmative promotion directed to the carved-out patented indication (and a proximate-cause link showing Hikma\u2019s conduct actually drove that infringing use), inducement liability would improperly function as a de facto bar on the Hatch-Waxman section viii carve-out Congress contemplated. The better reading keeps the inducement gatekeeper focused on intentional encouragement of the patented method, not on generalized marketing of a noninfringing, lawfully labeled generic.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.68,
+        "reasoning": "Section 271(b) makes liable only one who \u201cactively induces infringement,\u201d and under Global-Tech that means intentional, affirmative encouragement of the specific infringing acts\u2014not liability inferred from lawful product marketing plus the background fact that substitution may occur. On the facts as presented, Hikma obtained FDA approval and sold its product with a section viii \u201cskinny label\u201d that carved out the patented uses; absent label instructions or targeted communications promoting the patented method-of-use, the statutory prerequisite of \u201cactive\u201d inducement is not met. Allowing inducement to rest on FDA-required labeling and generalized commercial conduct would effectively create a de facto safe-harbor-override and expand \u00a7 271(b) beyond its text, turning a carve-out regime Congress authorized into evidence of culpable encouragement. The correct, administrable rule is to ask whether the defendant\u2019s words or actions, as shown in the record, specifically directed providers toward practicing the patented method; on these facts, that showing is insufficient.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The threshold question is what the governing Hatch-Waxman and FDA labeling regime actually required Hikma to do: with a lawful section viii carve-out, the generic was not permitted to market or label the patented indication, and its FDA-approved \u201cskinny label\u201d affirmatively omitted the patented use. On those specific facts, the causal chain from Hikma\u2019s sale of an unpatented generic to any downstream infringement largely turns on independent third-party medical judgment and state substitution rules, which are intervening choices that significantly weaken any inference that Hikma itself took \u201cactive steps\u201d to bring about the patented method. Section 271(b) requires intentional encouragement of the particular infringing use, not merely participation in a regulatory scheme that allows sale for noninfringing uses; treating FDA-required labeling and ordinary, nonpromotional communications as inducement would chill section viii carve-outs and upset Hatch-Waxman\u2019s balance. At minimum, the pleaded facts must plausibly show affirmative conduct directed to promoting the patented indication notwithstanding the carve-out, and a skinny-label launch without instructions for the patented method generally does not satisfy that standard.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The operative text of \u00a7271(b) imposes liability only on one who \u201cactively induces\u201d infringement, which in ordinary meaning connotes purposeful encouragement\u2014not mere knowledge that infringement is possible or foreseeable. Read in the overall context of the Hatch\u2013Waxman scheme, Congress\u2019s section viii carve-out presupposes that a generic may lawfully market for nonpatented uses by omitting the patented indication, and it would be incongruous to treat FDA-required skinny-label content and routine, nonpromotional communications as the \u201cactive steps\u201d that supply the specific intent \u00a7271(b) demands. Taking the statute\u2019s structure seriously, inducement in this setting should turn on affirmative conduct directed to promoting the patented method despite the carve-out, not on the downstream reality of automatic substitution or the mere fact that some prescribers might use the drug off-label. Because the theory here would effectively convert lawful skinny-label launches into presumptive inducement based on mandated labeling plus generalized marketplace effects, it stretches \u00a7271(b) beyond its ordinary meaning and undermines the balance the overall statutory scheme allocates between patent protection and generic entry.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The proper focus is the specific provision allegedly violated\u201435 U.S.C. \u00a7 271(b)\u2014which requires intentional, affirmative \u201cactive steps\u201d to encourage the particular patented method, not merely participation in a market where some infringement is foreseeable. Read in the full Hatch-Waxman/\u00a7 355(j) scheme, Congress established an adjudicatory process that affirmatively authorizes section viii carve-outs and contemplates generic entry on nonpatented uses; treating FDA-required labeling and routine product communications for a concededly \u201cskinny enough\u201d label as inducement would expand liability in a way that frustrates that scheme by collapsing the carve-out pathway into litigation risk. On these facts, where the patented indication was carved out and the claim rests largely on mandated labeling plus generalized marketing/presentation, the better scheme-coherent and administrable rule is that \u00a7 271(b) liability demands a clear expression of specific intent to promote the carved-out patented use. That interpretation preserves Congress\u2019s delineation of who is meant to \u201cweigh in\u201d through Hatch-Waxman\u2019s mechanisms, while leaving room for inducement when a generic affirmatively promotes the patented indication despite a carve-out.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.726,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.58,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.65,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": true
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-889",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a generic drugmaker can be held liable for induced infringement of a brand\u2019s method-of-use patents based on its FDA-approved labeling and related conduct when the generic launches under a \u201cskinny label\u201d and physicians may nonetheless prescribe for the patented use.",
+      "legal_provision": "35 U.S.C. \u00a7 271(b) (induced infringement), in the Hatch-Waxman context (including 21 U.S.C. \u00a7 355(j) and related \u201csection viii\u201d carve-out/labeling provisions).",
+      "petitioner_position": "Petitioners (Hikma and aligned amici) argue that the Federal Circuit applied an overly permissive inducement pleading/merits standard that effectively treats foreseeable off-label or cross-indication prescribing as \u201cinducement,\u201d even when the generic complied with Hatch-Waxman\u2019s skinny-label pathway and did not affirmatively encourage the patented use. They contend inducement requires intentional encouragement of the infringing use (not mere knowledge that it might occur), and that permitting liability on allegations tied to FDA-mandated or clinically neutral label language, routine market entry, or general awareness of prescribing practices undermines Congress\u2019s Hatch-Waxman compromise by chilling section viii launches and delaying lower-cost generics. The United States and other amici emphasize the systemic consequences: increased litigation leverage for brands, higher drug costs, and reduced incentives to use the statutory carve-out mechanism.",
+      "respondent_position": "Respondents (Amarin and aligned amici/positions reflected in the opposition below) argue that, given the \u201cparticular constellation of facts pleaded,\u201d the complaint plausibly alleges Hikma took affirmative steps that go beyond merely selling a generic with a carved-out label\u2014steps that, in context, encourage or promote the patented method of use. They maintain the Federal Circuit properly applied a fact-intensive inducement inquiry in which labeling, product positioning, and other communications or circumstances can collectively support a plausible inference of specific intent to cause physicians/patients to practice the patented method. Respondents also stress that Hatch-Waxman does not immunize inducement and that method-of-use patents would be significantly weakened if generics could avoid liability despite actions that, practically and foreseeably, steer use toward the patented indication.",
+      "key_precedents": [
+        "Global-Tech Appliances, Inc. v. SEB S.A. (2011)",
+        "MGM Studios Inc. v. Grokster, Ltd. (2005)",
+        "Warner-Lambert Co. v. Apotex Corp. (Fed. Cir. 2003) (en banc)",
+        "AstraZeneca LP v. Apotex, Inc. (Fed. Cir. 2011)",
+        "GlaxoSmithKline LLC v. Teva Pharmaceuticals USA, Inc. (Fed. Cir. 2021) (and subsequent Fed. Cir. proceedings)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right that \u00a7271(b) contains no categorical immunity for a \u00a7 viii launch and that, in some cases, a \u201cconstellation\u201d of facts can plausibly support an inference of intent at the pleading stage. But here the alleged constellation is composed largely of FDA-regulated, clinically accurate, nonpromotional label language plus predictable cross-indication prescribing\u2014facts that, as Justice Kagan and Justice Alito emphasize, sound in foreseeability rather than the affirmative, purposive encouragement Global-Tech and Grokster require. If those lawful, regulator-directed facts alone can supply specific intent, the \u201cactively induces\u201d element effectively collapses into knowledge-and-sale, and Congress\u2019s \u00a7 viii pathway becomes unstable in operation. A narrow holding avoids any safe-harbor rhetoric while still insisting that inducement be anchored to well-pleaded, targeted promotional or instructional steps directed to the carved-out patented use.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right that \u00a7 271(b) contains no categorical immunity for \u00a7 viii launches and that intent may sometimes be inferred from a broader course of conduct at the pleading stage. But that inference still must satisfy the statute\u2019s distinct scienter element: the defendant must have acted with the object of bringing about infringement, not merely with awareness that downstream infringement is likely in the market. As the Chief Justice and Justice Kagan emphasize, a theory built primarily on regulator-mandated, clinically neutral labeling plus predictable cross-indication prescribing collapses \u201cactively induces\u201d into foreseeability and threatens to nullify the carve-out lane Congress created. Absent well-pleaded facts of targeted promotion or instruction directed to the carved-out, patented use, the complaint does not plausibly allege the required specific intent.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Justice Sotomayor is right that \u00a7271(b) contains no categorical immunity for \u00a7 viii launches and that, in some settings, a \u201cconstellation\u201d of facts may support an inference of intent at the pleading stage. But as the Chief Justice and Justice Kagan stress, that inference still must be anchored to affirmative, targeted conduct directed to the patented use; otherwise specific intent collapses into foreseeability in a heavily regulated market where compliant labeling and predictable off-label/cross-indication prescribing are routine. On the allegations as framed\u2014FDA-approved, clinically neutral skinny-label language plus awareness of likely cross-indication prescribing\u2014I do not see a record-anchored shift from lawful sale to purposeful encouragement of the carved-out method. Adopting respondent\u2019s theory at this stage would effectively destabilize the \u00a7 viii pathway Congress created by converting regulatory compliance and market reality into inducement.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "I accept the Chief Justice\u2019s and Justice Kagan\u2019s central point that \u00a7271(b) requires purposeful, \u201cactive\u201d inducement and cannot be reduced to mere foreseeability in a regulated market. But their proposed line\u2014treating FDA-compliant skinny labeling and \u201croutine launch\u201d facts as categorically insufficient\u2014risks functionally immunizing deliberate steering so long as it is executed through coordinated, ostensibly compliant communications that predictably drive the patented use. As I read the complaint, Respondent alleges more than neutral, regulator-mandated truth: a coordinated course of conduct from which a factfinder could infer an objective to capture the carved-out, patented market, which is enough under Twombly/Iqbal to proceed to a record. If Congress\u2019s \u00a7 viii pathway is to be preserved, it should not become a shield for purposeful encouragement; the appropriate constraint is rigorous proof of intent, not a pleading-stage rule that forecloses plausible inferences from the full constellation of alleged conduct.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right to resist any categorical \u201cskinny-label safe harbor\u201d and to note that inducement can be inferred from a course of conduct at the pleadings stage. But \u00a7271(b) still turns on whether the defendant \u201cactively induces\u201d infringement\u2014language that, as the Chief Justice and Justice Barrett emphasize, requires affirmative, purposive encouragement rather than an inference built mainly from lawful \u00a7 viii entry, FDA-regulated clinically neutral labeling, and predictable cross-indication prescribing. If those neutral, regulator-mandated facts suffice, intent collapses into foreseeability and Congress\u2019s \u00a7 viii pathway is functionally erased\u2014an ill fit with the statute\u2019s structure and our Global-Tech/Grokster line requiring specific intent. So I would reverse, while making clear (as the Chief suggests) that a skinny label is not immunity where a complaint plausibly alleges targeted promotion or instruction toward the carved-out use.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right that \u00a7 271(b) contains no categorical immunity for \u00a7 viii launches and that, in some settings, a \u201cconstellation\u201d of facts may support an inference of intent at the pleadings stage. But the statute still requires that a defendant \u201cactively induces\u201d infringement\u2014affirmative, purposive steps taken with the object of bringing about the patented use\u2014and, as the Chief Justice and Justice Kagan stress, theories built chiefly from FDA-mandated, clinically neutral labeling plus predictable cross-indication prescribing risk collapsing specific intent into mere foreseeability. If compliant skinny-label entry itself becomes the primary basis for inferring inducement, Congress\u2019s \u00a7 viii pathway is functionally destabilized and the word \u201cactively\u201d does no work. Absent well-pleaded allegations of targeted promotion or instruction directed to the carved-out, patented method, I do not see the required element plausibly alleged here.",
+        "is_final": true
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Justice Sotomayor is right that \u00a7 271(b) contains no categorical immunity for a section viii skinny-label launch and that, in some cases, a \u201cconstellation\u201d of facts can plausibly support an inference of specific intent at the pleading stage. But as Chief Justice Roberts and Justice Kagan emphasize, the allegations here largely rest on FDA-regulated, clinically neutral labeling plus the predictable reality of cross-indication prescribing\u2014facts that go to foreseeability, not the affirmative, purposive encouragement that Global-Tech and Grokster require for \u201cactive\u201d inducement. In the Hatch-Waxman scheme, Congress created a lawful pathway for generics to market nonpatented uses via carve-outs; allowing intent to be inferred mainly from compliant entry and neutral label language would functionally erase that pathway and collapse the specific-intent element into knowledge-and-sale. Absent concrete allegations of targeted promotion or instruction directed to the carved-out patented method, the complaint does not plausibly plead inducement under \u00a7 271(b).",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right that \u00a7271(b) contains no categorical immunity for \u00a7 viii launches and that intent can sometimes be inferred from a course of conduct at the pleading stage. But as the Chief Justice and Justice Kagan emphasize, the inference here is driven largely by FDA-required, clinically neutral labeling plus the predictable reality of cross-indication prescribing\u2014facts that sound in foreseeability, not the \u201cactive[] induce[s]\u201d and specific-intent requirement our cases demand. Read in the whole Hatch-Waxman context, Congress created a lawful skinny-label pathway; treating compliant entry and mandated labeling as the key hooks for inducement would destabilize that scheme and effectively rewrite \u201cactively induces\u201d into knowledge-and-sale. Absent well-pleaded allegations of concrete, targeted promotional or instructional steps aimed at the carved-out patented method, I would reverse.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right to resist treating \u00a7 viii as categorical immunity and to emphasize that inducement can be inferred from a course of conduct at the pleading stage. But the provision allegedly violated is still \u00a7 271(b), and\u2014read in context with Hatch-Waxman\u2019s carve-out scheme and our specific-intent precedents\u2014\u201cactively induces\u201d requires well-pleaded facts of affirmative, purposive encouragement of the patented method, not an inference drawn chiefly from FDA-regulated, clinically accurate skinny-label language plus predictable cross-indication prescribing. As Chief Justice Roberts and Justice Kagan stress, letting compliant entry and neutral labeling do the inferential work would collapse the active-inducement element into foreseeability and destabilize Congress\u2019s allocation of authority in the \u00a7 viii pathway. On this complaint as framed, absent concrete allegations of targeted promotion or instructions directed to the carved-out indication, petitioner has the better scheme-consistent reading at this stage.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "Section 271(b) requires \u201cactive\u201d inducement\u2014purposeful, culpable conduct aimed at causing the patented method to be practiced\u2014not merely awareness that some physicians may prescribe for the patented use notwithstanding a lawful section viii carve-out. In the Hatch-Waxman structure Congress created a specific pathway for generics to launch with a \u201cskinny label,\u201d and that allocation of responsibilities would be destabilized if FDA-required or clinically neutral labeling language, combined with routine market entry, were treated as sufficient to infer specific intent to induce. On these facts, liability should turn on evidence of affirmative promotion or instruction directed to the carved-out, patented indication; allowing intent to be inferred chiefly from foreseeable cross-indication prescribing and mandated labeling would collapse the statutory line between permitted distribution and culpable encouragement. The better reading preserves administrable boundaries: compliance with a carved-out label is not a safe harbor, but inducement must be anchored to concrete acts that plausibly show an objective to bring about infringement, not to neutral conduct in a heavily regulated setting.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 271(b) has distinct elements: (1) a third party\u2019s direct infringement and (2) the defendant\u2019s \u201cactive steps\u201d taken with the required scienter\u2014i.e., that the defendant actually knew the induced acts constituted infringement and intended to bring them about. On the facts as framed here, Hikma\u2019s section viii skinny-label launch and FDA-approved, clinically neutral labeling\u2014without an affirmative instruction or targeted promotion of the patented method\u2014may leave room for foreseeable infringing prescriptions, but foreseeability is not the statute\u2019s mental-state element. The dispositive question is what Hikma correctly understood and believed at the time: if it believed its carved-out label and conduct avoided encouraging the patented use, post hoc proof that some physicians nonetheless prescribed for that use cannot supply the missing specific intent. Reading inducement to encompass mere awareness of cross-indication prescribing would effectively collapse \u00a7271(b)\u2019s scienter element and undermine Congress\u2019s section viii mechanism that was designed to permit marketing for nonpatented uses.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Section 271(b) requires proof of specific intent to bring about the infringing use, not merely knowledge that some physicians may prescribe for the patented indication notwithstanding a \u00a7 viii carve-out. On this record as described\u2014where liability is urged principally from FDA-approved, clinically neutral labeling plus routine market entry and generalized awareness of prescribing practices\u2014the inference of intent resembles the kind of foreseeability-based theory that Global-Tech and Grokster reject. Hatch-Waxman\u2019s skinny-label pathway would be substantially undermined if compliance with FDA labeling requirements and the predictable reality of cross-indication prescribing sufficed to establish inducement absent affirmative, targeted encouragement of the patented method. At minimum, the Federal Circuit\u2019s approach appears to treat an \u201cevolving\u201d set of market facts as a \u201cclear expression\u201d of intent without identifying conduct that actually crosses the line from lawful sale to purposeful promotion of the patented use.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.56,
+        "reasoning": "Section 271(b)\u2019s focus is purposeful encouragement of infringement\u2014\u201cactive\u201d steps that, in context, are directed at causing others to practice the patented method\u2014not mere foreseeability that some physicians will prescribe off-label. On the pleadings as described, Respondent alleges a particular constellation of conduct (FDA-approved labeling plus related positioning/communications) from which a factfinder could plausibly infer specific intent to bring about the patented use, which is enough to proceed under ordinary Twombly/Iqbal principles. Reading inducement to categorically immunize a generic whenever it files a section viii carve-out would, in real-world operation, water down method-of-use patent protection and leave rightsholders without adequate protection against deliberate steering toward the patented indication. Hatch-Waxman authorizes skinny labels, but it does not authorize purposeful inducement; where the complaint plausibly alleges intentional encouragement beyond neutral, FDA-mandated language, liability may attach.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 271(b) makes liable only one who \u201cactively induces\u201d infringement, and our cases require more than foreseeability: the defendant must take affirmative, culpable steps with the object of bringing about the infringing use, not merely know that some downstream actors may engage in it. In the Hatch-Waxman setting, Congress expressly created the section viii \u201ccarve-out\u201d lane for generics to market a drug while omitting the patented indication from the FDA-approved label; allowing inducement liability to rest primarily on FDA-regulated, clinically neutral labeling and routine market entry would let a brand \u201cplead its way into\u201d inducement by pointing to predictable prescribing behavior rather than to the generic\u2019s own purposeful encouragement. On the facts as described\u2014launch under a skinny label with liability argued from physicians\u2019 continued prescribing for the patented use\u2014the better reading is that respondents have not identified the kind of specific, unambiguous affirmative promotion of the patented method that \u00a7271(b) demands. Preserving inducement for truly promotional conduct maintains the doctrinal boundary between knowledge and intent and respects the structure Congress chose for section viii launches.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 271(b) imposes liability only on one who \u201cactively induces\u201d infringement, and under Global-Tech and Warner-Lambert that means proof of specific intent\u2014affirmative steps purposefully directed to bringing about the patented method\u2014not merely awareness that some physicians might prescribe for the patented use. Here, the generic launched via Hatch-Waxman\u2019s Section viii skinny-label pathway and used FDA-approved labeling that carved out the patented indication; treating that Congress-authorized, regulator-mandated conduct (and foreseeable cross-indication prescribing) as enough would collapse the statute\u2019s \u201cactively induces\u201d element into a foreseeability test the text does not contain. On the pleaded and found facts as presented, the inferences respondents rely on largely arise from lawful launch, therapeutic equivalence/rating realities, and clinically neutral label language rather than a clear, targeted encouragement of the patented use. Absent more concrete allegations of unambiguous promotional acts steering physicians to practice the patented method, traditional inducement doctrine does not permit liability simply because infringement was predictable in the market.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "The Hatch-Waxman/FDCA scheme specifically allows a generic to launch via a section viii carve-out with FDA-approved \u201cskinny labeling\u201d that omits the patented method of use, and FDA approval turns on whether the drug is safe and effective \u201cwhen used as directed\u201d on that label. Under \u00a7 271(b) and this Court\u2019s inducement cases, liability requires affirmative, intentional encouragement of the infringing use\u2014not merely knowledge or foreseeability that physicians may prescribe off-label or across indications in the real world. On the facts as framed, imposing inducement liability based primarily on FDA-mandated or clinically neutral label language and the mere act of a compliant skinny-label launch would effectively nullify Congress\u2019s carve-out pathway and transform \u201cforeseeable\u201d prescribing into \u201cactive inducement.\u201d Absent well-pleaded (or proven) facts showing concrete promotional steps directed at the patented indication beyond the carved-out labeling, the complaint should not proceed on an inducement theory.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Section 271(b) makes liable \u201c[w]hoever actively induces infringement,\u201d and that operative text\u2014read in context with this Court\u2019s inducement decisions\u2014requires purposeful encouragement, not mere foreseeability that some physicians will prescribe for a patented use despite a section viii carve-out. Treating FDA-required or clinically neutral label language, plus general awareness of cross-indication prescribing, as sufficient would be a textual oddity: it collapses \u201cactive[] induce[s]\u201d into knowledge-and-distribution and risks converting Hatch-Waxman\u2019s skinny-label pathway into a trap that predictably triggers liability even when the generic is doing what the statute contemplates. The whole statutory scheme matters: Congress created a mechanism for lawful generic entry for nonpatented uses, and an inducement standard that effectively penalizes ordinary market entry and compliant labeling would distort that enforcement structure and chill section viii launches. On these facts, absent specific allegations of advertising or instructions directing the patented method, the better reading is that the complaint does not plausibly allege the specific intent Global-Tech demands.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The proper focus is the specific provision allegedly violated\u201435 U.S.C. \u00a7 271(b)\u2014which imposes liability only where the defendant \u201cactively induces\u201d infringement; read in context, that text requires affirmative, purposeful steps to bring about the patented method\u2019s performance, not merely knowledge or foreseeability that physicians might prescribe for the patented use. When the challenged conduct consists principally of FDA-required, clinically accurate labeling under Hatch-Waxman\u2019s \u00a7 355(j)/\u00a7 viii carve-out pathway and the routine act of launching an approved generic, treating predictable cross-indication prescribing as \u201cinducement\u201d would expand \u00a7 271(b) in a way that destabilizes Congress\u2019s carefully structured skinny-label mechanism. The statutory scheme\u2019s design\u2014authorizing generics to enter for nonpatented uses via carve-outs\u2014counsels against inferring \u201cencouragement\u201d from neutral, mandated label language absent specific promotional messaging or other conduct directed at the patented indication. On these facts, the more scheme-consistent application of \u00a7 271(b) is that inducement requires pleaded (and ultimately proven) intentional encouragement of the infringing use beyond what the Hatch-Waxman process compels.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.737,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.56,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": true
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  }
+]

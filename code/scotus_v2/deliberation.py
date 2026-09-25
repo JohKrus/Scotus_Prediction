@@ -193,15 +193,32 @@ TRANSCRIPT_RE = _re.compile(r"(transcript|oralarg)", _re.I)
 
 
 def _split_docs_by_type(docs: list[Document]) -> tuple[list[Document], list[Document]]:
-    """Split documents into (transcripts, other_docs)."""
-    transcripts = []
-    others = []
+    """Split documents into (transcripts, other_docs).
+
+    Classification is per source file rather than per chunk, and falls back to
+    content when the filename carries no type information. Filenames from the
+    Court's site are routinely opaque (e.g. 23-1137_o7jq.pdf), so the filename
+    test alone matched nothing and left transcript_context empty on every run.
+    """
+    by_source: dict[str, list[Document]] = {}
     for doc in docs:
-        source = doc.metadata.get("source", "")
-        if TRANSCRIPT_RE.search(source):
+        by_source.setdefault(doc.metadata.get("source", ""), []).append(doc)
+
+    transcript_sources = {
+        src for src, chunks in by_source.items()
+        if TRANSCRIPT_RE.search(src)
+        or pdf.is_oral_argument_document([c.page_content for c in chunks])
+    }
+
+    transcripts, others = [], []
+    for doc in docs:
+        if doc.metadata.get("source", "") in transcript_sources:
             transcripts.append(doc)
         else:
             others.append(doc)
+
+    log.info("    Transcript files: %d of %d (%d of %d chunks)",
+             len(transcript_sources), len(by_source), len(transcripts), len(docs))
     return transcripts, others
 
 

@@ -1,0 +1,620 @@
+[
+  {
+    "docket": "23-1209",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a multiemployer pension plan may apply amended actuarial assumptions (particularly the interest/discount rate) retroactively when calculating an employer\u2019s ERISA/MPPAA withdrawal liability, or whether the statute requires use of the assumptions in effect for the plan year tied to the withdrawal-liability measurement.",
+      "legal_provision": "ERISA as amended by the Multiemployer Pension Plan Amendments Act of 1980 (MPPAA), primarily 29 U.S.C. \u00a7\u00a7 1381\u20131405 (withdrawal liability) and 29 U.S.C. \u00a7 1393 (actuarial assumptions and methods\u2014must be reasonable in the aggregate, represent the actuary\u2019s best estimate, and (as commonly litigated) be applied on a plan-year basis consistent with statutory measurement rules).",
+      "petitioner_position": "Petitioners (M&K Employee Solutions and related entities) argue that the pension fund unlawfully increased their withdrawal-liability assessment by retroactively changing the key actuarial assumption used to discount unfunded vested benefits\u2014most importantly the interest/discount rate\u2014after the relevant measurement period. They contend MPPAA\u2019s withdrawal-liability scheme is plan-year based and depends on fixed assumptions for the measurement year; allowing a plan to revise assumptions later and apply the new rate backward lets the plan rewrite history, inflates liability by millions, undermines predictability for employers, and conflicts with the Second Circuit\u2019s decision in Metz (which they describe as prohibiting retroactive assumption changes in this context). Petitioners and supporting amici (business and HR groups) frame the case as a statutory interpretation issue with significant reliance interests: employers must be able to price, bargain, and decide whether to continue contributing without fear that the plan will later change assumptions and re-price past obligations.",
+      "respondent_position": "Respondent (Trustees of the IAM National Pension Fund), supported by the United States, the AFL-CIO, and retiree/pension-rights amici, argues that MPPAA does not impose a categorical bar on applying updated actuarial assumptions in a withdrawal-liability valuation, so long as the assumptions and methods are reasonable in the aggregate and reflect the actuary\u2019s best estimate (and are not manipulated to target a particular employer). They contend trustees have fiduciary obligations to protect plan participants and ensure assessments reflect economic reality; when prior assumptions (e.g., discount rates) are shown to be unrealistic, updating them can be necessary to avoid under-collecting and shifting costs to remaining employers or threatening plan solvency. Respondent further disputes petitioners\u2019 reading of Metz and/or maintains the D.C. Circuit\u2019s approach correctly allows plans flexibility under \u00a7 1393, especially where the change is adopted as part of a general policy and not as a one-off retroactive adjustment aimed at a specific withdrawing employer.",
+      "key_precedents": [
+        "Metz (Second Circuit) (cited by petitioners as barring retroactive changes to withdrawal-liability interest-rate assumptions)",
+        "Concrete Pipe & Products of California, Inc. v. Construction Laborers Pension Trust for Southern California, 508 U.S. 602 (1993) (MPPAA withdrawal liability framework and deference to plan actuarial determinations within statutory constraints)",
+        "Jacobson v. Fireman\u2019s Fund Ins. Co., 111 F.3d (2d Cir. 1997) (mentioned in the record excerpt, though not central to the MPPAA merits)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right to emphasize that \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language, enforced through \u00a7 1401(a)(3)(B), reflects Congress\u2019s preference for standards and review rather than rigid formulas. But, as Justice Kagan and Justice Alito underscore, those standards operate within a plan-year architecture: the statute repeatedly directs determinations of unfunded vested benefits \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) asks whether the assumptions \u201cused in the determination\u201d for that year were unreasonable\u2014language that presupposes a fixed plan-year valuation, not later substitution of new inputs applied backward. Reading \u00a7 1393 to permit retroactive \u201cre-pricing\u201d would destabilize the notice/arbitration/pay-now-dispute-later scheme by turning a closed measurement into a moving target without any clear textual authorization. Concrete Pipe supports deference to actuarial judgments only within statutory constraints; the threshold question whether Congress authorized retroactive assumption changes is for courts, and the text and structure point the other way.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right that \u00a71393 demands a \u201cbest estimate\u201d and that \u00a71401(a)(3)(B) supplies reasonableness review, but that does not answer the antecedent legal question: which assumptions may be \u201cused in the determination\u201d of unfunded vested benefits \u201cfor a plan year.\u201d As the Chief Justice and Justice Kagan emphasize, the repeated plan-year framing and the statute\u2019s notice/arbitration architecture presuppose a time-fixed valuation baseline; reasonableness is a constraint on the plan-year measurement, not a license to reopen a closed year whenever an actuary later changes a discount rate. Reading \u00a71393 to permit backward-looking re-pricing would convert Congress\u2019s administrable plan-year scheme into an indeterminate, discretionary regime and effectively impose retroactive liability increases without a clear textual statement\u2014an inference I would not draw from silence. Concrete Pipe confirms that actuarial discretion operates within statutory bounds, leaving courts to decide this threshold question of statutory authority.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right that \u00a7 1393 demands the actuary\u2019s \u201cbest estimate\u201d and assumptions that are \u201creasonable in the aggregate,\u201d and that \u00a7 1401(a)(3)(B) supplies an arbitration-based check. But that standard operates on the assumptions \u201cused in the determination\u201d of unfunded vested benefits \u201cfor a plan year,\u201d which, as the Chief Justice and Justice Kagan emphasize, presupposes a plan-year-fixed valuation rather than an open-ended authority to revisit a closed year with later-adopted inputs. Reading \u00a7 1393 to authorize retroactive re-pricing would effectively erase the statute\u2019s repeated plan-year triggers and destabilize the notice/pay-now-dispute-later/arbitration architecture without any clear textual authorization. Concrete Pipe supports deference to actuarial judgments within statutory bounds; it does not transform a plan-year calculation into a moving target subject to after-the-fact revision.",
+        "is_final": true
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "I take the Chief Justice\u2019s and Justice Kagan\u2019s plan-year-architecture point seriously, but I do not see the clear textual \u201ctime lock\u201d they would graft onto \u00a7\u00a7 1393 and 1401(a)(3)(B). Section 1393 affirmatively requires the actuary\u2019s \u201cbest estimate\u201d and that assumptions be \u201creasonable in the aggregate,\u201d and \u00a7 1401(a)(3)(B) then channels disputes into whether the assumptions used were unreasonable or involved significant error\u2014standards that make little sense if the statute simultaneously compels use of concededly non-best-estimate assumptions simply because the plan year has begun. Justice Gorsuch\u2019s retroactivity concern is weighty, but Congress already built in a post-withdrawal assessment with pay-now-dispute-later and arbitration as the mechanism to police manipulation, and I am reluctant to infer a categorical prohibition on updated inputs from the phrase \u201cfor a plan year\u201d when the statute\u2019s operative commands point to accuracy and reasonableness. Reading \u201cfor a plan year\u201d as fixing the measurement period does not, by itself, decide which assumptions may permissibly be used to make that measurement, and the Petitioners\u2019 rule risks the kind of distortion and overbreadth that Congress\u2019s reasonableness constraints were designed to prevent.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor is right to stress that \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language, plus \u00a7 1401(a)(3)(B)\u2019s reasonableness review, reflect a standards-based regime aimed at accurate valuations. But those standards operate within a plan-year architecture: the statute repeatedly frames the relevant determination as unfunded vested benefits \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) asks whether the assumptions \u201cused in the determination\u201d for that year were unreasonable\u2014language that presupposes a closed set of inputs rather than a later retroactive substitution. As the Chief Justice notes, letting trustees re-price past years after withdrawal would destabilize Congress\u2019s pay-now-dispute-later scheme (notice, presumption of correctness, and limited arbitral/judicial upset) and effectively create retroactive liability increases without any clear textual authorization. Given the background presumption against retroactivity and the absence of an unmistakable statement displacing it, I remain persuaded the better reading is prospective-only changes, with \u00a7 1393 policing reasonableness within the plan-year baseline.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "Justice Sotomayor is right to stress that \u00a7 1393 requires the actuary\u2019s \u201cbest estimate\u201d and that \u00a7 1401(a)(3)(B) polices assumptions through a reasonableness inquiry rather than an express timing rule. But as the Chief Justice and Justice Kagan emphasize, those standards operate within a scheme that repeatedly fixes the object of valuation as unfunded vested benefits \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B)\u2019s focus on the assumptions \u201cused in the determination\u201d presupposes a closed, plan-year set of inputs\u2014not later revisions applied backward. Reading \u00a7 1393 to authorize retroactive re-pricing would increase liability after the withdrawal decision without clear congressional authorization, undermining fair notice and the administrability of the pay-now-dispute-later regime. Absent a clear statement permitting trustees to reopen completed plan-year valuations to raise a particular employer\u2019s bill, I would enforce the plan-year anchor and treat later assumption changes as prospective only.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Sotomayor\u2019s textual point about \u00a7 1393\u2019s \u201cbest estimate\u201d and \u00a7 1401(a)(3)(B)\u2019s reasonableness/significant-error review is the best argument for Respondent, but it still operates within the statute\u2019s repeated plan-year frame. As the Chief Justice and Justice Kagan emphasize, Congress keyed the determination to unfunded vested benefits \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) asks whether the assumptions \u201cused in the determination\u201d for that plan year were unreasonable\u2014language that presupposes a closed valuation rather than reopening a completed year with later-adopted assumptions. Reading \u00a7 1393 to authorize retroactive re-pricing would destabilize the pay-now-dispute-later and notice/arbitration architecture by turning the baseline into a moving target and would raise serious due-process/predictability concerns that we should avoid absent a clear statement. Concrete Pipe supports deference to actuarial judgments within statutory bounds, but the threshold question whether the Act permits retroactive assumption changes is a legal question for courts, and the better reading is no.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Sotomayor is right to emphasize that \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language is Congress\u2019s accuracy-check, and that arbitration under \u00a7 1401(a)(3)(B) is the enforcement mechanism. But the text and structure still fix the relevant object as unfunded vested benefits \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) asks whether the assumptions \u201cused in the determination\u201d for that year were unreasonable\u2014reviewing the plan-year inputs, not authorizing later substitution of new ones. As the Chief Justice and Justice Kagan stress, reading \u00a7 1393 to permit backward-looking re-pricing would operate as an implied retroactivity device that destabilizes the statute\u2019s notice-and-review framework (including the presumption of correctness and pay-now-dispute-later), letting the reasonableness standard swallow Congress\u2019s administrable, plan-year scheme. Absent a clear statement authorizing that sort of retroactive liability increase, later assumption changes should apply prospectively only.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Justice Sotomayor is right to emphasize that \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language, reinforced by \u00a7 1401(a)(3)(B)\u2019s reasonableness/significant-error review, pushes toward accuracy and against wooden timing rules. But read as a whole, the statute\u2019s repeated fixation on determinations made \u201cfor a plan year\u201d makes the scheme coherent only if the relevant assumptions are those used for that plan-year valuation, not later-adopted assumptions applied backward after the withdrawal-triggered determination is complete\u2014otherwise the notice/arbitration/pay-now-dispute-later architecture becomes a moving target. As Justice Kagan and the Chief Justice underscore, nothing in \u00a7\u00a7 1381\u20131405 or \u00a7 1393 affirmatively authorizes reopening a closed plan-year determination to retroactively reprice withdrawal liability, and I am unwilling to infer that retroactive mechanism from statutory silence given the reliance and administrability consequences. Section 1393 can still do its work by policing whether the actuary\u2019s assumptions were reasonable for the relevant plan-year determination, without creating an implied power to revise the discount rate retrospectively to increase a particular employer\u2019s bill.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Starting with the statutory text and structure, MPPAA\u2019s withdrawal-liability regime is built around plan-year determinations of \u201cunfunded vested benefits\u201d and review presumptions keyed to \u201ca plan year,\u201d which most naturally implies a fixed valuation using assumptions applicable to that year rather than later-adopted assumptions applied backward. Reading \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d requirements to authorize retroactive re-pricing would sit uneasily with the statute\u2019s reticulated scheme for measurement, notice, and arbitration, effectively allowing a plan to revise the operative plan-year inputs after the fact and thereby undermining the scheme\u2019s predictability and the employer\u2019s ability to challenge the determination on the terms the statute prescribes. Traditional tools thus counsel against importing atextual flexibility that would make the plan-year framework largely ineffective; updated assumptions may be used prospectively, but not retroactively to alter the measurement year used to assess this employer\u2019s withdrawal liability. Concrete Pipe underscores that actuarial judgments are protected only within the statutory constraints and that questions of law\u2014including what the statute permits in the first place\u2014remain for courts, not plan sponsors, to decide.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.63,
+        "reasoning": "The MPPAA\u2019s withdrawal-liability scheme is structured around determinations \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) expressly frames the relevant inquiry as whether the assumptions and methods used to determine unfunded vested benefits \u201cfor a plan year\u201d were, in the aggregate, unreasonable\u2014language that points to a time-fixed valuation rather than an open-ended power to revise past valuations after the measurement year has closed. Allowing plans to retroactively apply a newly adopted discount rate invites the very sort of malleable, discretionary standard I have criticized in ERISA cases: it effectively lets trustees reprice a completed plan-year determination based on later-developed views of \u201ceconomic reality,\u201d producing inconsistent and employer-specific outcomes untethered to the statutory plan-year framework. Nothing in the text indicates Congress in 1980 intended to authorize a backward-looking rewrite of the plan-year actuarial premises whenever an actuary later changes a \u201cbest estimate,\u201d and the \u201creasonableness\u201d check in \u00a7 1393 is not a license for retroactivity but a constraint on whichever assumptions properly govern the relevant plan-year measurement. The better, administrable rule\u2014consistent with the statute\u2019s plan-year structure and reliance interests\u2014is that withdrawal liability must be calculated using the actuarial assumptions in effect for the plan year that the statute makes relevant to the valuation, leaving later assumption changes to operate prospectively.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The operative withdrawal-liability provisions repeatedly tie the calculation to a particular \u201cplan year\u201d and to the determination of unfunded vested benefits \u201cfor a plan year,\u201d and that trigger-based, plan-year measurement framework leaves no textual room for a plan to revisit the past by applying later-adopted assumptions to that earlier year. Reading \u00a7 1393 in its statutory setting, its command that assumptions be the actuary\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d governs the assumptions used for the relevant plan-year determination; it does not create a freestanding license to substitute new assumptions retroactively after the statutory measurement point has been fixed by the employer\u2019s withdrawal. Allowing retroactive assumption changes would collapse Congress\u2019s distinct triggers into an open-ended, after-the-fact recalculation regime, undermining the predictability the plan-year structure supplies. Concrete Pipe confirms deference only within the statute\u2019s constraints and frames the \u201cunfunded vested benefits for a plan year\u201d determination as a plan-year\u2013specific calculation subject to review for unreasonableness, not as one that may be re-priced later under newly chosen inputs.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "Start with the text and structure: \u00a7 1393 requires that actuarial assumptions and methods used to determine unfunded vested benefits be the actuary\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate,\u201d and \u00a7 1401(a)(3)(B) expressly channels disputes into a reasonableness/significant-error inquiry rather than a categorical timing rule. Reading the withdrawal-liability provisions \u201cin context,\u201d nothing in \u00a7\u00a7 1381\u20131405 clearly fixes the interest/discount rate irrevocably to the plan year in a way that would bar an updated assumption from being applied in the withdrawal-liability valuation; importing such a hard rule would create an overbroad constraint that can force plans to use concededly unrealistic assumptions, producing distortions inconsistent with Congress\u2019s protective design for participants and remaining employers. On these facts\u2014where the change is described as a general update to reflect economic reality rather than a targeted, employer-specific manipulation\u2014the statute\u2019s integrated safeguards (arbitration and the \u201cunreasonable in the aggregate\u201d standard) are the mechanism Congress chose to police abuse, not a per se anti-retroactivity rule. Absent a clear statement in the statutory text imposing a plan-year lock on assumptions, I would not infer one, particularly where ERISA\u2019s structure and purpose make accurate, enforceable funding and withdrawal assessments central to participant protection and plan stability.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "MPPAA\u2019s withdrawal-liability provisions operate on a plan-year measurement architecture\u2014unfunded vested benefits are determined \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) ties the presumption of correctness to that plan-year valuation\u2014so the most coherent reading is that the relevant actuarial assumptions are those adopted for that measurement year, not later revisions applied backward. Allowing a plan to amend the discount rate after the fact and use it retroactively would effectively make the plan-year determination contingent and would undermine the statute\u2019s carefully channeled scheme (mandatory arbitration with limited grounds to upset assumptions) by letting trustees \u201creopen\u201d a closed measurement without a clear textual authorization. And because retroactive re-pricing of past liability upsets reliance interests in a setting where Congress legislated against stable background presumptions disfavoring retroactivity, I would require a clearer statement before concluding Congress permitted that result. Concrete Pipe confirms that trustees get deference only within the statute\u2019s constraints\u2014assumptions must be the actuary\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d for the valuation at issue, not a moving target revised after the plan year to increase a particular employer\u2019s bill.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "MPPAA\u2019s withdrawal-liability scheme is built around plan-year measurements of \u201cunfunded vested benefits,\u201d and \u00a7 1401(a)(3)(B) speaks in the same terms\u2014presuming correct the plan\u2019s determination \u201cfor a plan year\u201d unless the assumptions and methods used in that year\u2019s determination were unreasonable. Allowing a fund to adopt a new discount rate after the measurement year and apply it backward would impose retroactive liability without a clear statement from Congress, undermining fair notice for employers who must be able to price and plan around the statutory plan-year metrics. Section 1393 demands reasonable assumptions and the actuary\u2019s \u201cbest estimate,\u201d but it does not clearly authorize rewriting the assumptions that governed the relevant plan-year valuation after the fact. Concrete Pipe confirms courts must enforce the statutory limits on actuarial discretion as written (with plenary review on questions of law), and nothing in the enacted text supplies clear authorization for retroactive assumption changes in calculating past-year withdrawal liability.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The governing default rule in this statutory setting is plan-year measurement with judicially reviewable legal constraints: Congress built MPPAA withdrawal liability around determinations of \u201cunfunded vested benefits for a plan year,\u201d and nothing in \u00a7\u00a7 1381\u20131405 or \u00a7 1393 clearly authorizes a plan to revise a key discount-rate assumption after the measurement year and then apply that new assumption backward to re-price the past. Reading \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language to permit retroactive assumption changes would create serious due-process and predictability concerns by allowing plans to inflate liability after an employer\u2019s withdrawal decision\u2014concerns we avoid by adhering to the background presumption that the statute fixes the valuation baseline to the relevant plan year unless Congress clearly says otherwise. The statute\u2019s enforcement architecture (mandatory assessment, pay-now-dispute-later, and presumptions in arbitration) reinforces the need for a stable, administrable baseline, because employers must be able to challenge actuarial reasonableness without facing a moving target created post-withdrawal. Concrete Pipe confirms the constitutionality of the scheme in part because it relies on professional standards and a structured review process for plan-year UVB determinations, not because it authorizes retroactive methodological changes that would undermine that structure.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "MPPAA\u2019s withdrawal-liability scheme is built around plan-year determinations of \u201cunfunded vested benefits,\u201d and \u00a7 1401(a)(3)(B) separately addresses the reasonableness of \u201cthe actuarial assumptions and methods used in the determination\u201d for \u201ca plan year\u201d\u2014a structure that signals Congress\u2019s choice of a rule-like, plan-year measurement default rather than an open-ended, later-revision regime. Allowing a plan to adopt new assumptions after the measurement year and apply them backward would effectively create an extra-statutory retroactivity mechanism that undermines predictability and finality for employers deciding whether to remain in the plan, and it risks turning \u00a7 1393\u2019s reasonableness standard into a vehicle for reopening settled plan-year valuations. Congress specified a limited review framework (mandatory arbitration, presumptions, and defined grounds to overturn assumptions as unreasonable in the aggregate), and that calibrated scheme counsels against implying additional authority to \u201crewrite\u201d prior-year inputs absent clear statutory text. On these facts\u2014where the plan increased liability by applying an amended discount rate after the relevant period\u2014the better reading is that the assumptions must be those in effect for the plan year tied to the withdrawal-liability measurement, subject to the statute\u2019s built-in reasonableness checks.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.64,
+        "reasoning": "Starting with the statutory text and its structure, MPPAA\u2019s withdrawal-liability regime repeatedly keys the calculation to determinations made \u201cfor a plan year,\u201d and \u00a7 1401(a)(3)(B) likewise frames the presumptive correctness inquiry around \u201cthe determination of a plan\u2019s unfunded vested benefits for a plan year,\u201d which makes the scheme coherent only if the actuarial assumptions used for that plan-year measurement are the ones in effect for that measurement\u2014not later-adopted assumptions applied backward. Critically, nothing in \u00a7\u00a7 1381\u20131405 or \u00a7 1393 affirmatively authorizes a plan sponsor to reopen a closed plan-year valuation by retroactively changing the discount rate; given that omission, I would resist implying a carve-out that permits plans to \u201crewrite\u201d the interest-rate assumption after the fact, especially where it materially increases a withdrawing employer\u2019s liability. Concrete Pipe confirms that actuaries have latitude only within the statutory constraints and that legal questions about what the statute permits are reviewed plenary; here, the administrability and reliance consequences (predictable, plan-year-based pricing and bargaining for employers) corroborate Congress\u2019s plan-year measurement design rather than a retroactive, after-the-withdrawal recalibration. On these facts\u2014where the plan amended the key discount-rate assumption after the relevant measurement period and applied it to inflate petitioners\u2019 assessed liability\u2014I would hold the statute does not allow that retroactive application.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 8,
+    "respondent_votes": 1,
+    "predicted_winner": "Petitioner",
+    "vote_split": "8-1",
+    "average_confidence": 0.721,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.63,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.64,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.6,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "8-1",
+    "run_arm": "ot2025_v3"
+  },
+  {
+    "docket": "23-1209",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether ERISA\u2019s multiemployer-plan withdrawal-liability rules allow a pension fund to retroactively change actuarial assumptions (especially the interest/discount rate) used to calculate an employer\u2019s withdrawal liability after the withdrawal has occurred and liability has been assessed.",
+      "legal_provision": "ERISA as amended by the Multiemployer Pension Plan Amendments Act of 1980 (MPPAA), principally 29 U.S.C. \u00a7\u00a7 1381\u20131405 (withdrawal liability) and 29 U.S.C. \u00a7 1393 (actuarial assumptions and methods; requirement that they be reasonable in the aggregate and, in combination, offer the actuary\u2019s best estimate of anticipated experience).",
+      "petitioner_position": "Petitioners (M&K and related entities) argue that withdrawal liability must be calculated using the plan\u2019s actuarial assumptions in effect for the valuation year tied to the withdrawal and that a fund cannot later \u2018true up\u2019 or re-price the liability by retroactively swapping in new assumptions\u2014particularly a different interest/discount rate\u2014because doing so rewrites the statutory calculation after the fact, undermines predictability for employers, and conflicts with controlling appellate authority (they rely heavily on the Second Circuit\u2019s decision in Metz, which they say forbids retroactive changes to interest-rate assumptions for withdrawal-liability assessments). They contend the Fund\u2019s post-withdrawal adjustment inflated the assessment by millions and is inconsistent with the MPPAA\u2019s structure (a fixed, rules-based liability triggered at withdrawal) and with the statutory role of actuarial assumptions as inputs chosen and applied prospectively, not retroactively altered once a specific employer\u2019s liability has been locked in.",
+      "respondent_position": "Respondent (the Trustees/Fund), supported by the United States and labor/participant amici, argue that ERISA/MPPAA requires use of actuarial assumptions and methods that are reasonable in the aggregate and represent the actuary\u2019s best estimate, and that when the assumptions used in an assessment are discovered to be erroneous, unreasonable, or not the actuary\u2019s best estimate, the Fund is permitted (and may be required) to correct the assessment\u2014even if the correction involves applying updated assumptions to the relevant valuation\u2014so that withdrawal liability reflects the statute\u2019s mandated \u2018best estimate\u2019 framework rather than a known-wrong set of inputs. They emphasize the remedial and protective purposes of MPPAA (protecting plan solvency and participants) and contend that a categorical anti-retroactivity rule would force funds to rely on conceded mistakes, harming plans and shifting costs to remaining employers and participants. They also dispute that Metz controls outside its circuit or that it should be read to bar the kind of correction at issue here, and they maintain the D.C. Circuit correctly upheld the Fund\u2019s approach.",
+      "key_precedents": [
+        "Metz (Second Circuit) (cited by Petitioners as barring retroactive alteration of interest-rate assumptions in withdrawal-liability calculations)",
+        "Jacobson v. Fireman\u2019s Fund Ins. Co., 111 F.3d 2 (2d Cir. 1997) (mentioned in the record excerpt)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "Justice Kagan and Justice Thomas make the strongest point that \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d requirements remain fully reviewable in \u00a7 1401 arbitration, and nothing expressly \u201cfreezes\u201d assumptions at the moment of notice. But that answers a different question than the one presented: whether the plan has statutory authority to unilaterally reopen an issued \u00a7 1399(b)(1) determination and retroactively increase the demanded liability by swapping a core discount-rate assumption after the pay-now, dispute-later machinery has attached. Read as an integrated scheme, \u00a7\u00a7 1381\u20131401 contemplate a determinate assessment tied to the withdrawal event, followed by arbitration to test that assessment; importing an open-ended post-notice repricing power from \u00a7 1393 would undermine \u00a7 1399\u2019s timing discipline and create a moving target. As Justice Barrett and Justice Alito emphasize, Congress supplied arbitration tools to correct \u201cunreasonable\u201d assumptions or \u201csignificant error,\u201d not a unilateral true-up mechanism that ratchets liability upward retroactively without a clear textual hook.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "The Chief Justice, and Justices Alito and Barrett, press the statute\u2019s timing structure and the risk of a \u201cmoving target\u201d under pay-now-dispute-later, but that structural concern cannot justify adding a categorical, atextual anti-revision rule. The text Congress enacted supplies the governing constraints\u2014\u00a7 1393(a)\u2019s requirement that the assumptions actually used reflect the actuary\u2019s \u201cbest estimate\u201d and be \u201creasonable (taking into account the experience of the plan and reasonable expectations)\u201d\u2014and \u00a7 1401(a)(3) expressly contemplates arbitration correcting \u201cunreasonable\u201d assumptions or \u201csignificant error.\u201d As Justice Kagan notes, that dispute-resolution scheme presupposes that the inputs to the determination remain contestable after notice; nothing in \u00a7 1399(b)(1) says an unlawful assumption becomes immunized once demanded. If there is a concern about opportunistic leverage, the statute addresses it through element-focused review in arbitration\u2014not by a judge-made finality principle that overrides Congress\u2019s accuracy standards.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan\u2019s and Justice Thomas\u2019s best point is that \u00a71393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d commands remain enforceable in \u00a71401 arbitration, and the statute does not expressly \u201cfreeze\u201d assumptions upon notice. But that addresses the standard for judging the assumptions used in the \u00a71399(b)(1) determination; it does not supply affirmative textual authority for a plan to reopen an issued determination and retroactively substitute a new discount rate that increases the demanded amount after the pay-now-dispute-later machinery has been triggered. As the Chief Justice explains, \u00a7\u00a71381\u20131401 are written as an event-triggered, time-sequenced scheme\u2014withdrawal fixes the liability event, \u00a71399 requires a prompt determination and demand, and \u00a71401 channels disputes over that determination into arbitration\u2014presupposing a determinate assessment rather than a moving target. Absent a clear statutory grant of post-demand, retroactive \u201ctrue-up\u201d power (and consistent with Justice Barrett\u2019s negative-implication point from \u00a71394(a)), I would read \u00a71393 as supplying the compliance standard for arbitration review of the original assessment, not a unilateral revision mechanism to ratchet liability upward.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.75,
+        "reasoning": "The Chief Justice\u2019s and Justice Barrett\u2019s strongest point is the coercive leverage of a moving target under pay-now-dispute-later once a \u00a7 1399(b)(1) demand issues, and I take seriously the reliance and administrability concerns they identify. But as Justice Kagan and Justice Thomas explain, Congress made \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d requirements substantive conditions of a lawful calculation, and \u00a7 1401(a)(3)\u2019s arbitration regime expressly contemplates identifying \u201cunreasonable\u201d assumptions or \u201csignificant error\u201d and correcting the resulting determination rather than freezing a known defect. A categorical finality bar would force plans to perpetuate acknowledged noncompliance, shifting losses to remaining employers and ultimately to workers and retirees least able to bear them\u2014an outcome at odds with MPPAA\u2019s protective design. The proper guardrail against opportunistic repricing is case-by-case policing in arbitration (including remedial limits for coercive behavior), not an atextual no-revision rule.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The Chief Justice and Justice Gorsuch press the case\u2019s hardest point: the statute\u2019s timing-and-finality architecture, coupled with \u201cpay now, dispute later,\u201d seems to presuppose a fixed demand rather than a moving target. But that structural inference cannot override what Congress actually wrote\u2014\u00a7 1393\u2019s mandatory \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d conditions\u2014and \u00a7 1401\u2019s arbitration framework, which (as Justice Thomas emphasizes) is built to test and correct \u201cunreasonable\u201d assumptions or \u201csignificant error\u201d after the notice issues. Petitioners\u2019 Landgraf-style retroactivity framing (Justice Gorsuch) fits poorly where the statute itself made reasonableness a condition of the original determination; curing a noncompliant assumption is not attaching a new legal consequence so much as conforming the calculation to the old one. The administrability and leverage concerns are real, but they are better addressed through arbitration\u2019s case-specific policing of whether the revision reflects a genuine \u00a7 1393 correction rather than opportunistic repricing, not through an atextual categorical no-revision rule.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Justice Kagan and Justice Thomas press the strongest point: \u00a7 1393\u2019s \u201cbest estimate\u201d/\u201creasonable in the aggregate\u201d requirements remain contestable in \u00a7 1401 arbitration, so an unlawful assumption is not \u201cimmunized\u201d by the mere issuance of a \u00a7 1399(b)(1) notice. But that answers a different question than the one presented\u2014whether the plan has statutory authority unilaterally to reopen a completed notice-and-demand and retroactively substitute a new discount rate to increase liability and interim-payment obligations after withdrawal. As the Chief Justice and Justice Barrett emphasize, the statute\u2019s sequenced scheme (withdrawal \u2192 prompt determination and demand \u2192 pay-now-dispute-later arbitration over that determination) presupposes a determinate assessment; absent a clear textual hook, I would not infer an extra-statutory \u201ctrue-up\u201d power that attaches new financial consequences to past conduct, particularly given Landgraf\u2019s baseline against retroactivity. The fund remains free to defend the original assumption as lawful in arbitration or accept the consequences of having chosen otherwise, but it cannot transform \u00a7 1393\u2019s review standard into a unilateral post-demand repricing mechanism.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.68,
+        "reasoning": "The Chief Justice and Justice Gorsuch press the strongest point: the \u00a71399 notice-and-demand plus \u201cpay now, dispute later\u201d structure functions best with a determinate assessment, and a moving target can create coercive leverage. But I do not see a textual basis for a categorical anti-reopening rule that would effectively immunize an admittedly noncompliant actuarial assumption once the notice issues, especially given \u00a71393\u2019s substantive commands (\u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d) and \u00a71401(a)(3)\u2019s arbitration framework that expressly contemplates identifying \u201cunreasonable\u201d assumptions or \u201csignificant error,\u201d as Justice Thomas and Justice Kagan emphasize. The better reading is that accuracy is part of the original statutory obligation and that disputes about whether a later adjustment is a genuine correction or opportunistic repricing can be policed case-by-case in arbitration under \u00a71393/\u00a71401 standards, rather than by adding a judge-made finality bar. In short, the structural concern is real, but Congress\u2019s enacted scheme addresses it through review standards and arbitration presumptions, not by freezing unlawful inputs at the moment of demand.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Justice Kagan and Justice Thomas press the strongest point: \u00a71393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d requirements, coupled with \u00a71401(a)(3), ensure that assumptions remain reviewable and correctable in arbitration even after a \u00a71399(b)(1) notice issues. But that addresses the standard of review for the original determination, not whether the plan has unilateral authority to reopen and retroactively increase the assessment\u2014thereby escalating interim-payment leverage\u2014once the statutory notice-and-demand has triggered the pay-now-dispute-later regime, as the Chief Justice emphasizes. Given Congress\u2019s detailed timing architecture and its enumerated mechanisms for challenging or correcting errors through arbitration, I am reluctant to infer an extra-textual \u201ctrue-up\u201d power that makes the demanded amount a moving target; \u00a71394(a)\u2019s prospective treatment of changes that affect liability reinforces the negative implication against retroactive repricing absent a clear grant. The plan can defend the original assumptions (or concede error) in arbitration and accept any adjustment ordered there, but it cannot unilaterally substitute a new discount rate retroactively to increase the demand.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.7,
+        "reasoning": "The Chief Justice\u2019s and Justice Barrett\u2019s structural point\u2014that the \u00a71399 notice triggers coercive interim payments and thus seems to presuppose a fixed, determinate demand\u2014is the hardest objection, because a moving target can create leverage. But I do not see a textual basis for converting that administrability concern into a categorical \u201cfreeze\u201d rule that immunizes an acknowledged \u00a71393 defect once notice issues, especially given \u00a71401(a)(3)\u2019s arbitration framework (as Justice Thomas stresses) that expressly contemplates identifying \u201cunreasonable\u201d assumptions or \u201csignificant error\u201d after the fact. On these pleaded facts, the Fund characterizes its adjustment as curing a noncompliant assumption rather than exercising an open-ended repricing power, and the enacted scheme seems to channel that dispute to arbitration to decide whether this was a genuine correction or opportunistic leverage. Petitioners\u2019 Landgraf framing (Justice Gorsuch) fits awkwardly where \u00a71393 already supplied the governing standard at the relevant valuation time; the dispute is about compliance with that standard, not retroactive creation of a new one.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "The text and structure of MPPAA treat withdrawal liability as a determination tied to the employer\u2019s withdrawal, followed by a notice, a payment schedule, and a \u201cpay now, dispute later\u201d review-and-arbitration process\u2014features that presume a fixed, knowable assessment rather than an open-ended power to reprice liability after the fact. Section 1393\u2019s command that assumptions be the actuary\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d governs the selection of assumptions for the relevant valuation, but it does not supply an extra-textual authority to retroactively swap in new discount rates once liability has been assessed, especially where doing so effectively rewrites the operative assessment and magnifies the statutory coercion of interim payments. Reading \u00a7 1393 to authorize post-assessment retroactive changes would sit uneasily with the statute\u2019s integrated timing provisions and would risk nullifying the predictability Congress built into \u00a7\u00a7 1381\u20131401 by allowing funds to increase liabilities after withdrawal under the leverage of mandatory interim payments. On these facts\u2014where the Fund reassessed using a different interest/discount rate after issuing an assessment\u2014the better reading is that corrections may address factual errors (e.g., payroll/audit data) but not retroactively alter core actuarial assumptions used to price the withdrawal liability.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The starting point is ERISA\u2019s enacted text, and \u00a7 1393(a) requires that actuarial assumptions and methods used to determine unfunded vested benefits be \u201creasonable in the aggregate\u201d and represent the actuary\u2019s \u201cbest estimate\u201d of anticipated experience; nothing in \u00a7\u00a7 1381\u20131405 or \u00a7 1399(b)(1) freezes an admittedly erroneous discount rate simply because an assessment has issued. The statute instead builds in post-assessment review through arbitration and a burden-of-proof regime in \u00a7 1401(a)(3) that turns on whether the assumptions were unreasonable in the aggregate or involved significant error\u2014confirming that the correctness of the assumptions remains contestable after the initial demand. Petitioners\u2019 proposed categorical anti-retroactivity rule is not grounded in statutory language and would substitute a judge-made finality principle for the elements Congress actually prescribed (reasonableness/best-estimate), even where the fund corrects a mistake that made the original assumptions fail \u00a7 1393(a). Concrete Pipe supports treating actuaries as regulated professionals and confirms Congress\u2019s chosen mechanism\u2014presumptions plus arbitration\u2014rather than atextual limits on correcting assumptions.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The operative MPPAA provisions tie withdrawal liability to the employer\u2019s withdrawal and require the plan to \"determine\" and \"notify\" the amount under a rules-based scheme, which functions like a fixed, event-triggered assessment rather than an open-ended, continuously revisable estimate. Section 1393\u2019s command that assumptions be reasonable in the aggregate and reflect the actuary\u2019s best estimate is best read as governing the selection of the plan\u2019s valuation assumptions prospectively, not authorizing a fund to retroactively swap in a new discount rate after the employer has withdrawn and the statutory consequences have attached. Reading \u00a7 1393 to permit post-withdrawal retroactive re-pricing would blur the statute\u2019s triggering event and undermine the scheme\u2019s reliance on clear lines\u2014an interpretation Congress could have made explicit if it intended ongoing reassessments\u2014while the notice-and-collection structure presupposes a determinate liability that can be disputed in arbitration on the assessment as made. Although MPPAA has protective purposes, that policy cannot override the statutory design that locks liability to the withdrawal event and the plan assumptions in force for the relevant valuation year, leaving corrections for true clerical mistakes but not discretionary, hindsight-driven assumption changes.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.67,
+        "reasoning": "Under \u00a7 1393, withdrawal liability must rest on actuarial assumptions that are reasonable in the aggregate and represent the actuary\u2019s best estimate; when a plan discovers that the interest/discount-rate assumption used in a specific assessment was erroneous or not the actuary\u2019s best estimate, insisting on the known-wrong assumption would undermine the statute\u2019s accuracy mandate and shift the shortfall onto remaining employers and, ultimately, participants. The MPPAA is remedial, designed to prevent destabilizing incentives to flee underfunded plans and to protect earned benefits, so allowing corrective recalculation better aligns with Congress\u2019s protective purpose and the real-world stakes for retirees and workers who rely on plan solvency. Fairness concerns for withdrawing employers are addressed through the statute\u2019s dispute-resolution and review mechanisms, but a categorical rule freezing mistaken assumptions would privilege predictability over correctness in a way that disproportionately harms vulnerable beneficiaries. On these facts\u2014where the Fund corrected the valuation to reflect what it asserts is the actuary\u2019s best estimate\u2014ERISA permits (and may require) that correction even if it changes the assessed amount.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "The threshold question is whether ERISA/MPPAA creates any statutory \u201cconflict\u201d that would forbid revising an assessment to conform to \u00a71393\u2019s command that assumptions be \u201creasonable in the aggregate\u201d and reflect the actuary\u2019s \u201cbest estimate\u201d; I do not see such a conflict in the text, because nothing in \u00a7\u00a71381\u20131405 or \u00a71399 categorically locks in an interest/discount rate that the plan later determines was not the actuary\u2019s best estimate for the relevant valuation. In that conflict-free zone, the inquiry becomes functional and fiduciary: a prudent plan fiduciary (and actuary) would not knowingly adhere to an unreasonable or erroneous assumption that materially misstates liability, because doing so risks under-collection and shifts costs to remaining employers and participants\u2014precisely what MPPAA was enacted to prevent. Petitioners\u2019 reliance on a broad anti-retroactivity principle goes beyond what \u00a71394 actually bars (plan \u201crules and amendments\u201d), and Metz itself acknowledged actuarial assumptions under \u00a71393 are not such rules, weakening the claim that ERISA requires a categorical no-correction rule. To the extent there remain line-drawing issues (e.g., what counts as a genuine correction versus strategic re-pricing), those are best handled under \u00a71393\u2019s reasonableness/best-estimate standards in arbitration and lower-court review rather than by an atextual across-the-board prohibition.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The MPPAA establishes a rules-based liability that is triggered at withdrawal and computed using specified statutory inputs, and our interpretive baseline is prospectivity: absent a clear statement, Congress does not authorize post-event adjustments that increase liability after the fact. Nothing in \u00a7 1393\u2019s \u201cbest estimate\u201d and \u201creasonable in the aggregate\u201d language clearly empowers a fund to retroactively swap in a new discount rate after withdrawal and assessment; reading it to do so would effectively permit retroactive recalculation with serious reliance and predictability costs for employers deciding whether and when to withdraw. Congress\u2019s express prohibition on retroactively applying post-withdrawal \u201crule[s] or amendment[s]\u201d in \u00a7 1394(a) underscores that trustee-driven changes affecting withdrawal liability are generally to operate prospectively, not to \u201ctrue up\u201d past withdrawals. On this record\u2014where the Fund\u2019s change occurred after the withdrawal and inflated the assessment by millions\u2014the better reading is that the relevant actuarial assumptions are those in effect on the measurement date tied to the withdrawal.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "This case does not turn on expanding who may sue or relaxing Article III limits; the withdrawing employer faces a concrete, particularized financial assessment and therefore has standing under Lujan to litigate whether the Fund\u2019s calculation complied with the statute. On the merits, ERISA \u00a7 1393 requires that the actuarial assumptions and methods used to determine unfunded vested benefits be reasonable in the aggregate and reflect the actuary\u2019s best estimate, and the MPPAA\u2019s mandatory arbitration scheme (29 U.S.C. \u00a7 1401) specifically contemplates correction of unreasonable assumptions or significant errors rather than freezing an acknowledged mistake in place. Given that the Fund\u2019s revision was asserted to correct an erroneous/unreasonable discount-rate input so that the assessment matched the statute\u2019s \u201cbest estimate\u201d requirement, the better reading is that the Act permits (and in some circumstances requires) recalculation to conform to \u00a7 1393, subject to arbitral and judicial review under \u00a7 1401. The employer\u2019s predictability concerns are addressed by the statute\u2019s structured process\u2014timely notice, arbitration, presumptions, and review\u2014rather than by judicially imposing a categorical anti-retroactivity bar not found in the text.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "The statutory design in \u00a7\u00a7 1381\u20131405 and \u00a7 1399 is rules-based: withdrawal liability is triggered by the act of withdrawal, the plan must issue a prompt assessment and demand, and disputes are funneled into arbitration and then limited judicial review\u2014features that promote predictability and finality rather than open-ended recalculation. Section 1393\u2019s \u201cbest estimate\u201d requirement operates as a constraint on the assumptions used to make the assessment in the first instance, but nothing in the text enumerates a further exception authorizing a fund to reopen and retroactively re-price a particular employer\u2019s already-assessed liability whenever it later prefers different assumptions; reading such a power into \u00a7 1393 would add an extra-statutory equitable \u201ctrue-up\u201d mechanism that Congress did not include. Allowing retroactive assumption changes after assessment would expand a narrow reasonableness constraint into a broad post hoc correction device, undermining the administrability Congress chose and the statute\u2019s finality protections (especially once the assessment and arbitration posture has attached). On these facts\u2014where the Fund replaced the discount rate after the relevant measurement date and after issuing an assessment, inflating liability by millions\u2014the better reading is that the plan must use the assumptions tied to the valuation year relevant to the withdrawal, subject to contemporaneous challenge in arbitration, not unilateral retroactive revision by the Fund.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.62,
+        "reasoning": "This case turns on what \u00a7 1393(a)(1) requires when withdrawal liability is \"determined\"\u2014and, read in statutory context, Congress keyed that determination to the use of assumptions that are \"reasonable in the aggregate\" and that \"offer the actuary\u2019s best estimate\" of anticipated experience, not to a rigid temporal freeze that would compel use of assumptions later shown to be erroneous or unreasonable. Given the pleaded facts that the Fund revised the discount rate because the prior assumption was not (or was no longer supportable as) the actuary\u2019s best estimate for the relevant valuation, the statute\u2019s text and structure support allowing a correction aimed at conforming the assessment to \u00a7 1393\u2019s governing standard rather than preserving a known-wrong input for the sake of finality. On remedy and administrability, a categorical anti-retroactivity rule would disrupt the MPPAA\u2019s solvency-protective scheme by forcing plans to lock in conceded mistakes and shift resulting costs to remaining employers and participants, while permitting corrections within \u00a7 1393\u2019s reasonableness/best-estimate constraints better aligns with congressional design and is workable (and disputes can still be policed in arbitration). Although petitioners rely on Metz, that circuit decision does not control here and, in any event, I would not read ERISA to mandate an across-the-board prohibition that is not grounded in \u00a7 1393\u2019s contextual command.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 4,
+    "respondent_votes": 5,
+    "predicted_winner": "Respondent",
+    "vote_split": "5-4",
+    "average_confidence": 0.733,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.62,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.69,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.64,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.71,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "5-4",
+    "run_arm": "ot2025_v3"
+  }
+]

@@ -1,0 +1,70 @@
+{
+ "docket": "23-825",
+ "term": 2024,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:08:07+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.12,
+  "Clarence Thomas": 0.08,
+  "Samuel Alito": 0.1,
+  "Elena Kagan": 0.12,
+  "Neil Gorsuch": 0.1,
+  "Brett Kavanaugh": 0.13,
+  "Amy Coney Barrett": 0.35
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.25,
+   "concurs": 0.25
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.18,
+   "concurs": 0.18
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.8,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.12,
+   "concurs": 0.12
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Barrett is the most likely majority author because her textual insight — that the force clause's own 'attempted use of physical force' language independently resolves the omission problem — is the analytical linchpin cited by nearly every majority justice, and Roberts as assigning justice would likely reward the justice whose reasoning commanded the broadest coalition. Sotomayor and Jackson are highly likely to write separately in dissent, with one likely authoring the principal dissent and the other joining or writing separately, given their distinct but complementary objections grounded in the categorical approach and rule of lenity.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.12,\n    \"Clarence Thomas\": 0.08,\n    \"Samuel Alito\": 0.10,\n    \"Elena Kagan\": 0.12,\n    \"Neil Gorsuch\": 0.10,\n    \"Brett Kavanaugh\": 0.13,\n    \"Amy Coney Barrett\": 0.35\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Clarence Thomas\": {\"writes_separately\": 0.25, \"concurs\": 0.25},\n    \"Samuel Alito\": {\"writes_separately\": 0.18, \"concurs\": 0.18},\n    \"Elena Kagan\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.12, \"concurs\": 0.12},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.80, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.75, \"concurs\": 0}\n  },\n  \"rationale\": \"Barrett is the most likely majority author because her textual insight — that the force clause's own 'attempted use of physical force' language independently resolves the omission problem — is the analytical linchpin cited by nearly every majority justice, and Roberts as assigning justice would likely reward the justice whose reasoning commanded the broadest coalition. Sotomayor and Jackson are highly likely to write separately in dissent, with one likely authoring the principal dissent and the other joining or writing separately, given their distinct but complementary objections grounded in the categorical approach and rule of lenity.\"\n}\n```"
+}

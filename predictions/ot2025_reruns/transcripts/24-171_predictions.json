@@ -1,0 +1,571 @@
+[
+  {
+    "docket": "24-171",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 1,
+    "has_transcripts": true,
+    "case_analysis": {
+      "focal_point": "Whether an Internet service provider can be held contributorily liable for subscribers\u2019 copyright infringement based on continued provision of internet access after receiving infringement notices, or whether contributory liability requires a more affirmative, culpable act (e.g., material contribution beyond ordinary service) and a tighter intent/knowledge showing tied to specific infringement.",
+      "legal_provision": "Copyright Act of 1976, 17 U.S.C. \u00a7\u00a7 106 (exclusive rights) and 501 (infringement), with judge-made secondary liability doctrines (contributory copyright infringement) informed by common-law aiding-and-abetting principles and, by analogy, Patent Act secondary-liability concepts (including 35 U.S.C. \u00a7 271).",
+      "petitioner_position": "Cox argues the Fourth Circuit imposed an overbroad contributory infringement rule by treating \u2018continuing to provide ordinary internet service\u2019\u2014even with generalized knowledge that a subscriber is likely to infringe again\u2014as the requisite culpable conduct. Cox contends contributory liability must require a concrete, affirmative act that materially contributes to specific infringements (not mere inaction or failure to terminate), and that a knowledge-only standard would improperly convert ISPs into copyright police, expand secondary liability beyond Sony/Grokster\u2019s limits, and conflict with general aiding-and-abetting principles that require purposeful participation rather than passive provision of a generally lawful service.",
+      "respondent_position": "Sony and the other rightsholders argue Cox is contributorily liable because it allegedly knew particular subscribers were repeatedly infringing (through notices) yet continued providing them service, thereby enabling ongoing infringement. Respondents frame Cox\u2019s continued service (and alleged failure to meaningfully enforce termination policies) as sufficient \u2018material contribution\u2019 when paired with knowledge of repeat infringement, and they resist narrowing contributory liability to inducement-style facts (as in Grokster) or to situations where the ISP has granular knowledge of each particular infringing act at the moment it occurs.",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc. (Sony/Betamax) (1984)",
+        "MGM Studios Inc. v. Grokster, Ltd. (2005)",
+        "Twitter, Inc. v. Taamneh (2023)"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.75,
+        "reasoning": "The respondent\u2019s strongest point is that repeated, specific notices make future infringement practically certain and thus render continued service \u201cknowing assistance,\u201d but that still treats ordinary, arm\u2019s-length provision of a lawful, widely available service as the requisite affirmative act\u2014an omission-based termination duty that Taamneh cautions against absent a more targeted, culpable nexus to particular wrongful acts. Justice Kagan\u2019s emphasis on requiring affirmative, infringement-facilitating conduct closely connected to identifiable infringements supplies an administrable limiting principle consistent with Sony and avoids judicial expansion of a judge-made doctrine. Justice Thomas\u2019s textual reminder\u2014that \u00a7\u00a7106 and 501 do not codify a broad secondary-liability regime\u2014reinforces my institutional concern that the Fourth Circuit\u2019s approach effectively legislates a monitoring/termination obligation better left to Congress. I would therefore vote to vacate on narrow grounds: generalized notice plus continued routine ISP service is insufficient, while leaving open liability on more culpable, inducement-like or targeted-assistance facts.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The respondent\u2019s best theory\u2014repeated, specific notices plus continued service equals knowing \u201cmaterial contribution\u201d because the ISP is an indispensable conduit\u2014still collapses into omission-based liability (a duty to terminate) that the Copyright Act\u2019s text does not impose. As Justice Gorsuch and the Chief Justice stress, Taamneh rejects turning generalized knowledge plus routine, arm\u2019s-length services into \u201cknowing and substantial assistance\u201d absent affirmative, culpable conduct tied to particular wrongful acts; ordinary internet access, widely lawful under Sony, does not supply that nexus. Grokster underscores that when we have extended beyond direct infringement, liability has depended on purposeful facilitation (e.g., inducement), not merely continuing a lawful service after complaints. Because secondary liability is judge-made and not codified in \u00a7\u00a7 106 or 501, the Fourth Circuit\u2019s rule risks judicially creating a broad monitoring/termination mandate better left to Congress.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.79,
+        "reasoning": "The strongest respondent claim\u2014repeated, specific notices plus continued service equals knowing \u201cmaterial contribution\u201d\u2014still amounts to omission-based liability: a duty to terminate to prevent predicted future infringements, which Taamneh cautions against absent an independent legal duty. Chief Justice Roberts is right that the Fourth Circuit\u2019s notice-plus-continuation rule stretches a judge-made contributory doctrine by treating routine provision of a generally lawful service as culpable assistance, in tension with Sony\u2019s reluctance to convert broadly lawful technologies into presumptive engines of secondary liability. Justice Thomas\u2019s separation-of-powers point reinforces that \u00a7\u00a7 106 and 501 do not codify a sweeping secondary-liability regime, so any contributory rule we apply should track traditional aiding-and-abetting limits requiring affirmative, targeted facilitation tied to specific infringing acts (as in Grokster\u2019s inducement), which this record lacks. The practical consequence of respondent\u2019s rule would be to deputize ISPs as copyright police through a termination mandate better left to Congress.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The respondent\u2019s best point remains that repeated, specific infringement notices make continued service look like knowing facilitation because access is a but-for condition of the copying. But as Chief Justice Roberts and Justice Kagan emphasize, Taamneh demands a tighter nexus and an affirmative, culpable step that meaningfully assists the particular infringements\u2014routine provision of widely lawful internet access, even with notice, is too passive and risks converting nonfeasance into a generalized termination duty. Justice Thomas\u2019s separation-of-powers concern reinforces my reluctance to enlarge this judge-made doctrine into privatized policing absent clearer statutory direction, especially given the real-world fallout for vulnerable users who rely on internet access for work, school, and accessing courts. On these facts, I would require proof of targeted, infringement-facilitating conduct (or inducement-like encouragement under Grokster), not mere continuation of ordinary service after complaints.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.76,
+        "reasoning": "The respondent\u2019s best point remains that repeated, specific notices can make continued service look like knowing assistance to predictable repeat infringement, but I agree with Chief Justice Roberts that the Fourth Circuit\u2019s notice-plus-continuation rule effectively converts ordinary provision of a lawful, widely used service into \u201cmaterial contribution\u201d without the tighter nexus Taamneh requires. Justice Sotomayor\u2019s administrability concern reinforces, under a pragmatic textualist approach, that this theory risks creating a generalized duty to police or terminate service\u2014an omission-based obligation not anchored in \u00a7\u00a7 106 or 501 and likely to over-deter lawful access. Justice Thomas\u2019s separation-of-powers reminder matters here: because contributory liability is judge-made, we should keep it cabined to culpable, affirmative, infringement-facilitating conduct (or Grokster-like inducement), not treat indispensability of internet access as sufficient. On these facts, routine connectivity after notice still lacks the kind of targeted assistance to identifiable infringements that would justify secondary liability.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.85,
+        "reasoning": "The respondent\u2019s best argument\u2014that repeated, specific notices plus continued service converts \u201cordinary infrastructure\u201d into knowing, material contribution\u2014still depends on treating nonfeasance as actionable assistance without any independent statutory duty to terminate service. Chief Justice Roberts\u2019s reliance on Taamneh is persuasive: aiding-and-abetting-style secondary liability requires an affirmative, culpable act with a tight nexus to the particular wrong, and routine provision of a widely available, substantially lawful service does not become \u201csubstantial assistance\u201d merely because misuse is predictable. Justice Thomas\u2019s textualist point further confirms that because \u00a7\u00a7 106 and 501 do not codify a broad secondary-liability regime, we should not expand judge-made contributory infringement into a generalized notice-triggered cutoff mandate. Sony and Grokster reinforce the limiting principle: absent inducement-like encouragement or targeted facilitation beyond ordinary operations, liability here would be judicial lawmaking with serious separation-of-powers and overdeterrence consequences.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The respondent\u2019s best point remains that repeated, specific notices can make continued service look like knowing facilitation of predictable repeat infringement, especially where termination is feasible. But as Chief Justice Roberts and Justice Kagan emphasize, Taamneh requires affirmative, culpable conduct and a tight nexus to identifiable wrongful acts; recharacterizing an ISP\u2019s continued provision of a generally lawful, widely used access service as \u201cmaterial contribution\u201d effectively turns nonfeasance into liability and dilutes scienter into a negligence-like duty to cut off subscribers. Justice Thomas\u2019s textual/institutional concern reinforces my view that, absent a clear statutory subscriber-termination mandate in \u00a7\u00a7 106 or 501, we should not expand this judge-made doctrine in a way that risks sweeping practical consequences and overdeterrence contrary to Sony/Grokster. I would vacate and require proof of infringement-facilitating assistance beyond ordinary service (or inducement-like encouragement) tied to particular infringements.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The Respondent\u2019s best point is that repeated, detailed notices combined with the ISP\u2019s power to terminate service can make continued service look like knowing assistance; but as Chief Justice Roberts stresses, that theory effectively redefines an omission (failure to cut off) as \u201cmaterial contribution\u201d and risks imposing a de facto policing/termination duty untethered to the Copyright Act\u2019s text. Taamneh\u2019s aiding-and-abetting limits\u2014emphasized by Justice Gorsuch and Justice Thomas\u2014require conscious, culpable participation and substantial assistance directed to specific wrongful acts, not the routine provision of a generally available, lawful service even with awareness of likely misuse. Sony and Grokster further caution against expanding judge-made secondary liability in a way that chills broadly lawful technologies and infrastructure absent inducement-like encouragement or other targeted facilitation. I would therefore vacate and require a tighter nexus: knowledge of identifiable infringements plus affirmative, infringement-facilitating conduct beyond ordinary access service.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "The Respondent\u2019s best point remains that repeated, detailed notices plus continued service can look like \u201cknowing participation,\u201d but I agree with Chief Justice Roberts that, under Taamneh, routine arm\u2019s-length provision of a generally lawful service\u2014without targeted, affirmative steps to further particular infringements\u2014does not become \u201cknowing and substantial assistance\u201d merely because misuse is predictable. Justice Sotomayor\u2019s practical-consequences concern reinforces my view that the Fourth Circuit\u2019s notice-plus-continuation approach functionally imposes an omission-based monitoring/termination duty, inviting over-deterrence and arbitrary cutoff decisions that threaten lawful access. Justice Thomas\u2019s observation that \u00a7\u00a7 106 and 501 do not codify this expansive secondary-liability regime further counsels restraint: absent clearer congressional direction, we should require a tighter nexus and conduct beyond ordinary service operations. I therefore remain with Petitioner because the respondent\u2019s theory collapses knowledge into liability and dilutes contributory infringement into a quasi-negligence standard inconsistent with Sony/Grokster\u2019s limiting principles and Taamneh\u2019s culpable-participation requirement.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "The Fourth Circuit\u2019s rule risks expanding judge-made contributory liability beyond historically cabined limits by treating an ISP\u2019s continued provision of an otherwise lawful, generally available service as the requisite \u201cmaterial contribution\u201d based largely on generalized notice-based knowledge. Our recent aiding-and-abetting analysis in Twitter, Inc. v. Taamneh requires an affirmative, culpable act undertaken with the intent to facilitate the offense, not \u201carm\u2019s-length, passive, and largely indifferent\u201d service provision with awareness that misuse may continue. Consistent with Sony\u2019s refusal to impose secondary liability merely because a technology or service is capable of substantial lawful use, contributory copyright liability should require a tighter nexus: knowledge tied to specific infringements and conduct that meaningfully assists them beyond ordinary service. A narrow disposition vacating the Fourth Circuit and requiring that heightened actus reus/scienter showing best preserves precedent and institutional legitimacy while leaving room for liability on more culpable facts.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Copyright Act\u2019s text creates liability for direct infringement, 17 U.S.C. \u00a7\u00a7 106, 501, but it does not provide for contributory infringement; any secondary-liability rule must therefore be tightly cabined to the traditional common-law aiding-and-abetting principles this Court has used when it has assumed such doctrines, rather than expanded by judicial policy-making. Sony recognized secondary liability only by analogy to common law and warned against imposing liability where the product or service is \u201cwidely used for legitimate, unobjectionable purposes,\u201d and Grokster confined liability to culpable, purposeful conduct such as inducement rather than mere continued provision of a lawful service. Under Twitter, Inc. v. Taamneh, generalized knowledge plus ordinary, nonculpable assistance is insufficient; contributory liability requires a more affirmative \u201cknowing and substantial assistance\u201d tied to specific wrongful acts, not a duty to terminate service whenever infringement notices arrive. Extending liability to an ISP for continuing ordinary internet access based on predicted future infringement would exceed the judge-made doctrine\u2019s common-law limits and effectively create a broad statutory regime Congress did not enact.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The Copyright Act\u2019s text (17 U.S.C. \u00a7\u00a7 106, 501) imposes primary liability on infringers, and contributory liability is a judge-made doctrine that, as in analogous aiding-and-abetting law, should be cabined to truly culpable participation rather than mere continued provision of a generally lawful service. Under Twitter, Inc. v. Taamneh (2023), secondary liability ordinarily requires an \u201caffirmative act\u201d undertaken \u201cwith the intent of facilitating\u201d the wrongful conduct, and our system generally does not impose liability for omissions or nonfeasance absent an independent duty to act; continuing ordinary ISP service after notices, without more, looks like inaction, not purposeful facilitation of particular infringements. Reading contributory liability to attach based on generalized knowledge plus continued service risks converting ISPs into copyright police, expanding secondary liability beyond the limiting principles reflected in Sony (substantial noninfringing uses) and Grokster (targeted inducement) and producing severe practical consequences for lawful internet access. The Fourth Circuit\u2019s approach dilutes the required nexus between knowledge/intent and specific infringing acts and effectively treats ordinary service provision as \u201cmaterial contribution,\u201d which is too broad a rule for a judge-made doctrine.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.62,
+        "reasoning": "Contributory copyright liability should track the common-law aiding-and-abetting \u201cconceptual core\u201d requiring an affirmative, culpable act and a tight nexus between knowledge/intent and the specific wrongful conduct, not mere continued provision of a generally lawful service after notice. Twitter, Inc. v. Taamneh (2023) underscores that \u201cordinary merchants\u201d and infrastructure providers are not liable absent \u201cknowing and substantial assistance\u201d through affirmative conduct undertaken with intent to facilitate the offense, and it rejects liability grounded in omissions or nonfeasance without an independent duty to act. Extending liability here based solely on continued ISP service risks transforming \u00a7106/\u00a7501 enforcement into privatized policing that will predictably over-deter and cut off internet access\u2014an essential service\u2014harming vulnerable subscribers and impeding access to education, employment, and the courts. Sony (1984) and Grokster (2005) likewise counsel against expanding secondary liability for providers of lawful, widely used technologies absent purposeful facilitation beyond ordinary service.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.67,
+        "reasoning": "Contributory copyright liability, as a judge-made doctrine implementing \u00a7\u00a7 106 and 501, should track common-law aiding-and-abetting limits and remain tethered to specific infringements through culpable participation, not a generalized duty to police. Under Twitter, Inc. v. Taamneh (2023), the mere provision of generally available services, even with awareness that some users misuse them, is not \u201cculpable conduct\u201d absent affirmative assistance that is closely connected to the underlying wrong; continued ordinary internet access after notices looks too much like the \u201cpassive\u201d relationship Taamneh rejected. Sony and Grokster likewise caution against converting distribution of a broadly lawful technology/service into secondary liability without a tighter showing of intent/encouragement or concrete, infringement-facilitating conduct beyond routine operation. A workable rule is that knowledge plus ordinary service is insufficient; plaintiffs must prove materially contributive, affirmative conduct (or willful, targeted assistance) tied to identifiable infringing acts or repeat infringements in a way that meaningfully narrows liability.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The Copyright Act\u2019s text imposes liability for infringement on those who violate the exclusive rights in \u00a7106, and it does not codify a broad secondary-liability regime in \u00a7501; any judge-made contributory rule should therefore hew closely to traditional aiding-and-abetting limits requiring conscious, voluntary, and culpable participation. Under Twitter, Inc. v. Taamneh (2023), merely providing routine \u201cinfrastructure\u201d after notice\u2014absent an independent duty to act\u2014does not constitute the affirmative, substantial assistance needed for secondary liability; continued provision of ordinary internet access looks like inaction, not purposeful facilitation of a specific offense. Sony and Grokster likewise counsel against expanding contributory liability where the service is widely lawful and the theory risks converting providers into general monitors; at minimum, the requisite intent/knowledge must be tied to specific acts and accompanied by a material contribution beyond ordinary service. Because the Fourth Circuit\u2019s approach effectively treats generalized notice plus continued service as the culpable act, it stretches contributory liability beyond these limiting principles and threatens separation-of-powers concerns by effectively rewriting the liability scheme Congress enacted.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Contributory copyright liability, as this Court\u2019s cases and common-law aiding-and-abetting principles indicate, requires a culpable affirmative act that materially assists infringement and a knowledge/intent showing tied to the specific tortious conduct, not merely continuing to provide a generally lawful service after receiving notices. Sony cautioned against expanding secondary liability so far that it sweeps in ordinary distribution of lawful technologies and services, and Grokster confined liability to situations involving purposeful facilitation (there, inducement) rather than passive provision. Taamneh reinforces that aiding-and-abetting demands \u201caffirmative act\u201d and \u201cintent of facilitating\u201d the offense, making the Fourth Circuit\u2019s rule\u2014treating continued internet access as the culpable act based on generalized repeat-infringement knowledge\u2014too attenuated and unworkable. Nothing in 17 U.S.C. \u00a7\u00a7 106 or 501 codifies such a broad negligence-like duty to terminate subscribers, so absent clearer congressional direction the Court should apply restraint and require more concrete material contribution to specific infringements.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "The Copyright Act\u2019s text (17 U.S.C. \u00a7\u00a7 106, 501) defines direct infringement but does not codify a broad regime of secondary liability, so any contributory-liability rule we recognize should hew closely to historically grounded aiding-and-abetting principles and our precedent rather than expand by analogy. Under Twitter, Inc. v. Taamneh (2023), liability for another\u2019s wrongdoing requires \u201cconscious, voluntary, and culpable participation,\u201d not \u201carm\u2019s length, passive, and largely indifferent\u201d provision of a generally lawful service; continued internet access after notices, without a more affirmative, infringement-fostering act and a tighter scienter link to specific infringements, looks more like failure to police than culpable assistance. Sony (1984) reinforces caution where the defendant supplies a product/service with substantial lawful uses, and Grokster (2005) confirms that when secondary liability is imposed it rests on more targeted culpable conduct (e.g., inducement) rather than mere knowledge plus ordinary provision. The Fourth Circuit\u2019s approach risks converting generalized notice and continued service into a de facto duty to terminate and thereby stretches judge-made doctrine beyond its methodological limits and the strongest showings of assistance and intent contemplated by Taamneh.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Contributory copyright infringement, as a judge-made doctrine anchored in common-law aiding-and-abetting principles, should require \u201cconscious, voluntary, and culpable participation\u201d through an affirmative act that substantially assists specific infringements, not mere continued provision of a generally lawful service after receiving notices. Twitter, Inc. v. Taamneh (2023) reinforces that knowledge alone plus routine services ordinarily is insufficient absent unusual, targeted assistance or purposeful facilitation, and the Fourth Circuit\u2019s approach risks collapsing secondary liability into a negligence-like duty to police subscribers\u2014an outcome with serious practical consequences for internet access and procedural fairness. Nothing in 17 U.S.C. \u00a7\u00a7 106 or 501 imposes such an affirmative monitoring/termination obligation on ISPs, and expanding liability in that direction would effectively rewrite the contours of secondary liability beyond Sony\u2019s caution against imposing liability based on distribution of products/services with substantial lawful uses. A narrower rule requiring material contribution beyond ordinary access service and a tighter knowledge/intent nexus to particular infringements better fits these precedents and avoids over-deterrence and arbitrary enforcement impacts.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.782,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.62,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.67,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.68,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.69,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.79,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.76,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_transcripts",
+    "repaired": true
+  },
+  {
+    "docket": "24-171",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v2",
+    "replicate": 2,
+    "has_transcripts": true,
+    "case_analysis": {
+      "focal_point": "Whether an internet service provider can be held liable for contributory copyright infringement based solely on continuing to provide internet access to subscribers after receiving notices that those subscribers are likely to infringe again.",
+      "legal_provision": "Copyright Act of 1976 (Title 17, U.S. Code) \u2014 judge-made secondary liability doctrine for contributory infringement (as discussed in relation to Sony), and the DMCA safe harbor framework in 17 U.S.C. \u00a7 512 (background context regarding ISP obligations/termination policies).",
+      "petitioner_position": "Cox argues that the Fourth Circuit improperly expanded contributory copyright liability by treating continued provision of a lawful, general-purpose service (internet access) with notice of a customer\u2019s likely future infringement as the required culpable act. In Cox\u2019s view, contributory infringement requires more than knowledge; it requires an affirmative act that materially contributes to specific instances of infringement or intentional participation/inducement-like conduct. Merely failing to terminate a subscriber (i.e., nonfeasance) is not \u2018material contribution\u2019 in the sense recognized by this Court\u2019s copyright precedents, and turning notice-plus-continuing-service into liability would pressure ISPs to over-terminate users, undermine stable internet access, and distort the balance Congress struck (including through \u00a7 512\u2019s safe-harbor scheme).",
+      "respondent_position": "Sony and the other rightsholder respondents argue that Cox is contributorily liable because it knowingly enabled ongoing infringement by subscribers and continued supplying the essential means of infringement\u2014connectivity\u2014after receiving repeated infringement notices tied to particular accounts. Respondents contend that \u2018material contribution\u2019 can be satisfied where a service provider, aware of ongoing infringement, continues to furnish the service that allows it to persist (especially when the provider has the practical ability to stop it by terminating or meaningfully intervening). They also emphasize that Grokster-style inducement is not the only path to contributory liability and that Cox\u2019s knowledge-plus-continuation in the face of persistent, identified infringement suffices under traditional contributory principles.",
+      "key_precedents": [
+        "Sony Corp. of America v. Universal City Studios, Inc. (Sony-Betamax)",
+        "MGM Studios Inc. v. Grokster, Ltd.",
+        "Twitter, Inc. v. Taamneh"
+      ],
+      "legal_complexity": "Complex"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The respondent\u2019s best point\u2014that repeated, specific notices plus an ISP\u2019s refusal to terminate looks like \u201cmaterial contribution\u201d because the ISP supplies an indispensable service\u2014still collapses the act requirement into knowledge-plus-inaction and effectively creates a notice-and-termination mandate. Justice Kagan\u2019s reliance on Taamneh is persuasive: our secondary-liability cases generally require affirmative, culpable assistance directed to wrongful acts, and ordinary continuation of a lawful, general-purpose service is a poor fit absent inducement or other infringement-specific facilitation. Justice Thomas\u2019s institutional caution reinforces my minimalist approach: because contributory infringement is judge-made and Congress addressed termination policies and incentives in \u00a7 512\u2019s calibrated scheme, we should not expand liability in a way that reengineers that statutory compromise. A narrow disposition vacating the Fourth Circuit and requiring concrete, infringement-specific affirmative assistance (beyond non-termination after notices) best preserves Sony/Grokster, respects \u00a7 512\u2019s structure, and leaves further adjustments to Congress.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The respondent\u2019s best point\u2014that repeated, specific notices plus continued service equals \u201cmaterial contribution\u201d\u2014still tries to convert knowledge-plus-inaction into the actus reus, a move with no footing in the Copyright Act\u2019s text and no clear anchor in the original public meaning of the statutory scheme. Chief Justice Roberts\u2019s concern is decisive: the Fourth Circuit\u2019s rule would effectively collapse Sony/Grokster into a judicially created notice-and-termination regime, even though Congress addressed termination policies and incentives in \u00a7 512\u2019s carefully limited, conditional framework. Justice Kagan\u2019s invocation of Taamneh reinforces the traditional common-law boundary: secondary liability generally requires affirmative, culpable assistance with a purposive nexus to the wrongdoing, not the mere continued provision of a lawful, general-purpose service. Because contributory infringement is judge-made, expanding it into an open-ended duty to disconnect users on accusation would be an especially unwarranted exercise of judicial power absent clear statutory command.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The respondent\u2019s best point remains that repeated, specific infringement notices plus continued service could be labeled \u201cmaterial contribution,\u201d but as Chief Justice Roberts emphasizes, that collapses the act requirement into knowledge-plus-inaction and effectively creates a notice-and-termination duty Congress did not enact. Justice Kagan\u2019s reliance on Taamneh is also persuasive: secondary liability traditionally requires affirmative, culpable assistance, and routine, arms-length provision of a lawful, general-purpose service\u2014even with awareness of some misuse\u2014does not fit that mold absent inducement-like conduct under Grokster or infringement-specific facilitation. Justice Thomas\u2019s reminder that contributory infringement is judge-made strengthens the institutional restraint point: given Congress\u2019s calibrated approach in DMCA \u00a7 512 (including termination-policy concepts as conditions, not freestanding duties), we should not expand liability in a way that predictably forces over-termination. On a textualist, consequences-aware view, respondent\u2019s theory is too unbounded and would erode Sony\u2019s protection for dual-use services.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "Respondent\u2019s best point remains that repeated, specific notices plus an ISP\u2019s decision not to terminate can be framed as a \u201cmaterial contribution\u201d because connectivity is indispensable to infringement. But as Justice Kagan persuasively explains, that reframing collapses the act requirement into knowledge-plus-inaction in tension with Taamneh\u2019s insistence on affirmative, culpable participation tied to particular wrongful acts, especially for arms-length providers of widely available services. Chief Justice Roberts\u2019s structural point about \u00a7 512 also matters to my pragmatic methodology: Congress already built a calibrated notice/termination-policy regime, and converting notices into a freestanding tort-like duty to cut off internet access would predictably drive over-termination, burden lawful speech, and disproportionately harm vulnerable users who rely on connectivity. Absent inducement-like conduct under Grokster or targeted facilitation beyond ordinary continued service, I do not think secondary liability can be extended this far consistent with precedent and real-world fairness.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "The strongest respondent move\u2014treating continued service after repeated, specific notices as \u201cmaterial contribution\u201d\u2014still fails because it converts knowledge-plus-inaction into the operative act, effectively imposing a judicial notice-and-termination duty untethered to the statute. Chief Justice Roberts\u2019s statutory-coherence point is decisive for me: Congress addressed termination-policy incentives and liability boundaries in \u00a7 512\u2019s calibrated scheme, so it would be structurally and textually odd to transform those safe-harbor conditions into a freestanding damages trigger. Taamneh\u2019s requirement of knowing and substantial, culpable assistance reinforces that ordinary, arms-length continuation of a lawful, general-purpose service is not infringement-specific affirmative aid absent inducement-like conduct under Grokster. Justice Thomas\u2019s reminder that this is judge-made doctrine heightens the institutional need to cabin liability to targeted facilitation rather than expanding it into an open-ended policing regime.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "Respondent\u2019s best point remains that repeated, specific notices plus continued service can be recast as \u201cmaterial contribution\u201d because the ISP supplies an indispensable means of infringement. But as Chief Justice Roberts explains, that recharacterization effectively makes knowledge-plus-nontermination the actus reus, collapsing Sony\u2019s dual-use protection and Grokster\u2019s insistence on culpable, targeted conduct into a judicially created notice-and-termination duty. Justice Thomas\u2019s separation-of-powers warning reinforces the institutional problem: because secondary liability here is judge-made and Congress addressed termination policies and notice incentives in \u00a7 512\u2019s calibrated scheme, we should not expand common-law-like doctrine to impose massive damages for mere continuation of a generally available service. Taamneh, as Justice Kagan notes, further supports the limiting principle that liability typically requires affirmative, culpable assistance tied to the wrongful act, not arms-length provision of a lawful service after awareness of alleged misuse.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.82,
+        "reasoning": "The respondent\u2019s best theory\u2014knowledge from repeated, specific notices plus continued service equals \u201cmaterial contribution\u201d\u2014still depends on converting nonfeasance into the actionable assistance, and I agree with Chief Justice Roberts that this would effectively graft a notice-and-termination mandate onto Sony/Grokster in a way Congress deliberately calibrated (and limited) in \u00a7 512. Taamneh, as Justice Kagan emphasizes, reinforces the traditional constraint that secondary liability turns on conscious, culpable participation; routine, arms-length provision of general internet access\u2014even after notice\u2014lacks the infringement-specific, affirmative facilitation that makes the assistance \u201csubstantial\u201d in the relevant sense. Justice Thomas\u2019s reminder that contributory infringement is judge-made heightens the institutional concern: expanding it here would predictably produce over-termination and regulatory spillovers better left to Congress. I therefore remain with petitioner and would vacate a notice-plus-nontermination rule absent inducement-like conduct or concrete, infringement-directed assistance.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.81,
+        "reasoning": "The respondent\u2019s best case\u2014repeated, specific notices plus continued service equals \u201cmaterial contribution\u201d because access is indispensable\u2014still tries to convert knowledge-plus-inaction into the affirmative act our cases require. As Justice Kagan persuasively frames it through Taamneh, secondary liability turns on \u201cknowing and substantial\u201d culpable participation, and routine, arms-length provision of general-purpose connectivity (even after notice) is not infringement-specific assistance absent inducement-like conduct under Grokster or other targeted facilitation. Chief Justice Roberts\u2019s structural point about \u00a7 512 matters under my methodology: Congress addressed notice and termination policies through calibrated safe-harbor incentives, and we should not judicially transpose those conditions into a freestanding common-law duty to terminate on accusation. Sony\u2019s dual-use principle would be hollowed out if mere continuation of a lawful service after notices sufficed, so I would vacate the Fourth Circuit\u2019s notice-and-nontermination rule and require affirmative, infringement-specific facilitation.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.8,
+        "reasoning": "The strongest respondent point\u2014that continued service after repeated, specific notices is an affirmative \u201cmaterial contribution\u201d because connectivity is indispensable\u2014still, in my view, collapses actus reus into omission and effectively installs a broad notice-and-termination duty with severe spillover for lawful access. Justice Kagan\u2019s Taamneh-based framing is persuasive: ordinary, arms-length provision of a generally available service remains \u201cpassive\u201d absent targeted, culpable assistance tied to particular infringement episodes or inducement-like conduct under Grokster. Chief Justice Roberts\u2019s statutory-coherence concern matters to my pragmatic, procedure-focused approach: Congress calibrated termination-policy incentives and conditions in \u00a7 512, and converting notices into automatic tort exposure predictably yields over-termination and under-protects accused users without reliable process. Because that practical and doctrinal line is administrable and better aligned with Sony\u2019s dual-use caution, I do not see a respondent argument that undermines our limiting principles here.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.66,
+        "reasoning": "Imposing contributory copyright liability based solely on an ISP\u2019s continued provision of a lawful, general-purpose service after receiving infringement notices risks collapsing the Sony rule into a notice-and-termination regime that Congress addressed separately in the DMCA, 17 U.S.C. \u00a7 512, and would pressure over-termination with serious consequences for lawful expression and access. Our approach in Twitter, Inc. v. Taamneh counsels that secondary liability requires culpable, affirmative assistance\u2014\u201cknowing and substantial\u201d participation\u2014rather than arms-length, routine service provision that is largely indifferent to wrongdoing, even when the provider has some awareness of misuse. Sony and Grokster together point to the same limiting principle: knowledge that a product or service can be used to infringe (or is being used by some users) is not enough without an additional, targeted act that materially contributes to or induces specific infringement. A narrow disposition vacating the Fourth Circuit\u2019s rule and requiring proof of affirmative, infringement-specific assistance (beyond non-termination) best preserves precedent and institutional stability while leaving Congress room to calibrate ISP obligations under \u00a7 512.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "The Copyright Act contains no textual provision imposing secondary liability, and this Court has repeatedly treated contributory infringement as a judge-made doctrine that must be kept within traditional common-law limits. Under Twitter, Inc. v. Taamneh, secondary liability for generally available services requires an affirmative act undertaken with the intent to facilitate the wrongful conduct, not mere continued provision of a lawful service after receiving notices. Extending contributory liability to an ISP based solely on notice plus non-termination would effectively create a broad statutory duty to cut off users\u2014an obligation Congress addressed (and limited) through the DMCA\u2019s safe-harbor framework in 17 U.S.C. \u00a7 512 rather than through freestanding liability. Consistent with Sony\u2019s caution about expanding judge-made copyright liability for dual-use technologies and Grokster\u2019s focus on intentional inducement, the Fourth Circuit\u2019s notice-plus-continuing-service theory departs from the original public meaning of the statute and should not be adopted.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.78,
+        "reasoning": "Traditional contributory copyright liability requires more than knowledge that infringement is likely; it requires some affirmative, culpable conduct that intentionally aids or materially contributes to specific infringing acts, not mere continued provision of a lawful, general-purpose service. Taamneh reinforces that secondary liability is not triggered by knowledge-plus-inaction, but by \u201caffirmative and culpable\u201d assistance, and that limiting principle applies by analogy here where the alleged \u201cact\u201d is simply failing to terminate service. Sony cautions against imposing secondary liability based on the distribution of products or services capable of substantial lawful use, and the DMCA\u2019s safe-harbor framework in 17 U.S.C. \u00a7 512 confirms Congress addressed ISP obligations and termination policies without creating a notice-plus-continuing-service tort. Expanding liability on these facts would predictably induce over-termination and distort the balance Congress struck, while sweeping ordinary network operations into massive damages exposure absent inducement-like conduct under Grokster.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Imposing contributory copyright liability based solely on an ISP\u2019s continued provision of a lawful, generally available service after receiving infringement notices risks collapsing the \u201cmaterial contribution\u201d requirement into mere knowledge-plus-nonfeasance, an expansion this Court has resisted in analogous secondary-liability contexts. As Taamneh emphasizes, secondary liability typically demands culpable, affirmative conduct that is knowing and substantial\u2014not simply providing a widely available platform or service that could be misused after notice\u2014 and that framework counsels against treating \u201ccontinued service\u201d alone as substantial assistance/material contribution. Sony likewise cautions against turning the provision of a product/service with substantial lawful uses into liability absent something more like intentional encouragement or targeted assistance, while the DMCA\u2019s \u00a7 512 structure (including termination-policy expectations) suggests Congress calibrated ISP obligations through safe-harbor conditions rather than a broad judge-made duty to terminate on notice. Given the real-world stakes for access to essential internet service\u2014especially for vulnerable users\u2014liability should require proof of affirmative acts that intentionally further specific infringement (or inducement under Grokster), not just continued connectivity after allegations.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Contributory infringement, as this Court has framed it, requires more than knowledge that wrongdoing is likely; it requires \u201cpurposeful, culpable\u201d participation\u2014an affirmative act that is intended to further specific infringement, not mere continuation of a lawful, generally available service. Taamneh is especially instructive: we \u201cgenerally do not think that internet or cell service providers incur culpability merely for providing their services to the public writ large,\u201d and aiding-and-abetting analogues demand an affirmative act \u201cwith the intent of facilitating\u201d the offense. Grokster likewise rejects liability based on \u201cfailure to take affirmative steps to prevent infringement\u201d absent inducement-type conduct, and reading \u201cmaterial contribution\u201d to include non-termination after notices would be difficult to cabin and would sit uneasily with Congress\u2019s calibrated ISP framework in \u00a7 512 (including termination-policy concepts) without converting safe-harbor conditions into freestanding tort duties. A narrower rule\u2014requiring targeted, intentional facilitation or concrete assistance tied to identifiable infringement episodes\u2014better preserves statutory coherence and workability while leaving Congress room to adjust ISP obligations if it chooses.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.74,
+        "reasoning": "Our precedents have treated contributory copyright liability as demanding more than knowledge that a third party may infringe; it requires culpable, affirmative participation that materially contributes to specific acts of infringement, not mere nonfeasance in continuing to offer a generally lawful, substantial-noninfringing service. Sony cautioned against imposing secondary liability where the product or service is widely lawful, and Grokster confirms liability turns on targeted, blameworthy conduct (there, inducement) rather than neutral provision of a tool. Taamneh, though arising outside copyright, reinforces the common-law baseline that secondary liability ordinarily requires \u201caffirmative and culpable\u201d assistance, not \u201cpassive\u201d and \u201cindifferent\u201d continuation of an arms-length service after notice. And Congress\u2019s DMCA framework in 17 U.S.C. \u00a7 512, including its conditional safe harbors and termination-policy provisions, counsels against judicially converting notice-plus-continuing-access into a freestanding duty to terminate on pain of massive damages.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.73,
+        "reasoning": "Contributory copyright liability, as this Court has recognized in cases like Sony and Grokster, requires more than notice-based knowledge coupled with continued operation of a lawful, general-purpose service; it demands culpable, material participation tied to infringement, not mere nonfeasance. Twitter, Inc. v. Taamneh reinforces the traditional limit that secondary liability turns on \u201cconscious, voluntary, and culpable participation,\u201d and that a defendant\u2019s alleged failure to stop misuse of a generally available service is insufficient absent an affirmative facilitative act. Reading notice-plus-continuing-internet-access as the actus reus would expand judge-made secondary liability beyond historically grounded bounds and create serious workability and over-termination pressures inconsistent with Congress\u2019s calibrated framework in 17 U.S.C. \u00a7 512 (which addresses ISP policies and incentives through safe harbors rather than open-ended liability). The better course, consistent with precedent and institutional restraint, is to reject liability premised solely on continued provision of internet access after receiving infringement notices.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.72,
+        "reasoning": "Contributory copyright infringement is a judge-made doctrine, and our cases have treated it as requiring more than notice of likely wrongdoing plus provision of a lawful, general-purpose service; it requires a culpable affirmative act that materially contributes to specific infringement, or inducement-like purposeful facilitation. Sony cautioned against imposing liability based on distribution of a product or service capable of substantial lawful use, and Grokster confirmed that liability turns on intentional, culpable participation (there, inducement), not mere knowledge paired with continued availability of infrastructure. Twitter, Inc. v. Taamneh reinforces the same limiting principle for secondary liability: knowing continuation of ordinary services, absent an independent duty to act, is generally inaction rather than \u201cconscious, voluntary, and culpable participation\u201d in particular wrongful acts. Section 512\u2019s safe-harbor framework (including termination-policy provisions) further suggests Congress addressed ISP responsibilities in calibrated terms, counseling against expanding judge-made contributory liability to \u201cnotice-plus-continued-service\u201d alone.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Petitioner",
+        "confidence": 0.7,
+        "reasoning": "Contributory copyright liability, like other judge-made secondary liability doctrines, requires a culpable affirmative act that materially assists specific infringement, not merely knowledge plus continued provision of a generally available, lawful service. Twitter, Inc. v. Taamneh underscores this actus reus/mens rea boundary: secondary liability ordinarily demands \u201csome affirmative act\u201d undertaken with the intent to facilitate the wrongful conduct, and continuing ordinary platform/service operations in the face of general awareness is not enough. Treating an ISP\u2019s failure to terminate (nonfeasance) upon receipt of notices as \u201cmaterial contribution\u201d risks undermining procedural fairness by incentivizing over-termination of internet access and effectively reworking Congress\u2019s calibrated framework in 17 U.S.C. \u00a7 512 (including termination-policy concepts) through expansive common-law liability. Sony and Grokster remain consistent with limiting liability for providers of substantial noninfringing uses absent inducement-like conduct or targeted assistance tied to particular infringing acts.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 9,
+    "respondent_votes": 0,
+    "predicted_winner": "Petitioner",
+    "vote_split": "9-0",
+    "average_confidence": 0.806,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.72,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.7,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.75,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Petitioner",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.81,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Petitioner",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_transcripts"
+  }
+]

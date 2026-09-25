@@ -1,0 +1,70 @@
+{
+ "docket": "22-196",
+ "term": 2022,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T10:58:04+00:00",
+ "predicted_winner": "Respondent",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Samuel Alito",
+  "Elena Kagan",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.4,
+  "Clarence Thomas": 0.1,
+  "Samuel Alito": 0.12,
+  "Elena Kagan": 0.12,
+  "Neil Gorsuch": 0.08,
+  "Brett Kavanaugh": 0.1,
+  "Amy Coney Barrett": 0.08
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.1,
+   "concurs": 0.1
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.55,
+   "concurs": 0.55
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.9,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.3,
+   "concurs": 0.3
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.15,
+   "concurs": 0.15
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.85,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts, as Chief Justice in the majority, is most likely to assign the opinion to himself given his stated interest in writing narrowly to reaffirm Richardson's facial incrimination standard while clarifying Gray, preserving an administrable framework. Thomas is likely to write separately to ground the result in originalist methodology, while Sotomayor and Jackson will almost certainly author or join a dissent articulating the contextual transparency standard they advocated.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.40,\n    \"Clarence Thomas\": 0.10,\n    \"Samuel Alito\": 0.12,\n    \"Elena Kagan\": 0.12,\n    \"Neil Gorsuch\": 0.08,\n    \"Brett Kavanaugh\": 0.10,\n    \"Amy Coney Barrett\": 0.08\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.10, \"concurs\": 0.10},\n    \"Clarence Thomas\": {\"writes_separately\": 0.55, \"concurs\": 0.55},\n    \"Samuel Alito\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Elena Kagan\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.30, \"concurs\": 0.30},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.15, \"concurs\": 0.15},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.90, \"concurs\": 0},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.85, \"concurs\": 0}\n  },\n  \"rationale\": \"Roberts, as Chief Justice in the majority, is most likely to assign the opinion to himself given his stated interest in writing narrowly to reaffirm Richardson's facial incrimination standard while clarifying Gray, preserving an administrable framework. Thomas is likely to write separately to ground the result in originalist methodology, while Sotomayor and Jackson will almost certainly author or join a dissent articulating the contextual transparency standard they advocated.\"\n}\n```"
+}

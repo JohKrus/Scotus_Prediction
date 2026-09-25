@@ -128,6 +128,64 @@ def is_court_opinion(file_path: Path) -> bool:
     return False
 
 
+# --- Oral argument transcript detection ---
+#
+# Same problem as opinion detection: filenames from the Court's site are often
+# opaque (e.g. 23-1137_o7jq.pdf), so a filename-only test silently misses
+# transcripts and leaves the oral-argument channel empty.
+
+# Title-page and boilerplate markers unique to argument transcripts.
+_TRANSCRIPT_HEADER_RE = re.compile(
+    r"(came\s+on\s+for\s+oral\s+argument"
+    r"|subject\s+to\s+final\s+review"
+    r"|official\s+transcript"
+    r"|oral\s+argument\s+of\s+[A-Z][^,\n]{2,40},?\s*(?:esq|on\s+behalf\s+of))",
+    re.I,
+)
+
+# Speaker turns. Transcripts label every turn in caps ("JUSTICE KAGAN:",
+# "MR. SMITH:", "GENERAL PRELOGAR:"). extract_chunks() collapses newlines into
+# spaces, so these cannot be anchored to line starts — they are matched inline
+# and counted instead.
+_TRANSCRIPT_SPEAKER_RE = re.compile(
+    r"(?:CHIEF\s+JUSTICE|JUSTICE|MR|MS|MRS|GENERAL)\.?\s+[A-Z][A-Z'\-]+\s*:"
+)
+
+# A chunk this speaker-dense is argument colloquy, not prose quoting it.
+_TRANSCRIPT_MIN_TURNS = 4
+# ...and this share of a file's chunks must be that dense, so that a brief
+# block-quoting a single exchange is not reclassified as a transcript.
+#
+# Calibrated on real filings rather than guessed: six OT2025 transcripts from
+# supremecourt.gov run 19-36% dense (long advocate answers span whole chunks with
+# no speaker label, which is why the figure is not higher), while five real briefs
+# — including one of 698 chunks — contain zero speaker turns. 10% sits well clear
+# of both. The floor of 2 keeps a short brief quoting one exchange from tripping
+# the fraction test.
+_TRANSCRIPT_MIN_DENSE_FRACTION = 0.10
+_TRANSCRIPT_MIN_DENSE_CHUNKS = 2
+
+
+def speaker_turn_count(text: str) -> int:
+    """Number of transcript-style speaker labels in a chunk of extracted text."""
+    return len(_TRANSCRIPT_SPEAKER_RE.findall(text))
+
+
+def is_oral_argument_document(chunk_texts: list[str]) -> bool:
+    """Whether one PDF's extracted chunks are an oral argument transcript.
+
+    Content-first, mirroring is_court_opinion(). A header marker is decisive;
+    otherwise the file must be broadly speaker-dense across its chunks.
+    """
+    if not chunk_texts:
+        return False
+    if any(_TRANSCRIPT_HEADER_RE.search(t) for t in chunk_texts):
+        return True
+    dense = sum(1 for t in chunk_texts if speaker_turn_count(t) >= _TRANSCRIPT_MIN_TURNS)
+    return dense >= max(_TRANSCRIPT_MIN_DENSE_CHUNKS,
+                        int(_TRANSCRIPT_MIN_DENSE_FRACTION * len(chunk_texts)))
+
+
 # --- Document-type classification by filename ---
 DOC_TYPE_PATTERNS = {
     "Petition for Certiorari": re.compile(r"(cert|petition|appforcert|petitionforwrit)", re.I),

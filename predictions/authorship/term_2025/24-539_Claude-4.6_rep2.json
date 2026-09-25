@@ -1,0 +1,66 @@
+{
+ "docket": "24-539",
+ "term": 2025,
+ "llm_model": "Claude-4.6",
+ "replicate": 2,
+ "model_id_requested": "claude-sonnet-4-6",
+ "model_id_resolved": "claude-sonnet-4-6",
+ "prompt_version": "authorship-v1",
+ "temperature": 0.3,
+ "created_utc": "2026-09-24T11:12:05+00:00",
+ "predicted_winner": "Petitioner",
+ "predicted_majority": [
+  "John Roberts",
+  "Clarence Thomas",
+  "Neil Gorsuch",
+  "Brett Kavanaugh",
+  "Amy Coney Barrett"
+ ],
+ "majority_author": {
+  "John Roberts": 0.65,
+  "Clarence Thomas": 0.1,
+  "Neil Gorsuch": 0.1,
+  "Brett Kavanaugh": 0.08,
+  "Amy Coney Barrett": 0.07
+ },
+ "separate_writings": {
+  "John Roberts": {
+   "writes_separately": 0.05,
+   "concurs": 0.05
+  },
+  "Clarence Thomas": {
+   "writes_separately": 0.75,
+   "concurs": 0.75
+  },
+  "Samuel Alito": {
+   "writes_separately": 0.7,
+   "concurs": 0.0
+  },
+  "Sonia Sotomayor": {
+   "writes_separately": 0.75,
+   "concurs": 0.0
+  },
+  "Elena Kagan": {
+   "writes_separately": 0.55,
+   "concurs": 0.0
+  },
+  "Neil Gorsuch": {
+   "writes_separately": 0.35,
+   "concurs": 0.35
+  },
+  "Brett Kavanaugh": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Amy Coney Barrett": {
+   "writes_separately": 0.2,
+   "concurs": 0.2
+  },
+  "Ketanji Brown Jackson": {
+   "writes_separately": 0.65,
+   "concurs": 0.0
+  }
+ },
+ "rationale": "Roberts explicitly stated he would assign the opinion to himself to control the narrowness of the holding, favoring a remand for heightened scrutiny rather than categorical invalidation, making him the overwhelming favorite as majority author. Thomas is likely to write separately to advocate for a broader, stricter categorical rule, while Alito's unusual dissent from the petitioner side and Sotomayor's strong dissent make separate writings highly probable among the minority.",
+ "raw_response": "```json\n{\n  \"majority_author\": {\n    \"John Roberts\": 0.65,\n    \"Clarence Thomas\": 0.10,\n    \"Neil Gorsuch\": 0.10,\n    \"Brett Kavanaugh\": 0.08,\n    \"Amy Coney Barrett\": 0.07\n  },\n  \"separate_writings\": {\n    \"John Roberts\": {\"writes_separately\": 0.05, \"concurs\": 0.05},\n    \"Clarence Thomas\": {\"writes_separately\": 0.75, \"concurs\": 0.75},\n    \"Neil Gorsuch\": {\"writes_separately\": 0.35, \"concurs\": 0.35},\n    \"Brett Kavanaugh\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Amy Coney Barrett\": {\"writes_separately\": 0.20, \"concurs\": 0.20},\n    \"Samuel Alito\": {\"writes_separately\": 0.70, \"concurs\": 0.00},\n    \"Sonia Sotomayor\": {\"writes_separately\": 0.75, \"concurs\": 0.00},\n    \"Elena Kagan\": {\"writes_separately\": 0.55, \"concurs\": 0.00},\n    \"Ketanji Brown Jackson\": {\"writes_separately\": 0.65, \"concurs\": 0.00}\n  },\n  \"rationale\": \"Roberts explicitly stated he would assign the opinion to himself to control the narrowness of the holding, favoring a remand for heightened scrutiny rather than categorical invalidation, making him the overwhelming favorite as majority author. Thomas is likely to write separately to advocate for a broader, stricter categorical rule, while Alito's unusual dissent from the petitioner side and Sotomayor's strong dissent make separate writings highly probable among the minority.\"\n}\n```"
+}

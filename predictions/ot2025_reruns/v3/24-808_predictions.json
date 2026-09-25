@@ -1,0 +1,632 @@
+[
+  {
+    "docket": "24-808",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 1,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a Rule 60(b)(4) motion seeking to vacate a default judgment as void for lack of personal jurisdiction is subject to Rule 60(c)(1)\u2019s requirement that such motions be brought within a \u201creasonable time,\u201d or may be brought at any time.",
+      "legal_provision": "Federal Rules of Civil Procedure 60(b)(4) (void judgments) and 60(c)(1) (timing: \u201cwithin a reasonable time\u201d for motions under Rule 60(b)); underlying due process/personal-jurisdiction principles.",
+      "petitioner_position": "Petitioner argues that a judgment entered without personal jurisdiction is void ab initio, and because void judgments are legal nullities, Rule 60(c)(1) should not impose any time limit on Rule 60(b)(4) motions challenging such judgments. In petitioner\u2019s view, applying a \u201creasonable time\u201d restriction improperly converts a jurisdictional defect into something like a forfeitable error, allowing a court to leave a void judgment in place merely due to delay.",
+      "respondent_position": "Respondent argues the text of Rule 60(c)(1) is straightforward: any motion under Rule 60(b)\u2014including (b)(4)\u2014must be filed within a reasonable time. Respondent emphasizes this Court\u2019s recent statement in Kemp that \u201call\u201d Rule 60(b) motions must be filed within a reasonable time, and contends petitioner\u2019s no-deadline rule would undermine finality and disrupt reliance interests (here, a nearly fully administered Chapter 7 estate), inviting strategic delay and chaos.",
+      "key_precedents": [
+        "Kemp v. United States (cited for the proposition that all Rule 60(b) motions must be filed within a reasonable time)",
+        "Klapprott v. United States, 335 U.S. 601 (1949) (discussed regarding time limits and Rule 60(b)(4) voidness analysis)",
+        "United Student Aid Funds, Inc. v. Espinosa, 559 U.S. 260 (2010) (cited as suggesting void-judgment attacks may be available and referencing treatises/cases)",
+        "United States v. Boch Oldsmobile, Inc., 909 F.2d 657 (1st Cir. 1990) (cited via Espinosa discussion on void judgments/timing)",
+        "United States for Use & Benefit of Mosher Steel Co. v. Fluor Corp., 436 F.2d 383 (2d Cir. 1970) (comity/registration court discretion reference in the record excerpts)",
+        "Allstate Life Ins. Co. v. Linter Group Ltd., 994 F.2d 996 (2d Cir. 1993) (discretion/comity reference in the record excerpts)",
+        "Link v. Wabash R.R. Co., 370 U.S. 626 (1962) (inherent power/docket management reference in the record excerpts)"
+      ],
+      "legal_complexity": "Moderate"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "I remain with Respondent because Rule 60(c)(1) supplies the threshold limit on a federal court\u2019s authority to reopen a final judgment: it states in mandatory, unqualified terms that a motion under Rule 60(b) \u201cmust be made within a reasonable time,\u201d and it contains no carveout for (b)(4). Justice Alito\u2019s sequencing point is decisive\u2014timeliness is the antecedent procedural question, and only if the movant clears that gate do we reach whether the judgment is \u201cvoid,\u201d a category our precedents treat as narrow rather than a perpetual license to unsettle reliance. Petitioner\u2019s \u201clegal nullity\u201d maxim is strongest in cases of lack of notice, but as Justice Kagan and Justice Kavanaugh explain, that concern can be accommodated within the flexible reasonable-time inquiry without rewriting the Rule to create an atextual exemption. Given the near-complete Chapter 7 administration, the reliance and prejudice considerations properly inform what counts as \u201creasonable,\u201d preserving due process while respecting finality.",
+        "is_final": true
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "The petitioner\u2019s strongest contention\u2014that a void judgment is a legal nullity susceptible to attack at any time\u2014cannot override the Federal Rules\u2019 text. As the Chief Justice notes, Rule 60(c)(1) states without qualification that a motion under Rule 60(b) \u201cmust be made within a reasonable time,\u201d and the Rule\u2019s structure confirms the drafters knew how to create categorical timing exceptions when they wished (as with the one-year cap for (b)(1)\u2013(3)), yet did not exempt (b)(4). Justice Alito is right about sequencing: timeliness under (c)(1) is a threshold condition on the court\u2019s authority to reopen, and only then do we reach whether the judgment is void. On these facts, where a Chapter 7 estate has been substantially administered and reliance interests have crystallized, \u201creasonable time\u201d has real force and bars a belated Rule 60(b)(4) motion without inventing an atextual carveout.",
+        "is_final": true
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Petitioner\u2019s \u201clegal nullity\u201d maxim is the best they have, but it cannot do the work of rewriting Rule 60(c)(1), which by its terms governs any motion \u201cunder Rule 60(b)\u201d and contains no carveout for (b)(4). I agree with Chief Justice Roberts and Justice Thomas that we must address first the threshold question whether the court has rule-based power to reopen a final judgment\u2014timeliness\u2014before reaching the downstream contention that the original judgment was void for lack of personal jurisdiction. The reasonable-time standard is sufficiently flexible to account for genuine lack-of-notice situations without converting (b)(4) into a perpetual reopening device, and the reliance interests emphasized by Justice Kavanaugh are especially weighty given the near-complete administration of the Chapter 7 estate. Nothing in the colleagues\u2019 discussion supplies a doctrinally grounded distinction that would justify creating an atextual exemption here.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Petitioner\u2019s best argument remains the maxim that a void judgment is a legal nullity subject to attack at any time, but that principle cannot displace Rule 60\u2019s own sequencing and limits on collateral reopening. As Justice Kagan and the Chief Justice emphasize, Rule 60(c)(1) applies to any motion \u201cunder Rule 60(b)\u201d and contains no carveout for (b)(4); creating a timeless exception would invite serial, destabilizing collateral attacks precisely when finality and reliance interests are at their apex, as in this nearly administered Chapter 7 estate. The better way to respect truly void judgments is through the flexible \u201creasonable time\u201d inquiry\u2014which can account for lack of notice or inability to act\u2014without rewriting the Rule into an unlimited reopening mechanism. On these facts, the reliance and delay concerns make the district court\u2019s timeliness determination a proper threshold barrier before reaching the merits of \u201cvoidness,\u201d as Justice Alito notes.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.82,
+        "reasoning": "Petitioner\u2019s best point remains the traditional maxim that a void judgment is a legal nullity, and so can be attacked at any time\u2014but that principle cannot override the Federal Rules\u2019 timing architecture. As the Chief Justice and Justice Thomas emphasize, Rule 60(c)(1) applies to any motion \u201cunder Rule 60(b)\u201d and contains no carveout for (b)(4); after Kemp, we should be especially wary of implying an exemption the text does not supply. Functionally, making (b)(4) timeless would convert Rule 60 from a bounded, post-judgment corrective mechanism into a perpetual reopening device, undermining finality and reliance interests that are acute here given the near-complete Chapter 7 administration. The right way to respect truly jurisdictionless or notice-deficient cases is within the flexible \u2018reasonable time\u2019 inquiry\u2014not by reading an atextual no-deadline rule into the Rule.",
+        "is_final": true
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best point remains the traditional maxim that a void judgment is a nullity and so may be attacked at any time, but we are not writing on a blank slate\u2014we are applying Rule 60 as written. As the Chief Justice notes, Rule 60(c)(1) states categorically that a motion \u201cunder Rule 60(b) must be made within a reasonable time,\u201d and it supplies no textual carveout for (b)(4); the Rule\u2019s structure (one-year cap only for (b)(1)\u2013(3)) confirms the drafters knew how to create distinct timing regimes when they wished. Justice Kavanaugh\u2019s emphasis on the fact-dependent nature of \u201creasonable time\u201d answers the due-process concern without converting (b)(4) into a perpetual reopening device, especially where reliance interests are acute in a nearly administered Chapter 7 estate. We should treat timeliness as the threshold inquiry, and only if the movant clears it do we reach whether the judgment is truly \u201cvoid\u201d in the narrow sense our precedents recognize.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.85,
+        "reasoning": "Petitioner\u2019s best argument is the longstanding maxim that a truly void judgment is a legal nullity and thus open to attack at any time. But as the Chief Justice explains, our authority to reopen final judgments in federal court here runs through Rule 60, and Rule 60(c)(1) states in mandatory terms that a motion under Rule 60(b) \u201cmust be made within a reasonable time,\u201d with no textual carveout for (b)(4)\u2014a point reinforced by Justice Kagan\u2019s reliance on Kemp\u2019s instruction that the reasonable-time requirement applies to all Rule 60(b) motions. The reasonable-time standard is also administrable and accommodates the exceptional case (e.g., lack of notice) without creating a perpetual reopening regime that would undermine finality and third-party reliance interests, particularly acute in a nearly fully administered Chapter 7 estate as Justice Barrett emphasized. Any categorical \u201ctimeless\u201d exception for (b)(4) is better viewed as a policy innovation for the rulemaking process, not something we should judicially add to the Rule\u2019s structure.",
+        "is_final": true
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.83,
+        "reasoning": "Petitioner\u2019s \u201clegal nullity\u201d maxim has intuitive force in the personal-jurisdiction context, but it cannot supply an atextual exemption from Rule 60(c)(1)\u2019s categorical command that a motion under Rule 60(b) \u201cmust be made within a reasonable time.\u201d As Chief Justice Roberts and Justice Thomas emphasize, the Rule\u2019s structure confirms the point: the drafters knew how to impose different timing rules and did so expressly for (b)(1)\u2013(3), leaving (b)(4) within the reasonable-time baseline rather than outside all temporal limits. Justice Alito is right that timeliness is the threshold question of the court\u2019s rule-based authority to reopen a final judgment; only if that condition is satisfied do we reach whether the judgment is void. And as Justice Kagan notes, reading (b)(4) as timeless would produce an administratively perverse, reliance-disrupting regime\u2014especially in a nearly administered Chapter 7 estate\u2014without textual warrant.",
+        "is_final": true
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.8,
+        "reasoning": "Petitioner\u2019s best point\u2014the maxim that a void judgment is a legal nullity subject to attack at any time\u2014cannot supersede the Federal Rules\u2019 own framework for post-judgment reopening. As Chief Justice Roberts and Justice Kagan emphasize, Rule 60(c)(1) imposes a Rule-wide, mandatory \u201creasonable time\u201d limit on any motion \u201cunder Rule 60(b),\u201d with no textual carveout for (b)(4); treating (b)(4) as timeless would collapse the Rule\u2019s finality-justice balance and effectively create an atextual exception. Consistent with the mutual exclusivity of Rule 60(b)\u2019s subsections, this motion belongs under (b)(4), but that categorization selects the ground for relief\u2014it does not displace the threshold timeliness requirement. On abuse-of-discretion review, it was permissible for the district court to conclude that an unexplained delay, coupled with substantial reliance interests in a nearly administered Chapter 7 estate, rendered the motion untimely even assuming voidness is narrowly defined.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Respondent",
+        "confidence": 0.66,
+        "reasoning": "The starting point is the Rules\u2019 own framework: Rule 60(c)(1) states that a motion under Rule 60(b)\u2014without excluding subsection (b)(4)\u2014must be made \u201cwithin a reasonable time,\u201d and reading (b)(4) as exempt would require an atextual carveout inconsistent with the Rule\u2019s structure. Our void-judgment cases also treat \u201cvoid\u201d in Rule 60(b)(4) as a narrow category (reserved for the exceptional case where the rendering court lacked even an arguable jurisdictional basis), and they make clear that Rule 60(b)(4) is not a license to sleep on one\u2019s rights when the movant had notice and an opportunity to object. On these facts, where the judgment has long since been relied upon in a nearly fully administered Chapter 7 estate, allowing an anytime attack would disserve finality and fairness, and the \u201creasonable time\u201d inquiry can accommodate genuine lack-of-notice situations without converting due-process limits into forfeitable merits errors. Because the case can be resolved on the Rules\u2019 text and our conduct-and-fairness understanding of due process and voidness, there is no need to adopt broader theories that would unsettle settled judgments.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Respondent",
+        "confidence": 0.73,
+        "reasoning": "Rule 60(c)(1) states categorically that \u201c[a] motion under Rule 60(b) must be made within a reasonable time,\u201d and nothing in the text, structure, or history of Rule 60 carves out an exception for motions brought under Rule 60(b)(4). The Rule\u2019s architecture reinforces that conclusion: the drafters imposed an additional one-year cap for reasons (1)\u2013(3) but chose not to create a different timing rule for (b)(4), so we should not rewrite the Rule to add a no-deadline regime. Treating (b)(4) motions as exempt would dilute Rule 60(c)(1)\u2019s command by importing an atextual \u201clegal nullity\u201d concept that displaces the Rule\u2019s sequencing\u2014first satisfy the invoked subsection, but still comply with the timing framework the Rule expressly attaches to all 60(b) motions. On these facts\u2014where the movant waited long enough that the opposing side asserts substantial reliance/finality interests in a nearly administered Chapter 7 estate\u2014the \u201creasonable time\u201d requirement has real work to do, and the motion may be denied as untimely without converting personal-jurisdiction limits into a forfeitable merits error.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The threshold question is the court\u2019s procedural authority to reopen a final judgment under the Federal Rules, and Rule 60(c)(1) states in mandatory terms that a motion \u201cunder Rule 60(b) must be made within a reasonable time,\u201d without carving out an exception for (b)(4). Treating petitioner\u2019s filing by its substance, it is a Rule 60(b)(4) request to reopen the default judgment; that procedural power exists only on the conditions the Rule itself imposes, and the Rule\u2019s structure (including a special one-year limit for (b)(1)\u2013(3) but none for (b)(4)) confirms that (b)(4) remains governed by the \u201creasonable time\u201d requirement rather than exempt from timing limits altogether. Allowing an at-any-time attack would expand what the Rules accomplish beyond their proper role and would undermine finality and reliance interests in the specific posture here, where the judgment has been relied on in the near-complete administration of a Chapter 7 estate. Once timeliness (the court\u2019s authority to reopen) is resolved under Rule 60(c)(1), only then may a court proceed to the downstream question whether the judgment is actually void for lack of personal jurisdiction.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "Rule 60(b)(4) functions as a collateral attack on a completed judgment and, under settled doctrine, a Rule 60(b) motion \u201cdoes not affect the [original] judgment\u2019s finality or suspend its operation,\u201d instead proceeding as a separate, later challenge\u2014precisely the posture in which timing limits serve finality and delay-prevention values. Reading Rule 60(c)(1) to exempt (b)(4) motions would invite serial, strategic delay and destabilize reliance interests built on the judgment\u2019s continued operation (here, a nearly fully administered Chapter 7 estate), undermining the systemic interest in finality that the Rules are designed to protect. The text of Rule 60(c)(1) draws no (b)(4) exception, and this Court\u2019s recent instruction that \u201call\u201d Rule 60(b) motions must be filed \u201cwithin a reasonable time\u201d confirms that the proper balance is enforced through the reasonable-time inquiry rather than an unlimited collateral-attack regime. On these facts\u2014where the judgment has long operated and third-party reliance has accrued\u2014the reasonable-time requirement is essential to prevent exactly the kind of disruptive after-the-fact undoing petitioner seeks.",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "The Rules\u2019 text and structure resolve the timing question: Rule 60(c)(1) says that a motion under Rule 60(b) \u201cmust be made within a reasonable time,\u201d and nothing in that provision carves out Rule 60(b)(4). Reading (b)(4) as exempt would disrupt the procedural architecture that ties post-judgment mechanisms to finality and reliance, especially where (as here) the default judgment has been treated as operative long enough to shape substantial downstream reliance (a nearly fully administered Chapter 7 estate). Consistent with how courts have long treated Rule 60 as a limited, administrable avenue for relief rather than a perpetual reopen-the-case device, \u201cvoidness\u201d under (b)(4) can justify strong merits relief in exceptional jurisdictional-defect cases, but it does not erase Rule 60(c)(1)\u2019s independent, rule-based timing constraint. On these facts, allowing an at-any-time attack would invite strategic delay and undermine the system of settled judgments the Rules are designed to protect.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Rule 60(c)(1) says that \u201c[a] motion under Rule 60(b) must be made within a reasonable time,\u201d and nothing in the text or structure carves out an exception for motions under Rule 60(b)(4); indeed, the Rule\u2019s choice to impose an extra one-year cap only for (b)(1)\u2013(3) underscores that other subsections\u2014including (b)(4)\u2014remain governed by the reasonable-time requirement. Treating (b)(4) as timeless would rewrite the Rule and tilt the finality/error-correction balance in a policy-laden way better left to ordinary appellate channels or the Rules Enabling Act process, especially where (as here) parties and third parties have proceeded in reliance on a nearly fully administered Chapter 7 estate. And because \u201creasonable time\u201d is a fact-dependent inquiry, it is entirely appropriate to consider delay and reliance interests in deciding whether this particular motion\u2014brought long after default\u2014comes too late even if the movant now alleges a personal-jurisdiction defect. Kemp\u2019s instruction that all Rule 60(b) motions are subject to Rule 60(c)(1) supplies the controlling textual anchor for that conclusion.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Respondent",
+        "confidence": 0.78,
+        "reasoning": "The starting point is the text and the default procedural rule: Rule 60(c)(1) states that a motion under Rule 60(b) must be made within a \u201creasonable time,\u201d and nothing in the Rule clearly carves out an exception for (b)(4) void-judgment motions. This Court\u2019s decision in Kemp recently underscored that \u201call\u201d Rule 60(b) motions are subject to that reasonable-time requirement, and absent a clear contrary directive in the Rules or controlling precedent, the baseline timing rule controls. Applying a reasonable-time standard is also more administrable and fair in practice because it protects finality and reliance interests\u2014particularly where, as here, a default judgment has been relied on to administer a Chapter 7 estate\u2014while still leaving room for courts to treat truly void, jurisdictionally defective judgments differently in determining what is \u201creasonable.\u201d Petitioner\u2019s no-deadline rule would invite strategic delay and undermine orderly administration, and any categorical change is better addressed through the rulemaking process rather than judicially creating an extra-textual exception.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Start with the text and structure: Rule 60(c)(1) states that \u201c[a] motion under Rule 60(b) must be made within a reasonable time,\u201d and it then adds a separate one-year cap only for reasons (1), (2), and (3)\u2014a structure that shows the drafters knew how to create differentiated timing rules and did not exempt (b)(4). Reading an atextual carveout into (c)(1) would override what the Rule \u201cdemands\u201d and invite an administratively unworkable regime in which default judgments could be attacked decades later, notwithstanding reliance interests\u2014here, a nearly fully administered Chapter 7 estate. That does not convert personal-jurisdiction limits into mere forfeitable error: it recognizes that Rule 60 supplies a procedural vehicle, and the Rules themselves contemplate timeliness constraints even when the asserted defect is jurisdictional. The reasonable-time inquiry also avoids an \u201cempty exercise\u201d by permitting prompt correction of genuinely void judgments while preventing strategic delay that would undermine finality without any textual warrant.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.74,
+        "reasoning": "Rule 60(b) provides a limited, post-judgment reopening mechanism that must be applied according to its structure, and Rule 60(c)(1) states in categorical terms that motions under Rule 60(b) must be made \"within a reasonable time\"\u2014with only (b)(1)\u2013(3) subject to an additional one-year cap. Because Rule 60(b)\u2019s subsections are mutually exclusive, this case is properly analyzed under 60(b)(4), but that categorization does not exempt the movant from Rule 60(c)(1)\u2019s timing requirement; instead, it means the motion is governed by \u201creasonable time,\u201d not the one-year limit. Applying Rule 60(b)\u2019s core finality/justice balance to these facts\u2014where the judgment is long final and the respondent and third parties have relied (including a nearly fully administered Chapter 7 estate)\u2014a no-deadline rule would invite strategic delay and destabilize reliance interests in a way inconsistent with Rule 60(b)\u2019s disciplined, limited role. On abuse-of-discretion review, a district court acts consistently with Rule 60(b)\u2019s core tenets when it treats substantial, unexplained delay as rendering a 60(b)(4) request untimely in light of prejudice and settled expectations, while still leaving room for prompt challenges to truly void judgments.",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 0,
+    "respondent_votes": 9,
+    "predicted_winner": "Respondent",
+    "vote_split": "9-0",
+    "average_confidence": 0.817,
+    "deliberation_rounds": 2,
+    "total_vote_changes": 0,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.66,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.73,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.74,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.77,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Respondent",
+          "confidence": 0.78,
+          "is_final": true
+        },
+        "Clarence Thomas": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": true
+        },
+        "Samuel Alito": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.82,
+          "is_final": true
+        },
+        "Neil Gorsuch": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Respondent",
+          "confidence": 0.85,
+          "is_final": true
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.83,
+          "is_final": true
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.8,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Respondent",
+    "initial_vote_split": "9-0",
+    "run_arm": "ot2025_v3",
+    "repaired": true
+  },
+  {
+    "docket": "24-808",
+    "llm_model": "GPT-5.2",
+    "mode": "agentic_v3",
+    "replicate": 2,
+    "has_transcripts": false,
+    "has_opinion_rag": true,
+    "predict_term": 25,
+    "case_analysis": {
+      "focal_point": "Whether a motion under Federal Rule of Civil Procedure 60(b)(4) to vacate a default judgment that is void for lack of personal jurisdiction can be denied as untimely under Rule 60(c)(1)\u2019s requirement that Rule 60(b) motions be made within a \u201creasonable time.\u201d",
+      "legal_provision": "Federal Rule of Civil Procedure 60(b)(4) (relief from a judgment that \u201cis void\u201d) and Federal Rule of Civil Procedure 60(c)(1) (a \u201cmotion under Rule 60(b) must be made within a reasonable time\u201d).",
+      "petitioner_position": "Petitioner argues that a judgment entered without personal jurisdiction is void ab initio and therefore a Rule 60(b)(4) motion to vacate such a judgment should not be subject to any time limit\u2014including Rule 60(c)(1)\u2019s \u201creasonable time\u201d requirement\u2014because a void judgment is a legal nullity that may be attacked at any time.",
+      "respondent_position": "Respondent argues that the text of Rule 60(c)(1) unambiguously applies to all Rule 60(b) motions, including 60(b)(4), so a party cannot wait an unreasonable length of time to challenge a judgment as void; the Sixth Circuit\u2019s application of a reasonable-time limit is consistent with Supreme Court guidance and is necessary to protect finality and prevent disruption (including to a nearly fully administered Chapter 7 bankruptcy estate).",
+      "key_precedents": [
+        "Kemp v. United States (as quoted: all Rule 60(b) motions must be filed within a reasonable time)",
+        "United Student Aid Funds, Inc. v. Espinosa, 559 U.S. 260 (2010)",
+        "Klapprott v. United States, 335 U.S. 601 (1949)",
+        "United States for Use & Benefit of Mosher Steel Co. v. Fluor Corp., 436 F.2d 383 (2d Cir. 1970)",
+        "Allstate Life Ins. Co. v. Linter Group Ltd., 994 F.2d 996 (2d Cir. 1993)",
+        "World Trade Ctr. Disaster Site Litig., 722 F.3d 483 (2d Cir. 2013)",
+        "Link v. Wabash R.R. Co., 370 U.S. 626 (1962)",
+        "United States v. Boch Oldsmobile, Inc., 909 F.2d 657 (1st Cir. 1990)",
+        "Zervos v. Verizon New York, Inc., 252 F.3d 163 (2d Cir. 2001)"
+      ],
+      "legal_complexity": "Moderate"
+    },
+    "justice_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.35,
+        "reasoning": "Justice Kagan\u2019s function-over-caption point is the most serious obstacle: if the motion was filed within Rule 59(e)\u2019s non-extendable 28-day window and truly \u201cquestions the correctness\u201d of the judgment, longstanding practice would treat it as Rule 59(e) for Rule 4(a)(4) purposes. But that principle presupposes the predicate fact\u2014timeliness under Rule 59(e)\u2014and it does not answer Justice Thomas\u2019s structural concern that courts must first identify the proper Rule 60(b) subsection (and enforce its anti-circumvention limits) when the movant invokes Rule 60 and seeks relief that in substance fits (b)(1)\u2013(3). Justice Sotomayor\u2019s finality emphasis reinforces, rather than undermines, the need for a rule-bound characterization before we let the label alter appeal timing. The most institutionally sound course remains a narrow disposition clarifying the governing characterization framework and remanding for application on this record.",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.45,
+        "reasoning": "Justice Kagan\u2019s function-over-caption point has force where the filing is, in substance and timing, a Rule 59(e) motion, but it cannot do the work respondents need if the movant affirmatively invoked Rule 60(b) grounds that fit within (b)(1)\u2013(3) and thus trigger Rule 60(c)(1)\u2019s one-year cap and \u201creasonable time\u201d policing against end-runs. Justice Barrett\u2019s observation that recharacterizing into Rule 59(e) can be \u201cstricter\u201d does not answer the antecedent structural question: Rule 60(b)(6) is unavailable when another subsection applies, and courts should not convert a Rule 60 motion into Rule 59(e) to alter downstream finality and appeal consequences without first respecting that channeling. As Justice Alito and the Chief Justice emphasized, the proper method is to classify the motion under the Rules\u2019 text and structure and then apply the corresponding standards; importing a generalized functional test risks diluting Rule 60(b)\u2019s subsection-specific constraints and inviting the very manipulation Rule 60(c)(1) is designed to deter. Absent a record feature showing this was actually a timely, merits-directed reconsideration motion rather than a Rule 60 collateral attack, I remain with Petitioner.",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.42,
+        "reasoning": "Justice Kagan and Justice Barrett press the entrenched function-over-caption practice for timely merits-reconsideration motions, but that approach still presupposes an antecedent, rule-text characterization of what procedural vehicle the movant actually invoked and what relief it substantively seeks. If the motion in substance asks to set aside a final judgment on grounds cognizable under Rule 60(b)\u2014and especially if it maps onto (b)(1)\u2013(3)\u2014we cannot bypass Rule 60\u2019s subsection channeling and time limits simply by invoking a functional appeal-clock doctrine, as Justice Thomas underscores. Justice Sotomayor is right that Rule 59(e)\u2019s fixed 28-day window is the system\u2019s anti-manipulation line; but that cuts against recharacterization that would alter downstream jurisdictional or finality consequences without first resolving whether Rule 60(b) is being used to relitigate the merits rather than to correct a defect in the prior proceeding. And, as the Kokkonen/Badgerow principle reminds, Rule 60(b) can reopen only within the court\u2019s existing jurisdictional bounds\u2014it cannot be treated as a free-floating equitable power to reorder finality when the predicate procedural authorization is uncertain on this record.",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.48,
+        "reasoning": "Justice Kagan\u2019s function-over-caption principle has force only for motions filed within Rule 59(e)\u2019s fixed, non-extendable 28-day window; once that window closes, the Rules deliberately channel litigants to Rule 60(b), with different consequences for finality and appellate timing. The Petitioners\u2019 strongest point, pressed by Justice Thomas and Justice Kavanaugh, is that courts must police Rule 60(b)\u2019s subsection limits and not permit strategic relabeling to evade the one-year bar and other structural constraints\u2014but that concern supports, rather than undermines, a bright line at Rule 59(e)\u2019s deadline: untimely merits reconsideration cannot be treated as Rule 59(e) to toll the appeal clock. Chief Justice Roberts\u2019 proposed remand for a characterization framework is appealing institutionally, yet absent a concrete, case-specific feature showing this filing was actually timely (or otherwise fits Rule 59(e)\u2019s prompt self-correction function), I would adhere to the Rules\u2019 timing architecture and the anti-delay/finality principles reflected in Stone v. INS. On this record, treating an out-of-time reconsideration motion as Rule 59(e) would invite manipulation of Appellate Rule 4(a)(4) and erode the finality structure the Rules are designed to protect.",
+        "is_final": true
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.38,
+        "reasoning": "Justice Thomas\u2019s best point is that Rule 60(b) has subsection-specific constraints, and courts must not let (b)(6) become an end-run around the one-year bar for (b)(1)\u2013(3). But that concern assumes we are properly in Rule 60(b) at all; the characterization question comes first, and entrenched appellate practice treats a timely post-judgment motion that \u201cquestions the correctness\u201d of the judgment as Rule 59(e) regardless of caption, precisely because it bears on finality and the appeal clock. Justice Barrett is right that this recharacterization runs into Rule 59(e)\u2019s stricter, nonextendable 28-day limit\u2014so it does not evade Rule 60\u2019s structure but instead enforces the integrated scheme reflected in Appellate Rule 4(a)(4). Chief Justice Roberts\u2019s suggestion of a narrow remand has appeal, but without a case-specific feature showing this motion is outside the prototypical timely merits-reconsideration filing, I would not adopt a rigid label-bound approach that departs from how lower courts have long administered these rules.",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.4,
+        "reasoning": "Justice Kagan and Justice Barrett press the best respondent-side point: when a postjudgment motion is filed within Rule 59(e)\u2019s 28-day window and functionally \u201cquestions the correctness\u201d of the judgment, longstanding practice may treat it as Rule 59(e) for Appellate Rule 4(a)(4) purposes. But that functional approach cannot do the work they assign it unless the motion is in fact timely under\u2014and substantively of the kind contemplated by\u2014Rule 59(e); otherwise the Rules deliberately channel litigants into Rule 60(b), with its subsection-specific gates and Rule 60(c)(1)\u2019s distinct timeliness command. As Justice Thomas and the Chief Justice emphasize, we should not collapse those lines by adopting a transsubstantive recharacterization rule that risks converting Rule 60 into an end-run around the remedial scheme (Rule 59(e), appeal, then limited collateral relief), especially when \u201creasonable time\u201d under Rule 60(c)(1) is meant to remain a case-by-case inquiry rather than a fixed surrogate deadline. If the record is uncertain on these predicates, the sounder course is a narrow disposition identifying the proper characterization framework and remanding for application, rather than announcing a categorical rule better suited to the Rules Enabling Act process.",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.5,
+        "reasoning": "Justice Kagan\u2019s strongest point is the entrenched \u201cfunction over caption\u201d practice for timely reconsideration motions, and Justice Barrett adds that recharacterizing into Rule 59(e) runs toward (not away from) a stricter deadline. But that functional practice cannot be applied in a way that collapses the Rules\u2019 deliberate structural distinctions: as Justice Thomas emphasizes, Rule 60(b) relief is subsection-gated with specific time constraints, and courts should not use relabeling to bypass those limits or to alter finality consequences without first determining the proper procedural vehicle under the text. Chief Justice Roberts\u2019 administrability concern reinforces that appellate-jurisdiction timing rules need a predictable, rules-based characterization framework rather than an after-the-fact equitable relabeling approach. On this record, I do not see a respondent-side precedent or tradition compelling a broader recharacterization rule than our cabined framework, so I remain with Petitioner.",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Respondent",
+        "confidence": 0.45,
+        "reasoning": "The strongest petitioner-side point, pressed by Justice Thomas and echoed by the Chief Justice, is that Rule 60(b)\u2019s subsection-specific limits cannot be evaded by relabeling, and that we should not manipulate captions to destabilize finality and appellate jurisdiction. But Justice Kagan\u2019s function-over-caption principle is itself a rule-bound, text-and-structure account of the integrated scheme: a motion filed within Rule 59(e)\u2019s non-extendable 28-day window that challenges the judgment\u2019s correctness is treated as Rule 59(e) for FRAP 4(a)(4)(A) purposes, and that moves in the direction of stricter timing rather than circumvention. Justice Sotomayor is right that finality cuts against extending Rule 59(e) beyond 28 days; yet precisely because the 28-day line is fixed, characterizing timely merits-reconsideration motions as Rule 59(e) better preserves the Rules\u2019 design than locking parties into an erroneous Rule 60 label. If the record is unclear on timeliness or the motion\u2019s functional content, a narrow remand may be appropriate, but the governing characterization principle should be the Rule 59(e) functional inquiry rather than starting from Rule 60.",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.38,
+        "reasoning": "Justice Thomas\u2019s structural warning that Rule 60(b)(6) cannot become an end-run around the one-year cap for (b)(1)\u2013(3) is a serious rule-of-law concern, and I agree courts must police subsection channeling once Rule 60(b) is truly in play. But Justice Kagan (and now Justice Barrett) persuasively identify an antecedent, practice-rooted point: when a postjudgment motion is filed within Rule 59(e)\u2019s fixed window and functionally challenges the correctness of the judgment, courts routinely treat it as Rule 59(e) for finality and Appellate Rule 4(a)(4) purposes\u2014so the anti-circumvention logic cuts in favor of recharacterizing into the stricter regime, not away from it. Chief Justice Roberts\u2019s proposed narrow remand underscores how fact- and function-dependent this inquiry is; on this record, I\u2019m not prepared to adopt a rigid label-driven approach that risks forfeiting review for timely litigants based on captioning rather than substance. Unless the petitioner can point to case-specific indicia of manipulation or a basis to conclude this filing is substantively a late Rule 60(b) collateral attack, procedural fairness and the integrated Rules scheme keep me with the Respondent.",
+        "is_final": false
+      }
+    },
+    "initial_votes": {
+      "John Roberts": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Clarence Thomas": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Samuel Alito": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Sonia Sotomayor": {
+        "vote": "Respondent",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Elena Kagan": {
+        "vote": "Respondent",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Neil Gorsuch": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Brett Kavanaugh": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Amy Coney Barrett": {
+        "vote": "Petitioner",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      },
+      "Ketanji Brown Jackson": {
+        "vote": "Respondent",
+        "confidence": 0.2,
+        "reasoning": "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+        "is_final": false
+      }
+    },
+    "petitioner_votes": 5,
+    "respondent_votes": 4,
+    "predicted_winner": "Petitioner",
+    "vote_split": "5-4",
+    "average_confidence": 0.423,
+    "deliberation_rounds": 3,
+    "total_vote_changes": 1,
+    "votes_per_round": [
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.2,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.2,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.22,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.25,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.25,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.25,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Petitioner",
+          "confidence": 0.25,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.25,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.3,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.4,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.42,
+          "is_final": false
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.3,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.45,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.4,
+          "is_final": false
+        }
+      },
+      {
+        "John Roberts": {
+          "vote": "Petitioner",
+          "confidence": 0.35,
+          "is_final": false
+        },
+        "Clarence Thomas": {
+          "vote": "Petitioner",
+          "confidence": 0.45,
+          "is_final": false
+        },
+        "Samuel Alito": {
+          "vote": "Petitioner",
+          "confidence": 0.42,
+          "is_final": false
+        },
+        "Sonia Sotomayor": {
+          "vote": "Respondent",
+          "confidence": 0.48,
+          "is_final": true
+        },
+        "Elena Kagan": {
+          "vote": "Respondent",
+          "confidence": 0.38,
+          "is_final": false
+        },
+        "Neil Gorsuch": {
+          "vote": "Petitioner",
+          "confidence": 0.4,
+          "is_final": false
+        },
+        "Brett Kavanaugh": {
+          "vote": "Petitioner",
+          "confidence": 0.5,
+          "is_final": false
+        },
+        "Amy Coney Barrett": {
+          "vote": "Respondent",
+          "confidence": 0.45,
+          "is_final": false
+        },
+        "Ketanji Brown Jackson": {
+          "vote": "Respondent",
+          "confidence": 0.38,
+          "is_final": false
+        }
+      }
+    ],
+    "initial_winner": "Petitioner",
+    "initial_vote_split": "6-3",
+    "run_arm": "ot2025_v3"
+  }
+]
