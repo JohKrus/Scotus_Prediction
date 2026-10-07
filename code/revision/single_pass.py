@@ -361,24 +361,28 @@ def run(models, terms, arms, workers, smoke, no_transcripts):
             if docket not in ctx_done:
                 with ctx_path.open("a", encoding="utf-8") as fh:
                     fh.write(json.dumps(dict(docket=docket, term=term, **meta)) + "\n")
-        with ThreadPoolExecutor(9) as inner:
-            for a, m, r in todo:
-                try:
-                    if a == "neutral":
-                        res = run_neutral(caches[(a, m)], m, docket, r, docs, case_ctx, tx_ctx, tag)
-                    else:
-                        res = run_v1(caches[(a, m)], m, docket, r, v1_ctx, tag, inner)
-                except Exception as e:  # keep going; logged, re-run resumes
-                    print(f"  {docket} {a} {m} rep{r} failed: {e}", flush=True)
-                    continue
-                rec = dict(arm=a, model=m, docket=docket, term=term, rep=r, inputs=tag,
-                           transcript_section=bool(tx_ctx), **res)
-                with lock:
-                    with out_path.open("a", encoding="utf-8") as fh:
-                        fh.write(json.dumps(rec, ensure_ascii=False, default=str) + "\n")
-                    totals["in_tok"][m] = totals["in_tok"].get(m, 0) + res["in_tok"]
-                    totals["out_tok"][m] = totals["out_tok"].get(m, 0) + res["out_tok"]
-                    totals["calls"] += 1
+        def job(amr, inner):
+            a, m, r = amr
+            try:
+                if a == "neutral":
+                    res = run_neutral(caches[(a, m)], m, docket, r, docs, case_ctx, tx_ctx, tag)
+                else:
+                    res = run_v1(caches[(a, m)], m, docket, r, v1_ctx, tag, inner)
+            except Exception as e:  # keep going; logged, re-run resumes
+                print(f"  {docket} {a} {m} rep{r} failed: {e}", flush=True)
+                return
+            rec = dict(arm=a, model=m, docket=docket, term=term, rep=r, inputs=tag,
+                       transcript_section=bool(tx_ctx), **res)
+            with lock:
+                with out_path.open("a", encoding="utf-8") as fh:
+                    fh.write(json.dumps(rec, ensure_ascii=False, default=str) + "\n")
+                totals["in_tok"][m] = totals["in_tok"].get(m, 0) + res["in_tok"]
+                totals["out_tok"][m] = totals["out_tok"].get(m, 0) + res["out_tok"]
+                totals["calls"] += 1
+
+        # replicate-runs of a docket in parallel; v1's nine votes use a separate pool
+        with ThreadPoolExecutor(9) as inner, ThreadPoolExecutor(len(todo)) as runs_pool:
+            list(runs_pool.map(lambda amr: job(amr, inner), todo))
         print(f"  {term} {docket} done ({meta['n_chunks']} chunks, embedded {meta['embedded_now']})", flush=True)
 
     with ThreadPoolExecutor(workers) as ex:

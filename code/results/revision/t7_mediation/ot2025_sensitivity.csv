@@ -1,0 +1,11 @@
+system,model,variant,cases,acc,lo,hi,baseline,diff_vs_baseline,diff_lo,diff_hi,applies_to_model
+pipeline,Claude-4.6,all scored,57,57.0,44.7,68.4,66.7,-9.6,-22.8,3.5,yes
+pipeline,Claude-4.6,excl. decided before 2026-02-01,46,53.3,40.2,66.3,63.0,-9.8,-25.0,6.5,yes
+pipeline,Claude-4.6,excl. decided before forecast commit (prereg_check),39,53.8,38.5,69.2,66.7,-12.8,-30.8,3.8,yes
+pipeline,Claude-4.6,"excl. recalled correctly (same model, Task 3)",56,58.0,45.5,69.6,67.9,-9.8,-23.2,3.6,yes
+pipeline,Claude-4.6,excl. all three,38,55.3,39.5,71.1,68.4,-13.2,-31.6,3.9,yes
+pipeline,GPT-5.2,all scored,57,63.2,51.8,74.6,66.7,-3.5,-18.4,12.3,yes
+pipeline,GPT-5.2,excl. decided before 2026-02-01,46,62.0,50.0,73.9,63.0,-1.1,-18.5,17.4,reference only
+pipeline,GPT-5.2,excl. decided before forecast commit (prereg_check),39,61.5,47.4,75.6,66.7,-5.1,-23.1,14.1,yes
+pipeline,GPT-5.2,"excl. recalled correctly (same model, Task 3)",57,63.2,51.8,74.6,66.7,-3.5,-18.4,12.3,yes
+pipeline,GPT-5.2,excl. all three,39,61.5,47.4,75.6,66.7,-5.1,-23.1,14.1,yes
