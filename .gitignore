@@ -9,7 +9,11 @@ __pycache__/
 code/data/term_*/
 code/data/justice_indices/
 code/data/opinions/
-code/results/
+code/results/*
+!code/results/revision/
 # SCDB is third-party and downloaded separately (see analysis/README.md)
 analysis/data/SCDB_*.csv
 analysis/cache/*.csv
+# Revision diagnostics: third-party SCDB copy and local caches (chunks, FAISS)
+code/data/scdb/
+code/data/revision_cache/
