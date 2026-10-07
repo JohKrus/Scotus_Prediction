@@ -53,6 +53,8 @@ LEAK_PATTERNS = {   # name -> (regex, high_precision)
     "costs": (r"\bcosts\b", False),
     # extensions
     "cite_as_us": (r"Cite\s+as:\s*\d+\s*U\.\s*S\.", True),
+    "scotus_judgment": (r"ordered\s+and\s+adjudged\s+by\s+this\s+court\s+that\s+the\s+judgment", True),
+    "certified_copy_judgment": (r"certified\s+copy\s+of\s+the\s+judgment\s+of\s+(?:this|the\s+supreme)\s+court", True),
     "opinion_of_the_court": (r"opinion\s+of\s+the\s+court", False),
 }
 _LEAK_RE = {k: re.compile(p, re.I if k not in ("delivered_opinion", "held_colon", "syllabus") else 0)
@@ -122,9 +124,14 @@ def audit_docket(args):
         is_tx_old = bool(deliberation.TRANSCRIPT_RE.search(f.name))
         is_tx_new = is_tx_old or pdf.is_oral_argument_document(texts)
         fdate, desc, link = meta.get(f.name, (pd.NaT, "", ""))
+        # e-filing names start with a YYYYMMDDhhmmss timestamp; use it when metadata is missing
+        fn = re.match(r"(20\d{6})\d{6,}", f.name)
+        fname_date = pd.to_datetime(fn.group(1), format="%Y%m%d", errors="coerce") if fn else pd.NaT
+        date_source = "metadata" if pd.notna(fdate) else ("filename" if pd.notna(fname_date) else "none")
+        fdate = fdate if pd.notna(fdate) else fname_date
         rows.append(dict(term_dir=term_key, docket=docket, file=f.name,
                          doc_type=pdf.classify_document_type(f.name, desc),
-                         description=desc, link_text=link, filing_date=fdate,
+                         description=desc, link_text=link, filing_date=fdate, filing_date_source=date_source,
                          retained=not excluded and bool(chunks), exclusion_rule=reason,
                          is_transcript_filename=is_tx_old, is_transcript_content=is_tx_new,
                          is_amicus="amicus" in desc.lower() or "amici" in desc.lower()
@@ -149,8 +156,10 @@ def audit_docket(args):
                                       high_precision=LEAK_PATTERNS[name][1],
                                       mentions_own_case=bool(own_re.search(ctx)), snippet=snip))
     CACHE.joinpath(term_key).mkdir(parents=True, exist_ok=True)
-    with open(CACHE / term_key / f"{docket}.pkl", "wb") as fh:
+    tmp = CACHE / term_key / f"{docket}.pkl.tmp"
+    with open(tmp, "wb") as fh:
         pickle.dump(chunks_all, fh)
+    tmp.replace(CACHE / term_key / f"{docket}.pkl")
     return rows, leaks
 
 
@@ -235,7 +244,8 @@ def main():
                  files_no_text=int((g.exclusion_rule == "no_text").sum()),
                  mean_files_per_docket=round(len(g) / g.docket.nunique(), 1),
                  mean_retained_per_docket=round(len(ret) / g.docket.nunique(), 1),
-                 share_dockets_with_metadata=round(gd.filing_date.apply(lambda s: s.notna().any()).mean(), 3),
+                 share_dockets_with_metadata=round(gd.filing_date_source.apply(lambda s: (s == "metadata").any()).mean(), 3),
+                 share_files_dated=round(g.filing_date.notna().mean(), 3),
                  share_dockets_transcript_on_disk=round(gd.is_transcript_content.any().mean(), 3),
                  share_dockets_transcript_retained=round(g.groupby("docket").apply(
                      lambda x: (x.is_transcript_content & x.retained).any()).mean(), 3),

@@ -69,10 +69,14 @@ def call(model: str, prompt: str) -> dict:
     for attempt in range(6):
         try:
             if m["provider"] == "openai":
+                extra = {}
+                if os.environ.get("REVISION_OPENAI_FLEX") == "1":   # same snapshot, half price, slower
+                    extra = dict(service_tier="flex", timeout=900)
                 r = c.chat.completions.create(
                     model=m["id"], temperature=m["temperature"], max_completion_tokens=m["max_tokens"],
-                    messages=[{"role": "user", "content": prompt}])
+                    messages=[{"role": "user", "content": prompt}], **extra)
                 return dict(text=r.choices[0].message.content or "", model_resolved=r.model,
+                            service_tier=getattr(r, "service_tier", None),
                             in_tok=r.usage.prompt_tokens, out_tok=r.usage.completion_tokens,
                             stop=r.choices[0].finish_reason)
             kw = dict(model=m["id"], max_tokens=m["max_tokens"],

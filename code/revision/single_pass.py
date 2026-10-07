@@ -44,6 +44,8 @@ from revision import common as C
 from revision import llm
 
 llm.load_keys()
+from revision import faiss_shim  # noqa: E402
+FAISS_SHIM = faiss_shim.install()   # True when the compiled faiss extension cannot load
 from scotus_v2 import deliberation, retrieval, models as v2models, pdf  # noqa: E402
 
 CHUNKS = C.CODE_DIR / "data" / "revision_cache" / "chunks"
@@ -164,11 +166,53 @@ def ensure_index(docs) -> int:
             retrieval._FAISS_CACHE[k] = FAISS.load_local(str(p), v2models.get_embedding_model(),
                                                          allow_dangerous_deserialization=True)
             return 0
-    store = retrieval.build_faiss_index(docs)
+    store = retrieval.build_faiss_index(docs, batch_size=200)   # same vectors; fewer, larger requests
     if store is not None:
         p.parent.mkdir(parents=True, exist_ok=True)
         store.save_local(str(FAISS_DIR / k))
     return len(docs)
+
+
+_retrieval_stats = {"bm25_only": 0, "hybrid_needed": 0}
+_BM25: dict = {}
+_bm25_lock = threading.Lock()
+
+
+def _bm25(docs):
+    """BM25Retriever.from_documents(docs), built once per chunk list (same index, same scores)."""
+    from langchain_community.retrievers import BM25Retriever
+    k = _key(docs)
+    with _bm25_lock:
+        if k not in _BM25:
+            if len(_BM25) > 24:
+                _BM25.pop(next(iter(_BM25)))
+            _BM25[k] = BM25Retriever.from_documents(docs)
+        return _BM25[k]
+
+
+def pipe_retrieve(docs, query: str, top_k: int = 10):
+    """retrieval.hybrid_retrieve(docs, query, top_k), computed without embeddings when possible.
+
+    hybrid_retrieve() lists the BM25 top k first, then the FAISS top k, drops repeated
+    texts and stops at k. When the BM25 top k are all distinct, the FAISS results can
+    never enter, so the output is exactly the BM25 list. Only when BM25 returns
+    repeated texts is the full function (and an embedding index) needed.
+    """
+    top = _bm25(docs).model_copy(update={"k": top_k}).invoke(query)
+    if len({d.page_content for d in top}) == len(top):
+        _retrieval_stats["bm25_only"] += 1
+        return top
+    _retrieval_stats["hybrid_needed"] += 1
+    ensure_index(docs)
+    return retrieval.hybrid_retrieve(docs, query, top_k)
+
+
+def research_precedent(query: str, docs) -> str:
+    """deliberation._research_precedent with pipe_retrieve (identical output)."""
+    results = pipe_retrieve(docs, query, top_k=5)
+    if not results:
+        return "No relevant passages found for this query."
+    return "\n\n---\n\n".join(d.page_content for d in results)
 
 
 def load_docs(term: int, docket: str, no_transcripts: bool):
@@ -194,21 +238,21 @@ def march_split(docs):
 
 def contexts_for(term, docket, no_transcripts):
     docs, tx_dropped = load_docs(term, docket, no_transcripts)
-    embedded = ensure_index(docs)
+    before = dict(_retrieval_stats)
+    embedded = 0
     tx, other = march_split(docs)
-    if other and len(other) != len(docs):
-        embedded += ensure_index(other)
-    case_docs = retrieval.hybrid_retrieve(other or docs, f"Supreme Court case legal arguments {docket}")
+    case_docs = pipe_retrieve(other or docs, f"Supreme Court case legal arguments {docket}")
     case_ctx = "\n\n---DOCUMENT---\n\n".join(d.page_content for d in case_docs)
     transcript_ctx = ""
     if tx:
-        tdocs = retrieval.hybrid_retrieve(tx, f"Justice questions arguments skepticism agreement oral argument {docket}",
-                                          top_k=min(8, len(tx)))
+        tdocs = pipe_retrieve(tx, f"Justice questions arguments skepticism agreement oral argument {docket}",
+                              top_k=min(8, len(tx)))
         transcript_ctx = "\n\n---TRANSCRIPT EXCERPT---\n\n".join(d.page_content for d in tdocs)
     # v1 retrieval: same hybrid top 10 over all documents
-    v1_docs = retrieval.hybrid_retrieve(docs, f"Supreme Court case legal arguments {docket}")
+    v1_docs = pipe_retrieve(docs, f"Supreme Court case legal arguments {docket}")
     v1_ctx = "\n\n---DOCUMENT---\n\n".join(d.page_content for d in v1_docs)
-    meta = dict(n_chunks=len(docs), embedded_now=embedded, transcript_files_dropped=sorted(tx_dropped),
+    meta = dict(n_chunks=len(docs), embedded_now=embedded,
+                case_ctx_needed_hybrid=_retrieval_stats["hybrid_needed"] > before["hybrid_needed"], faiss_backend="numpy-shim" if FAISS_SHIM else "faiss", transcript_files_dropped=sorted(tx_dropped),
                 case_ctx_sources=[(d.metadata["source"], d.metadata["chunk_index"]) for d in case_docs],
                 v1_ctx_sources=[(d.metadata["source"], d.metadata["chunk_index"]) for d in v1_docs],
                 transcript_chunks_in_march_split=len(tx))
@@ -234,7 +278,7 @@ def run_neutral(cache, model, docket, rep, docs, case_ctx, transcript_ctx, tag):
     blocks = []
     for q in queries:
         if isinstance(q, str) and q.strip():
-            blocks.append(deliberation._research_precedent(q, docs)[:3000])
+            blocks.append(research_precedent(q, docs)[:3000])
     ts2 = ("ORAL ARGUMENT SIGNALS:\n" + transcript_ctx) if transcript_ctx else ""
     prompt = NEUTRAL_PROMPT.format(case_analysis=json.dumps(analysis, indent=2),
                                    focal_point=analysis.get("focal_point", "Unknown"),
@@ -341,6 +385,7 @@ def run(models, terms, arms, workers, smoke, no_transcripts):
         list(ex.map(do_case, cases))
     spend = sum(llm.cost(m, totals["in_tok"][m], totals["out_tok"][m]) for m in totals["in_tok"])
     emb_cost = totals["embedded"] * 400 / 1e6 * llm.EMBED_PRICE   # ~400 tokens per 1,500-char chunk
+    print(f"retrieval calls: {_retrieval_stats}")
     print(f"replicate-runs: {totals['calls']}; LLM ${spend:.2f}; embeddings ~${emb_cost:.2f} "
           f"({totals['embedded']} chunks); tokens {totals}")
     if smoke and totals["calls"]:

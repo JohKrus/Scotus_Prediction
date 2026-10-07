@@ -1,0 +1,31 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                correct   No. Observations:                 1134
+Model:                          Logit   Df Residuals:                     1116
+Method:                           MLE   Df Model:                           17
+Date:                Wed, 07 Oct 2026   Pseudo R-squ.:                 0.07339
+Time:                        18:01:48   Log-Likelihood:                -608.99
+converged:                       True   LL-Null:                       -657.22
+Covariance Type:              cluster   LLR p-value:                 4.009e-13
+=======================================================================================================================================
+                                                                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                               2.0030      0.561      3.573      0.000       0.904       3.102
+C(term_model, Treatment('2022_GPT-5.2'))[T.2022_Claude-4.6]            -0.5789      0.380     -1.525      0.127      -1.323       0.165
+C(term_model, Treatment('2022_GPT-5.2'))[T.2022_Gemini-2.5]            -1.1890      0.444     -2.677      0.007      -2.059      -0.319
+C(term_model, Treatment('2022_GPT-5.2'))[T.2023_Claude-4.6]            -0.3178      0.556     -0.571      0.568      -1.408       0.772
+C(term_model, Treatment('2022_GPT-5.2'))[T.2023_GPT-5.2]               -0.7598      0.530     -1.432      0.152      -1.800       0.280
+C(term_model, Treatment('2022_GPT-5.2'))[T.2023_Gemini-2.5]            -1.2662      0.575     -2.204      0.028      -2.392      -0.140
+C(term_model, Treatment('2022_GPT-5.2'))[T.2024_Claude-4.6]            -1.4116      0.499     -2.831      0.005      -2.389      -0.434
+C(term_model, Treatment('2022_GPT-5.2'))[T.2024_GPT-5.2]               -1.3752      0.499     -2.755      0.006      -2.354      -0.397
+C(term_model, Treatment('2022_GPT-5.2'))[T.2025_Claude-4.6]            -1.9311      0.506     -3.819      0.000      -2.922      -0.940
+C(term_model, Treatment('2022_GPT-5.2'))[T.2025_GPT-5.2]               -1.6681      0.502     -3.324      0.001      -2.652      -0.684
+C(issue_group, Treatment('Economic & other'))[T.Criminal Procedure]     0.2114      0.347      0.609      0.543      -0.469       0.892
+C(issue_group, Treatment('Economic & other'))[T.Judicial Power]        -0.1992      0.358     -0.557      0.577      -0.900       0.502
+C(issue_group, Treatment('Economic & other'))[T.Rights]                 0.0032      0.296      0.011      0.991      -0.578       0.584
+C(lc_direction, Treatment('conservative'))[T.liberal]                   0.1402      0.256      0.547      0.584      -0.362       0.642
+C(lc_direction, Treatment('conservative'))[T.missing]                  -1.2799      0.502     -2.552      0.011      -2.263      -0.297
+C(lc_direction, Treatment('conservative'))[T.unspecifiable]             1.3497      0.748      1.804      0.071      -0.116       2.816
+state_source                                                            1.0673      0.484      2.204      0.028       0.118       2.016
+log_amicus                                                              0.0153      0.113      0.136      0.892      -0.205       0.236
+=======================================================================================================================================

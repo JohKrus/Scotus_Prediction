@@ -166,8 +166,8 @@ def run(models, terms, workers, smoke, arms):
 _JUSTICE_SURNAME = {"JGRoberts": "roberts", "CThomas": "thomas", "SAAlito": "alito", "SSotomayor": "sotomayor",
                     "EKagan": "kagan", "NMGorsuch": "gorsuch", "BMKavanaugh": "kavanaugh",
                     "ACBarrett": "barrett", "KBJackson": "jackson", "SGBreyer": "breyer"}
-_JUSTICE_ID = {111: "roberts", 108: "thomas", 110: "alito", 112: "sotomayor", 113: "kagan",
-               114: "gorsuch", 115: "kavanaugh", 116: "barrett", 117: "jackson", 109: "breyer"}
+_JUSTICE_ID = {108: "thomas", 110: "breyer", 111: "roberts", 112: "alito", 113: "sotomayor",
+               114: "kagan", 115: "gorsuch", 116: "kavanaugh", 117: "barrett", 118: "jackson"}  # SCDB justice codes
 
 
 def _split(s) -> str | None:
@@ -308,7 +308,22 @@ def cutoff_curve(rr: pd.DataFrame):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    from statsmodels.nonparametric.smoothers_lowess import lowess
+
+    def lowess(y, x, frac=0.35):
+        """Local-linear tricube smoother (LOWESS without robustness iterations; the
+        statsmodels extension is blocked by this machine's application control)."""
+        x = np.asarray(x, float); y = np.asarray(y, float)
+        k = max(3, int(np.ceil(frac * len(x))))
+        fit = np.empty(len(x))
+        for i, x0 in enumerate(x):
+            d = np.abs(x - x0); h = np.sort(d)[k - 1] or 1.0
+            w = np.clip(1 - (d / h) ** 3, 0, None) ** 3
+            W = w.sum(); mx = (w * x).sum() / W; my = (w * y).sum() / W
+            vx = (w * (x - mx) ** 2).sum()
+            b = (w * (x - mx) * (y - my)).sum() / vx if vx > 0 else 0.0
+            fit[i] = my + b * (x0 - mx)
+        o_ = np.argsort(x)
+        return np.column_stack([x[o_], np.clip(fit[o_], 0, 1)])
     o = C.out("t3_recall")
     rr = rr.copy()
     rr["month"] = pd.to_datetime(rr.decision_date).dt.to_period("M").dt.to_timestamp()
