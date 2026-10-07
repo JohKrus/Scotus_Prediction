@@ -36,8 +36,30 @@ a different leak.
   - The same 10 cases are also better recalled closed-book: 95% and 90% vs. 79% and 72%. So
     the gap may reflect memorization rather than the leak.
 
-**(b) Does a plain single pass beat the pipeline on OT2024 and OT2025?** → *filled in below
-after the Task 4 run (see Task 4).*
+**(b) Does a plain single pass beat the pipeline on OT2024 and OT2025?** On OT2024, yes; on
+OT2025, not meaningfully. The neutral prompt has the same inputs, no persona and no
+deliberation. Single-pass minus pipeline accuracy (paired by docket):
+- **OT2024:** Claude 75.8% vs. 65.6% (**+10.2 pts [3.1, 18.8]**); GPT-5.2 74.2% vs. 66.4%
+  (**+7.8 [0.8, 14.8]**). Both single passes are above the 70.3% baseline, though not
+  significantly (+5.5, +3.9).
+  - GPT-5.2 recalls nothing about OT2024 closed-book, so its gain is not memory. The persona
+    pipeline costs it about 8 points on a clean Term.
+- **OT2025:** Claude 61.4% vs. 57.0% (+4.4 [−7.9, 16.7]); GPT-5.2 64.0% vs. 63.2% (+0.9). Both
+  are still below the 66.7% baseline.
+- **The earlier study's own prompt** (`v1`: nine persona votes from one case analysis, no
+  deliberation) does no better than the pipeline: OT2024 68.0% and 69.5%, OT2025 54.4% and
+  62.3%.
+
+So the accuracy cost comes from the persona-vote architecture, not from deliberation. The
+current models in a single pass do *not* reproduce the 81-88% the older models scored on
+OT2024.
+
+**Claude Opus 5.5 in a single pass scores 89.5% on OT2025** [81.6, 96.5] (87.2% on the 39
+cases decided after the forecast commit), against 57.0% for the Claude 4.6 pipeline and the
+66.7% baseline. This is close to Stiglitz (89%) and the crowd (94.7%). Its training data run
+through June 2026 and cover the whole Term, so this is not a clean test. In the closed-book
+probe it names few post-January winners, but its probabilities stay informative. Whether the
+jump is memory or ability cannot be separated here.
 
 **(c) What do the models know, and what are their effective cutoffs?** Closed-book winner
 recall, with `dont_know` counted as wrong:
@@ -97,10 +119,12 @@ OT2024 drop is *not* a loss of knowledge (see Task 7).
   generated fine-tuning sets (206 items each), but no training or evaluation outputs. Per the
   coauthor's notes, only a very small pilot was run. Nothing to summarize quantitatively.
 - **Environment problems found on this machine (they matter for anyone re-running here):**
-  1. Windows Application Control now blocks faiss-cpu's DLL. It loaded in September.
-     `scotus_v2.retrieval` then silently falls back to BM25-only retrieval and logs only
-     "FAISS batch failed". For Task 4, `revision/faiss_shim.py` supplies an exact numpy
-     IndexFlatL2.
+  1. Windows Application Control blocked faiss-cpu's DLL intermittently: it loaded in
+     September, was blocked during this session, and loaded again after a reboot. While it is
+     blocked, `scotus_v2.retrieval` silently falls back to BM25-only retrieval and logs only
+     "FAISS batch failed". `revision/faiss_shim.py` supplies an exact numpy IndexFlatL2 and
+     installs itself only when `import faiss` fails. Retrieval results do not depend on which
+     is used (see Task 4).
   2. Parts of statsmodels are blocked as well (analysis scripts use the system Python).
   3. The anthropic SDK 1.x dropped `temperature`. Sonnet 4.6 still accepts it in the request
      body; Opus 5.5 rejects sampling parameters.
@@ -186,7 +210,38 @@ GPT-5.2 abstains more readily than Claude, and Opus 5.5 abstains most. "Answered
 
 ## Task 4: single pass vs. pipeline (`t4_single_pass/`)
 
-→ *filled in after the run.*
+Files: `single_pass_by_term.csv` (all comparisons), `predictions_std.jsonl` and
+`predictions_std_scored.csv` (one row per replicate-run), `raw/*.jsonl` (every response),
+`contexts_std.jsonl` (case-context sources per docket), `retrieval_equivalence_check.txt`.
+Replicate level, 2 replicates; case-bootstrap 95% intervals; McNemar on docket consensus.
+
+| Arm | Model | Term | Single pass | Pipeline final | Diff. vs pipeline | Baseline | McNemar (sp-only : pipe-only, p) | Brier sp / pipeline |
+|---|---|---|---|---|---|---|---|---|
+| neutral | Claude 4.6 | 2022 | 87.1 | 81.9 | +5.2 [−1.7, 12.1] | 62.1 | 6:1, .13 | .120 / .151 |
+| neutral | Claude 4.6 | 2023 | 86.4 | 86.4 | 0.0 | 72.9 | 3:2, 1.0 | .106 / .121 |
+| neutral | Claude 4.6 | 2024 | **75.8** | 65.6 | **+10.2 [3.1, 18.8]** | 70.3 | 7:1, .07 | .166 / .227 |
+| neutral | Claude 4.6 | 2025 | 61.4 | 57.0 | +4.4 [−7.9, 16.7] | 66.7 | 8:6, .79 | .251 / .314 |
+| neutral | GPT-5.2 | 2022 | 90.5 | 88.8 | +1.7 [0.0, 4.3] | 62.1 | 1:0, 1.0 | .114 / .111 |
+| neutral | GPT-5.2 | 2023 | 85.6 | 80.5 | +5.1 [−0.8, 11.9] | 72.9 | 5:2, .45 | .151 / .139 |
+| neutral | GPT-5.2 | 2024 | **74.2** | 66.4 | **+7.8 [0.8, 14.8]** | 70.3 | 5:2, .45 | .194 / .241 |
+| neutral | GPT-5.2 | 2025 | 64.0 | 63.2 | +0.9 [−9.6, 10.5] | 66.7 | 7:4, .55 | .230 / .288 |
+| neutral | Opus 5.5 | 2025 | **89.5** | 57.0 (Claude 4.6) | +32.5 [20.2, 44.8] | 66.7 | 20:2, <.001 | .113 / .314 |
+| v1 | Claude 4.6 | 2024 | 68.0 | 65.6 | +2.3 [−5.5, 9.4] | 70.3 | 6:3, .51 | .231 / .227 |
+| v1 | Claude 4.6 | 2025 | 54.4 | 57.0 | −2.6 [−9.6, 5.3] | 66.7 | 2:3, 1.0 | .312 / .314 |
+| v1 | GPT-5.2 | 2024 | 69.5 | 66.4 | +3.1 [−5.5, 11.7] | 70.3 | 5:3, .73 | .239 / .241 |
+| v1 | GPT-5.2 | 2025 | 62.3 | 63.2 | −0.9 [−6.2, 5.3] | 66.7 | 3:2, 1.0 | .284 / .288 |
+
+- The pipeline's first-round tally is within about one point of its final tally everywhere,
+  so "vs. first round" tells the same story (`diff_vs_first` columns).
+- **Retrieval:** 3,250 of 3,295 retrievals were answered by the exact BM25 shortcut, and 45
+  needed the full hybrid function (repeated chunk texts). No transcript section was populated
+  (matching the pipeline). Task 1 found no transcripts in OT2022-24, so the
+  `--no-transcripts` variant was unnecessary and was not run.
+- **Parsing:** 3 Claude case analyses fell back to the stub (as in the pipeline), and 4 GPT-5.2
+  predictions had no parseable winner (scored wrong).
+- **Prediction tilt:** the neutral prompt is more petitioner-leaning for Claude (65-87%
+  petitioner predictions) than for GPT-5.2 (53-75%).
+- **Cost:** about $70 at list prices (GPT-5.2 billed at flex rates, so the real cost is lower).
 
 ## Task 5: deliberation mechanics (`t5_deliberation/`)
 
@@ -273,8 +328,6 @@ averaged. Files: `deliberation_by_group.csv`, `deliberation_by_term.csv`, `delib
 
 ## Task 7: mediation and sensitivity (`t7_mediation/`)
 
-→ *final numbers after the Task 4 run; pipeline results below are final.*
-
 - **Pipeline accuracy by recall status, within Term** (`accuracy_by_recall_status.csv`):
   - GPT-5.2 OT2022: 97.7% on recalled-correct cases vs. 62.5% on `dont_know`.
   - Claude OT2022: 87.2% on recalled-correct cases vs. 61.1% on recalled-wrong cases.
@@ -283,6 +336,13 @@ averaged. Files: `deliberation_by_group.csv`, `deliberation_by_term.csv`, `delib
 - **Within-Term logit** (pipeline_correct ~ recall_correct + Term FE + issue group, clustered):
   average marginal effect of a correct recall is +31.6 pts [8.6, 54.6] for GPT-5.2 and +13.5
   [−0.6, 27.5] for Claude.
+  - Same model for the neutral single pass: GPT-5.2 +25.7 [4.0, 47.4]; Claude +9.0
+    [−5.2, 23.1].
+  - Claude's v1 persona prompt: −1.3 [−24.6, 22.0]. Persona voting ignores what the model
+    knows.
+  - On OT2024, Claude's neutral single pass is right on 81.6% of the cases it recalled and on
+    79.4% of `dont_know` cases. GPT-5.2's 74.2% on OT2024 comes entirely from cases it does not
+    recall.
 - **OT2025 headline sensitivity** (`ot2025_sensitivity.csv`, pipeline, replicate level):
 
 | Variant | Claude 4.6 | GPT-5.2 | Baseline |
@@ -294,6 +354,12 @@ averaged. Files: `deliberation_by_group.csv`, `deliberation_by_term.csv`, `delib
 | Excl. all three (Claude n = 38, GPT n = 39) | 55.3 | 61.5 | 68.4 / 66.7 |
 
 The headline conclusion survives every exclusion: neither model beats the baseline.
+
+The same exclusions applied to the single pass:
+- Neutral GPT-5.2: 61.5-64.0% throughout.
+- Neutral Claude: 61.4% (all) to 67.1% (excl. all three; baseline 68.4).
+- Opus 5.5: 87.2-89.5% under every exclusion. Its training data postdate every OT2025
+  decision, so the exclusions do not make it clean.
 
 ## Task 8: paper fixes
 
@@ -340,14 +406,24 @@ Also for the paper:
 2. **Task 4 retrieval implementation.** `pipe_retrieve` returns the BM25 top k when it has no
    repeated texts and otherwise calls `retrieval.hybrid_retrieve`. This provably equals
    `hybrid_retrieve`; 12 of 12 checks against the full function with embeddings were identical
-   (`t4_single_pass/retrieval_equivalence_check.txt`). FAISS uses an exact numpy stand-in
-   because the compiled extension is blocked on this machine.
+   (`t4_single_pass/retrieval_equivalence_check.txt`). The checks used the numpy FAISS
+   stand-in. The final runs used the real faiss, which loaded again after a reboot. Index
+   files cached by the stand-in were deleted and rebuilt.
 3. **Task 3 smoother.** LOWESS without robustness iterations (own implementation; the
    statsmodels extension is blocked). The step-model bootstrap uses 500 draws, as stated in the
    plan.
 
 ## Decisions needed from the authors
 
+0. **The architecture result (Task 4).** A neutral single pass with the pipeline's inputs
+   beats the persona/deliberation pipeline by 8-10 points on OT2024. For GPT-5.2 that is a
+   Term it knows nothing about. On OT2025 it is no worse than the pipeline. The earlier
+   study's persona-vote prompt does not have this advantage. This bears directly on the
+   paper's claims about individual vs. institutional validity: the personas, not the
+   deliberation, cost accuracy. The authors need to decide how to present it.
+   Separately, Claude Opus 5.5 (training data through June 2026) scores 89.5% on OT2025 in a
+   single pass. It shows the prompt format can express knowledge, but it is not a clean
+   forecast.
 1. **The OT2022 judgment leak.** Re-run OT2022 for the 10 affected dockets with the judgments
    removed (about $10 with GPT-5.2 and Claude), or report it as a limitation? The deliberation
    runs do not log research retrievals, so exposure cannot be ruled out after the fact. The
